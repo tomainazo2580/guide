@@ -2,111 +2,159 @@
 <html lang="fr" data-theme="dark">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GUIDE - Révisions & Corrigés Scolaires</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>GUIDE - Plateforme de Révision Scolaire</title>
     <link rel="manifest" href="manifest.json">
     <style>
-        /* Variables de Thèmes pour le confort visuel */
+        /* --- VARIABLES DE THÈMES HAUT DE GAMME --- */
         :root[data-theme="dark"] {
-            --bg-primary: #121824;
-            --bg-card: #1e293b;
-            --accent: #3b82f6;
+            --bg-app: #090d16;
+            --bg-card: #131d31;
+            --bg-card-hover: #1a2744;
+            --accent: #4f46e5;
+            --accent-gradient: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
             --accent-gold: #f59e0b;
+            --gold-gradient: linear-gradient(135deg, #fbbf24 0%, #d97706 100%);
             --text-main: #f8fafc;
             --text-sub: #94a3b8;
-            --border: #334155;
+            --border: rgba(255, 255, 255, 0.08);
+            --shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
         }
 
         :root[data-theme="oled"] {
-            --bg-primary: #000000;
-            --bg-card: #111111;
-            --accent: #2563eb;
+            --bg-app: #000000;
+            --bg-card: #121212;
+            --bg-card-hover: #1e1e1e;
+            --accent: #3b82f6;
+            --accent-gradient: linear-gradient(135deg, #60a5fa 0%, #2563eb 100%);
             --accent-gold: #fbbf24;
+            --gold-gradient: linear-gradient(135deg, #f59e0b 0%, #b45309 100%);
             --text-main: #ffffff;
             --text-sub: #a1a1aa;
-            --border: #27272a;
+            --border: rgba(255, 255, 255, 0.1);
+            --shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.8);
         }
 
         :root[data-theme="light"] {
-            --bg-primary: #f8fafc;
+            --bg-app: #f1f5f9;
             --bg-card: #ffffff;
-            --accent: #2563eb;
+            --bg-card-hover: #f8fafc;
+            --accent: #4f46e5;
+            --accent-gradient: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
             --accent-gold: #d97706;
+            --gold-gradient: linear-gradient(135deg, #f59e0b 0%, #b45309 100%);
             --text-main: #0f172a;
             --text-sub: #64748b;
-            --border: #e2e8f0;
+            --border: rgba(0, 0, 0, 0.06);
+            --shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            -webkit-tap-highlight-color: transparent;
         }
 
         body {
-            font-family: system-ui, -apple-system, sans-serif;
-            background-color: var(--bg-primary);
+            background-color: var(--bg-app);
             color: var(--text-main);
-            margin: 0;
-            padding: 0;
             display: flex;
             flex-direction: column;
             min-height: 100vh;
-            transition: background-color 0.3s, color 0.3s;
+            transition: background-color 0.3s ease, color 0.3s ease;
         }
 
+        /* --- HEADER MODERNE --- */
         header {
             background-color: var(--bg-card);
-            padding: 0.8rem 1rem;
+            backdrop-filter: blur(10px);
+            padding: 1rem 1.25rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
             border-bottom: 1px solid var(--border);
             position: sticky;
             top: 0;
-            z-index: 10;
+            z-index: 50;
         }
 
-        .logo {
+        .logo-area {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .logo-icon {
+            background: var(--accent-gradient);
+            color: white;
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             font-weight: 800;
-            font-size: 1.2rem;
-            letter-spacing: 0.5px;
-            color: var(--accent-gold);
-            display: flex;
-            align-items: center;
-            gap: 0.4rem;
+            font-size: 1rem;
         }
 
-        .header-controls {
-            display: flex;
-            align-items: center;
-            gap: 0.8rem;
+        .logo-text {
+            font-weight: 800;
+            font-size: 1.15rem;
+            letter-spacing: -0.5px;
         }
 
-        .theme-btn {
-            background: var(--bg-primary);
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .icon-btn {
+            background: var(--bg-app);
             border: 1px solid var(--border);
             color: var(--text-main);
-            padding: 0.4rem 0.6rem;
-            border-radius: 8px;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             cursor: pointer;
-            font-size: 0.85rem;
+            font-size: 0.9rem;
+            transition: transform 0.2s;
         }
 
+        .icon-btn:active {
+            transform: scale(0.92);
+        }
+
+        /* --- CONTENEUR PRINCIPAL --- */
         main {
-            padding: 1rem;
+            padding: 1.25rem;
             flex: 1;
-            max-width: 600px;
+            max-width: 550px;
             margin: 0 auto;
             width: 100%;
-            box-sizing: border-box;
+            padding-bottom: 80px; /* Espace pour la barre du bas */
         }
 
-        /* Sélecteur de classe */
-        .level-selector {
+        /* --- SÉLECTEUR DE CLASSE HORIZONTAL --- */
+        .level-scroll {
             display: flex;
             gap: 0.5rem;
             overflow-x: auto;
             padding-bottom: 0.5rem;
-            margin-bottom: 1rem;
+            margin-bottom: 1.25rem;
             scrollbar-width: none;
         }
 
-        .chip {
+        .level-scroll::-webkit-scrollbar {
+            display: none;
+        }
+
+        .level-chip {
             background: var(--bg-card);
             border: 1px solid var(--border);
             color: var(--text-sub);
@@ -116,266 +164,370 @@
             font-size: 0.85rem;
             cursor: pointer;
             font-weight: 600;
+            transition: all 0.2s ease;
         }
 
-        .chip.active {
-            background: var(--accent);
-            border-color: var(--accent);
+        .level-chip.active {
+            background: var(--accent-gradient);
+            border-color: transparent;
             color: white;
+            box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
         }
 
-        .grid-menu {
+        /* --- CARTE BIENVENUE / STATS --- */
+        .welcome-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 1.25rem;
+            margin-bottom: 1.25rem;
+            box-shadow: var(--shadow);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .welcome-card::after {
+            content: '';
+            position: absolute;
+            top: 0; right: 0; width: 100px; height: 100px;
+            background: var(--accent-gradient);
+            opacity: 0.05;
+            border-radius: 50%;
+            transform: translate(30px, -30px);
+        }
+
+        .welcome-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+        }
+
+        .welcome-sub {
+            font-size: 0.85rem;
+            color: var(--text-sub);
+        }
+
+        /* --- GRILLE DES MODULES PRO --- */
+        .section-title {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--text-sub);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.75rem;
+        }
+
+        .modules-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 1rem;
-            margin-top: 1rem;
+            gap: 0.85rem;
+            margin-bottom: 1.5rem;
         }
 
-        .card {
+        .module-card {
             background-color: var(--bg-card);
-            padding: 1.2rem;
-            border-radius: 14px;
             border: 1px solid var(--border);
-            text-align: center;
+            border-radius: 16px;
+            padding: 1.15rem;
             cursor: pointer;
-            transition: transform 0.15s;
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: var(--shadow);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
 
-        .card:active {
-            transform: scale(0.97);
+        .module-card:active {
+            transform: scale(0.96);
         }
 
-        .card.premium {
-            border-color: var(--accent-gold);
-            background: linear-gradient(145deg, var(--bg-card), #2a2010);
+        .module-card.premium {
+            border-color: rgba(245, 158, 11, 0.3);
+            background: linear-gradient(145deg, var(--bg-card), rgba(245, 158, 11, 0.03));
         }
 
-        .card-icon {
-            font-size: 2rem;
-            margin-bottom: 0.4rem;
+        .module-icon-box {
+            width: 44px;
+            height: 44px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.25rem;
+            margin-bottom: 0.85rem;
+            background: var(--bg-app);
+            border: 1px solid var(--border);
         }
 
-        .card-title {
+        .module-card.premium .module-icon-box {
+            background: rgba(245, 158, 11, 0.1);
+        }
+
+        .module-name {
             font-weight: 700;
             font-size: 0.95rem;
+            margin-bottom: 0.2rem;
         }
 
-        .card-subtitle {
+        .module-desc {
             font-size: 0.75rem;
             color: var(--text-sub);
-            margin-top: 0.2rem;
         }
 
-        /* Module Quiz & Exercices */
-        .quiz-container {
-            display: none;
-            background: var(--bg-card);
-            border-radius: 14px;
-            padding: 1.2rem;
-            border: 1px solid var(--border);
-            margin-top: 1rem;
+        /* --- BARRE DE NAVIGATION MOBILE (EN BAS) --- *
+        .bottom-nav {
+            position: fixed;
+            bottom: 0; left: 0; right: 0;
+            background-color: var(--bg-card);
+            border-top: 1px solid var(--border);
+            display: flex;
+            justify-content: space-around;
+            padding: 0.6rem 0;
+            z-index: 50;
+            backdrop-filter: blur(10px);
         }
 
-        .quiz-option {
-            background: var(--bg-primary);
-            border: 1px solid var(--border);
-            padding: 0.8rem;
-            border-radius: 8px;
-            margin: 0.5rem 0;
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: none;
+            border: none;
+            color: var(--text-sub);
+            font-size: 0.7rem;
+            font-weight: 600;
             cursor: pointer;
-            text-align: left;
+            gap: 2px;
+            transition: color 0.2s;
         }
 
-        .quiz-option:hover {
-            border-color: var(--accent);
+        .nav-item span {
+            font-size: 1.2rem;
         }
 
-        /* Modal Paywall */
+        .nav-item.active {
+            color: var(--accent);
+        }
+
+        /* --- MODAL PAYWALL HAUT DE GAMME --- */
         .modal {
             display: none;
             position: fixed;
             top: 0; left: 0; right: 0; bottom: 0;
-            background: rgba(0,0,0,0.85);
+            background: rgba(0,0,0,0.7);
+            backdrop-filter: blur(8px);
             z-index: 100;
             align-items: center;
             justify-content: center;
-            padding: 1rem;
+            padding: 1.25rem;
+            animation: fadeIn 0.2s ease;
         }
 
-        .modal-content {
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .modal-box {
             background: var(--bg-card);
-            border: 1px solid var(--accent-gold);
-            border-radius: 16px;
-            padding: 1.5rem;
+            border: 1px solid var(--border);
+            border-radius: 24px;
+            padding: 1.75rem;
             max-width: 400px;
             width: 100%;
             text-align: center;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
         }
 
-        .btn-pay {
-            background: #10b981;
-            color: black;
+        .modal-icon-lg {
+            width: 64px;
+            height: 64px;
+            border-radius: 20px;
+            background: rgba(245, 158, 11, 0.1);
+            color: var(--accent-gold);
+            font-size: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem auto;
+        }
+
+        .price-tag {
+            font-size: 1.75rem;
+            font-weight: 800;
+            background: var(--gold-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 0.75rem 0;
+        }
+
+        .btn-primary {
+            background: var(--accent-gradient);
+            color: white;
             font-weight: 700;
             border: none;
-            padding: 0.8rem 1.5rem;
-            border-radius: 8px;
+            padding: 0.9rem;
+            border-radius: 12px;
             width: 100%;
             font-size: 1rem;
-            margin-top: 1rem;
             cursor: pointer;
+            box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
+            transition: transform 0.1s;
         }
 
-        footer {
-            text-align: center;
-            padding: 1rem;
-            font-size: 0.8rem;
+        .btn-primary:active {
+            transform: scale(0.97);
+        }
+
+        .btn-close {
+            background: none;
+            border: none;
             color: var(--text-sub);
-            border-top: 1px solid var(--border);
+            margin-top: 1rem;
+            cursor: pointer;
+            font-size: 0.85rem;
+            font-weight: 600;
         }
     </style>
 </head>
 <body>
 
+    <!-- En-tête -->
     <header>
-        <div class="logo">
-            <span>📖 GUIDE</span>
+        <div class="logo-area">
+            <div class="logo-icon">G</div>
+            <div class="logo-text">GUIDE</div>
         </div>
-        <div class="header-controls">
-            <!-- Bouton pour changer de thème visuel -->
-            <button class="theme-btn" onclick="toggleTheme()">🌙 Thème</button>
-            <div id="selected-class" style="font-size: 0.85rem; color: var(--accent-gold); font-weight: bold;">Tle D</div>
+        <div class="header-actions">
+            <button class="icon-btn" onclick="toggleTheme()" title="Changer de thème">🌓</button>
         </div>
     </header>
 
+    <!-- Corps principal -->
     <main>
-        <!-- Sélection du niveau (De la 6ème à la Terminale) -->
-        <div class="level-selector">
-            <div class="chip" onclick="selectClass('6ème')">6ème</div>
-            <div class="chip" onclick="selectClass('5ème')">5ème</div>
-            <div class="chip" onclick="selectClass('4ème')">4ème</div>
-            <div class="chip" onclick="selectClass('3ème/BEPC')">3ème (BEPC)</div>
-            <div class="chip" onclick="selectClass('2nde')">2nde</div>
-            <div class="chip" onclick="selectClass('1ère')">1ère</div>
-            <div class="chip active" onclick="selectClass('Tle D')">Tle D (BACC)</div>
+        <!-- Sélecteur de niveau -->
+        <div class="level-scroll">
+            <div class="level-chip" onclick="selectClass('6ème', this)">6ème</div>
+            <div class="level-chip" onclick="selectClass('5ème', this)">5ème</div>
+            <div class="level-chip" onclick="selectClass('4ème', this)">4ème</div>
+            <div class="level-chip active" onclick="selectClass('3ème (BEPC)', this)">3ème (BEPC)</div>
+            <div class="level-chip" onclick="selectClass('2nde', this)">2nde</div>
+            <div class="level-chip" onclick="selectClass('1ère', this)">1ère</div>
+            <div class="level-chip" onclick="selectClass('Terminale', this)">Terminale (BACC)</div>
         </div>
 
-        <!-- Menu des fonctionnalités -->
-        <div class="grid-menu" id="main-menu">
-            <div class="card" onclick="openModule('cours')">
-                <div class="card-icon">📘</div>
-                <div class="card-title">Cours & Fiches</div>
-                <div class="card-subtitle">Gratuit & Synthétique</div>
-            </div>
-
-            <div class="card premium" onclick="openModule('paywall')">
-                <div class="card-icon">🔒</div>
-                <div class="card-title">Compos & Corrigés</div>
-                <div class="card-subtitle">Devoirs & Annales BACC</div>
-            </div>
-
-            <div class="card" onclick="startQuiz()">
-                <div class="card-icon">🎯</div>
-                <div class="card-title">Quiz Express</div>
-                <div class="card-subtitle">Test de connaissances</div>
-            </div>
-
-            <div class="card" onclick="openModule('notes')">
-                <div class="card-icon">📓</div>
-                <div class="card-title">Mes Notes</div>
-                <div class="card-subtitle">Mes fiches personnelles</div>
-            </div>
+        <!-- Carte d'accueil / Niveau actif -->
+        <div class="welcome-card">
+            <div class="welcome-title" id="display-class">Niveau : 3ème (BEPC)</div>
+            <div class="welcome-sub">Prêt pour tes révisions 100% hors-ligne ? Choisis ton module ci-dessous.</div>
         </div>
 
-        <!-- Zone de Quiz Interactif (Masquée par défaut) -->
-        <div class="quiz-container" id="quiz-box">
-            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
-                <h3 style="margin:0;">🎯 Quiz : Géographie T8</h3>
-                <span style="font-size:0.8rem; color:var(--text-sub);" id="quiz-progress">Question 1/3</span>
+        <!-- Grille des fonctionnalités -->
+        <div class="section-title">Modules d'apprentissage</div>
+        <div class="modules-grid">
+            <div class="module-card" onclick="openModule('cours')">
+                <div class="module-icon-box">📘</div>
+                <div>
+                    <div class="module-name">Cours & Fiches</div>
+                    <div class="module-desc">100% Gratuit & Résumé</div>
+                </div>
             </div>
-            <p id="quiz-question" style="font-weight:600;">Lequel de ces critères définit un Pays Développé selon le PNUD ?</p>
-            <div id="quiz-options">
-                <div class="quiz-option" onclick="checkAnswer(false)">A. Un taux d'analphabétisme supérieur à 50%</div>
-                <div class="quiz-option" onclick="checkAnswer(true)">B. Un Indice de Développement Humain (IDH) ≥ 0,85</div>
-                <div class="quiz-option" onclick="checkAnswer(false)">C. Une domination du secteur primaire dans l'économie</div>
+
+            <div class="module-card premium" onclick="openPaywall()">
+                <div class="module-icon-box">🔒</div>
+                <div>
+                    <div class="module-name">Pass Examen</div>
+                    <div class="module-desc">Annales & Corrigés types</div>
+                </div>
             </div>
-            <button style="background:none; border:none; color:var(--text-sub); margin-top:1rem; cursor:pointer;" onclick="closeQuiz()">← Retour au menu</button>
+
+            <div class="module-card" onclick="openModule('quiz')">
+                <div class="module-icon-box">🎯</div>
+                <div>
+                    <div class="module-name">Quiz Express</div>
+                    <div class="module-desc">Entraînement interactif</div>
+                </div>
+            </div>
+
+            <div class="module-card" onclick="openModule('notes')">
+                <div class="module-icon-box">📓</div>
+                <div>
+                    <div class="module-name">Mes Notes</div>
+                    <div class="module-desc">Ajouter mes fiches persos</div>
+                </div>
+            </div>
         </div>
     </main>
 
-    <!-- Modal Paywall (Compositions & Corrigés) -->
+    <!-- Barre de navigation mobile du bas -->
+    <nav class="bottom-nav">
+        <button class="nav-item active" onclick="switchNav(this)">
+            <span>🏠</span> Accueil
+        </button>
+        <button class="nav-item" onclick="switchNav(this)">
+            <span>⭐</span> Favoris
+        </button>
+        <button class="nav-item" onclick="switchNav(this)">
+            <span>📊</span> Progrès
+        </button>
+        <button class="nav-item" onclick="switchNav(this)">
+            <span>⚙️</span> Compte
+        </button>
+    </nav>
+
+    <!-- Modal Paywall Pro -->
     <div class="modal" id="paywall-modal">
-        <div class="modal-content">
-            <h3>🔒 Pack Devoirs & Corrigés</h3>
-            <p style="font-size: 0.9rem; color: var(--text-sub);">
-                Accédez aux sujets corrigés pas à pas des compositions trimestrielles et des annales d'examens officiels.
+        <div class="modal-box">
+            <div class="modal-icon-lg">👑</div>
+            <h3 style="font-size: 1.2rem; font-weight: 800;">Débloquez le Pass Examen</h3>
+            <p style="font-size: 0.85rem; color: var(--text-sub); margin-top: 0.5rem;">
+                Accédez à tous les corrigés détaillés des annales et des compositions trimestrielles.
             </p>
-            <div style="font-size: 1.5rem; font-weight: bold; color: var(--accent-gold); margin: 1rem 0;">
-                1 500 Ar à 2 500 Ar / an
-            </div>
-            <p style="font-size: 0.8rem; color: var(--text-sub);">Valide pour toute l'année scolaire via Mobile Money.</p>
-            <button class="btn-pay" onclick="simulatePayment()">💳 Payer par Mobile Money</button>
-            <button style="background:none; border:none; color:var(--text-sub); margin-top:0.8rem; cursor:pointer;" onclick="closePaywall()">Fermer</button>
+            <div class="price-tag">2 500 Ar / an</div>
+            <p style="font-size: 0.75rem; color: var(--text-sub); margin-bottom: 1.25rem;">Paiement sécurisé via MVola ou Orange Money.</p>
+            <button class="btn-primary" onclick="simulatePayment()">💳 Payer et Débloquer</button>
+            <br>
+            <button class="btn-close" onclick="closePaywall()">Fermer</button>
         </div>
     </div>
 
-    <footer>
-        GUIDE &copy; 2026 - Le compagnon scolaire ultime à Madagascar
-    </footer>
-
     <script>
-        // Gestion des Thèmes Visuels (Sombre, Nuit OLED, Clair)
+        // Gestion des thèmes (Sombre -> OLED Noir pur -> Clair)
         const themes = ['dark', 'oled', 'light'];
-        let currentThemeIndex = 0;
+        let themeIndex = 0;
 
         function toggleTheme() {
-            currentThemeIndex = (currentThemeIndex + 1) % themes.length;
-            const newTheme = themes[currentThemeIndex];
+            themeIndex = (themeIndex + 1) % themes.length;
+            const newTheme = themes[themeIndex];
             document.documentElement.setAttribute('data-theme', newTheme);
-            
-            const labels = { 'dark': '🌙 Sombre', 'oled': '🖤 Nuit OLED', 'light': '☀️ Clair' };
-            document.querySelector('.theme-btn').innerText = labels[newTheme];
         }
 
-        function selectClass(className) {
-            document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
-            event.target.classList.add('active');
-            document.getElementById('selected-class').innerText = className;
+        function selectClass(className, element) {
+            document.querySelectorAll('.level-chip').forEach(c => c.classList.remove('active'));
+            element.classList.add('active');
+            document.getElementById('display-class').innerText = "Niveau : " + className;
         }
 
         function openModule(type) {
-            if (type === 'paywall') {
-                document.getElementById('paywall-modal').style.display = 'flex';
-            } else {
-                alert("Ouverture du module " + type + " (Fonctionne 100% hors-ligne)");
-            }
+            alert("Ouverture du module : " + type);
+        }
+
+        function openPaywall() {
+            document.getElementById('paywall-modal').style.display = 'flex';
         }
 
         function closePaywall() {
             document.getElementById('paywall-modal').style.display = 'none';
         }
 
-        /* Logique du Quiz */
-        function startQuiz() {
-            document.getElementById('main-menu').style.display = 'none';
-            document.getElementById('quiz-box').style.display = 'block';
-        }
-
-        function closeQuiz() {
-            document.getElementById('quiz-box').style.display = 'none';
-            document.getElementById('main-menu').style.display = 'grid';
-        }
-
-        function checkAnswer(isCorrect) {
-            if (isCorrect) {
-                alert("Bravo ! Bonne réponse. 🎉");
-            } else {
-                alert("Incorrect. Consultez la fiche de cours 'Géographie T8' pour réviser ! 💡");
-            }
-        }
-
         function simulatePayment() {
-            alert("Activation du menu Mobile Money...");
+            alert("Redirection vers Mobile Money...");
             closePaywall();
+        }
+
+        function switchNav(element) {
+            document.querySelectorAll('.nav-item').forEach(i => i.classList.remove('active'));
+            element.classList.add('active');
         }
     </script>
 </body>
