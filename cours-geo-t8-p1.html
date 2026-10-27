@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Géographie T8 - Les Pays Développés</title>
+    <style>
+        :root[data-theme="dark"] {
+            --bg: #090d16;
+            --card: #131d31;
+            --text: #f8fafc;
+            --sub: #94a3b8;
+            --accent: #6366f1;
+            --gold: #fbbf24;
+            --border: rgba(255, 255, 255, 0.08);
+        }
+        :root[data-theme="oled"] {
+            --bg: #000000;
+            --card: #121212;
+            --text: #ffffff;
+            --sub: #a1a1aa;
+            --accent: #3b82f6;
+            --gold: #fbbf24;
+            --border: rgba(255, 255, 255, 0.1);
+        }
+        :root[data-theme="light"] {
+            --bg: #f1f5f9;
+            --card: #ffffff;
+            --text: #0f172a;
+            --sub: #64748b;
+            --accent: #4f46e5;
+            --gold: #d97706;
+            --border: rgba(0, 0, 0, 0.06);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, sans-serif; }
+        body { background-color: var(--bg); color: var(--text); padding: 1rem; max-width: 600px; margin: 0 auto; line-height: 1.5; }
+        
+        .header-nav { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.2rem; }
+        .back-btn { background: var(--card); border: 1px solid var(--border); color: var(--text); padding: 0.5rem 0.8rem; border-radius: 8px; text-decoration: none; font-size: 0.85rem; font-weight: 600; }
+        .theme-btn { background: none; border: 1px solid var(--border); color: var(--text); padding: 0.5rem; border-radius: 50%; cursor: pointer; }
+
+        .badge { display: inline-block; background: rgba(99, 102, 241, 0.15); color: var(--accent); padding: 0.25rem 0.6rem; border-radius: 12px; font-size: 0.75rem; font-weight: 700; margin-bottom: 0.5rem; }
+        h1 { font-size: 1.35rem; font-weight: 800; margin-bottom: 1rem; }
+        
+        .section-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 1.2rem; margin-bottom: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        .section-title { font-size: 1rem; font-weight: 700; color: var(--gold); margin-bottom: 0.6rem; display: flex; align-items: center; gap: 0.4rem; }
+        
+        ul { padding-left: 1.2rem; margin-top: 0.5rem; }
+        li { margin-bottom: 0.4rem; font-size: 0.9rem; color: var(--sub); }
+        li strong { color: var(--text); }
+
+        .highlight-box { background: rgba(251, 191, 36, 0.1); border-left: 3px solid var(--gold); padding: 0.8rem; border-radius: 0 8px 8px 0; font-size: 0.85rem; margin-top: 0.8rem; }
+    </style>
+</head>
+<body>
+
+    <div class="header-nav">
+        <a href="index.html" class="back-btn">← Retour à GUIDE</a>
+        <button class="theme-btn" onclick="toggleTheme()">🌓</button>
+    </div>
+
+    <span class="badge">CLASSE T8 (3ème) - GÉOGRAPHIE</span>
+    <h1>Chapitre 1 : Les Pays Développés</h1>
+
+    <!-- 1. Définition et Notions -->
+    <div class="section-card">
+        <div class="section-title">📌 1. Qu'est-ce qu'un Pays Développé ?</div>
+        <p style="font-size: 0.9rem; color: var(--sub);">
+            Le <strong>PNUD</strong> (Programme des Nations Unies pour le Développement) définit un pays développé selon deux critères majeurs :
+        </p>
+        <ul>
+            <li><strong>Un IDH élevé :</strong> Indice de Développement Humain supérieur ou égal à <strong>0,85</strong>.</li>
+            <li><strong>Appartenance à l'OCDE :</strong> Organisation de Coopération et de Développement Économiques.</li>
+        </ul>
+        <div class="highlight-box">
+            💡 <strong>À retenir :</strong> Le développement désigne l'ensemble des progrès économiques, sociaux, techniques et culturels qui améliorent le niveau de vie d'une population.
+        </div>
+    </div>
+
+    <!-- 2. Localisation -->
+    <div class="section-card">
+        <div class="section-title">🌍 2. Où se situent-ils dans le monde ?</div>
+        <p style="font-size: 0.9rem; color: var(--sub);">On les regroupe principalement sous l'appellation des <strong>« Pays du Nord »</strong> :</p>
+        <ul>
+            <li><strong>Amérique du Nord :</strong> États-Unis, Canada.</li>
+            <li><strong>Europe :</strong> Union Européenne, Norvège, Suisse, Royaume-Uni.</li>
+            <li><strong>Asie-Pacifique :</strong> Japon, Corée du Sud, Singapour, Australie, Nouvelle-Zélande.</li>
+        </ul>
+    </div>
+
+    <!-- 3. Les Critères -->
+    <div class="section-card">
+        <div class="section-title">📊 3. Les Critères de Développement</div>
+        
+        <p style="font-size: 0.9rem; font-weight:700; margin-top:0.5rem;">A. Critères Économiques :</p>
+        <ul>
+            <li><strong>PIB et PNB très élevés :</strong> Forte création de richesses nationales.</li>
+            <li><strong>Domination du secteur tertiaire :</strong> Services, finance, commerce et recherche.</li>
+            <li><strong>Innovation :</strong> Forte maîtrise des nouvelles technologies.</li>
+        </ul>
+
+        <p style="font-size: 0.9rem; font-weight:700; margin-top:0.8rem;">B. Critères Socio-démographiques :</p>
+        <ul>
+            <li><strong>Santé :</strong> Espérance de vie élevée (> 70-80 ans).</li>
+            <li><strong>Éducation :</strong> Taux d'alphabétisation supérieur à 90%.</li>
+            <li><strong>Démographie :</strong> Faible taux de natalité et vieillissement de la population.</li>
+        </ul>
+    </div>
+
+    <script>
+        const themes = ['dark', 'oled', 'light'];
+        let themeIndex = 0;
+        function toggleTheme() {
+            themeIndex = (themeIndex + 1) % themes.length;
+            document.documentElement.setAttribute('data-theme', themes[themeIndex]);
+        }
+    </script>
+</body>
+</html>
