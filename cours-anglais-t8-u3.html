@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Anglais T8 - Unit 3</title>
+    <style>
+        :root[data-theme="dark"] { --bg: #090d16; --card: #131d31; --text: #f8fafc; --sub: #94a3b8; --accent: #6366f1; --gold: #fbbf24; --border: rgba(255, 255, 255, 0.08); }
+        :root[data-theme="oled"] { --bg: #000000; --card: #121212; --text: #ffffff; --sub: #a1a1aa; --accent: #3b82f6; --gold: #fbbf24; --border: rgba(255, 255, 255, 0.1); }
+        :root[data-theme="light"] { --bg: #f1f5f9; --card: #ffffff; --text: #0f172a; --sub: #64748b; --accent: #4f46e5; --gold: #d97706; --border: rgba(0, 0, 0, 0.06); }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, sans-serif; }
+        body { background-color: var(--bg); color: var(--text); padding: 1rem; max-width: 600px; margin: 0 auto; line-height: 1.6; }
+        
+        .header-nav { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.2rem; }
+        .back-btn { background: var(--card); border: 1px solid var(--border); color: var(--text); padding: 0.5rem 0.8rem; border-radius: 8px; text-decoration: none; font-size: 0.85rem; font-weight: 600; }
+        .theme-btn { background: none; border: 1px solid var(--border); color: var(--text); padding: 0.5rem; border-radius: 50%; cursor: pointer; }
+
+        .badge { display: inline-block; background: rgba(99, 102, 241, 0.15); color: var(--accent); padding: 0.25rem 0.6rem; border-radius: 12px; font-size: 0.75rem; font-weight: 700; margin-bottom: 0.5rem; }
+        h1 { font-size: 1.3rem; font-weight: 800; margin-bottom: 1rem; }
+
+        .lesson-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 1.2rem; margin-bottom: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        .lesson-title { font-size: 1rem; font-weight: 700; color: var(--gold); margin-bottom: 0.6rem; }
+        .lesson-text { font-size: 0.9rem; color: var(--sub); margin-bottom: 0.5rem; }
+        ul { padding-left: 1.2rem; margin-top: 0.4rem; }
+        li { font-size: 0.85rem; color: var(--sub); margin-bottom: 0.4rem; }
+        li strong { color: var(--text); }
+    </style>
+</head>
+<body>
+
+    <div class="header-nav">
+        <a href="cours-anglais-t8-index.html" class="back-btn">← Sommaire Anglais</a>
+        <button class="theme-btn" onclick="toggleTheme()">🌓</button>
+    </div>
+
+    <span class="badge">CLASSE DE 4ème (T8) - ANGLAIS</span>
+    <h1>Unit 3 : Daily Life and Routines</h1>
+
+    <div class="lesson-card">
+        <div class="lesson-title">1. Present Simple for Habitual Actions</div>
+        <div class="lesson-text">
+            On utilise le présent simple pour exprimer les habitudes du quotidien :
+        </div>
+        <ul>
+            <li><strong>Example :</strong> <em>"I wake up at 7 o'clock every morning."</em>[span_20](start_span)[span_20](end_span)[span_21](start_span)[span_21](end_span)</li>
+            <li><strong>Example :</strong> <em>"She goes to school in the afternoon."</em>[span_22](start_span)[span_22](end_span)</li>
+        </ul>
+    </div>
+
+    <div class="lesson-card">
+        <div class="lesson-title">2. Sequence Markers & Frequency Adverbs</div>
+        <div class="lesson-text">
+            Pour ordonner et exprimer la fréquence des actions :
+        </div>
+        <ul>
+            <li><strong>Sequence Markers :</strong> <em>First, Then, After that, Next, Finally</em>[span_23](start_span)[span_23](end_span)</li>
+            <li><strong>Adverbs of Frequency :</strong> <em>Always (100%), Usually, Often, Sometimes, Rarely, Never (0%)</em>[span_24](start_span)[span_24](end_span)</li>
+        </ul>
+    </div>
+
+    <div class="lesson-card">
+        <div class="lesson-title">3. Common Hobbies</div>
+        <div class="lesson-text">
+            Exemples de loisirs et activités :
+        </div>
+        <ul>
+            <li>Playing tennis / football / basketball / rugby / baseball[span_25](start_span)[span_25](end_span)</li>
+            <li>Singing, Dancing, Drawing a picture, Playing the flute[span_26](start_span)[span_26](end_span)</li>
+            <li>Surfing, Skating, Riding a bicycle[span_27](start_span)[span_27](end_span)</li>
+        </ul>
+    </div>
+
+    <script>
+        const themes = ['dark', 'oled', 'light'];
+        let themeIndex = 0;
+        function toggleTheme() {
+            themeIndex = (themeIndex + 1) % themes.length;
+            document.documentElement.setAttribute('data-theme', themes[themeIndex]);
+        }
+    </script>
+</body>
+</html>
