@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Anglais T8 (4ème) - Sommaire</title>
+    <style>
+        :root[data-theme="dark"] { --bg: #090d16; --card: #131d31; --text: #f8fafc; --sub: #94a3b8; --accent: #6366f1; --gold: #fbbf24; --border: rgba(255, 255, 255, 0.08); }
+        :root[data-theme="oled"] { --bg: #000000; --card: #121212; --text: #ffffff; --sub: #a1a1aa; --accent: #3b82f6; --gold: #fbbf24; --border: rgba(255, 255, 255, 0.1); }
+        :root[data-theme="light"] { --bg: #f1f5f9; --card: #ffffff; --text: #0f172a; --sub: #64748b; --accent: #4f46e5; --gold: #d97706; --border: rgba(0, 0, 0, 0.06); }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, sans-serif; }
+        body { background-color: var(--bg); color: var(--text); padding: 1rem; max-width: 600px; margin: 0 auto; line-height: 1.5; }
+        
+        .header-nav { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.2rem; }
+        .back-btn { background: var(--card); border: 1px solid var(--border); color: var(--text); padding: 0.5rem 0.8rem; border-radius: 8px; text-decoration: none; font-size: 0.85rem; font-weight: 600; }
+        .theme-btn { background: none; border: 1px solid var(--border); color: var(--text); padding: 0.5rem; border-radius: 50%; cursor: pointer; }
+
+        .badge { display: inline-block; background: rgba(99, 102, 241, 0.15); color: var(--accent); padding: 0.25rem 0.6rem; border-radius: 12px; font-size: 0.75rem; font-weight: 700; margin-bottom: 0.5rem; }
+        h1 { font-size: 1.35rem; font-weight: 800; margin-bottom: 1rem; }
+
+        .chapter-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 1.1rem; margin-bottom: 0.8rem; display: flex; align-items: center; justify-content: space-between; text-decoration: none; color: var(--text); transition: transform 0.1s; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        .chapter-card:active { transform: scale(0.98); }
+        .chapter-info h3 { font-size: 0.95rem; font-weight: 700; margin-bottom: 0.2rem; color: var(--gold); }
+        .chapter-info p { font-size: 0.75rem; color: var(--sub); }
+        .arrow { font-size: 1.2rem; color: var(--sub); }
+    </style>
+</head>
+<body>
+
+    <div class="header-nav">
+        <a href="index.html" class="back-btn">← Accueil GUIDE</a>
+        <button class="theme-btn" onclick="toggleTheme()">🌓</button>
+    </div>
+
+    <span class="badge">PROGRAMME OFFICIEL - 4ème (T8)</span>
+    <h1>Sommaire : Anglais</h1>
+
+    <a href="cours-anglais-t8-u1.html" class="chapter-card">
+        <div class="chapter-info">
+            <h3>Unit 1</h3>
+            <p>Personal Communication (Desires, Dreams & Goals)</p>
+        </div>
+        <div class="arrow">→</div>
+    </a>
+
+    <a href="cours-anglais-t8-u2.html" class="chapter-card">
+        <div class="chapter-info">
+            <h3>Unit 2</h3>
+            <p>Classroom Communication (Instructions & Borrowing)</p>
+        </div>
+        <div class="arrow">→</div>
+    </a>
+
+    <a href="cours-anglais-t8-u3.html" class="chapter-card">
+        <div class="chapter-info">
+            <h3>Unit 3</h3>
+            <p>Daily Life (Routines, Habits & Hobbies)</p>
+        </div>
+        <div class="arrow">→</div>
+    </a>
+
+    <a href="cours-anglais-t8-u4.html" class="chapter-card">
+        <div class="chapter-info">
+            <h3>Unit 4</h3>
+            <p>Food (Asking Price, Ingredients & Recipes)</p>
+        </div>
+        <div class="arrow">→</div>
+    </a>
+
+    <a href="cours-anglais-t8-u5.html" class="chapter-card">
+        <div class="chapter-info">
+            <h3>Unit 5</h3>
+            <p>Preventive Health (Illnesses & Symptoms)</p>
+        </div>
+        <div class="arrow">→</div>
+    </a>
+
+    <a href="cours-anglais-t8-u6.html" class="chapter-card">
+        <div class="chapter-info">
+            <h3>Unit 6</h3>
+            <p>Means of Communication (Media & Phone Calls)</p>
+        </div>
+        <div class="arrow">→</div>
+    </a>
+
+    <a href="cours-anglais-t8-u7.html" class="chapter-card">
+        <div class="chapter-info">
+            <h3>Unit 7</h3>
+            <p>My City, My Country (City vs Countryside & Houses)</p>
+        </div>
+        <div class="arrow">→</div>
+    </a>
+
+    <a href="cours-anglais-t8-u8.html" class="chapter-card">
+        <div class="chapter-info">
+            <h3>Unit 8</h3>
+            <p>Directions (Asking & Giving Directions)</p>
+        </div>
+        <div class="arrow">→</div>
+    </a>
+
+    <script>
+        const themes = ['dark', 'oled', 'light'];
+        let themeIndex = 0;
+        function toggleTheme() {
+            themeIndex = (themeIndex + 1) % themes.length;
+            document.documentElement.setAttribute('data-theme', themes[themeIndex]);
+        }
+    </script>
+</body>
+</html>
