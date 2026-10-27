@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Géographie T8 - 4ème - Sources d'Énergie</title>
+    <style>
+        :root[data-theme="dark"] { --bg: #090d16; --card: #131d31; --text: #f8fafc; --sub: #94a3b8; --accent: #6366f1; --gold: #fbbf24; --border: rgba(255, 255, 255, 0.08); }
+        :root[data-theme="oled"] { --bg: #000000; --card: #121212; --text: #ffffff; --sub: #a1a1aa; --accent: #3b82f6; --gold: #fbbf24; --border: rgba(255, 255, 255, 0.1); }
+        :root[data-theme="light"] { --bg: #f1f5f9; --card: #ffffff; --text: #0f172a; --sub: #64748b; --accent: #4f46e5; --gold: #d97706; --border: rgba(0, 0, 0, 0.06); }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, sans-serif; }
+        body { background-color: var(--bg); color: var(--text); padding: 1rem; max-width: 600px; margin: 0 auto; line-height: 1.5; }
+        
+        .header-nav { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.2rem; }
+        .back-btn { background: var(--card); border: 1px solid var(--border); color: var(--text); padding: 0.5rem 0.8rem; border-radius: 8px; text-decoration: none; font-size: 0.85rem; font-weight: 600; }
+        .theme-btn { background: none; border: 1px solid var(--border); color: var(--text); padding: 0.5rem; border-radius: 50%; cursor: pointer; }
+
+        .badge { display: inline-block; background: rgba(99, 102, 241, 0.15); color: var(--accent); padding: 0.25rem 0.6rem; border-radius: 12px; font-size: 0.75rem; font-weight: 700; margin-bottom: 0.5rem; }
+        h1 { font-size: 1.35rem; font-weight: 800; margin-bottom: 1rem; }
+        
+        .section-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 1.2rem; margin-bottom: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        .section-title { font-size: 1rem; font-weight: 700; color: var(--gold); margin-bottom: 0.6rem; display: flex; align-items: center; gap: 0.4rem; }
+        
+        ul { padding-left: 1.2rem; margin-top: 0.5rem; }
+        li { margin-bottom: 0.4rem; font-size: 0.9rem; color: var(--sub); }
+        li strong { color: var(--text); }
+        .highlight-box { background: rgba(251, 191, 36, 0.1); border-left: 3px solid var(--gold); padding: 0.8rem; border-radius: 0 8px 8px 0; font-size: 0.85rem; margin-top: 0.8rem; }
+    </style>
+</head>
+<body>
+
+    <div class="header-nav">
+        <a href="cours-geo-t8-index.html" class="back-btn">← Retour Sommaire</a>
+        <button class="theme-btn" onclick="toggleTheme()">🌓</button>
+    </div>
+
+    <span class="badge">CLASSE T8 (4ème) - GÉOGRAPHIE</span>
+    <h1>Chapitre 5 : Les Différentes Sources d'Énergie</h1>
+
+    <div class="section-card">
+        <div class="section-title">☀️ 1. Les Énergies Renouvelables</div>
+        <ul>
+            <li><strong>Définition :</strong> Sources d'énergie inépuisables à l'échelle humaine et non polluantes[span_10](start_span)[span_10](end_span).</li>
+            <li><strong>Exemples :</strong> 
+                <ul>
+                    <li>Solaire (photovoltaïque)[span_11](start_span)[span_11](end_span)</li>
+                    <li>Éolienne (vent)[span_12](start_span)[span_12](end_span)</li>
+                    <li>Hydraulique (barrages et chutes d'eau)[span_13](start_span)[span_13](end_span)</li>
+                    <li>Biomasse et Géothermie[span_14](start_span)[span_14](end_span)</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="section-card">
+        <div class="section-title">🛢️ 2. Les Énergies Non Renouvelables</div>
+        <ul>
+            <li><strong>Définition :</strong> Ressources dont les stocks s'épuisent beaucoup plus vite qu'elles ne se régénèrent[span_15](start_span)[span_15](end_span)[span_16](start_span)[span_16](end_span).</li>
+            <li><strong>Exemples :</strong> Le pétrole, le gaz naturel, le charbon et l'uranium (énergie nucléaire)[span_17](start_span)[span_17](end_span).</li>
+        </ul>
+    </div>
+
+    <div class="section-card">
+        <div class="section-title">⚙️ 3. Rôle dans l'Économie</div>
+        <p style="font-size: 0.9rem; color: var(--sub);">
+            L'énergie est indispensable pour alimenter les secteurs économiques (agriculture, industrie, transports, commerce) tout en s'orientant vers le développement durable[span_18](start_span)[span_18](end_span)[span_19](start_span)[span_19](end_span).
+        </p>
+    </div>
+
+    <script>
+        const themes = ['dark', 'oled', 'light'];
+        let themeIndex = 0;
+        function toggleTheme() {
+            themeIndex = (themeIndex + 1) % themes.length;
+            document.documentElement.setAttribute('data-theme', themes[themeIndex]);
+        }
+    </script>
+</body>
+</html>
