@@ -129,12 +129,11 @@ function afficherListeComposantes() {
   document.getElementById('matiere-titre').textContent = etatNav.data.matiere;
   document.getElementById('btn-back').style.display = 'none';
 
-  let totalLeconsMatiere = 0;
   let idsToutesLecons = [];
   etatNav.data.composantes.forEach(comp => {
     comp.lecons.forEach(l => idsToutesLecons.push(l.id));
   });
-  totalLeconsMatiere = idsToutesLecons.length;
+  const totalLeconsMatiere = idsToutesLecons.length;
   const vuesMatiere = compterLeconsVues(etatNav.matiere, idsToutesLecons);
 
   let html = barreProgressionHTML(vuesMatiere, totalLeconsMatiere);
@@ -223,6 +222,11 @@ function afficherLecon(leconId) {
         html += `<tr><td>${valeurs[0]}</td><td>${valeurs[1]}</td></tr>`;
       });
       html += `</table></div>`;
+    } else if (bloc.type === 'schema') {
+      html += `<div class="bloc bloc-schema">
+        <div class="schema-svg">${bloc.svg}</div>
+        ${bloc.legende ? `<div class="schema-legende">${bloc.legende}</div>` : ''}
+      </div>`;
     } else {
       const label = LABELS_TYPE[bloc.type] || bloc.type;
       const texte = bloc.texte.replace(/\n/g, '<br>');
@@ -234,7 +238,6 @@ function afficherLecon(leconId) {
     }
   });
 
-  // ===== LEXIQUE (mots difficiles) =====
   if (lecon.lexique && lecon.lexique.length > 0) {
     html += `<details class="lexique-wrapper">
       <summary class="lexique-titre">📖 Mots difficiles de cette leçon</summary>
