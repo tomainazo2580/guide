@@ -224,3 +224,32 @@ input:checked + .slider::before {
 .nav-btn.active {
   color: var(--primary);
 }
+/* ===== FOND "FEUILLE DE CAHIER" POUR LA VUE COURS ===== */
+
+#view-matiere {
+  background-image: 
+    linear-gradient(var(--ligne-cahier) 1px, transparent 1px),
+    linear-gradient(90deg, var(--marge-cahier) 2px, transparent 2px);
+  background-size: 100% 32px, 100% 100%;
+  background-position: 0 0, 36px 0;
+  background-repeat: repeat, no-repeat;
+  padding-left: 46px;
+  border-radius: 8px;
+}
+
+/* Variables de couleur du cahier (mode clair) */
+:root {
+  --ligne-cahier: rgba(37, 99, 235, 0.12);
+  --marge-cahier: rgba(220, 38, 38, 0.25);
+}
+
+/* Variante mode sombre : plus douce, sans rouge agressif */
+[data-theme="dark"] {
+  --ligne-cahier: rgba(148, 163, 184, 0.1);
+  --marge-cahier: rgba(248, 113, 113, 0.15);
+}
+#view-matiere p,
+#view-matiere li {
+  line-height: 32px; /* doit correspondre exactement au background-size */
+  margin: 0;
+}
