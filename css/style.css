@@ -219,8 +219,7 @@ body[data-theme="sombre"] {
 /* ---------- FOND "CAHIER" POUR VUE MATIÈRE ---------- */
 
 #view-matiere {
-  background-image:
-    linear-gradient(var(--bordure) 1px, transparent 1px);
+  background-image: linear-gradient(var(--bordure) 1px, transparent 1px);
   background-size: 100% 28px;
   background-color: var(--bg-carte);
   border-radius: 12px;
@@ -228,11 +227,7 @@ body[data-theme="sombre"] {
   min-height: 300px;
 }
 
-body[data-theme="sombre"] #view-matiere {
-  background-image: linear-gradient(var(--bordure) 1px, transparent 1px);
-}
-
-/* ---------- LISTES DE CARTES (composantes / leçons) ---------- */
+/* ---------- LISTES DE CARTES ---------- */
 
 .liste-cartes {
   display: flex;
@@ -641,6 +636,18 @@ body[data-theme="sombre"] .bloc-label {
 body[data-theme="sombre"] .btn-danger {
   background-color: #4a2424;
   color: #fca5a5;
+}
+
+.btn-secondaire {
+  width: 100%;
+  padding: 12px;
+  background-color: var(--primaire-clair);
+  color: var(--primaire);
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
 }
 
 /* ---------- NAVIGATION BASSE ---------- */
