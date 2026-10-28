@@ -77,3 +77,30 @@ document.querySelectorAll('.matiere-card').forEach(card => {
 document.getElementById('back-to-accueil').addEventListener('click', () => {
   showView('view-accueil');
 });
+// ===================================
+// ENREGISTREMENT DU SERVICE WORKER
+// (active le mode hors ligne)
+// ===================================
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./service-worker.js')
+      .then((reg) => {
+        console.log('Service Worker enregistré ✅', reg.scope);
+
+        // Détection d'une nouvelle version disponible
+        reg.addEventListener('updatefound', () => {
+          const newWorker = reg.installing;
+          newWorker.addEventListener('statechange', () => {
+            if (newWorker.state === 'activated') {
+              console.log('Nouvelle version de Guide installée 🔄');
+              // Optionnel : on pourrait afficher un petit bandeau
+              // "Nouvelle version disponible, redémarre l'app"
+            }
+          });
+        });
+      })
+      .catch((err) => {
+        console.error('Erreur Service Worker ❌', err);
+      });
+  });
+}
