@@ -1,6 +1,6 @@
 // ============================================
 // GUIDE — app.js
-// Application de révision offline multi-classes
+// Application de révision offline — classe mémorisée
 // ============================================
 
 const SEL_SECRET = "BEPC2026MDG";
@@ -14,7 +14,7 @@ const CLASSES = [
   { id: '3e',   nom: 'Troisième', disponible: true  },
   { id: '2nd',  nom: 'Seconde',   disponible: false },
   { id: '1ere', nom: 'Première',  disponible: false },
-  { id: 'tle',  nom: 'Terminale', disponible: true  }
+  { id: 'tle',  nom: 'Terminale', disponible: false }
 ];
 
 const MATIERES_PAR_CLASSE = {
@@ -77,7 +77,7 @@ function majBoutonRetour(visible) {
 }
 
 // ============================================
-// NIVEAU 1 — CHOIX DE LA CLASSE
+// NIVEAU 1 — CHOIX DE LA CLASSE (une seule fois)
 // ============================================
 
 function renderClasses() {
@@ -99,14 +99,15 @@ function renderClasses() {
 
 function selectionnerClasse(classeId) {
   etat.classe = classeId;
+  localStorage.setItem('guide-classe-choisie', classeId);
   etat.niveau = 'matieres';
   afficherVue('matieres');
-  majBoutonRetour(true);
+  majBoutonRetour(false);
   renderMatieres();
 }
 
 // ============================================
-// NIVEAU 2 — CHOIX DE LA MATIÈRE
+// NIVEAU 2 — MATIÈRES (c'est maintenant l'écran d'accueil habituel)
 // ============================================
 
 function renderMatieres() {
@@ -531,13 +532,10 @@ async function afficherNotes() {
 // ============================================
 
 function gererRetour() {
-  if (etat.niveau === 'matieres') {
-    etat.niveau = 'classes';
-    afficherVue('classes');
-    majBoutonRetour(false);
-  } else if (etat.niveau === 'composantes') {
+  if (etat.niveau === 'composantes') {
     etat.niveau = 'matieres';
     afficherVue('matieres');
+    majBoutonRetour(false);
     renderMatieres();
   } else if (etat.niveau === 'lecons') {
     etat.niveau = 'composantes';
@@ -556,9 +554,16 @@ function gererRetour() {
 // ============================================
 
 function allerAccueil() {
-  etat.niveau = 'classes';
-  afficherVue('classes');
-  majBoutonRetour(false);
+  if (etat.classe) {
+    etat.niveau = 'matieres';
+    afficherVue('matieres');
+    majBoutonRetour(false);
+    renderMatieres();
+  } else {
+    etat.niveau = 'classes';
+    afficherVue('classes');
+    majBoutonRetour(false);
+  }
 }
 
 function allerNotes() {
@@ -570,6 +575,20 @@ function allerNotes() {
 function allerParametres() {
   afficherVue('parametres');
   majBoutonRetour(false);
+  const classeObj = CLASSES.find(c => c.id === etat.classe);
+  $('texte-classe-actuelle').textContent = classeObj
+    ? ('Classe actuelle : ' + classeObj.nom)
+    : 'Aucune classe sélectionnée';
+}
+
+function changerDeClasse() {
+  if (confirm("Veux-tu changer de classe ? Tu devras choisir à nouveau ta classe au prochain écran.")) {
+    localStorage.removeItem('guide-classe-choisie');
+    etat.classe = null;
+    renderClasses();
+    afficherVue('classes');
+    majBoutonRetour(false);
+  }
 }
 
 // ============================================
@@ -595,8 +614,20 @@ function initialiser() {
   const themeSauvegarde = localStorage.getItem('guide-theme') || 'clair';
   appliquerTheme(themeSauvegarde);
 
-  renderClasses();
-  afficherVue('classes');
+  const classeSauvegardee = localStorage.getItem('guide-classe-choisie');
+  const classeValide = CLASSES.find(c => c.id === classeSauvegardee && c.disponible);
+
+  if (classeValide) {
+    etat.classe = classeValide.id;
+    etat.niveau = 'matieres';
+    afficherVue('matieres');
+    majBoutonRetour(false);
+    renderMatieres();
+  } else {
+    renderClasses();
+    afficherVue('classes');
+    majBoutonRetour(false);
+  }
 
   $('btn-retour').addEventListener('click', gererRetour);
   $('btn-theme').addEventListener('click', basculerTheme);
@@ -616,6 +647,8 @@ function initialiser() {
       alert('Progression réinitialisée.');
     }
   });
+
+  $('btn-changer-classe').addEventListener('click', changerDeClasse);
 
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('./service-worker.js');
