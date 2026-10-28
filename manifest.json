@@ -1,15 +1,17 @@
 {
-  "name": "GUIDE - Scolaire Madagascar",
-  "short_name": "GUIDE",
+  "name": "Guide - Révision BEPC",
+  "short_name": "Guide",
+  "description": "Application de révision hors ligne pour le BEPC",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#121824",
-  "theme_color": "#1e293b",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "orientation": "portrait",
   "icons": [
     {
-      "src": "icon.png",
-      "sizes": "192x192",
-      "type": "image/png"
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
     }
   ]
 }
