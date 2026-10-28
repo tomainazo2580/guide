@@ -1,36 +1,35 @@
 /* ===== VARIABLES DE THEME ===== */
 :root {
-  --bg-color: #f5f6fa;
+  --bg-color: #f1f5f9;
   --card-bg: #ffffff;
-  --text-color: #1a1a2e;
-  --text-muted: #6b7280;
+  --text-color: #1e293b;
   --primary: #2563eb;
-  --border-color: #e5e7eb;
   --nav-bg: #ffffff;
+  --ligne-cahier: #c7d7f0;
+  --marge-cahier: #e76f6f;
 }
 
 [data-theme="dark"] {
   --bg-color: #0f172a;
   --card-bg: #1e293b;
   --text-color: #f1f5f9;
-  --text-muted: #94a3b8;
-  --primary: #3b82f6;
-  --border-color: #334155;
+  --primary: #60a5fa;
   --nav-bg: #1e293b;
+  --ligne-cahier: #334155;
+  --marge-cahier: #b45555;
 }
 
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  font-family: -apple-system, 'Segoe UI', Roboto, sans-serif;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   background-color: var(--bg-color);
   color: var(--text-color);
-  transition: background-color 0.3s, color 0.3s;
-  padding-bottom: 70px; /* espace pour la nav basse */
+  padding-bottom: 70px;
+  transition: background-color 0.2s, color 0.2s;
 }
 
 /* ===== HEADER ===== */
@@ -38,156 +37,69 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 20px;
+  padding: 14px 18px;
   background-color: var(--card-bg);
-  border-bottom: 1px solid var(--border-color);
+  box-shadow: 0 1px 6px rgba(0,0,0,0.08);
   position: sticky;
   top: 0;
-  z-index: 10;
+  z-index: 100;
 }
-
 .logo {
-  font-size: 1.3rem;
+  font-size: 20px;
   font-weight: 700;
   color: var(--primary);
 }
-
-.icon-btn {
-  background: none;
-  border: none;
-  font-size: 1.4rem;
+.theme-toggle {
+  border: 1px solid rgba(128,128,128,0.3);
+  background: var(--bg-color);
+  border-radius: 10px;
+  width: 38px;
+  height: 38px;
+  font-size: 18px;
   cursor: pointer;
 }
 
-/* ===== CONTENU ===== */
-#main-content {
-  padding: 20px;
-  max-width: 600px;
-  margin: 0 auto;
+/* ===== VUES ===== */
+main {
+  padding: 18px;
 }
-
 .view {
   display: none;
 }
-
 .view.active {
   display: block;
-  animation: fadeIn 0.2s ease-in;
+}
+.section-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 4px 0 18px 0;
 }
 
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-
-h1 {
-  font-size: 1.6rem;
-  margin-bottom: 4px;
-}
-
-.subtitle {
-  color: var(--text-muted);
-  margin-bottom: 24px;
-}
-
-h2 {
-  margin-bottom: 16px;
-}
-
-.empty-state {
-  color: var(--text-muted);
-  padding: 30px 0;
-  text-align: center;
-}
-
-/* ===== GRILLE DES MATIERES ===== */
-.matieres-grid {
+/* ===== GRILLE DES MATIERES (accueil) ===== */
+.grille-matieres {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 1fr;
   gap: 14px;
 }
-
-.matiere-card {
-  background-color: var(--card-bg);
-  border: 1px solid var(--border-color);
-  border-radius: 14px;
-  padding: 20px 12px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
+.carte-matiere {
+  background: var(--card-bg);
+  border-radius: 16px;
+  padding: 22px 10px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
   cursor: pointer;
   transition: transform 0.15s;
 }
-
-.matiere-card:active {
+.carte-matiere:active {
   transform: scale(0.96);
 }
-
-.matiere-icon {
-  font-size: 1.8rem;
+.icone-matiere {
+  font-size: 32px;
+  margin-bottom: 8px;
 }
-
-/* ===== BOUTON RETOUR ===== */
-.back-btn {
-  background: none;
-  border: none;
-  color: var(--primary);
-  font-size: 1rem;
-  margin-bottom: 14px;
-  cursor: pointer;
-}
-
-/* ===== PARAMETRES ===== */
-.setting-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: var(--card-bg);
-  padding: 16px;
-  border-radius: 12px;
-  border: 1px solid var(--border-color);
-}
-
-.switch {
-  position: relative;
-  width: 48px;
-  height: 26px;
-}
-
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-.slider {
-  position: absolute;
-  cursor: pointer;
-  inset: 0;
-  background-color: #ccc;
-  border-radius: 26px;
-  transition: 0.3s;
-}
-
-.slider::before {
-  content: "";
-  position: absolute;
-  height: 20px;
-  width: 20px;
-  left: 3px;
-  bottom: 3px;
-  background-color: white;
-  border-radius: 50%;
-  transition: 0.3s;
-}
-
-input:checked + .slider {
-  background-color: var(--primary);
-}
-
-input:checked + .slider::before {
-  transform: translateX(22px);
+.nom-matiere {
+  font-size: 14px;
+  font-weight: 600;
 }
 
 /* ===== NAVIGATION BASSE ===== */
@@ -197,68 +109,53 @@ input:checked + .slider::before {
   left: 0;
   right: 0;
   display: flex;
-  justify-content: space-around;
   background-color: var(--nav-bg);
-  border-top: 1px solid var(--border-color);
-  padding: 8px 0;
-  padding-bottom: env(safe-area-inset-bottom, 8px);
+  box-shadow: 0 -1px 6px rgba(0,0,0,0.08);
+  z-index: 100;
 }
-
 .nav-btn {
+  flex: 1;
   background: none;
   border: none;
+  padding: 10px 0 8px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2px;
-  color: var(--text-muted);
-  font-size: 1.2rem;
+  font-size: 11px;
+  color: var(--text-color);
+  opacity: 0.6;
   cursor: pointer;
-  padding: 4px 16px;
 }
-
-.nav-btn small {
-  font-size: 0.65rem;
+.nav-btn span {
+  font-size: 11px;
 }
-
 .nav-btn.active {
+  opacity: 1;
   color: var(--primary);
+  font-weight: 600;
 }
-/* ===== FOND "FEUILLE DE CAHIER" POUR LA VUE COURS ===== */
 
+/* ===== FOND "FEUILLE DE CAHIER" (vue matière uniquement) ===== */
 #view-matiere {
-  background-image: 
+  background-image:
     linear-gradient(var(--ligne-cahier) 1px, transparent 1px),
-    linear-gradient(90deg, var(--marge-cahier) 2px, transparent 2px);
+    linear-gradient(90deg, transparent 0, transparent 38px, var(--marge-cahier) 38px, var(--marge-cahier) 40px, transparent 40px);
   background-size: 100% 32px, 100% 100%;
-  background-position: 0 0, 36px 0;
-  background-repeat: repeat, no-repeat;
-  padding-left: 46px;
-  border-radius: 8px;
+  background-color: var(--bg-color);
+  padding-left: 18px;
+  margin: -18px;
+  padding: 18px 18px 18px 48px;
+  min-height: calc(100vh - 130px);
 }
 
-/* Variables de couleur du cahier (mode clair) */
-:root {
-  --ligne-cahier: rgba(37, 99, 235, 0.12);
-  --marge-cahier: rgba(220, 38, 38, 0.25);
-}
-
-/* Variante mode sombre : plus douce, sans rouge agressif */
-[data-theme="dark"] {
-  --ligne-cahier: rgba(148, 163, 184, 0.1);
-  --marge-cahier: rgba(248, 113, 113, 0.15);
-}
-#view-matiere p,
-#view-matiere li {
-  line-height: 32px; /* doit correspondre exactement au background-size */
-  margin: 0;
-}
 /* ===== BREADCRUMB / RETOUR ===== */
 .breadcrumb {
   display: flex;
   align-items: center;
   gap: 12px;
   margin-bottom: 16px;
+  flex-wrap: wrap;
 }
 .btn-back {
   background: none;
@@ -268,6 +165,10 @@ input:checked + .slider::before {
   font-weight: 600;
   cursor: pointer;
   padding: 6px 0;
+}
+#matiere-titre {
+  font-size: 20px;
+  margin: 0;
 }
 
 /* ===== LISTE DE CARTES (composantes / leçons) ===== */
@@ -284,8 +185,11 @@ input:checked + .slider::before {
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.10);
   font-weight: 500;
+}
+.carte-liste:active {
+  transform: scale(0.98);
 }
 .carte-liste .fleche {
   color: var(--primary);
@@ -299,6 +203,7 @@ input:checked + .slider::before {
   margin-bottom: 14px;
   border-left: 4px solid var(--primary);
   background: var(--card-bg);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
 }
 .bloc-label {
   font-size: 13px;
@@ -326,7 +231,7 @@ input:checked + .slider::before {
 }
 .bloc-tableau td {
   padding: 8px;
-  border-bottom: 1px solid rgba(0,0,0,0.1);
+  border-bottom: 1px solid rgba(128,128,128,0.2);
   font-size: 14px;
 }
 .tableau-titre {
