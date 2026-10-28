@@ -2,82 +2,80 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Guide - Révision BEPC</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Guide — Révision BEPC et BACC</title>
+<meta name="theme-color" content="#1e3a5f">
 <link rel="manifest" href="./manifest.json">
-<link rel="icon" href="./icons/icon.svg">
+<link rel="icon" href="./icons/icon.png">
+<link rel="apple-touch-icon" href="./icons/icon.png">
 <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
+<body data-theme="clair">
 
 <header class="app-header">
-  <div class="logo">📘 Guide</div>
-  <button id="theme-toggle" class="theme-toggle">🌙</button>
+  <button id="btn-retour" class="btn-retour" aria-label="Retour" hidden>←</button>
+  <h1 id="titre-header" class="titre-header">Guide</h1>
+  <button id="btn-theme" class="btn-theme" aria-label="Changer de thème">🌙</button>
 </header>
 
-<main>
+<main id="contenu-principal">
 
-  <!-- VUE ACCUEIL -->
-  <div id="view-accueil" class="view active">
-    <h2 class="section-title">Mes matières</h2>
-    <div class="grille-matieres">
-      <div class="carte-matiere" data-matiere="maths">
-        <div class="icone-matiere">📐</div>
-        <div class="nom-matiere">Mathématiques</div>
-      </div>
-      <div class="carte-matiere" data-matiere="francais">
-        <div class="icone-matiere">📖</div>
-        <div class="nom-matiere">Français</div>
-      </div>
-      <div class="carte-matiere" data-matiere="malagasy">
-        <div class="icone-matiere">🗣️</div>
-        <div class="nom-matiere">Malagasy</div>
-      </div>
-      <div class="carte-matiere" data-matiere="histoiregeo">
-        <div class="icone-matiere">🌍</div>
-        <div class="nom-matiere">Histoire-Géo</div>
-      </div>
-      <div class="carte-matiere" data-matiere="sciences">
-        <div class="icone-matiere">🔬</div>
-        <div class="nom-matiere">Sciences</div>
-      </div>
-      <div class="carte-matiere" data-matiere="anglais">
-        <div class="icone-matiere">🇬🇧</div>
-        <div class="nom-matiere">Anglais</div>
-      </div>
+  <!-- VUE 1 : Choix de la classe -->
+  <section id="view-classes" class="view">
+    <p class="sous-titre-accueil">Choisis ta classe</p>
+    <div id="grille-classes" class="grille-classes">
+      <!-- généré par app.js -->
     </div>
-  </div>
+  </section>
 
-  <!-- VUE MATIERE (cours) -->
-  <div id="view-matiere" class="view">
-    <div class="breadcrumb">
-      <button id="btn-back" class="btn-back">← Retour</button>
-      <h2 id="matiere-titre">Matière</h2>
+  <!-- VUE 2 : Choix de la matière (dépend de la classe choisie) -->
+  <section id="view-matieres" class="view" hidden>
+    <p class="sous-titre-accueil" id="sous-titre-matieres">Choisis ta matière</p>
+    <div id="grille-matieres" class="grille-matieres">
+      <!-- généré par app.js -->
     </div>
-    <div id="matiere-content"></div>
-  </div>
+  </section>
 
-  <!-- VUE MES NOTES -->
-  <div id="view-notes" class="view">
-    <h2 class="section-title">Mes notes</h2>
-    <p class="placeholder-text">Tu pourras bientôt ajouter tes propres notes ici.</p>
-  </div>
+  <!-- VUE 3 : Contenu d'une matière (composantes -> lecons -> contenu -> paywall) -->
+  <section id="view-matiere" class="view" hidden>
+    <nav id="fil-ariane" class="fil-ariane"></nav>
+    <div id="matiere-contenu"></div>
+  </section>
 
-    <!-- VUE PARAMETRES -->
-  <div id="view-parametres" class="view">
-    <h2 class="section-title">Réglages</h2>
-    <div class="param-bloc">
-      <div class="param-label">Progression</div>
+  <!-- VUE 4 : Mes notes (progression) -->
+  <section id="view-notes" class="view" hidden>
+    <h2 class="titre-vue">📒 Mes notes</h2>
+    <div id="notes-contenu"></div>
+  </section>
+
+  <!-- VUE 5 : Paramètres -->
+  <section id="view-parametres" class="view" hidden>
+    <h2 class="titre-vue">⚙️ Paramètres</h2>
+
+    <div class="bloc-parametre">
+      <h3>Progression</h3>
+      <p class="texte-parametre">Tu peux réinitialiser ta progression de lecture si tu veux repartir de zéro.</p>
       <button id="btn-reset-progression" class="btn-danger">🗑️ Réinitialiser ma progression</button>
     </div>
-    <p class="placeholder-text">Version 0.4 — Guide BEPC</p>
-  </div>
+
+    <div class="bloc-parametre">
+      <h3>À propos</h3>
+      <p class="texte-parametre">Guide — application de révision hors ligne.<br>Version 0.5 — Multi-classes</p>
+    </div>
+  </section>
+
 </main>
 
-<nav class="bottom-nav">
-  <button class="nav-btn active" data-view="accueil">🏠<span>Accueil</span></button>
-  <button class="nav-btn" data-view="notes">📝<span>Mes notes</span></button>
-  <button class="nav-btn" data-view="parametres">⚙️<span>Réglages</span></button>
+<nav class="nav-basse">
+  <button class="nav-btn" data-nav="accueil">
+    <span class="nav-icone">🏠</span><span class="nav-texte">Accueil</span>
+  </button>
+  <button class="nav-btn" data-nav="notes">
+    <span class="nav-icone">📒</span><span class="nav-texte">Mes notes</span>
+  </button>
+  <button class="nav-btn" data-nav="parametres">
+    <span class="nav-icone">⚙️</span><span class="nav-texte">Réglages</span>
+  </button>
 </nav>
 
 <script src="./js/app.js"></script>
