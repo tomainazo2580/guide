@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Générateur de codes - Guide</title>
+<style>
+  body { font-family: sans-serif; background: #0f172a; color: #f1f5f9; padding: 20px; max-width: 500px; margin: 0 auto; }
+  h1 { font-size: 20px; }
+  label { display: block; margin-top: 16px; margin-bottom: 6px; font-weight: 600; font-size: 14px; }
+  select, input { width: 100%; padding: 12px; border-radius: 8px; border: none; font-size: 15px; box-sizing: border-box; }
+  button { width: 100%; margin-top: 20px; padding: 14px; background: #2563eb; color: white; border: none; border-radius: 8px; font-size: 16px; font-weight: 700; cursor: pointer; }
+  .resultat { margin-top: 20px; padding: 16px; background: #1e293b; border-radius: 10px; text-align: center; }
+  .code-genere { font-size: 22px; font-weight: 800; font-family: monospace; color: #4ade80; word-break: break-all; }
+  .avertissement { background: #7c2d12; padding: 10px; border-radius: 8px; font-size: 13px; margin-bottom: 16px; }
+</style>
+</head>
+<body>
+
+<h1>🔑 Générateur de codes - Guide</h1>
+<div class="avertissement">⚠️ Usage personnel uniquement. Ne partage jamais le lien de cette page.</div>
+
+<label>Matière</label>
+<select id="select-matiere">
+  <option value="MATH">Mathématiques</option>
+  <option value="FRAN">Français</option>
+  <option value="MALG">Malagasy</option>
+  <option value="HGEO">Histoire-Géo</option>
+  <option value="SCIE">Sciences</option>
+  <option value="ANGL">Anglais</option>
+</select>
+
+<label>Numéro de série (incrémente de 1 à chaque élève)</label>
+<input type="number" id="input-serial" min="1" value="1">
+
+<button id="btn-generer">Générer le code</button>
+
+<div class="resultat" id="zone-resultat" style="display:none;">
+  <div>Code pour cet élève :</div>
+  <div class="code-genere" id="code-genere"></div>
+</div>
+
+<script>
+  const SEL_SECRET = "BEPC2026MDG";
+
+  function calculerChecksum(matiereCode, serial) {
+    const chaine = matiereCode + serial + SEL_SECRET;
+    let somme = 0;
+    for (let i = 0; i < chaine.length; i++) {
+      somme += chaine.charCodeAt(i) * (i + 1);
+    }
+    return String(somme % 10000).padStart(4, '0');
+  }
+
+  // Pré-remplir le numéro de série suivant selon la matière choisie
+  function chargerDernierSerial(matiereCode) {
+    const data = JSON.parse(localStorage.getItem('guide-codes-generes') || '{}');
+    return (data[matiereCode] || 0) + 1;
+  }
+  function sauvegarderSerial(matiereCode, serial) {
+    const data = JSON.parse(localStorage.getItem('guide-codes-generes') || '{}');
+    data[matiereCode] = serial;
+    localStorage.setItem('guide-codes-generes', JSON.stringify(data));
+  }
+
+  const selectMatiere = document.getElementById('select-matiere');
+  const inputSerial = document.getElementById('input-serial');
+
+  function majSerialSuggere() {
+    inputSerial.value = chargerDernierSerial(selectMatiere.value);
+  }
+  selectMatiere.addEventListener('change', majSerialSuggere);
+  majSerialSuggere();
+
+  document.getElementById('btn-generer').addEventListener('click', () => {
+    const matiereCode = selectMatiere.value;
+    const serial = parseInt(inputSerial.value, 10);
+    if (!serial || serial < 1) {
+      alert("Entre un numéro de série valide.");
+      return;
+    }
+    const serialStr = String(serial).padStart(4, '0');
+    const checksum = calculerChecksum(matiereCode, serialStr);
+    const code = `GUIDE-${matiereCode}-${serialStr}-${checksum}`;
+
+    document.getElementById('code-genere').textContent = code;
+    document.getElementById('zone-resultat').style.display = 'block';
+
+    sauvegarderSerial(matiereCode, serial);
+  });
+</script>
+
+</body>
+</html>
