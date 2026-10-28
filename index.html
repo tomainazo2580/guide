@@ -1,197 +1,99 @@
 <!DOCTYPE html>
-<html lang="fr" data-theme="dark">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>GUIDE - Plateforme de Révision Scolaire</title>
-    <link rel="manifest" href="manifest.json">
-    <style>
-        :root[data-theme="dark"] {
-            --bg-app: #090d16;
-            --bg-card: #131d31;
-            --accent: #4f46e5;
-            --accent-gradient: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
-            --accent-gold: #f59e0b;
-            --gold-gradient: linear-gradient(135deg, #fbbf24 0%, #d97706 100%);
-            --text-main: #f8fafc;
-            --text-sub: #94a3b8;
-            --border: rgba(255, 255, 255, 0.08);
-            --shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
-        }
-        :root[data-theme="oled"] {
-            --bg-app: #000000;
-            --bg-card: #121212;
-            --accent: #3b82f6;
-            --accent-gradient: linear-gradient(135deg, #60a5fa 0%, #2563eb 100%);
-            --accent-gold: #fbbf24;
-            --gold-gradient: linear-gradient(135deg, #f59e0b 0%, #b45309 100%);
-            --text-main: #ffffff;
-            --text-sub: #a1a1aa;
-            --border: rgba(255, 255, 255, 0.1);
-            --shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.8);
-        }
-        :root[data-theme="light"] {
-            --bg-app: #f1f5f9;
-            --bg-card: #ffffff;
-            --text-main: #0f172a;
-            --text-sub: #64748b;
-            --accent: #4f46e5;
-            --accent-gradient: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
-            --accent-gold: #d97706;
-            --gold-gradient: linear-gradient(135deg, #f59e0b 0%, #b45309 100%);
-            --border: rgba(0, 0, 0, 0.06);
-            --shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
-        }
-
-        * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; -webkit-tap-highlight-color: transparent; }
-        body { background-color: var(--bg-app); color: var(--text-main); display: flex; flex-direction: column; min-height: 100vh; transition: background-color 0.3s ease; }
-
-        header { background-color: var(--bg-card); padding: 1rem 1.25rem; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 50; }
-        .logo-area { display: flex; align-items: center; gap: 0.5rem; }
-        .logo-icon { background: var(--accent-gradient); color: white; width: 32px; height: 32px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1rem; }
-        .logo-text { font-weight: 800; font-size: 1.15rem; letter-spacing: -0.5px; }
-        .icon-btn { background: var(--bg-app); border: 1px solid var(--border); color: var(--text-main); width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; }
-
-        main { padding: 1.25rem; flex: 1; max-width: 550px; margin: 0 auto; width: 100%; }
-
-        .level-scroll { display: flex; gap: 0.5rem; overflow-x: auto; padding-bottom: 0.5rem; margin-bottom: 1.25rem; scrollbar-width: none; }
-        .level-scroll::-webkit-scrollbar { display: none; }
-        .level-chip { background: var(--bg-card); border: 1px solid var(--border); color: var(--text-sub); padding: 0.5rem 1rem; border-radius: 20px; white-space: nowrap; font-size: 0.85rem; cursor: pointer; font-weight: 600; }
-        .level-chip.active { background: var(--accent-gradient); border-color: transparent; color: white; box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3); }
-
-        .welcome-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 16px; padding: 1.25rem; margin-bottom: 1.25rem; box-shadow: var(--shadow); }
-        .welcome-title { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.25rem; }
-        .welcome-sub { font-size: 0.85rem; color: var(--text-sub); }
-
-        .section-title { font-size: 0.95rem; font-weight: 700; color: var(--text-sub); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 0.75rem; }
-        .modules-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.85rem; margin-bottom: 1.5rem; }
-        
-        .module-card { background-color: var(--bg-card); border: 1px solid var(--border); border-radius: 16px; padding: 1.15rem; cursor: pointer; transition: transform 0.1s; box-shadow: var(--shadow); display: flex; flex-direction: column; justify-content: space-between; }
-        .module-card:active { transform: scale(0.96); }
-        .module-card.premium { border-color: rgba(245, 158, 11, 0.3); background: linear-gradient(145deg, var(--bg-card), rgba(245, 158, 11, 0.03)); }
-        
-        .module-icon-box { width: 44px; height: 44px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 1.25rem; margin-bottom: 0.85rem; background: var(--bg-app); border: 1px solid var(--border); }
-        .module-card.premium .module-icon-box { background: rgba(245, 158, 11, 0.1); }
-        .module-name { font-weight: 700; font-size: 0.95rem; margin-bottom: 0.2rem; }
-        .module-desc { font-size: 0.75rem; color: var(--text-sub); }
-
-        /* Modal Paywall */
-        .modal { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.7); backdrop-filter: blur(8px); z-index: 100; align-items: center; justify-content: center; padding: 1.25rem; }
-        .modal-box { background: var(--bg-card); border: 1px solid var(--border); border-radius: 24px; padding: 1.75rem; max-width: 400px; width: 100%; text-align: center; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5); }
-        .modal-icon-lg { width: 64px; height: 64px; border-radius: 20px; background: rgba(245, 158, 11, 0.1); color: var(--accent-gold); font-size: 2rem; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem auto; }
-        .price-tag { font-size: 1.75rem; font-weight: 800; background: var(--gold-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin: 0.75rem 0; }
-        
-        .operators-grid { display: flex; justify-content: center; gap: 0.5rem; margin: 0.75rem 0 1.25rem 0; }
-        .op-badge { background: var(--bg-app); border: 1px solid var(--border); font-size: 0.75rem; font-weight: 700; padding: 0.3rem 0.6rem; border-radius: 6px; color: var(--text-sub); }
-
-        .btn-primary { background: var(--accent-gradient); color: white; font-weight: 700; border: none; padding: 0.9rem; border-radius: 12px; width: 100%; font-size: 1rem; cursor: pointer; box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3); }
-        .btn-close { background: none; border: none; color: var(--text-sub); margin-top: 1rem; cursor: pointer; font-size: 0.85rem; font-weight: 600; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#2563eb">
+  <title>Guide - Révision BEPC</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon.svg">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <header>
-        <div class="logo-area">
-            <div class="logo-icon">G</div>
-            <div class="logo-text">GUIDE</div>
+  <!-- HEADER -->
+  <header class="app-header">
+    <div class="logo">📘 Guide</div>
+    <button id="theme-toggle" class="icon-btn" aria-label="Changer de thème">🌙</button>
+  </header>
+
+  <!-- CONTENU PRINCIPAL -->
+  <main id="main-content">
+
+    <!-- VUE : ACCUEIL -->
+    <section class="view active" id="view-accueil">
+      <h1>Bienvenue sur Guide</h1>
+      <p class="subtitle">Révision BEPC — hors ligne</p>
+
+      <div class="matieres-grid">
+        <div class="matiere-card" data-matiere="mathematiques">
+          <span class="matiere-icon">📐</span>
+          <span>Mathématiques</span>
         </div>
-        <button class="icon-btn" onclick="toggleTheme()" title="Changer de thème">🌓</button>
-    </header>
-
-    <main>
-        <div class="level-scroll">
-            <div class="level-chip" onclick="selectClass('6ème', this)">6ème</div>
-            <div class="level-chip" onclick="selectClass('5ème', this)">5ème</div>
-            <div class="level-chip active" onclick="selectClass('4ème (T8)', this)">4ème (T8)</div>
-            <div class="level-chip" onclick="selectClass('3ème (BEPC)', this)">3ème (BEPC)</div>
-            <div class="level-chip" onclick="selectClass('2nde', this)">2nde</div>
-            <div class="level-chip" onclick="selectClass('1ère', this)">1ère</div>
-            <div class="level-chip" onclick="selectClass('Terminale', this)">Terminale (BACC)</div>
+        <div class="matiere-card" data-matiere="francais">
+          <span class="matiere-icon">📖</span>
+          <span>Français</span>
         </div>
-
-        <div class="welcome-card">
-            <div class="welcome-title" id="display-class">Niveau : 4ème (T8)</div>
-            <div class="welcome-sub">Prêt pour tes révisions 100% hors-ligne ? Choisis ton module ci-dessous.</div>
+        <div class="matiere-card" data-matiere="malagasy">
+          <span class="matiere-icon">🗣️</span>
+          <span>Malagasy</span>
         </div>
-
-        <div class="section-title">Modules d'apprentissage</div>
-        <div class="modules-grid">
-            <div class="module-card" onclick="window.location.href='cours-t8-matieres.html'"'"
-                <div class="module-icon-box">📘</div>
-                <div>
-                    <div class="module-name">Cours & Fiches</div>
-                    <div class="module-desc">Officiel Ministère (T8)</div>
-                </div>
-            </div>
-
-            <div class="module-card premium" onclick="openPaywall()">
-                <div class="module-icon-box">🔒</div>
-                <div>
-                    <div class="module-name">Pass Examen</div>
-                    <div class="module-desc">Annales & Méthodologie</div>
-                </div>
-            </div>
-
-            <div class="module-card" onclick="alert('Module Quiz bientôt disponible !')">
-                <div class="module-icon-box">🎯</div>
-                <div>
-                    <div class="module-name">Quiz Express</div>
-                    <div class="module-desc">Entraînement interactif</div>
-                </div>
-            </div>
-
-            <div class="module-card" onclick="alert('Module Notes personnelles')">
-                <div class="module-icon-box">📓</div>
-                <div>
-                    <div class="module-name">Mes Notes</div>
-                    <div class="module-desc">Ajouter mes fiches</div>
-                </div>
-            </div>
+        <div class="matiere-card" data-matiere="histoire-geo">
+          <span class="matiere-icon">🌍</span>
+          <span>Histoire-Géo</span>
         </div>
-    </main>
-
-    <!-- Modal Paywall Mis à jour (5000 Ar & Opérateurs) -->
-    <div class="modal" id="paywall-modal">
-        <div class="modal-box">
-            <div class="modal-icon-lg">👑</div>
-            <h3 style="font-size: 1.2rem; font-weight: 800;">Débloquez le Pass Examen</h3>
-            <p style="font-size: 0.85rem; color: var(--text-sub); margin-top: 0.5rem;">
-                Accédez à toutes les annales corrigées et aux guides méthodologiques complets pour réussir.
-            </p>
-            <div class="price-tag">5 000 Ar / an</div>
-            
-            <div class="operators-grid">
-                <span class="op-badge">MVola</span>
-                <span class="op-badge">Orange Money</span>
-                <span class="op-badge">Airtel Money</span>
-            </div>
-
-            <button class="btn-primary" onclick="simulatePayment()">💳 Payer via Mobile Money</button>
-            <br>
-            <button class="btn-close" onclick="closePaywall()">Fermer</button>
+        <div class="matiere-card" data-matiere="sciences">
+          <span class="matiere-icon">🔬</span>
+          <span>Sciences</span>
         </div>
-    </div>
+        <div class="matiere-card" data-matiere="anglais">
+          <span class="matiere-icon">🇬🇧</span>
+          <span>Anglais</span>
+        </div>
+      </div>
+    </section>
 
-    <script>
-        const themes = ['dark', 'oled', 'light'];
-        let themeIndex = 0;
-        function toggleTheme() {
-            themeIndex = (themeIndex + 1) % themes.length;
-            document.documentElement.setAttribute('data-theme', themes[themeIndex]);
-        }
+    <!-- VUE : UNE MATIERE (placeholder pour l'instant) -->
+    <section class="view" id="view-matiere">
+      <button class="back-btn" id="back-to-accueil">← Retour</button>
+      <h2 id="matiere-titre">Matière</h2>
+      <p class="empty-state">Les cours arriveront ici (Étape 3).</p>
+    </section>
 
-        function selectClass(className, element) {
-            document.querySelectorAll('.level-chip').forEach(c => c.classList.remove('active'));
-            element.classList.add('active');
-            document.getElementById('display-class').innerText = "Niveau : " + className;
-        }
+    <!-- VUE : MES NOTES -->
+    <section class="view" id="view-notes">
+      <h2>Mes notes personnelles</h2>
+      <p class="empty-state">Ajoute tes propres fiches ici (bientôt disponible).</p>
+    </section>
 
-        function openPaywall() { document.getElementById('paywall-modal').style.display = 'flex'; }
-        function closePaywall() { document.getElementById('paywall-modal').style.display = 'none'; }
-        function simulatePayment() {
-            alert("Redirection vers la passerelle de paiement Mobile Money (MVola / Orange / Airtel)...");
-            closePaywall();
-        }
-    </script>
+    <!-- VUE : PARAMETRES -->
+    <section class="view" id="view-parametres">
+      <h2>Paramètres</h2>
+      <div class="setting-row">
+        <span>Thème sombre</span>
+        <label class="switch">
+          <input type="checkbox" id="theme-switch">
+          <span class="slider"></span>
+        </label>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- NAVIGATION BASSE (style app mobile) -->
+  <nav class="bottom-nav">
+    <button class="nav-btn active" data-view="view-accueil">
+      <span>🏠</span><small>Accueil</small>
+    </button>
+    <button class="nav-btn" data-view="view-notes">
+      <span>📝</span><small>Mes notes</small>
+    </button>
+    <button class="nav-btn" data-view="view-parametres">
+      <span>⚙️</span><small>Réglages</small>
+    </button>
+  </nav>
+
+  <script src="js/app.js"></script>
 </body>
 </html>
