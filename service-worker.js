@@ -4,7 +4,7 @@
 // mise à jour de contenu ou de code, sinon
 // les étudiants garderont l'ancienne version
 // ==========================================
-const CACHE_VERSION = 'guide-v3';
+const CACHE_VERSION = 'guide-v4';
 
 // Fichiers essentiels de l'application (le "squelette")
 const APP_SHELL = [
