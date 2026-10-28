@@ -1,4 +1,58 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <rect width="512" height="512" rx="80" fill="#2563eb"/>
-  <text x="50%" y="58%" font-size="260" fill="white" text-anchor="middle" font-family="Arial, sans-serif">G</text>
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#1e40af"/>
+    </linearGradient>
+    <linearGradient id="handGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Fond -->
+  <rect width="512" height="512" rx="96" fill="url(#bgGrad)"/>
+
+  <!-- Page gauche du livre -->
+  <path d="M256 180
+           C 220 140, 150 130, 95 150
+           C 85 153, 80 162, 80 172
+           L 80 300
+           C 80 310, 86 318, 96 320
+           C 150 332, 215 345, 256 380
+           Z"
+        fill="#ffffff" opacity="0.95"/>
+
+  <!-- Page droite du livre -->
+  <path d="M256 180
+           C 292 140, 362 130, 417 150
+           C 427 153, 432 162, 432 172
+           L 432 300
+           C 432 310, 426 318, 416 320
+           C 362 332, 297 345, 256 380
+           Z"
+        fill="#ffffff" opacity="0.95"/>
+
+  <!-- Lignes de texte - page gauche -->
+  <line x1="110" y1="190" x2="220" y2="210" stroke="#1e40af" stroke-width="7" stroke-linecap="round" opacity="0.5"/>
+  <line x1="110" y1="220" x2="220" y2="240" stroke="#1e40af" stroke-width="7" stroke-linecap="round" opacity="0.5"/>
+  <line x1="110" y1="250" x2="210" y2="268" stroke="#1e40af" stroke-width="7" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- Lignes de texte - page droite -->
+  <line x1="402" y1="190" x2="292" y2="210" stroke="#1e40af" stroke-width="7" stroke-linecap="round" opacity="0.5"/>
+  <line x1="402" y1="220" x2="292" y2="240" stroke="#1e40af" stroke-width="7" stroke-linecap="round" opacity="0.5"/>
+  <line x1="402" y1="250" x2="302" y2="268" stroke="#1e40af" stroke-width="7" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- Main qui s'élève du centre du livre, vers le savoir -->
+  <g transform="translate(256,290)">
+    <!-- Paume -->
+    <rect x="-32" y="10" width="64" height="70" rx="28" fill="url(#handGrad)"/>
+    <!-- Pouce -->
+    <rect x="-55" y="30" width="26" height="45" rx="13" fill="url(#handGrad)" transform="rotate(-35 -55 30)"/>
+    <!-- Doigts -->
+    <rect x="-28" y="-55" width="16" height="70" rx="8" fill="url(#handGrad)" transform="rotate(-12 -28 -55)"/>
+    <rect x="-8"  y="-68" width="16" height="82" rx="8" fill="url(#handGrad)"/>
+    <rect x="12"  y="-62" width="16" height="76" rx="8" fill="url(#handGrad)" transform="rotate(10 12 -62)"/>
+    <rect x="30"  y="-45" width="16" height="60" rx="8" fill="url(#handGrad)" transform="rotate(22 30 -45)"/>
+  </g>
 </svg>
