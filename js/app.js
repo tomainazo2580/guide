@@ -1,11 +1,8 @@
 // ============================================
 // GUIDE — app.js
-// Application de révision offline — classe mémorisée
 // ============================================
 
 const SEL_SECRET = "BEPC2026MDG";
-
-// ---------- DONNÉES DE STRUCTURE ----------
 
 const CLASSES = [
   { id: '6e',   nom: '6ème',      disponible: false },
@@ -50,8 +47,6 @@ const LABELS_TYPE = {
   methode:    { label: '🛠️ Méthode',    classe: 'bloc-methode' }
 };
 
-// ---------- ÉTAT DE NAVIGATION ----------
-
 const etat = {
   niveau: 'classes',
   classe: null,
@@ -62,8 +57,6 @@ const etat = {
   compPaywall: null,
   cache: {}
 };
-
-// ---------- OUTILS DOM ----------
 
 function $(id) { return document.getElementById(id); }
 
@@ -107,12 +100,14 @@ function selectionnerClasse(classeId) {
 }
 
 // ============================================
-// NIVEAU 2 — MATIÈRES (c'est maintenant l'écran d'accueil habituel)
+// NIVEAU 2 — MATIÈRES (écran d'accueil habituel)
 // ============================================
 
 function renderMatieres() {
   const classeObj = CLASSES.find(c => c.id === etat.classe);
   $('sous-titre-matieres').textContent = classeObj ? classeObj.nom : 'Choisis ta matière';
+
+  renderBoutonReprendre();
 
   const grille = $('grille-matieres');
   grille.innerHTML = '';
@@ -133,25 +128,106 @@ function renderMatieres() {
   });
 }
 
-async function selectionnerMatiere(matiere) {
-  etat.matiere = matiere;
+// ---------- REPRENDRE MA DERNIÈRE LEÇON ----------
+
+function sauvegarderDernierePosition() {
+  const position = {
+    classe: etat.classe,
+    matiereId: etat.matiere.id,
+    matiereNom: etat.matiere.nom,
+    matiereIcone: etat.matiere.icone,
+    composanteId: etat.composante.id,
+    leconId: etat.lecon.id,
+    leconTitre: etat.lecon.titre
+  };
+  localStorage.setItem('guide-derniere-position', JSON.stringify(position));
+}
+
+function renderBoutonReprendre() {
+  const zone = $('zone-reprendre');
+  const brut = localStorage.getItem('guide-derniere-position');
+
+  if (!brut) { zone.hidden = true; zone.innerHTML = ''; return; }
+
+  const pos = JSON.parse(brut);
+  if (pos.classe !== etat.classe) { zone.hidden = true; zone.innerHTML = ''; return; }
+
+  zone.hidden = false;
+  zone.innerHTML = `
+    <div class="carte-reprendre" id="carte-reprendre">
+      <div class="reprendre-label">📍 Reprendre où tu en étais</div>
+      <div class="reprendre-titre">${pos.matiereIcone} ${pos.matiereNom} — ${pos.leconTitre}</div>
+    </div>`;
+
+  $('carte-reprendre').addEventListener('click', reprendreDerniereLecon);
+}
+
+async function reprendreDerniereLecon() {
+  const brut = localStorage.getItem('guide-derniere-position');
+  if (!brut) return;
+  const pos = JSON.parse(brut);
+  if (pos.classe !== etat.classe) return;
+
+  const matiere = (MATIERES_PAR_CLASSE[etat.classe] || []).find(m => m.id === pos.matiereId);
+  if (!matiere || !matiere.disponible) return;
+
+  const ok = await chargerDonneesMatiere(matiere);
+  if (!ok) return;
+
+  const comp = etat.dataMatiere.composantes.find(c => c.id === pos.composanteId);
+  if (!comp) return;
+
+  const debloque = estMatiereDebloquee(etat.classe, matiere.code);
+  afficherVue('matiere');
+  majBoutonRetour(true);
+
+  if (comp.premium && !debloque) {
+    etat.niveau = 'composantes';
+    afficherListeComposantes();
+    return;
+  }
+
+  const lecon = comp.lecons.find(l => l.id === pos.leconId);
+  if (!lecon) {
+    etat.composante = comp;
+    etat.niveau = 'lecons';
+    afficherListeLecons();
+    return;
+  }
+
+  etat.composante = comp;
+  etat.lecon = lecon;
+  etat.niveau = 'contenu';
+  afficherContenuLecon();
+}
+
+// ---------- CHARGEMENT DES DONNÉES D'UNE MATIÈRE ----------
+
+async function chargerDonneesMatiere(matiere) {
   const cleCache = etat.classe + '-' + matiere.id;
 
   if (etat.cache[cleCache]) {
+    etat.matiere = matiere;
     etat.dataMatiere = etat.cache[cleCache];
-    ouvrirMatiere();
-    return;
+    return true;
   }
 
   try {
     const reponse = await fetch(matiere.fichier);
     const data = await reponse.json();
     etat.cache[cleCache] = data;
+    etat.matiere = matiere;
     etat.dataMatiere = data;
-    ouvrirMatiere();
+    return true;
   } catch (e) {
     alert("Impossible de charger cette matière pour le moment.");
+    return false;
   }
+}
+
+async function selectionnerMatiere(matiere) {
+  const ok = await chargerDonneesMatiere(matiere);
+  if (ok) ouvrirMatiere();
 }
 
 function ouvrirMatiere() {
@@ -231,6 +307,7 @@ function selectionnerLecon(lecon) {
   etat.lecon = lecon;
   etat.niveau = 'contenu';
   marquerLeconVue(etat.classe, etat.matiere.id, lecon.id);
+  sauvegarderDernierePosition();
   afficherContenuLecon();
 }
 
@@ -246,7 +323,12 @@ function afficherContenuLecon() {
   let html = `<h2 class="titre-lecon">${etat.lecon.titre}</h2>`;
 
   etat.lecon.contenu.forEach(bloc => {
-    html += renderBloc(bloc);
+    try {
+      html += renderBloc(bloc);
+    } catch (e) {
+      html += `<div class="bloc-erreur">⚠️ Un élément de cette leçon n'a pas pu s'afficher.</div>`;
+      console.error('Erreur de rendu de bloc :', e, bloc);
+    }
   });
 
   if (etat.lecon.lexique && etat.lecon.lexique.length > 0) {
@@ -266,18 +348,7 @@ function renderBloc(bloc) {
   }
 
   if (bloc.type === 'tableau') {
-    let html = `<div class="bloc-tableau">`;
-    if (bloc.titre) html += `<div class="bloc-tableau-titre">${bloc.titre}</div>`;
-    html += `<table class="tableau-donnees"><thead><tr>`;
-    bloc.entetes.forEach(e => html += `<th>${e}</th>`);
-    html += `</tr></thead><tbody>`;
-    bloc.lignes.forEach(ligne => {
-      html += '<tr>';
-      ligne.forEach(cell => html += `<td>${cell}</td>`);
-      html += '</tr>';
-    });
-    html += '</tbody></table></div>';
-    return html;
+    return renderTableau(bloc);
   }
 
   const info = LABELS_TYPE[bloc.type];
@@ -290,6 +361,42 @@ function renderBloc(bloc) {
   }
 
   return `<p class="bloc-texte-simple">${bloc.texte || ''}</p>`;
+}
+
+// ---------- RENDU DE TABLEAU (accepte 2 formats possibles) ----------
+
+function renderTableau(bloc) {
+  let entetes = bloc.entetes;
+  let lignes = bloc.lignes || [];
+
+  // Format alternatif : chaque ligne est un objet { cle: valeur, ... }
+  // au lieu d'une simple liste de valeurs. On le détecte et on l'adapte.
+  if (lignes.length > 0 && !Array.isArray(lignes[0])) {
+    if (!entetes) {
+      entetes = Object.keys(lignes[0]).map(cle =>
+        cle.charAt(0).toUpperCase() + cle.slice(1)
+      );
+    }
+    const cles = Object.keys(lignes[0]);
+    lignes = lignes.map(obj => cles.map(cle => obj[cle]));
+  }
+
+  if (!entetes || !lignes.length) {
+    return `<div class="bloc-erreur">⚠️ Tableau incomplet.</div>`;
+  }
+
+  let html = `<div class="bloc-tableau">`;
+  if (bloc.titre) html += `<div class="bloc-tableau-titre">${bloc.titre}</div>`;
+  html += `<table class="tableau-donnees"><thead><tr>`;
+  entetes.forEach(e => html += `<th>${e}</th>`);
+  html += `</tr></thead><tbody>`;
+  lignes.forEach(ligne => {
+    html += '<tr>';
+    ligne.forEach(cell => html += `<td>${cell}</td>`);
+    html += '</tr>';
+  });
+  html += '</tbody></table></div>';
+  return html;
 }
 
 function renderLexique(lexique) {
@@ -517,142 +624,4 @@ async function afficherNotes() {
       auMoinsUne = true;
     }
 
-    if (auMoinsUneMatiere) html += blocClasse;
-  }
-
-  if (!auMoinsUne) {
-    html = '<p class="texte-vide">Aucune matière disponible pour le moment.</p>';
-  }
-
-  conteneur.innerHTML = html;
-}
-
-// ============================================
-// NAVIGATION — BOUTON RETOUR
-// ============================================
-
-function gererRetour() {
-  if (etat.niveau === 'composantes') {
-    etat.niveau = 'matieres';
-    afficherVue('matieres');
-    majBoutonRetour(false);
-    renderMatieres();
-  } else if (etat.niveau === 'lecons') {
-    etat.niveau = 'composantes';
-    afficherListeComposantes();
-  } else if (etat.niveau === 'contenu') {
-    etat.niveau = 'lecons';
-    afficherListeLecons();
-  } else if (etat.niveau === 'paywall') {
-    etat.niveau = 'composantes';
-    afficherListeComposantes();
-  }
-}
-
-// ============================================
-// NAVIGATION BASSE
-// ============================================
-
-function allerAccueil() {
-  if (etat.classe) {
-    etat.niveau = 'matieres';
-    afficherVue('matieres');
-    majBoutonRetour(false);
-    renderMatieres();
-  } else {
-    etat.niveau = 'classes';
-    afficherVue('classes');
-    majBoutonRetour(false);
-  }
-}
-
-function allerNotes() {
-  afficherVue('notes');
-  majBoutonRetour(false);
-  afficherNotes();
-}
-
-function allerParametres() {
-  afficherVue('parametres');
-  majBoutonRetour(false);
-  const classeObj = CLASSES.find(c => c.id === etat.classe);
-  $('texte-classe-actuelle').textContent = classeObj
-    ? ('Classe actuelle : ' + classeObj.nom)
-    : 'Aucune classe sélectionnée';
-}
-
-function changerDeClasse() {
-  if (confirm("Veux-tu changer de classe ? Tu devras choisir à nouveau ta classe au prochain écran.")) {
-    localStorage.removeItem('guide-classe-choisie');
-    etat.classe = null;
-    renderClasses();
-    afficherVue('classes');
-    majBoutonRetour(false);
-  }
-}
-
-// ============================================
-// THÈME
-// ============================================
-
-function appliquerTheme(theme) {
-  document.body.setAttribute('data-theme', theme);
-  $('btn-theme').textContent = theme === 'sombre' ? '☀️' : '🌙';
-  localStorage.setItem('guide-theme', theme);
-}
-
-function basculerTheme() {
-  const actuel = document.body.getAttribute('data-theme');
-  appliquerTheme(actuel === 'sombre' ? 'clair' : 'sombre');
-}
-
-// ============================================
-// INITIALISATION
-// ============================================
-
-function initialiser() {
-  const themeSauvegarde = localStorage.getItem('guide-theme') || 'clair';
-  appliquerTheme(themeSauvegarde);
-
-  const classeSauvegardee = localStorage.getItem('guide-classe-choisie');
-  const classeValide = CLASSES.find(c => c.id === classeSauvegardee && c.disponible);
-
-  if (classeValide) {
-    etat.classe = classeValide.id;
-    etat.niveau = 'matieres';
-    afficherVue('matieres');
-    majBoutonRetour(false);
-    renderMatieres();
-  } else {
-    renderClasses();
-    afficherVue('classes');
-    majBoutonRetour(false);
-  }
-
-  $('btn-retour').addEventListener('click', gererRetour);
-  $('btn-theme').addEventListener('click', basculerTheme);
-
-  document.querySelectorAll('.nav-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const cible = btn.getAttribute('data-nav');
-      if (cible === 'accueil') allerAccueil();
-      if (cible === 'notes') allerNotes();
-      if (cible === 'parametres') allerParametres();
-    });
-  });
-
-  $('btn-reset-progression').addEventListener('click', () => {
-    if (confirm('Veux-tu vraiment réinitialiser toute ta progression ? Cette action est irréversible.')) {
-      localStorage.removeItem('guide-progression');
-      alert('Progression réinitialisée.');
-    }
-  });
-
-  $('btn-changer-classe').addEventListener('click', changerDeClasse);
-
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('./service-worker.js');
-  }
-}
-
-document.addEventListener('DOMContentLoaded', initialiser);
+    
