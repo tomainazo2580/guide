@@ -1,11 +1,11 @@
 // ===== CONFIGURATION DES MATIERES =====
 const MATIERES = {
-  maths: { nom: "Mathématiques", fichier: "./data/maths-t9.json", disponible: true },
-  francais: { nom: "Français", fichier: null, disponible: false },
-  malagasy: { nom: "Malagasy", fichier: null, disponible: false },
-  histoiregeo: { nom: "Histoire-Géo", fichier: null, disponible: false },
-  sciences: { nom: "Sciences", fichier: null, disponible: false },
-  anglais: { nom: "Anglais", fichier: null, disponible: false }
+  maths: { nom: "Mathématiques", fichier: "./data/maths-t9.json", disponible: true, codeMatiere: "MATH" },
+  francais: { nom: "Français", fichier: null, disponible: false, codeMatiere: "FRAN" },
+  malagasy: { nom: "Malagasy", fichier: null, disponible: false, codeMatiere: "MALG" },
+  histoiregeo: { nom: "Histoire-Géo", fichier: null, disponible: false, codeMatiere: "HGEO" },
+  sciences: { nom: "Sciences", fichier: null, disponible: false, codeMatiere: "SCIE" },
+  anglais: { nom: "Anglais", fichier: null, disponible: false, codeMatiere: "ANGL" }
 };
 
 const LABELS_TYPE = {
@@ -18,7 +18,45 @@ const LABELS_TYPE = {
   methode: "🛠️ Méthode"
 };
 
-let etatNav = { matiere: null, composante: null, lecon: null, data: null };
+let etatNav = { matiere: null, composante: null, lecon: null, data: null, enPaywall: false };
+
+// ===== SYSTEME DE CODES (déblocage premium) =====
+// ATTENTION : ce sel secret doit être IDENTIQUE dans outil-codes.html
+const SEL_SECRET = "BEPC2026MDG";
+
+function calculerChecksum(matiereCode, serial) {
+  const chaine = matiereCode + serial + SEL_SECRET;
+  let somme = 0;
+  for (let i = 0; i < chaine.length; i++) {
+    somme += chaine.charCodeAt(i) * (i + 1);
+  }
+  return String(somme % 10000).padStart(4, '0');
+}
+
+function verifierCode(saisie, matiereCode) {
+  const nettoye = saisie.trim().toUpperCase();
+  const parts = nettoye.split('-');
+  if (parts.length !== 4) return false;
+  if (parts[0] !== 'GUIDE') return false;
+  if (parts[1] !== matiereCode) return false;
+  const serial = parts[2];
+  const checksumSaisi = parts[3];
+  if (!/^\d{4}$/.test(serial) || !/^\d{4}$/.test(checksumSaisi)) return false;
+  return checksumSaisi === calculerChecksum(matiereCode, serial);
+}
+
+function chargerDeblocages() {
+  return JSON.parse(localStorage.getItem('guide-deblocages') || '{}');
+}
+function estMatiereDebloquee(matiereId) {
+  const deb = chargerDeblocages();
+  return !!deb[matiereId];
+}
+function debloquerMatiere(matiereId) {
+  const deb = chargerDeblocages();
+  deb[matiereId] = true;
+  localStorage.setItem('guide-deblocages', JSON.stringify(deb));
+}
 
 // ===== PROGRESSION (stockage local) =====
 function chargerProgression() {
@@ -96,7 +134,7 @@ document.querySelectorAll('.carte-matiere').forEach(carte => {
 
 async function ouvrirMatiere(id) {
   const matiere = MATIERES[id];
-  etatNav = { matiere: id, composante: null, lecon: null, data: null };
+  etatNav = { matiere: id, composante: null, lecon: null, data: null, enPaywall: false };
 
   document.getElementById('matiere-titre').textContent = matiere.nom;
   document.getElementById('btn-back').style.display = 'none';
@@ -125,6 +163,7 @@ async function ouvrirMatiere(id) {
 
 // ===== NIVEAU 1 : LISTE DES COMPOSANTES =====
 function afficherListeComposantes() {
+  etatNav.enPaywall = false;
   const zone = document.getElementById('matiere-content');
   document.getElementById('matiere-titre').textContent = etatNav.data.matiere;
   document.getElementById('btn-back').style.display = 'none';
@@ -140,12 +179,13 @@ function afficherListeComposantes() {
   html += '<div class="liste-cartes">';
 
   etatNav.data.composantes.forEach(comp => {
-    const cadenas = comp.premium ? ' 🔒' : '';
+    const verrouille = comp.premium && !estMatiereDebloquee(etatNav.matiere);
+    const cadenas = verrouille ? ' 🔒' : '';
     const idsLecons = comp.lecons.map(l => l.id);
     const vues = compterLeconsVues(etatNav.matiere, idsLecons);
     const total = idsLecons.length;
     html += `
-      <div class="carte-liste" data-composante="${comp.id}">
+      <div class="carte-liste ${verrouille ? 'verrouille' : ''}" data-composante="${comp.id}" data-verrouille="${verrouille}">
         <div class="carte-liste-texte">
           <span>${comp.titre}${cadenas}</span>
           <span class="mini-progression">${vues}/${total}</span>
@@ -157,7 +197,71 @@ function afficherListeComposantes() {
   zone.innerHTML = html;
 
   document.querySelectorAll('.carte-liste[data-composante]').forEach(el => {
-    el.addEventListener('click', () => afficherListeLecons(el.dataset.composante));
+    el.addEventListener('click', () => {
+      const verrouille = el.dataset.verrouille === 'true';
+      if (verrouille) {
+        const comp = etatNav.data.composantes.find(c => c.id === el.dataset.composante);
+        afficherPaywall(comp.titre);
+      } else {
+        afficherListeLecons(el.dataset.composante);
+      }
+    });
+  });
+}
+
+// ===== ECRAN DE DEBLOCAGE (PAYWALL) =====
+function afficherPaywall(compTitre) {
+  etatNav.enPaywall = true;
+  const matiere = MATIERES[etatNav.matiere];
+  const zone = document.getElementById('matiere-content');
+
+  document.getElementById('matiere-titre').textContent = "Contenu Premium";
+  document.getElementById('btn-back').style.display = 'inline-block';
+
+  zone.innerHTML = `
+    <div class="paywall">
+      <div class="paywall-icone">🔒</div>
+      <h3 class="paywall-titre">${compTitre}</h3>
+      <p class="paywall-texte">Débloque tout le programme premium de <strong>${matiere.nom}</strong> pour :</p>
+      <div class="paywall-prix">3000 Ar</div>
+
+      <div class="etape">
+        <div class="etape-numero">1</div>
+        <div class="etape-texte">Envoie 3000 Ar via Mobile Money à l'un de ces numéros :</div>
+      </div>
+      <div class="mobile-money-liste">
+        <div class="mm-item"><span class="mm-operateur">Mvola</span><span class="mm-numero">034 399 49 07</span></div>
+        <div class="mm-item"><span class="mm-operateur">Airtel Money</span><span class="mm-numero">033 164 43 49</span></div>
+        <div class="mm-item"><span class="mm-operateur">Orange Money</span><span class="mm-numero">032 241 59 98</span></div>
+      </div>
+
+      <div class="etape">
+        <div class="etape-numero">2</div>
+        <div class="etape-texte">Envoie une capture de la transaction par SMS ou WhatsApp au même numéro, avec ton nom.</div>
+      </div>
+
+      <div class="etape">
+        <div class="etape-numero">3</div>
+        <div class="etape-texte">Tu recevras ton code personnel. Entre-le ci-dessous :</div>
+      </div>
+
+      <input type="text" id="input-code" class="input-code" placeholder="GUIDE-XXXX-0000-0000" autocapitalize="characters">
+      <button id="btn-valider-code" class="btn-valider">Valider le code</button>
+      <div id="message-code" class="message-code"></div>
+    </div>
+  `;
+
+  document.getElementById('btn-valider-code').addEventListener('click', () => {
+    const saisie = document.getElementById('input-code').value;
+    const msgZone = document.getElementById('message-code');
+    if (verifierCode(saisie, matiere.codeMatiere)) {
+      debloquerMatiere(etatNav.matiere);
+      msgZone.textContent = "✅ Contenu débloqué ! Retourne à la liste des chapitres.";
+      msgZone.className = "message-code succes";
+    } else {
+      msgZone.textContent = "❌ Code invalide. Vérifie et réessaie.";
+      msgZone.className = "message-code erreur";
+    }
   });
 }
 
@@ -165,6 +269,7 @@ function afficherListeComposantes() {
 function afficherListeLecons(composanteId) {
   etatNav.composante = composanteId;
   etatNav.lecon = null;
+  etatNav.enPaywall = false;
 
   const composante = etatNav.data.composantes.find(c => c.id === composanteId);
   const zone = document.getElementById('matiere-content');
@@ -256,7 +361,9 @@ function afficherLecon(leconId) {
 
 // ===== BOUTON RETOUR =====
 document.getElementById('btn-back').addEventListener('click', () => {
-  if (etatNav.lecon) {
+  if (etatNav.enPaywall) {
+    afficherListeComposantes();
+  } else if (etatNav.lecon) {
     afficherListeLecons(etatNav.composante);
   } else if (etatNav.composante) {
     afficherListeComposantes();
