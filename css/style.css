@@ -239,21 +239,29 @@ main {
 }
 
 /* ===== SCHEMAS GEOMETRIQUES (SVG) ===== */
+/* color-scheme + forced-color-adjust empêchent le mode sombre du téléphone
+   d'inverser ou de modifier les couleurs du schéma */
 .bloc-schema {
   border-left: 4px solid #64748b;
   text-align: center;
+  color-scheme: light;
 }
 .schema-svg {
-  background: #ffffff;
+  background: #ffffff !important;
   display: inline-block;
   padding: 10px;
   border-radius: 8px;
   max-width: 100%;
+  color-scheme: light;
+  forced-color-adjust: none;
 }
 .schema-svg svg {
-  max-width: 100%;
+  width: 100%;
+  max-width: 280px;
   height: auto;
   display: block;
+  margin: 0 auto;
+  forced-color-adjust: none;
 }
 .schema-legende {
   font-size: 13px;
