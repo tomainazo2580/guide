@@ -1,99 +1,82 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <meta name="theme-color" content="#2563eb">
-  <title>Guide - Révision BEPC</title>
-  <link rel="manifest" href="manifest.json">
-  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icons/icon.svg">
-  <link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guide - Révision BEPC</title>
+<link rel="manifest" href="./manifest.json">
+<link rel="icon" href="./icons/icon.svg">
+<link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
-  <!-- HEADER -->
-  <header class="app-header">
-    <div class="logo">📘 Guide</div>
-    <button id="theme-toggle" class="icon-btn" aria-label="Changer de thème">🌙</button>
-  </header>
+<header class="app-header">
+  <div class="logo">📘 Guide</div>
+  <button id="theme-toggle" class="theme-toggle">🌙</button>
+</header>
 
-  <!-- CONTENU PRINCIPAL -->
-  <main id="main-content">
+<main>
 
-    <!-- VUE : ACCUEIL -->
-    <section class="view active" id="view-accueil">
-      <h1>Bienvenue sur Guide</h1>
-      <p class="subtitle">Révision BEPC — hors ligne</p>
-
-      <div class="matieres-grid">
-        <div class="matiere-card" data-matiere="mathematiques">
-          <span class="matiere-icon">📐</span>
-          <span>Mathématiques</span>
-        </div>
-        <div class="matiere-card" data-matiere="francais">
-          <span class="matiere-icon">📖</span>
-          <span>Français</span>
-        </div>
-        <div class="matiere-card" data-matiere="malagasy">
-          <span class="matiere-icon">🗣️</span>
-          <span>Malagasy</span>
-        </div>
-        <div class="matiere-card" data-matiere="histoire-geo">
-          <span class="matiere-icon">🌍</span>
-          <span>Histoire-Géo</span>
-        </div>
-        <div class="matiere-card" data-matiere="sciences">
-          <span class="matiere-icon">🔬</span>
-          <span>Sciences</span>
-        </div>
-        <div class="matiere-card" data-matiere="anglais">
-          <span class="matiere-icon">🇬🇧</span>
-          <span>Anglais</span>
-        </div>
+  <!-- VUE ACCUEIL -->
+  <div id="view-accueil" class="view active">
+    <h2 class="section-title">Mes matières</h2>
+    <div class="grille-matieres">
+      <div class="carte-matiere" data-matiere="maths">
+        <div class="icone-matiere">📐</div>
+        <div class="nom-matiere">Mathématiques</div>
       </div>
-    </section>
+      <div class="carte-matiere" data-matiere="francais">
+        <div class="icone-matiere">📖</div>
+        <div class="nom-matiere">Français</div>
+      </div>
+      <div class="carte-matiere" data-matiere="malagasy">
+        <div class="icone-matiere">🗣️</div>
+        <div class="nom-matiere">Malagasy</div>
+      </div>
+      <div class="carte-matiere" data-matiere="histoiregeo">
+        <div class="icone-matiere">🌍</div>
+        <div class="nom-matiere">Histoire-Géo</div>
+      </div>
+      <div class="carte-matiere" data-matiere="sciences">
+        <div class="icone-matiere">🔬</div>
+        <div class="nom-matiere">Sciences</div>
+      </div>
+      <div class="carte-matiere" data-matiere="anglais">
+        <div class="icone-matiere">🇬🇧</div>
+        <div class="nom-matiere">Anglais</div>
+      </div>
+    </div>
+  </div>
 
-    <!-- VUE : UNE MATIERE (placeholder pour l'instant) -->
-    <section class="view" id="view-matiere">
-      <button class="back-btn" id="back-to-accueil">← Retour</button>
+  <!-- VUE MATIERE (cours) -->
+  <div id="view-matiere" class="view">
+    <div class="breadcrumb">
+      <button id="btn-back" class="btn-back">← Retour</button>
       <h2 id="matiere-titre">Matière</h2>
-      <p class="empty-state">Les cours arriveront ici (Étape 3).</p>
-    </section>
+    </div>
+    <div id="matiere-content"></div>
+  </div>
 
-    <!-- VUE : MES NOTES -->
-    <section class="view" id="view-notes">
-      <h2>Mes notes personnelles</h2>
-      <p class="empty-state">Ajoute tes propres fiches ici (bientôt disponible).</p>
-    </section>
+  <!-- VUE MES NOTES -->
+  <div id="view-notes" class="view">
+    <h2 class="section-title">Mes notes</h2>
+    <p class="placeholder-text">Tu pourras bientôt ajouter tes propres notes ici.</p>
+  </div>
 
-    <!-- VUE : PARAMETRES -->
-    <section class="view" id="view-parametres">
-      <h2>Paramètres</h2>
-      <div class="setting-row">
-        <span>Thème sombre</span>
-        <label class="switch">
-          <input type="checkbox" id="theme-switch">
-          <span class="slider"></span>
-        </label>
-      </div>
-    </section>
+  <!-- VUE PARAMETRES -->
+  <div id="view-parametres" class="view">
+    <h2 class="section-title">Réglages</h2>
+    <p class="placeholder-text">Version 0.3 — Guide BEPC</p>
+  </div>
 
-  </main>
+</main>
 
-  <!-- NAVIGATION BASSE (style app mobile) -->
-  <nav class="bottom-nav">
-    <button class="nav-btn active" data-view="view-accueil">
-      <span>🏠</span><small>Accueil</small>
-    </button>
-    <button class="nav-btn" data-view="view-notes">
-      <span>📝</span><small>Mes notes</small>
-    </button>
-    <button class="nav-btn" data-view="view-parametres">
-      <span>⚙️</span><small>Réglages</small>
-    </button>
-  </nav>
+<nav class="bottom-nav">
+  <button class="nav-btn active" data-view="accueil">🏠<span>Accueil</span></button>
+  <button class="nav-btn" data-view="notes">📝<span>Mes notes</span></button>
+  <button class="nav-btn" data-view="parametres">⚙️<span>Réglages</span></button>
+</nav>
 
-  <script src="js/app.js"></script>
+<script src="./js/app.js"></script>
 </body>
 </html>
