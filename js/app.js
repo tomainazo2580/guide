@@ -1,394 +1,625 @@
-// ===== CONFIGURATION DES MATIERES =====
-const MATIERES = {
-  maths: { nom: "Mathématiques", fichier: "./data/maths-t9.json", disponible: true, codeMatiere: "MATH" },
-  francais: { nom: "Français", fichier: null, disponible: false, codeMatiere: "FRAN" },
-  malagasy: { nom: "Malagasy", fichier: null, disponible: false, codeMatiere: "MALG" },
-  histoiregeo: { nom: "Histoire-Géo", fichier: null, disponible: false, codeMatiere: "HGEO" },
-  sciences: { nom: "Sciences", fichier: null, disponible: false, codeMatiere: "SCIE" },
-  anglais: { nom: "Anglais", fichier: null, disponible: false, codeMatiere: "ANGL" }
+// ============================================
+// GUIDE — app.js
+// Application de révision offline multi-classes
+// ============================================
+
+const SEL_SECRET = "BEPC2026MDG";
+
+// ---------- DONNÉES DE STRUCTURE ----------
+
+const CLASSES = [
+  { id: '6e',   nom: '6ème',      disponible: false },
+  { id: '5e',   nom: '5ème',      disponible: false },
+  { id: '4e',   nom: '4ème',      disponible: false },
+  { id: '3e',   nom: 'Troisième', disponible: true  },
+  { id: '2nd',  nom: 'Seconde',   disponible: false },
+  { id: '1ere', nom: 'Première',  disponible: false },
+  { id: 'tle',  nom: 'Terminale', disponible: true  }
+];
+
+const MATIERES_PAR_CLASSE = {
+  '3e': [
+    { id: 'malagasy',           code: 'MALG', nom: 'Malagasy',           icone: '📚', disponible: false, fichier: './data/3e/malagasy.json' },
+    { id: 'francais',           code: 'FRAN', nom: 'Français',           icone: '📖', disponible: false, fichier: './data/3e/francais.json' },
+    { id: 'anglais',            code: 'ANGL', nom: 'Anglais',            icone: '🌍', disponible: false, fichier: './data/3e/anglais.json' },
+    { id: 'mathematiques',      code: 'MATH', nom: 'Mathématiques',      icone: '📐', disponible: true,  fichier: './data/3e/mathematiques.json' },
+    { id: 'svt',                code: 'SVT',  nom: 'SVT',                icone: '🔬', disponible: false, fichier: './data/3e/svt.json' },
+    { id: 'sciences-physiques', code: 'SPHY', nom: 'Sciences Physiques', icone: '⚛️', disponible: false, fichier: './data/3e/sciences-physiques.json' },
+    { id: 'histoire',           code: 'HIST', nom: 'Histoire',           icone: '🏛️', disponible: false, fichier: './data/3e/histoire.json' },
+    { id: 'geographie',         code: 'GEOG', nom: 'Géographie',         icone: '🗺️', disponible: false, fichier: './data/3e/geographie.json' }
+  ],
+  'tle': [
+    { id: 'malagasy',        code: 'MALG', nom: 'Malagasy',            icone: '📚', disponible: false, fichier: './data/tle/malagasy.json' },
+    { id: 'francais',        code: 'FRAN', nom: 'Français',            icone: '📖', disponible: false, fichier: './data/tle/francais.json' },
+    { id: 'anglais',         code: 'ANGL', nom: 'Anglais',             icone: '🌍', disponible: false, fichier: './data/tle/anglais.json' },
+    { id: 'mathematiques',   code: 'MATH', nom: 'Mathématiques',       icone: '📐', disponible: false, fichier: './data/tle/mathematiques.json' },
+    { id: 'svt',             code: 'SVT',  nom: 'SVT',                 icone: '🔬', disponible: false, fichier: './data/tle/svt.json' },
+    { id: 'physique-chimie', code: 'PCHI', nom: 'Physique / Chimie',   icone: '⚛️', disponible: false, fichier: './data/tle/physique-chimie.json' },
+    { id: 'histoire-geo',    code: 'HGEO', nom: 'Histoire-Géographie', icone: '🗺️', disponible: false, fichier: './data/tle/histoire-geographie.json' },
+    { id: 'philosophie',     code: 'PHIL', nom: 'Philosophie',         icone: '🧠', disponible: false, fichier: './data/tle/philosophie.json' }
+  ]
 };
 
 const LABELS_TYPE = {
-  definition: "📘 Définition",
-  formule: "🧮 Formule",
-  exemple: "✏️ Exemple",
-  regle: "📏 Règle",
-  remarque: "💡 Remarque",
-  theoreme: "⭐ Théorème",
-  methode: "🛠️ Méthode"
+  definition: { label: '📘 Définition', classe: 'bloc-definition' },
+  formule:    { label: '🧮 Formule',    classe: 'bloc-formule' },
+  exemple:    { label: '✏️ Exemple',    classe: 'bloc-exemple' },
+  regle:      { label: '📏 Règle',      classe: 'bloc-regle' },
+  remarque:   { label: '💡 Remarque',   classe: 'bloc-remarque' },
+  theoreme:   { label: '🔺 Théorème',   classe: 'bloc-theoreme' },
+  methode:    { label: '🛠️ Méthode',    classe: 'bloc-methode' }
 };
 
-let etatNav = { matiere: null, composante: null, lecon: null, data: null, enPaywall: false };
+// ---------- ÉTAT DE NAVIGATION ----------
 
-// ===== SYSTEME DE CODES (déblocage premium) =====
-// ATTENTION : ce sel secret doit être IDENTIQUE dans outil-codes.html
-const SEL_SECRET = "BEPC2026MDG";
+const etat = {
+  niveau: 'classes',
+  classe: null,
+  matiere: null,
+  dataMatiere: null,
+  composante: null,
+  lecon: null,
+  compPaywall: null,
+  cache: {}
+};
 
-function calculerChecksum(matiereCode, serial) {
-  const chaine = matiereCode + serial + SEL_SECRET;
-  let somme = 0;
-  for (let i = 0; i < chaine.length; i++) {
-    somme += chaine.charCodeAt(i) * (i + 1);
-  }
-  return String(somme % 10000).padStart(4, '0');
-}
+// ---------- OUTILS DOM ----------
 
-function verifierCode(saisie, matiereCode) {
-  const nettoye = saisie.trim().toUpperCase();
-  const parts = nettoye.split('-');
-  if (parts.length !== 4) return false;
-  if (parts[0] !== 'GUIDE') return false;
-  if (parts[1] !== matiereCode) return false;
-  const serial = parts[2];
-  const checksumSaisi = parts[3];
-  if (!/^\d{4}$/.test(serial) || !/^\d{4}$/.test(checksumSaisi)) return false;
-  return checksumSaisi === calculerChecksum(matiereCode, serial);
+function $(id) { return document.getElementById(id); }
+
+function afficherVue(nom) {
+  document.querySelectorAll('.view').forEach(v => v.hidden = true);
+  $('view-' + nom).hidden = false;
 }
 
-function chargerDeblocages() {
-  return JSON.parse(localStorage.getItem('guide-deblocages') || '{}');
-}
-function estMatiereDebloquee(matiereId) {
-  const deb = chargerDeblocages();
-  return !!deb[matiereId];
-}
-function debloquerMatiere(matiereId) {
-  const deb = chargerDeblocages();
-  deb[matiereId] = true;
-  localStorage.setItem('guide-deblocages', JSON.stringify(deb));
+function majBoutonRetour(visible) {
+  $('btn-retour').hidden = !visible;
 }
 
-// ===== PROGRESSION (stockage local) =====
-function chargerProgression() {
-  return JSON.parse(localStorage.getItem('guide-progression') || '{}');
-}
-function sauvegarderProgression(prog) {
-  localStorage.setItem('guide-progression', JSON.stringify(prog));
-}
-function marquerLeconVue(matiereId, leconId) {
-  const prog = chargerProgression();
-  if (!prog[matiereId]) prog[matiereId] = [];
-  if (!prog[matiereId].includes(leconId)) {
-    prog[matiereId].push(leconId);
-    sauvegarderProgression(prog);
-  }
-}
-function leconEstVue(matiereId, leconId) {
-  const prog = chargerProgression();
-  return !!(prog[matiereId] && prog[matiereId].includes(leconId));
-}
-function compterLeconsVues(matiereId, idsLecons) {
-  const prog = chargerProgression();
-  const vues = prog[matiereId] || [];
-  return idsLecons.filter(id => vues.includes(id)).length;
-}
-function reinitialiserProgression() {
-  localStorage.removeItem('guide-progression');
-}
+// ============================================
+// NIVEAU 1 — CHOIX DE LA CLASSE
+// ============================================
 
-function barreProgressionHTML(vues, total) {
-  const pourcentage = total > 0 ? Math.round((vues / total) * 100) : 0;
-  return `
-    <div class="progression-wrapper">
-      <div class="progression-texte">${vues}/${total} leçons vues</div>
-      <div class="barre-progression">
-        <div class="barre-progression-fill" style="width:${pourcentage}%"></div>
-      </div>
-    </div>`;
-}
-
-// ===== THEME JOUR/NUIT =====
-const themeToggle = document.getElementById('theme-toggle');
-function appliquerTheme(theme) {
-  document.documentElement.setAttribute('data-theme', theme);
-  themeToggle.textContent = theme === 'dark' ? '☀️' : '🌙';
-  localStorage.setItem('guide-theme', theme);
-}
-const themeSauve = localStorage.getItem('guide-theme') || 'light';
-appliquerTheme(themeSauve);
-themeToggle.addEventListener('click', () => {
-  const actuel = document.documentElement.getAttribute('data-theme');
-  appliquerTheme(actuel === 'dark' ? 'light' : 'dark');
-});
-
-// ===== NAVIGATION ENTRE VUES PRINCIPALES =====
-function afficherVue(nomVue) {
-  document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
-  document.getElementById('view-' + nomVue).classList.add('active');
-  document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
-  const btn = document.querySelector(`.nav-btn[data-view="${nomVue}"]`);
-  if (btn) btn.classList.add('active');
-}
-
-document.querySelectorAll('.nav-btn').forEach(btn => {
-  btn.addEventListener('click', () => afficherVue(btn.dataset.view));
-});
-
-// ===== CLIC SUR UNE CARTE MATIERE =====
-document.querySelectorAll('.carte-matiere').forEach(carte => {
-  carte.addEventListener('click', () => {
-    const id = carte.dataset.matiere;
-    ouvrirMatiere(id);
+function renderClasses() {
+  const grille = $('grille-classes');
+  grille.innerHTML = '';
+  CLASSES.forEach(c => {
+    const carte = document.createElement('div');
+    carte.className = 'carte-classe' + (c.disponible ? '' : ' indisponible');
+    carte.innerHTML = `
+      <div class="carte-classe-nom">${c.nom}</div>
+      <div class="carte-classe-statut">${c.disponible ? 'Disponible' : 'Bientôt disponible'}</div>
+    `;
+    if (c.disponible) {
+      carte.addEventListener('click', () => selectionnerClasse(c.id));
+    }
+    grille.appendChild(carte);
   });
-});
+}
 
-async function ouvrirMatiere(id) {
-  const matiere = MATIERES[id];
-  etatNav = { matiere: id, composante: null, lecon: null, data: null, enPaywall: false };
+function selectionnerClasse(classeId) {
+  etat.classe = classeId;
+  etat.niveau = 'matieres';
+  afficherVue('matieres');
+  majBoutonRetour(true);
+  renderMatieres();
+}
 
-  document.getElementById('matiere-titre').textContent = matiere.nom;
-  document.getElementById('btn-back').style.display = 'none';
+// ============================================
+// NIVEAU 2 — CHOIX DE LA MATIÈRE
+// ============================================
 
-  afficherVue('matiere');
+function renderMatieres() {
+  const classeObj = CLASSES.find(c => c.id === etat.classe);
+  $('sous-titre-matieres').textContent = classeObj ? classeObj.nom : 'Choisis ta matière';
 
-  const zone = document.getElementById('matiere-content');
+  const grille = $('grille-matieres');
+  grille.innerHTML = '';
 
-  if (!matiere.disponible) {
-    zone.innerHTML = `<p class="placeholder-text">📚 Cours bientôt disponible pour cette matière.</p>`;
+  const matieres = MATIERES_PAR_CLASSE[etat.classe] || [];
+  matieres.forEach(m => {
+    const carte = document.createElement('div');
+    carte.className = 'carte-matiere' + (m.disponible ? '' : ' indisponible');
+    carte.innerHTML = `
+      <div class="carte-matiere-icone">${m.icone}</div>
+      <div class="carte-matiere-nom">${m.nom}</div>
+      <div class="carte-matiere-statut">${m.disponible ? '' : 'Bientôt disponible'}</div>
+    `;
+    if (m.disponible) {
+      carte.addEventListener('click', () => selectionnerMatiere(m));
+    }
+    grille.appendChild(carte);
+  });
+}
+
+async function selectionnerMatiere(matiere) {
+  etat.matiere = matiere;
+  const cleCache = etat.classe + '-' + matiere.id;
+
+  if (etat.cache[cleCache]) {
+    etat.dataMatiere = etat.cache[cleCache];
+    ouvrirMatiere();
     return;
   }
-
-  zone.innerHTML = `<p class="placeholder-text">Chargement...</p>`;
 
   try {
     const reponse = await fetch(matiere.fichier);
     const data = await reponse.json();
-    etatNav.data = data;
-    afficherListeComposantes();
-  } catch (erreur) {
-    zone.innerHTML = `<p class="placeholder-text">⚠️ Erreur de chargement du cours.</p>`;
-    console.error(erreur);
+    etat.cache[cleCache] = data;
+    etat.dataMatiere = data;
+    ouvrirMatiere();
+  } catch (e) {
+    alert("Impossible de charger cette matière pour le moment.");
   }
 }
 
-// ===== NIVEAU 1 : LISTE DES COMPOSANTES =====
+function ouvrirMatiere() {
+  etat.niveau = 'composantes';
+  afficherVue('matiere');
+  majBoutonRetour(true);
+  afficherListeComposantes();
+}
+
+// ============================================
+// NIVEAU 3 — LISTE DES COMPOSANTES
+// ============================================
+
 function afficherListeComposantes() {
-  etatNav.enPaywall = false;
-  const zone = document.getElementById('matiere-content');
-  document.getElementById('matiere-titre').textContent = etatNav.data.matiere;
-  document.getElementById('btn-back').style.display = 'none';
+  const classeNom = CLASSES.find(c => c.id === etat.classe).nom;
+  $('fil-ariane').textContent = classeNom + ' › ' + etat.matiere.nom;
 
-  let idsToutesLecons = [];
-  etatNav.data.composantes.forEach(comp => {
-    comp.lecons.forEach(l => idsToutesLecons.push(l.id));
-  });
-  const totalLeconsMatiere = idsToutesLecons.length;
-  const vuesMatiere = compterLeconsVues(etatNav.matiere, idsToutesLecons);
+  const debloque = estMatiereDebloquee(etat.classe, etat.matiere.code);
+  const conteneur = $('matiere-contenu');
+  conteneur.innerHTML = '<div class="liste-cartes" id="liste-composantes"></div>';
+  const liste = $('liste-composantes');
 
-  let html = barreProgressionHTML(vuesMatiere, totalLeconsMatiere);
-  html += '<div class="liste-cartes">';
+  etat.dataMatiere.composantes.forEach(comp => {
+    const verrouille = comp.premium && !debloque;
+    const pourcentage = calculerPourcentageComposante(etat.classe, etat.matiere.id, comp);
 
-  etatNav.data.composantes.forEach(comp => {
-    const verrouille = comp.premium && !estMatiereDebloquee(etatNav.matiere);
-    const cadenas = verrouille ? ' 🔒' : '';
-    const idsLecons = comp.lecons.map(l => l.id);
-    const vues = compterLeconsVues(etatNav.matiere, idsLecons);
-    const total = idsLecons.length;
-    html += `
-      <div class="carte-liste ${verrouille ? 'verrouille' : ''}" data-composante="${comp.id}" data-verrouille="${verrouille}">
-        <div class="carte-liste-texte">
-          <span>${comp.titre}${cadenas}</span>
-          <span class="mini-progression">${vues}/${total}</span>
-        </div>
-        <span class="fleche">›</span>
-      </div>`;
-  });
-  html += '</div>';
-  zone.innerHTML = html;
-
-  document.querySelectorAll('.carte-liste[data-composante]').forEach(el => {
-    el.addEventListener('click', () => {
-      const verrouille = el.dataset.verrouille === 'true';
+    const carte = document.createElement('div');
+    carte.className = 'carte-liste' + (verrouille ? ' verrouille' : '');
+    carte.innerHTML = `
+      <div class="carte-liste-titre">${comp.titre} ${verrouille ? '🔒' : ''}</div>
+      ${!verrouille ? `
+        <div class="mini-progression">
+          <div class="mini-progression-barre"><div class="mini-progression-remplie" style="width:${pourcentage}%"></div></div>
+          <span class="mini-progression-texte">${pourcentage}%</span>
+        </div>` : '<div class="carte-liste-souscription">Chapitre premium — 3000 Ar</div>'}
+    `;
+    carte.addEventListener('click', () => {
       if (verrouille) {
-        const comp = etatNav.data.composantes.find(c => c.id === el.dataset.composante);
-        afficherPaywall(comp.titre);
+        afficherPaywall(comp);
       } else {
-        afficherListeLecons(el.dataset.composante);
+        selectionnerComposante(comp);
       }
     });
+    liste.appendChild(carte);
   });
 }
 
-// ===== ECRAN DE DEBLOCAGE (PAYWALL) =====
-function afficherPaywall(compTitre) {
-  etatNav.enPaywall = true;
-  const matiere = MATIERES[etatNav.matiere];
-  const zone = document.getElementById('matiere-content');
+function selectionnerComposante(comp) {
+  etat.composante = comp;
+  etat.niveau = 'lecons';
+  afficherListeLecons();
+}
 
-  document.getElementById('matiere-titre').textContent = "Contenu Premium";
-  document.getElementById('btn-back').style.display = 'inline-block';
+// ============================================
+// NIVEAU 4 — LISTE DES LEÇONS
+// ============================================
 
-  zone.innerHTML = `
+function afficherListeLecons() {
+  const classeNom = CLASSES.find(c => c.id === etat.classe).nom;
+  $('fil-ariane').textContent = classeNom + ' › ' + etat.matiere.nom + ' › ' + etat.composante.titre;
+
+  const conteneur = $('matiere-contenu');
+  conteneur.innerHTML = '<div class="liste-cartes" id="liste-lecons"></div>';
+  const liste = $('liste-lecons');
+
+  etat.composante.lecons.forEach(lecon => {
+    const vue = estLeconVue(etat.classe, etat.matiere.id, lecon.id);
+    const carte = document.createElement('div');
+    carte.className = 'carte-liste';
+    carte.innerHTML = `<div class="carte-liste-titre">${lecon.titre} ${vue ? '✅' : ''}</div>`;
+    carte.addEventListener('click', () => selectionnerLecon(lecon));
+    liste.appendChild(carte);
+  });
+}
+
+function selectionnerLecon(lecon) {
+  etat.lecon = lecon;
+  etat.niveau = 'contenu';
+  marquerLeconVue(etat.classe, etat.matiere.id, lecon.id);
+  afficherContenuLecon();
+}
+
+// ============================================
+// NIVEAU 5 — CONTENU D'UNE LEÇON
+// ============================================
+
+function afficherContenuLecon() {
+  const classeNom = CLASSES.find(c => c.id === etat.classe).nom;
+  $('fil-ariane').textContent = classeNom + ' › ' + etat.matiere.nom + ' › ' + etat.composante.titre + ' › ' + etat.lecon.titre;
+
+  const conteneur = $('matiere-contenu');
+  let html = `<h2 class="titre-lecon">${etat.lecon.titre}</h2>`;
+
+  etat.lecon.contenu.forEach(bloc => {
+    html += renderBloc(bloc);
+  });
+
+  if (etat.lecon.lexique && etat.lecon.lexique.length > 0) {
+    html += renderLexique(etat.lecon.lexique);
+  }
+
+  conteneur.innerHTML = html;
+}
+
+function renderBloc(bloc) {
+  if (bloc.type === 'schema') {
+    return `
+      <div class="bloc-schema">
+        ${bloc.titre ? `<div class="bloc-schema-titre">${bloc.titre}</div>` : ''}
+        <div class="schema-svg">${bloc.svg}</div>
+      </div>`;
+  }
+
+  if (bloc.type === 'tableau') {
+    let html = `<div class="bloc-tableau">`;
+    if (bloc.titre) html += `<div class="bloc-tableau-titre">${bloc.titre}</div>`;
+    html += `<table class="tableau-donnees"><thead><tr>`;
+    bloc.entetes.forEach(e => html += `<th>${e}</th>`);
+    html += `</tr></thead><tbody>`;
+    bloc.lignes.forEach(ligne => {
+      html += '<tr>';
+      ligne.forEach(cell => html += `<td>${cell}</td>`);
+      html += '</tr>';
+    });
+    html += '</tbody></table></div>';
+    return html;
+  }
+
+  const info = LABELS_TYPE[bloc.type];
+  if (info) {
+    return `
+      <div class="bloc-pedagogique ${info.classe}">
+        <div class="bloc-label">${info.label}</div>
+        <div class="bloc-texte">${bloc.texte}</div>
+      </div>`;
+  }
+
+  return `<p class="bloc-texte-simple">${bloc.texte || ''}</p>`;
+}
+
+function renderLexique(lexique) {
+  let html = `<details class="lexique"><summary>📖 Mots difficiles</summary><ul class="lexique-liste">`;
+  lexique.forEach(item => {
+    html += `<li><strong>${item.mot}</strong> — ${item.definition}</li>`;
+  });
+  html += '</ul></details>';
+  return html;
+}
+
+// ============================================
+// PAYWALL — DÉBLOCAGE MOBILE MONEY
+// ============================================
+
+function afficherPaywall(comp) {
+  etat.compPaywall = comp;
+  etat.niveau = 'paywall';
+
+  const classeNom = CLASSES.find(c => c.id === etat.classe).nom;
+  $('fil-ariane').textContent = classeNom + ' › ' + etat.matiere.nom + ' › Débloquer';
+
+  const conteneur = $('matiere-contenu');
+  conteneur.innerHTML = `
     <div class="paywall">
       <div class="paywall-icone">🔒</div>
-      <h3 class="paywall-titre">${compTitre}</h3>
-      <p class="paywall-texte">Débloque tout le programme premium de <strong>${matiere.nom}</strong> pour :</p>
+      <div class="paywall-titre">${comp.titre}</div>
+      <p class="paywall-texte">Débloque toutes les leçons premium de ${etat.matiere.nom} (${classeNom}) pour :</p>
       <div class="paywall-prix">3000 Ar</div>
 
       <div class="etape">
         <div class="etape-numero">1</div>
-        <div class="etape-texte">Envoie 3000 Ar via Mobile Money à l'un de ces numéros :</div>
+        <div class="etape-texte">Envoie 3000 Ar à l'un de ces numéros (nom : Tiana Stephan)</div>
       </div>
+
       <div class="mobile-money-liste">
-        <div class="mm-item"><span class="mm-operateur">Mvola</span><span class="mm-numero">034 399 49 07</span></div>
-        <div class="mm-item"><span class="mm-operateur">Airtel Money</span><span class="mm-numero">033 164 43 49</span></div>
-        <div class="mm-item"><span class="mm-operateur">Orange Money</span><span class="mm-numero">032 241 59 98</span></div>
+        <div class="mm-item"><span class="mm-operateur">Mvola</span><span class="mm-numero">034 39 949 07</span></div>
+        <div class="mm-item"><span class="mm-operateur">Airtel Money</span><span class="mm-numero">033 16 443 49</span></div>
+        <div class="mm-item"><span class="mm-operateur">Orange Money</span><span class="mm-numero">032 24 159 98</span></div>
       </div>
 
       <div class="etape">
         <div class="etape-numero">2</div>
-        <div class="etape-texte">Envoie une capture de la transaction par SMS ou WhatsApp au même numéro, avec ton nom.</div>
+        <div class="etape-texte">Envoie une capture d'écran de la preuve de paiement (WhatsApp, SMS...)</div>
       </div>
 
       <div class="etape">
         <div class="etape-numero">3</div>
-        <div class="etape-texte">Tu recevras ton code personnel. Entre-le ci-dessous :</div>
+        <div class="etape-texte">Reçois ton code personnel et colle-le ci-dessous</div>
       </div>
 
-      <input type="text" id="input-code" class="input-code" placeholder="GUIDE-XXXX-0000-0000" autocapitalize="characters">
+      <input type="text" id="input-code" class="input-code" placeholder="GUIDE-CLASSE-MATIERE-0000-0000" maxlength="40">
       <button id="btn-valider-code" class="btn-valider">Valider le code</button>
       <div id="message-code" class="message-code"></div>
     </div>
   `;
 
-  document.getElementById('btn-valider-code').addEventListener('click', () => {
-    const saisie = document.getElementById('input-code').value;
-    const msgZone = document.getElementById('message-code');
-    if (verifierCode(saisie, matiere.codeMatiere)) {
-      debloquerMatiere(etatNav.matiere);
-      msgZone.textContent = "✅ Contenu débloqué ! Retourne à la liste des chapitres.";
-      msgZone.className = "message-code succes";
-    } else {
-      msgZone.textContent = "❌ Code invalide. Vérifie et réessaie.";
-      msgZone.className = "message-code erreur";
-    }
-  });
+  $('btn-valider-code').addEventListener('click', traiterValidationCode);
 }
 
-// ===== NIVEAU 2 : LISTE DES LECONS D'UNE COMPOSANTE =====
-function afficherListeLecons(composanteId) {
-  etatNav.composante = composanteId;
-  etatNav.lecon = null;
-  etatNav.enPaywall = false;
+function traiterValidationCode() {
+  const saisie = $('input-code').value;
+  const resultat = verifierCode(saisie, etat.classe, etat.matiere.code);
+  const messageEl = $('message-code');
 
-  const composante = etatNav.data.composantes.find(c => c.id === composanteId);
-  const zone = document.getElementById('matiere-content');
-
-  document.getElementById('matiere-titre').textContent = composante.titre;
-  document.getElementById('btn-back').style.display = 'inline-block';
-
-  const idsLecons = composante.lecons.map(l => l.id);
-  const vues = compterLeconsVues(etatNav.matiere, idsLecons);
-
-  let html = barreProgressionHTML(vues, idsLecons.length);
-  html += '<div class="liste-cartes">';
-
-  composante.lecons.forEach(lecon => {
-    const vu = leconEstVue(etatNav.matiere, lecon.id);
-    const coche = vu ? '<span class="coche-vue">✅</span>' : '';
-    html += `
-      <div class="carte-liste" data-lecon="${lecon.id}">
-        <div class="carte-liste-texte">
-          <span>${lecon.titre}</span>
-        </div>
-        ${coche}
-        <span class="fleche">›</span>
-      </div>`;
-  });
-  html += '</div>';
-  zone.innerHTML = html;
-
-  document.querySelectorAll('.carte-liste[data-lecon]').forEach(el => {
-    el.addEventListener('click', () => afficherLecon(el.dataset.lecon));
-  });
+  if (resultat) {
+    debloquerMatiere(etat.classe, etat.matiere.code);
+    messageEl.textContent = '✅ Code valide ! Matière débloquée.';
+    messageEl.className = 'message-code succes';
+    setTimeout(() => {
+      etat.niveau = 'composantes';
+      afficherListeComposantes();
+    }, 1500);
+  } else {
+    messageEl.textContent = '❌ Code invalide. Vérifie et réessaie.';
+    messageEl.className = 'message-code erreur';
+  }
 }
 
-// ===== NIVEAU 3 : CONTENU D'UNE LECON =====
-function afficherLecon(leconId) {
-  etatNav.lecon = leconId;
+// ---------- ALGORITHME DE CODE ----------
 
-  marquerLeconVue(etatNav.matiere, leconId);
+function calculerChecksum(classeId, matiereCode, serial) {
+  const texte = classeId.toUpperCase() + matiereCode + serial + SEL_SECRET;
+  let somme = 0;
+  for (let i = 0; i < texte.length; i++) {
+    somme += texte.charCodeAt(i) * (i + 1);
+  }
+  const checksum = somme % 10000;
+  return String(checksum).padStart(4, '0');
+}
 
-  const composante = etatNav.data.composantes.find(c => c.id === etatNav.composante);
-  const lecon = composante.lecons.find(l => l.id === leconId);
-  const zone = document.getElementById('matiere-content');
+function verifierCode(saisie, classeId, matiereCode) {
+  if (!saisie) return false;
+  const parties = saisie.trim().toUpperCase().split('-');
+  if (parties.length !== 5) return false;
+  const [prefixe, classePart, matierePart, serial, checksum] = parties;
 
-  document.getElementById('matiere-titre').textContent = lecon.titre;
-  document.getElementById('btn-back').style.display = 'inline-block';
+  if (prefixe !== 'GUIDE') return false;
+  if (classePart !== classeId.toUpperCase()) return false;
+  if (matierePart !== matiereCode) return false;
+  if (!/^\d{4}$/.test(serial)) return false;
+  if (!/^\d{4}$/.test(checksum)) return false;
+
+  const checksumAttendu = calculerChecksum(classeId, matiereCode, serial);
+  return checksum === checksumAttendu;
+}
+
+// ---------- STOCKAGE DES DÉBLOCAGES ----------
+
+function chargerDeblocages() {
+  const brut = localStorage.getItem('guide-deblocages');
+  return brut ? JSON.parse(brut) : {};
+}
+
+function sauvegarderDeblocages(deblocages) {
+  localStorage.setItem('guide-deblocages', JSON.stringify(deblocages));
+}
+
+function cleDeblocage(classeId, matiereCode) {
+  return classeId + '-' + matiereCode;
+}
+
+function estMatiereDebloquee(classeId, matiereCode) {
+  const deblocages = chargerDeblocages();
+  return !!deblocages[cleDeblocage(classeId, matiereCode)];
+}
+
+function debloquerMatiere(classeId, matiereCode) {
+  const deblocages = chargerDeblocages();
+  deblocages[cleDeblocage(classeId, matiereCode)] = true;
+  sauvegarderDeblocages(deblocages);
+}
+
+// ============================================
+// PROGRESSION
+// ============================================
+
+function chargerProgression() {
+  const brut = localStorage.getItem('guide-progression');
+  return brut ? JSON.parse(brut) : {};
+}
+
+function sauvegarderProgression(prog) {
+  localStorage.setItem('guide-progression', JSON.stringify(prog));
+}
+
+function marquerLeconVue(classeId, matiereId, leconId) {
+  const prog = chargerProgression();
+  if (!prog[classeId]) prog[classeId] = {};
+  if (!prog[classeId][matiereId]) prog[classeId][matiereId] = {};
+  prog[classeId][matiereId][leconId] = true;
+  sauvegarderProgression(prog);
+}
+
+function estLeconVue(classeId, matiereId, leconId) {
+  const prog = chargerProgression();
+  return !!(prog[classeId] && prog[classeId][matiereId] && prog[classeId][matiereId][leconId]);
+}
+
+function calculerPourcentageComposante(classeId, matiereId, composante) {
+  const total = composante.lecons.length;
+  if (total === 0) return 0;
+  let vues = 0;
+  composante.lecons.forEach(l => {
+    if (estLeconVue(classeId, matiereId, l.id)) vues++;
+  });
+  return Math.round((vues / total) * 100);
+}
+
+function calculerPourcentageMatiere(classeId, matiereId, dataMatiere) {
+  let total = 0;
+  let vues = 0;
+  dataMatiere.composantes.forEach(comp => {
+    comp.lecons.forEach(l => {
+      total++;
+      if (estLeconVue(classeId, matiereId, l.id)) vues++;
+    });
+  });
+  if (total === 0) return 0;
+  return Math.round((vues / total) * 100);
+}
+
+// ============================================
+// VUE "MES NOTES"
+// ============================================
+
+async function afficherNotes() {
+  const conteneur = $('notes-contenu');
+  conteneur.innerHTML = '<p class="texte-chargement">Chargement...</p>';
 
   let html = '';
-  lecon.contenu.forEach(bloc => {
-    if (bloc.type === 'tableau') {
-      html += `<div class="bloc bloc-tableau">`;
-      if (bloc.titre) html += `<div class="tableau-titre">📊 ${bloc.titre}</div>`;
-      html += `<table>`;
-      bloc.lignes.forEach(ligne => {
-        const valeurs = Object.values(ligne);
-        html += `<tr><td>${valeurs[0]}</td><td>${valeurs[1]}</td></tr>`;
-      });
-      html += `</table></div>`;
-    } else if (bloc.type === 'schema') {
-      html += `<div class="bloc bloc-schema">
-        <div class="schema-svg">${bloc.svg}</div>
-        ${bloc.legende ? `<div class="schema-legende">${bloc.legende}</div>` : ''}
-      </div>`;
-    } else {
-      const label = LABELS_TYPE[bloc.type] || bloc.type;
-      const texte = bloc.texte.replace(/\n/g, '<br>');
-      html += `
-        <div class="bloc bloc-${bloc.type}">
-          <div class="bloc-label">${label}</div>
-          <div class="bloc-texte">${texte}</div>
-        </div>`;
-    }
-  });
+  let auMoinsUne = false;
 
-  if (lecon.lexique && lecon.lexique.length > 0) {
-    html += `<details class="lexique-wrapper">
-      <summary class="lexique-titre">📖 Mots difficiles de cette leçon</summary>
-      <div class="lexique-liste">`;
-    lecon.lexique.forEach(item => {
-      html += `
-        <div class="lexique-item">
-          <span class="lexique-mot">${item.mot}</span> : ${item.definition}
+  for (const classeObj of CLASSES) {
+    if (!classeObj.disponible) continue;
+    const matieres = MATIERES_PAR_CLASSE[classeObj.id] || [];
+    const matieresDisponibles = matieres.filter(m => m.disponible);
+    if (matieresDisponibles.length === 0) continue;
+
+    let blocClasse = `<h3 class="notes-classe-titre">${classeObj.nom}</h3>`;
+    let auMoinsUneMatiere = false;
+
+    for (const m of matieresDisponibles) {
+      const cleCache = classeObj.id + '-' + m.id;
+      let data = etat.cache[cleCache];
+      if (!data) {
+        try {
+          const reponse = await fetch(m.fichier);
+          data = await reponse.json();
+          etat.cache[cleCache] = data;
+        } catch (e) {
+          continue;
+        }
+      }
+      const pourcentage = calculerPourcentageMatiere(classeObj.id, m.id, data);
+      blocClasse += `
+        <div class="notes-matiere">
+          <div class="notes-matiere-nom">${m.icone} ${m.nom}</div>
+          <div class="mini-progression">
+            <div class="mini-progression-barre"><div class="mini-progression-remplie" style="width:${pourcentage}%"></div></div>
+            <span class="mini-progression-texte">${pourcentage}%</span>
+          </div>
         </div>`;
+      auMoinsUneMatiere = true;
+      auMoinsUne = true;
+    }
+
+    if (auMoinsUneMatiere) html += blocClasse;
+  }
+
+  if (!auMoinsUne) {
+    html = '<p class="texte-vide">Aucune matière disponible pour le moment.</p>';
+  }
+
+  conteneur.innerHTML = html;
+}
+
+// ============================================
+// NAVIGATION — BOUTON RETOUR
+// ============================================
+
+function gererRetour() {
+  if (etat.niveau === 'matieres') {
+    etat.niveau = 'classes';
+    afficherVue('classes');
+    majBoutonRetour(false);
+  } else if (etat.niveau === 'composantes') {
+    etat.niveau = 'matieres';
+    afficherVue('matieres');
+    renderMatieres();
+  } else if (etat.niveau === 'lecons') {
+    etat.niveau = 'composantes';
+    afficherListeComposantes();
+  } else if (etat.niveau === 'contenu') {
+    etat.niveau = 'lecons';
+    afficherListeLecons();
+  } else if (etat.niveau === 'paywall') {
+    etat.niveau = 'composantes';
+    afficherListeComposantes();
+  }
+}
+
+// ============================================
+// NAVIGATION BASSE
+// ============================================
+
+function allerAccueil() {
+  etat.niveau = 'classes';
+  afficherVue('classes');
+  majBoutonRetour(false);
+}
+
+function allerNotes() {
+  afficherVue('notes');
+  majBoutonRetour(false);
+  afficherNotes();
+}
+
+function allerParametres() {
+  afficherVue('parametres');
+  majBoutonRetour(false);
+}
+
+// ============================================
+// THÈME
+// ============================================
+
+function appliquerTheme(theme) {
+  document.body.setAttribute('data-theme', theme);
+  $('btn-theme').textContent = theme === 'sombre' ? '☀️' : '🌙';
+  localStorage.setItem('guide-theme', theme);
+}
+
+function basculerTheme() {
+  const actuel = document.body.getAttribute('data-theme');
+  appliquerTheme(actuel === 'sombre' ? 'clair' : 'sombre');
+}
+
+// ============================================
+// INITIALISATION
+// ============================================
+
+function initialiser() {
+  const themeSauvegarde = localStorage.getItem('guide-theme') || 'clair';
+  appliquerTheme(themeSauvegarde);
+
+  renderClasses();
+  afficherVue('classes');
+
+  $('btn-retour').addEventListener('click', gererRetour);
+  $('btn-theme').addEventListener('click', basculerTheme);
+
+  document.querySelectorAll('.nav-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const cible = btn.getAttribute('data-nav');
+      if (cible === 'accueil') allerAccueil();
+      if (cible === 'notes') allerNotes();
+      if (cible === 'parametres') allerParametres();
     });
-    html += `</div></details>`;
-  }
+  });
 
-  zone.innerHTML = html;
-}
-
-// ===== BOUTON RETOUR =====
-document.getElementById('btn-back').addEventListener('click', () => {
-  if (etatNav.enPaywall) {
-    afficherListeComposantes();
-  } else if (etatNav.lecon) {
-    afficherListeLecons(etatNav.composante);
-  } else if (etatNav.composante) {
-    afficherListeComposantes();
-  } else {
-    afficherVue('accueil');
-  }
-});
-
-// ===== REINITIALISATION PROGRESSION (Réglages) =====
-const btnReset = document.getElementById('btn-reset-progression');
-if (btnReset) {
-  btnReset.addEventListener('click', () => {
-    const confirmation = confirm("Es-tu sûr de vouloir réinitialiser toute ta progression ? Cette action est irréversible.");
-    if (confirmation) {
-      reinitialiserProgression();
-      alert("Progression réinitialisée !");
+  $('btn-reset-progression').addEventListener('click', () => {
+    if (confirm('Veux-tu vraiment réinitialiser toute ta progression ? Cette action est irréversible.')) {
+      localStorage.removeItem('guide-progression');
+      alert('Progression réinitialisée.');
     }
   });
+
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./service-worker.js');
+  }
 }
 
-// ===== SERVICE WORKER =====
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('./service-worker.js')
-      .then(reg => console.log('Service Worker enregistré', reg.scope))
-      .catch(err => console.error('Erreur Service Worker', err));
-  });
-}
+document.addEventListener('DOMContentLoaded', initialiser);
