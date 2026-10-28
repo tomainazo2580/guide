@@ -244,3 +244,64 @@ main {
   opacity: 0.6;
   margin-top: 40px;
 }
+/* ===== BARRE DE PROGRESSION ===== */
+.progression-wrapper {
+  margin-bottom: 16px;
+}
+.progression-texte {
+  font-size: 13px;
+  opacity: 0.7;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.barre-progression {
+  width: 100%;
+  height: 10px;
+  background: rgba(128,128,128,0.2);
+  border-radius: 6px;
+  overflow: hidden;
+}
+.barre-progression-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--primary), #16a34a);
+  border-radius: 6px;
+  transition: width 0.3s;
+}
+
+/* ===== MINI PROGRESSION SUR CARTES COMPOSANTE ===== */
+.carte-liste-texte {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.mini-progression {
+  font-size: 12px;
+  opacity: 0.6;
+  font-weight: 500;
+}
+.coche-vue {
+  margin-right: 6px;
+  font-size: 14px;
+}
+
+/* ===== PARAMETRES ===== */
+.param-bloc {
+  background: var(--card-bg);
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+.param-label {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.btn-danger {
+  background: #fee2e2;
+  color: #dc2626;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-weight: 600;
+  width: 100%;
+  cursor: pointer;
+}
