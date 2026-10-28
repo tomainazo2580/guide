@@ -1,307 +1,33 @@
-/* ===== VARIABLES DE THEME ===== */
-:root {
-  --bg-color: #f1f5f9;
-  --card-bg: #ffffff;
-  --text-color: #1e293b;
-  --primary: #2563eb;
-  --nav-bg: #ffffff;
-  --ligne-cahier: #c7d7f0;
-  --marge-cahier: #e76f6f;
-}
-
-[data-theme="dark"] {
-  --bg-color: #0f172a;
-  --card-bg: #1e293b;
-  --text-color: #f1f5f9;
-  --primary: #60a5fa;
-  --nav-bg: #1e293b;
-  --ligne-cahier: #334155;
-  --marge-cahier: #b45555;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  padding-bottom: 70px;
-  transition: background-color 0.2s, color 0.2s;
-}
-
-/* ===== HEADER ===== */
-.app-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 14px 18px;
-  background-color: var(--card-bg);
-  box-shadow: 0 1px 6px rgba(0,0,0,0.08);
-  position: sticky;
-  top: 0;
-  z-index: 100;
-}
-.logo {
-  font-size: 20px;
-  font-weight: 700;
-  color: var(--primary);
-}
-.theme-toggle {
-  border: 1px solid rgba(128,128,128,0.3);
-  background: var(--bg-color);
-  border-radius: 10px;
-  width: 38px;
-  height: 38px;
-  font-size: 18px;
-  cursor: pointer;
-}
-
-/* ===== VUES ===== */
-main {
-  padding: 18px;
-}
-.view {
-  display: none;
-}
-.view.active {
-  display: block;
-}
-.section-title {
-  font-size: 22px;
-  font-weight: 700;
-  margin: 4px 0 18px 0;
-}
-
-/* ===== GRILLE DES MATIERES (accueil) ===== */
-.grille-matieres {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 14px;
-}
-.carte-matiere {
+/* ===== LEXIQUE (mots difficiles) ===== */
+.lexique-wrapper {
   background: var(--card-bg);
-  border-radius: 16px;
-  padding: 22px 10px;
-  text-align: center;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
-  cursor: pointer;
-  transition: transform 0.15s;
-}
-.carte-matiere:active {
-  transform: scale(0.96);
-}
-.icone-matiere {
-  font-size: 32px;
-  margin-bottom: 8px;
-}
-.nom-matiere {
-  font-size: 14px;
-  font-weight: 600;
-}
-
-/* ===== NAVIGATION BASSE ===== */
-.bottom-nav {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  background-color: var(--nav-bg);
-  box-shadow: 0 -1px 6px rgba(0,0,0,0.08);
-  z-index: 100;
-}
-.nav-btn {
-  flex: 1;
-  background: none;
-  border: none;
-  padding: 10px 0 8px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2px;
-  font-size: 11px;
-  color: var(--text-color);
-  opacity: 0.6;
-  cursor: pointer;
-}
-.nav-btn span {
-  font-size: 11px;
-}
-.nav-btn.active {
-  opacity: 1;
-  color: var(--primary);
-  font-weight: 600;
-}
-
-/* ===== FOND "FEUILLE DE CAHIER" (vue matière uniquement) ===== */
-#view-matiere {
-  background-image:
-    linear-gradient(var(--ligne-cahier) 1px, transparent 1px),
-    linear-gradient(90deg, transparent 0, transparent 38px, var(--marge-cahier) 38px, var(--marge-cahier) 40px, transparent 40px);
-  background-size: 100% 32px, 100% 100%;
-  background-color: var(--bg-color);
-  padding-left: 18px;
-  margin: -18px;
-  padding: 18px 18px 18px 48px;
-  min-height: calc(100vh - 130px);
-}
-
-/* ===== BREADCRUMB / RETOUR ===== */
-.breadcrumb {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin-bottom: 16px;
-  flex-wrap: wrap;
-}
-.btn-back {
-  background: none;
-  border: none;
-  color: var(--primary);
-  font-size: 15px;
-  font-weight: 600;
-  cursor: pointer;
-  padding: 6px 0;
-}
-#matiere-titre {
-  font-size: 20px;
-  margin: 0;
-}
-
-/* ===== LISTE DE CARTES (composantes / leçons) ===== */
-.liste-cartes {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-.carte-liste {
-  background: var(--card-bg);
-  border-radius: 12px;
-  padding: 14px 16px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  cursor: pointer;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.10);
-  font-weight: 500;
-}
-.carte-liste:active {
-  transform: scale(0.98);
-}
-.carte-liste .fleche {
-  color: var(--primary);
-  font-size: 18px;
-}
-
-/* ===== BLOCS DE CONTENU PEDAGOGIQUE ===== */
-.bloc {
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin-bottom: 14px;
-  border-left: 4px solid var(--primary);
-  background: var(--card-bg);
-  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
-}
-.bloc-label {
-  font-size: 13px;
-  font-weight: 700;
-  margin-bottom: 6px;
-  opacity: 0.8;
-}
-.bloc-texte {
-  font-size: 15px;
-  line-height: 1.5;
-}
-
-.bloc-definition { border-left-color: #2563eb; }
-.bloc-formule { border-left-color: #d97706; background: rgba(217,119,6,0.08); }
-.bloc-exemple { border-left-color: #16a34a; }
-.bloc-regle { border-left-color: #7c3aed; }
-.bloc-remarque { border-left-color: #64748b; font-style: italic; }
-.bloc-theoreme { border-left-color: #dc2626; }
-.bloc-methode { border-left-color: #0891b2; }
-
-.bloc-tableau table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 8px;
-}
-.bloc-tableau td {
-  padding: 8px;
-  border-bottom: 1px solid rgba(128,128,128,0.2);
-  font-size: 14px;
-}
-.tableau-titre {
-  font-weight: 700;
-  margin-bottom: 4px;
-}
-
-.placeholder-text {
-  text-align: center;
-  opacity: 0.6;
-  margin-top: 40px;
-}
-/* ===== BARRE DE PROGRESSION ===== */
-.progression-wrapper {
-  margin-bottom: 16px;
-}
-.progression-texte {
-  font-size: 13px;
-  opacity: 0.7;
-  margin-bottom: 6px;
-  font-weight: 600;
-}
-.barre-progression {
-  width: 100%;
-  height: 10px;
-  background: rgba(128,128,128,0.2);
-  border-radius: 6px;
-  overflow: hidden;
-}
-.barre-progression-fill {
-  height: 100%;
-  background: linear-gradient(90deg, var(--primary), #16a34a);
-  border-radius: 6px;
-  transition: width 0.3s;
-}
-
-/* ===== MINI PROGRESSION SUR CARTES COMPOSANTE ===== */
-.carte-liste-texte {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-.mini-progression {
-  font-size: 12px;
-  opacity: 0.6;
-  font-weight: 500;
-}
-.coche-vue {
-  margin-right: 6px;
-  font-size: 14px;
-}
-
-/* ===== PARAMETRES ===== */
-.param-bloc {
-  background: var(--card-bg);
-  border-radius: 12px;
-  padding: 16px;
-  margin-bottom: 16px;
-}
-.param-label {
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-.btn-danger {
-  background: #fee2e2;
-  color: #dc2626;
-  border: none;
   border-radius: 10px;
   padding: 10px 14px;
-  font-weight: 600;
-  width: 100%;
+  margin-top: 10px;
+  border-left: 4px solid #0d9488;
+}
+.lexique-titre {
+  font-weight: 700;
+  font-size: 14px;
   cursor: pointer;
+  color: #0d9488;
+  list-style: none;
+}
+.lexique-titre::-webkit-details-marker {
+  display: none;
+}
+.lexique-liste {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.lexique-item {
+  font-size: 14px;
+  line-height: 1.5;
+}
+.lexique-mot {
+  font-weight: 700;
+  color: #0d9488;
+  text-transform: capitalize;
 }
