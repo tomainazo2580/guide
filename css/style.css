@@ -253,3 +253,89 @@ input:checked + .slider::before {
   line-height: 32px; /* doit correspondre exactement au background-size */
   margin: 0;
 }
+/* ===== BREADCRUMB / RETOUR ===== */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.btn-back {
+  background: none;
+  border: none;
+  color: var(--primary);
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 6px 0;
+}
+
+/* ===== LISTE DE CARTES (composantes / leçons) ===== */
+.liste-cartes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.carte-liste {
+  background: var(--card-bg);
+  border-radius: 12px;
+  padding: 14px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  font-weight: 500;
+}
+.carte-liste .fleche {
+  color: var(--primary);
+  font-size: 18px;
+}
+
+/* ===== BLOCS DE CONTENU PEDAGOGIQUE ===== */
+.bloc {
+  border-radius: 10px;
+  padding: 12px 14px;
+  margin-bottom: 14px;
+  border-left: 4px solid var(--primary);
+  background: var(--card-bg);
+}
+.bloc-label {
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  opacity: 0.8;
+}
+.bloc-texte {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.bloc-definition { border-left-color: #2563eb; }
+.bloc-formule { border-left-color: #d97706; background: rgba(217,119,6,0.08); }
+.bloc-exemple { border-left-color: #16a34a; }
+.bloc-regle { border-left-color: #7c3aed; }
+.bloc-remarque { border-left-color: #64748b; font-style: italic; }
+.bloc-theoreme { border-left-color: #dc2626; }
+.bloc-methode { border-left-color: #0891b2; }
+
+.bloc-tableau table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 8px;
+}
+.bloc-tableau td {
+  padding: 8px;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  font-size: 14px;
+}
+.tableau-titre {
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.placeholder-text {
+  text-align: center;
+  opacity: 0.6;
+  margin-top: 40px;
+}
