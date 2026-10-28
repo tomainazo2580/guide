@@ -13,6 +13,7 @@ const APP_SHELL = [
   './manifest.json',
   './css/style.css',
   './js/app.js',
+  './data/maths-t9.json',
   './icons/icon.svg'
 ];
 
