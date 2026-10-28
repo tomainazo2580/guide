@@ -1,4 +1,3 @@
-
 {
   "matiere": "Mathématiques",
   "niveau": "T9",
@@ -18,6 +17,12 @@
             { "type": "definition", "texte": "Nombre irrationnel : nombre qui ne peut pas s'écrire sous forme de fraction (ex : π, √2)." },
             { "type": "formule", "texte": "Ensembles emboîtés : ℕ ⊂ ℤ ⊂ 𝔻 ⊂ ℚ ⊂ ℝ" },
             { "type": "remarque", "texte": "L'ensemble des rationnels ℚ et l'ensemble des irrationnels ℚ' n'ont aucun élément en commun : ℚ ∩ ℚ' = ∅" }
+          ],
+          "lexique": [
+            { "mot": "ensemble", "definition": "un groupe d'éléments (ici, de nombres) regroupés selon une règle commune" },
+            { "mot": "rationnel", "definition": "qui peut s'écrire sous forme de fraction" },
+            { "mot": "irrationnel", "definition": "qui ne peut pas s'écrire sous forme de fraction" },
+            { "mot": "emboîtés", "definition": "qui sont contenus les uns dans les autres, comme des poupées russes" }
           ]
         },
         {
@@ -34,6 +39,9 @@
           "contenu": [
             { "type": "definition", "texte": "La racine carrée d'un nombre positif a, notée √a, est le nombre positif dont le carré est égal à a." },
             { "type": "exemple", "texte": "√16 = 4 car 4 × 4 = 16" }
+          ],
+          "lexique": [
+            { "mot": "racine carrée", "definition": "le nombre qui, multiplié par lui-même, redonne le nombre de départ" }
           ]
         },
         {
@@ -71,6 +79,10 @@
           "contenu": [
             { "type": "definition", "texte": "Deux grandeurs sont proportionnelles si l'une est obtenue en multipliant l'autre par un nombre fixe, appelé coefficient de proportionnalité." },
             { "type": "methode", "texte": "On peut vérifier une proportionnalité graphiquement : les points représentant les grandeurs doivent être alignés avec l'origine du repère." }
+          ],
+          "lexique": [
+            { "mot": "grandeur", "definition": "une quantité qu'on peut mesurer (distance, prix, temps, poids...)" },
+            { "mot": "coefficient de proportionnalité", "definition": "le nombre fixe par lequel on multiplie une grandeur pour obtenir l'autre" }
           ]
         },
         {
@@ -89,6 +101,9 @@
             { "type": "exemple", "texte": "4 avocats coûtent 4200 Ar pour 6 avocats → 4200/6 = 700 Ar par avocat." },
             { "type": "exemple", "texte": "Rado gagne 160 000 Ar pour 8h de travail → 160000/8 = 20 000 Ar/h (taux horaire)." },
             { "type": "exemple", "texte": "Une voiture parcourt 162 km en 4h → 162/4 = 40,5 km/h (vitesse moyenne)." }
+          ],
+          "lexique": [
+            { "mot": "taux unitaire", "definition": "le prix (ou la valeur) ramené à une seule unité, par exemple le prix d'UN avocat" }
           ]
         },
         {
@@ -116,6 +131,12 @@
             { "type": "remarque", "texte": "Si a = 0, la fonction est constante : f(x) = b" },
             { "type": "regle", "texte": "a est appelé coefficient directeur. b est appelé ordonnée à l'origine." },
             { "type": "regle", "texte": "Si a > 0, la fonction est croissante. Si a < 0, la fonction est décroissante." }
+          ],
+          "lexique": [
+            { "mot": "coefficient directeur", "definition": "le nombre qui indique si la droite monte ou descend, et à quelle vitesse" },
+            { "mot": "ordonnée à l'origine", "definition": "la valeur de f(x) quand x = 0, c'est-à-dire le point où la droite coupe l'axe vertical" },
+            { "mot": "croissante", "definition": "qui augmente : plus x augmente, plus f(x) augmente" },
+            { "mot": "décroissante", "definition": "qui diminue : plus x augmente, plus f(x) diminue" }
           ]
         },
         {
@@ -148,6 +169,10 @@
           "contenu": [
             { "type": "formule", "texte": "Si (MN) // (BC) alors : AM/AB = AN/AC = MN/BC" },
             { "type": "remarque", "texte": "Réciproque : si AM/AB = AN/AC et que les points sont alignés dans le même ordre, alors (MN) // (BC)." }
+          ],
+          "lexique": [
+            { "mot": "théorème", "definition": "une règle mathématique démontrée comme toujours vraie" },
+            { "mot": "réciproque", "definition": "l'énoncé inverse : on part de la conclusion pour retrouver la condition de départ" }
           ]
         },
         {
@@ -170,6 +195,10 @@
               { "polygone": "Pentagone régulier", "angle": "72°" },
               { "polygone": "Hexagone régulier", "angle": "60°" }
             ]}
+          ],
+          "lexique": [
+            { "mot": "polygone régulier", "definition": "une figure avec plusieurs côtés, tous de la même longueur, et tous les angles égaux" },
+            { "mot": "angle au centre", "definition": "l'angle formé au centre de la figure entre deux sommets voisins" }
           ]
         },
         {
@@ -187,6 +216,10 @@
             { "type": "formule", "texte": "Aire de la sphère = 4 × π × R²" },
             { "type": "formule", "texte": "Volume de la boule = (4/3) × π × R³" },
             { "type": "exemple", "texte": "Pour R = 6 cm : Aire = 4 × π × 36 = 144π cm² ; Volume = (4/3) × π × 216 = 288π cm³" }
+          ],
+          "lexique": [
+            { "mot": "sphère", "definition": "la surface (comme la peau d'un ballon), on mesure son aire" },
+            { "mot": "boule", "definition": "le volume intérieur plein (comme le ballon rempli), on mesure son volume" }
           ]
         },
         {
@@ -210,6 +243,11 @@
             { "type": "formule", "texte": "Moyenne M = (x₁n₁ + x₂n₂ + ...) / N, où N est l'effectif total." },
             { "type": "definition", "texte": "La médiane est la valeur qui partage une série ordonnée en deux groupes de même effectif." },
             { "type": "definition", "texte": "L'étendue = valeur maximale − valeur minimale." }
+          ],
+          "lexique": [
+            { "mot": "effectif", "definition": "le nombre de fois qu'une valeur apparaît dans une série de données" },
+            { "mot": "médiane", "definition": "la valeur du milieu quand on range toutes les données dans l'ordre" },
+            { "mot": "étendue", "definition": "l'écart entre la plus grande et la plus petite valeur" }
           ]
         },
         {
@@ -218,6 +256,10 @@
           "contenu": [
             { "type": "definition", "texte": "L'effectif cumulé croissant d'une valeur est la somme des effectifs de toutes les valeurs inférieures ou égales à elle." },
             { "type": "definition", "texte": "La fréquence d'une valeur est son effectif divisé par l'effectif total (souvent exprimée en %)." }
+          ],
+          "lexique": [
+            { "mot": "effectif cumulé croissant", "definition": "le total qu'on obtient en additionnant au fur et à mesure les effectifs" },
+            { "mot": "fréquence", "definition": "la proportion d'une valeur par rapport au total, souvent en pourcentage" }
           ]
         },
         {
@@ -238,6 +280,10 @@
             { "type": "regle", "texte": "0 ≤ P(A) ≤ 1" },
             { "type": "formule", "texte": "P(A) = 1 − P(Ā), où Ā est l'événement contraire de A" },
             { "type": "formule", "texte": "Si A et B sont incompatibles : P(A ∪ B) = P(A) + P(B)" }
+          ],
+          "lexique": [
+            { "mot": "cas favorables", "definition": "les résultats qui correspondent à ce qu'on cherche" },
+            { "mot": "cas possibles", "definition": "tous les résultats qui peuvent se produire" }
           ]
         }
       ]
