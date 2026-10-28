@@ -1,106 +1,193 @@
-// ===================================
-// GESTION DU THEME JOUR / NUIT
-// ===================================
-const themeToggleBtn = document.getElementById('theme-toggle');
-const themeSwitch = document.getElementById('theme-switch');
-const htmlRoot = document.documentElement;
-
-function applyTheme(theme) {
-  if (theme === 'dark') {
-    htmlRoot.setAttribute('data-theme', 'dark');
-    themeToggleBtn.textContent = '☀️';
-    themeSwitch.checked = true;
-  } else {
-    htmlRoot.removeAttribute('data-theme');
-    themeToggleBtn.textContent = '🌙';
-    themeSwitch.checked = false;
-  }
-  localStorage.setItem('guide-theme', theme);
-}
-
-function toggleTheme() {
-  const current = localStorage.getItem('guide-theme') || 'light';
-  applyTheme(current === 'dark' ? 'light' : 'dark');
-}
-
-// Au chargement : on applique le thème sauvegardé
-const savedTheme = localStorage.getItem('guide-theme') || 'light';
-applyTheme(savedTheme);
-
-themeToggleBtn.addEventListener('click', toggleTheme);
-themeSwitch.addEventListener('change', toggleTheme);
-
-
-// ===================================
-// NAVIGATION ENTRE LES VUES
-// ===================================
-const views = document.querySelectorAll('.view');
-const navButtons = document.querySelectorAll('.nav-btn');
-
-function showView(viewId) {
-  views.forEach(v => v.classList.remove('active'));
-  document.getElementById(viewId).classList.add('active');
-
-  navButtons.forEach(btn => btn.classList.remove('active'));
-  const matchingNav = document.querySelector(`.nav-btn[data-view="${viewId}"]`);
-  if (matchingNav) matchingNav.classList.add('active');
-}
-
-navButtons.forEach(btn => {
-  btn.addEventListener('click', () => {
-    showView(btn.dataset.view);
-  });
-});
-
-
-// ===================================
-// CLIC SUR UNE MATIERE
-// ===================================
-// Noms affichés pour chaque matière (sera relié au vrai contenu à l'Étape 3)
-const nomsMatieres = {
-  mathematiques: 'Mathématiques',
-  francais: 'Français',
-  malagasy: 'Malagasy',
-  'histoire-geo': 'Histoire-Géographie',
-  sciences: 'Sciences',
-  anglais: 'Anglais'
+// ===== CONFIGURATION DES MATIERES =====
+const MATIERES = {
+  maths: { nom: "Mathématiques", fichier: "./data/maths-t9.json", disponible: true },
+  francais: { nom: "Français", fichier: null, disponible: false },
+  malagasy: { nom: "Malagasy", fichier: null, disponible: false },
+  histoiregeo: { nom: "Histoire-Géo", fichier: null, disponible: false },
+  sciences: { nom: "Sciences", fichier: null, disponible: false },
+  anglais: { nom: "Anglais", fichier: null, disponible: false }
 };
 
-document.querySelectorAll('.matiere-card').forEach(card => {
-  card.addEventListener('click', () => {
-    const matiereId = card.dataset.matiere;
-    document.getElementById('matiere-titre').textContent = nomsMatieres[matiereId];
-    showView('view-matiere');
+// Libellés affichés pour chaque type de contenu
+const LABELS_TYPE = {
+  definition: "📘 Définition",
+  formule: "🧮 Formule",
+  exemple: "✏️ Exemple",
+  regle: "📏 Règle",
+  remarque: "💡 Remarque",
+  theoreme: "⭐ Théorème",
+  methode: "🛠️ Méthode"
+};
+
+// Etat de navigation dans une matière
+let etatNav = { matiere: null, composante: null, lecon: null, data: null };
+
+// ===== THEME JOUR/NUIT =====
+const themeToggle = document.getElementById('theme-toggle');
+function appliquerTheme(theme) {
+  document.documentElement.setAttribute('data-theme', theme);
+  themeToggle.textContent = theme === 'dark' ? '☀️' : '🌙';
+  localStorage.setItem('guide-theme', theme);
+}
+const themeSauve = localStorage.getItem('guide-theme') || 'light';
+appliquerTheme(themeSauve);
+themeToggle.addEventListener('click', () => {
+  const actuel = document.documentElement.getAttribute('data-theme');
+  appliquerTheme(actuel === 'dark' ? 'light' : 'dark');
+});
+
+// ===== NAVIGATION ENTRE VUES PRINCIPALES =====
+function afficherVue(nomVue) {
+  document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+  document.getElementById('view-' + nomVue).classList.add('active');
+  document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+  const btn = document.querySelector(`.nav-btn[data-view="${nomVue}"]`);
+  if (btn) btn.classList.add('active');
+}
+
+document.querySelectorAll('.nav-btn').forEach(btn => {
+  btn.addEventListener('click', () => afficherVue(btn.dataset.view));
+});
+
+// ===== CLIC SUR UNE CARTE MATIERE =====
+document.querySelectorAll('.carte-matiere').forEach(carte => {
+  carte.addEventListener('click', () => {
+    const id = carte.dataset.matiere;
+    ouvrirMatiere(id);
   });
 });
 
-document.getElementById('back-to-accueil').addEventListener('click', () => {
-  showView('view-accueil');
+async function ouvrirMatiere(id) {
+  const matiere = MATIERES[id];
+  etatNav = { matiere: id, composante: null, lecon: null, data: null };
+
+  document.getElementById('matiere-titre').textContent = matiere.nom;
+  document.getElementById('btn-back').style.display = 'none';
+
+  afficherVue('matiere');
+
+  const zone = document.getElementById('matiere-content');
+
+  if (!matiere.disponible) {
+    zone.innerHTML = `<p class="placeholder-text">📚 Cours bientôt disponible pour cette matière.</p>`;
+    return;
+  }
+
+  zone.innerHTML = `<p class="placeholder-text">Chargement...</p>`;
+
+  try {
+    const reponse = await fetch(matiere.fichier);
+    const data = await reponse.json();
+    etatNav.data = data;
+    afficherListeComposantes();
+  } catch (erreur) {
+    zone.innerHTML = `<p class="placeholder-text">⚠️ Erreur de chargement du cours.</p>`;
+    console.error(erreur);
+  }
+}
+
+// ===== NIVEAU 1 : LISTE DES COMPOSANTES =====
+function afficherListeComposantes() {
+  const zone = document.getElementById('matiere-content');
+  document.getElementById('matiere-titre').textContent = etatNav.data.matiere;
+  document.getElementById('btn-back').style.display = 'none';
+
+  let html = '<div class="liste-cartes">';
+  etatNav.data.composantes.forEach(comp => {
+    const cadenas = comp.premium ? ' 🔒' : '';
+    html += `
+      <div class="carte-liste" data-composante="${comp.id}">
+        <span>${comp.titre}${cadenas}</span>
+        <span class="fleche">›</span>
+      </div>`;
+  });
+  html += '</div>';
+  zone.innerHTML = html;
+
+  document.querySelectorAll('.carte-liste[data-composante]').forEach(el => {
+    el.addEventListener('click', () => afficherListeLecons(el.dataset.composante));
+  });
+}
+
+// ===== NIVEAU 2 : LISTE DES LECONS D'UNE COMPOSANTE =====
+function afficherListeLecons(composanteId) {
+  etatNav.composante = composanteId;
+  etatNav.lecon = null;
+
+  const composante = etatNav.data.composantes.find(c => c.id === composanteId);
+  const zone = document.getElementById('matiere-content');
+
+  document.getElementById('matiere-titre').textContent = composante.titre;
+  document.getElementById('btn-back').style.display = 'inline-block';
+
+  let html = '<div class="liste-cartes">';
+  composante.lecons.forEach(lecon => {
+    html += `
+      <div class="carte-liste" data-lecon="${lecon.id}">
+        <span>${lecon.titre}</span>
+        <span class="fleche">›</span>
+      </div>`;
+  });
+  html += '</div>';
+  zone.innerHTML = html;
+
+  document.querySelectorAll('.carte-liste[data-lecon]').forEach(el => {
+    el.addEventListener('click', () => afficherLecon(el.dataset.lecon));
+  });
+}
+
+// ===== NIVEAU 3 : CONTENU D'UNE LECON =====
+function afficherLecon(leconId) {
+  etatNav.lecon = leconId;
+
+  const composante = etatNav.data.composantes.find(c => c.id === etatNav.composante);
+  const lecon = composante.lecons.find(l => l.id === leconId);
+  const zone = document.getElementById('matiere-content');
+
+  document.getElementById('matiere-titre').textContent = lecon.titre;
+  document.getElementById('btn-back').style.display = 'inline-block';
+
+  let html = '';
+  lecon.contenu.forEach(bloc => {
+    if (bloc.type === 'tableau') {
+      html += `<div class="bloc bloc-tableau">`;
+      if (bloc.titre) html += `<div class="tableau-titre">📊 ${bloc.titre}</div>`;
+      html += `<table>`;
+      bloc.lignes.forEach(ligne => {
+        const valeurs = Object.values(ligne);
+        html += `<tr><td>${valeurs[0]}</td><td>${valeurs[1]}</td></tr>`;
+      });
+      html += `</table></div>`;
+    } else {
+      const label = LABELS_TYPE[bloc.type] || bloc.type;
+      const texte = bloc.texte.replace(/\n/g, '<br>');
+      html += `
+        <div class="bloc bloc-${bloc.type}">
+          <div class="bloc-label">${label}</div>
+          <div class="bloc-texte">${texte}</div>
+        </div>`;
+    }
+  });
+
+  zone.innerHTML = html;
+}
+
+// ===== BOUTON RETOUR =====
+document.getElementById('btn-back').addEventListener('click', () => {
+  if (etatNav.lecon) {
+    afficherListeLecons(etatNav.composante);
+  } else if (etatNav.composante) {
+    afficherListeComposantes();
+  } else {
+    afficherVue('accueil');
+  }
 });
-// ===================================
-// ENREGISTREMENT DU SERVICE WORKER
-// (active le mode hors ligne)
-// ===================================
+
+// ===== SERVICE WORKER =====
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
     navigator.serviceWorker.register('./service-worker.js')
-      .then((reg) => {
-        console.log('Service Worker enregistré ✅', reg.scope);
-
-        // Détection d'une nouvelle version disponible
-        reg.addEventListener('updatefound', () => {
-          const newWorker = reg.installing;
-          newWorker.addEventListener('statechange', () => {
-            if (newWorker.state === 'activated') {
-              console.log('Nouvelle version de Guide installée 🔄');
-              // Optionnel : on pourrait afficher un petit bandeau
-              // "Nouvelle version disponible, redémarre l'app"
-            }
-          });
-        });
-      })
-      .catch((err) => {
-        console.error('Erreur Service Worker ❌', err);
-      });
+      .then(reg => console.log('Service Worker enregistré', reg.scope))
+      .catch(err => console.error('Erreur Service Worker', err));
   });
 }
