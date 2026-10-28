@@ -3,91 +3,172 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Générateur de codes - Guide</title>
+<title>Générateur de codes — PRIVÉ</title>
 <style>
-  body { font-family: sans-serif; background: #0f172a; color: #f1f5f9; padding: 20px; max-width: 500px; margin: 0 auto; }
-  h1 { font-size: 20px; }
-  label { display: block; margin-top: 16px; margin-bottom: 6px; font-weight: 600; font-size: 14px; }
-  select, input { width: 100%; padding: 12px; border-radius: 8px; border: none; font-size: 15px; box-sizing: border-box; }
-  button { width: 100%; margin-top: 20px; padding: 14px; background: #2563eb; color: white; border: none; border-radius: 8px; font-size: 16px; font-weight: 700; cursor: pointer; }
-  .resultat { margin-top: 20px; padding: 16px; background: #1e293b; border-radius: 10px; text-align: center; }
-  .code-genere { font-size: 22px; font-weight: 800; font-family: monospace; color: #4ade80; word-break: break-all; }
-  .avertissement { background: #7c2d12; padding: 10px; border-radius: 8px; font-size: 13px; margin-bottom: 16px; }
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #0f172a;
+    color: #e2e8f0;
+    padding: 20px;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+  .avertissement {
+    background-color: #4a2424;
+    color: #fca5a5;
+    padding: 12px 14px;
+    border-radius: 8px;
+    font-size: 13px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  label {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 6px;
+    margin-top: 14px;
+    color: #94a3b8;
+  }
+  select, input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #334155;
+    background-color: #1e293b;
+    color: #e2e8f0;
+    font-size: 15px;
+  }
+  button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #5b9bd5;
+    color: #0f172a;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .resultat {
+    margin-top: 20px;
+    padding: 16px;
+    background-color: #1e293b;
+    border-radius: 8px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: 700;
+    color: #5b9bd5;
+    word-break: break-all;
+  }
 </style>
 </head>
 <body>
 
-<h1>🔑 Générateur de codes - Guide</h1>
-<div class="avertissement">⚠️ Usage personnel uniquement. Ne partage jamais le lien de cette page.</div>
+<div class="avertissement">
+  ⚠️ Usage personnel uniquement. Ne partage JAMAIS le lien de cette page à qui que ce soit, y compris aux élèves.
+</div>
 
-<label>Matière</label>
-<select id="select-matiere">
-  <option value="MATH">Mathématiques</option>
-  <option value="FRAN">Français</option>
-  <option value="MALG">Malagasy</option>
-  <option value="HGEO">Histoire-Géo</option>
-  <option value="SCIE">Sciences</option>
-  <option value="ANGL">Anglais</option>
+<h1>🔑 Générateur de codes Guide</h1>
+
+<label for="select-classe">Classe de l'élève</label>
+<select id="select-classe">
+  <option value="3e">Troisième</option>
+  <option value="tle">Terminale</option>
 </select>
 
-<label>Numéro de série (incrémente de 1 à chaque élève)</label>
-<input type="number" id="input-serial" min="1" value="1">
+<label for="select-matiere">Matière</label>
+<select id="select-matiere"></select>
+
+<label for="input-serial">Numéro de série</label>
+<input type="text" id="input-serial" maxlength="4">
 
 <button id="btn-generer">Générer le code</button>
 
-<div class="resultat" id="zone-resultat" style="display:none;">
-  <div>Code pour cet élève :</div>
-  <div class="code-genere" id="code-genere"></div>
-</div>
+<div id="resultat" class="resultat" hidden></div>
 
 <script>
-  const SEL_SECRET = "BEPC2026MDG";
+const SEL_SECRET = "BEPC2026MDG";
 
-  function calculerChecksum(matiereCode, serial) {
-    const chaine = matiereCode + serial + SEL_SECRET;
-    let somme = 0;
-    for (let i = 0; i < chaine.length; i++) {
-      somme += chaine.charCodeAt(i) * (i + 1);
-    }
-    return String(somme % 10000).padStart(4, '0');
+const MATIERES_PAR_CLASSE = {
+  '3e': [
+    { code: 'MALG', nom: 'Malagasy' },
+    { code: 'FRAN', nom: 'Français' },
+    { code: 'ANGL', nom: 'Anglais' },
+    { code: 'MATH', nom: 'Mathématiques' },
+    { code: 'SVT',  nom: 'SVT' },
+    { code: 'SPHY', nom: 'Sciences Physiques' },
+    { code: 'HIST', nom: 'Histoire' },
+    { code: 'GEOG', nom: 'Géographie' }
+  ],
+  'tle': [
+    { code: 'MALG', nom: 'Malagasy' },
+    { code: 'FRAN', nom: 'Français' },
+    { code: 'ANGL', nom: 'Anglais' },
+    { code: 'MATH', nom: 'Mathématiques' },
+    { code: 'SVT',  nom: 'SVT' },
+    { code: 'PCHI', nom: 'Physique / Chimie' },
+    { code: 'HGEO', nom: 'Histoire-Géographie' },
+    { code: 'PHIL', nom: 'Philosophie' }
+  ]
+};
+
+function $(id) { return document.getElementById(id); }
+
+function remplirMatieres() {
+  const classeId = $('select-classe').value;
+  const matieres = MATIERES_PAR_CLASSE[classeId] || [];
+  $('select-matiere').innerHTML = matieres.map(m => `<option value="${m.code}">${m.nom}</option>`).join('');
+  preRemplirSerial();
+}
+
+function cleCompteur() {
+  return $('select-classe').value + '-' + $('select-matiere').value;
+}
+
+function preRemplirSerial() {
+  const compteurs = JSON.parse(localStorage.getItem('guide-codes-generes') || '{}');
+  const cle = cleCompteur();
+  const dernier = compteurs[cle] || 0;
+  const prochain = dernier + 1;
+  $('input-serial').value = String(prochain).padStart(4, '0');
+}
+
+function calculerChecksum(classeId, matiereCode, serial) {
+  const texte = classeId.toUpperCase() + matiereCode + serial + SEL_SECRET;
+  let somme = 0;
+  for (let i = 0; i < texte.length; i++) {
+    somme += texte.charCodeAt(i) * (i + 1);
   }
+  const checksum = somme % 10000;
+  return String(checksum).padStart(4, '0');
+}
 
-  // Pré-remplir le numéro de série suivant selon la matière choisie
-  function chargerDernierSerial(matiereCode) {
-    const data = JSON.parse(localStorage.getItem('guide-codes-generes') || '{}');
-    return (data[matiereCode] || 0) + 1;
-  }
-  function sauvegarderSerial(matiereCode, serial) {
-    const data = JSON.parse(localStorage.getItem('guide-codes-generes') || '{}');
-    data[matiereCode] = serial;
-    localStorage.setItem('guide-codes-generes', JSON.stringify(data));
-  }
+$('select-classe').addEventListener('change', remplirMatieres);
+$('select-matiere').addEventListener('change', preRemplirSerial);
 
-  const selectMatiere = document.getElementById('select-matiere');
-  const inputSerial = document.getElementById('input-serial');
+$('btn-generer').addEventListener('click', () => {
+  const classeId = $('select-classe').value;
+  const matiereCode = $('select-matiere').value;
+  const serial = $('input-serial').value.padStart(4, '0');
 
-  function majSerialSuggere() {
-    inputSerial.value = chargerDernierSerial(selectMatiere.value);
-  }
-  selectMatiere.addEventListener('change', majSerialSuggere);
-  majSerialSuggere();
+  const checksum = calculerChecksum(classeId, matiereCode, serial);
+  const code = `GUIDE-${classeId.toUpperCase()}-${matiereCode}-${serial}-${checksum}`;
 
-  document.getElementById('btn-generer').addEventListener('click', () => {
-    const matiereCode = selectMatiere.value;
-    const serial = parseInt(inputSerial.value, 10);
-    if (!serial || serial < 1) {
-      alert("Entre un numéro de série valide.");
-      return;
-    }
-    const serialStr = String(serial).padStart(4, '0');
-    const checksum = calculerChecksum(matiereCode, serialStr);
-    const code = `GUIDE-${matiereCode}-${serialStr}-${checksum}`;
+  $('resultat').textContent = code;
+  $('resultat').hidden = false;
 
-    document.getElementById('code-genere').textContent = code;
-    document.getElementById('zone-resultat').style.display = 'block';
+  const compteurs = JSON.parse(localStorage.getItem('guide-codes-generes') || '{}');
+  compteurs[cleCompteur()] = parseInt(serial, 10);
+  localStorage.setItem('guide-codes-generes', JSON.stringify(compteurs));
+});
 
-    sauvegarderSerial(matiereCode, serial);
-  });
+remplirMatieres();
 </script>
 
 </body>
