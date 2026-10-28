@@ -14,6 +14,7 @@ const APP_SHELL = [
   './css/style.css',
   './js/app.js',
   './data/maths-t9.json',
+  './outil-codes.html',
   './icons/icon.svg'
 ];
 
