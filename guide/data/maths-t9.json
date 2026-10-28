@@ -1,1 +1,246 @@
 
+{
+  "matiere": "Mathématiques",
+  "niveau": "T9",
+  "composantes": [
+    {
+      "id": "composante-1",
+      "titre": "Nombres",
+      "premium": false,
+      "lecons": [
+        {
+          "id": "nb-1",
+          "titre": "Les ensembles de nombres",
+          "contenu": [
+            { "type": "definition", "texte": "Nombre entier : nombre sans virgule (ex : -3, 0, 7, 152)." },
+            { "type": "definition", "texte": "Nombre décimal : nombre qui peut s'écrire avec un nombre fini de chiffres après la virgule (ex : 3,25)." },
+            { "type": "definition", "texte": "Nombre rationnel : nombre qui peut s'écrire sous forme de fraction a/b avec a et b entiers, b≠0 (ex : 1/3, 2,5, -4)." },
+            { "type": "definition", "texte": "Nombre irrationnel : nombre qui ne peut pas s'écrire sous forme de fraction (ex : π, √2)." },
+            { "type": "formule", "texte": "Ensembles emboîtés : ℕ ⊂ ℤ ⊂ 𝔻 ⊂ ℚ ⊂ ℝ" },
+            { "type": "remarque", "texte": "L'ensemble des rationnels ℚ et l'ensemble des irrationnels ℚ' n'ont aucun élément en commun : ℚ ∩ ℚ' = ∅" }
+          ]
+        },
+        {
+          "id": "nb-2",
+          "titre": "Priorités opératoires",
+          "contenu": [
+            { "type": "regle", "texte": "Ordre de calcul : 1) parenthèses, 2) multiplications et divisions, 3) additions et soustractions." },
+            { "type": "exemple", "texte": "Calculer : 5 + 3 × (4 − 2) = 5 + 3 × 2 = 5 + 6 = 11" }
+          ]
+        },
+        {
+          "id": "nb-3",
+          "titre": "Racine carrée",
+          "contenu": [
+            { "type": "definition", "texte": "La racine carrée d'un nombre positif a, notée √a, est le nombre positif dont le carré est égal à a." },
+            { "type": "exemple", "texte": "√16 = 4 car 4 × 4 = 16" }
+          ]
+        },
+        {
+          "id": "nb-4",
+          "titre": "Notation scientifique",
+          "contenu": [
+            { "type": "definition", "texte": "Un nombre est écrit en notation scientifique sous la forme a × 10ⁿ, avec 1 ≤ a < 10 et n un nombre entier (positif ou négatif)." },
+            { "type": "exemple", "texte": "Exemple : 45 000 = 4,5 × 10⁴" }
+          ]
+        },
+        {
+          "id": "nb-5",
+          "titre": "Préfixes du Système International",
+          "contenu": [
+            { "type": "tableau", "titre": "Préfixes et puissances de 10", "lignes": [
+              { "prefixe": "giga (G)", "valeur": "10⁹" },
+              { "prefixe": "méga (M)", "valeur": "10⁶" },
+              { "prefixe": "kilo (k)", "valeur": "10³" },
+              { "prefixe": "centi (c)", "valeur": "10⁻²" },
+              { "prefixe": "milli (m)", "valeur": "10⁻³" },
+              { "prefixe": "micro (μ)", "valeur": "10⁻⁶" }
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "composante-2",
+      "titre": "Opérations",
+      "premium": false,
+      "lecons": [
+        {
+          "id": "op-1",
+          "titre": "Proportionnalité",
+          "contenu": [
+            { "type": "definition", "texte": "Deux grandeurs sont proportionnelles si l'une est obtenue en multipliant l'autre par un nombre fixe, appelé coefficient de proportionnalité." },
+            { "type": "methode", "texte": "On peut vérifier une proportionnalité graphiquement : les points représentant les grandeurs doivent être alignés avec l'origine du repère." }
+          ]
+        },
+        {
+          "id": "op-2",
+          "titre": "Produit en croix",
+          "contenu": [
+            { "type": "formule", "texte": "a/c = b/d ⟺ a × d = b × c" },
+            { "type": "exemple", "texte": "Pour préparer un cocktail, il faut 6 oranges pour 7,2 L de jus. Combien de jus pour 24 oranges ?\n6/7,2 = 24/x → x = (7,2 × 24)/6 = 28,8 L" }
+          ]
+        },
+        {
+          "id": "op-3",
+          "titre": "Taux et taux unitaires",
+          "contenu": [
+            { "type": "definition", "texte": "Un taux unitaire exprime une grandeur ramenée à une seule unité de l'autre grandeur." },
+            { "type": "exemple", "texte": "4 avocats coûtent 4200 Ar pour 6 avocats → 4200/6 = 700 Ar par avocat." },
+            { "type": "exemple", "texte": "Rado gagne 160 000 Ar pour 8h de travail → 160000/8 = 20 000 Ar/h (taux horaire)." },
+            { "type": "exemple", "texte": "Une voiture parcourt 162 km en 4h → 162/4 = 40,5 km/h (vitesse moyenne)." }
+          ]
+        },
+        {
+          "id": "op-4",
+          "titre": "Pourcentages",
+          "contenu": [
+            { "type": "formule", "texte": "Pourcentage = (A/B) × 100" },
+            { "type": "exemple", "texte": "18 élèves sur 120 → (18/120) × 100 = 15%" },
+            { "type": "formule", "texte": "x % d'une grandeur G = G × (x/100)" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "composante-3",
+      "titre": "Algèbre",
+      "premium": false,
+      "lecons": [
+        {
+          "id": "alg-1",
+          "titre": "Fonction affine",
+          "contenu": [
+            { "type": "definition", "texte": "Une fonction affine est de la forme f(x) = ax + b, où a et b sont des nombres réels." },
+            { "type": "remarque", "texte": "Si b = 0, la fonction est linéaire : f(x) = ax" },
+            { "type": "remarque", "texte": "Si a = 0, la fonction est constante : f(x) = b" },
+            { "type": "regle", "texte": "a est appelé coefficient directeur. b est appelé ordonnée à l'origine." },
+            { "type": "regle", "texte": "Si a > 0, la fonction est croissante. Si a < 0, la fonction est décroissante." }
+          ]
+        },
+        {
+          "id": "alg-2",
+          "titre": "Identités remarquables",
+          "contenu": [
+            { "type": "formule", "texte": "(a + b)² = a² + 2ab + b²" },
+            { "type": "formule", "texte": "(a − b)² = a² − 2ab + b²" },
+            { "type": "formule", "texte": "(a − b)(a + b) = a² − b²" }
+          ]
+        },
+        {
+          "id": "alg-3",
+          "titre": "Équation du premier degré",
+          "contenu": [
+            { "type": "formule", "texte": "Équation du type ax + b = 0 (avec a ≠ 0) a pour solution unique x = −b/a" },
+            { "type": "exemple", "texte": "4x + 8 = 0 → x = −8/4 = −2" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "composante-4",
+      "titre": "Géométrie et Mesure",
+      "premium": false,
+      "lecons": [
+        {
+          "id": "geo-1",
+          "titre": "Théorème de Thalès",
+          "contenu": [
+            { "type": "formule", "texte": "Si (MN) // (BC) alors : AM/AB = AN/AC = MN/BC" },
+            { "type": "remarque", "texte": "Réciproque : si AM/AB = AN/AC et que les points sont alignés dans le même ordre, alors (MN) // (BC)." }
+          ]
+        },
+        {
+          "id": "geo-2",
+          "titre": "Droite des milieux",
+          "contenu": [
+            { "type": "theoreme", "texte": "Si une droite passe par les milieux de deux côtés d'un triangle, alors elle est parallèle au troisième côté." },
+            { "type": "theoreme", "texte": "La longueur du segment joignant les milieux de deux côtés est égale à la moitié de la longueur du troisième côté." },
+            { "type": "theoreme", "texte": "Si une droite passe par le milieu d'un côté et est parallèle à un second côté, elle coupe le troisième côté en son milieu." }
+          ]
+        },
+        {
+          "id": "geo-3",
+          "titre": "Polygones réguliers",
+          "contenu": [
+            { "type": "formule", "texte": "Angle au centre = 360° / n (n = nombre de côtés)" },
+            { "type": "tableau", "titre": "Angles au centre des polygones réguliers", "lignes": [
+              { "polygone": "Triangle équilatéral", "angle": "120°" },
+              { "polygone": "Carré", "angle": "90°" },
+              { "polygone": "Pentagone régulier", "angle": "72°" },
+              { "polygone": "Hexagone régulier", "angle": "60°" }
+            ]}
+          ]
+        },
+        {
+          "id": "geo-4",
+          "titre": "Volumes : pyramide et cône",
+          "contenu": [
+            { "type": "formule", "texte": "Volume = (Aire de la base × hauteur) / 3" },
+            { "type": "exemple", "texte": "Cône de diamètre 8 cm (rayon 4 cm) et hauteur 12 cm :\nV = (π × 4² × 12) / 3 ≈ 200,96 cm³" }
+          ]
+        },
+        {
+          "id": "geo-5",
+          "titre": "Sphère et boule",
+          "contenu": [
+            { "type": "formule", "texte": "Aire de la sphère = 4 × π × R²" },
+            { "type": "formule", "texte": "Volume de la boule = (4/3) × π × R³" },
+            { "type": "exemple", "texte": "Pour R = 6 cm : Aire = 4 × π × 36 = 144π cm² ; Volume = (4/3) × π × 216 = 288π cm³" }
+          ]
+        },
+        {
+          "id": "geo-6",
+          "titre": "Agrandissement et réduction",
+          "contenu": [
+            { "type": "regle", "texte": "Si les longueurs sont multipliées par k, alors les aires sont multipliées par k² et les volumes par k³." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "composante-5",
+      "titre": "Traitement des données et Probabilités",
+      "premium": false,
+      "lecons": [
+        {
+          "id": "stat-1",
+          "titre": "Moyenne, médiane, étendue",
+          "contenu": [
+            { "type": "formule", "texte": "Moyenne M = (x₁n₁ + x₂n₂ + ...) / N, où N est l'effectif total." },
+            { "type": "definition", "texte": "La médiane est la valeur qui partage une série ordonnée en deux groupes de même effectif." },
+            { "type": "definition", "texte": "L'étendue = valeur maximale − valeur minimale." }
+          ]
+        },
+        {
+          "id": "stat-2",
+          "titre": "Effectifs cumulés et fréquences",
+          "contenu": [
+            { "type": "definition", "texte": "L'effectif cumulé croissant d'une valeur est la somme des effectifs de toutes les valeurs inférieures ou égales à elle." },
+            { "type": "definition", "texte": "La fréquence d'une valeur est son effectif divisé par l'effectif total (souvent exprimée en %)." }
+          ]
+        },
+        {
+          "id": "proba-1",
+          "titre": "Vocabulaire des probabilités",
+          "contenu": [
+            { "type": "definition", "texte": "Expérience aléatoire : expérience dont le résultat dépend du hasard." },
+            { "type": "definition", "texte": "Univers : ensemble de tous les résultats possibles d'une expérience aléatoire." },
+            { "type": "definition", "texte": "Événements incompatibles : deux événements qui ne peuvent pas se réaliser en même temps." },
+            { "type": "definition", "texte": "Événements contraires : deux événements incompatibles dont la réunion forme l'univers entier." }
+          ]
+        },
+        {
+          "id": "proba-2",
+          "titre": "Calcul de probabilités",
+          "contenu": [
+            { "type": "formule", "texte": "P(A) = nombre de cas favorables / nombre de cas possibles" },
+            { "type": "regle", "texte": "0 ≤ P(A) ≤ 1" },
+            { "type": "formule", "texte": "P(A) = 1 − P(Ā), où Ā est l'événement contraire de A" },
+            { "type": "formule", "texte": "Si A et B sont incompatibles : P(A ∪ B) = P(A) + P(B)" }
+          ]
+        }
+      ]
+    }
+  ]
+}
