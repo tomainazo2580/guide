@@ -120,7 +120,7 @@
     {
       "id": "composante-3",
       "titre": "Algèbre",
-      "premium": false,
+      "premium": true,
       "lecons": [
         {
           "id": "alg-1",
@@ -161,7 +161,7 @@
     {
       "id": "composante-4",
       "titre": "Géométrie et Mesure",
-      "premium": false,
+      "premium": true,
       "lecons": [
         {
           "id": "geo-1",
@@ -239,7 +239,7 @@
     {
       "id": "composante-5",
       "titre": "Traitement des données et Probabilités",
-      "premium": false,
+      "premium": true,
       "lecons": [
         {
           "id": "stat-1",
