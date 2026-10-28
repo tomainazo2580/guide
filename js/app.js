@@ -129,7 +129,6 @@ function afficherListeComposantes() {
   document.getElementById('matiere-titre').textContent = etatNav.data.matiere;
   document.getElementById('btn-back').style.display = 'none';
 
-  // Progression globale de la matière
   let totalLeconsMatiere = 0;
   let idsToutesLecons = [];
   etatNav.data.composantes.forEach(comp => {
@@ -234,6 +233,20 @@ function afficherLecon(leconId) {
         </div>`;
     }
   });
+
+  // ===== LEXIQUE (mots difficiles) =====
+  if (lecon.lexique && lecon.lexique.length > 0) {
+    html += `<details class="lexique-wrapper">
+      <summary class="lexique-titre">📖 Mots difficiles de cette leçon</summary>
+      <div class="lexique-liste">`;
+    lecon.lexique.forEach(item => {
+      html += `
+        <div class="lexique-item">
+          <span class="lexique-mot">${item.mot}</span> : ${item.definition}
+        </div>`;
+    });
+    html += `</div></details>`;
+  }
 
   zone.innerHTML = html;
 }
