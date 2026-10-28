@@ -8,7 +8,6 @@ const MATIERES = {
   anglais: { nom: "Anglais", fichier: null, disponible: false }
 };
 
-// Libellés affichés pour chaque type de contenu
 const LABELS_TYPE = {
   definition: "📘 Définition",
   formule: "🧮 Formule",
@@ -19,8 +18,46 @@ const LABELS_TYPE = {
   methode: "🛠️ Méthode"
 };
 
-// Etat de navigation dans une matière
 let etatNav = { matiere: null, composante: null, lecon: null, data: null };
+
+// ===== PROGRESSION (stockage local) =====
+function chargerProgression() {
+  return JSON.parse(localStorage.getItem('guide-progression') || '{}');
+}
+function sauvegarderProgression(prog) {
+  localStorage.setItem('guide-progression', JSON.stringify(prog));
+}
+function marquerLeconVue(matiereId, leconId) {
+  const prog = chargerProgression();
+  if (!prog[matiereId]) prog[matiereId] = [];
+  if (!prog[matiereId].includes(leconId)) {
+    prog[matiereId].push(leconId);
+    sauvegarderProgression(prog);
+  }
+}
+function leconEstVue(matiereId, leconId) {
+  const prog = chargerProgression();
+  return !!(prog[matiereId] && prog[matiereId].includes(leconId));
+}
+function compterLeconsVues(matiereId, idsLecons) {
+  const prog = chargerProgression();
+  const vues = prog[matiereId] || [];
+  return idsLecons.filter(id => vues.includes(id)).length;
+}
+function reinitialiserProgression() {
+  localStorage.removeItem('guide-progression');
+}
+
+function barreProgressionHTML(vues, total) {
+  const pourcentage = total > 0 ? Math.round((vues / total) * 100) : 0;
+  return `
+    <div class="progression-wrapper">
+      <div class="progression-texte">${vues}/${total} leçons vues</div>
+      <div class="barre-progression">
+        <div class="barre-progression-fill" style="width:${pourcentage}%"></div>
+      </div>
+    </div>`;
+}
 
 // ===== THEME JOUR/NUIT =====
 const themeToggle = document.getElementById('theme-toggle');
@@ -92,12 +129,29 @@ function afficherListeComposantes() {
   document.getElementById('matiere-titre').textContent = etatNav.data.matiere;
   document.getElementById('btn-back').style.display = 'none';
 
-  let html = '<div class="liste-cartes">';
+  // Progression globale de la matière
+  let totalLeconsMatiere = 0;
+  let idsToutesLecons = [];
+  etatNav.data.composantes.forEach(comp => {
+    comp.lecons.forEach(l => idsToutesLecons.push(l.id));
+  });
+  totalLeconsMatiere = idsToutesLecons.length;
+  const vuesMatiere = compterLeconsVues(etatNav.matiere, idsToutesLecons);
+
+  let html = barreProgressionHTML(vuesMatiere, totalLeconsMatiere);
+  html += '<div class="liste-cartes">';
+
   etatNav.data.composantes.forEach(comp => {
     const cadenas = comp.premium ? ' 🔒' : '';
+    const idsLecons = comp.lecons.map(l => l.id);
+    const vues = compterLeconsVues(etatNav.matiere, idsLecons);
+    const total = idsLecons.length;
     html += `
       <div class="carte-liste" data-composante="${comp.id}">
-        <span>${comp.titre}${cadenas}</span>
+        <div class="carte-liste-texte">
+          <span>${comp.titre}${cadenas}</span>
+          <span class="mini-progression">${vues}/${total}</span>
+        </div>
         <span class="fleche">›</span>
       </div>`;
   });
@@ -120,11 +174,21 @@ function afficherListeLecons(composanteId) {
   document.getElementById('matiere-titre').textContent = composante.titre;
   document.getElementById('btn-back').style.display = 'inline-block';
 
-  let html = '<div class="liste-cartes">';
+  const idsLecons = composante.lecons.map(l => l.id);
+  const vues = compterLeconsVues(etatNav.matiere, idsLecons);
+
+  let html = barreProgressionHTML(vues, idsLecons.length);
+  html += '<div class="liste-cartes">';
+
   composante.lecons.forEach(lecon => {
+    const vu = leconEstVue(etatNav.matiere, lecon.id);
+    const coche = vu ? '<span class="coche-vue">✅</span>' : '';
     html += `
       <div class="carte-liste" data-lecon="${lecon.id}">
-        <span>${lecon.titre}</span>
+        <div class="carte-liste-texte">
+          <span>${lecon.titre}</span>
+        </div>
+        ${coche}
         <span class="fleche">›</span>
       </div>`;
   });
@@ -139,6 +203,8 @@ function afficherListeLecons(composanteId) {
 // ===== NIVEAU 3 : CONTENU D'UNE LECON =====
 function afficherLecon(leconId) {
   etatNav.lecon = leconId;
+
+  marquerLeconVue(etatNav.matiere, leconId);
 
   const composante = etatNav.data.composantes.find(c => c.id === etatNav.composante);
   const lecon = composante.lecons.find(l => l.id === leconId);
@@ -182,6 +248,18 @@ document.getElementById('btn-back').addEventListener('click', () => {
     afficherVue('accueil');
   }
 });
+
+// ===== REINITIALISATION PROGRESSION (Réglages) =====
+const btnReset = document.getElementById('btn-reset-progression');
+if (btnReset) {
+  btnReset.addEventListener('click', () => {
+    const confirmation = confirm("Es-tu sûr de vouloir réinitialiser toute ta progression ? Cette action est irréversible.");
+    if (confirmation) {
+      reinitialiserProgression();
+      alert("Progression réinitialisée !");
+    }
+  });
+}
 
 // ===== SERVICE WORKER =====
 if ('serviceWorker' in navigator) {
