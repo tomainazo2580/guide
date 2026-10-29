@@ -3,9 +3,106 @@
   "titre": "Traitement des données et Probabilités",
   "premium": false,
   "lecons": [
-    { "id": "stat-1", "titre": "Moyenne, médiane, étendue", "blocs": [ { "type": "texte", "texte": "Contenu en cours de réécriture complète à partir du fascicule officiel." } ] },
-    { "id": "stat-2", "titre": "Effectifs cumulés et fréquences", "blocs": [ { "type": "texte", "texte": "Contenu en cours de réécriture complète à partir du fascicule officiel." } ] },
-    { "id": "proba-1", "titre": "Vocabulaire des probabilités", "blocs": [ { "type": "texte", "texte": "Contenu en cours de réécriture complète à partir du fascicule officiel." } ] },
-    { "id": "proba-2", "titre": "Calcul de probabilités", "blocs": [ { "type": "texte", "texte": "Contenu en cours de réécriture complète à partir du fascicule officiel." } ] }
+    {
+      "id": "stat-1",
+      "titre": "Moyenne, médiane et étendue",
+      "blocs": [
+        { "type": "definition", "texte": "La population est l'ensemble des individus sur lesquels porte une étude statistique.\nLe caractère est la propriété étudiée sur cette population.\nL'effectif d'une valeur est le nombre de fois où cette valeur apparaît dans la série.\nL'effectif total est le nombre total d'individus de la population.\nLa fréquence d'une valeur est le quotient de son effectif par l'effectif total ; elle peut s'exprimer en pourcentage." },
+        { "type": "exemple", "texte": "On interroge 12 élèves sur leur nombre de frères et sœurs. Voici les réponses :\n0 ; 1 ; 1 ; 2 ; 2 ; 2 ; 3 ; 1 ; 0 ; 2 ; 1 ; 3" },
+        { "type": "tableau", "titre": "Effectifs du nombre de frères et sœurs (12 élèves)", "entetes": ["Nombre de frères et sœurs", "Effectif", "Fréquence"], "lignes": [
+          ["0", "2", "2/12 ≈ 0,17"],
+          ["1", "4", "4/12 ≈ 0,33"],
+          ["2", "4", "4/12 ≈ 0,33"],
+          ["3", "2", "2/12 ≈ 0,17"]
+        ] },
+        { "type": "formule", "texte": "Moyenne simple d'une série statistique : on additionne toutes les valeurs, puis on divise par l'effectif total.\nMoyenne pondérée (avec coefficients) : M = (somme des valeurs × leur coefficient) / (somme des coefficients)" },
+        { "type": "exemple", "texte": "Reprenons la série des 12 élèves (0;1;1;2;2;2;3;1;0;2;1;3).\n\nSomme des valeurs = 0+1+1+2+2+2+3+1+0+2+1+3 = 18\nMoyenne = 18 / 12 = 1,5\n\nEn moyenne, les élèves de cette classe ont 1,5 frère ou sœur." },
+        { "type": "exemple", "texte": "Moyenne pondérée : un élève obtient 100 points à un devoir de coefficient 3, et 95 points à un devoir de coefficient 1.\n\nM = (100 × 3 + 95 × 1) / (3 + 1)\nM = (300 + 95) / 4\nM = 395 / 4\nM = 98,75\n\nLa moyenne pondérée de cet élève est 98,75." },
+        { "type": "definition", "texte": "La médiane d'une série statistique est une valeur qui partage la série, rangée par ordre croissant, en deux groupes de même effectif : la moitié des valeurs lui sont inférieures ou égales, l'autre moitié lui sont supérieures ou égales.\nSi l'effectif total est impair, la médiane est la valeur du milieu.\nSi l'effectif total est pair, la médiane est la moyenne des deux valeurs du milieu." },
+        { "type": "exemple", "texte": "On a interrogé 16 personnes sur le nombre de messages qu'elles envoient par jour. Voici la série rangée par ordre croissant :\n8 ; 9 ; 9 ; 10 ; 10 ; 11 ; 11 ; 11 ; 11 ; 12 ; 12 ; 12 ; 13 ; 14 ; 14 ; 15\n\nL'effectif total est 16 (pair). La médiane est la moyenne des 8e et 9e valeurs.\n8e valeur = 11, 9e valeur = 11\nMédiane = (11 + 11) / 2 = 11\n\nLa médiane de cette série est 11." },
+        { "type": "definition", "texte": "L'étendue d'une série statistique est la différence entre la plus grande et la plus petite valeur de la série." },
+        { "type": "exemple", "texte": "Pour la série des messages par jour (8 à 15) :\nÉtendue = 15 − 8 = 7" },
+        { "type": "schema", "titre": "Diagramme en bâtons : sports pratiqués par 20 élèves", "svg": "<svg width='260' height='200' viewBox='0 0 260 200' xmlns='http://www.w3.org/2000/svg'><rect width='260' height='200' fill='white'/><line x1='30' y1='170' x2='250' y2='170' stroke='black' stroke-width='2'/><line x1='30' y1='170' x2='30' y2='20' stroke='black' stroke-width='2'/><rect x='50' y='90' width='30' height='80' fill='none' stroke='black' stroke-width='2'/><rect x='110' y='110' width='30' height='60' fill='none' stroke='black' stroke-width='2'/><rect x='170' y='130' width='30' height='40' fill='none' stroke='black' stroke-width='2'/><text x='45' y='185' font-size='11'>Foot</text><text x='100' y='185' font-size='11'>Basket</text><text x='165' y='185' font-size='11'>Volley</text><text x='10' y='95' font-size='10'>8</text><text x='10' y='115' font-size='10'>6</text><text x='10' y='135' font-size='10'>4</text></svg>", "legende": "Diagramme en bâtons représentant le nombre d'élèves pratiquant chaque sport : 8 élèves font du football, 6 du basket, 4 du volley." },
+        { "type": "exercice", "enonce": "Voici les notes sur 20 obtenues par 10 élèves à un devoir :\n8 ; 10 ; 12 ; 12 ; 13 ; 14 ; 14 ; 14 ; 16 ; 18\na) Calculer la moyenne de la classe.\nb) Déterminer la médiane.\nc) Calculer l'étendue.", "solution": "a) Somme = 8+10+12+12+13+14+14+14+16+18 = 131\nMoyenne = 131 / 10 = 13,1\n\nb) L'effectif est 10 (pair). La médiane est la moyenne des 5e et 6e valeurs.\n5e valeur = 13, 6e valeur = 14\nMédiane = (13 + 14) / 2 = 13,5\n\nc) Étendue = 18 − 8 = 10" }
+      ],
+      "lexique": [
+        { "terme": "Population", "definition": "Ensemble des individus sur lesquels porte une étude statistique." },
+        { "terme": "Caractère", "definition": "Propriété étudiée sur une population dans une étude statistique." },
+        { "terme": "Effectif", "definition": "Nombre de fois où une valeur apparaît dans une série statistique." },
+        { "terme": "Fréquence", "definition": "Quotient de l'effectif d'une valeur par l'effectif total." },
+        { "terme": "Médiane", "definition": "Valeur qui partage une série ordonnée en deux groupes de même effectif." },
+        { "terme": "Étendue", "definition": "Différence entre la plus grande et la plus petite valeur d'une série." }
+      ]
+    },
+    {
+      "id": "stat-2",
+      "titre": "Effectifs cumulés et fréquences cumulées",
+      "blocs": [
+        { "type": "definition", "texte": "L'effectif cumulé croissant d'une valeur est la somme des effectifs de cette valeur et de toutes les valeurs qui lui sont inférieures.\nLa fréquence cumulée croissante d'une valeur est la somme des fréquences de cette valeur et de toutes les valeurs qui lui sont inférieures." },
+        { "type": "exemple", "texte": "On interroge 30 élèves sur leur nombre de frères et sœurs :" },
+        { "type": "tableau", "titre": "Effectifs cumulés croissants (30 élèves)", "entetes": ["Nombre de frères et sœurs", "Effectif", "Effectif cumulé croissant", "Fréquence cumulée croissante"], "lignes": [
+          ["0", "5", "5", "5/30 ≈ 0,17"],
+          ["1", "8", "13", "13/30 ≈ 0,43"],
+          ["2", "10", "23", "23/30 ≈ 0,77"],
+          ["3", "5", "28", "28/30 ≈ 0,93"],
+          ["4", "2", "30", "30/30 = 1"]
+        ] },
+        { "type": "remarque", "texte": "L'effectif cumulé croissant de la dernière valeur est toujours égal à l'effectif total.\nLa fréquence cumulée croissante de la dernière valeur est toujours égale à 1 (soit 100%)." },
+        { "type": "methode", "texte": "Pour construire la colonne des effectifs cumulés croissants, on additionne progressivement les effectifs :\n– Effectif cumulé de la 1re valeur = effectif de la 1re valeur.\n– Effectif cumulé d'une valeur = effectif cumulé de la valeur précédente + effectif de cette valeur." },
+        { "type": "schema", "titre": "Polygone des effectifs cumulés croissants", "svg": "<svg width='260' height='200' viewBox='0 0 260 200' xmlns='http://www.w3.org/2000/svg'><rect width='260' height='200' fill='white'/><line x1='30' y1='170' x2='250' y2='170' stroke='black' stroke-width='2'/><line x1='30' y1='170' x2='30' y2='20' stroke='black' stroke-width='2'/><polyline points='30,170 75,150 120,110 165,55 210,30 250,20' fill='none' stroke='black' stroke-width='2'/><circle cx='75' cy='150' r='3'/><circle cx='120' cy='110' r='3'/><circle cx='165' cy='55' r='3'/><circle cx='210' cy='30' r='3'/><text x='70' y='185' font-size='10'>0</text><text x='115' y='185' font-size='10'>1</text><text x='160' y='185' font-size='10'>2</text><text x='205' y='185' font-size='10'>3</text><text x='245' y='185' font-size='10'>4</text><text x='5' y='25' font-size='10'>30</text></svg>", "legende": "Le polygone des effectifs cumulés croissants relie les points représentant chaque valeur et son effectif cumulé : la courbe est toujours croissante." },
+        { "type": "exercice", "enonce": "Voici les effectifs des notes obtenues par 25 élèves à un contrôle :\nNote 8 : effectif 3\nNote 10 : effectif 6\nNote 12 : effectif 9\nNote 15 : effectif 5\nNote 18 : effectif 2\n\na) Calculer les effectifs cumulés croissants.\nb) Calculer les fréquences cumulées croissantes.", "solution": "a) Effectifs cumulés croissants :\nNote 8 : 3\nNote 10 : 3 + 6 = 9\nNote 12 : 9 + 9 = 18\nNote 15 : 18 + 5 = 23\nNote 18 : 23 + 2 = 25\n\nb) Fréquences cumulées croissantes :\nNote 8 : 3/25 = 0,12\nNote 10 : 9/25 = 0,36\nNote 12 : 18/25 = 0,72\nNote 15 : 23/25 = 0,92\nNote 18 : 25/25 = 1" }
+      ],
+      "lexique": [
+        { "terme": "Effectif cumulé croissant", "definition": "Somme des effectifs d'une valeur et de toutes les valeurs inférieures." },
+        { "terme": "Fréquence cumulée croissante", "definition": "Somme des fréquences d'une valeur et de toutes les valeurs inférieures." },
+        { "terme": "Polygone des effectifs cumulés", "definition": "Représentation graphique en ligne brisée des effectifs cumulés croissants d'une série." }
+      ]
+    },
+    {
+      "id": "proba-1",
+      "titre": "Vocabulaire des probabilités",
+      "blocs": [
+        { "type": "definition", "texte": "Une expérience aléatoire est une expérience dont on ne peut pas prévoir le résultat à l'avance, mais dont on connaît à l'avance tous les résultats possibles.\nUne issue (ou un résultat possible) est l'un des résultats que peut donner une expérience aléatoire.\nL'univers des possibles, noté Ω, est l'ensemble de toutes les issues possibles d'une expérience aléatoire.\nUn événement est un ensemble d'issues, c'est-à-dire une partie de l'univers." },
+        { "type": "exemple", "texte": "On lance un dé à 6 faces, numéroté de 1 à 6.\nC'est une expérience aléatoire.\nLes issues possibles sont 1, 2, 3, 4, 5, 6.\nL'univers est Ω = {1 ; 2 ; 3 ; 4 ; 5 ; 6}.\nL'événement « obtenir un nombre pair » correspond à l'ensemble {2 ; 4 ; 6}." },
+        { "type": "definition", "texte": "Deux événements sont incompatibles lorsqu'ils ne peuvent pas se réaliser en même temps (ils n'ont aucune issue en commun).\nL'événement contraire d'un événement A, noté Ā (« A barre »), est l'événement constitué de toutes les issues qui ne sont pas dans A." },
+        { "type": "exemple", "texte": "On lance un dé à 6 faces.\nSoit A l'événement « obtenir un nombre pair » = {2 ; 4 ; 6}.\nSoit B l'événement « obtenir le nombre 1 » = {1}.\nA et B sont incompatibles car ils n'ont aucune issue en commun.\n\nL'événement contraire de A, noté Ā, est « obtenir un nombre impair » = {1 ; 3 ; 5}." },
+        { "type": "tableau", "titre": "Notations utilisées en probabilités", "entetes": ["Notation", "Signification"], "lignes": [
+          ["Ω", "Univers des possibles (ensemble de toutes les issues)"],
+          ["A, B", "Événements"],
+          ["Ā", "Événement contraire de A"],
+          ["P(A)", "Probabilité de l'événement A"],
+          ["A ∪ B", "Événement « A ou B » (réunion)"],
+          ["A ∩ B", "Événement « A et B » (intersection)"]
+        ] },
+        { "type": "exercice", "enonce": "On tire une carte au hasard dans un jeu de 4 cartes : as de cœur, roi de pique, dame de trèfle, valet de carreau.\na) Décrire l'univers Ω.\nb) Soit A l'événement « tirer une carte rouge » (cœur ou carreau). Décrire A.\nc) Décrire l'événement contraire de A.", "solution": "a) Ω = {as de cœur ; roi de pique ; dame de trèfle ; valet de carreau}\n\nb) A = {as de cœur ; valet de carreau}\n\nc) Ā = « tirer une carte noire » = {roi de pique ; dame de trèfle}" }
+      ],
+      "lexique": [
+        { "terme": "Expérience aléatoire", "definition": "Expérience dont le résultat ne peut pas être prévu à l'avance, mais dont les résultats possibles sont connus." },
+        { "terme": "Issue", "definition": "Résultat possible d'une expérience aléatoire." },
+        { "terme": "Univers des possibles", "definition": "Ensemble de toutes les issues possibles d'une expérience aléatoire, noté Ω." },
+        { "terme": "Événements incompatibles", "definition": "Événements qui ne peuvent pas se réaliser en même temps." },
+        { "terme": "Événement contraire", "definition": "Événement constitué de toutes les issues qui ne sont pas dans l'événement de départ." }
+      ]
+    },
+    {
+      "id": "proba-2",
+      "titre": "Calcul de probabilités",
+      "blocs": [
+        { "type": "definition", "texte": "On dit qu'il y a équiprobabilité lorsque toutes les issues d'une expérience aléatoire ont la même chance de se réaliser.\nDans une situation d'équiprobabilité, la probabilité d'un événement A est donnée par :\nP(A) = (nombre d'issues favorables à A) / (nombre total d'issues possibles)" },
+        { "type": "exemple", "texte": "On lance un dé équilibré à 6 faces. Toutes les faces ont la même chance de sortir : il y a équiprobabilité.\nQuelle est la probabilité d'obtenir un nombre pair ?\n\nIssues favorables : {2 ; 4 ; 6}, soit 3 issues favorables.\nNombre total d'issues : 6\n\nP(obtenir un nombre pair) = 3/6 = 0,5\n\nIl y a une chance sur deux d'obtenir un nombre pair." },
+        { "type": "exemple", "texte": "Dans un jeu de 32 cartes, on tire une carte au hasard. Quelle est la probabilité de tirer un roi ?\n\nIl y a 4 rois dans un jeu de 32 cartes.\n\nP(tirer un roi) = 4/32 = 1/8 = 0,125" },
+        { "type": "exemple", "texte": "Un damier comporte 64 cases, dont 32 cases blanches et 32 cases noires. On choisit une case au hasard. Quelle est la probabilité de choisir une case noire ?\n\nP(case noire) = 32/64 = 0,5" },
+        { "type": "theoreme", "texte": "Propriétés des probabilités :\n– La probabilité d'un événement est toujours comprise entre 0 et 1.\n– La probabilité de l'événement certain (l'univers Ω tout entier) est 1.\n– La probabilité de l'événement impossible est 0.\n– Pour tout événement A : P(A) + P(Ā) = 1, donc P(Ā) = 1 − P(A).\n– Pour deux événements A et B : P(A ∪ B) = P(A) + P(B) − P(A ∩ B)." },
+        { "type": "exemple", "texte": "On lance un dé à 6 faces. Soit A l'événement « obtenir un nombre pair ». On a calculé P(A) = 0,5.\n\nP(Ā) = 1 − P(A) = 1 − 0,5 = 0,5\n\nL'événement contraire « obtenir un nombre impair » a donc aussi une probabilité de 0,5, ce qui est cohérent." },
+        { "type": "exemple", "texte": "On lance un dé à 6 faces.\nSoit A l'événement « obtenir un nombre pair » = {2 ; 4 ; 6}, donc P(A) = 3/6 = 0,5\nSoit B l'événement « obtenir un nombre supérieur à 4 » = {5 ; 6}, donc P(B) = 2/6\nL'intersection A ∩ B = {6}, donc P(A ∩ B) = 1/6\n\nP(A ∪ B) = P(A) + P(B) − P(A ∩ B)\nP(A ∪ B) = 3/6 + 2/6 − 1/6 = 4/6 = 2/3\n\nLa probabilité d'obtenir un nombre pair ou supérieur à 4 est 2/3." },
+        { "type": "exercice", "enonce": "On tire une boule au hasard dans un sac contenant 10 boules numérotées de 1 à 10.\na) Quelle est la probabilité de tirer un multiple de 3 ?\nb) Quelle est la probabilité de ne pas tirer un multiple de 3 ?", "solution": "a) Les multiples de 3 entre 1 et 10 sont : 3, 6, 9, soit 3 issues favorables.\nP(multiple de 3) = 3/10 = 0,3\n\nb) P(ne pas tirer un multiple de 3) = 1 − P(multiple de 3) = 1 − 0,3 = 0,7" }
+      ],
+      "lexique": [
+        { "terme": "Équiprobabilité", "definition": "Situation dans laquelle toutes les issues d'une expérience aléatoire ont la même chance de se réaliser." },
+        { "terme": "Probabilité", "definition": "Nombre compris entre 0 et 1 qui mesure la chance qu'un événement se réalise." },
+        { "terme": "Intersection (A ∩ B)", "definition": "Événement regroupant les issues communes à deux événements A et B." },
+        { "terme": "Réunion (A ∪ B)", "definition": "Événement regroupant toutes les issues appartenant à A, à B, ou aux deux." }
+      ]
+    }
   ]
 }
