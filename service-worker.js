@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'guide-v13';
+const CACHE_VERSION = 'guide-v14';
 const CACHE_NAME = CACHE_VERSION;
 
 const APP_SHELL = [
@@ -9,7 +9,11 @@ const APP_SHELL = [
   './js/app.js',
   './icons/icon.svg',
   './icons/icon.png',
-  './data/3e/mathematiques.json'
+  './data/3e/mathematiques/composante-1.json',
+  './data/3e/mathematiques/composante-2.json',
+  './data/3e/mathematiques/composante-3.json',
+  './data/3e/mathematiques/composante-4.json',
+  './data/3e/mathematiques/composante-5.json'
 ];
 
 self.addEventListener('install', (event) => {
