@@ -3,11 +3,116 @@
   "titre": "Géométrie et Mesure",
   "premium": false,
   "lecons": [
-    { "id": "geo-1", "titre": "Théorème de Thalès", "blocs": [ { "type": "texte", "texte": "Contenu en cours de réécriture complète à partir du fascicule officiel." } ] },
-    { "id": "geo-2", "titre": "Droite des milieux", "blocs": [ { "type": "texte", "texte": "Contenu en cours de réécriture complète à partir du fascicule officiel." } ] },
-    { "id": "geo-3", "titre": "Polygones réguliers", "blocs": [ { "type": "texte", "texte": "Contenu en cours de réécriture complète à partir du fascicule officiel." } ] },
-    { "id": "geo-4", "titre": "Volumes : pyramide et cône", "blocs": [ { "type": "texte", "texte": "Contenu en cours de réécriture complète à partir du fascicule officiel." } ] },
-    { "id": "geo-5", "titre": "Sphère et boule", "blocs": [ { "type": "texte", "texte": "Contenu en cours de réécriture complète à partir du fascicule officiel." } ] },
-    { "id": "geo-6", "titre": "Agrandissement et réduction", "blocs": [ { "type": "texte", "texte": "Contenu en cours de réécriture complète à partir du fascicule officiel." } ] }
+    {
+      "id": "geo-1",
+      "titre": "Le théorème de Thalès",
+      "blocs": [
+        { "type": "definition", "texte": "Soit un triangle ABC. Soit M un point du segment [AB] et N un point du segment [AC]. Si la droite (MN) est parallèle à la droite (BC), alors les longueurs des côtés sont proportionnelles : AM/AB = AN/AC = MN/BC." },
+        { "type": "schema", "titre": "Configuration de Thalès", "svg": "<svg width='220' height='200' viewBox='0 0 220 200' xmlns='http://www.w3.org/2000/svg'><rect width='220' height='200' fill='white'/><line x1='110' y1='20' x2='30' y2='180' stroke='black' stroke-width='2'/><line x1='110' y1='20' x2='190' y2='180' stroke='black' stroke-width='2'/><line x1='30' y1='180' x2='190' y2='180' stroke='black' stroke-width='2'/><line x1='70' y1='100' x2='150' y2='100' stroke='black' stroke-width='2'/><text x='105' y='14' font-size='13'>A</text><text x='15' y='195' font-size='13'>B</text><text x='195' y='195' font-size='13'>C</text><text x='50' y='96' font-size='13'>M</text><text x='155' y='96' font-size='13'>N</text></svg>", "legende": "M est sur [AB], N est sur [AC], et (MN) est parallèle à (BC)." },
+        { "type": "exemple", "texte": "Dans un triangle ABC, M est un point de [AB] et N un point de [AC], avec (MN) parallèle à (BC).\nOn donne : AN = 4 cm, AC = 6,4 cm, AB = 8 cm.\nCalculer AM.\n\nD'après le théorème de Thalès :\nAM/AB = AN/AC\nAM/8 = 4/6,4\nAM = 8 × 4/6,4 = 32/6,4 = 5\n\nAM = 5 cm." },
+        { "type": "regle", "texte": "Réciproque du théorème de Thalès : si M est un point de [AB], N est un point de [AC], et que AM/AB = AN/AC (les points étant dans le même ordre par rapport à A), alors (MN) est parallèle à (BC)." },
+        { "type": "exemple", "texte": "Vérifier si (MN) est parallèle à (BC), sachant que AM = 3 cm, AB = 5 cm, AN = 4,5 cm, AC = 7,5 cm.\n\nAM/AB = 3/5 = 0,6\nAN/AC = 4,5/7,5 = 0,6\n\nLes deux rapports sont égaux : donc, d'après la réciproque du théorème de Thalès, (MN) est parallèle à (BC)." },
+        { "type": "exercice", "enonce": "Dans un triangle ABC, M est un point de [AB] et N un point de [AC], avec (MN) parallèle à (BC).\nOn donne : AM = 6 cm, AB = 9 cm, AN = 8 cm.\nCalculer AC.", "solution": "D'après le théorème de Thalès :\nAM/AB = AN/AC\n6/9 = 8/AC\nAC = 8 × 9/6 = 72/6 = 12\n\nAC = 12 cm." }
+      ],
+      "lexique": [
+        { "terme": "Théorème de Thalès", "definition": "Théorème qui permet de calculer des longueurs dans un triangle lorsque deux droites sont parallèles." },
+        { "terme": "Réciproque", "definition": "Théorème qui permet de démontrer que deux droites sont parallèles en comparant des rapports de longueurs." }
+      ]
+    },
+    {
+      "id": "geo-2",
+      "titre": "Le théorème de la droite des milieux",
+      "blocs": [
+        { "type": "theoreme", "texte": "Théorème 1 (direct) : Dans un triangle, si K est le milieu de [AB] et L est le milieu de [AC], alors (KL) est parallèle à (BC) et KL = BC / 2." },
+        { "type": "schema", "titre": "La droite des milieux", "svg": "<svg width='220' height='200' viewBox='0 0 220 200' xmlns='http://www.w3.org/2000/svg'><rect width='220' height='200' fill='white'/><line x1='110' y1='20' x2='30' y2='180' stroke='black' stroke-width='2'/><line x1='110' y1='20' x2='190' y2='180' stroke='black' stroke-width='2'/><line x1='30' y1='180' x2='190' y2='180' stroke='black' stroke-width='2'/><line x1='70' y1='100' x2='150' y2='100' stroke='black' stroke-width='2'/><text x='105' y='14' font-size='13'>A</text><text x='15' y='195' font-size='13'>B</text><text x='195' y='195' font-size='13'>C</text><text x='50' y='96' font-size='13'>K</text><text x='155' y='96' font-size='13'>L</text></svg>", "legende": "K est le milieu de [AB], L est le milieu de [AC] : (KL) est parallèle à (BC) et KL = BC/2." },
+        { "type": "methode", "titre": "Démonstration du théorème", "texte": "On construit un point auxiliaire O pour démontrer le théorème.\nSoit K le milieu de [AB] et L le milieu de [AC]. On construit le point O tel que L soit le milieu de [KO] (on prolonge le segment [KL] d'une longueur KL au-delà de L).\n\nDans le quadrilatère AKCO, les diagonales sont [AC] et [KO]. Or L est le milieu de [AC] (donné) et L est aussi le milieu de [KO] (par construction) : les diagonales se coupent en leur milieu, donc AKCO est un parallélogramme.\n\nDans un parallélogramme, les côtés opposés sont parallèles et de même longueur, donc (AK) est parallèle à (CO) et AK = CO.\n\nOr K est le milieu de [AB], donc AK = KB. On en déduit que KB = CO, et que (KB) est parallèle à (CO), car (KB) est portée par la droite (AK).\n\nLe quadrilatère KBCO a donc un couple de côtés opposés [KB] et [CO] parallèles et de même longueur : KBCO est donc aussi un parallélogramme.\n\nDans ce parallélogramme, (KO) est parallèle à (BC) et KO = BC.\n\nComme L est le milieu de [KO], on a KL = KO / 2 = BC / 2.\nEt comme (KL) est portée par la droite (KO), (KL) est parallèle à (BC).\n\nOn a donc bien démontré que (KL) est parallèle à (BC) et que KL = BC / 2." },
+        { "type": "exemple", "texte": "Dans un triangle ABC, K est le milieu de [AB] et L est le milieu de [AC]. On donne BC = 7 cm.\nCalculer KL.\n\nD'après le théorème de la droite des milieux :\nKL = BC / 2 = 7 / 2 = 3,5\n\nKL = 3,5 cm." },
+        { "type": "theoreme", "texte": "Théorème 2 (réciproque, parallélisme) : Si une droite passe par le milieu d'un côté d'un triangle et est parallèle à un deuxième côté, alors elle coupe le troisième côté en son milieu." },
+        { "type": "theoreme", "texte": "Théorème 3 (réciproque, longueur) : Si une droite relie le milieu d'un côté d'un triangle à un point d'un deuxième côté, et que sa longueur est égale à la moitié du troisième côté, et qu'elle lui est parallèle, alors ce point est le milieu du deuxième côté." },
+        { "type": "exercice", "enonce": "Dans un triangle ABC, K est le milieu de [AB] et L est le milieu de [AC]. On donne KL = 4,5 cm.\nCalculer BC.", "solution": "D'après le théorème de la droite des milieux :\nKL = BC / 2\n4,5 = BC / 2\nBC = 4,5 × 2 = 9\n\nBC = 9 cm." }
+      ],
+      "lexique": [
+        { "terme": "Droite des milieux", "definition": "Droite qui relie les milieux de deux côtés d'un triangle." },
+        { "terme": "Parallélogramme", "definition": "Quadrilatère dont les côtés opposés sont parallèles deux à deux." },
+        { "terme": "Point auxiliaire", "definition": "Point supplémentaire que l'on construit pour aider à démontrer une propriété géométrique." }
+      ]
+    },
+    {
+      "id": "geo-3",
+      "titre": "Les polygones réguliers",
+      "blocs": [
+        { "type": "definition", "texte": "Un polygone régulier est un polygone dont tous les côtés ont la même longueur et tous les angles ont la même mesure. Un polygone régulier peut toujours être inscrit dans un cercle : tous ses sommets sont sur ce cercle." },
+        { "type": "regle", "texte": "Dans un polygone régulier à n côtés inscrit dans un cercle de centre O, l'angle au centre (angle formé par deux rayons joignant le centre à deux sommets consécutifs) se calcule par :\nAngle au centre = 360° / n" },
+        { "type": "schema", "titre": "Hexagone régulier inscrit dans un cercle", "svg": "<svg width='200' height='200' viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><rect width='200' height='200' fill='white'/><circle cx='100' cy='100' r='80' fill='none' stroke='black' stroke-width='1'/><polygon points='180,100 140,169 60,169 20,100 60,31 140,31' fill='none' stroke='black' stroke-width='2'/><line x1='100' y1='100' x2='180' y2='100' stroke='black' stroke-width='1'/><line x1='100' y1='100' x2='140' y2='169' stroke='black' stroke-width='1'/><text x='90' y='95' font-size='12'>O</text><text x='115' y='125' font-size='11'>60°</text></svg>", "legende": "Dans un hexagone régulier (n = 6), l'angle au centre vaut 360° / 6 = 60°." },
+        { "type": "exemple", "texte": "Triangle équilatéral (n = 3) :\nAngle au centre = 360° / 3 = 120°" },
+        { "type": "exemple", "texte": "Carré (n = 4) :\nAngle au centre = 360° / 4 = 90°" },
+        { "type": "exemple", "texte": "Pentagone régulier (n = 5) :\nAngle au centre = 360° / 5 = 72°" },
+        { "type": "exemple", "texte": "Hexagone régulier (n = 6) :\nAngle au centre = 360° / 6 = 60°" },
+        { "type": "remarque", "texte": "L'angle intérieur d'un polygone régulier (l'angle formé à chaque sommet, à l'intérieur du polygone) peut se calculer avec la formule :\nAngle intérieur = 180° − Angle au centre\n\nPar exemple, pour l'hexagone régulier : Angle intérieur = 180° − 60° = 120°." },
+        { "type": "exercice", "enonce": "Un polygone régulier possède 9 côtés (un ennéagone).\na) Calculer son angle au centre.\nb) Calculer son angle intérieur.", "solution": "a) Angle au centre = 360° / 9 = 40°\nb) Angle intérieur = 180° − 40° = 140°" }
+      ],
+      "lexique": [
+        { "terme": "Polygone régulier", "definition": "Polygone dont tous les côtés et tous les angles sont égaux." },
+        { "terme": "Angle au centre", "definition": "Angle formé par deux rayons reliant le centre du cercle circonscrit à deux sommets consécutifs du polygone." },
+        { "terme": "Angle intérieur", "definition": "Angle formé à l'intérieur du polygone, à chacun de ses sommets." }
+      ]
+    },
+    {
+      "id": "geo-4",
+      "titre": "Les volumes de la pyramide et du cône",
+      "blocs": [
+        { "type": "tableau", "titre": "Unités de volume", "entetes": ["Unité", "Équivalence"], "lignes": [
+          ["1 m³", "1000 dm³ (soit 1000 L)"],
+          ["1 dm³", "1 litre (L)"],
+          ["1 dm³", "1000 cm³"],
+          ["1 cm³", "1000 mm³"]
+        ] },
+        { "type": "tableau", "titre": "Formules de volumes", "entetes": ["Solide", "Formule du volume"], "lignes": [
+          ["Prisme droit / Cylindre", "V = Aire de la base × hauteur"],
+          ["Cylindre (en particulier)", "V = π × R² × h"],
+          ["Pyramide / Cône", "V = (1/3) × Aire de la base × hauteur"],
+          ["Cône (en particulier)", "V = (1/3) × π × R² × h"]
+        ] },
+        { "type": "exemple", "texte": "Calculer le volume d'un cône de rayon R = 4 cm et de hauteur h = 12 cm (on prendra π ≈ 3,14).\n\nV = (1/3) × π × R² × h\nV = (1/3) × 3,14 × 4² × 12\nV = (1/3) × 3,14 × 16 × 12\nV = (1/3) × 602,88\nV = 200,96\n\nLe volume du cône est d'environ 200,96 cm³." },
+        { "type": "exemple", "texte": "Calculer l'aire totale d'une pyramide à base carrée de côté c = 8 dm, dont l'apothème (hauteur d'une face triangulaire) mesure 4 dm.\n\nAire de la base = c × c = 8 × 8 = 64 dm²\nAire d'une face triangulaire = (1/2) × c × apothème = (1/2) × 8 × 4 = 16 dm²\nIl y a 4 faces triangulaires identiques :\nAire latérale = 4 × 16 = 64 dm²\n\nAire totale = Aire de la base + Aire latérale = 64 + 64 = 128 dm²" },
+        { "type": "exercice", "enonce": "Calculer le volume d'une pyramide à base carrée de côté 6 cm et de hauteur 10 cm.", "solution": "Aire de la base = 6 × 6 = 36 cm²\nV = (1/3) × Aire de la base × hauteur\nV = (1/3) × 36 × 10\nV = (1/3) × 360\nV = 120\n\nLe volume de la pyramide est 120 cm³." }
+      ],
+      "lexique": [
+        { "terme": "Apothème", "definition": "Hauteur d'une face triangulaire d'une pyramide, mesurée depuis le sommet jusqu'au milieu du côté de la base." },
+        { "terme": "Aire latérale", "definition": "Somme des aires des faces latérales d'un solide, sans compter la base." },
+        { "terme": "Aire totale", "definition": "Somme de l'aire latérale et de l'aire de la base (ou des bases) d'un solide." }
+      ]
+    },
+    {
+      "id": "geo-5",
+      "titre": "La sphère et la boule",
+      "blocs": [
+        { "type": "definition", "texte": "Une sphère de centre O et de rayon R est l'ensemble des points situés à une distance R du point O : c'est une surface.\nUne boule de centre O et de rayon R est l'ensemble des points situés à une distance inférieure ou égale à R du point O : c'est un solide (l'intérieur plein de la sphère)." },
+        { "type": "formule", "texte": "Aire de la sphère : A = 4 × π × R²\nVolume de la boule : V = (4/3) × π × R³" },
+        { "type": "schema", "titre": "Sphère et boule de rayon R", "svg": "<svg width='200' height='200' viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><rect width='200' height='200' fill='white'/><circle cx='100' cy='100' r='80' fill='none' stroke='black' stroke-width='2'/><ellipse cx='100' cy='100' rx='80' ry='22' fill='none' stroke='black' stroke-width='1' stroke-dasharray='4,3'/><line x1='100' y1='100' x2='180' y2='100' stroke='black' stroke-width='1'/><text x='90' y='95' font-size='12'>O</text><text x='135' y='95' font-size='12'>R</text></svg>", "legende": "O est le centre, R est le rayon de la sphère (ou de la boule)." },
+        { "type": "exemple", "texte": "Calculer l'aire et le volume d'une boule de rayon R = 6 cm (on prendra π ≈ 3,14).\n\nAire = 4 × π × R² = 4 × 3,14 × 6² = 4 × 3,14 × 36 = 452,16\nL'aire de la sphère est d'environ 452,16 cm².\n\nVolume = (4/3) × π × R³ = (4/3) × 3,14 × 6³ = (4/3) × 3,14 × 216 = (4/3) × 678,24 = 904,32\nLe volume de la boule est d'environ 904,32 cm³." },
+        { "type": "exemple", "texte": "Calcul du rayon à partir du volume : une boule a un volume de 268,08 cm³ (on prendra π ≈ 3,14). Calculer son rayon.\n\nV = (4/3) × π × R³\nR³ = 3V / (4π)\nR³ = (3 × 268,08) / (4 × 3,14)\nR³ = 804,24 / 12,56\nR³ = 64,03\nR = racine cubique de 64,03 ≈ 4\n\nLe rayon de la boule est d'environ 4 cm." },
+        { "type": "exercice", "enonce": "Une boule a un rayon de 3 cm (on prendra π ≈ 3,14). Calculer son aire et son volume.", "solution": "Aire = 4 × π × R² = 4 × 3,14 × 9 = 113,04\nL'aire est d'environ 113,04 cm².\n\nVolume = (4/3) × π × R³ = (4/3) × 3,14 × 27 = 4 × 3,14 × 9 = 113,04\nLe volume est d'environ 113,04 cm³." }
+      ],
+      "lexique": [
+        { "terme": "Sphère", "definition": "Surface formée de tous les points situés à une distance R d'un centre O." },
+        { "terme": "Boule", "definition": "Solide plein formé de tous les points situés à une distance inférieure ou égale à R d'un centre O." }
+      ]
+    },
+    {
+      "id": "geo-6",
+      "titre": "Agrandissement et réduction",
+      "blocs": [
+        { "type": "definition", "texte": "Agrandir ou réduire une figure (ou un solide), c'est construire une nouvelle figure (ou un nouveau solide) dont toutes les longueurs sont obtenues en multipliant les longueurs de la figure de départ par un même nombre k, appelé rapport d'agrandissement ou de réduction.\nSi k > 1, il s'agit d'un agrandissement.\nSi 0 < k < 1, il s'agit d'une réduction." },
+        { "type": "regle", "texte": "Lors d'un agrandissement ou d'une réduction de rapport k :\n– les longueurs sont multipliées par k ;\n– les aires sont multipliées par k² ;\n– les volumes sont multipliés par k³ ;\n– les angles restent les mêmes (ils sont conservés) ;\n– le parallélisme des droites est conservé." },
+        { "type": "exemple", "texte": "Un rectangle a pour longueur 5 cm et pour largeur 3 cm. On l'agrandit avec un rapport k = 2.\n\nNouvelle longueur = 5 × 2 = 10 cm\nNouvelle largeur = 3 × 2 = 6 cm\n\nAire initiale = 5 × 3 = 15 cm²\nAire agrandie = 10 × 6 = 60 cm²\n\nVérification : 15 × k² = 15 × 2² = 15 × 4 = 60 cm². Le résultat est bien cohérent." },
+        { "type": "exemple", "texte": "Un solide a un volume de 40 cm³. On lui applique une réduction de rapport k = 0,5.\n\nNouveau volume = 40 × k³ = 40 × 0,5³ = 40 × 0,125 = 5\n\nLe volume réduit est 5 cm³." },
+        { "type": "exercice", "enonce": "Un triangle a une aire de 24 cm². On l'agrandit avec un rapport k = 3. Calculer l'aire du triangle agrandi.", "solution": "Aire agrandie = Aire initiale × k² = 24 × 3² = 24 × 9 = 216\n\nL'aire du triangle agrandi est 216 cm²." }
+      ],
+      "lexique": [
+        { "terme": "Rapport d'agrandissement ou de réduction", "definition": "Nombre k par lequel on multiplie toutes les longueurs d'une figure pour obtenir une figure agrandie ou réduite." },
+        { "terme": "Conservation des angles", "definition": "Propriété selon laquelle les angles d'une figure restent inchangés lors d'un agrandissement ou d'une réduction." }
+      ]
+    }
   ]
 }
