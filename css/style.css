@@ -1,16 +1,13 @@
 /* ============================================
    GUIDE — style.css
    ============================================ */
-
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html, body { height: 100%; }
-
 body {
   font-family: 'Segoe UI', Arial, sans-serif;
-  padding-bottom: 70px;
+  padding-bottom: 100px;
   transition: background-color 0.2s, color 0.2s;
 }
-
 body[data-theme="clair"] {
   --bg: #f5f7fa;
   --bg-carte: #ffffff;
@@ -26,7 +23,6 @@ body[data-theme="clair"] {
   background-color: var(--bg);
   color: var(--texte);
 }
-
 body[data-theme="sombre"] {
   --bg: #0f172a;
   --bg-carte: #1e293b;
@@ -42,7 +38,6 @@ body[data-theme="sombre"] {
   background-color: var(--bg);
   color: var(--texte);
 }
-
 .app-header {
   display: flex;
   align-items: center;
@@ -54,9 +49,7 @@ body[data-theme="sombre"] {
   top: 0;
   z-index: 100;
 }
-
 .titre-header { font-size: 20px; font-weight: 700; flex: 1; text-align: center; }
-
 .btn-retour, .btn-theme {
   background: none;
   border: none;
@@ -69,11 +62,8 @@ body[data-theme="sombre"] {
   align-items: center;
   justify-content: center;
 }
-
 #contenu-principal { padding: 16px; max-width: 600px; margin: 0 auto; }
-
 /* ---------- BANDEAU D'INSTALLATION ---------- */
-
 .banner-installer {
   display: flex;
   align-items: center;
@@ -84,19 +74,16 @@ body[data-theme="sombre"] {
   background: linear-gradient(135deg, var(--installer-grad-1), var(--installer-grad-2));
   color: #ffffff;
 }
-
 .banner-installer-icone { font-size: 26px; flex-shrink: 0; }
 .banner-installer-texte { flex: 1; min-width: 0; }
 .banner-installer-titre { font-size: 13.5px; font-weight: 700; margin-bottom: 2px; }
 .banner-installer-sous { font-size: 11.5px; opacity: 0.85; }
-
 .banner-installer-actions {
   display: flex;
   align-items: center;
   gap: 6px;
   flex-shrink: 0;
 }
-
 .btn-installer {
   background-color: #ffffff;
   color: var(--primaire);
@@ -108,7 +95,6 @@ body[data-theme="sombre"] {
   cursor: pointer;
   white-space: nowrap;
 }
-
 .btn-fermer-installer {
   background: none;
   border: none;
@@ -118,25 +104,20 @@ body[data-theme="sombre"] {
   cursor: pointer;
   padding: 4px;
 }
-
 .view { animation: apparition 0.2s ease; }
 @keyframes apparition { from { opacity: 0; } to { opacity: 1; } }
-
 .sous-titre-accueil {
   font-size: 15px;
   color: var(--texte-secondaire);
   margin-bottom: 14px;
   text-align: center;
 }
-
 .titre-vue { font-size: 20px; margin-bottom: 16px; }
-
 .grille-classes, .grille-matieres {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 12px;
 }
-
 .carte-classe, .carte-matiere {
   background-color: var(--bg-carte);
   border: 2px solid var(--bordure);
@@ -146,22 +127,17 @@ body[data-theme="sombre"] {
   cursor: pointer;
   transition: transform 0.15s, border-color 0.15s;
 }
-
 .carte-classe:active, .carte-matiere:active { transform: scale(0.97); }
 .carte-classe:not(.indisponible), .carte-matiere:not(.indisponible) { border-color: var(--primaire); }
-
 .carte-classe-nom { font-size: 17px; font-weight: 700; margin-bottom: 6px; }
 .carte-classe-statut { font-size: 12px; color: var(--primaire); font-weight: 600; }
 .carte-classe.indisponible { opacity: 0.5; cursor: default; }
 .carte-classe.indisponible .carte-classe-statut { color: var(--texte-secondaire); }
-
 .carte-matiere-icone { font-size: 32px; margin-bottom: 8px; }
 .carte-matiere-nom { font-size: 15px; font-weight: 700; }
 .carte-matiere-statut { font-size: 11px; color: var(--texte-secondaire); margin-top: 6px; font-weight: 600; }
 .carte-matiere.indisponible { opacity: 0.5; cursor: default; }
-
 #zone-reprendre { margin-bottom: 14px; }
-
 .carte-reprendre {
   background-color: var(--primaire);
   color: #ffffff;
@@ -169,10 +145,8 @@ body[data-theme="sombre"] {
   padding: 14px 16px;
   cursor: pointer;
 }
-
 .reprendre-label { font-size: 12px; opacity: 0.85; margin-bottom: 4px; }
 .reprendre-titre { font-size: 15px; font-weight: 700; }
-
 .fil-ariane {
   font-size: 13px;
   color: var(--texte-secondaire);
@@ -180,18 +154,16 @@ body[data-theme="sombre"] {
   padding-bottom: 10px;
   border-bottom: 1px solid var(--bordure);
 }
-
 #view-matiere {
   background-image: linear-gradient(var(--bordure) 1px, transparent 1px);
   background-size: 100% 28px;
   background-color: var(--bg-carte);
   border-radius: 12px;
   padding: 16px;
+  padding-bottom: 50px;
   min-height: 300px;
 }
-
 .liste-cartes { display: flex; flex-direction: column; gap: 10px; }
-
 .carte-liste {
   background-color: var(--bg-carte);
   border: 1px solid var(--bordure);
@@ -200,24 +172,19 @@ body[data-theme="sombre"] {
   cursor: pointer;
   transition: background-color 0.15s;
 }
-
 .carte-liste:active { background-color: var(--primaire-clair); }
 .carte-liste-titre { font-size: 15px; font-weight: 600; }
 .carte-liste.verrouille { opacity: 0.75; }
 .carte-liste-souscription { font-size: 12px; color: var(--primaire); font-weight: 700; margin-top: 6px; }
-
 .mini-progression { display: flex; align-items: center; gap: 8px; margin-top: 8px; }
 .mini-progression-barre { flex: 1; height: 6px; background-color: var(--bordure); border-radius: 4px; overflow: hidden; }
 .mini-progression-remplie { height: 100%; background-color: var(--primaire); border-radius: 4px; transition: width 0.3s; }
 .mini-progression-texte { font-size: 11px; color: var(--texte-secondaire); min-width: 32px; text-align: right; }
-
 .titre-lecon { font-size: 19px; margin-bottom: 16px; color: var(--primaire); }
 .bloc-texte-simple { font-size: 15px; line-height: 1.6; margin-bottom: 14px; }
-
 .bloc-pedagogique { border-radius: 10px; padding: 12px 14px; margin-bottom: 12px; border-left: 4px solid; }
 .bloc-label { font-size: 12px; font-weight: 700; margin-bottom: 6px; text-transform: uppercase; }
-.bloc-texte { font-size: 14.5px; line-height: 1.6; }
-
+.bloc-texte { font-size: 14.5px; line-height: 1.6; white-space: pre-line; }
 .bloc-definition { background-color: #e8f0fe; border-color: #3b82f6; }
 .bloc-formule    { background-color: #fef3e2; border-color: #f59e0b; }
 .bloc-exemple    { background-color: #e9f9ef; border-color: #22c55e; }
@@ -225,7 +192,6 @@ body[data-theme="sombre"] {
 .bloc-remarque   { background-color: #fff9e6; border-color: #eab308; }
 .bloc-theoreme   { background-color: #fde8e8; border-color: #ef4444; }
 .bloc-methode    { background-color: #e6f7f7; border-color: #14b8a6; }
-
 body[data-theme="sombre"] .bloc-definition { background-color: #1e3a5f; }
 body[data-theme="sombre"] .bloc-formule    { background-color: #4a3a1f; }
 body[data-theme="sombre"] .bloc-exemple    { background-color: #1f3d2a; }
@@ -233,10 +199,8 @@ body[data-theme="sombre"] .bloc-regle      { background-color: #3a2a4a; }
 body[data-theme="sombre"] .bloc-remarque   { background-color: #4a421f; }
 body[data-theme="sombre"] .bloc-theoreme   { background-color: #4a2424; }
 body[data-theme="sombre"] .bloc-methode    { background-color: #1f3d3d; }
-
 body[data-theme="sombre"] .bloc-texte,
 body[data-theme="sombre"] .bloc-label { color: #f1f5f9; }
-
 .bloc-erreur {
   background-color: #fde8e8;
   color: #dc2626;
@@ -245,32 +209,32 @@ body[data-theme="sombre"] .bloc-label { color: #f1f5f9; }
   margin-bottom: 12px;
   font-size: 13.5px;
 }
-
 body[data-theme="sombre"] .bloc-erreur { background-color: #4a2424; color: #fca5a5; }
-
 .bloc-tableau { margin-bottom: 16px; overflow-x: auto; }
 .bloc-tableau-titre { font-size: 13px; font-weight: 700; margin-bottom: 6px; color: var(--texte-secondaire); }
-
 .tableau-donnees { width: 100%; border-collapse: collapse; font-size: 13.5px; }
 .tableau-donnees th, .tableau-donnees td { border: 1px solid var(--bordure); padding: 8px 10px; text-align: center; }
 .tableau-donnees th { background-color: var(--primaire-clair); font-weight: 700; }
-
 .bloc-schema { margin-bottom: 16px; text-align: center; color-scheme: light; forced-color-adjust: none; }
 .bloc-schema-titre { font-size: 13px; font-weight: 700; margin-bottom: 8px; color: var(--texte-secondaire); }
+.bloc-schema-legende { font-size: 12.5px; color: var(--texte-secondaire); margin-top: 8px; font-style: italic; }
 .schema-svg { display: inline-block; background-color: #ffffff; border-radius: 8px; padding: 10px; color-scheme: light; forced-color-adjust: none; }
 .schema-svg svg { display: block; color-scheme: light; forced-color-adjust: none; max-width: 100%; height: auto; }
-
-.lexique { background-color: var(--primaire-clair); border-radius: 10px; padding: 10px 14px; margin-top: 18px; margin-bottom: 10px; }
+.bloc-exercice { background-color: var(--bg-carte); border: 2px solid var(--primaire); border-radius: 10px; padding: 14px; margin-bottom: 14px; }
+.bloc-exercice-label { font-size: 12px; font-weight: 700; margin-bottom: 8px; text-transform: uppercase; color: var(--primaire); }
+.bloc-exercice-enonce { margin-bottom: 10px; }
+.exercice-solution { background-color: var(--primaire-clair); border-radius: 8px; padding: 8px 12px; }
+.exercice-solution summary { font-weight: 700; cursor: pointer; font-size: 13.5px; color: var(--primaire); }
+.bloc-exercice-corrige { margin-top: 10px; }
+.lexique { background-color: var(--primaire-clair); border-radius: 10px; padding: 10px 14px; margin-top: 18px; margin-bottom: 40px; }
 .lexique summary { font-weight: 700; cursor: pointer; font-size: 14px; }
 .lexique-liste { margin-top: 10px; padding-left: 18px; font-size: 13.5px; line-height: 1.6; }
 .lexique-liste li { margin-bottom: 6px; }
-
 .paywall { text-align: center; padding: 10px 4px 20px; }
 .paywall-icone { font-size: 44px; margin-bottom: 8px; }
 .paywall-titre { font-size: 18px; font-weight: 700; margin-bottom: 8px; }
 .paywall-texte { font-size: 14px; color: var(--texte-secondaire); margin-bottom: 10px; line-height: 1.5; }
 .paywall-prix { font-size: 28px; font-weight: 800; color: var(--primaire); margin-bottom: 20px; }
-
 .etape { display: flex; align-items: center; gap: 12px; text-align: left; margin-bottom: 14px; }
 .etape-numero {
   flex-shrink: 0; width: 26px; height: 26px; border-radius: 50%;
@@ -278,54 +242,44 @@ body[data-theme="sombre"] .bloc-erreur { background-color: #4a2424; color: #fca5
   align-items: center; justify-content: center; font-weight: 700; font-size: 13px;
 }
 .etape-texte { font-size: 13.5px; line-height: 1.4; }
-
 .mobile-money-liste { background-color: var(--bg-carte); border: 1px solid var(--bordure); border-radius: 10px; padding: 12px 14px; margin: 10px 0 18px; }
 .mm-item { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid var(--bordure); font-size: 14px; }
 .mm-item:last-child { border-bottom: none; }
 .mm-operateur { font-weight: 700; }
 .mm-numero { font-family: monospace; font-size: 15px; }
-
 .input-code {
   width: 100%; padding: 12px; border: 2px solid var(--bordure); border-radius: 8px;
   font-size: 15px; text-align: center; text-transform: uppercase; margin-bottom: 12px;
   background-color: var(--bg-carte); color: var(--texte);
 }
-
 .btn-valider {
   width: 100%; padding: 12px; background-color: var(--primaire); color: #fff;
   border: none; border-radius: 8px; font-size: 15px; font-weight: 700; cursor: pointer;
 }
-
 .message-code { margin-top: 12px; font-size: 14px; font-weight: 600; min-height: 20px; }
 .message-code.succes { color: #16a34a; }
 .message-code.erreur { color: #dc2626; }
-
 .notes-classe-titre { font-size: 16px; font-weight: 700; margin: 18px 0 10px; color: var(--primaire); }
 .notes-classe-titre:first-child { margin-top: 0; }
-
 .notes-matiere { background-color: var(--bg-carte); border: 1px solid var(--bordure); border-radius: 10px; padding: 12px 14px; margin-bottom: 10px; }
 .notes-matiere-nom { font-size: 14.5px; font-weight: 600; margin-bottom: 8px; }
-
 .texte-chargement, .texte-vide { text-align: center; color: var(--texte-secondaire); font-size: 14px; padding: 30px 0; }
-
 .bloc-parametre { background-color: var(--bg-carte); border: 1px solid var(--bordure); border-radius: 10px; padding: 16px; margin-bottom: 14px; }
 .bloc-parametre h3 { font-size: 15px; margin-bottom: 8px; }
 .texte-parametre { font-size: 13.5px; color: var(--texte-secondaire); line-height: 1.5; margin-bottom: 12px; }
-
 .btn-danger {
   width: 100%; padding: 12px; background-color: #fee2e2; color: #dc2626;
   border: none; border-radius: 8px; font-size: 14px; font-weight: 700; cursor: pointer;
 }
 body[data-theme="sombre"] .btn-danger { background-color: #4a2424; color: #fca5a5; }
-
 .btn-secondaire {
   width: 100%; padding: 12px; background-color: var(--primaire-clair); color: var(--primaire);
   border: none; border-radius: 8px; font-size: 14px; font-weight: 700; cursor: pointer;
 }
-
 .nav-basse {
   position: fixed; bottom: 0; left: 0; right: 0; display: flex;
   background-color: var(--bg-carte); border-top: 1px solid var(--bordure); z-index: 100;
+  padding-bottom: env(safe-area-inset-bottom, 0px);
 }
 .nav-btn {
   flex: 1; background: none; border: none; padding: 10px 0 8px;
