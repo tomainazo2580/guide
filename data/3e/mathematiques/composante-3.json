@@ -3,8 +3,54 @@
   "titre": "Algèbre",
   "premium": false,
   "lecons": [
-    { "id": "alg-1", "titre": "La fonction affine", "blocs": [ { "type": "texte", "texte": "Contenu en cours de réécriture complète à partir du fascicule officiel." } ] },
-    { "id": "alg-2", "titre": "Identités remarquables", "blocs": [ { "type": "texte", "texte": "Contenu en cours de réécriture complète à partir du fascicule officiel." } ] },
-    { "id": "alg-3", "titre": "Équation du premier degré", "blocs": [ { "type": "texte", "texte": "Contenu en cours de réécriture complète à partir du fascicule officiel." } ] }
-  ]
-}
+    {
+      "id": "alg-1",
+      "titre": "La fonction affine",
+      "blocs": [
+        { "type": "definition", "texte": "Une fonction affine est une fonction qui, à un nombre x, associe le nombre ax + b, où a et b sont des nombres réels donnés. On la note f(x) = ax + b.\na est appelé le coefficient directeur (ou pente) de la fonction.\nb est appelé l'ordonnée à l'origine." },
+        { "type": "remarque", "texte": "Si b = 0, la fonction f(x) = ax est appelée fonction linéaire.\nSi a = 0, la fonction f(x) = b est appelée fonction constante." },
+        { "type": "regle", "texte": "La représentation graphique d'une fonction affine est une droite.\nSi a > 0, la droite est croissante (elle monte de gauche à droite).\nSi a < 0, la droite est décroissante (elle descend de gauche à droite).\nSi a = 0, la droite est horizontale (fonction constante)." },
+        { "type": "schema", "titre": "Fonction affine croissante (a > 0)", "svg": "<svg width='200' height='180' viewBox='0 0 200 180' xmlns='http://www.w3.org/2000/svg'><rect width='200' height='180' fill='white'/><line x1='20' y1='160' x2='190' y2='160' stroke='black' stroke-width='2'/><line x1='20' y1='160' x2='20' y2='10' stroke='black' stroke-width='2'/><text x='178' y='175' font-size='12'>x</text><text x='5' y='18' font-size='12'>y</text><line x1='20' y1='150' x2='170' y2='20' stroke='black' stroke-width='2'/><text x='120' y='45' font-size='13'>a &gt; 0</text></svg>", "legende": "Lorsque a est positif, la droite monte : la fonction est croissante." },
+        { "type": "schema", "titre": "Fonction affine décroissante (a < 0)", "svg": "<svg width='200' height='180' viewBox='0 0 200 180' xmlns='http://www.w3.org/2000/svg'><rect width='200' height='180' fill='white'/><line x1='20' y1='160' x2='190' y2='160' stroke='black' stroke-width='2'/><line x1='20' y1='160' x2='20' y2='10' stroke='black' stroke-width='2'/><text x='178' y='175' font-size='12'>x</text><text x='5' y='18' font-size='12'>y</text><line x1='20' y1='20' x2='170' y2='150' stroke='black' stroke-width='2'/><text x='110' y='45' font-size='13'>a &lt; 0</text></svg>", "legende": "Lorsque a est négatif, la droite descend : la fonction est décroissante." },
+        { "type": "schema", "titre": "Fonction constante (a = 0)", "svg": "<svg width='200' height='180' viewBox='0 0 200 180' xmlns='http://www.w3.org/2000/svg'><rect width='200' height='180' fill='white'/><line x1='20' y1='160' x2='190' y2='160' stroke='black' stroke-width='2'/><line x1='20' y1='160' x2='20' y2='10' stroke='black' stroke-width='2'/><text x='178' y='175' font-size='12'>x</text><text x='5' y='18' font-size='12'>y</text><line x1='20' y1='80' x2='190' y2='80' stroke='black' stroke-width='2'/><text x='8' y='76' font-size='11'>b</text><text x='120' y='70' font-size='13'>a = 0</text></svg>", "legende": "Lorsque a = 0, la droite est horizontale : la fonction est constante, elle vaut toujours b." },
+        { "type": "exemple", "texte": "Soit la fonction affine f(x) = 2x + 3.\nCalculer f(0), f(1) et f(−2).\n\nf(0) = 2×0 + 3 = 3\nf(1) = 2×1 + 3 = 5\nf(−2) = 2×(−2) + 3 = −4 + 3 = −1" },
+        { "type": "exemple", "texte": "Soit g(x) = −3x une fonction linéaire (b = 0).\nCalculer g(2) :\ng(2) = −3 × 2 = −6" },
+        { "type": "exemple", "texte": "Soit h(x) = 4 une fonction constante (a = 0).\nQuelle que soit la valeur de x, h(x) vaut toujours 4.\nh(10) = 4" },
+        { "type": "exercice", "enonce": "Soit la fonction affine f(x) = −2x + 5.\nCalculer f(3) et f(−1).", "solution": "f(3) = −2×3 + 5 = −6 + 5 = −1\nf(−1) = −2×(−1) + 5 = 2 + 5 = 7" }
+      ],
+      "lexique": [
+        { "terme": "Fonction affine", "definition": "Fonction qui à un nombre x associe le nombre ax + b, où a et b sont des nombres réels." },
+        { "terme": "Coefficient directeur", "definition": "Nombre a dans une fonction affine f(x) = ax + b, qui détermine si la droite monte, descend ou est horizontale." },
+        { "terme": "Ordonnée à l'origine", "definition": "Nombre b dans une fonction affine f(x) = ax + b ; c'est la valeur de la fonction lorsque x = 0." },
+        { "terme": "Fonction linéaire", "definition": "Fonction affine particulière où b = 0, de la forme f(x) = ax." },
+        { "terme": "Fonction constante", "definition": "Fonction affine particulière où a = 0, qui prend toujours la même valeur b." }
+      ]
+    },
+    {
+      "id": "alg-2",
+      "titre": "Variable dépendante et variable indépendante",
+      "blocs": [
+        { "type": "definition", "texte": "Dans une fonction y = f(x), x est appelé la variable indépendante : on peut choisir librement sa valeur.\ny (ou f(x)) est appelé la variable dépendante : sa valeur dépend du choix fait pour x, et se calcule grâce à la fonction." },
+        { "type": "remarque", "texte": "Dans l'écriture f(x), on dit que « f(x) est fonction de x », ou encore que « y dépend de x »." },
+        { "type": "exemple", "texte": "Le périmètre P d'un carré de côté c est donné par la formule P = 4c.\nLe côté c est la variable indépendante : on choisit sa valeur.\nLe périmètre P est la variable dépendante : sa valeur dépend du côté choisi." },
+        { "type": "exemple", "texte": "Un vendeur facture T = 400n pour l'achat de n stylos à 400 Ar l'unité.\nn (le nombre de stylos) est la variable indépendante.\nT (le prix total) est la variable dépendante." },
+        { "type": "exercice", "enonce": "Un taxi facture 2000 Ar de prise en charge, plus 1500 Ar par kilomètre parcouru. On note d le nombre de kilomètres parcourus et P le prix à payer, en Ar.\na) Écrire P en fonction de d.\nb) Quelle est la variable indépendante ? Quelle est la variable dépendante ?\nc) Calculer le prix à payer pour un trajet de 6 km.", "solution": "a) P = 1500d + 2000\nb) d est la variable indépendante, P est la variable dépendante.\nc) P = 1500 × 6 + 2000 = 9000 + 2000 = 11 000 Ar" }
+      ],
+      "lexique": [
+        { "terme": "Variable indépendante", "definition": "Variable dont on choisit librement la valeur dans une fonction." },
+        { "terme": "Variable dépendante", "definition": "Variable dont la valeur dépend du choix de la variable indépendante, calculée à l'aide de la fonction." }
+      ]
+    },
+    {
+      "id": "alg-3",
+      "titre": "Les polynômes et les identités remarquables",
+      "blocs": [
+        { "type": "definition", "texte": "Un monôme est une expression formée d'un nombre (le coefficient) multiplié par une ou plusieurs lettres affectées d'exposants entiers positifs.\nUn polynôme est une somme de plusieurs monômes." },
+        { "type": "exemple", "texte": "5x² est un monôme de degré 2 (coefficient 5).\n3x est un monôme de degré 1.\n7 est un monôme de degré 0 (on l'appelle terme constant).\n\nP(x) = 5x² + 3x + 7 est un polynôme formé de ces trois monômes." },
+        { "type": "definition", "texte": "Le degré d'un polynôme est le plus grand des degrés de ses monômes." },
+        { "type": "exemple", "texte": "Le polynôme P(x) = 2x³ − 5x² + x − 4 est de degré 3, car son monôme de plus haut degré est 2x³." },
+        { "type": "regle", "texte": "Pour additionner deux polynômes, on additionne entre eux les monômes de même degré (appelés termes semblables).\nPour multiplier deux polynômes, on multiplie chaque monôme du premier polynôme par chaque monôme du second, puis on réduit en additionnant les termes semblables." },
+        { "type": "exemple", "texte": "Addition de polynômes :\nSoit P(x) = 3x² + 2x − 1 et Q(x) = −x² + 5x + 4.\nP(x) + Q(x) = (3x² − x²) + (2x + 5x) + (−1 + 4) = 2x² + 7x + 3" },
+        { "type": "exemple", "texte": "Multiplication de polynômes :\nSoit P(x) = x + 2 et Q(x) = x + 3.\nP(x) × Q(x) = x×x + x×3 + 2×x + 2×3 = x² + 3x + 2x + 6 = x² + 5x + 6" },
+        { "type": "theoreme", "texte": "Les identités remarquables :\n(a + b)² = a² + 2ab + b²\n(a − b)² = a² − 2ab + b²\n(a + b)(a − b) = a² − b²" },
+        { "type": "schema", "titre": "Illustration géométrique de (a + b)²", "svg": "<svg width='220' height='220' viewBox='0 0 220 220' xmlns='http://www.w3.org/2000/svg'><rect width='220' height='220' fill='white'/><rect x='20' y='30' width='180' height='180' fill='none' stroke='black' stroke-width='2'/><line x1='130' y1='30' x2='130' y2='210' stroke='black' stroke-width='2'/><line x1='20' y1='140' x2='200' y2='140' stroke='black' stroke-width='2'/><text x='70' y='22' font-size='13'>a</text><text x='160' y='22' font-size='13'>b</text><text x='5' y='90' font-size='13'>a</text><text x='5' y='180' font-size='13'>b</text><text x='65' y='92' font-size='13'>a²</text><text x='150' y='92' font-size='13'>ab</text><text x='65' y='182' font-size='13'>ab</text><text 
