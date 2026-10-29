@@ -1,6 +1,5 @@
-const CACHE_VERSION = 'guide-v11';
+const CACHE_VERSION = 'guide-v12';
 const CACHE_NAME = 'guide-cache-' + CACHE_VERSION;
-
 const APP_SHELL = [
   './',
   './index.html',
@@ -12,12 +11,9 @@ const APP_SHELL = [
   './outil-codes.html',
   './data/3e/mathematiques.json'
 ];
-
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
-      // On met chaque fichier en cache séparément.
-      // Si l'un d'eux échoue, les autres sont quand même sauvegardés.
       return Promise.all(
         APP_SHELL.map((url) => {
           return cache.add(url).catch((err) => {
@@ -29,7 +25,6 @@ self.addEventListener('install', (event) => {
   );
   self.skipWaiting();
 });
-
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys().then((noms) => {
@@ -40,7 +35,6 @@ self.addEventListener('activate', (event) => {
   );
   self.clients.claim();
 });
-
 self.addEventListener('fetch', (event) => {
   event.respondWith(
     caches.match(event.request).then((reponseCache) => {
@@ -55,7 +49,6 @@ self.addEventListener('fetch', (event) => {
           });
         })
         .catch(() => {
-          // Hors-ligne et rien en cache : on ne casse pas tout, on relance l'erreur proprement
           return new Response('Contenu non disponible hors-ligne.', {
             status: 503,
             headers: { 'Content-Type': 'text/plain' }
