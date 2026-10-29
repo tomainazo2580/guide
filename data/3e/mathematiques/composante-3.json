@@ -53,4 +53,39 @@
         { "type": "exemple", "texte": "Addition de polynômes :\nSoit P(x) = 3x² + 2x − 1 et Q(x) = −x² + 5x + 4.\nP(x) + Q(x) = (3x² − x²) + (2x + 5x) + (−1 + 4) = 2x² + 7x + 3" },
         { "type": "exemple", "texte": "Multiplication de polynômes :\nSoit P(x) = x + 2 et Q(x) = x + 3.\nP(x) × Q(x) = x×x + x×3 + 2×x + 2×3 = x² + 3x + 2x + 6 = x² + 5x + 6" },
         { "type": "theoreme", "texte": "Les identités remarquables :\n(a + b)² = a² + 2ab + b²\n(a − b)² = a² − 2ab + b²\n(a + b)(a − b) = a² − b²" },
-        { "type": "schema", "titre": "Illustration géométrique de (a + b)²", "svg": "<svg width='220' height='220' viewBox='0 0 220 220' xmlns='http://www.w3.org/2000/svg'><rect width='220' height='220' fill='white'/><rect x='20' y='30' width='180' height='180' fill='none' stroke='black' stroke-width='2'/><line x1='130' y1='30' x2='130' y2='210' stroke='black' stroke-width='2'/><line x1='20' y1='140' x2='200' y2='140' stroke='black' stroke-width='2'/><text x='70' y='22' font-size='13'>a</text><text x='160' y='22' font-size='13'>b</text><text x='5' y='90' font-size='13'>a</text><text x='5' y='180' font-size='13'>b</text><text x='65' y='92' font-size='13'>a²</text><text x='150' y='92' font-size='13'>ab</text><text x='65' y='182' font-size='13'>ab</text><text 
+        { "type": "schema", "titre": "Illustration géométrique de (a + b)²", "svg": "<svg width='220' height='220' viewBox='0 0 220 220' xmlns='http://www.w3.org/2000/svg'><rect width='220' height='220' fill='white'/><rect x='20' y='30' width='180' height='180' fill='none' stroke='black' stroke-width='2'/><line x1='130' y1='30' x2='130' y2='210' stroke='black' stroke-width='2'/><line x1='20' y1='140' x2='200' y2='140' stroke='black' stroke-width='2'/><text x='70' y='22' font-size='13'>a</text><text x='160' y='22' font-size='13'>b</text><text x='5' y='90' font-size='13'>a</text><text x='5' y='180' font-size='13'>b</text><text x='65' y='92' font-size='13'>a²</text><text x='150' y='92' font-size='13'>ab</text><text x='65' y='182' font-size='13'>ab</text><text x='150' y='182' font-size='13'>b²</text></svg>", "legende": "Le grand carré de côté (a+b) se décompose en 4 parties : un carré a², deux rectangles ab, et un carré b². On retrouve (a+b)² = a² + 2ab + b²." },
+        { "type": "exemple", "texte": "Développer (x + 3)² :\n(x + 3)² = x² + 2 × x × 3 + 3² = x² + 6x + 9" },
+        { "type": "exemple", "texte": "Développer (2x − 1)² :\n(2x − 1)² = (2x)² − 2 × 2x × 1 + 1² = 4x² − 4x + 1" },
+        { "type": "exemple", "texte": "Développer (x + 5)(x − 5) :\n(x + 5)(x − 5) = x² − 5² = x² − 25" },
+        { "type": "exercice", "enonce": "a) Développer et réduire (x − 4)².\nb) Développer et réduire (3x + 1)(3x − 1).", "solution": "a) (x − 4)² = x² − 2×x×4 + 4² = x² − 8x + 16\nb) (3x + 1)(3x − 1) = (3x)² − 1² = 9x² − 1" }
+      ],
+      "lexique": [
+        { "terme": "Monôme", "definition": "Expression formée d'un coefficient multiplié par une ou plusieurs lettres avec des exposants entiers positifs." },
+        { "terme": "Polynôme", "definition": "Somme de plusieurs monômes." },
+        { "terme": "Degré d'un polynôme", "definition": "Le plus grand des degrés des monômes qui composent le polynôme." },
+        { "terme": "Identité remarquable", "definition": "Égalité entre une expression et son développement, toujours vraie, utilisée pour développer ou factoriser rapidement." },
+        { "terme": "Termes semblables", "definition": "Monômes ayant la même lettre affectée du même exposant, qui peuvent être additionnés entre eux." }
+      ]
+    },
+    {
+      "id": "alg-4",
+      "titre": "L'équation du premier degré",
+      "blocs": [
+        { "type": "definition", "texte": "Une équation du premier degré à une inconnue x est une équation qui peut s'écrire sous la forme ax + b = 0, où a et b sont des nombres réels donnés, avec a différent de 0.\nRésoudre l'équation, c'est trouver la valeur de x qui vérifie l'égalité : cette valeur est appelée la solution (ou la racine) de l'équation." },
+        { "type": "regle", "texte": "Pour résoudre une équation du premier degré, on isole x en effectuant les mêmes opérations des deux côtés de l'égalité : on peut ajouter, soustraire, multiplier ou diviser les deux membres par un même nombre non nul, sans changer la solution.\nSi ax + b = 0 (avec a ≠ 0), alors x = −b/a." },
+        { "type": "exemple", "texte": "Résoudre 2x + 5 = 11 :\n2x = 11 − 5\n2x = 6\nx = 6 / 2 = 3\nLa solution est x = 3." },
+        { "type": "exemple", "texte": "Résoudre 3x − 7 = 2x + 4 :\nOn regroupe les x d'un côté et les nombres de l'autre :\n3x − 2x = 4 + 7\nx = 11\nLa solution est x = 11." },
+        { "type": "exemple", "texte": "Résoudre x/2 + 3 = 7 :\nx/2 = 7 − 3\nx/2 = 4\nx = 4 × 2 = 8\nLa solution est x = 8." },
+        { "type": "exemple", "texte": "Résoudre une équation avec une racine carrée : √2 × x = 6\nx = 6 / √2\nOn multiplie le numérateur et le dénominateur par √2 pour simplifier :\nx = (6 × √2) / (√2 × √2) = 6√2 / 2 = 3√2\nLa solution est x = 3√2." },
+        { "type": "exemple", "texte": "Résoudre une équation avec π : πx − 2π = 0\nπx = 2π\nx = 2π / π = 2\nLa solution est x = 2." },
+        { "type": "exercice", "enonce": "Résoudre l'équation : 5x − 3 = 2x + 9", "solution": "5x − 2x = 9 + 3\n3x = 12\nx = 12 / 3 = 4\nLa solution est x = 4." }
+      ],
+      "lexique": [
+        { "terme": "Équation", "definition": "Égalité contenant une ou plusieurs inconnues, vraie seulement pour certaines valeurs de ces inconnues." },
+        { "terme": "Inconnue", "definition": "Lettre représentant un nombre dont on cherche la valeur dans une équation." },
+        { "terme": "Solution (ou racine)", "definition": "Valeur de l'inconnue qui rend l'égalité vraie dans une équation." },
+        { "terme": "Résoudre une équation", "definition": "Trouver toutes les valeurs de l'inconnue qui vérifient l'équation." }
+      ]
+    }
+  ]
+}
