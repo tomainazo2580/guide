@@ -128,8 +128,6 @@ function renderMatieres() {
   });
 }
 
-// ---------- REPRENDRE MA DERNIÈRE LEÇON ----------
-
 function sauvegarderDernierePosition() {
   const position = {
     classe: etat.classe,
@@ -200,8 +198,6 @@ async function reprendreDerniereLecon() {
   etat.niveau = 'contenu';
   afficherContenuLecon();
 }
-
-// ---------- CHARGEMENT DES DONNÉES D'UNE MATIÈRE ----------
 
 async function chargerDonneesMatiere(matiere) {
   const cleCache = etat.classe + '-' + matiere.id;
@@ -363,14 +359,10 @@ function renderBloc(bloc) {
   return `<p class="bloc-texte-simple">${bloc.texte || ''}</p>`;
 }
 
-// ---------- RENDU DE TABLEAU (accepte 2 formats possibles) ----------
-
 function renderTableau(bloc) {
   let entetes = bloc.entetes;
   let lignes = bloc.lignes || [];
 
-  // Format alternatif : chaque ligne est un objet { cle: valeur, ... }
-  // au lieu d'une simple liste de valeurs. On le détecte et on l'adapte.
   if (lignes.length > 0 && !Array.isArray(lignes[0])) {
     if (!entetes) {
       entetes = Object.keys(lignes[0]).map(cle =>
@@ -476,8 +468,6 @@ function traiterValidationCode() {
   }
 }
 
-// ---------- ALGORITHME DE CODE ----------
-
 function calculerChecksum(classeId, matiereCode, serial) {
   const texte = classeId.toUpperCase() + matiereCode + serial + SEL_SECRET;
   let somme = 0;
@@ -503,8 +493,6 @@ function verifierCode(saisie, classeId, matiereCode) {
   const checksumAttendu = calculerChecksum(classeId, matiereCode, serial);
   return checksum === checksumAttendu;
 }
-
-// ---------- STOCKAGE DES DÉBLOCAGES ----------
 
 function chargerDeblocages() {
   const brut = localStorage.getItem('guide-deblocages');
@@ -714,6 +702,52 @@ function basculerTheme() {
 }
 
 // ============================================
+// INSTALLATION DE L'APP (bandeau personnalisé)
+// ============================================
+
+let deferredInstallPrompt = null;
+
+function estDejaInstallee() {
+  return window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+}
+
+function afficherBanniereInstall() {
+  if (estDejaInstallee()) return;
+  if (localStorage.getItem('guide-install-dismiss')) return;
+  $('banner-installer').hidden = false;
+}
+
+function cacherBanniereInstall() {
+  $('banner-installer').hidden = true;
+}
+
+function initInstallation() {
+  window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    deferredInstallPrompt = e;
+    afficherBanniereInstall();
+  });
+
+  $('btn-installer-app').addEventListener('click', async () => {
+    if (!deferredInstallPrompt) return;
+    deferredInstallPrompt.prompt();
+    await deferredInstallPrompt.userChoice;
+    deferredInstallPrompt = null;
+    cacherBanniereInstall();
+  });
+
+  $('btn-fermer-installer').addEventListener('click', () => {
+    localStorage.setItem('guide-install-dismiss', '1');
+    cacherBanniereInstall();
+  });
+
+  window.addEventListener('appinstalled', () => {
+    localStorage.setItem('guide-install-dismiss', '1');
+    cacherBanniereInstall();
+  });
+}
+
+// ============================================
 // INITIALISATION
 // ============================================
 
@@ -756,6 +790,8 @@ function initialiser() {
   });
 
   $('btn-changer-classe').addEventListener('click', changerDeClasse);
+
+  initInstallation();
 
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('./service-worker.js');
