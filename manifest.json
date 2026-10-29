@@ -1,11 +1,11 @@
 {
-  "name": "Guide - Révision BEPC",
+  "name": "Guide - Révision scolaire",
   "short_name": "Guide",
-  "description": "Application de révision hors ligne pour le BEPC",
+  "description": "Application de révision hors ligne pour élèves malgaches",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#2563eb",
+  "theme_color": "#1e3a5f",
   "orientation": "portrait",
   "icons": [
     {
