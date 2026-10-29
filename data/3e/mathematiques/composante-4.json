@@ -1,0 +1,13 @@
+{
+  "id": "composante-4",
+  "titre": "Géométrie et Mesure",
+  "premium": false,
+  "lecons": [
+    { "id": "geo-1", "titre": "Théorème de Thalès", "blocs": [ { "type": "texte", "texte": "Contenu en cours de réécriture complète à partir du fascicule officiel." } ] },
+    { "id": "geo-2", "titre": "Droite des milieux", "blocs": [ { "type": "texte", "texte": "Contenu en cours de réécriture complète à partir du fascicule officiel." } ] },
+    { "id": "geo-3", "titre": "Polygones réguliers", "blocs": [ { "type": "texte", "texte": "Contenu en cours de réécriture complète à partir du fascicule officiel." } ] },
+    { "id": "geo-4", "titre": "Volumes : pyramide et cône", "blocs": [ { "type": "texte", "texte": "Contenu en cours de réécriture complète à partir du fascicule officiel." } ] },
+    { "id": "geo-5", "titre": "Sphère et boule", "blocs": [ { "type": "texte", "texte": "Contenu en cours de réécriture complète à partir du fascicule officiel." } ] },
+    { "id": "geo-6", "titre": "Agrandissement et réduction", "blocs": [ { "type": "texte", "texte": "Contenu en cours de réécriture complète à partir du fascicule officiel." } ] }
+  ]
+}
