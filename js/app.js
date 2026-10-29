@@ -16,7 +16,13 @@ const MATIERES_PAR_CLASSE = {
     { id: 'malagasy',           code: 'MALG', nom: 'Malagasy',           icone: '📚', disponible: false, fichier: './data/3e/malagasy.json' },
     { id: 'francais',           code: 'FRAN', nom: 'Français',           icone: '📖', disponible: false, fichier: './data/3e/francais.json' },
     { id: 'anglais',            code: 'ANGL', nom: 'Anglais',            icone: '🌍', disponible: false, fichier: './data/3e/anglais.json' },
-    { id: 'mathematiques',      code: 'MATH', nom: 'Mathématiques',      icone: '📐', disponible: true,  fichier: './data/3e/mathematiques.json' },
+    { id: 'mathematiques',      code: 'MATH', nom: 'Mathématiques',      icone: '📐', disponible: true,  fichiers: [
+      './data/3e/mathematiques/composante-1.json',
+      './data/3e/mathematiques/composante-2.json',
+      './data/3e/mathematiques/composante-3.json',
+      './data/3e/mathematiques/composante-4.json',
+      './data/3e/mathematiques/composante-5.json'
+    ] },
     { id: 'svt',                code: 'SVT',  nom: 'SVT',                icone: '🔬', disponible: false, fichier: './data/3e/svt.json' },
     { id: 'sciences-physiques', code: 'SPHY', nom: 'Sciences Physiques', icone: '⚛️', disponible: false, fichier: './data/3e/sciences-physiques.json' },
     { id: 'histoire',           code: 'HIST', nom: 'Histoire',           icone: '🏛️', disponible: false, fichier: './data/3e/histoire.json' },
@@ -168,24 +174,56 @@ async function reprendreDerniereLecon() {
   etat.niveau = 'contenu';
   afficherContenuLecon();
 }
-async function chargerDonneesMatiere(matiere) {
-  const cleCache = etat.classe + '-' + matiere.id;
-  if (etat.cache[cleCache]) {
-    etat.matiere = matiere;
-    etat.dataMatiere = etat.cache[cleCache];
-    return true;
-  }
+// ============================================
+// CHARGEMENT DES DONNÉES (gère fichier unique OU plusieurs petits fichiers)
+// ============================================
+async function recupererDonneesMatiere(classeId, matiere) {
+  const cleCache = classeId + '-' + matiere.id;
+  if (etat.cache[cleCache]) return etat.cache[cleCache];
   try {
-    const reponse = await fetch(matiere.fichier);
-    const data = await reponse.json();
+    let composantes = [];
+    if (matiere.fichiers && Array.isArray(matiere.fichiers)) {
+      const resultats = await Promise.allSettled(
+        matiere.fichiers.map(url => fetch(url).then(r => r.json()))
+      );
+      resultats.forEach((resultat, index) => {
+        if (resultat.status === 'fulfilled') {
+          composantes.push(resultat.value);
+        } else {
+          console.error('Erreur de chargement du fichier :', matiere.fichiers[index], resultat.reason);
+          composantes.push({
+            id: 'erreur-' + index,
+            titre: 'Chapitre indisponible',
+            premium: false,
+            erreurChargement: true,
+            lecons: []
+          });
+        }
+      });
+    } else if (matiere.fichier) {
+      const reponse = await fetch(matiere.fichier);
+      const data = await reponse.json();
+      composantes = data.composantes || [];
+    } else {
+      return null;
+    }
+    const data = { matiere: matiere.nom, composantes };
     etat.cache[cleCache] = data;
-    etat.matiere = matiere;
-    etat.dataMatiere = data;
-    return true;
+    return data;
   } catch (e) {
+    console.error(e);
+    return null;
+  }
+}
+async function chargerDonneesMatiere(matiere) {
+  const data = await recupererDonneesMatiere(etat.classe, matiere);
+  if (!data) {
     alert("Impossible de charger cette matière pour le moment.");
     return false;
   }
+  etat.matiere = matiere;
+  etat.dataMatiere = data;
+  return true;
 }
 async function selectionnerMatiere(matiere) {
   const ok = await chargerDonneesMatiere(matiere);
@@ -208,6 +246,16 @@ function afficherListeComposantes() {
   conteneur.innerHTML = '<div class="liste-cartes" id="liste-composantes"></div>';
   const liste = $('liste-composantes');
   etat.dataMatiere.composantes.forEach(comp => {
+    if (comp.erreurChargement) {
+      const carte = document.createElement('div');
+      carte.className = 'carte-liste verrouille';
+      carte.innerHTML = `
+        <div class="carte-liste-titre">⚠️ ${comp.titre}</div>
+        <div class="carte-liste-souscription">Ce chapitre n'a pas pu être chargé. Réessaie plus tard.</div>
+      `;
+      liste.appendChild(carte);
+      return;
+    }
     const verrouille = comp.premium && !debloque;
     const pourcentage = calculerPourcentageComposante(etat.classe, etat.matiere.id, comp);
     const carte = document.createElement('div');
@@ -268,7 +316,7 @@ function afficherContenuLecon() {
   $('fil-ariane').textContent = classeNom + ' › ' + etat.matiere.nom + ' › ' + etat.composante.titre + ' › ' + etat.lecon.titre;
   const conteneur = $('matiere-contenu');
   let html = `<h2 class="titre-lecon">${etat.lecon.titre}</h2>`;
-  etat.lecon.contenu.forEach(bloc => {
+  (etat.lecon.blocs || []).forEach(bloc => {
     try {
       html += renderBloc(bloc);
     } catch (e) {
@@ -348,7 +396,7 @@ function renderTableau(bloc) {
 function renderLexique(lexique) {
   let html = `<details class="lexique"><summary>📖 Mots difficiles</summary><ul class="lexique-liste">`;
   lexique.forEach(item => {
-    html += `<li><strong>${item.mot}</strong> — ${item.definition}</li>`;
+    html += `<li><strong>${item.terme}</strong> — ${item.definition}</li>`;
   });
   html += '</ul></details>';
   return html;
@@ -508,17 +556,8 @@ async function afficherNotes() {
     let blocClasse = `<h3 class="notes-classe-titre">${classeObj.nom}</h3>`;
     let auMoinsUneMatiere = false;
     for (const m of matieresDisponibles) {
-      const cleCache = classeObj.id + '-' + m.id;
-      let data = etat.cache[cleCache];
-      if (!data) {
-        try {
-          const reponse = await fetch(m.fichier);
-          data = await reponse.json();
-          etat.cache[cleCache] = data;
-        } catch (e) {
-          continue;
-        }
-      }
+      const data = await recupererDonneesMatiere(classeObj.id, m);
+      if (!data) continue;
       const pourcentage = calculerPourcentageMatiere(classeObj.id, m.id, data);
       blocClasse += `
         <div class="notes-matiere">
