@@ -624,4 +624,142 @@ async function afficherNotes() {
       auMoinsUne = true;
     }
 
-    
+    if (auMoinsUneMatiere) html += blocClasse;
+  }
+
+  if (!auMoinsUne) {
+    html = '<p class="texte-vide">Aucune matière disponible pour le moment.</p>';
+  }
+
+  conteneur.innerHTML = html;
+}
+
+// ============================================
+// NAVIGATION — BOUTON RETOUR
+// ============================================
+
+function gererRetour() {
+  if (etat.niveau === 'composantes') {
+    etat.niveau = 'matieres';
+    afficherVue('matieres');
+    majBoutonRetour(false);
+    renderMatieres();
+  } else if (etat.niveau === 'lecons') {
+    etat.niveau = 'composantes';
+    afficherListeComposantes();
+  } else if (etat.niveau === 'contenu') {
+    etat.niveau = 'lecons';
+    afficherListeLecons();
+  } else if (etat.niveau === 'paywall') {
+    etat.niveau = 'composantes';
+    afficherListeComposantes();
+  }
+}
+
+// ============================================
+// NAVIGATION BASSE
+// ============================================
+
+function allerAccueil() {
+  if (etat.classe) {
+    etat.niveau = 'matieres';
+    afficherVue('matieres');
+    majBoutonRetour(false);
+    renderMatieres();
+  } else {
+    etat.niveau = 'classes';
+    afficherVue('classes');
+    majBoutonRetour(false);
+  }
+}
+
+function allerNotes() {
+  afficherVue('notes');
+  majBoutonRetour(false);
+  afficherNotes();
+}
+
+function allerParametres() {
+  afficherVue('parametres');
+  majBoutonRetour(false);
+  const classeObj = CLASSES.find(c => c.id === etat.classe);
+  $('texte-classe-actuelle').textContent = classeObj
+    ? ('Classe actuelle : ' + classeObj.nom)
+    : 'Aucune classe sélectionnée';
+}
+
+function changerDeClasse() {
+  if (confirm("Veux-tu changer de classe ? Tu devras choisir à nouveau ta classe au prochain écran.")) {
+    localStorage.removeItem('guide-classe-choisie');
+    etat.classe = null;
+    renderClasses();
+    afficherVue('classes');
+    majBoutonRetour(false);
+  }
+}
+
+// ============================================
+// THÈME
+// ============================================
+
+function appliquerTheme(theme) {
+  document.body.setAttribute('data-theme', theme);
+  $('btn-theme').textContent = theme === 'sombre' ? '☀️' : '🌙';
+  localStorage.setItem('guide-theme', theme);
+}
+
+function basculerTheme() {
+  const actuel = document.body.getAttribute('data-theme');
+  appliquerTheme(actuel === 'sombre' ? 'clair' : 'sombre');
+}
+
+// ============================================
+// INITIALISATION
+// ============================================
+
+function initialiser() {
+  const themeSauvegarde = localStorage.getItem('guide-theme') || 'clair';
+  appliquerTheme(themeSauvegarde);
+
+  const classeSauvegardee = localStorage.getItem('guide-classe-choisie');
+  const classeValide = CLASSES.find(c => c.id === classeSauvegardee && c.disponible);
+
+  if (classeValide) {
+    etat.classe = classeValide.id;
+    etat.niveau = 'matieres';
+    afficherVue('matieres');
+    majBoutonRetour(false);
+    renderMatieres();
+  } else {
+    renderClasses();
+    afficherVue('classes');
+    majBoutonRetour(false);
+  }
+
+  $('btn-retour').addEventListener('click', gererRetour);
+  $('btn-theme').addEventListener('click', basculerTheme);
+
+  document.querySelectorAll('.nav-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const cible = btn.getAttribute('data-nav');
+      if (cible === 'accueil') allerAccueil();
+      if (cible === 'notes') allerNotes();
+      if (cible === 'parametres') allerParametres();
+    });
+  });
+
+  $('btn-reset-progression').addEventListener('click', () => {
+    if (confirm('Veux-tu vraiment réinitialiser toute ta progression ? Cette action est irréversible.')) {
+      localStorage.removeItem('guide-progression');
+      alert('Progression réinitialisée.');
+    }
+  });
+
+  $('btn-changer-classe').addEventListener('click', changerDeClasse);
+
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./service-worker.js');
+  }
+}
+
+document.addEventListener('DOMContentLoaded', initialiser);
