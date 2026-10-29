@@ -1,0 +1,10 @@
+{
+  "id": "composante-3",
+  "titre": "Algèbre",
+  "premium": false,
+  "lecons": [
+    { "id": "alg-1", "titre": "La fonction affine", "blocs": [ { "type": "texte", "texte": "Contenu en cours de réécriture complète à partir du fascicule officiel." } ] },
+    { "id": "alg-2", "titre": "Identités remarquables", "blocs": [ { "type": "texte", "texte": "Contenu en cours de réécriture complète à partir du fascicule officiel." } ] },
+    { "id": "alg-3", "titre": "Équation du premier degré", "blocs": [ { "type": "texte", "texte": "Contenu en cours de réécriture complète à partir du fascicule officiel." } ] }
+  ]
+}
