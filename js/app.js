@@ -409,4 +409,289 @@ function traiterValidationCode() {
     messageEl.className = 'message-code erreur';
   }
 }
-function calculerChecksum(classeId, 
+function calculerChecksum(classeId, matiereCode, serial) {
+  const texte = classeId.toUpperCase() + matiereCode + serial + SEL_SECRET;
+  let somme = 0;
+  for (let i = 0; i < texte.length; i++) {
+    somme += texte.charCodeAt(i) * (i + 1);
+  }
+  const checksum = somme % 10000;
+  return String(checksum).padStart(4, '0');
+}
+function verifierCode(saisie, classeId, matiereCode) {
+  if (!saisie) return false;
+  const parties = saisie.trim().toUpperCase().split('-');
+  if (parties.length !== 5) return false;
+  const [prefixe, classePart, matierePart, serial, checksum] = parties;
+  if (prefixe !== 'GUIDE') return false;
+  if (classePart !== classeId.toUpperCase()) return false;
+  if (matierePart !== matiereCode) return false;
+  if (!/^\d{4}$/.test(serial)) return false;
+  if (!/^\d{4}$/.test(checksum)) return false;
+  const checksumAttendu = calculerChecksum(classeId, matiereCode, serial);
+  return checksum === checksumAttendu;
+}
+function chargerDeblocages() {
+  const brut = localStorage.getItem('guide-deblocages');
+  return brut ? JSON.parse(brut) : {};
+}
+function sauvegarderDeblocages(deblocages) {
+  localStorage.setItem('guide-deblocages', JSON.stringify(deblocages));
+}
+function cleDeblocage(classeId, matiereCode) {
+  return classeId + '-' + matiereCode;
+}
+function estMatiereDebloquee(classeId, matiereCode) {
+  const deblocages = chargerDeblocages();
+  return !!deblocages[cleDeblocage(classeId, matiereCode)];
+}
+function debloquerMatiere(classeId, matiereCode) {
+  const deblocages = chargerDeblocages();
+  deblocages[cleDeblocage(classeId, matiereCode)] = true;
+  sauvegarderDeblocages(deblocages);
+}
+// ============================================
+// PROGRESSION
+// ============================================
+function chargerProgression() {
+  const brut = localStorage.getItem('guide-progression');
+  return brut ? JSON.parse(brut) : {};
+}
+function sauvegarderProgression(prog) {
+  localStorage.setItem('guide-progression', JSON.stringify(prog));
+}
+function marquerLeconVue(classeId, matiereId, leconId) {
+  const prog = chargerProgression();
+  if (!prog[classeId]) prog[classeId] = {};
+  if (!prog[classeId][matiereId]) prog[classeId][matiereId] = {};
+  prog[classeId][matiereId][leconId] = true;
+  sauvegarderProgression(prog);
+}
+function estLeconVue(classeId, matiereId, leconId) {
+  const prog = chargerProgression();
+  return !!(prog[classeId] && prog[classeId][matiereId] && prog[classeId][matiereId][leconId]);
+}
+function calculerPourcentageComposante(classeId, matiereId, composante) {
+  const total = composante.lecons.length;
+  if (total === 0) return 0;
+  let vues = 0;
+  composante.lecons.forEach(l => {
+    if (estLeconVue(classeId, matiereId, l.id)) vues++;
+  });
+  return Math.round((vues / total) * 100);
+}
+function calculerPourcentageMatiere(classeId, matiereId, dataMatiere) {
+  let total = 0;
+  let vues = 0;
+  dataMatiere.composantes.forEach(comp => {
+    comp.lecons.forEach(l => {
+      total++;
+      if (estLeconVue(classeId, matiereId, l.id)) vues++;
+    });
+  });
+  if (total === 0) return 0;
+  return Math.round((vues / total) * 100);
+}
+// ============================================
+// VUE "MES NOTES"
+// ============================================
+async function afficherNotes() {
+  const conteneur = $('notes-contenu');
+  conteneur.innerHTML = '<p class="texte-chargement">Chargement...</p>';
+  let html = '';
+  let auMoinsUne = false;
+  for (const classeObj of CLASSES) {
+    if (!classeObj.disponible) continue;
+    const matieres = MATIERES_PAR_CLASSE[classeObj.id] || [];
+    const matieresDisponibles = matieres.filter(m => m.disponible);
+    if (matieresDisponibles.length === 0) continue;
+    let blocClasse = `<h3 class="notes-classe-titre">${classeObj.nom}</h3>`;
+    let auMoinsUneMatiere = false;
+    for (const m of matieresDisponibles) {
+      const cleCache = classeObj.id + '-' + m.id;
+      let data = etat.cache[cleCache];
+      if (!data) {
+        try {
+          const reponse = await fetch(m.fichier);
+          data = await reponse.json();
+          etat.cache[cleCache] = data;
+        } catch (e) {
+          continue;
+        }
+      }
+      const pourcentage = calculerPourcentageMatiere(classeObj.id, m.id, data);
+      blocClasse += `
+        <div class="notes-matiere">
+          <div class="notes-matiere-nom">${m.icone} ${m.nom}</div>
+          <div class="mini-progression">
+            <div class="mini-progression-barre"><div class="mini-progression-remplie" style="width:${pourcentage}%"></div></div>
+            <span class="mini-progression-texte">${pourcentage}%</span>
+          </div>
+        </div>`;
+      auMoinsUneMatiere = true;
+      auMoinsUne = true;
+    }
+    if (auMoinsUneMatiere) html += blocClasse;
+  }
+  if (!auMoinsUne) {
+    html = '<p class="texte-vide">Aucune matière disponible pour le moment.</p>';
+  }
+  conteneur.innerHTML = html;
+}
+// ============================================
+// NAVIGATION — BOUTON RETOUR
+// ============================================
+function gererRetour() {
+  if (etat.niveau === 'composantes') {
+    etat.niveau = 'matieres';
+    afficherVue('matieres');
+    majBoutonRetour(false);
+    renderMatieres();
+  } else if (etat.niveau === 'lecons') {
+    etat.niveau = 'composantes';
+    afficherListeComposantes();
+  } else if (etat.niveau === 'contenu') {
+    etat.niveau = 'lecons';
+    afficherListeLecons();
+  } else if (etat.niveau === 'paywall') {
+    etat.niveau = 'composantes';
+    afficherListeComposantes();
+  }
+}
+// ============================================
+// NAVIGATION BASSE
+// ============================================
+function allerAccueil() {
+  if (etat.classe) {
+    etat.niveau = 'matieres';
+    afficherVue('matieres');
+    majBoutonRetour(false);
+    renderMatieres();
+  } else {
+    etat.niveau = 'classes';
+    afficherVue('classes');
+    majBoutonRetour(false);
+  }
+}
+function allerNotes() {
+  afficherVue('notes');
+  majBoutonRetour(false);
+  afficherNotes();
+}
+function allerParametres() {
+  afficherVue('parametres');
+  majBoutonRetour(false);
+  const classeObj = CLASSES.find(c => c.id === etat.classe);
+  $('texte-classe-actuelle').textContent = classeObj
+    ? ('Classe actuelle : ' + classeObj.nom)
+    : 'Aucune classe sélectionnée';
+}
+function changerDeClasse() {
+  if (confirm("Veux-tu changer de classe ? Tu devras choisir à nouveau ta classe au prochain écran.")) {
+    localStorage.removeItem('guide-classe-choisie');
+    etat.classe = null;
+    renderClasses();
+    afficherVue('classes');
+    majBoutonRetour(false);
+  }
+}
+// ============================================
+// THÈME
+// ============================================
+function appliquerTheme(theme) {
+  document.body.setAttribute('data-theme', theme);
+  $('btn-theme').textContent = theme === 'sombre' ? '☀️' : '🌙';
+  localStorage.setItem('guide-theme', theme);
+}
+function basculerTheme() {
+  const actuel = document.body.getAttribute('data-theme');
+  appliquerTheme(actuel === 'sombre' ? 'clair' : 'sombre');
+}
+// ============================================
+// INSTALLATION DE L'APP (bandeau personnalisé)
+// ============================================
+let deferredInstallPrompt = null;
+const DELAI_REAPPARITION_JOURS = 7;
+function estDejaInstallee() {
+  return window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+}
+function bandeauDoitSAfficher() {
+  if (estDejaInstallee()) return false;
+  const brut = localStorage.getItem('guide-install-dismiss');
+  if (!brut) return true;
+  const dateFermeture = parseInt(brut, 10);
+  if (isNaN(dateFermeture)) return true;
+  const delaiMs = DELAI_REAPPARITION_JOURS * 24 * 60 * 60 * 1000;
+  return (Date.now() - dateFermeture) >= delaiMs;
+}
+function afficherBanniereInstall() {
+  if (!bandeauDoitSAfficher()) return;
+  $('banner-installer').hidden = false;
+}
+function cacherBanniereInstall() {
+  $('banner-installer').hidden = true;
+}
+function initInstallation() {
+  window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    deferredInstallPrompt = e;
+    afficherBanniereInstall();
+  });
+  $('btn-installer-app').addEventListener('click', async () => {
+    if (!deferredInstallPrompt) return;
+    deferredInstallPrompt.prompt();
+    await deferredInstallPrompt.userChoice;
+    deferredInstallPrompt = null;
+    cacherBanniereInstall();
+  });
+  $('btn-fermer-installer').addEventListener('click', () => {
+    localStorage.setItem('guide-install-dismiss', String(Date.now()));
+    cacherBanniereInstall();
+  });
+  window.addEventListener('appinstalled', () => {
+    localStorage.setItem('guide-install-dismiss', String(Date.now()));
+    cacherBanniereInstall();
+  });
+}
+// ============================================
+// INITIALISATION
+// ============================================
+function initialiser() {
+  const themeSauvegarde = localStorage.getItem('guide-theme') || 'clair';
+  appliquerTheme(themeSauvegarde);
+  const classeSauvegardee = localStorage.getItem('guide-classe-choisie');
+  const classeValide = CLASSES.find(c => c.id === classeSauvegardee && c.disponible);
+  if (classeValide) {
+    etat.classe = classeValide.id;
+    etat.niveau = 'matieres';
+    afficherVue('matieres');
+    majBoutonRetour(false);
+    renderMatieres();
+  } else {
+    renderClasses();
+    afficherVue('classes');
+    majBoutonRetour(false);
+  }
+  $('btn-retour').addEventListener('click', gererRetour);
+  $('btn-theme').addEventListener('click', basculerTheme);
+  document.querySelectorAll('.nav-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const cible = btn.getAttribute('data-nav');
+      if (cible === 'accueil') allerAccueil();
+      if (cible === 'notes') allerNotes();
+      if (cible === 'parametres') allerParametres();
+    });
+  });
+  $('btn-reset-progression').addEventListener('click', () => {
+    if (confirm('Veux-tu vraiment réinitialiser toute ta progression ? Cette action est irréversible.')) {
+      localStorage.removeItem('guide-progression');
+      alert('Progression réinitialisée.');
+    }
+  });
+  $('btn-changer-classe').addEventListener('click', changerDeClasse);
+  initInstallation();
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./service-worker.js');
+  }
+}
+document.addEventListener('DOMContentLoaded', initialiser);
