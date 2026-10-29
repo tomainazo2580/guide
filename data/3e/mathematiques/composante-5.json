@@ -1,0 +1,11 @@
+{
+  "id": "composante-5",
+  "titre": "Traitement des données et Probabilités",
+  "premium": false,
+  "lecons": [
+    { "id": "stat-1", "titre": "Moyenne, médiane, étendue", "blocs": [ { "type": "texte", "texte": "Contenu en cours de réécriture complète à partir du fascicule officiel." } ] },
+    { "id": "stat-2", "titre": "Effectifs cumulés et fréquences", "blocs": [ { "type": "texte", "texte": "Contenu en cours de réécriture complète à partir du fascicule officiel." } ] },
+    { "id": "proba-1", "titre": "Vocabulaire des probabilités", "blocs": [ { "type": "texte", "texte": "Contenu en cours de réécriture complète à partir du fascicule officiel." } ] },
+    { "id": "proba-2", "titre": "Calcul de probabilités", "blocs": [ { "type": "texte", "texte": "Contenu en cours de réécriture complète à partir du fascicule officiel." } ] }
+  ]
+}
