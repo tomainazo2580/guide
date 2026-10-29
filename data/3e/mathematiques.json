@@ -10,123 +10,218 @@
         {
           "id": "nb-1",
           "titre": "Les différents types de nombres",
-          "contenu": [
-            { "type": "definition", "texte": "Les nombres entiers sont les nombres qui peuvent s'écrire sans virgule. Par exemple : 0 ; 1 ; 2 ; 354 ; 2017 ; −5 ; −487 ; ..." },
-            { "type": "definition", "texte": "Les nombres décimaux sont les nombres avec une virgule, dont le nombre de chiffres après la virgule est limité. Par exemple : 4,5 ; 23,7891 ; −6,9 ; −7841,63 ; ..." },
-            { "type": "definition", "texte": "Les nombres rationnels sont ceux qui s'écrivent sous forme de fraction, c'est-à-dire avec un numérateur entier et un dénominateur entier non nul. Par exemple : 4/3 ; 5/11 ; 120/13 ; −1/3 ; ..." },
-            { "type": "definition", "texte": "Les nombres irrationnels sont ceux qui ne font partie d'aucune des catégories précédentes. Par exemple : π, √2, −√2 ; ..." },
-            { "type": "regle", "texte": "Une fraction est avant tout une division." },
-            { "type": "exemple", "titre": "Un nombre peut appartenir à plusieurs catégories", "texte": "2/4 = 2 ÷ 4 = 0,5 donc 2/4 est un nombre décimal écrit sous forme fractionnaire.\n4,3 = 43 ÷ 10 = 43/10 donc 4,3 est un nombre décimal ET rationnel." },
-            { "type": "remarque", "texte": "Tous les nombres entiers sont des nombres décimaux, et tous les nombres décimaux sont des nombres rationnels." },
-            { "type": "exemple", "titre": "Un entier ou un décimal peut toujours s'écrire en fraction", "texte": "4 = 4,000 ; 25 = 25,000 ; ...\n1,5 = 15/10 ; 153,47 = 15347/100 ; ...\n5 = 5/1 ; 871 = 871/1 ; ..." }
+          "blocs": [
+            {
+              "type": "definition",
+              "texte": "Un nombre entier est un nombre sans virgule, positif ou négatif.\nUn nombre décimal est un nombre qui peut s'écrire avec un nombre fini de chiffres après la virgule.\nUn nombre rationnel est un nombre qui peut s'écrire sous forme d'une fraction a/b, où a et b sont des entiers et b est différent de 0.\nUn nombre irrationnel est un nombre qui ne peut pas s'écrire sous forme de fraction ; son écriture décimale est infinie et non périodique."
+            },
+            {
+              "type": "regle",
+              "texte": "Toute fraction représente le quotient (la division) de son numérateur par son dénominateur :\na/b = a ÷ b"
+            },
+            {
+              "type": "exemple",
+              "texte": "3/4 est un nombre rationnel car 3/4 = 3 ÷ 4 = 0,75\nSon écriture décimale est finie."
+            },
+            {
+              "type": "exemple",
+              "texte": "1/3 = 1 ÷ 3 = 0,333...\n1/3 est aussi un nombre rationnel car il s'écrit sous forme de fraction, même si son écriture décimale est infinie (mais périodique : le chiffre 3 se répète)."
+            },
+            {
+              "type": "remarque",
+              "texte": "√2 = 1,41421356...\n√2 est un nombre irrationnel : son écriture décimale est infinie et ne se répète jamais de façon périodique."
+            }
           ],
           "lexique": [
-            { "mot": "nombre rationnel", "definition": "nombre qui peut s'écrire sous forme de fraction (numérateur entier, dénominateur entier non nul)" },
-            { "mot": "nombre irrationnel", "definition": "nombre qui ne peut jamais s'écrire sous forme de fraction (son développement décimal est infini et ne se répète jamais)" }
+            { "terme": "Nombre rationnel", "definition": "Nombre qui peut s'écrire sous forme d'une fraction a/b avec a et b entiers, b différent de 0." },
+            { "terme": "Nombre irrationnel", "definition": "Nombre qui ne peut pas s'écrire sous forme de fraction ; son écriture décimale est infinie et non périodique." }
           ]
         },
         {
           "id": "nb-2",
           "titre": "Priorités opératoires",
-          "contenu": [
+          "blocs": [
             {
               "type": "schema",
-              "titre": "Ordre des priorités",
-              "svg": "<svg viewBox='0 0 360 140' xmlns='http://www.w3.org/2000/svg'><rect width='360' height='140' fill='white'/><rect x='10' y='40' width='90' height='40' fill='none' stroke='black' stroke-width='2'/><text x='55' y='65' font-size='16' text-anchor='middle'>( )</text><text x='55' y='95' font-size='12' text-anchor='middle'>1</text><line x1='100' y1='60' x2='140' y2='60' stroke='black' stroke-width='2' marker-end='url(#a)'/><rect x='140' y='40' width='90' height='40' fill='none' stroke='black' stroke-width='2'/><text x='185' y='65' font-size='16' text-anchor='middle'>× / ÷</text><text x='185' y='95' font-size='12' text-anchor='middle'>2</text><line x1='230' y1='60' x2='270' y2='60' stroke='black' stroke-width='2' marker-end='url(#a)'/><rect x='270' y='40' width='90' height='40' fill='none' stroke='black' stroke-width='2'/><text x='315' y='65' font-size='16' text-anchor='middle'>+ / −</text><text x='315' y='95' font-size='12' text-anchor='middle'>3</text><defs><marker id='a' markerWidth='8' markerHeight='8' refX='4' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 Z' fill='black'/></marker></defs></svg>"
+              "titre": "Ordre des priorités dans un calcul",
+              "svg": "<svg viewBox='0 0 300 160' xmlns='http://www.w3.org/2000/svg'><rect width='300' height='160' fill='white'/><rect x='10' y='10' width='280' height='30' fill='none' stroke='black' stroke-width='2'/><text x='150' y='30' font-size='13' text-anchor='middle'>1. Parenthèses</text><rect x='10' y='50' width='280' height='30' fill='none' stroke='black' stroke-width='2'/><text x='150' y='70' font-size='13' text-anchor='middle'>2. Puissances et racines carrées</text><rect x='10' y='90' width='280' height='30' fill='none' stroke='black' stroke-width='2'/><text x='150' y='110' font-size='13' text-anchor='middle'>3. Multiplications et divisions</text><rect x='10' y='130' width='280' height='20' fill='none' stroke='black' stroke-width='2'/><text x='150' y='145' font-size='13' text-anchor='middle'>4. Additions et soustractions</text></svg>",
+              "legende": "On effectue les calculs dans cet ordre, de gauche à droite à chaque étape."
             },
-            { "type": "regle", "texte": "On effectue d'abord les calculs entre parenthèses (priorité 1), puis les multiplications et divisions dans l'ordre où elles apparaissent (priorité 2), puis enfin les additions et soustractions dans l'ordre où elles apparaissent (priorité 3)." },
-            { "type": "exemple", "titre": "Exemple 1", "texte": "8 − 14 + (−5) × 3\n= 8 − 14 + (−15)   ← on commence par la multiplication : (−5) × 3 = −15\n= (−6) + (−15)   ← on effectue les calculs restants dans l'ordre\n= −21" },
-            { "type": "exemple", "titre": "Exemple 2", "texte": "5 − 6 × ((−7) + 11) + 3\n= 5 − 6 × 4 + 3   ← on calcule d'abord la parenthèse : (−7) + 11 = 4\n= 5 − 24 + 3   ← on effectue la multiplication : 6 × 4 = 24\n= −19 + 3\n= −16\n\nAutre exemple, avec une fraction :\n(4 × 3 + (−11)) ÷ (10 + 2 × (−4))\n= (12 + (−11)) ÷ (10 + (−8))\n= 1 ÷ 2\n= 0,5" }
+            {
+              "type": "regle",
+              "texte": "Dans un calcul sans parenthèses, on effectue dans l'ordre :\n1) les puissances et les racines carrées ;\n2) les multiplications et les divisions (de gauche à droite) ;\n3) les additions et les soustractions (de gauche à droite).\nS'il y a des parenthèses, on calcule d'abord ce qu'elles contiennent, en commençant par les parenthèses les plus à l'intérieur."
+            },
+            {
+              "type": "exemple",
+              "texte": "Calculer A = 5 + 3 × 4\nOn effectue d'abord la multiplication :\n3 × 4 = 12\nPuis l'addition :\nA = 5 + 12 = 17"
+            },
+            {
+              "type": "exemple",
+              "texte": "Calculer B = (7 − 3) / 2 + 3²\nOn calcule d'abord la parenthèse :\n7 − 3 = 4\nOn calcule la puissance :\n3² = 9\nOn effectue la division :\n4 / 2 = 2\nOn termine par l'addition :\nB = 2 + 9 = 11"
+            }
+          ],
+          "lexique": [
+            { "terme": "Priorité opératoire", "definition": "Ordre dans lequel il faut effectuer les différentes opérations d'un calcul." }
           ]
         },
         {
           "id": "nb-3",
           "titre": "Racine carrée d'un nombre positif",
-          "contenu": [
-            { "type": "definition", "texte": "La racine carrée d'un nombre positif a est le nombre positif noté √a dont le carré est égal à a. L'expression « √a » se lit « racine carrée de a »." },
-            { "type": "remarque", "texte": "Le symbole √ est appelé radical." },
-            { "type": "exemple", "texte": "√16 = 4 car 4² = 16" },
-            { "type": "remarque", "texte": "La racine carrée d'un nombre négatif n'est pas étudiée au collège. La calculatrice affiche même une erreur si l'on essaie de calculer la racine carrée d'un nombre négatif !" }
+          "blocs": [
+            {
+              "type": "definition",
+              "texte": "La racine carrée d'un nombre positif a, notée √a, est le nombre positif dont le carré est égal à a."
+            },
+            {
+              "type": "remarque",
+              "texte": "Le symbole √ s'appelle un radical."
+            },
+            {
+              "type": "exemple",
+              "texte": "√16 = 4 car 4² = 16"
+            },
+            {
+              "type": "remarque",
+              "texte": "La racine carrée d'un nombre négatif n'existe pas dans l'ensemble des nombres réels."
+            }
           ],
           "lexique": [
-            { "mot": "radical", "definition": "symbole √ utilisé pour écrire une racine carrée" }
+            { "terme": "Radical", "definition": "Symbole √ utilisé pour noter une racine carrée." },
+            { "terme": "Racine carrée", "definition": "Nombre positif dont le carré donne le nombre de départ." }
           ]
         },
         {
           "id": "nb-4",
-          "titre": "Les sous-ensembles de l'ensemble des nombres réels ℝ",
-          "contenu": [
-            { "type": "definition", "texte": "Les premiers nombres utilisés dès la maternelle pour compter des objets (1, 2, 3, ...) sont appelés les nombres entiers naturels." },
+          "titre": "Les sous-ensembles de l'ensemble des nombres réels R",
+          "blocs": [
+            {
+              "type": "definition",
+              "texte": "Un nombre entier naturel est un nombre entier positif ou nul (0, 1, 2, 3...)."
+            },
             {
               "type": "exercice",
-              "enonce": "Voici une liste de nombres :\n−27,2 ; −10371/100 ; 27/13 ; 3/2 ; −21/15 ; π ; −10/5 ; 47/21 ; −15 ; −10/3 ; 37\n\na) Lesquels sont des entiers relatifs ?\nb) Lesquels sont des nombres décimaux ?\nc) Que reste-t-il, et à quelle catégorie ces nombres appartiennent-ils ?",
-              "solution": "a) Entiers relatifs : −10/5 (= −2), −15, 37\nb) Nombres décimaux : −27,2 ; −10371/100 (= −103,71) ; 3/2 (= 1,5) ; −21/15 (= −1,4) ; et aussi −10/5, −15, 37 (un entier est toujours décimal)\nc) Il reste : 27/13 ; 47/21 ; −10/3 et π.\nLes trois premiers s'écrivent sous forme de fraction : ce sont des nombres rationnels (37 aussi, car 37 = 37/1).\nIl reste alors π, que l'on classe dans la catégorie des nombres irrationnels."
+              "enonce": "Classer les nombres suivants dans les ensembles auxquels ils appartiennent :\n0 ; 5 ; −3 ; 2,5 ; −1,75 ; 2/3 ; −7/4 ; √9 ; √2 ; π ; 3,456456456...",
+              "solution": "0 ; 5 → nombres entiers naturels\n−3 ; 0 ; 5 → nombres entiers relatifs\n2,5 ; −1,75 ; −3 ; 0 ; 5 → nombres décimaux\n2/3 ; −7/4 ; 2,5 ; −1,75 ; −3 ; 0 ; 5 ; 3,456456456... → nombres rationnels\n√2 ; π → nombres irrationnels\n√9 = 3 → nombre entier naturel (attention, ce n'est pas un nombre irrationnel car √9 est un nombre entier)"
             },
-            { "type": "definition", "texte": "L'ensemble des nombres entiers naturels est noté ℕ = {0, 1, 2, ... n}.\nL'ensemble des nombres entiers relatifs est noté ℤ = {−n, ... −1, 0, 1, 2, ... n}.\nL'ensemble des nombres décimaux est noté D.\nL'ensemble des nombres rationnels est noté ℚ = {p/q, avec p ∈ ℤ et q ∈ ℤ*}.\nLes ensembles ℕ, ℤ et ℚ sont des sous-ensembles de ℝ, l'ensemble des nombres réels." },
+            {
+              "type": "definition",
+              "texte": "N est l'ensemble des nombres entiers naturels : 0, 1, 2, 3...\nZ est l'ensemble des nombres entiers relatifs : ... −2, −1, 0, 1, 2...\nD est l'ensemble des nombres décimaux : nombres qui s'écrivent avec un nombre fini de chiffres après la virgule.\nQ est l'ensemble des nombres rationnels : nombres qui peuvent s'écrire sous forme de fraction."
+            },
             {
               "type": "schema",
-              "titre": "Schéma d'inclusion des ensembles de nombres",
-              "svg": "<svg viewBox='0 0 320 320' xmlns='http://www.w3.org/2000/svg'><rect width='320' height='320' fill='white'/><circle cx='160' cy='160' r='150' fill='none' stroke='black' stroke-width='2'/><text x='160' y='25' font-size='16' text-anchor='middle'>R</text><circle cx='160' cy='160' r='115' fill='none' stroke='black' stroke-width='2'/><text x='160' y='60' font-size='16' text-anchor='middle'>Q</text><circle cx='160' cy='160' r='80' fill='none' stroke='black' stroke-width='2'/><text x='160' y='95' font-size='16' text-anchor='middle'>D</text><circle cx='160' cy='160' r='50' fill='none' stroke='black' stroke-width='2'/><text x='160' y='122' font-size='16' text-anchor='middle'>Z</text><circle cx='160' cy='160' r='22' fill='none' stroke='black' stroke-width='2'/><text x='160' y='165' font-size='14' text-anchor='middle'>N</text></svg>"
+              "titre": "Inclusion des ensembles de nombres",
+              "svg": "<svg viewBox='0 0 300 220' xmlns='http://www.w3.org/2000/svg'><rect width='300' height='220' fill='white'/><rect x='10' y='10' width='280' height='200' fill='none' stroke='black' stroke-width='2'/><text x='20' y='28' font-size='14'>R</text><rect x='30' y='35' width='240' height='165' fill='none' stroke='black' stroke-width='2'/><text x='40' y='52' font-size='14'>Q</text><rect x='50' y='60' width='200' height='130' fill='none' stroke='black' stroke-width='2'/><text x='60' y='77' font-size='14'>D</text><rect x='70' y='85' width='160' height='95' fill='none' stroke='black' stroke-width='2'/><text x='80' y='102' font-size='14'>Z</text><rect x='90' y='110' width='120' height='60' fill='none' stroke='black' stroke-width='2'/><text x='100' y='127' font-size='14'>N</text></svg>",
+              "legende": "N est inclus dans Z, qui est inclus dans D, qui est inclus dans Q, qui est inclus dans R."
             },
-            { "type": "regle", "texte": "On peut conclure que ℕ ⊂ ℤ ⊂ D ⊂ ℚ ⊂ ℝ (chaque ensemble est inclus dans le suivant)." },
-            { "type": "definition", "texte": "Les nombres irrationnels sont les nombres dont le développement décimal est infini et non périodique. Ils ne peuvent pas s'exprimer comme le quotient de deux entiers." },
-            { "type": "exemple", "texte": "π = 3,141592653...\n−√2 = −1,414213562...\n√π = 1,772453850...\n√7 = 2,645751311..." },
-            { "type": "remarque", "texte": "L'ensemble des nombres irrationnels est noté ℚ′. L'intersection entre l'ensemble des rationnels et celui des irrationnels est toujours vide : ℚ ∩ ℚ′ = ∅. Un nombre ne peut jamais être à la fois rationnel et irrationnel." },
+            {
+              "type": "regle",
+              "texte": "N est inclus dans Z.\nZ est inclus dans D.\nD est inclus dans Q.\nQ est inclus dans R."
+            },
+            {
+              "type": "definition",
+              "texte": "Un nombre irrationnel est un nombre réel qui n'est pas rationnel : il ne peut pas s'écrire sous forme de fraction, et son écriture décimale est infinie et non périodique."
+            },
+            {
+              "type": "exemple",
+              "texte": "π = 3,14159265...\n√2 = 1,41421356...\n√π n'est pas un nombre rationnel\n√7 = 2,6457513...\nCes quatre nombres sont des nombres irrationnels."
+            },
+            {
+              "type": "remarque",
+              "texte": "L'ensemble des nombres rationnels Q et l'ensemble des nombres irrationnels n'ont aucun nombre en commun : un nombre ne peut pas être à la fois rationnel et irrationnel."
+            },
             {
               "type": "schema",
-              "titre": "Emplacement des irrationnels dans l'ensemble des réels",
-              "svg": "<svg viewBox='0 0 360 220' xmlns='http://www.w3.org/2000/svg'><rect width='360' height='220' fill='white'/><rect x='10' y='10' width='340' height='200' fill='none' stroke='black' stroke-width='2'/><text x='20' y='28' font-size='13'>Ensemble des nombres réels R</text><rect x='25' y='40' width='170' height='150' fill='none' stroke='black' stroke-width='1.5'/><text x='35' y='55' font-size='12'>Ensemble Q</text><rect x='40' y='65' width='140' height='110' fill='none' stroke='black' stroke-width='1.5'/><text x='48' y='80' font-size='12'>Ensemble D</text><rect x='55' y='90' width='110' height='70' fill='none' stroke='black' stroke-width='1.5'/><text x='63' y='105' font-size='12'>Ensemble Z</text><rect x='70' y='115' width='80' height='30' fill='none' stroke='black' stroke-width='1.5'/><text x='78' y='135' font-size='12'>Ensemble N</text><rect x='210' y='40' width='130' height='150' fill='none' stroke='black' stroke-width='1.5'/><text x='220' y='58' font-size='12'>Ensemble Q'</text><text x='220' y='78' font-size='11'>(irrationnels)</text><text x='220' y='110' font-size='12'>√7 = 2,6457...</text><text x='220' y='130' font-size='12'>π = 3,14159...</text></svg>"
+              "titre": "Emplacement des nombres irrationnels",
+              "svg": "<svg viewBox='0 0 300 220' xmlns='http://www.w3.org/2000/svg'><rect width='300' height='220' fill='white'/><rect x='10' y='10' width='280' height='200' fill='none' stroke='black' stroke-width='2'/><text x='20' y='28' font-size='14'>R</text><rect x='30' y='35' width='240' height='165' fill='none' stroke='black' stroke-width='2'/><text x='40' y='52' font-size='14'>Q</text><rect x='50' y='60' width='200' height='130' fill='none' stroke='black' stroke-width='2'/><text x='60' y='77' font-size='14'>D</text><rect x='70' y='85' width='160' height='95' fill='none' stroke='black' stroke-width='2'/><text x='80' y='102' font-size='14'>Z</text><rect x='90' y='110' width='120' height='60' fill='none' stroke='black' stroke-width='2'/><text x='100' y='127' font-size='14'>N</text><text x='235' y='60' font-size='12'>π, √2</text></svg>",
+              "legende": "Les nombres irrationnels (comme π ou √2) appartiennent à R mais pas à Q : ils sont représentés en dehors du rectangle Q, mais à l'intérieur du rectangle R."
             },
-            { "type": "exemple", "titre": "Attention aux nombres qui se répètent", "texte": "Le nombre 3,456456456... n'est PAS un nombre irrationnel : on remarque une période (les chiffres 456 se répètent à l'infini). Comme il contient une période, 3,456456... est un nombre rationnel et peut s'exprimer sous forme de fraction.\nOn note : π ∈ ℚ′ mais 3,456456... ∉ ℚ′." }
+            {
+              "type": "exemple",
+              "texte": "3,456456456... est un nombre dont l'écriture décimale est infinie, mais le groupe de chiffres \"456\" se répète indéfiniment : on dit que ce nombre est périodique, de période \"456\". Un nombre décimal périodique est toujours un nombre rationnel, car il peut s'écrire sous forme de fraction."
+            }
           ],
           "lexique": [
-            { "mot": "ensemble", "definition": "groupe de nombres qui partagent une même caractéristique" },
-            { "mot": "inclusion (⊂)", "definition": "un ensemble est « inclus » dans un autre si tous ses éléments appartiennent aussi au second ensemble" },
-            { "mot": "période", "definition": "suite de chiffres qui se répète indéfiniment après la virgule dans un nombre" }
+            { "terme": "Ensemble", "definition": "Collection de nombres ou d'objets regroupés selon une propriété commune." },
+            { "terme": "Inclusion", "definition": "Un ensemble A est inclus dans un ensemble B lorsque tous les éléments de A appartiennent aussi à B." },
+            { "terme": "Période", "definition": "Groupe de chiffres qui se répète indéfiniment dans l'écriture décimale d'un nombre rationnel." }
           ]
         },
         {
           "id": "nb-5",
           "titre": "La notation scientifique des nombres",
-          "contenu": [
-            { "type": "definition", "texte": "Une puissance de 10 est un nombre obtenu en élevant 10 à la puissance n, n étant un entier relatif." },
+          "blocs": [
             {
-              "type": "tableau",
-              "titre": "Exemples de puissances de 10",
-              "entetes": ["Puissance", "Valeur"],
-              "lignes": [["10³", "1 000"], ["10⁴", "10 000"], ["10⁸", "100 000 000"], ["10⁻²", "0,01"], ["10⁻⁴", "0,0001"], ["10⁻⁶", "0,000001"]]
+              "type": "definition",
+              "texte": "Une puissance de 10 est un nombre qui s'écrit sous la forme 10 suivi d'un exposant entier (positif, négatif ou nul)."
             },
-            { "type": "regle", "texte": "Si l'on a 10ⁿ (avec n positif), il y a autant de zéros après le « 1 » que le nombre n. Si l'on a 10⁻ⁿ (exposant négatif), il y a autant de zéros avant le « 1 », et on place une virgule après le premier zéro." },
-            { "type": "definition", "texte": "L'écriture scientifique d'un nombre est une écriture de la forme a × 10ⁿ, où a est un nombre compris entre 1 et 10 (1 ≤ a ≤ 9,999...) et n un nombre entier." },
-            { "type": "exemple", "texte": "4,78 × 10³ est une écriture scientifique car 4,78 est compris entre 1 et 10, et 3 est un nombre entier.\n2,159 × 10⁻⁵ est une écriture scientifique car 2,159 est compris entre 1 et 10, et −5 est un nombre entier." },
-            { "type": "remarque", "titre": "Attention, ce ne sont PAS des écritures scientifiques", "texte": "45,9 × 10² : refusé, car 45,9 n'est pas compris entre 1 et 10.\n0,9 × 10⁵ : refusé, car 0,9 n'est pas compris entre 1 et 10.\n2,5 × 3¹⁰ : refusé, car il n'y a pas de puissance de 10." }
+            {
+              "type": "regle",
+              "texte": "10ⁿ (n positif) = 1 suivi de n zéros\n10⁻ⁿ (n positif) = 0, suivi de (n−1) zéros, puis 1, après la virgule"
+            },
+            {
+              "type": "definition",
+              "texte": "L'écriture scientifique d'un nombre est une écriture de la forme a × 10ⁿ, où a est un nombre décimal tel que 1 ≤ a < 10, et n est un nombre entier relatif."
+            },
+            {
+              "type": "exemple",
+              "texte": "45 800 = 4,58 × 10 000 = 4,58 × 10⁴\n0,00032 = 3,2 × 10⁻⁴"
+            },
+            {
+              "type": "remarque",
+              "texte": "5,2 × 10³ est une écriture scientifique correcte (car 1 ≤ 5,2 < 10).\n52 × 10² n'est pas une écriture scientifique correcte (car 52 n'est pas compris entre 1 et 10).\n0,52 × 10⁴ n'est pas non plus une écriture scientifique correcte (car 0,52 est inférieur à 1)."
+            }
+          ],
+          "lexique": [
+            { "terme": "Écriture scientifique", "definition": "Écriture d'un nombre sous la forme a × 10ⁿ avec 1 ≤ a < 10." }
           ]
         },
         {
           "id": "nb-6",
-          "titre": "Liens entre la notation scientifique et les préfixes du Système International",
-          "contenu": [
-            { "type": "definition", "texte": "Lorsque les valeurs d'une grandeur sont très grandes ou très petites, on utilise souvent un préfixe dans le nom de l'unité afin de remplacer la puissance de 10. Par exemple, on préfère écrire 871 km plutôt que 871 × 10³ m." },
+          "titre": "Liens entre notation scientifique et préfixes SI",
+          "blocs": [
+            {
+              "type": "definition",
+              "texte": "Dans le Système International (SI), chaque préfixe correspond à une puissance de 10 bien précise, et permet d'écrire plus simplement des grandeurs très grandes ou très petites (distances, masses, durées...)."
+            },
             {
               "type": "tableau",
-              "titre": "Préfixes du Système International",
-              "entetes": ["Préfixe", "Puissance de 10", "Symbole"],
+              "titre": "Tableau des préfixes du Système International",
+              "entetes": ["Préfixe", "Symbole", "Puissance de 10"],
               "lignes": [
-                ["yotta", "10²⁴", "Y"], ["zetta", "10²¹", "Z"], ["exa", "10¹⁸", "E"], ["péta", "10¹⁵", "P"],
-                ["téra", "10¹²", "T"], ["giga", "10⁹", "G"], ["méga", "10⁶", "M"], ["kilo", "10³", "k"],
-                ["hecto", "10²", "h"], ["déca", "10¹", "da"], ["déci", "10⁻¹", "d"], ["centi", "10⁻²", "c"],
-                ["milli", "10⁻³", "m"], ["micro", "10⁻⁶", "u"], ["nano", "10⁻⁹", "n"], ["pico", "10⁻¹²", "p"],
-                ["femto", "10⁻¹⁵", "f"], ["atto", "10⁻¹⁸", "a"], ["zepto", "10⁻²¹", "z"], ["yocto", "10⁻²⁴", "y"]
+                ["yotta", "Y", "10²⁴"],
+                ["zetta", "Z", "10²¹"],
+                ["exa", "E", "10¹⁸"],
+                ["péta", "P", "10¹⁵"],
+                ["téra", "T", "10¹²"],
+                ["giga", "G", "10⁹"],
+                ["méga", "M", "10⁶"],
+                ["kilo", "k", "10³"],
+                ["hecto", "h", "10²"],
+                ["déca", "da", "10¹"],
+                ["(unité)", "—", "10⁰"],
+                ["déci", "d", "10⁻¹"],
+                ["centi", "c", "10⁻²"],
+                ["milli", "m", "10⁻³"],
+                ["micro", "u", "10⁻⁶"],
+                ["nano", "n", "10⁻⁹"],
+                ["pico", "p", "10⁻¹²"],
+                ["femto", "f", "10⁻¹⁵"],
+                ["atto", "a", "10⁻¹⁸"],
+                ["zepto", "z", "10⁻²¹"],
+                ["yocto", "y", "10⁻²⁴"]
               ]
             },
-            { "type": "exemple", "texte": "5,67 × 10⁻²¹ = 5,67 z (zepto)\n7 × 10⁻¹⁸ = 7 a (atto)\n1 GW (gigawatt) = 10⁹ W = 1 000 000 000 W\n1 km (kilomètre) = 1000 m\n1 µs (microseconde) = 10⁻⁶ s = 0,000001 s" },
-            { "type": "remarque", "texte": "Il ne faut pas confondre la notation scientifique et la notation exponentielle (résultat brut d'un calcul avec une puissance). Il faut utiliser la calculatrice pour passer de l'une à l'autre." },
             {
-              "type": "tableau",
-              "titre": "Notation exponentielle et notation scientifique",
-              "entetes": ["Notation exponentielle", "Valeur", "Notation scientifique"],
-              "lignes": [["12²", "144", "1,44 × 10²"], ["88⁵", "5 277 319 168", "5,277319168 × 10⁹"]]
+              "type": "exemple",
+              "texte": "3 kilomètres = 3 × 10³ mètres = 3000 mètres\n5 millisecondes = 5 × 10⁻³ secondes = 0,005 seconde"
+            },
+            {
+              "type": "remarque",
+              "texte": "La notation exponentielle (10ⁿ) et la notation scientifique (a × 10ⁿ) sont liées : un préfixe SI remplace simplement la puissance de 10 correspondante devant une unité."
             }
+          ],
+          "lexique": [
+            { "terme": "Système International (SI)", "definition": "Système d'unités de mesure utilisé internationalement, basé sur des puissances de 10." }
           ]
         }
       ]
@@ -138,223 +233,13 @@
       "lecons": [
         {
           "id": "op-1",
-          "titre": "Proportionnalité",
-          "contenu": [
-            { "type": "definition", "texte": "Deux grandeurs sont proportionnelles si l'une est obtenue en multipliant l'autre par un nombre fixe, appelé coefficient de proportionnalité." },
-            { "type": "methode", "texte": "On peut vérifier une proportionnalité graphiquement : les points représentant les grandeurs doivent être alignés avec l'origine du repère." }
-          ],
-          "lexique": [
-            { "mot": "grandeur", "definition": "une quantité qu'on peut mesurer (distance, prix, temps, poids...)" },
-            { "mot": "coefficient de proportionnalité", "definition": "le nombre fixe par lequel on multiplie une grandeur pour obtenir l'autre" }
-          ]
-        },
-        {
-          "id": "op-2",
-          "titre": "Produit en croix",
-          "contenu": [
-            { "type": "formule", "texte": "a/c = b/d ⟺ a × d = b × c" },
-            { "type": "exemple", "texte": "Pour préparer un cocktail, il faut 6 oranges pour 7,2 L de jus. Combien de jus pour 24 oranges ?\n6/7,2 = 24/x → x = (7,2 × 24)/6 = 28,8 L" }
-          ]
-        },
-        {
-          "id": "op-3",
-          "titre": "Taux et taux unitaires",
-          "contenu": [
-            { "type": "definition", "texte": "Un taux unitaire exprime une grandeur ramenée à une seule unité de l'autre grandeur." },
-            { "type": "exemple", "texte": "4 avocats coûtent 4200 Ar pour 6 avocats → 4200/6 = 700 Ar par avocat." },
-            { "type": "exemple", "texte": "Rado gagne 160 000 Ar pour 8h de travail → 160000/8 = 20 000 Ar/h (taux horaire)." },
-            { "type": "exemple", "texte": "Une voiture parcourt 162 km en 4h → 162/4 = 40,5 km/h (vitesse moyenne)." }
-          ],
-          "lexique": [
-            { "mot": "taux unitaire", "definition": "le prix (ou la valeur) ramené à une seule unité, par exemple le prix d'UN avocat" }
-          ]
-        },
-        {
-          "id": "op-4",
-          "titre": "Pourcentages",
-          "contenu": [
-            { "type": "formule", "texte": "Pourcentage = (A/B) × 100" },
-            { "type": "exemple", "texte": "18 élèves sur 120 → (18/120) × 100 = 15%" },
-            { "type": "formule", "texte": "x % d'une grandeur G = G × (x/100)" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "composante-3",
-      "titre": "Algèbre",
-      "premium": false,
-      "lecons": [
-        {
-          "id": "alg-1",
-          "titre": "Fonction affine",
-          "contenu": [
-            { "type": "definition", "texte": "Une fonction affine est de la forme f(x) = ax + b, où a et b sont des nombres réels." },
-            { "type": "remarque", "texte": "Si b = 0, la fonction est linéaire : f(x) = ax" },
-            { "type": "remarque", "texte": "Si a = 0, la fonction est constante : f(x) = b" },
-            { "type": "regle", "texte": "a est appelé coefficient directeur. b est appelé ordonnée à l'origine." },
-            { "type": "regle", "texte": "Si a > 0, la fonction est croissante. Si a < 0, la fonction est décroissante." }
-          ],
-          "lexique": [
-            { "mot": "coefficient directeur", "definition": "le nombre qui indique si la droite monte ou descend, et à quelle vitesse" },
-            { "mot": "ordonnée à l'origine", "definition": "la valeur de f(x) quand x = 0, c'est-à-dire le point où la droite coupe l'axe vertical" },
-            { "mot": "croissante", "definition": "qui augmente : plus x augmente, plus f(x) augmente" },
-            { "mot": "décroissante", "definition": "qui diminue : plus x augmente, plus f(x) diminue" }
-          ]
-        },
-        {
-          "id": "alg-2",
-          "titre": "Identités remarquables",
-          "contenu": [
-            { "type": "formule", "texte": "(a + b)² = a² + 2ab + b²" },
-            { "type": "formule", "texte": "(a − b)² = a² − 2ab + b²" },
-            { "type": "formule", "texte": "(a − b)(a + b) = a² − b²" }
-          ]
-        },
-        {
-          "id": "alg-3",
-          "titre": "Équation du premier degré",
-          "contenu": [
-            { "type": "formule", "texte": "Équation du type ax + b = 0 (avec a ≠ 0) a pour solution unique x = −b/a" },
-            { "type": "exemple", "texte": "4x + 8 = 0 → x = −8/4 = −2" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "composante-4",
-      "titre": "Géométrie et Mesure",
-      "premium": false,
-      "lecons": [
-        {
-          "id": "geo-1",
-          "titre": "Théorème de Thalès",
-          "contenu": [
-            { "type": "schema", "svg": "<svg viewBox='0 0 300 220' width='300' height='220' xmlns='http://www.w3.org/2000/svg'><rect width='300' height='220' fill='white'/><polygon points='150,20 40,190 260,190' fill='none' stroke='black' stroke-width='2'/><line x1='95' y1='105' x2='205' y2='105' stroke='black' stroke-width='2'/><circle cx='150' cy='20' r='3' fill='black'/><circle cx='40' cy='190' r='3' fill='black'/><circle cx='260' cy='190' r='3' fill='black'/><circle cx='95' cy='105' r='3' fill='black'/><circle cx='205' cy='105' r='3' fill='black'/><text x='150' y='14' font-size='16' text-anchor='middle' fill='black'>A</text><text x='25' y='200' font-size='16' text-anchor='middle' fill='black'>B</text><text x='275' y='200' font-size='16' text-anchor='middle' fill='black'>C</text><text x='78' y='102' font-size='16' text-anchor='middle' fill='black'>M</text><text x='222' y='102' font-size='16' text-anchor='middle' fill='black'>N</text></svg>", "legende": "(MN) est parallèle à (BC)" },
-            { "type": "formule", "texte": "Si (MN) // (BC) alors : AM/AB = AN/AC = MN/BC" },
-            { "type": "remarque", "texte": "Réciproque : si AM/AB = AN/AC et que les points sont alignés dans le même ordre, alors (MN) // (BC)." }
-          ],
-          "lexique": [
-            { "mot": "théorème", "definition": "une règle mathématique démontrée comme toujours vraie" },
-            { "mot": "réciproque", "definition": "l'énoncé inverse : on part de la conclusion pour retrouver la condition de départ" }
-          ]
-        },
-        {
-          "id": "geo-2",
-          "titre": "Droite des milieux",
-          "contenu": [
-            { "type": "schema", "svg": "<svg viewBox='0 0 300 220' width='300' height='220' xmlns='http://www.w3.org/2000/svg'><rect width='300' height='220' fill='white'/><polygon points='150,20 40,190 260,190' fill='none' stroke='black' stroke-width='2'/><line x1='95' y1='105' x2='205' y2='105' stroke='black' stroke-width='2'/><circle cx='150' cy='20' r='3' fill='black'/><circle cx='40' cy='190' r='3' fill='black'/><circle cx='260' cy='190' r='3' fill='black'/><circle cx='95' cy='105' r='3' fill='black'/><circle cx='205' cy='105' r='3' fill='black'/><text x='150' y='14' font-size='16' text-anchor='middle' fill='black'>A</text><text x='25' y='200' font-size='16' text-anchor='middle' fill='black'>B</text><text x='275' y='200' font-size='16' text-anchor='middle' fill='black'>C</text><text x='78' y='102' font-size='16' text-anchor='middle' fill='black'>I</text><text x='222' y='102' font-size='16' text-anchor='middle' fill='black'>J</text></svg>", "legende": "I et J sont les milieux de [AB] et [AC]" },
-            { "type": "theoreme", "texte": "Si une droite passe par les milieux de deux côtés d'un triangle, alors elle est parallèle au troisième côté." },
-            { "type": "theoreme", "texte": "La longueur du segment joignant les milieux de deux côtés est égale à la moitié de la longueur du troisième côté." },
-            { "type": "theoreme", "texte": "Si une droite passe par le milieu d'un côté et est parallèle à un second côté, elle coupe le troisième côté en son milieu." }
-          ]
-        },
-        {
-          "id": "geo-3",
-          "titre": "Polygones réguliers",
-          "contenu": [
-            { "type": "schema", "svg": "<svg viewBox='0 0 300 220' width='300' height='220' xmlns='http://www.w3.org/2000/svg'><rect width='300' height='220' fill='white'/><polygon points='150,30 219,70 219,150 150,190 81,150 81,70' fill='none' stroke='black' stroke-width='2'/><circle cx='150' cy='110' r='3' fill='black'/><line x1='150' y1='110' x2='150' y2='30' stroke='black' stroke-width='1.5'/><line x1='150' y1='110' x2='219' y2='70' stroke='black' stroke-width='1.5'/><text x='165' y='85' font-size='14' fill='black'>60°</text><text x='140' y='128' font-size='14' fill='black'>O</text></svg>", "legende": "Hexagone régulier : angle au centre = 360°/6 = 60°" },
-            { "type": "formule", "texte": "Angle au centre = 360° / n (n = nombre de côtés)" },
-            { "type": "tableau", "titre": "Angles au centre des polygones réguliers", "lignes": [
-              { "polygone": "Triangle équilatéral", "angle": "120°" },
-              { "polygone": "Carré", "angle": "90°" },
-              { "polygone": "Pentagone régulier", "angle": "72°" },
-              { "polygone": "Hexagone régulier", "angle": "60°" }
-            ]}
-          ],
-          "lexique": [
-            { "mot": "polygone régulier", "definition": "une figure avec plusieurs côtés, tous de la même longueur, et tous les angles égaux" },
-            { "mot": "angle au centre", "definition": "l'angle formé au centre de la figure entre deux sommets voisins" }
-          ]
-        },
-        {
-          "id": "geo-4",
-          "titre": "Volumes : pyramide et cône",
-          "contenu": [
-            { "type": "schema", "svg": "<svg viewBox='0 0 300 230' width='300' height='230' xmlns='http://www.w3.org/2000/svg'><rect width='300' height='230' fill='white'/><ellipse cx='150' cy='180' rx='90' ry='20' fill='none' stroke='black' stroke-width='2'/><line x1='150' y1='30' x2='60' y2='180' stroke='black' stroke-width='2'/><line x1='150' y1='30' x2='240' y2='180' stroke='black' stroke-width='2'/><line x1='150' y1='30' x2='150' y2='180' stroke='black' stroke-width='1' stroke-dasharray='4,3'/><line x1='150' y1='180' x2='240' y2='180' stroke='black' stroke-width='1' stroke-dasharray='4,3'/><text x='130' y='110' font-size='14' fill='black'>h</text><text x='195' y='195' font-size='14' fill='black'>r</text><circle cx='150' cy='30' r='3' fill='black'/><circle cx='150' cy='180' r='3' fill='black'/></svg>", "legende": "r = rayon de la base, h = hauteur du cône" },
-            { "type": "formule", "texte": "Volume = (Aire de la base × hauteur) / 3" },
-            { "type": "exemple", "texte": "Cône de diamètre 8 cm (rayon 4 cm) et hauteur 12 cm :\nV = (π × 4² × 12) / 3 ≈ 200,96 cm³" }
-          ]
-        },
-        {
-          "id": "geo-5",
-          "titre": "Sphère et boule",
-          "contenu": [
-            { "type": "schema", "svg": "<svg viewBox='0 0 300 220' width='300' height='220' xmlns='http://www.w3.org/2000/svg'><rect width='300' height='220' fill='white'/><circle cx='150' cy='110' r='80' fill='none' stroke='black' stroke-width='2'/><ellipse cx='150' cy='110' rx='80' ry='20' fill='none' stroke='black' stroke-width='1' stroke-dasharray='4,3'/><line x1='150' y1='110' x2='230' y2='110' stroke='black' stroke-width='1.5'/><circle cx='150' cy='110' r='3' fill='black'/><text x='150' y='128' font-size='14' text-anchor='middle' fill='black'>O</text><text x='190' y='104' font-size='14' fill='black'>R</text></svg>", "legende": "O = centre, R = rayon de la sphère" },
-            { "type": "formule", "texte": "Aire de la sphère = 4 × π × R²" },
-            { "type": "formule", "texte": "Volume de la boule = (4/3) × π × R³" },
-            { "type": "exemple", "texte": "Pour R = 6 cm : Aire = 4 × π × 36 = 144π cm² ; Volume = (4/3) × π × 216 = 288π cm³" }
-          ],
-          "lexique": [
-            { "mot": "sphère", "definition": "la surface (comme la peau d'un ballon), on mesure son aire" },
-            { "mot": "boule", "definition": "le volume intérieur plein (comme le ballon rempli), on mesure son volume" }
-          ]
-        },
-        {
-          "id": "geo-6",
-          "titre": "Agrandissement et réduction",
-          "contenu": [
-            { "type": "regle", "texte": "Si les longueurs sont multipliées par k, alors les aires sont multipliées par k² et les volumes par k³." }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "composante-5",
-      "titre": "Traitement des données et Probabilités",
-      "premium": false,
-      "lecons": [
-        {
-          "id": "stat-1",
-          "titre": "Moyenne, médiane, étendue",
-          "contenu": [
-            { "type": "formule", "texte": "Moyenne M = (x₁n₁ + x₂n₂ + ...) / N, où N est l'effectif total." },
-            { "type": "definition", "texte": "La médiane est la valeur qui partage une série ordonnée en deux groupes de même effectif." },
-            { "type": "definition", "texte": "L'étendue = valeur maximale − valeur minimale." }
-          ],
-          "lexique": [
-            { "mot": "effectif", "definition": "le nombre de fois qu'une valeur apparaît dans une série de données" },
-            { "mot": "médiane", "definition": "la valeur du milieu quand on range toutes les données dans l'ordre" },
-            { "mot": "étendue", "definition": "l'écart entre la plus grande et la plus petite valeur" }
-          ]
-        },
-        {
-          "id": "stat-2",
-          "titre": "Effectifs cumulés et fréquences",
-          "contenu": [
-            { "type": "definition", "texte": "L'effectif cumulé croissant d'une valeur est la somme des effectifs de toutes les valeurs inférieures ou égales à elle." },
-            { "type": "definition", "texte": "La fréquence d'une valeur est son effectif divisé par l'effectif total (souvent exprimée en %)." }
-          ],
-          "lexique": [
-            { "mot": "effectif cumulé croissant", "definition": "le total qu'on obtient en additionnant au fur et à mesure les effectifs" },
-            { "mot": "fréquence", "definition": "la proportion d'une valeur par rapport au total, souvent en pourcentage" }
-          ]
-        },
-        {
-          "id": "proba-1",
-          "titre": "Vocabulaire des probabilités",
-          "contenu": [
-            { "type": "definition", "texte": "Expérience aléatoire : expérience dont le résultat dépend du hasard." },
-            { "type": "definition", "texte": "Univers : ensemble de tous les résultats possibles d'une expérience aléatoire." },
-            { "type": "definition", "texte": "Événements incompatibles : deux événements qui ne peuvent pas se réaliser en même temps." },
-            { "type": "definition", "texte": "Événements contraires : deux événements incompatibles dont la réunion forme l'univers entier." }
-          ]
-        },
-        {
-          "id": "proba-2",
-          "titre": "Calcul de probabilités",
-          "contenu": [
-            { "type": "formule", "texte": "P(A) = nombre de cas favorables / nombre de cas possibles" },
-            { "type": "regle", "texte": "0 ≤ P(A) ≤ 1" },
-            { "type": "formule", "texte": "P(A) = 1 − P(Ā), où Ā est l'événement contraire de A" },
-            { "type": "formule", "texte": "Si A et B sont incompatibles : P(A ∪ B) = P(A) + P(B)" }
-          ],
-          "lexique": [
-            { "mot": "cas favorables", "definition": "les résultats qui correspondent à ce qu'on cherche" },
-            { "mot": "cas possibles", "definition": "tous les résultats qui peuvent se produire" }
-          ]
-        }
-      ]
-    }
-  ]
-}
+          "titre": "La proportionnalité : définition et calcul",
+          "blocs": [
+            {
+              "type": "definition",
+              "texte": "Deux grandeurs sont proportionnelles lorsqu'on passe des valeurs de la première aux valeurs de la seconde en multipliant toujours par le même nombre, appelé coefficient de proportionnalité."
+            },
+            {
+              "type": "exemple",
+              "texte": "Un vendeur vend des bottes de brèdes au même prix l'unité.\n\nNombre de bottes : 2 ; 5 ; 8\nPrix en Ar : 1000 ; 2500 ; 4000\n\nOn vérifie le coefficient :\n1000 ÷ 2 = 500\n2500 ÷ 5 = 500\n4000 ÷ 8 = 500\n\nLe coefficient de proportionnalité est 500. C'est bien un tableau de proportionnalité."
+            
