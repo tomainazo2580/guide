@@ -1,5 +1,6 @@
-const CACHE_VERSION = 'guide-v12';
-const CACHE_NAME = 'guide-cache-' + CACHE_VERSION;
+const CACHE_VERSION = 'guide-v13';
+const CACHE_NAME = CACHE_VERSION;
+
 const APP_SHELL = [
   './',
   './index.html',
@@ -8,52 +9,53 @@ const APP_SHELL = [
   './js/app.js',
   './icons/icon.svg',
   './icons/icon.png',
-  './outil-codes.html',
   './data/3e/mathematiques.json'
 ];
+
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
       return Promise.all(
         APP_SHELL.map((url) => {
           return cache.add(url).catch((err) => {
-            console.warn('Fichier non mis en cache (ignoré) :', url, err);
+            console.warn('Impossible de mettre en cache :', url, err);
           });
         })
       );
-    })
+    }).then(() => self.skipWaiting())
   );
-  self.skipWaiting();
 });
+
 self.addEventListener('activate', (event) => {
   event.waitUntil(
-    caches.keys().then((noms) => {
+    caches.keys().then((cacheNames) => {
       return Promise.all(
-        noms.filter((nom) => nom !== CACHE_NAME).map((nom) => caches.delete(nom))
+        cacheNames.map((name) => {
+          if (name !== CACHE_NAME) {
+            return caches.delete(name);
+          }
+        })
       );
-    })
+    }).then(() => self.clients.claim())
   );
-  self.clients.claim();
 });
+
 self.addEventListener('fetch', (event) => {
   event.respondWith(
-    caches.match(event.request).then((reponseCache) => {
-      if (reponseCache) return reponseCache;
-      return fetch(event.request)
-        .then((reponseReseau) => {
-          return caches.open(CACHE_NAME).then((cache) => {
-            if (event.request.method === 'GET' && reponseReseau.ok) {
-              cache.put(event.request, reponseReseau.clone());
-            }
-            return reponseReseau;
-          });
-        })
-        .catch(() => {
-          return new Response('Contenu non disponible hors-ligne.', {
-            status: 503,
-            headers: { 'Content-Type': 'text/plain' }
-          });
+    caches.match(event.request).then((cachedResponse) => {
+      if (cachedResponse) {
+        return cachedResponse;
+      }
+      return fetch(event.request).then((networkResponse) => {
+        return caches.open(CACHE_NAME).then((cache) => {
+          cache.put(event.request, networkResponse.clone());
+          return networkResponse;
         });
+      }).catch(() => {
+        if (event.request.mode === 'navigate') {
+          return caches.match('./index.html');
+        }
+      });
     })
   );
 });
