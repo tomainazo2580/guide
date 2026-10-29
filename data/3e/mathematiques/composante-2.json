@@ -1,0 +1,100 @@
+{
+  "id": "composante-2",
+  "titre": "Opérations",
+  "premium": false,
+  "lecons": [
+    {
+      "id": "op-1",
+      "titre": "La proportionnalité : définition et calcul",
+      "blocs": [
+        { "type": "definition", "texte": "Deux grandeurs sont proportionnelles lorsqu'on passe des valeurs de la première aux valeurs de la seconde en multipliant toujours par le même nombre, appelé coefficient de proportionnalité." },
+        { "type": "exemple", "texte": "Un vendeur vend des bottes de brèdes au même prix l'unité.\n\nNombre de bottes : 2 ; 5 ; 8\nPrix en Ar : 1000 ; 2500 ; 4000\n\nOn vérifie le coefficient :\n1000 ÷ 2 = 500\n2500 ÷ 5 = 500\n4000 ÷ 8 = 500\n\nLe coefficient de proportionnalité est 500. C'est bien un tableau de proportionnalité." },
+        { "type": "regle", "texte": "Méthode 1 : le coefficient de proportionnalité\nOn calcule le coefficient en divisant une valeur de la 2e ligne par la valeur correspondante de la 1re ligne. Puis, pour trouver une valeur manquante, on multiplie la valeur connue de la 1re ligne par ce coefficient.\n\nMéthode 2 : la propriété de linéarité\nOn peut additionner ou multiplier les colonnes d'un tableau de proportionnalité : si on additionne (ou multiplie) les valeurs de la 1re ligne, on doit additionner (ou multiplier de la même façon) les valeurs correspondantes de la 2e ligne." },
+        { "type": "exemple", "texte": "Avec le tableau précédent (bottes de brèdes à 500 Ar le coefficient) :\n\nMéthode 1 : Combien coûtent 12 bottes ?\n12 × 500 = 6000 Ar\n\nMéthode 2 (linéarité) : Combien coûtent 7 bottes, sachant que 2 bottes coûtent 1000 Ar et 5 bottes coûtent 2500 Ar ?\n2 + 5 = 7, donc on additionne les prix :\n1000 + 2500 = 3500 Ar" },
+        { "type": "exercice", "enonce": "Un marchand de stylos vend 3 stylos pour 1200 Ar. Les prix sont proportionnels au nombre de stylos.\na) Quel est le coefficient de proportionnalité (prix d'un stylo) ?\nb) Quel est le prix de 10 stylos ?", "solution": "a) Coefficient = 1200 ÷ 3 = 400 Ar par stylo\nb) Prix de 10 stylos = 10 × 400 = 4000 Ar" }
+      ],
+      "lexique": [
+        { "terme": "Coefficient de proportionnalité", "definition": "Nombre par lequel il faut multiplier les valeurs de la première grandeur pour obtenir celles de la seconde." },
+        { "terme": "Linéarité", "definition": "Propriété permettant d'additionner, soustraire ou multiplier les colonnes d'un tableau de proportionnalité." }
+      ]
+    },
+    {
+      "id": "op-2",
+      "titre": "La proportionnalité : représentation graphique",
+      "blocs": [
+        { "type": "regle", "texte": "Lorsque deux grandeurs sont proportionnelles, les points représentant les couples de valeurs sont alignés sur une droite qui passe par l'origine du repère." },
+        { "type": "remarque", "texte": "Réciproquement, si la représentation graphique d'une situation est une droite passant par l'origine, alors les deux grandeurs représentées sont proportionnelles." },
+        { "type": "schema", "titre": "Représentation graphique d'une situation de proportionnalité", "svg": "<svg viewBox='0 0 260 220' xmlns='http://www.w3.org/2000/svg'><rect width='260' height='220' fill='white'/><line x1='30' y1='190' x2='240' y2='190' stroke='black' stroke-width='2'/><line x1='30' y1='190' x2='30' y2='20' stroke='black' stroke-width='2'/><text x='245' y='195' font-size='12'>Bottes</text><text x='5' y='20' font-size='12'>Prix</text><line x1='30' y1='190' x2='210' y2='30' stroke='black' stroke-width='2'/><circle cx='66' cy='158' r='3'/><circle cx='120' cy='110' r='3'/><circle cx='174' cy='62' r='3'/><text x='60' y='172' font-size='10'>2</text><text x='114' y='124' font-size='10'>5</text><text x='168' y='76' font-size='10'>8</text></svg>", "legende": "Les points (2 ; 1000), (5 ; 2500) et (8 ; 4000) sont alignés sur une droite qui passe par l'origine : la situation est bien proportionnelle." },
+        { "type": "exemple", "texte": "Pour vérifier graphiquement si deux grandeurs sont proportionnelles : on place les points correspondant aux couples de valeurs dans un repère, puis on observe s'ils sont alignés et si la droite passe par l'origine (0 ; 0). Si c'est le cas, les grandeurs sont proportionnelles." }
+      ],
+      "lexique": [
+        { "terme": "Repère", "definition": "Système formé de deux axes gradués perpendiculaires, utilisé pour placer des points." }
+      ]
+    },
+    {
+      "id": "op-3",
+      "titre": "Le produit en croix",
+      "blocs": [
+        { "type": "regle", "texte": "Dans un tableau de proportionnalité à deux lignes et deux colonnes :\na     b\nc     d\non a l'égalité a/c = b/d, ce qui donne, en multipliant en croix :\na × d = b × c\nC'est la règle du produit en croix : le produit des termes « extrêmes » est égal au produit des termes « moyens »." },
+        { "type": "regle", "texte": "Pour trouver une valeur manquante x dans un tableau de proportionnalité :\na     b\nc     x\non utilise : a × x = b × c, donc x = (b × c) / a" },
+        { "type": "exemple", "texte": "Méthode du cocktail d'oranges\n\nUne recette de cocktail indique qu'il faut 3 verres de jus d'orange pour 5 verres d'eau. On veut préparer ce cocktail avec 12 verres de jus d'orange. Combien faut-il de verres d'eau ?\n\nJus d'orange (verres) : 3 ; 12\nEau (verres) : 5 ; x\n\nOn applique le produit en croix :\n3 × x = 5 × 12\n3x = 60\nx = 60 ÷ 3 = 20\n\nIl faut donc 20 verres d'eau.\n\nVérification : 3/5 = 0,6 et 12/20 = 0,6, les deux rapports sont égaux : le tableau est bien un tableau de proportionnalité." },
+        { "type": "exercice", "enonce": "Une autre recette de cocktail nécessite 2 verres de sirop pour 7 verres d'eau. Combien de verres de sirop faut-il pour 21 verres d'eau ?", "solution": "Sirop : 2 ; x\nEau : 7 ; 21\n\nProduit en croix :\n7 × x = 2 × 21\n7x = 42\nx = 42 ÷ 7 = 6\n\nIl faut 6 verres de sirop." }
+      ],
+      "lexique": [
+        { "terme": "Produit en croix", "definition": "Méthode de calcul qui consiste à multiplier les termes en diagonale dans un tableau de proportionnalité." },
+        { "terme": "Extrêmes et moyens", "definition": "Dans une égalité de deux quotients a/c = b/d, a et d sont les extrêmes, c et b sont les moyens." }
+      ]
+    },
+    {
+      "id": "op-4",
+      "titre": "La quatrième proportionnelle",
+      "blocs": [
+        { "type": "definition", "texte": "Dans un tableau de proportionnalité comportant trois valeurs connues a, b, c et une valeur inconnue x disposées ainsi :\na     c\nb     x\nle nombre x est appelé la quatrième proportionnelle à a, b et c, et on calcule :\nx = (b × c) / a" },
+        { "type": "schema", "titre": "Méthode du gâteau", "svg": "<svg viewBox='0 0 220 220' xmlns='http://www.w3.org/2000/svg'><rect width='220' height='220' fill='white'/><circle cx='110' cy='110' r='95' fill='none' stroke='black' stroke-width='2'/><line x1='110' y1='15' x2='110' y2='205' stroke='black' stroke-width='2'/><line x1='15' y1='110' x2='205' y2='110' stroke='black' stroke-width='2'/><text x='95' y='65' font-size='16'>a</text><text x='125' y='65' font-size='16'>c</text><text x='95' y='160' font-size='16'>b</text><text x='125' y='160' font-size='16'>x</text></svg>", "legende": "On multiplie les deux nombres opposés en diagonale au nombre cherché x (ici b et c), puis on divise par le nombre restant (a) : x = (b × c) / a." },
+        { "type": "exemple", "texte": "On veut trouver la quatrième proportionnelle à 4, 6 et 10 :\n4     10\n6      x\n\nAvec la méthode du gâteau, on multiplie les deux nombres opposés en diagonale à x (10 et 6), puis on divise par le nombre restant (4) :\nx = (10 × 6) / 4 = 60 / 4 = 15" },
+        { "type": "exemple", "texte": "Une recette de gâteau pour 4 personnes nécessite 6 œufs. Combien faut-il d'œufs pour 10 personnes ?\n\nPersonnes : 4 ; 10\nŒufs : 6 ; x\n\nx = (6 × 10) / 4 = 60 / 4 = 15\n\nIl faut 15 œufs pour 10 personnes." },
+        { "type": "exercice", "enonce": "Trouver la quatrième proportionnelle à 5, 8 et 20, disposés ainsi :\n5     20\n8      x", "solution": "x = (8 × 20) / 5 = 160 / 5 = 32" }
+      ],
+      "lexique": [
+        { "terme": "Quatrième proportionnelle", "definition": "Valeur inconnue d'un tableau de proportionnalité, calculée à partir de trois valeurs connues." }
+      ]
+    },
+    {
+      "id": "op-5",
+      "titre": "Les taux et taux unitaires",
+      "blocs": [
+        { "type": "definition", "texte": "Un taux est un quotient qui permet de comparer deux grandeurs de nature différente (ou de même nature mais avec des unités différentes).\nUn taux unitaire est un taux exprimé pour une seule unité de l'une des deux grandeurs." },
+        { "type": "regle", "texte": "Pour calculer un taux unitaire, on divise la grandeur par le nombre d'unités de l'autre grandeur correspondante." },
+        { "type": "exemple", "texte": "Exemple 1 (eau) : Une citerne laisse s'écouler 450 litres d'eau en 15 minutes.\nTaux unitaire = 450 ÷ 15 = 30\nLe débit est de 30 litres par minute.\n\nExemple 2 (avocats) : Au marché, 8 avocats coûtent 2400 Ar.\nPrix unitaire = 2400 ÷ 8 = 300 Ar par avocat.\n\nExemple 3 (taux horaire) : Un ouvrier reçoit 45 000 Ar pour 9 heures de travail.\nTaux horaire = 45 000 ÷ 9 = 5000 Ar par heure.\n\nExemple 4 (vitesse) : Une voiture parcourt 180 km en 3 heures.\nVitesse moyenne = 180 ÷ 3 = 60 km/h." },
+        { "type": "definition", "texte": "Deux taux sont dits équivalents lorsqu'ils représentent la même relation entre deux grandeurs, même si les nombres utilisés sont différents." },
+        { "type": "exemple", "texte": "Taux équivalents (Tojo et Lita) : Tojo parcourt 24 km à vélo en 2 heures. Lita parcourt 36 km en 3 heures. Roulent-ils à la même vitesse ?\n\nVitesse de Tojo = 24 ÷ 2 = 12 km/h\nVitesse de Lita = 36 ÷ 3 = 12 km/h\n\nLes deux taux sont équivalents : Tojo et Lita roulent à la même vitesse." },
+        { "type": "exemple", "texte": "Comparaison de consommation d'essence : Une voiture A consomme 40 litres pour parcourir 500 km. Une voiture B consomme 54 litres pour parcourir 600 km. Quelle voiture est la plus économique ?\n\nTaux unitaire A = 40 ÷ 500 = 0,08 litre par km, soit 8 litres pour 100 km\nTaux unitaire B = 54 ÷ 600 = 0,09 litre par km, soit 9 litres pour 100 km\n\nLa voiture A consomme moins par kilomètre : elle est plus économique." },
+        { "type": "exercice", "enonce": "Un robinet laisse couler 60 litres en 4 minutes. Un autre robinet laisse couler 135 litres en 9 minutes. Les deux robinets ont-ils le même débit ?", "solution": "Robinet 1 : 60 ÷ 4 = 15 litres par minute\nRobinet 2 : 135 ÷ 9 = 15 litres par minute\n\nLes deux robinets ont le même débit : 15 litres par minute." }
+      ],
+      "lexique": [
+        { "terme": "Taux", "definition": "Quotient qui permet de comparer deux grandeurs de nature différente." },
+        { "terme": "Taux unitaire", "definition": "Taux exprimé pour une seule unité de l'une des deux grandeurs." },
+        { "terme": "Taux équivalents", "definition": "Taux différents dans leurs nombres mais représentant la même relation entre deux grandeurs." },
+        { "terme": "Débit", "definition": "Taux unitaire exprimant une quantité de liquide écoulée par unité de temps." }
+      ]
+    },
+    {
+      "id": "op-6",
+      "titre": "Les pourcentages",
+      "blocs": [
+        { "type": "definition", "texte": "Un pourcentage est une façon d'exprimer une proportion pour un total de 100. « x pour cent », noté x%, signifie x parts sur 100." },
+        { "type": "regle", "texte": "Prendre x% d'une quantité revient à multiplier cette quantité par x/100." },
+        { "type": "exemple", "texte": "Calculer 20% de 350 :\n350 × 20/100 = 350 × 0,2 = 70" },
+        { "type": "exemple", "texte": "Dans une classe de 40 élèves, 25% sont des filles. Combien y a-t-il de filles ?\n\nNombre de filles = 40 × 25/100 = 40 × 0,25 = 10 filles" },
+        { "type": "exemple", "texte": "Sur 80 exercices, un élève en a réussi 60. Quel est son pourcentage de réussite ?\n\nPourcentage = (60 / 80) × 100 = 0,75 × 100 = 75%" },
+        { "type": "remarque", "texte": "Un pourcentage peut aussi servir à calculer une augmentation ou une réduction.\n\nExemple : Un article coûte 15 000 Ar et subit une réduction de 10%.\nRéduction = 15 000 × 10/100 = 1500 Ar\nNouveau prix = 15 000 − 1500 = 13 500 Ar" },
+        { "type": "exercice", "enonce": "Un vendeur augmente le prix d'un sac de riz de 20 000 Ar de 5%. Quel est le nouveau prix ?", "solution": "Augmentation = 20 000 × 5/100 = 1000 Ar\nNouveau prix = 20 000 + 1000 = 21 000 Ar" }
+      ],
+      "lexique": [
+        { "terme": "Pourcentage", "definition": "Façon d'exprimer une proportion pour un total de 100, notée %." },
+        { "terme": "Augmentation", "definition": "Hausse d'une valeur, souvent exprimée en pourcentage." },
+        { "terme": "Réduction", "definition": "Baisse d'une valeur, souvent exprimée en pourcentage." }
+      ]
+    }
+  ]
+}
