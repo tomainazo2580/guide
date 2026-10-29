@@ -707,13 +707,27 @@ function basculerTheme() {
 
 let deferredInstallPrompt = null;
 
+const DELAI_REAPPARITION_JOURS = 7;
+
 function estDejaInstallee() {
   return window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
 }
 
+function bandeauDoitSAfficher() {
+  if (estDejaInstallee()) return false;
+
+  const brut = localStorage.getItem('guide-install-dismiss');
+  if (!brut) return true;
+
+  const dateFermeture = parseInt(brut, 10);
+  if (isNaN(dateFermeture)) return true;
+
+  const delaiMs = DELAI_REAPPARITION_JOURS * 24 * 60 * 60 * 1000;
+  return (Date.now() - dateFermeture) >= delaiMs;
+}
+
 function afficherBanniereInstall() {
-  if (estDejaInstallee()) return;
-  if (localStorage.getItem('guide-install-dismiss')) return;
+  if (!bandeauDoitSAfficher()) return;
   $('banner-installer').hidden = false;
 }
 
@@ -737,12 +751,12 @@ function initInstallation() {
   });
 
   $('btn-fermer-installer').addEventListener('click', () => {
-    localStorage.setItem('guide-install-dismiss', '1');
+    localStorage.setItem('guide-install-dismiss', String(Date.now()));
     cacherBanniereInstall();
   });
 
   window.addEventListener('appinstalled', () => {
-    localStorage.setItem('guide-install-dismiss', '1');
+    localStorage.setItem('guide-install-dismiss', String(Date.now()));
     cacherBanniereInstall();
   });
 }
