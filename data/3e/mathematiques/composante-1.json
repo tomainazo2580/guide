@@ -7,92 +7,119 @@
       "id": "nb-1",
       "titre": "Les différents types de nombres",
       "blocs": [
-        { "type": "definition", "texte": "Un nombre entier est un nombre sans virgule, positif ou négatif.\nUn nombre décimal est un nombre qui peut s'écrire avec un nombre fini de chiffres après la virgule.\nUn nombre rationnel est un nombre qui peut s'écrire sous forme d'une fraction a/b, où a et b sont des entiers et b est différent de 0.\nUn nombre irrationnel est un nombre qui ne peut pas s'écrire sous forme de fraction ; son écriture décimale est infinie et non périodique." },
-        { "type": "regle", "texte": "Toute fraction représente le quotient (la division) de son numérateur par son dénominateur :\na/b = a ÷ b" },
-        { "type": "exemple", "texte": "3/4 est un nombre rationnel car 3/4 = 3 ÷ 4 = 0,75\nSon écriture décimale est finie." },
-        { "type": "exemple", "texte": "1/3 = 1 ÷ 3 = 0,333...\n1/3 est aussi un nombre rationnel car il s'écrit sous forme de fraction, même si son écriture décimale est infinie (mais périodique : le chiffre 3 se répète)." },
-        { "type": "remarque", "texte": "√2 = 1,41421356...\n√2 est un nombre irrationnel : son écriture décimale est infinie et ne se répète jamais de façon périodique." }
+        { "type": "definition", "texte": "Un nombre entier relatif est un nombre entier, positif ou négatif, sans virgule. Exemples : −5 ; 0 ; 12.\nUn nombre décimal est un nombre qui peut s'écrire avec un nombre fini de chiffres après la virgule. Exemples : 4,3 ; −1,75.\nUn nombre rationnel est un nombre qui peut s'écrire sous la forme d'une fraction p/q, avec p un entier relatif et q un entier relatif non nul. Exemples : 3/4 ; 5/11 ; −7/3.\nUn nombre irrationnel est un nombre qui ne peut pas s'écrire sous la forme d'une fraction. Son écriture décimale est infinie et non périodique. Exemples : π ; √2 ; −√3." },
+        { "type": "remarque", "texte": "Tout nombre entier peut être vu comme une fraction de dénominateur 1 : 5 = 5/1 ; −12 = −12/1.\nTout nombre décimal peut aussi s'écrire comme une fraction : 4,3 = 43/10 ; 1,5 = 15/10 ; 153,47 = 15347/100." },
+        { "type": "exemple", "texte": "Vérifions qu'une fraction donne bien un nombre décimal : 3/4 = 3 ÷ 4 = 0,75\nAutre exemple : 2/4 = 2 ÷ 4 = 0,5" },
+        { "type": "exercice", "enonce": "Parmi les nombres suivants, indique lesquels sont des entiers relatifs, des décimaux, des rationnels non décimaux, ou des irrationnels :\n−8 ; 2,5 ; 1/3 ; π ; 7 ; −5/2", "solution": "−8 : entier relatif (et donc aussi décimal et rationnel)\n2,5 : décimal (et rationnel)\n1/3 = 0,333... : rationnel non décimal (écriture décimale infinie mais périodique)\nπ : irrationnel\n7 : entier relatif\n−5/2 = −2,5 : décimal (et rationnel)" }
       ],
       "lexique": [
-        { "terme": "Nombre rationnel", "definition": "Nombre qui peut s'écrire sous forme d'une fraction a/b avec a et b entiers, b différent de 0." },
-        { "terme": "Nombre irrationnel", "definition": "Nombre qui ne peut pas s'écrire sous forme de fraction ; son écriture décimale est infinie et non périodique." }
+        { "terme": "Nombre entier relatif", "definition": "Nombre entier positif ou négatif, noté avec l'ensemble Z." },
+        { "terme": "Nombre décimal", "definition": "Nombre qui peut s'écrire avec un nombre fini de chiffres après la virgule." },
+        { "terme": "Nombre rationnel", "definition": "Nombre qui peut s'écrire sous la forme d'une fraction p/q avec p et q entiers, q non nul." },
+        { "terme": "Nombre irrationnel", "definition": "Nombre dont l'écriture décimale est infinie et non périodique ; il ne peut pas s'écrire sous forme de fraction." }
       ]
     },
     {
       "id": "nb-2",
-      "titre": "Priorités opératoires",
+      "titre": "Les priorités opératoires",
       "blocs": [
-        { "type": "schema", "titre": "Ordre des priorités dans un calcul", "svg": "<svg width='300' height='160' viewBox='0 0 300 160' xmlns='http://www.w3.org/2000/svg'><rect width='300' height='160' fill='white'/><rect x='10' y='10' width='280' height='30' fill='none' stroke='black' stroke-width='2'/><text x='150' y='30' font-size='13' text-anchor='middle'>1. Parenthèses</text><rect x='10' y='50' width='280' height='30' fill='none' stroke='black' stroke-width='2'/><text x='150' y='70' font-size='13' text-anchor='middle'>2. Puissances et racines carrées</text><rect x='10' y='90' width='280' height='30' fill='none' stroke='black' stroke-width='2'/><text x='150' y='110' font-size='13' text-anchor='middle'>3. Multiplications et divisions</text><rect x='10' y='130' width='280' height='20' fill='none' stroke='black' stroke-width='2'/><text x='150' y='145' font-size='13' text-anchor='middle'>4. Additions et soustractions</text></svg>", "legende": "On effectue les calculs dans cet ordre, de gauche à droite à chaque étape." },
-        { "type": "regle", "texte": "Dans un calcul sans parenthèses, on effectue dans l'ordre :\n1) les puissances et les racines carrées ;\n2) les multiplications et les divisions (de gauche à droite) ;\n3) les additions et les soustractions (de gauche à droite).\nS'il y a des parenthèses, on calcule d'abord ce qu'elles contiennent, en commençant par les parenthèses les plus à l'intérieur." },
-        { "type": "exemple", "texte": "Calculer A = 5 + 3 × 4\nOn effectue d'abord la multiplication :\n3 × 4 = 12\nPuis l'addition :\nA = 5 + 12 = 17" },
-        { "type": "exemple", "texte": "Calculer B = (7 − 3) / 2 + 3²\nOn calcule d'abord la parenthèse :\n7 − 3 = 4\nOn calcule la puissance :\n3² = 9\nOn effectue la division :\n4 / 2 = 2\nOn termine par l'addition :\nB = 2 + 9 = 11" }
+        { "type": "regle", "texte": "Pour calculer une expression comportant plusieurs opérations, on respecte l'ordre suivant :\n1. On effectue d'abord les calculs entre parenthèses.\n2. On effectue ensuite les puissances et les racines carrées.\n3. On effectue ensuite les multiplications et les divisions, de gauche à droite.\n4. On termine par les additions et les soustractions, de gauche à droite." },
+        { "type": "schema", "titre": "Ordre des priorités opératoires", "svg": "<svg width='320' height='90' viewBox='0 0 320 90' xmlns='http://www.w3.org/2000/svg'><rect width='320' height='90' fill='white'/><rect x='5' y='25' width='70' height='40' fill='none' stroke='black' stroke-width='2'/><text x='15' y='50' font-size='13'>( )</text><rect x='85' y='25' width='70' height='40' fill='none' stroke='black' stroke-width='2'/><text x='92' y='50' font-size='12'>puiss. / √</text><rect x='165' y='25' width='70' height='40' fill='none' stroke='black' stroke-width='2'/><text x='178' y='50' font-size='13'>× / ÷</text><rect x='245' y='25' width='70' height='40' fill='none' stroke='black' stroke-width='2'/><text x='260' y='50' font-size='13'>+ / −</text><line x1='75' y1='45' x2='85' y2='45' stroke='black' stroke-width='2'/><line x1='155' y1='45' x2='165' y2='45' stroke='black' stroke-width='2'/><line x1='235' y1='45' x2='245' y2='45' stroke='black' stroke-width='2'/></svg>", "legende": "Ordre à respecter : parenthèses, puis puissances/racines, puis multiplications/divisions, puis additions/soustractions." },
+        { "type": "exemple", "texte": "Calculons A = 8 − 14 + (−5) × 3\n\nOn effectue d'abord la multiplication :\n(−5) × 3 = −15\n\nA = 8 − 14 + (−15)\nA = (−6) + (−15)\nA = −21" },
+        { "type": "exemple", "texte": "Calculons B = 5 − 6 × ((−7) + 11) + 3\n\nOn effectue d'abord la parenthèse :\n(−7) + 11 = 4\n\nB = 5 − 6 × 4 + 3\nB = 5 − 24 + 3\nB = −19 + 3\nB = −16" },
+        { "type": "exemple", "texte": "Calculons C = (4 × 3 + (−11)) / (10 + 2 × (−4))\n\nAu numérateur : 4 × 3 + (−11) = 12 − 11 = 1\nAu dénominateur : 10 + 2 × (−4) = 10 − 8 = 2\n\nC = 1/2 = 0,5" },
+        { "type": "exercice", "enonce": "Calculer en détaillant les étapes :\nD = 7 − 3 × (2 + 4) + 5\nE = (6 − 2²) × 3 + 1", "solution": "D = 7 − 3 × 6 + 5\nD = 7 − 18 + 5\nD = −11 + 5\nD = −6\n\nE = (6 − 4) × 3 + 1\nE = 2 × 3 + 1\nE = 6 + 1\nE = 7" }
       ],
       "lexique": [
-        { "terme": "Priorité opératoire", "definition": "Ordre dans lequel il faut effectuer les différentes opérations d'un calcul." }
+        { "terme": "Priorités opératoires", "definition": "Ordre dans lequel il faut effectuer les opérations d'un calcul pour obtenir le bon résultat." }
       ]
     },
     {
       "id": "nb-3",
-      "titre": "Racine carrée d'un nombre positif",
+      "titre": "La racine carrée d'un nombre positif",
       "blocs": [
-        { "type": "definition", "texte": "La racine carrée d'un nombre positif a, notée √a, est le nombre positif dont le carré est égal à a." },
-        { "type": "remarque", "texte": "Le symbole √ s'appelle un radical." },
-        { "type": "exemple", "texte": "√16 = 4 car 4² = 16" },
-        { "type": "remarque", "texte": "La racine carrée d'un nombre négatif n'existe pas dans l'ensemble des nombres réels." }
+        { "type": "definition", "texte": "La racine carrée d'un nombre positif a, notée √a, est le nombre positif dont le carré est égal à a.\nSi b = √a, alors b ≥ 0 et b² = a." },
+        { "type": "exemple", "texte": "√16 = 4 car 4² = 16\n√25 = 5 car 5² = 25\n√9 = 3 car 3² = 9" },
+        { "type": "remarque", "texte": "La racine carrée d'un nombre négatif n'existe pas dans l'ensemble des nombres étudiés au collège : il n'existe aucun nombre réel dont le carré est négatif, puisque le carré d'un nombre est toujours positif ou nul.\nSi une calculatrice affiche un résultat pour la racine carrée d'un nombre négatif (« ERROR » ou un nombre bizarre), c'est le signe qu'il faut vérifier son calcul : ce n'est pas un nombre valide au collège." },
+        { "type": "regle", "texte": "Propriétés de la racine carrée, pour a et b positifs :\n√a × √b = √(a × b)\n√a / √b = √(a / b) (avec b ≠ 0)\n(√a)² = a" },
+        { "type": "exemple", "texte": "√2 × √8 = √(2 × 8) = √16 = 4" },
+        { "type": "exercice", "enonce": "Calculer :\na) √49\nb) √36 × √4\nc) √100 / √25", "solution": "a) √49 = 7 car 7² = 49\n\nb) √36 × √4 = 6 × 2 = 12\n\nc) √100 / √25 = 10 / 5 = 2" }
       ],
       "lexique": [
-        { "terme": "Radical", "definition": "Symbole √ utilisé pour noter une racine carrée." },
-        { "terme": "Racine carrée", "definition": "Nombre positif dont le carré donne le nombre de départ." }
+        { "terme": "Racine carrée", "definition": "Nombre positif dont le carré est égal au nombre donné." },
+        { "terme": "Radical", "definition": "Symbole √ utilisé pour noter la racine carrée." }
       ]
     },
     {
       "id": "nb-4",
-      "titre": "Les sous-ensembles de l'ensemble des nombres réels R",
+      "titre": "Les sous-ensembles de l'ensemble des nombres réels",
       "blocs": [
-        { "type": "definition", "texte": "Un nombre entier naturel est un nombre entier positif ou nul (0, 1, 2, 3...)." },
-        { "type": "exercice", "enonce": "Classer les nombres suivants dans les ensembles auxquels ils appartiennent :\n0 ; 5 ; −3 ; 2,5 ; −1,75 ; 2/3 ; −7/4 ; √9 ; √2 ; π ; 3,456456456...", "solution": "0 ; 5 → nombres entiers naturels\n−3 ; 0 ; 5 → nombres entiers relatifs\n2,5 ; −1,75 ; −3 ; 0 ; 5 → nombres décimaux\n2/3 ; −7/4 ; 2,5 ; −1,75 ; −3 ; 0 ; 5 ; 3,456456456... → nombres rationnels\n√2 ; π → nombres irrationnels\n√9 = 3 → nombre entier naturel (attention, ce n'est pas un nombre irrationnel car √9 est un nombre entier)" },
-        { "type": "definition", "texte": "N est l'ensemble des nombres entiers naturels : 0, 1, 2, 3...\nZ est l'ensemble des nombres entiers relatifs : ... −2, −1, 0, 1, 2...\nD est l'ensemble des nombres décimaux : nombres qui s'écrivent avec un nombre fini de chiffres après la virgule.\nQ est l'ensemble des nombres rationnels : nombres qui peuvent s'écrire sous forme de fraction." },
-        { "type": "schema", "titre": "Inclusion des ensembles de nombres", "svg": "<svg width='300' height='220' viewBox='0 0 300 220' xmlns='http://www.w3.org/2000/svg'><rect width='300' height='220' fill='white'/><rect x='10' y='10' width='280' height='200' fill='none' stroke='black' stroke-width='2'/><text x='20' y='28' font-size='14'>R</text><rect x='30' y='35' width='240' height='165' fill='none' stroke='black' stroke-width='2'/><text x='40' y='52' font-size='14'>Q</text><rect x='50' y='60' width='200' height='130' fill='none' stroke='black' stroke-width='2'/><text x='60' y='77' font-size='14'>D</text><rect x='70' y='85' width='160' height='95' fill='none' stroke='black' stroke-width='2'/><text x='80' y='102' font-size='14'>Z</text><rect x='90' y='110' width='120' height='60' fill='none' stroke='black' stroke-width='2'/><text x='100' y='127' font-size='14'>N</text></svg>", "legende": "N est inclus dans Z, qui est inclus dans D, qui est inclus dans Q, qui est inclus dans R." },
-        { "type": "regle", "texte": "N est inclus dans Z.\nZ est inclus dans D.\nD est inclus dans Q.\nQ est inclus dans R." },
-        { "type": "definition", "texte": "Un nombre irrationnel est un nombre réel qui n'est pas rationnel : il ne peut pas s'écrire sous forme de fraction, et son écriture décimale est infinie et non périodique." },
-        { "type": "exemple", "texte": "π = 3,14159265...\n√2 = 1,41421356...\n√π n'est pas un nombre rationnel\n√7 = 2,6457513...\nCes quatre nombres sont des nombres irrationnels." },
-        { "type": "remarque", "texte": "L'ensemble des nombres rationnels Q et l'ensemble des nombres irrationnels n'ont aucun nombre en commun : un nombre ne peut pas être à la fois rationnel et irrationnel." },
-        { "type": "schema", "titre": "Emplacement des nombres irrationnels", "svg": "<svg width='300' height='220' viewBox='0 0 300 220' xmlns='http://www.w3.org/2000/svg'><rect width='300' height='220' fill='white'/><rect x='10' y='10' width='280' height='200' fill='none' stroke='black' stroke-width='2'/><text x='20' y='28' font-size='14'>R</text><rect x='30' y='35' width='240' height='165' fill='none' stroke='black' stroke-width='2'/><text x='40' y='52' font-size='14'>Q</text><rect x='50' y='60' width='200' height='130' fill='none' stroke='black' stroke-width='2'/><text x='60' y='77' font-size='14'>D</text><rect x='70' y='85' width='160' height='95' fill='none' stroke='black' stroke-width='2'/><text x='80' y='102' font-size='14'>Z</text><rect x='90' y='110' width='120' height='60' fill='none' stroke='black' stroke-width='2'/><text x='100' y='127' font-size='14'>N</text><text x='235' y='60' font-size='12'>π, √2</text></svg>", "legende": "Les nombres irrationnels (comme π ou √2) appartiennent à R mais pas à Q : ils sont représentés en dehors du rectangle Q, mais à l'intérieur du rectangle R." },
-        { "type": "exemple", "texte": "3,456456456... est un nombre dont l'écriture décimale est infinie, mais le groupe de chiffres \"456\" se répète indéfiniment : on dit que ce nombre est périodique, de période \"456\". Un nombre décimal périodique est toujours un nombre rationnel, car il peut s'écrire sous forme de fraction." }
+        { "type": "definition", "texte": "N est l'ensemble des entiers naturels (0 ; 1 ; 2 ; 3 ; ...).\nZ est l'ensemble des entiers relatifs (... ; −2 ; −1 ; 0 ; 1 ; 2 ; ...).\nD est l'ensemble des nombres décimaux (nombres ayant un nombre fini de chiffres après la virgule).\nQ est l'ensemble des nombres rationnels (nombres pouvant s'écrire sous forme de fraction p/q).\nR est l'ensemble des nombres réels, qui regroupe tous les rationnels et tous les irrationnels." },
+        { "type": "regle", "texte": "On a l'inclusion suivante entre ces ensembles :\nN ⊂ Z ⊂ D ⊂ Q ⊂ R\nCela signifie que tout entier naturel est un entier relatif, que tout entier relatif est un décimal, que tout décimal est un rationnel, et que tout rationnel est un réel." },
+        { "type": "schema", "titre": "Inclusion des ensembles de nombres", "svg": "<svg width='280' height='220' viewBox='0 0 280 220' xmlns='http://www.w3.org/2000/svg'><rect width='280' height='220' fill='white'/><rect x='10' y='10' width='260' height='200' fill='none' stroke='black' stroke-width='2'/><text x='15' y='25' font-size='13'>R</text><rect x='30' y='30' width='220' height='170' fill='none' stroke='black' stroke-width='2'/><text x='35' y='45' font-size='13'>Q</text><rect x='50' y='50' width='180' height='140' fill='none' stroke='black' stroke-width='2'/><text x='55' y='65' font-size='13'>D</text><rect x='70' y='70' width='140' height='110' fill='none' stroke='black' stroke-width='2'/><text x='75' y='85' font-size='13'>Z</text><rect x='90' y='90' width='100' height='80' fill='none' stroke='black' stroke-width='2'/><text x='95' y='105' font-size='13'>N</text><text x='150' y='40' font-size='11'>π ; √2</text></svg>", "legende": "N ⊂ Z ⊂ D ⊂ Q ⊂ R. Les nombres irrationnels (comme π et √2) appartiennent à R mais pas à Q." },
+        { "type": "definition", "texte": "Les nombres irrationnels forment l'ensemble noté Q′ (complémentaire de Q dans R). Un nombre irrationnel a un développement décimal infini et non périodique.\nExemples : π = 3,141592653... ; √2 = 1,414213562... ; √7 = 2,645751311...\nOn a Q ∩ Q′ = ∅ (un nombre ne peut pas être à la fois rationnel et irrationnel)." },
+        { "type": "exemple", "texte": "Le nombre 3,456456456... (où « 456 » se répète indéfiniment) est un nombre rationnel, car son développement décimal est périodique : on le note 3,̄456̄.\nOn a donc 3,̄456̄ ∈ Q et 3,̄456̄ ∉ Q′.\nEn revanche, π ∈ Q′ car son développement décimal ne se répète jamais." },
+        { "type": "exercice", "enonce": "Classer les nombres suivants selon qu'ils appartiennent à N, Z, D, Q ou Q′ (plusieurs réponses possibles pour chaque nombre) :\n−7 ; 2,5 ; 5/3 ; √5 ; 10 ; −3/4", "solution": "−7 : Z (et donc aussi D, Q)\n2,5 : D (et Q)\n5/3 = 1,666... : Q (rationnel non décimal, car développement périodique)\n√5 = 2,236067... : Q′ (irrationnel)\n10 : N (et Z, D, Q)\n−3/4 = −0,75 : D (et Q)" }
       ],
       "lexique": [
-        { "terme": "Ensemble", "definition": "Collection de nombres ou d'objets regroupés selon une propriété commune." },
-        { "terme": "Inclusion", "definition": "Un ensemble A est inclus dans un ensemble B lorsque tous les éléments de A appartiennent aussi à B." },
-        { "terme": "Période", "definition": "Groupe de chiffres qui se répète indéfiniment dans l'écriture décimale d'un nombre rationnel." }
+        { "terme": "N", "definition": "Ensemble des entiers naturels (nombres entiers positifs ou nuls)." },
+        { "terme": "Z", "definition": "Ensemble des entiers relatifs (nombres entiers positifs, négatifs ou nuls)." },
+        { "terme": "D", "definition": "Ensemble des nombres décimaux." },
+        { "terme": "Q", "definition": "Ensemble des nombres rationnels." },
+        { "terme": "Q′", "definition": "Ensemble des nombres irrationnels (complémentaire de Q dans R)." },
+        { "terme": "R", "definition": "Ensemble des nombres réels, regroupant tous les rationnels et irrationnels." }
       ]
     },
     {
       "id": "nb-5",
-      "titre": "La notation scientifique des nombres",
+      "titre": "L'écriture scientifique d'un nombre",
       "blocs": [
-        { "type": "definition", "texte": "Une puissance de 10 est un nombre qui s'écrit sous la forme 10 suivi d'un exposant entier (positif, négatif ou nul)." },
-        { "type": "regle", "texte": "10ⁿ (n positif) = 1 suivi de n zéros\n10⁻ⁿ (n positif) = 0, suivi de (n−1) zéros, puis 1, après la virgule" },
-        { "type": "definition", "texte": "L'écriture scientifique d'un nombre est une écriture de la forme a × 10ⁿ, où a est un nombre décimal tel que 1 ≤ a < 10, et n est un nombre entier relatif." },
-        { "type": "exemple", "texte": "45 800 = 4,58 × 10 000 = 4,58 × 10⁴\n0,00032 = 3,2 × 10⁻⁴" },
-        { "type": "remarque", "texte": "5,2 × 10³ est une écriture scientifique correcte (car 1 ≤ 5,2 < 10).\n52 × 10² n'est pas une écriture scientifique correcte (car 52 n'est pas compris entre 1 et 10).\n0,52 × 10⁴ n'est pas non plus une écriture scientifique correcte (car 0,52 est inférieur à 1)." }
+        { "type": "definition", "texte": "Une puissance de 10 est un nombre de la forme 10ⁿ, où n est un entier relatif.\nExemples : 10³ = 1000 ; 10⁴ = 10 000 ; 10⁸ = 100 000 000.\nPour un exposant négatif : 10⁻² = 0,01 ; 10⁻⁴ = 0,0001 ; 10⁻⁶ = 0,000001." },
+        { "type": "definition", "texte": "L'écriture scientifique d'un nombre décimal positif est son écriture sous la forme a × 10ⁿ, où a est un nombre décimal tel que 1 ≤ a < 10, et n est un entier relatif." },
+        { "type": "exemple", "texte": "Vérifions si ces écritures sont bien des écritures scientifiques valides :\n4,78 × 10³ → valide, car 1 ≤ 4,78 < 10 ✓\n2,159 × 10⁻⁵ → valide, car 1 ≤ 2,159 < 10 ✓\n45,9 × 10² → non valide, car 45,9 n'est pas compris entre 1 et 10 ✗\n0,9 × 10⁵ → non valide, car 0,9 n'est pas compris entre 1 et 10 ✗\n2,5 × 3¹⁰ → non valide, car 3¹⁰ n'est pas une puissance de 10 ✗" },
+        { "type": "exemple", "texte": "Écrire 45 800 en écriture scientifique :\n45 800 = 4,58 × 10 000 = 4,58 × 10⁴\n\nÉcrire 0,00032 en écriture scientifique :\n0,00032 = 3,2 × 10⁻⁴" },
+        { "type": "exercice", "enonce": "Parmi les écritures suivantes, indique lesquelles sont des écritures scientifiques valides, et corrige celles qui ne le sont pas :\na) 5,2 × 10³\nb) 52 × 10²\nc) 0,52 × 10⁴", "solution": "a) 5,2 × 10³ : valide, car 1 ≤ 5,2 < 10 ✓\n\nb) 52 × 10² : non valide (52 n'est pas entre 1 et 10). Correction : 52 × 10² = 5,2 × 10³\n\nc) 0,52 × 10⁴ : non valide (0,52 n'est pas entre 1 et 10). Correction : 0,52 × 10⁴ = 5,2 × 10³\n\nLes trois écritures représentent en réalité le même nombre : 5200." }
       ],
       "lexique": [
-        { "terme": "Écriture scientifique", "definition": "Écriture d'un nombre sous la forme a × 10ⁿ avec 1 ≤ a < 10." }
+        { "terme": "Écriture scientifique", "definition": "Écriture d'un nombre sous la forme a × 10ⁿ avec 1 ≤ a < 10." },
+        { "terme": "Puissance de 10", "definition": "Nombre de la forme 10ⁿ, où n est un entier relatif." }
       ]
     },
     {
       "id": "nb-6",
-      "titre": "Liens entre notation scientifique et préfixes SI",
+      "titre": "Notation scientifique, préfixes SI et notation exponentielle",
       "blocs": [
-        { "type": "definition", "texte": "Dans le Système International (SI), chaque préfixe correspond à une puissance de 10 bien précise, et permet d'écrire plus simplement des grandeurs très grandes ou très petites (distances, masses, durées...)." },
-        { "type": "tableau", "titre": "Tableau des préfixes du Système International", "entetes": ["Préfixe", "Symbole", "Puissance de 10"], "lignes": [
-          ["yotta", "Y", "10²⁴"], ["zetta", "Z", "10²¹"], ["exa", "E", "10¹⁸"], ["péta", "P", "10¹⁵"], ["téra", "T", "10¹²"], ["giga", "G", "10⁹"], ["méga", "M", "10⁶"], ["kilo", "k", "10³"], ["hecto", "h", "10²"], ["déca", "da", "10¹"], ["(unité)", "—", "10⁰"], ["déci", "d", "10⁻¹"], ["centi", "c", "10⁻²"], ["milli", "m", "10⁻³"], ["micro", "u", "10⁻⁶"], ["nano", "n", "10⁻⁹"], ["pico", "p", "10⁻¹²"], ["femto", "f", "10⁻¹⁵"], ["atto", "a", "10⁻¹⁸"], ["zepto", "z", "10⁻²¹"], ["yocto", "y", "10⁻²⁴"]
+        { "type": "tableau", "titre": "Préfixes du Système International (SI)", "entetes": ["Préfixe", "Symbole", "Puissance de 10"], "lignes": [
+          ["yotta", "Y", "10²⁴"],
+          ["zetta", "Z", "10²¹"],
+          ["exa", "E", "10¹⁸"],
+          ["péta", "P", "10¹⁵"],
+          ["téra", "T", "10¹²"],
+          ["giga", "G", "10⁹"],
+          ["méga", "M", "10⁶"],
+          ["kilo", "k", "10³"],
+          ["(unité)", "—", "10⁰"],
+          ["milli", "m", "10⁻³"],
+          ["micro", "µ", "10⁻⁶"],
+          ["nano", "n", "10⁻⁹"],
+          ["pico", "p", "10⁻¹²"],
+          ["femto", "f", "10⁻¹⁵"],
+          ["atto", "a", "10⁻¹⁸"],
+          ["zepto", "z", "10⁻²¹"],
+          ["yocto", "y", "10⁻²⁴"]
         ] },
-        { "type": "exemple", "texte": "3 kilomètres = 3 × 10³ mètres = 3000 mètres\n5 millisecondes = 5 × 10⁻³ secondes = 0,005 seconde" },
-        { "type": "remarque", "texte": "La notation exponentielle (10ⁿ) et la notation scientifique (a × 10ⁿ) sont liées : un préfixe SI remplace simplement la puissance de 10 correspondante devant une unité." }
+        { "type": "exemple", "texte": "5,67 × 10⁻²¹ s = 5,67 zs (zeptosecondes)\n7 × 10⁻¹⁸ m = 7 am (attomètres)\n1 GW = 10⁹ W = 1 000 000 000 W\n1 km = 1000 m\n1 µs = 10⁻⁶ s = 0,000001 s" },
+        { "type": "remarque", "texte": "On choisit en général le préfixe qui donne le nombre le plus lisible. La distance entre Berlin et Paris, environ 871 000 m, se note plus naturellement 871 km que 871 × 10³ m : c'est plus clair pour tout le monde." },
+        { "type": "regle", "texte": "Il ne faut pas confondre la notation scientifique et la notation exponentielle (ou puissance) :\n– La notation scientifique sert à écrire un nombre sous la forme a × 10ⁿ (avec 1 ≤ a < 10), pour en lire facilement l'ordre de grandeur.\n– La notation exponentielle (puissance) consiste à calculer le résultat d'un nombre élevé à une puissance, comme 12² ou 88⁵, puis éventuellement à réécrire ce résultat en écriture scientifique." },
+        { "type": "tableau", "titre": "Différence entre puissance et écriture scientifique", "entetes": ["Calcul", "Résultat", "Écriture scientifique"], "lignes": [
+          ["12²", "144", "1,44 × 10²"],
+          ["88⁵", "5 277 319 168", "5,277319168 × 10⁹"]
+        ] },
+        { "type": "exercice", "enonce": "a) Convertir 3 km en mètres, en utilisant la notation scientifique.\nb) Convertir 5 ms (millisecondes) en secondes, en utilisant la notation scientifique.\nc) Calculer 15³, puis écrire le résultat en écriture scientifique.", "solution": "a) 3 km = 3 × 10³ m = 3000 m\n\nb) 5 ms = 5 × 10⁻³ s = 0,005 s\n\nc) 15³ = 15 × 15 × 15 = 3375\nEn écriture scientifique : 3375 = 3,375 × 10³" }
       ],
       "lexique": [
-        { "terme": "Système International (SI)", "definition": "Système d'unités de mesure utilisé internationalement, basé sur des puissances de 10." }
+        { "terme": "Préfixe SI", "definition": "Préfixe standardisé (kilo, milli, méga...) utilisé devant une unité pour indiquer une puissance de 10." },
+        { "terme": "Notation exponentielle", "definition": "Écriture d'un nombre sous la forme d'une puissance, comme aⁿ." }
       ]
     }
   ]
