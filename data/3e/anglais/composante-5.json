@@ -1,0 +1,126 @@
+{
+  "id": "anglais-composante-5",
+  "titre": "Unit 5: Family",
+  "premium": false,
+  "lecons": [
+    {
+      "id": "ang-5-1",
+      "titre": "Asking for permission",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Demander la permission (asking for permission) consiste à demander l'autorisation de faire quelque chose à une autre personne, souvent un parent ou une personne ayant de l'autorité. Il existe plusieurs façons de le faire, de la plus simple à la plus polie/formelle."
+        },
+        {
+          "type": "tableau",
+          "titre": "Façons de demander la permission (du plus simple au plus poli)",
+          "entetes": ["Expression", "Traduction", "Niveau"],
+          "lignes": [
+            ["Can I...?", "Je peux... ?", "informel"],
+            ["May I...?", "Puis-je... ?", "poli / formel"],
+            ["Will you let me...?", "Me laisseras-tu... ?", "informel"],
+            ["Do you mind if I...?", "Ça vous dérange si je... ?", "poli"],
+            ["Would it be possible to...?", "Serait-il possible de... ?", "très poli / formel"],
+            ["Is it okay if I...?", "C'est bon si je... ?", "informel"]
+          ]
+        },
+        {
+          "type": "exemple",
+          "contenu": "1. Can I go outside and play with my friends?\n2. May I use your phone, please?\n3. Will you let me stay up a little later tonight?\n4. Do you mind if I invite Tom for dinner?\n5. Would it be possible to borrow your car this weekend?"
+        },
+        {
+          "type": "regle",
+          "titre": "Remarque grammaticale",
+          "contenu": "• 'Do you mind if I...?' est suivi du présent simple, même si on parle du futur : Do you mind if I open the window?\n• 'May I' est plus poli que 'Can I', recommandé avec les adultes ou en situation formelle.\n• 'Would it be possible to...?' est suivi de la base verbale (to + V1), c'est la formule la plus formelle."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Transforme chaque demande informelle en une demande plus polie/formelle, en utilisant 'Would it be possible to...?' ou 'Do you mind if I...?' :\n1. Can I leave early today?\n2. Can I borrow your pen?\n3. Can I use the bathroom?\n4. Can I turn on the TV?",
+          "solution": "1. Would it be possible to leave early today?\n2. Do you mind if I borrow your pen?\n3. Would it be possible to use the bathroom?\n4. Do you mind if I turn on the TV?"
+        }
+      ]
+    },
+    {
+      "id": "ang-5-2",
+      "titre": "Giving and forbidding permission",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Lorsqu'on répond à une demande de permission, on peut soit l'accorder (giving permission), soit la refuser/l'interdire (forbidding permission)."
+        },
+        {
+          "type": "tableau",
+          "titre": "Giving permission (accorder la permission)",
+          "entetes": ["Expression", "Traduction"],
+          "lignes": [
+            ["Yes, you can.", "Oui, tu peux."],
+            ["Yes, you may.", "Oui, tu peux. (plus formel)"],
+            ["Sure, go ahead.", "Bien sûr, vas-y."],
+            ["Of course, feel free to.", "Bien sûr, n'hésite pas."],
+            ["That's fine with me.", "Ça me va."]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Forbidding permission (refuser / interdire)",
+          "entetes": ["Expression", "Traduction"],
+          "lignes": [
+            ["No, you can't.", "Non, tu ne peux pas."],
+            ["No, you mustn't.", "Non, tu ne dois pas. (interdiction forte)"],
+            ["I'm sorry, but you can't.", "Je suis désolé(e), mais tu ne peux pas."],
+            ["Don't...", "Ne fais pas..."],
+            ["I'd rather you didn't.", "Je préférerais que tu ne le fasses pas."],
+            ["Not now, maybe later.", "Pas maintenant, peut-être plus tard."]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Différence entre can't et mustn't",
+          "contenu": "• 'Can't' indique une interdiction qui dépend de la situation ou de la personne qui parle (moins strict) : You can't go out tonight, you have homework.\n• 'Mustn't' indique une interdiction plus stricte, souvent une règle absolue : You mustn't talk to strangers."
+        },
+        {
+          "type": "exemple",
+          "contenu": "Dialogue — Asking mom for permission to go outside:\nChild: Mom, can I go outside and play with my friends?\nMom: Have you finished your homework?\nChild: Not yet, but I'll finish it later.\nMom: I'm sorry, but you can't go out until your homework is done.\nChild: Okay, I understand. Can I go after I finish?\nMom: Yes, you can, as long as you're back before dark."
+        },
+        {
+          "type": "exemple",
+          "contenu": "Dialogue — Tim's sleepover:\nTim: Dad, would it be possible for me to sleep over at Rakoto's house this weekend?\nDad: Who else will be there?\nTim: Just Rakoto and two other friends from school.\nDad: Do his parents know about it?\nTim: Yes, his mother already said it's okay.\nDad: Alright then, you may go, but you must call me when you arrive."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Pour chaque demande, écris une réponse qui accorde la permission ET une réponse qui la refuse :\n1. Can I watch TV after dinner?\n2. May I invite my friends this weekend?\n3. Can I use your laptop for my homework?",
+          "solution": "1. Accordée : Yes, you can, but not too late. / Refusée : No, you can't, you need to sleep early tonight.\n2. Accordée : Yes, you may, as long as the house stays clean. / Refusée : I'm sorry, but you can't, we have guests this weekend.\n3. Accordée : Sure, go ahead, just be careful with it. / Refusée : No, you mustn't, it has important work files on it."
+        }
+      ]
+    },
+    {
+      "id": "ang-5-3",
+      "titre": "Parent-child conflicts",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Dans une famille, des désaccords (conflicts) entre parents et enfants peuvent survenir, notamment lorsque l'enfant demande une permission. On distingue généralement trois types de conflits."
+        },
+        {
+          "type": "tableau",
+          "titre": "Types de conflits parent-enfant",
+          "entetes": ["Type de conflit", "Description", "Exemple"],
+          "lignes": [
+            ["Inevitable conflict (conflit inévitable)", "Petit désaccord normal et sans gravité, lié à des différences de point de vue.", "The child wants to watch TV, the parent wants him to study first."],
+            ["Boundary conflict (conflit de limites)", "L'enfant teste ou dépasse les règles/limites fixées par les parents.", "The teenager comes home later than the agreed time."],
+            ["Intense conflict (conflit intense)", "Désaccord plus sérieux impliquant des valeurs ou décisions importantes, souvent chargé émotionnellement.", "An argument about the teenager's choice of friends or future career."]
+          ]
+        },
+        {
+          "type": "exemple",
+          "contenu": "1. Inevitable conflict: \"Can I eat candy before dinner?\" \"No, it's almost dinner time, you'll eat later.\"\n2. Boundary conflict: \"You promised to be back by 8 pm, but it's already 10 pm!\"\n3. Intense conflict: \"I don't want to study engineering, I want to be a musician!\""
+        },
+        {
+          "type": "exercice",
+          "enonce": "Classe chaque situation selon son type de conflit (inevitable / boundary / intense) :\n1. A teenager wants to stay out later than the time allowed by her parents.\n2. A child refuses to eat vegetables at dinner.\n3. A teenager wants to drop out of school to pursue a different path, against his parents' wishes.",
+          "solution": "1. Boundary conflict\n2. Inevitable conflict\n3. Intense conflict"
+        }
+      ]
+    }
+  ]
+}
