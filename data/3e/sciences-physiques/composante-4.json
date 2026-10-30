@@ -1,0 +1,58 @@
+{
+  "id": "theme4",
+  "titre": "Thématique 4 : Force et Interaction",
+  "lecons": [
+    {
+      "id": "sp-4-1",
+      "titre": "Notion de force",
+      "blocs": [
+        { "type": "definition", "texte": "Une force est une action mécanique exercée par un objet (ou un phénomène) sur un autre objet. Une force peut avoir plusieurs effets : elle peut déformer un objet, le mettre en mouvement, modifier sa vitesse, modifier sa trajectoire, ou le maintenir immobile." },
+        { "type": "regle", "texte": "On distingue deux grandes catégories d'actions mécaniques :\n- Les actions de contact : elles nécessitent un contact direct entre les deux objets (exemple : pousser une table, tirer une corde, le frottement de l'air sur un objet).\n- Les actions à distance : elles s'exercent sans contact direct entre les deux objets (exemple : le poids dû à l'attraction terrestre, la force magnétique entre deux aimants, la force électrique entre deux charges)." },
+        { "type": "exemple", "texte": "Exemples d'effets d'une force :\n- Une force peut déformer un objet : appuyer sur une balle en mousse, étirer un ressort.\n- Une force peut mettre en mouvement un objet immobile : pousser une brouette au repos.\n- Une force peut modifier la vitesse d'un objet déjà en mouvement : freiner une bicyclette.\n- Une force peut modifier la trajectoire d'un objet : dévier une balle avec une raquette.\n- Une force peut maintenir un objet immobile malgré d'autres forces : tenir un livre dans sa main contre son poids." },
+        { "type": "definition", "texte": "Toute force résulte d'une interaction entre deux objets : il ne peut pas exister de force sans qu'il y ait un objet qui exerce cette force sur un autre objet. On dit que la force modélise l'action mécanique d'un objet A sur un objet B." },
+        { "type": "exercice", "enonce": "Un footballeur frappe un ballon immobile, qui part alors en direction du but. Quel est l'effet de la force exercée par le pied du footballeur sur le ballon ? S'agit-il d'une action de contact ou d'une action à distance ?", "solution": "La force exercée par le pied met en mouvement le ballon qui était immobile (elle modifie aussi sa trajectoire par rapport au sol). Il s'agit d'une action de contact, car le pied touche directement le ballon pour exercer cette force." }
+      ]
+    },
+    {
+      "id": "sp-4-2",
+      "titre": "Caractéristiques d'une force",
+      "blocs": [
+        { "type": "definition", "texte": "Une force est une grandeur vectorielle : elle est représentée par un vecteur, c'est-à-dire une flèche, car il ne suffit pas de connaître son intensité pour la décrire complètement. Une force possède quatre caractéristiques." },
+        { "type": "regle", "texte": "Les quatre caractéristiques d'une force sont :\n1. Le point d'application : c'est l'endroit précis où la force s'exerce sur l'objet (l'origine du vecteur force).\n2. La direction : c'est la droite le long de laquelle s'exerce la force (horizontale, verticale, oblique...).\n3. Le sens : parmi les deux sens possibles sur cette direction, celui vers lequel la force agit.\n4. La norme (ou intensité, ou valeur) : c'est la grandeur de la force, exprimée en newtons (symbole N), mesurée à l'aide d'un dynamomètre." },
+        { "type": "exemple", "texte": "Schéma de représentation d'une force par un vecteur :\nOn trace une flèche partant d'un point A (le point d'application) et se dirigeant vers un point B. Cette flèche est notée F (vecteur force). On note souvent cette force →F (A→B).\n- L'origine de la flèche (point A) représente le point d'application.\n- La droite support de la flèche représente la direction.\n- La pointe de la flèche indique le sens.\n- La longueur de la flèche, associée à une échelle donnée, représente la norme (intensité) de la force." },
+        { "type": "methode", "texte": "Pour représenter une force à l'échelle, on choisit une échelle de représentation (exemple : 1 cm représente 2 N). On calcule ensuite la longueur de la flèche à tracer en fonction de l'intensité réelle de la force, en respectant cette échelle." },
+        { "type": "formule", "texte": "Le poids d'un objet est une force particulière due à l'attraction de la Terre sur cet objet. Il se calcule par la formule :\nP = m × g\n- P : poids, en newtons (N)\n- m : masse de l'objet, en kilogrammes (kg)\n- g : intensité de la pesanteur, en N/kg (g ≈ 9,8 N/kg, souvent arrondi à 10 N/kg)" },
+        { "type": "exemple", "texte": "Schéma du poids d'un objet posé sur une table :\nLe poids →P est représenté par une flèche verticale, dont le point d'application est le centre de gravité de l'objet, dirigée vers le bas (sens descendant), de direction verticale." },
+        { "type": "exercice", "enonce": "Un objet de masse m = 5 kg est suspendu à un fil. On prend g = 10 N/kg. Calculer l'intensité du poids de cet objet, puis représenter ses caractéristiques (point d'application, direction, sens, norme).", "solution": "P = m × g = 5 × 10 = 50 N.\nCaractéristiques du poids : point d'application = centre de gravité de l'objet ; direction = verticale ; sens = vers le bas ; norme = 50 N." }
+      ]
+    },
+    {
+      "id": "sp-4-3",
+      "titre": "Équilibre d'un solide soumis à deux forces",
+      "blocs": [
+        { "type": "definition", "texte": "Un solide est en équilibre lorsqu'il reste immobile (au repos) dans un référentiel donné. L'équilibre d'un solide soumis uniquement à deux forces dépend des caractéristiques de ces deux forces." },
+        { "type": "regle", "texte": "Un solide soumis à deux forces →F1 et →F2 est en équilibre si, et seulement si, ces deux forces satisfont simultanément les trois conditions suivantes :\n1. Elles ont la même droite d'action (même direction).\n2. Elles ont des sens opposés.\n3. Elles ont la même norme (la même intensité) : F1 = F2." },
+        { "type": "exemple", "texte": "Schéma d'un solide en équilibre sous l'effet de deux forces :\nOn représente le solide par un point (ou un petit rectangle). Deux flèches partent de ce point, situées sur la même droite horizontale (ou verticale), mais pointant dans des sens opposés (l'une vers la gauche, l'autre vers la droite), et de même longueur (donc même intensité).\nExemple concret : un livre posé sur une table est soumis à son poids →P (vertical, vers le bas) et à la réaction du support →R (vertical, vers le haut), de même direction, de sens opposés et de même intensité : le livre est en équilibre (immobile)." },
+        { "type": "exemple", "texte": "Schéma d'un solide suspendu à un fil, en équilibre :\nL'objet est soumis à son poids →P (vertical, vers le bas, point d'application au centre de gravité) et à la tension du fil →T (vertical, vers le haut, point d'application au point d'attache du fil). Puisque le solide est immobile : →T et →P ont la même direction (verticale), des sens opposés, et la même norme : T = P." },
+        { "type": "remarque", "texte": "Si l'une des trois conditions n'est pas respectée (directions différentes, même sens, ou normes différentes), le solide n'est pas en équilibre : il se met en mouvement, se déforme, ou bascule." },
+        { "type": "exercice", "enonce": "Un objet de poids P = 30 N est suspendu à un ressort, immobile. Quelle est l'intensité de la tension exercée par le ressort sur l'objet ? Préciser la direction et le sens de cette tension.", "solution": "L'objet étant en équilibre sous l'action de deux forces (son poids et la tension du ressort), ces deux forces doivent avoir la même norme : T = P = 30 N.\nLa tension →T a la même direction que le poids (verticale), mais un sens opposé : elle est dirigée vers le haut." }
+      ]
+    },
+    {
+      "id": "sp-4-4",
+      "titre": "Travail et puissance d'une force",
+      "blocs": [
+        { "type": "definition", "texte": "Une force effectue un travail lorsqu'elle provoque (ou accompagne) un déplacement de son point d'application. Le travail d'une force mesure l'énergie transférée par cette force au cours de ce déplacement." },
+        { "type": "formule", "texte": "Travail d'une force constante : lorsque le point d'application d'une force →F constante se déplace en ligne droite d'un point A à un point B, le travail de cette force, noté W(→F), vaut :\nW(→F) = F × AB × cos(α)\n- F : norme de la force, en newtons (N)\n- AB : distance parcourue par le point d'application, en mètres (m)\n- α : angle entre la direction de la force et la direction du déplacement\nLe travail s'exprime en joules (symbole J)." },
+        { "type": "regle", "texte": "Cas particuliers importants :\n- Si la force est dans le même sens que le déplacement (α = 0°), le travail est dit moteur, positif : W = F × AB.\n- Si la force est dans le sens opposé au déplacement (α = 180°), le travail est dit résistant, négatif : W = -F × AB.\n- Si la force est perpendiculaire au déplacement (α = 90°), le travail de cette force est nul : W = 0." },
+        { "type": "exemple", "texte": "Schéma illustrant le travail d'une force :\nUn objet se déplace d'un point A vers un point B, sur une distance AB, sous l'effet d'une force →F appliquée dans la même direction et le même sens que le déplacement. La flèche représentant →F est alignée avec le segment AB, pointant dans le même sens que le mouvement : le travail de cette force est alors moteur et vaut W = F × AB." },
+        { "type": "exemple", "texte": "Exemple de calcul : une personne pousse une caisse avec une force horizontale F = 50 N sur une distance AB = 4 m, dans la même direction et le même sens que le déplacement.\nW(→F) = F × AB = 50 × 4 = 200 J." },
+        { "type": "definition", "texte": "La puissance d'une force indique la rapidité avec laquelle cette force effectue son travail : à travail égal, plus la durée est courte, plus la puissance est grande." },
+        { "type": "formule", "texte": "Puissance d'une force : P = W / t\n- P : puissance, en watts (W)\n- W : travail de la force, en joules (J)\n- t : durée mise pour effectuer ce travail, en secondes (s)" },
+        { "type": "remarque", "texte": "Le cheval-vapeur (symbole ch) est une ancienne unité de puissance, encore utilisée notamment pour les moteurs de véhicules. La relation de conversion est : 1 ch ≈ 736 W." },
+        { "type": "exemple", "texte": "Exemple de calcul de puissance : si le travail W = 200 J (calculé précédemment) est effectué en une durée t = 10 s, la puissance développée vaut :\nP = W / t = 200 / 10 = 20 W." },
+        { "type": "exercice", "enonce": "Un ouvrier tire une caisse à l'aide d'une corde avec une force F = 80 N, dans la même direction et le même sens que le déplacement, sur une distance de 6 m, en 20 secondes. Calculer le travail de la force, puis la puissance développée.", "solution": "Travail : W = F × AB = 80 × 6 = 480 J.\nPuissance : P = W / t = 480 / 20 = 24 W." }
+      ]
+    }
+  ]
+}
