@@ -1,0 +1,131 @@
+{
+  "id": "anglais-composante-1",
+  "titre": "Unit 1: Personal Communication",
+  "premium": false,
+  "lecons": [
+    {
+      "id": "ang-1-1",
+      "titre": "Expressing preferences (Exprimer ses préférences)",
+      "blocs": [
+        { "type": "tableau", "titre": "School subjects (Matières scolaires)", "entetes": ["English", "Français"], "lignes": [
+          ["Science", "Sciences"],
+          ["Physics", "Physique"],
+          ["Maths", "Mathématiques"],
+          ["French", "Français"],
+          ["English", "Anglais"],
+          ["History", "Histoire"],
+          ["Geography", "Géographie"],
+          ["Art", "Art"],
+          ["Malagasy", "Malgache"]
+        ] },
+        { "type": "tableau", "titre": "Food (Nourriture)", "entetes": ["English", "Français"], "lignes": [
+          ["grapes", "raisins"],
+          ["chicken", "poulet"],
+          ["pineapple", "ananas"],
+          ["orange", "orange"],
+          ["strawberry", "fraise"],
+          ["apple", "pomme"],
+          ["pizza", "pizza"],
+          ["hamburger", "hamburger"],
+          ["hot dog", "hot-dog"],
+          ["donut", "beignet"],
+          ["sandwich", "sandwich"],
+          ["salad", "salade"],
+          ["soft drink", "boisson gazeuse"],
+          ["croissant", "croissant"]
+        ] },
+        { "type": "lexique", "terme": "Hobbies (loisirs)", "definition": "reading (lire), watching TV (regarder la télé), playing football (jouer au football), swimming (nager), painting (peindre), skating (faire du patin), playing chess (jouer aux échecs), playing a musical instrument (jouer d'un instrument de musique)." },
+        { "type": "regle", "texte": "WOULD RATHER\n\n« I would rather » (ou « I'd rather ») signifie « je préférerais ». C'est un auxiliaire modal suivi du verbe à l'infinitif SANS « to » lorsque le sujet est le même dans les deux parties de la phrase.\n\nStructure : Subject + would rather + base verb" },
+        { "type": "exemple", "texte": "I would rather (I'd rather) stay with you. → Je préférerais rester avec toi.\nWhat would you rather do instead? → Que préférerais-tu faire à la place ?\nShe'd rather not see me. → Elle préférerait ne pas me voir.\nWouldn't you rather stay on the beach? → Ne préférerais-tu pas rester à la plage ?" },
+        { "type": "regle", "texte": "VERBS + GERUND (VERBE + ING)\n\nAprès les verbes exprimant une préférence générale — love, like, don't mind, dislike, don't like, hate, enjoy, prefer — le verbe qui suit se met au gérondif (verbe + ING).\n\nStructure : Subject + like / enjoy / prefer / hate... + verb-ING" },
+        { "type": "exemple", "texte": "I like swimming, but he hates swimming.\nI enjoy swimming, but he dislikes swimming.\nShe likes singing. They enjoy dancing." },
+        { "type": "remarque", "texte": "Règles d'orthographe du gérondif :\n– Si le verbe se termine par consonne + « e », on supprime le « e » avant d'ajouter ING.\nExemple : have → having (I'm having a good time.)\n– Si le verbe se termine par consonne + voyelle + consonne, on double la consonne finale.\nExemple : begin → beginning (I'm beginning to understand this.)" },
+        { "type": "regle", "texte": "EXPRIMER LA CAUSE AVEC « BECAUSE »\n\nOn utilise « because » pour donner une raison.\n\nStructure : Phrase + because + raison" },
+        { "type": "exemple", "texte": "I like mangoes because they are sweet.\nI prefer English because it is interesting.\nI'd rather play football because it is fun.\nI'm late because there was a traffic jam." },
+        { "type": "tableau", "titre": "Résumé : trois façons d'exprimer une préférence", "entetes": ["Expression", "Structure", "Exemple"], "lignes": [
+          ["I'd rather", "would rather + base verbe", "I'd rather eat rice."],
+          ["like / enjoy / prefer", "like / enjoy / prefer + V-ing", "I enjoy playing football."],
+          ["because", "phrase + because + raison", "I like English because it is interesting."]
+        ] },
+        { "type": "exercice", "enonce": "Complète les phrases suivantes avec la bonne forme du verbe entre parenthèses :\na) I would rather ... (stay) at home tonight.\nb) She enjoys ... (dance) with her friends.\nc) Why do you like swimming? Because it ... (be) relaxing.", "solution": "a) I would rather stay at home tonight.\nb) She enjoys dancing with her friends.\nc) Because it is relaxing." }
+      ],
+      "lexique": [
+        { "terme": "Preference", "definition": "Fait de préférer une chose à une autre." },
+        { "terme": "Gerund (gérondif)", "definition": "Forme du verbe en -ING utilisée comme un nom, après certains verbes comme like, enjoy, prefer." }
+      ]
+    },
+    {
+      "id": "ang-1-2",
+      "titre": "Dialogues: Food preferences and at a restaurant",
+      "blocs": [
+        { "type": "exemple", "titre": "Dialogue 1: Food preferences", "texte": "Tom: What do you want to eat?\nLaura: I don't like sushi, I prefer American food. I want a hamburger and fries. What about you, Laura?\nSophie: Hmmm... I love Japanese food! I want sushi. And you?\nMarc: Well... I love English food. Fish and chips.\nTom: And what do you want to drink?\nLaura: Soda for me.\nSophie: I want orange juice.\nMarc: Water." },
+        { "type": "lexique", "terme": "Vocabulaire du restaurant", "definition": "menu (carte), today's special (plat du jour), appetizer (entrée), the check (l'addition), waitperson (serveur/serveuse), tip (pourboire)." },
+        { "type": "exemple", "titre": "Dialogue 2: At a restaurant (alone)", "texte": "Waitperson: Hi. How are you doing this afternoon?\nCustomer: Fine, thank you. Can I see a menu, please?\nWaitperson: Certainly, here you are.\nCustomer: Thank you. What's today's special?\nWaitperson: Grilled tuna and cheese on rye.\nCustomer: That sounds good. I'll have that.\nWaitperson: Would you like something to drink?\nCustomer: Yes, I'd like a coke.\nWaitperson: Here you are. Enjoy your meal!\nCustomer: Thank you. Can I get the check, please?\nWaitperson: That'll be $14.95.\nCustomer: Here you are. Keep the change!\nWaitperson: Thank you! Have a good day!" },
+        { "type": "exemple", "titre": "Dialogue 3: At a restaurant with friends", "texte": "Kevin: The spaghetti looks really good.\nAlice: It is! I had it the last time I was here.\nPeter: How is the pizza, Alice?\nAlice: It's good, but I think the pasta is better. What would you recommend?\nWaitperson: I'd recommend the lasagna. It's excellent!\nAlice: That sounds great. I'll have that.\nKevin: I think I'll have the lasagna as well.\nPeter: I can't decide between the chicken and the grilled fish.\nWaitperson: The fish is fresh, so I'd recommend that.\nPeter: Great. I'll have the fish, with a salad.\nWaitperson: What would you like to drink?\nKevin: I'll have water.\nAlice: I'd like a beer.\nPeter: I'll take a glass of red wine." },
+        { "type": "exercice", "enonce": "Réécris le dialogue suivant en remplaçant les expressions soulignées par une autre expression de préférence (ex : I'd like → I would love to have) :\n\nWaitperson: Hello, how can I help you?\nPeter: Yes, I would like to have some lunch.\nWaitperson: Would you like a starter?\nPeter: Yes, I'd like a salad.", "solution": "Exemple de réponse possible :\n\nWaitperson: Hello, how can I help you?\nPeter: Yes, I would love to have some lunch.\nWaitperson: Would you care for a starter?\nPeter: Yes, I'd prefer a salad." }
+      ],
+      "lexique": [
+        { "terme": "Today's special", "definition": "Le plat du jour proposé dans un restaurant." },
+        { "terme": "Check (the bill)", "definition": "L'addition à payer au restaurant." }
+      ]
+    },
+    {
+      "id": "ang-1-3",
+      "titre": "Expressing feelings (Exprimer ses sentiments)",
+      "blocs": [
+        { "type": "lexique", "terme": "Adjectifs de sentiment", "definition": "angry (en colère), bored (ennuyé), busy (occupé), cold (froid), excited (excité), happy (content), hot (chaud), hungry (affamé), late (en retard), lazy (paresseux), quiet (calme), sad (triste), scared (effrayé), sick (malade), sleepy (fatigué), thirsty (assoiffé), upset (contrarié)." },
+        { "type": "tableau", "titre": "How to express feelings", "entetes": ["Asking about feelings", "Expressing feelings"], "lignes": [
+          ["How are you feeling today?", "I feel a little sad/happy/angry..."],
+          ["You look sad/upset. Are you OK?", "I am a little sad/happy/angry..."],
+          ["What's wrong?", "To be honest, I'm a little bit sad/happy..."],
+          ["What's the matter?", "It's been a difficult day."],
+          ["Are you OK/alright?", "The thing is that I am angry/sad..."],
+          ["Are you happy/angry...?", "I am mad at him/her..."]
+        ] },
+        { "type": "exemple", "texte": "I'm late because there was a traffic jam.\nI feel tired because I worked all day.\nShe is happy because she passed her exam." },
+        { "type": "exercice", "enonce": "Réponds aux questions suivantes en utilisant un adjectif de sentiment approprié et la structure « because » :\na) Why are you sleepy?\nb) Why is he angry?\nc) Why are they excited?", "solution": "Exemples de réponses possibles :\na) I am sleepy because I didn't sleep well last night.\nb) He is angry because he lost his keys.\nc) They are excited because they are going on vacation." }
+      ],
+      "lexique": [
+        { "terme": "Feeling", "definition": "Sentiment, émotion ressentie par une personne." }
+      ]
+    },
+    {
+      "id": "ang-1-4",
+      "titre": "Asking and giving personal information",
+      "blocs": [
+        { "type": "exemple", "titre": "Dialogue: Personal information", "texte": "James: What's your surname (last name, family name)?\nFred: My surname is Smith.\nJames: What's your first name?\nFred: My first name is Fred.\nJames: Where are you from?\nFred: I'm from Antananarivo.\nJames: What's your job?\nFred: I'm a teacher.\nJames: And what are your hobbies?\nFred: I like painting, going windsurfing and watching TV." },
+        { "type": "lexique", "terme": "Vocabulaire", "definition": "surname (nom de famille), first name (prénom), occupation/job (profession), hobbies (loisirs)." },
+        { "type": "exercice", "enonce": "Rédige un court dialogue où tu demandes à un(e) ami(e) ses informations personnelles (nom, prénom, origine, profession ou classe, loisirs), en t'inspirant du modèle ci-dessus.", "solution": "Exemple de réponse possible :\n\nA: What's your surname?\nB: My surname is Rakoto.\nA: What's your first name?\nB: My first name is Sariaka.\nA: Where are you from?\nB: I'm from Antsirabe.\nA: What are your hobbies?\nB: I like reading and playing football." }
+      ],
+      "lexique": [
+        { "terme": "Surname", "definition": "Nom de famille." },
+        { "terme": "First name", "definition": "Prénom." }
+      ]
+    },
+    {
+      "id": "ang-1-5",
+      "titre": "Talking about future plans (going to)",
+      "blocs": [
+        { "type": "regle", "texte": "BE GOING TO : exprimer un projet futur\n\nOn utilise « be going to » + verbe de base pour parler d'une intention ou d'un projet futur déjà décidé.\n\nStructure : Subject + be (am/is/are) + going to + base verb\n\nQuestions : What are you going to do for + fête (ex: the Easter holiday) ?\nWhat are you going to do on + jour (ex: Saturday) ?" },
+        { "type": "exemple", "texte": "I am going to visit my grandmother this weekend.\nWhat are you going to do for the Christmas holiday?\nWhere are you going to go?" },
+        { "type": "tableau", "titre": "Means of transport (Moyens de transport)", "entetes": ["English", "Français"], "lignes": [
+          ["car", "voiture"],
+          ["taxi", "taxi"],
+          ["bus", "bus"],
+          ["coach", "autocar"],
+          ["motorcycle", "moto"],
+          ["bicycle", "vélo"],
+          ["train", "train"],
+          ["plane", "avion"],
+          ["boat", "bateau"],
+          ["ship", "navire"]
+        ] },
+        { "type": "exemple", "titre": "Dialogue: Plans for the weekend", "texte": "Hana: Hello, how are you?\nDaniel: I'm good, thanks. So, what are you going to do this weekend?\nHana: Well, on Saturday I'm going to go to the gym. And then I'm going to clean my house. In the evening, I'm going to have dinner with my friends.\nDaniel: How about Sunday?\nHana: On Sunday, I'm going to have lunch with my family, and then I'm going to the cinema with my friends." },
+        { "type": "exercice", "enonce": "Réponds à ces questions sur tes propres projets, en utilisant « going to » :\na) What are you going to do this weekend?\nb) What kind of transport are you going to use to get there?", "solution": "Exemples de réponses possibles :\na) I am going to visit my cousin this weekend.\nb) I am going to use a taxi to get there." }
+      ],
+      "lexique": [
+        { "terme": "Going to", "definition": "Structure grammaticale utilisée pour exprimer un projet futur déjà décidé." }
+      ]
+    }
+  ]
+}
