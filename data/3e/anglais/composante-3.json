@@ -1,0 +1,247 @@
+{
+  "id": "anglais-composante-3",
+  "titre": "Unit 3: Our Time",
+  "premium": false,
+  "lecons": [
+    {
+      "id": "ang-3-1",
+      "titre": "Narrating past events: descriptive adjectives",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Raconter un événement passé (narrating a past event), c'est décrire ce qui s'est passé en utilisant des adjectifs précis pour rendre le récit vivant et intéressant, plutôt que des mots simples comme 'good' ou 'nice'."
+        },
+        {
+          "type": "lexique",
+          "mots": [
+            { "terme": "exciting", "traduction": "palpitant" },
+            { "terme": "thrilling", "traduction": "saisissant, palpitant" },
+            { "terme": "enjoyable", "traduction": "agréable" },
+            { "terme": "amusing", "traduction": "amusant" },
+            { "terme": "lively", "traduction": "animé, vivant" },
+            { "terme": "delightful", "traduction": "charmant, délicieux" },
+            { "terme": "hilarious", "traduction": "hilarant" },
+            { "terme": "playful", "traduction": "enjoué" },
+            { "terme": "enthralling", "traduction": "captivant" },
+            { "terme": "captivating", "traduction": "captivant" },
+            { "terme": "celebratory", "traduction": "festif" },
+            { "terme": "colorful", "traduction": "coloré" },
+            { "terme": "enchanting", "traduction": "enchanteur" },
+            { "terme": "exhilarating", "traduction": "grisant" },
+            { "terme": "grand", "traduction": "grandiose" },
+            { "terme": "inspiring", "traduction": "inspirant" },
+            { "terme": "majestic", "traduction": "majestueux" },
+            { "terme": "momentous", "traduction": "mémorable, décisif" },
+            { "terme": "noteworthy", "traduction": "remarquable" },
+            { "terme": "adorable", "traduction": "adorable" },
+            { "terme": "charming", "traduction": "charmant" },
+            { "terme": "sweet", "traduction": "doux, touchant" },
+            { "terme": "lovely", "traduction": "charmant, ravissant" },
+            { "terme": "precious", "traduction": "précieux" },
+            { "terme": "irresistible", "traduction": "irrésistible" },
+            { "terme": "winsome", "traduction": "charmant, séduisant" },
+            { "terme": "darling", "traduction": "chéri, adorable" }
+          ]
+        },
+        {
+          "type": "exemple",
+          "contenu": "1. The wedding was a celebratory and colorful event.\n2. It was a hilarious party; everyone was laughing all night.\n3. The sunset over the sea was simply majestic.\n4. Our trip to the countryside was an enjoyable and lively experience.\n5. Her graduation speech was truly inspiring."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Choisis l'adjectif le plus approprié dans la liste (exciting / majestic / hilarious / adorable / momentous) pour compléter chaque phrase :\n1. The mountain view was absolutely ________.\n2. My little sister's first steps were a ________ moment for our family.\n3. The comedian's jokes were so ________ that everyone cried with laughter.\n4. The football match was very ________; we won in the last minute!\n5. The puppy was so ________ that everyone wanted to hold it.",
+          "solution": "1. majestic\n2. momentous\n3. hilarious\n4. exciting\n5. adorable"
+        }
+      ]
+    },
+    {
+      "id": "ang-3-2",
+      "titre": "Past habits: used to / would",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "'Used to' et 'would' permettent de parler d'une habitude ou d'un état qui existait dans le passé mais qui n'existe plus maintenant."
+        },
+        {
+          "type": "regle",
+          "titre": "Used to + base verbale",
+          "contenu": "Used to + V1 (base verbale) s'utilise pour :\n• des habitudes passées : I used to play football every weekend. (Avant, je jouais au football chaque week-end, mais plus maintenant.)\n• des états passés (verbes d'état : be, have, like, live...) : She used to live in Antananarivo. / He used to be shy.\n\nForme négative : didn't use to + V1\n  Exemple : I didn't use to like vegetables.\n\nForme interrogative : Did + sujet + use to + V1 ?\n  Exemple : Did you use to play the guitar?"
+        },
+        {
+          "type": "regle",
+          "titre": "Would + base verbale",
+          "contenu": "Would + V1 s'utilise aussi pour parler d'habitudes répétées dans le passé, mais UNIQUEMENT pour des actions, jamais pour des états.\n  Exemple correct : Every summer, we would go to the beach.\n  Exemple incorrect : ~~He would be shy.~~ (impossible, 'be' est un état → on doit utiliser 'used to be')"
+        },
+        {
+          "type": "tableau",
+          "titre": "Used to vs Would",
+          "entetes": ["", "Used to", "Would"],
+          "lignes": [
+            ["Habitudes (actions répétées)", "✔ possible", "✔ possible"],
+            ["États (be, have, like, know...)", "✔ possible", "✘ impossible"],
+            ["Exemple", "I used to smoke.", "I would smoke every evening."]
+          ]
+        },
+        {
+          "type": "exemple",
+          "contenu": "Texte — Sarah's old habits:\n\"When Sarah was a teenager, she used to be very active. Every morning before school, she would run for thirty minutes in the park near her house. She used to love sports, and on weekends, she would also do yoga with her mother. She didn't use to eat junk food because her family used to cook healthy meals every day. Nowadays, Sarah is busy with university, and she doesn't have time for these habits anymore, but she still remembers how good she used to feel.\""
+        },
+        {
+          "type": "exercice",
+          "enonce": "Exercice 1 : Complète le texte sur Sarah avec 'used to' ou 'would' (les deux peuvent parfois convenir) :\n1. Sarah ________ be very active when she was young.\n2. Every morning, she ________ run in the park.\n3. She ________ love sports.\n4. On weekends, she ________ do yoga with her mother.\n5. Her family ________ cook healthy meals every day.",
+          "solution": "1. used to (état → 'would' impossible)\n2. would run / used to run\n3. used to (état → 'would' impossible)\n4. would do / used to do\n5. would cook / used to cook"
+        },
+        {
+          "type": "exercice",
+          "enonce": "Exercice 2 : Transforme ces phrases au présent en phrases décrivant une habitude passée avec 'used to' :\n1. I play tennis every Sunday. → (quand j'étais plus jeune)\n2. She lives in a small village.\n3. They don't like coffee.\n4. He is afraid of the dark.\n5. We go camping every summer.",
+          "solution": "1. I used to play tennis every Sunday.\n2. She used to live in a small village.\n3. They didn't use to like coffee.\n4. He used to be afraid of the dark.\n5. We used to go camping every summer."
+        }
+      ]
+    },
+    {
+      "id": "ang-3-3",
+      "titre": "Talking about past experiences: My Last Vacation",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Pour raconter une expérience passée (comme des vacances), on pose souvent des questions avec les mots interrogatifs (Wh-questions) et 'how', puis on répond au prétérit (simple past)."
+        },
+        {
+          "type": "lexique",
+          "mots": [
+            { "terme": "vacation / holiday", "traduction": "vacances" },
+            { "terme": "to go on vacation", "traduction": "partir en vacances" },
+            { "terme": "to relax", "traduction": "se détendre" },
+            { "terme": "to stay (at a hotel)", "traduction": "loger (dans un hôtel)" },
+            { "terme": "a souvenir", "traduction": "un souvenir (objet)" },
+            { "terme": "to sunbathe", "traduction": "prendre un bain de soleil" },
+            { "terme": "scenery", "traduction": "paysage" },
+            { "terme": "unforgettable", "traduction": "inoubliable" }
+          ]
+        },
+        {
+          "type": "exemple",
+          "contenu": "Dialogue — My Last Vacation:\nAnna: Hi Rose! Where did you go for your last vacation?\nRose: Hi Anna! I went to Nosy Be with my family.\nAnna: When did you go there?\nRose: We went there last August, during the school holidays.\nAnna: Who did you go with?\nRose: I went with my parents and my little brother.\nAnna: What did you do there?\nRose: We swam in the sea, we visited a small island, and we ate a lot of fresh fish.\nAnna: How was the trip?\nRose: It was absolutely wonderful! The scenery was majestic and the whole trip was unforgettable.\nAnna: Why did you choose Nosy Be?\nRose: Because my mother used to go there when she was young, and she wanted to show us the island."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Imagine que c'est toi qui réponds aux questions sur tes propres dernières vacances. Rédige un court dialogue en répondant aux 5 questions suivantes avec des phrases complètes au prétérit :\n1. Where did you go?\n2. When did you go there?\n3. Who did you go with?\n4. What did you do there?\n5. How was the trip?",
+          "solution": "Modèle de réponse :\n1. I went to Antsirabe.\n2. I went there last December, during the Christmas holidays.\n3. I went with my cousins.\n4. We visited a lake, rode in a pousse-pousse, and tasted local specialties.\n5. It was a lively and enjoyable trip; I will never forget it."
+        }
+      ]
+    },
+    {
+      "id": "ang-3-4",
+      "titre": "Positive/negative adjectives and exclamative sentences",
+      "blocs": [
+        {
+          "type": "lexique",
+          "mots": [
+            { "terme": "amazing", "traduction": "incroyable (positif)" },
+            { "terme": "wonderful", "traduction": "merveilleux (positif)" },
+            { "terme": "fantastic", "traduction": "fantastique (positif)" },
+            { "terme": "delicious", "traduction": "délicieux (positif)" },
+            { "terme": "exciting", "traduction": "palpitant (positif)" },
+            { "terme": "strange", "traduction": "étrange (négatif)" },
+            { "terme": "boring", "traduction": "ennuyeux (négatif)" },
+            { "terme": "awful", "traduction": "affreux (négatif)" },
+            { "terme": "terrible", "traduction": "terrible, horrible (négatif)" }
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Les phrases exclamatives : What a...! / How...!",
+          "contenu": "Pour exprimer une forte émotion (admiration, surprise, déception...) à propos de quelque chose, on utilise deux structures principales :\n\n• What + (a/an) + adjectif + nom (dénombrable singulier) !\n  Exemple : What a wonderful trip! / What an awful experience!\n  (Avec un nom pluriel ou indénombrable, on retire 'a/an' : What delicious meals!)\n\n• How + adjectif (sans nom) !\n  Exemple : How exciting! / How boring! / How strange!"
+        },
+        {
+          "type": "exemple",
+          "contenu": "1. What a fantastic vacation we had!\n2. How delicious this cake is!\n3. What an awful smell!\n4. How strange this story is!\n5. What a boring movie!"
+        },
+        {
+          "type": "exercice",
+          "enonce": "Transforme ces phrases en phrases exclamatives avec 'What a/an...!' ou 'How...!' :\n1. This book is amazing.\n2. The weather is terrible today.\n3. It was a delicious dinner.\n4. The film is boring.\n5. It was a wonderful surprise.",
+          "solution": "1. How amazing this book is!\n2. How terrible the weather is today!\n3. What a delicious dinner it was!\n4. How boring the film is!\n5. What a wonderful surprise it was!"
+        }
+      ]
+    },
+    {
+      "id": "ang-3-5",
+      "titre": "Agreeing with statements: So / Neither + auxiliary + subject",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "'So' et 'Neither' permettent d'exprimer un accord avec ce que quelqu'un vient de dire, sans répéter toute la phrase. 'So' s'utilise après une phrase affirmative, 'Neither' après une phrase négative."
+        },
+        {
+          "type": "regle",
+          "titre": "Structure",
+          "contenu": "So + auxiliaire + sujet → accord avec une affirmation\nNeither + auxiliaire + sujet → accord avec une négation\n\nL'auxiliaire utilisé doit correspondre au temps de la phrase de départ (am/is/are, do/does/did, have/has, will, can, would...)."
+        },
+        {
+          "type": "tableau",
+          "titre": "Exemples de correspondance",
+          "entetes": ["Phrase de départ", "Accord (So/Neither)"],
+          "lignes": [
+            ["I like tea.", "So do I."],
+            ["I don't like coffee.", "Neither do I."],
+            ["She is tired.", "So am I."],
+            ["He isn't happy.", "Neither am I. / Neither is she."],
+            ["We went to the beach.", "So did we."],
+            ["They haven't finished.", "Neither have we."],
+            ["I can swim.", "So can I."],
+            ["I would like to travel.", "So would I."]
+          ]
+        },
+        {
+          "type": "exemple",
+          "contenu": "A: I used to live in Fianarantsoa. B: So did I!\nA: I don't enjoy horror movies. B: Neither do I!\nA: She has never been to France. B: Neither have I."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Réponds à chaque phrase en exprimant ton accord avec 'So' ou 'Neither' + auxiliaire + sujet :\n1. I love chocolate. (toi aussi)\n2. He can't speak Chinese. (toi non plus)\n3. We are going to the party. (vous aussi)\n4. She doesn't like spicy food. (lui/elle non plus)\n5. They have already eaten. (nous aussi)",
+          "solution": "1. So do I.\n2. Neither can I.\n3. So are we.\n4. Neither does he/she.\n5. So have we."
+        }
+      ]
+    },
+    {
+      "id": "ang-3-6",
+      "titre": "Linking words of contrast",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Les mots de liaison de contraste (linking words of contrast) permettent d'opposer deux idées dans une phrase. Ils n'ont pas tous la même construction grammaticale."
+        },
+        {
+          "type": "tableau",
+          "titre": "Linking words of contrast : construction et usage",
+          "entetes": ["Mot de liaison", "Construction", "Exemple"],
+          "lignes": [
+            ["although", "+ sujet + verbe (proposition complète)", "Although it was raining, we went out."],
+            ["though", "+ sujet + verbe (plus informel, peut être en fin de phrase)", "It was raining. We went out, though."],
+            ["even though", "+ sujet + verbe (insiste davantage)", "Even though he studied hard, he failed."],
+            ["despite", "+ nom ou verbe+ing", "Despite the rain, we went out. / Despite being tired, she finished."],
+            ["in spite of", "+ nom ou verbe+ing (synonyme de despite)", "In spite of the rain, we went out."],
+            ["even if", "+ sujet + verbe (condition hypothétique)", "Even if it rains, we will go out."],
+            ["much as", "+ sujet + verbe (soutenu, 'bien que')", "Much as I respect him, I disagree."],
+            ["whereas", "+ sujet + verbe (oppose deux faits, pas de surprise)", "Anna likes tea, whereas Rose likes coffee."],
+            ["while", "+ sujet + verbe (synonyme de whereas)", "While some students like Maths, others prefer English."]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Points importants",
+          "contenu": "• Although / though / even though / even if sont suivis d'une proposition complète (sujet + verbe).\n• Despite / in spite of sont suivis d'un nom ou d'un verbe en -ing, JAMAIS d'une proposition complète avec sujet+verbe conjugué.\n  Correct : Despite the difficulty / Despite being difficult\n  Incorrect : ~~Despite it was difficult~~\n• Whereas et while servent à comparer deux faits différents, sans idée de surprise (contrairement à although).\n• Though peut se placer en fin de phrase, à l'oral ou à l'écrit informel."
+        },
+        {
+          "type": "exemple",
+          "contenu": "1. Although the exam was difficult, she passed it easily.\n2. Despite the heavy rain, the match continued.\n3. In spite of being tired, he finished his homework.\n4. Even though they are twins, they have different personalities.\n5. Whereas Tom loves sports, his sister prefers reading.\n6. While I enjoy cooking, my brother hates it."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Complète les phrases avec le mot de liaison approprié parmi : although / despite / whereas / even if :\n1. ________ the bad weather, they decided to go hiking.\n2. ________ he is very young, he is already a great footballer.\n3. Sarah prefers the countryside, ________ her sister prefers the city.\n4. I will finish this project ________ it takes all night.",
+          "solution": "1. Despite\n2. Although\n3. whereas\n4. even if"
+        }
+      ]
+    }
+  ]
+}
