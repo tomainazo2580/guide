@@ -1,0 +1,57 @@
+{
+  "id": "theme5",
+  "titre": "Thématique 5 : Lumière et Son",
+  "lecons": [
+    {
+      "id": "sp-5-1",
+      "titre": "La réflexion de la lumière",
+      "blocs": [
+        { "type": "definition", "texte": "La réflexion de la lumière est le phénomène par lequel un rayon lumineux change de direction lorsqu'il rencontre une surface réfléchissante (un miroir, une surface polie ou brillante), sans traverser cette surface." },
+        { "type": "definition", "texte": "Un miroir plan est une surface plane et parfaitement polie qui réfléchit la quasi-totalité de la lumière qu'elle reçoit, produisant une image nette." },
+        { "type": "exemple", "texte": "Schéma de la réflexion sur un miroir plan :\nOn trace la surface du miroir (une ligne horizontale) et, au point d'incidence I où le rayon touche le miroir, une droite perpendiculaire au miroir appelée la normale (représentée en pointillés).\n- Le rayon incident arrive vers le point I, en formant un angle i avec la normale, appelé angle d'incidence.\n- Le rayon réfléchi repart du point I, de l'autre côté de la normale, en formant un angle r avec la normale, appelé angle de réflexion.\nLe rayon incident, la normale et le rayon réfléchi sont dans un même plan." },
+        { "type": "regle", "texte": "Lois de la réflexion de Descartes :\n1. Le rayon réfléchi est dans le plan d'incidence (le plan formé par le rayon incident et la normale).\n2. L'angle de réflexion r est égal à l'angle d'incidence i : r = i\nLes deux angles i et r sont toujours mesurés par rapport à la normale, et non par rapport à la surface du miroir." },
+        { "type": "remarque", "texte": "L'image donnée par un miroir plan est symétrique de l'objet par rapport au plan du miroir : elle est virtuelle (elle ne peut pas être projetée sur un écran), de même taille que l'objet, et semble se trouver derrière le miroir, à la même distance du miroir que l'objet réel." },
+        { "type": "exercice", "enonce": "Un rayon lumineux arrive sur un miroir plan avec un angle d'incidence i = 40°. Quel est l'angle de réflexion r ? Si l'angle d'incidence augmente jusqu'à 60°, que devient l'angle de réflexion ?", "solution": "D'après la loi de la réflexion, r = i. Donc pour i = 40°, on a r = 40°. Si l'angle d'incidence augmente jusqu'à 60°, l'angle de réflexion devient également 60°, car on a toujours r = i." }
+      ]
+    },
+    {
+      "id": "sp-5-2",
+      "titre": "La réfraction de la lumière",
+      "blocs": [
+        { "type": "definition", "texte": "La réfraction de la lumière est le phénomène par lequel un rayon lumineux change de direction lorsqu'il passe d'un milieu transparent à un autre milieu transparent différent (par exemple de l'air à l'eau), car la lumière ne se propage pas à la même vitesse dans tous les milieux." },
+        { "type": "definition", "texte": "L'indice de réfraction d'un milieu transparent, noté n, caractérise ce milieu : plus il est élevé, plus la lumière s'y propage lentement. L'indice de réfraction de l'air est proche de 1 (n ≈ 1), celui de l'eau vaut environ 1,33, et celui du verre est d'environ 1,5." },
+        { "type": "exemple", "texte": "Schéma de la réfraction à la surface entre deux milieux (exemple air-eau) :\nOn trace la surface de séparation entre les deux milieux (une ligne horizontale) et, au point d'incidence I, la normale (perpendiculaire à la surface, en pointillés).\n- Le rayon incident arrive dans le premier milieu (par exemple l'air), en formant un angle d'incidence i1 avec la normale.\n- Au passage dans le second milieu (par exemple l'eau), le rayon change de direction : c'est le rayon réfracté, qui forme un angle de réfraction i2 avec la normale, du même côté de la surface, mais de l'autre côté par rapport au premier milieu.\nSi le rayon passe d'un milieu moins réfringent (l'air) vers un milieu plus réfringent (l'eau), il se rapproche de la normale (i2 < i1)." },
+        { "type": "formule", "texte": "Loi de la réfraction de Descartes :\nn1 × sin(i1) = n2 × sin(i2)\n- n1 : indice de réfraction du premier milieu\n- i1 : angle d'incidence (dans le premier milieu)\n- n2 : indice de réfraction du second milieu\n- i2 : angle de réfraction (dans le second milieu)\nLes angles i1 et i2 sont toujours mesurés par rapport à la normale." },
+        { "type": "remarque", "texte": "Conséquence de la loi de Descartes : lorsque la lumière passe d'un milieu moins réfringent vers un milieu plus réfringent (n1 < n2), le rayon réfracté se rapproche de la normale (i2 < i1). Inversement, en passant d'un milieu plus réfringent vers un milieu moins réfringent (n1 > n2), le rayon s'éloigne de la normale (i2 > i1)." },
+        { "type": "exemple", "texte": "La réfraction explique certaines illusions d'optique courantes : un bâton plongé à moitié dans l'eau paraît cassé ou plié à la surface de l'eau, et le fond d'une piscine paraît moins profond qu'il ne l'est réellement, à cause du changement de direction des rayons lumineux en passant de l'eau à l'air." },
+        { "type": "exercice", "enonce": "Un rayon lumineux passe de l'air (n1 = 1) vers l'eau (n2 = 1,33) avec un angle d'incidence i1 = 30°. Calculer l'angle de réfraction i2 (on donne sin(30°) = 0,5).", "solution": "D'après la loi de Descartes : n1 × sin(i1) = n2 × sin(i2)\n1 × 0,5 = 1,33 × sin(i2)\nsin(i2) = 0,5 / 1,33 ≈ 0,376\ni2 = arcsin(0,376) ≈ 22°.\nL'angle de réfraction est bien inférieur à l'angle d'incidence, car le rayon passe dans un milieu plus réfringent (l'eau)." }
+      ]
+    },
+    {
+      "id": "sp-5-3",
+      "titre": "L'onde lumineuse et le spectre de la lumière",
+      "blocs": [
+        { "type": "definition", "texte": "La lumière est une onde électromagnétique qui se propage sans avoir besoin de support matériel (elle se propage même dans le vide). Elle est caractérisée par sa longueur d'onde, notée λ (lambda), généralement exprimée en nanomètres (nm)." },
+        { "type": "definition", "texte": "La lumière blanche (par exemple la lumière du Soleil ou d'une ampoule) n'est pas une lumière simple : elle est composée de la superposition de plusieurs lumières colorées (lumières monochromatiques), chacune ayant sa propre longueur d'onde." },
+        { "type": "exemple", "texte": "Schéma de la décomposition de la lumière blanche par un prisme :\nUn faisceau de lumière blanche arrive sur une face d'un prisme en verre. En traversant le prisme, chaque couleur composant la lumière blanche est déviée différemment (car l'indice de réfraction du verre varie légèrement selon la couleur), ce qui sépare les couleurs à la sortie du prisme. On obtient alors, dans l'ordre, les couleurs de l'arc-en-ciel : rouge, orange, jaune, vert, bleu, indigo, violet." },
+        { "type": "tableau", "titre": "Le spectre visible de la lumière", "entetes": ["Couleur", "Longueur d'onde approximative (nm)"], "lignes": [["Violet", "400 - 450"], ["Bleu", "450 - 490"], ["Vert", "490 - 560"], ["Jaune", "560 - 590"], ["Orange", "590 - 630"], ["Rouge", "630 - 800"]] },
+        { "type": "regle", "texte": "Le spectre visible par l'œil humain correspond à des longueurs d'onde comprises entre environ 400 nm (violet) et 800 nm (rouge). Au-delà de ces limites, les ondes électromagnétiques existent mais ne sont pas visibles par l'œil humain :\n- Les ultraviolets (UV) ont une longueur d'onde inférieure à 400 nm.\n- Les infrarouges (IR) ont une longueur d'onde supérieure à 800 nm." },
+        { "type": "remarque", "texte": "Les ultraviolets (UV) sont responsables du bronzage et des coups de soleil sur la peau. Les infrarouges (IR) sont associés à la chaleur ; ils sont utilisés par exemple dans les télécommandes ou les caméras thermiques." },
+        { "type": "exercice", "enonce": "Une lumière a une longueur d'onde de 650 nm. Est-elle visible par l'œil humain ? Si oui, à quelle couleur correspond-elle approximativement ?", "solution": "650 nm est compris entre 400 nm et 800 nm, donc cette lumière est visible par l'œil humain. D'après le tableau du spectre visible, 650 nm correspond approximativement à la couleur rouge (630-800 nm)." }
+      ]
+    },
+    {
+      "id": "sp-5-4",
+      "titre": "L'onde sonore",
+      "blocs": [
+        { "type": "definition", "texte": "Un son est une onde mécanique produite par la vibration d'un objet (une corde, une membrane, l'air lui-même), qui se propage de proche en proche dans un milieu matériel (solide, liquide ou gazeux). Contrairement à la lumière, le son ne peut pas se propager dans le vide, car il a besoin d'un support matériel pour se transmettre." },
+        { "type": "exemple", "texte": "Schéma de la propagation d'une onde sonore dans l'air :\nLorsqu'un objet vibre (par exemple la membrane d'un haut-parleur), il comprime puis dilate alternativement l'air qui l'entoure, créant des zones de compression et de dilatation qui se succèdent et se propagent dans toutes les directions, comme des ondulations concentriques, jusqu'à atteindre l'oreille de l'auditeur." },
+        { "type": "regle", "texte": "Un son est caractérisé par trois grandeurs principales :\n- La hauteur : liée à la fréquence du son (exprimée en hertz, Hz). Plus la fréquence est élevée, plus le son est aigu ; plus elle est basse, plus le son est grave.\n- L'intensité (ou le volume) : liée à l'amplitude de la vibration. Plus l'amplitude est grande, plus le son est fort (puissant) ; plus elle est faible, plus le son est faible.\n- Le timbre : il permet de distinguer deux sons de même hauteur et de même intensité, mais produits par des sources différentes (par exemple une même note jouée par un piano ou par une guitare)." },
+        { "type": "definition", "texte": "L'oreille humaine ne peut percevoir que des sons dont la fréquence est comprise entre environ 20 Hz et 20 000 Hz (20 kHz). Ce domaine de fréquences constitue le domaine audible." },
+        { "type": "regle", "texte": "Au-delà de ces limites, on distingue :\n- Les infrasons : sons de fréquence inférieure à 20 Hz, inaudibles pour l'oreille humaine (certains animaux comme les éléphants les perçoivent).\n- Les ultrasons : sons de fréquence supérieure à 20 000 Hz, également inaudibles pour l'oreille humaine (certains animaux comme les chauves-souris ou les dauphins les utilisent pour se repérer)." },
+        { "type": "remarque", "texte": "Les ultrasons sont utilisés dans plusieurs applications pratiques : l'échographie médicale (imagerie du corps humain), le sonar (détection d'objets sous l'eau), ou le nettoyage de précision d'objets délicats." },
+        { "type": "exercice", "enonce": "Un instrument de musique émet un son de fréquence 15 Hz. Ce son est-il audible par l'oreille humaine ? Comment appelle-t-on ce type de son ?", "solution": "Une fréquence de 15 Hz est inférieure à 20 Hz, donc ce son n'est pas audible par l'oreille humaine. On appelle ce type de son un infrason." }
+      ]
+    }
+  ]
+}
