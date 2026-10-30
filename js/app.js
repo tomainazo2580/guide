@@ -687,6 +687,40 @@ function calculerPourcentageMatiere(classeId, matiereId, dataMatiere) {
   return Math.round((vues / total) * 100);
 }
 // ============================================
+// NOTES PERSONNELLES (texte libre, sauvegardé automatiquement)
+// ============================================
+const CLE_NOTES_PERSO = 'guide-notes-perso';
+function chargerNotesPerso() {
+  return localStorage.getItem(CLE_NOTES_PERSO) || '';
+}
+function sauvegarderNotesPerso(texte) {
+  localStorage.setItem(CLE_NOTES_PERSO, texte);
+}
+function initNotesPerso() {
+  const textarea = $('textarea-notes-perso');
+  if (!textarea) return;
+  textarea.value = chargerNotesPerso();
+  const statut = $('statut-sauvegarde-notes');
+  let timeoutId = null;
+  textarea.addEventListener('input', () => {
+    if (statut) {
+      statut.textContent = '✍️ Écriture...';
+      statut.className = 'statut-sauvegarde-notes';
+    }
+    clearTimeout(timeoutId);
+    timeoutId = setTimeout(() => {
+      sauvegarderNotesPerso(textarea.value);
+      if (statut) {
+        statut.textContent = '✅ Enregistré';
+        statut.className = 'statut-sauvegarde-notes succes';
+        setTimeout(() => {
+          statut.textContent = '';
+        }, 1500);
+      }
+    }, 600);
+  });
+}
+// ============================================
 // VUE "MES NOTES"
 // ============================================
 async function afficherNotes() {
@@ -889,6 +923,7 @@ function initialiser() {
   });
   $('btn-changer-classe').addEventListener('click', changerDeClasse);
   initInstallation();
+  initNotesPerso();
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('./service-worker.js');
   }
