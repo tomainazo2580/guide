@@ -14,7 +14,7 @@
         {
           "type": "regle",
           "titre": "Formation de l'impératif",
-          "contenu": "• Forme affirmative : on utilise la base verbale (verbe sans sujet, sans 's' ni 'to').\n  Exemple : Stand up! / Open your book!\n\n• Forme négative : Don't + base verbale.\n  Exemple : Don't talk! / Don't be late!\n\n• Pour inclure la personne qui parle (suggestion collective) : Let's + base verbale.\n  Exemple : Let's start the lesson. / Let's read the text together.\n\n• On peut ajouter 'please' pour rendre l'ordre plus poli.\n  Exemple : Please, sit down. / Open the window, please."
+          "texte": "• Forme affirmative : on utilise la base verbale (verbe sans sujet, sans 's' ni 'to').\n  Exemple : Stand up! / Open your book!\n\n• Forme négative : Don't + base verbale.\n  Exemple : Don't talk! / Don't be late!\n\n• Pour inclure la personne qui parle (suggestion collective) : Let's + base verbale.\n  Exemple : Let's start the lesson. / Let's read the text together.\n\n• On peut ajouter 'please' pour rendre l'ordre plus poli.\n  Exemple : Please, sit down. / Open the window, please."
         },
         {
           "type": "tableau",
@@ -41,7 +41,7 @@
         },
         {
           "type": "exemple",
-          "contenu": "Situation en classe (Classroom Break game) :\nTeacher: \"Stand up, please.\"\nTeacher: \"Take out your notebook and write down the date.\"\nTeacher: \"Don't speak your mother tongue in class.\"\nTeacher: \"Let's check the homework together.\""
+          "texte": "Situation en classe (Classroom Break game) :\nTeacher: Stand up, please.\nTeacher: Take out your notebook and write down the date.\nTeacher: Don't speak your mother tongue in class.\nTeacher: Let's check the homework together."
         },
         {
           "type": "exercice",
@@ -61,7 +61,7 @@
         {
           "type": "regle",
           "titre": "Structure du discours rapporté pour les ordres et requêtes",
-          "contenu": "Sujet + verbe introducteur (told / asked / ordered...) + complément (personne) + to + base verbale\n\n• Forme affirmative :\n  Discours direct : \"Close the window,\" Nancy said to Tom.\n  Discours rapporté : Nancy told Tom to close the window.\n\n• Forme négative :\n  Discours direct : \"Don't be late,\" Nancy said to the students.\n  Discours rapporté : Nancy told the students not to be late.\n\nRemarques :\n– On n'utilise pas 'that' et on ne change pas le temps du verbe (contrairement au discours rapporté des phrases déclaratives), car l'infinitif reste invariable.\n– 'Ask' s'utilise plutôt pour une requête polie, 'tell' pour un ordre plus direct.\n– Il faut adapter les pronoms et les déterminants possessifs comme dans tout discours rapporté (my → her/his, your → their, etc.)."
+          "texte": "Sujet + verbe introducteur (told / asked / ordered...) + complément (personne) + to + base verbale\n\n• Forme affirmative :\n  Discours direct : \"Close the window,\" Nancy said to Tom.\n  Discours rapporté : Nancy told Tom to close the window.\n\n• Forme négative :\n  Discours direct : \"Don't be late,\" Nancy said to the students.\n  Discours rapporté : Nancy told the students not to be late.\n\nRemarques :\n– On n'utilise pas 'that' et on ne change pas le temps du verbe (contrairement au discours rapporté des phrases déclaratives), car l'infinitif reste invariable.\n– 'Ask' s'utilise plutôt pour une requête polie, 'tell' pour un ordre plus direct.\n– Il faut adapter les pronoms et les déterminants possessifs comme dans tout discours rapporté (my → her/his, your → their, etc.)."
         },
         {
           "type": "tableau",
@@ -78,7 +78,7 @@
         },
         {
           "type": "exemple",
-          "contenu": "Exemples avec Nancy :\n1. Direct: \"Close the window, Tom,\" said Nancy.\n   Reported: Nancy told Tom to close the window.\n\n2. Direct: \"Please help me with this exercise,\" Nancy said to her classmate.\n   Reported: Nancy asked her classmate to help her with that exercise.\n\n3. Direct: \"Don't be late for class,\" Nancy said to the students.\n   Reported: Nancy told the students not to be late for class.\n\n4. Direct: \"Don't touch my book,\" Nancy said to her brother.\n   Reported: Nancy told her brother not to touch her book."
+          "texte": "Exemples avec Nancy :\n1. Direct: \"Close the window, Tom,\" said Nancy.\n   Reported: Nancy told Tom to close the window.\n\n2. Direct: \"Please help me with this exercise,\" Nancy said to her classmate.\n   Reported: Nancy asked her classmate to help her with that exercise.\n\n3. Direct: \"Don't be late for class,\" Nancy said to the students.\n   Reported: Nancy told the students not to be late for class.\n\n4. Direct: \"Don't touch my book,\" Nancy said to her brother.\n   Reported: Nancy told her brother not to touch her book."
         },
         {
           "type": "exercice",
@@ -90,30 +90,27 @@
     {
       "id": "ang-2-3",
       "titre": "Reporting famous quotes (commands)",
+      "lexique": [
+        { "terme": "a quote", "traduction": "une citation" },
+        { "terme": "to encourage someone to...", "traduction": "encourager quelqu'un à..." },
+        { "terme": "to inspire", "traduction": "inspirer" },
+        { "terme": "a rainbow", "traduction": "un arc-en-ciel" },
+        { "terme": "a cloud", "traduction": "un nuage" },
+        { "terme": "to hope", "traduction": "espérer" }
+      ],
       "blocs": [
         {
           "type": "definition",
           "texte": "On peut aussi rapporter des citations célèbres formulées à l'impératif, en appliquant la même règle que pour les ordres et requêtes : sujet + verbe introducteur + to/not to + base verbale."
         },
         {
-          "type": "lexique",
-          "mots": [
-            { "terme": "a quote", "traduction": "une citation" },
-            { "terme": "to encourage someone to...", "traduction": "encourager quelqu'un à..." },
-            { "terme": "to inspire", "traduction": "inspirer" },
-            { "terme": "a rainbow", "traduction": "un arc-en-ciel" },
-            { "terme": "a cloud", "traduction": "un nuage" },
-            { "terme": "to hope", "traduction": "espérer" }
-          ]
-        },
-        {
           "type": "exemple",
-          "contenu": "Citation 1 — Maya Angelou :\nDirect : \"Try to be a rainbow in someone's cloud.\"\nReported : Maya Angelou encouraged people to try to be a rainbow in someone's cloud.\n(= Elle a encouragé les gens à essayer d'être un arc-en-ciel dans le nuage de quelqu'un, c'est-à-dire à apporter de la joie dans la vie de quelqu'un qui souffre.)\n\nCitation 2 — Albert Einstein :\nDirect : \"Learn from yesterday, live for today, hope for tomorrow.\"\nReported : Albert Einstein told people to learn from yesterday, to live for today and to hope for tomorrow.\n(= Il a dit aux gens d'apprendre du passé, de vivre le présent et d'espérer en l'avenir.)"
+          "texte": "Citation 1 — Maya Angelou :\nDirect : \"Try to be a rainbow in someone's cloud.\"\nReported : Maya Angelou encouraged people to try to be a rainbow in someone's cloud.\n(= Elle a encouragé les gens à essayer d'être un arc-en-ciel dans le nuage de quelqu'un, c'est-à-dire à apporter de la joie dans la vie de quelqu'un qui souffre.)\n\nCitation 2 — Albert Einstein :\nDirect : \"Learn from yesterday, live for today, hope for tomorrow.\"\nReported : Albert Einstein told people to learn from yesterday, to live for today and to hope for tomorrow.\n(= Il a dit aux gens d'apprendre du passé, de vivre le présent et d'espérer en l'avenir.)"
         },
         {
           "type": "regle",
           "titre": "Rapporter plusieurs ordres dans une même phrase",
-          "contenu": "Quand une citation contient plusieurs verbes à l'impératif reliés par une virgule, on répète 'to' devant chaque verbe au discours rapporté pour plus de clarté :\nEinstein told people to learn from yesterday, to live for today and to hope for tomorrow."
+          "texte": "Quand une citation contient plusieurs verbes à l'impératif reliés par une virgule, on répète 'to' devant chaque verbe au discours rapporté pour plus de clarté :\nEinstein told people to learn from yesterday, to live for today and to hope for tomorrow."
         },
         {
           "type": "exercice",
