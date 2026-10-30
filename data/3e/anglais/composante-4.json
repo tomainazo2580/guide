@@ -1,1 +1,107 @@
-
+{
+  "id": "unit4",
+  "titre": "Unit 4: Food",
+  "lecons": [
+    {
+      "id": "ang-4-1",
+      "titre": "Balanced Diet and Junk Food",
+      "lexique": [
+        {"terme": "balanced diet", "traduction": "régime alimentaire équilibré"},
+        {"terme": "junk food", "traduction": "malbouffe"},
+        {"terme": "nutrient", "traduction": "nutriment"},
+        {"terme": "vitamin", "traduction": "vitamine"},
+        {"terme": "protein", "traduction": "protéine"},
+        {"terme": "carbohydrate", "traduction": "glucide"},
+        {"terme": "fat", "traduction": "matière grasse"},
+        {"terme": "fibre", "traduction": "fibre"},
+        {"terme": "obesity", "traduction": "obésité"},
+        {"terme": "fast food", "traduction": "restauration rapide"},
+        {"terme": "snack", "traduction": "en-cas, collation"},
+        {"terme": "additive", "traduction": "additif"}
+      ],
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Un régime alimentaire équilibré (balanced diet) apporte au corps tous les nutriments nécessaires : protéines, glucides, matières grasses, vitamines, minéraux et fibres, en quantité raisonnable. La malbouffe (junk food) désigne les aliments riches en graisses, en sucre et en sel, mais pauvres en nutriments utiles."
+        },
+        {
+          "type": "regle",
+          "titre": "Les groupes alimentaires",
+          "texte": "Pour avoir une alimentation équilibrée, il faut consommer chaque jour : des fruits et légumes (vitamines et fibres), des féculents (glucides, énergie), des protéines (viande, poisson, œufs, légumineuses), des produits laitiers (calcium), et de l'eau en quantité suffisante. Il faut limiter le sucre, le sel et les graisses saturées présents dans la junk food."
+        },
+        {
+          "type": "exemple",
+          "texte": "A balanced meal could include: rice (carbohydrates), grilled fish (protein), steamed vegetables (vitamins and fibre), and a glass of water. In contrast, a typical junk food meal might include: a hamburger, French fries, and a sugary soft drink, which contain a lot of fat, salt and sugar but few essential nutrients."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Classe ces aliments en deux catégories : 'Healthy food' et 'Junk food' : rice, hamburger, fried chicken, vegetables, fruit, soft drink, fish, crisps (chips), water, candy.",
+          "solution": "Healthy food: rice, vegetables, fruit, fish, water. Junk food: hamburger, fried chicken, soft drink, crisps (chips), candy."
+        }
+      ]
+    },
+    {
+      "id": "ang-4-2",
+      "titre": "Talking About Eating Habits",
+      "blocs": [
+        {
+          "type": "exemple",
+          "titre": "Dialogue: Me and Poras",
+          "texte": "Me: Hi Poras, what do you usually eat for breakfast? Poras: I usually eat bread with butter and a cup of coffee. What about you? Me: I usually have rice with some vegetables. Poras: Really? That's quite unusual for breakfast! Do you eat junk food often? Me: Not very often, maybe once a week. I try to eat fruit instead of sweets. What about you? Poras: Honestly, I eat fast food quite often because it's quick and convenient. Me: You should be careful, too much junk food isn't good for your health. Poras: You're right. I should try to eat more balanced meals."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Réponds aux questions sur le dialogue : 1) What does Poras usually eat for breakfast? 2) What does 'me' usually have for breakfast? 3) How often does Poras eat fast food? 4) What advice does 'me' give to Poras?",
+          "solution": "1) He usually eats bread with butter and a cup of coffee. 2) He/She usually has rice with some vegetables. 3) He eats fast food quite often. 4) 'Me' advises Poras to be careful because too much junk food isn't good for his health, and to eat more balanced meals."
+        }
+      ]
+    },
+    {
+      "id": "ang-4-3",
+      "titre": "Giving Advice: Should / Shouldn't",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "'Should' et 'shouldn't' s'utilisent pour donner un conseil, recommander ou déconseiller quelque chose."
+        },
+        {
+          "type": "regle",
+          "titre": "Structure de should / shouldn't",
+          "texte": "Conseil positif : sujet + should + base verbale. Exemple : You should eat more vegetables. Conseil négatif : sujet + shouldn't (should not) + base verbale. Exemple : You shouldn't eat too much sugar. Question : Should + sujet + base verbale ? Exemple : Should I eat breakfast every day?"
+        },
+        {
+          "type": "exemple",
+          "texte": "1) You should drink more water every day. 2) You shouldn't skip breakfast. 3) She should eat more fruit and vegetables. 4) They shouldn't eat fast food every day. 5) We should cook our meals at home more often."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Donne un conseil (should ou shouldn't) pour chaque situation : 1) Tom eats junk food every day. 2) Mary never drinks water, only soft drinks. 3) Paul skips breakfast every morning. 4) Lisa eats a lot of vegetables and fruit.",
+          "solution": "1) Tom shouldn't eat junk food every day. 2) Mary should drink more water instead of soft drinks. 3) Paul shouldn't skip breakfast. 4) Lisa should continue eating vegetables and fruit (bon exemple à suivre)."
+        }
+      ]
+    },
+    {
+      "id": "ang-4-4",
+      "titre": "Frequency Adverbs",
+      "lexique": [
+        {"terme": "always", "traduction": "toujours"},
+        {"terme": "usually", "traduction": "habituellement"},
+        {"terme": "often", "traduction": "souvent"},
+        {"terme": "sometimes", "traduction": "parfois"},
+        {"terme": "rarely", "traduction": "rarement"},
+        {"terme": "seldom", "traduction": "rarement"},
+        {"terme": "never", "traduction": "jamais"}
+      ],
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Les adverbes de fréquence indiquent à quelle fréquence une action se produit. Ils se placent généralement avant le verbe principal, mais après le verbe 'to be'."
+        },
+        {
+          "type": "regle",
+          "titre": "Place des adverbes de fréquence",
+          "texte": "Avec un verbe ordinaire : sujet + adverbe + verbe. Exemple : I always eat breakfast. Avec le verbe 'to be' : sujet + to be + adverbe. Exemple : She is often late. Échelle de fréquence (du plus au moins fréquent) : always (100%) > usually > often > sometimes > rarely/seldom > never (0%)."
+        },
+        {
+          "type": "exemple",
+          "texte": "1) I always eat vegetables with my meals. 2) She usually drinks tea 
