@@ -1,124 +1,93 @@
 {
-  "id": "anglais-composante-5",
+  "id": "unit5",
   "titre": "Unit 5: Family",
-  "premium": false,
   "lecons": [
     {
       "id": "ang-5-1",
-      "titre": "Asking for permission",
+      "titre": "Asking for Permission",
+      "lexique": [
+        {"terme": "permission", "traduction": "permission, autorisation"},
+        {"terme": "allow", "traduction": "autoriser, permettre"},
+        {"terme": "forbid", "traduction": "interdire"},
+        {"terme": "may", "traduction": "pouvoir (poli, pour demander la permission)"},
+        {"terme": "could", "traduction": "pourrais-je (poli)"},
+        {"terme": "permit", "traduction": "permettre, autoriser"}
+      ],
       "blocs": [
         {
           "type": "definition",
-          "texte": "Demander la permission (asking for permission) consiste à demander l'autorisation de faire quelque chose à une autre personne, souvent un parent ou une personne ayant de l'autorité. Il existe plusieurs façons de le faire, de la plus simple à la plus polie/formelle."
-        },
-        {
-          "type": "tableau",
-          "titre": "Façons de demander la permission (du plus simple au plus poli)",
-          "entetes": ["Expression", "Traduction", "Niveau"],
-          "lignes": [
-            ["Can I...?", "Je peux... ?", "informel"],
-            ["May I...?", "Puis-je... ?", "poli / formel"],
-            ["Will you let me...?", "Me laisseras-tu... ?", "informel"],
-            ["Do you mind if I...?", "Ça vous dérange si je... ?", "poli"],
-            ["Would it be possible to...?", "Serait-il possible de... ?", "très poli / formel"],
-            ["Is it okay if I...?", "C'est bon si je... ?", "informel"]
-          ]
-        },
-        {
-          "type": "exemple",
-          "contenu": "1. Can I go outside and play with my friends?\n2. May I use your phone, please?\n3. Will you let me stay up a little later tonight?\n4. Do you mind if I invite Tom for dinner?\n5. Would it be possible to borrow your car this weekend?"
+          "texte": "Pour demander la permission de faire quelque chose, on utilise des modaux polis comme 'May', 'Could' ou 'Can', suivis du sujet et de la base verbale."
         },
         {
           "type": "regle",
-          "titre": "Remarque grammaticale",
-          "contenu": "• 'Do you mind if I...?' est suivi du présent simple, même si on parle du futur : Do you mind if I open the window?\n• 'May I' est plus poli que 'Can I', recommandé avec les adultes ou en situation formelle.\n• 'Would it be possible to...?' est suivi de la base verbale (to + V1), c'est la formule la plus formelle."
+          "titre": "Structures pour demander la permission",
+          "texte": "May I + base verbale ? (le plus formel et poli). Exemple : May I leave the table? Could I + base verbale ? (poli). Exemple : Could I borrow your pen? Can I + base verbale ? (plus familier). Exemple : Can I go out with my friends? Réponse positive : Yes, of course. / Yes, you may. / Sure, go ahead. Réponse négative : I'm afraid not. / No, you may not. / I'd rather you didn't."
+        },
+        {
+          "type": "exemple",
+          "texte": "1) May I use your phone, please? - Yes, of course, go ahead. 2) Could I stay up a bit later tonight? - I'm afraid not, you have school tomorrow. 3) Can I invite my friends over this weekend? - Yes, you can, but please tidy up afterwards. 4) May I be excused from the table? - Yes, you may."
         },
         {
           "type": "exercice",
-          "enonce": "Transforme chaque demande informelle en une demande plus polie/formelle, en utilisant 'Would it be possible to...?' ou 'Do you mind if I...?' :\n1. Can I leave early today?\n2. Can I borrow your pen?\n3. Can I use the bathroom?\n4. Can I turn on the TV?",
-          "solution": "1. Would it be possible to leave early today?\n2. Do you mind if I borrow your pen?\n3. Would it be possible to use the bathroom?\n4. Do you mind if I turn on the TV?"
+          "enonce": "Transforme ces situations en demandes de permission polies avec 'May I' ou 'Could I' : 1) Tu veux emprunter la voiture de ton père. 2) Tu veux regarder la télévision avant de faire tes devoirs. 3) Tu veux sortir avec tes amis ce soir. 4) Tu veux utiliser l'ordinateur de ta sœur.",
+          "solution": "1) May I borrow your car, Dad? / Could I borrow your car, Dad? 2) May I watch television before doing my homework? 3) Could I go out with my friends tonight? 4) May I use your computer, please?"
         }
       ]
     },
     {
       "id": "ang-5-2",
-      "titre": "Giving and forbidding permission",
+      "titre": "Giving and Forbidding Permission",
       "blocs": [
         {
           "type": "definition",
-          "texte": "Lorsqu'on répond à une demande de permission, on peut soit l'accorder (giving permission), soit la refuser/l'interdire (forbidding permission)."
-        },
-        {
-          "type": "tableau",
-          "titre": "Giving permission (accorder la permission)",
-          "entetes": ["Expression", "Traduction"],
-          "lignes": [
-            ["Yes, you can.", "Oui, tu peux."],
-            ["Yes, you may.", "Oui, tu peux. (plus formel)"],
-            ["Sure, go ahead.", "Bien sûr, vas-y."],
-            ["Of course, feel free to.", "Bien sûr, n'hésite pas."],
-            ["That's fine with me.", "Ça me va."]
-          ]
-        },
-        {
-          "type": "tableau",
-          "titre": "Forbidding permission (refuser / interdire)",
-          "entetes": ["Expression", "Traduction"],
-          "lignes": [
-            ["No, you can't.", "Non, tu ne peux pas."],
-            ["No, you mustn't.", "Non, tu ne dois pas. (interdiction forte)"],
-            ["I'm sorry, but you can't.", "Je suis désolé(e), mais tu ne peux pas."],
-            ["Don't...", "Ne fais pas..."],
-            ["I'd rather you didn't.", "Je préférerais que tu ne le fasses pas."],
-            ["Not now, maybe later.", "Pas maintenant, peut-être plus tard."]
-          ]
+          "texte": "Pour donner ou refuser une permission, on utilise 'can/may' (autoriser) et 'can't/may not/must not' (interdire)."
         },
         {
           "type": "regle",
-          "titre": "Différence entre can't et mustn't",
-          "contenu": "• 'Can't' indique une interdiction qui dépend de la situation ou de la personne qui parle (moins strict) : You can't go out tonight, you have homework.\n• 'Mustn't' indique une interdiction plus stricte, souvent une règle absolue : You mustn't talk to strangers."
+          "titre": "Donner ou refuser la permission",
+          "texte": "Donner la permission : You may/can + base verbale. Exemple : You may watch TV for one hour. Refuser/interdire : You can't/may not/must not + base verbale. Exemple : You must not go out after 8 pm. 'Must not' est plus fort et exprime une interdiction stricte, souvent liée à une règle importante."
         },
         {
           "type": "exemple",
-          "contenu": "Dialogue — Asking mom for permission to go outside:\nChild: Mom, can I go outside and play with my friends?\nMom: Have you finished your homework?\nChild: Not yet, but I'll finish it later.\nMom: I'm sorry, but you can't go out until your homework is done.\nChild: Okay, I understand. Can I go after I finish?\nMom: Yes, you can, as long as you're back before dark."
-        },
-        {
-          "type": "exemple",
-          "contenu": "Dialogue — Tim's sleepover:\nTim: Dad, would it be possible for me to sleep over at Rakoto's house this weekend?\nDad: Who else will be there?\nTim: Just Rakoto and two other friends from school.\nDad: Do his parents know about it?\nTim: Yes, his mother already said it's okay.\nDad: Alright then, you may go, but you must call me when you arrive."
+          "titre": "Dialogue entre Tim et sa mère",
+          "texte": "Tim: Mom, may I go to Jack's house this afternoon? Mom: Have you finished your homework? Tim: Not yet, but I'll finish it tonight. Mom: Then no, you can't go now. You must finish your homework first. Tim: Okay... Can I go after dinner then? Mom: Yes, you may, but you must be back before 9 pm. Tim: Thanks, Mom! Mom: And remember, you must not come back late, it's a school night."
         },
         {
           "type": "exercice",
-          "enonce": "Pour chaque demande, écris une réponse qui accorde la permission ET une réponse qui la refuse :\n1. Can I watch TV after dinner?\n2. May I invite my friends this weekend?\n3. Can I use your laptop for my homework?",
-          "solution": "1. Accordée : Yes, you can, but not too late. / Refusée : No, you can't, you need to sleep early tonight.\n2. Accordée : Yes, you may, as long as the house stays clean. / Refusée : I'm sorry, but you can't, we have guests this weekend.\n3. Accordée : Sure, go ahead, just be careful with it. / Refusée : No, you mustn't, it has important work files on it."
+          "enonce": "D'après le dialogue entre Tim et sa mère, réponds par Vrai ou Faux : 1) Tim has already finished his homework. 2) His mother allows him to go to Jack's house immediately. 3) Tim can go to Jack's house after dinner. 4) Tim must be back before 9 pm.",
+          "solution": "1) Faux (il n'a pas encore fini). 2) Faux (elle refuse d'abord). 3) Vrai. 4) Vrai."
         }
       ]
     },
     {
       "id": "ang-5-3",
-      "titre": "Parent-child conflicts",
+      "titre": "Parent-Child Conflicts",
+      "lexique": [
+        {"terme": "inevitable", "traduction": "inévitable"},
+        {"terme": "boundary", "traduction": "limite"},
+        {"terme": "intense", "traduction": "intense"},
+        {"terme": "conflict", "traduction": "conflit"},
+        {"terme": "misunderstanding", "traduction": "malentendu"},
+        {"terme": "compromise", "traduction": "compromis"}
+      ],
       "blocs": [
         {
           "type": "definition",
-          "texte": "Dans une famille, des désaccords (conflicts) entre parents et enfants peuvent survenir, notamment lorsque l'enfant demande une permission. On distingue généralement trois types de conflits."
+          "texte": "Les conflits entre parents et enfants sont inévitables (inevitable) dans toutes les familles. Ils surviennent souvent à cause de désaccords sur les limites (boundaries), comme les horaires de sortie, l'utilisation du téléphone, ou les tâches ménagères."
         },
         {
-          "type": "tableau",
-          "titre": "Types de conflits parent-enfant",
-          "entetes": ["Type de conflit", "Description", "Exemple"],
-          "lignes": [
-            ["Inevitable conflict (conflit inévitable)", "Petit désaccord normal et sans gravité, lié à des différences de point de vue.", "The child wants to watch TV, the parent wants him to study first."],
-            ["Boundary conflict (conflit de limites)", "L'enfant teste ou dépasse les règles/limites fixées par les parents.", "The teenager comes home later than the agreed time."],
-            ["Intense conflict (conflit intense)", "Désaccord plus sérieux impliquant des valeurs ou décisions importantes, souvent chargé émotionnellement.", "An argument about the teenager's choice of friends or future career."]
-          ]
+          "type": "regle",
+          "titre": "Causes fréquentes de conflits",
+          "texte": "Les principales causes de conflits parent-enfant incluent : les différences d'opinion sur l'indépendance, les règles à la maison, le temps passé sur les écrans, les résultats scolaires, et le choix des amis. Ces conflits peuvent être intenses (intense) mais se résolvent souvent par le dialogue et le compromis (compromise)."
         },
         {
           "type": "exemple",
-          "contenu": "1. Inevitable conflict: \"Can I eat candy before dinner?\" \"No, it's almost dinner time, you'll eat later.\"\n2. Boundary conflict: \"You promised to be back by 8 pm, but it's already 10 pm!\"\n3. Intense conflict: \"I don't want to study engineering, I want to be a musician!\""
+          "texte": "Many teenagers feel that their parents don't understand them, while parents often feel their children don't respect the rules. For example, a conflict can start when a teenager wants to stay out late with friends, but the parents are worried about safety. Instead of shouting, both sides can try to find a compromise: the teenager agrees to come home a bit earlier, and the parents agree to extend the curfew slightly."
         },
         {
           "type": "exercice",
-          "enonce": "Classe chaque situation selon son type de conflit (inevitable / boundary / intense) :\n1. A teenager wants to stay out later than the time allowed by her parents.\n2. A child refuses to eat vegetables at dinner.\n3. A teenager wants to drop out of school to pursue a different path, against his parents' wishes.",
-          "solution": "1. Boundary conflict\n2. Inevitable conflict\n3. Intense conflict"
+          "enonce": "Lis la situation suivante et propose un compromis raisonnable : 'A teenager wants to spend 4 hours a day on his phone after school. His parents think this is too much and want to forbid phone use completely after school.'",
+          "solution": "Réponse modèle : A reasonable compromise could be: the teenager is allowed to use his phone for 1 hour after finishing his homework, instead of 4 hours or none at all. Both the teenager's need for relaxation and the parents' concern about study time are respected."
         }
       ]
     }
