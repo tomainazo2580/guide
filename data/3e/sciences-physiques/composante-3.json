@@ -1,0 +1,23 @@
+{
+  "id": "theme3",
+  "titre": "Thématique 3 : Mouvement",
+  "lecons": [
+    {
+      "id": "sp-3-1",
+      "titre": "Les types de trajectoire",
+      "blocs": [
+        { "type": "definition", "texte": "Un objet est en mouvement par rapport à un référentiel lorsque sa position change au cours du temps par rapport à ce référentiel. Un référentiel est un repère (un objet ou un ensemble de points fixes) par rapport auquel on étudie le mouvement." },
+        { "type": "definition", "texte": "La trajectoire d'un point mobile est l'ensemble des positions successives occupées par ce point au cours de son mouvement, dans un référentiel donné. On obtient la trajectoire en reliant entre elles toutes les positions successives du point mobile." },
+        { "type": "remarque", "texte": "La trajectoire d'un même objet dépend du référentiel choisi : un même mouvement peut paraître rectiligne dans un référentiel et curviligne dans un autre. Exemple : la valve d'une roue de vélo qui roule a une trajectoire circulaire par rapport au cadre du vélo, mais une trajectoire plus complexe (en forme de boucles) par rapport au sol." },
+        { "type": "regle", "texte": "On distingue trois types principaux de trajectoire selon leur forme :\n- Trajectoire rectiligne : le point mobile se déplace en ligne droite.\n- Trajectoire circulaire : le point mobile se déplace en décrivant un cercle (ou un arc de cercle).\n- Trajectoire curviligne : le point mobile se déplace en suivant une courbe quelconque, qui n'est ni une droite ni un cercle." },
+        { "type": "exemple", "texte": "Schéma d'une trajectoire rectiligne :\nOn représente une suite de points alignés, régulièrement espacés ou non, sur une même droite : • • • • • →\nCela représente les positions successives d'un objet qui se déplace toujours dans la même direction, sans changer de direction. Exemple : une bille qui roule sur une table plane et droite, une voiture roulant sur une route parfaitement droite, un objet en chute libre verticale." },
+        { "type": "exemple", "texte": "Schéma d'une trajectoire circulaire :\nOn représente les positions successives du point mobile disposées régulièrement sur un cercle, formant une boucle fermée qui revient à son point de départ. Exemple : un point situé sur le bord d'une roue qui tourne autour de son axe (sans avancer), les aiguilles d'une horloge, un manège de fête foraine, un satellite en orbite circulaire autour de la Terre." },
+        { "type": "exemple", "texte": "Schéma d'une trajectoire curviligne :\nOn représente une suite de points formant une courbe irrégulière, qui change de direction de façon continue sans former ni une ligne droite ni un cercle parfait (par exemple une courbe en forme de S, de parabole, ou de boucle irrégulière). Exemple : le mouvement d'un ballon lancé en l'air (trajectoire parabolique), le mouvement d'une balle de tennis après un effet, le trajet sinueux d'une rivière." },
+        { "type": "tableau", "titre": "Récapitulatif des types de trajectoire", "entetes": ["Type de trajectoire", "Forme", "Exemple"], "lignes": [["Rectiligne", "Ligne droite", "Chute libre verticale, voiture sur route droite"], ["Circulaire", "Cercle ou arc de cercle", "Aiguille d'une horloge, manège"], ["Curviligne", "Courbe quelconque", "Ballon lancé en l'air, trajet d'une rivière"]] },
+        { "type": "remarque", "texte": "La nature de la trajectoire ne donne pas d'information sur la vitesse de l'objet : un mouvement peut être rectiligne et pourtant se faire à vitesse variable (accéléré ou ralenti), tout comme un mouvement circulaire peut se faire à vitesse constante ou variable." },
+        { "type": "exercice", "enonce": "Une pierre est lancée horizontalement depuis le haut d'une falaise. Elle retombe en suivant une courbe avant de toucher le sol. Quel est le type de trajectoire de cette pierre ? Justifier.", "solution": "La trajectoire de la pierre est curviligne, car elle suit une courbe (une parabole) qui n'est ni une ligne droite ni un cercle, sous l'effet combiné de sa vitesse horizontale initiale et de la pesanteur qui la fait progressivement tomber vers le sol." },
+        { "type": "exercice", "enonce": "Un enfant est assis sur un manège qui tourne à vitesse constante autour de son axe central. Quel est le type de trajectoire décrite par l'enfant par rapport au sol ?", "solution": "La trajectoire de l'enfant est circulaire, car il décrit un cercle autour de l'axe central du manège, à une distance constante de cet axe." }
+      ]
+    }
+  ]
+}
