@@ -1,0 +1,297 @@
+{
+  "id": "theme1",
+  "titre": "Thématique 1 : La matière",
+  "lecons": [
+    {
+      "id": "sp-1-1",
+      "titre": "Concentration d'une solution",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Solution aqueuse : Lorsqu'on dissout une espèce chimique (solide, liquide ou gazeuse) dans un liquide, on obtient une solution. L'espèce chimique dissoute est appelée soluté. Le liquide dans lequel on dissout l'espèce chimique est appelé solvant. Si le solvant utilisé est l'eau, on obtient une solution aqueuse."
+        },
+        {
+          "type": "formule",
+          "texte": "Concentration massique : la concentration massique Cm(X) d'une espèce chimique X dans une solution est le rapport entre m(X), la masse de soluté dissous, et V, le volume total de la solution :\nCm(X) = m(X) / V\nLa concentration massique s'exprime souvent en g.L-1"
+        },
+        {
+          "type": "formule",
+          "texte": "Concentration molaire : la concentration molaire d'une solution est le nombre de mole du soluté présent dans un litre de solution.\nc = n / V\nLa concentration molaire s'exprime souvent en mol.L-1"
+        },
+        {
+          "type": "methode",
+          "texte": "Dissolution d'une espèce chimique (matériels : balance, spatule, fiole jaugée) :\n1. Peser précisément la masse m du solide à l'aide d'une spatule propre et sèche, en le plaçant dans une capsule ou un verre de montre préalablement pesé.\n2. Introduire le solide dans une fiole jaugée à l'aide d'un entonnoir à solide. Rincer la capsule ou le verre de montre avec de l'eau distillée.\n3. Remplir la fiole jusqu'aux trois quarts avec de l'eau distillée, puis la boucher.\n4. Agiter pour homogénéiser.\n5. Compléter avec de l'eau distillée jusqu'au trait de jauge."
+        },
+        {
+          "type": "definition",
+          "texte": "Principe d'une dilution : diluer une solution, c'est ajouter du solvant (l'eau distillée) pour préparer une nouvelle solution moins concentrée que la solution initiale.\n- La solution de départ est appelée solution initiale ou solution mère.\n- La solution diluée est appelée solution finale ou solution fille.\n- La concentration molaire Cf de la solution finale est toujours inférieure à la concentration molaire Ci de la solution initiale : Cf < Ci"
+        },
+        {
+          "type": "methode",
+          "texte": "Protocole d'une préparation de solution par dilution :\n1. Prélever le volume de solution mère à l'aide d'une pipette.\n2. Verser ce volume dans la fiole jaugée.\n3. Agiter pour homogénéiser.\n4. Compléter avec de l'eau distillée jusqu'au trait de jauge."
+        },
+        {
+          "type": "regle",
+          "texte": "Conservation de la quantité de matière : lors d'une dilution, le volume V augmente, donc la concentration molaire du soluté diminue, mais sa quantité de matière ne change pas : elle reste constante. On n'a pas ajouté de soluté lors de la dilution."
+        },
+        {
+          "type": "formule",
+          "texte": "Relation de dilution : au cours de la dilution, la quantité de matière du soluté X se conserve, donc ni(X) = nf(X), d'où :\nCi . Vi = Cf . Vf (avec Vf = Vi + Ve)\n- Ci, Vi : concentration et volume de la solution initiale\n- Cf, Vf : concentration et volume de la solution finale\n- Ve : volume de solvant ajouté"
+        },
+        {
+          "type": "formule",
+          "texte": "Facteur de dilution : d'après la relation Ci.Vi = Cf.Vf, on obtient le rapport Ci/Cf = Vf/Vi. Ce rapport est toujours positif (car Vf > Vi et Ci > Cf). On l'appelle facteur (ou coefficient) de dilution, noté k :\nk = Ci/Cf = Vf/Vi\nLe facteur de dilution est un nombre qui caractérise la dilution réalisée."
+        },
+        {
+          "type": "exercice",
+          "enonce": "On dispose d'une solution mère de concentration Ci = 0,5 mol.L-1. On prélève 20 mL de cette solution que l'on dilue pour obtenir 100 mL de solution fille. Calculer la concentration Cf de la solution fille et le facteur de dilution k.",
+          "solution": "On utilise la relation de dilution : Ci.Vi = Cf.Vf\nCf = (Ci × Vi) / Vf = (0,5 × 20) / 100 = 0,1 mol.L-1\nFacteur de dilution : k = Ci/Cf = 0,5/0,1 = 5\nLa solution a été diluée 5 fois."
+        }
+      ]
+    },
+    {
+      "id": "sp-1-2",
+      "titre": "Nature d'une solution : acidité, basicité, neutralité",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Une solution peut être acide, basique ou neutre. L'acidité, la basicité ou la neutralité d'une solution aqueuse se déterminent grâce à la mesure du pH. Le pH est un nombre sans unité, dont la valeur est comprise entre 0 et 14. Il évalue l'acidité ou la basicité d'une solution."
+        },
+        {
+          "type": "regle",
+          "texte": "- Acidité : une solution est acide si son pH est inférieur à 7. Exemple : jus de citron, sodas, eau de pluie.\n- Basicité : une solution est basique si son pH est supérieur à 7. Exemple : eau de javel, shampoing, détergents, décapants.\n- Neutralité : une solution est neutre si son pH vaut 7. Exemple : eau pure, sang."
+        },
+        {
+          "type": "tableau",
+          "titre": "Techniques pour évaluer le pH d'une solution",
+          "entetes": ["Technique", "Description"],
+          "lignes": [
+            ["Indicateur coloré", "Solution qui se colore différemment selon la valeur du pH"],
+            ["Papier pH", "Papier qui se colore différemment selon le pH"],
+            ["pH-mètre", "Instrument qui mesure le pH de façon précise"]
+          ]
+        },
+        {
+          "type": "regle",
+          "texte": "L'ion hydrogène (H+) est responsable du caractère acide et l'ion hydroxyde (OH-) est responsable du caractère basique.\n- La solution acide contient davantage d'ions H+ que d'ions OH-.\n- La solution neutre contient autant d'ions H+ que d'ions OH-.\n- La solution basique contient davantage d'ions OH- que d'ions H+."
+        },
+        {
+          "type": "tableau",
+          "titre": "Nature de la solution selon [H+] et [OH-]",
+          "entetes": ["Nature de la solution", "Comparaison", "pH à 25°C"],
+          "lignes": [
+            ["Acide", "[H+] > [OH-]", "0 ≤ pH < 7"],
+            ["Neutre", "[H+] = [OH-]", "pH = 7,0"],
+            ["Basique", "[H+] < [OH-]", "7,0 < pH ≤ 14"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "enonce": "Une solution a un pH de 4,5. Quelle est la nature de cette solution ? Justifier en comparant [H+] et [OH-].",
+          "solution": "Le pH = 4,5 est inférieur à 7, donc la solution est acide. Dans cette solution, [H+] > [OH-]."
+        }
+      ]
+    },
+    {
+      "id": "sp-1-3",
+      "titre": "Utilisation d'indicateurs colorés naturels ou artificiels",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Un indicateur coloré de pH est une espèce chimique qui change de couleur en fonction du pH. Exemple : la phénolphtaléine, le bleu de bromothymol, le rouge de méthyl..."
+        },
+        {
+          "type": "exemple",
+          "texte": "Il existe de nombreux indicateurs colorés extraits de substances naturelles : le chou rouge, la rose, la betterave, l'artichaut, le curcuma, le thé. Avec l'essor de la chimie moderne, on a mis au point de nouvelles espèces chimiques, comme la phénolphtaléine ou le bleu de bromothymol."
+        },
+        {
+          "type": "definition",
+          "texte": "On appelle zone de virage l'intervalle de pH dans lequel l'indicateur coloré change de couleur."
+        },
+        {
+          "type": "tableau",
+          "titre": "Zone de virage de quelques indicateurs colorés",
+          "entetes": ["Indicateur", "Couleur acide", "Transition de pH", "Couleur base"],
+          "lignes": [
+            ["Rouge de crésol", "rouge", "0,0 - 1,0", "jaune"],
+            ["Rouge de méthyle", "rouge", "4,2 - 6,3", "jaune"],
+            ["Papier de tournesol (Azolitmine)", "rouge", "4,5 - 8,3", "bleu"],
+            ["Bleu de bromothymol (BBT)", "jaune", "6,0 - 7,6", "bleu"],
+            ["Phénolphtaléine", "incolore", "8,2 - 10,0", "rose"]
+          ]
+        },
+        {
+          "type": "methode",
+          "texte": "Utilisation pour un titrage acido-basique : on introduit quelques gouttes d'un indicateur coloré dans une solution à doser et on verse petit à petit le réactif. Lorsque l'on atteint l'équivalence, l'indicateur coloré change de couleur. L'indicateur coloré est choisi en fonction du dosage à réaliser."
+        },
+        {
+          "type": "remarque",
+          "texte": "Un indicateur coloré peut aussi être utilisé pour indiquer le pH d'une solution (pH de la piscine, de l'urine, etc.). Dans ce cas, on réalise un mélange d'indicateurs : c'est le principe du papier pH. La teinte prise par la solution ou le papier donne une indication de la valeur du pH."
+        },
+        {
+          "type": "exercice",
+          "enonce": "On ajoute quelques gouttes de bleu de bromothymol (BBT) dans une solution. Le BBT devient bleu. Que peut-on dire du pH de cette solution ?",
+          "solution": "D'après le tableau de zone de virage, le BBT est bleu lorsque le pH est supérieur à 7,6. La solution est donc basique, avec un pH supérieur à 7,6."
+        }
+      ]
+    },
+    {
+      "id": "sp-1-4",
+      "titre": "Équation bilan",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "L'équation générale d'une réaction chimique s'écrit :\na A + b B → c C + d D\noù a, b, c, d sont des nombres appelés coefficients stœchiométriques, et A, B (réactifs), C, D (produits) sont les formules des espèces chimiques."
+        },
+        {
+          "type": "regle",
+          "texte": "L'équation d'une réaction chimique doit être équilibrée : le nombre d'atomes de chaque élément doit être le même dans les réactifs et dans les produits (conservation du nombre d'atomes)."
+        },
+        {
+          "type": "formule",
+          "texte": "Quantité des réactifs et des produits : une équation chimique équilibrée donne un rapport entre les quantités de matière des réactifs et des produits :\nnA/a = nB/b = nC/c = nD/d"
+        },
+        {
+          "type": "exemple",
+          "texte": "Équilibrage de la formation de l'eau :\nBilan : dihydrogène + dioxygène → eau\nÉquation non équilibrée : H2 + O2 → H2O (2 atomes de H et 2 atomes de O à gauche, mais 2 atomes de H et seulement 1 atome de O à droite : il manque un O).\nOn multiplie H2O par 2 : H2 + O2 → 2 H2O (il y a maintenant 2 atomes de H à gauche pour 4 à droite, et 2 atomes de O à gauche pour 2 à droite : il manque maintenant 2 atomes de H).\nOn multiplie H2 par 2 : 2 H2 + O2 → 2 H2O.\nVérification : à gauche, 2×2 = 4 atomes de H et 2 atomes de O ; à droite, 2×2 = 4 atomes de H et 2×1 = 2 atomes de O. L'équation est équilibrée."
+        },
+        {
+          "type": "regle",
+          "texte": "Loi de conservation de la masse (loi de Lavoisier) : la somme des masses des réactifs est égale à la somme des masses des produits au cours d'une réaction chimique.\n« Rien ne se crée, rien ne se perd, tout se transforme »"
+        },
+        {
+          "type": "exercice",
+          "enonce": "Équilibrer l'équation de combustion du méthane : CH4 + O2 → CO2 + H2O",
+          "solution": "On compte les atomes : à gauche, 1 C, 4 H, 2 O.\nOn écrit d'abord : CH4 + O2 → CO2 + 2 H2O (pour avoir 4 H à droite).\nOn vérifie l'oxygène : à droite, 2 (dans CO2) + 2 (dans 2 H2O) = 4 atomes de O. Il faut donc 2 O2 à gauche.\nÉquation équilibrée : CH4 + 2 O2 → CO2 + 2 H2O."
+        }
+      ]
+    },
+    {
+      "id": "sp-1-5",
+      "titre": "Réaction de neutralisation",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Les ions hydrogène (H+) sont présents dans toutes les solutions acides. Exemple : l'acide chlorhydrique, de formule (H+ + Cl-)aq.\nLes ions hydroxyde (OH-) sont présents dans toutes les solutions basiques. Exemple : la soude, de formule (Na+ + OH-)aq."
+        },
+        {
+          "type": "remarque",
+          "texte": "Les ions hydrogène sont constitués d'un seul atome : on dit qu'ils sont monoatomiques. Les ions hydroxydes sont constitués de plusieurs types d'atomes : on dit qu'ils sont polyatomiques."
+        },
+        {
+          "type": "exemple",
+          "texte": "Expérience : on ajoute de la soude dans un bécher rempli d'acide chlorhydrique et on mesure la température du mélange à l'aide d'un thermomètre.\nObservation : on constate une légère augmentation de la température du mélange.\nConclusion : il y a une réaction chimique entre l'acide et la base, qui conduit à un léger dégagement de chaleur. Il y a donc eu une réaction chimique entre les ions H+ et les ions OH-."
+        },
+        {
+          "type": "regle",
+          "texte": "Bilan et équation de la réaction entre la soude et l'acide chlorhydrique :\nBilan : soude + acide chlorhydrique → eau salée\nÉquation ionique : (H+ + Cl-)aq + (Na+ + OH-)aq → H2O + (Na+ + Cl-)aq"
+        },
+        {
+          "type": "remarque",
+          "texte": "On obtient une solution de chlorure de sodium (eau salée), de pH égal à 7 (neutre). Les ions chlorure (Cl-) et les ions sodium (Na+) ne participent pas à la réaction acido-basique : on dit qu'ils sont des ions spectateurs. Le terme « aq » indique que l'acide et la soude utilisés sont sous forme ionique, dissous dans l'eau (aqueux)."
+        },
+        {
+          "type": "regle",
+          "texte": "Produit d'une réaction entre un acide et une base : lorsqu'on fait réagir une base avec un acide, les ions H+ et les ions OH- réagissent pour former de l'eau (H2O).\nLe bilan général d'une réaction entre un acide et une base est donc :\nacide + base → eau + ions spectateurs"
+        },
+        {
+          "type": "remarque",
+          "texte": "Mesures sécuritaires : la réaction entre une solution acide et une solution basique peut être dangereuse (dégagement de chaleur ou de gaz). Il faut utiliser des gants, des lunettes de protection et une blouse. Pour des raisons de sécurité, on ne met jamais de l'eau dans l'acide : lors de la dilution d'un acide, il faut toujours mettre l'acide dans l'eau, et non l'inverse, à cause des risques de projections d'acide."
+        },
+        {
+          "type": "exercice",
+          "enonce": "On verse de l'acide chlorhydrique (H+ + Cl-)aq dans une solution de soude (Na+ + OH-)aq jusqu'à ce que le mélange ait un pH égal à 7. Quel est le nom de la réaction qui s'est produite ? Quels sont les ions spectateurs présents dans la solution finale ?",
+          "solution": "Il s'agit d'une réaction de neutralisation (réaction acido-basique) entre un acide et une base, qui produit de l'eau. Les ions spectateurs présents dans la solution finale sont les ions chlorure (Cl-) et les ions sodium (Na+), qui forment du chlorure de sodium dissous (eau salée)."
+        }
+      ]
+    },
+    {
+      "id": "sp-1-6",
+      "titre": "Le triangle de combustion",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Les réactions de combustion impliquent toujours un combustible (une substance qui brûle) et un comburant (une substance qui entretient la combustion). Toutes les réactions de combustion sont des réactions d'oxydation. Une réaction de combustion implique habituellement le dioxygène (O2) comme comburant."
+        },
+        {
+          "type": "formule",
+          "texte": "Formule générale de la combustion :\nCombustible + O2 → CO2(g) + H2O(g)\nExemple : combustion de l'essence :\n2 C8H18(g) + 25 O2(g) → 16 CO2(g) + 18 H2O(g)"
+        },
+        {
+          "type": "regle",
+          "texte": "Le triangle de feu (ou triangle de combustion) représente l'association des trois éléments clés nécessaires à toute réaction de combustion :\n- Un combustible : une substance qui brûle (bois, produits pétroliers...)\n- Un comburant : une substance qui entretient la combustion, principalement le dioxygène (O2)\n- Une température suffisamment élevée pour atteindre le point d'ignition (énergie d'activation nécessaire pour amorcer la combustion). Cette valeur varie selon le combustible utilisé."
+        },
+        {
+          "type": "exemple",
+          "texte": "Pour arrêter un feu, il suffit d'enlever un des trois éléments du triangle de feu.\nExemple 1 : si on empêche le comburant d'atteindre le feu, la combustion cesse. Un extincteur au dioxyde de carbone (CO2) projette un gaz qui chasse l'oxygène : le feu s'étouffe.\nExemple 2 : si on diminue la température en dessous de la température d'ignition, la combustion s'arrête. Arroser un feu avec de l'eau refroidit en dessous de cette température, ce qui empêche le maintien de la combustion."
+        },
+        {
+          "type": "tableau",
+          "titre": "Classification des combustibles, comburants et sources",
+          "entetes": ["Catégorie", "Exemples"],
+          "lignes": [
+            ["Comburants usuels", "Permanganate de potassium, nitrite de sodium, dioxyde de chlore, dioxygène, fluor, acide nitrique, acide perchlorique, bromate de potassium"],
+            ["Combustibles", "Solides (charbon, bois, papier, carton, plastique, tissu, PVC...) ; liquides ou liquéfiables (essence, gazole, fioul, huile, kérosène) ; gazeux (gaz naturel, butane, propane, méthane, dihydrogène...) ; métalliques (fer, aluminium, sodium, magnésium...) ; huile de cuisson"],
+            ["Sources d'ignition", "Allumette frottée, cordon électrique qui s'échauffe, flamme du briquet, électricité, rayonnement, pression, frottement mécanique, foudre, solaire"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "enonce": "Un feu de cuisine (huile de cuisson enflammée) se déclare. Pourquoi est-il dangereux d'y jeter de l'eau, et que faut-il faire à la place en utilisant le principe du triangle de feu ?",
+          "solution": "L'eau est plus dense que l'huile enflammée et descend en dessous, provoquant une vaporisation brutale qui projette l'huile enflammée (risque d'explosion de flammes). Il faut plutôt supprimer le comburant (étouffer le feu), par exemple en couvrant la poêle avec un couvercle ou un linge humide, ce qui prive le feu de dioxygène et interrompt la combustion."
+        }
+      ]
+    },
+    {
+      "id": "sp-1-7",
+      "titre": "Combustion des alcanes",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Les alcanes sont des hydrocarbures saturés : ils ne sont constitués que d'atomes de carbone (C) et d'hydrogène (H), liés entre eux par des liaisons simples. Les alcanes non cycliques ont une formule brute de la forme CnH2n+2, où n est un entier naturel non nul."
+        },
+        {
+          "type": "exemple",
+          "texte": "Nomenclature des alcanes (radical + suffixe -ane) :\n- méthane (n=1) : CH4\n- éthane (n=2) : C2H6\n- propane (n=3) : C3H8\n- butane (n=4) : C4H10"
+        },
+        {
+          "type": "regle",
+          "texte": "La combustion est dite complète lorsqu'elle se produit en excès de dioxygène. La combustion complète des alcanes produit du dioxyde de carbone et de l'eau. La flamme obtenue est alors bleue."
+        },
+        {
+          "type": "formule",
+          "texte": "Équation générale de la combustion complète d'un alcane :\nCnH2n+2 + ((3n+1)/2) O2 → n CO2 + (n+1) H2O"
+        },
+        {
+          "type": "exemple",
+          "texte": "Combustion complète du méthane (n=1) :\nCH4 + 2 O2 → CO2 + 2 H2O\nRelation des quantités : nCH4/1 = nO2/2 = nCO2/1 = nH2O/2"
+        },
+        {
+          "type": "exemple",
+          "texte": "Combustion complète de l'éthane (n=2) :\n2 C2H6 + 7 O2 → 4 CO2 + 6 H2O\nRelation des quantités : nC2H6/2 = nO2/7 = nCO2/4 = nH2O/6"
+        },
+        {
+          "type": "exemple",
+          "texte": "Combustion complète du propane (n=3) :\nC3H8 + 5 O2 → 3 CO2 + 4 H2O\nRelation des quantités : nC3H8/1 = nO2/5 = nCO2/3 = nH2O/4"
+        },
+        {
+          "type": "exemple",
+          "texte": "Combustion complète du butane (n=4) :\nC4H10 + (13/2) O2 → 4 CO2 + 5 H2O, soit en doublant les coefficients pour éviter la fraction : 2 C4H10 + 13 O2 → 8 CO2 + 10 H2O\nRelation des quantités : nC4H10/2 = nO2/13 = nCO2/8 = nH2O/10"
+        },
+        {
+          "type": "regle",
+          "texte": "La combustion est dite incomplète lorsque le dioxygène est en quantité insuffisante. Elle produit alors de la vapeur d'eau et du dioxyde de carbone, mais aussi des particules de carbone (dépôt noir) et du monoxyde de carbone (CO), un gaz incolore, inodore et toxique, voire mortel. La flamme obtenue est alors jaune et éclairante."
+        },
+        {
+          "type": "formule",
+          "texte": "Équation générale de la combustion incomplète d'un alcane (formation de carbone et d'eau) :\nCnH2n+2 + ((n+1)/2) O2 → n C + (n+1) H2O"
+        },
+        {
+          "type": "exercice",
+          "enonce": "Écrire et équilibrer l'équation de la combustion complète du propane C3H8 dans le dioxygène. Préciser la couleur de la flamme obtenue.",
+          "solution": "Équation : C3H8 + 5 O2 → 3 CO2 + 4 H2O.\nVérification : C : 3=3 ; H : 8=8 ; O : 10 = 3×2+4×1 = 6+4 = 10. L'équation est équilibrée.\nComme il s'agit d'une combustion complète (excès de dioxygène), la flamme obtenue est bleue."
+        }
+      ]
+    }
+  ]
+}
