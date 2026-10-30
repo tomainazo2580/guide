@@ -1,0 +1,126 @@
+{
+  "id": "anglais-composante-2",
+  "titre": "Unit 2: Classroom Communication",
+  "premium": false,
+  "lecons": [
+    {
+      "id": "ang-2-1",
+      "titre": "The Imperative: Giving instructions in the classroom",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "L'impératif (the imperative) est une forme verbale utilisée pour donner un ordre, une instruction, un conseil ou une interdiction. C'est la forme la plus utilisée dans la salle de classe pour donner des consignes."
+        },
+        {
+          "type": "regle",
+          "titre": "Formation de l'impératif",
+          "contenu": "• Forme affirmative : on utilise la base verbale (verbe sans sujet, sans 's' ni 'to').\n  Exemple : Stand up! / Open your book!\n\n• Forme négative : Don't + base verbale.\n  Exemple : Don't talk! / Don't be late!\n\n• Pour inclure la personne qui parle (suggestion collective) : Let's + base verbale.\n  Exemple : Let's start the lesson. / Let's read the text together.\n\n• On peut ajouter 'please' pour rendre l'ordre plus poli.\n  Exemple : Please, sit down. / Open the window, please."
+        },
+        {
+          "type": "tableau",
+          "titre": "Vocabulaire : consignes de classe courantes (classroom instructions)",
+          "entetes": ["Anglais", "Traduction"],
+          "lignes": [
+            ["Stand up!", "Levez-vous !"],
+            ["Sit down!", "Asseyez-vous !"],
+            ["Open your book(s)!", "Ouvrez votre/vos livre(s) !"],
+            ["Close your book(s)!", "Fermez votre/vos livre(s) !"],
+            ["Listen carefully!", "Écoutez attentivement !"],
+            ["Be quiet! / Keep quiet!", "Taisez-vous !"],
+            ["Don't talk!", "Ne parlez pas !"],
+            ["Raise your hand!", "Levez la main !"],
+            ["Write down the answer!", "Notez la réponse !"],
+            ["Repeat after me!", "Répétez après moi !"],
+            ["Look at the board!", "Regardez le tableau !"],
+            ["Hand in your homework!", "Remettez vos devoirs !"],
+            ["Work in pairs!", "Travaillez en binôme !"],
+            ["Take out your notebook!", "Sortez votre cahier !"],
+            ["Turn to page...", "Allez à la page..."],
+            ["Pay attention!", "Faites attention !"]
+          ]
+        },
+        {
+          "type": "exemple",
+          "contenu": "Situation en classe (Classroom Break game) :\nTeacher: \"Stand up, please.\"\nTeacher: \"Take out your notebook and write down the date.\"\nTeacher: \"Don't speak your mother tongue in class.\"\nTeacher: \"Let's check the homework together.\""
+        },
+        {
+          "type": "exercice",
+          "enonce": "Transforme chaque situation en une consigne à l'impératif (affirmative ou négative selon le cas) :\n1. Tu veux que les élèves ouvrent leur livre à la page 10.\n2. Tu veux que les élèves arrêtent de bavarder.\n3. Tu veux que les élèves lèvent la main avant de parler.\n4. Tu proposes de commencer l'exercice ensemble.\n5. Tu veux que les élèves ne soient pas en retard demain.",
+          "solution": "1. Open your book(s) to page 10.\n2. Don't talk! / Stop talking!\n3. Raise your hand before speaking.\n4. Let's start the exercise.\n5. Don't be late tomorrow."
+        }
+      ]
+    },
+    {
+      "id": "ang-2-2",
+      "titre": "Reported Speech: Reporting requests and commands",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Le discours rapporté (reported speech) sert à rapporter ce qu'une personne a demandé ou ordonné à une autre, sans répéter ses paroles exactes. Lorsqu'on rapporte un ordre ou une requête (qui est souvent formulé à l'impératif au discours direct), on utilise une structure particulière, différente du discours rapporté des phrases déclaratives."
+        },
+        {
+          "type": "regle",
+          "titre": "Structure du discours rapporté pour les ordres et requêtes",
+          "contenu": "Sujet + verbe introducteur (told / asked / ordered...) + complément (personne) + to + base verbale\n\n• Forme affirmative :\n  Discours direct : \"Close the window,\" Nancy said to Tom.\n  Discours rapporté : Nancy told Tom to close the window.\n\n• Forme négative :\n  Discours direct : \"Don't be late,\" Nancy said to the students.\n  Discours rapporté : Nancy told the students not to be late.\n\nRemarques :\n– On n'utilise pas 'that' et on ne change pas le temps du verbe (contrairement au discours rapporté des phrases déclaratives), car l'infinitif reste invariable.\n– 'Ask' s'utilise plutôt pour une requête polie, 'tell' pour un ordre plus direct.\n– Il faut adapter les pronoms et les déterminants possessifs comme dans tout discours rapporté (my → her/his, your → their, etc.)."
+        },
+        {
+          "type": "tableau",
+          "titre": "Verbes introducteurs courants (reporting verbs)",
+          "entetes": ["Verbe", "Sens", "Exemple"],
+          "lignes": [
+            ["tell someone to...", "dire/ordonner de", "She told him to sit down."],
+            ["ask someone to...", "demander de", "He asked me to help him."],
+            ["order someone to...", "ordonner de", "The teacher ordered them to be quiet."],
+            ["advise someone to...", "conseiller de", "She advised us to study hard."],
+            ["warn someone not to...", "avertir de ne pas", "He warned her not to touch it."],
+            ["remind someone to...", "rappeler de", "I reminded him to bring his book."]
+          ]
+        },
+        {
+          "type": "exemple",
+          "contenu": "Exemples avec Nancy :\n1. Direct: \"Close the window, Tom,\" said Nancy.\n   Reported: Nancy told Tom to close the window.\n\n2. Direct: \"Please help me with this exercise,\" Nancy said to her classmate.\n   Reported: Nancy asked her classmate to help her with that exercise.\n\n3. Direct: \"Don't be late for class,\" Nancy said to the students.\n   Reported: Nancy told the students not to be late for class.\n\n4. Direct: \"Don't touch my book,\" Nancy said to her brother.\n   Reported: Nancy told her brother not to touch her book."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Mets les phrases suivantes au discours rapporté :\n1. \"Open your books,\" the teacher said to the students.\n2. \"Don't run in the corridor,\" the teacher said to the boys.\n3. \"Please lend me your pen,\" Nancy said to Rado.\n4. \"Don't shout,\" Nancy said to her little brother.\n5. \"Clean the board,\" the teacher said to the monitor.",
+          "solution": "1. The teacher told the students to open their books.\n2. The teacher told the boys not to run in the corridor.\n3. Nancy asked Rado to lend her his pen.\n4. Nancy told her little brother not to shout.\n5. The teacher told the monitor to clean the board."
+        }
+      ]
+    },
+    {
+      "id": "ang-2-3",
+      "titre": "Reporting famous quotes (commands)",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "On peut aussi rapporter des citations célèbres formulées à l'impératif, en appliquant la même règle que pour les ordres et requêtes : sujet + verbe introducteur + to/not to + base verbale."
+        },
+        {
+          "type": "lexique",
+          "mots": [
+            { "terme": "a quote", "traduction": "une citation" },
+            { "terme": "to encourage someone to...", "traduction": "encourager quelqu'un à..." },
+            { "terme": "to inspire", "traduction": "inspirer" },
+            { "terme": "a rainbow", "traduction": "un arc-en-ciel" },
+            { "terme": "a cloud", "traduction": "un nuage" },
+            { "terme": "to hope", "traduction": "espérer" }
+          ]
+        },
+        {
+          "type": "exemple",
+          "contenu": "Citation 1 — Maya Angelou :\nDirect : \"Try to be a rainbow in someone's cloud.\"\nReported : Maya Angelou encouraged people to try to be a rainbow in someone's cloud.\n(= Elle a encouragé les gens à essayer d'être un arc-en-ciel dans le nuage de quelqu'un, c'est-à-dire à apporter de la joie dans la vie de quelqu'un qui souffre.)\n\nCitation 2 — Albert Einstein :\nDirect : \"Learn from yesterday, live for today, hope for tomorrow.\"\nReported : Albert Einstein told people to learn from yesterday, to live for today and to hope for tomorrow.\n(= Il a dit aux gens d'apprendre du passé, de vivre le présent et d'espérer en l'avenir.)"
+        },
+        {
+          "type": "regle",
+          "titre": "Rapporter plusieurs ordres dans une même phrase",
+          "contenu": "Quand une citation contient plusieurs verbes à l'impératif reliés par une virgule, on répète 'to' devant chaque verbe au discours rapporté pour plus de clarté :\nEinstein told people to learn from yesterday, to live for today and to hope for tomorrow."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Rapporte les citations suivantes au discours rapporté en utilisant un verbe introducteur adapté (tell / advise / encourage) :\n1. \"Be the change you wish to see in the world.\" (Gandhi)\n2. \"Always dream big.\" (Anonymous)\n3. \"Don't give up.\" (Anonymous)\n4. \"Believe in yourself.\" (Anonymous)",
+          "solution": "1. Gandhi told people to be the change they wished to see in the world.\n2. He/She encouraged people to always dream big.\n3. He/She told people not to give up.\n4. He/She encouraged people to believe in themselves."
+        }
+      ]
+    }
+  ]
+}
