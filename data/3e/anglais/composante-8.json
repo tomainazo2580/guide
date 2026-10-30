@@ -1,116 +1,141 @@
 {
-  "id": "anglais-composante-8",
+  "id": "unit8",
   "titre": "Unit 8: Environment",
-  "premium": false,
   "lecons": [
     {
       "id": "ang-8-1",
-      "titre": "Environmental vocabulary",
+      "titre": "Environmental Vocabulary",
+      "lexique": [
+        {"terme": "pollution", "traduction": "pollution"},
+        {"terme": "deforestation", "traduction": "déforestation"},
+        {"terme": "climate change", "traduction": "changement climatique"},
+        {"terme": "global warming", "traduction": "réchauffement climatique"},
+        {"terme": "recycle", "traduction": "recycler"},
+        {"terme": "endangered species", "traduction": "espèce menacée"},
+        {"terme": "greenhouse gas", "traduction": "gaz à effet de serre"},
+        {"terme": "ecosystem", "traduction": "écosystème"},
+        {"terme": "waste", "traduction": "déchets"},
+        {"terme": "renewable energy", "traduction": "énergie renouvelable"},
+        {"terme": "drought", "traduction": "sécheresse"},
+        {"terme": "wildlife", "traduction": "faune sauvage"}
+      ],
       "blocs": [
         {
-          "type": "lexique",
-          "mots": [
-            { "terme": "erosion", "traduction": "érosion" },
-            { "terme": "deforestation", "traduction": "déforestation" },
-            { "terme": "land clearance", "traduction": "défrichement des terres" },
-            { "terme": "logging", "traduction": "exploitation forestière, coupe de bois" },
-            { "terme": "pollution", "traduction": "pollution" },
-            { "terme": "emissions", "traduction": "émissions (de gaz)" },
-            { "terme": "carbon footprint", "traduction": "empreinte carbone" },
-            { "terme": "global warming", "traduction": "réchauffement climatique" },
-            { "terme": "degradation", "traduction": "dégradation (de l'environnement)" },
-            { "terme": "to pollute", "traduction": "polluer" },
-            { "terme": "natural resources", "traduction": "ressources naturelles" },
-            { "terme": "endangered species", "traduction": "espèces menacées" },
-            { "terme": "to protect the environment", "traduction": "protéger l'environnement" },
-            { "terme": "renewable energy", "traduction": "énergie renouvelable" }
-          ]
+          "type": "definition",
+          "texte": "L'environnement fait face à de nombreuses menaces : la pollution, la déforestation (deforestation) et le changement climatique (climate change) sont parmi les plus graves."
         },
         {
-          "type": "definition",
-          "texte": "Madagascar, comme beaucoup de pays tropicaux, connaît généralement deux saisons principales : the dry season (la saison sèche) et the wet season / rainy season (la saison des pluies). Ces saisons influencent fortement l'agriculture et les problèmes environnementaux comme l'érosion."
+          "type": "regle",
+          "titre": "Principales causes des problèmes environnementaux",
+          "texte": "1) Deforestation : la destruction des forêts pour l'agriculture ou le bois. 2) Pollution : air, eau et sol pollués par les industries et les déchets. 3) Global warming : l'augmentation de la température de la Terre, causée par les gaz à effet de serre. 4) Overfishing and hunting : menaçant les espèces menacées (endangered species) et la faune sauvage (wildlife)."
         },
         {
           "type": "exemple",
-          "contenu": "1. Deforestation is one of the main causes of soil erosion in Madagascar.\n2. Factories release harmful emissions into the air, which increases global warming.\n3. We should reduce our carbon footprint by using renewable energy.\n4. Illegal logging destroys the habitat of many endangered species.\n5. During the dry season, many areas suffer from water shortages."
+          "texte": "In Madagascar, deforestation is a serious problem because many unique animal species, like lemurs, depend on the forest to survive. Pollution from factories and plastic waste also affects rivers and oceans, harming marine life. Climate change causes droughts in some regions, making it difficult for farmers to grow crops."
         },
         {
           "type": "exercice",
-          "enonce": "Complète les phrases avec le mot approprié parmi : deforestation / pollution / endangered species / global warming / renewable energy.\n1. ________ is causing temperatures to rise around the world.\n2. Cutting down too many trees leads to ________.\n3. Lemurs are among the ________ in Madagascar.\n4. Factories and cars are major causes of air ________.\n5. Solar and wind power are examples of ________.",
-          "solution": "1. Global warming\n2. deforestation\n3. endangered species\n4. pollution\n5. renewable energy"
+          "enonce": "Associe chaque problème environnemental à sa conséquence : 1) deforestation / 2) pollution / 3) climate change A) causes droughts and extreme weather B) destroys animal habitats C) harms rivers, oceans and marine life",
+          "solution": "1-B (deforestation destroys animal habitats). 2-C (pollution harms rivers, oceans and marine life). 3-A (climate change causes droughts and extreme weather)."
         }
       ]
     },
     {
       "id": "ang-8-2",
-      "titre": "Writing: Describing an environmental problem",
+      "titre": "Describing an Environmental Problem",
       "blocs": [
         {
           "type": "definition",
-          "texte": "Pour décrire un problème environnemental à l'écrit, il faut généralement : présenter le problème, en expliquer les causes, décrire ses conséquences, puis proposer des solutions."
-        },
-        {
-          "type": "tableau",
-          "titre": "Structure d'un texte décrivant un problème environnemental",
-          "entetes": ["Étape", "Expressions utiles"],
-          "lignes": [
-            ["Présenter le problème", "One of the biggest environmental problems is... / A major issue nowadays is..."],
-            ["Expliquer la cause", "This is mainly caused by... / This problem is due to..."],
-            ["Décrire les conséquences", "As a result,... / This leads to... / Consequently,..."],
-            ["Proposer une solution", "To solve this problem, we should... / One solution would be to..."]
-          ]
+          "texte": "Pour décrire un problème environnemental à l'écrit, il faut présenter le problème, ses causes, ses conséquences, et proposer des solutions."
         },
         {
           "type": "exemple",
-          "contenu": "Example text — Deforestation caused by palm oil production:\n\"One of the biggest environmental problems in the world today is deforestation caused by palm oil production. This is mainly caused by companies clearing large areas of tropical forest to plant palm trees, because palm oil is used in many everyday products like food, cosmetics and soap. As a result, many animals lose their natural habitat, and some species are now endangered. Deforestation also increases soil erosion and contributes to global warming, because fewer trees means less carbon dioxide is absorbed from the air. To solve this problem, we should support companies that use sustainable palm oil, plant more trees, and raise awareness about the products we buy. If more people chose sustainable products, fewer forests would be destroyed.\""
+          "titre": "Exemple : Palm oil production",
+          "texte": "Palm oil is used in many everyday products, such as food, cosmetics and soap. However, palm oil production has a serious environmental impact. To grow palm trees, large areas of tropical forest are cut down, which destroys the natural habitat of many animals, including orangutans. This deforestation also releases a large amount of carbon dioxide into the atmosphere, contributing to climate change. To reduce this problem, companies could use sustainable palm oil, which is produced without destroying forests, and consumers could choose products that use less palm oil."
         },
         {
           "type": "exercice",
-          "enonce": "En suivant la structure du tableau (problème / cause / conséquence / solution), rédige un court texte (5-6 phrases) décrivant un autre problème environnemental de ton choix (par exemple : la pollution plastique, l'érosion, ou le réchauffement climatique).",
-          "solution": "Modèle de réponse (pollution plastique) :\n\"One of the biggest environmental problems today is plastic pollution. This is mainly caused by the overuse of plastic bags and bottles, which are not properly recycled. As a result, plastic waste ends up in rivers and oceans, killing marine animals that mistake it for food. This also pollutes the water that people and animals depend on. To solve this problem, we should reduce our use of plastic, recycle more, and use reusable bags and bottles instead.\""
+          "enonce": "En t'inspirant du texte sur l'huile de palme, écris un court paragraphe (5 phrases minimum) décrivant un autre problème environnemental de ton choix (plastique, pêche excessive, pollution de l'air...), en suivant la structure : problème, causes, conséquences, solution.",
+          "solution": "Réponse modèle : Plastic pollution is a major environmental problem today. Plastic bags and bottles are used once and then thrown away. This waste often ends up in rivers and oceans, where it harms fish, turtles and birds. Over time, plastic breaks into tiny pieces called microplastics, which pollute the water we drink. To solve this problem, people could use reusable bags and bottles instead of single-use plastic."
         }
       ]
     },
     {
       "id": "ang-8-3",
-      "titre": "Grammar focus: If clause type 2 (environmental situations)",
+      "titre": "If Clause Type 2 (Environmental Hypotheses)",
       "blocs": [
         {
           "type": "definition",
-          "texte": "Rappel : la proposition conditionnelle de type 2 (if clause type 2) exprime une situation hypothétique ou imaginaire dans le présent, qui a peu de chances de se réaliser ou qui est contraire à la réalité actuelle."
+          "texte": "On peut utiliser le conditionnel de type 2 (if clause type 2) pour imaginer des situations hypothétiques liées à l'environnement et leurs conséquences imaginaires."
         },
         {
           "type": "regle",
-          "titre": "Formation",
-          "contenu": "If + sujet + prétérit (simple past), sujet + would/could/might + base verbale (V1)\n\nOn utilise souvent cette structure pour parler de solutions environnementales hypothétiques : si une condition irréelle ou peu probable était remplie, quelle en serait la conséquence."
+          "titre": "Rappel de la structure",
+          "texte": "If + sujet + prétérit, sujet + would + base verbale. Exemple : If people recycled more, there would be less waste."
         },
         {
           "type": "exemple",
-          "contenu": "1. If people planted more trees, there would be less erosion.\n2. If governments reduced carbon emissions, global warming would slow down.\n3. If we recycled more plastic, the oceans would be cleaner.\n4. If factories stopped polluting rivers, fish wouldn't die.\n5. If everyone used renewable energy, air pollution would decrease.\n6. If logging were banned in protected forests, endangered species would survive.\n7. If people used public transport more often, there would be fewer emissions.\n8. If we protected natural resources, future generations could enjoy them too.\n9. If I were the president, I would create stricter environmental laws."
+          "texte": "1) If we planted more trees, the air would be cleaner. 2) If people used less plastic, the oceans would be less polluted. 3) If factories reduced their emissions, climate change would slow down. 4) If everyone recycled their waste, there would be less pollution. 5) If governments protected forests, endangered species would survive. 6) If we used more renewable energy, we would produce less greenhouse gas. 7) If people stopped hunting wild animals, biodiversity would increase. 8) If cities had more green spaces, the air quality would improve. 9) If we wasted less water, there would be enough for everyone."
         },
         {
           "type": "exercice",
-          "enonce": "Mets les verbes entre parenthèses à la forme correcte (if clause type 2) :\n1. If people (stop) ________ cutting down trees, there would be less deforestation.\n2. If we (reduce) ________ our carbon footprint, the planet would be healthier.\n3. If the government (build) ________ more recycling centers, there would be less pollution.\n4. If I (have) ________ more money, I would support environmental projects.\n5. If everyone (protect) ________ endangered species, biodiversity would improve.",
-          "solution": "1. stopped\n2. reduced\n3. built\n4. had\n5. protected"
+          "enonce": "Complète ces phrases hypothétiques sur l'environnement : 1) If people ... (recycle) more, there ... (be) less waste. 2) If we ... (protect) the forests, animals ... (not/lose) their habitat. 3) If everyone ... (use) public transport, there ... (be) less pollution. 4) If factories ... (reduce) their waste, rivers ... (be) cleaner.",
+          "solution": "1) If people recycled more, there would be less waste. 2) If we protected the forests, animals would not lose their habitat. 3) If everyone used public transport, there would be less pollution. 4) If factories reduced their waste, rivers would be cleaner."
         }
       ]
     },
     {
       "id": "ang-8-4",
-      "titre": "Grammar focus: Verbs followed by gerund (-ing)",
+      "titre": "Verbs Followed by Gerund",
       "blocs": [
         {
           "type": "definition",
-          "texte": "Certains verbes et expressions sont toujours suivis d'un verbe en -ing (gerund), jamais d'un infinitif."
+          "texte": "Certains verbes sont toujours suivis d'un verbe en -ing (gerund), jamais de l'infinitif avec 'to'."
         },
         {
-          "type": "tableau",
-          "titre": "Verbes et expressions suivis du gérondif",
-          "entetes": ["Verbe / expression", "Exemple"],
-          "lignes": [
-            ["can't stand + V-ing", "He can't stand making speeches in public."],
-            ["enjoy + V-ing", "She enjoys recycling old objects."],
-            ["like / love + V-ing", "I like protecting the environment."],
-            ["dislike / hate + V-ing", "They hate wasting water."],
-            ["avoid + V-ing", "We should avoid using plastic bags."],
-            ["finish + V-ing", "Have you finished 
+          "type": "regle",
+          "titre": "Verbes suivis du gérondif",
+          "texte": "Verbes courants suivis du gérondif : enjoy, avoid, suggest, finish, mind, consider, recommend, imagine, practise, keep (on), stop. Exemple : We should avoid wasting water. / She suggested recycling more plastic. / He enjoys protecting the environment."
+        },
+        {
+          "type": "definition",
+          "titre": "Texte : Albert and Wendy Wedge",
+          "texte": "Albert and Wendy Wedge are two environmental activists who enjoy protecting nature. They avoid using plastic bags and always suggest recycling to their neighbours. Albert recommends planting trees in the local community, while Wendy practises reducing water waste at home. They have finished building a small community garden where they keep on teaching children about the importance of protecting the environment. They imagine creating a cleaner, greener town for future generations."
+        },
+        {
+          "type": "exercice",
+          "enonce": "D'après le texte, complète avec le verbe correct au gérondif : 1) Albert and Wendy enjoy ... (protect) nature. 2) They avoid ... (use) plastic bags. 3) Albert recommends ... (plant) trees. 4) Wendy practises ... (reduce) water waste.",
+          "solution": "1) protecting. 2) using. 3) planting. 4) reducing."
+        }
+      ]
+    },
+    {
+      "id": "ang-8-5",
+      "titre": "Personality Adjectives",
+      "lexique": [
+        {"terme": "patient", "traduction": "patient(e)"},
+        {"terme": "lazy", "traduction": "paresseux/paresseuse"},
+        {"terme": "optimistic", "traduction": "optimiste"},
+        {"terme": "pessimistic", "traduction": "pessimiste"},
+        {"terme": "superstitious", "traduction": "superstitieux/superstitieuse"},
+        {"terme": "greedy", "traduction": "avide, cupide"},
+        {"terme": "aggressive", "traduction": "agressif/agressive"}
+      ],
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Les adjectifs de personnalité décrivent le caractère d'une personne, ce qui peut aussi influencer son comportement envers l'environnement."
+        },
+        {
+          "type": "exemple",
+          "texte": "1) An optimistic person believes that environmental problems can be solved. 2) A pessimistic person thinks nothing can be done to stop climate change. 3) A greedy company might cut down forests just to make more money. 4) A patient teacher takes time to explain why recycling is important to her students."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Choisis l'adjectif de personnalité qui correspond le mieux à chaque comportement : 1) Someone who always believes things will get better for the environment. 2) Someone who destroys forests only to earn more money, without caring about consequences. 3) Someone who gets angry quickly when people don't recycle. 4) Someone who doesn't try to help the environment because they think it's useless.",
+          "solution": "1) optimistic. 2) greedy. 3) aggressive. 4) pessimistic (or lazy, depending on context)."
+        }
+      ]
+    }
+  ]
+}
