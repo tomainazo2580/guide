@@ -1,0 +1,69 @@
+{
+  "id": "anglais-composante-7",
+  "titre": "Unit 7: Jobs and Mass Media",
+  "premium": false,
+  "lecons": [
+    {
+      "id": "ang-7-1",
+      "titre": "Jobs vocabulary and jobs and gender",
+      "blocs": [
+        {
+          "type": "lexique",
+          "mots": [
+            { "terme": "an engineer", "traduction": "un ingénieur" },
+            { "terme": "a scientist", "traduction": "un scientifique" },
+            { "terme": "a police officer", "traduction": "un policier / une policière" },
+            { "terme": "a journalist", "traduction": "un/une journaliste" },
+            { "terme": "a gardener", "traduction": "un jardinier" },
+            { "terme": "an artist", "traduction": "un/une artiste" },
+            { "terme": "an actor / an actress", "traduction": "un acteur / une actrice" },
+            { "terme": "a programmer", "traduction": "un/une programmeur(euse)" },
+            { "terme": "a firefighter", "traduction": "un pompier" },
+            { "terme": "a cook", "traduction": "un cuisinier" },
+            { "terme": "a postman / a postwoman", "traduction": "un facteur / une factrice" },
+            { "terme": "a musician", "traduction": "un musicien" },
+            { "terme": "a singer", "traduction": "un chanteur / une chanteuse" },
+            { "terme": "a hairdresser", "traduction": "un coiffeur / une coiffeuse" },
+            { "terme": "a nurse", "traduction": "un infirmier / une infirmière" },
+            { "terme": "a doctor", "traduction": "un médecin" }
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Jobs and gender (le genre des noms de métiers)",
+          "contenu": "En anglais, la plupart des noms de métiers sont neutres (unisexes) et s'appliquent aux hommes comme aux femmes : a doctor, a nurse, a journalist, an engineer, a police officer, a firefighter, a postal worker.\n\nSeuls quelques noms de métiers ont une forme féminine distincte, bien que l'usage moderne tende à préférer les formes neutres :\n• actor / actress (acteur / actrice) → aujourd'hui 'actor' s'utilise souvent pour les deux genres.\n• postman / postwoman → la forme neutre 'postal worker' ou 'mail carrier' est recommandée.\n\nRemarque : 'policeman/policewoman' sont remplacés par 'police officer' ; 'fireman' par 'firefighter', dans l'anglais moderne, pour éviter toute distinction de genre inutile."
+        },
+        {
+          "type": "exemple",
+          "contenu": "1. My sister wants to be an engineer when she grows up.\n2. He works as a firefighter in the city center.\n3. She is a talented singer and musician.\n4. My uncle is a police officer."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Associe chaque description à la profession correspondante parmi : nurse / journalist / gardener / hairdresser / firefighter.\n1. This person takes care of plants and flowers in a garden.\n2. This person writes articles for newspapers or websites.\n3. This person cuts and styles people's hair.\n4. This person helps doctors take care of sick people.\n5. This person puts out fires and rescues people in danger.",
+          "solution": "1. gardener\n2. journalist\n3. hairdresser\n4. nurse\n5. firefighter"
+        }
+      ]
+    },
+    {
+      "id": "ang-7-2",
+      "titre": "Dialogue: Telephoning for a job interview",
+      "blocs": [
+        {
+          "type": "lexique",
+          "mots": [
+            { "terme": "a job interview", "traduction": "un entretien d'embauche" },
+            { "terme": "to apply for a job", "traduction": "postuler à un emploi" },
+            { "terme": "an applicant / a candidate", "traduction": "un candidat" },
+            { "terme": "available position / vacancy", "traduction": "poste à pourvoir" },
+            { "terme": "qualifications", "traduction": "qualifications" },
+            { "terme": "to hire / to recruit", "traduction": "embaucher"}
+          ]
+        },
+        {
+          "type": "exemple",
+          "contenu": "Dialogue — Telephoning for a job interview:\nSoa: Good morning, this is Soa calling about the job advertisement for a secretary position.\nNaivo: Good morning, Soa. Yes, the position is still available. Can you tell me a bit about your qualifications?\nSoa: I have a diploma in office administration and two years of experience as an assistant secretary.\nNaivo: That sounds great. Would you be available for an interview this Thursday at 10 a.m.?\nSoa: Yes, I would be available then.\nNaivo: Perfect. Please bring your CV and a copy of your diploma.\nSoa: Of course. Thank you very much for your time.\nNaivo: You're welcome, Soa. We look forward to meeting you."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Réponds aux questions sur le dialogue par des phrases complètes :\n1. Why is Soa calling?\n2. What are Soa's qualifications?\n3. When is the interview scheduled?\n4. What should Soa bring to the interview?",
+          "solution": "1. Soa is calling about the job advertisement for a secretary position.\n2. Soa has a diploma in office administration and two years of experience 
