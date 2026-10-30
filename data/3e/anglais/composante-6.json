@@ -1,103 +1,178 @@
 {
-  "id": "anglais-composante-6",
+  "id": "unit6",
   "titre": "Unit 6: Healthy Life",
-  "premium": false,
   "lecons": [
     {
       "id": "ang-6-1",
-      "titre": "Illness vocabulary and health idioms",
+      "titre": "Illness Vocabulary and Idioms",
+      "lexique": [
+        {"terme": "fever", "traduction": "fièvre"},
+        {"terme": "headache", "traduction": "mal de tête"},
+        {"terme": "stomach ache", "traduction": "mal de ventre"},
+        {"terme": "cough", "traduction": "toux"},
+        {"terme": "sore throat", "traduction": "mal de gorge"},
+        {"terme": "cold", "traduction": "rhume"},
+        {"terme": "flu", "traduction": "grippe"},
+        {"terme": "injury", "traduction": "blessure"},
+        {"terme": "to feel sick", "traduction": "se sentir malade"},
+        {"terme": "to recover", "traduction": "se rétablir"}
+      ],
       "blocs": [
         {
-          "type": "lexique",
-          "mots": [
-            { "terme": "a cold", "traduction": "un rhume" },
-            { "terme": "a cough", "traduction": "une toux" },
-            { "terme": "a fever", "traduction": "une fièvre" },
-            { "terme": "a sore throat", "traduction": "un mal de gorge" },
-            { "terme": "a headache", "traduction": "un mal de tête" },
-            { "terme": "a stomachache", "traduction": "un mal de ventre" },
-            { "terme": "a toothache", "traduction": "un mal de dents" },
-            { "terme": "an earache", "traduction": "un mal d'oreille" },
-            { "terme": "a cramp", "traduction": "une crampe" },
-            { "terme": "to feel sick", "traduction": "se sentir malade" },
-            { "terme": "to catch a cold", "traduction": "attraper un rhume" },
-            { "terme": "to recover", "traduction": "guérir, se rétablir" }
-          ]
-        },
-        {
-          "type": "regle",
-          "titre": "Structure 'to be good for'",
-          "contenu": "On utilise 'to be good for' + nom/pronom pour dire que quelque chose est bénéfique pour la santé (et 'to be bad for' pour l'inverse).\n  Exemple : Exercise is good for your health.\n  Exemple : Smoking is bad for your lungs.\n  Exemple : Vegetables are good for you."
+          "type": "definition",
+          "texte": "On utilise un vocabulaire spécifique pour décrire les maladies et les symptômes. L'anglais utilise aussi des expressions idiomatiques (idioms) liées à la santé."
         },
         {
           "type": "tableau",
-          "titre": "Idiomes liés à la santé (health idioms)",
-          "entetes": ["Idiome", "Signification"],
+          "titre": "Expressions idiomatiques sur la santé",
+          "entetes": ["Expression", "Sens"],
           "lignes": [
-            ["to be as fit as a fiddle", "être en pleine forme"],
-            ["to feel under the weather", "ne pas se sentir bien"],
+            ["to feel under the weather", "se sentir mal, patraque"],
             ["to be on the mend", "être en voie de guérison"],
-            ["an apple a day keeps the doctor away", "une pomme par jour éloigne le médecin"],
-            ["to be out of shape", "ne pas être en forme physique"],
-            ["to catch your breath", "reprendre son souffle"]
+            ["to catch a cold", "attraper un rhume"],
+            ["as fit as a fiddle", "en pleine forme"],
+            ["to be sick as a dog", "être très malade"],
+            ["to fight off an illness", "combattre une maladie"]
           ]
         },
         {
           "type": "exemple",
-          "contenu": "1. I have a terrible headache and a sore throat today.\n2. She is feeling under the weather, so she stayed home.\n3. Fruits and vegetables are good for your immune system.\n4. After two weeks of rest, he is finally on the mend.\n5. Fast food is bad for your health if you eat it too often."
+          "texte": "1) I'm feeling a bit under the weather today, I think I caught a cold. 2) She was sick as a dog last week, but now she's on the mend. 3) After two weeks of rest, he is as fit as a fiddle again."
         },
         {
           "type": "exercice",
-          "enonce": "Complète les phrases avec le mot de vocabulaire ou l'idiome approprié :\n1. I ate too much candy and now I have a terrible ________ (mal de ventre).\n2. Exercise ________ (est bon pour) your heart.\n3. He didn't sleep well and now he feels ________ (pas bien, idiome).\n4. She has a ________ (mal de dents) and needs to see a dentist.\n5. After being sick for a week, she is finally ________ (en voie de guérison).",
-          "solution": "1. stomachache\n2. is good for\n3. under the weather\n4. toothache\n5. on the mend"
+          "enonce": "Remplace les mots soulignés par une expression idiomatique équivalente : 1) I feel quite unwell today. 2) He is recovering well after his operation. 3) She is in excellent health after her holiday.",
+          "solution": "1) I feel under the weather today. 2) He is on the mend after his operation. 3) She is as fit as a fiddle after her holiday."
         }
       ]
     },
     {
       "id": "ang-6-2",
-      "titre": "Modern vs traditional medicine",
+      "titre": "Modern vs Traditional Medicine",
       "blocs": [
         {
-          "type": "lexique",
-          "mots": [
-            { "terme": "modern medicine", "traduction": "médecine moderne" },
-            { "terme": "traditional medicine", "traduction": "médecine traditionnelle" },
-            { "terme": "a remedy", "traduction": "un remède" },
-            { "terme": "medicinal plants", "traduction": "plantes médicinales" },
-            { "terme": "a healer", "traduction": "un guérisseur" },
-            { "terme": "a prescription", "traduction": "une ordonnance" },
-            { "terme": "effective", "traduction": "efficace" }
-          ]
+          "type": "definition",
+          "texte": "La médecine moderne (modern medicine) utilise des médicaments et des technologies scientifiques, tandis que la médecine traditionnelle (traditional medicine) utilise des plantes et des remèdes transmis de génération en génération."
         },
         {
-          "type": "exemple",
-          "contenu": "Text — Modern vs Traditional Medicine:\n\"In many countries, people use both modern and traditional medicine to treat illnesses. Modern medicine relies on scientific research, hospitals, and prescribed drugs. Doctors use machines and laboratory tests to diagnose diseases accurately. Traditional medicine, on the other hand, uses natural remedies such as medicinal plants and has been passed down from generation to generation. Many people trust traditional healers because their remedies are often cheaper and more accessible, especially in rural areas. However, some traditional remedies have not been scientifically proven to be effective. Nowadays, many people believe that combining both types of medicine gives the best results: using modern medicine for serious diseases, and traditional remedies for minor illnesses like a cold or a stomachache.\""
+          "type": "definition",
+          "titre": "Texte : Two approaches to health",
+          "texte": "In Madagascar, many people use both modern and traditional medicine. When someone has a common illness, like a cold or a stomach ache, they often use traditional remedies first, such as herbal teas made from local plants. However, for more serious illnesses, people usually go to a hospital and see a doctor, who can use modern equipment and medicine to diagnose and treat the problem. Some people believe traditional medicine is gentler and has fewer side effects, while others trust modern medicine because it is based on scientific research. Both approaches have advantages, and many families combine them depending on the situation."
         },
         {
           "type": "exercice",
-          "enonce": "Réponds aux questions sur le texte par des phrases complètes :\n1. What does modern medicine rely on?\n2. Why do many people trust traditional healers?\n3. What is one disadvantage of traditional medicine mentioned in the text?\n4. According to the text, what do many people believe about combining both types of medicine?",
-          "solution": "1. Modern medicine relies on scientific research, hospitals, and prescribed drugs.\n2. Many people trust traditional healers because their remedies are often cheaper and more accessible, especially in rural areas.\n3. Some traditional remedies have not been scientifically proven to be effective.\n4. Many people believe that combining both types of medicine gives the best results."
+          "enonce": "D'après le texte, réponds aux questions : 1) What do people often use first for common illnesses? 2) Where do people go for more serious illnesses? 3) Why do some people prefer traditional medicine? 4) Why do others trust modern medicine?",
+          "solution": "1) They often use traditional remedies, such as herbal teas. 2) They go to a hospital and see a doctor. 3) Because they believe it is gentler and has fewer side effects. 4) Because it is based on scientific research."
         }
       ]
     },
     {
       "id": "ang-6-3",
-      "titre": "Agreement, disagreement and partial agreement",
+      "titre": "Agreement, Disagreement and Partial Agreement",
       "blocs": [
         {
           "type": "definition",
-          "texte": "Pour exprimer son opinion face à l'opinion d'une autre personne, on peut être d'accord (agreement), en désaccord (disagreement), ou partiellement d'accord (partial agreement)."
+          "texte": "En anglais, il existe des expressions spécifiques pour exprimer son accord total, son désaccord, ou un accord partiel avec une opinion."
         },
         {
           "type": "tableau",
-          "titre": "Expressions d'accord, de désaccord et d'accord partiel",
-          "entetes": ["Fonction", "Expressions"],
+          "titre": "Expressions d'accord et de désaccord",
+          "entetes": ["Catégorie", "Expressions"],
           "lignes": [
-            ["Agreement (accord)", "I agree. / I totally agree. / That's true. / Exactly! / I think so too. / You're right."],
-            ["Disagreement (désaccord)", "I disagree. / I don't think so. / I'm afraid I disagree. / That's not quite right. / I don't agree with you."],
-            ["Partial agreement (accord partiel)", "I see your point, but... / That's true, however... / I agree to some extent, but... / Yes, but on the other hand..."]
+            ["Accord total", "I completely agree. / I totally agree. / That's exactly right. / Absolutely."],
+            ["Désaccord", "I disagree. / I don't think so. / I'm afraid I disagree. / That's not quite right."],
+            ["Accord partiel", "I partly agree, but... / That's true, however... / I see your point, but... / Yes, but on the other hand..."]
           ]
         },
         {
           "type": "exemple",
-          "contenu": "1. A: Traditional medicine is better than modern medicine. B: I disagree, I think both have their advantages.\n2. A: Junk food is bad for your 
+          "texte": "1) A: Traditional medicine is always better than modern medicine. B: I disagree. Modern medicine has saved many lives thanks to scientific research. 2) A: Exercise is important for good health. B: I completely agree, it keeps the body strong. 3) A: Junk food is not dangerous if eaten occasionally. B: I partly agree, but it should still be limited."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Réagis à ces opinions en exprimant un accord total, un désaccord, ou un accord partiel (au choix) : 1) 'Sleeping 8 hours a night is essential for good health.' 2) 'You should never visit a doctor unless you are seriously ill.' 3) 'Drinking enough water every day improves health.'",
+          "solution": "Réponses modèles : 1) I completely agree, sleep is very important for the body. 2) I disagree, regular check-ups can prevent serious illnesses. 3) I totally agree, water helps the body function properly."
+        }
+      ]
+    },
+    {
+      "id": "ang-6-4",
+      "titre": "Healthy Lifestyle Tips",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Un mode de vie sain repose sur plusieurs habitudes simples à adopter au quotidien."
+        },
+        {
+          "type": "regle",
+          "titre": "Conseils pour un mode de vie sain",
+          "texte": "1) Eat a balanced diet with fruits and vegetables. 2) Drink plenty of water every day. 3) Exercise regularly, at least 30 minutes a day. 4) Sleep at least 8 hours a night. 5) Avoid smoking and excessive alcohol. 6) Wash your hands regularly to prevent illness. 7) Manage stress through relaxation or hobbies."
+        },
+        {
+          "type": "exemple",
+          "texte": "You should drink at least two litres of water a day. You should also try to walk or exercise every day, even for a short time. You shouldn't skip meals, and you shouldn't stay up too late at night, because sleep is essential for your body to recover."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Écris 5 conseils (avec should/shouldn't) pour aider un ami à adopter un mode de vie plus sain.",
+          "solution": "Réponse modèle : 1) You should eat more fruits and vegetables. 2) You should exercise at least three times a week. 3) You shouldn't eat too much junk food. 4) You should sleep at least 8 hours a night. 5) You shouldn't skip breakfast."
+        }
+      ]
+    },
+    {
+      "id": "ang-6-5",
+      "titre": "Relative Pronouns",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Les pronoms relatifs permettent de relier deux phrases en évitant de répéter un nom. Ils introduisent une proposition relative qui donne plus d'informations sur ce nom."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les pronoms relatifs",
+          "entetes": ["Pronom", "Utilisation", "Exemple"],
+          "lignes": [
+            ["who", "pour les personnes (sujet)", "The doctor who treated me was very kind."],
+            ["which", "pour les choses/animaux", "The medicine which I took worked well."],
+            ["that", "pour personnes ou choses (familier)", "The nurse that helped me was friendly."],
+            ["whose", "pour la possession", "The patient whose leg was broken is better now."],
+            ["whom", "pour les personnes (complément, formel)", "The doctor whom I saw yesterday is excellent."]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "1) This is the hospital which treats children. 2) I know a doctor who specializes in traditional medicine. 3) The woman whose son is sick is waiting at the pharmacy. 4) He is the specialist whom everyone recommends."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Complète avec le pronom relatif correct (who, which, whose, that, whom) : 1) The nurse ... helped me was very patient. 2) This is the medicine ... cured my headache. 3) I met a woman ... brother is a famous doctor. 4) He is the doctor ... I trust the most.",
+          "solution": "1) who/that. 2) which/that. 3) whose. 4) whom/who/that."
+        }
+      ]
+    },
+    {
+      "id": "ang-6-6",
+      "titre": "If Clause Type 2 (Hypothetical Situations)",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "La proposition conditionnelle de type 2 (if clause type 2) sert à exprimer une situation hypothétique, imaginaire ou peu probable dans le présent/futur, et sa conséquence imaginaire."
+        },
+        {
+          "type": "regle",
+          "titre": "Structure du conditionnel type 2",
+          "texte": "If + sujet + prétérit, sujet + would + base verbale. Exemple : If I were sick, I would see a doctor. Remarque : avec le verbe 'to be', on utilise 'were' pour tous les sujets (même I/he/she/it) dans un style soutenu, même si 'was' est parfois accepté à l'oral."
+        },
+        {
+          "type": "exemple",
+          "texte": "1) If I ate more vegetables, I would be healthier. 2) If she exercised regularly, she wouldn't feel tired all the time. 3) If we had more doctors in rural areas, people would get better healthcare. 4) If he stopped smoking, his health would improve."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Complète ces phrases hypothétiques avec le conditionnel type 2 : 1) If I ... (be) you, I ... (see) a doctor immediately. 2) If she ... (drink) more water, she ... (feel) better. 3) If they ... (eat) healthier food, they ... (not/be) overweight. 4) If we ... (have) a hospital nearby, it ... (be) easier to get treatment.",
+          "solution": "1) If I were you, I would see a doctor immediately. 2) If she drank more water, she would feel better. 3) If they ate healthier food, they would not be overweight. 4) If we had a hospital nearby, it would be easier to get treatment."
+        }
+      ]
+    }
+  ]
+}
