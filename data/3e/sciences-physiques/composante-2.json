@@ -1,0 +1,84 @@
+{
+  "id": "theme2",
+  "titre": "Thématique 2 : Électricité et Magnétisme",
+  "lecons": [
+    {
+      "id": "sp-2-1",
+      "titre": "Conducteur ohmique et loi d'Ohm",
+      "blocs": [
+        { "type": "definition", "texte": "Un dipôle est un composant électrique possédant deux bornes. Un conducteur ohmique (ou résistor) est un dipôle qui s'oppose au passage du courant électrique. Il est caractérisé par sa résistance électrique, notée R, qui s'exprime en ohms (symbole Ω). Son symbole normalisé est un rectangle relié à deux fils." },
+        { "type": "exemple", "texte": "Schéma du montage pour étudier un conducteur ohmique :\n- Un générateur alimente le circuit.\n- Un ampèremètre (A) est branché en série dans le circuit : il mesure l'intensité I du courant qui traverse le conducteur ohmique.\n- Un voltmètre (V) est branché en dérivation (en parallèle) directement aux bornes du conducteur ohmique : il mesure la tension U à ses bornes.\nLe circuit complet forme donc une boucle : générateur → ampèremètre → conducteur ohmique → retour au générateur, avec le voltmètre connecté en parallèle sur le conducteur ohmique." },
+        { "type": "methode", "texte": "Pour tracer la caractéristique U = f(I) d'un conducteur ohmique :\n1. Réaliser le montage avec un générateur réglable (ou un rhéostat).\n2. Faire varier progressivement l'intensité I du courant.\n3. Relever à chaque fois la valeur de U et la valeur de I correspondante.\n4. Reporter les couples de valeurs (I, U) sur un graphique, avec I en abscisse et U en ordonnée.\n5. Tracer la courbe passant au mieux par les points obtenus." },
+        { "type": "regle", "texte": "La caractéristique U = f(I) d'un conducteur ohmique est une droite qui passe par l'origine du repère. Cela signifie que la tension U est proportionnelle à l'intensité I : c'est la loi d'Ohm. On dit que le conducteur ohmique est un dipôle linéaire." },
+        { "type": "formule", "texte": "Loi d'Ohm : U = R × I\n- U : tension aux bornes du conducteur ohmique, en volts (V)\n- R : résistance du conducteur ohmique, en ohms (Ω)\n- I : intensité du courant qui le traverse, en ampères (A)" },
+        { "type": "formule", "texte": "Méthode graphique : la résistance R correspond au coefficient directeur (la pente) de la droite U = f(I) :\nR = ΔU / ΔI\noù ΔU et ΔI sont les variations de U et de I lues sur le graphique." },
+        { "type": "exemple", "texte": "Si un conducteur ohmique est traversé par un courant d'intensité I = 0,5 A et que la tension mesurée à ses bornes est U = 6 V, alors sa résistance vaut :\nR = U / I = 6 / 0,5 = 12 Ω" },
+        { "type": "exercice", "enonce": "Un conducteur ohmique de résistance R = 220 Ω est parcouru par un courant d'intensité I = 0,2 A. Calculer la tension U à ses bornes.", "solution": "D'après la loi d'Ohm : U = R × I = 220 × 0,2 = 44 V." }
+      ]
+    },
+    {
+      "id": "sp-2-2",
+      "titre": "Résistance équivalente",
+      "blocs": [
+        { "type": "definition", "texte": "Lorsque plusieurs conducteurs ohmiques sont associés dans un circuit, on peut les remplacer par un seul conducteur ohmique qui produirait le même effet sur le circuit : on l'appelle résistance équivalente, notée Réq." },
+        { "type": "exemple", "texte": "Schéma d'un circuit série :\nLe générateur, l'interrupteur et les conducteurs ohmiques R1 et R2 sont placés les uns à la suite des autres, sur un seul et même chemin, formant une seule boucle : générateur → R1 → R2 → retour au générateur. Il n'y a qu'un seul chemin possible pour le courant : c'est un montage en série." },
+        { "type": "regle", "texte": "Dans un circuit série :\n- L'intensité du courant est la même en tout point du circuit : I = I1 = I2\n- La tension totale aux bornes de l'ensemble est égale à la somme des tensions aux bornes de chaque conducteur ohmique : U = U1 + U2\n- La résistance équivalente est égale à la somme des résistances : Réq = R1 + R2 + ... + Rn" },
+        { "type": "exemple", "texte": "Schéma d'un circuit en dérivation (parallèle) :\nLe générateur alimente deux nœuds A et B. Entre ces deux mêmes nœuds A et B sont branchées deux branches distinctes : une branche contient R1, l'autre branche contient R2. Le courant se partage entre les deux branches avant de se rejoindre : c'est un montage en dérivation (ou en parallèle)." },
+        { "type": "regle", "texte": "Dans un circuit en dérivation (parallèle) :\n- La tension est la même aux bornes de chaque branche : U = U1 = U2\n- L'intensité totale délivrée par le générateur est égale à la somme des intensités dans chaque branche : I = I1 + I2\n- L'inverse de la résistance équivalente est égal à la somme des inverses des résistances : 1/Réq = 1/R1 + 1/R2 + ... + 1/Rn" },
+        { "type": "formule", "texte": "Cas particulier de deux résistances en parallèle :\nRéq = (R1 × R2) / (R1 + R2)" },
+        { "type": "remarque", "texte": "Conséquence importante : la résistance équivalente d'une association en série est toujours plus grande que chacune des résistances prises séparément. Au contraire, la résistance équivalente d'une association en parallèle est toujours plus petite que la plus petite des résistances associées." },
+        { "type": "exercice", "enonce": "Deux conducteurs ohmiques R1 = 10 Ω et R2 = 15 Ω sont associés en série, puis dans un deuxième montage en parallèle. Calculer la résistance équivalente dans chaque cas.", "solution": "En série : Réq = R1 + R2 = 10 + 15 = 25 Ω.\nEn parallèle : Réq = (R1 × R2)/(R1 + R2) = (10 × 15)/(10 + 15) = 150/25 = 6 Ω." }
+      ]
+    },
+    {
+      "id": "sp-2-3",
+      "titre": "Les bornes d'une prise de courant",
+      "blocs": [
+        { "type": "definition", "texte": "Une prise de courant permet de brancher un appareil électrique au réseau de distribution électrique. Elle comporte plusieurs bornes (ou broches) qui ne jouent pas toutes le même rôle." },
+        { "type": "exemple", "texte": "Schéma d'une prise de courant domestique (vue de face) :\n- Une borne correspond au fil de phase (notée Ph ou L), qui apporte la tension électrique depuis le réseau.\n- Une borne correspond au fil neutre (noté N), qui ramène le courant vers le réseau.\n- Une broche (souvent au centre ou sur le côté selon le modèle de prise) correspond au fil de terre, relié au sol pour la sécurité." },
+        { "type": "regle", "texte": "Codes de couleur normalisés des fils électriques :\n- Phase : fil marron (parfois noir ou rouge)\n- Neutre : fil bleu\n- Terre : fil vert et jaune (toujours ces deux couleurs ensemble)" },
+        { "type": "methode", "texte": "Un tournevis-testeur permet d'identifier le fil de phase : lorsqu'on touche la borne avec la pointe du tournevis-testeur (en touchant aussi le bout métallique de son manche avec le doigt), une petite lampe intégrée s'allume uniquement si c'est la borne de phase." },
+        { "type": "remarque", "texte": "À Madagascar, comme dans de nombreux pays, la tension efficace du secteur entre la phase et le neutre est d'environ 220 V, en courant alternatif, avec une fréquence de 50 Hz." },
+        { "type": "remarque", "texte": "Consigne de sécurité : il ne faut jamais toucher les bornes d'une prise de courant à mains nues ou avec un objet métallique non isolé, même lorsqu'on pense que le courant est coupé." },
+        { "type": "exercice", "enonce": "En touchant une des deux bornes d'une prise de courant avec un tournevis-testeur, la lampe du testeur s'allume. De quelle borne s'agit-il ? Quelle est la couleur habituelle du fil correspondant ?", "solution": "La lampe du tournevis-testeur ne s'allume que lorsqu'on touche la borne de phase. Le fil correspondant à la phase est habituellement de couleur marron (parfois noir ou rouge)." }
+      ]
+    },
+    {
+      "id": "sp-2-4",
+      "titre": "Installation électrique domestique",
+      "blocs": [
+        { "type": "definition", "texte": "Une installation électrique domestique est l'ensemble des équipements qui permettent d'acheminer l'électricité du réseau de distribution jusqu'aux appareils de la maison, en toute sécurité." },
+        { "type": "exemple", "texte": "Schéma simplifié d'une installation électrique domestique :\nRéseau de distribution électrique → Compteur électrique → Disjoncteur général → Tableau de répartition → plusieurs circuits spécialisés (éclairage, prises de courant, gros électroménager comme une cuisinière ou un chauffe-eau).\nChaque circuit spécialisé part du tableau de répartition et est protégé individuellement avant d'alimenter les appareils correspondants." },
+        { "type": "tableau", "titre": "Rôle des éléments d'une installation électrique", "entetes": ["Élément", "Rôle"], "lignes": [["Compteur électrique", "Mesure la quantité d'énergie électrique consommée par le logement"], ["Disjoncteur général", "Coupe l'alimentation de toute l'installation en cas de surcharge générale ou de danger"], ["Tableau de répartition", "Répartit l'électricité vers les différents circuits de la maison"], ["Disjoncteur divisionnaire (ou fusible)", "Protège un circuit particulier (éclairage, prises...) contre les surintensités"], ["Fil de terre", "Évacue les fuites de courant vers le sol pour éviter les électrocutions"]] },
+        { "type": "remarque", "texte": "Dans le câblage domestique, on retrouve les mêmes codes de couleur que pour les prises de courant : phase (marron), neutre (bleu), terre (vert et jaune)." },
+        { "type": "regle", "texte": "Toute installation électrique domestique doit être reliée à la terre pour des raisons de sécurité : en cas de défaut d'isolement, le courant est évacué vers le sol plutôt que de traverser une personne qui toucherait un appareil défectueux." },
+        { "type": "exercice", "enonce": "Dans une maison, un court-circuit se produit dans le circuit d'éclairage d'une seule pièce. Pourquoi, normalement, seule l'alimentation de cette pièce est coupée, et non celle de toute la maison ?", "solution": "Chaque circuit (éclairage, prises...) est protégé individuellement par son propre disjoncteur divisionnaire (ou fusible) au niveau du tableau de répartition. En cas de court-circuit dans un seul circuit, seul le disjoncteur divisionnaire correspondant à ce circuit se déclenche, ce qui coupe uniquement ce circuit et préserve l'alimentation des autres pièces." }
+      ]
+    },
+    {
+      "id": "sp-2-5",
+      "titre": "Puissance et énergie électrique consommée",
+      "blocs": [
+        { "type": "definition", "texte": "La puissance électrique d'un appareil représente la quantité d'énergie électrique qu'il consomme (ou qu'il fournit) chaque seconde. Elle s'exprime en watts (symbole W)." },
+        { "type": "formule", "texte": "Puissance électrique : P = U × I\n- P : puissance, en watts (W)\n- U : tension aux bornes de l'appareil, en volts (V)\n- I : intensité du courant qui le traverse, en ampères (A)" },
+        { "type": "definition", "texte": "Les caractéristiques nominales d'un appareil (tension nominale, intensité nominale, puissance nominale) sont indiquées par le fabricant sur une plaque signalétique fixée sur l'appareil. Elles correspondent aux valeurs de fonctionnement normal de l'appareil." },
+        { "type": "formule", "texte": "Lorsque plusieurs appareils fonctionnent en même temps, branchés en dérivation sur le secteur, la puissance électrique totale appelée est égale à la somme des puissances de chaque appareil :\nPt = P1 + P2 + ... + Pn" },
+        { "type": "formule", "texte": "Énergie électrique consommée : E = P × t\n- E : énergie consommée, en joules (J) si t est en secondes, ou en wattheures (Wh) si t est en heures\n- P : puissance de l'appareil, en watts (W)\n- t : durée de fonctionnement\nUnité pratique utilisée par les compagnies d'électricité : le kilowattheure (kWh), avec 1 kWh = 1000 Wh." },
+        { "type": "exemple", "texte": "Calcul d'une facture d'électricité : un appareil de puissance P = 1000 W (soit 1 kW) fonctionne pendant 5 heures par jour durant 30 jours.\nÉnergie consommée : E = P × t = 1 kW × (5 × 30) h = 1 × 150 = 150 kWh.\nSi le prix du kWh est de 500 Ariary, le coût de fonctionnement de cet appareil sur le mois est de : 150 × 500 = 75 000 Ariary." },
+        { "type": "exercice", "enonce": "Un fer à repasser a pour caractéristiques nominales 220 V et 5 A. Calculer sa puissance nominale. S'il fonctionne pendant 2 heures, calculer l'énergie électrique consommée en Wh.", "solution": "Puissance : P = U × I = 220 × 5 = 1100 W.\nÉnergie : E = P × t = 1100 × 2 = 2200 Wh, soit 2,2 kWh." }
+      ]
+    },
+    {
+      "id": "sp-2-6",
+      "titre": "Règles de sécurité électrique",
+      "blocs": [
+        { "type": "definition", "texte": "Le courant électrique peut être dangereux pour les personnes (risque d'électrisation ou d'électrocution) et pour les biens (risque d'incendie en cas de court-circuit ou de surchauffe des fils)." },
+        { "type": "regle", "texte": "Le disjoncteur différentiel surveille en permanence l'équilibre entre le courant qui entre (par la phase) et le courant qui ressort (par le neutre) d'une installation. S'il détecte une différence (signe qu'une partie du courant s'échappe, par exemple à travers une personne ou un défaut d'isolement), il coupe immédiatement l'alimentation électrique." },
+        { "type": "regle", "texte": "Le fil de terre relie les parties métalliques des appareils électriques au sol. En cas de défaut d'isolement dans un appareil, le courant est dévié vers la terre plutôt que de traverser une personne qui toucherait l'appareil, ce qui déclenche aussi le disjoncteur différentiel." },
+        { "type": "regle", "texte": "Les fusibles et les disjoncteurs divisionnaires protègent les circuits contre les surintensités (trop fort courant) et les courts-circuits, en coupant automatiquement le circuit concerné avant que les fils ne chauffent dangereusement, ce qui évite les risques d'incendie." },
+        { "type": "remarque", "texte": "Quelques consignes pratiques de sécurité électrique :\n- Ne jamais toucher un appareil électrique ou une prise avec les mains mouillées.\n- Ne pas surcharger une prise multiple en branchant trop d'appareils à la fois.\n- Toujours couper le courant au disjoncteur général avant toute intervention sur une installation électrique.\n- Faire appel à un professionnel qualifié pour les réparations ou modifications d'une installation électrique.\n- Ne jamais utiliser un appareil électrique dont le fil est abîmé ou dénudé." },
+        { "type": "exercice", "enonce": "Expliquer pourquoi il est dangereux de réparer soi-même une prise de courant sans avoir coupé le disjoncteur général au préalable.", "solution": "Tant que le disjoncteur général n'est pas coupé, les fils de la prise restent sous tension électrique (environ 220 V). Toucher un fil ou une borne sous tension, même brièvement, peut provoquer une électrisation ou une électrocution grave, car le corps humain est conducteur du courant électrique. Couper le disjoncteur général supprime ce risque en interrompant l'alimentation avant toute intervention." }
+      ]
+    }
+  ]
+}
