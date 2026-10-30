@@ -289,32 +289,32 @@ body[data-theme="sombre"] .btn-danger { background-color: #4a2424; color: #fca5a
 .nav-icone { font-size: 20px; }
 .nav-texte { font-size: 11px; }
 
-/* ---------- NOTES PERSONNELLES (bloc-notes libre) ---------- */
+/* ---------- NOTES PERSONNELLES (bloc-notes libre, version compacte) ---------- */
 .bloc-notes-perso {
   background-color: var(--bg-carte);
   border: 1px solid var(--bordure);
   border-radius: 12px;
-  padding: 14px 16px;
-  margin-bottom: 20px;
+  padding: 12px 14px;
+  margin-bottom: 12px;
 }
 .label-notes-perso {
   display: block;
-  font-size: 13.5px;
+  font-size: 13px;
   font-weight: 600;
   color: var(--texte-secondaire);
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 .textarea-notes-perso {
   width: 100%;
   resize: vertical;
-  min-height: 140px;
-  padding: 12px;
+  min-height: 80px;
+  padding: 10px;
   border: 2px solid var(--bordure);
   border-radius: 10px;
   background-color: var(--bg);
   color: var(--texte);
   font-family: inherit;
-  font-size: 14.5px;
+  font-size: 14px;
   line-height: 1.5;
 }
 .textarea-notes-perso:focus {
@@ -322,11 +322,11 @@ body[data-theme="sombre"] .btn-danger { background-color: #4a2424; color: #fca5a
   border-color: var(--primaire);
 }
 .statut-sauvegarde-notes {
-  min-height: 18px;
-  font-size: 12.5px;
+  min-height: 16px;
+  font-size: 12px;
   font-weight: 600;
   color: var(--texte-secondaire);
-  margin-top: 6px;
+  margin-top: 4px;
   text-align: right;
 }
 .statut-sauvegarde-notes.succes {
@@ -336,8 +336,9 @@ body[data-theme="sombre"] .statut-sauvegarde-notes.succes {
   color: #4ade80;
 }
 .notes-section-titre {
-  font-size: 15.5px;
+  font-size: 15px;
   font-weight: 700;
   color: var(--primaire);
-  margin-bottom: 10px;
+  margin-bottom: 8px;
+  margin-top: 2px;
 }
