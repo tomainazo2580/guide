@@ -1,0 +1,181 @@
+{
+  "matiere": "Anglais",
+  "chapitres": [
+    {
+      "id": "exo-unit1-personal-communication",
+      "titre": "Unit 1: Personal Communication",
+      "exercices": [
+        {
+          "enonce": "🟢 Niveau Facile\n\nComplète avec la forme correcte du verbe entre parenthèses (base + ing) :\n1. I enjoy (read) ________ books.\n2. She likes (dance) ________ at parties.",
+          "solution": "1. reading\n2. dancing"
+        },
+        {
+          "enonce": "🟡 Niveau Moyen\n\nTransforme ces phrases en utilisant 'would rather' pour exprimer une préférence :\n1. I prefer tea to coffee. → I would rather ________.\n2. She prefers staying home to going out. → She would rather ________.",
+          "solution": "1. I would rather have tea than coffee.\n2. She would rather stay home than go out."
+        },
+        {
+          "enonce": "🟠 Niveau Difficile\n\nRéponds aux questions personnelles suivantes par des phrases complètes, en utilisant 'going to' pour parler de projets futurs :\n1. What are you going to do this weekend?\n2. Where are you going to go on your next vacation?",
+          "solution": "Exemple de réponses (réponses personnelles acceptées si la structure 'going to' est correcte) :\n1. I am going to visit my grandmother this weekend.\n2. I am going to go to Nosy Be on my next vacation."
+        },
+        {
+          "enonce": "🔴 Niveau Expert (BEPC)\n\nRédige un court dialogue (4 à 6 répliques) entre deux amis qui discutent de leurs préférences alimentaires (food preferences) avant d'aller au restaurant, en utilisant : une expression de préférence (like/prefer/would rather), un verbe + gerund, et le mot de liaison 'because'.",
+          "solution": "Exemple de réponse :\nA: What would you like to eat tonight?\nB: I would rather eat pizza than rice, because I love cheese.\nA: Really? I prefer eating rice because it's healthier.\nB: That's true, but pizza tastes so good! Let's go to the Italian restaurant.\nA: Okay, I enjoy trying new restaurants anyway."
+        }
+      ]
+    },
+    {
+      "id": "exo-unit2-classroom-communication",
+      "titre": "Unit 2: Classroom Communication",
+      "exercices": [
+        {
+          "enonce": "🟢 Niveau Facile\n\nMets les phrases suivantes à l'impératif négatif :\n1. (talk) ________ during the test.\n2. (be) ________ late tomorrow.",
+          "solution": "1. Don't talk during the test.\n2. Don't be late tomorrow."
+        },
+        {
+          "enonce": "🟡 Niveau Moyen\n\nMets ces ordres au discours rapporté en utilisant 'tell' :\n1. \"Close the door,\" the teacher said to Rina.\n2. \"Don't run in the corridor,\" the teacher said to the boys.",
+          "solution": "1. The teacher told Rina to close the door.\n2. The teacher told the boys not to run in the corridor."
+        },
+        {
+          "enonce": "🟠 Niveau Difficile\n\nMets ces requêtes polies au discours rapporté en utilisant 'ask' :\n1. \"Please help me with this exercise,\" Nancy said to Tom.\n2. \"Please don't touch my book,\" Lova said to her brother.",
+          "solution": "1. Nancy asked Tom to help her with that exercise.\n2. Lova asked her brother not to touch her book."
+        },
+        {
+          "enonce": "🔴 Niveau Expert (BEPC)\n\nRapporte cette citation au discours rapporté en utilisant un verbe introducteur approprié (tell/encourage/advise) :\n\"Believe in yourself and never give up.\" (Anonymous)\n\nPuis explique en une phrase, en anglais, ce que signifie cette citation.",
+          "solution": "Reported speech : He/She told people to believe in themselves and never to give up.\n\nMeaning : This quote means that people should trust their own abilities and keep trying, even when things are difficult."
+        }
+      ]
+    },
+    {
+      "id": "exo-unit3-our-time",
+      "titre": "Unit 3: Our Time",
+      "exercices": [
+        {
+          "enonce": "🟢 Niveau Facile\n\nTransforme ces phrases exclamatives en utilisant 'What a/an...!' ou 'How...!' :\n1. This book is amazing.\n2. It was a wonderful trip.",
+          "solution": "1. How amazing this book is!\n2. What a wonderful trip it was!"
+        },
+        {
+          "enonce": "🟡 Niveau Moyen\n\nComplète avec 'used to' ou 'would' selon le cas (parfois les deux sont possibles) :\n1. When I was young, I ________ (be) very shy.\n2. Every summer, my grandmother ________ (tell) us stories by the fire.",
+          "solution": "1. used to be (état → 'would' impossible)\n2. would tell / used to tell"
+        },
+        {
+          "enonce": "🟠 Niveau Difficile\n\nRéponds à chaque phrase en exprimant ton accord avec 'So' ou 'Neither' + auxiliaire + sujet :\n1. I love traveling.\n2. He doesn't like horror movies.\n3. We have never been to Europe.",
+          "solution": "1. So do I.\n2. Neither do I.\n3. Neither have we/I."
+        },
+        {
+          "enonce": "🔴 Niveau Expert (BEPC)\n\nRelie chaque paire de phrases avec le mot de liaison de contraste indiqué, en faisant attention à la construction grammaticale :\n1. It was raining. We went out. (although)\n2. The exam was difficult. She passed it. (despite)\n3. Tom loves sports. His sister prefers reading. (whereas)",
+          "solution": "1. Although it was raining, we went out.\n2. Despite the difficulty of the exam, she passed it. (ou : Despite being difficult, the exam was passed by her.)\n3. Tom loves sports, whereas his sister prefers reading."
+        }
+      ]
+    },
+    {
+      "id": "exo-unit4-food",
+      "titre": "Unit 4: Food",
+      "exercices": [
+        {
+          "enonce": "🟢 Niveau Facile\n\nClasse ces aliments en deux colonnes : Healthy food / Junk food.\nAliments : banana, chips, grilled fish, soda, carrots, candy bar.",
+          "solution": "Healthy food : banana, grilled fish, carrots\nJunk food : chips, soda, candy bar"
+        },
+        {
+          "enonce": "🟡 Niveau Moyen\n\nDonne un conseil avec 'should' ou 'shouldn't' pour chaque situation :\n1. Hery drinks soda every day.\n2. Lala never eats breakfast.",
+          "solution": "1. Hery shouldn't drink soda every day.\n2. Lala should eat breakfast every morning."
+        },
+        {
+          "enonce": "🟠 Niveau Difficile\n\nMets l'adjectif entre parenthèses au comparatif ou au superlatif :\n1. An apple is (healthy) ________ than a candy bar.\n2. This is the (delicious) ________ meal I have ever eaten.\n3. Water is (good) ________ than soda for your health.",
+          "solution": "1. healthier\n2. most delicious\n3. better"
+        },
+        {
+          "enonce": "🔴 Niveau Expert (BEPC)\n\nRédige 3 phrases décrivant tes habitudes alimentaires, en utilisant : un adverbe de fréquence, une structure 'should/shouldn't', et un mot de liaison (but/so/however/therefore).",
+          "solution": "Exemple de réponse :\n1. I usually eat vegetables with my meals.\n2. I should drink more water every day.\n3. I love eating fast food, but I know it isn't good for my health, so I try to eat it rarely."
+        }
+      ]
+    },
+    {
+      "id": "exo-unit5-family",
+      "titre": "Unit 5: Family",
+      "exercices": [
+        {
+          "enonce": "🟢 Niveau Facile\n\nTransforme cette demande informelle en demande plus polie :\nCan I use your phone? → ________",
+          "solution": "May I use your phone? (ou : Do you mind if I use your phone?)"
+        },
+        {
+          "enonce": "🟡 Niveau Moyen\n\nPour chaque demande, écris une réponse qui accorde la permission ET une réponse qui la refuse :\n1. Can I watch TV after dinner?\n2. May I invite my friends this weekend?",
+          "solution": "1. Accordée : Yes, you can, but not too late. / Refusée : No, you can't, you need to sleep early tonight.\n2. Accordée : Yes, you may, as long as the house stays clean. / Refusée : I'm sorry, but you can't, we have guests this weekend."
+        },
+        {
+          "enonce": "🟠 Niveau Difficile\n\nClasse chaque situation selon son type de conflit (inevitable / boundary / intense) :\n1. A child refuses to eat vegetables at dinner.\n2. A teenager comes home two hours later than agreed.\n3. A teenager wants to choose a career that his parents disapprove of.",
+          "solution": "1. Inevitable conflict\n2. Boundary conflict\n3. Intense conflict"
+        },
+        {
+          "enonce": "🔴 Niveau Expert (BEPC)\n\nRédige un court dialogue (5-6 répliques) où un adolescent demande à son père la permission d'organiser une fête chez un ami, en utilisant au moins deux expressions différentes pour demander la permission, et une réponse avec condition (ex : 'Yes, you can, as long as...').",
+          "solution": "Exemple de réponse :\nTeenager: Dad, would it be possible for me to go to a party at Rakoto's house this Saturday?\nFather: Who else will be there?\nTeenager: Just some friends from school. Do you mind if I stay until 10 pm?\nFather: Yes, you can, as long as you call me when you arrive and when you leave.\nTeenager: Thank you, Dad! I promise I will.\nFather: Alright, have fun, but be careful."
+        }
+      ]
+    },
+    {
+      "id": "exo-unit6-healthy-life",
+      "titre": "Unit 6: Healthy Life",
+      "exercices": [
+        {
+          "enonce": "🟢 Niveau Facile\n\nComplète avec le mot de vocabulaire approprié :\n1. I have a terrible ________ (mal de tête) and need to rest.\n2. Exercise ________ (est bon pour) your health.",
+          "solution": "1. headache\n2. is good for"
+        },
+        {
+          "enonce": "🟡 Niveau Moyen\n\nComplète les phrases avec le pronom relatif approprié (who / which / whose / that) :\n1. The doctor ________ examined me was very professional.\n2. The woman ________ son is a nurse works at the hospital.",
+          "solution": "1. who\n2. whose"
+        },
+        {
+          "enonce": "🟠 Niveau Difficile\n\nMets les verbes entre parenthèses à la forme correcte (if clause type 2) :\n1. If I (be) ________ you, I would see a doctor.\n2. If they (exercise) ________ regularly, they would be fitter.\n3. If he (not smoke) ________, he would be healthier.",
+          "solution": "1. were\n2. exercised\n3. didn't smoke"
+        },
+        {
+          "enonce": "🔴 Niveau Expert (BEPC)\n\nRéagis à l'affirmation suivante en exprimant ton accord partiel, puis complète avec une phrase au if clause type 2 :\n\"Traditional medicine is more effective than modern medicine.\"",
+          "solution": "Exemple de réponse :\nI agree to some extent, but modern medicine is based on scientific proof. If everyone combined both types of medicine, people would be healthier."
+        }
+      ]
+    },
+    {
+      "id": "exo-unit7-jobs-mass-media",
+      "titre": "Unit 7: Jobs and Mass Media",
+      "exercices": [
+        {
+          "enonce": "🟢 Niveau Facile\n\nAssocie chaque métier à sa description :\nMétiers : vet / librarian / architect\nDescriptions :\na. This person designs buildings.\nb. This person takes care of sick animals.\nc. This person works in a library.",
+          "solution": "a. architect\nb. vet\nc. librarian"
+        },
+        {
+          "enonce": "🟡 Niveau Moyen\n\nComplète avec 'for' ou 'since' :\n1. She has been a nurse ________ 2015.\n2. He has worked at this company ________ three years.\n3. I have known my best friend ________ we were in primary school.",
+          "solution": "1. since\n2. for\n3. since"
+        },
+        {
+          "enonce": "🟠 Niveau Difficile\n\nChoisis la forme correcte du verbe (present perfect ou simple past) :\n1. She (work) ________ as a journalist for ten years.\n2. He (start) ________ his new job last Monday.\n3. They (move) ________ to this city in 2019.",
+          "solution": "1. has worked\n2. started\n3. moved"
+        },
+        {
+          "enonce": "🔴 Niveau Expert (BEPC)\n\nRédige une courte lettre de candidature (4-5 phrases) pour postuler au poste de 'nurse' dans un hôpital, en utilisant au moins 3 expressions clés de lettre de candidature (ex : I am writing to apply for..., I have ... years of experience..., I look forward to hearing from you).",
+          "solution": "Exemple de réponse :\nDear Sir or Madam,\nI am writing to apply for the position of nurse advertised at your hospital. I have three years of experience working in a clinic and I am a hard-working and caring person. I would be grateful for the opportunity to discuss my application in an interview.\nI look forward to hearing from you.\nYours faithfully,\n[Name]"
+        }
+      ]
+    },
+    {
+      "id": "exo-unit8-environment",
+      "titre": "Unit 8: Environment",
+      "exercices": [
+        {
+          "enonce": "🟢 Niveau Facile\n\nComplète les phrases avec le mot approprié parmi : deforestation / pollution / global warming.\n1. ________ is causing temperatures to rise around the world.\n2. Cutting down too many trees leads to ________.",
+          "solution": "1. Global warming\n2. deforestation"
+        },
+        {
+          "enonce": "🟡 Niveau Moyen\n\nComplète les phrases avec le verbe entre parenthèses au gérondif (-ing) :\n1. She enjoys (recycle) ________ plastic bottles.\n2. We should avoid (waste) ________ water.",
+          "solution": "1. recycling\n2. wasting"
+        },
+        {
+          "enonce": "🟠 Niveau Difficile\n\nMets les verbes entre parenthèses à la forme correcte (if clause type 2) :\n1. If people (stop) ________ cutting down trees, there would be less deforestation.\n2. If we (reduce) ________ our carbon footprint, the planet would be healthier.\n3. If everyone (protect) ________ endangered species, biodiversity would improve.",
+          "solution": "1. stopped\n2. reduced\n3. protected"
+        },
+        {
+          "enonce": "🔴 Niveau Expert (BEPC)\n\nEn suivant la structure problème / cause / conséquence / solution, rédige un court texte (5-6 phrases) décrivant le problème de la pollution plastique dans les océans, en utilisant au moins une phrase au if clause type 2 et un verbe + gerund.",
+          "solution": "Exemple de réponse :\nOne of the biggest environmental problems today is plastic pollution in the oceans. This is mainly caused by people throwing away plastic bottles and bags instead of recycling them. As a result, many marine animals die because they mistake plastic for food. If everyone avoided using single-use plastic, the oceans would be much cleaner. We should also suggest organizing beach clean-up days to reduce this pollution."
+        }
+      ]
+    }
+  ]
+}
