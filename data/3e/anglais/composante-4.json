@@ -104,4 +104,81 @@
         },
         {
           "type": "exemple",
-          "texte": "1) I always eat vegetables with my meals. 2) She usually drinks tea 
+          "texte": "1) I always eat vegetables with my meals. 2) She usually drinks tea in the morning. 3) We often eat rice for dinner. 4) He sometimes eats junk food. 5) They rarely eat sweets. 6) I never eat before going to bed."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Place correctement l'adverbe de fréquence dans la phrase : 1) I / eat / breakfast (always) 2) She / is / late (often) 3) We / drink / soft drinks (rarely) 4) He / is / hungry in the morning (never)",
+          "solution": "1) I always eat breakfast. 2) She is often late. 3) We rarely drink soft drinks. 4) He is never hungry in the morning."
+        }
+      ]
+    },
+    {
+      "id": "ang-4-5",
+      "titre": "Comparatives and Superlatives",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Le comparatif sert à comparer deux éléments, le superlatif sert à désigner l'élément qui se distingue le plus dans un groupe d'au moins trois éléments."
+        },
+        {
+          "type": "regle",
+          "titre": "Formation des comparatifs et superlatifs",
+          "texte": "Adjectifs courts (1 syllabe) : comparatif = adjectif + ER + than (healthy → healthier than, attention au y → i). Superlatif = THE + adjectif + EST (the healthiest). Adjectifs longs (2 syllabes ou plus) : comparatif = MORE + adjectif + than (delicious → more delicious than). Superlatif = THE MOST + adjectif (the most delicious). Formes irrégulières : good → better → the best ; bad → worse → the worst."
+        },
+        {
+          "type": "tableau",
+          "titre": "Exemples de comparaison",
+          "entetes": ["Adjectif", "Comparatif", "Superlatif"],
+          "lignes": [
+            ["healthy", "healthier than", "the healthiest"],
+            ["fresh", "fresher than", "the freshest"],
+            ["delicious", "more delicious than", "the most delicious"],
+            ["expensive", "more expensive than", "the most expensive"],
+            ["good", "better than", "the best"],
+            ["bad", "worse than", "the worst"]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "1) Fruit is healthier than candy. 2) This restaurant is more expensive than that one. 3) Of all the dishes, this salad is the healthiest. 4) This is the most delicious cake I have ever eaten. 5) Home-cooked food is often better than fast food."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Complète avec le comparatif ou le superlatif de l'adjectif donné : 1) Vegetables are ... (healthy) than sweets. 2) This is ... (good) meal I have ever had. 3) Junk food is often ... (bad) for your health than home-cooked food. 4) Of all the fruits, mango is ... (delicious).",
+          "solution": "1) Vegetables are healthier than sweets. 2) This is the best meal I have ever had. 3) Junk food is often worse for your health than home-cooked food. 4) Of all the fruits, mango is the most delicious."
+        }
+      ]
+    },
+    {
+      "id": "ang-4-6",
+      "titre": "Linking Words: Contrast and Consequence",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "'But' et 'however' expriment un contraste entre deux idées. 'So' et 'therefore' expriment une conséquence."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots de liaison",
+          "entetes": ["Mot de liaison", "Sens", "Construction"],
+          "lignes": [
+            ["but", "mais (contraste)", "proposition 1, but + proposition 2"],
+            ["however", "cependant (contraste, plus formel)", "Proposition 1. However, proposition 2."],
+            ["so", "donc (conséquence)", "proposition 1, so + proposition 2"],
+            ["therefore", "par conséquent (plus formel)", "Proposition 1. Therefore, proposition 2."]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "1) Junk food is tasty, but it isn't healthy. 2) Junk food is tasty. However, it isn't healthy. 3) He ate too much sugar, so he felt sick. 4) He ate too much sugar. Therefore, he felt sick."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Relie les deux phrases avec le mot de liaison indiqué entre parenthèses : 1) Fast food is convenient. It is not nutritious. (but) 2) She eats a lot of vegetables. She stays healthy. (so) 3) Soft drinks are popular. They contain a lot of sugar. (however) 4) He skipped breakfast. He felt tired all morning. (therefore)",
+          "solution": "1) Fast food is convenient, but it is not nutritious. 2) She eats a lot of vegetables, so she stays healthy. 3) Soft drinks are popular. However, they contain a lot of sugar. 4) He skipped breakfast. Therefore, he felt tired all morning."
+        }
+      ]
+    }
+  ]
+}
