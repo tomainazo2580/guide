@@ -1,69 +1,166 @@
 {
-  "id": "anglais-composante-7",
+  "id": "unit7",
   "titre": "Unit 7: Jobs and Mass Media",
-  "premium": false,
   "lecons": [
     {
       "id": "ang-7-1",
-      "titre": "Jobs vocabulary and jobs and gender",
+      "titre": "Jobs Vocabulary and Gender",
+      "lexique": [
+        {"terme": "doctor", "traduction": "médecin"},
+        {"terme": "teacher", "traduction": "enseignant(e)"},
+        {"terme": "engineer", "traduction": "ingénieur(e)"},
+        {"terme": "nurse", "traduction": "infirmier/infirmière"},
+        {"terme": "farmer", "traduction": "agriculteur/agricultrice"},
+        {"terme": "journalist", "traduction": "journaliste"},
+        {"terme": "actor / actress", "traduction": "acteur / actrice"},
+        {"terme": "waiter / waitress", "traduction": "serveur / serveuse"},
+        {"terme": "police officer", "traduction": "policier/policière"},
+        {"terme": "businessman / businesswoman", "traduction": "homme/femme d'affaires"}
+      ],
       "blocs": [
         {
-          "type": "lexique",
-          "mots": [
-            { "terme": "an engineer", "traduction": "un ingénieur" },
-            { "terme": "a scientist", "traduction": "un scientifique" },
-            { "terme": "a police officer", "traduction": "un policier / une policière" },
-            { "terme": "a journalist", "traduction": "un/une journaliste" },
-            { "terme": "a gardener", "traduction": "un jardinier" },
-            { "terme": "an artist", "traduction": "un/une artiste" },
-            { "terme": "an actor / an actress", "traduction": "un acteur / une actrice" },
-            { "terme": "a programmer", "traduction": "un/une programmeur(euse)" },
-            { "terme": "a firefighter", "traduction": "un pompier" },
-            { "terme": "a cook", "traduction": "un cuisinier" },
-            { "terme": "a postman / a postwoman", "traduction": "un facteur / une factrice" },
-            { "terme": "a musician", "traduction": "un musicien" },
-            { "terme": "a singer", "traduction": "un chanteur / une chanteuse" },
-            { "terme": "a hairdresser", "traduction": "un coiffeur / une coiffeuse" },
-            { "terme": "a nurse", "traduction": "un infirmier / une infirmière" },
-            { "terme": "a doctor", "traduction": "un médecin" }
+          "type": "definition",
+          "texte": "La plupart des noms de métiers en anglais sont neutres (identiques pour homme et femme), mais certains ont une forme masculine et une forme féminine différente."
+        },
+        {
+          "type": "tableau",
+          "titre": "Métiers genrés en anglais",
+          "entetes": ["Masculin", "Féminin", "Traduction"],
+          "lignes": [
+            ["actor", "actress", "acteur / actrice"],
+            ["waiter", "waitress", "serveur / serveuse"],
+            ["businessman", "businesswoman", "homme / femme d'affaires"],
+            ["prince", "princess", "prince / princesse"],
+            ["hero", "heroine", "héros / héroïne"]
           ]
         },
         {
-          "type": "regle",
-          "titre": "Jobs and gender (le genre des noms de métiers)",
-          "contenu": "En anglais, la plupart des noms de métiers sont neutres (unisexes) et s'appliquent aux hommes comme aux femmes : a doctor, a nurse, a journalist, an engineer, a police officer, a firefighter, a postal worker.\n\nSeuls quelques noms de métiers ont une forme féminine distincte, bien que l'usage moderne tende à préférer les formes neutres :\n• actor / actress (acteur / actrice) → aujourd'hui 'actor' s'utilise souvent pour les deux genres.\n• postman / postwoman → la forme neutre 'postal worker' ou 'mail carrier' est recommandée.\n\nRemarque : 'policeman/policewoman' sont remplacés par 'police officer' ; 'fireman' par 'firefighter', dans l'anglais moderne, pour éviter toute distinction de genre inutile."
-        },
-        {
           "type": "exemple",
-          "contenu": "1. My sister wants to be an engineer when she grows up.\n2. He works as a firefighter in the city center.\n3. She is a talented singer and musician.\n4. My uncle is a police officer."
+          "texte": "1) My mother is a doctor and my father is an engineer. 2) She wants to become a journalist. 3) He works as a waiter in a restaurant, while his sister works as a nurse in a hospital."
         },
         {
           "type": "exercice",
-          "enonce": "Associe chaque description à la profession correspondante parmi : nurse / journalist / gardener / hairdresser / firefighter.\n1. This person takes care of plants and flowers in a garden.\n2. This person writes articles for newspapers or websites.\n3. This person cuts and styles people's hair.\n4. This person helps doctors take care of sick people.\n5. This person puts out fires and rescues people in danger.",
-          "solution": "1. gardener\n2. journalist\n3. hairdresser\n4. nurse\n5. firefighter"
+          "enonce": "Donne la forme féminine ou masculine de ces métiers selon le cas : 1) actor (féminin) 2) waitress (masculin) 3) businessman (féminin) 4) hero (féminin)",
+          "solution": "1) actress. 2) waiter. 3) businesswoman. 4) heroine."
         }
       ]
     },
     {
       "id": "ang-7-2",
-      "titre": "Dialogue: Telephoning for a job interview",
+      "titre": "Job Interview Dialogue",
       "blocs": [
         {
-          "type": "lexique",
-          "mots": [
-            { "terme": "a job interview", "traduction": "un entretien d'embauche" },
-            { "terme": "to apply for a job", "traduction": "postuler à un emploi" },
-            { "terme": "an applicant / a candidate", "traduction": "un candidat" },
-            { "terme": "available position / vacancy", "traduction": "poste à pourvoir" },
-            { "terme": "qualifications", "traduction": "qualifications" },
-            { "terme": "to hire / to recruit", "traduction": "embaucher"}
-          ]
-        },
-        {
           "type": "exemple",
-          "contenu": "Dialogue — Telephoning for a job interview:\nSoa: Good morning, this is Soa calling about the job advertisement for a secretary position.\nNaivo: Good morning, Soa. Yes, the position is still available. Can you tell me a bit about your qualifications?\nSoa: I have a diploma in office administration and two years of experience as an assistant secretary.\nNaivo: That sounds great. Would you be available for an interview this Thursday at 10 a.m.?\nSoa: Yes, I would be available then.\nNaivo: Perfect. Please bring your CV and a copy of your diploma.\nSoa: Of course. Thank you very much for your time.\nNaivo: You're welcome, Soa. We look forward to meeting you."
+          "titre": "Dialogue entre Soa et Naivo",
+          "texte": "Naivo: Hi Soa, I heard you had a job interview yesterday. How did it go? Soa: It went quite well, thank you! They asked me a lot of questions about my experience. Naivo: What kind of job is it? Soa: It's a position as a receptionist in a hotel. Naivo: That sounds interesting! What qualities did they say they were looking for? Soa: They said they needed someone who is organized, polite, and good at communicating with people. Naivo: Do you think you got the job? Soa: I hope so! They said they would call me back this week. Naivo: Good luck! I'm sure you did great."
         },
         {
           "type": "exercice",
-          "enonce": "Réponds aux questions sur le dialogue par des phrases complètes :\n1. Why is Soa calling?\n2. What are Soa's qualifications?\n3. When is the interview scheduled?\n4. What should Soa bring to the interview?",
-          "solution": "1. Soa is calling about the job advertisement for a secretary position.\n2. Soa has a diploma in office administration and two years of experience 
+          "enonce": "Réponds aux questions sur le dialogue : 1) What kind of job did Soa apply for? 2) What qualities are they looking for? 3) When will they call Soa back?",
+          "solution": "1) She applied for a position as a receptionist in a hotel. 2) They are looking for someone who is organized, polite, and good at communicating with people. 3) They will call her back this week."
+        }
+      ]
+    },
+    {
+      "id": "ang-7-3",
+      "titre": "Matching Jobs and Descriptions",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Chaque métier est associé à des tâches et des responsabilités spécifiques."
+        },
+        {
+          "type": "tableau",
+          "titre": "Métiers et descriptions",
+          "entetes": ["Métier", "Description"],
+          "lignes": [
+            ["doctor", "treats sick people and prescribes medicine"],
+            ["teacher", "helps students learn new things"],
+            ["farmer", "grows crops and raises animals"],
+            ["journalist", "writes articles and reports news"],
+            ["engineer", "designs and builds machines or structures"],
+            ["police officer", "protects people and enforces the law"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "enonce": "Associe chaque métier à sa description : 1) nurse / 2) actor / 3) businessman A) performs in films or plays B) manages a company C) takes care of patients in a hospital",
+          "solution": "1-C (nurse takes care of patients in a hospital). 2-A (actor performs in films or plays). 3-B (businessman manages a company)."
+        }
+      ]
+    },
+    {
+      "id": "ang-7-4",
+      "titre": "Writing a Job Application Letter",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Une lettre de candidature (job application letter) doit être structurée, polie et mettre en avant les qualités et l'expérience du candidat."
+        },
+        {
+          "type": "regle",
+          "titre": "Structure d'une lettre de candidature",
+          "texte": "1) Salutation : Dear Sir/Madam, ou Dear Mr/Mrs [Name]. 2) Introduction : indiquer le poste pour lequel on postule et où on l'a trouvé. 3) Corps : présenter son expérience, ses qualifications et ses qualités. 4) Conclusion : exprimer son enthousiasme et indiquer sa disponibilité pour un entretien. 5) Formule de politesse finale : Yours faithfully, / Yours sincerely, suivi du nom."
+        },
+        {
+          "type": "exemple",
+          "titre": "Exemple de lettre de candidature",
+          "texte": "Dear Sir/Madam, I am writing to apply for the position of receptionist advertised in your hotel. I have excellent communication skills and I am well organized. I have previously worked as a shop assistant, where I learned to deal with customers politely and efficiently. I am available for an interview at any time that suits you. Thank you for considering my application. Yours faithfully, Soa Rakoto"
+        },
+        {
+          "type": "exercice",
+          "enonce": "Écris une courte lettre de candidature (5 phrases minimum) pour postuler au poste de 'shop assistant' dans un magasin.",
+          "solution": "Réponse modèle : Dear Sir/Madam, I am writing to apply for the position of shop assistant advertised in your store. I am hardworking, polite, and enjoy helping customers. I have experience working in a small family business. I am available for an interview at your convenience. Thank you for your consideration. Yours faithfully, [Name]"
+        }
+      ]
+    },
+    {
+      "id": "ang-7-5",
+      "titre": "For and Since",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "'For' et 'since' s'utilisent pour exprimer une durée, souvent avec le present perfect."
+        },
+        {
+          "type": "regle",
+          "titre": "Différence entre For et Since",
+          "texte": "FOR + une durée (période de temps). Exemple : for two years, for a week, for a long time. SINCE + un point de départ précis dans le temps. Exemple : since 2020, since Monday, since I was a child."
+        },
+        {
+          "type": "exemple",
+          "texte": "1) She has worked as a teacher for ten years. 2) He has been a doctor since 2015. 3) They have lived in this city for a long time. 4) I have known him since we were in primary school."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Complète avec FOR ou SINCE : 1) She has been a journalist ... five years. 2) He has worked here ... 2018. 3) I have studied English ... three years. 4) We have been friends ... we were children. 5) They have lived in Antananarivo ... a long time. 6) He has been unemployed ... last month. 7) She has had this job ... January. 8) I have known her ... a decade. 9) He has worked as an engineer ... he graduated. 10) We have been colleagues ... two years.",
+          "solution": "1) for. 2) since. 3) for. 4) since. 5) for. 6) since. 7) since. 8) for. 9) since. 10) for."
+        }
+      ]
+    },
+    {
+      "id": "ang-7-6",
+      "titre": "Present Perfect vs Simple Past",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Le present perfect et le prétérit simple (simple past) servent tous les deux à parler du passé, mais ils ne s'utilisent pas dans les mêmes contextes."
+        },
+        {
+          "type": "regle",
+          "titre": "Quand utiliser chaque temps",
+          "texte": "Present perfect (have/has + participe passé) : pour une action passée dont le moment précis n'est pas mentionné, ou qui a un lien avec le présent. Exemple : I have worked as a journalist. (expérience, moment non précisé) Simple past (prétérit) : pour une action terminée à un moment précis et daté du passé. Exemple : I worked as a journalist in 2015. (moment précis donné)"
+        },
+        {
+          "type": "exemple",
+          "texte": "1) She has visited many countries. (expérience générale, pas de date) 2) She visited France in 2019. (date précise) 3) He has never worked as a nurse. (expérience, pas de date) 4) He worked as a nurse last year. (date précise : last year)"
+        },
+        {
+          "type": "exercice",
+          "enonce": "Choisis le temps correct (present perfect ou simple past) : 1) I ... (work) as a teacher for five years. 2) She ... (start) her new job last Monday. 3) They ... (never/visit) Japan. 4) He ... (finish) university in 2020.",
+          "solution": "1) I have worked as a teacher for five years. 2) She started her new job last Monday. 3) They have never visited Japan. 4) He finished university in 2020."
+        }
+      ]
+    }
+  ]
+}
