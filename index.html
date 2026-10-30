@@ -11,15 +11,12 @@
 <link rel="stylesheet" href="./css/style.css">
 </head>
 <body data-theme="clair">
-
 <header class="app-header">
   <button id="btn-retour" class="btn-retour" aria-label="Retour" hidden>←</button>
   <h1 id="titre-header" class="titre-header">Guide</h1>
   <button id="btn-theme" class="btn-theme" aria-label="Changer de thème">🌙</button>
 </header>
-
 <main id="contenu-principal">
-
   <div id="banner-installer" class="banner-installer" hidden>
     <div class="banner-installer-icone">📲</div>
     <div class="banner-installer-texte">
@@ -43,6 +40,11 @@
     <div id="grille-matieres" class="grille-matieres"></div>
   </section>
 
+  <section id="view-exercices" class="view" hidden>
+    <p class="sous-titre-accueil">Sujets et corrigés — choisis une matière</p>
+    <div id="grille-exo-matieres" class="grille-matieres"></div>
+  </section>
+
   <section id="view-matiere" class="view" hidden>
     <nav id="fil-ariane" class="fil-ariane"></nav>
     <div id="matiere-contenu"></div>
@@ -55,25 +57,22 @@
 
   <section id="view-parametres" class="view" hidden>
     <h2 class="titre-vue">⚙️ Paramètres</h2>
-
     <div class="bloc-parametre">
       <h3>Ma classe</h3>
       <p class="texte-parametre" id="texte-classe-actuelle">Classe actuelle : —</p>
       <button id="btn-changer-classe" class="btn-secondaire">🔄 Changer de classe</button>
     </div>
-
     <div class="bloc-parametre">
       <h3>Progression</h3>
       <p class="texte-parametre">Tu peux réinitialiser ta progression de lecture si tu veux repartir de zéro.</p>
       <button id="btn-reset-progression" class="btn-danger">🗑️ Réinitialiser ma progression</button>
     </div>
-
     <div class="bloc-parametre">
       <h3>À propos</h3>
-      <p class="texte-parametre">Guide — application de révision hors ligne.<br>Version 0.8</p>
+      <p class="texte-parametre">Guide — application de révision hors ligne.
+Version 0.8</p>
     </div>
   </section>
-
 </main>
 
 <nav class="nav-basse">
@@ -81,8 +80,8 @@
     <span class="nav-icone">🏠</span><span class="nav-texte">Accueil</span>
   </button>
   <button class="nav-btn" data-nav="exercices">
-  <span class="nav-icone">📝</span><span class="nav-texte">Exercices</span>
-</button>
+    <span class="nav-icone">📝</span><span class="nav-texte">Exercices</span>
+  </button>
   <button class="nav-btn" data-nav="notes">
     <span class="nav-icone">📒</span><span class="nav-texte">Mes notes</span>
   </button>
