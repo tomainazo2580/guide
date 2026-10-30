@@ -39,6 +39,20 @@ const MATIERES_PAR_CLASSE = {
     { id: 'philosophie',     code: 'PHIL', nom: 'Philosophie',         icone: '🧠', disponible: false, fichier: './data/tle/philosophie.json' }
   ]
 };
+
+// ============================================
+// EXERCICES — SUJETS ET CORRIGÉS (section indépendante, évolutive)
+// ============================================
+const EXERCICES_PAR_CLASSE = {
+  '3e': [
+    { id: 'mathematiques', nom: 'Mathématiques', icone: '📐', disponible: true,
+      fichier: './data/3e/exercices/exercices-mathematiques.json' }
+    // Au fur et à mesure des matières ajoutées, il suffit d'ajouter une ligne ici
+    // avec un nouveau fichier ./data/3e/exercices/exercices-xxx.json
+  ],
+  'tle': []
+};
+
 const LABELS_TYPE = {
   definition: { label: '📘 Définition', classe: 'bloc-definition' },
   formule:    { label: '🧮 Formule',    classe: 'bloc-formule' },
@@ -48,6 +62,7 @@ const LABELS_TYPE = {
   theoreme:   { label: '🔺 Théorème',   classe: 'bloc-theoreme' },
   methode:    { label: '🛠️ Méthode',    classe: 'bloc-methode' }
 };
+
 const etat = {
   niveau: 'classes',
   classe: null,
@@ -56,8 +71,13 @@ const etat = {
   composante: null,
   lecon: null,
   compPaywall: null,
+  // --- état dédié au chapitre Exercices (indépendant des leçons) ---
+  exoMatiere: null,
+  exoData: null,
+  exoChapitre: null,
   cache: {}
 };
+
 function $(id) { return document.getElementById(id); }
 function afficherVue(nom) {
   document.querySelectorAll('.view').forEach(v => v.hidden = true);
@@ -66,6 +86,26 @@ function afficherVue(nom) {
 function majBoutonRetour(visible) {
   $('btn-retour').hidden = !visible;
 }
+
+// ============================================
+// MODE EXAMEN — hook de verrouillage (prêt, inactif par défaut)
+// ============================================
+// Tant que 'guide-mode-examen' n'est pas mis à 'actif' quelque part dans l'app
+// (ce qui n'est pas encore le cas — fonctionnalité en pause), ce hook ne change
+// rien au comportement actuel. Il bloque juste l'accès au CONTENU des leçons
+// quand le Mode Examen sera activé plus tard, pour éviter la triche.
+function estModeExamenActif() {
+  return localStorage.getItem('guide-mode-examen') === 'actif';
+}
+function htmlLeconVerrouillee() {
+  return `
+    <div class="paywall">
+      <div class="paywall-icone">🔒</div>
+      <div class="paywall-titre">Mode Examen actif</div>
+      <p class="paywall-texte">Les leçons sont désactivées pendant le Mode Examen pour garantir l'équité entre élèves. Elles redeviendront accessibles une fois l'examen terminé.</p>
+    </div>`;
+}
+
 // ============================================
 // NIVEAU 1 — CHOIX DE LA CLASSE (une seule fois)
 // ============================================
@@ -93,6 +133,7 @@ function selectionnerClasse(classeId) {
   majBoutonRetour(false);
   renderMatieres();
 }
+
 // ============================================
 // NIVEAU 2 — MATIÈRES (écran d'accueil habituel)
 // ============================================
@@ -131,6 +172,8 @@ function sauvegarderDernierePosition() {
 }
 function renderBoutonReprendre() {
   const zone = $('zone-reprendre');
+  // Pendant le Mode Examen, on ne propose pas de reprendre une leçon
+  if (estModeExamenActif()) { zone.hidden = true; zone.innerHTML = ''; return; }
   const brut = localStorage.getItem('guide-derniere-position');
   if (!brut) { zone.hidden = true; zone.innerHTML = ''; return; }
   const pos = JSON.parse(brut);
@@ -144,6 +187,7 @@ function renderBoutonReprendre() {
   $('carte-reprendre').addEventListener('click', reprendreDerniereLecon);
 }
 async function reprendreDerniereLecon() {
+  if (estModeExamenActif()) return;
   const brut = localStorage.getItem('guide-derniere-position');
   if (!brut) return;
   const pos = JSON.parse(brut);
@@ -174,6 +218,7 @@ async function reprendreDerniereLecon() {
   etat.niveau = 'contenu';
   afficherContenuLecon();
 }
+
 // ============================================
 // CHARGEMENT DES DONNÉES (gère fichier unique OU plusieurs petits fichiers)
 // ============================================
@@ -235,6 +280,7 @@ function ouvrirMatiere() {
   majBoutonRetour(true);
   afficherListeComposantes();
 }
+
 // ============================================
 // NIVEAU 3 — LISTE DES COMPOSANTES
 // ============================================
@@ -283,6 +329,7 @@ function selectionnerComposante(comp) {
   etat.niveau = 'lecons';
   afficherListeLecons();
 }
+
 // ============================================
 // NIVEAU 4 — LISTE DES LEÇONS
 // ============================================
@@ -290,13 +337,16 @@ function afficherListeLecons() {
   const classeNom = CLASSES.find(c => c.id === etat.classe).nom;
   $('fil-ariane').textContent = classeNom + ' › ' + etat.matiere.nom + ' › ' + etat.composante.titre;
   const conteneur = $('matiere-contenu');
-  conteneur.innerHTML = '<div class="liste-cartes" id="liste-lecons"></div>';
+  const examenActif = estModeExamenActif();
+  conteneur.innerHTML =
+    (examenActif ? '<p class="texte-vide">🔒 Mode Examen actif — les leçons sont désactivées.</p>' : '') +
+    '<div class="liste-cartes" id="liste-lecons"></div>';
   const liste = $('liste-lecons');
   etat.composante.lecons.forEach(lecon => {
     const vue = estLeconVue(etat.classe, etat.matiere.id, lecon.id);
     const carte = document.createElement('div');
-    carte.className = 'carte-liste';
-    carte.innerHTML = `<div class="carte-liste-titre">${lecon.titre} ${vue ? '✅' : ''}</div>`;
+    carte.className = 'carte-liste' + (examenActif ? ' verrouille' : '');
+    carte.innerHTML = `<div class="carte-liste-titre">${lecon.titre} ${examenActif ? '🔒' : (vue ? '✅' : '')}</div>`;
     carte.addEventListener('click', () => selectionnerLecon(lecon));
     liste.appendChild(carte);
   });
@@ -304,10 +354,19 @@ function afficherListeLecons() {
 function selectionnerLecon(lecon) {
   etat.lecon = lecon;
   etat.niveau = 'contenu';
+  if (estModeExamenActif()) {
+    afficherVue('matiere');
+    majBoutonRetour(true);
+    const classeNom = CLASSES.find(c => c.id === etat.classe).nom;
+    $('fil-ariane').textContent = classeNom + ' › ' + etat.matiere.nom + ' › ' + etat.composante.titre + ' › ' + lecon.titre;
+    $('matiere-contenu').innerHTML = htmlLeconVerrouillee();
+    return;
+  }
   marquerLeconVue(etat.classe, etat.matiere.id, lecon.id);
   sauvegarderDernierePosition();
   afficherContenuLecon();
 }
+
 // ============================================
 // NIVEAU 5 — CONTENU D'UNE LEÇON
 // ============================================
@@ -401,6 +460,97 @@ function renderLexique(lexique) {
   html += '</ul></details>';
   return html;
 }
+
+// ============================================
+// CHAPITRE "EXERCICES" — SUJETS ET CORRIGÉS (indépendant des leçons)
+// ============================================
+async function recupererDonneesExercices(classeId, matiere) {
+  const cleCache = 'exo-' + classeId + '-' + matiere.id;
+  if (etat.cache[cleCache]) return etat.cache[cleCache];
+  try {
+    const reponse = await fetch(matiere.fichier);
+    const data = await reponse.json();
+    etat.cache[cleCache] = data;
+    return data;
+  } catch (e) {
+    console.error(e);
+    return null;
+  }
+}
+function allerExercices() {
+  etat.niveau = 'exo-matieres';
+  afficherVue('exercices');
+  majBoutonRetour(false);
+  renderExoMatieres();
+}
+function renderExoMatieres() {
+  const grille = $('grille-exo-matieres');
+  grille.innerHTML = '';
+  const matieres = EXERCICES_PAR_CLASSE[etat.classe] || [];
+  if (matieres.length === 0) {
+    grille.innerHTML = '<p class="texte-vide">Aucun exercice disponible pour le moment.</p>';
+    return;
+  }
+  matieres.forEach(m => {
+    const carte = document.createElement('div');
+    carte.className = 'carte-matiere' + (m.disponible ? '' : ' indisponible');
+    carte.innerHTML = `
+      <div class="carte-matiere-icone">${m.icone}</div>
+      <div class="carte-matiere-nom">${m.nom}</div>
+      <div class="carte-matiere-statut">${m.disponible ? '' : 'Bientôt disponible'}</div>
+    `;
+    if (m.disponible) {
+      carte.addEventListener('click', () => selectionnerExoMatiere(m));
+    }
+    grille.appendChild(carte);
+  });
+}
+async function selectionnerExoMatiere(matiere) {
+  const data = await recupererDonneesExercices(etat.classe, matiere);
+  if (!data) {
+    alert("Impossible de charger les exercices pour le moment.");
+    return;
+  }
+  etat.exoMatiere = matiere;
+  etat.exoData = data;
+  etat.niveau = 'exo-chapitres';
+  afficherVue('matiere');
+  majBoutonRetour(true);
+  afficherExoChapitres();
+}
+function afficherExoChapitres() {
+  const classeNom = CLASSES.find(c => c.id === etat.classe).nom;
+  $('fil-ariane').textContent = classeNom + ' › Exercices › ' + etat.exoMatiere.nom;
+  const conteneur = $('matiere-contenu');
+  conteneur.innerHTML = '<div class="liste-cartes" id="liste-exo-chapitres"></div>';
+  const liste = $('liste-exo-chapitres');
+  (etat.exoData.chapitres || []).forEach(chap => {
+    const carte = document.createElement('div');
+    carte.className = 'carte-liste';
+    carte.innerHTML = `<div class="carte-liste-titre">${chap.titre}</div>`;
+    carte.addEventListener('click', () => selectionnerExoChapitre(chap));
+    liste.appendChild(carte);
+  });
+}
+function selectionnerExoChapitre(chap) {
+  etat.exoChapitre = chap;
+  etat.niveau = 'exo-liste';
+  afficherExoListe();
+}
+function afficherExoListe() {
+  const classeNom = CLASSES.find(c => c.id === etat.classe).nom;
+  $('fil-ariane').textContent = classeNom + ' › Exercices › ' + etat.exoMatiere.nom + ' › ' + etat.exoChapitre.titre;
+  const conteneur = $('matiere-contenu');
+  let html = `<h2 class="titre-lecon">${etat.exoChapitre.titre}</h2>`;
+  (etat.exoChapitre.exercices || []).forEach((ex, index) => {
+    html += renderExercice({
+      enonce: `Exercice ${index + 1}\n\n` + ex.enonce,
+      solution: ex.solution
+    });
+  });
+  conteneur.innerHTML = html;
+}
+
 // ============================================
 // PAYWALL — DÉBLOCAGE MOBILE MONEY
 // ============================================
@@ -498,6 +648,7 @@ function debloquerMatiere(classeId, matiereCode) {
   deblocages[cleDeblocage(classeId, matiereCode)] = true;
   sauvegarderDeblocages(deblocages);
 }
+
 // ============================================
 // PROGRESSION
 // ============================================
@@ -540,6 +691,7 @@ function calculerPourcentageMatiere(classeId, matiereId, dataMatiere) {
   if (total === 0) return 0;
   return Math.round((vues / total) * 100);
 }
+
 // ============================================
 // VUE "MES NOTES"
 // ============================================
@@ -577,6 +729,7 @@ async function afficherNotes() {
   }
   conteneur.innerHTML = html;
 }
+
 // ============================================
 // NAVIGATION — BOUTON RETOUR
 // ============================================
@@ -595,8 +748,19 @@ function gererRetour() {
   } else if (etat.niveau === 'paywall') {
     etat.niveau = 'composantes';
     afficherListeComposantes();
+  } else if (etat.niveau === 'exo-chapitres') {
+    etat.niveau = 'exo-matieres';
+    afficherVue('exercices');
+    majBoutonRetour(false);
+    renderExoMatieres();
+  } else if (etat.niveau === 'exo-liste') {
+    etat.niveau = 'exo-chapitres';
+    afficherVue('matiere');
+    majBoutonRetour(true);
+    afficherExoChapitres();
   }
 }
+
 // ============================================
 // NAVIGATION BASSE
 // ============================================
@@ -634,6 +798,7 @@ function changerDeClasse() {
     majBoutonRetour(false);
   }
 }
+
 // ============================================
 // THÈME
 // ============================================
@@ -646,6 +811,7 @@ function basculerTheme() {
   const actuel = document.body.getAttribute('data-theme');
   appliquerTheme(actuel === 'sombre' ? 'clair' : 'sombre');
 }
+
 // ============================================
 // INSTALLATION DE L'APP (bandeau personnalisé)
 // ============================================
@@ -692,6 +858,7 @@ function initInstallation() {
     cacherBanniereInstall();
   });
 }
+
 // ============================================
 // INITIALISATION
 // ============================================
@@ -717,6 +884,7 @@ function initialiser() {
     btn.addEventListener('click', () => {
       const cible = btn.getAttribute('data-nav');
       if (cible === 'accueil') allerAccueil();
+      if (cible === 'exercices') allerExercices();
       if (cible === 'notes') allerNotes();
       if (cible === 'parametres') allerParametres();
     });
