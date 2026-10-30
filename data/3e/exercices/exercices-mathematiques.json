@@ -6,12 +6,20 @@
       "titre": "Nombres",
       "exercices": [
         {
-          "enonce": "Calculer en détaillant les étapes :\nA = 12 − 20 + (−8) × 3\nB = 4 − 5 × ((−3) + 9) + 2",
+          "enonce": "🟢 Niveau Facile\n\nCalculer : A = 20 − 6 + (−4) × 2",
+          "solution": "On effectue la multiplication en premier :\n(−4) × 2 = −8\n\nA = 20 − 6 + (−8) = 14 − 8 = 6"
+        },
+        {
+          "enonce": "🟡 Niveau Moyen\n\nCalculer en détaillant les étapes :\nA = 12 − 20 + (−8) × 3\nB = 4 − 5 × ((−3) + 9) + 2",
           "solution": "A = 12 − 20 + (−24) = (−8) + (−24) = −32\n\nB = 4 − 5 × 6 + 2 = 4 − 30 + 2 = −26 + 2 = −24"
         },
         {
-          "enonce": "On donne la liste de nombres suivante :\n−5 ; 7/2 ; 0,25 ; π ; −12/4 ; √2 ; 9\n\na) Parmi ces nombres, lesquels sont des entiers relatifs (Z) ?\nb) Lesquels sont des nombres rationnels (Q) ?\nc) Lesquels sont irrationnels ?",
+          "enonce": "🟠 Niveau Difficile\n\nOn donne la liste de nombres suivante :\n−5 ; 7/2 ; 0,25 ; π ; −12/4 ; √2 ; 9\n\na) Parmi ces nombres, lesquels sont des entiers relatifs (Z) ?\nb) Lesquels sont des nombres rationnels (Q) ?\nc) Lesquels sont irrationnels ?",
           "solution": "a) Entiers relatifs : −5 ; −12/4 (= −3) ; 9\n\nb) Nombres rationnels : −5 ; 7/2 ; 0,25 ; −12/4 ; 9 (tous peuvent s'écrire sous forme de fraction p/q)\n\nc) Irrationnels : π ; √2 (développement décimal infini non périodique)"
+        },
+        {
+          "enonce": "🔴 Niveau Expert (BEPC)\n\nOn donne : D = (5² − 3 × (−4)) ÷ (√9 + 2)\n\na) Calculer la valeur exacte de D.\nb) D est-il un nombre entier ? Justifier.",
+          "solution": "a) 5² = 25\n3 × (−4) = −12\n25 − (−12) = 25 + 12 = 37\n\n√9 = 3\n3 + 2 = 5\n\nD = 37/5 = 7,4\n\nb) D n'est pas un nombre entier car 37 n'est pas un multiple de 5 : 37/5 = 7,4, qui n'est pas un nombre entier."
         }
       ]
     },
@@ -20,12 +28,20 @@
       "titre": "Opérations",
       "exercices": [
         {
-          "enonce": "Un artisan utilise de la peinture proportionnellement à la surface à peindre : pour 6 m², il utilise 1,5 L de peinture.\na) Quel est le coefficient de proportionnalité (en L/m²) ?\nb) Quelle quantité de peinture faut-il pour 18 m² ?",
+          "enonce": "🟢 Niveau Facile\n\nUn article coûte 8000 Ar. Calculer son prix après une réduction de 25%.",
+          "solution": "Réduction = 8000 × 25/100 = 2000 Ar\nNouveau prix = 8000 − 2000 = 6000 Ar"
+        },
+        {
+          "enonce": "🟡 Niveau Moyen\n\nUn artisan utilise de la peinture proportionnellement à la surface à peindre : pour 6 m², il utilise 1,5 L de peinture.\na) Quel est le coefficient de proportionnalité (en L/m²) ?\nb) Quelle quantité de peinture faut-il pour 18 m² ?",
           "solution": "a) Coefficient = 1,5 ÷ 6 = 0,25 L par m²\n\nb) Quantité = 18 × 0,25 = 4,5 L"
         },
         {
-          "enonce": "Un article coûte 24 000 Ar. Il subit d'abord une réduction de 15%, puis son nouveau prix augmente de 10%.\nCalculer le prix final de l'article.",
+          "enonce": "🟠 Niveau Difficile\n\nUn article coûte 24 000 Ar. Il subit d'abord une réduction de 15%, puis son nouveau prix augmente de 10%.\nCalculer le prix final de l'article.",
           "solution": "Réduction : 24 000 × 15/100 = 3 600 Ar\nPrix après réduction : 24 000 − 3 600 = 20 400 Ar\n\nAugmentation : 20 400 × 10/100 = 2 040 Ar\nPrix final : 20 400 + 2 040 = 22 440 Ar"
+        },
+        {
+          "enonce": "🔴 Niveau Expert (BEPC)\n\nUn cycliste roule à vitesse constante. Il parcourt 15 km en 40 minutes.\na) Quelle est sa vitesse en km/h ?\nb) À cette vitesse, combien de temps (en minutes) mettra-t-il pour parcourir 27 km ?",
+          "solution": "a) On convertit 40 minutes en heures : 40/60 = 2/3 h\nVitesse = distance ÷ temps = 15 ÷ (2/3) = 15 × 3/2 = 22,5 km/h\n\nb) Temps = distance ÷ vitesse = 27 ÷ 22,5 = 1,2 h\n1,2 h = 1,2 × 60 = 72 minutes\n\nIl mettra 72 minutes pour parcourir 27 km."
         }
       ]
     },
@@ -34,12 +50,20 @@
       "titre": "Algèbre",
       "exercices": [
         {
-          "enonce": "On considère la fonction affine f définie par f(x) = −3x + 5.\na) Calculer f(0) et f(2).\nb) Quelle est l'image de −1 par f ?\nc) Déterminer l'antécédent de 11 par f.",
+          "enonce": "🟢 Niveau Facile\n\nRésoudre l'équation : 4x + 3 = 15",
+          "solution": "4x + 3 = 15\n4x = 15 − 3\n4x = 12\nx = 12 / 4 = 3\n\nS = {3}"
+        },
+        {
+          "enonce": "🟡 Niveau Moyen\n\nRésoudre les équations suivantes :\na) 5x − 7 = 2x + 8\nb) 3(x + 2) = 2x − 1",
+          "solution": "a) 5x − 7 = 2x + 8\n5x − 2x = 8 + 7\n3x = 15\nx = 5\nS = {5}\n\nb) 3(x + 2) = 2x − 1\n3x + 6 = 2x − 1\n3x − 2x = −1 − 6\nx = −7\nS = {−7}"
+        },
+        {
+          "enonce": "🟠 Niveau Difficile\n\nOn considère la fonction affine f définie par f(x) = −3x + 5.\na) Calculer f(0) et f(2).\nb) Quelle est l'image de −1 par f ?\nc) Déterminer l'antécédent de 11 par f.",
           "solution": "a) f(0) = −3×0 + 5 = 5\nf(2) = −3×2 + 5 = −6 + 5 = −1\n\nb) f(−1) = −3×(−1) + 5 = 3 + 5 = 8\n\nc) On cherche x tel que f(x) = 11 :\n−3x + 5 = 11\n−3x = 6\nx = −2\nL'antécédent de 11 est −2."
         },
         {
-          "enonce": "Résoudre les équations suivantes :\na) 5x − 7 = 2x + 8\nb) 3(x + 2) = 2x − 1",
-          "solution": "a) 5x − 7 = 2x + 8\n5x − 2x = 8 + 7\n3x = 15\nx = 5\nS = {5}\n\nb) 3(x + 2) = 2x − 1\n3x + 6 = 2x − 1\n3x − 2x = −1 − 6\nx = −7\nS = {−7}"
+          "enonce": "🔴 Niveau Expert (BEPC)\n\nRésoudre l'équation suivante, en utilisant les identités remarquables :\n(x + 3)² − (x − 2)² = 25",
+          "solution": "On développe chaque carré :\n(x + 3)² = x² + 6x + 9\n(x − 2)² = x² − 4x + 4\n\nOn calcule la différence :\n(x² + 6x + 9) − (x² − 4x + 4) = x² + 6x + 9 − x² + 4x − 4 = 10x + 5\n\nL'équation devient :\n10x + 5 = 25\n10x = 20\nx = 2\n\nS = {2}"
         }
       ]
     },
@@ -48,12 +72,20 @@
       "titre": "Géométrie et Mesure",
       "exercices": [
         {
-          "enonce": "ABC est un triangle. M est un point de [AB] et N un point de [AC] tels que (MN) soit parallèle à (BC).\nOn donne : AM = 4 cm, AB = 10 cm, AC = 7,5 cm.\nCalculer AN.",
+          "enonce": "🟢 Niveau Facile\n\nCalculer l'angle au centre d'un polygone régulier à 8 côtés (un octogone).",
+          "solution": "Angle au centre = 360° / n = 360° / 8 = 45°"
+        },
+        {
+          "enonce": "🟡 Niveau Moyen\n\nABC est un triangle. M est un point de [AB] et N un point de [AC] tels que (MN) soit parallèle à (BC).\nOn donne : AM = 4 cm, AB = 10 cm, AC = 7,5 cm.\nCalculer AN.",
           "solution": "D'après le théorème de Thalès :\nAM/AB = AN/AC\n4/10 = AN/7,5\nAN = 4 × 7,5 / 10\nAN = 30/10 = 3\n\nAN = 3 cm."
         },
         {
-          "enonce": "Un cône a un rayon de base R = 3 cm et une hauteur h = 8 cm (on prendra π ≈ 3,14).\nCalculer son volume.",
+          "enonce": "🟠 Niveau Difficile\n\nUn cône a un rayon de base R = 3 cm et une hauteur h = 8 cm (on prendra π ≈ 3,14).\nCalculer son volume.",
           "solution": "V = (1/3) × π × R² × h\nV = (1/3) × 3,14 × 3² × 8\nV = (1/3) × 3,14 × 9 × 8\nV = (1/3) × 226,08\nV = 75,36\n\nLe volume du cône est environ 75,36 cm³."
+        },
+        {
+          "enonce": "🔴 Niveau Expert (BEPC)\n\nUne boule a un volume de 288π cm³. On lui applique un agrandissement de rapport k = 2.\na) Calculer le rayon R de la boule initiale.\nb) Calculer le volume exact de la boule agrandie, puis sa valeur approchée (on prendra π ≈ 3,14).",
+          "solution": "a) V = (4/3) × π × R³ = 288π\n(4/3) × R³ = 288\nR³ = 288 × 3/4 = 216\nR = ∛216 = 6\n\nR = 6 cm.\n\nb) Lors d'un agrandissement de rapport k, les volumes sont multipliés par k³.\nV' = 288π × 2³ = 288π × 8 = 2304π cm³\n\nAvec π ≈ 3,14 :\nV' ≈ 2304 × 3,14 ≈ 7234,56 cm³"
         }
       ]
     },
@@ -62,12 +94,20 @@
       "titre": "Traitement des données et Probabilités",
       "exercices": [
         {
-          "enonce": "Voici les notes sur 20 obtenues par 9 élèves à un devoir :\n7 ; 9 ; 11 ; 11 ; 12 ; 13 ; 14 ; 16 ; 17\na) Calculer la moyenne de la classe.\nb) Déterminer la médiane.",
+          "enonce": "🟢 Niveau Facile\n\nOn lance un dé équilibré à 6 faces. Quelle est la probabilité d'obtenir un multiple de 3 ?",
+          "solution": "Les multiples de 3 entre 1 et 6 sont : 3 et 6, soit 2 issues favorables.\n\nP(multiple de 3) = 2/6 = 1/3"
+        },
+        {
+          "enonce": "🟡 Niveau Moyen\n\nVoici les notes sur 20 obtenues par 9 élèves à un devoir :\n7 ; 9 ; 11 ; 11 ; 12 ; 13 ; 14 ; 16 ; 17\na) Calculer la moyenne de la classe.\nb) Déterminer la médiane.",
           "solution": "a) Somme = 7+9+11+11+12+13+14+16+17 = 110\nMoyenne = 110 / 9 ≈ 12,2\n\nb) L'effectif est 9 (impair). La médiane est la 5e valeur (valeur du milieu) de la série déjà rangée par ordre croissant.\nMédiane = 12"
         },
         {
-          "enonce": "Un sac contient 12 boules indiscernables au toucher : 5 rouges, 4 bleues et 3 vertes. On tire une boule au hasard.\na) Quelle est la probabilité de tirer une boule rouge ?\nb) Quelle est la probabilité de ne pas tirer une boule verte ?",
+          "enonce": "🟠 Niveau Difficile\n\nUn sac contient 12 boules indiscernables au toucher : 5 rouges, 4 bleues et 3 vertes. On tire une boule au hasard.\na) Quelle est la probabilité de tirer une boule rouge ?\nb) Quelle est la probabilité de ne pas tirer une boule verte ?",
           "solution": "a) P(rouge) = 5/12\n\nb) P(verte) = 3/12 = 1/4\nP(ne pas tirer une boule verte) = 1 − P(verte) = 1 − 1/4 = 3/4"
+        },
+        {
+          "enonce": "🔴 Niveau Expert (BEPC)\n\nDans une classe de 30 élèves, on a relevé le nombre de livres lus pendant les vacances :\nNombre de livres : 0 ; 1 ; 2 ; 3 ; 4\nEffectif : 4 ; 9 ; 10 ; 5 ; 2\n\na) Calculer la moyenne du nombre de livres lus par élève.\nb) On choisit un élève au hasard dans cette classe. Quelle est la probabilité qu'il ait lu au moins 2 livres ?",
+          "solution": "a) On calcule la somme pondérée :\n0×4 + 1×9 + 2×10 + 3×5 + 4×2 = 0 + 9 + 20 + 15 + 8 = 52\nEffectif total = 4+9+10+5+2 = 30\n\nMoyenne = 52 / 30 ≈ 1,73 livre par élève\n\nb) « Au moins 2 livres » correspond aux élèves ayant lu 2, 3 ou 4 livres :\nEffectif favorable = 10 + 5 + 2 = 17\n\nP(au moins 2 livres) = 17/30 ≈ 0,57"
         }
       ]
     }
