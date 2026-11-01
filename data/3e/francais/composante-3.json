@@ -1,0 +1,294 @@
+{
+  "id": "fr-theme3",
+  "titre": "Thème III : Le tourisme",
+  "lecons": [
+    {
+      "id": "fr-3-1",
+      "titre": "Le lexique du tourisme",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Tourisme",
+          "texte": "Le <b>tourisme</b> est l'ensemble des activités liées aux voyages que l'on fait pour son plaisir, pour découvrir des lieux, une culture, une nature différentes de son quotidien. La personne qui voyage ainsi est un <b>touriste</b>."
+        },
+        {
+          "type": "tableau",
+          "titre": "Synonymes et famille de mots",
+          "entetes": ["Mot", "Synonymes", "Famille de mots"],
+          "lignes": [
+            ["Tourisme", "voyage, excursion, villégiature", "touriste, touristique, touristiquement"],
+            ["Touriste", "voyageur, visiteur, vacancier", "tourisme, touristique"],
+            ["Visiter", "explorer, parcourir, découvrir", "visite, visiteur, visitable"],
+            ["Voyage", "déplacement, périple, séjour", "voyager, voyageur, voyagiste"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Le champ lexical du tourisme",
+          "svg": "<svg width='320' height='170' viewBox='0 0 320 170' xmlns='http://www.w3.org/2000/svg'><rect x='6' y='6' width='96' height='28' rx='8' fill='#ffe0b2' stroke='#ffb74d' stroke-width='1.5'/><text x='54' y='25' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Les personnes</text><rect x='6' y='38' width='96' height='126' rx='8' fill='#fffaf0' stroke='#ffb74d'/><text x='54' y='60' font-size='10.5' text-anchor='middle' fill='#333'>touriste</text><text x='54' y='80' font-size='10.5' text-anchor='middle' fill='#333'>voyageur</text><text x='54' y='100' font-size='10.5' text-anchor='middle' fill='#333'>guide</text><text x='54' y='120' font-size='10.5' text-anchor='middle' fill='#333'>hôtelier</text><text x='54' y='140' font-size='10.5' text-anchor='middle' fill='#333'>vacancier</text><rect x='112' y='6' width='96' height='28' rx='8' fill='#c8e6c9' stroke='#81c784' stroke-width='1.5'/><text x='160' y='25' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Les lieux</text><rect x='112' y='38' width='96' height='126' rx='8' fill='#f5fbf5' stroke='#81c784'/><text x='160' y='60' font-size='10.5' text-anchor='middle' fill='#333'>hôtel</text><text x='160' y='80' font-size='10.5' text-anchor='middle' fill='#333'>plage</text><text x='160' y='100' font-size='10.5' text-anchor='middle' fill='#333'>parc national</text><text x='160' y='120' font-size='10.5' text-anchor='middle' fill='#333'>site historique</text><text x='160' y='140' font-size='10.5' text-anchor='middle' fill='#333'>aéroport</text><rect x='218' y='6' width='96' height='28' rx='8' fill='#b3e5fc' stroke='#4fc3f7' stroke-width='1.5'/><text x='266' y='25' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Les actions</text><rect x='218' y='38' width='96' height='126' rx='8' fill='#f3fbff' stroke='#4fc3f7'/><text x='266' y='60' font-size='10.5' text-anchor='middle' fill='#333'>visiter</text><text x='266' y='80' font-size='10.5' text-anchor='middle' fill='#333'>voyager</text><text x='266' y='100' font-size='10.5' text-anchor='middle' fill='#333'>explorer</text><text x='266' y='120' font-size='10.5' text-anchor='middle' fill='#333'>réserver</text><text x='266' y='140' font-size='10.5' text-anchor='middle' fill='#333'>se détendre</text></svg>",
+          "legende": "Tous ces mots appartiennent au champ lexical du tourisme."
+        },
+        {
+          "type": "definition",
+          "titre": "Champ lexical",
+          "texte": "Un <b>champ lexical</b> est l'ensemble des mots qui se rapportent à un même thème. Exemple : voyage, hôtel, guide, excursion et séjour appartiennent au champ lexical du tourisme."
+        },
+        {
+          "type": "tableau",
+          "titre": "Écotourisme, site touristique et parc national",
+          "entetes": ["Notion", "Définition", "Exemple"],
+          "lignes": [
+            ["L'écotourisme", "Tourisme qui respecte la nature et les populations locales", "Visiter une forêt avec un guide du village, sans laisser de déchets"],
+            ["Un site touristique", "Lieu qui attire des visiteurs (naturel, historique ou culturel)", "L'Allée des Baobabs, le Rova de Manjakamiadana"],
+            ["Un parc national", "Espace naturel protégé par l'État, où la faune et la flore sont préservées et où les visites sont réglementées", "Isalo, Ranomafana, Andasibe-Mantadia"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Tout parc national est un site touristique, mais tout site touristique n'est pas un parc national : une plage ou un palais ne sont pas des parcs nationaux."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1. Donne un synonyme de « touriste » et un synonyme de « voyage ».\n2. Classe ces mots : randonneur, auberge, photographier, excursionniste, camping, découvrir (personnes / lieux / actions).\n3. Quelle différence fais-tu entre un parc national et un site touristique ?\n4. Cite deux gestes d'un écotouriste.\n5. Cite deux mots de la famille de « tourisme ».",
+          "solution": "1. Par exemple : visiteur, vacancier ; périple, séjour.\n2. Personnes : randonneur, excursionniste. Lieux : auberge, camping. Actions : photographier, découvrir.\n3. Un parc national est un espace naturel protégé par l'État. Un site touristique est tout lieu qui attire des visiteurs, naturel ou non.\n4. Par exemple : ne pas jeter de déchets, respecter la faune et la flore, faire appel à des guides locaux, acheter l'artisanat local.\n5. Par exemple : touriste, touristique."
+        }
+      ],
+      "lexique": [
+        { "terme": "Tourisme", "definition": "Activités liées aux voyages faits pour le plaisir et la découverte." },
+        { "terme": "Séjour", "definition": "Temps passé dans un lieu qui n'est pas son domicile." },
+        { "terme": "Écotourisme", "definition": "Tourisme respectueux de l'environnement et des habitants." },
+        { "terme": "Site touristique", "definition": "Lieu qui attire des visiteurs." },
+        { "terme": "Parc national", "definition": "Espace naturel protégé par l'État." },
+        { "terme": "Champ lexical", "definition": "Ensemble de mots qui se rapportent à un même thème." }
+      ]
+    },
+    {
+      "id": "fr-3-2",
+      "titre": "Les destinations touristiques de Madagascar",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "Madagascar offre des paysages uniques : forêts, plages, canyons, sites royaux. Le graphique présente les dix destinations les plus populaires, selon les pourcentages du document de référence."
+        },
+        {
+          "type": "schema",
+          "titre": "Les 10 destinations les plus populaires (en %)",
+          "svg": "<svg width='320' height='250' viewBox='0 0 320 250' xmlns='http://www.w3.org/2000/svg'><text x='160' y='14' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>Popularité des destinations (%)</text><line x1='120' y1='20' x2='120' y2='246' stroke='#9e9e9e' stroke-width='1.5'/><text x='114' y='38' font-size='10' text-anchor='end' fill='#333'>Allée des Baobabs</text><rect x='120' y='26' width='160' height='16' fill='#81c784' stroke='#43a047'/><text x='284' y='38' font-size='10' font-weight='bold' fill='#333'>16 %</text><text x='114' y='60' font-size='10' text-anchor='end' fill='#333'>Nosy Be</text><rect x='120' y='48' width='130' height='16' fill='#81c784' stroke='#43a047'/><text x='254' y='60' font-size='10' font-weight='bold' fill='#333'>13 %</text><text x='114' y='82' font-size='10' text-anchor='end' fill='#333'>Île Sainte-Marie</text><rect x='120' y='70' width='110' height='16' fill='#81c784' stroke='#43a047'/><text x='234' y='82' font-size='10' font-weight='bold' fill='#333'>11 %</text><text x='114' y='104' font-size='10' text-anchor='end' fill='#333'>Isalo</text><rect x='120' y='92' width='100' height='16' fill='#81c784' stroke='#43a047'/><text x='224' y='104' font-size='10' font-weight='bold' fill='#333'>10 %</text><text x='114' y='126' font-size='10' text-anchor='end' fill='#333'>Ranomafana</text><rect x='120' y='114' width='100' height='16' fill='#81c784' stroke='#43a047'/><text x='224' y='126' font-size='10' font-weight='bold' fill='#333'>10 %</text><text x='114' y='148' font-size='10' text-anchor='end' fill='#333'>Tsingy de Bemaraha</text><rect x='120' y='136' width='80' height='16' fill='#81c784' stroke='#43a047'/><text x='204' y='148' font-size='10' font-weight='bold' fill='#333'>8 %</text><text x='114' y='170' font-size='10' text-anchor='end' fill='#333'>Rova Manjakamiadana</text><rect x='120' y='158' width='60' height='16' fill='#81c784' stroke='#43a047'/><text x='184' y='170' font-size='10' font-weight='bold' fill='#333'>6 %</text><text x='114' y='192' font-size='10' text-anchor='end' fill='#333'>Andasibe-Mantadia</text><rect x='120' y='180' width='60' height='16' fill='#81c784' stroke='#43a047'/><text x='184' y='192' font-size='10' font-weight='bold' fill='#333'>6 %</text><text x='114' y='214' font-size='10' text-anchor='end' fill='#333'>Colline d'Ambohimanga</text><rect x='120' y='202' width='60' height='16' fill='#81c784' stroke='#43a047'/><text x='184' y='214' font-size='10' font-weight='bold' fill='#333'>6 %</text><text x='114' y='236' font-size='10' text-anchor='end' fill='#333'>Ifaty</text><rect x='120' y='224' width='60' height='16' fill='#81c784' stroke='#43a047'/><text x='184' y='236' font-size='10' font-weight='bold' fill='#333'>6 %</text></svg>",
+          "legende": "L'Allée des Baobabs arrive en tête, devant Nosy Be et l'île Sainte-Marie."
+        },
+        {
+          "type": "tableau",
+          "titre": "Où se trouvent ces destinations ?",
+          "entetes": ["Destination", "Situation", "À découvrir"],
+          "lignes": [
+            ["Allée des Baobabs", "Ouest, région du Menabe (près de Morondava)", "Baobabs géants au coucher du soleil"],
+            ["Nosy Be", "Nord-Ouest (île)", "Plages, mer chaude, îlots"],
+            ["Île Sainte-Marie (Nosy Boraha)", "Est (île)", "Plages, observation des baleines à bosse (juillet à septembre)"],
+            ["Isalo", "Sud-Ouest", "Parc national : canyons et massifs de grès"],
+            ["Ranomafana", "Sud-Est", "Parc national : forêt humide et lémuriens"],
+            ["Tsingy de Bemaraha", "Ouest", "Forêt de pierre calcaire, patrimoine mondial de l'UNESCO"],
+            ["Rova Manjakamiadana", "Antananarivo", "Ancien palais royal"],
+            ["Andasibe-Mantadia", "Est", "Parc national : l'indri, le plus grand lémurien"],
+            ["Colline royale d'Ambohimanga", "Près d'Antananarivo", "Colline sacrée, patrimoine mondial de l'UNESCO"],
+            ["Ifaty", "Sud-Ouest, près de Toliara", "Plages, lagon, forêt d'épineux"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Ces destinations sont de trois types : <b>naturelles</b> (Isalo, Ranomafana, Tsingy…), <b>balnéaires</b> (Nosy Be, Sainte-Marie, Ifaty) et <b>historiques</b> (Rova, Ambohimanga). Pour les préserver, il faut pratiquer l'écotourisme."
+        },
+        {
+          "type": "methode",
+          "titre": "Présenter une destination",
+          "texte": "1. Donne son nom et sa situation (région, île, ville proche).\n2. Dis ce qu'on y voit ou ce qu'on y fait.\n3. Explique pourquoi elle est célèbre ou intéressante.\n4. Ajoute un conseil pour la visiter en respectant la nature."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Observe le graphique.\n1. Quelle est la destination la plus populaire ? Quel est son pourcentage ?\n2. Quelles destinations ont 10 % ?\n3. Combien de destinations ont 6 % ?\n4. Calcule le total des trois premières destinations.\n5. Quels sont les deux sites historiques de la liste ?",
+          "solution": "1. L'Allée des Baobabs, avec 16 %.\n2. Isalo et Ranomafana.\n3. Quatre : le Rova Manjakamiadana, Andasibe-Mantadia, la colline d'Ambohimanga et Ifaty.\n4. 16 + 13 + 11 = 40 %.\n5. Le Rova Manjakamiadana et la colline royale d'Ambohimanga."
+        }
+      ],
+      "lexique": [
+        { "terme": "Destination", "definition": "Lieu où l'on se rend en voyage." },
+        { "terme": "Faune", "definition": "Ensemble des animaux d'une région." },
+        { "terme": "Flore", "definition": "Ensemble des plantes d'une région." },
+        { "terme": "Balnéaire", "definition": "Qui concerne les bains de mer et les vacances à la plage." },
+        { "terme": "Patrimoine mondial", "definition": "Site reconnu par l'UNESCO comme précieux pour toute l'humanité." }
+      ]
+    },
+    {
+      "id": "fr-3-3",
+      "titre": "Les valeurs du présent de l'indicatif",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Le présent de l'indicatif",
+          "texte": "Le <b>présent de l'indicatif</b> est le temps de ce qui se passe maintenant, mais il a aussi d'autres emplois : habitude, vérité générale, description, narration, passé proche, futur proche, injonction."
+        },
+        {
+          "type": "tableau",
+          "titre": "Formation du présent",
+          "entetes": ["Personne", "parler (1er groupe)", "finir (2e groupe)", "prendre (3e groupe)"],
+          "lignes": [
+            ["je", "parle", "finis", "prends"],
+            ["tu", "parles", "finis", "prends"],
+            ["il / elle", "parle", "finit", "prend"],
+            ["nous", "parlons", "finissons", "prenons"],
+            ["vous", "parlez", "finissez", "prenez"],
+            ["ils / elles", "parlent", "finissent", "prennent"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Le présent sur la ligne du temps",
+          "svg": "<svg width='320' height='160' viewBox='0 0 320 160' xmlns='http://www.w3.org/2000/svg'><line x1='10' y1='70' x2='300' y2='70' stroke='#757575' stroke-width='2'/><polygon points='300,64 312,70 300,76' fill='#757575'/><circle cx='60' cy='70' r='7' fill='#ffe0b2' stroke='#ffb74d' stroke-width='2'/><circle cx='160' cy='70' r='11' fill='#c8e6c9' stroke='#43a047' stroke-width='2'/><circle cx='260' cy='70' r='7' fill='#b3e5fc' stroke='#4fc3f7' stroke-width='2'/><text x='60' y='52' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Passé proche</text><text x='160' y='36' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>Présent</text><text x='160' y='50' font-size='10' text-anchor='middle' fill='#333'>(maintenant)</text><text x='260' y='52' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Futur proche</text><text x='60' y='94' font-size='9.5' text-anchor='middle' fill='#333'>Elle arrive</text><text x='60' y='107' font-size='9.5' text-anchor='middle' fill='#333'>à l'instant</text><text x='160' y='94' font-size='9.5' text-anchor='middle' fill='#333'>Regarde,</text><text x='160' y='107' font-size='9.5' text-anchor='middle' fill='#333'>il pleut !</text><text x='260' y='94' font-size='9.5' text-anchor='middle' fill='#333'>Demain, nous</text><text x='260' y='107' font-size='9.5' text-anchor='middle' fill='#333'>partons</text><rect x='10' y='120' width='300' height='36' rx='8' fill='#fff3cd' stroke='#f9a825' stroke-width='1.5'/><text x='160' y='135' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>Habitude et vérité générale :</text><text x='160' y='148' font-size='10' text-anchor='middle' fill='#333'>l'action se répète ou est toujours vraie</text></svg>",
+          "legende": "Le présent peut aussi parler d'un passé ou d'un futur très proches."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les valeurs du présent",
+          "entetes": ["Valeur", "Explication", "Exemple"],
+          "lignes": [
+            ["Énonciation", "Action qui se passe au moment où l'on parle", "Regarde, il pleut !"],
+            ["Habitude", "Action qui se répète régulièrement", "Chaque matin, Lala prend le bus."],
+            ["Vérité générale", "Fait toujours vrai (loi, proverbe)", "L'eau bout à 100 °C."],
+            ["Description", "Présenter un lieu, une personne", "La plage est bordée de cocotiers."],
+            ["Narration", "Raconter un fait passé comme s'il se passait maintenant", "Soudain, la porte s'ouvre et un homme entre."],
+            ["Passé proche", "Action qui vient juste de se passer", "Elle arrive à l'instant."],
+            ["Futur proche", "Action qui va bientôt se passer", "Demain, nous partons à Nosy Be."],
+            ["Injonction", "Ordre ou conseil", "Tu ranges ta chambre !"]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Trouver la valeur du présent",
+          "texte": "1. Cherche un mot de temps (demain, chaque jour, soudain, à l'instant).\n2. Demande-toi : l'action se passe-t-elle maintenant ? se répète-t-elle ? est-elle toujours vraie ?\n3. Si c'est un proverbe ou une loi : vérité générale.\n4. Si l'on raconte une histoire passée : narration."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Indique la valeur du présent dans chaque phrase :\n1. Mieux vaut tard que jamais.\n2. Je t'écris pour te donner des nouvelles.\n3. Tous les lundis, je déjeune chez ma grand-mère.\n4. Demain, je joue au tennis.\n5. Je finis mon devoir à l'instant.\n6. Hélas, ils s'approchent, se rouent de coups mais des passants interviennent.\n7. Qui va à la chasse perd sa place.",
+          "solution": "1. Vérité générale (proverbe).\n2. Énonciation (au moment où l'on écrit).\n3. Habitude.\n4. Futur proche.\n5. Passé proche.\n6. Narration (présent employé pour raconter une scène passée).\n7. Vérité générale (proverbe)."
+        }
+      ],
+      "lexique": [
+        { "terme": "Présent de l'indicatif", "definition": "Temps qui exprime surtout ce qui se passe maintenant." },
+        { "terme": "Vérité générale", "definition": "Fait toujours vrai, comme un proverbe ou une loi." },
+        { "terme": "Présent de narration", "definition": "Présent employé pour raconter un fait passé de façon vivante." },
+        { "terme": "Injonction", "definition": "Ordre ou conseil donné à quelqu'un." },
+        { "terme": "Énonciation", "definition": "Moment où l'on parle ou écrit." }
+      ]
+    },
+    {
+      "id": "fr-3-4",
+      "titre": "Les connecteurs logiques",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Connecteur logique",
+          "texte": "Un <b>connecteur logique</b> est un mot ou une expression qui relie deux phrases ou deux idées en montrant le lien qui les unit : cause, conséquence, opposition, but, condition ou reformulation."
+        },
+        {
+          "type": "schema",
+          "titre": "Les six relations logiques",
+          "svg": "<svg width='320' height='228' viewBox='0 0 320 228' xmlns='http://www.w3.org/2000/svg'><rect x='6' y='6' width='150' height='68' rx='10' fill='#ffcdd2' stroke='#e57373' stroke-width='1.5'/><text x='81' y='24' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>Cause</text><text x='81' y='38' font-size='10' font-style='italic' text-anchor='middle' fill='#333'>Pourquoi ?</text><text x='81' y='53' font-size='10' text-anchor='middle' fill='#333'>car, parce que, puisque</text><text x='81' y='66' font-size='10' text-anchor='middle' fill='#333'>en effet, comme</text><rect x='164' y='6' width='150' height='68' rx='10' fill='#ffe0b2' stroke='#ffb74d' stroke-width='1.5'/><text x='239' y='24' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>Conséquence</text><text x='239' y='38' font-size='10' font-style='italic' text-anchor='middle' fill='#333'>Quel résultat ?</text><text x='239' y='53' font-size='10' text-anchor='middle' fill='#333'>donc, par conséquent</text><text x='239' y='66' font-size='10' text-anchor='middle' fill='#333'>si bien que, c'est pourquoi</text><rect x='6' y='80' width='150' height='68' rx='10' fill='#f8bbd0' stroke='#f06292' stroke-width='1.5'/><text x='81' y='98' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>Opposition</text><text x='81' y='112' font-size='10' font-style='italic' text-anchor='middle' fill='#333'>Quel contraste ?</text><text x='81' y='127' font-size='10' text-anchor='middle' fill='#333'>mais, cependant, pourtant</text><text x='81' y='140' font-size='10' text-anchor='middle' fill='#333'>en revanche, alors que</text><rect x='164' y='80' width='150' height='68' rx='10' fill='#c8e6c9' stroke='#81c784' stroke-width='1.5'/><text x='239' y='98' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>But</text><text x='239' y='112' font-size='10' font-style='italic' text-anchor='middle' fill='#333'>Dans quel but ?</text><text x='239' y='127' font-size='10' text-anchor='middle' fill='#333'>pour, afin de</text><text x='239' y='140' font-size='10' text-anchor='middle' fill='#333'>pour que, afin que</text><rect x='6' y='154' width='150' height='68' rx='10' fill='#b3e5fc' stroke='#4fc3f7' stroke-width='1.5'/><text x='81' y='172' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>Condition</text><text x='81' y='186' font-size='10' font-style='italic' text-anchor='middle' fill='#333'>À quelle condition ?</text><text x='81' y='201' font-size='10' text-anchor='middle' fill='#333'>si, à condition que</text><text x='81' y='214' font-size='10' text-anchor='middle' fill='#333'>au cas où, à moins de</text><rect x='164' y='154' width='150' height='68' rx='10' fill='#e1bee7' stroke='#ba68c8' stroke-width='1.5'/><text x='239' y='172' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>Reformulation</text><text x='239' y='186' font-size='10' font-style='italic' text-anchor='middle' fill='#333'>Autrement dit ?</text><text x='239' y='201' font-size='10' text-anchor='middle' fill='#333'>c'est-à-dire</text><text x='239' y='214' font-size='10' text-anchor='middle' fill='#333'>en d'autres termes</text></svg>",
+          "legende": "Chaque relation répond à une question."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les connecteurs à connaître",
+          "entetes": ["Relation", "Connecteurs", "Exemple"],
+          "lignes": [
+            ["Cause", "car, en effet, parce que, puisque, comme, vu que, à cause de, en raison de, faute de, grâce à, sous prétexte que", "Il reste à la maison parce qu'il est malade."],
+            ["Conséquence", "donc, par conséquent, en conséquence, c'est pourquoi, si bien que, de sorte que, de manière que, de façon que", "Il est malade, donc il reste à la maison."],
+            ["Opposition", "mais, cependant, pourtant, en revanche, au contraire, tandis que, alors que, bien que, quoique, quand bien même", "Il est malade, pourtant il va à l'école."],
+            ["But", "pour, afin de, en vue de, pour que, afin que, de crainte que, de peur que, de façon que, de sorte que", "Il étudie pour réussir son BEPC."],
+            ["Condition", "si, à condition que, à condition de, au cas où, en cas de, à moins de, sauf", "Nous irons au parc s'il fait beau."],
+            ["Reformulation", "c'est-à-dire, en d'autres termes, autrement dit, en un mot, ou plutôt", "L'écotourisme, c'est-à-dire le tourisme qui respecte la nature."]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "<b>Attention aux pièges :</b>\n• « de sorte que » et « de façon que » expriment la <b>conséquence</b> avec l'indicatif (Il a bien travaillé, de sorte qu'il a réussi) et le <b>but</b> avec le subjonctif (Il travaille de sorte qu'il réussisse).\n• « quoique » (en un mot) exprime l'opposition ; « quoi que » (en deux mots) signifie « quelle que soit la chose que » (Quoi que tu dises, je viendrai).\n• « bien que », « quoique », « pour que », « afin que », « de peur que » sont suivis du <b>subjonctif</b>."
+        },
+        {
+          "type": "methode",
+          "titre": "Choisir le bon connecteur",
+          "texte": "1. Lis les deux idées à relier.\n2. Demande-toi : l'une explique-t-elle l'autre (cause) ? en découle-t-elle (conséquence) ? la contredit-elle (opposition) ?\n3. Choisis le connecteur correspondant.\n4. Vérifie le mode du verbe qui suit (subjonctif après bien que, pour que, afin que)."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Complète chaque phrase avec un connecteur logique adapté, puis indique la relation exprimée :\n1. Il n'a pas voyagé ... il manquait d'argent.\n2. Il a plu toute la journée, ... nous avons annulé la sortie.\n3. Elle est partie tôt ... arriver à l'heure.\n4. ... il pleuve, nous irons à la plage.\n5. Nous visiterons l'Isalo ... le temps le permet.",
+          "solution": "1. parce qu' (ou car) : cause.\n2. donc (ou par conséquent) : conséquence.\n3. afin d' (ou pour) : but.\n4. Bien qu' : opposition (suivi du subjonctif : pleuve).\n5. si : condition."
+        }
+      ],
+      "lexique": [
+        { "terme": "Connecteur logique", "definition": "Mot qui relie deux idées en montrant leur lien." },
+        { "terme": "Cause", "definition": "Raison pour laquelle quelque chose se produit." },
+        { "terme": "Conséquence", "definition": "Résultat d'un fait ou d'une action." },
+        { "terme": "Opposition", "definition": "Rapport entre deux idées qui s'opposent ou se contredisent." },
+        { "terme": "But", "definition": "Ce que l'on cherche à obtenir par une action." },
+        { "terme": "Condition", "definition": "Fait nécessaire pour qu'un autre se réalise." }
+      ]
+    },
+    {
+      "id": "fr-3-5",
+      "titre": "Propositions juxtaposées, coordonnées et subordonnées",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Proposition et phrase complexe",
+          "texte": "Une <b>proposition</b> est un groupe de mots organisé autour d'un <b>verbe conjugué</b>. Une phrase qui contient un seul verbe conjugué est une <b>phrase simple</b>. Une phrase qui en contient plusieurs est une <b>phrase complexe</b>."
+        },
+        {
+          "type": "schema",
+          "titre": "Les trois façons de relier des propositions",
+          "svg": "<svg width='320' height='184' viewBox='0 0 320 184' xmlns='http://www.w3.org/2000/svg'><rect x='100' y='4' width='120' height='28' rx='8' fill='#fff3cd' stroke='#f9a825' stroke-width='1.5'/><text x='160' y='23' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>Phrase complexe</text><g stroke='#757575' stroke-width='1.5'><line x1='160' y1='32' x2='55' y2='60'/><line x1='160' y1='32' x2='160' y2='60'/><line x1='160' y1='32' x2='265' y2='60'/></g><rect x='4' y='60' width='102' height='120' rx='8' fill='#b3e5fc' stroke='#4fc3f7' stroke-width='1.5'/><text x='55' y='78' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Juxtaposées</text><text x='55' y='94' font-size='9.5' text-anchor='middle' fill='#333'>séparées par une</text><text x='55' y='106' font-size='9.5' text-anchor='middle' fill='#333'>ponctuation</text><text x='55' y='118' font-size='9.5' font-weight='bold' text-anchor='middle' fill='#333'>( , ; : )</text><line x1='14' y1='126' x2='96' y2='126' stroke='#4fc3f7'/><text x='55' y='142' font-size='9.5' font-style='italic' text-anchor='middle' fill='#333'>Il arrive,</text><text x='55' y='155' font-size='9.5' font-style='italic' text-anchor='middle' fill='#333'>il s'assoit.</text><rect x='109' y='60' width='102' height='120' rx='8' fill='#c8e6c9' stroke='#81c784' stroke-width='1.5'/><text x='160' y='78' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Coordonnées</text><text x='160' y='94' font-size='9.5' text-anchor='middle' fill='#333'>reliées par :</text><text x='160' y='106' font-size='9.5' font-weight='bold' text-anchor='middle' fill='#333'>mais, ou, et, donc,</text><text x='160' y='118' font-size='9.5' font-weight='bold' text-anchor='middle' fill='#333'>or, ni, car</text><line x1='119' y1='126' x2='201' y2='126' stroke='#81c784'/><text x='160' y='142' font-size='9.5' font-style='italic' text-anchor='middle' fill='#333'>Il pleut, donc</text><text x='160' y='155' font-size='9.5' font-style='italic' text-anchor='middle' fill='#333'>nous restons.</text><rect x='214' y='60' width='102' height='120' rx='8' fill='#ffe0b2' stroke='#ffb74d' stroke-width='1.5'/><text x='265' y='78' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Subordonnées</text><text x='265' y='94' font-size='9.5' text-anchor='middle' fill='#333'>dépendent d'une</text><text x='265' y='106' font-size='9.5' text-anchor='middle' fill='#333'>principale (que,</text><text x='265' y='118' font-size='9.5' font-weight='bold' text-anchor='middle' fill='#333'>quand, qui, où…)</text><line x1='224' y1='126' x2='306' y2='126' stroke='#ffb74d'/><text x='265' y='142' font-size='9.5' font-style='italic' text-anchor='middle' fill='#333'>Je sais qu'il</text><text x='265' y='155' font-size='9.5' font-style='italic' text-anchor='middle' fill='#333'>pleut.</text></svg>",
+          "legende": "Juxtaposées et coordonnées sont indépendantes ; la subordonnée dépend d'une principale."
+        },
+        {
+          "type": "tableau",
+          "titre": "Juxtaposition, coordination, subordination",
+          "entetes": ["Type", "Définition", "Exemple"],
+          "lignes": [
+            ["Propositions juxtaposées", "Reliées par un signe de ponctuation, sans mot de liaison", "Il arrive, il s'assoit, il sort son cahier."],
+            ["Propositions coordonnées", "Reliées par une conjonction de coordination (mais, ou, et, donc, or, ni, car)", "Le vent tomba dans la soirée et le ciel devint noir."],
+            ["Proposition principale + subordonnée", "La subordonnée dépend de la principale, à laquelle elle est reliée par un mot subordonnant", "Je regrette que tu sois en retard."]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Les propositions subordonnées",
+          "entetes": ["Subordonnée", "Introduite par", "Exemple"],
+          "lignes": [
+            ["Conjonctive complétive", "que (qu')", "Je regrette que tu sois en retard."],
+            ["Conjonctive circonstancielle", "quand, parce que, si, bien que, pour que…", "Je sais qu'il était là quand je suis parti."],
+            ["Interrogative indirecte", "si, où, comment, pourquoi, qui, ce que…", "Je ne sais pas par où il est passé."],
+            ["Relative", "qui, que, dont, où, lequel…", "Le garçon qui viendra s'appelle Antoine."]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Dans « Je sais qu'il était là quand je suis parti », il y a <b>trois</b> verbes conjugués donc trois propositions : la principale « Je sais », la subordonnée « qu'il était là » et la subordonnée « quand je suis parti ».\n\nLes juxtaposées et les coordonnées forment, elles aussi, des <b>phrases complexes</b> puisqu'elles contiennent plusieurs verbes conjugués."
+        },
+        {
+          "type": "methode",
+          "titre": "Analyser une phrase complexe",
+          "texte": "1. Souligne chaque verbe conjugué : il y a autant de propositions.\n2. Cherche la ponctuation ou la conjonction de coordination qui relie deux propositions : juxtaposées ou coordonnées.\n3. Cherche un mot subordonnant (que, qui, quand, si, où…) : la proposition qu'il introduit est subordonnée.\n4. Repère la principale : celle dont les autres dépendent."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Combien de propositions contient chaque phrase ? Indique leur nature :\n1. Le vent tomba dans la soirée et le ciel devint noir.\n2. Il arrive, il s'assoit, il sort son cahier.\n3. Je regrette que tu sois en retard.\n4. Dis-moi où tu habites.\n5. Le garçon qui viendra s'appelle Antoine.",
+          "solution": "1. Deux propositions coordonnées par « et ».\n2. Trois propositions juxtaposées (séparées par des virgules).\n3. Deux propositions : la principale « Je regrette » et la subordonnée conjonctive complétive « que tu sois en retard ».\n4. Deux propositions : la principale « Dis-moi » et la subordonnée interrogative indirecte « où tu habites ».\n5. Deux propositions : la principale « Le garçon s'appelle Antoine » (interrompue par la relative) et la subordonnée relative « qui viendra »."
+        }
+      ],
+      "lexique": [
+        { "terme": "Proposition", "definition": "Groupe de mots organisé autour d'un verbe conjugué." },
+        { "terme": "Phrase complexe", "definition": "Phrase qui contient plusieurs verbes conjugués." },
+        { "terme": "Proposition principale", "definition": "Proposition dont dépend une subordonnée." },
+        { "terme": "Proposition subordonnée", "definition": "Proposition qui dépend d'une autre et ne peut pas rester seule." },
+        { "terme": "Juxtaposition", "definition": "Fait de relier des propositions par la seule ponctuation." },
+        { "terme": "Coordination", "definition": "Fait de relier des propositions par une conjonction de coordination." }
+      ]
+    }
+  ]
+}
