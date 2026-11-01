@@ -14,7 +14,15 @@ const CLASSES = [
 const MATIERES_PAR_CLASSE = {
   '3e': [
     { id: 'malagasy',           code: 'MALG', nom: 'Malagasy',           icone: '📚', disponible: false, fichier: './data/3e/malagasy.json' },
-    { id: 'francais',           code: 'FRAN', nom: 'Français',           icone: '📖', disponible: false, fichier: './data/3e/francais.json' },
+    { id: 'francais',           code: 'FRAN', nom: 'Français',           icone: '📖', disponible: true,  fichiers: [
+      './data/3e/francais/composante-1.json',
+      './data/3e/francais/composante-2.json',
+      './data/3e/francais/composante-3.json',
+      './data/3e/francais/composante-4.json',
+      './data/3e/francais/composante-5.json',
+      './data/3e/francais/composante-6.json',
+      './data/3e/francais/composante-7.json'
+    ] },    
     { id: 'anglais',            code: 'ANGL', nom: 'Anglais',            icone: '🌍', disponible: true,  fichiers: [
       './data/3e/anglais/composante-1.json',
       './data/3e/anglais/composante-2.json',
@@ -72,8 +80,9 @@ const EXERCICES_PAR_CLASSE = {
     { id: 'sciences-physiques', nom: 'Sciences Physiques', icone: '⚛️', disponible: true,
       fichier: './data/3e/exercices/exercices-sciences-physiques.json' },
     { id: 'svt', nom: 'SVT', icone: '🔬', disponible: true,
-      fichier: './data/3e/exercices/exercices-svt.json' }
-  ],
+      fichier: './data/3e/exercices/exercices-svt.json' },
+    { id: 'francais', nom: 'Français', icone: '📖', disponible: true,
+      fichier: './data/3e/exercices/exercices-francais.json' }  ],
   'tle': []
 };
 const LABELS_TYPE = {
