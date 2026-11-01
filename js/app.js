@@ -32,8 +32,10 @@ const MATIERES_PAR_CLASSE = {
       './data/3e/mathematiques/composante-4.json',
       './data/3e/mathematiques/composante-5.json'
     ] },
-    { id: 'svt',                code: 'SVT',  nom: 'SVT',                icone: '🔬', disponible: false, fichier: './data/3e/svt.json' },
-        { id: 'sciences-physiques', code: 'SPHY', nom: 'Sciences Physiques', icone: '⚛️', disponible: true,  fichiers: [
+    { id: 'svt', code: 'SVT', nom: 'SVT', icone: '🔬', disponible: true, fichiers: [
+      './data/3e/svt/composante-1.json'
+    ] },
+    { id: 'sciences-physiques', code: 'SPHY', nom: 'Sciences Physiques', icone: '⚛️', disponible: true,  fichiers: [
       './data/3e/sciences-physiques/composante-1.json',
       './data/3e/sciences-physiques/composante-2.json',
       './data/3e/sciences-physiques/composante-3.json',
