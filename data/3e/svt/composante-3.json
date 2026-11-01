@@ -1,0 +1,230 @@
+{
+  "id": "svt-theme3",
+  "titre": "Thématique 3 : Santé et bien-être",
+  "lecons": [
+    {
+      "id": "svt-3-1",
+      "titre": "Le système nerveux",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Système nerveux : il reçoit des informations venant du milieu extérieur et de l'intérieur du corps (les stimulus), les analyse et élabore des réponses (mouvements, réactions des organes). Il comprend le système nerveux central (SNC) et le système nerveux périphérique (SNP)."
+        },
+        {
+          "type": "schema",
+          "titre": "Organisation du système nerveux",
+          "svg": "<svg width='320' height='205' viewBox='0 0 320 205' xmlns='http://www.w3.org/2000/svg'><rect x='95' y='6' width='130' height='26' rx='5' fill='#fde68a' stroke='#1e293b' stroke-width='1.5'/><text x='160' y='24' font-size='12' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Système nerveux</text><line x1='160' y1='32' x2='80' y2='52' stroke='#1e293b' stroke-width='1.5'/><line x1='160' y1='32' x2='240' y2='52' stroke='#1e293b' stroke-width='1.5'/><rect x='10' y='52' width='140' height='36' rx='5' fill='#fbcfe8' stroke='#1e293b' stroke-width='1.5'/><text x='80' y='67' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Système nerveux</text><text x='80' y='81' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>central (SNC)</text><rect x='170' y='52' width='140' height='36' rx='5' fill='#bfdbfe' stroke='#1e293b' stroke-width='1.5'/><text x='240' y='67' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Système nerveux</text><text x='240' y='81' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>périphérique (SNP)</text><line x1='80' y1='88' x2='80' y2='104' stroke='#1e293b' stroke-width='1.5'/><line x1='240' y1='88' x2='240' y2='104' stroke='#1e293b' stroke-width='1.5'/><rect x='10' y='104' width='140' height='44' rx='5' fill='#fdf2f8' stroke='#1e293b' stroke-width='1.2'/><text x='80' y='118' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Encéphale</text><text x='80' y='131' font-size='9' font-family='sans-serif' fill='#475569' text-anchor='middle'>(cerveau, cervelet,</text><text x='80' y='143' font-size='9' font-family='sans-serif' fill='#475569' text-anchor='middle'>tronc cérébral)</text><rect x='10' y='154' width='140' height='44' rx='5' fill='#fdf2f8' stroke='#1e293b' stroke-width='1.2'/><text x='80' y='168' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Moelle épinière</text><text x='80' y='181' font-size='9' font-family='sans-serif' fill='#475569' text-anchor='middle'>(protégée par les</text><text x='80' y='193' font-size='9' font-family='sans-serif' fill='#475569' text-anchor='middle'>vertèbres)</text><rect x='170' y='104' width='140' height='34' rx='5' fill='#eff6ff' stroke='#1e293b' stroke-width='1.2'/><text x='240' y='118' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Nerfs crâniens</text><text x='240' y='131' font-size='10' font-family='sans-serif' fill='#475569' text-anchor='middle'>12 paires</text><rect x='170' y='144' width='140' height='34' rx='5' fill='#eff6ff' stroke='#1e293b' stroke-width='1.2'/><text x='240' y='158' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Nerfs rachidiens</text><text x='240' y='171' font-size='10' font-family='sans-serif' fill='#475569' text-anchor='middle'>31 paires</text></svg>",
+          "legende": "Le SNC (encéphale et moelle épinière) traite l'information. Le SNP (nerfs et ganglions) relie le SNC aux organes."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Partie", "Constituants", "Rôle"],
+          "lignes": [
+            ["Système nerveux central (SNC)", "encéphale (protégé par la boîte crânienne) et moelle épinière (protégée par la colonne vertébrale)", "centres nerveux : reçoivent, analysent l'information et commandent les réponses"],
+            ["Système nerveux périphérique (SNP)", "nerfs (12 paires de nerfs crâniens, 31 paires de nerfs rachidiens) et ganglions (petits renflements sur les nerfs)", "conduisent les messages entre le SNC et les organes"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "L'encéphale (vue de profil)",
+          "svg": "<svg width='320' height='235' viewBox='0 0 320 235' xmlns='http://www.w3.org/2000/svg'><text x='8' y='16' font-size='10' font-style='italic' font-family='sans-serif' fill='#64748b'>avant</text><text x='312' y='16' font-size='10' font-style='italic' font-family='sans-serif' fill='#64748b' text-anchor='end'>arrière</text><path d='M125,130 L155,130 L152,192 L128,192 Z' fill='#fdba74' stroke='#1e293b' stroke-width='1.5'/><rect x='130' y='192' width='20' height='36' fill='#fde68a' stroke='#1e293b' stroke-width='1.5'/><ellipse cx='190' cy='140' rx='38' ry='20' fill='#c4b5fd' stroke='#1e293b' stroke-width='1.5'/><ellipse cx='140' cy='78' rx='88' ry='56' fill='#fbcfe8' stroke='#1e293b' stroke-width='1.5'/><g fill='none' stroke='#be185d' stroke-width='1.5'><path d='M90,60 Q110,40 130,60 T170,55'/><path d='M80,92 Q105,75 130,92 T185,88'/><path d='M120,35 Q125,55 150,45'/><path d='M165,108 Q185,95 205,108'/></g><g stroke='#475569' stroke-width='1'><line x1='205' y1='60' x2='238' y2='46'/><line x1='215' y1='150' x2='238' y2='156'/><line x1='127' y1='160' x2='100' y2='165'/><line x1='130' y1='212' x2='100' y2='212'/></g><g font-size='11' font-family='sans-serif' fill='#1e293b'><text x='242' y='50'>cerveau</text><text x='242' y='160'>cervelet</text><text x='96' y='169' text-anchor='end'>tronc cérébral</text><text x='96' y='216' text-anchor='end'>moelle épinière</text></g></svg>",
+          "legende": "Le cerveau est la plus grosse partie de l'encéphale. Le tronc cérébral se prolonge par la moelle épinière."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Organe", "Rôle principal"],
+          "lignes": [
+            ["Cerveau", "sensations, pensée, mémoire, commande des mouvements volontaires"],
+            ["Cervelet", "équilibre du corps et coordination des mouvements"],
+            ["Tronc cérébral (bulbe rachidien)", "commande de fonctions vitales : respiration, battements du cœur ; centre de réflexes"],
+            ["Moelle épinière", "conduit les messages entre l'encéphale et les nerfs ; centre de nombreux réflexes"]
+          ]
+        },
+        {
+          "type": "definition",
+          "texte": "Nerf : un nerf est un faisceau de fibres nerveuses (prolongements des cellules nerveuses ou neurones). Les fibres sensitives conduisent les messages des organes vers les centres nerveux. Les fibres motrices conduisent les ordres des centres nerveux vers les muscles."
+        },
+        {
+          "type": "schema",
+          "titre": "Les 31 paires de nerfs rachidiens",
+          "svg": "<svg width='320' height='225' viewBox='0 0 320 225' xmlns='http://www.w3.org/2000/svg'><rect x='110' y='12' width='50' height='48' fill='#fca5a5' stroke='#1e293b' stroke-width='1.5'/><rect x='110' y='60' width='50' height='72' fill='#fdba74' stroke='#1e293b' stroke-width='1.5'/><rect x='110' y='132' width='50' height='30' fill='#fde047' stroke='#1e293b' stroke-width='1.5'/><rect x='110' y='162' width='50' height='30' fill='#86efac' stroke='#1e293b' stroke-width='1.5'/><rect x='110' y='192' width='50' height='6' fill='#93c5fd' stroke='#1e293b' stroke-width='1.5'/><text x='100' y='92' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='end'>Moelle</text><text x='100' y='105' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='end'>épinière</text><g font-size='11' font-family='sans-serif' fill='#1e293b'><text x='170' y='40'>8 paires cervicales</text><text x='170' y='100'>12 paires thoraciques</text><text x='170' y='150'>5 paires lombaires</text><text x='170' y='181'>5 paires sacrées</text><text x='170' y='200'>1 paire coccygienne</text></g><text x='160' y='219' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Total : 8 + 12 + 5 + 5 + 1 = 31 paires</text></svg>",
+          "legende": "La hauteur de chaque partie est proportionnelle au nombre de paires de nerfs."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Système nerveux périphérique", "Fonctions commandées", "Exemples"],
+          "lignes": [
+            ["Somatique", "mouvements volontaires", "marcher, écrire, saisir un objet"],
+            ["Autonome (végétatif)", "fonctions involontaires des organes", "respiration, digestion, battements du cœur"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) De quoi se compose le système nerveux central ? Par quoi chaque partie est-elle protégée ?\n2) Combien y a-t-il de paires de nerfs rachidiens ? Les détailler.\n3) Quelle partie de l'encéphale commande la respiration ?",
+          "solution": "1) Le SNC comprend l'encéphale (protégé par la boîte crânienne) et la moelle épinière (protégée par la colonne vertébrale).\n2) 31 paires : 8 cervicales, 12 thoraciques, 5 lombaires, 5 sacrées et 1 coccygienne (8 + 12 + 5 + 5 + 1 = 31).\n3) Le tronc cérébral (bulbe rachidien)."
+        }
+      ]
+    },
+    {
+      "id": "svt-3-2",
+      "titre": "Les réactions comportementales",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Réaction comportementale : c'est la réponse de l'organisme (en général un mouvement) à un stimulus. On distingue trois types de réactions : le mouvement réflexe inné (MRI), le mouvement réflexe acquis (MRA) et le mouvement volontaire (MV)."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Type de réaction", "Caractères", "Exemples", "Centres nerveux"],
+          "lignes": [
+            ["Mouvement réflexe inné (MRI)", "involontaire, automatique, inné (présent dès la naissance), inévitable, très rapide", "retirer la main d'un objet brûlant ; saliver devant un citron ; fermer les paupières quand un objet approche de l'œil", "moelle épinière ou tronc cérébral (bulbe rachidien)"],
+            ["Mouvement réflexe acquis (MRA)", "involontaire, acquis après un apprentissage, devenu automatique avec l'habitude", "la jambe du chauffeur qui freine ; monter à bicyclette ; écrire", "cerveau et autres centres nerveux"],
+            ["Mouvement volontaire (MV)", "commandé par la volonté, décidé et réfléchi, on peut le commencer et l'arrêter quand on veut", "prendre un livre ; déposer une clé sur la table", "cerveau"]
+          ]
+        },
+        {
+          "type": "regle",
+          "texte": "Pour reconnaître un réflexe inné : il est involontaire, automatique, identique chez tous les individus, et on ne peut pas l'empêcher. Un réflexe acquis s'apprend par l'entraînement, alors qu'un mouvement volontaire est décidé par le cerveau à chaque fois."
+        },
+        {
+          "type": "remarque",
+          "texte": "Un mouvement peut changer de catégorie : au début de l'apprentissage, faire du vélo est un mouvement volontaire qui demande de la concentration. Avec l'entraînement, il devient un réflexe acquis."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Classer les réactions suivantes en MRI, MRA ou MV :\na) fermer les paupières quand un insecte approche de l'œil ;\nb) pédaler et garder l'équilibre à bicyclette ;\nc) prendre un livre sur la table ;\nd) saliver à la vue d'un citron.\nDonner un caractère justifiant chaque réponse.",
+          "solution": "a) MRI : involontaire, automatique et inné.\nb) MRA : acquis après apprentissage, devenu automatique.\nc) MV : décidé par la volonté, commandé par le cerveau.\nd) MRI : involontaire et inné, on ne peut pas l'empêcher."
+        }
+      ]
+    },
+    {
+      "id": "svt-3-3",
+      "titre": "L'arc réflexe",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Arc réflexe : c'est le trajet suivi par le message nerveux lors d'un réflexe, depuis l'organe qui reçoit le stimulus jusqu'au muscle qui réagit. Il passe par un centre nerveux, qui est ici la moelle épinière."
+        },
+        {
+          "type": "schema",
+          "titre": "L'arc réflexe (exemple : main qui touche un objet brûlant)",
+          "svg": "<svg width='320' height='230' viewBox='0 0 320 230' xmlns='http://www.w3.org/2000/svg'><text x='160' y='16' font-size='12' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Moelle épinière (centre nerveux)</text><ellipse cx='160' cy='80' rx='52' ry='42' fill='#e2e8f0' stroke='#1e293b' stroke-width='2'/><g fill='#94a3b8'><ellipse cx='146' cy='66' rx='12' ry='17'/><ellipse cx='174' cy='66' rx='12' ry='17'/><ellipse cx='147' cy='96' rx='11' ry='11'/><ellipse cx='173' cy='96' rx='11' ry='11'/><rect x='154' y='62' width='12' height='38'/></g><path d='M50,186 C50,100 90,52 134,62' fill='none' stroke='#1d4ed8' stroke-width='3'/><polygon points='124,54 137,63 123,69' fill='#1d4ed8'/><circle cx='108' cy='63' r='5' fill='#1d4ed8'/><text x='84' y='46' font-size='9' font-family='sans-serif' fill='#1d4ed8' text-anchor='middle'>ganglion</text><text x='8' y='118' font-size='10' font-weight='bold' font-family='sans-serif' fill='#1d4ed8'>nerf</text><text x='8' y='130' font-size='10' font-weight='bold' font-family='sans-serif' fill='#1d4ed8'>sensitif</text><path d='M178,104 C230,112 276,130 276,172' fill='none' stroke='#dc2626' stroke-width='3'/><polygon points='269,166 276,180 283,166' fill='#dc2626'/><text x='222' y='150' font-size='10' font-weight='bold' font-family='sans-serif' fill='#dc2626' text-anchor='middle'>nerf moteur</text><polygon points='14,202 22,176 30,202' fill='#f97316'/><rect x='28' y='188' width='44' height='14' rx='3' fill='#fde68a' stroke='#92400e' stroke-width='1.5'/><text x='50' y='217' font-size='10' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>récepteur (peau)</text><ellipse cx='276' cy='192' rx='30' ry='12' fill='#f87171' stroke='#7f1d1d' stroke-width='1.5'/><text x='316' y='217' font-size='10' font-family='sans-serif' fill='#1e293b' text-anchor='end'>muscle (effecteur)</text></svg>",
+          "legende": "Bleu : le message sensitif monte vers la moelle. Rouge : l'ordre moteur descend vers le muscle."
+        },
+        {
+          "type": "regle",
+          "texte": "Trajet de l'arc réflexe :\n1. Le récepteur sensoriel (peau) est stimulé.\n2. Le nerf sensitif conduit le message nerveux vers la moelle épinière (il entre par la racine postérieure, qui porte un ganglion).\n3. La moelle épinière, centre nerveux, élabore la réponse.\n4. Le nerf moteur conduit l'ordre depuis la moelle (par la racine antérieure) vers le muscle.\n5. Le muscle (effecteur) se contracte : la main se retire."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Élément de l'arc réflexe", "Rôle"],
+          "lignes": [
+            ["Récepteur sensoriel", "reçoit le stimulus (chaleur, piqûre, lumière…) et crée un message nerveux"],
+            ["Nerf sensitif", "conduit le message du récepteur vers le centre nerveux"],
+            ["Centre nerveux (moelle épinière)", "reçoit le message et envoie l'ordre de réponse"],
+            ["Nerf moteur", "conduit l'ordre du centre nerveux vers l'effecteur"],
+            ["Effecteur (muscle)", "exécute la réponse : il se contracte"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Le réflexe est très rapide parce que le message ne passe pas par le cerveau pour la décision. La main est déjà retirée quand le cerveau reçoit l'information et que l'on ressent la douleur. Cela protège le corps."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Une personne touche une casserole brûlante et retire aussitôt la main.\n1) Donner dans l'ordre les éléments de l'arc réflexe.\n2) Pourquoi la main est-elle retirée avant que la personne ressente la douleur ?\n3) Que se passerait-il si le nerf moteur était coupé ? Et si le nerf sensitif était coupé ?",
+          "solution": "1) Récepteur (peau) → nerf sensitif → moelle épinière → nerf moteur → muscle du bras.\n2) Le réflexe passe par la moelle épinière, sans attendre une décision du cerveau : il est plus rapide que la sensation de douleur.\n3) Nerf moteur coupé : le muscle ne reçoit plus l'ordre, la main ne se retire pas (la douleur est quand même ressentie). Nerf sensitif coupé : le message n'arrive pas à la moelle, il n'y a ni réflexe ni sensation de brûlure."
+        }
+      ]
+    },
+        {
+      "id": "svt-3-4",
+      "titre": "L'hygiène nerveuse : le sommeil et le mode de vie",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Hygiène nerveuse : ce sont les habitudes de vie qui protègent le système nerveux et lui permettent de bien fonctionner. Elles reposent sur un bon sommeil, une alimentation équilibrée et une activité physique régulière. Le sommeil permet aux cellules nerveuses de se reposer et à l'organisme de récupérer et de grandir."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Âge", "Durée de sommeil conseillée par jour"],
+          "lignes": [
+            ["Nouveau-né", "environ 20 heures"],
+            ["Enfant de 2 ans", "environ 14 heures"],
+            ["Écolier", "10 à 11 heures"],
+            ["Adolescent", "9 à 10 heures"],
+            ["Adulte", "7 à 9 heures"],
+            ["Personne du 3e âge", "environ 7 heures"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Les besoins de sommeil selon l'âge",
+          "svg": "<svg width='320' height='182' viewBox='0 0 320 182' xmlns='http://www.w3.org/2000/svg'><text x='160' y='16' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Durée de sommeil conseillée (heures par jour)</text><line x1='95' y1='24' x2='95' y2='168' stroke='#1e293b' stroke-width='1.5'/><rect x='95' y='28' width='180' height='16' fill='#6366f1'/><rect x='95' y='52' width='126' height='16' fill='#8b5cf6'/><rect x='95' y='76' width='95' height='16' fill='#3b82f6'/><rect x='95' y='100' width='86' height='16' fill='#0ea5e9'/><rect x='95' y='124' width='72' height='16' fill='#14b8a6'/><rect x='95' y='148' width='63' height='16' fill='#22c55e'/><g font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='end'><text x='90' y='40'>Nouveau-né</text><text x='90' y='64'>2 ans</text><text x='90' y='88'>Écolier</text><text x='90' y='112'>Adolescent</text><text x='90' y='136'>Adulte</text><text x='90' y='160'>3e âge</text></g><g font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b'><text x='280' y='40'>20 h</text><text x='226' y='64'>14 h</text><text x='195' y='88'>10-11 h</text><text x='186' y='112'>9-10 h</text><text x='172' y='136'>7-9 h</text><text x='163' y='160'>7 h</text></g><text x='160' y='178' font-size='9' font-family='sans-serif' fill='#475569' text-anchor='middle'>(la longueur de la barre correspond à la valeur moyenne)</text></svg>",
+          "legende": "Plus on est jeune, plus on a besoin de dormir."
+        },
+        {
+          "type": "regle",
+          "texte": "Les règles d'or du sommeil :\n- se coucher et se lever à des heures régulières ;\n- dormir dans une chambre calme, sombre et aérée ;\n- éviter les écrans (téléphone, télévision) et les jeux excitants avant de se coucher ;\n- éviter le café, le thé fort et les boissons énergisantes le soir ;\n- prendre un dîner léger, assez tôt ;\n- avoir une activité physique pendant la journée."
+        },
+        {
+          "type": "definition",
+          "texte": "Manque de sommeil : dormir trop peu fatigue le système nerveux. Il provoque de la fatigue, de la somnolence en classe, des difficultés de concentration et de mémoire, de l'irritabilité et une baisse des résultats scolaires."
+        },
+        {
+          "type": "regle",
+          "texte": "Autres règles d'hygiène nerveuse :\n- Éviter la sédentarité : bouger au moins 1 heure par jour (marche, sport, jeux, travaux du jardin).\n- Prendre un petit-déjeuner de qualité : après la nuit, le sang manque de sucre (hypoglycémie), ce qui provoque fatigue, maux de tête et baisse d'attention.\n- Éviter un repas de midi trop copieux : il provoque une somnolence pendant le travail de l'après-midi.\n- Éviter les substances psychoactives (alcool, tabac, drogues)."
+        },
+        {
+          "type": "remarque",
+          "texte": "Hypoglycémie : c'est une baisse du taux de glucose (sucre) dans le sang. Le cerveau utilise surtout le glucose comme source d'énergie : quand il en manque, ses performances diminuent."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Rado, 14 ans, se couche à 22 h 30 et se lève à 5 h 30. Il ne prend pas de petit-déjeuner et dit qu'il est fatigué en classe.\n1) Calculer sa durée de sommeil. Est-elle suffisante ?\n2) Expliquer deux causes de sa fatigue.\n3) Donner deux conseils.",
+          "solution": "1) De 22 h 30 à 5 h 30 : 7 heures de sommeil. Un adolescent a besoin de 9 à 10 heures : c'est insuffisant.\n2) Manque de sommeil (environ 2 à 3 heures de moins que nécessaire) et absence de petit-déjeuner : le sang manque de glucose (hypoglycémie), donc le cerveau manque d'énergie.\n3) Se coucher plus tôt (vers 21 h) à heure régulière, et prendre chaque matin un petit-déjeuner complet (féculent, fruit, produit laitier)."
+        }
+      ]
+    },
+    {
+      "id": "svt-3-5",
+      "titre": "Les substances psychoactives",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Substance psychoactive : c'est un produit qui agit sur le système nerveux, surtout sur le cerveau, et modifie l'humeur, la perception, le comportement ou la conscience. Elle peut provoquer une dépendance : le consommateur ne peut plus s'en passer et souffre quand il arrête (état de manque)."
+        },
+        {
+          "type": "schema",
+          "titre": "Classement des substances psychoactives",
+          "svg": "<svg width='320' height='195' viewBox='0 0 320 195' xmlns='http://www.w3.org/2000/svg'><rect x='75' y='6' width='170' height='28' rx='5' fill='#fde68a' stroke='#1e293b' stroke-width='1.5'/><text x='160' y='25' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Substances psychoactives</text><line x1='160' y1='34' x2='80' y2='52' stroke='#1e293b' stroke-width='1.5'/><line x1='160' y1='34' x2='240' y2='52' stroke='#1e293b' stroke-width='1.5'/><rect x='10' y='52' width='140' height='34' rx='5' fill='#bbf7d0' stroke='#1e293b' stroke-width='1.5'/><text x='80' y='67' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Autorisées</text><text x='80' y='80' font-size='10' font-family='sans-serif' fill='#475569' text-anchor='middle'>(réglementées)</text><rect x='170' y='52' width='140' height='34' rx='5' fill='#fecaca' stroke='#1e293b' stroke-width='1.5'/><text x='240' y='67' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Illicites</text><text x='240' y='80' font-size='10' font-family='sans-serif' fill='#475569' text-anchor='middle'>(interdites par la loi)</text><line x1='80' y1='86' x2='80' y2='104' stroke='#1e293b' stroke-width='1.5'/><line x1='240' y1='86' x2='240' y2='104' stroke='#1e293b' stroke-width='1.5'/><rect x='10' y='104' width='140' height='24' rx='4' fill='#f0fdf4' stroke='#1e293b' stroke-width='1.2'/><text x='80' y='120' font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Tabac</text><rect x='10' y='134' width='140' height='24' rx='4' fill='#f0fdf4' stroke='#1e293b' stroke-width='1.2'/><text x='80' y='150' font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Alcool</text><rect x='10' y='164' width='140' height='24' rx='4' fill='#f0fdf4' stroke='#1e293b' stroke-width='1.2'/><text x='80' y='180' font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Médicaments</text><rect x='170' y='104' width='140' height='24' rx='4' fill='#fef2f2' stroke='#1e293b' stroke-width='1.2'/><text x='240' y='120' font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Cannabis</text><rect x='170' y='134' width='140' height='36' rx='4' fill='#fef2f2' stroke='#1e293b' stroke-width='1.2'/><text x='240' y='148' font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Autres drogues</text><text x='240' y='162' font-size='9' font-family='sans-serif' fill='#475569' text-anchor='middle'>cocaïne, héroïne, ecstasy</text></svg>",
+          "legende": "Autorisées ne veut pas dire sans danger : le tabac et l'alcool sont interdits aux mineurs et dangereux pour la santé."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Substance", "Statut", "Effets sur l'organisme", "Risques pour la santé"],
+          "lignes": [
+            ["Tabac (nicotine, goudrons, monoxyde de carbone)", "autorisé aux adultes", "stimulation passagère, dépendance à la nicotine", "cancers (poumon, gorge), bronchite chronique, maladies du cœur, tabagisme passif nocif pour l'entourage"],
+            ["Alcool (bière, vin, rhum, toaka gasy)", "autorisé aux adultes", "ralentit les réflexes, trouble l'équilibre, la vision et la parole, diminue la vigilance", "accidents de la route, violences, cirrhose du foie, atteinte du cerveau, dépendance (alcoolisme), danger pour le bébé pendant la grossesse"],
+            ["Médicaments psychotropes (somnifères, tranquillisants, antidouleurs puissants)", "autorisés sur ordonnance du médecin", "calment, font dormir ou soulagent la douleur", "mal utilisés : somnolence, dépendance, intoxication"],
+            ["Cannabis", "illicite", "euphorie, perturbation des perceptions, baisse de l'attention et de la mémoire, ralentissement des réactions", "baisse des résultats scolaires, dépendance, troubles psychiques, problèmes respiratoires"],
+            ["Autres drogues (cocaïne, héroïne, ecstasy…)", "illicites", "excitation ou ralentissement extrême, hallucinations", "dépendance rapide et forte, overdose pouvant entraîner la mort, maladies transmises par les seringues partagées (VIH, hépatites)"]
+          ]
+        },
+        {
+          "type": "regle",
+          "texte": "Conséquences de la dépendance : la consommation devient de plus en plus importante, le consommateur néglige l'école, le travail et sa famille, il dépense beaucoup d'argent et sa santé se dégrade. Le seul moyen sûr d'éviter la dépendance est de ne pas commencer."
+        },
+        {
+          "type": "methode",
+          "texte": "Savoir dire non à la pression du groupe :\n1. Refuser clairement et calmement, sans se justifier longuement.\n2. S'éloigner de la situation et changer d'activité.\n3. Choisir des amis qui respectent ses choix.\n4. En parler à un adulte de confiance (parent, enseignant, infirmier) si l'on est en difficulté.\n5. Pratiquer un sport ou des loisirs sains."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Qu'est-ce qu'une substance psychoactive ? Citer trois exemples, dont un autorisé et un illicite.\n2) Pourquoi dit-on que l'alcool est dangereux pour un conducteur ?\n3) Un camarade te propose de fumer « pour faire comme les grands ». Que réponds-tu ? Donne deux arguments.",
+          "solution": "1) C'est un produit qui agit sur le cerveau et modifie l'humeur, la perception ou le comportement, avec un risque de dépendance. Exemples : alcool ou tabac (autorisés aux adultes), cannabis (illicite).\n2) L'alcool ralentit les réflexes, diminue la vigilance et trouble la vision et l'équilibre : le conducteur réagit trop tard, ce qui provoque des accidents.\n3) Je refuse clairement. Arguments : le tabac provoque une dépendance et des maladies graves (cancers, maladies du cœur) ; il est interdit aux mineurs et nuit aux performances sportives et scolaires."
+        }
+      ]
+    }
+  ]
+}
