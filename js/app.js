@@ -64,7 +64,6 @@ const MATIERES_PAR_CLASSE = {
 // EXERCICES — SUJETS ET CORRIGÉS (section indépendante, évolutive)
 // ============================================
 const EXERCICES_PAR_CLASSE = {
-  const EXERCICES_PAR_CLASSE = {
   '3e': [
     { id: 'mathematiques', nom: 'Mathématiques', icone: '📐', disponible: true,
       fichier: './data/3e/exercices/exercices-mathematiques.json' },
