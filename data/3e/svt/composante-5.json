@@ -1,0 +1,240 @@
+{
+  "id": "svt-theme5",
+  "titre": "Thématique 5 : Géologie",
+  "lecons": [
+    {
+      "id": "svt-5-1",
+      "titre": "Les pierres gemmes",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Pierre gemme : c'est une pierre (minéral ou matière d'origine vivante) assez belle et assez résistante pour être taillée et utilisée en bijouterie. On distingue trois groupes : les pierres précieuses, les pierres fines (ou semi-précieuses) et les pierres organiques."
+        },
+        {
+          "type": "schema",
+          "titre": "Classement des pierres gemmes",
+          "svg": "<svg width='320' height='176' viewBox='0 0 320 176' xmlns='http://www.w3.org/2000/svg'><rect x='95' y='6' width='130' height='26' rx='5' fill='#fde68a' stroke='#1e293b' stroke-width='1.5'/><text x='160' y='24' font-size='12' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Pierres gemmes</text><g stroke='#1e293b' stroke-width='1.5'><line x1='160' y1='32' x2='55' y2='50'/><line x1='160' y1='32' x2='160' y2='50'/><line x1='160' y1='32' x2='265' y2='50'/></g><rect x='6' y='50' width='98' height='34' rx='5' fill='#fecaca' stroke='#1e293b' stroke-width='1.5'/><rect x='111' y='50' width='98' height='34' rx='5' fill='#ddd6fe' stroke='#1e293b' stroke-width='1.5'/><rect x='216' y='50' width='98' height='34' rx='5' fill='#bbf7d0' stroke='#1e293b' stroke-width='1.5'/><g font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'><text x='55' y='65'>Précieuses</text><text x='160' y='65'>Fines</text><text x='265' y='65'>Organiques</text></g><g font-size='9' font-family='sans-serif' fill='#475569' text-anchor='middle'><text x='55' y='77'>4 pierres</text><text x='160' y='77'>semi-précieuses</text><text x='265' y='77'>origine vivante</text></g><rect x='6' y='90' width='98' height='78' rx='5' fill='#fef2f2' stroke='#1e293b' stroke-width='1.2'/><rect x='111' y='90' width='98' height='78' rx='5' fill='#f5f3ff' stroke='#1e293b' stroke-width='1.2'/><rect x='216' y='90' width='98' height='78' rx='5' fill='#f0fdf4' stroke='#1e293b' stroke-width='1.2'/><g font-size='10' font-family='sans-serif' fill='#1e293b' text-anchor='middle'><text x='55' y='108'>Diamant</text><text x='55' y='124'>Émeraude</text><text x='55' y='140'>Saphir</text><text x='55' y='156'>Rubis</text><text x='160' y='106'>Jade, agate</text><text x='160' y='120'>Améthyste</text><text x='160' y='134'>Quartz rose</text><text x='160' y='148'>Grenat, opale</text><text x='160' y='162'>Topaze, citrine…</text><text x='265' y='108'>Ambre</text><text x='265' y='124'>Jais</text><text x='265' y='140'>Nacre</text><text x='265' y='156'>Corail</text></g></svg>",
+          "legende": "Il n'y a que quatre pierres précieuses : le diamant, l'émeraude, le saphir et le rubis."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Pierre précieuse", "Nature", "Couleur", "Particularité"],
+          "lignes": [
+            ["Diamant", "carbone pur cristallisé", "incolore (parfois jaune, rose ou bleu)", "le minéral le plus dur ; très brillant"],
+            ["Émeraude", "béryl", "verte", "couleur due à des traces de chrome ; souvent fragile à cause de petites fissures"],
+            ["Saphir", "corindon", "bleue (existe aussi en jaune, rose, orange…)", "très dur ; le saphir de Madagascar est réputé"],
+            ["Rubis", "corindon", "rouge", "très dur ; de même nature que le saphir, seule la couleur change"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Les quatre pierres précieuses (taille brillant)",
+          "svg": "<svg width='320' height='115' viewBox='0 0 320 115' xmlns='http://www.w3.org/2000/svg'><polygon points='23,20 67,20 79,40 45,75 11,40' fill='#7dd3fc' stroke='#0369a1' stroke-width='1.5'/><polygon points='103,20 147,20 159,40 125,75 91,40' fill='#22c55e' stroke='#166534' stroke-width='1.5'/><polygon points='183,20 227,20 239,40 205,75 171,40' fill='#2563eb' stroke='#1e3a8a' stroke-width='1.5'/><polygon points='263,20 307,20 319,40 285,75 251,40' fill='#dc2626' stroke='#7f1d1d' stroke-width='1.5'/><g stroke='#ffffff' stroke-opacity='0.85' stroke-width='1'><line x1='11' y1='40' x2='79' y2='40'/><line x1='35' y1='40' x2='45' y2='75'/><line x1='55' y1='40' x2='45' y2='75'/><line x1='23' y1='20' x2='35' y2='40'/><line x1='67' y1='20' x2='55' y2='40'/><line x1='91' y1='40' x2='159' y2='40'/><line x1='115' y1='40' x2='125' y2='75'/><line x1='135' y1='40' x2='125' y2='75'/><line x1='103' y1='20' x2='115' y2='40'/><line x1='147' y1='20' x2='135' y2='40'/><line x1='171' y1='40' x2='239' y2='40'/><line x1='195' y1='40' x2='205' y2='75'/><line x1='215' y1='40' x2='205' y2='75'/><line x1='183' y1='20' x2='195' y2='40'/><line x1='227' y1='20' x2='215' y2='40'/><line x1='251' y1='40' x2='319' y2='40'/><line x1='275' y1='40' x2='285' y2='75'/><line x1='295' y1='40' x2='285' y2='75'/><line x1='263' y1='20' x2='275' y2='40'/><line x1='307' y1='20' x2='295' y2='40'/></g><g font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'><text x='45' y='93'>Diamant</text><text x='125' y='93'>Émeraude</text><text x='205' y='93'>Saphir</text><text x='285' y='93'>Rubis</text></g><g font-size='9' font-family='sans-serif' fill='#475569' text-anchor='middle'><text x='45' y='106'>carbone pur</text><text x='125' y='106'>béryl vert</text><text x='205' y='106'>corindon bleu</text><text x='285' y='106'>corindon rouge</text></g></svg>",
+          "legende": "Le saphir est bleu et l'émeraude est verte : ne pas les confondre."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Groupe", "Exemples", "Origine"],
+          "lignes": [
+            ["Pierres fines (semi-précieuses)", "jade, améthyste, aigue-marine, agate, citrine, jaspe, obsidienne, quartz rose, labradorite, grenat, tourmaline, opale, topaze", "minérale : minéraux formés dans la croûte terrestre"],
+            ["Pierres organiques", "ambre (résine d'arbre fossilisée), jais (bois fossile), nacre (coquillages), corail", "organique : produites par des êtres vivants ou issues de leurs restes"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Citer les quatre pierres précieuses.\n2) Quelle est la différence de nature entre le diamant et le rubis ?\n3) L'ambre et la nacre sont-elles des pierres minérales ? Justifier.",
+          "solution": "1) Le diamant, l'émeraude, le saphir et le rubis.\n2) Le diamant est du carbone pur cristallisé ; le rubis est un corindon rouge (oxyde d'aluminium).\n3) Non : ce sont des pierres organiques. L'ambre vient de résine d'arbre fossilisée et la nacre est produite par des coquillages."
+        }
+      ]
+    },
+    {
+      "id": "svt-5-2",
+      "titre": "Propriétés et valeur d'une pierre gemme",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Une pierre gemme est recherchée pour trois qualités : sa beauté (couleur, transparence, éclat, luminosité), sa durabilité (elle résiste aux rayures et aux chocs grâce à sa dureté) et sa rareté."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Critère", "Explication", "Effet sur la valeur"],
+          "lignes": [
+            ["Rareté", "plus la pierre est difficile à trouver, plus elle est chère", "valeur très élevée pour les grosses pierres rares"],
+            ["Qualité, pureté", "une pierre pure ne contient ni fissures ni impuretés", "valeur plus élevée"],
+            ["Couleur", "une couleur vive et régulière est plus appréciée", "valeur plus élevée"],
+            ["Éclat et taille", "la taille (facettes) fait briller la pierre", "valeur plus élevée si la taille est soignée"],
+            ["Dureté", "capacité à résister aux rayures", "pierre durable, donc recherchée en bijouterie"],
+            ["Poids en carat", "mesure de la masse de la pierre", "à qualité égale, plus la pierre est lourde, plus elle vaut cher"]
+          ]
+        },
+        {
+          "type": "formule",
+          "texte": "Le carat : le poids des pierres précieuses se mesure en carats.\n1 carat = 0,2 g\nNombre de carats = masse en g / 0,2 = masse en g × 5"
+        },
+        {
+          "type": "schema",
+          "titre": "Échelle de dureté (échelle de Mohs)",
+          "svg": "<svg width='320' height='195' viewBox='0 0 320 195' xmlns='http://www.w3.org/2000/svg'><text x='160' y='16' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Dureté (de 1 à 10)</text><line x1='100' y1='22' x2='100' y2='178' stroke='#1e293b' stroke-width='1.5'/><rect x='100' y='28' width='47' height='16' fill='#94a3b8'/><rect x='100' y='50' width='105' height='16' fill='#64748b'/><rect x='100' y='72' width='133' height='16' fill='#38bdf8'/><rect x='100' y='94' width='143' height='16' fill='#22c55e'/><rect x='100' y='116' width='152' height='16' fill='#a78bfa'/><rect x='100' y='138' width='171' height='16' fill='#f43f5e'/><rect x='100' y='160' width='190' height='16' fill='#0ea5e9'/><g font-size='10' font-family='sans-serif' fill='#1e293b' text-anchor='end'><text x='95' y='40'>Ongle</text><text x='95' y='62'>Lame d'acier</text><text x='95' y='84'>Quartz</text><text x='95' y='106'>Émeraude</text><text x='95' y='128'>Topaze</text><text x='95' y='150'>Rubis, saphir</text><text x='95' y='172'>Diamant</text></g><g font-size='10' font-weight='bold' font-family='sans-serif' fill='#1e293b'><text x='152' y='40'>2,5</text><text x='210' y='62'>5,5</text><text x='238' y='84'>7</text><text x='248' y='106'>7,5-8</text><text x='257' y='128'>8</text><text x='276' y='150'>9</text><text x='295' y='172'>10</text></g><text x='160' y='190' font-size='9' font-family='sans-serif' fill='#475569' text-anchor='middle'>(valeurs moyennes ; l'ongle et l'acier servent de repères)</text></svg>",
+          "legende": "Une pierre raye toutes celles qui sont moins dures qu'elle. Le diamant raye tout : il est le plus dur."
+        },
+        {
+          "type": "exemple",
+          "texte": "Un rubis taillé a une masse de 3,5 g.\nNombre de carats = 3,5 / 0,2 = 17,5 carats.\nUn diamant de 2 carats a une masse de 2 × 0,2 = 0,4 g."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Quelle pierre de l'échelle raye le saphir ? Pourquoi le diamant peut-il rayer le verre, qui a une dureté d'environ 5,5 ?\n2) Un saphir pèse 0,8 g. Quel est son poids en carats ?\n3) Citer trois critères qui augmentent la valeur d'une pierre.",
+          "solution": "1) Seul le diamant (dureté 10) raye le saphir (dureté 9). Le diamant raye le verre parce que sa dureté (10) est supérieure à celle du verre (environ 5,5).\n2) 0,8 / 0,2 = 4 carats.\n3) Par exemple : la rareté, la pureté, la couleur vive, l'éclat, un poids élevé en carats."
+        }
+      ]
+    },
+    {
+      "id": "svt-5-3",
+      "titre": "Les gemmes de Madagascar",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Madagascar est un des grands pays producteurs de pierres gemmes : saphirs, rubis, pierres fines (tourmaline, grenat, quartz, aigue-marine…). Ces pierres se trouvent dans des gisements répartis dans plusieurs régions de l'île."
+        },
+        {
+          "type": "schema",
+          "titre": "Carte simplifiée des zones à gemmes",
+          "svg": "<svg width='320' height='262' viewBox='0 0 320 262' xmlns='http://www.w3.org/2000/svg'><polygon points='95,8 104,28 110,58 116,90 112,122 104,152 97,182 88,214 76,242 64,250 50,236 40,206 38,172 30,142 22,112 24,84 38,58 66,34' fill='#bbf7d0' stroke='#166534' stroke-width='2'/><text x='6' y='14' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b'>N ↑</text><g fill='#dc2626' stroke='#7f1d1d' stroke-width='1'><circle cx='92' cy='22' r='7'/><circle cx='78' cy='68' r='7'/><circle cx='94' cy='88' r='7'/><circle cx='66' cy='104' r='7'/><circle cx='72' cy='134' r='7'/><circle cx='106' cy='120' r='7'/><circle cx='96' cy='158' r='7'/><circle cx='84' cy='178' r='7'/><circle cx='52' cy='190' r='7'/><circle cx='58' cy='205' r='7'/><circle cx='58' cy='220' r='7'/><circle cx='68' cy='234' r='7'/></g><g font-size='9' font-weight='bold' font-family='sans-serif' fill='#ffffff' text-anchor='middle'><text x='92' y='25'>1</text><text x='78' y='71'>2</text><text x='94' y='91'>3</text><text x='66' y='107'>4</text><text x='72' y='137'>5</text><text x='106' y='123'>6</text><text x='96' y='161'>7</text><text x='84' y='181'>8</text><text x='52' y='193'>9</text><text x='58' y='208'>10</text><text x='58' y='223'>11</text><text x='68' y='237'>12</text></g><g fill='#dc2626' stroke='#7f1d1d' stroke-width='1'><circle cx='148' cy='30' r='6'/><circle cx='148' cy='49' r='6'/><circle cx='148' cy='68' r='6'/><circle cx='148' cy='87' r='6'/><circle cx='148' cy='106' r='6'/><circle cx='148' cy='125' r='6'/><circle cx='148' cy='144' r='6'/><circle cx='148' cy='163' r='6'/><circle cx='148' cy='182' r='6'/><circle cx='148' cy='201' r='6'/><circle cx='148' cy='220' r='6'/><circle cx='148' cy='239' r='6'/></g><g font-size='8' font-weight='bold' font-family='sans-serif' fill='#ffffff' text-anchor='middle'><text x='148' y='33'>1</text><text x='148' y='52'>2</text><text x='148' y='71'>3</text><text x='148' y='90'>4</text><text x='148' y='109'>5</text><text x='148' y='128'>6</text><text x='148' y='147'>7</text><text x='148' y='166'>8</text><text x='148' y='185'>9</text><text x='148' y='204'>10</text><text x='148' y='223'>11</text><text x='148' y='242'>12</text></g><g font-size='10' font-family='sans-serif' fill='#1e293b'><text x='160' y='34'>Antsiranana</text><text x='160' y='53'>Andilamena</text><text x='160' y='72'>Ambatondrazaka</text><text x='160' y='91'>Ankazobe</text><text x='160' y='110'>Antsirabe</text><text x='160' y='129'>Vatomandry</text><text x='160' y='148'>Mananjary</text><text x='160' y='167'>Irondro-Ankadilalana</text><text x='160' y='186'>Ilakaka</text><text x='160' y='205'>Ianapera</text><text x='160' y='224'>Bekily</text><text x='160' y='243'>Andranondambo</text></g></svg>",
+          "legende": "Carte simplifiée : les positions sont approximatives. Les numéros de la carte correspondent à la liste de droite."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Zone", "Gemmes les plus connues"],
+          "lignes": [
+            ["Ilakaka, Ianapera (sud-ouest)", "saphir (grand gisement découvert dans les années 1990) et autres pierres"],
+            ["Andranondambo (sud)", "saphir"],
+            ["Andilamena (nord-est de l'intérieur)", "saphir et rubis"],
+            ["Vatomandry (côte est)", "rubis"],
+            ["Antsiranana (extrême nord)", "saphir"],
+            ["Antsirabe (hauts plateaux)", "tourmaline, aigue-marine, quartz"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Les autres sites de la carte (Ambatondrazaka, Ankazobe, Mananjary, Irondro-Ankadilalana, Bekily) recèlent aussi diverses gemmes et pierres fines. La nature des pierres dépend de la roche du gisement."
+        },
+        {
+          "type": "definition",
+          "texte": "Formations géologiques et gemmes : à Madagascar, le sous-sol comprend principalement :\n- le socle cristallin (roches très anciennes : granite, gneiss, pegmatites…) sur les Hautes Terres et l'est ;\n- les bassins sédimentaires (grès, calcaires) dans l'ouest, le sud-ouest et le nord ;\n- des roches volcaniques (nord, centre).\nLes gemmes se forment surtout dans les roches du socle et les roches volcaniques. L'érosion les libère, et les rivières les déposent dans les alluvions, comme à Ilakaka."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Dans quelle zone de l'île trouve-t-on surtout les rubis de la côte est ?\n2) Citer deux zones où l'on trouve des saphirs.\n3) Dans quelles roches se forment surtout les gemmes ? Comment peuvent-elles ensuite se retrouver dans le lit des rivières ?",
+          "solution": "1) À Vatomandry, sur la côte est.\n2) Par exemple Ilakaka et Andranondambo (ou Andilamena, Antsiranana).\n3) Elles se forment surtout dans les roches du socle cristallin et les roches volcaniques. L'érosion détruit ces roches, libère les gemmes, et les rivières les transportent puis les déposent dans les alluvions."
+        }
+      ]
+    },
+        {
+      "id": "svt-5-4",
+      "titre": "Les utilisations des pierres gemmes",
+      "blocs": [
+        {
+          "type": "schema",
+          "titre": "Les trois grands usages des gemmes",
+          "svg": "<svg width='320' height='118' viewBox='0 0 320 118' xmlns='http://www.w3.org/2000/svg'><rect x='6' y='8' width='98' height='28' rx='5' fill='#fbcfe8' stroke='#1e293b' stroke-width='1.5'/><rect x='111' y='8' width='98' height='28' rx='5' fill='#bfdbfe' stroke='#1e293b' stroke-width='1.5'/><rect x='216' y='8' width='98' height='28' rx='5' fill='#fde68a' stroke='#1e293b' stroke-width='1.5'/><g font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'><text x='55' y='26'>Joaillerie</text><text x='160' y='26'>Industrie</text><text x='265' y='26'>Lithothérapie</text></g><rect x='6' y='42' width='98' height='68' rx='5' fill='#fdf2f8' stroke='#1e293b' stroke-width='1.2'/><rect x='111' y='42' width='98' height='68' rx='5' fill='#eff6ff' stroke='#1e293b' stroke-width='1.2'/><rect x='216' y='42' width='98' height='68' rx='5' fill='#fffbeb' stroke='#1e293b' stroke-width='1.2'/><g font-size='10' font-family='sans-serif' fill='#1e293b' text-anchor='middle'><text x='55' y='60'>Bagues</text><text x='55' y='75'>Colliers</text><text x='55' y='90'>Boucles d'oreilles</text><text x='160' y='60'>Horlogerie</text><text x='160' y='75'>Lentilles</text><text x='160' y='90'>Lasers</text><text x='160' y='105'>Outils de coupe</text><text x='265' y='60'>Pierres portées</text><text x='265' y='75'>pour le bien-être</text><text x='265' y='92' font-size='9' fill='#475569'>(croyance)</text></g></svg>",
+          "legende": "La joaillerie est l'usage le plus connu, mais les gemmes servent aussi dans l'industrie."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Domaine", "Utilisation", "Pierres concernées"],
+          "lignes": [
+            ["Joaillerie (bijouterie)", "fabrication de bijoux : bagues, colliers, bracelets", "diamant, rubis, saphir, émeraude, pierres fines"],
+            ["Industrie : horlogerie", "pièces des montres (pivots, paliers) très résistantes à l'usure", "rubis, saphir"],
+            ["Industrie : optique", "lentilles et verres très résistants aux rayures (verres de montre)", "saphir"],
+            ["Industrie : lasers", "le cristal produit un faisceau de lumière intense", "rubis, saphir"],
+            ["Industrie : outils", "couper, percer, polir des matériaux durs", "diamant"],
+            ["Lithothérapie", "pierres portées ou posées sur le corps pour le bien-être", "quartz, améthyste, agate…"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "La lithothérapie est une pratique de bien-être fondée sur des croyances : aucune preuve scientifique ne montre que les pierres soignent des maladies. Elle ne remplace jamais un traitement médical."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Pourquoi utilise-t-on le diamant pour fabriquer des outils de coupe ?\n2) Citer deux usages industriels des pierres gemmes.\n3) Une amie affirme que son collier de quartz guérira sa maladie. Que lui répondre ?",
+          "solution": "1) Parce que le diamant est le minéral le plus dur (dureté 10) : il peut couper et rayer tous les autres matériaux.\n2) Par exemple : l'horlogerie (rubis des montres) et les lasers (rubis, saphir) ; aussi les lentilles optiques.\n3) La lithothérapie repose sur des croyances et aucune preuve scientifique ne montre qu'elle soigne : il faut consulter un médecin pour se soigner."
+        }
+      ]
+    },
+    {
+      "id": "svt-5-5",
+      "titre": "L'exploitation des gemmes",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Gisement : c'est l'endroit où une pierre gemme se trouve en quantité assez importante pour être exploitée. On distingue les gisements primaires et les gisements secondaires."
+        },
+        {
+          "type": "schema",
+          "titre": "Gisement primaire et gisement secondaire",
+          "svg": "<svg width='320' height='200' viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='100' width='320' height='100' fill='#d6b48a'/><polygon points='8,100 68,42 128,100 128,172 8,172' fill='#94a3b8' stroke='#1e293b' stroke-width='1.5'/><rect x='96' y='100' width='8' height='52' fill='#1e293b'/><rect x='70' y='148' width='60' height='8' fill='#1e293b'/><g fill='#dc2626'><circle cx='50' cy='80' r='3'/><circle cx='75' cy='95' r='3'/><circle cx='40' cy='120' r='3'/><circle cx='85' cy='130' r='3'/><circle cx='55' cy='148' r='3'/></g><rect x='150' y='100' width='170' height='22' fill='#60a5fa'/><rect x='150' y='122' width='170' height='28' fill='#fde68a' stroke='#92400e' stroke-width='1'/><g fill='#dc2626'><circle cx='185' cy='136' r='3'/><circle cx='225' cy='140' r='3'/><circle cx='265' cy='134' r='3'/><circle cx='300' cy='138' r='3'/></g><path d='M132,70 Q165,70 185,96' fill='none' stroke='#1d4ed8' stroke-width='2.5'/><polygon points='179,90 188,102 191,89' fill='#1d4ed8'/><text x='68' y='20' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Gisement primaire</text><text x='68' y='33' font-size='10' font-family='sans-serif' fill='#475569' text-anchor='middle'>(roche mère)</text><text x='140' y='56' font-size='10' font-family='sans-serif' fill='#1d4ed8'>érosion, transport</text><text x='235' y='116' font-size='10' font-weight='bold' font-family='sans-serif' fill='#1e3a8a' text-anchor='middle'>rivière</text><text x='235' y='168' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Gisement secondaire</text><text x='235' y='181' font-size='10' font-family='sans-serif' fill='#475569' text-anchor='middle'>(alluvions)</text><text x='10' y='166' font-size='9' font-family='sans-serif' fill='#1e293b'>mine souterraine</text><circle cx='14' cy='192' r='3' fill='#dc2626'/><text x='22' y='195' font-size='10' font-family='sans-serif' fill='#1e293b'>gemmes</text></svg>",
+          "legende": "Les gemmes se forment dans la roche mère. L'érosion et l'eau les transportent jusqu'aux alluvions de la rivière."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Type de gisement", "Où ?", "Méthodes d'exploitation"],
+          "lignes": [
+            ["Gisement primaire", "dans la roche où la gemme s'est formée (roche mère)", "mine à ciel ouvert (on creuse depuis la surface) ; mine souterraine (puits et galeries)"],
+            ["Gisement secondaire (alluvions, placers)", "dans le sable et le gravier déposés par les rivières, loin de la roche mère", "exploitation alluviale : on creuse des puits dans le gravier, puis on lave et on trie"]
+          ]
+        },
+        {
+          "type": "methode",
+          "texte": "Exploitation artisanale d'un gisement alluvial :\n1. Prospection : repérer les zones où se trouve le gravier à gemmes.\n2. Creusement de puits jusqu'à la couche de gravier.\n3. Remontée du gravier à la surface.\n4. Lavage et tamisage à l'eau : les pierres, plus lourdes, restent au fond du tamis.\n5. Tri et sélection des pierres.\n6. Taille et polissage avant la vente."
+        },
+        {
+          "type": "remarque",
+          "texte": "L'exploitation artisanale fait vivre beaucoup de familles et apporte de l'argent à la région, mais elle est dangereuse (éboulement des puits) et peut abîmer l'environnement. Il faut travailler avec une autorisation et respecter la réglementation."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Quelle différence y a-t-il entre un gisement primaire et un gisement secondaire ?\n2) Pourquoi retrouve-t-on des saphirs dans le sable d'une rivière ?\n3) Pourquoi les pierres restent-elles au fond du tamis lors du lavage ?",
+          "solution": "1) Le gisement primaire est dans la roche mère où la gemme s'est formée ; le gisement secondaire est dans les alluvions (sable et gravier déposés par les rivières), loin de la roche mère.\n2) L'érosion détruit la roche mère, libère les saphirs, et l'eau de la rivière les transporte et les dépose.\n3) Les pierres sont plus lourdes que le sable et la boue, qui sont emportés par l'eau : les pierres restent donc au fond."
+        }
+      ]
+    },
+    {
+      "id": "svt-5-6",
+      "titre": "Les impacts environnementaux de l'exploitation",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Impact environnemental : ce sont les effets de l'exploitation des gemmes sur la nature (sol, eau, forêt, animaux et plantes) et sur la vie des habitants."
+        },
+        {
+          "type": "schema",
+          "titre": "Une chaîne de conséquences",
+          "svg": "<svg width='320' height='135' viewBox='0 0 320 135' xmlns='http://www.w3.org/2000/svg'><text x='160' y='13' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>De la mine à la mer</text><rect x='6' y='22' width='68' height='66' rx='5' fill='#bbf7d0' stroke='#1e293b' stroke-width='1.2'/><rect x='86' y='22' width='68' height='66' rx='5' fill='#fde68a' stroke='#1e293b' stroke-width='1.2'/><rect x='166' y='22' width='68' height='66' rx='5' fill='#fdba74' stroke='#1e293b' stroke-width='1.2'/><rect x='246' y='22' width='68' height='66' rx='5' fill='#bfdbfe' stroke='#1e293b' stroke-width='1.2'/><g stroke='#1e293b' stroke-width='2'><line x1='75' y1='55' x2='80' y2='55'/><line x1='155' y1='55' x2='160' y2='55'/><line x1='235' y1='55' x2='240' y2='55'/></g><g fill='#1e293b'><polygon points='80,50 86,55 80,60'/><polygon points='160,50 166,55 160,60'/><polygon points='240,50 246,55 240,60'/></g><g font-size='9' font-family='sans-serif' fill='#1e293b' text-anchor='middle'><text x='40' y='45'>Déforestation</text><text x='40' y='58'>et creusement</text><text x='40' y='71'>du sol</text><text x='120' y='45'>Sol nu et</text><text x='120' y='58'>érosion</text><text x='120' y='71'>(lavaka)</text><text x='200' y='45'>Boue dans</text><text x='200' y='58'>les rivières</text><text x='200' y='71'>et rizières</text><text x='280' y='45'>Envasement :</text><text x='280' y='58'>mer, poissons,</text><text x='280' y='71'>coraux</text></g><text x='160' y='110' font-size='10' font-family='sans-serif' fill='#475569' text-anchor='middle'>Aussi : déchets, eau polluée,</text><text x='160' y='124' font-size='10' font-family='sans-serif' fill='#475569' text-anchor='middle'>gaz à effet de serre des engins.</text></svg>",
+          "legende": "Chaque étape provoque la suivante : une mine mal gérée peut abîmer l'environnement jusqu'à la côte."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Impact", "Cause", "Conséquence"],
+          "lignes": [
+            ["Érosion des sols", "creusement, sol laissé nu après l'exploitation", "ravinement (lavaka), perte de terres cultivables"],
+            ["Atteinte à l'écosystème marin et à la biodiversité", "boue et produits polluants emportés par les rivières jusqu'à la mer", "envasement des côtes, mort de poissons et de coraux, disparition d'espèces"],
+            ["Déchets", "gravats, boues, abandon de matériel, ordures sur les sites", "pollution du sol et de l'eau, paysages abîmés"],
+            ["Gaz à effet de serre", "engins et groupes électrogènes, brûlis, destruction des arbres", "augmentation du CO2 dans l'air, réchauffement du climat"],
+            ["Approvisionnement en eau", "eau polluée ou détournée pour le lavage des graviers", "manque d'eau potable et d'eau pour l'agriculture"],
+            ["Déforestation", "arbres coupés pour dégager le terrain ou consolider les puits", "perte de forêts et d'animaux, sol fragilisé"]
+          ]
+        },
+        {
+          "type": "regle",
+          "texte": "Pour limiter les dégâts :\n- exploiter légalement, avec une autorisation ;\n- reboucher les puits et remettre le terrain en état après l'exploitation ;\n- reboiser les zones touchées ;\n- laisser décanter l'eau de lavage avant de la rejeter dans la rivière ;\n- ramasser et traiter les déchets ;\n- protéger les forêts, les sources et les rizières proches du site.\nOn cherche ainsi une exploitation qui respecte la nature et laisse des ressources aux générations futures."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Près d'un village, des chercheurs de saphirs ont creusé de nombreux puits et coupé des arbres. Les puits ont été laissés ouverts. Les rizières du village reçoivent maintenant de l'eau boueuse.\n1) Citer trois impacts environnementaux de cette exploitation.\n2) Expliquer comment la boue peut atteindre la mer.\n3) Proposer trois mesures pour réduire ces dégâts.",
+          "solution": "1) Déforestation, érosion des sols (sol nu), pollution de l'eau et envasement des rizières ; les puits ouverts sont aussi dangereux pour les habitants.\n2) Sans arbres, la pluie emporte la terre ; la boue gagne les rivières, qui la transportent jusqu'à la mer : elle provoque l'envasement des côtes et nuit aux poissons et aux coraux.\n3) Reboucher les puits et remettre le terrain en état ; reboiser ; laisser décanter l'eau de lavage avant de la rejeter ; exploiter avec autorisation et ramasser les déchets."
+        }
+      ]
+    }
+  ]
+}
