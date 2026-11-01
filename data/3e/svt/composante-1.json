@@ -1,0 +1,317 @@
+{
+  "id": "svt-theme1",
+  "titre": "Thématique 1 : Alimentation de l'homme",
+  "lecons": [
+    {
+      "id": "svt-1-1",
+      "titre": "Aliments simples, aliments composés et nutriments",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Aliment composé : un aliment composé est formé de plusieurs aliments simples mélangés. Exemples : le pain, le riz, la viande, le lait.\nAliment simple : constituant de base que l'on retrouve dans les aliments composés. Il en existe six : les glucides, les lipides, les protéines (ou protides), l'eau, les sels minéraux et les vitamines."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Aliment composé", "Principaux aliments simples contenus"],
+          "lignes": [
+            ["Pain", "glucides (amidon), eau, un peu de protéines et de sels minéraux"],
+            ["Riz", "glucides (amidon), eau, un peu de protéines, vitamines B"],
+            ["Viande", "protéines, lipides, eau, sels minéraux (fer)"],
+            ["Lait", "eau, lipides, protéines, glucides, calcium, vitamines"]
+          ]
+        },
+        {
+          "type": "definition",
+          "texte": "Macromolécules : les glucides, les lipides et les protéines sont de très grosses molécules appelées macromolécules. Elles ne peuvent pas traverser la paroi de l'intestin grêle.\nL'eau, les sels minéraux et les vitamines sont de petites molécules : elles passent directement dans le sang."
+        },
+        {
+          "type": "definition",
+          "texte": "Nutriment : un nutriment est une petite molécule soluble, issue de la digestion des aliments, qui traverse la paroi de l'intestin grêle et passe dans le sang."
+        },
+        {
+          "type": "regle",
+          "texte": "La digestion transforme les macromolécules en nutriments grâce aux enzymes digestives :\n- amidon (glucide) → glucose\n- protéines (protides) → acides aminés\n- lipides → acides gras + glycérol\n- eau, sels minéraux, vitamines : ce sont déjà des nutriments, ils sont absorbés directement."
+        },
+        {
+          "type": "schema",
+          "titre": "De l'aliment simple au nutriment",
+          "svg": "<svg width='320' height='200' viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg'><text x='140' y='14' font-size='11' font-family='sans-serif' fill='#b45309' text-anchor='middle'>enzymes digestives</text><rect x='10' y='22' width='95' height='30' rx='5' fill='#fde68a' stroke='#1e293b' stroke-width='1.2'/><text x='57' y='41' font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Amidon</text><line x1='110' y1='37' x2='158' y2='37' stroke='#1e293b' stroke-width='2.5'/><polygon points='158,31 170,37 158,43' fill='#1e293b'/><rect x='175' y='22' width='135' height='30' rx='5' fill='#bbf7d0' stroke='#1e293b' stroke-width='1.2'/><text x='242' y='41' font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Glucose</text><rect x='10' y='62' width='95' height='30' rx='5' fill='#fecaca' stroke='#1e293b' stroke-width='1.2'/><text x='57' y='81' font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Protéines</text><line x1='110' y1='77' x2='158' y2='77' stroke='#1e293b' stroke-width='2.5'/><polygon points='158,71 170,77 158,83' fill='#1e293b'/><rect x='175' y='62' width='135' height='30' rx='5' fill='#bbf7d0' stroke='#1e293b' stroke-width='1.2'/><text x='242' y='81' font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Acides aminés</text><rect x='10' y='102' width='95' height='30' rx='5' fill='#fed7aa' stroke='#1e293b' stroke-width='1.2'/><text x='57' y='121' font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Lipides</text><line x1='110' y1='117' x2='158' y2='117' stroke='#1e293b' stroke-width='2.5'/><polygon points='158,111 170,117 158,123' fill='#1e293b'/><rect x='175' y='102' width='135' height='30' rx='5' fill='#bbf7d0' stroke='#1e293b' stroke-width='1.2'/><text x='242' y='121' font-size='10' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Acides gras + glycérol</text><rect x='10' y='142' width='95' height='30' rx='5' fill='#bfdbfe' stroke='#1e293b' stroke-width='1.2'/><text x='57' y='155' font-size='10' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Eau, sels,</text><text x='57' y='167' font-size='10' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>vitamines</text><text x='140' y='151' font-size='10' font-family='sans-serif' fill='#475569' text-anchor='middle'>direct</text><line x1='110' y1='157' x2='158' y2='157' stroke='#1e293b' stroke-width='2.5'/><polygon points='158,151 170,157 158,163' fill='#1e293b'/><rect x='175' y='142' width='135' height='30' rx='5' fill='#bbf7d0' stroke='#1e293b' stroke-width='1.2'/><text x='242' y='161' font-size='10' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>nutriments directs</text><text x='160' y='192' font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Les nutriments passent dans le sang (intestin grêle)</text></svg>",
+          "legende": "Les macromolécules (à gauche) sont coupées en nutriments (à droite) par les enzymes digestives."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Un repas contient de l'amidon, des protéines, des lipides, de l'eau et du fer.\n1) Classer ces constituants en macromolécules et en nutriments directs.\n2) Donner les nutriments obtenus après digestion des macromolécules.",
+          "solution": "1) Macromolécules : amidon, protéines, lipides. Nutriments directs (absorbés sans digestion) : eau et fer (sel minéral).\n2) Amidon → glucose ; protéines → acides aminés ; lipides → acides gras + glycérol."
+        }
+      ]
+    },
+    {
+      "id": "svt-1-2",
+      "titre": "Rôle des aliments simples",
+      "blocs": [
+        {
+          "type": "tableau",
+          "entetes": ["Aliment simple", "Rôles principaux", "Sources"],
+          "lignes": [
+            ["Glucides", "principale source d'énergie ; fibres (transit intestinal) ; saveur sucrée", "riz, pain, manioc, patate douce, sucre"],
+            ["Lipides", "réserve d'énergie (tissus adipeux) ; constituent les membranes des cellules", "huile, beurre, arachide, viande grasse"],
+            ["Protéines", "construction et renouvellement des cellules (muscles, peau) ; défense de l'organisme ; transport de l'O2 ; digestion", "viande, poisson, œufs, lait ; haricots, soja, arachide"]
+          ]
+        },
+        {
+          "type": "definition",
+          "texte": "Protéines : les protéines sont de longues chaînes d'acides aminés. Elles jouent un rôle structural (muscles, peau) et plastique (remplacement des cellules usées). Ce sont aussi les seuls aliments simples qui apportent de l'azote.\nOrigine : végétale (légumineuses, graines oléagineuses) ou animale (viande, poisson, œufs, lait)."
+        },
+        {
+          "type": "definition",
+          "texte": "L'eau : l'eau représente environ 60 à 70 % de la masse du corps. Un adulte de 60 kg a besoin d'environ 2,8 L d'eau par jour. Ce besoin est couvert par :\n- les boissons : 1 à 1,5 L ;\n- les aliments solides : environ 1,2 L ;\n- l'eau produite par l'organisme lors de la digestion : 0,3 à 0,4 L."
+        },
+        {
+          "type": "schema",
+          "titre": "Bilan en eau d'un adulte",
+          "svg": "<svg width='320' height='100' viewBox='0 0 320 100' xmlns='http://www.w3.org/2000/svg'><text x='160' y='18' font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Besoin en eau : 2,8 L par jour (adulte de 60 kg)</text><rect x='20' y='30' width='130' height='32' fill='#60a5fa'/><rect x='150' y='30' width='120' height='32' fill='#34d399'/><rect x='270' y='30' width='30' height='32' fill='#fbbf24'/><rect x='20' y='30' width='280' height='32' fill='none' stroke='#1e293b' stroke-width='1.5'/><text x='85' y='50' font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Boissons 1,3 L</text><text x='210' y='50' font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Aliments 1,2 L</text><line x1='285' y1='62' x2='285' y2='78' stroke='#1e293b' stroke-width='1.5'/><text x='300' y='92' font-size='10' font-family='sans-serif' fill='#1e293b' text-anchor='end'>eau produite par la digestion : 0,3 L</text></svg>",
+          "legende": "Les valeurs sont des moyennes : 1,3 + 1,2 + 0,3 = 2,8 L."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Vitamine", "Sources", "Rôle"],
+          "lignes": [
+            ["C", "fruits, légumes", "défense de l'organisme, cicatrisation"],
+            ["B", "céréales", "énergie, bon fonctionnement des nerfs"],
+            ["A (provitamine A ou β-carotène)", "carottes, épinards", "vision, peau"],
+            ["K", "légumes verts", "coagulation du sang"],
+            ["E", "graines oléagineuses, huiles végétales", "protection des cellules"]
+          ]
+        },
+        {
+          "type": "definition",
+          "texte": "Vitamines : les vitamines sont des substances organiques nécessaires en très faible quantité. L'organisme ne sait pas les fabriquer : elles doivent être apportées par l'alimentation."
+        },
+        {
+          "type": "definition",
+          "texte": "Sels minéraux : quand on calcine un aliment, la matière organique brûle et il reste des cendres : ce sont les sels minéraux.\n- Calcium : formation des os et des dents.\n- Fer : formation du sang (transport de l'O2).\n- Iode : bon fonctionnement de la glande thyroïde."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Pourquoi un enfant en pleine croissance doit-il consommer des protéines et du calcium ? Citer deux aliments riches en protéines.",
+          "solution": "Les protéines servent à construire de nouvelles cellules (muscles, peau) et le calcium à former les os et les dents : ces besoins sont élevés pendant la croissance. Aliments riches en protéines : viande, poisson, œufs, lait, haricots."
+        }
+      ]
+    },
+    {
+      "id": "svt-1-3",
+      "titre": "Valeur énergétique des aliments et respiration cellulaire",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Respiration cellulaire : dans les cellules, les nutriments (surtout le glucose) sont utilisés avec le dioxygène (O2). La cellule rejette du dioxyde de carbone (CO2) et de l'eau, et libère de l'énergie.\nCette énergie sert à maintenir la température du corps à 37 °C, à faire les mouvements, à assurer la croissance et le fonctionnement de base des organes."
+        },
+        {
+          "type": "schema",
+          "titre": "La respiration cellulaire",
+          "svg": "<svg width='320' height='175' viewBox='0 0 320 175' xmlns='http://www.w3.org/2000/svg'><ellipse cx='160' cy='85' rx='70' ry='50' fill='#fef3c7' stroke='#1e293b' stroke-width='2'/><text x='160' y='82' font-size='13' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Cellule</text><text x='160' y='99' font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>respiration</text><text x='50' y='57' font-size='11' font-family='sans-serif' fill='#1d4ed8' text-anchor='middle'>Glucose</text><line x1='15' y1='65' x2='84' y2='65' stroke='#1d4ed8' stroke-width='3'/><polygon points='84,59 94,65 84,71' fill='#1d4ed8'/><text x='50' y='100' font-size='11' font-family='sans-serif' fill='#1d4ed8' text-anchor='middle'>O2</text><line x1='15' y1='108' x2='84' y2='108' stroke='#1d4ed8' stroke-width='3'/><polygon points='84,102 94,108 84,114' fill='#1d4ed8'/><text x='265' y='57' font-size='11' font-family='sans-serif' fill='#475569' text-anchor='middle'>CO2</text><line x1='226' y1='65' x2='304' y2='65' stroke='#475569' stroke-width='3'/><polygon points='304,59 314,65 304,71' fill='#475569'/><text x='265' y='100' font-size='11' font-family='sans-serif' fill='#ea580c' text-anchor='middle'>Énergie</text><line x1='226' y1='108' x2='304' y2='108' stroke='#ea580c' stroke-width='3'/><polygon points='304,102 314,108 304,114' fill='#ea580c'/><text x='160' y='160' font-size='12' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>glucose + O2 → CO2 + eau + énergie</text></svg>",
+          "legende": "Les cellules « brûlent » le glucose avec l'oxygène pour obtenir de l'énergie."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Aliment simple", "Énergie libérée par 1 g", "En kcal"],
+          "lignes": [
+            ["Glucides", "17 kJ", "4 kcal"],
+            ["Protéines", "17 kJ", "4 kcal"],
+            ["Lipides", "38 kJ", "9 kcal"],
+            ["Eau, sels minéraux, vitamines", "0 kJ", "0 kcal"]
+          ]
+        },
+        {
+          "type": "formule",
+          "texte": "Énergie d'un aliment (en kJ) :\nE = (masse de glucides × 17) + (masse de protéines × 17) + (masse de lipides × 38)\nConversions : 1 kcal = 4,184 kJ ; 1 kJ ≈ 0,24 kcal"
+        },
+        {
+          "type": "exemple",
+          "texte": "Un aliment contient 50 g de glucides, 10 g de protéines et 5 g de lipides.\nE = 50 × 17 + 10 × 17 + 5 × 38 = 850 + 170 + 190 = 1210 kJ\nEn kcal : 1210 / 4,184 ≈ 289 kcal."
+        },
+        {
+          "type": "remarque",
+          "texte": "Les lipides libèrent plus du double d'énergie que les glucides et les protéines, à masse égale : ce sont les aliments les plus énergétiques. L'eau et les sels minéraux ne fournissent aucune énergie."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Un biscuit de 40 g contient 25 g de glucides, 3 g de protéines et 10 g de lipides. Calculer son énergie en kJ puis en kcal.",
+          "solution": "E = 25 × 17 + 3 × 17 + 10 × 38 = 425 + 51 + 380 = 856 kJ\nEn kcal : 856 / 4,184 ≈ 205 kcal."
+        }
+      ]
+    },
+    {
+      "id": "svt-1-4",
+      "titre": "La pyramide alimentaire",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Pyramide alimentaire : la pyramide alimentaire classe les aliments en groupes et indique la fréquence conseillée de consommation de chaque groupe. Plus un groupe est près de la base, plus il doit être consommé souvent. Plus il est près du sommet, plus il faut le limiter."
+        },
+        {
+          "type": "schema",
+          "titre": "La pyramide alimentaire",
+          "svg": "<svg width='320' height='230' viewBox='0 0 320 230' xmlns='http://www.w3.org/2000/svg'><polygon points='80,10 90,40 70,40' fill='#f9a8d4' stroke='#1e293b' stroke-width='1'/><polygon points='70,40 90,40 100,70 60,70' fill='#fde047' stroke='#1e293b' stroke-width='1'/><polygon points='60,70 100,70 110,100 50,100' fill='#fb923c' stroke='#1e293b' stroke-width='1'/><polygon points='50,100 110,100 120,130 40,130' fill='#e2e8f0' stroke='#1e293b' stroke-width='1'/><polygon points='40,130 120,130 130,160 30,160' fill='#86efac' stroke='#1e293b' stroke-width='1'/><polygon points='30,160 130,160 140,190 20,190' fill='#d4a373' stroke='#1e293b' stroke-width='1'/><polygon points='20,190 140,190 150,220 10,220' fill='#93c5fd' stroke='#1e293b' stroke-width='1'/><line x1='85' y1='25' x2='160' y2='25' stroke='#94a3b8' stroke-width='1' stroke-dasharray='3,3'/><line x1='95' y1='55' x2='160' y2='55' stroke='#94a3b8' stroke-width='1' stroke-dasharray='3,3'/><line x1='105' y1='85' x2='160' y2='85' stroke='#94a3b8' stroke-width='1' stroke-dasharray='3,3'/><line x1='115' y1='115' x2='160' y2='115' stroke='#94a3b8' stroke-width='1' stroke-dasharray='3,3'/><line x1='125' y1='145' x2='160' y2='145' stroke='#94a3b8' stroke-width='1' stroke-dasharray='3,3'/><line x1='135' y1='175' x2='160' y2='175' stroke='#94a3b8' stroke-width='1' stroke-dasharray='3,3'/><line x1='145' y1='205' x2='160' y2='205' stroke='#94a3b8' stroke-width='1' stroke-dasharray='3,3'/><text x='165' y='22' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b'>Sucres, produits sucrés</text><text x='165' y='34' font-size='10' font-family='sans-serif' fill='#475569'>à limiter</text><text x='165' y='52' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b'>Matières grasses</text><text x='165' y='64' font-size='10' font-family='sans-serif' fill='#475569'>à limiter</text><text x='165' y='82' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b'>Viandes, poissons, œufs</text><text x='165' y='94' font-size='10' font-family='sans-serif' fill='#475569'>1 à 2 fois par jour</text><text x='165' y='112' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b'>Lait, produits laitiers</text><text x='165' y='124' font-size='10' font-family='sans-serif' fill='#475569'>2 à 3 par jour</text><text x='165' y='142' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b'>Légumes et fruits</text><text x='165' y='154' font-size='10' font-family='sans-serif' fill='#475569'>au moins 5 par jour</text><text x='165' y='172' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b'>Céréales, féculents</text><text x='165' y='184' font-size='10' font-family='sans-serif' fill='#475569'>à chaque repas</text><text x='165' y='202' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b'>Boissons</text><text x='165' y='214' font-size='10' font-family='sans-serif' fill='#475569'>eau : 1,5 L par jour</text></svg>",
+          "legende": "De la base (à consommer le plus) au sommet (à limiter)."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Groupe", "Fréquence conseillée", "Apport principal"],
+          "lignes": [
+            ["Boissons", "selon la soif, environ 1,5 L d'eau par jour", "eau"],
+            ["Céréales, féculents", "à chaque repas", "glucides (énergie)"],
+            ["Légumes et fruits", "au moins 5 fois par jour (environ 400 g)", "vitamines, sels minéraux, fibres"],
+            ["Lait, produits laitiers", "2 à 3 fois par jour", "calcium (environ 2/3 des apports), protéines"],
+            ["Viandes, poissons, œufs", "1 à 2 fois par jour ; poisson au moins 2 fois par semaine", "protéines, fer"],
+            ["Matières grasses", "à limiter", "lipides, vitamine E (huiles végétales)"],
+            ["Sucres, produits sucrés", "à limiter", "glucides simples"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "enonce": "Pourquoi les sucreries et les matières grasses sont-elles placées au sommet de la pyramide ? Quel groupe faut-il consommer à chaque repas ?",
+          "solution": "Elles sont au sommet car il faut en consommer peu : en excès, elles favorisent le surpoids, l'obésité et le diabète. Les céréales et féculents (riz, manioc, pain…) se consomment à chaque repas, ainsi que de l'eau."
+        }
+      ]
+    },
+        {
+      "id": "svt-1-5",
+      "titre": "Les besoins énergétiques",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Métabolisme de base (MB) : c'est la dépense d'énergie minimale de l'organisme au repos complet. Elle sert à faire fonctionner les organes (cœur, poumons, cerveau) et à maintenir la température du corps.\nBesoin énergétique : c'est l'énergie dont le corps a besoin chaque jour. Il est égal au métabolisme de base plus l'énergie dépensée pour les activités."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Personne", "Besoin en kcal par jour", "Besoin en kJ par jour"],
+          "lignes": [
+            ["Enfant de 5 ans", "1500 à 1800", "6300 à 7500"],
+            ["Enfant de 10 ans", "1800 à 2200", "7500 à 9200"],
+            ["Adolescent de 13 à 15 ans", "2200 à 2900", "9200 à 12000"],
+            ["Femme adulte (activité modérée)", "environ 2000", "environ 8400"],
+            ["Homme adulte (activité modérée)", "2500 à 2700", "10500 à 11300"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Besoins énergétiques selon l'âge et le sexe",
+          "svg": "<svg width='320' height='195' viewBox='0 0 320 195' xmlns='http://www.w3.org/2000/svg'><text x='160' y='16' font-size='12' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Besoin d'énergie par jour (kcal)</text><line x1='30' y1='26' x2='30' y2='150' stroke='#1e293b' stroke-width='1.5'/><line x1='30' y1='150' x2='310' y2='150' stroke='#1e293b' stroke-width='1.5'/><rect x='44' y='78' width='36' height='72' fill='#60a5fa'/><rect x='96' y='62' width='36' height='88' fill='#34d399'/><rect x='148' y='34' width='36' height='116' fill='#fbbf24'/><rect x='200' y='70' width='36' height='80' fill='#f472b6'/><rect x='252' y='42' width='36' height='108' fill='#818cf8'/><text x='62' y='74' font-size='9' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>1500-1800</text><text x='114' y='58' font-size='9' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>1800-2200</text><text x='166' y='30' font-size='9' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>2200-2900</text><text x='218' y='66' font-size='9' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>≈ 2000</text><text x='270' y='38' font-size='9' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>2500-2700</text><text x='62' y='164' font-size='10' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>5 ans</text><text x='114' y='164' font-size='10' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>10 ans</text><text x='166' y='164' font-size='10' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>13-15 ans</text><text x='218' y='164' font-size='10' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Femme</text><text x='218' y='176' font-size='10' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>adulte</text><text x='270' y='164' font-size='10' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Homme</text><text x='270' y='176' font-size='10' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>adulte</text><text x='160' y='191' font-size='9' font-family='sans-serif' fill='#475569' text-anchor='middle'>(la hauteur de la barre correspond à la valeur haute)</text></svg>",
+          "legende": "L'adolescent a des besoins énergétiques très élevés à cause de sa croissance."
+        },
+        {
+          "type": "remarque",
+          "texte": "Le besoin énergétique varie selon l'âge, le sexe, l'activité physique (un paysan ou un sportif dépense plus qu'une personne assise), le climat et l'état physiologique (grossesse, allaitement). Pour un adulte, l'apport énergétique conseillé est d'environ 11320 kJ (≈ 2700 kcal) pour un homme et 2000 kcal pour une femme ; selon l'activité, le besoin de l'homme est de 2500 à 2700 kcal."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Pourquoi un adolescent de 14 ans a-t-il besoin de plus d'énergie qu'une femme adulte ? Convertir 2000 kcal en kJ.",
+          "solution": "L'adolescent grandit : il doit construire de nouveaux tissus et il est très actif, donc il dépense plus d'énergie.\n2000 kcal = 2000 × 4,184 ≈ 8368 kJ, soit environ 8400 kJ."
+        }
+      ]
+    },
+    {
+      "id": "svt-1-6",
+      "titre": "Une alimentation saine et équilibrée",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Alimentation équilibrée : c'est une alimentation variée qui couvre les besoins du corps en énergie et en tous les aliments simples (glucides, lipides, protéines, eau, sels minéraux, vitamines), en quantité et en qualité adaptées à l'âge et à l'activité."
+        },
+        {
+          "type": "regle",
+          "texte": "Repères pour bien manger :\n- Un enfant fait 3 repas par jour et 1 à 3 collations.\n- À chaque repas : fruits, légumes, eau, féculents, produits laitiers.\n- 1 fois par jour : viande, œufs ou poisson.\n- En petite quantité : matières grasses.\n- Les sucreries ne sont pas indispensables."
+        },
+        {
+          "type": "schema",
+          "titre": "L'assiette équilibrée",
+          "svg": "<svg width='320' height='200' viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg'><circle cx='85' cy='100' r='78' fill='#ffffff' stroke='#cbd5e1' stroke-width='2'/><path d='M85,30 A70,70 0 0 0 85,170 Z' fill='#4ade80' stroke='#1e293b' stroke-width='2'/><path d='M85,100 L85,30 A70,70 0 0 1 155,100 Z' fill='#d4a373' stroke='#1e293b' stroke-width='2'/><path d='M85,100 L155,100 A70,70 0 0 1 85,170 Z' fill='#f87171' stroke='#1e293b' stroke-width='2'/><text x='50' y='106' font-size='18' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>1/2</text><text x='122' y='72' font-size='14' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>1/4</text><text x='122' y='140' font-size='14' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>1/4</text><rect x='175' y='34' width='12' height='12' fill='#4ade80' stroke='#1e293b'/><text x='193' y='44' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b'>Végétaux</text><text x='193' y='58' font-size='10' font-family='sans-serif' fill='#475569'>légumes et fruits</text><rect x='175' y='89' width='12' height='12' fill='#d4a373' stroke='#1e293b'/><text x='193' y='99' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b'>Féculents</text><text x='193' y='113' font-size='10' font-family='sans-serif' fill='#475569'>riz, manioc, maïs, pain</text><rect x='175' y='134' width='12' height='12' fill='#f87171' stroke='#1e293b'/><text x='193' y='144' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b'>Aliments bâtisseurs</text><text x='193' y='158' font-size='10' font-family='sans-serif' fill='#475569'>viande, poisson, œuf,</text><text x='193' y='170' font-size='10' font-family='sans-serif' fill='#475569'>légumineuses</text><text x='160' y='194' font-size='11' font-family='sans-serif' fill='#1d4ed8' text-anchor='middle'>Boire de l'eau à chaque repas</text></svg>",
+          "legende": "Assiette d'un adulte : 1/2 de végétaux, 1/4 de féculents, 1/4 d'aliments bâtisseurs."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Aliment", "Quantité conseillée à un repas"],
+          "lignes": [
+            ["Légumes", "1 à 2 portions (environ 120 g chacune)"],
+            ["Fruit", "environ 120 g"],
+            ["Viande", "100 à 120 g"],
+            ["Poisson", "100 à 150 g"],
+            ["Œufs", "2 œufs (à la place de la viande ou du poisson)"],
+            ["Féculents", "environ 150 g"],
+            ["Produit laitier", "un produit"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Repas (adolescent)", "Part de l'énergie de la journée"],
+          "lignes": [
+            ["Petit-déjeuner", "environ 25 %"],
+            ["Déjeuner", "35 à 40 %"],
+            ["Goûter", "environ 10 %"],
+            ["Dîner", "environ 30 %"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "enonce": "Un adolescent a besoin de 2400 kcal par jour. Calculer l'énergie à apporter au petit-déjeuner (25 %), au déjeuner (35 %), au goûter (10 %) et au dîner (30 %).",
+          "solution": "Petit-déjeuner : 2400 × 0,25 = 600 kcal\nDéjeuner : 2400 × 0,35 = 840 kcal\nGoûter : 2400 × 0,10 = 240 kcal\nDîner : 2400 × 0,30 = 720 kcal\nVérification : 600 + 840 + 240 + 720 = 2400 kcal."
+        }
+      ]
+    },
+    {
+      "id": "svt-1-7",
+      "titre": "Alimentation équilibrée et santé",
+      "blocs": [
+        {
+          "type": "regle",
+          "texte": "Une alimentation équilibrée est importante car elle :\n- fournit l'énergie et les aliments simples nécessaires à la croissance et au bien-être ;\n- réduit les risques de maladies : maladies cardiovasculaires, obésité, diabète, certains cancers, hypertension, AVC, ostéoporose ;\n- permet un bon développement du corps et de l'esprit."
+        },
+        {
+          "type": "methode",
+          "texte": "Pour évaluer un repas ou une journée alimentaire :\n1. Additionner les masses de glucides, de protéines et de lipides.\n2. Calculer l'énergie de chaque nutriment : glucides × 17, protéines × 17, lipides × 38 (en kJ).\n3. Additionner pour obtenir l'énergie totale.\n4. Comparer à l'apport énergétique conseillé et conclure."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Voici les apports d'un adulte en une journée :\n- Petit-déjeuner : 96,8 g de glucides, 19,2 g de protéines, 10,45 g de lipides.\n- Déjeuner : 155,66 g de glucides, 37,66 g de protéines, 11,88 g de lipides.\n- Dîner : 112,5 g de glucides, 36 g de protéines, 17,95 g de lipides.\n1) Calculer la masse totale de chaque nutriment.\n2) Calculer l'énergie apportée par chaque nutriment, puis l'énergie totale en kJ et en kcal.\n3) Comparer à l'apport conseillé (11320 kJ) et conclure.",
+          "solution": "1) Glucides : 96,8 + 155,66 + 112,5 = 364,96 g\nProtéines : 19,2 + 37,66 + 36 = 92,86 g\nLipides : 10,45 + 11,88 + 17,95 = 40,28 g\n2) Glucides : 364,96 × 17 ≈ 6204 kJ\nProtéines : 92,86 × 17 ≈ 1579 kJ\nLipides : 40,28 × 38 ≈ 1531 kJ\nÉnergie totale ≈ 6204 + 1579 + 1531 = 9314 kJ, soit 9314 / 4,184 ≈ 2226 kcal.\n3) L'apport conseillé est de 11320 kJ. L'apport de la journée (9314 kJ) est inférieur d'environ 2000 kJ : il représente environ 82 % du conseillé. Cette alimentation est un peu insuffisante en énergie : si elle durait, elle pourrait causer fatigue et amaigrissement. Il faudrait l'augmenter légèrement."
+        }
+      ]
+    },
+    {
+      "id": "svt-1-8",
+      "titre": "La malnutrition",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Malnutrition : la malnutrition est un déséquilibre de l'alimentation, par manque (insuffisance) ou par excès, qui nuit à la santé. Il existe quatre formes de malnutrition."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Forme", "Signe", "Explication"],
+          "lignes": [
+            ["Malnutrition chronique", "retard de croissance", "la taille est trop petite pour l'âge"],
+            ["Malnutrition aiguë", "émaciation", "le poids est trop faible pour la taille"],
+            ["Surpoids et obésité", "excès de poids", "l'énergie consommée dépasse l'énergie dépensée"],
+            ["Carences en micronutriments", "« faim cachée »", "manque de fer, d'iode, de vitamine A ou de calcium"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Équilibre entre énergie consommée et dépensée",
+          "svg": "<svg width='320' height='150' viewBox='0 0 320 150' xmlns='http://www.w3.org/2000/svg'><line x1='28' y1='90' x2='78' y2='90' stroke='#475569' stroke-width='2'/><polygon points='44,90 62,90 53,50' fill='#94a3b8'/><line x1='15' y1='50' x2='91' y2='50' stroke='#1e293b' stroke-width='3'/><circle cx='15' cy='38' r='9' fill='#f59e0b'/><text x='15' y='42' font-size='10' font-weight='bold' font-family='sans-serif' fill='#ffffff' text-anchor='middle'>C</text><circle cx='91' cy='38' r='9' fill='#3b82f6'/><text x='91' y='42' font-size='10' font-weight='bold' font-family='sans-serif' fill='#ffffff' text-anchor='middle'>D</text><text x='53' y='108' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Équilibre</text><text x='53' y='121' font-size='10' font-family='sans-serif' fill='#475569' text-anchor='middle'>poids normal</text><line x1='135' y1='90' x2='185' y2='90' stroke='#475569' stroke-width='2'/><polygon points='151,90 169,90 160,50' fill='#94a3b8'/><line x1='122' y1='60' x2='198' y2='40' stroke='#1e293b' stroke-width='3'/><circle cx='122' cy='48' r='9' fill='#f59e0b'/><text x='122' y='52' font-size='10' font-weight='bold' font-family='sans-serif' fill='#ffffff' text-anchor='middle'>C</text><circle cx='198' cy='28' r='9' fill='#3b82f6'/><text x='198' y='32' font-size='10' font-weight='bold' font-family='sans-serif' fill='#ffffff' text-anchor='middle'>D</text><text x='160' y='108' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Excès</text><text x='160' y='121' font-size='10' font-family='sans-serif' fill='#475569' text-anchor='middle'>surpoids, obésité</text><line x1='242' y1='90' x2='292' y2='90' stroke='#475569' stroke-width='2'/><polygon points='258,90 276,90 267,50' fill='#94a3b8'/><line x1='229' y1='40' x2='305' y2='60' stroke='#1e293b' stroke-width='3'/><circle cx='229' cy='28' r='9' fill='#f59e0b'/><text x='229' y='32' font-size='10' font-weight='bold' font-family='sans-serif' fill='#ffffff' text-anchor='middle'>C</text><circle cx='305' cy='48' r='9' fill='#3b82f6'/><text x='305' y='52' font-size='10' font-weight='bold' font-family='sans-serif' fill='#ffffff' text-anchor='middle'>D</text><text x='267' y='108' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Insuffisance</text><text x='267' y='121' font-size='10' font-family='sans-serif' fill='#475569' text-anchor='middle'>amaigrissement</text><text x='160' y='142' font-size='10' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>C = énergie consommée   D = énergie dépensée</text></svg>",
+          "legende": "Le côté le plus lourd de la balance indique la tendance : excès (surpoids) ou insuffisance (amaigrissement)."
+        },
+        {
+          "type": "remarque",
+          "texte": "La « faim cachée » touche des personnes qui mangent à leur faim mais dont l'alimentation manque de vitamines et de sels minéraux. Exemples : manque de fer (anémie), d'iode (goitre), de vitamine A (troubles de la vision), de calcium (os fragiles)."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Un enfant de 4 ans est trop petit pour son âge, mais son poids est normal par rapport à sa taille. De quelle forme de malnutrition s'agit-il ? Proposer deux mesures pour la prévenir.",
+          "solution": "Il s'agit d'une malnutrition chronique (retard de croissance).\nMesures : donner une alimentation variée et suffisante en protéines (lait, œufs, poisson, légumineuses), en fruits et légumes, et assurer un suivi régulier de la croissance de l'enfant."
+        }
+      ]
+    }
+  ]
+}
