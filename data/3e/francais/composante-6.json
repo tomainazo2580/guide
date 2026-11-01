@@ -1,0 +1,301 @@
+{
+  "id": "fr-theme6",
+  "titre": "Thème VI : Médias et nouvelles technologies",
+  "lecons": [
+    {
+      "id": "fr-6-1",
+      "titre": "Les médias et le lexique des nouvelles technologies",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Média",
+          "texte": "Un <b>média</b> est un moyen qui permet de diffuser une information à un large public : journal, radio, télévision, Internet. Le mot vient du latin <i>medium</i> (« moyen »). Les médias informent, éduquent et divertissent."
+        },
+        {
+          "type": "schema",
+          "titre": "Les trois familles de médias",
+          "svg": "<svg width='320' height='170' viewBox='0 0 320 170' xmlns='http://www.w3.org/2000/svg'><rect x='6' y='6' width='96' height='28' rx='8' fill='#ffe0b2' stroke='#ffb74d' stroke-width='1.5'/><text x='54' y='25' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Presse écrite</text><rect x='6' y='38' width='96' height='126' rx='8' fill='#fffaf0' stroke='#ffb74d'/><text x='54' y='62' font-size='10.5' text-anchor='middle' fill='#333'>journal</text><text x='54' y='84' font-size='10.5' text-anchor='middle' fill='#333'>magazine</text><text x='54' y='106' font-size='10.5' text-anchor='middle' fill='#333'>revue</text><text x='54' y='128' font-size='10.5' text-anchor='middle' fill='#333'>affiche</text><text x='54' y='150' font-size='10.5' text-anchor='middle' fill='#333'>livre</text><rect x='112' y='6' width='96' height='28' rx='8' fill='#c8e6c9' stroke='#81c784' stroke-width='1.5'/><text x='160' y='25' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Audiovisuel</text><rect x='112' y='38' width='96' height='126' rx='8' fill='#f5fbf5' stroke='#81c784'/><text x='160' y='62' font-size='10.5' text-anchor='middle' fill='#333'>radio</text><text x='160' y='84' font-size='10.5' text-anchor='middle' fill='#333'>télévision</text><text x='160' y='106' font-size='10.5' text-anchor='middle' fill='#333'>cinéma</text><text x='160' y='128' font-size='10.5' text-anchor='middle' fill='#333'>reportage</text><text x='160' y='150' font-size='10.5' text-anchor='middle' fill='#333'>journal télévisé</text><rect x='218' y='6' width='96' height='28' rx='8' fill='#b3e5fc' stroke='#4fc3f7' stroke-width='1.5'/><text x='266' y='25' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Numérique</text><rect x='218' y='38' width='96' height='126' rx='8' fill='#f3fbff' stroke='#4fc3f7'/><text x='266' y='62' font-size='10.5' text-anchor='middle' fill='#333'>site web</text><text x='266' y='84' font-size='10.5' text-anchor='middle' fill='#333'>réseaux sociaux</text><text x='266' y='106' font-size='10.5' text-anchor='middle' fill='#333'>courriel</text><text x='266' y='128' font-size='10.5' text-anchor='middle' fill='#333'>application</text><text x='266' y='150' font-size='10.5' text-anchor='middle' fill='#333'>vidéo en ligne</text></svg>",
+          "legende": "Aujourd'hui, un même journal peut exister en papier et sur Internet."
+        },
+        {
+          "type": "definition",
+          "titre": "NTIC",
+          "texte": "<b>NTIC</b> signifie <b>Nouvelles Technologies de l'Information et de la Communication</b> : ordinateur, tablette, smartphone, Internet, réseaux sociaux, messagerie, etc. Elles permettent de chercher, de stocker et d'échanger des informations très rapidement."
+        },
+        {
+          "type": "tableau",
+          "titre": "Le vocabulaire à connaître",
+          "entetes": ["Mot", "Sens", "Exemple"],
+          "lignes": [
+            ["Information", "Fait ou nouvelle porté à la connaissance du public", "Une information sur la météo"],
+            ["Journaliste", "Personne qui recherche, vérifie et diffuse les informations", "Un journaliste de radio"],
+            ["Article", "Texte publié dans un journal ou sur un site", "Un article sur la rentrée scolaire"],
+            ["Publicité", "Message qui cherche à faire acheter un produit", "Une affiche pour un opérateur mobile"],
+            ["Internaute", "Personne qui utilise Internet", "Un internaute qui consulte un site"],
+            ["Réseau social", "Site ou application où l'on échange et partage avec d'autres", "Facebook, TikTok"],
+            ["Connexion", "Liaison à Internet ou à un réseau", "Une connexion lente au village"],
+            ["Infox", "Fausse information diffusée pour tromper (on dit aussi « fake news »)", "Une rumeur inventée et partagée sur un réseau social"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Le mot <b>infox</b> est le terme français recommandé pour l'anglicisme « fake news ». Une information n'est pas vraie parce qu'elle est partagée par beaucoup de personnes : il faut toujours vérifier la source."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1. Classe ces médias dans la bonne famille (presse écrite, audiovisuel, numérique) : un magazine, la radio, un site web, la télévision, une revue, une application de messagerie.\n2. Que signifie « NTIC » ?\n3. Quelle différence fais-tu entre un journaliste et un internaute ?\n4. Donne un synonyme du mot « infox ».\n5. Cite deux informations que l'on peut obtenir grâce à la radio.",
+          "solution": "1. Presse écrite : un magazine, une revue. Audiovisuel : la radio, la télévision. Numérique : un site web, une application de messagerie.\n2. Nouvelles Technologies de l'Information et de la Communication.\n3. Le journaliste recherche, vérifie et diffuse l'information. L'internaute est un simple utilisateur d'Internet.\n4. Par exemple : fausse nouvelle, rumeur, fausse information.\n5. Par exemple : la météo, les nouvelles du pays, les résultats d'examens, la musique, des conseils de santé."
+        }
+      ],
+      "lexique": [
+        { "terme": "Média", "definition": "Moyen de diffuser une information à un large public." },
+        { "terme": "NTIC", "definition": "Nouvelles technologies de l'information et de la communication." },
+        { "terme": "Presse écrite", "definition": "Ensemble des journaux et des magazines imprimés." },
+        { "terme": "Audiovisuel", "definition": "Ensemble des médias qui utilisent le son et l'image (radio, télévision)." },
+        { "terme": "Internaute", "definition": "Personne qui utilise Internet." },
+        { "terme": "Infox", "definition": "Fausse information diffusée pour tromper." }
+      ]
+    },
+    {
+      "id": "fr-6-2",
+      "titre": "Le téléphone portable : impacts positifs et négatifs",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "Le texte étudié (extrait de Reader's Digest, juin 2007) présente les effets du téléphone portable sur la vie quotidienne. Voici les idées essentielles à retenir, résumées avec mes mots et complétées par des exemples proches de nous."
+        },
+        {
+          "type": "schema",
+          "titre": "Le téléphone portable : pour et contre",
+          "svg": "<svg width='320' height='176' viewBox='0 0 320 176' xmlns='http://www.w3.org/2000/svg'><rect x='6' y='6' width='150' height='28' rx='8' fill='#c8e6c9' stroke='#81c784' stroke-width='1.5'/><text x='81' y='25' font-size='11.5' font-weight='bold' text-anchor='middle' fill='#333'>Impacts positifs</text><rect x='6' y='38' width='150' height='130' rx='8' fill='#f5fbf5' stroke='#81c784'/><text x='81' y='62' font-size='10.5' text-anchor='middle' fill='#333'>communiquer vite</text><text x='81' y='84' font-size='10.5' text-anchor='middle' fill='#333'>appeler en urgence</text><text x='81' y='106' font-size='10.5' text-anchor='middle' fill='#333'>payer par mobile</text><text x='81' y='128' font-size='10.5' text-anchor='middle' fill='#333'>s'informer, apprendre</text><text x='81' y='150' font-size='10.5' text-anchor='middle' fill='#333'>travailler, vendre</text><rect x='164' y='6' width='150' height='28' rx='8' fill='#ffcdd2' stroke='#e57373' stroke-width='1.5'/><text x='239' y='25' font-size='11.5' font-weight='bold' text-anchor='middle' fill='#333'>Impacts négatifs</text><rect x='164' y='38' width='150' height='130' rx='8' fill='#fff5f5' stroke='#e57373'/><text x='239' y='62' font-size='10.5' text-anchor='middle' fill='#333'>dépendance</text><text x='239' y='84' font-size='10.5' text-anchor='middle' fill='#333'>fatigue, mauvais sommeil</text><text x='239' y='106' font-size='10.5' text-anchor='middle' fill='#333'>distraction en classe</text><text x='239' y='128' font-size='10.5' text-anchor='middle' fill='#333'>arnaques, harcèlement</text><text x='239' y='150' font-size='10.5' text-anchor='middle' fill='#333'>coût élevé</text></svg>",
+          "legende": "Comme tout outil, le téléphone a des avantages et des risques."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les impacts positifs",
+          "entetes": ["Domaine", "Impact", "Exemple"],
+          "lignes": [
+            ["Communication", "Joindre ses proches rapidement, même loin", "Appeler un parent installé dans une autre région"],
+            ["Sécurité", "Demander de l'aide en cas d'urgence", "Prévenir les secours après un accident"],
+            ["Argent", "Payer ou envoyer de l'argent sans se déplacer", "Le paiement par mobile (Mvola, Orange Money, Airtel Money)"],
+            ["Information et éducation", "Accéder à des informations, à des cours, à des dictionnaires", "Consulter la météo ou un exercice en ligne"],
+            ["Travail", "Gagner du temps, trouver des clients", "Un artisan qui présente ses produits en photo"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Les impacts négatifs",
+          "entetes": ["Domaine", "Impact", "Exemple"],
+          "lignes": [
+            ["Dépendance", "Besoin constant de regarder son téléphone", "Consulter l'écran toutes les cinq minutes"],
+            ["Santé", "Fatigue des yeux, sommeil perturbé si on l'utilise tard le soir", "Se coucher très tard à cause des vidéos"],
+            ["Études", "Perte de concentration", "Un élève qui répond aux messages pendant le cours"],
+            ["Relations", "On se parle moins en face à face", "Un repas où chacun regarde son écran"],
+            ["Risques", "Arnaques, harcèlement, fausses informations", "Un faux message qui demande de l'argent"],
+            ["Coût", "Achat de l'appareil, crédit de communication, forfait Internet", "Dépenser beaucoup en crédit chaque mois"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "<b>Règles de bon usage :</b> éteindre ou mettre en silence le téléphone en classe, ne pas l'utiliser en conduisant ni en marchant sur la route, ne pas donner ses codes secrets, ne pas répondre aux messages inconnus qui demandent de l'argent, limiter le temps d'écran le soir."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1. Cite deux impacts positifs du téléphone portable.\n2. Cite deux impacts négatifs.\n3. Classe : « permet de payer sans se déplacer », « réduit la concentration en classe », « permet d'appeler les secours », « perturbe le sommeil ».\n4. Un inconnu t'envoie un message : « Vous avez gagné, envoyez-nous de l'argent. » Que fais-tu ? Pourquoi ?\n5. Rédige deux phrases sur le téléphone avec les connecteurs « mais » et « donc ».",
+          "solution": "1. Par exemple : communiquer vite avec ses proches ; appeler les secours ; payer par mobile.\n2. Par exemple : dépendance ; perte de concentration ; arnaques ; sommeil perturbé.\n3. Positifs : payer sans se déplacer ; appeler les secours. Négatifs : réduire la concentration en classe ; perturber le sommeil.\n4. Je ne réponds pas et je n'envoie pas d'argent : c'est très probablement une arnaque. Je préviens un adulte et je signale le numéro.\n5. Par exemple : « Le téléphone permet de joindre ses proches, mais il peut distraire en classe. » ; « Le téléphone coûte cher, donc il faut limiter les appels inutiles. »"
+        }
+      ],
+      "lexique": [
+        { "terme": "Impact", "definition": "Effet, conséquence d'un fait ou d'un objet sur la vie des gens." },
+        { "terme": "Dépendance", "definition": "Besoin excessif d'une chose dont on ne peut plus se passer." },
+        { "terme": "Arnaque", "definition": "Tromperie pour obtenir de l'argent." },
+        { "terme": "Harcèlement", "definition": "Fait de tourmenter quelqu'un de façon répétée." },
+        { "terme": "Forfait", "definition": "Prix fixe qui comprend une quantité de communications ou de données." },
+        { "terme": "Urgence", "definition": "Situation grave qui demande une aide immédiate." }
+      ]
+    },
+    {
+      "id": "fr-6-3",
+      "titre": "La forme active et la forme passive",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Forme active et forme passive",
+          "texte": "À la <b>forme active</b>, le sujet <b>fait</b> l'action : « Le journaliste écrit l'article. »\nÀ la <b>forme passive</b>, le sujet <b>subit</b> l'action : « L'article est écrit par le journaliste. »"
+        },
+        {
+          "type": "schema",
+          "titre": "De l'actif au passif",
+          "svg": "<svg width='320' height='196' viewBox='0 0 320 196' xmlns='http://www.w3.org/2000/svg'><text x='160' y='14' font-size='11.5' font-weight='bold' text-anchor='middle' fill='#333'>FORME ACTIVE</text><rect x='6' y='22' width='96' height='40' rx='8' fill='#c8e6c9' stroke='#81c784' stroke-width='1.5'/><text x='54' y='38' font-size='10.5' font-weight='bold' text-anchor='middle' fill='#333'>Sujet</text><text x='54' y='53' font-size='9.5' text-anchor='middle' fill='#333'>Le journaliste</text><rect x='112' y='22' width='96' height='40' rx='8' fill='#fff3cd' stroke='#f9a825' stroke-width='1.5'/><text x='160' y='38' font-size='10.5' font-weight='bold' text-anchor='middle' fill='#333'>Verbe</text><text x='160' y='53' font-size='9.5' text-anchor='middle' fill='#333'>écrit</text><rect x='218' y='22' width='96' height='40' rx='8' fill='#ffe0b2' stroke='#ffb74d' stroke-width='1.5'/><text x='266' y='38' font-size='10.5' font-weight='bold' text-anchor='middle' fill='#333'>COD</text><text x='266' y='53' font-size='9.5' text-anchor='middle' fill='#333'>l'article</text><g stroke='#757575' stroke-width='1.5'><line x1='54' y1='62' x2='254' y2='128'/><line x1='266' y1='62' x2='66' y2='128'/><line x1='160' y1='62' x2='160' y2='124'/></g><polygon points='266,132 253,133 256,123' fill='#757575'/><polygon points='54,132 67,133 64,123' fill='#757575'/><polygon points='154,124 166,124 160,132' fill='#757575'/><rect x='6' y='132' width='96' height='40' rx='8' fill='#ffe0b2' stroke='#ffb74d' stroke-width='1.5'/><text x='54' y='148' font-size='10.5' font-weight='bold' text-anchor='middle' fill='#333'>Sujet</text><text x='54' y='163' font-size='9.5' text-anchor='middle' fill='#333'>L'article</text><rect x='112' y='132' width='96' height='40' rx='8' fill='#fff3cd' stroke='#f9a825' stroke-width='1.5'/><text x='160' y='148' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>être + part. passé</text><text x='160' y='163' font-size='9.5' text-anchor='middle' fill='#333'>est écrit</text><rect x='218' y='132' width='96' height='40' rx='8' fill='#c8e6c9' stroke='#81c784' stroke-width='1.5'/><text x='266' y='148' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>Compl. d'agent</text><text x='266' y='163' font-size='9' text-anchor='middle' fill='#333'>par le journaliste</text><text x='160' y='190' font-size='11.5' font-weight='bold' text-anchor='middle' fill='#333'>FORME PASSIVE</text></svg>",
+          "legende": "Le COD devient sujet ; l'ancien sujet devient complément d'agent."
+        },
+        {
+          "type": "regle",
+          "texte": "<b>Pour passer à la forme passive :</b>\n1. Le COD de la phrase active devient le <b>sujet</b>.\n2. Le verbe devient <b>être + participe passé</b> : « être » est mis au <b>même temps</b> que le verbe actif, et le participe passé s'accorde avec le sujet.\n3. L'ancien sujet devient le <b>complément d'agent</b>, introduit par « par » (parfois « de »)."
+        },
+        {
+          "type": "tableau",
+          "titre": "Le même verbe à tous les temps",
+          "entetes": ["Temps", "Forme active", "Forme passive"],
+          "lignes": [
+            ["Présent", "Le journaliste écrit l'article.", "L'article est écrit par le journaliste."],
+            ["Imparfait", "Le journaliste écrivait l'article.", "L'article était écrit par le journaliste."],
+            ["Passé simple", "Le journaliste écrivit l'article.", "L'article fut écrit par le journaliste."],
+            ["Passé composé", "Le journaliste a écrit l'article.", "L'article a été écrit par le journaliste."],
+            ["Plus-que-parfait", "Le journaliste avait écrit l'article.", "L'article avait été écrit par le journaliste."],
+            ["Futur simple", "Le journaliste écrira l'article.", "L'article sera écrit par le journaliste."],
+            ["Conditionnel présent", "Le journaliste écrirait l'article.", "L'article serait écrit par le journaliste."]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Avec « devoir » et « pouvoir »",
+          "entetes": ["Forme active", "Forme passive"],
+          "lignes": [
+            ["Les journalistes doivent vérifier l'information.", "L'information doit être vérifiée par les journalistes."],
+            ["Tous peuvent lire ce message.", "Ce message peut être lu par tous."]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "<b>À retenir :</b>\n• Seuls les verbes qui ont un COD peuvent passer au passif (on ne peut pas dire « aller » ou « dormir » au passif).\n• Si le sujet actif est « on », il disparaît : « On a installé la fibre » → « La fibre a été installée ».\n• Les pronoms changent de forme : « Il m'a vu » → « J'ai été vu par lui » ; « Ils le regardent » → « Il est regardé par eux ».\n• Le complément d'agent est parfois introduit par « de » : « Elle est aimée de tous »."
+        },
+        {
+          "type": "remarque",
+          "texte": "<b>Piège :</b> le verbe « être » ne suffit pas pour reconnaître le passif. « Elle <b>est tombée</b> » est à la forme <b>active</b> (passé composé de « tomber », conjugué avec « être »). Pour vérifier : peut-on ajouter « par + agent » ? « Elle est tombée par… » est impossible, mais « L'article est écrit par le journaliste » est correct."
+        },
+        {
+          "type": "methode",
+          "titre": "Transformer une phrase à la forme passive",
+          "texte": "1. Repère le sujet, le verbe et le COD.\n2. Écris le COD en premier : il devient le sujet.\n3. Note le temps du verbe actif, puis conjugue « être » au même temps.\n4. Ajoute le participe passé et accorde-le avec le nouveau sujet.\n5. Termine par « par » + l'ancien sujet (sauf si c'était « on »)."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1. Transforme à la forme passive :\na) Les élèves utilisent des tablettes.\nb) Le professeur a envoyé le message.\nc) Internet relie le monde entier.\nd) Les journalistes doivent vérifier l'information.\ne) On a installé la fibre dans le village.\n2. Transforme à la forme active :\na) Ce reportage sera diffusé par la télévision nationale.\nb) Le message avait été lu par tous les élèves.\n3. Les phrases sont-elles à la forme active ou passive ?\na) Elle est tombée.\nb) Elle est aimée de tous.\nc) Les photos sont partagées par les internautes.",
+          "solution": "1. a) Des tablettes sont utilisées par les élèves.\nb) Le message a été envoyé par le professeur.\nc) Le monde entier est relié par Internet.\nd) L'information doit être vérifiée par les journalistes.\ne) La fibre a été installée dans le village.\n2. a) La télévision nationale diffusera ce reportage.\nb) Tous les élèves avaient lu le message.\n3. a) Active (passé composé de « tomber », sans complément d'agent possible).\nb) Passive (complément d'agent « de tous »).\nc) Passive (complément d'agent « par les internautes »)."
+        }
+      ],
+      "lexique": [
+        { "terme": "Forme active", "definition": "Forme où le sujet fait l'action." },
+        { "terme": "Forme passive", "definition": "Forme où le sujet subit l'action (être + participe passé)." },
+        { "terme": "Complément d'agent", "definition": "Complément du verbe passif qui indique qui fait l'action (par…)." },
+        { "terme": "Participe passé", "definition": "Forme du verbe utilisée avec être ou avoir (écrit, aimé, installé)." },
+        { "terme": "COD", "definition": "Complément d'objet direct : complément du verbe sans préposition." },
+        { "terme": "Verbe transitif", "definition": "Verbe qui peut avoir un complément d'objet." }
+      ]
+    },
+    {
+      "id": "fr-6-4",
+      "titre": "Les limites des nouvelles technologies",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "Dans le texte de Robert Solé (Le Monde, 1984), l'auteur invite à garder un regard critique : les nouvelles technologies sont très utiles, mais elles ne résolvent pas tout. Voici les idées de synthèse à connaître sur ce thème, présentées avec des exemples d'aujourd'hui."
+        },
+        {
+          "type": "schema",
+          "titre": "Quatre limites des nouvelles technologies",
+          "svg": "<svg width='320' height='170' viewBox='0 0 320 170' xmlns='http://www.w3.org/2000/svg'><rect x='6' y='6' width='150' height='64' rx='10' fill='#ffe0b2' stroke='#ffb74d' stroke-width='1.5'/><text x='81' y='24' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Pannes et réseau</text><text x='81' y='40' font-size='10' text-anchor='middle' fill='#333'>coupures d'électricité,</text><text x='81' y='52' font-size='10' text-anchor='middle' fill='#333'>réseau absent ou lent,</text><text x='81' y='64' font-size='10' text-anchor='middle' fill='#333'>zones isolées</text><rect x='164' y='6' width='150' height='64' rx='10' fill='#b3e5fc' stroke='#4fc3f7' stroke-width='1.5'/><text x='239' y='24' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Inégalités d'accès</text><text x='239' y='40' font-size='10' text-anchor='middle' fill='#333'>coût du matériel et</text><text x='239' y='52' font-size='10' text-anchor='middle' fill='#333'>de la connexion,</text><text x='239' y='64' font-size='10' text-anchor='middle' fill='#333'>fracture numérique</text><rect x='6' y='98' width='150' height='64' rx='10' fill='#ffcdd2' stroke='#e57373' stroke-width='1.5'/><text x='81' y='116' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Fausses informations</text><text x='81' y='132' font-size='10' text-anchor='middle' fill='#333'>rumeurs, infox,</text><text x='81' y='144' font-size='10' text-anchor='middle' fill='#333'>images truquées,</text><text x='81' y='156' font-size='10' text-anchor='middle' fill='#333'>sources à vérifier</text><rect x='164' y='98' width='150' height='64' rx='10' fill='#c8e6c9' stroke='#81c784' stroke-width='1.5'/><text x='239' y='116' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Relations humaines</text><text x='239' y='132' font-size='10' text-anchor='middle' fill='#333'>un écran ne remplace</text><text x='239' y='144' font-size='10' text-anchor='middle' fill='#333'>pas une vraie</text><text x='239' y='156' font-size='10' text-anchor='middle' fill='#333'>conversation</text><ellipse cx='160' cy='84' rx='70' ry='15' fill='#fff3cd' stroke='#f9a825' stroke-width='2'/><text x='160' y='88' font-size='10.5' font-weight='bold' text-anchor='middle' fill='#333'>Nouvelles technologies</text></svg>",
+          "legende": "Utiles, mais pas toujours disponibles, ni toujours fiables."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les limites expliquées",
+          "entetes": ["Limite", "Explication", "Exemple"],
+          "lignes": [
+            ["Dépendance à l'énergie et au réseau", "Sans électricité, sans batterie ou sans réseau, l'appareil ne sert à rien", "Impossible de recharger son téléphone pendant une coupure de courant"],
+            ["Fracture numérique", "Tout le monde n'a pas les moyens ni l'accès à ces technologies", "Un élève sans smartphone ni connexion ne peut pas suivre un cours en ligne"],
+            ["Fiabilité de l'information", "Tout ne se trouve pas sur Internet, et tout n'y est pas vrai", "Une rumeur partagée mille fois reste fausse"],
+            ["Perte de contact humain", "Les messages ne remplacent pas la présence, le regard, la voix", "Un malade a besoin d'une visite, pas seulement d'un message"],
+            ["Protection de la vie privée", "Les informations mises en ligne échappent à notre contrôle", "Une photo publiée peut être copiée et diffusée"]
+          ]
+        },
+        {
+          "type": "definition",
+          "titre": "Fracture numérique",
+          "texte": "La <b>fracture numérique</b> désigne l'écart entre les personnes qui ont accès aux nouvelles technologies (matériel, électricité, Internet, formation) et celles qui n'y ont pas accès, par manque de moyens, de réseau ou de connaissances."
+        },
+        {
+          "type": "methode",
+          "titre": "Vérifier une information avant de la partager",
+          "texte": "1. Qui l'a publiée ? La source est-elle connue et sérieuse ?\n2. Quand ? La date est-elle récente ?\n3. Pourquoi ? Veut-on informer, vendre, tromper, faire peur ?\n4. D'autres sources fiables confirment-elles la même information ?\n5. En cas de doute : ne pas partager, et demander à un adulte ou à un enseignant."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1. Cite trois limites des nouvelles technologies.\n2. Définis « fracture numérique ».\n3. Pourquoi une coupure d'électricité peut-elle empêcher d'utiliser un téléphone ?\n4. Que dois-tu faire avant de partager une information reçue ?\n5. Rédige une phrase avec « cependant » qui donne un avantage puis une limite d'Internet.",
+          "solution": "1. Par exemple : dépendance à l'électricité et au réseau ; fracture numérique ; fausses informations ; perte du contact humain.\n2. Écart entre ceux qui ont accès aux technologies et ceux qui n'y ont pas accès.\n3. Parce qu'on ne peut plus recharger la batterie, et que le réseau peut aussi tomber en panne.\n4. Vérifier la source, la date et le but du message, et comparer avec d'autres sources fiables.\n5. Par exemple : « Internet donne accès à beaucoup de cours ; cependant, tous les élèves n'ont pas de connexion. »"
+        }
+      ],
+      "lexique": [
+        { "terme": "Limite", "definition": "Point au-delà duquel quelque chose ne peut plus aller ou ne suffit plus." },
+        { "terme": "Fracture numérique", "definition": "Inégalité d'accès aux technologies numériques." },
+        { "terme": "Fiable", "definition": "En qui l'on peut avoir confiance." },
+        { "terme": "Source", "definition": "Origine d'une information (auteur, journal, site)." },
+        { "terme": "Vie privée", "definition": "Ce qui concerne la personne et sa famille, qui ne regarde pas le public." },
+        { "terme": "Regard critique", "definition": "Attitude qui consiste à examiner et à vérifier avant d'accepter." }
+      ]
+    },
+    {
+      "id": "fr-6-5",
+      "titre": "Avantages, inconvénients et texte argumentatif sur les NTIC",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "Pour parler des NTIC dans un texte argumentatif, on présente les <b>avantages</b>, puis les <b>inconvénients</b>, et on donne enfin son opinion. Les <b>connecteurs</b> organisent ces idées."
+        },
+        {
+          "type": "schema",
+          "titre": "Un plan pour argumenter sur les NTIC",
+          "svg": "<svg width='320' height='176' viewBox='0 0 320 176' xmlns='http://www.w3.org/2000/svg'><rect x='6' y='6' width='150' height='84' rx='10' fill='#c8e6c9' stroke='#81c784' stroke-width='1.5'/><text x='81' y='24' font-size='11.5' font-weight='bold' text-anchor='middle' fill='#333'>Avantages</text><text x='81' y='42' font-size='10' text-anchor='middle' fill='#333'>communiquer vite</text><text x='81' y='56' font-size='10' text-anchor='middle' fill='#333'>s'informer</text><text x='81' y='70' font-size='10' text-anchor='middle' fill='#333'>apprendre</text><text x='81' y='84' font-size='10' text-anchor='middle' fill='#333'>travailler</text><rect x='164' y='6' width='150' height='84' rx='10' fill='#ffcdd2' stroke='#e57373' stroke-width='1.5'/><text x='239' y='24' font-size='11.5' font-weight='bold' text-anchor='middle' fill='#333'>Inconvénients</text><text x='239' y='42' font-size='10' text-anchor='middle' fill='#333'>dépendance</text><text x='239' y='56' font-size='10' text-anchor='middle' fill='#333'>fausses informations</text><text x='239' y='70' font-size='10' text-anchor='middle' fill='#333'>perte de temps</text><text x='239' y='84' font-size='10' text-anchor='middle' fill='#333'>isolement</text><line x1='81' y1='90' x2='81' y2='108' stroke='#757575' stroke-width='2'/><polygon points='75,108 87,108 81,116' fill='#757575'/><line x1='239' y1='90' x2='239' y2='108' stroke='#757575' stroke-width='2'/><polygon points='233,108 245,108 239,116' fill='#757575'/><rect x='6' y='116' width='308' height='56' rx='10' fill='#fff3cd' stroke='#f9a825' stroke-width='1.5'/><text x='160' y='137' font-size='11.5' font-weight='bold' text-anchor='middle' fill='#333'>Position de l'auteur</text><text x='160' y='153' font-size='10' text-anchor='middle' fill='#333'>Tout dépend de l'usage que l'on en fait :</text><text x='160' y='166' font-size='10' text-anchor='middle' fill='#333'>il faut en tirer le meilleur et en limiter les risques</text></svg>",
+          "legende": "On compare, puis on prend position."
+        },
+        {
+          "type": "tableau",
+          "titre": "Avantages et inconvénients par domaine",
+          "entetes": ["Domaine", "Avantages", "Inconvénients"],
+          "lignes": [
+            ["Communication", "Messages instantanés, appels, visioconférences", "Moins de rencontres en face à face"],
+            ["Éducation", "Recherches, cours en ligne, exercices", "Copier sans réfléchir, distraction"],
+            ["Information", "Nouvelles en temps réel", "Infox, rumeurs, surcharge d'informations"],
+            ["Économie", "Commerce en ligne, paiement mobile, nouveaux métiers", "Arnaques, dépendance à la technologie"],
+            ["Vie quotidienne", "Gain de temps, loisirs, démarches simplifiées", "Temps d'écran excessif, fatigue, isolement"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Les connecteurs de l'argumentation",
+          "entetes": ["Fonction", "Connecteurs"],
+          "lignes": [
+            ["Ajouter, organiser", "d'abord, ensuite, de plus, en outre, par ailleurs, enfin"],
+            ["Expliquer (cause)", "car, en effet, parce que, puisque"],
+            ["Opposer, nuancer", "mais, cependant, pourtant, en revanche, certes… mais"],
+            ["Conclure (conséquence)", "donc, ainsi, par conséquent, en conclusion"]
+          ]
+        },
+        {
+          "type": "exemple",
+          "titre": "Texte modèle : Les nouvelles technologies, un progrès ou un danger pour les jeunes ?",
+          "texte": "<b>Introduction :</b> Téléphones, ordinateurs et Internet font aujourd'hui partie de la vie des jeunes. Sont-ils un véritable progrès ou un danger ? Je pense qu'ils sont très utiles à condition d'être bien utilisés.\n\n<b>Développement :</b> <i>D'abord</i>, les NTIC facilitent la communication : un message arrive en quelques secondes, même à l'autre bout du pays. <i>De plus</i>, elles donnent accès à des cours et à des informations que l'on ne trouverait pas toujours dans son village. <i>Cependant</i>, elles présentent des risques. <i>En effet</i>, passer trop d'heures devant un écran fatigue et distrait des études ; <i>par ailleurs</i>, les fausses informations circulent très vite. <i>Pourtant</i>, ces dangers ne sont pas une fatalité : <i>si</i> l'on limite son temps d'écran et que l'on vérifie ses sources, on évite le pire.\n\n<b>Conclusion :</b> <i>Ainsi</i>, les nouvelles technologies ne sont ni bonnes ni mauvaises en elles-mêmes : tout dépend de l'usage que chacun en fait."
+        },
+        {
+          "type": "methode",
+          "titre": "Rédiger un paragraphe argumentatif avec avantages et inconvénients",
+          "texte": "1. Annonce ta thèse dans l'introduction.\n2. Présente un premier avantage avec « d'abord », puis un second avec « de plus ».\n3. Introduis une limite avec « cependant » ou « en revanche », et explique-la avec « en effet ».\n4. Donne un exemple précis pour chaque idée.\n5. Conclus avec « ainsi » ou « donc » en rappelant ta position."
+        },
+        {
+          "type": "exercice",
+          "enonce": "À partir du texte modèle :\n1. Quelle est la problématique ?\n2. Quelle est la thèse de l'auteur ?\n3. Relève deux connecteurs qui servent à ajouter des idées.\n4. Relève deux connecteurs d'opposition.\n5. Relève un connecteur de cause et un de conséquence.\n6. À ton tour, rédige trois phrases sur l'usage des réseaux sociaux avec « d'abord », « cependant » et « ainsi ».",
+          "solution": "1. « Sont-ils un véritable progrès ou un danger ? »\n2. Les NTIC sont très utiles à condition d'être bien utilisées.\n3. D'abord, de plus (on peut aussi relever « par ailleurs »).\n4. Cependant, pourtant.\n5. Cause : en effet. Conséquence : ainsi.\n6. Par exemple : « D'abord, les réseaux sociaux permettent de garder le contact avec sa famille. Cependant, ils peuvent faire perdre beaucoup de temps. Ainsi, il faut apprendre à les utiliser avec modération. »"
+        }
+      ],
+      "lexique": [
+        { "terme": "Avantage", "definition": "Point positif, ce qui est utile ou favorable." },
+        { "terme": "Inconvénient", "definition": "Point négatif, ce qui gêne ou pose problème." },
+        { "terme": "Nuancer", "definition": "Apporter une précision pour éviter une idée trop tranchée." },
+        { "terme": "Modération", "definition": "Fait de rester dans de justes limites, sans excès." },
+        { "terme": "Fatalité", "definition": "Force qui rend un événement inévitable." },
+        { "terme": "Connecteur", "definition": "Mot qui relie des idées et organise le texte." }
+      ]
+    }
+  ]
+}
