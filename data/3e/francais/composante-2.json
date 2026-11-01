@@ -1,0 +1,248 @@
+{
+  "id": "fr-theme2",
+  "titre": "Thème II : Les pays",
+  "lecons": [
+    {
+      "id": "fr-2-1",
+      "titre": "Le mot « pays » et les pays africains",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Pays",
+          "texte": "Un <b>pays</b> est un territoire délimité par des frontières, occupé par un peuple et organisé en un État (gouvernement, lois, capitale, drapeau). Exemple : Madagascar est un pays insulaire de l'océan Indien."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les synonymes du mot « pays »",
+          "entetes": ["Mot", "Nuance de sens", "Exemple"],
+          "lignes": [
+            ["La nation", "Peuple uni par une histoire, une langue, une culture", "La nation malgache fête son indépendance le 26 juin."],
+            ["L'État", "Le pays vu comme une organisation politique avec un gouvernement", "L'État finance les écoles publiques."],
+            ["La patrie", "Le pays où l'on est né ou auquel on est attaché", "Il aime sa patrie."],
+            ["La contrée", "Région, étendue de pays (langage soutenu)", "Il a voyagé dans des contrées lointaines."],
+            ["Le territoire", "Espace géographique appartenant à un pays", "Le territoire malgache couvre environ 587 000 km²."]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "<b>Famille de mots</b> : paysage, paysan, paysagiste, dépayser, dépaysement. Tous contiennent le radical « pays »."
+        },
+        {
+          "type": "exemple",
+          "texte": "L'Afrique compte 54 pays (selon le décompte le plus courant). On les regroupe souvent en cinq grandes régions : Nord, Ouest, Centre, Est et Sud. Le schéma donne quelques exemples."
+        },
+        {
+          "type": "schema",
+          "titre": "Les grandes régions de l'Afrique",
+          "svg": "<svg width='320' height='252' viewBox='0 0 320 252' xmlns='http://www.w3.org/2000/svg'><g stroke='#9e9e9e' stroke-width='1.5'><line x1='160' y1='62' x2='160' y2='96'/><line x1='102' y1='126' x2='112' y2='126'/><line x1='208' y1='126' x2='218' y2='126'/><line x1='160' y1='156' x2='160' y2='190'/></g><rect x='112' y='6' width='96' height='56' rx='8' fill='#b3e5fc' stroke='#4fc3f7' stroke-width='1.5'/><text x='160' y='22' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>Nord</text><text x='160' y='37' font-size='10' text-anchor='middle' fill='#333'>Maroc, Égypte</text><text x='160' y='50' font-size='10' text-anchor='middle' fill='#333'>Algérie</text><rect x='6' y='96' width='96' height='60' rx='8' fill='#c8e6c9' stroke='#81c784' stroke-width='1.5'/><text x='54' y='111' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>Ouest</text><text x='54' y='125' font-size='10' text-anchor='middle' fill='#333'>Sénégal</text><text x='54' y='137' font-size='10' text-anchor='middle' fill='#333'>Nigeria</text><text x='54' y='149' font-size='10' text-anchor='middle' fill='#333'>Côte d'Ivoire</text><rect x='112' y='96' width='96' height='60' rx='8' fill='#fff3cd' stroke='#f9a825' stroke-width='1.5'/><text x='160' y='111' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>Centre</text><text x='160' y='125' font-size='10' text-anchor='middle' fill='#333'>Cameroun</text><text x='160' y='137' font-size='10' text-anchor='middle' fill='#333'>RDC</text><text x='160' y='149' font-size='10' text-anchor='middle' fill='#333'>Gabon</text><rect x='218' y='96' width='96' height='60' rx='8' fill='#ffe0b2' stroke='#ffb74d' stroke-width='1.5'/><text x='266' y='111' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>Est</text><text x='266' y='125' font-size='10' text-anchor='middle' fill='#333'>Kenya</text><text x='266' y='137' font-size='10' text-anchor='middle' fill='#333'>Tanzanie</text><text x='266' y='149' font-size='10' text-anchor='middle' fill='#333'>Madagascar</text><rect x='112' y='190' width='96' height='56' rx='8' fill='#f8bbd0' stroke='#f06292' stroke-width='1.5'/><text x='160' y='206' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>Sud</text><text x='160' y='221' font-size='10' text-anchor='middle' fill='#333'>Afrique du Sud</text><text x='160' y='234' font-size='10' text-anchor='middle' fill='#333'>Namibie</text></svg>",
+          "legende": "Exemples de pays par région (découpage usuel ; Madagascar est rattachée à l'Afrique de l'Est)."
+        },
+        {
+          "type": "tableau",
+          "titre": "Quelques pays africains et leur capitale",
+          "entetes": ["Pays", "Capitale", "Région"],
+          "lignes": [
+            ["Madagascar", "Antananarivo", "Est (océan Indien)"],
+            ["Comores", "Moroni", "Est (océan Indien)"],
+            ["Maurice", "Port-Louis", "Est (océan Indien)"],
+            ["Kenya", "Nairobi", "Est"],
+            ["Éthiopie", "Addis-Abeba", "Est"],
+            ["Maroc", "Rabat", "Nord"],
+            ["Égypte", "Le Caire", "Nord"],
+            ["Sénégal", "Dakar", "Ouest"],
+            ["Nigeria", "Abuja", "Ouest"],
+            ["Cameroun", "Yaoundé", "Centre"],
+            ["RD Congo", "Kinshasa", "Centre"],
+            ["Afrique du Sud", "Pretoria", "Sud"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Chaque pays a son <b>drapeau</b>. Celui de Madagascar a trois couleurs : le blanc, le rouge et le vert. L'Afrique du Sud a trois capitales (Pretoria, Le Cap, Bloemfontein) ; Pretoria est la capitale administrative."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1. Donne deux synonymes du mot « pays ».\n2. Quelle est la capitale du Kenya ? du Sénégal ? des Comores ?\n3. Complète : « Madagascar est une ... de l'océan Indien. »\n4. Cite deux mots de la famille de « pays ».\n5. Dans quelle région de l'Afrique situe-t-on le Maroc ?",
+          "solution": "1. Par exemple : nation, État, patrie, contrée, territoire.\n2. Nairobi ; Dakar ; Moroni.\n3. île (Madagascar est une île de l'océan Indien).\n4. Par exemple : paysage, paysan, dépaysement.\n5. Dans le Nord de l'Afrique."
+        }
+      ],
+      "lexique": [
+        { "terme": "Frontière", "definition": "Ligne qui sépare deux pays." },
+        { "terme": "Capitale", "definition": "Ville où siège le gouvernement d'un pays." },
+        { "terme": "Drapeau", "definition": "Étoffe aux couleurs d'un pays, qui le représente." },
+        { "terme": "Insulaire", "definition": "Qui concerne une île ; un pays insulaire est entouré d'eau." },
+        { "terme": "Synonyme", "definition": "Mot de sens proche d'un autre mot." },
+        { "terme": "Continent", "definition": "Très grande étendue de terre (Afrique, Asie, Europe…)." }
+      ]
+    },
+    {
+      "id": "fr-2-2",
+      "titre": "Les pays les plus visités",
+      "blocs": [
+        {
+          "type": "exemple",
+          "texte": "Chaque année, des millions de personnes voyagent pour le tourisme. En 2022, la France était le pays le plus visité du monde, avec environ 75 millions de touristes. Le graphique compare les huit premiers pays."
+        },
+        {
+          "type": "schema",
+          "titre": "Les 8 pays les plus visités en 2022",
+          "svg": "<svg width='320' height='240' viewBox='0 0 320 240' xmlns='http://www.w3.org/2000/svg'><text x='160' y='16' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>Touristes en 2022 (en millions)</text><line x1='94' y1='24' x2='94' y2='232' stroke='#9e9e9e' stroke-width='1.5'/><text x='88' y='43' font-size='11' text-anchor='end' fill='#333'>France</text><rect x='94' y='30' width='190' height='18' fill='#64b5f6' stroke='#1e88e5'/><text x='288' y='43' font-size='11' font-weight='bold' fill='#333'>75</text><text x='88' y='69' font-size='11' text-anchor='end' fill='#333'>Espagne</text><rect x='94' y='56' width='181' height='18' fill='#64b5f6' stroke='#1e88e5'/><text x='279' y='69' font-size='11' font-weight='bold' fill='#333'>71,6</text><text x='88' y='95' font-size='11' text-anchor='end' fill='#333'>États-Unis</text><rect x='94' y='82' width='129' height='18' fill='#64b5f6' stroke='#1e88e5'/><text x='227' y='95' font-size='11' font-weight='bold' fill='#333'>50,8</text><text x='88' y='121' font-size='11' text-anchor='end' fill='#333'>Italie</text><rect x='94' y='108' width='126' height='18' fill='#64b5f6' stroke='#1e88e5'/><text x='224' y='121' font-size='11' font-weight='bold' fill='#333'>49,8</text><text x='88' y='147' font-size='11' text-anchor='end' fill='#333'>Turquie</text><rect x='94' y='134' width='110' height='18' fill='#64b5f6' stroke='#1e88e5'/><text x='208' y='147' font-size='11' font-weight='bold' fill='#333'>43,6</text><text x='88' y='173' font-size='11' text-anchor='end' fill='#333'>Mexique</text><rect x='94' y='160' width='97' height='18' fill='#64b5f6' stroke='#1e88e5'/><text x='195' y='173' font-size='11' font-weight='bold' fill='#333'>38,3</text><text x='88' y='199' font-size='11' text-anchor='end' fill='#333'>Royaume-Uni</text><rect x='94' y='186' width='77' height='18' fill='#64b5f6' stroke='#1e88e5'/><text x='175' y='199' font-size='11' font-weight='bold' fill='#333'>30,5</text><text x='88' y='225' font-size='11' text-anchor='end' fill='#333'>Allemagne</text><rect x='94' y='212' width='72' height='18' fill='#64b5f6' stroke='#1e88e5'/><text x='170' y='225' font-size='11' font-weight='bold' fill='#333'>28,5</text></svg>",
+          "legende": "Plus la barre est longue, plus le nombre de touristes est élevé."
+        },
+        {
+          "type": "tableau",
+          "titre": "Évolution de 2019 à 2022 (en millions de touristes)",
+          "entetes": ["Pays", "2019", "2020", "2021", "2022"],
+          "lignes": [
+            ["France", "90,9", "41,7", "48,4", "env. 75"],
+            ["Espagne", "83,5", "18", "31,2", "71,6"],
+            ["États-Unis", "79,4", "19,2", "22,1", "50,8"],
+            ["Italie", "64,5", "25,2", "26,9", "49,8"],
+            ["Turquie", "51,2", "15,9", "29,9", "43,6"],
+            ["Mexique", "45", "24,3", "31,9", "38,3"],
+            ["Royaume-Uni", "39,4", "10,7", "6,3", "30,5"],
+            ["Allemagne", "35,2", "10,9", "10,3", "28,5"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Tous les pays ont connu une <b>forte baisse en 2020</b> : à cause de la pandémie de Covid-19, les frontières ont été fermées et les voyages limités. Le tourisme a ensuite repris peu à peu en 2021 et 2022."
+        },
+        {
+          "type": "methode",
+          "titre": "Lire un tableau ou un graphique",
+          "texte": "1. Lis le titre et l'unité (ici : millions de touristes).\n2. Repère les lignes (les pays) et les colonnes (les années).\n3. Compare les valeurs : la plus grande, la plus petite, l'évolution.\n4. Fais une phrase avec des chiffres précis pour justifier ta réponse."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Observe le tableau et le graphique.\n1. Quel pays était le plus visité en 2022 ?\n2. Quels pays ont dépassé 50 millions de touristes en 2022 ?\n3. Calcule l'écart entre la France et l'Allemagne en 2022.\n4. Quel pays a perdu le plus de touristes entre 2019 et 2020 ?\n5. Explique pourquoi les chiffres de 2020 sont si faibles.",
+          "solution": "1. La France (environ 75 millions).\n2. La France, l'Espagne et les États-Unis (50,8 millions).\n3. 75 − 28,5 = 46,5 millions de touristes.\n4. L'Espagne : 83,5 − 18 = 65,5 millions de touristes en moins (les États-Unis : 60,2 ; la France : 49,2).\n5. À cause de la pandémie de Covid-19 : les frontières ont été fermées et les déplacements fortement limités."
+        }
+      ],
+      "lexique": [
+        { "terme": "Touriste", "definition": "Personne qui voyage pour son plaisir, pour découvrir un lieu." },
+        { "terme": "Pandémie", "definition": "Maladie qui touche presque tous les pays du monde." },
+        { "terme": "Écart", "definition": "Différence entre deux nombres." },
+        { "terme": "Évolution", "definition": "Changement au cours du temps." }
+      ]
+    },
+    {
+      "id": "fr-2-3",
+      "titre": "Les merveilles du monde",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Merveille du monde",
+          "texte": "Une <b>merveille du monde</b> est un monument ou un site exceptionnel par sa beauté, sa taille ou son histoire. On distingue les <b>sept merveilles du monde antique</b> et les <b>sept nouvelles merveilles du monde</b>, élues en 2007."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les sept merveilles du monde antique",
+          "entetes": ["Merveille", "Lieu", "Pays actuel"],
+          "lignes": [
+            ["La pyramide de Khéops", "Gizeh", "Égypte"],
+            ["Les jardins suspendus de Babylone", "Babylone", "Irak"],
+            ["La statue de Zeus", "Olympie", "Grèce"],
+            ["Le mausolée d'Halicarnasse", "Halicarnasse", "Turquie"],
+            ["Le temple d'Artémis", "Éphèse", "Turquie"],
+            ["Le colosse de Rhodes", "Île de Rhodes", "Grèce"],
+            ["Le phare d'Alexandrie", "Alexandrie", "Égypte"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "De toutes les merveilles antiques, seule la <b>pyramide de Khéops</b> existe encore aujourd'hui. Les autres ont été détruites par des tremblements de terre, des guerres ou le temps. Certaines listes associent aux jardins de Babylone ses murailles."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les sept nouvelles merveilles du monde (2007)",
+          "entetes": ["Merveille", "Pays", "À retenir"],
+          "lignes": [
+            ["La Grande Muraille de Chine", "Chine", "Longue d'environ 21 196 km"],
+            ["Pétra", "Jordanie", "Cité taillée dans la roche rose"],
+            ["Le Christ rédempteur (Rio)", "Brésil", "Statue d'environ 30 m de haut"],
+            ["Le Machu Picchu", "Pérou", "Cité inca à 2 430 m d'altitude"],
+            ["Chichén Itzá", "Mexique", "Grande cité de la civilisation maya"],
+            ["Le Colisée (Rome)", "Italie", "Amphithéâtre de 50 000 spectateurs (Ier siècle)"],
+            ["Le Taj Mahal", "Inde", "Mausolée construit au XVIIe siècle par Shah Jahan"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Où sont les nouvelles merveilles ?",
+          "svg": "<svg width='320' height='190' viewBox='0 0 320 190' xmlns='http://www.w3.org/2000/svg'><rect x='4' y='6' width='102' height='26' rx='8' fill='#ffe0b2' stroke='#ffb74d' stroke-width='1.5'/><text x='55' y='24' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>Asie</text><rect x='8' y='40' width='94' height='42' rx='6' fill='#ffffff' stroke='#ffb74d'/><text x='55' y='58' font-size='9.5' font-weight='bold' text-anchor='middle' fill='#333'>Grande Muraille</text><text x='55' y='73' font-size='9.5' text-anchor='middle' fill='#333'>Chine</text><rect x='8' y='90' width='94' height='42' rx='6' fill='#ffffff' stroke='#ffb74d'/><text x='55' y='108' font-size='9.5' font-weight='bold' text-anchor='middle' fill='#333'>Pétra</text><text x='55' y='123' font-size='9.5' text-anchor='middle' fill='#333'>Jordanie</text><rect x='8' y='140' width='94' height='42' rx='6' fill='#ffffff' stroke='#ffb74d'/><text x='55' y='158' font-size='9.5' font-weight='bold' text-anchor='middle' fill='#333'>Taj Mahal</text><text x='55' y='173' font-size='9.5' text-anchor='middle' fill='#333'>Inde</text><rect x='109' y='6' width='102' height='26' rx='8' fill='#c8e6c9' stroke='#81c784' stroke-width='1.5'/><text x='160' y='24' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>Amérique</text><rect x='113' y='40' width='94' height='42' rx='6' fill='#ffffff' stroke='#81c784'/><text x='160' y='58' font-size='9.5' font-weight='bold' text-anchor='middle' fill='#333'>Christ rédempteur</text><text x='160' y='73' font-size='9.5' text-anchor='middle' fill='#333'>Brésil</text><rect x='113' y='90' width='94' height='42' rx='6' fill='#ffffff' stroke='#81c784'/><text x='160' y='108' font-size='9.5' font-weight='bold' text-anchor='middle' fill='#333'>Machu Picchu</text><text x='160' y='123' font-size='9.5' text-anchor='middle' fill='#333'>Pérou</text><rect x='113' y='140' width='94' height='42' rx='6' fill='#ffffff' stroke='#81c784'/><text x='160' y='158' font-size='9.5' font-weight='bold' text-anchor='middle' fill='#333'>Chichén Itzá</text><text x='160' y='173' font-size='9.5' text-anchor='middle' fill='#333'>Mexique</text><rect x='214' y='6' width='102' height='26' rx='8' fill='#b3e5fc' stroke='#4fc3f7' stroke-width='1.5'/><text x='265' y='24' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>Europe</text><rect x='218' y='40' width='94' height='42' rx='6' fill='#ffffff' stroke='#4fc3f7'/><text x='265' y='58' font-size='9.5' font-weight='bold' text-anchor='middle' fill='#333'>Colisée</text><text x='265' y='73' font-size='9.5' text-anchor='middle' fill='#333'>Italie</text></svg>",
+          "legende": "Trois merveilles en Asie, trois en Amérique, une en Europe."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1. Dans quel pays se trouve le Machu Picchu ?\n2. Quelle merveille du monde antique existe encore aujourd'hui ?\n3. Quel monument se trouve en Inde ? Qui l'a fait construire ?\n4. Combien de merveilles antiques se trouvent en Égypte ? en Grèce ? en Turquie ?\n5. En quelle année les nouvelles merveilles ont-elles été élues ?",
+          "solution": "1. Au Pérou.\n2. La pyramide de Khéops (à Gizeh, en Égypte).\n3. Le Taj Mahal, construit au XVIIe siècle par l'empereur Shah Jahan.\n4. Deux en Égypte (la pyramide de Khéops et le phare d'Alexandrie), deux en Grèce (la statue de Zeus et le colosse de Rhodes), deux en Turquie (le mausolée d'Halicarnasse et le temple d'Artémis).\n5. En 2007."
+        }
+      ],
+      "lexique": [
+        { "terme": "Monument", "definition": "Construction remarquable par son histoire ou sa beauté." },
+        { "terme": "Antique", "definition": "Qui date de l'Antiquité, une époque très ancienne." },
+        { "terme": "Mausolée", "definition": "Grand tombeau monumental." },
+        { "terme": "Amphithéâtre", "definition": "Grand édifice rond ou ovale avec des gradins, où l'on assistait à des spectacles." },
+        { "terme": "Civilisation", "definition": "Ensemble des connaissances, des arts et des modes de vie d'un peuple." },
+        { "terme": "Patrimoine", "definition": "Ensemble des richesses (monuments, traditions) transmises par le passé." }
+      ]
+    },
+    {
+      "id": "fr-2-4",
+      "titre": "Le texte explicatif",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Texte explicatif",
+          "texte": "Le <b>texte explicatif</b> a pour but de faire comprendre un phénomène, un fait ou une situation. Il répond aux questions « <b>Pourquoi ?</b> » et « <b>Comment ?</b> »."
+        },
+        {
+          "type": "schema",
+          "titre": "La structure du texte explicatif",
+          "svg": "<svg width='320' height='224' viewBox='0 0 320 224' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='4' width='300' height='56' rx='10' fill='#b3e5fc' stroke='#4fc3f7' stroke-width='1.5'/><text x='160' y='22' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>1. Introduction</text><text x='160' y='38' font-size='10' text-anchor='middle' fill='#333'>Présente le sujet et pose la question</text><text x='160' y='51' font-size='10' text-anchor='middle' fill='#333'>(Pourquoi ? Comment ?)</text><line x1='160' y1='60' x2='160' y2='74' stroke='#757575' stroke-width='2'/><polygon points='154,74 166,74 160,82' fill='#757575'/><rect x='10' y='84' width='300' height='58' rx='10' fill='#c8e6c9' stroke='#81c784' stroke-width='1.5'/><text x='160' y='102' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>2. Développement</text><text x='160' y='118' font-size='10' text-anchor='middle' fill='#333'>Donne les explications : causes, étapes,</text><text x='160' y='131' font-size='10' text-anchor='middle' fill='#333'>exemples, chiffres, comparaisons</text><line x1='160' y1='142' x2='160' y2='156' stroke='#757575' stroke-width='2'/><polygon points='154,156 166,156 160,164' fill='#757575'/><rect x='10' y='166' width='300' height='54' rx='10' fill='#ffe0b2' stroke='#ffb74d' stroke-width='1.5'/><text x='160' y='184' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>3. Conclusion</text><text x='160' y='200' font-size='10' text-anchor='middle' fill='#333'>Résume l'essentiel de l'explication</text><text x='160' y='212' font-size='10' text-anchor='middle' fill='#333'>et peut ouvrir sur une autre idée</text></svg>",
+          "legende": "Trois parties, comme dans la plupart des textes."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les caractéristiques du texte explicatif",
+          "entetes": ["Critère", "Ce qu'on observe"],
+          "lignes": [
+            ["Question posée", "« Pourquoi ? » ou « Comment ? »"],
+            ["Point de vue", "Neutre : l'auteur donne des faits, sans « je » ni opinion"],
+            ["Registre de langue", "Standard (ni familier, ni trop recherché)"],
+            ["Temps", "Surtout le présent de l'indicatif (vérité générale)"],
+            ["Procédés explicatifs", "Définition, reformulation, comparaison, exemple, chiffres"],
+            ["Connecteurs", "parce que, car, en effet, donc, ainsi ; d'abord, ensuite, enfin"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Pour raconter des faits historiques (construction d'un monument, par exemple), on peut employer un temps du passé. Le présent reste le temps principal du texte."
+        },
+        {
+          "type": "exemple",
+          "titre": "Texte modèle : Pourquoi les merveilles du monde fascinent-elles ?",
+          "texte": "<b>Introduction :</b> Chaque année, des millions de visiteurs se pressent devant le Colisée ou le Taj Mahal. Pourquoi ces monuments fascinent-ils autant ?\n\n<b>Développement :</b> D'abord, ce sont des exploits techniques : la Grande Muraille de Chine mesure environ 21 196 km et le Colisée pouvait accueillir 50 000 spectateurs dès le Ier siècle. Ensuite, ils sont chargés d'histoire : le Taj Mahal a été construit au XVIIe siècle par l'empereur Shah Jahan, en souvenir de son épouse. Enfin, ils se trouvent dans des paysages exceptionnels, comme le Machu Picchu, perché à 2 430 m d'altitude.\n\n<b>Conclusion :</b> Ainsi, les merveilles du monde attirent par leur taille, leur histoire et leur beauté : elles appartiennent au patrimoine de toute l'humanité."
+        },
+        {
+          "type": "methode",
+          "titre": "Comment rédiger un texte explicatif",
+          "texte": "1. Pose clairement la question (« Pourquoi… ? » ou « Comment… ? »).\n2. Cherche les explications : causes, étapes, exemples, chiffres.\n3. Organise-les avec des connecteurs (d'abord, ensuite, enfin).\n4. Écris au présent, de façon neutre, sans « je ».\n5. Termine par une phrase qui résume l'essentiel."
+        },
+        {
+          "type": "exercice",
+          "enonce": "À partir du texte modèle :\n1. Quelle question est posée dans l'introduction ?\n2. Relève trois connecteurs qui organisent le développement.\n3. Relève deux informations chiffrées.\n4. Le point de vue est-il neutre ? Justifie ta réponse.",
+          "solution": "1. « Pourquoi ces monuments fascinent-ils autant ? »\n2. D'abord, ensuite, enfin (on peut ajouter « Ainsi » dans la conclusion).\n3. Par exemple : 21 196 km (Grande Muraille) ; 50 000 spectateurs (Colisée) ; 2 430 m d'altitude (Machu Picchu).\n4. Oui : l'auteur donne des faits vérifiables, n'emploie pas « je » et n'exprime pas d'opinion personnelle."
+        }
+      ],
+      "lexique": [
+        { "terme": "Explication", "definition": "Ensemble de raisons qui permettent de comprendre quelque chose." },
+        { "terme": "Procédé explicatif", "definition": "Moyen utilisé pour expliquer : définition, exemple, comparaison, chiffres…" },
+        { "terme": "Neutre", "definition": "Qui ne prend pas parti, qui ne donne pas d'opinion personnelle." },
+        { "terme": "Registre standard", "definition": "Façon de parler courante, correcte, comprise de tous." },
+        { "terme": "Connecteur", "definition": "Mot qui relie des phrases ou des idées (d'abord, car, donc…)." }
+      ]
+    }
+  ]
+}
