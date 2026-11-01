@@ -33,7 +33,11 @@ const MATIERES_PAR_CLASSE = {
       './data/3e/mathematiques/composante-5.json'
     ] },
     { id: 'svt', code: 'SVT', nom: 'SVT', icone: '🔬', disponible: true, fichiers: [
-      './data/3e/svt/composante-1.json'
+      './data/3e/svt/composante-1.json',
+      './data/3e/svt/composante-2.json',
+      './data/3e/svt/composante-3.json',
+      './data/3e/svt/composante-4.json',
+      './data/3e/svt/composante-5.json'
     ] },
     { id: 'sciences-physiques', code: 'SPHY', nom: 'Sciences Physiques', icone: '⚛️', disponible: true,  fichiers: [
       './data/3e/sciences-physiques/composante-1.json',
@@ -60,13 +64,16 @@ const MATIERES_PAR_CLASSE = {
 // EXERCICES — SUJETS ET CORRIGÉS (section indépendante, évolutive)
 // ============================================
 const EXERCICES_PAR_CLASSE = {
+  const EXERCICES_PAR_CLASSE = {
   '3e': [
     { id: 'mathematiques', nom: 'Mathématiques', icone: '📐', disponible: true,
       fichier: './data/3e/exercices/exercices-mathematiques.json' },
     { id: 'anglais', nom: 'Anglais', icone: '🌍', disponible: true,
       fichier: './data/3e/exercices/exercices-anglais.json' },
     { id: 'sciences-physiques', nom: 'Sciences Physiques', icone: '⚛️', disponible: true,
-      fichier: './data/3e/exercices/exercices-sciences-physiques.json' }
+      fichier: './data/3e/exercices/exercices-sciences-physiques.json' },
+    { id: 'svt', nom: 'SVT', icone: '🔬', disponible: true,
+      fichier: './data/3e/exercices/exercices-svt.json' }
   ],
   'tle': []
 };
