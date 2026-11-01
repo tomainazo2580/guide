@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'guide-v21';
+const CACHE_VERSION = 'guide-v22';
 const CACHE_NAME = CACHE_VERSION;
 const APP_SHELL = [
   './',
