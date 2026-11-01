@@ -1,0 +1,272 @@
+{
+  "id": "svt-theme4",
+  "titre": "Thématique 4 : Reproduction humaine",
+  "lecons": [
+    {
+      "id": "svt-4-1",
+      "titre": "Les fistules",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Fistule : une fistule est une connexion anormale (un passage qui ne devrait pas exister) entre deux cavités, deux organes ou deux vaisseaux du corps. Elle peut apparaître après une infection, une maladie, une opération, une blessure ou un accouchement difficile, ou exister dès la naissance."
+        },
+        {
+          "type": "schema",
+          "titre": "Principe d'une fistule",
+          "svg": "<svg width='320' height='100' viewBox='0 0 320 100' xmlns='http://www.w3.org/2000/svg'><text x='160' y='16' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Fistule : un passage anormal entre deux organes</text><rect x='100' y='50' width='120' height='12' fill='#fca5a5' stroke='#dc2626' stroke-width='1.5'/><ellipse cx='70' cy='56' rx='45' ry='30' fill='#fde68a' stroke='#92400e' stroke-width='2'/><ellipse cx='250' cy='56' rx='45' ry='30' fill='#bfdbfe' stroke='#1e3a8a' stroke-width='2'/><text x='70' y='60' font-size='12' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Organe 1</text><text x='250' y='60' font-size='12' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Organe 2</text><text x='160' y='44' font-size='11' font-weight='bold' font-family='sans-serif' fill='#dc2626' text-anchor='middle'>fistule</text><text x='160' y='80' font-size='10' font-family='sans-serif' fill='#475569' text-anchor='middle'>le contenu d'un organe passe dans l'autre</text></svg>",
+          "legende": "Normalement, les deux organes sont séparés. La fistule les relie et fait passer urine, selles, sang ou pus là où ils ne devraient pas aller."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Type de fistule", "Organes reliés", "Conséquence"],
+          "lignes": [
+            ["Fistule anale", "canal anal et peau près de l'anus (souvent après un abcès)", "douleur, écoulement de pus"],
+            ["Fistule recto-vaginale", "rectum et vagin", "passage de gaz ou de selles par le vagin"],
+            ["Fistule artério-veineuse", "une artère et une veine", "le sang passe directement de l'artère à la veine ; elle peut aussi être créée volontairement chez les malades dialysés"],
+            ["Fistule pulmonaire artério-veineuse", "artère et veine du poumon (souvent liée à la maladie de Rendu-Osler-Weber, maladie héréditaire)", "du sang mal oxygéné circule : essoufflement, fatigue"],
+            ["Fistule obstétricale (vésico-vaginale)", "vessie et vagin, à la suite d'un accouchement difficile", "écoulement permanent d'urine par le vagin"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Dans la suite du cours, on étudie la fistule obstétricale. C'est la plus fréquente à Madagascar parmi les fistules liées à la reproduction, et on peut l'éviter."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Définir une fistule.\n2) Citer trois types de fistules.\n3) Quels organes relie une fistule recto-vaginale ?",
+          "solution": "1) Une fistule est une connexion anormale entre deux cavités, deux organes ou deux vaisseaux.\n2) Par exemple : la fistule anale, la fistule artério-veineuse, la fistule obstétricale.\n3) Le rectum et le vagin."
+        }
+      ]
+    },
+    {
+      "id": "svt-4-2",
+      "titre": "La fistule obstétricale : causes, signes et conséquences",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Fistule obstétricale : c'est un trou entre la vessie et le vagin (fistule vésico-vaginale), parfois entre le rectum et le vagin, qui apparaît après un accouchement long et difficile. L'urine (ou les selles) s'écoule alors en permanence par le vagin, sans que la femme puisse la retenir."
+        },
+        {
+          "type": "regle",
+          "texte": "Comment la fistule se forme :\n1. Le bassin de la mère est trop étroit, ou le bébé est trop gros : la tête de l'enfant reste bloquée.\n2. Le travail dure plusieurs heures, voire plusieurs jours, sans aide médicale.\n3. La tête de l'enfant écrase les tissus (vessie, vagin) contre les os du bassin : le sang n'arrive plus à ces tissus.\n4. Les tissus privés de sang meurent. Quelques jours plus tard, ils tombent et laissent un trou : la fistule."
+        },
+        {
+          "type": "schema",
+          "titre": "Formation d'une fistule vésico-vaginale",
+          "svg": "<svg width='320' height='215' viewBox='0 0 320 215' xmlns='http://www.w3.org/2000/svg'><text x='78' y='16' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Accouchement bloqué</text><text x='240' y='16' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Fistule formée</text><line x1='160' y1='26' x2='160' y2='205' stroke='#cbd5e1' stroke-width='1.5' stroke-dasharray='4,3'/><rect x='20' y='50' width='14' height='70' rx='4' fill='#cbd5e1' stroke='#475569' stroke-width='1.5'/><ellipse cx='52' cy='72' rx='16' ry='22' fill='#fde68a' stroke='#92400e' stroke-width='1.5'/><circle cx='92' cy='120' r='32' fill='#fbcfe8' stroke='#9d174d' stroke-width='1.5'/><rect x='140' y='60' width='14' height='100' rx='4' fill='#cbd5e1' stroke='#475569' stroke-width='1.5'/><circle cx='63' cy='92' r='9' fill='none' stroke='#dc2626' stroke-width='2' stroke-dasharray='3,2'/><text x='52' y='44' font-size='10' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>vessie</text><text x='27' y='134' font-size='10' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>pubis</text><text x='147' y='176' font-size='10' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>sacrum</text><text x='92' y='118' font-size='10' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>tête de</text><text x='92' y='131' font-size='10' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>l'enfant</text><text x='87' y='205' font-size='10' font-family='sans-serif' fill='#475569' text-anchor='middle'>bassin osseux</text><rect x='225' y='100' width='30' height='75' fill='#fbcfe8' stroke='#9d174d' stroke-width='1.5'/><rect x='196' y='106' width='8' height='44' fill='#fde68a' stroke='#92400e' stroke-width='1.5'/><ellipse cx='215' cy='85' rx='26' ry='24' fill='#fde68a' stroke='#92400e' stroke-width='1.5'/><circle cx='231' cy='104' r='4' fill='#dc2626'/><line x1='228' y1='90' x2='240' y2='168' stroke='#2563eb' stroke-width='2.5'/><polygon points='234,164 246,164 240,176' fill='#2563eb'/><text x='215' y='52' font-size='10' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>vessie</text><text x='192' y='135' font-size='10' font-family='sans-serif' fill='#1e293b' text-anchor='end'>urètre</text><line x1='234' y1='101' x2='264' y2='90' stroke='#dc2626' stroke-width='1'/><text x='268' y='93' font-size='10' font-weight='bold' font-family='sans-serif' fill='#dc2626'>fistule</text><text x='262' y='145' font-size='10' font-family='sans-serif' fill='#1e293b'>vagin</text><text x='240' y='198' font-size='10' font-family='sans-serif' fill='#2563eb' text-anchor='middle'>fuite d'urine</text></svg>",
+          "legende": "À gauche : la tête de l'enfant comprime les tissus (cercle rouge pointillé). À droite : un trou s'est formé entre la vessie et le vagin, et l'urine s'écoule."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Cause", "Explication"],
+          "lignes": [
+            ["Grossesse précoce (avant 20 ans)", "le bassin de la jeune fille n'a pas fini de se développer : il est trop étroit pour laisser passer le bébé"],
+            ["Malnutrition", "elle freine la croissance et rend le bassin plus étroit"],
+            ["Absence de consultations prénatales", "les risques (bassin étroit, bébé mal placé) ne sont pas repérés à temps"],
+            ["Travail prolongé sans assistance", "accouchement à domicile, sans personnel qualifié, ni césarienne si nécessaire"],
+            ["Pauvreté et éloignement des centres de santé", "manque d'argent, de transport et de routes pour arriver à temps à l'hôpital"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Signes (symptômes)", "Conséquences"],
+          "lignes": [
+            ["Perte continue d'urine, jour et nuit, sans pouvoir la retenir (parfois aussi des selles)", "incontinence permanente"],
+            ["Mauvaises odeurs, irritations et plaies de la peau", "gêne, honte, isolement"],
+            ["Infections urinaires et génitales répétées", "maladies graves, possible atteinte des reins"],
+            ["Douleurs, anémie", "fatigue, faiblesse"],
+            ["Souvent un bébé mort-né après le long travail", "souffrance psychologique, risque d'infertilité"],
+            ["Rejet par l'entourage", "divorce, perte du travail, pauvreté"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "La fistule obstétricale n'est pas une punition ni une honte : c'est une maladie qui se soigne. Les femmes atteintes ont besoin de soutien de leur famille et de leur communauté."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Définir la fistule obstétricale.\n2) Expliquer, en quatre étapes, comment elle se forme.\n3) Citer trois causes et trois conséquences.",
+          "solution": "1) C'est un trou entre la vessie et le vagin (ou le rectum et le vagin) formé après un accouchement long et difficile ; l'urine s'écoule en permanence par le vagin.\n2) Tête de l'enfant bloquée dans le bassin → travail très long → tissus écrasés contre les os, privés de sang → les tissus meurent et laissent un trou.\n3) Causes : grossesse précoce, malnutrition, absence de consultations prénatales, travail prolongé sans assistance, éloignement des centres de santé. Conséquences : incontinence, infections, rejet par l'entourage, bébé mort-né, infertilité."
+        }
+      ]
+    },
+    {
+      "id": "svt-4-3",
+      "titre": "Prévenir et soigner la fistule obstétricale",
+      "blocs": [
+        {
+          "type": "regle",
+          "texte": "Prévention de la fistule obstétricale :\n- éviter les grossesses et les mariages précoces : laisser les filles finir leur croissance et poursuivre leurs études ;\n- bien nourrir les filles et les femmes enceintes ;\n- faire les consultations prénatales (CPN) dans un centre de santé : au moins 4 pendant la grossesse ;\n- accoucher dans un centre de santé, avec une sage-femme ou un médecin ;\n- reconnaître les signes de danger (travail très long, douleurs sans progression) et transporter rapidement la femme à l'hôpital ;\n- pratiquer une césarienne quand l'accouchement est bloqué ;\n- informer la communauté et favoriser la planification familiale."
+        },
+        {
+          "type": "definition",
+          "texte": "Traitement : la fistule se guérit par une opération chirurgicale qui ferme le trou. Des programmes de santé la réalisent gratuitement ou à faible coût. Après l'opération, la femme a besoin de repos, d'hygiène et de suivi médical.\nEn attendant l'opération, il est utile de se laver souvent, de changer régulièrement les protections propres et de boire de l'eau régulièrement (environ 1,5 à 2 litres par jour) : cela dilue l'urine et réduit les infections et les irritations."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Qui ?", "Rôle dans la prévention"],
+          "lignes": [
+            ["La jeune fille", "continuer l'école, attendre l'âge adulte pour avoir un enfant, se nourrir correctement"],
+            ["La famille et la communauté", "refuser le mariage précoce, aider financièrement et transporter la femme en travail"],
+            ["Le personnel de santé", "suivre la grossesse, surveiller l'accouchement, opérer en cas de besoin"],
+            ["L'État et les associations", "construire des centres de santé et des routes, former le personnel, soutenir les femmes opérées"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "enonce": "Voahangy, 15 ans, est mariée et enceinte. Elle vit à 20 km du centre de santé le plus proche et n'a jamais fait de consultation prénatale.\n1) Quels risques court-elle à l'accouchement ? Pourquoi ?\n2) Donner quatre conseils pour éviter une fistule.\n3) Si une fistule apparaissait malgré tout, y a-t-il une solution ?",
+          "solution": "1) Elle risque un accouchement bloqué et une fistule : à 15 ans son bassin n'est pas assez développé, elle n'a pas de suivi prénatal et elle est loin d'un centre de santé.\n2) Faire les consultations prénatales (au moins 4) ; bien s'alimenter ; accoucher au centre de santé avec du personnel qualifié ; prévoir à l'avance le transport et partir dès les premiers signes de danger (travail long) pour une césarienne si nécessaire.\n3) Oui : la fistule se soigne par une opération chirurgicale, gratuite ou peu coûteuse dans certains programmes, suivie d'un repos et d'un suivi médical."
+        }
+      ]
+    },
+        {
+      "id": "svt-4-4",
+      "titre": "Le col de l'utérus et le cancer du col",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Cancer du col de l'utérus : c'est une tumeur maligne due à la multiplication anormale et incontrôlée des cellules du col de l'utérus. C'est l'un des cancers les plus fréquents chez la femme. Il est provoqué dans environ 99 % des cas par une infection persistante par le virus du papillome humain (HPV, ou PVH)."
+        },
+        {
+          "type": "schema",
+          "titre": "L'appareil génital féminin (vue de face)",
+          "svg": "<svg width='320' height='225' viewBox='0 0 320 225' xmlns='http://www.w3.org/2000/svg'><path d='M68,56 Q34,40 16,62' fill='none' stroke='#be185d' stroke-width='4'/><path d='M132,56 Q166,40 184,62' fill='none' stroke='#be185d' stroke-width='4'/><ellipse cx='14' cy='78' rx='13' ry='9' fill='#fde68a' stroke='#92400e' stroke-width='1.5'/><ellipse cx='186' cy='78' rx='13' ry='9' fill='#fde68a' stroke='#92400e' stroke-width='1.5'/><path d='M66,52 Q100,36 134,52 L120,122 L80,122 Z' fill='#fbcfe8' stroke='#9d174d' stroke-width='2'/><rect x='82' y='122' width='36' height='34' rx='6' fill='#f472b6' stroke='#9d174d' stroke-width='2'/><path d='M82,156 L118,156 L122,214 L78,214 Z' fill='#fecdd3' stroke='#9d174d' stroke-width='2'/><g stroke='#475569' stroke-width='1'><line x1='208' y1='36' x2='162' y2='49'/><line x1='208' y1='82' x2='199' y2='80'/><line x1='208' y1='98' x2='126' y2='95'/><line x1='208' y1='136' x2='118' y2='139'/><line x1='208' y1='184' x2='121' y2='184'/></g><g font-size='11' font-family='sans-serif' fill='#1e293b'><text x='212' y='39'>trompe de Fallope</text><text x='212' y='85'>ovaire</text><text x='212' y='101'>corps de l'utérus</text><text x='212' y='138' font-weight='bold' fill='#be185d'>col de l'utérus</text><text x='212' y='188'>vagin</text></g></svg>",
+          "legende": "Le col de l'utérus est la partie basse de l'utérus, qui s'ouvre dans le vagin."
+        },
+        {
+          "type": "schema",
+          "titre": "Le col de l'utérus (coupe simplifiée)",
+          "svg": "<svg width='320' height='150' viewBox='0 0 320 150' xmlns='http://www.w3.org/2000/svg'><text x='150' y='13' font-size='10' font-family='sans-serif' fill='#475569' text-anchor='middle'>vers le corps de l'utérus ↑</text><path d='M100,20 L200,20 L200,80 Q200,110 150,110 Q100,110 100,80 Z' fill='#f9a8d4' stroke='#9d174d' stroke-width='2'/><rect x='143' y='20' width='14' height='70' fill='#fff1f2' stroke='#9d174d' stroke-width='1'/><ellipse cx='150' cy='100' rx='28' ry='8' fill='none' stroke='#dc2626' stroke-width='2' stroke-dasharray='4,3'/><text x='150' y='136' font-size='10' font-family='sans-serif' fill='#475569' text-anchor='middle'>↓ vers le vagin</text><g stroke='#475569' stroke-width='1'><line x1='157' y1='45' x2='212' y2='45'/><line x1='180' y1='102' x2='212' y2='102'/><line x1='96' y1='78' x2='112' y2='78'/></g><g font-size='11' font-family='sans-serif' fill='#1e293b'><text x='216' y='49'>endocol (canal)</text><text x='216' y='106' font-weight='bold' fill='#dc2626'>zone de jonction</text></g><text x='92' y='82' font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='end'>exocol</text></svg>",
+          "legende": "La zone de jonction (cercle rouge pointillé) est la zone fragile où naissent la plupart des cancers du col."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Partie du col", "Description"],
+          "lignes": [
+            ["Endocol", "canal intérieur du col, qui relie l'utérus au vagin ; il est tapissé de cellules glandulaires"],
+            ["Exocol", "partie du col visible dans le fond du vagin ; il est recouvert de cellules plates"],
+            ["Zone de jonction", "limite entre l'endocol et l'exocol, où les cellules changent de type : c'est la zone la plus sensible au virus HPV"]
+          ]
+        },
+        {
+          "type": "definition",
+          "texte": "Virus du papillome humain (HPV) : c'est un virus très répandu, transmis surtout par les contacts intimes lors des rapports sexuels. La plupart des infections guérissent toutes seules en un ou deux ans. Mais, quand le virus persiste, il peut transformer les cellules du col : des lésions précancéreuses apparaissent, puis un cancer après 10 à 20 ans.\nCertains types de HPV sont à haut risque : les types 16 et 18 causent environ 70 % des cancers du col."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Facteurs de risque", "Pourquoi ?"],
+          "lignes": [
+            ["Infection persistante par un HPV à haut risque", "cause principale du cancer"],
+            ["Rapports sexuels précoces ou nombreux partenaires", "plus d'occasions d'être infectée par le HPV"],
+            ["Infection par le VIH ou autres infections sexuellement transmissibles", "les défenses du corps sont affaiblies, le virus HPV persiste plus facilement"],
+            ["Tabagisme", "les substances du tabac abîment les cellules du col"],
+            ["Grossesses nombreuses et rapprochées", "le col est plus souvent fragilisé"],
+            ["Absence de dépistage et de vaccination", "les lésions ne sont pas repérées ni évitées"]
+          ]
+        },
+        {
+          "type": "regle",
+          "texte": "Signes d'alerte (apparaissent souvent tard, quand le cancer est avancé) :\n- saignements anormaux : entre les règles, après les rapports sexuels ou après la ménopause ;\n- pertes vaginales anormales, parfois malodorantes ou mêlées de sang ;\n- douleurs dans le bas-ventre ou pendant les rapports sexuels.\nAu début, il n'y a souvent aucun signe : c'est pourquoi le dépistage est indispensable."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Type de cancer du col", "Origine", "Fréquence"],
+          "lignes": [
+            ["Carcinome épidermoïde", "cellules plates de l'exocol", "le plus fréquent (environ 80 %)"],
+            ["Adénocarcinome", "cellules glandulaires de l'endocol", "moins fréquent (environ 20 %)"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Quelle est la cause principale du cancer du col de l'utérus ?\n2) Où se trouve la zone de jonction ? Pourquoi est-elle importante ?\n3) Citer deux signes d'alerte et deux facteurs de risque.",
+          "solution": "1) Une infection persistante par le virus du papillome humain (HPV), responsable d'environ 99 % des cas.\n2) Entre l'endocol et l'exocol, à l'ouverture du col. C'est la zone où les cellules changent de type et où naissent la plupart des cancers.\n3) Signes : saignements anormaux (entre les règles, après les rapports), pertes malodorantes, douleurs du bas-ventre. Facteurs de risque : infection par le VIH, tabagisme, rapports précoces ou nombreux partenaires, absence de dépistage."
+        }
+      ]
+    },
+    {
+      "id": "svt-4-5",
+      "titre": "Évolution du cancer du col et dépistage",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Lésion précancéreuse : c'est une anomalie des cellules du col qui n'est pas encore un cancer, mais qui peut en devenir un si on ne la traite pas. Le cancer du col évolue lentement, souvent sur 10 à 20 ans : on a donc le temps de le repérer et de le soigner."
+        },
+        {
+          "type": "schema",
+          "titre": "Les quatre stades d'évolution",
+          "svg": "<svg width='320' height='158' viewBox='0 0 320 158' xmlns='http://www.w3.org/2000/svg'><g font-size='12' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'><text x='40' y='20'>1</text><text x='120' y='20'>2</text><text x='200' y='20'>3</text><text x='280' y='20'>4</text></g><rect x='8' y='28' width='64' height='44' fill='#fbcfe8'/><rect x='88' y='28' width='64' height='44' fill='#fbcfe8'/><rect x='168' y='28' width='64' height='44' fill='#fbcfe8'/><rect x='248' y='28' width='64' height='44' fill='#fbcfe8'/><rect x='88' y='28' width='64' height='10' fill='#f87171'/><rect x='168' y='28' width='64' height='22' fill='#f87171'/><polygon points='252,28 308,28 304,60 292,88 268,86 256,58' fill='#b91c1c'/><g fill='none' stroke='#9d174d' stroke-width='1.5'><rect x='8' y='28' width='64' height='44'/><rect x='88' y='28' width='64' height='44'/><rect x='168' y='28' width='64' height='44'/><rect x='248' y='28' width='64' height='44'/></g><g font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='middle'><text x='40' y='108'>Tissu</text><text x='40' y='121'>normal</text><text x='120' y='108'>Lésion</text><text x='120' y='121'>légère</text><text x='200' y='108'>Lésion</text><text x='200' y='121'>modérée</text><text x='280' y='108'>Cancer</text><text x='280' y='121'>avancé</text></g><text x='160' y='137' font-size='10' font-family='sans-serif' fill='#475569' text-anchor='middle'>évolution lente (souvent 10 à 20 ans)</text><line x1='20' y1='147' x2='290' y2='147' stroke='#475569' stroke-width='2'/><polygon points='290,142 302,147 290,152' fill='#475569'/></svg>",
+          "legende": "Rose : tissu sain. Rouge : cellules anormales. Aux stades 2 et 3, les lésions sont encore précancéreuses ; au stade 4, le cancer s'étend en profondeur."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Stade", "État du col", "Que faire ?"],
+          "lignes": [
+            ["1. Non affecté", "cellules normales", "se faire dépister régulièrement ; vaccination avant les premiers rapports"],
+            ["2. Lésion légère", "quelques cellules anormales, souvent guérison spontanée", "surveillance et nouveau test"],
+            ["3. Lésion modérée", "cellules anormales plus nombreuses (précancer)", "traitement de la lésion (froid ou chaleur)"],
+            ["4. Cancer avancé", "cellules cancéreuses qui envahissent le col et les organes voisins", "traitement lourd : chirurgie, radiothérapie, chimiothérapie, soins palliatifs"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Méthode de dépistage", "Principe"],
+          "lignes": [
+            ["Test HPV (PVH)", "recherche la présence du virus à haut risque dans un prélèvement du col"],
+            ["Frottis cervico-utérin", "le soignant prélève quelques cellules du col avec une petite brosse ; elles sont examinées au microscope"],
+            ["Inspection visuelle à l'acide acétique (IVA)", "le col est badigeonné de vinaigre dilué : les zones anormales deviennent blanches ; méthode simple et peu coûteuse, utile quand le laboratoire est loin"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Calendrier de vaccination et de dépistage",
+          "svg": "<svg width='320' height='115' viewBox='0 0 320 115' xmlns='http://www.w3.org/2000/svg'><line x1='20' y1='55' x2='300' y2='55' stroke='#1e293b' stroke-width='2'/><g stroke='#1e293b' stroke-width='1.5'><line x1='20' y1='50' x2='20' y2='60'/><line x1='76' y1='50' x2='76' y2='60'/><line x1='132' y1='50' x2='132' y2='60'/><line x1='188' y1='50' x2='188' y2='60'/><line x1='244' y1='50' x2='244' y2='60'/><line x1='300' y1='50' x2='300' y2='60'/></g><g font-size='10' font-family='sans-serif' fill='#1e293b' text-anchor='middle'><text x='20' y='72'>0</text><text x='76' y='72'>10</text><text x='132' y='72'>20</text><text x='188' y='72'>30</text><text x='244' y='72'>40</text><text x='300' y='72'>50 ans</text></g><rect x='70' y='45' width='28' height='20' fill='#4ade80' stroke='#166534' stroke-width='1.5'/><circle cx='160' cy='55' r='6' fill='#f97316' stroke='#9a3412' stroke-width='1.5'/><circle cx='188' cy='55' r='6' fill='#2563eb' stroke='#1e3a8a' stroke-width='1.5'/><line x1='194' y1='55' x2='298' y2='55' stroke='#2563eb' stroke-width='4' stroke-dasharray='6,4'/><g font-size='10' font-family='sans-serif' text-anchor='middle'><text x='84' y='26' font-weight='bold' fill='#166534'>vaccination</text><text x='84' y='38' fill='#166534'>9-14 ans</text><text x='168' y='30' font-weight='bold' fill='#9a3412'>VIH+ : dès 25 ans</text><text x='188' y='92' font-weight='bold' fill='#1e3a8a'>dépistage dès 30 ans</text><text x='248' y='106' fill='#1e3a8a'>puis tous les 5 à 10 ans</text></g></svg>",
+          "legende": "Vert : vaccination des filles. Orange : début plus précoce du dépistage pour les femmes vivant avec le VIH (et plus fréquent). Bleu : dépistage régulier."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Pourquoi dit-on que le cancer du col est un cancer qu'on peut éviter ?\n2) À partir de quel âge dépiste-t-on une femme en général ? Et une femme vivant avec le VIH ?\n3) Décrire le frottis cervico-utérin.",
+          "solution": "1) Parce qu'il évolue lentement (10 à 20 ans) et qu'on peut repérer et traiter les lésions précancéreuses avant qu'elles deviennent un cancer ; de plus, un vaccin protège contre les HPV les plus dangereux.\n2) En général dès 30 ans, avec un test HPV tous les 5 à 10 ans ; dès 25 ans pour une femme vivant avec le VIH, avec un dépistage plus fréquent.\n3) Le soignant prélève des cellules du col avec une petite brosse. Ces cellules sont examinées au microscope pour repérer des anomalies."
+        }
+      ]
+    },
+    {
+      "id": "svt-4-6",
+      "titre": "Prévenir et traiter le cancer du col",
+      "blocs": [
+        {
+          "type": "tableau",
+          "entetes": ["Niveau de prévention", "Objectif", "Moyens"],
+          "lignes": [
+            ["Prévention primaire", "empêcher l'infection par le HPV", "vaccination anti-HPV des filles de 9 à 14 ans ; éducation à la santé sexuelle ; usage du préservatif ; retarder les premiers rapports ; ne pas fumer"],
+            ["Prévention secondaire", "repérer et traiter les lésions précancéreuses", "dépistage régulier (test HPV, frottis, IVA) ; traitement des lésions par cryothérapie ou ablation thermique"],
+            ["Prévention tertiaire", "soigner un cancer déjà installé et soulager", "chirurgie, radiothérapie, chimiothérapie, soins palliatifs"]
+          ]
+        },
+        {
+          "type": "definition",
+          "texte": "Vaccin anti-HPV : c'est un vaccin préventif, qui protège contre les types de HPV les plus dangereux. Il est plus efficace s'il est donné avant tout contact avec le virus, c'est pourquoi on vaccine les filles de 9 à 14 ans. L'OMS a pré-qualifié 4 vaccins ; le vaccin nonavalent protège contre 9 types de HPV. Le vaccin ne soigne pas une infection déjà présente : le dépistage reste nécessaire plus tard."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Traitement", "Principe", "Quand ?"],
+          "lignes": [
+            ["Cryothérapie", "détruire les cellules anormales par le froid", "lésions précancéreuses"],
+            ["Ablation thermique", "détruire les cellules anormales par la chaleur", "lésions précancéreuses"],
+            ["Chirurgie", "enlever la partie malade, voire l'utérus", "cancer peu avancé"],
+            ["Radiothérapie et chimiothérapie", "détruire les cellules cancéreuses par des rayons ou des médicaments", "cancer plus étendu"],
+            ["Soins palliatifs", "soulager la douleur et accompagner la malade", "cancer très avancé, quand la guérison n'est plus possible"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Plus le cancer est découvert tôt, plus les chances de guérison sont grandes. Les lésions précancéreuses se soignent simplement, souvent en une consultation, alors que le cancer avancé demande un traitement lourd et coûteux."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Associer chaque action à son niveau de prévention (primaire, secondaire ou tertiaire) :\na) se faire vacciner à 11 ans ;\nb) faire un frottis à 32 ans ;\nc) subir une radiothérapie pour un cancer avancé ;\nd) détruire par le froid une lésion précancéreuse.\nPuis expliquer pourquoi la vaccination ne dispense pas du dépistage.",
+          "solution": "a) Prévention primaire.\nb) Prévention secondaire (dépistage).\nc) Prévention tertiaire (traitement du cancer).\nd) Prévention secondaire (traitement d'une lésion précancéreuse).\nLe vaccin ne protège pas contre tous les types de HPV et n'agit pas sur une infection déjà présente : le dépistage régulier reste donc nécessaire pour repérer d'éventuelles lésions."
+        }
+      ]
+    }
+  ]
+}
