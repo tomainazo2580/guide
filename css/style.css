@@ -342,3 +342,20 @@ body[data-theme="sombre"] .statut-sauvegarde-notes.succes {
   margin-bottom: 8px;
   margin-top: 2px;
 }
+/* ---------- CARTES DE MATIÈRES DE MÊME TAILLE ---------- */
+.grille-matieres,
+#grille-exo-matieres {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 1fr;
+  gap: 12px;
+}
+.carte-matiere {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 130px;
+}
+.carte-matiere-nom { line-height: 1.25; }
+.carte-matiere-statut { min-height: 14px; }
