@@ -39,7 +39,7 @@ const MATIERES_PAR_CLASSE = {
       './data/3e/sciences-physiques/composante-3.json',
       './data/3e/sciences-physiques/composante-4.json',
       './data/3e/sciences-physiques/composante-5.json'
-    ] },,
+    ] },
     { id: 'histoire',           code: 'HIST', nom: 'Histoire',           icone: '🏛️', disponible: false, fichier: './data/3e/histoire.json' },
     { id: 'geographie',         code: 'GEOG', nom: 'Géographie',         icone: '🗺️', disponible: false, fichier: './data/3e/geographie.json' }
   ],
