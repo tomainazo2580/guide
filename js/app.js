@@ -62,7 +62,9 @@ const EXERCICES_PAR_CLASSE = {
     { id: 'mathematiques', nom: 'Mathématiques', icone: '📐', disponible: true,
       fichier: './data/3e/exercices/exercices-mathematiques.json' },
     { id: 'anglais', nom: 'Anglais', icone: '🌍', disponible: true,
-      fichier: './data/3e/exercices/exercices-anglais.json' }
+      fichier: './data/3e/exercices/exercices-anglais.json' },
+    { id: 'sciences-physiques', nom: 'Sciences Physiques', icone: '⚛️', disponible: true,
+      fichier: './data/3e/exercices/exercices-sciences-physiques.json' }
   ],
   'tle': []
 };
