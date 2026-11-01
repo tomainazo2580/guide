@@ -1,0 +1,301 @@
+{
+  "id": "fr-theme7",
+  "titre": "Thème VII : Métiers et professions",
+  "lecons": [
+    {
+      "id": "fr-7-1",
+      "titre": "Métier, profession et vocabulaire du travail",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Métier et profession",
+          "texte": "Un <b>métier</b> est une activité que l'on exerce pour gagner sa vie, et qui demande un savoir-faire appris par la formation ou par la pratique (boulanger, maçon, couturière). Une <b>profession</b> est une activité exercée pour gagner sa vie ; le mot est plus large et s'emploie souvent pour les activités qui demandent des études (médecin, avocat, ingénieur). Dans la langue courante, les deux mots sont très proches."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les mots du travail",
+          "entetes": ["Mot", "Définition", "Exemple"],
+          "lignes": [
+            ["Un employé", "Personne qui travaille pour un employeur et reçoit un salaire", "Une vendeuse dans une boutique"],
+            ["Un fonctionnaire", "Agent de l'État, qui travaille dans un service public", "Un enseignant ou une infirmière du service public"],
+            ["Un artisan", "Personne qui fabrique ou répare des objets de ses mains, souvent à son compte", "Un potier, un menuisier"],
+            ["Un entrepreneur", "Personne qui crée et dirige une entreprise, et prend un risque financier", "Le patron d'une petite fabrique de jus"],
+            ["Un consultant", "Expert qui conseille des entreprises ou des institutions pour une mission précise", "Un consultant en informatique"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Quelques métiers et professions",
+          "entetes": ["Masculin", "Ce qu'il fait", "Féminin"],
+          "lignes": [
+            ["Un ingénieur", "Conçoit et dirige la réalisation de machines, de routes, de réseaux", "une ingénieure"],
+            ["Un avocat", "Conseille et défend les personnes en justice", "une avocate"],
+            ["Un médecin", "Examine les malades, établit un diagnostic et les soigne", "une médecin (ou une femme médecin)"],
+            ["Un enseignant", "Transmet des connaissances aux élèves", "une enseignante"],
+            ["Un journaliste", "Recherche, vérifie et diffuse des informations", "une journaliste"],
+            ["Un artiste", "Crée des œuvres (musique, peinture, théâtre, danse)", "une artiste"],
+            ["Un programmeur", "Écrit les programmes des ordinateurs et des applications", "une programmeuse"],
+            ["Un graphiste", "Crée des images : affiches, logos, illustrations", "une graphiste"],
+            ["Un écrivain", "Écrit des livres : romans, poèmes, essais", "une écrivaine (ou une écrivain)"],
+            ["Un architecte", "Dessine les plans des bâtiments et suit leur construction", "une architecte"],
+            ["Un cuisinier", "Prépare les repas", "une cuisinière"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Certains noms de métiers ont la même forme au masculin et au féminin : <b>un / une</b> journaliste, artiste, architecte, graphiste. Seul le déterminant change."
+        },
+        {
+          "type": "schema",
+          "titre": "Les trois secteurs d'activité",
+          "svg": "<svg width='320' height='170' viewBox='0 0 320 170' xmlns='http://www.w3.org/2000/svg'><rect x='6' y='6' width='96' height='28' rx='8' fill='#c8e6c9' stroke='#81c784' stroke-width='1.5'/><text x='54' y='25' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Primaire</text><rect x='6' y='38' width='96' height='126' rx='8' fill='#f5fbf5' stroke='#81c784'/><text x='54' y='56' font-size='9.5' font-style='italic' text-anchor='middle' fill='#333'>la nature</text><text x='54' y='80' font-size='10.5' text-anchor='middle' fill='#333'>agriculteur</text><text x='54' y='101' font-size='10.5' text-anchor='middle' fill='#333'>éleveur</text><text x='54' y='122' font-size='10.5' text-anchor='middle' fill='#333'>pêcheur</text><text x='54' y='143' font-size='10.5' text-anchor='middle' fill='#333'>forestier</text><rect x='112' y='6' width='96' height='28' rx='8' fill='#ffe0b2' stroke='#ffb74d' stroke-width='1.5'/><text x='160' y='25' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Secondaire</text><rect x='112' y='38' width='96' height='126' rx='8' fill='#fffaf0' stroke='#ffb74d'/><text x='160' y='56' font-size='9.5' font-style='italic' text-anchor='middle' fill='#333'>la fabrication</text><text x='160' y='80' font-size='10.5' text-anchor='middle' fill='#333'>maçon</text><text x='160' y='101' font-size='10.5' text-anchor='middle' fill='#333'>menuisier</text><text x='160' y='122' font-size='10.5' text-anchor='middle' fill='#333'>couturier</text><text x='160' y='143' font-size='10.5' text-anchor='middle' fill='#333'>ouvrier</text><rect x='218' y='6' width='96' height='28' rx='8' fill='#b3e5fc' stroke='#4fc3f7' stroke-width='1.5'/><text x='266' y='25' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Tertiaire</text><rect x='218' y='38' width='96' height='126' rx='8' fill='#f3fbff' stroke='#4fc3f7'/><text x='266' y='56' font-size='9.5' font-style='italic' text-anchor='middle' fill='#333'>les services</text><text x='266' y='80' font-size='10.5' text-anchor='middle' fill='#333'>enseignant</text><text x='266' y='101' font-size='10.5' text-anchor='middle' fill='#333'>médecin</text><text x='266' y='122' font-size='10.5' text-anchor='middle' fill='#333'>commerçant</text><text x='266' y='143' font-size='10.5' text-anchor='middle' fill='#333'>chauffeur</text></svg>",
+          "legende": "Le secteur primaire produit à partir de la nature, le secondaire fabrique, le tertiaire rend des services."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1. Quel professionnel dessine les plans d'une maison ?\n2. Quel professionnel défend une personne devant un tribunal ?\n3. Quel professionnel écrit des programmes informatiques ?\n4. Quel professionnel crée des affiches et des logos ?\n5. Quelle différence fais-tu entre un employé et un fonctionnaire ?\n6. Classe par secteur (primaire, secondaire, tertiaire) : un pêcheur, un maçon, un médecin, un éleveur, une couturière, une commerçante.\n7. Donne le féminin de : un cuisinier, un avocat, un architecte.",
+          "solution": "1. L'architecte.\n2. L'avocat (ou l'avocate).\n3. Le programmeur (ou la programmeuse).\n4. Le graphiste.\n5. L'employé travaille pour un employeur (souvent une entreprise privée) et reçoit un salaire ; le fonctionnaire est agent de l'État et travaille dans un service public.\n6. Primaire : un pêcheur, un éleveur. Secondaire : un maçon, une couturière. Tertiaire : un médecin, une commerçante.\n7. Une cuisinière, une avocate, une architecte (forme identique)."
+        }
+      ],
+      "lexique": [
+        { "terme": "Métier", "definition": "Activité exercée pour gagner sa vie, qui demande un savoir-faire." },
+        { "terme": "Profession", "definition": "Activité exercée pour gagner sa vie, souvent après des études." },
+        { "terme": "Salaire", "definition": "Somme d'argent reçue en échange d'un travail." },
+        { "terme": "Fonctionnaire", "definition": "Agent de l'État qui travaille dans un service public." },
+        { "terme": "Entrepreneur", "definition": "Personne qui crée et dirige une entreprise." },
+        { "terme": "Secteur d'activité", "definition": "Grand domaine de travail : primaire, secondaire ou tertiaire." }
+      ]
+    },
+    {
+      "id": "fr-7-2",
+      "titre": "Où travaillent-ils ? Les métiers de l'aéroport et de la musique",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "Chaque métier s'exerce dans un lieu précis : un champ, une école, un hôpital, un atelier. Associer un métier à son lieu de travail aide à enrichir son vocabulaire."
+        },
+        {
+          "type": "tableau",
+          "titre": "Un métier, un lieu de travail",
+          "entetes": ["Métier", "Lieu de travail"],
+          "lignes": [
+            ["L'agriculteur", "la rizière, le champ"],
+            ["Le pêcheur", "la mer, le lac, la rivière"],
+            ["L'enseignant", "l'école, le collège, le lycée"],
+            ["Le médecin", "l'hôpital, le centre de santé, le cabinet médical"],
+            ["L'infirmier", "l'hôpital, le centre de santé de base (CSB)"],
+            ["L'avocat", "le cabinet d'avocat, le tribunal"],
+            ["Le boulanger", "la boulangerie"],
+            ["Le mécanicien", "le garage"],
+            ["Le cuisinier", "la cuisine d'un restaurant ou d'un hôtel"],
+            ["Le journaliste", "la rédaction, le studio de radio ou de télévision, le terrain"],
+            ["L'architecte", "le bureau d'études, le chantier"],
+            ["Le commerçant", "le marché, la boutique"],
+            ["L'artiste", "l'atelier, le studio, la scène"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Pour jouer à « Où travaillent-ils ? » : un élève dit un métier, un autre répond par une phrase complète. Exemple : « Le mécanicien travaille dans un garage. »"
+        },
+        {
+          "type": "schema",
+          "titre": "Les métiers de l'aéroport : le parcours d'un passager",
+          "svg": "<svg width='320' height='232' viewBox='0 0 320 232' xmlns='http://www.w3.org/2000/svg'><text x='160' y='14' font-size='11.5' font-weight='bold' text-anchor='middle' fill='#333'>Du hall d'entrée à l'avion</text><rect x='6' y='24' width='138' height='34' rx='8' fill='#b3e5fc' stroke='#4fc3f7' stroke-width='1.5'/><text x='75' y='45' font-size='10.5' font-weight='bold' text-anchor='middle' fill='#333'>1. Enregistrement</text><line x1='146' y1='41' x2='164' y2='41' stroke='#757575' stroke-width='2'/><polygon points='164,36 172,41 164,46' fill='#757575'/><rect x='174' y='24' width='140' height='34' rx='8' fill='#ffffff' stroke='#4fc3f7' stroke-width='1.5'/><text x='244' y='45' font-size='10' text-anchor='middle' fill='#333'>agent d'escale, bagagiste</text><rect x='6' y='66' width='138' height='34' rx='8' fill='#c8e6c9' stroke='#81c784' stroke-width='1.5'/><text x='75' y='87' font-size='10.5' font-weight='bold' text-anchor='middle' fill='#333'>2. Contrôle de sûreté</text><line x1='146' y1='83' x2='164' y2='83' stroke='#757575' stroke-width='2'/><polygon points='164,78 172,83 164,88' fill='#757575'/><rect x='174' y='66' width='140' height='34' rx='8' fill='#ffffff' stroke='#81c784' stroke-width='1.5'/><text x='244' y='87' font-size='10' text-anchor='middle' fill='#333'>agent de sûreté</text><rect x='6' y='108' width='138' height='34' rx='8' fill='#fff3cd' stroke='#f9a825' stroke-width='1.5'/><text x='75' y='129' font-size='10.5' font-weight='bold' text-anchor='middle' fill='#333'>3. Passeports</text><line x1='146' y1='125' x2='164' y2='125' stroke='#757575' stroke-width='2'/><polygon points='164,120 172,125 164,130' fill='#757575'/><rect x='174' y='108' width='140' height='34' rx='8' fill='#ffffff' stroke='#f9a825' stroke-width='1.5'/><text x='244' y='129' font-size='10' text-anchor='middle' fill='#333'>policier aux frontières</text><rect x='6' y='150' width='138' height='34' rx='8' fill='#ffe0b2' stroke='#ffb74d' stroke-width='1.5'/><text x='75' y='171' font-size='10.5' font-weight='bold' text-anchor='middle' fill='#333'>4. Embarquement</text><line x1='146' y1='167' x2='164' y2='167' stroke='#757575' stroke-width='2'/><polygon points='164,162 172,167 164,172' fill='#757575'/><rect x='174' y='150' width='140' height='34' rx='8' fill='#ffffff' stroke='#ffb74d' stroke-width='1.5'/><text x='244' y='171' font-size='10' text-anchor='middle' fill='#333'>hôtesse de l'air, steward</text><rect x='6' y='192' width='138' height='34' rx='8' fill='#f8bbd0' stroke='#f06292' stroke-width='1.5'/><text x='75' y='213' font-size='10.5' font-weight='bold' text-anchor='middle' fill='#333'>5. Vol</text><line x1='146' y1='209' x2='164' y2='209' stroke='#757575' stroke-width='2'/><polygon points='164,204 172,209 164,214' fill='#757575'/><rect x='174' y='192' width='140' height='34' rx='8' fill='#ffffff' stroke='#f06292' stroke-width='1.5'/><text x='244' y='213' font-size='10' text-anchor='middle' fill='#333'>pilote, copilote</text></svg>",
+          "legende": "À chaque étape, un métier différent."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les métiers de l'aéroport",
+          "entetes": ["Métier", "Ce qu'il fait"],
+          "lignes": [
+            ["Le pilote", "Conduit l'avion"],
+            ["L'hôtesse de l'air, le steward", "Accueillent les passagers, assurent leur sécurité et leur confort à bord"],
+            ["Le contrôleur aérien", "Guide les avions au décollage, en vol et à l'atterrissage depuis la tour de contrôle"],
+            ["L'agent d'escale", "Enregistre les passagers et leurs bagages"],
+            ["Le bagagiste", "Charge et décharge les bagages"],
+            ["Le mécanicien d'avion", "Vérifie et répare les avions"],
+            ["L'agent de sûreté", "Contrôle les bagages et les passagers pour éviter les dangers"],
+            ["Le douanier", "Contrôle les marchandises qui entrent ou sortent du pays"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Les métiers de la musique",
+          "entetes": ["Métier", "Ce qu'il fait"],
+          "lignes": [
+            ["Le chanteur, la chanteuse", "Interprète des chansons avec sa voix"],
+            ["Le musicien, l'instrumentiste", "Joue d'un instrument (guitare, piano, valiha…)"],
+            ["Le compositeur", "Crée la musique d'une œuvre"],
+            ["Le parolier", "Écrit les paroles d'une chanson"],
+            ["Le chef d'orchestre", "Dirige un orchestre"],
+            ["L'ingénieur du son", "Enregistre, règle et mixe les sons"],
+            ["Le producteur", "Organise et finance l'enregistrement d'un disque"],
+            ["Le professeur de musique", "Enseigne la musique et le chant"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "enonce": "1. Associe chaque métier à son lieu de travail : le pêcheur ; le mécanicien ; l'avocat ; le boulanger ; le contrôleur aérien ; l'ingénieur du son.\nLieux : a) la tour de contrôle ; b) le studio d'enregistrement ; c) la mer ou le lac ; d) le garage ; e) la boulangerie ; f) le cabinet ou le tribunal.\n2. Cite deux métiers de l'aéroport et dis ce que fait chacun.\n3. Qui compose la musique ? Qui écrit les paroles ? Qui dirige un orchestre ?\n4. Écris une phrase complète sur le lieu de travail d'une infirmière.",
+          "solution": "1. Le pêcheur : c ; le mécanicien : d ; l'avocat : f ; le boulanger : e ; le contrôleur aérien : a ; l'ingénieur du son : b.\n2. Par exemple : le pilote conduit l'avion ; l'agent d'escale enregistre les passagers et leurs bagages.\n3. Le compositeur ; le parolier ; le chef d'orchestre.\n4. Par exemple : « L'infirmière travaille dans un hôpital ou dans un centre de santé. »"
+        }
+      ],
+      "lexique": [
+        { "terme": "Lieu de travail", "definition": "Endroit où l'on exerce son métier." },
+        { "terme": "Aéroport", "definition": "Lieu où les avions décollent et atterrissent." },
+        { "terme": "Tour de contrôle", "definition": "Bâtiment d'où l'on guide les avions dans un aéroport." },
+        { "terme": "Escale", "definition": "Arrêt d'un avion ou d'un bateau dans un lieu au cours d'un voyage." },
+        { "terme": "Compositeur", "definition": "Personne qui crée de la musique." },
+        { "terme": "Orchestre", "definition": "Groupe de musiciens qui jouent ensemble." }
+      ]
+    },
+    {
+      "id": "fr-7-3",
+      "titre": "Parler d'un métier et de sa vocation",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Vocation",
+          "texte": "Une <b>vocation</b> est une forte envie d'exercer un certain métier. Elle est <b>précoce</b> quand elle apparaît très tôt, dès l'enfance."
+        },
+        {
+          "type": "schema",
+          "titre": "La fiche d'un métier",
+          "svg": "<svg width='320' height='206' viewBox='0 0 320 206' xmlns='http://www.w3.org/2000/svg'><text x='160' y='14' font-size='11.5' font-weight='bold' text-anchor='middle' fill='#333'>Cinq questions pour présenter un métier</text><rect x='6' y='24' width='116' height='30' rx='8' fill='#ffcdd2' stroke='#e57373' stroke-width='1.5'/><text x='64' y='43' font-size='10.5' font-weight='bold' text-anchor='middle' fill='#333'>Les tâches</text><rect x='130' y='24' width='184' height='30' rx='8' fill='#ffffff' stroke='#e57373' stroke-width='1.5'/><text x='222' y='43' font-size='10' text-anchor='middle' fill='#333'>Que fait cette personne ?</text><rect x='6' y='60' width='116' height='30' rx='8' fill='#ffe0b2' stroke='#ffb74d' stroke-width='1.5'/><text x='64' y='79' font-size='10.5' font-weight='bold' text-anchor='middle' fill='#333'>Le lieu</text><rect x='130' y='60' width='184' height='30' rx='8' fill='#ffffff' stroke='#ffb74d' stroke-width='1.5'/><text x='222' y='79' font-size='10' text-anchor='middle' fill='#333'>Où travaille-t-elle ?</text><rect x='6' y='96' width='116' height='30' rx='8' fill='#c8e6c9' stroke='#81c784' stroke-width='1.5'/><text x='64' y='115' font-size='10.5' font-weight='bold' text-anchor='middle' fill='#333'>La formation</text><rect x='130' y='96' width='184' height='30' rx='8' fill='#ffffff' stroke='#81c784' stroke-width='1.5'/><text x='222' y='115' font-size='10' text-anchor='middle' fill='#333'>Quelles études, quel diplôme ?</text><rect x='6' y='132' width='116' height='30' rx='8' fill='#b3e5fc' stroke='#4fc3f7' stroke-width='1.5'/><text x='64' y='151' font-size='10.5' font-weight='bold' text-anchor='middle' fill='#333'>Les qualités</text><rect x='130' y='132' width='184' height='30' rx='8' fill='#ffffff' stroke='#4fc3f7' stroke-width='1.5'/><text x='222' y='151' font-size='10' text-anchor='middle' fill='#333'>Quelles qualités faut-il ?</text><rect x='6' y='168' width='116' height='30' rx='8' fill='#e1bee7' stroke='#ba68c8' stroke-width='1.5'/><text x='64' y='187' font-size='10.5' font-weight='bold' text-anchor='middle' fill='#333'>Le bilan</text><rect x='130' y='168' width='184' height='30' rx='8' fill='#ffffff' stroke='#ba68c8' stroke-width='1.5'/><text x='222' y='187' font-size='10' text-anchor='middle' fill='#333'>Quels avantages et quelles difficultés ?</text></svg>",
+          "legende": "Avec ces cinq questions, on peut présenter n'importe quel métier."
+        },
+        {
+          "type": "exemple",
+          "titre": "Texte modèle : Le métier d'infirmière",
+          "texte": "L'infirmière travaille dans un hôpital, un centre de santé ou un dispensaire. Elle accueille les patients, prend leur température et leur tension, fait les pansements et les soins prescrits par le médecin. Elle surveille aussi l'état des malades et les rassure. Pour exercer ce métier, il faut suivre une formation et obtenir un diplôme. Il faut être patient, attentif, courageux et respecter le secret professionnel. Ce métier est exigeant, car il comporte des gardes de nuit et beaucoup de fatigue ; cependant, il apporte la grande satisfaction d'aider les autres."
+        },
+        {
+          "type": "tableau",
+          "titre": "Des qualités pour des métiers",
+          "entetes": ["Qualité", "Métier où elle est précieuse", "Pourquoi ?"],
+          "lignes": [
+            ["La patience", "Enseignant, infirmier", "Il faut expliquer ou soigner sans se décourager"],
+            ["La rigueur", "Ingénieur, comptable, pilote", "Une erreur peut avoir de graves conséquences"],
+            ["La créativité", "Graphiste, artiste, architecte", "Il faut imaginer des idées nouvelles"],
+            ["L'écoute", "Médecin, avocat, conseiller", "Il faut comprendre les besoins de l'autre"],
+            ["L'endurance", "Agriculteur, pêcheur, maçon", "Le travail physique est long et fatigant"]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Étudier un texte sur une vocation",
+          "texte": "1. Qui parle ? S'agit-il d'un récit à la première personne ?\n2. Quel métier est évoqué ?\n3. Quand et comment l'envie de ce métier est-elle née ?\n4. Pour quelles raisons le personnage veut-il ce métier ?\n5. Y a-t-il des obstacles ou des doutes ?\n6. Relève les mots du champ lexical du métier."
+        },
+        {
+          "type": "exercice",
+          "enonce": "À partir du texte modèle :\n1. Où travaille l'infirmière ?\n2. Relève quatre tâches qu'elle accomplit.\n3. Relève deux qualités nécessaires pour ce métier.\n4. Quelle relation logique exprime « car » dans la dernière phrase ? et « cependant » ?\n5. À ton tour, présente en cinq phrases le métier d'enseignant ou d'agriculteur en suivant la fiche de cinq questions.",
+          "solution": "1. Dans un hôpital, un centre de santé ou un dispensaire.\n2. Par exemple : accueillir les patients ; prendre la température et la tension ; faire des pansements et des soins ; surveiller l'état des malades ; rassurer.\n3. Par exemple : patience, attention, courage.\n4. « car » exprime la cause ; « cependant » exprime l'opposition.\n5. Par exemple : « L'agriculteur cultive la terre et élève parfois des animaux. Il travaille dans les champs et les rizières. Il apprend son métier avec sa famille ou dans une école d'agriculture. Il doit être courageux, endurant et patient. Son travail est fatigant, cependant il nourrit toute la population. »"
+        }
+      ],
+      "lexique": [
+        { "terme": "Vocation", "definition": "Forte envie d'exercer un métier précis." },
+        { "terme": "Précoce", "definition": "Qui apparaît très tôt, plus tôt que d'habitude." },
+        { "terme": "Formation", "definition": "Apprentissage nécessaire pour exercer un métier." },
+        { "terme": "Secret professionnel", "definition": "Obligation de ne pas révéler ce que l'on apprend dans l'exercice de son métier." },
+        { "terme": "Exigeant", "definition": "Qui demande beaucoup d'efforts." },
+        { "terme": "Garde", "definition": "Service assuré la nuit, le week-end ou en urgence, en plus des horaires normaux." }
+      ]
+    },
+    {
+      "id": "fr-7-4",
+      "titre": "Les quatre compétences du 21e siècle",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "Le monde change vite : de nouveaux métiers apparaissent, d'autres se transforment. Pour s'adapter, on a besoin de compétences qui servent dans tous les métiers. On en retient quatre, souvent appelées les « <b>4 C</b> » : créativité, esprit critique, coopération et communication."
+        },
+        {
+          "type": "schema",
+          "titre": "Les quatre compétences phares",
+          "svg": "<svg width='320' height='172' viewBox='0 0 320 172' xmlns='http://www.w3.org/2000/svg'><rect x='6' y='6' width='150' height='64' rx='10' fill='#ffe0b2' stroke='#ffb74d' stroke-width='1.5'/><text x='81' y='24' font-size='11.5' font-weight='bold' text-anchor='middle' fill='#333'>Créativité</text><text x='81' y='42' font-size='10' text-anchor='middle' fill='#333'>imaginer des idées</text><text x='81' y='56' font-size='10' text-anchor='middle' fill='#333'>nouvelles</text><rect x='164' y='6' width='150' height='64' rx='10' fill='#b3e5fc' stroke='#4fc3f7' stroke-width='1.5'/><text x='239' y='24' font-size='11.5' font-weight='bold' text-anchor='middle' fill='#333'>Esprit critique</text><text x='239' y='42' font-size='10' text-anchor='middle' fill='#333'>analyser, vérifier,</text><text x='239' y='56' font-size='10' text-anchor='middle' fill='#333'>ne pas tout croire</text><rect x='6' y='102' width='150' height='64' rx='10' fill='#c8e6c9' stroke='#81c784' stroke-width='1.5'/><text x='81' y='120' font-size='11.5' font-weight='bold' text-anchor='middle' fill='#333'>Coopération</text><text x='81' y='138' font-size='10' text-anchor='middle' fill='#333'>travailler ensemble</text><text x='81' y='152' font-size='10' text-anchor='middle' fill='#333'>pour un but commun</text><rect x='164' y='102' width='150' height='64' rx='10' fill='#f8bbd0' stroke='#f06292' stroke-width='1.5'/><text x='239' y='120' font-size='11.5' font-weight='bold' text-anchor='middle' fill='#333'>Communication</text><text x='239' y='138' font-size='10' text-anchor='middle' fill='#333'>s'exprimer clairement</text><text x='239' y='152' font-size='10' text-anchor='middle' fill='#333'>et savoir écouter</text><ellipse cx='160' cy='86' rx='70' ry='14' fill='#fff3cd' stroke='#f9a825' stroke-width='2'/><text x='160' y='90' font-size='10.5' font-weight='bold' text-anchor='middle' fill='#333'>Les 4 compétences</text></svg>",
+          "legende": "Quatre compétences utiles à l'école, au travail et dans la vie."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les quatre compétences en détail",
+          "entetes": ["Compétence", "Définition", "À l'école", "Au travail"],
+          "lignes": [
+            ["Créativité", "Capacité à imaginer des idées, des solutions nouvelles", "Trouver une façon originale de présenter un exposé", "Un artisan invente un nouveau modèle de panier"],
+            ["Esprit critique", "Capacité à analyser, à vérifier et à juger une information", "Vérifier une source avant de recopier une information", "Un journaliste vérifie un fait avant de le publier"],
+            ["Coopération", "Capacité à travailler avec d'autres pour atteindre un but commun", "Se répartir les tâches dans un travail de groupe", "Une équipe de soignants s'organise autour d'un malade"],
+            ["Communication", "Capacité à s'exprimer clairement, à l'oral et à l'écrit, et à écouter", "Expliquer sa réponse en classe, rédiger un texte clair", "Un vendeur présente son produit à un client"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Ces compétences ne remplacent pas les connaissances (les maths, le français, les sciences) : elles permettent de <b>mieux les utiliser</b>. On les développe en s'entraînant : débats, travaux de groupe, projets, exposés."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Quelle compétence est illustrée dans chaque situation ?\n1. Un élève propose une manière nouvelle de présenter son exposé.\n2. Une élève vérifie l'auteur et la date d'un texte avant de le citer.\n3. Les élèves se partagent les tâches du projet de classe.\n4. Un élève explique clairement sa réponse à l'oral.\n5. Choisis un métier et explique en une phrase comment une de ces compétences y est utile.",
+          "solution": "1. La créativité.\n2. L'esprit critique.\n3. La coopération.\n4. La communication.\n5. Par exemple : « Un médecin a besoin de communication pour expliquer clairement un traitement à son patient. »"
+        }
+      ],
+      "lexique": [
+        { "terme": "Compétence", "definition": "Capacité à faire quelque chose de façon efficace." },
+        { "terme": "Créativité", "definition": "Capacité à imaginer des idées nouvelles." },
+        { "terme": "Esprit critique", "definition": "Capacité à examiner et à vérifier avant d'accepter une idée." },
+        { "terme": "Coopération", "definition": "Fait de travailler ensemble vers un même but." },
+        { "terme": "Communication", "definition": "Échange d'informations, d'idées ou de sentiments." },
+        { "terme": "S'adapter", "definition": "Se mettre en accord avec une situation nouvelle." }
+      ]
+    },
+    {
+      "id": "fr-7-5",
+      "titre": "Le CV",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Curriculum vitae (CV)",
+          "texte": "Le <b>CV</b> (<i>curriculum vitae</i>, expression latine qui signifie « cours de la vie ») est un document court qui présente une personne : sa formation, son expérience, ses compétences. On l'envoie avec une candidature pour obtenir un stage, un emploi ou une place en formation."
+        },
+        {
+          "type": "schema",
+          "titre": "Un exemple de CV d'élève",
+          "svg": "<svg width='320' height='264' viewBox='0 0 320 264' xmlns='http://www.w3.org/2000/svg'><rect x='14' y='4' width='292' height='256' rx='8' fill='#ffffff' stroke='#9e9e9e' stroke-width='1.5'/><rect x='22' y='12' width='276' height='36' rx='6' fill='#b3e5fc' stroke='#4fc3f7'/><text x='30' y='27' font-size='10.5' font-weight='bold' fill='#333'>En-tête</text><text x='30' y='41' font-size='9.5' fill='#333'>RAKOTO Aina · Antananarivo · téléphone</text><rect x='22' y='53' width='276' height='36' rx='6' fill='#fff3cd' stroke='#f9a825'/><text x='30' y='68' font-size='10.5' font-weight='bold' fill='#333'>Objectif professionnel</text><text x='30' y='82' font-size='9.5' fill='#333'>Entrer en lycée technique (électricité)</text><rect x='22' y='94' width='276' height='36' rx='6' fill='#c8e6c9' stroke='#81c784'/><text x='30' y='109' font-size='10.5' font-weight='bold' fill='#333'>Formation</text><text x='30' y='123' font-size='9.5' fill='#333'>Classe de 3e en cours · BEPC en préparation</text><rect x='22' y='135' width='276' height='36' rx='6' fill='#ffe0b2' stroke='#ffb74d'/><text x='30' y='150' font-size='10.5' font-weight='bold' fill='#333'>Expérience professionnelle</text><text x='30' y='164' font-size='9.5' fill='#333'>Stage d'observation : atelier d'électricité</text><rect x='22' y='176' width='276' height='36' rx='6' fill='#e1bee7' stroke='#ba68c8'/><text x='30' y='191' font-size='10.5' font-weight='bold' fill='#333'>Compétences</text><text x='30' y='205' font-size='9.5' fill='#333'>Équipe · rigueur · bureautique de base</text><rect x='22' y='217' width='276' height='36' rx='6' fill='#f8bbd0' stroke='#f06292'/><text x='30' y='232' font-size='10.5' font-weight='bold' fill='#333'>Centres d'intérêt</text><text x='30' y='246' font-size='9.5' fill='#333'>Football · lecture · club de sciences</text></svg>",
+          "legende": "Un CV d'élève imaginé : six rubriques, tenant sur une page."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les rubriques d'un CV",
+          "entetes": ["Rubrique", "Contenu"],
+          "lignes": [
+            ["L'en-tête", "Nom, prénom, adresse, téléphone, adresse électronique"],
+            ["L'objectif professionnel", "En une phrase, le poste, le stage ou la formation que l'on vise"],
+            ["La formation", "Les études et les diplômes, du plus récent au plus ancien"],
+            ["L'expérience professionnelle", "Les emplois, stages ou petits travaux déjà faits, du plus récent au plus ancien"],
+            ["Les compétences", "Ce que l'on sait faire : langues, informatique, travail en équipe…"],
+            ["Les centres d'intérêt", "Les loisirs et activités qui montrent la personnalité"]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Réussir son CV",
+          "texte": "1. Tiens-le sur une page, avec des rubriques bien séparées.\n2. Écris des phrases courtes, avec des mots simples et précis.\n3. Classe la formation et l'expérience du plus récent au plus ancien.\n4. Adapte l'objectif et les compétences à la demande (stage, emploi ou formation).\n5. Sois honnête : ne mens jamais sur tes diplômes ou tes compétences.\n6. Relis pour corriger les fautes d'orthographe."
+        },
+        {
+          "type": "remarque",
+          "texte": "Le CV est souvent accompagné d'une <b>lettre de motivation</b>, qui explique pourquoi on veut ce poste ou cette formation. Elle est écrite dans un registre soutenu et se termine par une formule de politesse."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1. Que signifie « curriculum vitae » ?\n2. Dans quelle rubrique place-t-on chaque élément : « Football, dessin » ; « BEPC (en préparation) » ; « Stage d'observation dans une pharmacie » ; « Utilise Word et Excel » ; « RAKOTO Aina, Antananarivo » ?\n3. Dans quel ordre classe-t-on la formation et l'expérience ?\n4. Rédige en une phrase l'objectif professionnel d'un élève qui voudrait devenir infirmier ou infirmière.\n5. Pourquoi ne faut-il jamais mentir sur un CV ?",
+          "solution": "1. « Cours de la vie » (expression latine).\n2. « Football, dessin » : centres d'intérêt ; « BEPC (en préparation) » : formation ; « Stage d'observation dans une pharmacie » : expérience professionnelle ; « Utilise Word et Excel » : compétences ; « RAKOTO Aina, Antananarivo » : en-tête.\n3. Du plus récent au plus ancien.\n4. Par exemple : « Poursuivre mes études dans une école de santé afin de devenir infirmière. »\n5. Parce que le mensonge peut être découvert, qu'il fait perdre la confiance de l'employeur et qu'il empêche de trouver une place adaptée à ses vraies compétences."
+        }
+      ],
+      "lexique": [
+        { "terme": "Curriculum vitae", "definition": "Document qui présente la formation, l'expérience et les compétences d'une personne." },
+        { "terme": "Candidature", "definition": "Demande faite pour obtenir un emploi, un stage ou une place." },
+        { "terme": "Objectif professionnel", "definition": "Poste ou formation que l'on souhaite obtenir." },
+        { "terme": "Expérience professionnelle", "definition": "Emplois ou stages déjà effectués." },
+        { "terme": "Centre d'intérêt", "definition": "Activité ou loisir que l'on aime pratiquer." },
+        { "terme": "Lettre de motivation", "definition": "Lettre qui explique pourquoi on veut un poste ou une formation." }
+      ]
+    }
+  ]
+}
