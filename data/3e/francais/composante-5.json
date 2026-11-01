@@ -1,0 +1,305 @@
+{
+  "id": "fr-theme5",
+  "titre": "Thème V : Alimentation et santé",
+  "lecons": [
+    {
+      "id": "fr-5-1",
+      "titre": "Les aliments et leurs rôles",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Alimentation équilibrée",
+          "texte": "Une <b>alimentation équilibrée</b> apporte au corps, en bonne quantité, tout ce dont il a besoin pour grandir, avoir de l'énergie et se protéger des maladies. Aucun aliment ne contient tout : il faut <b>varier</b> les aliments."
+        },
+        {
+          "type": "schema",
+          "titre": "Les quatre grands groupes",
+          "svg": "<svg width='320' height='190' viewBox='0 0 320 190' xmlns='http://www.w3.org/2000/svg'><rect x='6' y='6' width='150' height='86' rx='10' fill='#ffcdd2' stroke='#e57373' stroke-width='1.5'/><text x='81' y='24' font-size='11.5' font-weight='bold' text-anchor='middle' fill='#333'>Aliments bâtisseurs</text><text x='81' y='38' font-size='10' font-style='italic' text-anchor='middle' fill='#333'>construisent le corps</text><text x='81' y='55' font-size='10' text-anchor='middle' fill='#333'>viande, poisson, œufs</text><text x='81' y='68' font-size='10' text-anchor='middle' fill='#333'>lait, fromage, yaourt</text><text x='81' y='81' font-size='10' text-anchor='middle' fill='#333'>haricots, pois</text><rect x='164' y='6' width='150' height='86' rx='10' fill='#ffe0b2' stroke='#ffb74d' stroke-width='1.5'/><text x='239' y='24' font-size='11.5' font-weight='bold' text-anchor='middle' fill='#333'>Aliments énergétiques</text><text x='239' y='38' font-size='10' font-style='italic' text-anchor='middle' fill='#333'>donnent de l'énergie</text><text x='239' y='55' font-size='10' text-anchor='middle' fill='#333'>riz, manioc, pain, maïs</text><text x='239' y='68' font-size='10' text-anchor='middle' fill='#333'>patate douce, pâtes</text><text x='239' y='81' font-size='10' text-anchor='middle' fill='#333'>huile, sucre (à limiter)</text><rect x='6' y='98' width='150' height='86' rx='10' fill='#c8e6c9' stroke='#81c784' stroke-width='1.5'/><text x='81' y='116' font-size='11.5' font-weight='bold' text-anchor='middle' fill='#333'>Aliments protecteurs</text><text x='81' y='130' font-size='10' font-style='italic' text-anchor='middle' fill='#333'>protègent le corps</text><text x='81' y='147' font-size='10' text-anchor='middle' fill='#333'>fruits (mangue, banane)</text><text x='81' y='160' font-size='10' text-anchor='middle' fill='#333'>légumes et brèdes</text><text x='81' y='173' font-size='10' text-anchor='middle' fill='#333'>vitamines et minéraux</text><rect x='164' y='98' width='150' height='86' rx='10' fill='#b3e5fc' stroke='#4fc3f7' stroke-width='1.5'/><text x='239' y='116' font-size='11.5' font-weight='bold' text-anchor='middle' fill='#333'>L'eau</text><text x='239' y='130' font-size='10' font-style='italic' text-anchor='middle' fill='#333'>hydrate le corps</text><text x='239' y='147' font-size='10' text-anchor='middle' fill='#333'>à boire à volonté</text><text x='239' y='160' font-size='10' text-anchor='middle' fill='#333'>plusieurs verres par jour</text><text x='239' y='173' font-size='10' text-anchor='middle' fill='#333'>mieux que les sodas</text></svg>",
+          "legende": "Chaque groupe a un rôle différent : il faut un peu de tous les groupes."
+        },
+        {
+          "type": "tableau",
+          "titre": "Rôle de chaque groupe d'aliments",
+          "entetes": ["Groupe", "Rôle", "Exemples"],
+          "lignes": [
+            ["Bâtisseurs", "Construire et réparer les muscles, les os, les organes (croissance)", "viande de zébu, poisson, œufs, lait, haricots"],
+            ["Énergétiques", "Fournir l'énergie pour bouger, travailler, étudier", "riz, manioc, pain, maïs, huile"],
+            ["Protecteurs", "Apporter vitamines et minéraux qui protègent contre les maladies", "mangue, orange, banane, tomate, brèdes"],
+            ["L'eau", "Hydrater le corps, aider la digestion, éliminer les déchets", "eau potable"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Les <b>féculents</b> (riz, manioc, pain…) donnent de l'énergie, mais le corps a aussi besoin des légumes, des fruits et des aliments riches en protéines. Un repas équilibré contient donc plusieurs groupes."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Classe ces aliments dans le bon groupe (bâtisseurs, énergétiques, protecteurs, eau) :\n1. un œuf ; 2. le manioc ; 3. une mangue ; 4. l'huile ; 5. les brèdes ; 6. le riz ; 7. le poisson ; 8. un verre d'eau.\n9. Pourquoi faut-il varier les aliments ?",
+          "solution": "1. bâtisseur ;\n2. énergétique ;\n3. protecteur ;\n4. énergétique ;\n5. protecteur ;\n6. énergétique ;\n7. bâtisseur ;\n8. eau.\n9. Parce qu'aucun aliment ne contient tout ce dont le corps a besoin : chaque groupe a un rôle différent."
+        }
+      ],
+      "lexique": [
+        { "terme": "Aliment", "definition": "Produit que l'on mange ou boit pour nourrir son corps." },
+        { "terme": "Alimentation équilibrée", "definition": "Alimentation variée qui apporte au corps tout ce dont il a besoin." },
+        { "terme": "Féculent", "definition": "Aliment riche en amidon qui donne de l'énergie (riz, manioc, pain…)." },
+        { "terme": "Vitamine", "definition": "Substance présente dans les fruits et légumes, utile à la santé." },
+        { "terme": "Hydratation", "definition": "Apport d'eau au corps." },
+        { "terme": "Croissance", "definition": "Fait de grandir, de se développer." }
+      ]
+    },
+    {
+      "id": "fr-5-2",
+      "titre": "Le petit déjeuner et la forme à l'école",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "Après la nuit, le corps a besoin de carburant. Un élève qui ne déjeune pas le matin se fatigue vite, se concentre mal et peut avoir faim avant la récréation. Un <b>petit déjeuner équilibré</b> contient quatre éléments."
+        },
+        {
+          "type": "schema",
+          "titre": "Un petit déjeuner équilibré",
+          "svg": "<svg width='320' height='166' viewBox='0 0 320 166' xmlns='http://www.w3.org/2000/svg'><text x='160' y='16' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>Le petit déjeuner équilibré</text><rect x='4' y='26' width='72' height='96' rx='10' fill='#f8bbd0' stroke='#f06292' stroke-width='1.5'/><text x='40' y='46' font-size='10.5' font-weight='bold' text-anchor='middle' fill='#333'>Un fruit</text><text x='40' y='60' font-size='10.5' font-weight='bold' text-anchor='middle' fill='#333'>ou un jus</text><text x='40' y='80' font-size='9.5' font-style='italic' text-anchor='middle' fill='#333'>mangue,</text><text x='40' y='92' font-size='9.5' font-style='italic' text-anchor='middle' fill='#333'>banane,</text><text x='40' y='104' font-size='9.5' font-style='italic' text-anchor='middle' fill='#333'>orange…</text><rect x='84' y='26' width='72' height='96' rx='10' fill='#b3e5fc' stroke='#4fc3f7' stroke-width='1.5'/><text x='120' y='46' font-size='10.5' font-weight='bold' text-anchor='middle' fill='#333'>Une</text><text x='120' y='60' font-size='10.5' font-weight='bold' text-anchor='middle' fill='#333'>boisson</text><text x='120' y='80' font-size='9.5' font-style='italic' text-anchor='middle' fill='#333'>eau, thé,</text><text x='120' y='92' font-size='9.5' font-style='italic' text-anchor='middle' fill='#333'>tisane</text><rect x='164' y='26' width='72' height='96' rx='10' fill='#fff3cd' stroke='#f9a825' stroke-width='1.5'/><text x='200' y='46' font-size='10.5' font-weight='bold' text-anchor='middle' fill='#333'>Un produit</text><text x='200' y='60' font-size='10.5' font-weight='bold' text-anchor='middle' fill='#333'>laitier</text><text x='200' y='80' font-size='9.5' font-style='italic' text-anchor='middle' fill='#333'>lait, yaourt,</text><text x='200' y='92' font-size='9.5' font-style='italic' text-anchor='middle' fill='#333'>fromage</text><rect x='244' y='26' width='72' height='96' rx='10' fill='#ffe0b2' stroke='#ffb74d' stroke-width='1.5'/><text x='280' y='46' font-size='10.5' font-weight='bold' text-anchor='middle' fill='#333'>Un produit</text><text x='280' y='60' font-size='10.5' font-weight='bold' text-anchor='middle' fill='#333'>céréalier</text><text x='280' y='80' font-size='9.5' font-style='italic' text-anchor='middle' fill='#333'>pain, riz,</text><text x='280' y='92' font-size='9.5' font-style='italic' text-anchor='middle' fill='#333'>céréales</text><rect x='4' y='130' width='312' height='32' rx='8' fill='#e8f5e9' stroke='#81c784' stroke-width='1.5'/><text x='160' y='150' font-size='10.5' text-anchor='middle' fill='#333'>= de l'énergie pour tenir toute la matinée</text></svg>",
+          "legende": "Quatre éléments : un fruit, une boisson, un produit laitier, un produit céréalier."
+        },
+        {
+          "type": "tableau",
+          "titre": "Petit déjeuner équilibré ou déséquilibré ?",
+          "entetes": ["Petit déjeuner", "Équilibré ?", "Pourquoi ?"],
+          "lignes": [
+            ["Pain + yaourt + banane + eau", "Oui", "Il contient les quatre éléments."],
+            ["Un soda et des bonbons", "Non", "Beaucoup de sucre, aucune vitamine, très peu d'énergie durable."],
+            ["Rien du tout", "Non", "Le corps manque d'énergie et la concentration baisse."],
+            ["Riz + jus de fruit + lait", "Oui", "Féculent, fruit et produit laitier sont présents (une boisson peut compléter)."]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Dix conseils pour arriver en forme à l'école",
+          "texte": "1. Dormir assez (environ 8 à 10 heures à cet âge).\n2. Prendre un petit déjeuner équilibré.\n3. Boire de l'eau régulièrement.\n4. Manger varié aux repas.\n5. Ne pas sauter de repas.\n6. Préparer son sac la veille, pour ne pas partir en courant.\n7. Partir à l'heure et marcher si l'école est proche.\n8. Éviter les écrans tard le soir.\n9. Se laver les mains avant de manger.\n10. Bouger et jouer pendant la récréation."
+        },
+        {
+          "type": "remarque",
+          "texte": "Ces conseils sont des propositions de bon sens, utiles pour réviser comme pour passer le BEPC. Le jour de l'examen, un bon petit déjeuner et une bonne nuit comptent autant que la révision."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1. Cite les quatre éléments d'un petit déjeuner équilibré.\n2. Compose un petit déjeuner équilibré avec des aliments que tu trouves facilement.\n3. Pourquoi ne faut-il pas sauter le petit déjeuner ?\n4. Un élève prend un soda et un biscuit sucré le matin. Que lui conseilles-tu ?\n5. Cite trois conseils pour arriver en forme à l'école.",
+          "solution": "1. Un fruit ou un jus ; une boisson ; un produit laitier ; un produit céréalier.\n2. Par exemple : une banane, du pain, un yaourt et de l'eau.\n3. Parce que le corps a besoin d'énergie après la nuit : sans cela, on se fatigue, on se concentre mal et on a faim très tôt.\n4. Remplacer le soda par de l'eau ou du jus de fruit, et ajouter un fruit, un produit laitier et du pain ou du riz.\n5. Par exemple : bien dormir, boire de l'eau, ne pas sauter de repas."
+        }
+      ],
+      "lexique": [
+        { "terme": "Petit déjeuner", "definition": "Premier repas de la journée." },
+        { "terme": "Produit laitier", "definition": "Aliment fabriqué à partir du lait (yaourt, fromage…)." },
+        { "terme": "Produit céréalier", "definition": "Aliment fabriqué à partir de céréales (pain, riz, maïs…)." },
+        { "terme": "Concentration", "definition": "Capacité à fixer son attention sur une tâche." },
+        { "terme": "Récréation", "definition": "Pause entre deux cours." }
+      ]
+    },
+    {
+      "id": "fr-5-3",
+      "titre": "Manger, bouger, c'est la santé",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "Pour rester en bonne santé, il faut associer deux habitudes : bien manger et bouger. Le schéma résume les repères à retenir."
+        },
+        {
+          "type": "schema",
+          "titre": "Les repères pour chaque jour",
+          "svg": "<svg width='320' height='248' viewBox='0 0 320 248' xmlns='http://www.w3.org/2000/svg'><text x='160' y='16' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>Manger, bouger : les repères</text><rect x='6' y='24' width='308' height='26' rx='8' fill='#b3e5fc' stroke='#4fc3f7' stroke-width='1.5'/><text x='14' y='41' font-size='11' font-weight='bold' fill='#333'>Eau</text><text x='306' y='41' font-size='10.5' text-anchor='end' fill='#333'>à volonté</text><rect x='6' y='56' width='308' height='26' rx='8' fill='#c8e6c9' stroke='#81c784' stroke-width='1.5'/><text x='14' y='73' font-size='11' font-weight='bold' fill='#333'>Légumes et fruits</text><text x='306' y='73' font-size='10.5' text-anchor='end' fill='#333'>au moins 5 par jour</text><rect x='6' y='88' width='308' height='26' rx='8' fill='#ffe0b2' stroke='#ffb74d' stroke-width='1.5'/><text x='14' y='105' font-size='11' font-weight='bold' fill='#333'>Féculents</text><text x='306' y='105' font-size='10.5' text-anchor='end' fill='#333'>à chaque repas</text><rect x='6' y='120' width='308' height='26' rx='8' fill='#fff3cd' stroke='#f9a825' stroke-width='1.5'/><text x='14' y='137' font-size='11' font-weight='bold' fill='#333'>Lait, fromage, yaourt</text><text x='306' y='137' font-size='10.5' text-anchor='end' fill='#333'>2 à 3 par jour</text><rect x='6' y='152' width='308' height='26' rx='8' fill='#ffcdd2' stroke='#e57373' stroke-width='1.5'/><text x='14' y='169' font-size='11' font-weight='bold' fill='#333'>Viande, poisson, œufs</text><text x='306' y='169' font-size='10.5' text-anchor='end' fill='#333'>1 à 2 fois par jour</text><rect x='6' y='184' width='308' height='26' rx='8' fill='#f8bbd0' stroke='#f06292' stroke-width='1.5'/><text x='14' y='201' font-size='11' font-weight='bold' fill='#333'>Matières grasses, sucres</text><text x='306' y='201' font-size='10.5' text-anchor='end' fill='#333'>à limiter</text><rect x='6' y='216' width='308' height='26' rx='8' fill='#e1bee7' stroke='#ba68c8' stroke-width='1.5'/><text x='14' y='233' font-size='11' font-weight='bold' fill='#333'>Activité physique</text><text x='306' y='233' font-size='10.5' text-anchor='end' fill='#333'>au moins 30 min par jour</text></svg>",
+          "legende": "Sept repères pour une bonne hygiène de vie."
+        },
+        {
+          "type": "tableau",
+          "titre": "Pourquoi ces repères ?",
+          "entetes": ["Repère", "Pourquoi ?"],
+          "lignes": [
+            ["Eau à volonté", "Le corps perd de l'eau en permanence ; elle est indispensable à tous les organes."],
+            ["Au moins 5 fruits et légumes par jour", "Ils apportent vitamines, minéraux et fibres qui protègent la santé."],
+            ["Féculents à chaque repas", "Ils fournissent l'énergie nécessaire pour la journée."],
+            ["Produits laitiers : 2 à 3 par jour", "Ils apportent du calcium, utile aux os et aux dents."],
+            ["Viande, poisson, œufs : 1 à 2 fois par jour", "Ils apportent les protéines qui construisent les muscles."],
+            ["Limiter matières grasses et sucres", "Trop de gras et de sucre favorisent le surpoids et les caries."],
+            ["Bouger au moins 30 minutes par jour", "L'activité physique renforce le cœur, les muscles et le moral."]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Pour les enfants et les adolescents, les spécialistes recommandent <b>plus</b> d'activité : jusqu'à 1 heure par jour. Marcher, jouer au football, danser, travailler au champ ou faire le ménage comptent comme de l'activité physique."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Vrai ou faux ? Corrige les phrases fausses.\n1. Il faut boire de l'eau seulement quand on a très soif.\n2. On doit manger au moins cinq fruits et légumes par jour.\n3. Les féculents sont à éviter à tous les repas.\n4. Les sucres et les matières grasses sont à limiter.\n5. Bouger 30 minutes par jour est un minimum.",
+          "solution": "1. Faux : il faut boire de l'eau régulièrement, à volonté, sans attendre d'avoir très soif.\n2. Vrai.\n3. Faux : les féculents sont recommandés à chaque repas, car ils donnent l'énergie.\n4. Vrai.\n5. Vrai (pour les jeunes, il est même conseillé de bouger davantage)."
+        }
+      ],
+      "lexique": [
+        { "terme": "Hygiène de vie", "definition": "Habitudes qui protègent la santé (alimentation, sommeil, activité, propreté)." },
+        { "terme": "Calcium", "definition": "Minéral qui renforce les os et les dents." },
+        { "terme": "Protéine", "definition": "Substance qui construit et répare les muscles." },
+        { "terme": "Fibres", "definition": "Parties des végétaux qui aident la digestion." },
+        { "terme": "Surpoids", "definition": "Poids supérieur à la normale pour la taille." }
+      ]
+    },
+    {
+      "id": "fr-5-4",
+      "titre": "Les habitudes alimentaires malgaches",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "Le texte étudié présente les habitudes alimentaires de la région nord-est de Madagascar (autour d'Antalaha). En voici la synthèse, rédigée avec mes mots : le <b>riz</b> est l'aliment de base ; on le mange avec un accompagnement appelé <b>laoka</b> (par exemple le <b>romazava</b>, bouillon de viande et de brèdes) ; on boit souvent du <b>rano ampango</b>. Le texte cite aussi des aliments locaux comme l'ankera, le saoaba, le kadaka et le ravimboafotsy : demande à ta famille ou à ton enseignant comment ils sont préparés."
+        },
+        {
+          "type": "schema",
+          "titre": "Un repas malgache courant",
+          "svg": "<svg width='320' height='192' viewBox='0 0 320 192' xmlns='http://www.w3.org/2000/svg'><text x='160' y='16' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>Un repas malgache courant</text><path d='M100,105 L100,35 A70,70 0 0 0 100,175 Z' fill='#fff8e1'/><path d='M100,105 L100,35 A70,70 0 0 1 170,105 Z' fill='#d7ccc8'/><path d='M100,105 L170,105 A70,70 0 0 1 100,175 Z' fill='#c8e6c9'/><circle cx='100' cy='105' r='70' fill='none' stroke='#757575' stroke-width='2'/><text x='62' y='110' font-size='13' font-weight='bold' text-anchor='middle' fill='#333'>Riz</text><text x='136' y='78' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>Laoka</text><text x='136' y='142' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>Brèdes</text><text x='184' y='50' font-size='11' font-weight='bold' fill='#333'>Le riz</text><text x='184' y='64' font-size='10' fill='#333'>aliment de base</text><text x='184' y='88' font-size='11' font-weight='bold' fill='#333'>Le laoka</text><text x='184' y='102' font-size='10' fill='#333'>viande, poisson,</text><text x='184' y='114' font-size='10' fill='#333'>romazava…</text><text x='184' y='138' font-size='11' font-weight='bold' fill='#333'>Les brèdes</text><text x='184' y='152' font-size='10' fill='#333'>feuilles comestibles</text><text x='160' y='188' font-size='10' text-anchor='middle' fill='#333'>Le riz domine : il faut y ajouter plus de légumes.</text></svg>",
+          "legende": "Le riz occupe souvent la plus grande place dans l'assiette."
+        },
+        {
+          "type": "tableau",
+          "titre": "Quelques aliments et boissons malgaches",
+          "entetes": ["Nom", "Description"],
+          "lignes": [
+            ["Le riz (vary)", "Aliment de base de la majorité des Malgaches ; il est servi à presque tous les repas."],
+            ["Le laoka", "Tout ce qui accompagne le riz : viande, poisson, légumes, sauce…"],
+            ["Le romazava", "Plat de viande (souvent de zébu) cuite en bouillon avec des brèdes."],
+            ["Le rano ampango", "Boisson obtenue en versant de l'eau dans la casserole où le riz a cuit : l'eau se colore et prend le goût du riz grillé."],
+            ["Les brèdes", "Feuilles comestibles (anamamy, anamalaho, ravimbomanga…) riches en vitamines et en minéraux."]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Quand l'alimentation est déséquilibrée",
+          "svg": "<svg width='320' height='150' viewBox='0 0 320 150' xmlns='http://www.w3.org/2000/svg'><rect x='4' y='8' width='92' height='84' rx='10' fill='#ffe0b2' stroke='#ffb74d' stroke-width='1.5'/><text x='50' y='26' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Cause</text><text x='50' y='46' font-size='10' text-anchor='middle' fill='#333'>trop gras,</text><text x='50' y='59' font-size='10' text-anchor='middle' fill='#333'>trop sucré,</text><text x='50' y='72' font-size='10' text-anchor='middle' fill='#333'>peu d'activité</text><line x1='96' y1='50' x2='104' y2='50' stroke='#757575' stroke-width='2'/><polygon points='104,44 114,50 104,56' fill='#757575'/><rect x='114' y='8' width='92' height='84' rx='10' fill='#ffcdd2' stroke='#e57373' stroke-width='1.5'/><text x='160' y='26' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Résultat</text><text x='160' y='46' font-size='10' text-anchor='middle' fill='#333'>prise de poids,</text><text x='160' y='59' font-size='10' text-anchor='middle' fill='#333'>surpoids,</text><text x='160' y='72' font-size='10' text-anchor='middle' fill='#333'>obésité</text><line x1='206' y1='50' x2='214' y2='50' stroke='#757575' stroke-width='2'/><polygon points='214,44 224,50 214,56' fill='#757575'/><rect x='224' y='8' width='92' height='84' rx='10' fill='#f8bbd0' stroke='#f06292' stroke-width='1.5'/><text x='270' y='26' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Risques</text><text x='270' y='46' font-size='10' text-anchor='middle' fill='#333'>diabète,</text><text x='270' y='59' font-size='10' text-anchor='middle' fill='#333'>hypertension,</text><text x='270' y='72' font-size='10' text-anchor='middle' fill='#333'>fatigue</text><rect x='4' y='102' width='312' height='42' rx='8' fill='#e8f5e9' stroke='#81c784' stroke-width='1.5'/><text x='160' y='120' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Prévention</text><text x='160' y='135' font-size='10' text-anchor='middle' fill='#333'>manger varié, limiter graisses et sucres, bouger</text></svg>",
+          "legende": "L'obésité est le résultat d'un déséquilibre prolongé."
+        },
+        {
+          "type": "remarque",
+          "texte": "<b>Obésité :</b> excès de poids qui devient dangereux pour la santé. Pour l'éviter, on garde le riz comme base, mais on y ajoute davantage de légumes et de brèdes, on limite les fritures et les boissons sucrées, et on bouge chaque jour."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1. Quel est l'aliment de base des Malgaches ?\n2. Qu'appelle-t-on « laoka » ?\n3. Explique en une phrase ce qu'est le rano ampango.\n4. Cite deux causes possibles de l'obésité.\n5. Propose deux conseils pour rendre un repas malgache plus équilibré.",
+          "solution": "1. Le riz.\n2. Tout ce qui accompagne le riz (viande, poisson, légumes, sauce).\n3. C'est une boisson obtenue en versant de l'eau dans la casserole où le riz a cuit, qui prend le goût du riz grillé.\n4. Par exemple : une alimentation trop grasse ou trop sucrée ; le manque d'activité physique.\n5. Par exemple : ajouter une grande portion de brèdes ou de légumes ; manger un fruit en dessert ; limiter les fritures et les boissons sucrées."
+        }
+      ],
+      "lexique": [
+        { "terme": "Aliment de base", "definition": "Aliment que l'on mange à presque tous les repas." },
+        { "terme": "Laoka", "definition": "Accompagnement du riz dans un repas malgache." },
+        { "terme": "Romazava", "definition": "Bouillon de viande et de brèdes." },
+        { "terme": "Rano ampango", "definition": "Boisson obtenue avec l'eau chauffée dans la casserole où le riz a cuit." },
+        { "terme": "Obésité", "definition": "Excès de poids dangereux pour la santé." },
+        { "terme": "Habitude alimentaire", "definition": "Façon de se nourrir propre à une personne ou à une région." }
+      ]
+    },
+    {
+      "id": "fr-5-5",
+      "titre": "Les pronoms indéfinis",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Pronom indéfini",
+          "texte": "Un <b>pronom indéfini</b> remplace un nom de manière <b>imprécise</b> : il désigne une ou plusieurs personnes ou choses sans les identifier exactement, ou il indique une quantité (aucun, quelques-uns, tous)."
+        },
+        {
+          "type": "schema",
+          "titre": "Du « aucun » au « tous »",
+          "svg": "<svg width='320' height='200' viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='4' width='300' height='54' rx='10' fill='#ffcdd2' stroke='#e57373' stroke-width='1.5'/><text x='160' y='22' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>Aucun</text><text x='160' y='38' font-size='10.5' text-anchor='middle' fill='#333'>personne · rien · pas grand-chose</text><text x='160' y='51' font-size='9.5' font-style='italic' text-anchor='middle' fill='#333'>s'emploient avec « ne »</text><line x1='160' y1='58' x2='160' y2='66' stroke='#757575' stroke-width='2'/><polygon points='154,66 166,66 160,72' fill='#757575'/><rect x='10' y='72' width='300' height='54' rx='10' fill='#fff3cd' stroke='#f9a825' stroke-width='1.5'/><text x='160' y='90' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>Une partie ou quelques-uns</text><text x='160' y='106' font-size='10.5' text-anchor='middle' fill='#333'>quelqu'un · quelque chose · on</text><text x='160' y='119' font-size='10.5' text-anchor='middle' fill='#333'>certains · plusieurs · chacun</text><line x1='160' y1='126' x2='160' y2='134' stroke='#757575' stroke-width='2'/><polygon points='154,134 166,134 160,140' fill='#757575'/><rect x='10' y='140' width='300' height='54' rx='10' fill='#c8e6c9' stroke='#81c784' stroke-width='1.5'/><text x='160' y='158' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>La totalité</text><text x='160' y='174' font-size='10.5' text-anchor='middle' fill='#333'>tout · tous</text><text x='160' y='187' font-size='9.5' font-style='italic' text-anchor='middle' fill='#333'>la totalité des choses ou des personnes</text></svg>",
+          "legende": "Les pronoms indéfinis classés selon la quantité."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les pronoms indéfinis à connaître",
+          "entetes": ["Pronom", "Sens", "Exemple"],
+          "lignes": [
+            ["certains", "une partie d'un ensemble (pluriel)", "Certains préfèrent le riz, d'autres le manioc."],
+            ["plusieurs", "un nombre indéterminé, supérieur à un (pluriel)", "Plusieurs ont apporté des fruits."],
+            ["chacun", "chaque personne, prise séparément (singulier)", "Chacun apporte son repas."],
+            ["on", "une personne ou des personnes non précisées (sujet)", "On mange à midi."],
+            ["quelqu'un", "une personne non identifiée", "Quelqu'un a frappé à la porte."],
+            ["quelque chose", "une chose non identifiée", "Il a mangé quelque chose."],
+            ["personne", "aucune personne (avec « ne »)", "Personne n'est venu."],
+            ["rien", "aucune chose (avec « ne »)", "Il ne mange rien le matin."],
+            ["grand-chose", "beaucoup de choses ; surtout dans une phrase négative", "Il ne mange pas grand-chose."],
+            ["tout / tous", "la totalité des choses / des personnes", "Tout est prêt. Tous sont venus."]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "<b>À retenir :</b>\n• « on » est toujours sujet, et le verbe s'accorde à la 3e personne du singulier.\n• Avec « quelqu'un », « quelque chose », « personne » et « rien », l'adjectif s'ajoute avec « de » au masculin : quelqu'un <b>de</b> gentil, rien <b>de</b> grave.\n• « tous » (pronom) se prononce [tus] : Tous sont arrivés.\n• Certains mots sont tantôt <b>pronoms</b>, tantôt <b>déterminants</b> : « Certains sont arrivés » (pronom, il n'y a pas de nom) ; « Certains élèves sont arrivés » (déterminant, suivi d'un nom)."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1. Relève les pronoms indéfinis :\na) Personne n'a mangé le dessert.\nb) Plusieurs ont apporté des fruits.\nc) Chacun doit boire de l'eau.\nd) Il ne mange pas grand-chose le matin.\ne) Quelqu'un a laissé quelque chose.\n2. Complète avec un pronom indéfini : « ... est venu à l'appel, mais ... n'a répondu. »\n3. Dans « Certains élèves mangent trop de sucre », « certains » est-il pronom ou déterminant ? Pourquoi ?",
+          "solution": "1. a) Personne ; b) Plusieurs ; c) Chacun ; d) grand-chose ; e) Quelqu'un, quelque chose.\n2. Par exemple : « Tout le monde est venu à l'appel, mais personne n'a répondu » ou « Plusieurs sont venus à l'appel, mais personne n'a répondu ». (Le premier blanc : plusieurs / certains / quelqu'un ; le second : personne / rien selon le sens.)\n3. Déterminant, car il est suivi du nom « élèves » ; un pronom remplace le nom (Certains mangent trop de sucre)."
+        }
+      ],
+      "lexique": [
+        { "terme": "Pronom", "definition": "Mot qui remplace un nom ou un groupe nominal." },
+        { "terme": "Pronom indéfini", "definition": "Pronom qui désigne de manière imprécise des personnes ou des choses." },
+        { "terme": "Déterminant", "definition": "Mot placé devant un nom pour le présenter (le, un, certains…)." },
+        { "terme": "Négation", "definition": "Forme de phrase qui nie : ne… pas, ne… rien, ne… personne." },
+        { "terme": "Totalité", "definition": "Ensemble complet, sans exception." }
+      ]
+    },
+    {
+      "id": "fr-5-6",
+      "titre": "Santé et émotions",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "Les émotions (colère, peur, tristesse, joie) influencent notre corps. Mais attention : certaines planches populaires associent chaque émotion à un organe précis, par exemple la colère au foie. Il faut distinguer ce qui est une <b>croyance</b> et ce qui est un <b>fait scientifique</b>."
+        },
+        {
+          "type": "tableau",
+          "titre": "Croyance populaire et réalité scientifique",
+          "entetes": ["Idée", "Réalité"],
+          "lignes": [
+            ["« La colère abîme le foie », « la tristesse attaque les poumons »…", "Croyance traditionnelle. Aucune étude scientifique ne confirme un lien aussi précis entre une émotion et un organe."],
+            ["Les émotions agissent sur le corps", "Vrai : une émotion forte fait réagir le cœur, la respiration, le ventre et les muscles."],
+            ["Le stress durable est mauvais pour la santé", "Vrai : il peut provoquer fatigue, maux de tête, troubles du sommeil et affaiblir les défenses du corps."]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Les effets réels du stress",
+          "svg": "<svg width='320' height='202' viewBox='0 0 320 202' xmlns='http://www.w3.org/2000/svg'><rect x='60' y='4' width='200' height='40' rx='10' fill='#ffe0b2' stroke='#ffb74d' stroke-width='1.5'/><text x='160' y='22' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Émotion forte ou stress</text><text x='160' y='36' font-size='10' text-anchor='middle' fill='#333'>(colère, peur, anxiété…)</text><g stroke='#757575' stroke-width='1.5'><line x1='160' y1='44' x2='40' y2='70'/><line x1='160' y1='44' x2='120' y2='70'/><line x1='160' y1='44' x2='200' y2='70'/><line x1='160' y1='44' x2='280' y2='70'/></g><rect x='4' y='70' width='72' height='64' rx='8' fill='#ffcdd2' stroke='#e57373' stroke-width='1.5'/><text x='40' y='90' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Cœur</text><text x='40' y='106' font-size='9.5' text-anchor='middle' fill='#333'>bat plus vite</text><text x='40' y='118' font-size='9.5' text-anchor='middle' fill='#333'>souffle court</text><rect x='84' y='70' width='72' height='64' rx='8' fill='#c8e6c9' stroke='#81c784' stroke-width='1.5'/><text x='120' y='90' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Ventre</text><text x='120' y='106' font-size='9.5' text-anchor='middle' fill='#333'>estomac noué</text><text x='120' y='118' font-size='9.5' text-anchor='middle' fill='#333'>mal au ventre</text><rect x='164' y='70' width='72' height='64' rx='8' fill='#b3e5fc' stroke='#4fc3f7' stroke-width='1.5'/><text x='200' y='90' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Muscles</text><text x='200' y='106' font-size='9.5' text-anchor='middle' fill='#333'>tension</text><text x='200' y='118' font-size='9.5' text-anchor='middle' fill='#333'>douleurs</text><rect x='244' y='70' width='72' height='64' rx='8' fill='#e1bee7' stroke='#ba68c8' stroke-width='1.5'/><text x='280' y='90' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Sommeil</text><text x='280' y='106' font-size='9.5' text-anchor='middle' fill='#333'>difficultés</text><text x='280' y='118' font-size='9.5' text-anchor='middle' fill='#333'>à dormir</text><rect x='4' y='146' width='312' height='50' rx='8' fill='#fff3cd' stroke='#f9a825' stroke-width='1.5'/><text x='160' y='164' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Si le stress dure longtemps</text><text x='160' y='180' font-size='10' text-anchor='middle' fill='#333'>fatigue, maux de tête, défenses affaiblies</text></svg>",
+          "legende": "Ces effets sont reconnus par la médecine."
+        },
+        {
+          "type": "tableau",
+          "titre": "Gérer ses émotions pour rester en bonne santé",
+          "entetes": ["Situation", "Réaction du corps", "Que faire ?"],
+          "lignes": [
+            ["Colère", "cœur rapide, muscles tendus", "S'éloigner un moment, respirer lentement, en parler calmement"],
+            ["Peur ou stress avant un examen", "ventre noué, mains moites", "Réviser régulièrement, respirer profondément, bien dormir"],
+            ["Tristesse qui dure", "fatigue, perte d'appétit, sommeil perturbé", "En parler à un proche, à un enseignant ou à un médecin, rester entouré"],
+            ["Joie", "énergie, bonne humeur", "Partager, bouger, profiter"]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Rester serein avant le BEPC",
+          "texte": "1. Révise un peu chaque jour plutôt que tout en dernière minute.\n2. Dors suffisamment, surtout la veille de l'examen.\n3. Mange à heures régulières et bois de l'eau.\n4. Bouge un peu pour évacuer la tension.\n5. Respire lentement quand le stress monte : inspire 4 secondes, expire 6 secondes.\n6. Parle de ton stress à un proche plutôt que de le garder pour toi."
+        },
+        {
+          "type": "remarque",
+          "texte": "Quand une tristesse ou une peur dure longtemps et empêche de vivre normalement, il ne faut pas rester seul : il est important d'en parler à un adulte de confiance ou à un professionnel de santé."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Dis si chaque affirmation est un <b>fait scientifique</b> ou une <b>croyance sans preuve</b> :\n1. La colère abîme le foie.\n2. Le stress peut donner mal au ventre.\n3. Dormir peu augmente la fatigue.\n4. La tristesse attaque les poumons.\n5. Respirer lentement aide à se calmer.\n6. Cite deux moyens de gérer le stress avant un examen.",
+          "solution": "1. Croyance sans preuve.\n2. Fait scientifique.\n3. Fait scientifique.\n4. Croyance sans preuve.\n5. Fait scientifique.\n6. Par exemple : réviser régulièrement, bien dormir, respirer lentement, bouger, parler à un proche."
+        }
+      ],
+      "lexique": [
+        { "terme": "Émotion", "definition": "Réaction forte que l'on ressent (joie, colère, peur, tristesse…)." },
+        { "terme": "Stress", "definition": "Tension du corps et de l'esprit face à une situation difficile." },
+        { "terme": "Croyance", "definition": "Idée que l'on tient pour vraie sans preuve scientifique." },
+        { "terme": "Fait scientifique", "definition": "Fait vérifié par des observations et des expériences." },
+        { "terme": "Anxiété", "definition": "Inquiétude profonde et durable." },
+        { "terme": "Défenses immunitaires", "definition": "Moyens du corps pour lutter contre les microbes." }
+      ]
+    }
+  ]
+}
