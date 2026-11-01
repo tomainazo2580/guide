@@ -419,14 +419,22 @@ function renderBloc(bloc) {
   }
   return `<p class="bloc-texte-simple">${bloc.texte || ''}</p>`;
 }
+function ajusterSchemasHtml(texte) {
+  if (!texte) return '';
+  return String(texte)
+    .replace(/\n*(<div style='text-align:center;margin:8px 0'>)/g, '$1')
+    .replace(/(<\/svg><\/div><\/div>)\n*/g, '$1')
+    .replace(/display:inline-block;/g, 'display:inline-block;max-width:100%;box-sizing:border-box;')
+    .replace(/<svg /g, "<svg style='max-width:100%;height:auto;display:block;margin:0 auto' ");
+}
 function renderExercice(bloc) {
   return `
     <div class="bloc-exercice">
       <div class="bloc-exercice-label">📝 Exercice</div>
-      <div class="bloc-exercice-enonce bloc-texte">${bloc.enonce || ''}</div>
+      <div class="bloc-exercice-enonce bloc-texte">${ajusterSchemasHtml(bloc.enonce)}</div>
       <details class="exercice-solution">
         <summary>Voir la correction</summary>
-        <div class="bloc-exercice-corrige bloc-texte">${bloc.solution || ''}</div>
+        <div class="bloc-exercice-corrige bloc-texte">${ajusterSchemasHtml(bloc.solution)}</div>
       </details>
     </div>`;
 }
