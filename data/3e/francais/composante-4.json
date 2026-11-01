@@ -1,0 +1,381 @@
+{
+  "id": "fr-theme4",
+  "titre": "Thème IV : La corruption",
+  "lecons": [
+    {
+      "id": "fr-4-1",
+      "titre": "La corruption : définition et lexique",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Corruption",
+          "texte": "La <b>corruption</b> consiste à utiliser un pouvoir, une fonction ou une responsabilité pour obtenir un avantage personnel de façon illégale ou malhonnête (argent, cadeau, faveur). Celui qui offre l'avantage est le <b>corrupteur</b> ; celui qui l'accepte est le <b>corrompu</b>."
+        },
+        {
+          "type": "schema",
+          "titre": "Comment fonctionne la corruption ?",
+          "svg": "<svg width='320' height='190' viewBox='0 0 320 190' xmlns='http://www.w3.org/2000/svg'><rect x='6' y='10' width='104' height='60' rx='10' fill='#ffcdd2' stroke='#e57373' stroke-width='1.5'/><text x='58' y='34' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>Le corrupteur</text><text x='58' y='50' font-size='10' text-anchor='middle' fill='#333'>veut un avantage</text><text x='58' y='62' font-size='10' text-anchor='middle' fill='#333'>illégal</text><rect x='210' y='10' width='104' height='60' rx='10' fill='#ffe0b2' stroke='#ffb74d' stroke-width='1.5'/><text x='262' y='34' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>Le corrompu</text><text x='262' y='50' font-size='10' text-anchor='middle' fill='#333'>détient un pouvoir</text><text x='262' y='62' font-size='10' text-anchor='middle' fill='#333'>ou une fonction</text><text x='160' y='22' font-size='10' text-anchor='middle' fill='#333'>pot-de-vin</text><line x1='112' y1='28' x2='202' y2='28' stroke='#757575' stroke-width='2'/><polygon points='202,22 212,28 202,34' fill='#757575'/><line x1='208' y1='54' x2='118' y2='54' stroke='#757575' stroke-width='2'/><polygon points='118,48 108,54 118,60' fill='#757575'/><text x='160' y='68' font-size='10' text-anchor='middle' fill='#333'>faveur illégale</text><rect x='6' y='88' width='308' height='98' rx='10' fill='#fff3cd' stroke='#f9a825' stroke-width='1.5'/><text x='160' y='106' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>Les victimes de la corruption</text><rect x='12' y='116' width='96' height='62' rx='8' fill='#ffffff' stroke='#f9a825'/><text x='60' y='143' font-size='10' text-anchor='middle' fill='#333'>Les citoyens</text><text x='60' y='156' font-size='10' text-anchor='middle' fill='#333'>honnêtes</text><rect x='112' y='116' width='96' height='62' rx='8' fill='#ffffff' stroke='#f9a825'/><text x='160' y='143' font-size='10' text-anchor='middle' fill='#333'>L'État et ses</text><text x='160' y='156' font-size='10' text-anchor='middle' fill='#333'>finances</text><rect x='212' y='116' width='96' height='62' rx='8' fill='#ffffff' stroke='#f9a825'/><text x='260' y='143' font-size='9.5' text-anchor='middle' fill='#333'>Le développement</text><text x='260' y='156' font-size='10' text-anchor='middle' fill='#333'>du pays</text></svg>",
+          "legende": "Le corrupteur et le corrompu profitent, mais toute la société est perdante."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots voisins du mot « corruption »",
+          "entetes": ["Mot", "Sens", "Registre"],
+          "lignes": [
+            ["La fraude", "Tromperie commise pour obtenir un avantage illégal", "courant"],
+            ["La cupidité", "Désir excessif d'argent et de richesses", "soutenu"],
+            ["La collusion", "Entente secrète entre des personnes pour tromper une autre personne ou la loi", "soutenu"],
+            ["La tricherie", "Fait de ne pas respecter les règles pour gagner ou réussir", "courant"],
+            ["Les magouilles", "Manœuvres malhonnêtes", "familier"],
+            ["La criminalité", "Ensemble des crimes et des délits commis dans une société", "courant (mot voisin, de sens plus large)"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Quelques formes de corruption",
+          "entetes": ["Forme", "Explication"],
+          "lignes": [
+            ["Le pot-de-vin", "Somme d'argent ou cadeau donné pour obtenir une faveur"],
+            ["Le détournement de fonds", "Usage de l'argent public à des fins personnelles"],
+            ["Le favoritisme", "Faveur accordée à un proche ou à un ami au lieu de respecter la règle"],
+            ["La fraude", "Tricherie à un examen, à un concours, dans un marché public"],
+            ["Le trafic d'influence", "Fait de vendre son pouvoir ou ses relations pour obtenir un avantage"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "<b>Famille de mots</b> : corrompre, corrupteur, corruptible, incorruptible. <b>Contraires</b> : l'honnêteté, l'intégrité."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1. Donne une définition de « corruption ».\n2. Donne un synonyme courant de « magouilles ».\n3. Quel est le contraire de « corrompu » ?\n4. Dans « Il a payé un pot-de-vin au policier », qui est le corrupteur ? qui est le corrompu ?\n5. Écris une phrase avec le mot « cupidité ».",
+          "solution": "1. Utiliser un pouvoir ou une fonction pour obtenir un avantage personnel de façon illégale.\n2. Par exemple : fraude, tricherie, manœuvres malhonnêtes.\n3. Incorruptible (ou intègre, honnête).\n4. Le corrupteur est celui qui a payé (« il ») ; le corrompu est le policier.\n5. Par exemple : « La cupidité de ce responsable l'a poussé à détourner l'argent de l'école. »"
+        }
+      ],
+      "lexique": [
+        { "terme": "Corruption", "definition": "Fait d'abuser d'un pouvoir pour obtenir un avantage illégal." },
+        { "terme": "Pot-de-vin", "definition": "Somme d'argent ou cadeau donné pour obtenir une faveur illégale." },
+        { "terme": "Fraude", "definition": "Tromperie pour obtenir un avantage illégal." },
+        { "terme": "Cupidité", "definition": "Désir excessif d'argent." },
+        { "terme": "Collusion", "definition": "Entente secrète pour tromper quelqu'un ou contourner la loi." },
+        { "terme": "Intégrité", "definition": "Qualité d'une personne honnête qui ne se laisse pas corrompre." }
+      ]
+    },
+    {
+      "id": "fr-4-2",
+      "titre": "Le rôle du citoyen face aux illégalités",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "Le texte étudié, « Dénoncer les illégalités… un vrai défi pour les citoyens » (Hariantsoa R.), explique que la lutte contre les illégalités ne dépend pas seulement de l'État : chaque citoyen a des responsabilités. Voici les idées essentielles, résumées."
+        },
+        {
+          "type": "schema",
+          "titre": "Les quatre responsabilités du citoyen",
+          "svg": "<svg width='320' height='224' viewBox='0 0 320 224' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='4' width='300' height='44' rx='10' fill='#b3e5fc' stroke='#4fc3f7' stroke-width='1.5'/><text x='160' y='23' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>1. Connaître les procédures</text><text x='160' y='38' font-size='10' text-anchor='middle' fill='#333'>Savoir où, comment et avec quelles preuves signaler</text><line x1='160' y1='48' x2='160' y2='54' stroke='#757575' stroke-width='2'/><polygon points='154,54 166,54 160,62' fill='#757575'/><rect x='10' y='62' width='300' height='44' rx='10' fill='#ffe0b2' stroke='#ffb74d' stroke-width='1.5'/><text x='160' y='81' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>2. Dénoncer</text><text x='160' y='96' font-size='10' text-anchor='middle' fill='#333'>Signaler les actes illégaux dont on est témoin</text><line x1='160' y1='106' x2='160' y2='112' stroke='#757575' stroke-width='2'/><polygon points='154,112 166,112 160,120' fill='#757575'/><rect x='10' y='120' width='300' height='44' rx='10' fill='#c8e6c9' stroke='#81c784' stroke-width='1.5'/><text x='160' y='139' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>3. Livrer au comité responsable</text><text x='160' y='154' font-size='10' text-anchor='middle' fill='#333'>Remettre les informations à l'organe compétent</text><line x1='160' y1='164' x2='160' y2='170' stroke='#757575' stroke-width='2'/><polygon points='154,170 166,170 160,178' fill='#757575'/><rect x='10' y='178' width='300' height='44' rx='10' fill='#f8bbd0' stroke='#f06292' stroke-width='1.5'/><text x='160' y='197' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>4. Faire régner la justice</text><text x='160' y='212' font-size='10' text-anchor='middle' fill='#333'>Contribuer à ce que la loi s'applique à tous</text></svg>",
+          "legende": "Les quatre responsabilités, présentées dans un ordre logique."
+        },
+        {
+          "type": "tableau",
+          "titre": "Pourquoi dénoncer est un « défi »",
+          "entetes": ["Obstacle", "Explication"],
+          "lignes": [
+            ["La peur", "Crainte de représailles ou de menaces"],
+            ["La méconnaissance", "On ne sait pas à qui s'adresser ni comment faire"],
+            ["Le manque de confiance", "On pense que cela ne servira à rien"],
+            ["L'habitude", "On trouve normal de « payer pour avancer »"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Des lois existent pour protéger les témoins et les personnes qui signalent des faits de corruption. Connaître ses droits aide à dépasser la peur."
+        },
+        {
+          "type": "definition",
+          "titre": "État de droit",
+          "texte": "Un <b>État de droit</b> est un État où tout le monde, y compris les dirigeants, doit respecter la loi, et où la justice protège les droits de chacun."
+        },
+        {
+          "type": "definition",
+          "titre": "Ordonnancement juridique",
+          "texte": "L'<b>ordonnancement juridique</b> est l'ensemble des règles de droit d'un pays, classées par ordre d'importance. Une règle inférieure ne doit jamais contredire une règle supérieure."
+        },
+        {
+          "type": "schema",
+          "titre": "La hiérarchie des règles de droit",
+          "svg": "<svg width='320' height='208' viewBox='0 0 320 208' xmlns='http://www.w3.org/2000/svg'><polygon points='125,6 195,6 205,50 115,50' fill='#ffcdd2' stroke='#e57373' stroke-width='1.5'/><text x='160' y='33' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Constitution</text><polygon points='115,52 205,52 225,96 95,96' fill='#ffe0b2' stroke='#ffb74d' stroke-width='1.5'/><text x='160' y='79' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Lois</text><polygon points='95,98 225,98 245,142 75,142' fill='#c8e6c9' stroke='#81c784' stroke-width='1.5'/><text x='160' y='125' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Décrets</text><polygon points='75,144 245,144 265,188 55,188' fill='#b3e5fc' stroke='#4fc3f7' stroke-width='1.5'/><text x='160' y='171' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Arrêtés et règlements</text><text x='160' y='203' font-size='10' text-anchor='middle' fill='#333'>Plus on monte, plus la règle est importante.</text></svg>",
+          "legende": "Un arrêté ne peut pas contredire un décret, ni un décret une loi."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1. Cite les quatre responsabilités du citoyen décrites dans le texte.\n2. Définis « État de droit ».\n3. Classe du plus important au moins important : un décret, la Constitution, un arrêté, une loi.\n4. Donne deux raisons pour lesquelles il est difficile de dénoncer.\n5. Pourquoi faut-il connaître les procédures avant de dénoncer ?",
+          "solution": "1. Dénoncer les actes illégaux ; livrer les informations au comité responsable ; connaître les procédures ; faire régner la justice.\n2. État où tous, y compris les dirigeants, sont soumis à la loi et où la justice protège les droits de chacun.\n3. La Constitution, la loi, le décret, l'arrêté.\n4. Par exemple : la peur des représailles, la méconnaissance des démarches, le manque de confiance.\n5. Pour s'adresser à la bonne institution, avec les bonnes informations et des preuves, afin que la dénonciation soit utile."
+        }
+      ],
+      "lexique": [
+        { "terme": "Dénoncer", "definition": "Signaler à une autorité un acte illégal ou malhonnête." },
+        { "terme": "Illégalité", "definition": "Acte contraire à la loi." },
+        { "terme": "Procédure", "definition": "Suite de démarches à suivre pour obtenir un résultat." },
+        { "terme": "Comité", "definition": "Groupe de personnes chargées d'une mission précise." },
+        { "terme": "État de droit", "definition": "État où tous doivent respecter la loi." },
+        { "terme": "Ordonnancement juridique", "definition": "Ensemble des règles de droit classées par ordre d'importance." }
+      ]
+    },
+    {
+      "id": "fr-4-3",
+      "titre": "La lutte contre la corruption et le Bianco",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "Pour lutter contre la corruption, on agit à trois niveaux : prévenir, enquêter et sanctionner. Les affiches de sensibilisation font partie de la prévention."
+        },
+        {
+          "type": "schema",
+          "titre": "Une affiche de sensibilisation",
+          "svg": "<svg width='320' height='210' viewBox='0 0 320 210' xmlns='http://www.w3.org/2000/svg'><rect x='70' y='4' width='180' height='202' rx='8' fill='#fff3cd' stroke='#f9a825' stroke-width='2'/><text x='160' y='28' font-size='14' font-weight='bold' text-anchor='middle' fill='#c62828'>NON À LA</text><text x='160' y='47' font-size='15' font-weight='bold' text-anchor='middle' fill='#c62828'>CORRUPTION !</text><circle cx='160' cy='98' r='30' fill='#ffffff' stroke='#c62828' stroke-width='5'/><text x='160' y='106' font-size='22' font-weight='bold' text-anchor='middle' fill='#333'>Ar</text><line x1='139' y1='77' x2='181' y2='119' stroke='#c62828' stroke-width='5'/><text x='160' y='156' font-size='13' font-weight='bold' text-anchor='middle' fill='#333'>9 décembre</text><text x='160' y='173' font-size='10' text-anchor='middle' fill='#333'>Journée internationale</text><text x='160' y='187' font-size='10' text-anchor='middle' fill='#333'>de lutte contre la corruption</text></svg>",
+          "legende": "Chaque 9 décembre, on célèbre dans le monde la Journée internationale de lutte contre la corruption."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les mesures de lutte",
+          "entetes": ["Niveau", "Mesures", "Exemples"],
+          "lignes": [
+            ["Prévenir", "Informer, éduquer, rendre l'action publique transparente", "Affiches, campagnes, cours d'éducation civique"],
+            ["Détecter et enquêter", "Recevoir les dénonciations et vérifier les faits", "Enquêtes du Bianco"],
+            ["Sanctionner", "Poursuivre et juger les coupables", "Procès, peines, remboursement des sommes détournées"]
+          ]
+        },
+        {
+          "type": "definition",
+          "titre": "Bianco",
+          "texte": "Le <b>Bianco</b> est le <b>Bureau Indépendant Anti-Corruption</b> de Madagascar. Il reçoit les plaintes, mène des enquêtes et transmet les dossiers à la justice."
+        },
+        {
+          "type": "texte",
+          "texte": "L'article « De nouveaux dossiers au Bianco » (résumé) indique que le Bianco a reçu de nouveaux dossiers : <b>106 cas</b> dans le domaine du foncier (terrains), <b>41 cas</b> concernant la justice et les magistrats, ainsi que des cas touchant les collectivités territoriales décentralisées. Par ailleurs, <b>18 PV</b> ont été envoyés au Pôle anti-corruption."
+        },
+        {
+          "type": "schema",
+          "titre": "Dossiers reçus par le Bianco (d'après l'article)",
+          "svg": "<svg width='320' height='150' viewBox='0 0 320 150' xmlns='http://www.w3.org/2000/svg'><text x='160' y='16' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>Nombre de cas</text><line x1='110' y1='24' x2='110' y2='96' stroke='#9e9e9e' stroke-width='1.5'/><text x='104' y='45' font-size='10' text-anchor='end' fill='#333'>Foncier</text><rect x='110' y='30' width='170' height='22' fill='#ffb74d' stroke='#f57c00'/><text x='284' y='45' font-size='11' font-weight='bold' fill='#333'>106</text><text x='104' y='67' font-size='10' text-anchor='end' fill='#333'>Justice et</text><text x='104' y='79' font-size='10' text-anchor='end' fill='#333'>magistrats</text><rect x='110' y='62' width='66' height='22' fill='#ffb74d' stroke='#f57c00'/><text x='180' y='77' font-size='11' font-weight='bold' fill='#333'>41</text><rect x='10' y='104' width='300' height='42' rx='8' fill='#e8f5e9' stroke='#81c784' stroke-width='1.5'/><text x='160' y='122' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>18 procès-verbaux (PV) envoyés</text><text x='160' y='137' font-size='11' text-anchor='middle' fill='#333'>au Pôle anti-corruption</text></svg>",
+          "legende": "Le foncier est le domaine qui compte le plus de cas dans cet article."
+        },
+        {
+          "type": "remarque",
+          "texte": "Un <b>PV</b> (procès-verbal) est un document écrit qui rapporte officiellement des faits constatés lors d'une enquête. Les chiffres cités viennent de l'article étudié : ils changent d'une année à l'autre."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1. Que signifie « Bianco » ?\n2. Quel jour célèbre-t-on la Journée internationale de lutte contre la corruption ?\n3. Combien de cas, au total, concernent le foncier et la justice ?\n4. Que signifie « PV » ?\n5. Propose deux mesures pour lutter contre la corruption dans ta commune ou dans ton école.",
+          "solution": "1. Bureau Indépendant Anti-Corruption.\n2. Le 9 décembre.\n3. 106 + 41 = 147 cas.\n4. Procès-verbal : document officiel qui rapporte des faits constatés.\n5. Par exemple : organiser une campagne d'affiches ; afficher publiquement les règles et les tarifs officiels ; apprendre aux élèves à refuser la tricherie ; signaler les abus à l'organisme compétent."
+        }
+      ],
+      "lexique": [
+        { "terme": "Bianco", "definition": "Bureau Indépendant Anti-Corruption de Madagascar." },
+        { "terme": "Foncier", "definition": "Qui concerne les terrains et la propriété de la terre." },
+        { "terme": "Magistrat", "definition": "Juge ou procureur chargé de rendre ou de requérir la justice." },
+        { "terme": "Collectivité territoriale décentralisée", "definition": "Commune, district ou région dotée d'une certaine autonomie de gestion." },
+        { "terme": "Procès-verbal (PV)", "definition": "Document officiel qui rapporte des faits constatés." },
+        { "terme": "Sensibilisation", "definition": "Action d'informer pour faire prendre conscience d'un problème." }
+      ]
+    },
+    {
+      "id": "fr-4-4",
+      "titre": "Le texte argumentatif",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Texte argumentatif",
+          "texte": "Le <b>texte argumentatif</b> a pour but de <b>convaincre</b> le lecteur : l'auteur défend une opinion (la <b>thèse</b>) à l'aide d'<b>arguments</b> appuyés par des <b>exemples</b>."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les mots-clés de l'argumentation",
+          "entetes": ["Notion", "Définition", "Exemple (la corruption)"],
+          "lignes": [
+            ["Le thème", "Le sujet dont on parle", "La corruption"],
+            ["La problématique", "La question que pose le sujet", "Comment lutter efficacement contre la corruption ?"],
+            ["La thèse", "L'opinion défendue par l'auteur", "Chaque citoyen doit participer à la lutte contre la corruption."],
+            ["L'argument", "Une raison qui soutient la thèse", "La corruption appauvrit le pays."],
+            ["L'exemple", "Un fait précis qui illustre l'argument", "L'argent détourné ne construit ni écoles ni hôpitaux."]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "La structure du texte argumentatif",
+          "svg": "<svg width='320' height='244' viewBox='0 0 320 244' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='4' width='300' height='52' rx='10' fill='#b3e5fc' stroke='#4fc3f7' stroke-width='1.5'/><text x='160' y='22' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>1. Introduction</text><text x='160' y='38' font-size='10' text-anchor='middle' fill='#333'>Thème, problématique,</text><text x='160' y='50' font-size='10' text-anchor='middle' fill='#333'>thèse annoncée</text><line x1='160' y1='56' x2='160' y2='72' stroke='#757575' stroke-width='2'/><polygon points='154,72 166,72 160,80' fill='#757575'/><rect x='10' y='80' width='300' height='86' rx='10' fill='#c8e6c9' stroke='#81c784' stroke-width='1.5'/><text x='160' y='97' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>2. Développement</text><rect x='18' y='108' width='90' height='48' rx='6' fill='#ffffff' stroke='#81c784'/><text x='63' y='128' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>Argument 1</text><text x='63' y='142' font-size='10' text-anchor='middle' fill='#333'>+ exemple</text><rect x='115' y='108' width='90' height='48' rx='6' fill='#ffffff' stroke='#81c784'/><text x='160' y='128' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>Argument 2</text><text x='160' y='142' font-size='10' text-anchor='middle' fill='#333'>+ exemple</text><rect x='212' y='108' width='90' height='48' rx='6' fill='#ffffff' stroke='#81c784'/><text x='257' y='128' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>Argument 3</text><text x='257' y='142' font-size='10' text-anchor='middle' fill='#333'>+ exemple</text><line x1='160' y1='166' x2='160' y2='180' stroke='#757575' stroke-width='2'/><polygon points='154,180 166,180 160,188' fill='#757575'/><rect x='10' y='190' width='300' height='50' rx='10' fill='#ffe0b2' stroke='#ffb74d' stroke-width='1.5'/><text x='160' y='208' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>3. Conclusion</text><text x='160' y='222' font-size='10' text-anchor='middle' fill='#333'>Bilan de la thèse</text><text x='160' y='234' font-size='10' text-anchor='middle' fill='#333'>et ouverture</text></svg>",
+          "legende": "Chaque argument est suivi d'un exemple."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les critères du texte argumentatif",
+          "entetes": ["Critère", "Ce qu'on observe"],
+          "lignes": [
+            ["Organisation", "Introduction, développement en paragraphes (un argument par paragraphe), conclusion ; connecteurs d'addition et de logique (d'abord, de plus, en effet, cependant, enfin, donc)"],
+            ["Lexique", "Vocabulaire du thème, verbes d'opinion (penser, croire, il faut), mots qui jugent (injuste, dangereux, courageux)"],
+            ["Grammaire", "Présent de l'indicatif, emploi possible de « je », « nous » ou « on », phrases injonctives ou interrogatives, subordonnées de cause, de conséquence ou d'opposition"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Texte explicatif ou texte argumentatif ?",
+          "entetes": ["", "Texte explicatif", "Texte argumentatif"],
+          "lignes": [
+            ["But", "Faire comprendre", "Convaincre"],
+            ["Question", "Pourquoi ? Comment ?", "Faut-il ? Comment agir ?"],
+            ["Point de vue", "Neutre", "L'auteur donne son opinion"],
+            ["Contenu", "Explications, faits, chiffres", "Thèse, arguments, exemples"]
+          ]
+        },
+        {
+          "type": "exemple",
+          "titre": "Texte modèle : Tous contre la corruption",
+          "texte": "<b>Introduction :</b> La corruption ronge notre société : pots-de-vin, fraudes, détournements. Comment la combattre efficacement ? Je pense que chaque citoyen doit y prendre part, sans tout attendre de l'État.\n\n<b>Développement :</b> D'abord, la corruption appauvrit le pays : l'argent détourné ne construit ni écoles ni hôpitaux. Ensuite, elle est injuste : celui qui paie passe devant celui qui a le droit pour lui. Certes, dénoncer demande du courage ; cependant, des organismes comme le Bianco existent pour recevoir les signalements. Enfin, l'exemple compte : un élève qui refuse de tricher prépare un citoyen intègre.\n\n<b>Conclusion :</b> Ainsi, la lutte contre la corruption est l'affaire de tous : en refusant, en dénonçant et en donnant l'exemple, chacun protège l'avenir du pays."
+        },
+        {
+          "type": "methode",
+          "titre": "Rédiger un texte argumentatif",
+          "texte": "1. Identifie le thème et formule la problématique.\n2. Choisis ta thèse (ton opinion).\n3. Trouve deux ou trois arguments, avec un exemple pour chacun.\n4. Organise-les avec des connecteurs (d'abord, ensuite, enfin).\n5. Prévois une objection (« Certes… ») et réponds-y (« cependant… »).\n6. Conclus en rappelant ta thèse."
+        },
+        {
+          "type": "exercice",
+          "enonce": "À partir du texte modèle :\n1. Quelle est la problématique ?\n2. Quelle est la thèse de l'auteur ?\n3. Relève deux arguments et un exemple.\n4. Relève quatre connecteurs qui organisent le texte.\n5. Quelle phrase exprime une objection ?\n6. Ce texte est-il explicatif ou argumentatif ? Pourquoi ?",
+          "solution": "1. « Comment la combattre efficacement ? »\n2. Chaque citoyen doit prendre part à la lutte contre la corruption.\n3. Arguments : la corruption appauvrit le pays ; elle est injuste. Exemple : l'argent détourné ne construit ni écoles ni hôpitaux.\n4. D'abord, ensuite, enfin, cependant, ainsi (au choix).\n5. « Certes, dénoncer demande du courage », suivie de la réponse « cependant… ».\n6. Argumentatif : l'auteur donne son opinion (« Je pense que… ») et cherche à convaincre avec des arguments et des exemples."
+        }
+      ],
+      "lexique": [
+        { "terme": "Argumenter", "definition": "Donner des raisons pour défendre une opinion." },
+        { "terme": "Thèse", "definition": "Opinion défendue par l'auteur." },
+        { "terme": "Problématique", "definition": "Question posée par un sujet." },
+        { "terme": "Argument", "definition": "Raison qui soutient une thèse." },
+        { "terme": "Objection", "definition": "Idée qui s'oppose à celle que l'on défend." },
+        { "terme": "Convaincre", "definition": "Amener quelqu'un à partager son opinion par des raisons." }
+      ]
+    },
+    {
+      "id": "fr-4-5",
+      "titre": "Cause, conséquence, but et condition",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Exprimer la cause",
+          "entetes": ["Expression", "Remarque", "Exemple"],
+          "lignes": [
+            ["parce que", "+ indicatif", "Il a été puni parce qu'il a fraudé."],
+            ["puisque", "+ indicatif ; cause connue de tous", "Puisque la loi l'interdit, nous devons la respecter."],
+            ["car", "relie deux propositions, jamais en début de phrase", "Il dénonce, car il veut la justice."],
+            ["comme", "+ indicatif ; en début de phrase", "Comme il manquait de preuves, l'affaire a été classée."],
+            ["grâce à", "+ nom ; cause favorable", "Grâce à ce témoin, le coupable a été arrêté."],
+            ["à cause de", "+ nom ; cause défavorable", "À cause de la corruption, le chantier s'est arrêté."]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Exprimer la conséquence",
+          "entetes": ["Expression", "Remarque", "Exemple"],
+          "lignes": [
+            ["donc", "dans la phrase", "Il a fraudé, donc il sera puni."],
+            ["alors", "dans la phrase", "Il a fraudé, alors il sera puni."],
+            ["c'est pourquoi", "en début de proposition", "Il a fraudé ; c'est pourquoi il sera puni."],
+            ["par conséquent", "style soutenu", "Les preuves sont claires ; par conséquent, il sera puni."],
+            ["ainsi", "style soutenu", "Les preuves sont claires ; ainsi, il sera puni."],
+            ["de sorte que", "+ indicatif", "Il a menti, de sorte que personne ne le croit."],
+            ["du coup", "langage familier", "Il a menti, du coup personne ne le croit."]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Exprimer le but",
+          "entetes": ["Construction", "Expressions", "Exemple"],
+          "lignes": [
+            ["+ infinitif (même sujet)", "afin de, pour, en vue de, dans le but de, de peur de, de crainte de", "Il se tait de peur d'être puni."],
+            ["+ subjonctif (sujets différents)", "afin que, pour que, de façon que, de manière que, de sorte que, de peur que, de crainte que", "Il dénonce afin que justice soit faite."],
+            ["+ subjonctif (but négatif, crainte)", "de peur que, de crainte que (avec « ne » dit explétif)", "Ses parents l'aident de peur qu'il n'échoue au BEPC."]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "<b>Attention :</b>\n• « de peur que » et « de crainte que » expriment la crainte de ce qu'on veut éviter : on dit « de peur qu'il n'<b>échoue</b> » (et non « qu'il ne réussisse »).\n• « de sorte que » exprime la conséquence avec l'indicatif et le but avec le subjonctif.\n• Le « ne » explétif est un petit « ne » sans valeur négative."
+        },
+        {
+          "type": "tableau",
+          "titre": "Condition et hypothèse",
+          "entetes": ["Notion", "Sens", "Expressions", "Exemple"],
+          "lignes": [
+            ["Hypothèse", "Simple supposition", "si + indicatif ; au cas où + conditionnel", "Si tu travailles, tu réussiras."],
+            ["Condition", "Fait nécessaire pour qu'une chose se réalise", "à condition que (+ subjonctif), à condition de (+ infinitif), pourvu que (+ subjonctif), à moins que (+ subjonctif)", "Tu réussiras à condition que tu travailles."]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "La concordance des temps avec « si »",
+          "svg": "<svg width='320' height='184' viewBox='0 0 320 184' xmlns='http://www.w3.org/2000/svg'><rect x='6' y='6' width='120' height='28' rx='8' fill='#c8e6c9' stroke='#81c784' stroke-width='1.5'/><text x='66' y='24' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>Si + présent</text><line x1='128' y1='20' x2='152' y2='20' stroke='#757575' stroke-width='2'/><polygon points='152,15 160,20 152,25' fill='#757575'/><rect x='162' y='6' width='152' height='28' rx='8' fill='#c8e6c9' stroke='#81c784' stroke-width='1.5'/><text x='238' y='24' font-size='10' text-anchor='middle' fill='#333'>présent / futur / impératif</text><text x='160' y='52' font-size='10' font-style='italic' text-anchor='middle' fill='#333'>Si tu dénonces la fraude, la justice agira.</text><rect x='6' y='68' width='120' height='28' rx='8' fill='#ffe0b2' stroke='#ffb74d' stroke-width='1.5'/><text x='66' y='86' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>Si + imparfait</text><line x1='128' y1='82' x2='152' y2='82' stroke='#757575' stroke-width='2'/><polygon points='152,77 160,82 152,87' fill='#757575'/><rect x='162' y='68' width='152' height='28' rx='8' fill='#ffe0b2' stroke='#ffb74d' stroke-width='1.5'/><text x='238' y='86' font-size='10' text-anchor='middle' fill='#333'>conditionnel présent</text><text x='160' y='114' font-size='10' font-style='italic' text-anchor='middle' fill='#333'>Si on dénonçait, la fraude reculerait.</text><rect x='6' y='130' width='120' height='28' rx='8' fill='#f8bbd0' stroke='#f06292' stroke-width='1.5'/><text x='66' y='148' font-size='9.5' font-weight='bold' text-anchor='middle' fill='#333'>Si + plus-que-parfait</text><line x1='128' y1='144' x2='152' y2='144' stroke='#757575' stroke-width='2'/><polygon points='152,139 160,144 152,149' fill='#757575'/><rect x='162' y='130' width='152' height='28' rx='8' fill='#f8bbd0' stroke='#f06292' stroke-width='1.5'/><text x='238' y='148' font-size='10' text-anchor='middle' fill='#333'>conditionnel passé</text><text x='160' y='176' font-size='10' font-style='italic' text-anchor='middle' fill='#333'>S'il avait dénoncé, le coupable aurait été puni.</text></svg>",
+          "legende": "Jamais de conditionnel juste après « si » dans ces constructions."
+        },
+        {
+          "type": "methode",
+          "titre": "Choisir la bonne construction",
+          "texte": "1. Identifie le lien : cause, conséquence, but, condition ou hypothèse.\n2. Choisis le connecteur adapté.\n3. Regarde ce qui suit : nom, infinitif, indicatif ou subjonctif.\n4. Pour une phrase avec « si », applique la concordance des temps."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Complète chaque phrase :\n1. Il dénonce la fraude afin que justice (être) faite.\n2. Si tu (travailler), tu réussiras.\n3. Si j'(avoir) le pouvoir, je punirais les corrupteurs.\n4. S'il (prévenir) la police, le vol (être évité) : (plus-que-parfait puis conditionnel passé).\n5. (Grâce à / À cause de) ce témoin, le coupable a été arrêté.\n6. Relie ces deux phrases avec un connecteur de conséquence : « La corruption appauvrit le pays. Il faut la combattre. »",
+          "solution": "1. soit (subjonctif après « afin que »).\n2. travailles (si + présent).\n3. avais (si + imparfait, avec un conditionnel présent dans la principale).\n4. S'il avait prévenu la police, le vol aurait été évité.\n5. Grâce à (cause favorable).\n6. Par exemple : « La corruption appauvrit le pays ; c'est pourquoi il faut la combattre. »"
+        }
+      ],
+      "lexique": [
+        { "terme": "Cause", "definition": "Raison d'un fait." },
+        { "terme": "Conséquence", "definition": "Résultat d'un fait." },
+        { "terme": "But", "definition": "Objectif que l'on veut atteindre." },
+        { "terme": "Condition", "definition": "Fait dont dépend la réalisation d'un autre fait." },
+        { "terme": "Hypothèse", "definition": "Simple supposition, sans certitude." },
+        { "terme": "Concordance des temps", "definition": "Accord entre les temps des verbes d'une même phrase." }
+      ]
+    },
+    {
+      "id": "fr-4-6",
+      "titre": "Phrase simple et phrase complexe",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Phrase simple, phrase complexe",
+          "texte": "Une <b>phrase simple</b> contient un seul verbe conjugué (une seule proposition). Une <b>phrase complexe</b> contient plusieurs verbes conjugués (plusieurs propositions)."
+        },
+        {
+          "type": "schema",
+          "titre": "Comment reconnaître la phrase ?",
+          "svg": "<svg width='320' height='218' viewBox='0 0 320 218' xmlns='http://www.w3.org/2000/svg'><rect x='60' y='4' width='200' height='28' rx='8' fill='#fff3cd' stroke='#f9a825' stroke-width='1.5'/><text x='160' y='23' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Compte les verbes conjugués</text><g stroke='#757575' stroke-width='1.5'><line x1='160' y1='32' x2='80' y2='56'/><line x1='160' y1='32' x2='240' y2='56'/></g><rect x='10' y='56' width='140' height='44' rx='8' fill='#b3e5fc' stroke='#4fc3f7' stroke-width='1.5'/><text x='80' y='75' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>1 verbe conjugué</text><text x='80' y='90' font-size='11' text-anchor='middle' fill='#333'>= phrase simple</text><rect x='170' y='56' width='140' height='44' rx='8' fill='#ffe0b2' stroke='#ffb74d' stroke-width='1.5'/><text x='240' y='75' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Plusieurs verbes</text><text x='240' y='90' font-size='11' text-anchor='middle' fill='#333'>= phrase complexe</text><g stroke='#757575' stroke-width='1.5'><line x1='240' y1='100' x2='55' y2='128'/><line x1='240' y1='100' x2='160' y2='128'/><line x1='240' y1='100' x2='265' y2='128'/></g><rect x='4' y='128' width='102' height='86' rx='8' fill='#b3e5fc' stroke='#4fc3f7' stroke-width='1.5'/><text x='55' y='146' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Juxtaposées</text><text x='55' y='162' font-size='9.5' text-anchor='middle' fill='#333'>reliées par une</text><text x='55' y='174' font-size='9.5' text-anchor='middle' fill='#333'>ponctuation</text><text x='55' y='196' font-size='9' font-style='italic' text-anchor='middle' fill='#333'>Il vient, il parle.</text><rect x='109' y='128' width='102' height='86' rx='8' fill='#c8e6c9' stroke='#81c784' stroke-width='1.5'/><text x='160' y='146' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Coordonnées</text><text x='160' y='162' font-size='9.5' text-anchor='middle' fill='#333'>une conjonction de</text><text x='160' y='174' font-size='9.5' text-anchor='middle' fill='#333'>coordination</text><text x='160' y='196' font-size='9' font-style='italic' text-anchor='middle' fill='#333'>Il vient et il parle.</text><rect x='214' y='128' width='102' height='86' rx='8' fill='#ffe0b2' stroke='#ffb74d' stroke-width='1.5'/><text x='265' y='146' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Subordonnées</text><text x='265' y='162' font-size='9.5' text-anchor='middle' fill='#333'>un mot subordonnant</text><text x='265' y='174' font-size='9.5' text-anchor='middle' fill='#333'>(que, qui, quand…)</text><text x='265' y='196' font-size='9' font-style='italic' text-anchor='middle' fill='#333'>Je pense qu'il vient.</text></svg>",
+          "legende": "Juxtaposées et coordonnées sont des phrases complexes, comme les phrases à subordonnée."
+        },
+        {
+          "type": "remarque",
+          "texte": "<b>Pièges à éviter :</b>\n• Une phrase simple n'est pas forcément courte : on peut y ajouter beaucoup de compléments sans ajouter de verbe conjugué.\n• Un verbe à un temps composé (« a vu », « a signalé ») compte pour <b>un seul</b> verbe conjugué.\n• Une incise (« dit-il », « pense-t-elle ») est une proposition à part ; ce n'est pas une proposition principale.\n• Une phrase sans verbe conjugué (« Quel courage ! ») n'est pas une phrase complexe."
+        },
+        {
+          "type": "tableau",
+          "titre": "Exemples sur le thème de la corruption",
+          "entetes": ["Phrase", "Nature"],
+          "lignes": [
+            ["Le citoyen dénonce la fraude.", "Phrase simple (1 verbe)"],
+            ["Le Bianco enquête, il transmet le dossier.", "Phrase complexe : deux propositions juxtaposées"],
+            ["Il a vu la fraude et il l'a signalée.", "Phrase complexe : deux propositions coordonnées par « et »"],
+            ["Je pense que la corruption freine le développement.", "Phrase complexe : principale + subordonnée conjonctive"],
+            ["Les citoyens qui dénoncent la fraude aident la justice.", "Phrase complexe : principale + subordonnée relative"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "enonce": "Indique si la phrase est simple ou complexe, et précise la nature des propositions :\n1. Le citoyen dénonce la fraude.\n2. Il a vu la fraude et il l'a signalée.\n3. Le Bianco enquête, il transmet le dossier.\n4. Je pense que la corruption freine le développement.\n5. Les citoyens qui dénoncent la fraude aident la justice.\n6. Quel courage !",
+          "solution": "1. Phrase simple (un verbe conjugué : dénonce).\n2. Phrase complexe : deux propositions coordonnées par « et » (a vu / l'a signalée).\n3. Phrase complexe : deux propositions juxtaposées (séparées par une virgule).\n4. Phrase complexe : la principale « Je pense » et la subordonnée conjonctive « que la corruption freine le développement ».\n5. Phrase complexe : la principale « Les citoyens aident la justice » et la subordonnée relative « qui dénoncent la fraude ».\n6. Phrase sans verbe conjugué : ce n'est pas une phrase complexe."
+        }
+      ],
+      "lexique": [
+        { "terme": "Phrase simple", "definition": "Phrase qui contient un seul verbe conjugué." },
+        { "terme": "Phrase complexe", "definition": "Phrase qui contient plusieurs verbes conjugués." },
+        { "terme": "Conjonction de coordination", "definition": "Mot qui relie deux éléments de même nature : mais, ou, et, donc, or, ni, car." },
+        { "terme": "Mot subordonnant", "definition": "Mot qui introduit une subordonnée : que, qui, quand, si, où…" },
+        { "terme": "Incise", "definition": "Courte proposition insérée dans une phrase : « dit-il »." }
+      ]
+    }
+  ]
+}
