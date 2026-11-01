@@ -1,0 +1,222 @@
+{
+  "id": "svt-theme2",
+  "titre": "Thématique 2 : Organisation des êtres vivants",
+  "lecons": [
+    {
+      "id": "svt-2-1",
+      "titre": "Absorption de l'eau et des sels minéraux par la racine",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Solution du sol : le sol contient de l'eau dans laquelle sont dissous des sels minéraux (azote, phosphore, potassium…). Les plantes vertes prélèvent cette eau et ces sels minéraux dans le sol grâce à leurs racines."
+        },
+        {
+          "type": "schema",
+          "titre": "Plantule de radis",
+          "svg": "<svg width='320' height='225' viewBox='0 0 320 225' xmlns='http://www.w3.org/2000/svg'><ellipse cx='75' cy='30' rx='24' ry='12' fill='#4ade80' stroke='#166534' stroke-width='1.5'/><ellipse cx='125' cy='30' rx='24' ry='12' fill='#4ade80' stroke='#166534' stroke-width='1.5'/><rect x='97' y='38' width='6' height='54' fill='#86efac' stroke='#166534' stroke-width='1'/><path d='M94,92 L106,92 L102,205 L98,205 Z' fill='#fef3c7' stroke='#92400e' stroke-width='1.5'/><g stroke='#92400e' stroke-width='1'><line x1='97' y1='130' x2='84' y2='125'/><line x1='97' y1='150' x2='83' y2='146'/><line x1='98' y1='170' x2='85' y2='166'/><line x1='98' y1='188' x2='86' y2='184'/><line x1='104' y1='140' x2='117' y2='135'/><line x1='103' y1='160' x2='116' y2='155'/><line x1='102' y1='179' x2='114' y2='175'/></g><path d='M98,205 L102,205 L100,216 Z' fill='#92400e'/><g stroke='#475569' stroke-width='1'><line x1='149' y1='30' x2='165' y2='30'/><line x1='103' y1='65' x2='165' y2='65'/><line x1='104' y1='110' x2='165' y2='110'/><line x1='117' y1='135' x2='165' y2='135'/><line x1='101' y1='212' x2='165' y2='212'/></g><g font-size='11' font-family='sans-serif' fill='#1e293b'><text x='170' y='34'>jeune feuille</text><text x='170' y='69'>jeune tige</text><text x='170' y='114'>racine</text><text x='170' y='139'>poils absorbants</text><text x='170' y='216'>extrémité de la racine</text></g><text x='170' y='152' font-size='10' font-family='sans-serif' fill='#475569'>(zone pilifère)</text></svg>",
+          "legende": "Les poils absorbants sont situés dans la zone pilifère, près de l'extrémité de la racine."
+        },
+        {
+          "type": "definition",
+          "texte": "La racine : elle a trois rôles principaux :\n- absorber l'eau et les sels minéraux du sol ;\n- ancrer la plante dans le sol ;\n- stocker des réserves (radis, carotte, manioc).\nLes poils absorbants sont de minuscules excroissances des cellules de l'épiderme de la racine. Il y en a plusieurs milliards : ils augmentent beaucoup la surface de contact avec le sol."
+        },
+        {
+          "type": "methode",
+          "texte": "Expérience pour trouver l'organe qui absorbe l'eau (trois tubes avec une plantule de radis) :\n- Tube 1 : la racine plonge dans l'eau.\n- Tube 2 : même montage, avec une fine couche d'huile à la surface de l'eau (l'huile empêche l'évaporation).\n- Tube 3 : même montage que le tube 2, mais les poils absorbants de la racine sont enduits d'huile.\nOn repère le niveau de l'eau au départ, puis après quelques jours."
+        },
+        {
+          "type": "schema",
+          "titre": "L'expérience des trois tubes (résultat)",
+          "svg": "<svg width='320' height='205' viewBox='0 0 320 205' xmlns='http://www.w3.org/2000/svg'><rect x='36' y='75' width='38' height='79' fill='#93c5fd'/><rect x='141' y='75' width='38' height='79' fill='#93c5fd'/><rect x='141' y='70' width='38' height='6' fill='#fde047'/><rect x='246' y='55' width='38' height='99' fill='#93c5fd'/><rect x='35' y='40' width='40' height='115' fill='none' stroke='#1e293b' stroke-width='2'/><rect x='140' y='40' width='40' height='115' fill='none' stroke='#1e293b' stroke-width='2'/><rect x='245' y='40' width='40' height='115' fill='none' stroke='#1e293b' stroke-width='2'/><g stroke='#16a34a' stroke-width='3'><line x1='55' y1='12' x2='55' y2='95'/><line x1='160' y1='12' x2='160' y2='95'/><line x1='265' y1='12' x2='265' y2='95'/></g><g fill='#4ade80'><ellipse cx='45' cy='20' rx='10' ry='5'/><ellipse cx='65' cy='20' rx='10' ry='5'/><ellipse cx='150' cy='20' rx='10' ry='5'/><ellipse cx='170' cy='20' rx='10' ry='5'/><ellipse cx='255' cy='20' rx='10' ry='5'/><ellipse cx='275' cy='20' rx='10' ry='5'/></g><rect x='259' y='102' width='12' height='40' rx='5' fill='#fde047' fill-opacity='0.85' stroke='#ca8a04'/><g stroke='#92400e' stroke-width='2'><line x1='55' y1='95' x2='55' y2='140'/><line x1='160' y1='95' x2='160' y2='140'/><line x1='265' y1='95' x2='265' y2='140'/></g><g stroke='#92400e' stroke-width='1'><line x1='55' y1='108' x2='47' y2='104'/><line x1='55' y1='120' x2='47' y2='116'/><line x1='55' y1='108' x2='63' y2='104'/><line x1='55' y1='120' x2='63' y2='116'/><line x1='160' y1='108' x2='152' y2='104'/><line x1='160' y1='120' x2='152' y2='116'/><line x1='160' y1='108' x2='168' y2='104'/><line x1='160' y1='120' x2='168' y2='116'/><line x1='265' y1='108' x2='257' y2='104'/><line x1='265' y1='120' x2='257' y2='116'/><line x1='265' y1='108' x2='273' y2='104'/><line x1='265' y1='120' x2='273' y2='116'/></g><g stroke='#dc2626' stroke-width='1.5' stroke-dasharray='4,3'><line x1='30' y1='55' x2='80' y2='55'/><line x1='135' y1='55' x2='185' y2='55'/><line x1='240' y1='55' x2='290' y2='55'/></g><g font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'><text x='55' y='172'>Tube 1</text><text x='160' y='172'>Tube 2</text><text x='265' y='172'>Tube 3</text></g><g font-size='10' font-family='sans-serif' fill='#1e293b' text-anchor='middle'><text x='55' y='185'>eau seule</text><text x='160' y='185'>eau + huile</text><text x='160' y='197'>en surface</text><text x='265' y='185'>poils enduits</text><text x='265' y='197'>d'huile</text></g></svg>",
+          "legende": "Trait rouge pointillé : niveau de départ de l'eau. Il baisse dans les tubes 1 et 2, mais pas dans le tube 3."
+        },
+        {
+          "type": "regle",
+          "texte": "Interprétation :\n- Dans les tubes 1 et 2, le niveau baisse : l'eau est absorbée par la plante (dans le tube 2, l'huile empêche l'évaporation, donc la baisse n'est pas due à l'évaporation).\n- Dans le tube 3, le niveau ne baisse pas : quand les poils absorbants sont couverts d'huile, la plante n'absorbe plus d'eau.\nConclusion : c'est par les poils absorbants de la zone pilifère que la racine absorbe l'eau et les sels minéraux."
+        },
+        {
+          "type": "schema",
+          "titre": "Trajet de l'eau dans la racine (coupe transversale)",
+          "svg": "<svg width='320' height='200' viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg'><circle cx='160' cy='100' r='75' fill='#fde68a' stroke='#92400e' stroke-width='4'/><circle cx='160' cy='100' r='30' fill='#fecaca' stroke='#1e293b' stroke-width='1.5'/><g fill='#3b82f6' stroke='#1e3a8a' stroke-width='1'><circle cx='160' cy='88' r='5'/><circle cx='160' cy='112' r='5'/><circle cx='148' cy='100' r='5'/><circle cx='172' cy='100' r='5'/></g><path d='M88,94 Q50,90 22,100 Q50,110 88,106 Z' fill='#fef9c3' stroke='#92400e' stroke-width='1.5'/><line x1='45' y1='100' x2='124' y2='100' stroke='#1d4ed8' stroke-width='3'/><polygon points='122,94 134,100 122,106' fill='#1d4ed8'/><g stroke='#475569' stroke-width='1'><line x1='213' y1='47' x2='255' y2='22'/><line x1='164' y1='86' x2='255' y2='70'/><line x1='186' y1='112' x2='255' y2='100'/><line x1='205' y1='128' x2='255' y2='135'/></g><g font-size='10' font-family='sans-serif' fill='#1e293b'><text x='258' y='26'>épiderme</text><text x='258' y='74'>xylème</text><text x='258' y='104'>stèle</text><text x='258' y='139'>cortex</text></g><g font-size='10' font-family='sans-serif' fill='#1d4ed8' text-anchor='middle'><text x='45' y='78'>eau et sels</text><text x='45' y='89'>minéraux</text></g><text x='45' y='125' font-size='10' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>poil absorbant</text><text x='160' y='192' font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Coupe transversale de racine</text></svg>",
+          "legende": "La flèche bleue montre le transfert radial : de l'extérieur vers le centre de la racine."
+        },
+        {
+          "type": "definition",
+          "texte": "Transfert radial de l'eau : l'eau et les sels minéraux entrent par les poils absorbants, traversent l'épiderme puis le cortex, et arrivent dans la stèle (le centre de la racine). Ils passent alors dans le xylème, formé de vaisseaux qui transportent la sève brute (eau + sels minéraux) vers la tige et les feuilles."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Citer les trois rôles de la racine.\n2) Dans l'expérience des trois tubes, pourquoi met-on de l'huile à la surface de l'eau dans le tube 2 ?\n3) Dans le tube 3, le niveau de l'eau ne baisse pas. Que peut-on en conclure ?",
+          "solution": "1) Absorber l'eau et les sels minéraux, ancrer la plante dans le sol, stocker des réserves.\n2) L'huile empêche l'évaporation de l'eau : si le niveau baisse, c'est donc bien parce que la plante absorbe l'eau.\n3) Quand les poils absorbants sont couverts d'huile, la plante n'absorbe plus d'eau : ce sont les poils absorbants qui absorbent l'eau et les sels minéraux."
+        }
+      ]
+    },
+    {
+      "id": "svt-2-2",
+      "titre": "Les besoins nutritionnels des plantes vertes",
+      "blocs": [
+        {
+          "type": "methode",
+          "texte": "Pour savoir de quoi une plante a besoin, on réalise 4 expériences. Dans chacune, on compare un lot témoin (tout est donné à la plante) et un lot test (un seul facteur est supprimé). On observe les plantes pendant 5 à 6 jours. Les autres conditions doivent rester identiques."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Facteur étudié", "Lot témoin", "Lot test", "Résultat après 5-6 jours"],
+          "lignes": [
+            ["Eau", "arrosage normal", "aucun arrosage", "témoin : plante saine ; test : plante flétrie"],
+            ["Sels minéraux", "eau du robinet (contient des sels)", "eau déminéralisée (sans sels)", "témoin : bonne croissance ; test : croissance faible, feuilles jaunies"],
+            ["Dioxyde de carbone (CO2)", "plante sous cloche avec CO2", "plante sous cloche sans CO2 (coupelle qui absorbe le CO2)", "témoin : bonne croissance ; test : croissance très faible"],
+            ["Lumière", "plante à la lumière", "plante à l'obscurité", "témoin : plante verte et vigoureuse ; test : plante jaunâtre, allongée et fragile"]
+          ]
+        },
+        {
+          "type": "regle",
+          "texte": "Conclusion : une plante verte a besoin d'eau, de sels minéraux, de dioxyde de carbone et de lumière pour vivre et grandir."
+        },
+        {
+          "type": "schema",
+          "titre": "Ce dont la plante a besoin",
+          "svg": "<svg width='320' height='190' viewBox='0 0 320 190' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='140' width='320' height='50' fill='#d6b48a'/><circle cx='38' cy='34' r='16' fill='#fbbf24'/><g stroke='#f59e0b' stroke-width='2'><line x1='38' y1='10' x2='38' y2='4'/><line x1='62' y1='34' x2='68' y2='34'/><line x1='14' y1='34' x2='8' y2='34'/><line x1='55' y1='51' x2='60' y2='56'/><line x1='21' y1='51' x2='16' y2='56'/></g><rect x='158' y='70' width='5' height='72' fill='#16a34a'/><ellipse cx='135' cy='72' rx='28' ry='12' fill='#4ade80' stroke='#166534'/><ellipse cx='188' cy='72' rx='28' ry='12' fill='#4ade80' stroke='#166534'/><ellipse cx='160' cy='56' rx='12' ry='18' fill='#4ade80' stroke='#166534'/><g stroke='#92400e' stroke-width='2'><line x1='160' y1='142' x2='130' y2='175'/><line x1='160' y1='142' x2='160' y2='182'/><line x1='160' y1='142' x2='190' y2='175'/></g><line x1='58' y1='48' x2='100' y2='66' stroke='#f59e0b' stroke-width='3'/><polygon points='92,60 106,68 91,73' fill='#f59e0b'/><text x='28' y='80' font-size='11' font-weight='bold' font-family='sans-serif' fill='#b45309'>Lumière</text><line x1='298' y1='100' x2='224' y2='82' stroke='#475569' stroke-width='3'/><polygon points='232,76 218,81 230,90' fill='#475569'/><text x='270' y='95' font-size='11' font-weight='bold' font-family='sans-serif' fill='#475569'>CO2</text><line x1='176' y1='50' x2='248' y2='26' stroke='#0284c7' stroke-width='3'/><polygon points='240,32 254,22 248,36' fill='#0284c7'/><text x='262' y='28' font-size='11' font-weight='bold' font-family='sans-serif' fill='#0284c7'>O2</text><line x1='62' y1='166' x2='118' y2='172' stroke='#1d4ed8' stroke-width='3'/><polygon points='116,166 129,173 115,178' fill='#1d4ed8'/><text x='8' y='160' font-size='10' font-weight='bold' font-family='sans-serif' fill='#1e3a8a'>eau + sels</text><text x='8' y='174' font-size='10' font-weight='bold' font-family='sans-serif' fill='#1e3a8a'>minéraux</text><text x='160' y='14' font-size='12' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Photosynthèse</text></svg>",
+          "legende": "La plante absorbe l'eau et les sels par les racines, le CO2 par les feuilles, et utilise la lumière. Elle rejette du dioxygène (O2)."
+        },
+        {
+          "type": "definition",
+          "texte": "Photosynthèse : grâce à la lumière, la plante verte utilise l'eau, les sels minéraux et le dioxyde de carbone pour fabriquer sa propre matière organique (glucose, puis ses autres aliments). Elle rejette du dioxygène (O2). C'est pourquoi les plantes vertes sont appelées des êtres vivants autotrophes."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Un élève met deux plants de haricot dans les mêmes conditions, sauf que l'un reste à la lumière et l'autre est placé dans un placard fermé. Après une semaine, quel résultat attend-on ? Quel facteur est étudié ? Quel plant est le témoin ?",
+          "solution": "Le facteur étudié est la lumière. Le plant resté à la lumière est le témoin : il est vert et vigoureux. Le plant du placard est le lot test : il est jaunâtre, allongé et fragile, car sans lumière il ne peut pas faire la photosynthèse. Conclusion : la lumière est nécessaire aux plantes vertes."
+        }
+      ]
+    },
+    {
+      "id": "svt-2-3",
+      "titre": "Les soins aux plantes cultivées",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Pour avoir une bonne récolte, il faut donner aux plantes locales (riz, maïs, manioc, haricot, légumes…) les soins dont elles ont besoin tout au long de leur croissance."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Soin", "En quoi consiste-t-il ?", "Intérêt"],
+          "lignes": [
+            ["Sarclage", "couper les mauvaises herbes juste sous la surface du sol avec un sarcloir", "ameublir la surface et supprimer les herbes qui concurrencent la culture"],
+            ["Éclaircissage", "retirer des plantules d'une ligne quand elles sont trop serrées", "laisser à chaque plant assez d'espace, d'eau, de lumière et de sels minéraux"],
+            ["Arrosage", "apporter de l'eau seulement quand le sol est sec", "éviter le manque d'eau sans pourrir les racines par excès"],
+            ["Désherbage", "arracher les mauvaises herbes à la main, sur un sol ameubli et sec", "supprimer les adventices sans abîmer les racines de la culture"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "L'éclaircissage",
+          "svg": "<svg width='320' height='125' viewBox='0 0 320 125' xmlns='http://www.w3.org/2000/svg'><line x1='90' y1='50' x2='240' y2='50' stroke='#92400e' stroke-width='3'/><g stroke='#16a34a' stroke-width='2'><line x1='100' y1='50' x2='100' y2='36'/><line x1='118' y1='50' x2='118' y2='36'/><line x1='136' y1='50' x2='136' y2='36'/><line x1='154' y1='50' x2='154' y2='36'/><line x1='172' y1='50' x2='172' y2='36'/><line x1='190' y1='50' x2='190' y2='36'/><line x1='208' y1='50' x2='208' y2='36'/><line x1='226' y1='50' x2='226' y2='36'/></g><g fill='#4ade80' stroke='#166534'><circle cx='100' cy='32' r='6'/><circle cx='118' cy='32' r='6'/><circle cx='136' cy='32' r='6'/><circle cx='154' cy='32' r='6'/><circle cx='172' cy='32' r='6'/><circle cx='190' cy='32' r='6'/><circle cx='208' cy='32' r='6'/><circle cx='226' cy='32' r='6'/></g><text x='8' y='40' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b'>Avant</text><text x='250' y='40' font-size='10' font-family='sans-serif' fill='#475569'>trop serrées</text><text x='160' y='80' font-size='10' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>↓ on retire les plantules en trop</text><line x1='90' y1='110' x2='240' y2='110' stroke='#92400e' stroke-width='3'/><g stroke='#16a34a' stroke-width='2'><line x1='118' y1='110' x2='118' y2='92'/><line x1='172' y1='110' x2='172' y2='92'/><line x1='226' y1='110' x2='226' y2='92'/></g><g fill='#4ade80' stroke='#166534'><circle cx='118' cy='86' r='8'/><circle cx='172' cy='86' r='8'/><circle cx='226' cy='86' r='8'/></g><text x='8' y='100' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b'>Après</text><text x='250' y='100' font-size='10' font-family='sans-serif' fill='#475569'>espacées</text></svg>",
+          "legende": "Après l'éclaircissage, chaque plantule dispose de plus de place pour grandir."
+        },
+        {
+          "type": "remarque",
+          "texte": "Les mauvaises herbes (adventices) prennent aux cultures l'eau, la lumière et les sels minéraux. Le sarclage et le désherbage se font de préférence quand les herbes sont encore jeunes."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Un paysan a semé des graines de légumes très serrées dans une ligne et le sol est envahi de mauvaises herbes. Quels soins doit-il faire ? Pourquoi ?",
+          "solution": "Il doit faire un éclaircissage (retirer les plantules en trop pour qu'elles aient assez d'espace, de lumière, d'eau et de sels minéraux) et un sarclage ou un désherbage (supprimer les mauvaises herbes qui concurrencent la culture). Il arrosera seulement si le sol est sec."
+        }
+      ]
+    },
+        {
+      "id": "svt-2-4",
+      "titre": "Les bio-agresseurs des cultures",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Bio-agresseurs : ce sont les êtres vivants qui attaquent les plantes cultivées et diminuent les récoltes. On en distingue trois types : les agents pathogènes, les ravageurs et les adventices."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Type", "Définition", "Exemples"],
+          "lignes": [
+            ["Agents pathogènes", "micro-organismes qui provoquent des maladies", "champignons (rouille, moisissure), bactéries, virus"],
+            ["Ravageurs", "animaux qui mangent ou parasitent les plantes", "insectes (criquets, chenilles, pucerons, fourmis), rongeurs, oiseaux"],
+            ["Adventices", "plantes indésirables qui poussent parmi les cultures (« mauvaises herbes »)", "herbes qui concurrencent la culture pour l'eau, la lumière et les sels minéraux"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Les bio-agresseurs causent de grosses pertes de récolte. Pour s'en protéger, on peut utiliser des méthodes naturelles (peu dangereuses pour la santé et l'environnement) ou des méthodes chimiques (pesticides)."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Classer les bio-agresseurs suivants : chenille, rouille du haricot, herbe qui pousse entre les plants de maïs, puceron, moisissure sur les racines.",
+          "solution": "Ravageurs : chenille, puceron.\nAgents pathogènes : rouille du haricot, moisissure sur les racines (champignons).\nAdventices : herbe qui pousse entre les plants de maïs."
+        }
+      ]
+    },
+    {
+      "id": "svt-2-5",
+      "titre": "La protection naturelle des plantes",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Méthodes naturelles : elles utilisent des plantes ou des produits naturels disponibles localement pour éloigner ou détruire les bio-agresseurs, sans polluer."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Plante", "Contre quoi ?", "Utilisation"],
+          "lignes": [
+            ["Neem (voandelaka)", "plus de 200 espèces d'insectes ravageurs", "feuilles (macération dans l'eau, pulvérisation), tourteaux de graines, engrais vert, compost"],
+            ["Piment", "fourmis, pucerons, chenilles", "broyat ou macération de piment dans l'eau, pulvérisée sur les plantes"]
+          ]
+        },
+        {
+          "type": "regle",
+          "texte": "Avantages des méthodes naturelles :\n- les produits sont peu coûteux et faciles à trouver ;\n- ils sont peu dangereux pour l'homme, les animaux utiles et le sol ;\n- ils respectent l'environnement.\nLimite : leur effet est souvent plus lent et moins puissant, et il faut les renouveler régulièrement."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Un jardinier voit des pucerons sur ses plants de haricot. Il ne veut pas utiliser de produit chimique. Quelles solutions naturelles peut-il employer ? Citer un avantage de cette méthode.",
+          "solution": "Il peut pulvériser une macération de feuilles de neem ou de piment dans l'eau. Avantage : produit peu coûteux, disponible localement et peu dangereux pour la santé et l'environnement."
+        }
+      ]
+    },
+    {
+      "id": "svt-2-6",
+      "titre": "La protection chimique : les pesticides",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Pesticides : ce sont des produits chimiques utilisés pour détruire les bio-agresseurs des cultures. On les classe selon l'ennemi visé."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Pesticide", "Cible", "Remarque"],
+          "lignes": [
+            ["Herbicide", "mauvaises herbes (adventices)", "détruit les herbes indésirables"],
+            ["Insecticide", "insectes ravageurs", "agit par contact ou de façon systémique (le produit pénètre dans la plante)"],
+            ["Fongicide", "champignons", "lutte contre la pourriture des racines, la moisissure, la rouille"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "entetes": ["", "Méthode naturelle", "Méthode chimique"],
+          "lignes": [
+            ["Efficacité", "plus lente, moins forte", "rapide et forte"],
+            ["Coût", "faible", "souvent élevé"],
+            ["Santé et environnement", "peu de risques", "risques pour la santé, pollution du sol et de l'eau, mort d'animaux utiles"],
+            ["Autre inconvénient", "à renouveler souvent", "les ravageurs peuvent devenir résistants"]
+          ]
+        },
+        {
+          "type": "regle",
+          "texte": "Précautions à prendre avec les pesticides :\n- porter des gants, un masque et des vêtements couvrants ;\n- respecter la dose indiquée sur l'emballage ;\n- ne pas traiter par grand vent ni près d'un point d'eau ;\n- respecter le délai à observer avant la récolte ;\n- ne jamais réutiliser les emballages vides et ranger les produits hors de portée des enfants."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Quel type de pesticide faut-il utiliser contre : a) des chenilles ; b) la rouille ; c) des herbes qui envahissent un champ ?\n2) Citer deux risques liés à l'usage des pesticides.",
+          "solution": "1) a) un insecticide ; b) un fongicide ; c) un herbicide.\n2) Risques pour la santé de l'agriculteur et du consommateur ; pollution du sol et de l'eau ; destruction d'animaux utiles ; apparition de ravageurs résistants."
+        }
+      ]
+    }
+  ]
+}
