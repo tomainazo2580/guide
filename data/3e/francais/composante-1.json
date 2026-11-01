@@ -1,0 +1,208 @@
+{
+  "id": "fr-theme1",
+  "titre": "Thème I : L'artisanat",
+  "lecons": [
+    {
+      "id": "fr-1-1",
+      "titre": "Les différentes formes d'artisanat",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Artisanat",
+          "texte": "L'artisanat regroupe les métiers manuels dans lesquels une personne, l'<b>artisan</b>, fabrique à la main (seule ou en petite équipe) des objets utiles ou décoratifs, avec un savoir-faire souvent transmis de génération en génération. Les objets fabriqués sont des <b>produits artisanaux</b>."
+        },
+        {
+          "type": "texte",
+          "texte": "À Madagascar, l'artisanat est très varié. Le schéma présente les principales formes à connaître."
+        },
+        {
+          "type": "schema",
+          "titre": "Les formes d'artisanat malgache",
+          "svg": "<svg width='320' height='240' viewBox='0 0 320 240' xmlns='http://www.w3.org/2000/svg'><g stroke='#9e9e9e' stroke-width='1.5'><line x1='54' y1='42' x2='122' y2='95'/><line x1='160' y1='42' x2='160' y2='90'/><line x1='266' y1='42' x2='198' y2='95'/><line x1='98' y1='120' x2='108' y2='120'/><line x1='212' y1='120' x2='222' y2='120'/><line x1='54' y1='198' x2='122' y2='145'/><line x1='160' y1='198' x2='160' y2='150'/><line x1='266' y1='198' x2='198' y2='145'/></g><ellipse cx='160' cy='120' rx='52' ry='30' fill='#fff3cd' stroke='#f9a825' stroke-width='2'/><text x='160' y='117' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>L'artisanat</text><text x='160' y='132' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>malgache</text><rect x='6' y='8' width='96' height='34' rx='8' fill='#ffcdd2' stroke='#e57373'/><text x='54' y='29' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Vannerie</text><rect x='112' y='8' width='96' height='34' rx='8' fill='#ffe0b2' stroke='#ffb74d'/><text x='160' y='29' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Poterie</text><rect x='218' y='8' width='96' height='34' rx='8' fill='#f8bbd0' stroke='#f06292'/><text x='266' y='29' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Broderie</text><rect x='6' y='102' width='92' height='36' rx='8' fill='#c8e6c9' stroke='#81c784'/><text x='52' y='117' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Tissage</text><text x='52' y='130' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>en raphia</text><rect x='222' y='102' width='92' height='36' rx='8' fill='#d7ccc8' stroke='#a1887f'/><text x='268' y='117' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Sculpture</text><text x='268' y='130' font-size='11' text-anchor='middle' fill='#333'>(bois)</text><rect x='6' y='198' width='96' height='34' rx='8' fill='#b3e5fc' stroke='#4fc3f7'/><text x='54' y='212' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Taillage et</text><text x='54' y='225' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>polissage</text><rect x='112' y='198' width='96' height='34' rx='8' fill='#cfd8dc' stroke='#90a4ae'/><text x='160' y='219' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Fonte</text><rect x='218' y='198' width='96' height='34' rx='8' fill='#e1bee7' stroke='#ba68c8'/><text x='266' y='212' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Autres métiers</text><text x='266' y='225' font-size='10' text-anchor='middle' fill='#333'>bijouterie…</text></svg>",
+          "legende": "Sept formes d'artisanat et d'autres métiers manuels."
+        },
+        {
+          "type": "tableau",
+          "titre": "Qui fait quoi ?",
+          "entetes": ["Forme", "Ce que fait l'artisan", "Produits"],
+          "lignes": [
+            ["La vannerie", "Il tresse des fibres végétales", "paniers, chapeaux, corbeilles"],
+            ["La poterie", "Il modèle et cuit de l'argile", "vases, pots, jarres"],
+            ["La broderie", "Il décore un tissu avec des fils", "nappes, tissus brodés (lémuriens, scènes de vie)"],
+            ["Le tissage en raphia", "Il tisse les fibres du raphia", "sacs, nattes, chapeaux"],
+            ["Le taillage et le polissage", "Il taille et polit des pierres", "billes de pierre, jeux, bijoux"],
+            ["La sculpture", "Il taille et sculpte le bois", "jouets, petites voitures, statuettes"],
+            ["La fonte", "Il fait fondre un métal et le coule dans un moule", "marmites, casseroles en aluminium"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Il existe d'autres métiers artisanaux : la bijouterie, la verrerie, la menuiserie, la couture, etc."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Indique la forme d'artisanat correspondant à chaque produit :\n1. un vase en argile ;\n2. un panier tressé ;\n3. une marmite en aluminium ;\n4. un sac en raphia ;\n5. une petite voiture en bois ;\n6. une nappe ornée de lémuriens.",
+          "solution": "1. la poterie ;\n2. la vannerie ;\n3. la fonte ;\n4. le tissage en raphia ;\n5. la sculpture ;\n6. la broderie."
+        }
+      ],
+      "lexique": [
+        { "terme": "Artisan", "definition": "Personne qui exerce un métier manuel et produit des objets artisanaux." },
+        { "terme": "Savoir-faire", "definition": "Ensemble des techniques maîtrisées par un artisan." },
+        { "terme": "Matière première", "definition": "Matière de base utilisée pour fabriquer un objet (argile, raphia, bois…)." },
+        { "terme": "Raphia", "definition": "Fibre tirée des feuilles d'un palmier, très utilisée pour le tissage et la vannerie." },
+        { "terme": "Fonte", "definition": "Fait de faire fondre un métal pour le couler dans un moule." },
+        { "terme": "Polissage", "definition": "Action de rendre une surface lisse et brillante." }
+      ]
+    },
+    {
+      "id": "fr-1-2",
+      "titre": "Les problèmes de l'artisanat",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "Une bande dessinée raconte l'histoire d'un boulanger de village qui n'est pas satisfait du pain de chez lui et va en acheter dans la ville voisine. Elle montre un problème de l'artisanat : <b>parfois, les artisans eux-mêmes ne sont pas satisfaits de leurs produits</b>. Au lieu de les améliorer, ils poussent les clients à acheter des produits industriels. Cela dévalorise le marché des produits artisanaux."
+        },
+        {
+          "type": "schema",
+          "titre": "Un cercle vicieux",
+          "svg": "<svg width='320' height='200' viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='10' width='230' height='38' rx='8' fill='#ffe0b2' stroke='#ffb74d'/><text x='145' y='27' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Les artisans ne sont pas satisfaits</text><text x='145' y='41' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>de leurs propres produits</text><line x1='145' y1='48' x2='145' y2='64' stroke='#555' stroke-width='2'/><polygon points='145,68 140,60 150,60' fill='#555'/><rect x='30' y='70' width='230' height='38' rx='8' fill='#ffcdd2' stroke='#e57373'/><text x='145' y='87' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Ils encouragent les clients</text><text x='145' y='101' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>à acheter l'industriel</text><line x1='145' y1='108' x2='145' y2='124' stroke='#555' stroke-width='2'/><polygon points='145,128 140,120 150,120' fill='#555'/><rect x='30' y='130' width='230' height='38' rx='8' fill='#e1bee7' stroke='#ba68c8'/><text x='145' y='147' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Le marché des produits</text><text x='145' y='161' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>artisanaux est dévalorisé</text><path d='M260 149 H292 V29 H270' fill='none' stroke='#c62828' stroke-width='2'/><polygon points='262,29 271,24 271,34' fill='#c62828'/><text x='160' y='190' font-size='11' font-style='italic' text-anchor='middle' fill='#555'>Un cercle vicieux qui affaiblit l'artisanat</text></svg>",
+          "legende": "Moins les artisans croient en leurs produits, plus le marché artisanal s'affaiblit."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les six grands problèmes de l'artisanat",
+          "entetes": ["Problème", "Explication", "Piste de solution"],
+          "lignes": [
+            ["1. Concurrence accrue", "Avec la mondialisation, les produits industriels sont souvent moins chers et plus faciles à trouver.", "Soigner la qualité et l'originalité du produit fait main"],
+            ["2. Manque de ressources", "Il est difficile de trouver des matières premières de qualité à un prix raisonnable.", "S'organiser en groupe pour acheter ensemble"],
+            ["3. Manque de visibilité", "Les artisans ont du mal à faire connaître leur travail et à trouver des clients.", "Foires, marchés, vente aux touristes, réseaux sociaux"],
+            ["4. Perte de savoir-faire", "Les techniques traditionnelles se perdent par manque de formation et d'intérêt.", "Apprentissage auprès des anciens, centres de formation"],
+            ["5. Pression financière", "Les coûts de production, de distribution, de promotion et de vente sont élevés.", "Coopératives, bonne gestion, petits crédits"],
+            ["6. Complexité administrative", "Règles, licences et certifications sont compliquées et coûteuses.", "Se renseigner auprès des services compétents, s'associer"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Les « pistes de solution » sont des propositions pour t'aider à répondre aux questions de réflexion. Ce ne sont pas les seules possibles."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Lis la situation : « Rado est tisserand. Il ne trouve plus de raphia de bonne qualité à un prix raisonnable. Ses sacs, peu connus, se vendent mal : les clients préfèrent des sacs en plastique, moins chers. »\n1. Relève deux problèmes de l'artisanat rencontrés par Rado.\n2. Propose deux solutions.",
+          "solution": "1. Le manque de ressources (raphia de qualité difficile à trouver à bon prix), le manque de visibilité (ses sacs sont peu connus) et la concurrence des produits industriels (sacs en plastique moins chers). Deux de ces trois problèmes suffisent.\n2. Par exemple : acheter le raphia avec d'autres tisserands pour baisser le prix ; présenter ses sacs dans des foires ou à des touristes pour se faire connaître ; améliorer la qualité et l'originalité de ses sacs pour se distinguer du plastique."
+        }
+      ],
+      "lexique": [
+        { "terme": "Concurrence", "definition": "Situation où plusieurs vendeurs proposent des produits semblables aux mêmes clients." },
+        { "terme": "Débouché", "definition": "Possibilité de vendre un produit." },
+        { "terme": "Visibilité", "definition": "Fait d'être connu et facilement repéré par le public." },
+        { "terme": "Mondialisation", "definition": "Développement des échanges entre tous les pays du monde." }
+      ]
+    },
+    {
+      "id": "fr-1-3",
+      "titre": "La lecture expressive et la ponctuation",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Lecture expressive",
+          "texte": "Faire une <b>lecture expressive</b>, c'est mettre un texte en vie, le rendre vivant et compréhensible pour celui qui écoute."
+        },
+        {
+          "type": "regle",
+          "titre": "Les piliers de la lecture expressive",
+          "texte": "• le <b>ton</b> (joyeux, triste, en colère…) ;\n• la <b>personnalité du personnage</b> que l'on fait parler ;\n• la <b>vitesse</b> de lecture ;\n• le <b>volume</b> de la voix : on peut le moduler pour mieux faire sentir l'ambiance de l'histoire.\nUne <b>pause</b> (courte, moyenne ou longue) est marquée à chaque signe de ponctuation."
+        },
+        {
+          "type": "definition",
+          "titre": "La ponctuation",
+          "texte": "La ponctuation est un système de signes non alphabétiques. À l'écrit, les signes de ponctuation correspondent à l'<b>intonation</b> de l'oral."
+        },
+        {
+          "type": "schema",
+          "titre": "La voix devant chaque signe",
+          "svg": "<svg width='320' height='172' viewBox='0 0 320 172' xmlns='http://www.w3.org/2000/svg'><rect x='8' y='6' width='96' height='76' rx='8' fill='#f5f9ff' stroke='#90caf9'/><text x='18' y='36' font-size='26' font-weight='bold' fill='#c62828'>,</text><text x='44' y='32' font-size='10' fill='#333'>virgule</text><line x1='20' y1='54' x2='84' y2='54' stroke='#1565c0' stroke-width='3'/><text x='56' y='76' font-size='9.5' text-anchor='middle' fill='#555'>voix stable</text><rect x='112' y='6' width='96' height='76' rx='8' fill='#f5f9ff' stroke='#90caf9'/><text x='122' y='36' font-size='26' font-weight='bold' fill='#c62828'>;</text><text x='146' y='32' font-size='10' fill='#333'>point-virgule</text><line x1='124' y1='50' x2='188' y2='60' stroke='#1565c0' stroke-width='3'/><text x='160' y='76' font-size='9.5' text-anchor='middle' fill='#555'>voix baisse un peu</text><rect x='216' y='6' width='96' height='76' rx='8' fill='#f5f9ff' stroke='#90caf9'/><text x='226' y='36' font-size='26' font-weight='bold' fill='#c62828'>.</text><text x='244' y='32' font-size='10' fill='#333'>point</text><path d='M228 44 Q262 46 292 66' fill='none' stroke='#1565c0' stroke-width='3'/><text x='264' y='76' font-size='9.5' text-anchor='middle' fill='#555'>voix baisse</text><rect x='8' y='88' width='96' height='76' rx='8' fill='#f5f9ff' stroke='#90caf9'/><text x='18' y='118' font-size='26' font-weight='bold' fill='#c62828'>?</text><text x='38' y='114' font-size='10' fill='#333'>interrogation</text><path d='M20 146 Q56 148 84 124' fill='none' stroke='#1565c0' stroke-width='3'/><text x='56' y='158' font-size='9.5' text-anchor='middle' fill='#555'>voix monte</text><rect x='112' y='88' width='96' height='76' rx='8' fill='#f5f9ff' stroke='#90caf9'/><text x='122' y='118' font-size='26' font-weight='bold' fill='#c62828'>!</text><text x='138' y='114' font-size='10' fill='#333'>exclamation</text><line x1='124' y1='134' x2='188' y2='134' stroke='#1565c0' stroke-width='5'/><text x='160' y='158' font-size='9.5' text-anchor='middle' fill='#555'>voix soutenue</text><rect x='216' y='88' width='96' height='76' rx='8' fill='#f5f9ff' stroke='#90caf9'/><text x='226' y='118' font-size='26' font-weight='bold' fill='#c62828'>…</text><text x='254' y='114' font-size='10' fill='#333'>suspension</text><line x1='228' y1='134' x2='292' y2='134' stroke='#1565c0' stroke-width='3' stroke-dasharray='6 5'/><text x='264' y='158' font-size='9.5' text-anchor='middle' fill='#555'>voix stable</text></svg>",
+          "legende": "La courbe bleue montre comment la voix se comporte devant chaque signe."
+        },
+        {
+          "type": "tableau",
+          "titre": "Ponctuation et intonation",
+          "entetes": ["Signe", "Nom", "Pause", "Voix"],
+          "lignes": [
+            [",", "virgule", "légère pause", "sans baisse de la voix"],
+            [";", "point-virgule", "pause", "avec légère baisse de la voix"],
+            [".", "point", "pause", "avec baisse complète de la voix"],
+            ["?", "point d'interrogation", "pause", "avec montée de la voix"],
+            ["!", "point d'exclamation", "pause", "sans baisse de la voix (voix forte et expressive)"],
+            ["…", "points de suspension", "pause", "sans baisse de la voix"]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Bien lire un texte (lecture-fluidité)",
+          "texte": "1. Lis d'abord le texte en silence pour le comprendre.\n2. Repère la ponctuation : où faut-il s'arrêter ? où la voix monte-t-elle ou descend-elle ?\n3. Lis par groupes de mots qui ont un sens, sans hacher le texte.\n4. Choisis le ton : joie, colère, peur, tristesse…\n5. Adapte la vitesse et le volume à l'ambiance, sans hésiter ni sauter de mots."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Lis à voix haute : « Tu viens avec nous ? Oui, j'arrive ! Attends-moi… »\nPour chaque signe, indique ce que fait la voix.",
+          "solution": "• « ? » après « nous » : pause, la voix monte (question).\n• « , » après « Oui » : légère pause, la voix reste stable.\n• « ! » après « j'arrive » : pause, la voix reste haute et soutenue (ton vif).\n• « … » après « Attends-moi » : pause, la voix reste stable, sans baisser (phrase laissée en suspens)."
+        }
+      ],
+      "lexique": [
+        { "terme": "Intonation", "definition": "Façon dont la voix monte ou descend quand on parle." },
+        { "terme": "Fluidité", "definition": "Fait de lire de façon régulière, sans hésitations ni blocages." },
+        { "terme": "Moduler", "definition": "Faire varier (le volume, le ton) pour mieux exprimer." }
+      ]
+    },
+    {
+      "id": "fr-1-4",
+      "titre": "Les connecteurs spatiaux",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Connecteurs spatiaux",
+          "texte": "Les <b>connecteurs spatiaux</b> (aussi appelés adverbes ou locutions de lieu) sont des mots ou des expressions qui indiquent une <b>position</b> ou une <b>localisation dans l'espace</b>. Ils relient les éléments d'un texte en précisant où ils se trouvent les uns par rapport aux autres."
+        },
+        {
+          "type": "schema",
+          "titre": "Se repérer dans l'espace",
+          "svg": "<svg width='320' height='200' viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg'><ellipse cx='160' cy='100' rx='70' ry='44' fill='none' stroke='#9e9e9e' stroke-width='1.5' stroke-dasharray='5 4'/><rect x='120' y='76' width='80' height='48' rx='6' fill='#bbdefb' stroke='#1565c0' stroke-width='2'/><text x='160' y='98' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>objet</text><text x='160' y='114' font-size='10' font-style='italic' text-anchor='middle' fill='#555'>(au milieu)</text><text x='160' y='14' font-size='12' font-weight='bold' text-anchor='middle' fill='#c62828'>au-dessus</text><text x='160' y='28' font-size='10' text-anchor='middle' fill='#555'>en haut</text><line x1='160' y1='34' x2='160' y2='48' stroke='#555' stroke-width='2'/><polygon points='160,54 155,46 165,46' fill='#555'/><text x='160' y='178' font-size='12' font-weight='bold' text-anchor='middle' fill='#c62828'>au-dessous</text><text x='160' y='192' font-size='10' text-anchor='middle' fill='#555'>en bas</text><line x1='160' y1='164' x2='160' y2='152' stroke='#555' stroke-width='2'/><polygon points='160,146 155,154 165,154' fill='#555'/><text x='36' y='104' font-size='12' font-weight='bold' text-anchor='middle' fill='#c62828'>à gauche</text><line x1='66' y1='100' x2='80' y2='100' stroke='#555' stroke-width='2'/><polygon points='88,100 80,95 80,105' fill='#555'/><text x='284' y='104' font-size='12' font-weight='bold' text-anchor='middle' fill='#c62828'>à droite</text><line x1='254' y1='100' x2='240' y2='100' stroke='#555' stroke-width='2'/><polygon points='232,100 240,95 240,105' fill='#555'/><text x='236' y='150' font-size='10' font-style='italic' fill='#555'>autour</text></svg>",
+          "legende": "À ces repères s'ajoutent « devant » et « derrière » (en profondeur) et « autour » (tout le tour de l'objet)."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les principaux connecteurs spatiaux",
+          "entetes": ["Idée exprimée", "Connecteurs"],
+          "lignes": [
+            ["Haut et bas", "sur, sous, dessus, dessous, au-dessus, au-dessous, en haut, en bas"],
+            ["Devant et derrière", "devant, derrière, en face de"],
+            ["Position relative", "à côté de, à gauche, à droite, au milieu, au fond, au bout, de part et d'autre, de chaque côté"],
+            ["Proximité", "près de, auprès de, aux abords de, aux alentours de, autour, tout autour, ici"],
+            ["Éloignement", "au loin, plus loin, là-bas, au-delà, lointain"],
+            ["Dedans et dehors", "dans, à l'intérieur, à l'extérieur, dehors, en contrebas"],
+            ["Plans et orientation", "au premier plan, au dernier plan, à l'horizon, au nord, au sud, à l'est, à l'ouest, du côté de, vers"],
+            ["Lieu indéfini ou répartition", "partout, quelque part, par endroits, ça et là, à l'endroit où, de l'endroit où"]
+          ]
+        },
+        {
+          "type": "exemple",
+          "titre": "Décrire un marché d'artisanat",
+          "texte": "<b>Au premier plan</b>, des paniers colorés sont empilés <b>devant</b> l'étal. <b>À gauche</b>, une vendeuse tresse du raphia ; <b>à droite</b>, des vases en argile sont alignés <b>les uns à côté des autres</b>. <b>Au fond</b>, <b>derrière</b> les marchands, on aperçoit <b>au loin</b> des collines."
+        },
+        {
+          "type": "remarque",
+          "texte": "Les connecteurs spatiaux servent surtout à <b>décrire</b> un lieu ou un objet, à <b>indiquer un itinéraire</b> et à organiser un texte descriptif. Commence en général par le plan le plus proche (au premier plan), puis avance vers le fond (au loin)."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Complète chaque phrase avec un connecteur de la liste : au fond – à gauche – devant – partout – au loin.\n1. Les vendeuses sont assises ... leurs étals.\n2. ..., on aperçoit des collines bleues.\n3. ... de l'allée, un potier expose ses vases.\n4. Il y a des touristes ... dans le marché.\n5. ... de la boutique, un sculpteur travaille le bois.",
+          "solution": "1. devant ;\n2. Au loin ;\n3. À gauche ;\n4. partout ;\n5. Au fond."
+        }
+      ],
+      "lexique": [
+        { "terme": "Étal", "definition": "Table ou comptoir sur lequel un marchand expose ses produits." },
+        { "terme": "Premier plan", "definition": "Ce qui est le plus proche de celui qui regarde." },
+        { "terme": "En contrebas", "definition": "À un niveau plus bas." }
+      ]
+    }
+  ]
+}
