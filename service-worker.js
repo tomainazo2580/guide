@@ -1,21 +1,26 @@
-const CACHE_VERSION = 'guide-v20';
+const CACHE_VERSION = 'guide-v21';
 const CACHE_NAME = CACHE_VERSION;
-
 const APP_SHELL = [
   './',
   './index.html',
   './manifest.json',
   './css/style.css',
+  './css/examen.css',
   './js/app.js',
+  './js/examen.js',
   './icons/icon.svg',
   './icons/icon.png',
   './data/3e/mathematiques/composante-1.json',
   './data/3e/mathematiques/composante-2.json',
   './data/3e/mathematiques/composante-3.json',
   './data/3e/mathematiques/composante-4.json',
-  './data/3e/mathematiques/composante-5.json'
+  './data/3e/mathematiques/composante-5.json',
+  './data/3e/exercices/exercices-mathematiques.json',
+  './data/3e/exercices/exercices-anglais.json',
+  './data/3e/exercices/exercices-sciences-physiques.json',
+  './data/3e/exercices/exercices-svt.json',
+  './data/3e/exercices/exercices-francais.json'
 ];
-
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
@@ -29,7 +34,6 @@ self.addEventListener('install', (event) => {
     }).then(() => self.skipWaiting())
   );
 });
-
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys().then((cacheNames) => {
@@ -43,7 +47,6 @@ self.addEventListener('activate', (event) => {
     }).then(() => self.clients.claim())
   );
 });
-
 self.addEventListener('fetch', (event) => {
   event.respondWith(
     caches.match(event.request).then((cachedResponse) => {
