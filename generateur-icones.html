@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Générateur d'icônes Guide</title>
+<style>
+  body { font-family: sans-serif; background: #f1f5f9; margin: 0; padding: 16px; text-align: center; color: #1e293b; }
+  h1 { font-size: 20px; }
+  .carte { background: #fff; border-radius: 12px; padding: 14px; margin: 14px auto; max-width: 340px; box-shadow: 0 1px 4px rgba(0,0,0,.15); }
+  canvas { width: 160px; height: 160px; background: #e2e8f0; border-radius: 8px; }
+  button { display: block; width: 100%; margin-top: 10px; padding: 12px; font-size: 15px; font-weight: 700; border: none; border-radius: 8px; background: #1e3a5f; color: #fff; }
+  p { font-size: 13px; color: #475569; }
+</style>
+</head>
+<body>
+<h1>Générateur d'icônes Guide</h1>
+<p>Appuie sur chaque bouton pour télécharger l'image, puis envoie les 3 fichiers dans le dossier <b>icons</b> de GitHub.</p>
+
+<div class="carte">
+  <canvas id="c192" width="192" height="192"></canvas>
+  <button onclick="telecharger('c192','icon-192.png')">Télécharger icon-192.png</button>
+</div>
+<div class="carte">
+  <canvas id="c512" width="512" height="512"></canvas>
+  <button onclick="telecharger('c512','icon-512.png')">Télécharger icon-512.png</button>
+</div>
+<div class="carte">
+  <canvas id="cmask" width="512" height="512"></canvas>
+  <button onclick="telecharger('cmask','icon-maskable-512.png')">Télécharger icon-maskable-512.png</button>
+  <p>Version maskable : fond plein, dessin plus petit au centre (Android l'arrondit lui-même).</p>
+</div>
+
+<script>
+function dessiner(canvas, maskable) {
+  const ctx = canvas.getContext('2d');
+  const S = canvas.width;
+  const k = S / 512;
+  ctx.setTransform(k, 0, 0, k, 0, 0);
+  ctx.clearRect(0, 0, 512, 512);
+
+  // Fond
+  const fond = ctx.createLinearGradient(0, 0, 0, 512);
+  fond.addColorStop(0, '#24497a');
+  fond.addColorStop(1, '#16314d');
+  ctx.fillStyle = fond;
+  if (maskable) {
+    ctx.fillRect(0, 0, 512, 512);
+  } else {
+    const r = 90;
+    ctx.beginPath();
+    ctx.moveTo(r, 0);
+    ctx.arcTo(512, 0, 512, 512, r);
+    ctx.arcTo(512, 512, 0, 512, r);
+    ctx.arcTo(0, 512, 0, 0, r);
+    ctx.arcTo(0, 0, 512, 0, r);
+    ctx.closePath();
+    ctx.fill();
+  }
+
+  // Réduction du dessin (zone de sécurité)
+  ctx.save();
+  const c = maskable ? 0.80 : 0.94;
+  ctx.translate(256, 256);
+  ctx.scale(c, c);
+  ctx.translate(-256, -256);
+
+  // Lueur
+  const lueur = ctx.createRadialGradient(256, 235, 0, 256, 235, 175);
+  lueur.addColorStop(0, 'rgba(251,191,36,0.60)');
+  lueur.addColorStop(1, 'rgba(251,191,36,0)');
+  ctx.fillStyle = lueur;
+  ctx.beginPath();
+  ctx.arc(256, 235, 175, 0, Math.PI * 2);
+  ctx.fill();
+
+  // Rayons
+  ctx.strokeStyle = '#fbbf24';
+  ctx.lineWidth = 7;
+  ctx.lineCap = 'round';
+  let i = 0;
+  for (let a = -165; a <= -15; a += 15) {
+    const rad = a * Math.PI / 180;
+    const fin = (i % 2 === 0) ? 152 : 132;
+    ctx.globalAlpha = 0.85;
+    ctx.beginPath();
+    ctx.moveTo(256 + 95 * Math.cos(rad), 235 + 95 * Math.sin(rad));
+    ctx.lineTo(256 + fin * Math.cos(rad), 235 + fin * Math.sin(rad));
+    ctx.stroke();
+    i++;
+  }
+  ctx.globalAlpha = 1;
+
+  // Livre : tranche dorée
+  ctx.fillStyle = '#fbbf24';
+  ctx.beginPath();
+  ctx.moveTo(256, 294); ctx.lineTo(256, 282);
+  ctx.quadraticCurveTo(200, 258, 140, 272);
+  ctx.lineTo(134, 281);
+  ctx.quadraticCurveTo(200, 266, 256, 294);
+  ctx.closePath(); ctx.fill();
+  ctx.beginPath();
+  ctx.moveTo(256, 294); ctx.lineTo(256, 282);
+  ctx.quadraticCurveTo(312, 258, 372, 272);
+  ctx.lineTo(378, 281);
+  ctx.quadraticCurveTo(312, 266, 256, 294);
+  ctx.closePath(); ctx.fill();
+
+  // Livre : pages
+  ctx.fillStyle = '#f8f1dc';
+  ctx.beginPath();
+  ctx.moveTo(256, 282); ctx.lineTo(256, 215);
+  ctx.quadraticCurveTo(200, 190, 140, 205);
+  ctx.lineTo(140, 272);
+  ctx.quadraticCurveTo(200, 258, 256, 282);
+  ctx.closePath(); ctx.fill();
+  ctx.beginPath();
+  ctx.moveTo(256, 282); ctx.lineTo(256, 215);
+  ctx.quadraticCurveTo(312, 190, 372, 205);
+  ctx.lineTo(372, 272);
+  ctx.quadraticCurveTo(312, 258, 256, 282);
+  ctx.closePath(); ctx.fill();
+
+  // Reliure
+  ctx.strokeStyle = '#b8a97a';
+  ctx.lineWidth = 3;
+  ctx.beginPath(); ctx.moveTo(256, 215); ctx.lineTo(256, 284); ctx.stroke();
+
+  // Lignes de texte
+  ctx.strokeStyle = '#cbbf9b';
+  ctx.lineWidth = 4;
+  ctx.lineCap = 'round';
+  [[158, 224, 238, 233], [158, 3 + 236, 238, 247], [158, 252, 238, 261]].forEach(l => {
+    ctx.beginPath(); ctx.moveTo(l[0], l[1]); ctx.lineTo(l[2], l[3]); ctx.stroke();
+  });
+  [[274, 233, 354, 224], [274, 247, 354, 239], [274, 261, 354, 252]].forEach(l => {
+    ctx.beginPath(); ctx.moveTo(l[0], l[1]); ctx.lineTo(l[2], l[3]); ctx.stroke();
+  });
+
+  // Personnages
+  const peau = '#f2b27a';
+  function bras(x1, y1, x2, y2, couleur) {
+    ctx.strokeStyle = couleur; ctx.lineWidth = 13; ctx.lineCap = 'round';
+    ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(x2, y2); ctx.stroke();
+  }
+  function personnage(x, teteY, teteR, hautCorps, basCorps, demiLarg, couleur) {
+    ctx.fillStyle = couleur;
+    ctx.beginPath();
+    ctx.moveTo(x - demiLarg * 0.6, hautCorps);
+    ctx.quadraticCurveTo(x, hautCorps - 8, x + demiLarg * 0.6, hautCorps);
+    ctx.lineTo(x + demiLarg, basCorps);
+    ctx.lineTo(x - demiLarg, basCorps);
+    ctx.closePath(); ctx.fill();
+    ctx.fillStyle = peau;
+    ctx.beginPath(); ctx.arc(x, teteY, teteR, 0, Math.PI * 2); ctx.fill();
+  }
+
+  // Sol
+  ctx.strokeStyle = '#3b6ea5'; ctx.lineWidth = 6; ctx.lineCap = 'round';
+  ctx.beginPath(); ctx.moveTo(135, 449); ctx.lineTo(377, 449); ctx.stroke();
+
+  // Guide (gauche) et élève (droite)
+  personnage(190, 345, 24, 376, 446, 30, '#e8eef7');
+  personnage(322, 374, 20, 400, 446, 25, '#60a5fa');
+
+  // Bras extérieurs
+  bras(172, 390, 160, 430, '#e8eef7');
+  bras(340, 412, 350, 435, '#60a5fa');
+  ctx.fillStyle = peau;
+  ctx.beginPath(); ctx.arc(160, 432, 7, 0, Math.PI * 2); ctx.fill();
+  ctx.beginPath(); ctx.arc(350, 437, 7, 0, Math.PI * 2); ctx.fill();
+
+  // Bras qui se rejoignent (main dans la main)
+  bras(208, 390, 256, 420, '#e8eef7');
+  bras(304, 412, 256, 420, '#60a5fa');
+  ctx.fillStyle = peau;
+  ctx.beginPath(); ctx.arc(256, 420, 10, 0, Math.PI * 2); ctx.fill();
+
+  ctx.restore();
+}
+
+function telecharger(id, nom) {
+  document.getElementById(id).toBlob(function (blob) {
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = nom;
+    document.body.appendChild(a); a.click();
+    document.body.removeChild(a);
+    setTimeout(function () { URL.revokeObjectURL(url); }, 2000);
+  }, 'image/png');
+}
+
+dessiner(document.getElementById('c192'), false);
+dessiner(document.getElementById('c512'), false);
+dessiner(document.getElementById('cmask'), true);
+</script>
+</body>
+</html>
