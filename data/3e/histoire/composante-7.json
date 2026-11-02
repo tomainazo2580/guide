@@ -1,0 +1,185 @@
+{
+  "id": "hist-theme7",
+  "titre": "Thème II : La guerre froide et le monde depuis 1990",
+  "lecons": [
+    {
+      "id": "hist-7-1",
+      "titre": "La naissance de la guerre froide et des deux blocs",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "Après 1945, les deux vainqueurs, les États-Unis et l'URSS, deviennent des superpuissances. Leurs systèmes s'opposent : capitalisme et démocratie libérale d'un côté, communisme et parti unique de l'autre."
+        },
+        {
+          "type": "definition",
+          "texte": "La guerre froide (1947-1991) est l'affrontement entre les États-Unis et l'URSS et leurs alliés. Elle est « froide » parce que les deux superpuissances ne se font jamais directement la guerre : elles s'affrontent par la propagande, la course aux armements, la compétition économique et des guerres menées dans d'autres pays."
+        },
+        {
+          "type": "texte",
+          "texte": "La doctrine Truman : le 12 mars 1947, le président américain Truman annonce que les États-Unis aideront les pays menacés par le communisme (d'abord la Grèce et la Turquie). C'est la politique d'endiguement (containment)."
+        },
+        {
+          "type": "texte",
+          "texte": "Le plan Marshall : annoncé en juin 1947, c'est un programme d'aide économique américaine à l'Europe pour la reconstruire et la protéger du communisme. Seize pays d'Europe de l'Ouest l'acceptent et créent l'OECE en 1948. L'URSS refuse l'aide et oblige les pays de l'Est à la refuser aussi."
+        },
+        {
+          "type": "texte",
+          "texte": "La doctrine Jdanov : à l'automne 1947, Jdanov, un dirigeant soviétique, affirme que le monde est partagé en deux camps : le camp « impérialiste » dirigé par les États-Unis et le camp « démocratique et anti-impérialiste » dirigé par l'URSS. L'URSS crée alors le Kominform, qui coordonne les partis communistes."
+        },
+        {
+          "type": "schema",
+          "titre": "Les deux blocs",
+          "svg": "<svg width='320' height='170' viewBox='0 0 320 170' xmlns='http://www.w3.org/2000/svg'><rect x='5' y='5' width='150' height='158' rx='8' fill='#e8f0fd' stroke='#2c5aa0'/><text x='80' y='24' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Bloc de l'Ouest</text><text x='80' y='44' font-size='10' text-anchor='middle' fill='#333'>États-Unis</text><text x='80' y='62' font-size='10' text-anchor='middle' fill='#333'>Capitalisme</text><text x='80' y='80' font-size='10' text-anchor='middle' fill='#333'>Doctrine Truman (1947)</text><text x='80' y='98' font-size='10' text-anchor='middle' fill='#333'>Plan Marshall, OECE</text><text x='80' y='116' font-size='10' text-anchor='middle' fill='#333'>OTAN (1949)</text><text x='80' y='134' font-size='10' text-anchor='middle' fill='#333'>OTASE (1954)</text><text x='80' y='152' font-size='10' text-anchor='middle' fill='#333'>Pacte de Bagdad (1955)</text><rect x='165' y='5' width='150' height='158' rx='8' fill='#fde8e8' stroke='#c0392b'/><text x='240' y='24' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Bloc de l'Est</text><text x='240' y='44' font-size='10' text-anchor='middle' fill='#333'>URSS</text><text x='240' y='62' font-size='10' text-anchor='middle' fill='#333'>Communisme</text><text x='240' y='80' font-size='10' text-anchor='middle' fill='#333'>Doctrine Jdanov (1947)</text><text x='240' y='98' font-size='10' text-anchor='middle' fill='#333'>Kominform (1947)</text><text x='240' y='116' font-size='10' text-anchor='middle' fill='#333'>COMECON (1949)</text><text x='240' y='134' font-size='10' text-anchor='middle' fill='#333'>Pacte de Varsovie (1955)</text></svg>",
+          "legende": "Chaque camp organise ses alliances politiques, économiques et militaires."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["", "Ouest", "Est"],
+          "lignes": [
+            ["Chef de file", "États-Unis", "URSS"],
+            ["Économie", "Capitalisme, marché", "Communisme, économie planifiée"],
+            ["Politique", "Démocraties pluralistes", "Parti unique"],
+            ["Alliance militaire", "OTAN (1949)", "Pacte de Varsovie (1955)"],
+            ["Organisation économique", "Plan Marshall, OECE (1948)", "COMECON (janvier 1949)"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Pourquoi la guerre froide est-elle dite « froide » ? 2) Que propose la doctrine Truman ? 3) Qu'est-ce que le plan Marshall ? 4) Associe chaque organisation à son bloc : OTAN, Pacte de Varsovie, COMECON, OECE.",
+          "solution": "1) Parce que les États-Unis et l'URSS ne se font pas directement la guerre. 2) Les États-Unis aideront les pays menacés par le communisme : c'est l'endiguement. 3) Un programme d'aide économique américaine pour reconstruire l'Europe de l'Ouest et la protéger du communisme. 4) Bloc de l'Ouest : OTAN et OECE. Bloc de l'Est : Pacte de Varsovie et COMECON."
+        }
+      ],
+      "lexique": [
+        { "terme": "Superpuissance", "definition": "État dont la puissance militaire, économique et politique domine le monde (États-Unis et URSS)." },
+        { "terme": "Guerre froide", "definition": "Affrontement sans combat direct entre les deux blocs, de 1947 à 1991." },
+        { "terme": "Endiguement", "definition": "Politique américaine visant à empêcher l'extension du communisme." },
+        { "terme": "OTAN", "definition": "Alliance militaire du bloc de l'Ouest, fondée en 1949." },
+        { "terme": "Pacte de Varsovie", "definition": "Alliance militaire du bloc de l'Est, fondée en 1955." },
+        { "terme": "COMECON", "definition": "Organisation économique du bloc de l'Est, créée en 1949." }
+      ]
+    },
+    {
+      "id": "hist-7-2",
+      "titre": "Les crises de la guerre froide et la détente",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "Pendant la guerre froide, les deux blocs s'affrontent dans plusieurs crises et guerres locales, mais évitent toujours le conflit direct, car chacun possède l'arme nucléaire. C'est l'« équilibre de la terreur »."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Date", "Crise ou conflit", "Résumé"],
+          "lignes": [
+            ["1948-1949", "Blocus de Berlin", "L'URSS bloque l'accès à Berlin-Ouest ; les Occidentaux la ravitaillent par un pont aérien. L'Allemagne se divise : RFA (mai 1949) et RDA (octobre 1949)."],
+            ["1950-1953", "Guerre de Corée", "La Corée du Nord communiste attaque le Sud. Les États-Unis (sous l'égide de l'ONU) défendent le Sud, la Chine aide le Nord. Le pays reste divisé au 38e parallèle."],
+            ["Jusqu'en 1954", "Guerre d'Indochine", "Guerre de décolonisation contre la France, liée à la rivalité des blocs. Elle finit après la défaite de Dien Bien Phu."],
+            ["Août 1961", "Mur de Berlin", "La RDA construit un mur pour empêcher ses habitants de fuir vers l'Ouest."],
+            ["Octobre 1962", "Crise de Cuba", "Des missiles soviétiques sont installés à Cuba. Les États-Unis bloquent l'île. L'URSS retire ses missiles : on a frôlé la guerre nucléaire."],
+            ["1965-1975", "Guerre du Vietnam", "Les États-Unis soutiennent le Sud contre le Nord communiste. Ils se retirent et le Nord l'emporte en 1975."],
+            ["1979-1989", "Guerre d'Afghanistan", "L'armée soviétique intervient en Afghanistan et s'y enlise, puis se retire."]
+          ]
+        },
+        {
+          "type": "texte",
+          "texte": "La détente : après la crise de Cuba, les deux Grands cherchent à éviter une guerre nucléaire. En 1963, un « téléphone rouge » relie Washington et Moscou, et le traité de Moscou interdit les essais nucléaires dans l'atmosphère. En 1968, le traité de non-prolifération nucléaire (TNP), signé d'abord par l'URSS, les États-Unis et le Royaume-Uni, limite la diffusion de l'arme atomique. En 1972, les accords SALT I limitent les armes stratégiques."
+        },
+        {
+          "type": "remarque",
+          "texte": "Le TNP est signé en 1968 par l'URSS, les États-Unis et le Royaume-Uni. La France et la Chine n'y adhèrent qu'en 1992."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Que s'est-il passé à Berlin en août 1961 ? 2) Pourquoi la crise de Cuba (1962) est-elle si dangereuse ? 3) Donne deux mesures de la détente. 4) Pourquoi l'URSS et les États-Unis ne se font-ils pas directement la guerre ?",
+          "solution": "1) La RDA construit le mur de Berlin pour empêcher les habitants de fuir vers l'Ouest. 2) Des missiles nucléaires soviétiques sont installés à Cuba, tout près des États-Unis : on a frôlé une guerre nucléaire. 3) Par exemple : le téléphone rouge (1963), le traité de Moscou (1963), le TNP (1968), SALT I (1972). 4) Parce que chacun possède l'arme nucléaire : un affrontement direct détruirait les deux camps (équilibre de la terreur)."
+        }
+      ],
+      "lexique": [
+        { "terme": "Blocus", "definition": "Fermeture d'accès à une ville ou un pays pour l'isoler." },
+        { "terme": "Pont aérien", "definition": "Ravitaillement par avion d'une ville dont les routes sont bloquées." },
+        { "terme": "Équilibre de la terreur", "definition": "Situation où la peur de l'arme nucléaire empêche une guerre directe entre les deux Grands." },
+        { "terme": "Détente", "definition": "Période de réduction des tensions entre l'Est et l'Ouest, à partir de 1963." },
+        { "terme": "Prolifération nucléaire", "definition": "Multiplication du nombre de pays possédant l'arme atomique." }
+      ]
+    },
+    {
+      "id": "hist-7-3",
+      "titre": "La fin de la guerre froide",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "Dans les années 1980, l'URSS est affaiblie : son économie planifiée est inefficace, la course aux armements coûte très cher, la guerre d'Afghanistan s'enlise et les peuples réclament plus de libertés."
+        },
+        {
+          "type": "texte",
+          "texte": "En mars 1985, Mikhaïl Gorbatchev arrive au pouvoir en URSS. Il lance deux réformes : la glasnost (transparence, liberté d'expression) et la perestroïka (restructuration de l'économie)."
+        },
+        {
+          "type": "texte",
+          "texte": "En 1989, les régimes communistes d'Europe de l'Est tombent les uns après les autres. Le 9 novembre 1989, le mur de Berlin s'ouvre. L'Allemagne est réunifiée le 3 octobre 1990. Le Pacte de Varsovie est dissous en 1991. Le 25 décembre 1991, Gorbatchev démissionne et l'URSS cesse d'exister : elle est remplacée par plusieurs États indépendants, dont la Russie. La guerre froide est terminée."
+        },
+        {
+          "type": "schema",
+          "titre": "Frise de la guerre froide (1947-1991)",
+          "svg": "<svg width='320' height='150' viewBox='0 0 320 150' xmlns='http://www.w3.org/2000/svg'><line x1='10' y1='75' x2='310' y2='75' stroke='#555' stroke-width='2'/><circle cx='30' cy='75' r='5' fill='#c0392b'/><circle cx='82' cy='75' r='5' fill='#c0392b'/><circle cx='134' cy='75' r='5' fill='#c0392b'/><circle cx='186' cy='75' r='5' fill='#c0392b'/><circle cx='238' cy='75' r='5' fill='#2c5aa0'/><circle cx='285' cy='75' r='5' fill='#2c5aa0'/><text x='30' y='26' font-size='9' text-anchor='middle' fill='#333'>Doctrine</text><text x='30' y='38' font-size='9' text-anchor='middle' fill='#333'>Truman</text><text x='30' y='60' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>1947</text><text x='82' y='96' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>1949</text><text x='82' y='108' font-size='9' text-anchor='middle' fill='#333'>OTAN, RFA,</text><text x='82' y='120' font-size='9' text-anchor='middle' fill='#333'>RDA</text><text x='134' y='26' font-size='9' text-anchor='middle' fill='#333'>Mur de</text><text x='134' y='38' font-size='9' text-anchor='middle' fill='#333'>Berlin</text><text x='134' y='60' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>1961</text><text x='186' y='96' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>1962</text><text x='186' y='108' font-size='9' text-anchor='middle' fill='#333'>Crise</text><text x='186' y='120' font-size='9' text-anchor='middle' fill='#333'>de Cuba</text><text x='238' y='26' font-size='9' text-anchor='middle' fill='#333'>Chute du mur</text><text x='238' y='38' font-size='9' text-anchor='middle' fill='#333'>de Berlin</text><text x='238' y='60' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>1989</text><text x='285' y='96' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>1991</text><text x='285' y='108' font-size='9' text-anchor='middle' fill='#333'>URSS</text><text x='285' y='120' font-size='9' text-anchor='middle' fill='#333'>dissoute</text></svg>",
+          "legende": "En rouge, la montée des tensions ; en bleu, l'effondrement du bloc de l'Est."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Qui est Gorbatchev et quelles réformes lance-t-il ? 2) Que se passe-t-il le 9 novembre 1989 ? 3) À quelle date l'URSS disparaît-elle ? 4) Donne deux raisons de la chute de l'URSS.",
+          "solution": "1) Dirigeant de l'URSS à partir de mars 1985, il lance la glasnost (transparence, liberté d'expression) et la perestroïka (restructuration de l'économie). 2) Le mur de Berlin s'ouvre : c'est le symbole de la fin de la division de l'Europe. 3) Le 25 décembre 1991. 4) Par exemple : l'économie planifiée inefficace, le coût de la course aux armements, la guerre d'Afghanistan et la volonté de liberté des peuples."
+        }
+      ],
+      "lexique": [
+        { "terme": "Glasnost", "definition": "« Transparence » : politique de liberté d'expression lancée par Gorbatchev." },
+        { "terme": "Perestroïka", "definition": "« Restructuration » : réforme de l'économie soviétique lancée par Gorbatchev." },
+        { "terme": "Réunification", "definition": "Fait de réunir en un seul État deux parties séparées (l'Allemagne en 1990)." },
+        { "terme": "Dissolution", "definition": "Disparition officielle d'un État ou d'une organisation." }
+      ]
+    },
+    {
+      "id": "hist-7-4",
+      "titre": "Le monde depuis 1990",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "Avec la disparition de l'URSS, les États-Unis restent la seule superpuissance. Ils jouent le rôle de « gendarme du monde » et interviennent dans plusieurs conflits. Mais de nouvelles puissances émergent (Chine, Inde, Brésil) et le monde devient multipolaire."
+        },
+        {
+          "type": "definition",
+          "texte": "La mondialisation est l'intensification des échanges de marchandises, de capitaux, d'informations et de personnes à l'échelle de la planète, favorisée par les transports rapides, Internet et le libre-échange."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Date", "Événement"],
+          "lignes": [
+            ["Août 1990 - février 1991", "Guerre du Golfe : l'Irak envahit le Koweït ; une coalition internationale sous mandat de l'ONU libère le pays"],
+            ["1991-2001", "Guerres de Yougoslavie : l'éclatement du pays provoque des guerres (Croatie, Bosnie, Kosovo) et de grands massacres"],
+            ["1994", "Génocide des Tutsi au Rwanda : environ 800 000 morts en quelques mois"],
+            ["11 septembre 2001", "Attentats d'Al-Qaida contre les États-Unis ; intervention en Afghanistan"],
+            ["Depuis 2006", "Apparition de Daesh en Irak et en Syrie ; il étend ensuite son emprise"]
+          ]
+        },
+        {
+          "type": "texte",
+          "texte": "Le terrorisme : des groupes islamistes comme Al-Qaida (fondé en 1988) et Daesh utilisent la violence contre des civils pour imposer leurs idées. Les attentats du 11 septembre 2001 aux États-Unis provoquent une « guerre contre le terrorisme », en particulier en Afghanistan et en Irak."
+        },
+        {
+          "type": "remarque",
+          "texte": "Aujourd'hui, l'ONU intervient pour la paix (casques bleus, aide humanitaire), mais son action est limitée quand les grandes puissances s'opposent au Conseil de sécurité (droit de veto)."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Pourquoi les États-Unis sont-ils appelés « gendarme du monde » après 1991 ? 2) Définis la mondialisation. 3) Qu'est-ce qui s'est passé au Rwanda en 1994 ? 4) Cite deux organisations terroristes.",
+          "solution": "1) Parce qu'ils sont la seule superpuissance et qu'ils interviennent dans de nombreux conflits. 2) C'est l'intensification des échanges de biens, de capitaux, d'informations et de personnes à l'échelle de la planète. 3) Un génocide : environ 800 000 personnes, surtout des Tutsi, ont été massacrées en quelques mois. 4) Al-Qaida et Daesh."
+        }
+      ],
+      "lexique": [
+        { "terme": "Mondialisation", "definition": "Intensification des échanges entre tous les pays du monde." },
+        { "terme": "Monde multipolaire", "definition": "Monde où plusieurs puissances comptent, et non une seule." },
+        { "terme": "Casque bleu", "definition": "Soldat de l'ONU envoyé pour maintenir la paix." },
+        { "terme": "Terrorisme", "definition": "Usage de la violence contre des civils pour semer la peur et imposer des idées." },
+        { "terme": "Génocide", "definition": "Extermination volontaire et organisée d'un groupe humain." }
+      ]
+    }
+  ]
+}
