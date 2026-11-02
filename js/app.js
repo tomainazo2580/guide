@@ -92,9 +92,10 @@ const EXERCICES_PAR_CLASSE = {
       fichier: './data/3e/exercices/exercices-sciences-physiques.json' },
     { id: 'svt', nom: 'SVT', icone: '🔬', disponible: true,
       fichier: './data/3e/exercices/exercices-svt.json' },
-    { id: 'francais', nom: 'Français', icone: '📖', disponible: true,
-      fichier: './data/3e/exercices/exercices-francais.json' }  ],
-  'tle': []
+    { fichier: './data/3e/exercices/exercices-francais.json' },
+    { id: 'histoire', nom: 'Histoire', icone: '🏛️', disponible: true,
+      fichier: './data/3e/exercices/exercices-histoire.json' }
+  ],'tle': []
 };
 const LABELS_TYPE = {
   definition: { label: '📘 Définition', classe: 'bloc-definition' },
