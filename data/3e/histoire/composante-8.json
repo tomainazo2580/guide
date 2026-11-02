@@ -1,0 +1,199 @@
+{
+  "id": "hist-theme8",
+  "titre": "Thème III : La décolonisation et le Tiers-monde",
+  "lecons": [
+    {
+      "id": "hist-8-1",
+      "titre": "Les causes de la décolonisation",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "La décolonisation est le processus par lequel les colonies deviennent des États indépendants. Elle se déroule surtout entre 1945 et 1975, en Asie puis en Afrique."
+        },
+        {
+          "type": "texte",
+          "texte": "Les facteurs externes : la Seconde Guerre mondiale a affaibli les puissances coloniales européennes (France, Royaume-Uni, Pays-Bas, Belgique). La Charte de l'Atlantique (1941) proclame le droit des peuples à disposer d'eux-mêmes et l'ONU (1945) reprend ce principe. Les deux superpuissances, États-Unis et URSS, sont officiellement hostiles au colonialisme."
+        },
+        {
+          "type": "texte",
+          "texte": "Les facteurs internes : dans les colonies, le nationalisme grandit. Des élites instruites en Europe créent des partis politiques et réclament l'indépendance. Les anciens soldats colonisés, qui ont combattu pendant les guerres mondiales, veulent leurs droits. L'exploitation économique et les inégalités de la colonisation nourrissent le mécontentement."
+        },
+        {
+          "type": "schema",
+          "titre": "Pourquoi les colonies deviennent indépendantes",
+          "svg": "<svg width='300' height='180' viewBox='0 0 300 180' xmlns='http://www.w3.org/2000/svg'><rect x='5' y='5' width='140' height='135' rx='8' fill='#e8f0fd' stroke='#2c5aa0'/><text x='75' y='24' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Facteurs externes</text><text x='75' y='48' font-size='10' text-anchor='middle' fill='#333'>Europe affaiblie</text><text x='75' y='66' font-size='10' text-anchor='middle' fill='#333'>par la guerre</text><text x='75' y='88' font-size='10' text-anchor='middle' fill='#333'>Charte de l'ONU</text><text x='75' y='106' font-size='10' text-anchor='middle' fill='#333'>États-Unis et URSS</text><text x='75' y='124' font-size='10' text-anchor='middle' fill='#333'>anticolonialistes</text><rect x='155' y='5' width='140' height='135' rx='8' fill='#fde8e8' stroke='#c0392b'/><text x='225' y='24' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Facteurs internes</text><text x='225' y='48' font-size='10' text-anchor='middle' fill='#333'>Nationalisme</text><text x='225' y='66' font-size='10' text-anchor='middle' fill='#333'>Élites instruites</text><text x='225' y='88' font-size='10' text-anchor='middle' fill='#333'>Partis politiques</text><text x='225' y='106' font-size='10' text-anchor='middle' fill='#333'>Anciens soldats</text><text x='225' y='124' font-size='10' text-anchor='middle' fill='#333'>Refus de l'exploitation</text><rect x='70' y='150' width='160' height='26' rx='6' fill='#e8f8ee' stroke='#27ae60'/><text x='150' y='167' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Décolonisation</text></svg>",
+          "legende": "Des causes venues de l'extérieur et de l'intérieur des colonies."
+        },
+        {
+          "type": "texte",
+          "texte": "La conférence de Brazzaville : du 30 janvier 1944, le général de Gaulle réunit les gouverneurs des colonies françaises d'Afrique à Brazzaville. Elle promet des réformes (plus de droits, une représentation des colonies), mais elle écarte toute idée d'indépendance."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Qu'est-ce que la décolonisation ? 2) Cite deux facteurs externes et deux facteurs internes. 3) Que prévoit la conférence de Brazzaville (1944) et que refuse-t-elle ?",
+          "solution": "1) C'est le processus par lequel les colonies deviennent des États indépendants (surtout entre 1945 et 1975). 2) Externes : l'affaiblissement de l'Europe après la guerre, l'ONU et le droit des peuples à disposer d'eux-mêmes, l'hostilité des États-Unis et de l'URSS au colonialisme (deux au choix). Internes : le nationalisme, les élites instruites, les partis politiques, les anciens soldats (deux au choix). 3) Elle prévoit des réformes et plus de droits pour les colonies, mais elle refuse l'indépendance."
+        }
+      ],
+      "lexique": [
+        { "terme": "Décolonisation", "definition": "Accès des colonies à l'indépendance." },
+        { "terme": "Droit des peuples à disposer d'eux-mêmes", "definition": "Droit pour un peuple de choisir son régime politique et son avenir." },
+        { "terme": "Nationalisme", "definition": "Attachement à sa nation et volonté de la voir libre et indépendante." },
+        { "terme": "Anticolonialisme", "definition": "Opposition à la colonisation." },
+        { "terme": "Élite", "definition": "Petit groupe de personnes instruites ou influentes dans une société." }
+      ]
+    },
+    {
+      "id": "hist-8-2",
+      "titre": "Les étapes et les formes de la décolonisation",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "La décolonisation commence en Asie, puis gagne l'Afrique. Elle se fait de deux façons : par la négociation (voie pacifique) ou par la guerre d'indépendance (voie violente)."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Date", "Asie", "Afrique"],
+          "lignes": [
+            ["1946-1949", "Philippines (1946), Inde et Pakistan (1947), Birmanie et Ceylan (1948), Indonésie (1949)", "—"],
+            ["1951-1954", "Indochine : Cambodge (1953), Laos et Vietnam (1954)", "Libye (1951)"],
+            ["1956-1958", "—", "Maroc, Tunisie, Soudan (1956), Ghana (1957), Guinée (1958)"],
+            ["1960", "—", "« Année de l'Afrique » : 17 pays indépendants (dont Madagascar, le Sénégal, le Congo belge)"],
+            ["1962-1975", "Singapour (1965)", "Algérie (1962), colonies portugaises : Angola, Mozambique (1975)"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Frise de la décolonisation",
+          "svg": "<svg width='320' height='150' viewBox='0 0 320 150' xmlns='http://www.w3.org/2000/svg'><line x1='10' y1='75' x2='310' y2='75' stroke='#555' stroke-width='2'/><circle cx='35' cy='75' r='5' fill='#c0392b'/><circle cx='95' cy='75' r='5' fill='#c0392b'/><circle cx='155' cy='75' r='5' fill='#2c5aa0'/><circle cx='215' cy='75' r='5' fill='#2c5aa0'/><circle cx='280' cy='75' r='5' fill='#2c5aa0'/><text x='35' y='26' font-size='9' text-anchor='middle' fill='#333'>Inde et</text><text x='35' y='38' font-size='9' text-anchor='middle' fill='#333'>Pakistan</text><text x='35' y='60' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>1947</text><text x='95' y='96' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>1954</text><text x='95' y='108' font-size='9' text-anchor='middle' fill='#333'>Fin de la guerre</text><text x='95' y='120' font-size='9' text-anchor='middle' fill='#333'>d'Indochine</text><text x='155' y='26' font-size='9' text-anchor='middle' fill='#333'>Ghana</text><text x='155' y='38' font-size='9' text-anchor='middle' fill='#333'>indépendant</text><text x='155' y='60' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>1957</text><text x='215' y='96' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>1960</text><text x='215' y='108' font-size='9' text-anchor='middle' fill='#333'>17 pays</text><text x='215' y='120' font-size='9' text-anchor='middle' fill='#333'>africains</text><text x='280' y='26' font-size='9' text-anchor='middle' fill='#333'>Algérie</text><text x='280' y='38' font-size='9' text-anchor='middle' fill='#333'>indépendante</text><text x='280' y='60' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>1962</text></svg>",
+          "legende": "En rouge, l'Asie ; en bleu, l'Afrique."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Forme", "Exemples", "Caractères"],
+          "lignes": [
+            ["Pacifique", "Inde, Ghana, Sénégal", "Négociations et pression politique sans guerre"],
+            ["Violente", "Indochine, Algérie, Angola", "Guerre d'indépendance longue et meurtrière"]
+          ]
+        },
+        {
+          "type": "texte",
+          "texte": "La guerre d'Indochine : en lutte contre la France, le Viet Minh remporte la bataille de Dien Bien Phu. Elle commence le 13 mars 1954 et se termine par la capitulation française le 7 mai 1954. Les accords de Genève (juillet 1954) mettent fin à la guerre et partagent le Vietnam en deux."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Personnage", "Rôle dans la décolonisation"],
+          "lignes": [
+            ["Mohandas Gandhi (1869-1948)", "Chef de la lutte non violente pour l'indépendance de l'Inde ; assassiné en 1948"],
+            ["Jawaharlal Nehru (1889-1964)", "Compagnon de Gandhi, premier chef du gouvernement de l'Inde indépendante (1947)"],
+            ["Soekarno (1901-1970)", "Proclame l'indépendance de l'Indonésie (17 août 1945) ; président, écarté du pouvoir en 1966-1967"],
+            ["Léopold Sédar Senghor (1906-2001)", "Poète et homme politique, premier président du Sénégal indépendant (1960)"],
+            ["Jacques Rabemananjara (1913-2005)", "Poète et député malgache, nationaliste ; condamné après les événements de 1947"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "L'Inde obtient son indépendance le 15 août 1947, mais l'ancienne colonie britannique est partagée en deux États : l'Inde (majorité hindoue) et le Pakistan (majorité musulmane)."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Cite deux pays asiatiques et deux pays africains devenus indépendants, avec la date. 2) Donne un exemple de décolonisation pacifique et un de décolonisation violente. 3) Quel rôle joue Gandhi ? 4) Quelles sont les dates de la bataille de Dien Bien Phu ?",
+          "solution": "1) Par exemple : l'Inde (1947) et l'Indonésie (1949) ; le Ghana (1957) et l'Algérie (1962). 2) Pacifique : l'Inde ou le Ghana. Violente : l'Indochine ou l'Algérie. 3) Il dirige la lutte non violente pour l'indépendance de l'Inde. 4) Du 13 mars au 7 mai 1954."
+        }
+      ],
+      "lexique": [
+        { "terme": "Voie pacifique", "definition": "Indépendance obtenue par la négociation, sans guerre." },
+        { "terme": "Guerre d'indépendance", "definition": "Guerre menée par un peuple colonisé pour obtenir son indépendance." },
+        { "terme": "Non-violence", "definition": "Refus d'utiliser la force, au profit de la désobéissance civile et des grèves (Gandhi)." },
+        { "terme": "Viet Minh", "definition": "Mouvement nationaliste et communiste vietnamien qui combat la France." },
+        { "terme": "Indépendance", "definition": "Fait pour un pays de se gouverner lui-même, sans domination étrangère." }
+      ]
+    },
+    {
+      "id": "hist-8-3",
+      "titre": "Le Tiers-monde et le non-alignement",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "Les nouveaux États indépendants sont souvent pauvres et sous-développés. Ils se rassemblent pour faire entendre leur voix dans un monde dominé par les deux blocs."
+        },
+        {
+          "type": "definition",
+          "texte": "Le Tiers-monde désigne l'ensemble des pays pauvres, anciennes colonies pour la plupart. L'expression est lancée le 14 août 1952 par le démographe français Alfred Sauvy, en référence au Tiers-État de la Révolution française : un monde ignoré qui veut compter."
+        },
+        {
+          "type": "texte",
+          "texte": "La conférence de Bandung (Indonésie) : en avril 1955, 29 pays d'Asie et d'Afrique se réunissent. Ils condamnent le colonialisme, affirment l'égalité des peuples et choisissent de ne se ranger ni derrière les États-Unis, ni derrière l'URSS."
+        },
+        {
+          "type": "texte",
+          "texte": "Le non-alignement : en septembre 1961, la conférence de Belgrade (Yougoslavie) réunit 25 pays. Elle crée le mouvement des non-alignés, avec des dirigeants comme Tito, Nehru, Nasser, Soekarno et Nkrumah. Ces pays refusent d'adhérer aux blocs et défendent la coexistence pacifique."
+        },
+        {
+          "type": "schema",
+          "titre": "Les trois mondes",
+          "svg": "<svg width='320' height='120' viewBox='0 0 320 120' xmlns='http://www.w3.org/2000/svg'><rect x='5' y='10' width='95' height='80' rx='8' fill='#e8f0fd' stroke='#2c5aa0'/><text x='52' y='34' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>Monde de</text><text x='52' y='48' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>l'Ouest</text><text x='52' y='70' font-size='9' text-anchor='middle' fill='#333'>États-Unis</text><rect x='112' y='10' width='95' height='80' rx='8' fill='#fde8e8' stroke='#c0392b'/><text x='160' y='34' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>Monde de</text><text x='160' y='48' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>l'Est</text><text x='160' y='70' font-size='9' text-anchor='middle' fill='#333'>URSS</text><rect x='220' y='10' width='95' height='80' rx='8' fill='#e8f8ee' stroke='#27ae60'/><text x='267' y='34' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>Tiers-monde</text><text x='267' y='56' font-size='9' text-anchor='middle' fill='#333'>Pays pauvres,</text><text x='267' y='70' font-size='9' text-anchor='middle' fill='#333'>anciennes colonies</text><text x='160' y='112' font-size='9' text-anchor='middle' fill='#555'>Bandung (1955) · Belgrade (1961)</text></svg>",
+          "legende": "Le Tiers-monde refuse d'être aligné sur l'un des deux blocs."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Date", "Conférence", "Pays réunis", "Idées principales"],
+          "lignes": [
+            ["Avril 1955", "Bandung", "29 pays d'Asie et d'Afrique", "Condamnation du colonialisme, égalité des peuples"],
+            ["Septembre 1961", "Belgrade", "25 pays", "Non-alignement, coexistence pacifique"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Qui invente l'expression « Tiers-monde » et quand ? 2) Pourquoi parle-t-on de « Tiers » ? 3) Que se passe-t-il à Bandung en 1955 ? 4) Que signifie « non-alignement » ?",
+          "solution": "1) Le démographe Alfred Sauvy, le 14 août 1952. 2) Par comparaison avec le Tiers-État de la Révolution française : un groupe ignoré qui veut compter, à côté des deux blocs. 3) 29 pays d'Asie et d'Afrique se réunissent, condamnent le colonialisme et affirment leur volonté d'indépendance. 4) C'est le refus d'adhérer à l'un des deux blocs (Est ou Ouest)."
+        }
+      ],
+      "lexique": [
+        { "terme": "Tiers-monde", "definition": "Ensemble des pays pauvres, souvent d'anciennes colonies." },
+        { "terme": "Sous-développement", "definition": "Retard économique et social d'un pays (pauvreté, faible production, manque de services)." },
+        { "terme": "Non-alignement", "definition": "Refus de rejoindre l'un des deux blocs de la guerre froide." },
+        { "terme": "Coexistence pacifique", "definition": "Idée que des pays aux régimes différents peuvent vivre en paix côte à côte." }
+      ]
+    },
+    {
+      "id": "hist-8-4",
+      "titre": "Madagascar de 1947 à l'indépendance",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "Après la Seconde Guerre mondiale, le nationalisme malgache se renforce. En 1946, le MDRM (Mouvement démocratique de la rénovation malgache) est fondé. Il compte des députés comme Joseph Raseta, Joseph Ravoahangy et Jacques Rabemananjara et réclame l'indépendance par des voies légales."
+        },
+        {
+          "type": "texte",
+          "texte": "Dans la nuit du 29 au 30 mars 1947, une insurrection éclate dans l'Est de Madagascar. La répression française est très dure : le nombre de morts se compte en dizaines de milliers (les estimations varient). Le MDRM est dissous et ses dirigeants sont arrêtés puis condamnés au cours d'un procès en 1948."
+        },
+        {
+          "type": "texte",
+          "texte": "Vers l'indépendance : la France fait des réformes. La loi-cadre Defferre (1956) donne plus d'autonomie aux colonies. Le 14 octobre 1958, Madagascar devient une République malgache autonome au sein de la Communauté française. Elle obtient son indépendance le 26 juin 1960. Philibert Tsiranana en est le premier président."
+        },
+        {
+          "type": "schema",
+          "titre": "Frise : Madagascar vers l'indépendance",
+          "svg": "<svg width='320' height='140' viewBox='0 0 320 140' xmlns='http://www.w3.org/2000/svg'><line x1='10' y1='70' x2='310' y2='70' stroke='#555' stroke-width='2'/><circle cx='35' cy='70' r='5' fill='#c0392b'/><circle cx='100' cy='70' r='5' fill='#2c5aa0'/><circle cx='170' cy='70' r='5' fill='#c0392b'/><circle cx='240' cy='70' r='5' fill='#2c5aa0'/><circle cx='292' cy='70' r='5' fill='#c0392b'/><text x='35' y='26' font-size='9' text-anchor='middle' fill='#333'>Création</text><text x='35' y='38' font-size='9' text-anchor='middle' fill='#333'>du MDRM</text><text x='35' y='56' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>1946</text><text x='100' y='92' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>29 mars 1947</text><text x='100' y='106' font-size='9' text-anchor='middle' fill='#333'>Insurrection</text><text x='170' y='26' font-size='9' text-anchor='middle' fill='#333'>Loi-cadre</text><text x='170' y='38' font-size='9' text-anchor='middle' fill='#333'>Defferre</text><text x='170' y='56' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>1956</text><text x='240' y='92' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>14 oct. 1958</text><text x='240' y='106' font-size='9' text-anchor='middle' fill='#333'>République</text><text x='240' y='118' font-size='9' text-anchor='middle' fill='#333'>autonome</text><text x='292' y='26' font-size='9' text-anchor='middle' fill='#333'>Indépendance</text><text x='292' y='38' font-size='9' text-anchor='middle' fill='#333'>26 juin</text><text x='292' y='56' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>1960</text></svg>",
+          "legende": "Une étape après l'autre jusqu'au 26 juin 1960."
+        },
+        {
+          "type": "remarque",
+          "texte": "Le 29 mars est aujourd'hui une journée de commémoration nationale en mémoire des victimes de 1947."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Qu'est-ce que le MDRM ? 2) Que se passe-t-il dans la nuit du 29 au 30 mars 1947 et quelle est la réponse de la France ? 3) Donne la date de l'indépendance de Madagascar et le nom de son premier président.",
+          "solution": "1) Le Mouvement démocratique de la rénovation malgache, parti nationaliste fondé en 1946, qui réclame l'indépendance. 2) Une insurrection éclate dans l'Est de l'île ; la France répond par une répression très violente, dissout le MDRM et fait condamner ses dirigeants. 3) Le 26 juin 1960 ; Philibert Tsiranana."
+        }
+      ],
+      "lexique": [
+        { "terme": "MDRM", "definition": "Mouvement démocratique de la rénovation malgache, parti nationaliste fondé en 1946." },
+        { "terme": "Insurrection", "definition": "Soulèvement armé contre le pouvoir en place." },
+        { "terme": "Répression", "definition": "Action violente du pouvoir pour écraser une révolte." },
+        { "terme": "Loi-cadre Defferre", "definition": "Loi française de 1956 qui donne plus d'autonomie aux colonies." },
+        { "terme": "Autonomie", "definition": "Fait de se gouverner soi-même en restant lié à un autre État." }
+      ]
+    }
+  ]
+}
