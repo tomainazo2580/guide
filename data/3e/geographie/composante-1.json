@@ -1,0 +1,238 @@
+{
+  "id": "geo-1",
+  "titre": "Structure de l'économie malgache",
+  "lecons": [
+    {
+      "id": "geo-1-1",
+      "titre": "Les caractéristiques de l'économie malgache",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Économie : ensemble des activités par lesquelles une société produit, échange et consomme des richesses (biens et services). Le PIB (produit intérieur brut) mesure la richesse produite dans un pays en une année."
+        },
+        {
+          "type": "texte",
+          "texte": "Madagascar fait partie des pays les moins avancés. Trois mots résument son économie : elle est sous-développée, dépendante et extravertie."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Indicateur", "Valeur", "Année / source"],
+          "lignes": [
+            ["PIB", "9,98 milliards de $", "2016, Banque mondiale"],
+            ["PIB par habitant", "420 $", "2016, Banque mondiale"],
+            ["PIB par habitant", "environ 536 $", "2023"],
+            ["Croissance économique", "3,0 %", "2015"],
+            ["Chômage", "3,6 %", "2014"],
+            ["Inflation", "7,4 %", "2015"],
+            ["Croissance de la population", "environ 2,8 % par an", "récente"],
+            ["IDH (indice de développement humain)", "0,501", "Larousse, 2021"],
+            ["Population sous le seuil national de pauvreté", "environ 75 %", "2022"]
+          ]
+        },
+        {
+          "type": "definition",
+          "texte": "Une économie sous-développée produit peu de richesses par habitant : la population est en grande partie pauvre, l'industrie est peu développée et l'agriculture est peu productive."
+        },
+        {
+          "type": "texte",
+          "texte": "Signes du sous-développement à Madagascar :\n• un PIB par habitant très faible ;\n• un secteur primaire dominant : environ 70 % de la population active y travaille, mais il ne produit que 26,5 % du PIB (2015) ;\n• une agriculture traditionnelle de subsistance : outils simples, peu d'engrais, récoltes surtout consommées par les familles ;\n• une sous-industrialisation : le secteur secondaire occupe peu d'actifs et ne produit qu'environ 16 % du PIB (15,9 %) ;\n• une pauvreté très répandue."
+        },
+        {
+          "type": "remarque",
+          "texte": "Les sources ne donnent pas toutes le même chiffre pour l'emploi industriel (de 7,9 % à 15 % selon l'année et l'organisme). Retiens l'idée : très peu d'actifs travaillent dans l'industrie. À l'examen, cite toujours l'année et la source d'un chiffre."
+        },
+        {
+          "type": "definition",
+          "texte": "Une économie dépendante ne peut pas se passer de l'aide et des produits des autres pays."
+        },
+        {
+          "type": "texte",
+          "texte": "Les trois formes de dépendance :\n• financière : le budget de l'État et de nombreux projets sont financés par des dons et des prêts de bailleurs de fonds étrangers ;\n• technologique : machines, véhicules et techniques sont importés ;\n• commerciale : quelques pays seulement concentrent les échanges, comme le montre le tableau ci-dessous."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Rang", "Clients (2015)", "Part", "Fournisseurs (2015)", "Part"],
+          "lignes": [
+            ["1", "France", "15,2 %", "Chine", "24,8 %"],
+            ["2", "États-Unis", "12,7 %", "France", "10,3 %"],
+            ["3", "Chine", "7 %", "Bahreïn", "5,6 %"],
+            ["4", "Afrique du Sud", "5,9 %", "Inde", "5,5 %"],
+            ["5", "Japon", "5,5 %", "Koweït", "4,5 %"],
+            ["6", "—", "—", "Maurice", "4,4 %"]
+          ]
+        },
+        {
+          "type": "definition",
+          "texte": "Une économie extravertie est tournée vers l'extérieur : elle produit surtout pour vendre à l'étranger et achète à l'étranger l'essentiel de ce qu'elle consomme."
+        },
+        {
+          "type": "texte",
+          "texte": "À Madagascar :\n• on exporte surtout des produits agricoles, miniers et de la mer peu transformés (vanille, girofle, café, crevettes, chromite), ainsi que du sucre, des tissus de coton et des vêtements ;\n• on importe des biens d'équipement, des produits pétroliers, des produits manufacturés et des denrées alimentaires ;\n• la balance commerciale est déficitaire : en 2021, 2,73 milliards de $ d'exportations de biens contre 4,41 milliards de $ d'importations ; pour les services, 589 millions de $ contre 1,18 milliard de $."
+        },
+        {
+          "type": "formule",
+          "texte": "Solde commercial = Exportations − Importations\nTaux de couverture = (Exportations ÷ Importations) × 100\nSolde négatif = déficit. Taux inférieur à 100 % = le pays importe plus qu'il n'exporte."
+        },
+        {
+          "type": "exemple",
+          "texte": "Madagascar, 2021 (biens) : solde = 2,73 − 4,41 = −1,68 milliard de $ (déficit). Taux de couverture = 2,73 ÷ 4,41 × 100 ≈ 61,9 % : les exportations ne paient qu'environ 62 % des importations."
+        },
+        {
+          "type": "schema",
+          "titre": "Un commerce déficitaire (2021)",
+          "svg": "<svg width='300' height='200' viewBox='0 0 300 200' xmlns='http://www.w3.org/2000/svg'><text x='150' y='14' text-anchor='middle' font-size='11' fill='#888'>Commerce des biens, 2021 (milliards de $)</text><line x1='30' y1='170' x2='270' y2='170' stroke='#888'/><rect x='60' y='88' width='60' height='82' fill='#4caf50'/><rect x='170' y='38' width='60' height='132' fill='#e53935'/><line x1='120' y1='88' x2='170' y2='88' stroke='#888' stroke-dasharray='4'/><text x='90' y='82' text-anchor='middle' font-size='12' font-weight='bold' fill='#888'>2,73</text><text x='200' y='32' text-anchor='middle' font-size='12' font-weight='bold' fill='#888'>4,41</text><text x='90' y='188' text-anchor='middle' font-size='11' fill='#888'>Exportations</text><text x='200' y='188' text-anchor='middle' font-size='11' fill='#888'>Importations</text></svg>",
+          "legende": "L'écart entre les deux barres représente le déficit commercial : 1,68 milliard de $."
+        },
+        {
+          "type": "definition",
+          "texte": "Détérioration des termes de l'échange (DTE) : situation où les prix des produits exportés (matières premières) baissent ou augmentent moins vite que les prix des produits importés (produits manufacturés). Le pays doit exporter de plus en plus pour acheter la même quantité de produits."
+        },
+        {
+          "type": "remarque",
+          "texte": "Pauvreté : selon la source, on trouve environ 75 % (2022) ou 81 % (2021) de la population sous le seuil national de pauvreté. Retiens que plus des trois quarts des Malgaches sont concernés."
+        },
+        {
+          "type": "exercice",
+          "enonce": "En 2021, Madagascar a exporté pour 2,73 milliards de $ de biens et importé pour 4,41 milliards de $.\n1) Calcule le solde commercial.\n2) Calcule le taux de couverture (arrondi à 0,1 %).\n3) Que montre ce résultat sur l'économie malgache ? Donne le nom de cette caractéristique.",
+          "solution": "1) Solde = 2,73 − 4,41 = −1,68 milliard de $ : c'est un déficit.\n2) Taux de couverture = 2,73 ÷ 4,41 × 100 ≈ 61,9 %.\n3) Le pays importe plus qu'il n'exporte : ses exportations ne paient qu'environ 62 % de ses achats. C'est une économie extravertie (et dépendante de l'extérieur)."
+        }
+      ],
+      "lexique": [
+        { "terme": "PIB", "definition": "Produit intérieur brut : valeur de tous les biens et services produits dans un pays en une année." },
+        { "terme": "Sous-développement", "definition": "Situation d'un pays qui produit peu de richesses par habitant et dont la population est en grande partie pauvre." },
+        { "terme": "Dépendance économique", "definition": "Situation d'un pays qui a besoin de l'aide, des capitaux, des techniques et des produits d'autres pays." },
+        { "terme": "Extraversion", "definition": "Orientation d'une économie vers l'extérieur : elle vend et achète surtout à l'étranger." },
+        { "terme": "Balance commerciale", "definition": "Différence entre la valeur des exportations et celle des importations." },
+        { "terme": "Termes de l'échange", "definition": "Rapport entre les prix des produits exportés et ceux des produits importés." },
+        { "terme": "Taux de couverture", "definition": "Exportations divisées par importations, multipliées par 100." }
+      ]
+    },
+    {
+      "id": "geo-1-2",
+      "titre": "Les secteurs d'activité et le secteur informel",
+      "blocs": [
+        {
+          "type": "tableau",
+          "entetes": ["Secteur", "Rôle", "Exemples à Madagascar"],
+          "lignes": [
+            ["Primaire", "Tirer directement des ressources de la nature", "agriculture, élevage, pêche, exploitation de la forêt"],
+            ["Secondaire", "Transformer les matières premières", "industries agro-alimentaires, textile, cimenterie, industries extractives, artisanat de production"],
+            ["Tertiaire", "Fournir des services", "commerce, transports, banques, administration, santé, éducation, tourisme, télécommunications"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Source", "Primaire", "Secondaire", "Tertiaire"],
+          "lignes": [
+            ["Emploi (Banque mondiale, 2016)", "75,3 %", "7,9 %", "16,9 %"],
+            ["Valeur ajoutée (Banque mondiale, 2016)", "25,6 %", "15,7 %", "58,7 %"],
+            ["Population active (Larousse, 2020)", "63,8 %", "9,1 %", "27,1 %"],
+            ["PIB (Larousse, 2021)", "24,7 %", "19,5 %", "55,8 %"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Emploi et richesse produite par secteur (2016)",
+          "svg": "<svg width='300' height='150' viewBox='0 0 300 150' xmlns='http://www.w3.org/2000/svg'><text x='150' y='14' text-anchor='middle' font-size='11' fill='#888'>Banque mondiale, 2016 (en %)</text><text x='5' y='50' font-size='11' fill='#888'>Emploi</text><rect x='50' y='30' width='181' height='30' fill='#4caf50'/><rect x='231' y='30' width='19' height='30' fill='#ff9800'/><rect x='250' y='30' width='40' height='30' fill='#2196f3'/><text x='140' y='50' text-anchor='middle' font-size='11' fill='#fff'>75,3</text><text x='240' y='50' text-anchor='middle' font-size='8' fill='#fff'>7,9</text><text x='270' y='50' text-anchor='middle' font-size='11' fill='#fff'>16,9</text><text x='5' y='92' font-size='10' fill='#888'>Valeur</text><text x='5' y='104' font-size='10' fill='#888'>ajoutée</text><rect x='50' y='80' width='61' height='30' fill='#4caf50'/><rect x='111' y='80' width='38' height='30' fill='#ff9800'/><rect x='149' y='80' width='141' height='30' fill='#2196f3'/><text x='80' y='100' text-anchor='middle' font-size='11' fill='#fff'>25,6</text><text x='130' y='100' text-anchor='middle' font-size='11' fill='#fff'>15,7</text><text x='219' y='100' text-anchor='middle' font-size='11' fill='#fff'>58,7</text><rect x='20' y='128' width='10' height='10' fill='#4caf50'/><text x='34' y='137' font-size='10' fill='#888'>Primaire</text><rect x='100' y='128' width='10' height='10' fill='#ff9800'/><text x='114' y='137' font-size='10' fill='#888'>Secondaire</text><rect x='190' y='128' width='10' height='10' fill='#2196f3'/><text x='204' y='137' font-size='10' fill='#888'>Tertiaire</text></svg>",
+          "legende": "Le primaire emploie trois actifs sur quatre mais ne produit qu'un quart de la richesse."
+        },
+        {
+          "type": "texte",
+          "texte": "Lecture : le secteur primaire emploie la grande majorité des actifs mais ne fournit qu'environ un quart de la richesse : chaque paysan produit peu (faible productivité). Le tertiaire, au contraire, crée plus de la moitié de la richesse avec moins d'un actif sur cinq. Les chiffres varient d'une source à l'autre, mais le constat est le même."
+        },
+        {
+          "type": "definition",
+          "texte": "Secteur informel : ensemble des activités économiques exercées par de petites unités qui ne sont pas déclarées à l'administration (pas d'enregistrement, pas d'impôts, souvent pas de comptabilité) et dont les travailleurs n'ont ni contrat ni protection sociale."
+        },
+        {
+          "type": "texte",
+          "texte": "Caractéristiques du secteur informel :\n• petites unités, souvent familiales, avec très peu de capital ;\n• travail non déclaré, sans contrat ni sécurité sociale ;\n• revenus faibles et irréguliers ;\n• activités faciles à lancer : petit commerce, vente ambulante, petits métiers, travail à la tâche ;\n• absence de comptabilité et d'impôts payés à l'État."
+        },
+        {
+          "type": "texte",
+          "texte": "Causes de l'informel :\n• faible niveau d'instruction ;\n• pauvreté et manque de capital ;\n• discrimination (femmes, jeunes, personnes sans diplôme) ;\n• responsabilités familiales qui obligent à travailler près de la maison ;\n• absence d'accès aux ressources (crédit, terre, formation) ;\n• manque d'emplois dans le secteur formel et progrès lents vers les objectifs de développement durable, avec de fortes inégalités."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Avantages", "Inconvénients"],
+          "lignes": [
+            ["Donne un revenu à beaucoup de familles pauvres", "Revenus faibles et instables"],
+            ["Facile à créer, peu de capital nécessaire", "Aucune protection sociale (maladie, retraite)"],
+            ["Répond aux besoins des quartiers populaires", "L'État perd des recettes (impôts non payés)"],
+            ["Atténue le chômage visible", "Peu de progrès technique, faible productivité"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Classe chaque activité dans le secteur primaire, secondaire ou tertiaire : a) culture du riz ; b) fabrication de ciment ; c) transport en taxi-brousse ; d) pêche à la pirogue ; e) filature de coton ; f) banque ; g) élevage de zébus.\n2) Cite deux activités qui relèvent du secteur informel.",
+          "solution": "1) Primaire : a, d, g. Secondaire : b, e. Tertiaire : c, f.\n2) Exemples : vendeur ambulant, petite marchande au marché sans déclaration, couturière à domicile non déclarée, tâcheron, gargotier de rue."
+        }
+      ],
+      "lexique": [
+        { "terme": "Secteur primaire", "definition": "Activités qui tirent directement des ressources de la nature : agriculture, élevage, pêche, forêt." },
+        { "terme": "Secteur secondaire", "definition": "Activités de transformation des matières premières : industrie, artisanat de production." },
+        { "terme": "Secteur tertiaire", "definition": "Activités de services : commerce, transports, banques, administration, tourisme." },
+        { "terme": "Valeur ajoutée", "definition": "Richesse créée par un secteur ou une entreprise : valeur de la production moins les achats nécessaires pour produire." },
+        { "terme": "Population active", "definition": "Ensemble des personnes qui travaillent ou cherchent un emploi." },
+        { "terme": "Secteur informel", "definition": "Activités non déclarées, sans contrat ni protection sociale, exercées par de petites unités." },
+        { "terme": "Productivité", "definition": "Quantité produite par travailleur ou par hectare." }
+      ]
+    },
+    {
+      "id": "geo-1-3",
+      "titre": "Les politiques économiques",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Politique économique : ensemble des mesures prises par l'État pour agir sur l'économie (croissance, emploi, prix, commerce) et améliorer les conditions de vie de la population."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Durée", "Politique", "Contenu"],
+          "lignes": [
+            ["Court terme", "Politique fiscale", "L'État agit par les impôts et taxes (ses recettes) et par ses dépenses (investissements, salaires, subventions) pour freiner ou relancer l'économie."],
+            ["Court terme", "Régulation de l'emploi", "Règles sur les contrats de travail (contrat à durée indéterminée CDI, contrat à durée déterminée CDD), salaire minimum, aides à l'embauche."],
+            ["Long terme", "PAS (programmes d'ajustement structurel)", "Années 1980 et suivantes, avec le FMI et la Banque mondiale : réduire le déficit de l'État, libéraliser l'économie, privatiser des entreprises publiques."],
+            ["Long terme", "MAP (Madagascar Action Plan)", "Plan de développement de 2007 à 2012, sous la présidence de Ravalomanana."],
+            ["Long terme", "IEM (Initiative Émergence Madagascar)", "Programme lancé sous la présidence de Rajoelina à partir de 2019 pour relancer la croissance (infrastructures, énergie, agriculture)."]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Les grandes politiques de long terme",
+          "svg": "<svg width='310' height='130' viewBox='0 0 310 130' xmlns='http://www.w3.org/2000/svg'><line x1='15' y1='60' x2='295' y2='60' stroke='#888' stroke-width='2'/><circle cx='50' cy='60' r='6' fill='#e53935'/><circle cx='155' cy='60' r='6' fill='#ff9800'/><circle cx='260' cy='60' r='6' fill='#4caf50'/><text x='50' y='40' text-anchor='middle' font-size='11' font-weight='bold' fill='#888'>Années 1980</text><text x='155' y='40' text-anchor='middle' font-size='11' font-weight='bold' fill='#888'>2007-2012</text><text x='260' y='40' text-anchor='middle' font-size='11' font-weight='bold' fill='#888'>2019</text><text x='50' y='85' text-anchor='middle' font-size='13' font-weight='bold' fill='#888'>PAS</text><text x='155' y='85' text-anchor='middle' font-size='13' font-weight='bold' fill='#888'>MAP</text><text x='260' y='85' text-anchor='middle' font-size='13' font-weight='bold' fill='#888'>IEM</text><text x='50' y='101' text-anchor='middle' font-size='10' fill='#888'>FMI / Banque mondiale</text><text x='155' y='101' text-anchor='middle' font-size='10' fill='#888'>Ravalomanana</text><text x='260' y='101' text-anchor='middle' font-size='10' fill='#888'>Rajoelina</text><text x='155' y='122' text-anchor='middle' font-size='10' fill='#888'>Politiques de long terme</text></svg>",
+          "legende": "Trois grandes politiques de développement à long terme."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Indicateur récent", "Valeur"],
+          "lignes": [
+            ["Prêts non performants (banques)", "7,7 % (2022)"],
+            ["Chômage", "2,6 %, dont environ 70 % de jeunes de 15 à 30 ans"],
+            ["Croissance économique", "4,2 % (2023) ; 5,0 % (2024, d'après le fascicule)"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Un chômage de 2,6 % paraît faible, mais il ne compte que les personnes sans aucun travail. Beaucoup de Malgaches exercent un petit métier informel ou sont sous-employés : le problème de l'emploi est plus grand que ce chiffre ne le laisse penser."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Associe chaque sigle à sa description : A. PAS ; B. MAP ; C. IEM.\n   1. Plan de développement de 2007 à 2012.\n   2. Programmes soutenus par le FMI et la Banque mondiale à partir des années 1980.\n   3. Programme lancé en 2019 sous la présidence de Rajoelina.\n2) Définis la politique fiscale. Est-ce une politique de court terme ou de long terme ?",
+          "solution": "1) A-2 ; B-1 ; C-3.\n2) La politique fiscale est l'action de l'État par les impôts (recettes) et par ses dépenses pour freiner ou relancer l'économie. C'est une politique de court terme."
+        }
+      ],
+      "lexique": [
+        { "terme": "Politique économique", "definition": "Mesures prises par l'État pour agir sur l'économie." },
+        { "terme": "Politique fiscale", "definition": "Action de l'État par les impôts et les dépenses publiques." },
+        { "terme": "CDD", "definition": "Contrat à durée déterminée : contrat de travail qui a une date de fin." },
+        { "terme": "PAS", "definition": "Programmes d'ajustement structurel : réformes imposées en échange de prêts du FMI et de la Banque mondiale." },
+        { "terme": "MAP", "definition": "Madagascar Action Plan : plan de développement national de 2007 à 2012." },
+        { "terme": "IEM", "definition": "Initiative Émergence Madagascar : programme de relance lancé à partir de 2019." },
+        { "terme": "Croissance économique", "definition": "Augmentation de la richesse produite par un pays d'une année à l'autre." },
+        { "terme": "Inflation", "definition": "Hausse générale et durable des prix." },
+        { "terme": "Chômage", "definition": "Situation des personnes qui veulent travailler mais ne trouvent pas d'emploi." }
+      ]
+    }
+  ]
+}
