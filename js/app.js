@@ -54,7 +54,7 @@ const MATIERES_PAR_CLASSE = {
       './data/3e/sciences-physiques/composante-4.json',
       './data/3e/sciences-physiques/composante-5.json'
     ] },
-        { id: 'histoire',           code: 'HIST', nom: 'Histoire',           icone: '🏛️', disponible: true,  fichiers: [
+    { id: 'histoire',           code: 'HIST', nom: 'Histoire',           icone: '🏛️', disponible: true,  fichiers: [
       './data/3e/histoire/composante-1.json',
       './data/3e/histoire/composante-2.json',
       './data/3e/histoire/composante-3.json',
@@ -66,7 +66,7 @@ const MATIERES_PAR_CLASSE = {
       './data/3e/histoire/composante-9.json',
       './data/3e/histoire/composante-10.json'
     ] },
-        { id: 'geographie',         code: 'GEOG', nom: 'Géographie',         icone: '🗺️', disponible: false, fichier: './data/3e/geographie.json' }
+    { id: 'geographie',         code: 'GEOG', nom: 'Géographie',         icone: '🗺️', disponible: false, fichier: './data/3e/geographie.json' }
   ],
   'tle': [
     { id: 'malagasy',        code: 'MALG', nom: 'Malagasy',            icone: '📚', disponible: false, fichier: './data/tle/malagasy.json' },
