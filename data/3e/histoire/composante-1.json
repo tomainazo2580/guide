@@ -1,0 +1,168 @@
+{
+  "id": "hist-theme1",
+  "titre": "Thème I : L'histoire orale",
+  "lecons": [
+    {
+      "id": "hist-1-1",
+      "titre": "Qu'est-ce que l'histoire orale ?",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Histoire orale",
+          "texte": "L'<b>histoire orale</b> est la véritable histoire des personnes, racontée de <b>leur point de vue</b>, comme elles s'en souviennent. Elle repose sur le <b>recueil systématique des témoignages</b> de personnes vivantes sur leurs propres expériences."
+        },
+        {
+          "type": "remarque",
+          "texte": "L'histoire orale n'est <b>ni du folklore (mythe), ni des ragots, ni des rumeurs</b>. Les souvenirs de la vie de tous les jours ont une importance historique : ils nous aident à comprendre à quoi ressemblait la vie. Si nous ne les recueillons pas et ne les partageons pas, ils disparaîtront un jour pour toujours."
+        },
+        {
+          "type": "schema",
+          "titre": "Croiser deux sources",
+          "svg": "<svg width='320' height='190' viewBox='0 0 320 190' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='8' width='140' height='46' rx='8' fill='#bbdefb' stroke='#64b5f6'/><text x='80' y='28' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Traces écrites</text><text x='80' y='43' font-size='10' text-anchor='middle' fill='#333'>(faits établis)</text><rect x='170' y='8' width='140' height='46' rx='8' fill='#ffe0b2' stroke='#ffb74d'/><text x='240' y='28' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Témoignages oraux</text><text x='240' y='43' font-size='10' text-anchor='middle' fill='#333'>(vécu et ressenti)</text><line x1='80' y1='54' x2='80' y2='100' stroke='#555' stroke-width='2'/><polygon points='80,114 74,102 86,102' fill='#555'/><line x1='240' y1='54' x2='240' y2='100' stroke='#555' stroke-width='2'/><polygon points='240,114 234,102 246,102' fill='#555'/><rect x='20' y='116' width='280' height='48' rx='8' fill='#c8e6c9' stroke='#81c784'/><text x='160' y='137' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Une représentation plus proche</text><text x='160' y='152' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>des événements du passé</text><text x='160' y='182' font-size='10' font-style='italic' text-anchor='middle' fill='#555'>L'histoire orale complète les traces écrites</text></svg>",
+          "legende": "L'histoire orale croise les faits établis par les écrits et l'expérience des témoins."
+        },
+        {
+          "type": "regle",
+          "titre": "Les utilités de l'histoire orale",
+          "texte": "• Construire une représentation <b>plus proche des événements du passé</b>, en croisant les traces écrites et l'expérience individuelle des acteurs.\n• Apporter des <b>sources complémentaires</b> et révéler le passé <b>vécu et ressenti</b>.\n• Faire entrer dans l'histoire des personnages généralement absents de l'histoire enseignée : les <b>femmes, les enfants, les ouvriers</b>… (les « oublis de l'Histoire »).\n• Initier les élèves à des <b>démarches d'enquête</b> et favoriser le <b>dialogue entre les générations</b>."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1. Donne une définition de l'histoire orale.\n2. L'histoire orale est-elle du folklore ou un ensemble de rumeurs ? Justifie.\n3. Cite deux utilités de l'histoire orale.\n4. Quelles catégories de personnes sont souvent absentes de l'histoire enseignée ?",
+          "solution": "1. L'histoire orale est l'histoire des personnes racontée de leur point de vue, à partir du recueil systématique des témoignages de personnes vivantes sur leurs propres expériences.\n2. Non : ce n'est ni du folklore (mythe), ni des ragots, ni des rumeurs, mais la véritable histoire des personnes, telle qu'elles s'en souviennent. Ces souvenirs ont une importance historique.\n3. Par exemple : elle donne une représentation plus proche des événements du passé en croisant les écrits et les témoignages ; elle apporte des sources complémentaires ; elle initie à l'enquête ; elle favorise le dialogue entre les générations (deux réponses suffisent).\n4. Les femmes, les enfants, les ouvriers… (les « oublis de l'Histoire »)."
+        }
+      ],
+      "lexique": [
+        { "terme": "Témoin", "definition": "Personne qui a vécu un événement ou une époque et qui peut en parler." },
+        { "terme": "Témoignage oral", "definition": "Récit d'un événement fait de vive voix par celui qui l'a vécu." },
+        { "terme": "Trace écrite", "definition": "Document écrit qui garde le souvenir du passé (lettre, journal, registre…)." },
+        { "terme": "Source", "definition": "Tout document ou témoignage qui permet de connaître le passé." },
+        { "terme": "Folklore", "definition": "Ensemble des contes, légendes et traditions populaires d'un peuple." },
+        { "terme": "Oublis de l'Histoire", "definition": "Personnes restées invisibles dans l'histoire, dont la mémoire collective n'a souvent pas retenu les noms." }
+      ]
+    },
+    {
+      "id": "hist-1-2",
+      "titre": "La méthode historique et la démarche de l'histoire orale",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "L'histoire orale a pour objectif d'<b>enregistrer des témoignages</b> d'un événement ou d'une époque et de les <b>exploiter dans une perspective historique</b>, pour mieux connaître et comprendre le passé. Il s'agit de <b>fabriquer son propre matériau</b>, en suivant les trois procédures de la méthode historique."
+        },
+        {
+          "type": "schema",
+          "titre": "Les trois phases de la méthode historique",
+          "svg": "<svg width='320' height='130' viewBox='0 0 320 130' xmlns='http://www.w3.org/2000/svg'><rect x='8' y='16' width='88' height='56' rx='8' fill='#bbdefb' stroke='#64b5f6' stroke-width='1.5'/><text x='52' y='38' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>1. Phase de</text><text x='52' y='54' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>documentation</text><rect x='116' y='16' width='88' height='56' rx='8' fill='#ffe0b2' stroke='#ffb74d' stroke-width='1.5'/><text x='160' y='38' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>2. Phase</text><text x='160' y='54' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>d'analyse</text><rect x='224' y='16' width='88' height='56' rx='8' fill='#c8e6c9' stroke='#81c784' stroke-width='1.5'/><text x='268' y='38' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>3. Phase de</text><text x='268' y='54' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>restitution</text><line x1='96' y1='44' x2='106' y2='44' stroke='#555' stroke-width='2'/><polygon points='116,44 106,39 106,49' fill='#555'/><line x1='204' y1='44' x2='214' y2='44' stroke='#555' stroke-width='2'/><polygon points='224,44 214,39 214,49' fill='#555'/><text x='52' y='92' font-size='9.5' text-anchor='middle' fill='#555'>problématique,</text><text x='52' y='105' font-size='9.5' text-anchor='middle' fill='#555'>corpus de sources</text><text x='160' y='92' font-size='9.5' text-anchor='middle' fill='#555'>critique et</text><text x='160' y='105' font-size='9.5' text-anchor='middle' fill='#555'>interprétation</text><text x='268' y='92' font-size='9.5' text-anchor='middle' fill='#555'>mise en forme</text><text x='268' y='105' font-size='9.5' text-anchor='middle' fill='#555'>des résultats</text></svg>",
+          "legende": "On se documente, on analyse les sources, puis on présente les résultats."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les trois procédures",
+          "entetes": ["Phase", "Ce que l'on fait"],
+          "lignes": [
+            ["Documentation", "Construire une problématique pour guider la constitution d'un corpus de sources et leur future analyse"],
+            ["Analyse", "Faire la critique et l'interprétation des sources du passé"],
+            ["Restitution", "Mettre en forme les résultats de la recherche"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Les démarches propres à l'histoire orale",
+          "texte": "L'histoire orale a une <b>méthodologie propre</b> : elle analyse des sources en les <b>interprétant</b> et en les <b>croisant avec d'autres documents</b>. Les démarches sont, dans l'ordre :\n1. <b>Choisir le sujet</b> (choisir un thème) ;\n2. <b>Rechercher des sources</b> : bibliographies, sources orales et écrites (se documenter sur un thème) ;\n3. <b>Construire une problématique</b> (une question de recherche) ;\n4. <b>Élaborer une grille d'entretien</b> ;\n5. <b>Choisir les témoins</b> ;\n6. <b>Prendre contact</b> avec le témoin ;\n7. <b>Préparer l'entretien</b> (l'interview) ;\n8. <b>Réaliser l'entretien</b> (l'interview) ;\n9. <b>Analyser et interpréter</b> les résultats (exploiter les données récoltées et reconstituer le travail effectué)."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1. Remets dans l'ordre les trois phases de la méthode historique : a) restitution ; b) documentation ; c) analyse.\n2. Dans quelle phase fait-on la critique des sources ?\n3. Quelle est la toute première démarche de l'histoire orale ?\n4. Pourquoi dit-on que l'historien « fabrique son propre matériau » en histoire orale ?",
+          "solution": "1. b) documentation, puis c) analyse, puis a) restitution.\n2. Dans la phase d'analyse (critique et interprétation des sources du passé).\n3. Choisir le sujet (choisir un thème).\n4. Parce qu'il recueille lui-même les témoignages (en menant et en enregistrant des entretiens) au lieu d'utiliser uniquement des documents déjà existants."
+        }
+      ],
+      "lexique": [
+        { "terme": "Problématique", "definition": "Question de recherche qui guide tout le travail de l'historien." },
+        { "terme": "Corpus", "definition": "Ensemble des sources réunies pour étudier un sujet." },
+        { "terme": "Critique des sources", "definition": "Examen d'une source pour savoir si elle est fiable." },
+        { "terme": "Interprétation", "definition": "Explication du sens d'une source, après l'avoir comparée à d'autres." },
+        { "terme": "Restitution", "definition": "Présentation des résultats d'une recherche." },
+        { "terme": "Entretien (interview)", "definition": "Conversation préparée au cours de laquelle on interroge un témoin." }
+      ]
+    },
+    {
+      "id": "hist-1-3",
+      "titre": "Réaliser un projet collectif d'histoire orale",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "On peut réaliser un projet d'histoire orale en choisissant un <b>thème proche de soi dans le temps et dans l'espace</b>. Le travail peut se faire <b>en binôme</b>, ce qui facilite la <b>recherche de témoins</b>, la <b>réalisation de l'entretien</b> et l'<b>exploitation des données</b>. Il suit <b>sept étapes</b>."
+        },
+        {
+          "type": "schema",
+          "titre": "Les sept étapes d'un projet",
+          "svg": "<svg width='320' height='220' viewBox='0 0 320 220' xmlns='http://www.w3.org/2000/svg'><rect x='36' y='6' width='278' height='26' rx='6' fill='#e3f2fd' stroke='#90a4ae'/><circle cx='20' cy='19' r='10' fill='#1565c0'/><text x='20' y='23' font-size='11' font-weight='bold' text-anchor='middle' fill='#fff'>1</text><text x='44' y='23' font-size='10.5' fill='#333'>Se documenter, poser la question de recherche</text><rect x='36' y='36' width='278' height='26' rx='6' fill='#fff3e0' stroke='#90a4ae'/><circle cx='20' cy='49' r='10' fill='#1565c0'/><text x='20' y='53' font-size='11' font-weight='bold' text-anchor='middle' fill='#fff'>2</text><text x='44' y='53' font-size='10.5' fill='#333'>Grille d'entretien, choix des témoins, support</text><rect x='36' y='66' width='278' height='26' rx='6' fill='#e8f5e9' stroke='#90a4ae'/><circle cx='20' cy='79' r='10' fill='#1565c0'/><text x='20' y='83' font-size='11' font-weight='bold' text-anchor='middle' fill='#fff'>3</text><text x='44' y='83' font-size='10.5' fill='#333'>Préparer l'entretien (s'exercer à deux)</text><rect x='36' y='96' width='278' height='26' rx='6' fill='#fce4ec' stroke='#90a4ae'/><circle cx='20' cy='109' r='10' fill='#1565c0'/><text x='20' y='113' font-size='11' font-weight='bold' text-anchor='middle' fill='#fff'>4</text><text x='44' y='113' font-size='10.5' fill='#333'>Réaliser et enregistrer l'entretien</text><rect x='36' y='126' width='278' height='26' rx='6' fill='#f3e5f5' stroke='#90a4ae'/><circle cx='20' cy='139' r='10' fill='#1565c0'/><text x='20' y='143' font-size='11' font-weight='bold' text-anchor='middle' fill='#fff'>5</text><text x='44' y='143' font-size='10.5' fill='#333'>Exploiter les données récoltées</text><rect x='36' y='156' width='278' height='26' rx='6' fill='#fffde7' stroke='#90a4ae'/><circle cx='20' cy='169' r='10' fill='#1565c0'/><text x='20' y='173' font-size='11' font-weight='bold' text-anchor='middle' fill='#fff'>6</text><text x='44' y='173' font-size='10.5' fill='#333'>Reconstituer le travail : présentation orale</text><rect x='36' y='186' width='278' height='26' rx='6' fill='#e0f7fa' stroke='#90a4ae'/><circle cx='20' cy='199' r='10' fill='#1565c0'/><text x='20' y='203' font-size='11' font-weight='bold' text-anchor='middle' fill='#fff'>7</text><text x='44' y='203' font-size='10.5' fill='#333'>Production collective : réponse à la question</text></svg>",
+          "legende": "De la question de recherche à la réponse collective."
+        },
+        {
+          "type": "tableau",
+          "titre": "Le détail des sept étapes",
+          "entetes": ["Étape", "Ce qu'on fait"],
+          "lignes": [
+            ["1. Se documenter", "Se documenter sur le thème choisi et sur la méthodologie, puis construire une question de recherche qui orientera la grille d'entretien"],
+            ["2. Préparer les outils", "Élaborer la grille d'entretien, choisir les témoins et le support d'enregistrement"],
+            ["3. Préparer l'entretien", "Par groupe de deux, se mettre en situation d'entretien et s'exercer à la rencontre avec le témoin"],
+            ["4. Réaliser l'entretien", "Interviewer une personne de son choix en enregistrant l'entretien"],
+            ["5. Exploiter les données", "Retranscrire tout ou partie de l'entretien, faire un résumé, organiser les informations pertinentes en les reliant aux connaissances historiques acquises sur le sujet"],
+            ["6. Reconstituer le travail", "Présenter oralement en classe les données récoltées, le résultat de l'analyse et les éventuels documents reçus du témoin"],
+            ["7. Production collective", "Apporter une réponse collective à la question de recherche posée au départ"]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Bien préparer l'entretien",
+          "texte": "• <b>La grille d'entretien</b> : prépare des questions personnelles pour amener le témoin à raconter ce qu'il a vécu. La grille est la <b>même pour tous les entretiens</b>.\n• <b>Le choix des témoins</b> : fixe un <b>âge minimum</b> pour les personnes interviewées, en fonction du thème étudié.\n• <b>Le support</b> : choisis comment enregistrer l'entretien."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Avec un camarade, tu veux enquêter sur « la vie dans ton village il y a cinquante ans ».\n1. Propose une question de recherche.\n2. Comment choisis-tu tes témoins ?\n3. Que prépares-tu avant l'entretien ?\n4. Que fais-tu après l'entretien ?\n5. Comment présentes-tu ton travail à la classe ?",
+          "solution": "1. Par exemple : « Comment vivait-on dans notre village il y a cinquante ans ? »\n2. On fixe un âge minimum adapté au thème : ici, des personnes assez âgées pour avoir vécu cette période.\n3. On prépare une grille d'entretien avec des questions personnelles (la même pour tous les témoins), on choisit le support d'enregistrement et on s'exerce à deux à la situation d'entretien.\n4. On exploite les données : retranscription de tout ou partie de l'entretien, résumé, organisation des informations pertinentes en les reliant à ce que l'on sait de l'histoire.\n5. Par une présentation orale en classe : résultat de l'analyse et éventuels documents reçus du témoin. Les travaux de tous peuvent ensuite servir à une réponse collective à la question de recherche."
+        }
+      ],
+      "lexique": [
+        { "terme": "Binôme", "definition": "Groupe de deux personnes qui travaillent ensemble." },
+        { "terme": "Grille d'entretien", "definition": "Liste de questions préparées à l'avance pour interroger un témoin." },
+        { "terme": "Retranscription", "definition": "Mise par écrit d'un enregistrement oral." },
+        { "terme": "Production collective", "definition": "Travail réalisé ensemble par toute la classe ou tout un groupe." }
+      ]
+    },
+    {
+      "id": "hist-1-4",
+      "titre": "Les origines de l'histoire orale",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "L'histoire orale peut se prévaloir de <b>prestigieux ancêtres dès la Grèce antique</b> : <b>Hérodote</b> et <b>Thucydide</b> s'appuient sur les témoignages des acteurs et sur les traditions orales pour écrire, l'un son <i>Historia</i> (« Enquête »), l'autre <i>La Guerre du Péloponnèse</i>. Mais il faut attendre le <b>XXe siècle</b> pour qu'elle devienne une <b>méthode historiographique</b>."
+        },
+        {
+          "type": "schema",
+          "titre": "Des origines à la méthode",
+          "svg": "<svg width='320' height='140' viewBox='0 0 320 140' xmlns='http://www.w3.org/2000/svg'><line x1='20' y1='62' x2='300' y2='62' stroke='#555' stroke-width='3'/><circle cx='55' cy='62' r='8' fill='#ffb74d' stroke='#e65100' stroke-width='2'/><circle cx='160' cy='62' r='8' fill='#64b5f6' stroke='#1565c0' stroke-width='2'/><circle cx='265' cy='62' r='8' fill='#81c784' stroke='#2e7d32' stroke-width='2'/><text x='55' y='38' font-size='12' font-weight='bold' text-anchor='middle' fill='#e65100'>Antiquité</text><text x='160' y='38' font-size='12' font-weight='bold' text-anchor='middle' fill='#1565c0'>Années 1920</text><text x='265' y='38' font-size='12' font-weight='bold' text-anchor='middle' fill='#2e7d32'>Puis</text><text x='55' y='86' font-size='10' text-anchor='middle' fill='#333'>Hérodote,</text><text x='55' y='99' font-size='10' text-anchor='middle' fill='#333'>Thucydide :</text><text x='55' y='112' font-size='10' text-anchor='middle' fill='#333'>témoins et</text><text x='55' y='125' font-size='10' text-anchor='middle' fill='#333'>traditions orales</text><text x='160' y='86' font-size='10' text-anchor='middle' fill='#333'>École de Chicago</text><text x='160' y='99' font-size='10' text-anchor='middle' fill='#333'>(États-Unis) :</text><text x='160' y='112' font-size='10' text-anchor='middle' fill='#333'>premiers entretiens</text><text x='160' y='125' font-size='10' text-anchor='middle' fill='#333'>biographiques</text><text x='265' y='86' font-size='10' text-anchor='middle' fill='#333'>Programme de</text><text x='265' y='99' font-size='10' text-anchor='middle' fill='#333'>Roosevelt :</text><text x='265' y='112' font-size='10' text-anchor='middle' fill='#333'>mémoire des</text><text x='265' y='125' font-size='10' text-anchor='middle' fill='#333'>combattants de la 2e GM</text></svg>",
+          "legende": "Des témoignages utilisés dès l'Antiquité jusqu'à une véritable méthode née aux États-Unis."
+        },
+        {
+          "type": "regle",
+          "titre": "À retenir",
+          "texte": "• L'histoire orale (<i>oral history</i>) est fondée sur la <b>collecte de témoignages parlés et enregistrés</b>, qui font l'objet d'<b>analyses et d'interprétations</b>.\n• Elle est <b>née aux États-Unis</b>, chez les anthropologues et sociologues de l'<b>École de Chicago</b>.\n• Dans les <b>années 1920</b>, ils réalisent les premiers <b>entretiens biographiques</b> auprès de personnes des <b>classes populaires</b>.\n• Elle se développe ensuite dans un programme lancé par <b>Franklin D. Roosevelt</b> pour collecter et conserver la mémoire des combattants de la Seconde Guerre mondiale."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1. Quels auteurs de l'Antiquité s'appuient sur des témoignages ? Cite leurs œuvres.\n2. À quelle époque l'histoire orale devient-elle une méthode historiographique ?\n3. Dans quel pays est-elle née, et chez quels chercheurs ?\n4. Qui interrogent les premiers entretiens biographiques des années 1920 ?",
+          "solution": "1. Hérodote (<i>Historia</i>, « Enquête ») et Thucydide (<i>La Guerre du Péloponnèse</i>).\n2. Au XXe siècle.\n3. Aux États-Unis, chez les anthropologues et sociologues de l'École de Chicago.\n4. Des personnes des classes populaires."
+        }
+      ],
+      "lexique": [
+        { "terme": "Méthode historiographique", "definition": "Manière organisée d'écrire l'histoire à partir de sources." },
+        { "terme": "Oral history", "definition": "Nom anglais de l'histoire orale." },
+        { "terme": "Entretien biographique", "definition": "Entretien où une personne raconte l'histoire de sa vie." },
+        { "terme": "Classes populaires", "definition": "Milieux sociaux modestes (ouvriers, paysans, petits employés…)." },
+        { "terme": "École de Chicago", "definition": "Groupe de chercheurs américains en sociologie et en anthropologie, actif dans les années 1920." }
+      ]
+    }
+  ]
+}
