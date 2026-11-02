@@ -1,0 +1,349 @@
+{
+  "id": "geo-3",
+  "titre": "Les secteurs secondaire et tertiaire",
+  "lecons": [
+    {
+      "id": "geo-3-1",
+      "titre": "L'industrie",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Industrie : activité qui transforme les matières premières en produits finis ou semi-finis, à l'aide de machines, d'énergie et d'une main-d'œuvre nombreuse."
+        },
+        {
+          "type": "texte",
+          "texte": "À Madagascar, l'industrie occupe peu d'actifs : environ 9 % de la population active selon le fascicule (les chiffres varient selon les sources, voir la leçon sur les secteurs d'activité). Elle fournit environ 16 à 20 % du PIB."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Type d'industrie", "Rôle", "Exemples d'entreprises"],
+          "lignes": [
+            ["Agro-alimentaire", "Transformer les produits agricoles et d'élevage", "SIRAMA et SIRANALA (sucre), huilerie de Toamatave, SOCOLAIT (lait), STAR (boissons)"],
+            ["Textile", "Transformer le coton en fils, tissus et vêtements", "SOMACOU, COTONA"],
+            ["Mécanique", "Fabriquer ou réparer machines et navires", "SECREN (Antsiranana)"],
+            ["Chimique", "Fabriquer savons, produits d'entretien, médicaments", "SOVONERIE-PHARMAD"],
+            ["Matériaux de construction", "Fabriquer le ciment", "cimenterie HOLCIM"],
+            ["Extractive", "Extraire les minerais du sol", "KRAOMA (chromite, Andriamena)"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Dans le fascicule, la SIRANALA est placée à une localisation dont je ne suis pas sûr. Je ne la précise donc pas ici : demande confirmation à ton professeur avant de la citer sur une carte."
+        },
+        {
+          "type": "texte",
+          "texte": "Les facteurs d'implantation d'une industrie (pourquoi elle s'installe à tel endroit) :\n• la proximité des matières premières (canne, coton, minerais) ;\n• la main-d'œuvre disponible et peu coûteuse ;\n• l'énergie (électricité, carburant) et l'eau ;\n• les voies de transport (routes, port, chemin de fer) ;\n• un marché de consommateurs ;\n• les capitaux, la sécurité et la stabilité politique."
+        },
+        {
+          "type": "texte",
+          "texte": "Les structures de production : on distingue les entreprises publiques (appartenant à l'État), privées (appartenant à des particuliers ou à des sociétés) et mixtes (capitaux publics et privés). Les entreprises franches, tournées vers l'exportation (textile surtout), bénéficient d'avantages fiscaux."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Problèmes de l'industrie", "Solutions"],
+          "lignes": [
+            ["Manque de capitaux et d'investissements", "Attirer les investisseurs, faciliter le crédit"],
+            ["Coupures et coût de l'électricité", "Développer l'énergie (hydroélectricité, solaire)"],
+            ["Mauvais état des routes et des ports", "Réhabiliter les infrastructures de transport"],
+            ["Marché intérieur étroit (faible pouvoir d'achat)", "Chercher des débouchés à l'exportation"],
+            ["Manque de main-d'œuvre qualifiée", "Développer la formation technique et professionnelle"],
+            ["Concurrence des produits importés", "Améliorer la qualité, soutenir les produits locaux"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Classe chaque entreprise dans son type d'industrie : SIRAMA ; COTONA ; KRAOMA ; SECREN ; HOLCIM.\n2) Cite trois facteurs qui expliquent l'implantation d'une usine près d'une grande ville portuaire.\n3) Cite deux problèmes de l'industrie malgache et une solution pour chacun.",
+          "solution": "1) SIRAMA : agro-alimentaire (sucre). COTONA : textile. KRAOMA : extractive (chromite). SECREN : mécanique (chantier naval). HOLCIM : matériaux de construction (ciment).\n2) La proximité du port (exportation et importation), la main-d'œuvre nombreuse, le marché de consommateurs, les transports et l'énergie.\n3) Exemples : coupures d'électricité (solution : développer l'énergie) ; manque de capitaux (solution : attirer les investisseurs) ; mauvaises routes (solution : réhabiliter les routes)."
+        }
+      ],
+      "lexique": [
+        { "terme": "Industrie", "definition": "Activité de transformation des matières premières avec des machines." },
+        { "terme": "Matière première", "definition": "Produit brut, non transformé, utilisé pour fabriquer autre chose." },
+        { "terme": "Industrie agro-alimentaire", "definition": "Industrie qui transforme les produits agricoles en aliments et boissons." },
+        { "terme": "Industrie extractive", "definition": "Industrie qui extrait des minerais du sol." },
+        { "terme": "Entreprise franche", "definition": "Entreprise tournée vers l'exportation qui bénéficie d'avantages fiscaux." },
+        { "terme": "Facteur d'implantation", "definition": "Raison qui explique le choix du lieu d'installation d'une usine." },
+        { "terme": "Investissement", "definition": "Argent placé pour créer ou développer une activité." }
+      ]
+    },
+    {
+      "id": "geo-3-2",
+      "titre": "L'artisanat",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Artisanat : activité de production ou de service exercée surtout à la main, dans une petite unité (souvent familiale), avec des outils simples et un savoir-faire transmis de génération en génération."
+        },
+        {
+          "type": "texte",
+          "texte": "Caractéristiques de l'artisanat :\n• travail manuel, outils simples, peu de machines ;\n• petite unité de production, souvent familiale, à domicile ou en atelier ;\n• matières premières locales (bois, fibres, métal, soie, raphia) ;\n• produits souvent uniques, qui reflètent la culture du pays ;\n• faible capital, vente locale ou aux touristes."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Type d'artisanat", "Rôle", "Exemples"],
+          "lignes": [
+            ["Utilitaire", "Fabriquer des objets d'usage quotidien", "paniers, nattes, marmites, outils agricoles, meubles"],
+            ["Décoratif (d'art)", "Fabriquer des objets de décoration", "sculptures, broderies, objets en corne ou en raphia"],
+            ["De service", "Rendre des services", "réparation, couture, coiffure, menuiserie, mécanique"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Branche", "Région"],
+          "lignes": [
+            ["Broderie", "Hautes Terres Centrales"],
+            ["Soie", "Arivonimamo, région d'Itasy"],
+            ["Sculpture sur bois", "Pays zafimaniry"],
+            ["Petite métallurgie (objets en aluminium recyclé, fer)", "Ambatolampy"]
+          ]
+        },
+        {
+          "type": "texte",
+          "texte": "Selon le fascicule, la production représente environ 55 % de l'emploi artisanal : plus de la moitié des artisans fabriquent des objets, les autres rendent des services."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Problèmes de l'artisanat", "Solutions"],
+          "lignes": [
+            ["Manque de capital et de crédit", "Microcrédit, aides aux artisans"],
+            ["Matériel rudimentaire, qualité inégale", "Formation, modernisation des outils"],
+            ["Débouchés limités, peu de promotion", "Foires, coopératives, vente en ligne, exportation"],
+            ["Rareté de certaines matières premières (bois précieux)", "Utiliser des matériaux durables, protéger la forêt"],
+            ["Concurrence des produits importés", "Valoriser l'originalité et la qualité des produits malgaches"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Place de l'artisanat : il fait vivre de nombreuses familles, valorise la culture malgache, attire les touristes et sert de point de départ à de petites entreprises. Beaucoup d'artisans travaillent pourtant dans le secteur informel."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Associe chaque région à sa spécialité : Pays zafimaniry ; Ambatolampy ; Arivonimamo ; Hautes Terres Centrales.\n   Spécialités : petite métallurgie ; sculpture sur bois ; broderie ; soie.\n2) Supposons qu'une région compte 200 000 emplois artisanaux. La production en représente 55 %. Combien d'emplois cela fait-il ? Et pour les services ?\n3) Cite deux problèmes de l'artisanat.",
+          "solution": "1) Pays zafimaniry : sculpture sur bois. Ambatolampy : petite métallurgie. Arivonimamo : soie. Hautes Terres Centrales : broderie.\n2) Production : 200 000 × 0,55 = 110 000 emplois. Services : 200 000 − 110 000 = 90 000 emplois.\n3) Exemples : manque de capital, débouchés limités, matériel rudimentaire, rareté du bois précieux."
+        }
+      ],
+      "lexique": [
+        { "terme": "Artisanat", "definition": "Production ou service réalisé surtout à la main dans une petite unité." },
+        { "terme": "Artisanat utilitaire", "definition": "Fabrication d'objets d'usage quotidien." },
+        { "terme": "Artisanat d'art", "definition": "Fabrication d'objets décoratifs, souvent uniques." },
+        { "terme": "Savoir-faire", "definition": "Technique acquise et transmise de génération en génération." },
+        { "terme": "Microcrédit", "definition": "Petit prêt accordé à une personne pauvre pour lancer ou développer une activité." },
+        { "terme": "Coopérative", "definition": "Groupement de producteurs qui s'unissent pour produire ou vendre ensemble." }
+      ]
+    },
+    {
+      "id": "geo-3-3",
+      "titre": "Le commerce intérieur et extérieur",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Commerce : activité d'échange de produits contre de l'argent. Le commerce intérieur se fait à l'intérieur du pays ; le commerce extérieur se fait avec les autres pays (exportations et importations)."
+        },
+        {
+          "type": "schema",
+          "titre": "La chaîne du commerce intérieur",
+          "svg": "<svg width='300' height='235' viewBox='0 0 300 235' xmlns='http://www.w3.org/2000/svg'><rect x='60' y='6' width='180' height='30' fill='#c8e6c9'/><rect x='60' y='52' width='180' height='30' fill='#fff9c4'/><rect x='60' y='98' width='180' height='30' fill='#ffe0b2'/><rect x='60' y='144' width='180' height='30' fill='#ffccbc'/><rect x='60' y='190' width='180' height='30' fill='#ffcdd2'/><text x='150' y='26' text-anchor='middle' font-size='11' fill='#222'>Producteurs (paysans)</text><text x='150' y='72' text-anchor='middle' font-size='11' fill='#222'>Collecteurs</text><text x='150' y='118' text-anchor='middle' font-size='11' fill='#222'>Grossistes</text><text x='150' y='164' text-anchor='middle' font-size='11' fill='#222'>Détaillants</text><text x='150' y='210' text-anchor='middle' font-size='11' fill='#222'>Consommateurs</text><line x1='150' y1='36' x2='150' y2='46' stroke='#888'/><polygon points='150,52 146,46 154,46' fill='#888'/><line x1='150' y1='82' x2='150' y2='92' stroke='#888'/><polygon points='150,98 146,92 154,92' fill='#888'/><line x1='150' y1='128' x2='150' y2='138' stroke='#888'/><polygon points='150,144 146,138 154,138' fill='#888'/><line x1='150' y1='174' x2='150' y2='184' stroke='#888'/><polygon points='150,190 146,184 154,184' fill='#888'/></svg>",
+          "legende": "Plus il y a d'intermédiaires, plus le prix augmente entre le producteur et le consommateur."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Problèmes du commerce intérieur", "Solutions"],
+          "lignes": [
+            ["Trop d'intermédiaires : les paysans vendent à bas prix, les consommateurs achètent cher", "Organiser les producteurs en coopératives, créer des marchés"],
+            ["Mauvais état des routes, produits qui se perdent", "Réhabiliter les routes, construire des entrepôts"],
+            ["Chômage déguisé : beaucoup de petits commerçants vivent de très peu de ventes", "Créer des emplois productifs, former les jeunes"],
+            ["Manque d'information sur les prix", "Diffuser les prix par radio et téléphone"],
+            ["Insécurité sur les routes", "Renforcer la sécurité"]
+          ]
+        },
+        {
+          "type": "definition",
+          "texte": "Chômage déguisé : situation où beaucoup de personnes semblent occuper un emploi (par exemple des petits vendeurs) mais produisent ou gagnent très peu. Leur travail pourrait être fait par moins de personnes."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Commerce extérieur, 2014", "Valeur"],
+          "lignes": [
+            ["Exportations", "2,187 milliards de $"],
+            ["Importations", "2,927 milliards de $"],
+            ["Solde commercial", "−0,740 milliard de $ (déficit)"],
+            ["Taux de couverture", "environ 74,7 %"]
+          ]
+        },
+        {
+          "type": "texte",
+          "texte": "Les principaux biens exportés : café, vanille, fruits de mer, sucre, tissus de coton, vêtements, chromite, produits pétroliers. Le pays exporte donc surtout des produits agricoles, des produits de la mer et des minerais peu transformés, et importe des produits manufacturés, du carburant et du matériel : c'est la caractéristique d'une économie extravertie. Madagascar exporte moins qu'il n'importe : sa balance commerciale est déficitaire."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Partenaires commerciaux", "Exemples"],
+          "lignes": [
+            ["Union européenne (France surtout)", "Vanille, girofle, crevettes, vêtements"],
+            ["États-Unis", "Vêtements, vanille"],
+            ["Japon et Asie du Sud-Est (dont la Chine)", "Produits manufacturés, minerais"],
+            ["Pays de l'océan Indien (COI)", "Échanges de produits agricoles et industriels"],
+            ["Organisations régionales d'Afrique : COMESA, SADC", "Libre-échange, commerce régional"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Le fascicule cite aussi la « CDAO » parmi les organisations régionales. Or l'organisation d'Afrique australe dont Madagascar est membre est la SADC (Communauté de développement de l'Afrique australe). Je pense à une confusion de sigle ; demande à ton professeur laquelle retenir pour l'examen."
+        },
+        {
+          "type": "formule",
+          "texte": "Taux de couverture = (Exportations ÷ Importations) × 100\nSolde = Exportations − Importations"
+        },
+        {
+          "type": "exercice",
+          "enonce": "En 2014, Madagascar a exporté pour 2,187 milliards de $ et importé pour 2,927 milliards de $.\n1) Calcule le solde commercial.\n2) Calcule le taux de couverture (arrondi à 0,1 %).\n3) Nomme trois produits exportés et explique pourquoi la chaîne du commerce intérieur peut appauvrir les paysans.",
+          "solution": "1) Solde = 2,187 − 2,927 = −0,740 milliard de $ : déficit.\n2) Taux de couverture = 2,187 ÷ 2,927 × 100 ≈ 74,7 %.\n3) Produits exportés : vanille, café, crevettes, sucre, vêtements, chromite. Entre le producteur et le consommateur, il y a beaucoup d'intermédiaires (collecteurs, grossistes, détaillants) : chacun prend sa marge, donc le paysan vend à bas prix alors que le consommateur paie cher."
+        }
+      ],
+      "lexique": [
+        { "terme": "Commerce intérieur", "definition": "Échanges de produits à l'intérieur du pays." },
+        { "terme": "Commerce extérieur", "definition": "Échanges de produits avec les autres pays." },
+        { "terme": "Exportation", "definition": "Vente de produits à l'étranger." },
+        { "terme": "Importation", "definition": "Achat de produits à l'étranger." },
+        { "terme": "Grossiste", "definition": "Commerçant qui achète en grande quantité pour revendre aux détaillants." },
+        { "terme": "Détaillant", "definition": "Commerçant qui vend directement au consommateur." },
+        { "terme": "Chômage déguisé", "definition": "Emploi apparent mais très peu productif et peu rémunérateur." },
+        { "terme": "COI", "definition": "Commission de l'océan Indien : organisation régionale des îles de l'océan Indien occidental." }
+      ]
+    },
+    {
+      "id": "geo-3-4",
+      "titre": "Le tourisme et les télécommunications",
+      "blocs": [
+        {
+          "type": "remarque",
+          "texte": "Cette leçon a été rédigée par moi à partir du plan du fascicule, qui ne donne pas de contenu détaillé. À relire avec ton professeur ou ton cahier de cours."
+        },
+        {
+          "type": "definition",
+          "texte": "Tourisme : ensemble des voyages et séjours que font les personnes hors de chez elles pour leur plaisir, leur découverte ou leur repos. C'est une activité du secteur tertiaire."
+        },
+        {
+          "type": "texte",
+          "texte": "Les ressources touristiques de Madagascar :\n• la nature : faune et flore uniques (lémuriens, baobabs, orchidées), parcs nationaux (Isalo, Andasibe, Ranomafana, Montagne d'Ambre), tsingy de l'Ouest ;\n• les plages et les îles : Nosy-Be, Sainte-Marie, les côtes du Sud-Ouest ;\n• la culture : fêtes et traditions, artisanat, architecture des Hautes Terres ;\n• la gastronomie et l'hospitalité."
+        },
+        {
+          "type": "texte",
+          "texte": "Évolution : le nombre de touristes a augmenté jusqu'au début des années 2000, puis a nettement baissé pendant les crises (crise politique de 2009, pandémie de COVID-19 en 2020). Les recettes touristiques ont atteint 202 millions de $ en 2020 d'après le fascicule."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Avantages du tourisme", "Inconvénients du tourisme"],
+          "lignes": [
+            ["Apporte des devises", "Dépend des crises et des saisons"],
+            ["Crée des emplois (hôtels, guides, restaurants, transports)", "Peut dégrader la nature (déchets, piétinement)"],
+            ["Fait vivre l'artisanat et le commerce local", "Les bénéfices profitent surtout à quelques acteurs"],
+            ["Développe les routes et les services locaux", "Risque de perte des traditions et de hausse des prix"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Problèmes du tourisme", "Solutions"],
+          "lignes": [
+            ["Manque d'infrastructures (routes, hôtels, électricité)", "Investir dans les routes, l'énergie et l'hébergement"],
+            ["Insécurité et manque de promotion", "Renforcer la sécurité, faire connaître la destination"],
+            ["Prix élevés des transports", "Faciliter les liaisons et réduire les coûts"],
+            ["Dégradation des sites naturels", "Développer l'écotourisme et protéger les parcs"]
+          ]
+        },
+        {
+          "type": "definition",
+          "texte": "Télécommunications : ensemble des moyens qui permettent de communiquer à distance : téléphone fixe et mobile, internet, radio, télévision, poste."
+        },
+        {
+          "type": "texte",
+          "texte": "Rôle des télécommunications : informer, relier les familles, faciliter le commerce et les affaires, diffuser l'éducation et la santé. Le téléphone mobile permet aussi les paiements par mobile money (Mvola, Airtel Money, Orange Money). Elles se sont beaucoup développées avec le téléphone mobile, mais :\n• la couverture est faible dans beaucoup de zones rurales ;\n• les connexions internet sont chères et lentes pour une grande partie de la population ;\n• l'accès à l'électricité reste limité."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Cite trois atouts touristiques de Madagascar.\n2) Donne deux avantages et deux inconvénients du tourisme.\n3) Cite deux usages du téléphone mobile à Madagascar et deux difficultés d'accès aux télécommunications en milieu rural.",
+          "solution": "1) Exemples : lémuriens et baobabs, parcs nationaux (Isalo, Andasibe), plages de Nosy-Be, culture et artisanat.\n2) Avantages : devises, emplois. Inconvénients : dépendance aux crises, dégradation de la nature.\n3) Usages : appeler, payer par mobile money, s'informer. Difficultés : réseau absent ou faible, coût élevé, manque d'électricité."
+        }
+      ],
+      "lexique": [
+        { "terme": "Tourisme", "definition": "Voyages et séjours effectués pour le plaisir ou la découverte." },
+        { "terme": "Écotourisme", "definition": "Tourisme qui respecte la nature et profite aux populations locales." },
+        { "terme": "Infrastructure", "definition": "Équipements de base d'un pays : routes, ports, électricité, réseaux." },
+        { "terme": "Télécommunications", "definition": "Moyens de communiquer à distance : téléphone, internet, radio, télévision." },
+        { "terme": "Mobile money", "definition": "Service qui permet d'envoyer, de recevoir et de payer de l'argent avec un téléphone mobile." },
+        { "terme": "Devises", "definition": "Monnaies étrangères apportées par les touristes et les exportations." }
+      ]
+    },
+    {
+      "id": "geo-3-5",
+      "titre": "Les transports",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Transport : déplacement de personnes ou de marchandises d'un lieu à un autre. Les voies de transport sont la route, le chemin de fer, l'eau (mer, fleuves, canal) et l'air."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Réseau routier", "Longueur"],
+          "lignes": [
+            ["Routes nationales", "6 700 km"],
+            ["Routes secondaires", "32 500 km"],
+            ["Pistes", "23 999 km"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Le réseau routier (km)",
+          "svg": "<svg width='300' height='130' viewBox='0 0 300 130' xmlns='http://www.w3.org/2000/svg'><text x='150' y='14' text-anchor='middle' font-size='11' fill='#888'>Longueur des routes et pistes</text><text x='5' y='45' font-size='10' fill='#888'>Nationales</text><rect x='105' y='30' width='27' height='22' fill='#e53935'/><text x='138' y='45' font-size='10' fill='#888'>6 700</text><text x='5' y='80' font-size='10' fill='#888'>Secondaires</text><rect x='105' y='65' width='130' height='22' fill='#4caf50'/><text x='241' y='80' font-size='10' fill='#888'>32 500</text><text x='5' y='115' font-size='10' fill='#888'>Pistes</text><rect x='105' y='100' width='96' height='22' fill='#ff9800'/><text x='207' y='115' font-size='10' fill='#888'>23 999</text></svg>",
+          "legende": "Les routes nationales sont les plus courtes mais les plus importantes ; une grande partie du réseau n'est pas goudronnée."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Ligne ferroviaire", "Longueur", "Construction"],
+          "lignes": [
+            ["TCE (Tananarive–Côte Est)", "371 km", "1901–1913"],
+            ["MLA (Moramanga–lac Alaotra)", "168 km", "1914–1923"],
+            ["TA (Tananarive–Antsirabe)", "160 km", "1913–1923"],
+            ["FCE (Fianarantsoa–Côte Est)", "170 km", "1927–1936"]
+          ]
+        },
+        {
+          "type": "texte",
+          "texte": "Le réseau ferroviaire date de la colonisation française. Il est exploité aujourd'hui par la société MADARAIL. Il transporte surtout des marchandises."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Mode", "Éléments à retenir"],
+          "lignes": [
+            ["Aérien", "Compagnie nationale Air Madagascar ; aéroports internationaux d'Ivato (Antananarivo) et de Nosy-Be ; transports rapides vers les régions enclavées et vers l'étranger"],
+            ["Maritime", "Compagnies SMTM, CMN, CMC ; le port de Toamasina assure environ 80 % du trafic maritime du pays"],
+            ["Fluvial (canal des Pangalanes)", "Canal de 650 km entre Toamasina et Farafangana, exploité par la SECP puis la SNCP ; transporte surtout des marchandises sur la côte Est"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Problèmes des transports", "Solutions"],
+          "lignes": [
+            ["Routes en mauvais état, surtout en saison des pluies", "Réhabiliter et entretenir les routes, construire des ponts"],
+            ["Régions enclavées (pistes impraticables)", "Ouvrir et entretenir des pistes rurales"],
+            ["Chemins de fer vieux et peu nombreux", "Rénover les voies et le matériel"],
+            ["Insécurité sur les routes (attaques)", "Renforcer la sécurité"],
+            ["Coût élevé du transport", "Entretenir les véhicules, développer le transport fluvial et maritime"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Calcule la longueur totale du réseau routier et des pistes (routes nationales, secondaires et pistes).\n2) Quelle est la part des routes nationales dans ce total (arrondie à l'unité, en %) ?\n3) Cite le port qui assure environ 80 % du trafic maritime et le canal qui longe la côte Est (avec sa longueur).",
+          "solution": "1) 6 700 + 32 500 + 23 999 = 63 199 km.\n2) 6 700 ÷ 63 199 × 100 ≈ 10,6 %, soit environ 11 %.\n3) Le port de Toamasina ; le canal des Pangalanes, long de 650 km (Toamasina–Farafangana)."
+        }
+      ],
+      "lexique": [
+        { "terme": "Route nationale", "definition": "Grande route reliant les principales villes du pays." },
+        { "terme": "Piste", "definition": "Chemin de terre non goudronné, souvent impraticable pendant la saison des pluies." },
+        { "terme": "Enclavement", "definition": "Situation d'une région difficile d'accès, isolée par manque de voies de communication." },
+        { "terme": "MADARAIL", "definition": "Société qui exploite le réseau ferroviaire de Madagascar." },
+        { "terme": "Canal des Pangalanes", "definition": "Voie d'eau longue de 650 km sur la côte Est, entre Toamasina et Farafangana." },
+        { "terme": "Trafic", "definition": "Quantité de personnes ou de marchandises transportées." }
+      ]
+    }
+  ]
+}
