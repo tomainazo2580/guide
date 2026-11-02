@@ -1,0 +1,177 @@
+{
+  "id": "hist-theme4",
+  "titre": "Thème II : L'entre-deux-guerres (1918-1939)",
+  "lecons": [
+    {
+      "id": "hist-4-1",
+      "titre": "La révolution russe de 1917",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "L'entre-deux-guerres désigne la période qui sépare les deux guerres mondiales (1918-1939). Elle est marquée par la révolution russe, la grande crise de 1929 et la montée des régimes autoritaires."
+        },
+        {
+          "type": "texte",
+          "texte": "En 1917, la Russie est épuisée par la guerre. Le tsar Nicolas II dirige un pays où les pénuries et la vie chère touchent surtout les villes, comme Petrograd (la capitale)."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Produit à Petrograd", "Avant 1914", "Avril 1917"],
+          "lignes": [
+            ["Sac de farine de seigle", "6,50 roubles", "40 roubles"],
+            ["Blé", "2,50 roubles", "20 roubles"],
+            ["Pomme de terre", "1 rouble", "7 roubles"],
+            ["Livre de viande", "10 à 12 kopeks", "60 à 70 kopeks"],
+            ["Paire de chaussures", "5 à 8 roubles", "40 roubles"],
+            ["2 m³ de bois", "6 roubles", "40 roubles"],
+            ["Indice des prix", "100", "673"],
+            ["Salaire de l'ouvrier", "21", "142"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Frise : les deux révolutions de 1917",
+          "svg": "<svg width='320' height='150' viewBox='0 0 320 150' xmlns='http://www.w3.org/2000/svg'><line x1='10' y1='75' x2='310' y2='75' stroke='#555' stroke-width='2'/><circle cx='60' cy='75' r='5' fill='#c0392b'/><circle cx='160' cy='75' r='5' fill='#2c5aa0'/><circle cx='260' cy='75' r='5' fill='#c0392b'/><text x='60' y='28' font-size='9' text-anchor='middle' fill='#333'>Manifestation des</text><text x='60' y='40' font-size='9' text-anchor='middle' fill='#333'>ouvrières</text><text x='60' y='60' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>23 février</text><text x='160' y='96' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>2 mars</text><text x='160' y='110' font-size='9' text-anchor='middle' fill='#333'>Le tsar abdique</text><text x='160' y='122' font-size='9' text-anchor='middle' fill='#333'>Gouvernement provisoire</text><text x='260' y='28' font-size='9' text-anchor='middle' fill='#333'>Prise du Palais</text><text x='260' y='40' font-size='9' text-anchor='middle' fill='#333'>d'hiver</text><text x='260' y='60' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>24-25 octobre</text><text x='160' y='144' font-size='8' text-anchor='middle' fill='#777'>Dates de l'ancien calendrier russe</text></svg>",
+          "legende": "Février met fin au tsarisme ; octobre amène les bolcheviks au pouvoir."
+        },
+        {
+          "type": "texte",
+          "texte": "La révolution de Février : le 23 février 1917, des ouvrières du textile manifestent à Petrograd pour réclamer du pain. Les grèves s'étendent et, le 27 février, des soldats se joignent aux manifestants. La Douma (le parlement) forme un gouvernement provisoire. Le 2 mars, le tsar Nicolas II abdique : c'est la fin de la monarchie en Russie."
+        },
+        {
+          "type": "texte",
+          "texte": "Le gouvernement provisoire accorde des libertés, mais il poursuit la guerre et ne règle pas la question de la terre. Le mécontentement continue. Les bolcheviks de Lénine gagnent le soutien des ouvriers et des soldats avec le slogan « Tout le pouvoir aux soviets » et la promesse de la paix, du pain et de la terre."
+        },
+        {
+          "type": "texte",
+          "texte": "La révolution d'Octobre : dans la nuit du 24 au 25 octobre, le Comité militaire révolutionnaire (CMR) du soviet de Petrograd, dirigé par les bolcheviks, occupe les points stratégiques de la ville et prend le Palais d'hiver, où siège le gouvernement provisoire. Lénine (1870-1924) dirige le nouveau pouvoir."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Décret", "Contenu"],
+          "lignes": [
+            ["Décret sur la paix", "Propose aux pays en guerre une paix immédiate"],
+            ["Décret sur la terre", "Supprime la grande propriété : la terre revient aux paysans"],
+            ["Décret sur les usines", "Les ouvriers contrôlent les usines"],
+            ["Décret sur les nationalités", "Les peuples de Russie ont le droit de disposer d'eux-mêmes"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Jusqu'en 1918, la Russie utilise un calendrier en retard de 13 jours sur le nôtre. La « révolution d'Octobre » a donc lieu les 6 et 7 novembre de notre calendrier, et le 23 février correspond au 8 mars. En mars 1918, la Russie signe une paix séparée avec l'Allemagne."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) De combien de roubles le prix du sac de farine de seigle augmente-t-il à Petrograd ? Combien de fois est-il multiplié (arrondis à 0,1) ? 2) Pourquoi les ouvrières manifestent-elles le 23 février 1917 ? 3) Quel événement a lieu dans la nuit du 24 au 25 octobre ? 4) Cite deux décrets pris par les bolcheviks.",
+          "solution": "1) 40 − 6,50 = 33,50 roubles de hausse. 40 ÷ 6,50 ≈ 6,15, donc le prix est multiplié par environ 6,2. 2) Elles réclament du pain : les pénuries et la vie chère touchent les villes pendant la guerre. 3) Les bolcheviks prennent le Palais d'hiver et renversent le gouvernement provisoire. 4) Par exemple : le décret sur la paix et le décret sur la terre (aussi : usines, nationalités)."
+        }
+      ],
+      "lexique": [
+        { "terme": "Tsar", "definition": "Titre de l'empereur de Russie." },
+        { "terme": "Douma", "definition": "Parlement de la Russie impériale." },
+        { "terme": "Soviet", "definition": "Conseil d'ouvriers, de soldats ou de paysans." },
+        { "terme": "Bolchevik", "definition": "Membre du parti de Lénine, qui prend le pouvoir en octobre 1917." },
+        { "terme": "Gouvernement provisoire", "definition": "Gouvernement mis en place temporairement après la chute du tsar." },
+        { "terme": "Abdiquer", "definition": "Renoncer au pouvoir, pour un roi ou un empereur." }
+      ]
+    },
+    {
+      "id": "hist-4-2",
+      "titre": "La grande crise de 1929",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "Dans les années 1920, les États-Unis connaissent une grande prospérité : production de masse, crédit facile, achat de voitures et d'appareils nouveaux. Mais cette prospérité cache des faiblesses."
+        },
+        {
+          "type": "definition",
+          "texte": "La surproduction est une production trop importante par rapport à ce que les gens peuvent acheter. Les stocks s'accumulent, les prix baissent."
+        },
+        {
+          "type": "definition",
+          "texte": "La spéculation consiste à acheter des actions, souvent à crédit, dans le seul but de les revendre plus cher. Entre 1927 et 1929, les cours des actions augmentent d'environ 89 %, sans rapport avec la richesse réelle des entreprises."
+        },
+        {
+          "type": "texte",
+          "texte": "Le krach : le jeudi 24 octobre 1929 (« jeudi noir »), la panique saisit la Bourse de New York, à Wall Street. Tout le monde veut vendre et les cours s'effondrent. Le mardi 29 octobre (« mardi noir »), la chute continue. Des épargnants et des banques sont ruinés."
+        },
+        {
+          "type": "schema",
+          "titre": "La chaîne de la crise de 1929",
+          "svg": "<svg width='300' height='232' viewBox='0 0 300 232' xmlns='http://www.w3.org/2000/svg'><rect x='40' y='8' width='220' height='26' rx='5' fill='#fff3e0' stroke='#e67e22'/><text x='150' y='25' font-size='10' text-anchor='middle' fill='#333'>Surproduction et spéculation</text><line x1='150' y1='34' x2='150' y2='46' stroke='#555' stroke-width='2'/><polygon points='146,39 154,39 150,46' fill='#555'/><rect x='40' y='46' width='220' height='26' rx='5' fill='#fde8e8' stroke='#c0392b'/><text x='150' y='63' font-size='10' text-anchor='middle' fill='#333'>Krach de Wall Street (oct. 1929)</text><line x1='150' y1='72' x2='150' y2='84' stroke='#555' stroke-width='2'/><polygon points='146,77 154,77 150,84' fill='#555'/><rect x='40' y='84' width='220' height='26' rx='5' fill='#fde8e8' stroke='#c0392b'/><text x='150' y='101' font-size='10' text-anchor='middle' fill='#333'>Faillites de banques et d'entreprises</text><line x1='150' y1='110' x2='150' y2='122' stroke='#555' stroke-width='2'/><polygon points='146,115 154,115 150,122' fill='#555'/><rect x='40' y='122' width='220' height='26' rx='5' fill='#fde8e8' stroke='#c0392b'/><text x='150' y='139' font-size='10' text-anchor='middle' fill='#333'>Baisse de la production et des prix</text><line x1='150' y1='148' x2='150' y2='160' stroke='#555' stroke-width='2'/><polygon points='146,153 154,153 150,160' fill='#555'/><rect x='40' y='160' width='220' height='26' rx='5' fill='#e8f0fd' stroke='#2c5aa0'/><text x='150' y='177' font-size='10' text-anchor='middle' fill='#333'>Chômage et baisse de la consommation</text><line x1='150' y1='186' x2='150' y2='198' stroke='#555' stroke-width='2'/><polygon points='146,191 154,191 150,198' fill='#555'/><rect x='40' y='198' width='220' height='26' rx='5' fill='#e8f0fd' stroke='#2c5aa0'/><text x='150' y='215' font-size='10' text-anchor='middle' fill='#333'>Crise mondiale (commerce en recul)</text></svg>",
+          "legende": "Chaque étape aggrave la suivante : c'est un cercle vicieux."
+        },
+        {
+          "type": "texte",
+          "texte": "De la crise américaine à la crise mondiale : les banques américaines retirent leurs capitaux d'Europe et cessent leurs prêts. Le commerce mondial recule. Aux États-Unis, la production industrielle baisse de près de moitié et on compte plus de 12 millions de chômeurs en 1932. L'Allemagne, très dépendante des capitaux américains, est durement touchée."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Conséquence", "Explication"],
+          "lignes": [
+            ["Protectionnisme", "Les États augmentent les droits de douane pour protéger leurs produits"],
+            ["Autarcie", "Un pays cherche à vivre sur ses seules ressources, sans échanges"],
+            ["Dévaluation", "Un État baisse la valeur de sa monnaie pour vendre moins cher à l'étranger"],
+            ["Montée des extrémismes", "Le chômage et la misère profitent aux partis autoritaires, comme le nazisme"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Explique ce qu'est la spéculation. 2) À quelle date a lieu le « jeudi noir » et où ? 3) Explique, avec tes mots, pourquoi la crise américaine devient une crise mondiale. 4) Donne deux conséquences de la crise pour les États.",
+          "solution": "1) C'est acheter des actions pour les revendre plus cher, sans se soucier de la valeur réelle des entreprises. 2) Le 24 octobre 1929, à la Bourse de New York (Wall Street). 3) Les banques américaines retirent leurs capitaux d'Europe et cessent de prêter, les échanges reculent, les entreprises ferment partout et le chômage s'étend. 4) Par exemple : le protectionnisme et la dévaluation de la monnaie (aussi l'autarcie)."
+        }
+      ],
+      "lexique": [
+        { "terme": "Surproduction", "definition": "Production plus importante que la demande." },
+        { "terme": "Spéculation", "definition": "Achat de titres pour les revendre plus cher." },
+        { "terme": "Krach", "definition": "Effondrement brutal des cours à la Bourse." },
+        { "terme": "Protectionnisme", "definition": "Politique qui protège les produits nationaux par des taxes sur les produits étrangers." },
+        { "terme": "Autarcie", "definition": "Fait pour un pays de vivre de ses propres ressources, sans échanges." },
+        { "terme": "Dévaluation", "definition": "Baisse officielle de la valeur d'une monnaie." }
+      ]
+    },
+    {
+      "id": "hist-4-3",
+      "titre": "Les réponses à la crise : le New Deal et Madagascar",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "Face à la crise, les gouvernements cherchent des solutions. Aux États-Unis, le président Franklin Roosevelt, élu en novembre 1932, entre en fonction le 4 mars 1933 et lance une nouvelle politique."
+        },
+        {
+          "type": "definition",
+          "texte": "Le New Deal (« Nouvelle donne ») est la politique de Roosevelt pour sortir de la crise : l'État intervient dans l'économie, soutient les banques, l'agriculture et l'emploi, et protège les plus fragiles."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Domaine", "Mesures"],
+          "lignes": [
+            ["Banques", "Fermeture temporaire, puis contrôle de l'État et garantie des dépôts"],
+            ["Agriculture", "Aides aux agriculteurs et limitation de la production pour faire remonter les prix"],
+            ["Emploi", "Grands travaux (routes, barrages, écoles) pour créer des emplois"],
+            ["Protection sociale", "Lois de 1935 : retraites, assurance chômage, droit de se syndiquer"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Le New Deal atténue la crise mais ne la termine pas complètement. La reprise complète des États-Unis vient avec la production d'armement à l'approche de la Seconde Guerre mondiale."
+        },
+        {
+          "type": "texte",
+          "texte": "La crise à Madagascar : Madagascar est une colonie française dont l'économie repose sur l'exportation de produits agricoles et miniers (café, vanille, graphite, riz…). La crise mondiale fait chuter les prix et les ventes. Les planteurs et les petits producteurs sont ruinés, des colons s'endettent, le chômage apparaît et beaucoup de Malgaches voient leurs revenus baisser alors que les impôts restent lourds."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Qui est Franklin Roosevelt et quand entre-t-il en fonction ? 2) Que signifie « New Deal » ? 3) Cite deux mesures du New Deal. 4) Pourquoi Madagascar est-elle touchée par la crise de 1929 ?",
+          "solution": "1) Roosevelt est le président des États-Unis ; il entre en fonction le 4 mars 1933. 2) « Nouvelle donne » : c'est une politique où l'État intervient dans l'économie pour sortir de la crise. 3) Par exemple : les grands travaux pour créer des emplois et le contrôle des banques (aussi : aides aux agriculteurs, lois sociales de 1935). 4) Parce que son économie coloniale dépend de l'exportation de produits agricoles et miniers : leurs prix chutent, ce qui ruine les producteurs et provoque du chômage."
+        }
+      ],
+      "lexique": [
+        { "terme": "New Deal", "definition": "Politique de Roosevelt pour sortir de la crise, fondée sur l'intervention de l'État." },
+        { "terme": "Grands travaux", "definition": "Chantiers publics lancés par l'État pour créer des emplois." },
+        { "terme": "Protection sociale", "definition": "Ensemble des aides qui protègent contre le chômage, la maladie et la vieillesse." },
+        { "terme": "Colonie", "definition": "Territoire dominé et administré par un autre pays." }
+      ]
+    }
+  ]
+}
