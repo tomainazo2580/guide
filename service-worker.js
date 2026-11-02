@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'guide-v22';
+const CACHE_VERSION = 'guide-v23';
 const CACHE_NAME = CACHE_VERSION;
 const APP_SHELL = [
   './',
@@ -15,11 +15,22 @@ const APP_SHELL = [
   './data/3e/mathematiques/composante-3.json',
   './data/3e/mathematiques/composante-4.json',
   './data/3e/mathematiques/composante-5.json',
+  './data/3e/histoire/composante-1.json',
+  './data/3e/histoire/composante-2.json',
+  './data/3e/histoire/composante-3.json',
+  './data/3e/histoire/composante-4.json',
+  './data/3e/histoire/composante-5.json',
+  './data/3e/histoire/composante-6.json',
+  './data/3e/histoire/composante-7.json',
+  './data/3e/histoire/composante-8.json',
+  './data/3e/histoire/composante-9.json',
+  './data/3e/histoire/composante-10.json',
   './data/3e/exercices/exercices-mathematiques.json',
   './data/3e/exercices/exercices-anglais.json',
   './data/3e/exercices/exercices-sciences-physiques.json',
   './data/3e/exercices/exercices-svt.json',
-  './data/3e/exercices/exercices-francais.json'
+  './data/3e/exercices/exercices-francais.json',
+  './data/3e/exercices/exercices-histoire.json'
 ];
 self.addEventListener('install', (event) => {
   event.waitUntil(
