@@ -1,0 +1,132 @@
+{
+  "id": "geo-4",
+  "titre": "Méthodologie du devoir",
+  "lecons": [
+    {
+      "id": "geo-4-1",
+      "titre": "Lire le sujet et structurer un devoir",
+      "blocs": [
+        {
+          "type": "remarque",
+          "texte": "Le fascicule ne donne ici que des plans de méthode. Les explications et les exemples de cette leçon sont rédigés par moi à partir de ces plans : à relire avec ton professeur ou ton cahier de cours."
+        },
+        {
+          "type": "definition",
+          "texte": "Devoir : exercice écrit dans lequel on étudie un sujet ou un document à partir d'un plan et d'une rédaction organisée en trois temps : introduction, développement, conclusion."
+        },
+        {
+          "type": "texte",
+          "texte": "Avant d'écrire, lis le texte ou le document trois fois :\n• 1re lecture : lecture rapide pour comprendre le sujet général ;\n• 2e lecture : crayon en main, souligne les mots clés, repère la nature du document, l'auteur, la date ;\n• 3e lecture : relève les idées principales, vérifie que tu n'oublies rien et prépare ton plan."
+        },
+        {
+          "type": "schema",
+          "titre": "La structure d'un devoir",
+          "svg": "<svg width='300' height='250' viewBox='0 0 300 250' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='8' width='280' height='62' fill='#c8e6c9'/><rect x='10' y='90' width='280' height='70' fill='#fff9c4'/><rect x='10' y='180' width='280' height='62' fill='#ffccbc'/><text x='150' y='26' text-anchor='middle' font-size='12' font-weight='bold' fill='#222'>INTRODUCTION</text><text x='150' y='42' text-anchor='middle' font-size='10' fill='#222'>Nature, Auteur, Source, Date, Intention</text><text x='150' y='58' text-anchor='middle' font-size='10' fill='#222'>+ annonce du plan</text><text x='150' y='108' text-anchor='middle' font-size='12' font-weight='bold' fill='#222'>DÉVELOPPEMENT</text><text x='150' y='124' text-anchor='middle' font-size='10' fill='#222'>Idées classées en parties</text><text x='150' y='140' text-anchor='middle' font-size='10' fill='#222'>Citations, pas de paraphrase</text><text x='150' y='154' text-anchor='middle' font-size='10' fill='#222'>Transitions entre les parties</text><text x='150' y='198' text-anchor='middle' font-size='12' font-weight='bold' fill='#222'>CONCLUSION</text><text x='150' y='214' text-anchor='middle' font-size='10' fill='#222'>Résumé, intérêt</text><text x='150' y='230' text-anchor='middle' font-size='10' fill='#222'>Limite, ouverture</text><line x1='150' y1='70' x2='150' y2='84' stroke='#888'/><polygon points='150,90 146,84 154,84' fill='#888'/><line x1='150' y1='160' x2='150' y2='174' stroke='#888'/><polygon points='150,180 146,174 154,174' fill='#888'/></svg>",
+          "legende": "Trois temps : on présente, on développe, on conclut."
+        },
+        {
+          "type": "texte",
+          "texte": "L'introduction présente le document et annonce la démarche :\n• Nature : de quel type de document s'agit-il (texte, tableau, carte, graphique, photographie) ?\n• Auteur : qui l'a produit ?\n• Source : d'où vient-il (livre, journal, site, organisme) ?\n• Date : quand a-t-il été produit ?\n• Intention : pourquoi a-t-il été produit, que veut montrer l'auteur ?\n• Annonce du plan : on indique les grandes parties qui vont suivre.\nCes éléments forment le sigle NASDI (Nature, Auteur, Source, Date, Intention)."
+        },
+        {
+          "type": "remarque",
+          "texte": "Je lis NASDI comme Nature, Auteur, Source, Date, Intention, car ce sont les éléments listés dans le fascicule. Vérifie auprès de ton professeur que c'est bien la définition utilisée dans ton établissement."
+        },
+        {
+          "type": "texte",
+          "texte": "Le développement explique le sujet :\n• ne recopie pas le texte et ne le répète pas avec d'autres mots (c'est de la paraphrase) : explique, classe et commente les idées ;\n• pas d'impressionnisme : évite les jugements vagues (« c'est très beau », « je trouve que... ») ; appuie-toi sur des faits, des chiffres, des exemples ;\n• cite le document : donne un chiffre ou une phrase entre guillemets pour prouver ce que tu avances ;\n• relie les parties par des transitions."
+        },
+        {
+          "type": "definition",
+          "texte": "Transition : phrase qui relie deux parties. Elle contient un bilan de ce qui vient d'être dit, éventuellement une critique, et une annonce de ce qui suit."
+        },
+        {
+          "type": "texte",
+          "texte": "La conclusion termine le devoir :\n• résumé : rappelle l'essentiel en quelques phrases, sans répéter tout le développement ;\n• intérêt : dis ce que le document apprend ;\n• limite : signale ce que le document ne dit pas ou ce qui peut être discuté ;\n• ouverture : propose une question ou un prolongement."
+        },
+        {
+          "type": "remarque",
+          "texte": "N'écris jamais « je » dans un devoir. Utilise des formules neutres : « le document montre », « on constate », « on peut en déduire »."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["À faire", "À éviter"],
+          "lignes": [
+            ["Lire le document trois fois", "Écrire dès la première lecture"],
+            ["Présenter nature, auteur, source, date, intention", "Commencer directement par le développement"],
+            ["Expliquer les idées avec ses propres mots et des chiffres", "Recopier ou paraphraser le texte"],
+            ["Citer entre guillemets", "Donner son avis sans preuve (« je trouve que... »)"],
+            ["Relier les parties par des transitions", "Enchaîner les paragraphes sans lien"],
+            ["Terminer par résumé, intérêt, limite, ouverture", "Terminer brutalement ou répéter tout le devoir"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "enonce": "Voici trois phrases extraites de devoirs :\nA. « Je trouve que ce texte est très beau et très intéressant. »\nB. « Le texte dit que le riz est cultivé à Madagascar. Le texte dit aussi que le riz est cultivé dans plusieurs régions de Madagascar. »\nC. « Ce tableau de la Banque mondiale, publié en 2016, montre que le secteur primaire occupe 75,3 % des actifs. »\n1) Indique pour A et B le défaut principal.\n2) Dans C, retrouve les éléments de présentation (nature, source, date) et la citation chiffrée.\n3) Écris une phrase de transition entre une partie sur l'agriculture et une partie sur l'élevage.",
+          "solution": "1) A : impressionnisme (jugement vague, sans preuve) et emploi de « je ». B : paraphrase (la même idée est répétée sans analyse).\n2) Nature : un tableau. Source : la Banque mondiale. Date : 2016. Citation chiffrée : 75,3 % des actifs dans le secteur primaire.\n3) Exemple : « L'agriculture reste donc la principale activité du secteur primaire, mais elle est peu productive ; l'élevage, autre activité de ce secteur, connaît-il les mêmes difficultés ? »"
+        }
+      ],
+      "lexique": [
+        { "terme": "Paraphrase", "definition": "Reformulation d'un texte avec d'autres mots, sans analyse ni explication." },
+        { "terme": "Impressionnisme", "definition": "Jugement personnel vague, sans preuve, qui ne s'appuie pas sur des faits." },
+        { "terme": "Citation", "definition": "Passage ou chiffre repris tel quel du document, mis entre guillemets." },
+        { "terme": "Transition", "definition": "Phrase qui relie deux parties en faisant le bilan de la première et en annonçant la suivante." },
+        { "terme": "Annonce du plan", "definition": "Phrase de l'introduction qui indique les grandes parties du devoir." },
+        { "terme": "Ouverture", "definition": "Question ou prolongement proposé à la fin de la conclusion." }
+      ]
+    },
+    {
+      "id": "geo-4-2",
+      "titre": "Rédiger un devoir composé de géographie",
+      "blocs": [
+        {
+          "type": "remarque",
+          "texte": "Le modèle rédigé de cette leçon est de moi. Il applique la méthode du fascicule avec des données de ce cours. À relire avec ton professeur."
+        },
+        {
+          "type": "definition",
+          "texte": "Devoir composé de géographie : réponse rédigée à une question ou à un sujet de géographie, organisée en une introduction, deux ou trois parties de développement et une conclusion. Il s'appuie sur le cours et sur les documents fournis (texte, tableau, chiffres)."
+        },
+        {
+          "type": "schema",
+          "titre": "Le plan d'un devoir composé",
+          "svg": "<svg width='300' height='220' viewBox='0 0 300 220' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='6' width='280' height='30' fill='#c8e6c9'/><rect x='10' y='50' width='280' height='30' fill='#fff9c4'/><rect x='10' y='94' width='280' height='30' fill='#e1bee7'/><rect x='10' y='138' width='280' height='30' fill='#fff9c4'/><rect x='10' y='182' width='280' height='30' fill='#ffccbc'/><text x='150' y='26' text-anchor='middle' font-size='10' fill='#222'>Introduction : nature, titre, source, idée, plan</text><text x='150' y='70' text-anchor='middle' font-size='10' fill='#222'>Première série d'idées</text><text x='150' y='114' text-anchor='middle' font-size='10' fill='#222'>Transition : bilan + annonce</text><text x='150' y='158' text-anchor='middle' font-size='10' fill='#222'>Deuxième série d'idées (et troisième)</text><text x='150' y='202' text-anchor='middle' font-size='10' fill='#222'>Conclusion : résumé, intérêt, élargissement</text><line x1='150' y1='36' x2='150' y2='44' stroke='#888'/><polygon points='150,50 146,44 154,44' fill='#888'/><line x1='150' y1='80' x2='150' y2='88' stroke='#888'/><polygon points='150,94 146,88 154,88' fill='#888'/><line x1='150' y1='124' x2='150' y2='132' stroke='#888'/><polygon points='150,138 146,132 154,132' fill='#888'/><line x1='150' y1='168' x2='150' y2='176' stroke='#888'/><polygon points='150,182 146,176 154,176' fill='#888'/></svg>",
+          "legende": "Ces étiquettes guident ton plan : tu ne les écris pas telles quelles dans la copie."
+        },
+        {
+          "type": "texte",
+          "texte": "L'introduction contient cinq éléments :\n• la nature du document ou du sujet ;\n• son titre ;\n• sa source ou son auteur ;\n• l'idée générale : ce que le document montre en une phrase ;\n• l'annonce du plan : les grandes parties du devoir."
+        },
+        {
+          "type": "texte",
+          "texte": "Le développement comprend deux ou trois parties :\n• les numéros des parties ne sont pas mentionnés dans la rédaction : on n'écrit pas « première partie », « 1) », « 2) » ; on distingue les parties par des paragraphes séparés ;\n• chaque partie regroupe des idées qui vont ensemble et s'appuie sur des faits, des chiffres, des exemples tirés du cours ou du document ;\n• une phrase de transition relie chaque partie à la suivante."
+        },
+        {
+          "type": "texte",
+          "texte": "La conclusion contient :\n• un résumé partiel : l'essentiel de ce qui a été démontré ;\n• l'intérêt : ce que le sujet apprend sur Madagascar ;\n• un élargissement : une question ou une comparaison avec un autre pays, une autre région, un autre domaine."
+        },
+        {
+          "type": "exemple",
+          "texte": "Modèle rédigé (sujet : le commerce extérieur de Madagascar en 2014, d'après le cours).\n\nIntroduction : « Ce tableau statistique, tiré d'un fascicule de géographie de classe de troisième, s'intitule “Le commerce extérieur de Madagascar en 2014”. Il indique que le pays a exporté pour 2,187 milliards de dollars et importé pour 2,927 milliards. Il montre que le commerce extérieur de Madagascar est déficitaire. On verra d'abord ce que le pays exporte et importe, puis les conséquences de ce déficit. »\n\nDéveloppement, première série d'idées : « Madagascar exporte surtout des produits agricoles (vanille, café), des produits de la mer (crevettes), des minerais (chromite), du sucre et des vêtements. Il importe surtout des produits pétroliers et manufacturés. Les exportations sont donc peu transformées, ce qui est une caractéristique d'une économie extravertie. »\n\nTransition : « Ces échanges ont donc une structure inégale ; quelles en sont les conséquences ? »\n\nDeuxième série d'idées : « Le solde est de 2,187 − 2,927 = −0,740 milliard de dollars. Le taux de couverture est d'environ 74,7 % : les exportations ne paient qu'environ trois quarts des importations. Le pays doit donc compter sur l'aide extérieure et sur les prêts, ce qui renforce sa dépendance. »\n\nConclusion : « En 2014, Madagascar a exporté moins qu'il n'a importé, et ses exportations sont peu transformées. Ce tableau permet de mesurer le déficit commercial du pays. Il ne dit rien des services ni du commerce informel. On peut se demander quelles activités le pays pourrait développer pour exporter davantage de produits transformés. »"
+        },
+        {
+          "type": "remarque",
+          "texte": "Dans ce modèle, les expressions entre guillemets sont des phrases à rédiger. Remarque que chaque idée est appuyée par un chiffre du document et que la transition fait le lien entre les deux parties."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Document : tableau de la répartition de l'emploi par secteur à Madagascar en 2016 (Banque mondiale) : primaire 75,3 %, secondaire 7,9 %, tertiaire 16,9 %.\n1) Rédige l'introduction d'un devoir sur ce document (nature, titre, source, idée générale, annonce du plan).\n2) Écris une phrase de transition entre une première partie sur la domination du secteur primaire et une seconde partie sur la faiblesse de l'industrie.\n3) Écris la conclusion en trois phrases (résumé, intérêt, élargissement).",
+          "solution": "Exemple :\n1) « Ce tableau statistique de la Banque mondiale, daté de 2016, s'intitule “L'emploi par secteur à Madagascar”. Il montre que la grande majorité des actifs travaille dans le secteur primaire. On étudiera d'abord la domination du secteur primaire, puis la faiblesse du secteur secondaire. »\n2) « Le secteur primaire emploie donc trois actifs sur quatre ; à l'inverse, que dire de l'industrie ? »\n3) « En 2016, 75,3 % des actifs malgaches travaillent dans le secteur primaire alors que le secteur secondaire n'en emploie que 7,9 %. Le tableau montre un pays peu industrialisé, où l'emploi reste surtout agricole. On peut se demander comment le pays pourrait créer davantage d'emplois industriels. »"
+        }
+      ],
+      "lexique": [
+        { "terme": "Devoir composé", "definition": "Devoir rédigé avec introduction, développement en parties et conclusion." },
+        { "terme": "Idée générale", "definition": "Phrase qui résume ce que montre le document." },
+        { "terme": "Plan", "definition": "Organisation des idées en parties qui se suivent logiquement." },
+        { "terme": "Résumé partiel", "definition": "Rappel de l'essentiel du développement dans la conclusion." },
+        { "terme": "Élargissement", "definition": "Prolongement de la conclusion vers une question plus large ou une comparaison." },
+        { "terme": "Document", "definition": "Support fourni avec un sujet : texte, tableau, graphique, carte, photographie." }
+      ]
+    }
+  ]
+}
