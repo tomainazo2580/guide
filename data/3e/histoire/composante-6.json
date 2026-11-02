@@ -1,0 +1,182 @@
+{
+  "id": "hist-theme6",
+  "titre": "Thème II : La Seconde Guerre mondiale (1939-1945)",
+  "lecons": [
+    {
+      "id": "hist-6-1",
+      "titre": "Les causes de la guerre et l'expansion allemande",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "La Seconde Guerre mondiale commence en Europe le 1er septembre 1939 et se termine en 1945. Elle est encore plus meurtrière et plus étendue que la Première."
+        },
+        {
+          "type": "texte",
+          "texte": "Les causes : le traité de Versailles est jugé humiliant par les Allemands ; la crise de 1929 fait grandir la misère et le chômage ; des régimes totalitaires (Italie, Allemagne, URSS) et militaristes (Japon) cherchent à s'agrandir ; la Société des Nations (SDN) est trop faible pour s'opposer aux agresseurs ; enfin les démocraties (France, Royaume-Uni) cèdent par peur de la guerre : c'est la politique d'apaisement."
+        },
+        {
+          "type": "texte",
+          "texte": "L'expansion de l'Allemagne nazie : en 1933, Hitler fait sortir l'Allemagne de la SDN. Il rétablit le service militaire (1935), puis il viole le traité de Versailles en remilitarisant la Rhénanie (mars 1936). En mars 1938, l'Allemagne annexe l'Autriche (Anschluss). En septembre 1938, aux accords de Munich, la France et le Royaume-Uni acceptent que l'Allemagne annexe les Sudètes, une région de la Tchécoslovaquie. En mars 1939, Hitler occupe le reste du pays."
+        },
+        {
+          "type": "schema",
+          "titre": "Frise : l'expansion allemande (1936-1939)",
+          "svg": "<svg width='320' height='150' viewBox='0 0 320 150' xmlns='http://www.w3.org/2000/svg'><line x1='10' y1='75' x2='310' y2='75' stroke='#555' stroke-width='2'/><circle cx='35' cy='75' r='5' fill='#c0392b'/><circle cx='98' cy='75' r='5' fill='#2c5aa0'/><circle cx='160' cy='75' r='5' fill='#c0392b'/><circle cx='222' cy='75' r='5' fill='#2c5aa0'/><circle cx='285' cy='75' r='5' fill='#c0392b'/><text x='35' y='26' font-size='9' text-anchor='middle' fill='#333'>Remilitarisation</text><text x='35' y='38' font-size='9' text-anchor='middle' fill='#333'>de la Rhénanie</text><text x='35' y='60' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>1936</text><text x='98' y='96' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>Mars 1938</text><text x='98' y='108' font-size='9' text-anchor='middle' fill='#333'>Anschluss</text><text x='160' y='26' font-size='9' text-anchor='middle' fill='#333'>Accords de Munich</text><text x='160' y='38' font-size='9' text-anchor='middle' fill='#333'>(Sudètes)</text><text x='160' y='60' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>Sept. 1938</text><text x='222' y='96' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>Mars 1939</text><text x='222' y='108' font-size='9' text-anchor='middle' fill='#333'>Tchécoslovaquie</text><text x='285' y='26' font-size='9' text-anchor='middle' fill='#333'>Invasion de</text><text x='285' y='38' font-size='9' text-anchor='middle' fill='#333'>la Pologne</text><text x='285' y='60' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>1er sept. 1939</text></svg>",
+          "legende": "Chaque succès d'Hitler sans réaction sérieuse l'encourage à aller plus loin."
+        },
+        {
+          "type": "texte",
+          "texte": "Le 23 août 1939, l'Allemagne et l'URSS signent le pacte germano-soviétique : elles s'engagent à ne pas s'attaquer et se partagent la Pologne. Le 1er septembre 1939, l'armée allemande envahit la Pologne. Le 3 septembre, la France et le Royaume-Uni déclarent la guerre à l'Allemagne. Le 17 septembre, l'URSS entre à son tour en Pologne et Varsovie capitule le 28 septembre."
+        },
+        {
+          "type": "remarque",
+          "texte": "L'Anschluss est l'annexion de l'Autriche par l'Allemagne en 1938. La politique d'apaisement consiste à faire des concessions à un agresseur pour éviter la guerre : à Munich, elle échoue puisque Hitler envahit la Tchécoslovaquie six mois plus tard."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Cite trois causes de la Seconde Guerre mondiale. 2) Qu'est-ce que l'Anschluss ? 3) Pourquoi dit-on que les accords de Munich sont un échec ? 4) Quel événement déclenche la guerre en 1939 ?",
+          "solution": "1) Par exemple : l'humiliation du traité de Versailles, la crise de 1929, les régimes totalitaires agressifs et la faiblesse de la SDN. 2) C'est l'annexion de l'Autriche par l'Allemagne, en mars 1938. 3) La France et le Royaume-Uni ont cédé les Sudètes pour garder la paix, mais Hitler a occupé toute la Tchécoslovaquie en mars 1939 puis envahi la Pologne : les concessions ne l'ont pas arrêté. 4) L'invasion de la Pologne par l'Allemagne, le 1er septembre 1939 ; la France et le Royaume-Uni déclarent la guerre le 3 septembre."
+        }
+      ],
+      "lexique": [
+        { "terme": "Anschluss", "definition": "Annexion de l'Autriche par l'Allemagne nazie en 1938." },
+        { "terme": "Sudètes", "definition": "Région de Tchécoslovaquie peuplée en grande partie d'Allemands, annexée par l'Allemagne en 1938." },
+        { "terme": "Politique d'apaisement", "definition": "Concessions faites à un agresseur pour éviter la guerre." },
+        { "terme": "Remilitarisation", "definition": "Retour de l'armée dans une région où le traité l'interdisait (la Rhénanie)." },
+        { "terme": "Pacte germano-soviétique", "definition": "Accord de non-agression entre l'Allemagne et l'URSS, signé le 23 août 1939." }
+      ]
+    },
+    {
+      "id": "hist-6-2",
+      "titre": "Le déroulement de la guerre",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "Deux camps s'affrontent. L'Axe réunit l'Allemagne, l'Italie et le Japon. Les Alliés réunissent le Royaume-Uni, la France libre, l'URSS (à partir de 1941), les États-Unis (à partir de 1941) et de nombreux autres pays."
+        },
+        {
+          "type": "texte",
+          "texte": "1939-1941, la domination de l'Axe : l'Allemagne pratique la « guerre éclair » (blitzkrieg). En mai-juin 1940, elle bat la France, qui signe l'armistice le 22 juin 1940. Le général de Gaulle lance de Londres l'appel du 18 juin et organise la France libre. Le Royaume-Uni résiste à l'aviation allemande (bataille d'Angleterre). Le 22 juin 1941, Hitler attaque l'URSS. Le 7 décembre 1941, le Japon bombarde la base américaine de Pearl Harbor : les États-Unis entrent en guerre."
+        },
+        {
+          "type": "texte",
+          "texte": "1942-1943, le tournant : les Alliés remportent des victoires décisives : Midway dans le Pacifique (juin 1942), El-Alamein en Afrique du Nord (octobre-novembre 1942) et surtout Stalingrad, où l'armée allemande capitule le 2 février 1943. Le 10 juillet 1943, les Alliés débarquent en Sicile ; l'Italie sort de la guerre."
+        },
+        {
+          "type": "texte",
+          "texte": "1944-1945, la victoire des Alliés : le 6 juin 1944, ils débarquent en Normandie ; Paris est libéré le 25 août. L'Allemagne capitule le 8 mai 1945, après le suicide de Hitler. Le Japon résiste jusqu'aux bombes atomiques américaines lancées sur Hiroshima (6 août) et Nagasaki (9 août) ; il capitule officiellement le 2 septembre 1945."
+        },
+        {
+          "type": "schema",
+          "titre": "Frise de la Seconde Guerre mondiale",
+          "svg": "<svg width='320' height='150' viewBox='0 0 320 150' xmlns='http://www.w3.org/2000/svg'><line x1='10' y1='75' x2='310' y2='75' stroke='#555' stroke-width='2'/><circle cx='30' cy='75' r='5' fill='#c0392b'/><circle cx='82' cy='75' r='5' fill='#c0392b'/><circle cx='134' cy='75' r='5' fill='#c0392b'/><circle cx='186' cy='75' r='5' fill='#2c5aa0'/><circle cx='238' cy='75' r='5' fill='#2c5aa0'/><circle cx='285' cy='75' r='5' fill='#2c5aa0'/><text x='30' y='26' font-size='9' text-anchor='middle' fill='#333'>Invasion de</text><text x='30' y='38' font-size='9' text-anchor='middle' fill='#333'>la Pologne</text><text x='30' y='60' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>1939</text><text x='82' y='96' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>1940</text><text x='82' y='108' font-size='9' text-anchor='middle' fill='#333'>France</text><text x='82' y='120' font-size='9' text-anchor='middle' fill='#333'>vaincue</text><text x='134' y='26' font-size='9' text-anchor='middle' fill='#333'>URSS attaquée</text><text x='134' y='38' font-size='9' text-anchor='middle' fill='#333'>Pearl Harbor</text><text x='134' y='60' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>1941</text><text x='186' y='96' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>1943</text><text x='186' y='108' font-size='9' text-anchor='middle' fill='#333'>Stalingrad</text><text x='186' y='120' font-size='9' text-anchor='middle' fill='#333'>(février)</text><text x='238' y='26' font-size='9' text-anchor='middle' fill='#333'>Débarquement</text><text x='238' y='38' font-size='9' text-anchor='middle' fill='#333'>en Normandie</text><text x='238' y='60' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>1944</text><text x='285' y='96' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>1945</text><text x='285' y='108' font-size='9' text-anchor='middle' fill='#333'>Fin de</text><text x='285' y='120' font-size='9' text-anchor='middle' fill='#333'>la guerre</text></svg>",
+          "legende": "En rouge, les victoires de l'Axe ; en bleu, la reprise de l'initiative par les Alliés."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Quels pays forment l'Axe ? 2) Pourquoi les États-Unis entrent-ils en guerre en décembre 1941 ? 3) Pourquoi Stalingrad est-elle considérée comme un tournant ? 4) Quelles sont les dates de capitulation de l'Allemagne et du Japon ?",
+          "solution": "1) L'Allemagne, l'Italie et le Japon. 2) Parce que le Japon a attaqué par surprise la base américaine de Pearl Harbor le 7 décembre 1941. 3) C'est la première grande défaite de l'armée allemande, qui capitule le 2 février 1943 : à partir de là, l'Allemagne recule et l'URSS passe à l'offensive. 4) L'Allemagne capitule le 8 mai 1945 ; le Japon le 2 septembre 1945, après Hiroshima et Nagasaki."
+        }
+      ],
+      "lexique": [
+        { "terme": "Axe", "definition": "Alliance de l'Allemagne, de l'Italie et du Japon." },
+        { "terme": "Alliés", "definition": "Pays qui combattent l'Axe (Royaume-Uni, URSS, États-Unis, France libre...)." },
+        { "terme": "Blitzkrieg", "definition": "« Guerre éclair » : attaque rapide et massive avec chars et avions." },
+        { "terme": "France libre", "definition": "Mouvement du général de Gaulle qui continue la guerre contre l'Allemagne depuis Londres." },
+        { "terme": "Capitulation", "definition": "Fait de cesser le combat en se rendant à l'ennemi." }
+      ]
+    },
+    {
+      "id": "hist-6-3",
+      "titre": "Le bilan, les conférences et la naissance de l'ONU",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "Bilan humain : la guerre fait plus de 50 millions de morts, dont une majorité de civils. L'URSS est le pays qui perd le plus d'habitants (plus de 20 millions). Les nazis assassinent environ 6 millions de Juifs d'Europe : c'est la Shoah (génocide des Juifs), organisée en particulier dans des camps d'extermination comme Auschwitz. D'autres groupes sont persécutés : Tziganes, opposants politiques, handicapés. Des villes entières sont détruites et l'Europe est ruinée."
+        },
+        {
+          "type": "texte",
+          "texte": "La conférence de Yalta (4-11 février 1945), en Crimée, réunit Roosevelt, Churchill et Staline. Ils décident de partager l'Allemagne en zones d'occupation, de faire des élections libres dans les pays libérés et de créer une organisation internationale."
+        },
+        {
+          "type": "texte",
+          "texte": "La conférence de Potsdam (17 juillet - 2 août 1945), près de Berlin, réunit Truman, Staline et Churchill (remplacé en cours de conférence par Attlee). Elle fixe l'avenir de l'Allemagne selon les quatre D."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Les 4 D de Potsdam", "Signification"],
+          "lignes": [
+            ["Dénazification", "Supprimer le parti nazi et juger les criminels de guerre"],
+            ["Démilitarisation", "Désarmer l'Allemagne et supprimer son armée"],
+            ["Démocratisation", "Rétablir des partis et des élections libres"],
+            ["Décartellisation", "Démanteler les grands groupes industriels qui ont soutenu le régime"]
+          ]
+        },
+        {
+          "type": "texte",
+          "texte": "La SDN (Société des Nations), créée en 1919 par le traité de Versailles et installée à Genève, devait préserver la paix. Elle échoue : les États-Unis n'y entrent jamais, elle ne réagit pas assez face au Japon, à l'Italie et à l'Allemagne. Elle est dissoute en 1946. Son Conseil comptait comme membres permanents le Royaume-Uni, la France, l'Italie et le Japon."
+        },
+        {
+          "type": "texte",
+          "texte": "L'ONU (Organisation des Nations unies) est créée par la charte de San Francisco, signée le 26 juin 1945. Elle veut maintenir la paix et la sécurité, défendre les droits de l'homme et favoriser le développement. Son siège est à New York."
+        },
+        {
+          "type": "schema",
+          "titre": "Les principaux organes de l'ONU",
+          "svg": "<svg width='300' height='130' viewBox='0 0 300 130' xmlns='http://www.w3.org/2000/svg'><rect x='95' y='6' width='110' height='28' rx='5' fill='#e8f0fd' stroke='#2c5aa0'/><text x='150' y='24' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>ONU (1945)</text><line x1='150' y1='34' x2='150' y2='48' stroke='#555' stroke-width='1.5'/><line x1='39' y1='48' x2='261' y2='48' stroke='#555' stroke-width='1.5'/><line x1='39' y1='48' x2='39' y2='62' stroke='#555' stroke-width='1.5'/><line x1='113' y1='48' x2='113' y2='62' stroke='#555' stroke-width='1.5'/><line x1='187' y1='48' x2='187' y2='62' stroke='#555' stroke-width='1.5'/><line x1='261' y1='48' x2='261' y2='62' stroke='#555' stroke-width='1.5'/><rect x='4' y='62' width='70' height='44' rx='4' fill='#fff3e0' stroke='#e67e22'/><text x='39' y='80' font-size='9' text-anchor='middle' fill='#333'>Assemblée</text><text x='39' y='92' font-size='9' text-anchor='middle' fill='#333'>générale</text><rect x='78' y='62' width='70' height='44' rx='4' fill='#fde8e8' stroke='#c0392b'/><text x='113' y='80' font-size='9' text-anchor='middle' fill='#333'>Conseil de</text><text x='113' y='92' font-size='9' text-anchor='middle' fill='#333'>sécurité</text><rect x='152' y='62' width='70' height='44' rx='4' fill='#e8f8ee' stroke='#27ae60'/><text x='187' y='80' font-size='9' text-anchor='middle' fill='#333'>Secrétariat</text><text x='187' y='92' font-size='9' text-anchor='middle' fill='#333'>général</text><rect x='226' y='62' width='70' height='44' rx='4' fill='#eee' stroke='#555'/><text x='261' y='80' font-size='9' text-anchor='middle' fill='#333'>Cour de</text><text x='261' y='92' font-size='9' text-anchor='middle' fill='#333'>justice</text><text x='150' y='124' font-size='9' text-anchor='middle' fill='#555'>(il existe aussi le Conseil économique et social)</text></svg>",
+          "legende": "L'Assemblée générale réunit tous les États membres."
+        },
+        {
+          "type": "remarque",
+          "texte": "Au Conseil de sécurité, cinq membres permanents (États-Unis, URSS devenue Russie, Royaume-Uni, France, Chine) disposent d'un droit de veto : s'ils s'opposent à une décision, elle ne peut pas être adoptée. Dix autres membres sont élus pour deux ans."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Combien de morts la Seconde Guerre mondiale a-t-elle faits, au minimum ? 2) Cite les « 4 D » de Potsdam. 3) Pourquoi la SDN a-t-elle échoué ? 4) Quand et où l'ONU est-elle créée ? Quel est son principal but ?",
+          "solution": "1) Plus de 50 millions de morts. 2) Dénazification, démilitarisation, démocratisation, décartellisation. 3) Les États-Unis n'y ont jamais adhéré, elle n'avait pas de moyens pour imposer ses décisions et elle n'a pas arrêté les agressions du Japon, de l'Italie et de l'Allemagne. 4) Le 26 juin 1945 à San Francisco (charte signée). Son but principal est de maintenir la paix et la sécurité dans le monde."
+        }
+      ],
+      "lexique": [
+        { "terme": "Shoah", "definition": "Génocide des Juifs d'Europe par les nazis (environ 6 millions de victimes)." },
+        { "terme": "Génocide", "definition": "Extermination volontaire et organisée d'un groupe humain." },
+        { "terme": "Zone d'occupation", "definition": "Partie d'un pays vaincu administrée par une puissance victorieuse." },
+        { "terme": "ONU", "definition": "Organisation des Nations unies, créée en 1945 pour maintenir la paix." },
+        { "terme": "Droit de veto", "definition": "Droit d'un membre permanent du Conseil de sécurité de bloquer une décision." },
+        { "terme": "SDN", "definition": "Société des Nations (1919-1946), organisation internationale qui a échoué à préserver la paix." }
+      ]
+    },
+    {
+      "id": "hist-6-4",
+      "titre": "Madagascar pendant la Seconde Guerre mondiale",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "Madagascar est alors une colonie française. Après la défaite de la France en 1940, l'île est dirigée par un gouverneur fidèle au régime de Vichy, qui collabore avec l'Allemagne. La population subit les restrictions : pénuries de produits importés, réquisitions et contrôle de l'administration."
+        },
+        {
+          "type": "texte",
+          "texte": "En 1942, les Britanniques craignent que le Japon utilise les ports de Madagascar pour contrôler l'océan Indien. En mai 1942, ils débarquent à Diégo-Suarez, puis étendent leur contrôle sur l'île. Fin 1942, Madagascar passe sous l'autorité de la France libre du général de Gaulle."
+        },
+        {
+          "type": "texte",
+          "texte": "Le « second effort de guerre » : dès janvier 1943, Madagascar est mise au service de l'effort de guerre des Alliés. L'île fournit des produits (riz, viande, graphite, etc.) et des hommes, et des Malgaches participent aux combats aux côtés de la France."
+        },
+        {
+          "type": "remarque",
+          "texte": "Comme après la Première Guerre mondiale, les Malgaches reviennent de la guerre avec l'idée que leur sacrifice mérite plus de droits. Cela nourrit le désir de changement qui mène aux événements de 1947."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Pourquoi parle-t-on d'un « second » effort de guerre pour Madagascar ? 2) Pourquoi les Britanniques débarquent-ils à Madagascar en 1942 ? 3) Cite deux conséquences de la guerre pour les Malgaches.",
+          "solution": "1) Parce que Madagascar avait déjà participé à la Première Guerre mondiale (1915-1918) ; la guerre de 1939-1945 est un deuxième effort. 2) Ils craignent que le Japon utilise les ports de Madagascar pour contrôler l'océan Indien. 3) Par exemple : les pénuries et les réquisitions, la mobilisation d'hommes et de produits pour les Alliés, et un désir croissant de plus de droits et de changement."
+        }
+      ],
+      "lexique": [
+        { "terme": "Régime de Vichy", "definition": "Gouvernement français de 1940 à 1944, qui collabore avec l'Allemagne nazie." },
+        { "terme": "Réquisition", "definition": "Obligation imposée par l'État de fournir des biens ou des services." },
+        { "terme": "Effort de guerre", "definition": "Ensemble des ressources (hommes, produits, argent) mises au service de la guerre." },
+        { "terme": "Colonie", "definition": "Territoire dominé et administré par un autre pays." }
+      ]
+    }
+  ]
+}
