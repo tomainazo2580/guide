@@ -1,0 +1,204 @@
+{
+  "id": "hist-theme3",
+  "titre": "Thème II : La Première Guerre mondiale (1914-1918)",
+  "lecons": [
+    {
+      "id": "hist-3-1",
+      "titre": "Les causes de la guerre",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "La Première Guerre mondiale, ou Grande Guerre, dure du 28 juillet 1914 au 11 novembre 1918. Elle est « mondiale » parce que de nombreux pays de plusieurs continents y participent."
+        },
+        {
+          "type": "texte",
+          "texte": "Causes économiques : l'Allemagne dépasse le Royaume-Uni pour la production industrielle. Après 1905, les rivalités commerciales et coloniales entre les grandes puissances s'aggravent."
+        },
+        {
+          "type": "texte",
+          "texte": "Causes balkaniques : l'empire ottoman est en déclin. L'Autriche-Hongrie et la Russie se disputent l'influence dans les Balkans, où les nationalismes sont très forts."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Date", "Alliance", "Pays"],
+          "lignes": [
+            ["1879", "Duplice", "Allemagne, Autriche-Hongrie"],
+            ["1882", "Triplice (Triple Alliance)", "Allemagne, Autriche-Hongrie, Italie"],
+            ["1892", "Alliance franco-russe", "France, Russie"],
+            ["1904", "Entente cordiale", "France, Royaume-Uni"],
+            ["1907", "Triple Entente", "France, Royaume-Uni, Russie"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "L'Europe divisée en deux blocs en 1914",
+          "svg": "<svg width='320' height='190' viewBox='0 0 320 190' xmlns='http://www.w3.org/2000/svg'><rect x='5' y='5' width='140' height='140' rx='8' fill='#fde8e8' stroke='#c0392b'/><text x='75' y='25' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Triple Alliance</text><text x='75' y='58' font-size='11' text-anchor='middle' fill='#333'>Allemagne</text><text x='75' y='83' font-size='11' text-anchor='middle' fill='#333'>Autriche-Hongrie</text><text x='75' y='108' font-size='11' text-anchor='middle' fill='#333'>Italie</text><text x='75' y='134' font-size='9' text-anchor='middle' fill='#555'>1879 · 1882</text><rect x='175' y='5' width='140' height='140' rx='8' fill='#e8f0fd' stroke='#2c5aa0'/><text x='245' y='25' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Triple Entente</text><text x='245' y='58' font-size='11' text-anchor='middle' fill='#333'>France</text><text x='245' y='83' font-size='11' text-anchor='middle' fill='#333'>Royaume-Uni</text><text x='245' y='108' font-size='11' text-anchor='middle' fill='#333'>Russie</text><text x='245' y='134' font-size='9' text-anchor='middle' fill='#555'>1892 · 1904 · 1907</text><text x='160' y='80' font-size='12' font-weight='bold' text-anchor='middle' fill='#333'>VS</text><text x='160' y='172' font-size='10' text-anchor='middle' fill='#333'>Étincelle : Sarajevo, 28 juin 1914</text></svg>",
+          "legende": "Deux blocs rivaux : un incident peut entraîner tous les pays alliés."
+        },
+        {
+          "type": "texte",
+          "texte": "L'événement déclencheur : le 28 juin 1914, à Sarajevo, l'archiduc François-Ferdinand, héritier du trône d'Autriche-Hongrie, est assassiné par Gavrilo Princip, un nationaliste serbe. L'Autriche-Hongrie accuse la Serbie et le jeu des alliances étend le conflit à toute l'Europe."
+        },
+        {
+          "type": "remarque",
+          "texte": "Le 1er novembre 1914, Lénine analyse cette guerre comme une guerre impérialiste : les grandes puissances s'affrontent pour se partager les marchés et les colonies."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Cite les pays de la Triple Entente en 1907. 2) Donne deux causes de la guerre. 3) Que s'est-il passé à Sarajevo le 28 juin 1914 ?",
+          "solution": "1) La France, le Royaume-Uni et la Russie. 2) Par exemple : la rivalité économique et coloniale entre l'Allemagne et le Royaume-Uni, et les tensions dans les Balkans entre l'Autriche-Hongrie et la Russie, avec les nationalismes. 3) L'archiduc François-Ferdinand, héritier d'Autriche-Hongrie, a été assassiné par un nationaliste serbe, Gavrilo Princip."
+        }
+      ],
+      "lexique": [
+        { "terme": "Alliance", "definition": "Accord par lequel des pays s'engagent à se soutenir en cas de guerre." },
+        { "terme": "Nationalisme", "definition": "Attachement très fort à sa nation, souvent avec le désir d'indépendance ou de domination." },
+        { "terme": "Impérialisme", "definition": "Politique de domination économique et coloniale d'autres territoires." },
+        { "terme": "Archiduc", "definition": "Titre des princes de la famille impériale d'Autriche." },
+        { "terme": "Ultimatum", "definition": "Exigence adressée à un État avec un délai pour répondre, sous menace de guerre." },
+        { "terme": "Mobilisation", "definition": "Appel des soldats pour se préparer à la guerre." }
+      ]
+    },
+    {
+      "id": "hist-3-2",
+      "titre": "Le déroulement de la guerre",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "En quelques jours, une crise entre l'Autriche-Hongrie et la Serbie devient une guerre européenne."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Date (1914)", "Événement"],
+          "lignes": [
+            ["23 juillet", "Ultimatum de l'Autriche-Hongrie à la Serbie"],
+            ["28 juillet", "L'Autriche-Hongrie déclare la guerre à la Serbie"],
+            ["30 juillet", "Mobilisation générale en Russie"],
+            ["31 juillet", "Double ultimatum de l'Allemagne (à la Russie et à la France)"],
+            ["1er août", "L'Allemagne déclare la guerre à la Russie"],
+            ["2 août", "Ultimatum allemand à la Belgique"],
+            ["3 août", "L'Allemagne déclare la guerre à la France"],
+            ["4 août", "Le Royaume-Uni entre en guerre"],
+            ["Début août", "L'Autriche-Hongrie déclare la guerre à la Russie"]
+          ]
+        },
+        {
+          "type": "texte",
+          "texte": "1914, la guerre de mouvement : selon le plan Schlieffen, l'Allemagne veut battre la France en quelques semaines, puis se retourner contre la Russie. Elle est arrêtée à la bataille de la Marne (5-10 septembre). À l'est, les Allemands battent les Russes à Tannenberg (26-30 août) et aux lacs Mazures (6-15 septembre). En 1915, l'Italie entre en guerre aux côtés de l'Entente."
+        },
+        {
+          "type": "texte",
+          "texte": "1915-1916, la guerre de position : les armées s'enterrent dans des tranchées et le front ne bouge presque plus. De nouvelles armes apparaissent, comme les gaz toxiques en 1915. En 1916, la bataille de Verdun fait environ 300 000 morts des deux camps."
+        },
+        {
+          "type": "texte",
+          "texte": "1917, un tournant : l'Allemagne pratique la guerre sous-marine, qui coule même des navires neutres. Les États-Unis entrent en guerre en avril 1917 aux côtés de l'Entente. La Russie, secouée par la révolution, sort peu à peu du conflit."
+        },
+        {
+          "type": "texte",
+          "texte": "1918, la fin : les Alliés reprennent l'offensive et l'Allemagne recule. L'empereur Guillaume II abdique et la république est proclamée le 9 novembre. L'armistice est signé à Rethondes le 11 novembre 1918."
+        },
+        {
+          "type": "schema",
+          "titre": "Frise de la guerre (1914-1918)",
+          "svg": "<svg width='320' height='150' viewBox='0 0 320 150' xmlns='http://www.w3.org/2000/svg'><line x1='10' y1='75' x2='310' y2='75' stroke='#555' stroke-width='2'/><circle cx='40' cy='75' r='5' fill='#c0392b'/><circle cx='100' cy='75' r='5' fill='#2c5aa0'/><circle cx='160' cy='75' r='5' fill='#c0392b'/><circle cx='220' cy='75' r='5' fill='#2c5aa0'/><circle cx='280' cy='75' r='5' fill='#c0392b'/><text x='40' y='32' font-size='9' text-anchor='middle' fill='#333'>Août : guerre</text><text x='40' y='44' font-size='9' text-anchor='middle' fill='#333'>Marne (sept.)</text><text x='40' y='62' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>1914</text><text x='100' y='96' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>1915</text><text x='100' y='110' font-size='9' text-anchor='middle' fill='#333'>Gaz, tranchées</text><text x='100' y='122' font-size='9' text-anchor='middle' fill='#333'>Italie en guerre</text><text x='160' y='32' font-size='9' text-anchor='middle' fill='#333'>Verdun</text><text x='160' y='44' font-size='9' text-anchor='middle' fill='#333'>(févr.-déc.)</text><text x='160' y='62' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>1916</text><text x='220' y='96' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>1917</text><text x='220' y='110' font-size='9' text-anchor='middle' fill='#333'>États-Unis (avril)</text><text x='220' y='122' font-size='9' text-anchor='middle' fill='#333'>Révolution russe</text><text x='280' y='32' font-size='9' text-anchor='middle' fill='#333'>Armistice</text><text x='280' y='44' font-size='9' text-anchor='middle' fill='#333'>11 novembre</text><text x='280' y='62' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>1918</text></svg>",
+          "legende": "Cinq années : mouvement, tranchées, entrée des États-Unis, armistice."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Quel pays déclare la guerre à la France le 3 août 1914 ? 2) Pourquoi parle-t-on de « guerre de position » en 1915-1916 ? 3) Donne deux événements de 1917 qui changent le cours de la guerre. 4) Quand et où l'armistice est-il signé ?",
+          "solution": "1) L'Allemagne. 2) Parce que les armées se sont enterrées dans des tranchées et que le front reste presque immobile. 3) L'entrée en guerre des États-Unis (avril 1917) et le retrait progressif de la Russie après la révolution. 4) Le 11 novembre 1918, à Rethondes."
+        }
+      ],
+      "lexique": [
+        { "terme": "Guerre de mouvement", "definition": "Guerre où les armées avancent et reculent rapidement." },
+        { "terme": "Guerre de position", "definition": "Guerre où les armées restent face à face dans des tranchées." },
+        { "terme": "Tranchée", "definition": "Fossé creusé dans le sol pour protéger les soldats." },
+        { "terme": "Armistice", "definition": "Accord qui arrête les combats avant la signature de la paix." },
+        { "terme": "Abdiquer", "definition": "Renoncer au pouvoir, pour un roi ou un empereur." }
+      ]
+    },
+    {
+      "id": "hist-3-3",
+      "titre": "Le bilan et les conséquences de la guerre",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "La Grande Guerre est la guerre la plus meurtrière que le monde ait connue jusque-là. Le tableau donne le nombre de mobilisés et de tués (en milliers)."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Pays de l'Entente", "Mobilisés", "Tués"],
+          "lignes": [
+            ["Russie", "15 000", "1 700"],
+            ["France", "8 317", "1 393"],
+            ["Royaume-Uni", "6 000", "776"],
+            ["Italie", "5 615", "530"],
+            ["États-Unis", "3 800", "114"],
+            ["Inde", "1 400", "75"],
+            ["Roumanie", "1 000", "158"],
+            ["Canada", "630", "62"],
+            ["Serbie", "450", "400"],
+            ["Australie", "413", "60"],
+            ["Belgique", "380", "44"],
+            ["Grèce", "200", "12"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Empires centraux", "Mobilisés", "Tués"],
+          "lignes": [
+            ["Allemagne", "13 000", "1 950"],
+            ["Autriche-Hongrie", "9 000", "1 047"],
+            ["Turquie", "2 850", "400"],
+            ["Bulgarie", "950", "100"]
+          ]
+        },
+        {
+          "type": "texte",
+          "texte": "Bilan humain : environ 9 millions de morts et 17 millions de blessés, dont 6,5 millions d'infirmes. Bilan économique : des régions entières sont ravagées, les États ont des dettes de plus de 286 milliards de francs et l'inflation (hausse générale des prix) s'installe."
+        },
+        {
+          "type": "definition",
+          "texte": "Le traité de Versailles, signé le 28 juin 1919, est le traité de paix imposé à l'Allemagne vaincue."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Article", "Contenu"],
+          "lignes": [
+            ["51", "L'Alsace-Lorraine est rendue à la France"],
+            ["119", "L'Allemagne perd ses colonies"],
+            ["160", "L'armée allemande est limitée (100 000 hommes)"],
+            ["173", "Le service militaire obligatoire est supprimé"],
+            ["231", "L'Allemagne est déclarée responsable de la guerre"],
+            ["232", "L'Allemagne doit verser des réparations"]
+          ]
+        },
+        {
+          "type": "texte",
+          "texte": "Madagascar pendant la guerre : colonie française, Madagascar participe à l'effort de guerre. Des Malgaches sont engagés dès septembre 1915 et jusqu'en mars 1918."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Période de départ", "Nombre d'engagés"],
+          "lignes": [
+            ["Décembre 1915 - février 1916", "6 000"],
+            ["Octobre 1916 - janvier 1917", "14 000"],
+            ["Mars - juin 1917", "4 000"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Calcule, en pourcentage, la part des tués parmi les mobilisés en France (arrondis à 0,1 %). 2) Fais le même calcul pour l'Allemagne. 3) Combien d'engagés malgaches ces trois départs représentent-ils au total ? 4) Cite deux clauses du traité de Versailles.",
+          "solution": "1) France : 1 393 ÷ 8 317 ≈ 0,1675, soit environ 16,7 %. 2) Allemagne : 1 950 ÷ 13 000 = 0,15, soit 15 %. 3) 6 000 + 14 000 + 4 000 = 24 000 engagés. 4) Par exemple : l'Alsace-Lorraine est rendue à la France (art. 51) et l'Allemagne est déclarée responsable de la guerre (art. 231)."
+        }
+      ],
+      "lexique": [
+        { "terme": "Mobilisé", "definition": "Personne appelée sous les drapeaux pour faire la guerre." },
+        { "terme": "Infirme", "definition": "Personne qui garde un handicap physique durable après une blessure." },
+        { "terme": "Inflation", "definition": "Hausse générale et durable des prix." },
+        { "terme": "Réparations", "definition": "Sommes que le vaincu doit payer pour les dommages causés." },
+        { "terme": "Traité de Versailles", "definition": "Traité de paix signé le 28 juin 1919 avec l'Allemagne." }
+      ]
+    }
+  ]
+}
