@@ -1,0 +1,153 @@
+{
+  "id": "hist-theme10",
+  "titre": "Thème V : Commémoration et mémoires collectives",
+  "lecons": [
+    {
+      "id": "hist-10-1",
+      "titre": "Mémoire collective et lieux de mémoire",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "Les sociétés gardent le souvenir de leur passé : grands événements, héros, guerres, souffrances. Ce souvenir partagé s'exprime à travers des lieux, des objets, des fêtes et des cérémonies."
+        },
+        {
+          "type": "definition",
+          "texte": "La mémoire collective est l'ensemble des souvenirs qu'un groupe (famille, village, peuple, nation) partage et transmet sur son passé. Elle donne au groupe une identité commune."
+        },
+        {
+          "type": "remarque",
+          "texte": "Il ne faut pas confondre histoire et mémoire. L'histoire est l'étude du passé par les historiens, avec des méthodes et des sources. La mémoire est le souvenir vécu et transmis par un groupe : elle peut être sélective et subjective."
+        },
+        {
+          "type": "definition",
+          "texte": "Un lieu de mémoire est, selon l'historien français Pierre Nora, tout élément matériel ou symbolique (un lieu, un objet, une date, un symbole) que la volonté des hommes ou le temps a transformé en symbole du patrimoine d'une communauté."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Catégorie", "Définition", "Exemple"],
+          "lignes": [
+            ["Site", "Lieu où un événement important s'est déroulé ou lieu chargé d'histoire", "La colline royale d'Ambohimanga, le Rova d'Antananarivo"],
+            ["Symbole", "Signe qui représente la nation ou un idéal", "Le drapeau, l'hymne national"],
+            ["Monument", "Construction élevée pour rappeler un événement ou honorer des personnes", "Un monument aux morts"],
+            ["Commémoration", "Cérémonie ou date qui rappelle un événement du passé", "Le 29 mars, le 26 juin"],
+            ["Paysage", "Espace marqué par un événement ou une histoire", "Un ancien champ de bataille comme Verdun"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Les catégories de lieux de mémoire",
+          "svg": "<svg width='320' height='135' viewBox='0 0 320 135' xmlns='http://www.w3.org/2000/svg'><text x='160' y='16' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Les lieux de mémoire</text><rect x='5' y='28' width='100' height='44' rx='6' fill='#e8f0fd' stroke='#2c5aa0'/><text x='55' y='46' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>Site</text><text x='55' y='62' font-size='9' text-anchor='middle' fill='#333'>Ambohimanga</text><rect x='110' y='28' width='100' height='44' rx='6' fill='#fde8e8' stroke='#c0392b'/><text x='160' y='46' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>Symbole</text><text x='160' y='62' font-size='9' text-anchor='middle' fill='#333'>Drapeau, hymne</text><rect x='215' y='28' width='100' height='44' rx='6' fill='#e8f8ee' stroke='#27ae60'/><text x='265' y='46' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>Monument</text><text x='265' y='62' font-size='9' text-anchor='middle' fill='#333'>Monument aux morts</text><rect x='57' y='82' width='100' height='44' rx='6' fill='#fff3e0' stroke='#e67e22'/><text x='107' y='100' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>Commémoration</text><text x='107' y='116' font-size='9' text-anchor='middle' fill='#333'>29 mars, 26 juin</text><rect x='163' y='82' width='100' height='44' rx='6' fill='#eee' stroke='#555'/><text x='213' y='100' font-size='10' font-weight='bold' text-anchor='middle' fill='#333'>Paysage</text><text x='213' y='116' font-size='9' text-anchor='middle' fill='#333'>Champ de bataille</text></svg>",
+          "legende": "Cinq catégories de lieux de mémoire avec un exemple chacune."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Définis la mémoire collective. 2) Quelle différence fais-tu entre histoire et mémoire ? 3) Classe dans la bonne catégorie : le drapeau national, le 26 juin, la colline royale d'Ambohimanga.",
+          "solution": "1) C'est l'ensemble des souvenirs qu'un groupe partage et transmet sur son passé ; elle donne au groupe une identité commune. 2) L'histoire est l'étude du passé par les historiens à partir de sources ; la mémoire est le souvenir vécu et transmis par un groupe, parfois sélectif et subjectif. 3) Le drapeau est un symbole ; le 26 juin est une commémoration ; la colline d'Ambohimanga est un site."
+        }
+      ],
+      "lexique": [
+        { "terme": "Mémoire collective", "definition": "Souvenirs du passé partagés et transmis par un groupe." },
+        { "terme": "Lieu de mémoire", "definition": "Lieu, objet, date ou symbole devenu l'emblème du souvenir d'une communauté (notion de Pierre Nora)." },
+        { "terme": "Site", "definition": "Lieu où s'est passé un événement important ou lieu chargé d'histoire." },
+        { "terme": "Symbole", "definition": "Signe qui représente une nation, un groupe ou une idée." },
+        { "terme": "Monument", "definition": "Construction destinée à rappeler un événement ou à honorer des personnes." },
+        { "terme": "Patrimoine", "definition": "Ensemble des biens et des héritages d'une communauté, à transmettre aux générations futures." }
+      ]
+    },
+    {
+      "id": "hist-10-2",
+      "titre": "La transmission de la mémoire et les oublis de l'histoire",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "Une mémoire ne se conserve pas toute seule : elle doit être transmise d'une génération à l'autre."
+        },
+        {
+          "type": "texte",
+          "texte": "Pour qu'une mémoire se transmette, trois conditions sont en général nécessaires : des témoins ou des traces du passé (récits, objets, documents, lieux) ; des moyens de transmission (famille, école, médias, cérémonies, musées) ; et des personnes prêtes à recevoir ce souvenir et à le faire vivre."
+        },
+        {
+          "type": "schema",
+          "titre": "De l'événement à la mémoire collective",
+          "svg": "<svg width='300' height='158' viewBox='0 0 300 158' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='8' width='260' height='26' rx='5' fill='#fde8e8' stroke='#c0392b'/><text x='150' y='25' font-size='10' text-anchor='middle' fill='#333'>Événement vécu par des témoins</text><line x1='150' y1='34' x2='150' y2='46' stroke='#555' stroke-width='2'/><polygon points='146,39 154,39 150,46' fill='#555'/><rect x='20' y='46' width='260' height='26' rx='5' fill='#fff3e0' stroke='#e67e22'/><text x='150' y='63' font-size='10' text-anchor='middle' fill='#333'>Souvenirs, récits, objets, traces</text><line x1='150' y1='72' x2='150' y2='84' stroke='#555' stroke-width='2'/><polygon points='146,77 154,77 150,84' fill='#555'/><rect x='20' y='84' width='260' height='26' rx='5' fill='#e8f0fd' stroke='#2c5aa0'/><text x='150' y='101' font-size='10' text-anchor='middle' fill='#333'>Transmission : famille, école, médias</text><line x1='150' y1='110' x2='150' y2='122' stroke='#555' stroke-width='2'/><polygon points='146,115 154,115 150,122' fill='#555'/><rect x='20' y='122' width='260' height='26' rx='5' fill='#e8f8ee' stroke='#27ae60'/><text x='150' y='139' font-size='10' text-anchor='middle' fill='#333'>Mémoire collective durable</text></svg>",
+          "legende": "Sans transmission, le souvenir disparaît avec les témoins."
+        },
+        {
+          "type": "texte",
+          "texte": "Les oublis de l'histoire : certains groupes ou événements sont peu présents dans l'histoire officielle. Longtemps, l'histoire a surtout raconté la vie des rois, des chefs militaires et des puissants. Ont été souvent oubliés : les femmes, les esclaves, les nationalistes et opposants (dont les noms ont parfois été effacés par le pouvoir en place), et des cultures ou des peuples minoritaires."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Groupe oublié", "Pourquoi cet oubli ?"],
+          "lignes": [
+            ["Les femmes", "Leur rôle est resté dans l'ombre : les sources parlent surtout des hommes au pouvoir"],
+            ["Les esclaves", "Ils n'ont pas laissé d'écrits ; leur histoire a longtemps été passée sous silence"],
+            ["Les nationalistes", "Leur action a été combattue ou effacée par le pouvoir colonial ou politique de l'époque"],
+            ["Les cultures minoritaires", "Leurs traditions, souvent orales, n'ont pas été notées ni enseignées"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Pour retrouver ces mémoires oubliées, les historiens utilisent de nouvelles sources, comme les témoignages oraux. C'est le rôle de l'histoire orale, étudiée dans le premier thème."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Cite trois conditions de la transmission d'une mémoire. 2) Donne deux groupes souvent oubliés par l'histoire et explique pourquoi. 3) En quoi l'histoire orale aide-t-elle à retrouver les mémoires oubliées ?",
+          "solution": "1) Des témoins ou des traces du passé ; des moyens de transmission (famille, école, médias, cérémonies) ; des personnes prêtes à recevoir le souvenir. 2) Par exemple : les femmes (les sources parlent surtout des hommes au pouvoir) et les esclaves (ils n'ont pas laissé d'écrits). 3) Elle recueille les témoignages de personnes qui ont vécu les événements ou qui en ont gardé le souvenir, ce qui permet de faire connaître des histoires absentes des documents écrits."
+        }
+      ],
+      "lexique": [
+        { "terme": "Transmission", "definition": "Passage d'un souvenir ou d'un savoir d'une génération à une autre." },
+        { "terme": "Témoin", "definition": "Personne qui a vu ou vécu un événement et peut le raconter." },
+        { "terme": "Histoire officielle", "definition": "Version du passé mise en avant par le pouvoir en place." },
+        { "terme": "Minorité", "definition": "Groupe moins nombreux que le reste de la population." },
+        { "terme": "Nationaliste", "definition": "Personne qui défend la liberté et l'indépendance de sa nation." }
+      ]
+    },
+    {
+      "id": "hist-10-3",
+      "titre": "Le devoir de mémoire et les commémorations",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Le devoir de mémoire est l'obligation morale de se souvenir des événements tragiques du passé (guerres, génocides, esclavage, répressions) pour rendre hommage aux victimes et pour que ces crimes ne se reproduisent pas."
+        },
+        {
+          "type": "texte",
+          "texte": "À Madagascar, le 29 mars est la journée de commémoration nationale des victimes de l'insurrection de 1947 et de sa répression. Dans le monde, le souvenir de la Shoah et de l'esclavage est entretenu par des musées, des cérémonies et des programmes scolaires."
+        },
+        {
+          "type": "definition",
+          "texte": "Une commémoration est une cérémonie ou une date qui rappelle un événement important du passé, pour honorer des personnes ou des victimes et pour faire vivre le souvenir."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Forme de commémoration", "Exemple"],
+          "lignes": [
+            ["Cérémonie officielle", "Dépôt de gerbes devant un monument, discours des autorités"],
+            ["Journée nationale", "Le 26 juin (fête de l'indépendance), le 29 mars (mémoire de 1947)"],
+            ["Hommage silencieux", "Minute de silence"],
+            ["Inauguration d'un monument", "Statue, stèle ou plaque en l'honneur de personnes ou d'un événement"],
+            ["Musée ou exposition", "Lieu qui conserve et présente les traces du passé"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Une commémoration peut aussi être discutée : on peut se demander qui on honore, qui on oublie, et si tout le monde se reconnaît dans le souvenir proposé. C'est pourquoi l'histoire reste nécessaire pour corriger et compléter la mémoire."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Qu'est-ce que le devoir de mémoire ? 2) Que commémore-t-on à Madagascar le 29 mars ? 3) Donne deux formes de commémoration. 4) Pourquoi dit-on que l'histoire est nécessaire pour compléter la mémoire ?",
+          "solution": "1) C'est l'obligation morale de se souvenir des événements tragiques du passé pour honorer les victimes et éviter que les crimes ne se reproduisent. 2) Les victimes de l'insurrection de 1947 et de sa répression. 3) Par exemple : une cérémonie officielle avec dépôt de gerbes, une minute de silence, une journée nationale, l'inauguration d'un monument. 4) Parce que la mémoire est sélective et parfois subjective : l'histoire, fondée sur des sources et des méthodes, permet de la vérifier, de la corriger et de rappeler les oublis."
+        }
+      ],
+      "lexique": [
+        { "terme": "Devoir de mémoire", "definition": "Obligation morale de se souvenir des tragédies du passé pour qu'elles ne se répètent pas." },
+        { "terme": "Commémoration", "definition": "Cérémonie ou date qui rappelle un événement du passé." },
+        { "terme": "Hommage", "definition": "Marque de respect envers une personne ou des victimes." },
+        { "terme": "Stèle", "definition": "Pierre dressée portant une inscription pour rappeler un événement ou une personne." },
+        { "terme": "Shoah", "definition": "Génocide des Juifs d'Europe par les nazis pendant la Seconde Guerre mondiale." }
+      ]
+    }
+  ]
+}
