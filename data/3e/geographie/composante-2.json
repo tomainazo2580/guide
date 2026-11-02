@@ -1,0 +1,337 @@
+{
+  "id": "geo-2",
+  "titre": "Le secteur primaire",
+  "lecons": [
+    {
+      "id": "geo-2-1",
+      "titre": "L'agriculture",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Agriculture : mise en valeur de la terre pour produire des végétaux utiles à l'homme (aliments, matières premières). C'est la principale activité du secteur primaire."
+        },
+        {
+          "type": "texte",
+          "texte": "L'agriculture représente environ 26 % du PIB et concerne environ 80 % des ménages malgaches. Elle reste pourtant traditionnelle et peu productive."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Type de culture", "Définition", "Exemples", "Place"],
+          "lignes": [
+            ["Vivrières", "Destinées à nourrir la population du pays", "riz, manioc, maïs, haricot, patate douce, blé", "Base de l'alimentation, la plus grande partie des terres cultivées"],
+            ["Industrielles", "Fournissent des matières premières aux usines", "canne à sucre, tabac, coton, sisal, palmier à huile, tournesol, arachide", "Alimentent sucreries, huileries et usines textiles"],
+            ["D'exportation", "Vendues à l'étranger pour obtenir des devises", "vanille, girofle, café, cacao", "Principales sources de devises agricoles"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Les trois types de cultures",
+          "svg": "<svg width='300' height='145' viewBox='0 0 300 145' xmlns='http://www.w3.org/2000/svg'><rect x='5' y='8' width='90' height='30' fill='#4caf50'/><rect x='105' y='8' width='90' height='30' fill='#ff9800'/><rect x='205' y='8' width='90' height='30' fill='#2196f3'/><text x='50' y='28' text-anchor='middle' font-size='11' font-weight='bold' fill='#fff'>Vivrières</text><text x='150' y='28' text-anchor='middle' font-size='11' font-weight='bold' fill='#fff'>Industrielles</text><text x='250' y='28' text-anchor='middle' font-size='11' font-weight='bold' fill='#fff'>Exportation</text><line x1='50' y1='38' x2='50' y2='50' stroke='#888'/><line x1='150' y1='38' x2='150' y2='50' stroke='#888'/><line x1='250' y1='38' x2='250' y2='50' stroke='#888'/><rect x='5' y='50' width='90' height='40' fill='#e8f5e9'/><rect x='105' y='50' width='90' height='40' fill='#fff3e0'/><rect x='205' y='50' width='90' height='40' fill='#e3f2fd'/><text x='50' y='67' text-anchor='middle' font-size='10' fill='#222'>Nourrir la</text><text x='50' y='80' text-anchor='middle' font-size='10' fill='#222'>population</text><text x='150' y='67' text-anchor='middle' font-size='10' fill='#222'>Approvisionner</text><text x='150' y='80' text-anchor='middle' font-size='10' fill='#222'>les usines</text><text x='250' y='67' text-anchor='middle' font-size='10' fill='#222'>Vendre à</text><text x='250' y='80' text-anchor='middle' font-size='10' fill='#222'>l'étranger</text><line x1='50' y1='90' x2='50' y2='102' stroke='#888'/><line x1='150' y1='90' x2='150' y2='102' stroke='#888'/><line x1='250' y1='90' x2='250' y2='102' stroke='#888'/><rect x='5' y='102' width='90' height='34' fill='#e8f5e9'/><rect x='105' y='102' width='90' height='34' fill='#fff3e0'/><rect x='205' y='102' width='90' height='34' fill='#e3f2fd'/><text x='50' y='123' text-anchor='middle' font-size='10' fill='#222'>riz, manioc</text><text x='150' y='123' text-anchor='middle' font-size='10' fill='#222'>canne, coton</text><text x='250' y='123' text-anchor='middle' font-size='10' fill='#222'>vanille, café</text></svg>",
+          "legende": "Chaque type de culture a une destination différente."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Culture", "Principales régions de production"],
+          "lignes": [
+            ["Riz", "Lac Alaotra (1er grenier à riz), Marovoay (2e), plaine de Betsimitatatra (Antananarivo), Mangoky, cuvette d'Andapa"],
+            ["Manioc, patate douce, haricot", "Cultivés un peu partout dans l'île"],
+            ["Canne à sucre", "Sambirano, Nosy-Be, Brickaville"],
+            ["Tabac", "Betsiriry, Port-Bergé, Mampikony, Ambato-Boeny"],
+            ["Coton", "Ambato-Boeny, Mangoky"],
+            ["Sisal", "Amboasary Sud, Fort-Dauphin"],
+            ["Blé", "Hautes Terres Centrales"],
+            ["Cacao", "Ambanja"],
+            ["Vanille", "Région SAVA (Sambava, Antalaha, Vohémar, Andapa)"],
+            ["Girofle", "Côte Est (Analanjirofo)"],
+            ["Café", "Est et Sud-Est"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "L'arachide est à la fois une culture vivrière (on la mange) et industrielle (on en tire de l'huile). Dans ce cours, elle est rangée parmi les cultures industrielles."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Problèmes de l'agriculture", "Solutions"],
+          "lignes": [
+            ["Outils rudimentaires, peu de mécanisation", "Moderniser le matériel, former les paysans"],
+            ["Peu d'engrais et de semences améliorées", "Faciliter l'accès aux intrants et aux bonnes semences"],
+            ["Aléas climatiques (cyclones, sécheresse, inondations)", "Aménager des barrages et des canaux d'irrigation, diversifier les cultures"],
+            ["Mauvais état des routes, enclavement des zones de production", "Construire et entretenir routes et pistes"],
+            ["Manque de crédit et insécurité foncière", "Crédit agricole, sécurisation des terres"],
+            ["Vols de récoltes, maladies des plantes", "Renforcer la sécurité, protéger les cultures"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Classe en culture vivrière, industrielle ou d'exportation : manioc, vanille, coton, riz, girofle, canne à sucre.\n2) Associe chaque lieu à sa culture : Alaotra ; SAVA ; Ambanja ; Mangoky.",
+          "solution": "1) Vivrières : manioc, riz. Industrielles : coton, canne à sucre. D'exportation : vanille, girofle.\n2) Alaotra : riz. SAVA : vanille. Ambanja : cacao. Mangoky : riz (et coton)."
+        }
+      ],
+      "lexique": [
+        { "terme": "Culture vivrière", "definition": "Culture destinée à nourrir la population locale." },
+        { "terme": "Culture industrielle", "definition": "Culture qui fournit des matières premières à l'industrie." },
+        { "terme": "Culture d'exportation", "definition": "Culture destinée à être vendue à l'étranger." },
+        { "terme": "Devises", "definition": "Monnaies étrangères que le pays gagne en exportant." },
+        { "terme": "Intrants", "definition": "Produits utilisés pour produire : engrais, semences, produits de traitement." },
+        { "terme": "Grenier à riz", "definition": "Région qui produit beaucoup de riz et en fournit au reste du pays." }
+      ]
+    },
+    {
+      "id": "geo-2-2",
+      "titre": "Les modes de culture",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Mode de culture : manière de cultiver la terre, c'est-à-dire l'ensemble des techniques, des outils et des méthodes employés par les agriculteurs."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Élément", "Mode", "Rôle"],
+          "lignes": [
+            ["Hache", "Traditionnel", "Abattre les arbres pour défricher"],
+            ["Brûlis", "Traditionnel", "Brûler la végétation coupée ; les cendres fertilisent le sol"],
+            ["Jachère", "Traditionnel", "Laisser la terre au repos pour qu'elle retrouve sa fertilité"],
+            ["Polyculture", "Traditionnel", "Cultiver plusieurs plantes sur la même exploitation"],
+            ["Charrue", "Traditionnel (attelée de zébus) et moderne (tractée)", "Retourner la terre avant le semis"],
+            ["Irrigation", "Traditionnel (rizières) et moderne (barrages, canaux)", "Apporter l'eau aux cultures"],
+            ["Engrais", "Moderne", "Enrichir le sol pour augmenter les rendements"],
+            ["Tronçonneuse", "Moderne", "Abattre rapidement les arbres"],
+            ["Moissonneuse-batteuse", "Moderne", "Récolter et battre les céréales avec une machine"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Type de culture", "Définition", "Exemples"],
+          "lignes": [
+            ["Cultures irriguées", "L'eau est apportée et contrôlée par des canaux, digues ou barrages", "Rizières de l'Alaotra, de Marovoay, de Betsimitatatra"],
+            ["Cultures sur brûlis", "On défriche une parcelle de forêt ou de brousse par le feu et on y cultive quelques années", "Tavy de la côte Est (riz de tavy) ; hatsake dans l'Ouest et le Sud"],
+            ["Cultures sèches", "Cultures pluviales, sans irrigation, sur les pentes et les collines", "Manioc, maïs, arachide, patate douce sur les tanety"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Le cycle du tavy",
+          "svg": "<svg width='300' height='140' viewBox='0 0 300 140' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='10' width='80' height='40' fill='#c8e6c9'/><rect x='110' y='10' width='80' height='40' fill='#ffe0b2'/><rect x='210' y='10' width='80' height='40' fill='#fff9c4'/><rect x='210' y='90' width='80' height='40' fill='#ffccbc'/><rect x='110' y='90' width='80' height='40' fill='#ffcdd2'/><rect x='10' y='90' width='80' height='40' fill='#c8e6c9'/><text x='50' y='28' text-anchor='middle' font-size='10' fill='#222'>1. Couper</text><text x='50' y='42' text-anchor='middle' font-size='10' fill='#222'>les arbres</text><text x='150' y='28' text-anchor='middle' font-size='10' fill='#222'>2. Brûler</text><text x='150' y='42' text-anchor='middle' font-size='10' fill='#222'>les troncs</text><text x='250' y='28' text-anchor='middle' font-size='10' fill='#222'>3. Cultiver</text><text x='250' y='42' text-anchor='middle' font-size='10' fill='#222'>1 à 3 ans</text><text x='250' y='108' text-anchor='middle' font-size='10' fill='#222'>4. Sol</text><text x='250' y='122' text-anchor='middle' font-size='10' fill='#222'>épuisé</text><text x='150' y='108' text-anchor='middle' font-size='10' fill='#222'>5. Parcelle</text><text x='150' y='122' text-anchor='middle' font-size='10' fill='#222'>abandonnée</text><text x='50' y='108' text-anchor='middle' font-size='10' fill='#222'>6. Nouvelle</text><text x='50' y='122' text-anchor='middle' font-size='10' fill='#222'>forêt coupée</text><line x1='90' y1='30' x2='104' y2='30' stroke='#888'/><polygon points='110,30 104,26 104,34' fill='#888'/><line x1='190' y1='30' x2='204' y2='30' stroke='#888'/><polygon points='210,30 204,26 204,34' fill='#888'/><line x1='250' y1='50' x2='250' y2='84' stroke='#888'/><polygon points='250,90 246,84 254,84' fill='#888'/><line x1='210' y1='110' x2='196' y2='110' stroke='#888'/><polygon points='190,110 196,106 196,114' fill='#888'/><line x1='110' y1='110' x2='96' y2='110' stroke='#888'/><polygon points='90,110 96,106 96,114' fill='#888'/><line x1='50' y1='90' x2='50' y2='56' stroke='#888'/><polygon points='50,50 46,56 54,56' fill='#888'/><text x='150' y='74' text-anchor='middle' font-size='11' font-weight='bold' fill='#888'>Un cycle qui détruit la forêt</text></svg>",
+          "legende": "Chaque cycle consomme une nouvelle parcelle de forêt."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Avantages du brûlis", "Inconvénients du brûlis"],
+          "lignes": [
+            ["Défrichement rapide et sans frais", "Destruction de la forêt et de sa biodiversité"],
+            ["Les cendres fertilisent le sol les premières années", "Sol vite épuisé, rendements en baisse"],
+            ["Ne demande ni machine ni engrais", "Érosion des pentes, feux qui échappent au contrôle"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Range dans un tableau les éléments suivants selon le mode de culture (traditionnel ou moderne) : hache, moissonneuse-batteuse, jachère, engrais, tronçonneuse, polyculture.\n2) Explique en trois lignes pourquoi la culture sur brûlis appauvrit le milieu.",
+          "solution": "1) Traditionnel : hache, jachère, polyculture. Moderne : moissonneuse-batteuse, engrais, tronçonneuse.\n2) Le brûlis détruit la forêt. Les cendres ne fertilisent le sol que quelques années ; ensuite le sol, devenu nu, est lessivé et érodé, et les rendements baissent. Le paysan abandonne la parcelle et défriche une nouvelle forêt : la forêt recule peu à peu."
+        }
+      ],
+      "lexique": [
+        { "terme": "Jachère", "definition": "Terre laissée au repos pendant un certain temps pour retrouver sa fertilité." },
+        { "terme": "Brûlis", "definition": "Technique qui consiste à brûler la végétation coupée pour cultiver la parcelle." },
+        { "terme": "Tavy", "definition": "Culture sur brûlis pratiquée sur la côte Est, surtout pour le riz de montagne." },
+        { "terme": "Polyculture", "definition": "Culture de plusieurs plantes différentes sur la même exploitation." },
+        { "terme": "Irrigation", "definition": "Apport d'eau aux cultures par des canaux, des digues ou des barrages." },
+        { "terme": "Engrais", "definition": "Produit apporté au sol pour le rendre plus fertile." },
+        { "terme": "Tanety", "definition": "Collines et pentes des Hautes Terres où l'on pratique les cultures sèches." }
+      ]
+    },
+    {
+      "id": "geo-2-3",
+      "titre": "L'élevage",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Élevage : activité qui consiste à élever des animaux domestiques pour leur viande, leur lait, leur force de travail ou d'autres produits. Le cheptel est l'ensemble des animaux d'élevage d'une région ou d'un pays."
+        },
+        {
+          "type": "texte",
+          "texte": "L'élevage concerne environ 72 % des ménages ruraux (INSTAT, 1999).\n• Élevage principal : l'élevage bovin (le zébu).\n• Élevages secondaires : porcins, ovins, caprins, volailles, apiculture (abeilles) et pisciculture (poissons)."
+        },
+        {
+          "type": "schema",
+          "titre": "Où élève-t-on quoi ?",
+          "svg": "<svg width='300' height='140' viewBox='0 0 300 140' xmlns='http://www.w3.org/2000/svg'><text x='30' y='20' font-size='10' fill='#888'>Bovins : Sud et Ouest (Toliara, Mahajanga)</text><rect x='30' y='28' width='144' height='24' fill='#ff9800'/><rect x='174' y='28' width='96' height='24' fill='#bdbdbd'/><text x='102' y='45' text-anchor='middle' font-size='11' font-weight='bold' fill='#fff'>60 %</text><text x='222' y='45' text-anchor='middle' font-size='10' fill='#222'>40 % ailleurs</text><text x='30' y='84' font-size='10' fill='#888'>Porcins : Hautes Terres (Antananarivo, Antsirabe)</text><rect x='30' y='92' width='192' height='24' fill='#4caf50'/><rect x='222' y='92' width='48' height='24' fill='#bdbdbd'/><text x='126' y='109' text-anchor='middle' font-size='11' font-weight='bold' fill='#fff'>4/5 (80 %)</text><text x='246' y='109' text-anchor='middle' font-size='10' fill='#222'>1/5</text></svg>",
+          "legende": "60 % des bovins dans le Sud et l'Ouest ; 4/5 de l'élevage porcin sur les Hautes Terres."
+        },
+        {
+          "type": "texte",
+          "texte": "Les usages du zébu :\n• travail : traction de la charrue et de la charrette, piétinage des rizières ;\n• viande et lait ;\n• fumier pour fertiliser les champs ;\n• place sociale et rituelle : sacrifices, funérailles, cérémonies, symbole de richesse et de prestige ;\n• épargne : le troupeau est une forme de capital qu'on vend en cas de besoin."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Critère", "Élevage traditionnel (extensif)", "Élevage moderne (intensif)"],
+          "lignes": [
+            ["But", "Prestige, rites, épargne, travail agricole ; peu de vente", "Production commerciale (viande, lait, œufs)"],
+            ["Conduite", "Troupeaux laissés en liberté sur les pâturages naturels", "Animaux en étable ou en enclos, nourris et soignés"],
+            ["Alimentation", "Herbe des pâturages, souvent brûlés en saison sèche", "Fourrage cultivé, aliments complets"],
+            ["Soins", "Peu de vaccins et de suivi vétérinaire", "Vaccination, suivi vétérinaire"],
+            ["Productivité", "Faible", "Élevée"],
+            ["Zones", "Sud et Ouest", "Autour des villes, Hautes Terres"]
+          ]
+        },
+        {
+          "type": "definition",
+          "texte": "Élevage extensif : les animaux occupent de grandes surfaces et reçoivent peu de soins. Élevage intensif : les animaux sont élevés sur de petites surfaces avec une alimentation et des soins pour produire davantage."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Problèmes de l'élevage", "Solutions"],
+          "lignes": [
+            ["Épizooties : distomatose (80 % des communes touchées entre 1998 et 2001), charbon symptomatique, charbon bactéridien, peste porcine africaine", "Vaccination, contrôle vétérinaire, mesures de quarantaine"],
+            ["Vols de bétail (dahalo)", "Renforcer la sécurité, marquage des animaux, collaboration des villageois"],
+            ["Manque de débouchés : 71 % des communes n'ont pas de marché hebdomadaire de bétail", "Créer des marchés, routes et abattoirs ; organiser la filière"],
+            ["Faible productivité : races peu améliorées, pâturages pauvres", "Améliorer les races, cultiver du fourrage, mieux gérer les pâturages"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Épizootie : maladie qui frappe en même temps un grand nombre d'animaux d'une région. Les noms des maladies citées dans le tableau sont à connaître comme exemples."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Cite quatre usages du zébu à Madagascar.\n2) Supposons que le pays compte 1 000 000 de porcs. Les quatre cinquièmes de l'élevage porcin sont sur les Hautes Terres. Combien de porcs y a-t-il sur les Hautes Terres ? Exprime 4/5 en pourcentage.\n3) Cite deux problèmes de l'élevage et une solution pour chacun.",
+          "solution": "1) Travail agricole (traction, piétinage), viande et lait, fumier, rôle rituel et social (sacrifices, funérailles), épargne.\n2) 4/5 = 80 %. 1 000 000 × 4/5 = 800 000 porcs sur les Hautes Terres.\n3) Exemples : épizooties (solution : vaccination et contrôle vétérinaire) ; vols de bétail (solution : renforcer la sécurité) ; manque de débouchés (solution : créer des marchés et améliorer les routes)."
+        }
+      ],
+      "lexique": [
+        { "terme": "Cheptel", "definition": "Ensemble des animaux d'élevage d'une région ou d'un pays." },
+        { "terme": "Élevage extensif", "definition": "Élevage sur de grandes surfaces, avec peu de soins et peu de dépenses." },
+        { "terme": "Élevage intensif", "definition": "Élevage sur de petites surfaces, avec alimentation et soins pour produire davantage." },
+        { "terme": "Épizootie", "definition": "Maladie qui frappe un grand nombre d'animaux en même temps." },
+        { "terme": "Apiculture", "definition": "Élevage des abeilles pour produire du miel et de la cire." },
+        { "terme": "Pisciculture", "definition": "Élevage de poissons en étangs ou dans les rizières." }
+      ]
+    },
+    {
+      "id": "geo-2-4",
+      "titre": "La pêche",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Pêche : capture de poissons et d'autres animaux aquatiques (crevettes, crabes, thons...) en mer, dans les lacs et dans les fleuves."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Critère", "Pêche traditionnelle", "Pêche industrielle"],
+          "lignes": [
+            ["Moyens", "Pirogues, filets, lignes, pièges", "Bateaux équipés (chalutiers, thoniers), chambres froides"],
+            ["Pêcheurs", "Environ 100 000 pêcheurs", "Équipages de sociétés de pêche"],
+            ["Production", "Environ 54 000 tonnes par an", "Environ 25 000 tonnes par an"],
+            ["Destination", "Consommation locale : environ 70 % du poisson consommé dans le pays", "Exportation : thons, crevettes"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Production de la pêche",
+          "svg": "<svg width='300' height='200' viewBox='0 0 300 200' xmlns='http://www.w3.org/2000/svg'><text x='150' y='14' text-anchor='middle' font-size='11' fill='#888'>Production annuelle (tonnes)</text><line x1='30' y1='160' x2='270' y2='160' stroke='#888'/><rect x='60' y='30' width='60' height='130' fill='#2196f3'/><rect x='170' y='100' width='60' height='60' fill='#ff9800'/><text x='90' y='26' text-anchor='middle' font-size='11' font-weight='bold' fill='#888'>54 000 t</text><text x='200' y='96' text-anchor='middle' font-size='11' font-weight='bold' fill='#888'>25 000 t</text><text x='90' y='178' text-anchor='middle' font-size='11' fill='#888'>Traditionnelle</text><text x='200' y='178' text-anchor='middle' font-size='11' fill='#888'>Industrielle</text></svg>",
+          "legende": "La pêche traditionnelle fournit plus du double de la pêche industrielle."
+        },
+        {
+          "type": "texte",
+          "texte": "Repères du fascicule : en 1984, environ 6 000 tonnes de poissons frais et 5 000 tonnes de crevettes ; accord de pêche avec la Communauté économique européenne (CEE) au début de 1986. Les produits de la mer (crevettes, thons) sont parmi les principales exportations du pays."
+        },
+        {
+          "type": "texte",
+          "texte": "À côté de la pêche, l'aquaculture élève des animaux aquatiques : la pisciculture (poissons dans les étangs et les rizières) et la crevetticulture (crevettes en bassins, surtout sur les côtes du Nord-Ouest). Ce n'est pas de la pêche : on élève les animaux au lieu de les capturer."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Problèmes de la pêche", "Solutions"],
+          "lignes": [
+            ["Matériel rudimentaire, pirogues peu sûres", "Équiper les pêcheurs, former, faciliter le crédit"],
+            ["Manque de froid et de conservation, pertes après la capture", "Installer des chambres froides et des usines de transformation"],
+            ["Surpêche et pêche illicite par des navires étrangers", "Contrôler les eaux, faire respecter les quotas et les périodes de repos biologique"],
+            ["Destruction des mangroves et pollution", "Protéger les mangroves, lutter contre la pollution"],
+            ["Enclavement des villages de pêcheurs, cyclones", "Construire des routes et des ports, prévenir les risques"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "enonce": "Selon le fascicule, la pêche traditionnelle produit environ 54 000 t par an et la pêche industrielle environ 25 000 t.\n1) Calcule la production totale.\n2) Calcule la part de la pêche traditionnelle (arrondie à l'unité, en %).\n3) Cite deux différences entre pêche traditionnelle et industrielle.",
+          "solution": "1) 54 000 + 25 000 = 79 000 tonnes.\n2) 54 000 ÷ 79 000 × 100 ≈ 68 %.\n3) La pêche traditionnelle emploie des pirogues et des filets, et nourrit surtout le marché local. La pêche industrielle utilise des bateaux équipés et vise l'exportation (thons, crevettes)."
+        }
+      ],
+      "lexique": [
+        { "terme": "Pêche traditionnelle", "definition": "Pêche artisanale avec pirogues et filets, destinée surtout à la consommation locale." },
+        { "terme": "Pêche industrielle", "definition": "Pêche avec de gros bateaux équipés, destinée à l'exportation." },
+        { "terme": "Chalutier", "definition": "Bateau de pêche qui traîne un grand filet, le chalut." },
+        { "terme": "Aquaculture", "definition": "Élevage d'animaux aquatiques (poissons, crevettes)." },
+        { "terme": "Mangrove", "definition": "Forêt de palétuviers qui pousse sur les côtes boueuses et sert d'abri à de nombreuses espèces marines." },
+        { "terme": "Surpêche", "definition": "Pêche excessive qui épuise les ressources." }
+      ]
+    },
+    {
+      "id": "geo-2-5",
+      "titre": "La forêt",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Forêt : grande étendue couverte d'arbres. On l'appelle l'« or vert » de Madagascar parce qu'elle fournit des richesses et protège le milieu."
+        },
+        {
+          "type": "texte",
+          "texte": "La forêt couvre environ 21 à 23 % du territoire. Les 13 millions d'hectares de forêt correspondent à environ 22 % de la superficie du pays (environ 58,7 millions d'hectares). Elle recule : environ 20 000 hectares détruits par an jusqu'en 1997, et plus de 170 000 hectares en 1999 d'après le fascicule. La « grande île verte » est peu à peu devenue la « grande île rouge » : le sol laissé nu rougit et s'érode."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Type de forêt", "Région", "Caractères"],
+          "lignes": [
+            ["Forêt ombrophile (dense humide)", "Est", "Climat très humide, forêt dense et toujours verte"],
+            ["Forêt tropophile (claire)", "Ouest", "Climat à saison sèche : arbres qui perdent leurs feuilles, forêt claire"],
+            ["Forêt xérophile (bush, brousse épineuse)", "Sud", "Climat sec : plantes épineuses et résistantes à la sécheresse"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Produits de la forêt", "Exemples"],
+          "lignes": [
+            ["Bois d'œuvre précieux", "ébène, bois de rose, palissandre"],
+            ["Bois de construction", "pin, eucalyptus, varongy"],
+            ["Bois de chauffe et charbon", "bois de chauffe, charbon de bois"],
+            ["Plantes médicinales", "ravintsara, artemisia, sodifafana"]
+          ]
+        },
+        {
+          "type": "texte",
+          "texte": "Les rôles de la forêt :\n• économique : bois, produits médicinaux, tourisme, revenus pour les riverains ;\n• social : énergie domestique, médicaments, matériaux de construction, valeurs culturelles ;\n• environnemental : protège le sol contre l'érosion, régule le climat et les eaux, abrite une biodiversité unique."
+        },
+        {
+          "type": "schema",
+          "titre": "Le cercle vicieux de la déforestation",
+          "svg": "<svg width='300' height='225' viewBox='0 0 300 225' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='8' width='240' height='30' fill='#c8e6c9'/><rect x='30' y='52' width='240' height='30' fill='#fff9c4'/><rect x='30' y='96' width='240' height='30' fill='#ffe0b2'/><rect x='30' y='140' width='240' height='30' fill='#ffccbc'/><rect x='30' y='184' width='240' height='30' fill='#ffcdd2'/><text x='150' y='28' text-anchor='middle' font-size='10' fill='#222'>Tavy, feux de brousse, coupes illicites</text><text x='150' y='72' text-anchor='middle' font-size='10' fill='#222'>Déforestation</text><text x='150' y='116' text-anchor='middle' font-size='10' fill='#222'>Sol nu : érosion, lavaka</text><text x='150' y='160' text-anchor='middle' font-size='10' fill='#222'>Rizières ensablées, rendements en baisse</text><text x='150' y='204' text-anchor='middle' font-size='10' fill='#222'>Pauvreté : on défriche encore davantage</text><line x1='150' y1='38' x2='150' y2='46' stroke='#888'/><polygon points='150,52 146,46 154,46' fill='#888'/><line x1='150' y1='82' x2='150' y2='90' stroke='#888'/><polygon points='150,96 146,90 154,90' fill='#888'/><line x1='150' y1='126' x2='150' y2='134' stroke='#888'/><polygon points='150,140 146,134 154,134' fill='#888'/><line x1='150' y1='170' x2='150' y2='178' stroke='#888'/><polygon points='150,184 146,178 154,178' fill='#888'/></svg>",
+          "legende": "La pauvreté pousse à défricher, ce qui appauvrit encore le milieu."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Problèmes de la forêt", "Solutions"],
+          "lignes": [
+            ["Exploitation abusive et coupes illicites (bois précieux)", "Contrôler et sanctionner, encourager l'exploitation durable"],
+            ["Tavy (culture sur brûlis)", "Former à de meilleures techniques (cultures irriguées, agroforesterie)"],
+            ["Feux de brousse", "Prévention, pare-feux, sensibilisation des villages"],
+            ["Déforestation pour le bois de chauffe et le charbon", "Foyers améliorés, énergies de substitution"],
+            ["Reboisement insuffisant", "Planter des arbres, protéger les forêts et les aires protégées, confier la gestion aux communautés locales"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) La forêt couvre environ 22 % d'un pays de 58,7 millions d'hectares. Calcule sa superficie (en millions d'hectares, arrondie à 0,1).\n2) Si 20 000 hectares disparaissent chaque année, quelle surface est détruite en 10 ans ?\n3) Explique en quelques lignes l'expression « l'île verte est devenue l'île rouge ».",
+          "solution": "1) 58,7 × 0,22 ≈ 12,9 millions d'hectares, soit environ 13 millions.\n2) 20 000 × 10 = 200 000 hectares.\n3) La forêt, qui couvrait presque toute l'île, a reculé à cause du tavy, des feux de brousse et des coupes. Le sol laissé nu et rouge (latérite) est ravagé par l'érosion (lavaka) : l'île paraît rouge au lieu de verte."
+        }
+      ],
+      "lexique": [
+        { "terme": "Ombrophile", "definition": "Se dit d'une forêt de climat très humide, dense et toujours verte." },
+        { "terme": "Tropophile", "definition": "Se dit d'une forêt de climat à saison sèche, dont les arbres perdent leurs feuilles." },
+        { "terme": "Xérophile", "definition": "Se dit d'une végétation adaptée à la sécheresse." },
+        { "terme": "Déforestation", "definition": "Destruction de la forêt par l'homme (coupes, feux, défrichement)." },
+        { "terme": "Reboisement", "definition": "Plantation d'arbres pour reconstituer une forêt." },
+        { "terme": "Bois d'œuvre", "definition": "Bois destiné à la menuiserie, à l'ébénisterie et à la construction." },
+        { "terme": "Lavaka", "definition": "Grande cicatrice d'érosion qui creuse les versants nus des collines." }
+      ]
+    }
+  ]
+}
