@@ -1,0 +1,198 @@
+{
+  "id": "hist-theme2",
+  "titre": "Thème II : Progrès scientifiques et mutations économiques et sociales",
+  "lecons": [
+    {
+      "id": "hist-2-1",
+      "titre": "Les progrès scientifiques et techniques",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "Depuis la fin du XIXe siècle, les découvertes et les inventions se multiplient. Elles touchent surtout trois domaines : la médecine, la communication et les transports."
+        },
+        {
+          "type": "definition",
+          "texte": "Un progrès scientifique et technique est une découverte ou une invention qui améliore les connaissances, les conditions de vie ou la production."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Date", "Invention ou découverte", "Domaine"],
+          "lignes": [
+            ["Vers 1815", "Stéthoscope (Laennec)", "Médecine"],
+            ["Vers 1850", "Progrès de l'hémostase (arrêt des hémorragies)", "Médecine"],
+            ["1885", "Vaccin contre la rage (Pasteur)", "Médecine"],
+            ["1890", "Clément Ader fait décoller l'Éole", "Transports"],
+            ["1895", "Cinématographe (frères Lumière)", "Communication"],
+            ["1899", "Aspirine (laboratoire Bayer)", "Médecine"],
+            ["1905", "Tensiomètre (Korotkov)", "Médecine"],
+            ["1908", "Ford T, voiture produite en grande série", "Transports"],
+            ["1909", "Radiothérapie", "Médecine"],
+            ["1921", "Vaccin BCG contre la tuberculose (Calmette et Guérin)", "Médecine"],
+            ["1928", "Pénicilline, premier antibiotique (Fleming)", "Médecine"],
+            ["1957", "Spoutnik, premier satellite artificiel (URSS)", "Espace"],
+            ["1969", "Apollo 11 : premiers pas sur la Lune", "Espace"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Frise : quelques grandes inventions",
+          "svg": "<svg width='320' height='140' viewBox='0 0 320 140' xmlns='http://www.w3.org/2000/svg'><line x1='15' y1='70' x2='305' y2='70' stroke='#555' stroke-width='2'/><circle cx='39' cy='70' r='4' fill='#c0392b'/><circle cx='68' cy='70' r='4' fill='#2c5aa0'/><circle cx='105' cy='70' r='4' fill='#c0392b'/><circle cx='163' cy='70' r='4' fill='#2c5aa0'/><circle cx='247' cy='70' r='4' fill='#c0392b'/><circle cx='282' cy='70' r='4' fill='#2c5aa0'/><text x='39' y='38' font-size='10' text-anchor='middle' fill='#333'>Vaccin</text><text x='39' y='50' font-size='10' text-anchor='middle' fill='#333'>rage</text><text x='39' y='62' font-size='10' text-anchor='middle' font-weight='bold' fill='#333'>1885</text><text x='68' y='90' font-size='10' text-anchor='middle' font-weight='bold' fill='#333'>1895</text><text x='68' y='102' font-size='10' text-anchor='middle' fill='#333'>Cinéma</text><text x='105' y='38' font-size='10' text-anchor='middle' fill='#333'>Ford T</text><text x='105' y='50' font-size='10' text-anchor='middle' fill='#333'> </text><text x='105' y='62' font-size='10' text-anchor='middle' font-weight='bold' fill='#333'>1908</text><text x='163' y='90' font-size='10' text-anchor='middle' font-weight='bold' fill='#333'>1928</text><text x='163' y='102' font-size='10' text-anchor='middle' fill='#333'>Pénicilline</text><text x='247' y='38' font-size='10' text-anchor='middle' fill='#333'>Spoutnik</text><text x='247' y='50' font-size='10' text-anchor='middle' fill='#333'> </text><text x='247' y='62' font-size='10' text-anchor='middle' font-weight='bold' fill='#333'>1957</text><text x='282' y='90' font-size='10' text-anchor='middle' font-weight='bold' fill='#333'>1969</text><text x='282' y='102' font-size='10' text-anchor='middle' fill='#333'>Apollo 11</text></svg>",
+          "legende": "Médecine en rouge ou bleu selon l'alternance de la frise : chaque point marque une date importante."
+        },
+        {
+          "type": "texte",
+          "texte": "Médecine : les vaccins et les antibiotiques font reculer les grandes maladies. La mortalité baisse, l'espérance de vie augmente et la population mondiale croît très vite : c'est l'explosion démographique."
+        },
+        {
+          "type": "texte",
+          "texte": "Communication : la radio se diffuse dans les années 1920, la télévision se répand après 1945. Le mot « informatique » est créé en 1962 par Philippe Dreyfus (il vient de « information » et « automatique »)."
+        },
+        {
+          "type": "texte",
+          "texte": "Transports : en 1899, une automobile dépasse les 100 km/h. Les voitures, les avions et les trains rapides comme le TGV rapprochent les hommes et accélèrent les échanges. En 1957, Spoutnik ouvre l'ère de la conquête spatiale."
+        },
+        {
+          "type": "remarque",
+          "texte": "Apollo 11 (1969) : seuls Neil Armstrong et Buzz Aldrin ont marché sur la Lune. Michael Collins est resté en orbite autour d'elle."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Cite deux inventions médicales avec leur date et leur auteur. 2) Explique pourquoi les progrès de la médecine ont provoqué une explosion démographique.",
+          "solution": "1) Par exemple : le vaccin contre la rage (1885, Pasteur) et la pénicilline (1928, Fleming). 2) Les vaccins et les antibiotiques soignent ou préviennent de nombreuses maladies, donc la mortalité baisse fortement. Comme la natalité reste élevée, il naît beaucoup plus de personnes qu'il n'en meurt : la population augmente très vite."
+        }
+      ],
+      "lexique": [
+        { "terme": "Vaccin", "definition": "Produit qui protège l'organisme contre une maladie avant qu'elle ne se déclare." },
+        { "terme": "Antibiotique", "definition": "Médicament qui détruit les bactéries ou empêche leur développement." },
+        { "terme": "Espérance de vie", "definition": "Nombre moyen d'années qu'une personne peut espérer vivre." },
+        { "terme": "Explosion démographique", "definition": "Augmentation très rapide de la population." },
+        { "terme": "Informatique", "definition": "Science du traitement automatique de l'information (mot créé en 1962)." }
+      ]
+    },
+    {
+      "id": "hist-2-2",
+      "titre": "Les mutations économiques",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "Les progrès techniques transforment la façon de produire. Les entreprises cherchent à produire plus, plus vite et à moindre coût : c'est la production de masse."
+        },
+        {
+          "type": "definition",
+          "texte": "Le taylorisme est une organisation scientifique du travail imaginée par l'ingénieur américain Frederick Taylor (1856-1915). Le travail est découpé en tâches simples, et chaque geste est chronométré pour gagner du temps et augmenter le rendement."
+        },
+        {
+          "type": "definition",
+          "texte": "Le fordisme est la méthode de l'industriel américain Henry Ford. Il utilise le travail à la chaîne et fabrique des produits standardisés en grande série (la Ford T en 1908). Les prix baissent, donc plus de gens peuvent acheter."
+        },
+        {
+          "type": "remarque",
+          "texte": "En janvier 1914, Ford augmente fortement les salaires de ses ouvriers (5 dollars par jour). Il veut fidéliser son personnel et lui permettre d'acheter les voitures qu'il fabrique."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["", "Taylorisme", "Fordisme"],
+          "lignes": [
+            ["Idée principale", "Organiser scientifiquement le travail", "Produire en grande série à la chaîne"],
+            ["Moyen", "Découpage des tâches, chronométrage", "Chaîne de montage, produits standardisés"],
+            ["But", "Augmenter le rendement", "Baisser les prix, vendre en masse"]
+          ]
+        },
+        {
+          "type": "texte",
+          "texte": "Plus tard, l'automatisation remplace une partie du travail humain par des machines ou des robots. La délocalisation consiste à transférer la production dans des pays où la main-d'œuvre coûte moins cher."
+        },
+        {
+          "type": "definition",
+          "texte": "Une société anonyme est une entreprise dont le capital est divisé en actions. Les actionnaires apportent de l'argent et partagent les bénéfices. Cette formule permet de réunir de très grands capitaux."
+        },
+        {
+          "type": "definition",
+          "texte": "La concentration est le regroupement d'entreprises pour devenir plus puissantes. Elle est verticale quand une entreprise contrôle les étapes successives de la production, de la matière première au produit fini. Elle est horizontale quand elle regroupe des entreprises qui font le même produit, afin de réduire la concurrence."
+        },
+        {
+          "type": "schema",
+          "titre": "Les deux types de concentration",
+          "svg": "<svg width='320' height='190' viewBox='0 0 320 190' xmlns='http://www.w3.org/2000/svg'><text x='80' y='16' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Verticale</text><text x='240' y='16' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Horizontale</text><rect x='8' y='24' width='144' height='152' rx='6' fill='none' stroke='#888' stroke-dasharray='4 3'/><rect x='20' y='34' width='120' height='28' rx='4' fill='#fde8e8' stroke='#c0392b'/><text x='80' y='52' font-size='10' text-anchor='middle' fill='#333'>Mine de fer</text><rect x='20' y='84' width='120' height='28' rx='4' fill='#fde8e8' stroke='#c0392b'/><text x='80' y='102' font-size='10' text-anchor='middle' fill='#333'>Aciérie</text><rect x='20' y='134' width='120' height='28' rx='4' fill='#fde8e8' stroke='#c0392b'/><text x='80' y='152' font-size='10' text-anchor='middle' fill='#333'>Usine d'automobiles</text><line x1='80' y1='62' x2='80' y2='84' stroke='#555' stroke-width='2'/><line x1='80' y1='112' x2='80' y2='134' stroke='#555' stroke-width='2'/><rect x='168' y='24' width='144' height='152' rx='6' fill='none' stroke='#888' stroke-dasharray='4 3'/><rect x='180' y='32' width='120' height='22' rx='4' fill='#e8f0fd' stroke='#2c5aa0'/><text x='240' y='47' font-size='10' text-anchor='middle' fill='#333'>Usine d'autos A</text><rect x='180' y='60' width='120' height='22' rx='4' fill='#e8f0fd' stroke='#2c5aa0'/><text x='240' y='75' font-size='10' text-anchor='middle' fill='#333'>Usine d'autos B</text><rect x='180' y='88' width='120' height='22' rx='4' fill='#e8f0fd' stroke='#2c5aa0'/><text x='240' y='103' font-size='10' text-anchor='middle' fill='#333'>Usine d'autos C</text><line x1='240' y1='110' x2='240' y2='132' stroke='#555' stroke-width='2'/><rect x='180' y='134' width='120' height='28' rx='4' fill='#e8f0fd' stroke='#2c5aa0'/><text x='240' y='152' font-size='10' text-anchor='middle' fill='#333'>Une seule firme</text></svg>",
+          "legende": "À gauche, toutes les étapes d'une même production. À droite, des entreprises du même secteur."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Quelle est la différence entre le taylorisme et le fordisme ? 2) Une entreprise possède à la fois une plantation de coton, une filature et une usine de vêtements. De quel type de concentration s'agit-il ? 3) Pourquoi Ford augmente-t-il les salaires en janvier 1914 ?",
+          "solution": "1) Le taylorisme organise le travail (tâches découpées, gestes chronométrés). Le fordisme ajoute le travail à la chaîne et la production standardisée en grande série. 2) C'est une concentration verticale : l'entreprise contrôle toutes les étapes, de la matière première au produit fini. 3) Ford veut garder ses ouvriers et leur permettre d'acheter les voitures produites, ce qui élargit le marché."
+        }
+      ],
+      "lexique": [
+        { "terme": "Taylorisme", "definition": "Organisation scientifique du travail fondée sur le découpage des tâches et le chronométrage." },
+        { "terme": "Fordisme", "definition": "Production en grande série à la chaîne, avec des salaires plus élevés pour créer un marché." },
+        { "terme": "Automatisation", "definition": "Remplacement du travail humain par des machines ou des robots." },
+        { "terme": "Délocalisation", "definition": "Transfert d'une production vers un pays où elle coûte moins cher." },
+        { "terme": "Société anonyme", "definition": "Entreprise dont le capital est divisé en actions détenues par des actionnaires." },
+        { "terme": "Concentration", "definition": "Regroupement d'entreprises pour devenir plus puissantes." }
+      ]
+    },
+    {
+      "id": "hist-2-3",
+      "titre": "Les mutations sociales",
+      "blocs": [
+        {
+          "type": "texte",
+          "texte": "Les transformations de l'économie changent aussi la société : où l'on vit, comment on travaille et ce que l'on consomme."
+        },
+        {
+          "type": "texte",
+          "texte": "Exode rural et urbanisation : les paysans quittent les campagnes pour travailler dans les usines des villes. Les ruraux deviennent minoritaires au Royaume-Uni dès les années 1850, et en Allemagne dans les années 1880."
+        },
+        {
+          "type": "texte",
+          "texte": "Féminisation : de plus en plus de femmes travaillent dans les usines, les bureaux et les services."
+        },
+        {
+          "type": "texte",
+          "texte": "Tertiarisation : les emplois des services (commerce, banques, transports, administration) augmentent par rapport à ceux de l'agriculture et de l'industrie."
+        },
+        {
+          "type": "texte",
+          "texte": "Chômage et migrations : les crises et l'automatisation provoquent du chômage. Beaucoup de personnes émigrent pour trouver du travail."
+        },
+        {
+          "type": "definition",
+          "texte": "Le salaire réel est le salaire mesuré par ce qu'il permet d'acheter, c'est-à-dire corrigé de la hausse des prix. Il mesure le pouvoir d'achat."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Période", "Royaume-Uni", "France", "Allemagne"],
+          "lignes": [
+            ["1879-1886", "100", "100", "100"],
+            ["1887-1895", "114", "108", "110"],
+            ["1895-1903", "124", "115", "115"],
+            ["1903-1908", "119", "127", "117"],
+            ["1909-1914", "116", "128", "114"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Évolution du salaire réel (base 100 en 1879-1886)",
+          "svg": "<svg width='320' height='205' viewBox='0 0 320 205' xmlns='http://www.w3.org/2000/svg'><text x='160' y='14' font-size='11' font-weight='bold' text-anchor='middle' fill='#333'>Indice du salaire réel</text><line x1='40' y1='150' x2='300' y2='150' stroke='#555' stroke-width='1.5'/><line x1='40' y1='30' x2='40' y2='150' stroke='#555' stroke-width='1.5'/><line x1='40' y1='90' x2='300' y2='90' stroke='#ddd'/><line x1='40' y1='30' x2='300' y2='30' stroke='#ddd'/><text x='34' y='153' font-size='9' text-anchor='end' fill='#333'>100</text><text x='34' y='93' font-size='9' text-anchor='end' fill='#333'>115</text><text x='34' y='33' font-size='9' text-anchor='end' fill='#333'>130</text><text x='50' y='165' font-size='8' text-anchor='middle' fill='#333'>1879-86</text><text x='110' y='165' font-size='8' text-anchor='middle' fill='#333'>1887-95</text><text x='170' y='165' font-size='8' text-anchor='middle' fill='#333'>1895-03</text><text x='230' y='165' font-size='8' text-anchor='middle' fill='#333'>1903-08</text><text x='290' y='165' font-size='8' text-anchor='middle' fill='#333'>1909-14</text><polyline points='50,150 110,94 170,54 230,74 290,86' fill='none' stroke='#2c5aa0' stroke-width='2'/><polyline points='50,150 110,118 170,90 230,42 290,38' fill='none' stroke='#c0392b' stroke-width='2'/><polyline points='50,150 110,110 170,90 230,82 290,94' fill='none' stroke='#27ae60' stroke-width='2'/><line x1='20' y1='188' x2='36' y2='188' stroke='#2c5aa0' stroke-width='3'/><text x='40' y='191' font-size='9' fill='#333'>Royaume-Uni</text><line x1='120' y1='188' x2='136' y2='188' stroke='#c0392b' stroke-width='3'/><text x='140' y='191' font-size='9' fill='#333'>France</text><line x1='190' y1='188' x2='206' y2='188' stroke='#27ae60' stroke-width='3'/><text x='210' y='191' font-size='9' fill='#333'>Allemagne</text></svg>",
+          "legende": "Les trois pays connaissent une hausse du pouvoir d'achat entre 1879 et 1914."
+        },
+        {
+          "type": "remarque",
+          "texte": "À partir des années 1960, la production de masse, la hausse des revenus et la publicité donnent naissance à la société de consommation : on achète de plus en plus de biens, même non indispensables."
+        },
+        {
+          "type": "exercice",
+          "enonce": "À l'aide du tableau : 1) De combien de points le salaire réel britannique augmente-t-il entre 1879-1886 et 1895-1903 ? 2) Dans quel pays la hausse est-elle la plus forte entre 1879-1886 et 1909-1914 ? 3) Que se passe-t-il au Royaume-Uni entre 1895-1903 et 1909-1914 ?",
+          "solution": "1) 124 − 100 = 24 points. 2) C'est en France : l'indice passe de 100 à 128, soit 28 points, contre 16 pour le Royaume-Uni et 14 pour l'Allemagne. 3) Le salaire réel britannique baisse : il passe de 124 à 119, puis à 116. Le pouvoir d'achat recule."
+        }
+      ],
+      "lexique": [
+        { "terme": "Exode rural", "definition": "Départ des habitants des campagnes vers les villes." },
+        { "terme": "Féminisation", "definition": "Augmentation de la présence des femmes dans le travail." },
+        { "terme": "Tertiarisation", "definition": "Croissance des emplois dans les services." },
+        { "terme": "Salaire réel", "definition": "Salaire corrigé de l'évolution des prix, qui mesure le pouvoir d'achat." },
+        { "terme": "Société de consommation", "definition": "Société où l'on achète en grande quantité des biens produits en masse." }
+      ]
+    }
+  ]
+}
