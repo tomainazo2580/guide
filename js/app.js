@@ -105,7 +105,9 @@ const EXERCICES_PAR_CLASSE = {
     { id: 'francais', nom: 'Français', icone: '📖', disponible: true,
       fichier: './data/3e/exercices/exercices-francais.json' },
     { id: 'histoire', nom: 'Histoire', icone: '🏛️', disponible: true,
-      fichier: './data/3e/exercices/exercices-histoire.json' }
+      fichier: './data/3e/exercices/exercices-histoire.json' },
+    { id: 'geographie', nom: 'Géographie', icone: '🗺️', disponible: true,
+      fichier: './data/3e/exercices/exercices-geographie.json' }
   ],
   'tle': []
 };
