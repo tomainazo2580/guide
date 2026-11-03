@@ -1,0 +1,305 @@
+{
+  "id": "geo-7",
+  "titre": "La démographie",
+  "lecons": [
+    {
+      "id": "geo-7-1",
+      "titre": "Les indicateurs démographiques",
+      "blocs": [
+        {
+          "type": "remarque",
+          "texte": "Les indicateurs viennent du fascicule et datent d'années différentes (population de 2020, croissance de 2018). Le calcul du temps de doublement n'est pas développé dans le fascicule : il est ajouté ici comme approximation, à compléter avec ton professeur ou ton cahier de cours."
+        },
+        {
+          "type": "definition",
+          "texte": "Démographie : étude des populations humaines (leur nombre, leur répartition, leur structure et leur évolution)."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les indicateurs de Madagascar",
+          "entetes": ["Indicateur", "Valeur", "Sens"],
+          "lignes": [
+            ["Population totale (2020)", "26 955 737 habitants", "Nombre d'habitants"],
+            ["Taux de croissance annuel (2018)", "2,46 %", "Augmentation de la population en une année"],
+            ["Indice de fécondité", "3,95", "Nombre moyen d'enfants par femme"],
+            ["Taux de natalité", "31 ‰", "Naissances par an pour 1 000 habitants"],
+            ["Taux de mortalité", "6,4 ‰", "Décès par an pour 1 000 habitants"],
+            ["Mortalité infantile", "40,1 ‰", "Décès d'enfants de moins d'un an pour 1 000 naissances"],
+            ["Espérance de vie", "66,6 ans (hommes 65,1 ; femmes 68,2)", "Âge moyen auquel on peut espérer vivre"]
+          ]
+        },
+        {
+          "type": "formule",
+          "texte": "Accroissement naturel = taux de natalité − taux de mortalité"
+        },
+        {
+          "type": "texte",
+          "texte": "Pour Madagascar : 31 ‰ − 6,4 ‰ = 24,6 ‰, soit 2,46 %. Ce résultat correspond au taux de croissance annuel indiqué par le fascicule. La population augmente vite parce que la natalité est forte et la mortalité faible."
+        },
+        {
+          "type": "exemple",
+          "texte": "Temps de doublement (règle approximative dite « règle de 70 ») : 70 ÷ 2,46 ≈ 28. Si la croissance restait à 2,46 % par an, la population doublerait en environ 28 ans."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Calcule l'accroissement naturel de Madagascar en ‰, puis en %.\n2) Calcule l'écart d'espérance de vie entre les femmes (68,2 ans) et les hommes (65,1 ans).\n3) Avec une croissance de 2,46 % et une population de 26 955 737 habitants, combien d'habitants s'ajoutent en un an (arrondi au millier) ?\n4) La mortalité infantile est de 40,1 ‰. Combien d'enfants de moins d'un an meurent pour 10 000 naissances ?",
+          "solution": "1) 31 − 6,4 = 24,6 ‰, soit 2,46 %.\n2) 68,2 − 65,1 = 3,1 ans : les femmes vivent en moyenne 3,1 ans de plus.\n3) 26 955 737 × 2,46 ÷ 100 ≈ 663 111, soit environ 663 000 habitants de plus par an.\n4) 40,1 × 10 = 401 enfants pour 10 000 naissances."
+        }
+      ],
+      "lexique": [
+        { "terme": "Démographie", "definition": "Étude de la population : nombre, répartition, structure, évolution." },
+        { "terme": "Natalité", "definition": "Nombre de naissances par an pour 1 000 habitants." },
+        { "terme": "Mortalité", "definition": "Nombre de décès par an pour 1 000 habitants." },
+        { "terme": "Fécondité", "definition": "Nombre moyen d'enfants par femme." },
+        { "terme": "Mortalité infantile", "definition": "Nombre de décès d'enfants de moins d'un an pour 1 000 naissances." },
+        { "terme": "Espérance de vie", "definition": "Nombre moyen d'années que peut espérer vivre une personne." },
+        { "terme": "Accroissement naturel", "definition": "Différence entre la natalité et la mortalité." }
+      ]
+    },
+    {
+      "id": "geo-7-2",
+      "titre": "L'évolution de la population",
+      "blocs": [
+        {
+          "type": "remarque",
+          "texte": "Le tableau d'évolution du fascicule contient une ligne (année 1957) dont les chiffres sont invraisemblables : elle n'est pas reprise ici. Les causes de la croissance sont données de façon générale : à compléter avec ton professeur ou ton cahier de cours."
+        },
+        {
+          "type": "tableau",
+          "titre": "L'évolution de la population de Madagascar",
+          "entetes": ["Année", "Population"],
+          "lignes": [
+            ["1950", "4 143 000 habitants"],
+            ["2000", "environ 16 000 000 habitants"],
+            ["2020", "26 955 737 habitants"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "La population de 1950 à 2020 (en millions)",
+          "svg": "<svg width='300' height='215' viewBox='0 0 300 215' xmlns='http://www.w3.org/2000/svg'><text x='150' y='12' text-anchor='middle' font-size='11' font-weight='bold' fill='#222'>Population (millions d'habitants)</text><line x1='20' y1='190' x2='290' y2='190' stroke='#888'/><rect x='40' y='165' width='50' height='25' fill='#81c784'/><rect x='125' y='94' width='50' height='96' fill='#64b5f6'/><rect x='210' y='28' width='50' height='162' fill='#ffb74d'/><text x='65' y='161' text-anchor='middle' font-size='10' fill='#222'>4,1</text><text x='150' y='90' text-anchor='middle' font-size='10' fill='#222'>16</text><text x='235' y='24' text-anchor='middle' font-size='10' fill='#222'>27</text><text x='65' y='205' text-anchor='middle' font-size='10' fill='#222'>1950</text><text x='150' y='205' text-anchor='middle' font-size='10' fill='#222'>2000</text><text x='235' y='205' text-anchor='middle' font-size='10' fill='#222'>2020</text></svg>",
+          "legende": "En 70 ans, la population a été multipliée par plus de 6."
+        },
+        {
+          "type": "texte",
+          "texte": "Aujourd'hui, la population est d'environ 27 millions d'habitants, dont 83 % vivent en milieu rural et 17 % en milieu urbain. La croissance rapide s'explique par une natalité qui reste forte, alors que la mortalité a baissé grâce aux progrès de la santé (vaccination, soins). La population reste donc très jeune et continue d'augmenter."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Par combien la population a-t-elle été multipliée entre 1950 (4 143 000) et 2020 (26 955 737) ? Arrondis au dixième.\n2) Calcule l'augmentation de la population entre 2000 (16 000 000) et 2020.\n3) Calcule l'augmentation moyenne par an pendant ces 20 ans (arrondie au millier).\n4) Pour une population d'environ 27 millions, calcule le nombre d'habitants vivant en milieu rural (83 %) et en milieu urbain (17 %).",
+          "solution": "1) 26 955 737 ÷ 4 143 000 ≈ 6,5 : la population a été multipliée par environ 6,5.\n2) 26 955 737 − 16 000 000 = 10 955 737 habitants.\n3) 10 955 737 ÷ 20 ≈ 547 787, soit environ 548 000 habitants par an.\n4) Rural : 27 000 000 × 0,83 = 22 410 000. Urbain : 27 000 000 × 0,17 = 4 590 000."
+        }
+      ],
+      "lexique": [
+        { "terme": "Croissance démographique", "definition": "Augmentation du nombre d'habitants d'un pays." },
+        { "terme": "Milieu rural", "definition": "Campagne : villages et espaces agricoles." },
+        { "terme": "Milieu urbain", "definition": "Ville : espace où la population est groupée et les activités variées." },
+        { "terme": "Recensement", "definition": "Opération qui consiste à compter la population d'un pays." },
+        { "terme": "Population jeune", "definition": "Population où les enfants et les jeunes sont nombreux." }
+      ]
+    },
+    {
+      "id": "geo-7-3",
+      "titre": "Les migrations",
+      "blocs": [
+        {
+          "type": "remarque",
+          "texte": "Le fascicule présente des tableaux de l'OIM (2011-2012) sur les étrangers installés à Madagascar : nationalité, décennie de naissance, motif de séjour. Ces tableaux ne sont pas reproduits ici. Les formes, causes et conséquences sont données de façon générale : à compléter avec ton professeur ou ton cahier de cours."
+        },
+        {
+          "type": "definition",
+          "texte": "Migration : déplacement de personnes d'un lieu vers un autre pour s'y installer, de façon durable ou temporaire."
+        },
+        {
+          "type": "texte",
+          "texte": "Quelques mots à distinguer :\n• l'émigration : le départ d'un pays (vue du pays de départ) ;\n• l'immigration : l'arrivée dans un pays (vue du pays d'accueil) ;\n• le solde migratoire : nombre d'arrivées − nombre de départs."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Formes", "Exemples"],
+          "lignes": [
+            ["Migration interne (dans le pays)", "Départ d'un village vers la ville : c'est l'exode rural"],
+            ["Migration internationale", "Départ pour étudier ou travailler à l'étranger ; arrivée d'étrangers à Madagascar"],
+            ["Migration temporaire ou saisonnière", "Travail pendant une saison, études de quelques années"],
+            ["Migration définitive", "Installation durable dans un autre lieu"]
+          ]
+        },
+        {
+          "type": "texte",
+          "texte": "Les causes des migrations :\n• économiques : chercher du travail ou un meilleur revenu ;\n• éducatives : poursuivre des études ;\n• familiales : rejoindre un proche, se marier ;\n• liées à la sécurité : fuir l'insécurité ou un conflit ;\n• naturelles : fuir un cyclone, une inondation ou la sécheresse."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les conséquences des migrations",
+          "entetes": ["Lieu de départ", "Lieu d'accueil"],
+          "lignes": [
+            ["Perte de main-d'œuvre jeune", "Main-d'œuvre supplémentaire pour les activités"],
+            ["Villages ou régions qui se vident", "Croissance rapide de la population, surtout dans les villes"],
+            ["Argent envoyé par les migrants à leur famille", "Besoins en logements, écoles, santé, transports"],
+            ["Moins de bras pour l'agriculture", "Risque de chômage, de bidonvilles et de pression sur les services"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Classe chaque cas : migration interne, émigration ou immigration (du point de vue de Madagascar).\nA. Une famille quitte son village du Sud pour s'installer à Antananarivo.\nB. Une étudiante malgache part étudier à l'étranger.\nC. Une personne d'un autre pays vient s'installer à Madagascar.\n2) Dans une ville fictive, 1 200 personnes sont arrivées et 800 sont parties en un an. Calcule le solde migratoire. Que peux-tu en conclure ?\n3) Cite deux causes de migration et deux conséquences pour le lieu de départ.",
+          "solution": "1) A : migration interne (exode rural). B : émigration. C : immigration.\n2) 1 200 − 800 = +400 : le solde migratoire est positif, la ville gagne des habitants grâce aux migrations.\n3) Causes, par exemple : chercher du travail ; poursuivre des études. Conséquences pour le lieu de départ, par exemple : perte de main-d'œuvre jeune ; villages qui se vident (ou argent envoyé par les migrants)."
+        }
+      ],
+      "lexique": [
+        { "terme": "Migration", "definition": "Déplacement de personnes pour s'installer ailleurs." },
+        { "terme": "Émigration", "definition": "Départ d'un pays pour s'installer dans un autre." },
+        { "terme": "Immigration", "definition": "Arrivée dans un pays pour s'y installer." },
+        { "terme": "Solde migratoire", "definition": "Différence entre le nombre d'arrivées et le nombre de départs." },
+        { "terme": "Exode rural", "definition": "Départ de la population de la campagne vers la ville." },
+        { "terme": "Bidonville", "definition": "Quartier de logements précaires, souvent sans eau ni électricité." }
+      ]
+    },
+    {
+      "id": "geo-7-4",
+      "titre": "La répartition de la population",
+      "blocs": [
+        {
+          "type": "remarque",
+          "texte": "Le fascicule calcule la densité avec une superficie de 92 000 km² et indique une densité « inférieure à 40 ». Or la superficie de Madagascar est d'environ 587 000 km², et le calcul donne environ 46 habitants par km². C'est cette valeur qui est utilisée ici : à vérifier avec ton professeur. Les causes de la répartition sont données de façon générale."
+        },
+        {
+          "type": "definition",
+          "texte": "Densité de population : nombre moyen d'habitants par kilomètre carré."
+        },
+        {
+          "type": "formule",
+          "texte": "Densité = nombre d'habitants ÷ superficie (en km²)"
+        },
+        {
+          "type": "exemple",
+          "texte": "Madagascar : 26 955 737 ÷ 587 000 ≈ 46 habitants par km² (valeur moyenne)."
+        },
+        {
+          "type": "tableau",
+          "titre": "Une population inégalement répartie",
+          "entetes": ["Régions", "Peuplement", "Explications possibles"],
+          "lignes": [
+            ["Hautes Terres centrales", "Fortement peuplées", "Sols et plaines favorables à la riziculture, climat plus frais, grandes villes, services"],
+            ["Est", "Fortement peuplé", "Pluies abondantes, cultures de rente, port de Toamasina"],
+            ["Ouest", "Faiblement peuplé", "Vastes espaces d'élevage, climat à saison sèche marquée, enclavement"],
+            ["Sud", "Faiblement peuplé", "Climat sec, sécheresse, eau rare"]
+          ]
+        },
+        {
+          "type": "texte",
+          "texte": "La population est aussi inégalement répartie entre la ville et la campagne : 83 % de la population vit à la campagne et 17 % en ville. Les villes grandissent vite à cause de l'exode rural et de la croissance naturelle."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Calcule la densité moyenne de Madagascar (26 955 737 habitants ; environ 587 000 km²), arrondie à l'unité.\n2) Deux régions fictives : la région X, de 30 000 km², compte 1 500 000 habitants ; la région Y, de 80 000 km², compte 800 000 habitants. Calcule leur densité.\n3) Laquelle ressemble le plus à une région du Sud ou de l'Ouest ? Pourquoi ?\n4) Donne deux raisons de la forte densité des Hautes Terres.",
+          "solution": "1) 26 955 737 ÷ 587 000 ≈ 45,9, soit environ 46 habitants par km².\n2) X : 1 500 000 ÷ 30 000 = 50 habitants par km². Y : 800 000 ÷ 80 000 = 10 habitants par km².\n3) La région Y : sa densité est très faible, comme dans le Sud ou l'Ouest, peu peuplés.\n4) Par exemple : les sols et les plaines favorables à la riziculture, un climat plus frais, la présence de grandes villes et de services."
+        }
+      ],
+      "lexique": [
+        { "terme": "Densité", "definition": "Nombre d'habitants par kilomètre carré." },
+        { "terme": "Peuplement", "definition": "Manière dont une population occupe un espace." },
+        { "terme": "Superficie", "definition": "Étendue d'un territoire, mesurée en km²." },
+        { "terme": "Région fortement peuplée", "definition": "Région où la densité est élevée." },
+        { "terme": "Urbanisation", "definition": "Croissance des villes et de la part de la population qui y vit." }
+      ]
+    },
+    {
+      "id": "geo-7-5",
+      "titre": "La structure de la population",
+      "blocs": [
+        {
+          "type": "remarque",
+          "texte": "Le rapport de dépendance est ajouté ici : il n'est pas traité dans le fascicule. La liste des 18 groupes ethniques est lue sur la carte du fascicule et n'est pas détaillée dans le texte : à vérifier et à compléter avec ton professeur."
+        },
+        {
+          "type": "definition",
+          "texte": "Structure de la population : manière dont la population se répartit par âge et par sexe."
+        },
+        {
+          "type": "tableau",
+          "titre": "La population par grands groupes d'âge",
+          "entetes": ["Groupe d'âge", "Part de la population"],
+          "lignes": [
+            ["0 à 14 ans (jeunes)", "39,55 %"],
+            ["15 à 64 ans (adultes)", "57,1 %"],
+            ["65 ans et plus (personnes âgées)", "3,35 %"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Les grands groupes d'âge",
+          "svg": "<svg width='300' height='110' viewBox='0 0 300 110' xmlns='http://www.w3.org/2000/svg'><text x='150' y='16' text-anchor='middle' font-size='11' font-weight='bold' fill='#222'>Part de chaque groupe d'âge (%)</text><rect x='10' y='30' width='111' height='40' fill='#81c784'/><rect x='121' y='30' width='160' height='40' fill='#64b5f6'/><rect x='281' y='30' width='9' height='40' fill='#ffb74d'/><text x='65' y='48' text-anchor='middle' font-size='10' fill='#222'>0-14 ans</text><text x='65' y='62' text-anchor='middle' font-size='10' fill='#222'>39,55 %</text><text x='201' y='48' text-anchor='middle' font-size='10' fill='#222'>15-64 ans</text><text x='201' y='62' text-anchor='middle' font-size='10' fill='#222'>57,1 %</text><line x1='285' y1='70' x2='285' y2='86' stroke='#888'/><text x='290' y='100' text-anchor='end' font-size='10' fill='#222'>65 ans et plus : 3,35 %</text></svg>",
+          "legende": "Presque quatre habitants sur dix ont moins de 15 ans."
+        },
+        {
+          "type": "texte",
+          "texte": "La pyramide des âges représente la population par âge et par sexe : les hommes d'un côté, les femmes de l'autre, les âges de bas en haut. Celle de Madagascar a une base très large et un sommet étroit (le fascicule la décrit en forme de « parasol ») : c'est la pyramide d'une population jeune, avec une forte natalité et une espérance de vie encore limitée.\nLe sex-ratio est le nombre d'hommes pour 100 femmes."
+        },
+        {
+          "type": "formule",
+          "texte": "Rapport de dépendance = (jeunes de 0-14 ans + personnes de 65 ans et plus) ÷ adultes de 15-64 ans"
+        },
+        {
+          "type": "texte",
+          "texte": "Madagascar compte aussi 18 groupes ethniques (ou groupes culturels) : Antaifasy, Antaimoro, Antaisaka, Antambahoaka, Antankarana, Antanosy, Antandroy, Bara, Betsileo, Betsimisaraka, Bezanozano, Mahafaly, Merina, Sakalava, Sihanaka, Tanala, Tsimihety, Zafisoro."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Calcule la part des personnes de moins de 15 ans et de 65 ans et plus. Vérifie que les trois groupes font bien 100 %.\n2) Calcule le rapport de dépendance (arrondi au centième) et explique ce résultat.\n3) Combien d'enfants de moins de 15 ans compte Madagascar (26 955 737 habitants), arrondi au dixième de million ?\n4) Pourquoi la pyramide des âges de Madagascar a-t-elle une base large ?",
+          "solution": "1) 39,55 + 3,35 = 42,9 %. Et 39,55 + 57,1 + 3,35 = 100 %.\n2) 42,9 ÷ 57,1 ≈ 0,75 : pour 100 adultes de 15-64 ans, il y a environ 75 jeunes ou personnes âgées à nourrir et à éduquer.\n3) 26 955 737 × 0,3955 ≈ 10 661 000, soit environ 10,7 millions d'enfants.\n4) La natalité est forte (31 ‰) : les naissances sont nombreuses, donc les jeunes générations sont plus nombreuses que les anciennes."
+        }
+      ],
+      "lexique": [
+        { "terme": "Structure par âge", "definition": "Répartition de la population selon l'âge." },
+        { "terme": "Pyramide des âges", "definition": "Graphique qui montre la population par âge et par sexe." },
+        { "terme": "Sex-ratio", "definition": "Nombre d'hommes pour 100 femmes." },
+        { "terme": "Rapport de dépendance", "definition": "Rapport entre les personnes qui ne travaillent pas encore ou plus (jeunes et âgés) et les adultes." },
+        { "terme": "Groupe ethnique", "definition": "Groupe de personnes qui partagent une même culture, une même langue et une même histoire." }
+      ]
+    },
+    {
+      "id": "geo-7-6",
+      "titre": "Population, économie et pauvreté",
+      "blocs": [
+        {
+          "type": "remarque",
+          "texte": "Les chiffres du tableau viennent de la Banque mondiale (2016). D'autres passages du cours donnent d'autres valeurs pour l'emploi selon la source et l'année : ne les mélange pas dans un même calcul. Les problèmes liés à la croissance de la population sont donnés de façon générale : à compléter avec ton professeur."
+        },
+        {
+          "type": "tableau",
+          "titre": "L'économie par secteur en 2016 (Banque mondiale)",
+          "entetes": ["", "Primaire", "Secondaire", "Tertiaire"],
+          "lignes": [
+            ["Part de l'emploi (%)", "75,3", "7,9", "16,9"],
+            ["Part de la valeur ajoutée (%)", "25,6", "15,7", "58,7"],
+            ["Croissance (%)", "−0,9", "7,7", "3,2"]
+          ]
+        },
+        {
+          "type": "texte",
+          "texte": "Ce tableau montre que :\n• le secteur primaire emploie les trois quarts des actifs mais ne produit qu'un quart de la richesse : il est peu productif ;\n• le secteur tertiaire produit plus de la moitié de la richesse avec moins d'un cinquième des actifs ;\n• le secteur secondaire croît le plus vite (7,7 %), alors que le primaire recule (−0,9 %)."
+        },
+        {
+          "type": "texte",
+          "texte": "La pauvreté est très répandue : d'après le fascicule, 81 % de la population vivait sous le seuil de pauvreté en 2021 (un autre passage du cours donne 75 % en 2022 : l'estimation varie selon la source)."
+        },
+        {
+          "type": "texte",
+          "texte": "La croissance rapide de la population pose des problèmes :\n• éducation : il faut construire des écoles et former des enseignants pour une population très jeune ;\n• santé : besoin de centres de soins, de médicaments, de vaccination ;\n• emploi : chaque année, de nombreux jeunes arrivent sur le marché du travail ;\n• alimentation : il faut nourrir une population de plus en plus nombreuse ;\n• environnement : la pression sur les forêts, les sols et l'eau augmente."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Utilise le tableau de la Banque mondiale (2016).\n1) Calcule, pour chaque secteur, le rapport « part de la valeur ajoutée ÷ part de l'emploi » (arrondi au dixième). Que mesure-t-il ?\n2) Quel secteur est le plus productif ? Le moins productif ?\n3) Avec 81 % de pauvres et environ 27 millions d'habitants, combien de personnes vivent sous le seuil de pauvreté (arrondi au dixième de million) ?\n4) Rédige un paragraphe d'environ cinq lignes expliquant pourquoi la croissance rapide de la population pose des problèmes à Madagascar.",
+          "solution": "1) Primaire : 25,6 ÷ 75,3 ≈ 0,3. Secondaire : 15,7 ÷ 7,9 ≈ 2,0. Tertiaire : 58,7 ÷ 16,9 ≈ 3,5. Ce rapport mesure la richesse produite par actif : plus il est élevé, plus le secteur est productif.\n2) Le plus productif : le tertiaire (3,5). Le moins productif : le primaire (0,3).\n3) 27 000 000 × 0,81 = 21 870 000, soit environ 21,9 millions de personnes.\n4) Exemple : « La population de Madagascar augmente de plus de 2 % par an et reste très jeune. Il faut donc construire toujours plus d'écoles et de centres de santé. Chaque année, de nombreux jeunes cherchent un emploi, alors que l'économie crée peu d'emplois en dehors de l'agriculture. Il faut aussi nourrir davantage de personnes, ce qui pousse à défricher les forêts et à épuiser les sols. La croissance démographique rend donc la lutte contre la pauvreté plus difficile. »"
+        }
+      ],
+      "lexique": [
+        { "terme": "Valeur ajoutée", "definition": "Richesse créée par une activité ou un secteur." },
+        { "terme": "Productivité", "definition": "Richesse produite par chaque actif." },
+        { "terme": "Population active", "definition": "Personnes qui travaillent ou cherchent un travail." },
+        { "terme": "Seuil de pauvreté", "definition": "Niveau de revenu en dessous duquel une personne est considérée comme pauvre." },
+        { "terme": "Marché du travail", "definition": "Ensemble des personnes qui offrent leur travail et des emplois disponibles." }
+      ]
+    }
+  ]
+}
