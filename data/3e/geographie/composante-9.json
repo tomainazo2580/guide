@@ -1,0 +1,125 @@
+{
+  "id": "geo-9",
+  "titre": "La lutte contre la pauvreté",
+  "lecons": [
+    {
+      "id": "geo-9-1",
+      "titre": "La pauvreté et les solutions",
+      "blocs": [
+        {
+          "type": "remarque",
+          "texte": "Le fascicule donne la définition de la pauvreté, puis cite des solutions par plan (politique, diplomatique, social, économique, culturel) sans les développer. Les explications et les exemples de cette leçon sont donnés de façon générale : à compléter avec ton professeur ou ton cahier de cours."
+        },
+        {
+          "type": "definition",
+          "texte": "Pauvreté : situation d'une personne ou d'une famille dont les revenus ne suffisent pas à satisfaire les besoins essentiels (se nourrir, se loger, se soigner, s'instruire)."
+        },
+        {
+          "type": "texte",
+          "texte": "À Madagascar, la pauvreté touche la grande majorité de la population : 81 % des habitants vivaient sous le seuil de pauvreté en 2021 d'après le fascicule (un autre passage du cours donne 75 % en 2022 : l'estimation varie selon la source et l'année). Elle est plus forte à la campagne qu'en ville."
+        },
+        {
+          "type": "schema",
+          "titre": "Le cercle vicieux de la pauvreté",
+          "svg": "<svg width='300' height='165' viewBox='0 0 300 165' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='6' width='240' height='30' fill='#ffe0b2' stroke='#888'/><rect x='20' y='46' width='240' height='30' fill='#ffccbc' stroke='#888'/><rect x='20' y='86' width='240' height='30' fill='#fff9c4' stroke='#888'/><rect x='20' y='126' width='240' height='30' fill='#ef9a9a' stroke='#888'/><text x='140' y='25' text-anchor='middle' font-size='10' fill='#222'>Faibles revenus</text><text x='140' y='65' text-anchor='middle' font-size='10' fill='#222'>Peu d'école, de soins, d'épargne</text><text x='140' y='105' text-anchor='middle' font-size='10' fill='#222'>Faible productivité, peu d'emplois</text><text x='140' y='145' text-anchor='middle' font-size='10' fill='#222'>La pauvreté se transmet</text><line x1='140' y1='36' x2='140' y2='40' stroke='#888'/><polygon points='140,46 136,40 144,40' fill='#888'/><line x1='140' y1='76' x2='140' y2='80' stroke='#888'/><polygon points='140,86 136,80 144,80' fill='#888'/><line x1='140' y1='116' x2='140' y2='120' stroke='#888'/><polygon points='140,126 136,120 144,120' fill='#888'/><polyline points='260,141 285,141 285,21 266,21' fill='none' stroke='#888'/><polygon points='260,21 266,17 266,25' fill='#888'/></svg>",
+          "legende": "La dernière étape ramène à la première : pour sortir du cercle, il faut agir sur plusieurs plans à la fois."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les solutions par plan",
+          "entetes": ["Plan", "Exemples de solutions"],
+          "lignes": [
+            ["Politique", "Bonne gestion des affaires publiques, lutte contre la corruption, sécurité et stabilité du pays"],
+            ["Diplomatique", "Coopération avec d'autres pays et organisations, aides au développement, accords commerciaux"],
+            ["Social", "Écoles, centres de santé, accès à l'eau potable, protection des plus pauvres"],
+            ["Économique", "Création d'emplois, soutien à l'agriculture et à l'élevage, petites entreprises, routes et électricité"],
+            ["Culturel", "Éducation civique, valorisation du travail, de l'artisanat et du patrimoine, changement de certaines habitudes qui freinent le développement"]
+          ]
+        },
+        {
+          "type": "texte",
+          "texte": "Deux conditions du développement :\n• les routes : elles désenclavent les villages, permettent de vendre les produits sur les marchés et d'aller à l'école ou au centre de santé ;\n• l'électricité : elle permet de faire fonctionner des ateliers, des machines, des écoles et des centres de santé, et de conserver les produits."
+        },
+        {
+          "type": "texte",
+          "texte": "L'élevage, une activité qui peut réduire la pauvreté si l'on agit sur trois points :\n• la résilience : la capacité à résister aux chocs (maladies du bétail, sécheresse, vols, cyclones), par exemple grâce à la vaccination et à l'entraide ;\n• la productivité : produire plus et mieux avec les mêmes moyens (meilleures races, alimentation adaptée, soins vétérinaires) ;\n• l'accès aux marchés : pouvoir vendre ses animaux et ses produits à un bon prix, grâce aux routes, aux moyens de transport et à l'information sur les prix."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Classe chaque mesure par plan (politique, diplomatique, social, économique ou culturel).\nA. Lutter contre la corruption.\nB. Construire un centre de santé dans un village.\nC. Signer un accord de coopération avec un pays partenaire.\nD. Construire une route entre un village et le marché.\nE. Organiser une campagne qui valorise le travail et l'artisanat local.\n2) Exemple fictif : dans un village de 2 000 habitants, 1 400 vivent sous le seuil de pauvreté. Calcule le pourcentage de pauvres. Après un programme, il reste 1 100 pauvres : calcule le nouveau pourcentage, puis la baisse en points de pourcentage.\n3) Explique en deux phrases pourquoi une route aide un éleveur à sortir de la pauvreté.",
+          "solution": "1) A : politique. B : social. C : diplomatique. D : économique. E : culturel.\n2) Avant : 1 400 ÷ 2 000 = 0,70, soit 70 %. Après : 1 100 ÷ 2 000 = 0,55, soit 55 %. La baisse est de 70 − 55 = 15 points de pourcentage.\n3) La route permet à l'éleveur de transporter ses animaux et de les vendre sur un marché plus éloigné, à un meilleur prix. Elle facilite aussi l'arrivée du vétérinaire et des aliments pour le bétail."
+        }
+      ],
+      "lexique": [
+        { "terme": "Pauvreté", "definition": "Situation où les revenus ne suffisent pas à satisfaire les besoins essentiels." },
+        { "terme": "Seuil de pauvreté", "definition": "Niveau de revenu en dessous duquel une personne est considérée comme pauvre." },
+        { "terme": "Corruption", "definition": "Abus d'une fonction pour obtenir de l'argent ou des avantages de façon malhonnête." },
+        { "terme": "Coopération", "definition": "Aide et collaboration entre pays ou organisations." },
+        { "terme": "Désenclavement", "definition": "Action de rendre un lieu accessible, par exemple en construisant une route." },
+        { "terme": "Résilience", "definition": "Capacité à résister à un choc et à se relever." },
+        { "terme": "Productivité", "definition": "Quantité produite avec les moyens et le temps disponibles." }
+      ]
+    },
+    {
+      "id": "geo-9-2",
+      "titre": "Le mini-projet de PME",
+      "blocs": [
+        {
+          "type": "remarque",
+          "texte": "Le fascicule cite les éléments d'un mini-projet de PME (ressources, faisabilité, débouchés, besoins de la société, maquette) et un exemple de « projet fihariana », sans le détailler. Le modèle de cette leçon est un exemple inventé, avec des chiffres fictifs : à compléter avec ton professeur ou ton cahier de cours."
+        },
+        {
+          "type": "definition",
+          "texte": "PME : petite ou moyenne entreprise, c'est-à-dire une entreprise de taille modeste. Un projet de PME est le plan d'une activité économique que l'on veut créer (en malgache, un « fihariana »)."
+        },
+        {
+          "type": "texte",
+          "texte": "Pour construire un mini-projet de PME, on se pose plusieurs questions :\n• les besoins de la société : quel besoin des habitants le projet va-t-il satisfaire ?\n• les ressources : de quoi a-t-on besoin pour réaliser le projet ?\n• la faisabilité : le projet est-il réalisable avec les moyens et les compétences disponibles ?\n• les débouchés : à qui va-t-on vendre, et où ?\n• la maquette : une présentation du projet (plan, dessin ou schéma) qui montre comment il fonctionnera."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les trois sortes de ressources",
+          "entetes": ["Ressources", "Question à se poser", "Exemples"],
+          "lignes": [
+            ["Humaines", "Qui travaillera dans le projet ?", "Le porteur du projet, des membres de la famille, des employés"],
+            ["Matérielles", "De quel matériel et de quels locaux a-t-on besoin ?", "Bâtiment, outils, machines, matières premières"],
+            ["Financières", "Avec quel argent démarre-t-on ?", "Épargne, aide de la famille, crédit"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Les étapes d'un mini-projet",
+          "svg": "<svg width='300' height='205' viewBox='0 0 300 205' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='6' width='260' height='30' fill='#c8e6c9' stroke='#888'/><rect x='20' y='46' width='260' height='30' fill='#fff9c4' stroke='#888'/><rect x='20' y='86' width='260' height='30' fill='#bbdefb' stroke='#888'/><rect x='20' y='126' width='260' height='30' fill='#e1bee7' stroke='#888'/><rect x='20' y='166' width='260' height='30' fill='#ffccbc' stroke='#888'/><text x='150' y='25' text-anchor='middle' font-size='10' fill='#222'>1. Repérer un besoin de la société</text><text x='150' y='65' text-anchor='middle' font-size='10' fill='#222'>2. Lister les ressources nécessaires</text><text x='150' y='105' text-anchor='middle' font-size='10' fill='#222'>3. Vérifier la faisabilité</text><text x='150' y='145' text-anchor='middle' font-size='10' fill='#222'>4. Trouver les débouchés</text><text x='150' y='185' text-anchor='middle' font-size='10' fill='#222'>5. Présenter la maquette du projet</text><line x1='150' y1='36' x2='150' y2='40' stroke='#888'/><polygon points='150,46 146,40 154,40' fill='#888'/><line x1='150' y1='76' x2='150' y2='80' stroke='#888'/><polygon points='150,86 146,80 154,80' fill='#888'/><line x1='150' y1='116' x2='150' y2='120' stroke='#888'/><polygon points='150,126 146,120 154,120' fill='#888'/><line x1='150' y1='156' x2='150' y2='160' stroke='#888'/><polygon points='150,166 146,160 154,160' fill='#888'/></svg>",
+          "legende": "L'ordre peut varier, mais chaque étape doit être traitée avant de se lancer."
+        },
+        {
+          "type": "formule",
+          "texte": "Bénéfice = recettes − charges"
+        },
+        {
+          "type": "exemple",
+          "texte": "Modèle fictif : un petit élevage de 50 poules pondeuses.\n• Besoin de la société : les habitants du quartier achètent des œufs.\n• Ressources humaines : une personne et un membre de la famille. Ressources matérielles : un poulailler, des mangeoires, de l'aliment. Ressources financières : 900 000 Ar (poulailler : 300 000 Ar ; 50 poules à 12 000 Ar : 600 000 Ar).\n• Faisabilité : l'éleveur sait s'occuper de volailles et a de la place.\n• Débouchés : voisins, épiceries et marché du quartier.\n• Chiffres mensuels : recettes de 500 000 Ar, charges de 300 000 Ar (aliments et soins), donc un bénéfice de 500 000 − 300 000 = 200 000 Ar par mois.\n• Durée pour récupérer l'investissement : 900 000 ÷ 200 000 = 4,5 mois."
+        },
+        {
+          "type": "remarque",
+          "texte": "Les chiffres du modèle sont inventés pour montrer la méthode de calcul. Dans un vrai projet, il faut tenir compte des risques (maladies, hausse du prix de l'aliment) et vérifier les prix réels."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Exemple fictif : une jeune femme veut créer un atelier de fabrication de jus de fruits. L'investissement de départ est de 600 000 Ar. Chaque mois, elle prévoit 450 000 Ar de recettes et 300 000 Ar de charges.\n1) Calcule le bénéfice mensuel.\n2) En combien de mois récupère-t-elle son investissement ?\n3) Cite une ressource humaine, une ressource matérielle et une ressource financière de ce projet.\n4) Rédige un paragraphe d'environ cinq lignes expliquant comment un mini-projet de PME peut aider un village à lutter contre la pauvreté.",
+          "solution": "1) 450 000 − 300 000 = 150 000 Ar par mois.\n2) 600 000 ÷ 150 000 = 4 : elle récupère son investissement en 4 mois.\n3) Par exemple : ressource humaine : la jeune femme et une aide familiale ; ressource matérielle : les fruits, les bouteilles, un local ; ressource financière : l'épargne ou le crédit de 600 000 Ar.\n4) Exemple : « Un mini-projet de PME crée une activité nouvelle dans le village. Il offre du travail à plusieurs personnes, qui gagnent un revenu régulier. Il utilise les produits locaux, ce qui profite aussi aux agriculteurs qui les vendent. Avec ces revenus, les familles peuvent mieux se nourrir, se soigner et envoyer leurs enfants à l'école. Le projet contribue ainsi à sortir du cercle vicieux de la pauvreté. »"
+        }
+      ],
+      "lexique": [
+        { "terme": "PME", "definition": "Petite ou moyenne entreprise." },
+        { "terme": "Fihariana", "definition": "Mot malgache désignant une activité économique ou une entreprise." },
+        { "terme": "Faisabilité", "definition": "Caractère d'un projet qui peut être réalisé avec les moyens disponibles." },
+        { "terme": "Débouché", "definition": "Possibilité de vendre ce que l'on produit, à des clients précis." },
+        { "terme": "Investissement", "definition": "Somme dépensée au départ pour lancer une activité." },
+        { "terme": "Recettes", "definition": "Argent gagné par la vente des produits ou des services." },
+        { "terme": "Charges", "definition": "Dépenses nécessaires pour faire fonctionner l'activité." },
+        { "terme": "Maquette", "definition": "Présentation du projet sous forme de plan, de dessin ou de modèle réduit." }
+      ]
+    }
+  ]
+}
