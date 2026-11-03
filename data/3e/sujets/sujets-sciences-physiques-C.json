@@ -1,0 +1,73 @@
+{
+  "matiere": "sciences-physiques",
+  "type": "sujets-types",
+  "partie": "C",
+  "partieTitre": "Électricité",
+  "mention": "Sujet d'entraînement rédigé pour Guide d'après le programme officiel. Corrigé vérifié par calcul.",
+  "exercices": [
+    {
+      "id": "st-SP-15",
+      "domaine": "electricite",
+      "domaineTitre": "Électricité",
+      "titre": "La loi d'Ohm",
+      "enonce": "Un conducteur ohmique est soumis à une tension U = 6 V. Il est traversé par un courant d'intensité I = 0,2 A.\n\n1) Énoncer la loi d'Ohm (avec les unités de chaque grandeur).\n2) Calculer la résistance R de ce conducteur.\n3) Un autre conducteur ohmique a une résistance R' = 100 Ω.\na) Calculer la tension à ses bornes quand il est traversé par un courant de 0,05 A.\nb) Calculer l'intensité du courant qui le traverse quand la tension est de 12 V.\n4) Pour le conducteur de 100 Ω, donner les coordonnées de deux points de sa caractéristique (tension en fonction de l'intensité). Quelle est l'allure de cette caractéristique ?",
+      "solution": "1) Loi d'Ohm : U = R × I, avec U en volts (V), R en ohms (Ω) et I en ampères (A).\n\n2) R = U / I = 6 / 0,2 = 30 Ω.\n\n3) a) U = R' × I = 100 × 0,05 = 5 V.\nb) I = U / R' = 12 / 100 = 0,12 A.\n\n4) Deux points possibles : (I = 0 A ; U = 0 V) et (I = 0,1 A ; U = 100 × 0,1 = 10 V). On peut aussi prendre (0,2 A ; 20 V).\nLa caractéristique d'un conducteur ohmique est une droite qui passe par l'origine."
+    },
+    {
+      "id": "st-SP-16",
+      "domaine": "electricite",
+      "domaineTitre": "Électricité",
+      "titre": "Trois résistances en série",
+      "enonce": "Trois conducteurs ohmiques R1 = 10 Ω, R2 = 20 Ω et R3 = 30 Ω sont branchés en série aux bornes d'un générateur qui donne une tension U = 12 V.\n\n1) Que peut-on dire de l'intensité du courant dans les trois conducteurs ?\n2) Calculer la résistance équivalente Réq.\n3) Calculer l'intensité I du courant dans le circuit.\n4) Calculer les tensions U1, U2 et U3 aux bornes de chaque conducteur.\n5) Vérifier que U = U1 + U2 + U3.",
+      "solution": "1) Dans un montage en série, l'intensité est la même dans tous les conducteurs.\n\n2) Réq = R1 + R2 + R3 = 10 + 20 + 30 = 60 Ω.\n\n3) I = U / Réq = 12 / 60 = 0,2 A.\n\n4) U1 = R1 × I = 10 × 0,2 = 2 V.\nU2 = R2 × I = 20 × 0,2 = 4 V.\nU3 = R3 × I = 30 × 0,2 = 6 V.\n\n5) U1 + U2 + U3 = 2 + 4 + 6 = 12 V = U ✓."
+    },
+    {
+      "id": "st-SP-17",
+      "domaine": "electricite",
+      "domaineTitre": "Électricité",
+      "titre": "Deux résistances en dérivation",
+      "enonce": "Deux conducteurs ohmiques R1 = 30 Ω et R2 = 60 Ω sont branchés en dérivation aux bornes d'un générateur qui donne une tension U = 12 V.\n\n1) Que peut-on dire de la tension aux bornes de chaque conducteur ?\n2) Calculer la résistance équivalente Réq (relation : 1/Réq = 1/R1 + 1/R2).\n3) Calculer les intensités I1 et I2 dans chaque branche.\n4) Calculer l'intensité totale I = I1 + I2.\n5) Vérifier ce résultat avec la loi d'Ohm appliquée à Réq. La résistance équivalente est-elle plus grande ou plus petite que chaque résistance ?",
+      "solution": "1) Dans un montage en dérivation, la tension est la même aux bornes de chaque conducteur : U1 = U2 = U = 12 V.\n\n2) 1/Réq = 1/30 + 1/60 = 2/60 + 1/60 = 3/60 = 1/20.\nDonc Réq = 20 Ω.\n\n3) I1 = U / R1 = 12 / 30 = 0,4 A.\nI2 = U / R2 = 12 / 60 = 0,2 A.\n\n4) I = I1 + I2 = 0,4 + 0,2 = 0,6 A.\n\n5) I = U / Réq = 12 / 20 = 0,6 A ✓.\nRéq = 20 Ω est plus petite que R1 (30 Ω) et que R2 (60 Ω)."
+    },
+    {
+      "id": "st-SP-18",
+      "domaine": "electricite",
+      "domaineTitre": "Électricité",
+      "titre": "Les bornes d'une prise de courant",
+      "enonce": "Une prise de courant domestique est alimentée par le réseau de distribution, dont la tension est d'environ 220 V.\n\n1) Combien de bornes possède une prise de courant ? Donner le nom de chacune.\n2) Donner la couleur du fil relié à chaque borne.\n3) Comment peut-on repérer la borne de phase avec un tournevis-testeur ? Quelle précaution faut-il prendre ?\n4) À quoi sert la borne de terre ?\n5) Pourquoi ne faut-il jamais toucher les fils d'une prise avec les doigts quand elle est branchée ?",
+      "solution": "1) Une prise possède trois bornes : la borne de terre, la borne de neutre et la borne de phase.\n\n2) • terre : fil vert et jaune ;\n• neutre : fil bleu ;\n• phase : fil rouge, noir ou marron.\n\n3) On touche la borne avec la pointe du tournevis-testeur et on pose un doigt sur le capuchon métallique à l'arrière du manche. Si la borne est la phase, la lampe du testeur s'allume. Précaution : ne jamais toucher la partie métallique de la pointe avec les doigts, et ne pas appuyer le doigt ailleurs que sur le capuchon.\n\n4) La borne de terre relie la partie métallique d'un appareil à la terre : elle protège les personnes en cas de défaut d'isolement.\n\n5) Le courant du réseau (environ 220 V) est dangereux : il peut provoquer une électrisation, voire la mort (électrocution)."
+    },
+    {
+      "id": "st-SP-19",
+      "domaine": "electricite",
+      "domaineTitre": "Électricité",
+      "titre": "L'installation électrique d'une maison",
+      "enonce": "1) Associer chaque élément de l'installation domestique à son rôle :\nÉléments : compteur ; fusible ; disjoncteur différentiel ; prise de terre ; disjoncteur.\nRôles :\nA. Évacue vers le sol le courant de fuite d'un appareil.\nB. Mesure l'énergie électrique consommée.\nC. Coupe le courant en cas de fuite de courant pour protéger les personnes.\nD. Coupe automatiquement le circuit en cas de surintensité (il se réarme).\nE. Fond quand l'intensité est trop forte et coupe le circuit.\n\n2) Dans une maison, les appareils sont branchés en dérivation. Donner un avantage de ce montage.\n\n3) Un fer à repasser porte les indications : 220 V ; 1 100 W. Calculer l'intensité du courant qui le traverse (P = U × I).\n4) On dispose de fusibles de 10 A, 16 A et 32 A. Quel fusible choisir pour protéger un circuit qui alimente seulement ce fer ? Justifier.",
+      "solution": "1) • compteur → B ;\n• fusible → E ;\n• disjoncteur différentiel → C ;\n• prise de terre → A ;\n• disjoncteur → D.\n\n2) En dérivation, chaque appareil reçoit la même tension (220 V) et fonctionne indépendamment des autres : si on éteint ou si l'on débranche un appareil, les autres continuent de fonctionner.\n\n3) P = U × I, donc I = P / U = 1 100 / 220 = 5 A.\n\n4) On choisit le fusible de 10 A : c'est le plus petit calibre supérieur à 5 A. Il laisse passer le courant normal du fer (5 A) et fond dès que l'intensité devient trop forte. Un fusible de 16 A ou de 32 A protégerait moins bien."
+    },
+    {
+      "id": "st-SP-20",
+      "domaine": "electricite",
+      "domaineTitre": "Électricité",
+      "titre": "Puissance totale et limite de l'installation",
+      "enonce": "Dans un salon, on utilise une télévision de 100 W, une lampe de 50 W et une console de jeux de 300 W, toutes sous 220 V. La puissance maximale que l'installation peut supporter est Pm = 500 W.\n\n1) Calculer la puissance totale Pt quand les trois appareils fonctionnent ensemble.\n2) Peut-on les utiliser en même temps ? Justifier avec la relation entre Pt et Pm.\n3) Calculer l'intensité du courant total dans l'installation (I = P / U). Donner le résultat arrondi au centième.\n4) On branche en plus un fer à repasser de 1 100 W. Calculer la nouvelle puissance totale. Que va-t-il se passer ?\n5) Calculer l'intensité du courant dans le fer à repasser.",
+      "solution": "1) Pt = P1 + P2 + P3 = 100 + 50 + 300 = 450 W.\n\n2) Il faut Pt ≤ Pm. Ici 450 W ≤ 500 W : oui, on peut les utiliser ensemble.\n\n3) I = Pt / U = 450 / 220 ≈ 2,05 A.\n\n4) Pt = 450 + 1 100 = 1 550 W. Comme 1 550 W > 500 W, la limite est dépassée : le disjoncteur (ou le fusible) va couper le courant.\n\n5) I = P / U = 1 100 / 220 = 5 A."
+    },
+    {
+      "id": "st-SP-21",
+      "domaine": "electricite",
+      "domaineTitre": "Électricité",
+      "titre": "Énergie consommée et facture",
+      "enonce": "Une famille compare deux ampoules qui éclairent aussi bien l'une que l'autre : une ampoule ordinaire de 60 W et une ampoule économique de 12 W. Chaque ampoule est allumée 5 h par jour pendant 30 jours. Le prix du kilowattheure est de 340 Ar. On rappelle : E = P × t, et 1 kW = 10³ W.\n\n1) Exprimer en kW la puissance de chaque ampoule.\n2) Calculer la durée totale de fonctionnement en heures.\n3) Calculer l'énergie consommée en kWh par chaque ampoule.\n4) Calculer le coût de chaque ampoule pour le mois.\n5) Quelle économie la famille réalise-t-elle avec l'ampoule économique ?",
+      "solution": "1) 60 W = 0,06 kW et 12 W = 0,012 kW.\n\n2) t = 5 × 30 = 150 h.\n\n3) Ampoule ordinaire : E = 0,06 × 150 = 9 kWh.\nAmpoule économique : E = 0,012 × 150 = 1,8 kWh.\n\n4) Ampoule ordinaire : 9 × 340 = 3 060 Ar.\nAmpoule économique : 1,8 × 340 = 612 Ar.\n\n5) Économie : 3 060 − 612 = 2 448 Ar par mois."
+    },
+    {
+      "id": "st-SP-22",
+      "domaine": "electricite",
+      "domaineTitre": "Électricité",
+      "titre": "Trois lampes dans une maison",
+      "enonce": "Trois lampes L1, L2 et L3 portent les indications suivantes : L1 (220 V ; 40 W), L2 (220 V ; 60 W), L3 (220 V ; 100 W). On les branche sur le secteur 220 V.\n\n1) Que signifient les indications « 220 V » et « 40 W » de la lampe L1 ?\n2) Comment faut-il brancher les trois lampes pour qu'elles brillent normalement ? Justifier.\n3) Calculer l'intensité du courant dans la lampe L3 (arrondie au centième).\n4) Calculer la puissance totale des trois lampes, puis l'intensité totale du courant (arrondie au centième).\n5) Les lampes fonctionnent ensemble pendant 5 h. Calculer l'énergie consommée en Wh, puis en kWh. Quel est le coût à 340 Ar le kWh ?",
+      "solution": "1) « 220 V » est la tension normale de fonctionnement de la lampe. « 40 W » est sa puissance quand elle est alimentée sous 220 V.\n\n2) Il faut les brancher en dérivation : chaque lampe reçoit alors la tension de 220 V du secteur et brille normalement. De plus, elles fonctionnent indépendamment les unes des autres.\n\n3) I3 = P3 / U = 100 / 220 ≈ 0,45 A.\n\n4) Pt = 40 + 60 + 100 = 200 W.\nI = Pt / U = 200 / 220 ≈ 0,91 A.\nVérification : I1 = 40/220 ≈ 0,18 A ; I2 = 60/220 ≈ 0,27 A ; I3 ≈ 0,45 A ; la somme fait environ 0,91 A ✓.\n\n5) E = Pt × t = 200 × 5 = 1 000 Wh = 1 kWh.\nCoût : 1 × 340 = 340 Ar."
+    }
+  ]
+}
