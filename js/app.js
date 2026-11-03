@@ -22,7 +22,7 @@ const MATIERES_PAR_CLASSE = {
       './data/3e/francais/composante-5.json',
       './data/3e/francais/composante-6.json',
       './data/3e/francais/composante-7.json'
-    ] },    
+    ] },
     { id: 'anglais',            code: 'ANGL', nom: 'Anglais',            icone: '🌍', disponible: true,  fichiers: [
       './data/3e/anglais/composante-1.json',
       './data/3e/anglais/composante-2.json',
@@ -40,7 +40,7 @@ const MATIERES_PAR_CLASSE = {
       './data/3e/mathematiques/composante-4.json',
       './data/3e/mathematiques/composante-5.json'
     ] },
-    { id: 'svt', code: 'SVT', nom: 'SVT', icone: '🔬', disponible: true, fichiers: [
+    { id: 'svt',                code: 'SVT',  nom: 'SVT',                icone: '🔬', disponible: true,  fichiers: [
       './data/3e/svt/composante-1.json',
       './data/3e/svt/composante-2.json',
       './data/3e/svt/composante-3.json',
@@ -66,7 +66,17 @@ const MATIERES_PAR_CLASSE = {
       './data/3e/histoire/composante-9.json',
       './data/3e/histoire/composante-10.json'
     ] },
-    { id: 'geographie',         code: 'GEOG', nom: 'Géographie',         icone: '🗺️', disponible: false, fichier: './data/3e/geographie.json' }
+    { id: 'geographie',         code: 'GEOG', nom: 'Géographie',         icone: '🗺️', disponible: true,  fichiers: [
+      './data/3e/geographie/composante-1.json',
+      './data/3e/geographie/composante-2.json',
+      './data/3e/geographie/composante-3.json',
+      './data/3e/geographie/composante-4.json',
+      './data/3e/geographie/composante-5.json',
+      './data/3e/geographie/composante-6.json',
+      './data/3e/geographie/composante-7.json',
+      './data/3e/geographie/composante-8.json',
+      './data/3e/geographie/composante-9.json'
+    ] }
   ],
   'tle': [
     { id: 'malagasy',        code: 'MALG', nom: 'Malagasy',            icone: '📚', disponible: false, fichier: './data/tle/malagasy.json' },
