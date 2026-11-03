@@ -1,0 +1,65 @@
+{
+  "matiere": "sciences-physiques",
+  "type": "sujets-types",
+  "partie": "A",
+  "partieTitre": "Chimie",
+  "mention": "Sujet d'entraînement rédigé pour Guide d'après le programme officiel. Corrigé vérifié par calcul.",
+  "exercices": [
+    {
+      "id": "st-SP-01",
+      "domaine": "chimie",
+      "domaineTitre": "Chimie",
+      "titre": "Préparer une solution de sel",
+      "enonce": "On dissout 5,85 g de chlorure de sodium (sel de cuisine) de formule NaCl dans de l'eau, pour obtenir 250 mL de solution.\nDonnées : M(Na) = 23 g/mol ; M(Cl) = 35,5 g/mol. On rappelle : n = m / M.\n\n1) Quel matériel utilises-tu pour peser le sel, puis pour obtenir exactement 250 mL de solution ?\n2) Calculer la masse molaire M(NaCl).\n3) Calculer la quantité de matière n de NaCl dissous.\n4) Calculer la concentration massique Cm de la solution (en g/L).\n5) Calculer la concentration molaire c de la solution (en mol/L).",
+      "solution": "1) On pèse le sel avec une balance (en le prélevant avec une spatule). On le verse dans une fiole jaugée de 250 mL, on ajoute de l'eau, on agite, puis on complète jusqu'au trait de jauge.\n\n2) M(NaCl) = M(Na) + M(Cl) = 23 + 35,5 = 58,5 g/mol.\n\n3) n = m / M = 5,85 / 58,5 = 0,1 mol.\n\n4) V = 250 mL = 0,25 L.\nCm = m / V = 5,85 / 0,25 = 23,4 g/L.\n\n5) c = n / V = 0,1 / 0,25 = 0,4 mol/L.\n\nVérification : c = Cm / M = 23,4 / 58,5 = 0,4 mol/L ✓."
+    },
+    {
+      "id": "st-SP-02",
+      "domaine": "chimie",
+      "domaineTitre": "Chimie",
+      "titre": "Diluer une solution",
+      "enonce": "Au laboratoire, on dispose d'une solution mère de concentration molaire Ci = 0,5 mol/L. On veut préparer Vf = 100 mL de solution fille de concentration Cf = 0,1 mol/L.\n\n1) Calculer le facteur de dilution k = Ci / Cf.\n2) Calculer le volume Vi de solution mère à prélever (relation : Ci × Vi = Cf × Vf).\n3) Calculer le volume d'eau Ve à ajouter (on rappelle : Vf = Vi + Ve).\n4) Vérifier que la quantité de matière se conserve : calculer n avant la dilution et n après la dilution.\n5) La solution fille est-elle plus ou moins concentrée que la solution mère ?",
+      "solution": "1) k = Ci / Cf = 0,5 / 0,1 = 5.\n\n2) Vi = (Cf × Vf) / Ci = (0,1 × 100) / 0,5 = 20 mL.\nVérification avec k : Vf / Vi = 100 / 20 = 5 ✓.\n\n3) Ve = Vf − Vi = 100 − 20 = 80 mL.\n\n4) Avant : n = Ci × Vi = 0,5 × 0,020 = 0,010 mol.\nAprès : n = Cf × Vf = 0,1 × 0,100 = 0,010 mol.\nLa quantité de matière est la même : elle se conserve ✓.\n\n5) La solution fille est moins concentrée (Cf < Ci) : elle est 5 fois moins concentrée."
+    },
+    {
+      "id": "st-SP-03",
+      "domaine": "chimie",
+      "domaineTitre": "Chimie",
+      "titre": "pH et indicateurs colorés",
+      "enonce": "On mesure le pH de trois liquides avec un pH-mètre :\n• Jus de citron : pH = 2,5\n• Eau pure : pH = 7\n• Eau de Javel : pH = 11\n\nZones de virage des indicateurs :\n• Bleu de bromothymol (BBT) : jaune en dessous de 6,0 ; bleu au-dessus de 7,6 ; teinte verte entre les deux.\n• Phénolphtaléine : incolore en dessous de 8,2 ; rose au-dessus de 10,0.\n\n1) Classer chaque liquide : acide, neutre ou basique.\n2) Dans quel(s) liquide(s) a-t-on [H⁺] > [OH⁻] ?\n3) Quelle est la couleur du BBT dans chaque liquide ?\n4) Quelle est la couleur de la phénolphtaléine dans chaque liquide ?\n5) Quel appareil permet de mesurer précisément le pH ? Cite aussi un moyen simple de repérer le pH sans cet appareil.",
+      "solution": "1) Jus de citron : pH = 2,5 < 7 → acide.\nEau pure : pH = 7 → neutre.\nEau de Javel : pH = 11 > 7 → basique.\n\n2) [H⁺] > [OH⁻] dans les solutions acides : c'est le cas du jus de citron.\n\n3) BBT :\n• jus de citron (2,5 < 6,0) : jaune ;\n• eau pure (7, entre 6,0 et 7,6) : vert ;\n• eau de Javel (11 > 7,6) : bleu.\n\n4) Phénolphtaléine :\n• jus de citron (2,5 < 8,2) : incolore ;\n• eau pure (7 < 8,2) : incolore ;\n• eau de Javel (11 > 10,0) : rose.\n\n5) Le pH-mètre donne la valeur précise du pH. Sans cet appareil, on peut utiliser du papier pH ou un indicateur coloré."
+    },
+    {
+      "id": "st-SP-04",
+      "domaine": "chimie",
+      "domaineTitre": "Chimie",
+      "titre": "Équilibrer des équations-bilans",
+      "enonce": "Masses molaires : M(H) = 1 g/mol ; M(O) = 16 g/mol.\n\n1) Équilibrer les équations suivantes :\na) H₂ + O₂ → H₂O\nb) CH₄ + O₂ → CO₂ + H₂O\nc) C₂H₆ + O₂ → CO₂ + H₂O\n2) Dans la réaction a), on fait réagir 4 mol de dihydrogène H₂. Calculer la quantité de dioxygène nécessaire et la quantité d'eau formée.\n3) Calculer la masse d'eau formée. Vérifier le résultat en comparant la masse des réactifs et celle du produit.\n4) Quelle loi justifie qu'on équilibre une équation-bilan ?",
+      "solution": "1) a) 2 H₂ + O₂ → 2 H₂O\n(H : 4 = 4 ; O : 2 = 2)\nb) CH₄ + 2 O₂ → CO₂ + 2 H₂O\n(C : 1 = 1 ; H : 4 = 4 ; O : 4 = 4)\nc) 2 C₂H₆ + 7 O₂ → 4 CO₂ + 6 H₂O\n(C : 4 = 4 ; H : 12 = 12 ; O : 14 = 14)\n\n2) Pour 2 H₂ + O₂ → 2 H₂O : n(H₂)/2 = n(O₂)/1 = n(H₂O)/2.\nn(H₂)/2 = 4/2 = 2, donc n(O₂) = 2 mol et n(H₂O) = 2 × 2 = 4 mol.\n\n3) M(H₂O) = 2 × 1 + 16 = 18 g/mol.\nm(H₂O) = 4 × 18 = 72 g.\nVérification : m(H₂) = 4 × 2 = 8 g ; m(O₂) = 2 × 32 = 64 g ; total des réactifs = 8 + 64 = 72 g, égal à la masse d'eau formée ✓.\n\n4) La loi de Lavoisier : au cours d'une réaction chimique, rien ne se perd, rien ne se crée, tout se transforme. Les atomes se conservent, donc on doit avoir le même nombre de chaque atome avant et après."
+    },
+    {
+      "id": "st-SP-05",
+      "domaine": "chimie",
+      "domaineTitre": "Chimie",
+      "titre": "Neutraliser un acide",
+      "enonce": "On verse progressivement une solution de soude (Na⁺ + HO⁻) de concentration 0,1 mol/L dans 20 mL d'une solution d'acide chlorhydrique (H⁺ + Cl⁻) de concentration 0,1 mol/L, jusqu'à la neutralisation.\n\n1) Écrire l'équation de la réaction entre les ions.\n2) Quels sont les ions spectateurs ?\n3) Le pH de la solution d'acide est-il inférieur, égal ou supérieur à 7 ? Quel est le pH quand la solution est neutralisée ?\n4) Cette réaction consomme autant d'ions H⁺ que d'ions HO⁻. Calculer la quantité d'ions H⁺ présents au départ, puis le volume de soude à verser.\n5) Une règle de sécurité dit qu'on ne met jamais d'eau dans l'acide. Comment fait-on pour diluer un acide concentré ?",
+      "solution": "1) H⁺ + HO⁻ → H₂O\n\n2) Les ions Na⁺ et Cl⁻ ne participent pas à la réaction : ce sont les ions spectateurs.\n\n3) Une solution d'acide a un pH inférieur à 7. Quand elle est neutralisée, son pH est égal à 7.\n\n4) V(acide) = 20 mL = 0,020 L.\nn(H⁺) = c × V = 0,1 × 0,020 = 0,002 mol.\nIl faut donc n(HO⁻) = 0,002 mol.\nV(soude) = n / c = 0,002 / 0,1 = 0,02 L = 20 mL.\n\n5) On verse l'acide dans l'eau (doucement, en remuant), jamais l'eau dans l'acide. On porte aussi des lunettes et des gants."
+    },
+    {
+      "id": "st-SP-06",
+      "domaine": "chimie",
+      "domaineTitre": "Chimie",
+      "titre": "Le propane d'un réchaud",
+      "enonce": "Le gaz d'une bouteille domestique est du propane de formule C₃H₈. Il brûle avec une flamme bleue.\nDonnées : M(H) = 1 g/mol ; M(C) = 12 g/mol ; M(O) = 16 g/mol.\n\n1) Quels sont les trois éléments du triangle de combustion ? Dans un réchaud à gaz, qui joue chaque rôle ?\n2) La flamme est bleue : quel type de combustion a lieu ?\n3) Écrire l'équation-bilan de cette combustion.\n4) On brûle 2 mol de propane. Calculer les quantités de dioxygène consommé, de dioxyde de carbone et d'eau formés.\n5) Calculer la masse de dioxyde de carbone formé.",
+      "solution": "1) Le triangle de combustion : un combustible, un comburant et une énergie d'ignition.\n• combustible : le propane ;\n• comburant : le dioxygène de l'air ;\n• énergie d'ignition : l'étincelle ou la flamme de l'allumette.\n\n2) Une flamme bleue indique une combustion complète.\n\n3) C₃H₈ + 5 O₂ → 3 CO₂ + 4 H₂O\n(C : 3 = 3 ; H : 8 = 8 ; O : 10 = 6 + 4)\n\n4) n(C₃H₈)/1 = n(O₂)/5 = n(CO₂)/3 = n(H₂O)/4 = 2.\nn(O₂) = 5 × 2 = 10 mol ; n(CO₂) = 3 × 2 = 6 mol ; n(H₂O) = 4 × 2 = 8 mol.\n\n5) M(CO₂) = 12 + 2 × 16 = 44 g/mol.\nm(CO₂) = 6 × 44 = 264 g.\n\nVérification : m(C₃H₈) = 2 × 44 = 88 g ; m(O₂) = 10 × 32 = 320 g ; total = 408 g.\nm(CO₂) + m(H₂O) = 264 + 8 × 18 = 264 + 144 = 408 g ✓."
+    },
+    {
+      "id": "st-SP-07",
+      "domaine": "chimie",
+      "domaineTitre": "Chimie",
+      "titre": "Le butane : combustion complète et incomplète",
+      "enonce": "Les alcanes ont pour formule générale CₙH₂ₙ₊₂. Le butane est l'alcane à 4 atomes de carbone (n = 4).\n\n1) Donner la formule du butane.\n2) Écrire l'équation-bilan de sa combustion complète. On rappelle : CₙH₂ₙ₊₂ + (3n+1)/2 O₂ → n CO₂ + (n+1) H₂O. Écrire l'équation avec des nombres entiers (multiplier par 2).\n3) Dans une pièce mal aérée, la flamme devient jaune. De quel type de combustion s'agit-il ? Pourquoi ?\n4) Pour la combustion incomplète : CₙH₂ₙ₊₂ + (n+1)/2 O₂ → n C + (n+1) H₂O. Écrire l'équation pour le butane avec des nombres entiers.\n5) Quel gaz toxique peut se former lors d'une combustion incomplète ? Quel conseil de sécurité en déduis-tu ?",
+      "solution": "1) n = 4 : C₄H₍₂×₄₊₂₎ = C₄H₁₀.\n\n2) Pour n = 4 : (3×4 + 1)/2 = 13/2 = 6,5.\nC₄H₁₀ + 13/2 O₂ → 4 CO₂ + 5 H₂O\nEn multipliant par 2 :\n2 C₄H₁₀ + 13 O₂ → 8 CO₂ + 10 H₂O\n(C : 8 = 8 ; H : 20 = 20 ; O : 26 = 16 + 10)\n\n3) Une flamme jaune indique une combustion incomplète : il n'y a pas assez de dioxygène pour brûler tout le butane.\n\n4) Pour n = 4 : (4 + 1)/2 = 2,5.\nC₄H₁₀ + 5/2 O₂ → 4 C + 5 H₂O\nEn multipliant par 2 :\n2 C₄H₁₀ + 5 O₂ → 8 C + 10 H₂O\n(C : 8 = 8 ; H : 20 = 20 ; O : 10 = 10)\n\n5) Le monoxyde de carbone CO, gaz toxique, peut se former (avec du carbone sous forme de suie). Conseil : bien aérer la pièce quand on utilise un appareil à gaz."
+    }
+  ]
+}
