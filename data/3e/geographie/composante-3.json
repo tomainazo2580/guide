@@ -28,14 +28,15 @@
         },
         {
           "type": "remarque",
-                    "texte": "La localisation de la SIRANALA n'est pas précisée ici : confirme-la avec ton professeur avant de la citer sur une carte."
+          "texte": "La localisation de la SIRANALA n'est pas précisée ici : confirme-la avec ton professeur avant de la citer sur une carte."
+        },
         {
           "type": "texte",
           "texte": "Les facteurs d'implantation d'une industrie (pourquoi elle s'installe à tel endroit) :\n• la proximité des matières premières (canne, coton, minerais) ;\n• la main-d'œuvre disponible et peu coûteuse ;\n• l'énergie (électricité, carburant) et l'eau ;\n• les voies de transport (routes, port, chemin de fer) ;\n• un marché de consommateurs ;\n• les capitaux, la sécurité et la stabilité politique."
         },
         {
           "type": "texte",
-                    "texte": "Les structures de production : on distingue les entreprises publiques (appartenant à l'État), privées (appartenant à des particuliers ou à des sociétés) et mixtes (capitaux publics et privés). Les entreprises franches, tournées vers l'exportation, bénéficient d'avantages fiscaux."
+          "texte": "Les structures de production : on distingue les entreprises publiques (appartenant à l'État), privées (appartenant à des particuliers ou à des sociétés) et mixtes (capitaux publics et privés). Les entreprises franches, tournées vers l'exportation, bénéficient d'avantages fiscaux."
         },
         {
           "type": "tableau",
@@ -186,7 +187,7 @@
         },
         {
           "type": "remarque",
-          "texte": "Le fascicule cite aussi la « CDAO » parmi les organisations régionales. Or l'organisation d'Afrique australe dont Madagascar est membre est la SADC (Communauté de développement de l'Afrique australe). Je pense à une confusion de sigle ; demande à ton professeur laquelle retenir pour l'examen."
+          "texte": "Le fascicule cite aussi la « CDAO » parmi les organisations régionales. L'organisation d'Afrique australe dont Madagascar est membre est la SADC (Communauté de développement de l'Afrique australe) : il s'agit probablement d'une confusion de sigle. Vérifie avec ton professeur laquelle retenir pour l'examen."
         },
         {
           "type": "formule",
@@ -215,7 +216,7 @@
       "blocs": [
         {
           "type": "remarque",
-          "texte": "Cette leçon a été rédigée par moi à partir du plan du fascicule, qui ne donne pas de contenu détaillé. À relire avec ton professeur ou ton cahier de cours."
+          "texte": "Cette leçon développe le plan du fascicule, qui ne donne pas de contenu détaillé. À compléter avec ton professeur ou ton cahier de cours."
         },
         {
           "type": "definition",
