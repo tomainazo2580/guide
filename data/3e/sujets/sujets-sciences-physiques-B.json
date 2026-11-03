@@ -1,0 +1,65 @@
+{
+  "matiere": "sciences-physiques",
+  "type": "sujets-types",
+  "partie": "B",
+  "partieTitre": "Mécanique, lumière et son",
+  "mention": "Sujet d'entraînement rédigé pour Guide d'après le programme officiel. Corrigé vérifié par calcul.",
+  "exercices": [
+    {
+      "id": "st-SP-08",
+      "domaine": "mecanique",
+      "domaineTitre": "Mécanique et ondes",
+      "titre": "Types de trajectoire",
+      "enonce": "Il existe trois types de trajectoire : rectiligne, circulaire et curviligne.\n\n1) Pour chaque mouvement, indiquer le type de trajectoire :\na) une voiture roule sur une route bien droite ;\nb) la pointe de l'aiguille des secondes d'une horloge ;\nc) un ballon de football lancé en l'air en direction du but ;\nd) une cabine de grande roue ;\ne) un fruit mûr qui tombe verticalement d'un arbre.\n2) Citer un autre exemple de mouvement rectiligne et un autre exemple de mouvement circulaire de la vie courante.",
+      "solution": "1) a) Rectiligne (la voiture suit une ligne droite).\nb) Circulaire (la pointe tourne autour du centre de l'horloge).\nc) Curviligne (le ballon décrit une courbe).\nd) Circulaire (la cabine tourne autour de l'axe de la roue).\ne) Rectiligne (le fruit tombe en ligne droite, verticalement).\n\n2) Exemples possibles : mouvement rectiligne : un train sur une voie droite, un ascenseur qui monte. Mouvement circulaire : la roue d'un vélo (un point de la jante), un manège."
+    },
+    {
+      "id": "st-SP-09",
+      "domaine": "mecanique",
+      "domaineTitre": "Mécanique et ondes",
+      "titre": "Caractéristiques et représentation d'une force",
+      "enonce": "Un objet de masse m = 2 kg est posé sur une table. On prendra g = 10 N/kg.\n\n1) Calculer le poids P de l'objet (P = m × g).\n2) Donner les quatre caractéristiques du poids de l'objet.\n3) Représenter le poids par une flèche avec l'échelle : 1 cm pour 5 N. Quelle longueur de flèche faut-il tracer ?\n4) Quelle longueur de flèche faut-il pour représenter une force de 10 N avec la même échelle ?\n5) Quel appareil permet de mesurer la norme d'une force ? Dans quelle unité ?",
+      "solution": "1) P = m × g = 2 × 10 = 20 N.\n\n2) Les caractéristiques du poids :\n• point d'application : le centre de gravité de l'objet ;\n• direction : verticale ;\n• sens : vers le bas ;\n• norme : P = 20 N.\n\n3) Longueur = 20 N ÷ 5 N/cm = 4 cm.\nOn trace donc une flèche verticale de 4 cm, dirigée vers le bas, à partir du centre de gravité.\n\n4) 10 N ÷ 5 N/cm = 2 cm.\n\n5) On mesure la norme d'une force avec un dynamomètre. La norme s'exprime en newton (N)."
+    },
+    {
+      "id": "st-SP-10",
+      "domaine": "mecanique",
+      "domaineTitre": "Mécanique et ondes",
+      "titre": "Un objet suspendu en équilibre",
+      "enonce": "Un objet de masse 500 g est suspendu à un fil accroché à un support. Il est immobile. On prendra g = 10 N/kg.\n\n1) Faire l'inventaire des forces qui s'exercent sur l'objet.\n2) Calculer le poids P de l'objet (attention à l'unité de la masse).\n3) L'objet est en équilibre sous l'action de deux forces. Quelle relation vectorielle lie le poids P et la tension T du fil ? Que peut-on dire de leurs normes ?\n4) En déduire les caractéristiques de la tension T du fil.\n5) Représenter T avec l'échelle : 1 cm pour 1 N. Quelle est la longueur de la flèche ?",
+      "solution": "1) Deux forces s'exercent sur l'objet : son poids P (action à distance de la Terre) et la tension T du fil (action de contact).\n\n2) m = 500 g = 0,5 kg.\nP = m × g = 0,5 × 10 = 5 N.\n\n3) À l'équilibre : P + T = 0, c'est-à-dire T = −P.\nLes deux forces ont la même direction, des sens opposés et la même norme : T = P.\n\n4) Caractéristiques de T :\n• point d'application : le point d'attache du fil sur l'objet ;\n• direction : verticale ;\n• sens : vers le haut ;\n• norme : T = P = 5 N.\n\n5) Longueur = 5 N ÷ 1 N/cm = 5 cm. On trace une flèche verticale de 5 cm, dirigée vers le haut."
+    },
+    {
+      "id": "st-SP-11",
+      "domaine": "mecanique",
+      "domaineTitre": "Mécanique et ondes",
+      "titre": "Travail du poids d'un sac de riz",
+      "enonce": "Un porteur monte un sac de riz de masse 25 kg au premier étage d'un entrepôt, à une hauteur h = 2 m. On prendra g = 10 N/kg.\n\n1) Calculer le poids du sac.\n2) Calculer le travail du poids pendant la montée (W = m × g × h). Ce travail est-il moteur ou résistant ? Quel est son signe ?\n3) Le porteur pose ensuite le sac dans une brouette et le sac descend de 2 m par un tapis. Calculer le travail du poids pendant la descente. Est-il moteur ou résistant ?\n4) Le porteur fournit un travail de 500 J en 10 s pour monter le sac. Calculer sa puissance (P = W / t).",
+      "solution": "1) P = m × g = 25 × 10 = 250 N.\n\n2) W = m × g × h = 25 × 10 × 2 = 500 J.\nPendant la montée, le poids s'oppose au mouvement : son travail est résistant, donc négatif : W = −500 J (sa valeur est 500 J).\n\n3) Pendant la descente, le poids favorise le mouvement : son travail est moteur, donc positif : W = +500 J.\n\n4) P = W / t = 500 / 10 = 50 W."
+    },
+    {
+      "id": "st-SP-12",
+      "domaine": "mecanique",
+      "domaineTitre": "Mécanique et ondes",
+      "titre": "Tirer une charrette : travail et puissance",
+      "enonce": "Un paysan tire une charrette sur un chemin plat entre deux points A et B, avec une force constante de norme F = 150 N, dans la direction du déplacement. La distance AB est de 40 m et le trajet dure 50 s.\n\n1) Calculer le travail de la force F (W = F × AB). Préciser l'unité.\n2) Calculer la puissance développée (P = W / t).\n3) Exprimer cette puissance en chevaux (1 ch = 736 W). Donner le résultat arrondi au centième.\n4) Un petit moteur a une puissance de 2 ch. Quelle est sa puissance en watts ?\n5) Rappeler à quoi correspond 1 J en N·m.",
+      "solution": "1) W = F × AB = 150 × 40 = 6 000 J.\n\n2) P = W / t = 6 000 / 50 = 120 W.\n\n3) 120 ÷ 736 ≈ 0,163 ch, soit environ 0,16 ch.\n\n4) 2 ch = 2 × 736 = 1 472 W.\n\n5) 1 J = 1 N·m : c'est le travail d'une force de 1 N dont le point d'application se déplace de 1 m dans la direction de la force."
+    },
+    {
+      "id": "st-SP-13",
+      "domaine": "mecanique",
+      "domaineTitre": "Mécanique et ondes",
+      "titre": "Réflexion et réfraction de la lumière",
+      "enonce": "Partie A : miroir plan. Une élève est debout à 30 cm devant un miroir plan, et elle regarde un point A de son stylo.\n1) Où se forme l'image A' de A ? Quelle est la distance entre A et A' ?\n2) L'image est-elle réelle ou virtuelle ? Justifier.\n3) Un rayon lumineux arrive sur le miroir avec un angle d'incidence i = 35° (mesuré par rapport à la normale). Quelle est la valeur de l'angle de réflexion r ? Quel est l'angle entre le rayon incident et le rayon réfléchi ?\n\nPartie B : réfraction. Un rayon lumineux passe de l'air (indice n1 = 1) dans le verre (indice n2 = 1,5) avec un angle d'incidence i1 = 30°.\n4) Écrire la loi de la réfraction.\n5) Calculer sin i2, puis la valeur de l'angle de réfraction i2 (arrondie au dixième de degré).\n6) Le rayon se rapproche-t-il ou s'éloigne-t-il de la normale ?",
+      "solution": "1) L'image A' est le symétrique de A par rapport au miroir : HA = HA' (H est le pied de la perpendiculaire au miroir). A' se trouve donc à 30 cm derrière le miroir. Distance AA' = 30 + 30 = 60 cm.\n\n2) L'image est virtuelle : elle se forme derrière le miroir, où la lumière ne passe pas réellement, et on ne peut pas la recevoir sur un écran.\n\n3) D'après la loi de la réflexion : r = i = 35°.\nAngle entre le rayon incident et le rayon réfléchi : 35° + 35° = 70°.\n\n4) n1 × sin i1 = n2 × sin i2.\n\n5) 1 × sin 30° = 1,5 × sin i2.\nsin 30° = 0,5, donc sin i2 = 0,5 / 1,5 = 1/3 ≈ 0,333.\nAvec la calculatrice : i2 ≈ 19,5°.\n\n6) i2 (19,5°) est plus petit que i1 (30°) : le rayon se rapproche de la normale en passant de l'air dans le verre."
+    },
+    {
+      "id": "st-SP-14",
+      "domaine": "mecanique",
+      "domaineTitre": "Mécanique et ondes",
+      "titre": "Ondes lumineuses et ondes sonores",
+      "enonce": "Partie A : la lumière.\n1) Le spectre visible s'étend de 400 nm à 800 nm. Classer les rayonnements suivants : visible, infrarouge ou ultraviolet. On rappelle : infrarouge de 800 nm à 1 mm ; ultraviolet de 100 nm à 400 nm.\na) 150 nm ;\nb) 600 nm ;\nc) 0,5 mm.\n2) Que signifie le moyen mnémotechnique VIBUJOR ?\n\nPartie B : le son.\n3) Un son audible a une fréquence comprise entre 20 Hz et 20 kHz. Classer les sons suivants : audible, infrason ou ultrason.\na) 15 Hz ;\nb) 1 000 Hz ;\nc) 30 000 Hz.\n4) Quel appareil mesure le niveau sonore ? Dans quelle unité ?\n5) Un astronaute pourrait-il entendre une explosion dans le vide de l'espace ? Justifier.",
+      "solution": "1) a) 150 nm est entre 100 nm et 400 nm : ultraviolet.\nb) 600 nm est entre 400 nm et 800 nm : visible.\nc) 0,5 mm est entre 800 nm et 1 mm : infrarouge.\n\n2) VIBUJOR donne les couleurs du spectre visible, dans l'ordre : Violet, Indigo, Bleu, Vert, Jaune, Orange, Rouge.\n\n3) a) 15 Hz < 20 Hz : infrason.\nb) 1 000 Hz est entre 20 Hz et 20 000 Hz : son audible.\nc) 30 000 Hz = 30 kHz > 20 kHz : ultrason.\n\n4) Le niveau sonore se mesure avec un sonomètre, en décibels (dB).\n\n5) Non : le son ne se propage pas dans le vide. Il a besoin d'un milieu matériel (air, eau, solide) pour se propager."
+    }
+  ]
+}
