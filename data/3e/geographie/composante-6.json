@@ -1,0 +1,231 @@
+{
+  "id": "geo-6",
+  "titre": "Les régions naturelles",
+  "lecons": [
+    {
+      "id": "geo-6-1",
+      "titre": "Les Hautes Terres centrales",
+      "blocs": [
+        {
+          "type": "remarque",
+          "texte": "Les cartes du fascicule ne sont pas reproduites. Les altitudes, les lieux touristiques et les exemples de cette leçon sont donnés de façon générale : à vérifier et à compléter avec ton professeur ou ton cahier de cours."
+        },
+        {
+          "type": "definition",
+          "texte": "Région naturelle : grande partie d'un territoire dont le relief, le climat et la végétation forment un ensemble reconnaissable. Madagascar compte cinq grandes régions naturelles : les Hautes Terres centrales, l'Ouest, le Sud, l'Est et le Nord."
+        },
+        {
+          "type": "tableau",
+          "titre": "Fiche : les Hautes Terres centrales",
+          "entetes": ["Rubrique", "À retenir"],
+          "lignes": [
+            ["Délimitation", "Au centre de l'île ; à l'Est, elles s'arrêtent aux falaises betsimisaraka ; à l'Ouest, elles descendent vers les plateaux et plaines de l'Ouest"],
+            ["Relief", "Plateaux élevés et massifs (Ankaratra, Andringitra), collines, plaines intérieures (lac Alaotra, Betsimitatatra)"],
+            ["Hydrographie", "Région de sources : de nombreux cours d'eau y naissent et descendent vers l'Est et vers l'Ouest"],
+            ["Climat", "Tropical d'altitude : 15 à 18 °C, environ 1 400 mm de pluie ; l'Itasy reçoit environ 2 000 mm ; saison sèche d'avril à octobre"],
+            ["Végétation", "Surtout savane et steppe ; la forêt d'origine a presque disparu"]
+          ]
+        },
+        {
+          "type": "texte",
+          "texte": "La mise en valeur des Hautes Terres :\n• agriculture : riziculture dans les plaines et les bas-fonds, cultures maraîchères et fruitières, élevage ;\n• industrie et commerce : les grandes villes (Antananarivo, Antsirabe) concentrent l'industrie, les services et la population ;\n• artisanat et tourisme : sites historiques, villes d'art, paysages de montagne et de lacs (par exemple le Rova d'Antananarivo, Ambohimanga, les lacs de l'Itasy, le parc de Ranomafana)."
+        },
+        {
+          "type": "texte",
+          "texte": "Les problèmes des Hautes Terres :\n• la forte densité de population et la pression sur les terres ;\n• l'érosion : la déforestation et les feux de brousse découvrent les sols, et les pluies creusent des ravins (les lavaka) ;\n• la pauvreté de nombreuses familles rurales."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Cite deux caractères du climat des Hautes Terres centrales (température et précipitations).\n2) Pourquoi dit-on que les Hautes Terres sont une région de sources ?\n3) Explique en deux phrases comment la déforestation provoque l'érosion.",
+          "solution": "1) La température moyenne est de 15 à 18 °C et il tombe environ 1 400 mm de pluie par an.\n2) Parce que beaucoup de cours d'eau y naissent avant de descendre vers l'Est et vers l'Ouest.\n3) Sans arbres, les racines ne retiennent plus la terre. Les pluies emportent alors le sol et creusent des ravins."
+        }
+      ],
+      "lexique": [
+        { "terme": "Région naturelle", "definition": "Grand ensemble dont le relief, le climat et la végétation sont semblables." },
+        { "terme": "Hautes Terres", "definition": "Région élevée située au centre de Madagascar." },
+        { "terme": "Bas-fond", "definition": "Terrain bas et humide, souvent aménagé en rizière." },
+        { "terme": "Maraîchage", "definition": "Culture de légumes." },
+        { "terme": "Lavaka", "definition": "Ravin creusé par l'érosion sur les pentes des collines." },
+        { "terme": "Densité", "definition": "Nombre d'habitants par kilomètre carré." }
+      ]
+    },
+    {
+      "id": "geo-6-2",
+      "titre": "L'Ouest",
+      "blocs": [
+        {
+          "type": "remarque",
+          "texte": "Les cartes ne sont pas reproduites. Les exemples de cultures, de sites touristiques et de problèmes sont donnés de façon générale : à vérifier et à compléter avec ton professeur ou ton cahier de cours."
+        },
+        {
+          "type": "tableau",
+          "titre": "Fiche : l'Ouest",
+          "entetes": ["Rubrique", "À retenir"],
+          "lignes": [
+            ["Délimitation", "Entre les Hautes Terres et le canal de Mozambique"],
+            ["Relief", "Plateaux et plaines sédimentaires aux pentes douces ; plaines côtières plus larges qu'à l'Est"],
+            ["Hydrographie", "Fleuves longs, à faible débit, navigables sur une partie de leur cours (Betsiboka, Tsiribihina, Mangoky)"],
+            ["Climat", "Chaud : 27 à 34 °C, environ 750 mm de pluie par an, saison sèche marquée"],
+            ["Végétation", "Savane et forêt claire"]
+          ]
+        },
+        {
+          "type": "texte",
+          "texte": "La mise en valeur de l'Ouest :\n• élevage : les vastes savanes conviennent à l'élevage des zébus ;\n• agriculture : riziculture dans les plaines irriguées (par exemple Marovoay), cultures de rente selon les zones ;\n• pêche : les côtes du canal de Mozambique offrent poissons et crevettes ;\n• tourisme : les paysages naturels (par exemple l'allée des baobabs près de Morondava, les Tsingy de Bemaraha)."
+        },
+        {
+          "type": "texte",
+          "texte": "Les problèmes de l'Ouest :\n• les feux de brousse pour renouveler les pâturages, qui détruisent la végétation et appauvrissent le sol ;\n• la déforestation (bois de chauffe, charbon de bois) ;\n• l'enclavement : peu de routes, villages difficiles d'accès, surtout en saison de pluie ;\n• l'insécurité liée au vol de zébus dans certaines zones."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Précipitations moyennes de l'Ouest : environ 750 mm. Port-Bergé reçoit 1 541 mm et Miandrivazo 1 235 mm.\n1) Calcule l'écart entre Port-Bergé et la moyenne de l'Ouest.\n2) Calcule l'écart entre Miandrivazo et la moyenne de l'Ouest.\n3) Pourquoi l'élevage de zébus est-il bien adapté à l'Ouest ?\n4) Cite deux problèmes de l'Ouest.",
+          "solution": "1) 1 541 − 750 = 791 mm.\n2) 1 235 − 750 = 485 mm.\n3) L'Ouest a de vastes espaces de savane où le bétail peut paître, et un climat à saison sèche marquée.\n4) Par exemple : les feux de brousse et l'enclavement (ou la déforestation, l'insécurité)."
+        }
+      ],
+      "lexique": [
+        { "terme": "Plaine sédimentaire", "definition": "Plaine formée de couches de sédiments déposées au cours du temps." },
+        { "terme": "Cultures de rente", "definition": "Cultures destinées surtout à la vente et à l'exportation." },
+        { "terme": "Feu de brousse", "definition": "Incendie volontaire ou accidentel de la végétation." },
+        { "terme": "Enclavement", "definition": "Difficulté d'accès d'une région, par manque de routes ou de moyens de transport." },
+        { "terme": "Zébu", "definition": "Bovin à bosse, élevé à Madagascar pour le travail, la viande et le prestige." },
+        { "terme": "Tsingy", "definition": "Formation rocheuse calcaire aux pointes aiguës." }
+      ]
+    },
+    {
+      "id": "geo-6-3",
+      "titre": "Le Sud",
+      "blocs": [
+        {
+          "type": "remarque",
+          "texte": "Les cartes ne sont pas reproduites. Les exemples de cultures, de sites et de problèmes sont donnés de façon générale : à vérifier et à compléter avec ton professeur ou ton cahier de cours."
+        },
+        {
+          "type": "tableau",
+          "titre": "Fiche : le Sud",
+          "entetes": ["Rubrique", "À retenir"],
+          "lignes": [
+            ["Délimitation", "Extrémité méridionale de l'île, au sud de l'Ouest et des Hautes Terres"],
+            ["Relief", "Plateaux et plaines, avec des reliefs calcaires"],
+            ["Hydrographie", "Cours d'eau souvent à sec (Mandrare, Onilahy, Menarandra)"],
+            ["Climat", "Sec : environ 350 mm de pluie par an, pluies irrégulières"],
+            ["Végétation", "Steppe et brousse épineuse, avec des baobabs"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Précipitations moyennes des régions",
+          "svg": "<svg width='300' height='155' viewBox='0 0 300 155' xmlns='http://www.w3.org/2000/svg'><text x='150' y='16' text-anchor='middle' font-size='11' font-weight='bold' fill='#222'>Pluie moyenne annuelle (mm)</text><line x1='70' y1='24' x2='70' y2='146' stroke='#888'/><rect x='70' y='30' width='133' height='20' fill='#64b5f6'/><text x='66' y='44' text-anchor='end' font-size='10' fill='#222'>Est</text><text x='207' y='44' font-size='10' fill='#222'>2 000 à 3 500</text><rect x='70' y='60' width='93' height='20' fill='#64b5f6'/><text x='66' y='74' text-anchor='end' font-size='10' fill='#222'>Hautes Terres</text><text x='167' y='74' font-size='10' fill='#222'>1 400</text><rect x='70' y='90' width='50' height='20' fill='#64b5f6'/><text x='66' y='104' text-anchor='end' font-size='10' fill='#222'>Ouest</text><text x='124' y='104' font-size='10' fill='#222'>750</text><rect x='70' y='120' width='23' height='20' fill='#64b5f6'/><text x='66' y='134' text-anchor='end' font-size='10' fill='#222'>Sud</text><text x='97' y='134' font-size='10' fill='#222'>350</text></svg>",
+          "legende": "Pour l'Est, la barre s'arrête à 2 000 mm, le minimum de l'intervalle."
+        },
+        {
+          "type": "texte",
+          "texte": "La mise en valeur du Sud :\n• élevage : zébus et chèvres, adaptés à la sécheresse ;\n• agriculture : cultures résistantes à la sécheresse (par exemple manioc, patate douce, sisal) ;\n• pêche sur les côtes ;\n• tourisme : paysages de baobabs, massif de l'Isalo, plages."
+        },
+        {
+          "type": "texte",
+          "texte": "Les problèmes du Sud :\n• la sécheresse, qui provoque de mauvaises récoltes et parfois la famine ;\n• la rareté de l'eau potable ;\n• l'enclavement : peu de routes, villages isolés ;\n• la forte pauvreté de nombreuses familles."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Pluie moyenne : Sud environ 350 mm ; Hautes Terres environ 1 400 mm ; Est de 2 000 à 3 500 mm.\n1) Combien de fois les Hautes Terres reçoivent-elles plus de pluie que le Sud ?\n2) Combien de fois, au minimum, l'Est reçoit-il plus de pluie que le Sud (arrondi au dixième) ?\n3) Explique pourquoi la steppe et la brousse épineuse dominent dans le Sud.\n4) Cite deux problèmes du Sud.",
+          "solution": "1) 1 400 ÷ 350 = 4 : quatre fois plus.\n2) 2 000 ÷ 350 ≈ 5,7 : au minimum environ 5,7 fois plus.\n3) Le Sud est très sec (environ 350 mm par an) : seules les plantes adaptées à la sécheresse peuvent pousser.\n4) Par exemple : la sécheresse et l'enclavement (ou la rareté de l'eau, la pauvreté)."
+        }
+      ],
+      "lexique": [
+        { "terme": "Sécheresse", "definition": "Période où il pleut très peu, parfois plusieurs années de suite." },
+        { "terme": "Brousse épineuse", "definition": "Végétation d'arbustes épineux adaptée à la sécheresse." },
+        { "terme": "Baobab", "definition": "Arbre au tronc très large qui stocke l'eau, typique du Sud et de l'Ouest." },
+        { "terme": "Sisal", "definition": "Plante cultivée dans les régions sèches, dont on tire des fibres." },
+        { "terme": "Famine", "definition": "Manque grave de nourriture pour une population." },
+        { "terme": "Isalo", "definition": "Massif de grès aux formes remarquables, site touristique du Sud-Ouest." }
+      ]
+    },
+    {
+      "id": "geo-6-4",
+      "titre": "L'Est",
+      "blocs": [
+        {
+          "type": "remarque",
+          "texte": "Les cartes ne sont pas reproduites. Les exemples de cultures, de sites et de problèmes sont donnés de façon générale : à vérifier et à compléter avec ton professeur ou ton cahier de cours."
+        },
+        {
+          "type": "tableau",
+          "titre": "Fiche : caractères physiques de l'Est",
+          "entetes": ["Rubrique", "À retenir"],
+          "lignes": [
+            ["Délimitation", "Bande côtière le long de l'océan Indien, entre les falaises betsimisaraka et la mer"],
+            ["Relief", "Plaine côtière étroite, collines et falaises"],
+            ["Hydrographie", "Fleuves courts, réguliers et rapides, non navigables ; lacs et lagunes le long de la côte"],
+            ["Climat", "Chaud et très humide : 20 à 30 °C, 2 000 à 3 500 mm de pluie par an ; cyclones de novembre à mars"],
+            ["Végétation", "Forêt dense humide"]
+          ]
+        },
+        {
+          "type": "texte",
+          "texte": "La mise en valeur de l'Est :\n• cultures de rente : girofle, vanille, café, litchi, poivre ;\n• cultures vivrières : riz, manioc, banane ;\n• pêche et commerce : le port de Toamasina est le premier port du pays ;\n• tourisme : plages, île Sainte-Marie, forêts et lacs de la côte ;\n• transport : le canal des Pangalanes, formé de lacs et de lagunes reliés, longe la côte."
+        },
+        {
+          "type": "texte",
+          "texte": "Les problèmes de l'Est :\n• les cyclones, qui détruisent cultures, maisons et routes ;\n• la déforestation, par exemple à cause des cultures sur brûlis (le tavy) et de l'exploitation du bois ;\n• l'enclavement : peu de routes praticables vers l'intérieur, surtout après les pluies ;\n• les crues rapides des fleuves."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Précipitations : Maroantsetra 3 730 mm ; Ankay 1 416 mm ; Est en général de 2 000 à 3 500 mm.\n1) Calcule l'écart entre Maroantsetra et Ankay.\n2) Combien de fois Maroantsetra reçoit-il plus de pluie qu'Ankay (arrondi au dixième) ?\n3) Pourquoi les fleuves de l'Est ne sont-ils pas navigables ?\n4) Quels sont les risques de l'Est entre novembre et mars ?",
+          "solution": "1) 3 730 − 1 416 = 2 314 mm.\n2) 3 730 ÷ 1 416 ≈ 2,6 : environ 2,6 fois plus.\n3) La pente est forte : les fleuves sont courts et rapides, avec des chutes, donc non navigables.\n4) Les dépressions tropicales et les cyclones, qui causent des destructions et des inondations."
+        }
+      ],
+      "lexique": [
+        { "terme": "Falaise", "definition": "Pente très raide et haute, souvent de roche." },
+        { "terme": "Lagune", "definition": "Étendue d'eau peu profonde séparée de la mer par une bande de terre." },
+        { "terme": "Canal des Pangalanes", "definition": "Suite de lacs et de lagunes reliés, utilisée pour le transport le long de la côte Est." },
+        { "terme": "Tavy", "definition": "Culture sur brûlis pratiquée dans la forêt de l'Est." },
+        { "terme": "Cultures vivrières", "definition": "Cultures destinées surtout à nourrir la famille ou la population locale." },
+        { "terme": "Crue", "definition": "Montée rapide du niveau d'un cours d'eau." }
+      ]
+    },
+    {
+      "id": "geo-6-5",
+      "titre": "Le Nord",
+      "blocs": [
+        {
+          "type": "remarque",
+          "texte": "Les cartes ne sont pas reproduites. Le Nord est une région variée : les exemples de cultures, de sites et de problèmes sont donnés de façon générale, à vérifier et à compléter avec ton professeur ou ton cahier de cours."
+        },
+        {
+          "type": "tableau",
+          "titre": "Fiche : le Nord",
+          "entetes": ["Rubrique", "À retenir"],
+          "lignes": [
+            ["Délimitation", "Extrémité septentrionale de l'île, autour d'Antsiranana (Diego-Suarez)"],
+            ["Relief", "Massifs élevés : Montagne d'Ambre et Tsaratanana (où se trouve le Maromokotro, point culminant de l'île)"],
+            ["Hydrographie", "Deux ensembles hydrographiques : Montagne d'Ambre (environ 11 200 km²) et Tsaratanana (environ 20 000 km²)"],
+            ["Climat", "Varié : plus humide sur les massifs et à l'Est, plus sec sur d'autres zones ; le Sambirano et Nosy-Be ont un climat intermédiaire"],
+            ["Végétation", "Savane, steppe et forêt dense"]
+          ]
+        },
+        {
+          "type": "texte",
+          "texte": "La mise en valeur du Nord :\n• cultures de rente : vanille (autour de Sambava et d'Antalaha), ylang-ylang et cacao (Nosy-Be et Sambirano), canne à sucre, café ;\n• pêche et crevetticulture ;\n• tourisme : Nosy-Be, la Montagne d'Ambre, la baie de Diego-Suarez ;\n• commerce : le port d'Antsiranana."
+        },
+        {
+          "type": "texte",
+          "texte": "Les problèmes du Nord :\n• les cyclones, surtout vers l'Est ;\n• la déforestation et les feux de brousse ;\n• l'enclavement de certaines zones, avec des routes en mauvais état ;\n• la dépendance vis-à-vis de quelques cultures d'exportation, dont les prix varient."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Quels sont les deux ensembles hydrographiques du Nord et leur superficie ?\n2) Calcule leur superficie totale.\n3) Cite deux cultures de rente du Nord.\n4) Rédige un paragraphe d'environ cinq lignes expliquant pourquoi le Nord est une région très variée.",
+          "solution": "1) La Montagne d'Ambre (environ 11 200 km²) et le Tsaratanana (environ 20 000 km²).\n2) 11 200 + 20 000 = 31 200 km².\n3) Par exemple : la vanille et l'ylang-ylang (ou le cacao, la canne à sucre, le café).\n4) Exemple : « Le Nord réunit des paysages très différents. On y trouve des massifs élevés comme la Montagne d'Ambre et le Tsaratanana, où se situe le point culminant de l'île. Le climat change selon l'altitude et l'exposition : certaines zones sont très humides, d'autres plus sèches. La végétation passe donc de la forêt dense à la savane et à la steppe. Cette variété permet des cultures et des activités très diverses. »"
+        }
+      ],
+      "lexique": [
+        { "terme": "Massif", "definition": "Ensemble montagneux." },
+        { "terme": "Point culminant", "definition": "Sommet le plus haut d'une région ou d'un pays." },
+        { "terme": "Ylang-ylang", "definition": "Arbre dont les fleurs servent à fabriquer un parfum, cultivé surtout à Nosy-Be." },
+        { "terme": "Crevetticulture", "definition": "Élevage de crevettes dans des bassins." },
+        { "terme": "Exposition", "definition": "Orientation d'un versant par rapport aux vents et aux pluies." },
+        { "terme": "Culture d'exportation", "definition": "Culture dont les produits sont vendus à l'étranger." }
+      ]
+    }
+  ]
+}
