@@ -4,9 +4,9 @@
 // ============================================
 (function () {
   'use strict';
-
   const CLE_SESSION = 'guide-examen-session';
   const CLE_HISTO = 'guide-examen-historique';
+  const CLE_ESSAIS = 'guide-examen-essais';
   const DUREE_MS = 2 * 60 * 60 * 1000; // 2 h
   const NIVEAUX_SUJET = ['moyen', 'difficile', 'difficile', 'expert', 'expert'];
   const LIBELLES_NIVEAU = {
@@ -21,7 +21,6 @@
     revoir: '❌ À revoir'
   };
   let minuteur = null;
-
   // ---------- Stockage ----------
   function lireSession() {
     try {
@@ -46,7 +45,37 @@
   function ecrireHisto(liste) {
     localStorage.setItem(CLE_HISTO, JSON.stringify(liste));
   }
-
+  // ---------- Essai gratuit par matière ----------
+  function lireEssais() {
+    try {
+      const brut = localStorage.getItem(CLE_ESSAIS);
+      const obj = brut ? JSON.parse(brut) : {};
+      return (obj && typeof obj === 'object') ? obj : {};
+    } catch (e) { return {}; }
+  }
+  function marquerEssaiUtilise(cle) {
+    const obj = lireEssais();
+    obj[cle] = Date.now();
+    localStorage.setItem(CLE_ESSAIS, JSON.stringify(obj));
+  }
+  function infoAcces(m) {
+    const mat = trouverMatiereParId(etat.classe, m.id) || m;
+    const code = mat.code;
+    const payantes = (typeof MATIERES_PAYANTES !== 'undefined' && MATIERES_PAYANTES[etat.classe]) || [];
+    const payante = !!code && payantes.indexOf(code) !== -1;
+    const debloquee = !payante || estMatiereDebloquee(etat.classe, code);
+    const cle = etat.classe + '-' + code;
+    const essaiUtilise = !!lireEssais()[cle];
+    return {
+      mat: mat,
+      cle: cle,
+      payante: payante,
+      debloquee: debloquee,
+      essaiUtilise: essaiUtilise,
+      bloquee: payante && !debloquee && essaiUtilise,
+      essaiDispo: payante && !debloquee && !essaiUtilise
+    };
+  }
   // ---------- Verrouillage (utilise le hook existant de app.js) ----------
   function examenVerrouille() {
     const s = lireSession();
@@ -56,7 +85,6 @@
     if (examenVerrouille()) localStorage.setItem('guide-mode-examen', 'actif');
     else localStorage.removeItem('guide-mode-examen');
   }
-
   // ---------- Outils ----------
   function melanger(tab) {
     const a = tab.slice();
@@ -102,7 +130,6 @@
   function trouverExoEntree(classe, matiereId) {
     return (EXERCICES_PAR_CLASSE[classe] || []).find(m => m.id === matiereId && m.disponible);
   }
-
   // ---------- Composition du sujet ----------
   function candidats(chap, niveau, utilises) {
     const r = [];
@@ -163,7 +190,6 @@
     });
     return lignes;
   }
-
   // ---------- Chronomètre ----------
   function arreterMinuteur() {
     if (minuteur) { clearInterval(minuteur); minuteur = null; }
@@ -209,7 +235,6 @@
       restaurerTitre();
     }
   }
-
   // ---------- Écran 0 : point d'entrée ----------
   function allerExamen() {
     etat.niveau = 'examen';
@@ -222,7 +247,6 @@
     else if (s && s.phase === 'corrige') renderCorrige();
     else renderChoix();
   }
-
   // ---------- Écran 1 : choix de la matière ----------
   function renderChoix() {
     const zone = $('examen-contenu');
@@ -237,40 +261,102 @@
       <div class="bloc-pedagogique bloc-remarque">
         <div class="bloc-label">ℹ️ Comment ça marche</div>
         <div class="bloc-texte">
-          • Choisis une matière : l'app compose un sujet d'environ 5 exercices (du niveau moyen au niveau expert), différent à chaque essai.<br>
-          • Tu as 2 h. Pendant l'épreuve, les leçons et les corrigés sont verrouillés.<br>
-          • Écris tes réponses sur une feuille.<br>
+          • Choisis une matière : l'app compose un sujet d'environ 5 exercices (du niveau moyen au niveau expert), différent à chaque essai.
+
+          • Tu as 2 h. Pendant l'épreuve, les leçons et les corrigés sont verrouillés.
+
+          • Écris tes réponses sur une feuille.
+
           • À la fin, tu consultes le corrigé et tu t'auto-évalues. Ton bilan est gardé dans « Mes notes ».
+
+          • 🎁 Chaque matière payante offre un premier examen gratuit.
         </div>
       </div>
       <div id="examen-grille" class="grille-matieres"></div>`;
     const grille = $('examen-grille');
     (MATIERES_PAR_CLASSE[etat.classe] || []).forEach(m => {
       const dispo = !!trouverExoEntree(etat.classe, m.id);
+      let statut = '';
+      let acces = null;
+      if (!dispo) {
+        statut = 'Bientôt disponible';
+      } else {
+        acces = infoAcces(m);
+        if (acces.bloquee) statut = '🔒 Premium';
+        else if (acces.essaiDispo) statut = '🎁 1 essai gratuit';
+      }
       const carte = document.createElement('div');
       carte.className = 'carte-matiere' + (dispo ? '' : ' indisponible');
       carte.innerHTML = `
         <div class="carte-matiere-icone">${m.icone}</div>
         <div class="carte-matiere-nom">${m.nom}</div>
-        <div class="carte-matiere-statut">${dispo ? '' : 'Bientôt disponible'}</div>`;
-      if (dispo) carte.addEventListener('click', () => renderConfirmation(m));
+        <div class="carte-matiere-statut">${statut}</div>`;
+      if (dispo) {
+        carte.addEventListener('click', () => {
+          if (infoAcces(m).bloquee) renderBloque(m);
+          else renderConfirmation(m);
+        });
+      }
       grille.appendChild(carte);
     });
   }
-
-  // ---------- Écran 2 : confirmation avant de lancer ----------
-  function renderConfirmation(m) {
+  // ---------- Écran : essai gratuit utilisé ----------
+  function renderBloque(m) {
     const zone = $('examen-contenu');
     window.scrollTo(0, 0);
     zone.innerHTML = `
       <h2 class="titre-vue">${m.icone} Examen — ${m.nom}</h2>
+      <div class="bloc-pedagogique bloc-remarque">
+        <div class="bloc-label">🔒 Essai gratuit utilisé</div>
+        <div class="bloc-texte">
+          Tu as déjà passé ton examen gratuit en ${m.nom}.
+
+          Pour passer d'autres examens dans cette matière, débloque-la (3000 Ar) ou prends le pack complet (12000 Ar).
+
+          Les leçons gratuites et les exercices 🟢 restent accessibles.
+        </div>
+      </div>
+      <div class="examen-actions">
+        <button id="examen-debloquer" class="btn-valider">🔓 Débloquer ${m.nom}</button>
+        <button id="examen-retour-choix" class="btn-secondaire">← Choisir une autre matière</button>
+      </div>`;
+    $('examen-retour-choix').addEventListener('click', renderChoix);
+    $('examen-debloquer').addEventListener('click', () => ouvrirPaywallExamen(m));
+  }
+  function ouvrirPaywallExamen(m) {
+    const mat = trouverMatiereParId(etat.classe, m.id) || m;
+    const cont = $('matiere-contenu');
+    const vue = cont ? cont.closest('[id^="view-"]') : null;
+    if (vue) afficherVue(vue.id.replace('view-', ''));
+    majBoutonRetour(true);
+    restaurerTitre();
+    afficherPaywall(mat, 'composantes', 'Mode Examen — ' + mat.nom);
+  }
+  // ---------- Écran 2 : confirmation avant de lancer ----------
+  function renderConfirmation(m) {
+    const zone = $('examen-contenu');
+    window.scrollTo(0, 0);
+    const acces = infoAcces(m);
+    const noteEssai = acces.essaiDispo
+      ? `<div class="bloc-pedagogique bloc-remarque">
+          <div class="bloc-label">🎁 Essai gratuit</div>
+          <div class="bloc-texte">C'est ton examen gratuit en ${m.nom}. Les suivants nécessitent de débloquer la matière.</div>
+        </div>`
+      : '';
+    zone.innerHTML = `
+      <h2 class="titre-vue">${m.icone} Examen — ${m.nom}</h2>
+      ${noteEssai}
       <div class="bloc-pedagogique bloc-methode">
         <div class="bloc-label">⏱ Conditions de l'épreuve</div>
         <div class="bloc-texte">
-          • Environ 5 exercices tirés au hasard<br>
-          • Durée : 2 h<br>
-          • Leçons et exercices verrouillés jusqu'à la fin<br>
-          • Prévois une feuille et un stylo<br>
+          • Environ 5 exercices tirés au hasard
+
+          • Durée : 2 h
+
+          • Leçons et exercices verrouillés jusqu'à la fin
+
+          • Prévois une feuille et un stylo
+
           • Si tu fermes l'app, le temps continue de s'écouler
         </div>
       </div>
@@ -281,10 +367,11 @@
     $('examen-retour-choix').addEventListener('click', renderChoix);
     $('examen-lancer').addEventListener('click', () => lancerExamen(m));
   }
-
   async function lancerExamen(m) {
     const entree = trouverExoEntree(etat.classe, m.id);
     if (!entree) return;
+    const acces = infoAcces(m);
+    if (acces.bloquee) { renderBloque(m); return; }
     const data = await recupererDonneesExercices(etat.classe, entree);
     if (!data) {
       alert("Impossible de charger les exercices pour le moment.");
@@ -295,6 +382,7 @@
       alert("Aucun exercice disponible pour cette matière.");
       return;
     }
+    if (acces.essaiDispo) marquerEssaiUtilise(acces.cle);
     const debut = Date.now();
     ecrireSession({
       classe: etat.classe,
@@ -310,7 +398,6 @@
     majVerrou();
     renderEpreuve();
   }
-
   // ---------- Écran 3 : l'épreuve ----------
   async function renderEpreuve() {
     const s = lireSession();
@@ -361,7 +448,6 @@
     $('examen-abandon').addEventListener('click', abandonner);
     demarrerMinuteur();
   }
-
   function terminerEpreuve() {
     const s = lireSession();
     if (!s) return;
@@ -375,7 +461,6 @@
     restaurerTitre();
     renderCorrige();
   }
-
   function abandonner() {
     if (!confirm("Abandonner l'examen ? Rien ne sera enregistré.")) return;
     effacerSession();
@@ -383,7 +468,6 @@
     restaurerTitre();
     renderChoix();
   }
-
   // ---------- Écran 4 : corrigé + auto-évaluation ----------
   async function renderCorrige() {
     const s = lireSession();
@@ -442,7 +526,6 @@
         <button id="examen-abandon" class="btn-secondaire">Quitter sans enregistrer</button>
       </div>`;
     zone.innerHTML = html;
-
     zone.querySelectorAll('.examen-eval-btn').forEach(btn => {
       btn.addEventListener('click', () => {
         const sess = lireSession();
@@ -470,7 +553,6 @@
       validerBilan(sess, lignes);
     });
   }
-
   // ---------- Bilan ----------
   function validerBilan(s, lignes) {
     let points = 0;
@@ -507,7 +589,6 @@
     renderBilan(entree);
     renderHistoriqueExamens();
   }
-
   function renderBilan(e) {
     const zone = $('examen-contenu');
     window.scrollTo(0, 0);
@@ -538,7 +619,7 @@
       html += `
         <div class="bloc-pedagogique bloc-methode">
           <div class="bloc-label">📚 À revoir</div>
-          <div class="bloc-texte">${e.aRevoir.map(t => '• ' + t).join('<br>')}</div>
+          <div class="bloc-texte">${e.aRevoir.map(t => '• ' + t).join('\n')}</div>
         </div>`;
     }
     html += `
@@ -556,7 +637,6 @@
     }
     $('examen-nouveau').addEventListener('click', renderChoix);
   }
-
   // ---------- Historique dans « Mes notes » ----------
   function renderHistoriqueExamens() {
     const zone = $('notes-examens');
@@ -589,7 +669,6 @@
       }
     });
   }
-
   // ---------- Branchement sur l'app ----------
   function init() {
     document.querySelectorAll('.nav-btn').forEach(btn => {
@@ -603,7 +682,6 @@
         }
       });
     });
-
     // Pendant l'épreuve, l'onglet Exercices est bloqué (les corrigés y sont visibles).
     const barre = document.querySelector('.nav-basse');
     if (barre) {
@@ -617,12 +695,10 @@
         }
       }, true);
     }
-
     majVerrou();
     if (examenVerrouille()) demarrerMinuteur();
     renderHistoriqueExamens();
   }
-
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
   } else {
