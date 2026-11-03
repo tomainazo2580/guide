@@ -111,6 +111,25 @@ const EXERCICES_PAR_CLASSE = {
   ],
   'tle': []
 };
+// ============================================
+// ACCÈS PAYANT — matières payantes, chapitre premium, alphabet des codes
+// (Malagasy : gratuit, donc absent de ces listes)
+// ============================================
+const ALPHABET_CODE = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789';
+const MATIERES_PAYANTES = {
+  '3e': ['FRAN', 'ANGL', 'MATH', 'SVT', 'SPHY', 'HIST', 'GEOG'],
+  'tle': []
+};
+// Position (à partir de 1) du chapitre payant dans la liste des chapitres de chaque matière
+const CHAPITRE_PREMIUM = {
+  'mathematiques': 4,
+  'sciences-physiques': 2,
+  'svt': 4,
+  'geographie': 4,
+  'histoire': 9,
+  'francais': 6,
+  'anglais': 6
+};
 const LABELS_TYPE = {
   definition: { label: '📘 Définition', classe: 'bloc-definition' },
   formule:    { label: '🧮 Formule',    classe: 'bloc-formule' },
@@ -128,6 +147,8 @@ const etat = {
   composante: null,
   lecon: null,
   compPaywall: null,
+  paywallMatiere: null,
+  paywallOrigine: null,
   exoMatiere: null,
   exoData: null,
   exoChapitre: null,
@@ -251,10 +272,9 @@ async function reprendreDerniereLecon() {
   if (!ok) return;
   const comp = etat.dataMatiere.composantes.find(c => c.id === pos.composanteId);
   if (!comp) return;
-  const debloque = estMatiereDebloquee(etat.classe, matiere.code);
   afficherVue('matiere');
   majBoutonRetour(true);
-  if (comp.premium && !debloque) {
+  if (estChapitreVerrouille(matiere, comp)) {
     etat.niveau = 'composantes';
     afficherListeComposantes();
     return;
@@ -335,10 +355,17 @@ function ouvrirMatiere() {
 // ============================================
 // NIVEAU 3 — LISTE DES COMPOSANTES
 // ============================================
+function estChapitreVerrouille(matiere, comp) {
+  if (!matiere || !comp || comp.erreurChargement) return false;
+  if (estMatiereDebloquee(etat.classe, matiere.code)) return false;
+  const position = CHAPITRE_PREMIUM[matiere.id];
+  if (!position) return false;
+  const index = etat.dataMatiere.composantes.indexOf(comp);
+  return index === position - 1;
+}
 function afficherListeComposantes() {
   const classeNom = CLASSES.find(c => c.id === etat.classe).nom;
   $('fil-ariane').textContent = classeNom + ' › ' + etat.matiere.nom;
-  const debloque = estMatiereDebloquee(etat.classe, etat.matiere.code);
   const conteneur = $('matiere-contenu');
   conteneur.innerHTML = '<div class="liste-cartes" id="liste-composantes"></div>';
   const liste = $('liste-composantes');
@@ -353,7 +380,7 @@ function afficherListeComposantes() {
       liste.appendChild(carte);
       return;
     }
-    const verrouille = comp.premium && !debloque;
+    const verrouille = estChapitreVerrouille(etat.matiere, comp);
     const pourcentage = calculerPourcentageComposante(etat.classe, etat.matiere.id, comp);
     const carte = document.createElement('div');
     carte.className = 'carte-liste' + (verrouille ? ' verrouille' : '');
@@ -363,11 +390,11 @@ function afficherListeComposantes() {
         <div class="mini-progression">
           <div class="mini-progression-barre"><div class="mini-progression-remplie" style="width:${pourcentage}%"></div></div>
           <span class="mini-progression-texte">${pourcentage}%</span>
-        </div>` : '<div class="carte-liste-souscription">Chapitre premium — 3000 Ar</div>'}
+        </div>` : '<div class="carte-liste-souscription">Chapitre premium — à débloquer</div>'}
     `;
     carte.addEventListener('click', () => {
       if (verrouille) {
-        afficherPaywall(comp);
+        afficherPaywall(etat.matiere, 'composantes', comp.titre);
       } else {
         selectionnerComposante(comp);
       }
@@ -376,6 +403,10 @@ function afficherListeComposantes() {
   });
 }
 function selectionnerComposante(comp) {
+  if (estChapitreVerrouille(etat.matiere, comp)) {
+    afficherPaywall(etat.matiere, 'composantes', comp.titre);
+    return;
+  }
   etat.composante = comp;
   etat.niveau = 'lecons';
   afficherListeLecons();
@@ -520,6 +551,18 @@ function renderLexique(lexique) {
 // ============================================
 // CHAPITRE "EXERCICES" — SUJETS ET CORRIGÉS (indépendant des leçons)
 // ============================================
+const NIVEAUX_EXO_PAYANTS = {
+  '🟡': 'Niveau Moyen',
+  '🟠': 'Niveau Difficile',
+  '🔴': 'Niveau Expert (BEPC)'
+};
+function trouverMatiereParId(classeId, matiereId) {
+  return (MATIERES_PAR_CLASSE[classeId] || []).find(m => m.id === matiereId) || null;
+}
+function niveauPayantExercice(ex) {
+  const debut = String(ex.enonce || '').trim().slice(0, 2);
+  return NIVEAUX_EXO_PAYANTS[debut] ? debut : null;
+}
 async function recupererDonneesExercices(classeId, matiere) {
   const cleCache = 'exo-' + classeId + '-' + matiere.id;
   if (etat.cache[cleCache]) return etat.cache[cleCache];
@@ -597,33 +640,121 @@ function afficherExoListe() {
   const classeNom = CLASSES.find(c => c.id === etat.classe).nom;
   $('fil-ariane').textContent = classeNom + ' › Exercices › ' + etat.exoMatiere.nom + ' › ' + etat.exoChapitre.titre;
   const conteneur = $('matiere-contenu');
+  const matiereCours = trouverMatiereParId(etat.classe, etat.exoMatiere.id);
+  const debloque = !matiereCours || estMatiereDebloquee(etat.classe, matiereCours.code);
   let html = `<h2 class="titre-lecon">${etat.exoChapitre.titre}</h2>`;
   (etat.exoChapitre.exercices || []).forEach((ex, index) => {
-    html += renderExercice({
-      enonce: `Exercice ${index + 1}\n\n` + ex.enonce,
-      solution: ex.solution
-    });
+    const niveau = niveauPayantExercice(ex);
+    if (niveau && !debloque) {
+      html += `
+        <div class="carte-liste verrouille exo-verrouille" style="margin-bottom:12px;cursor:pointer;">
+          <div class="carte-liste-titre">Exercice ${index + 1} — ${niveau} ${NIVEAUX_EXO_PAYANTS[niveau]} 🔒</div>
+          <div class="carte-liste-souscription">Exercice premium — à débloquer</div>
+        </div>`;
+    } else {
+      html += renderExercice({
+        enonce: `Exercice ${index + 1}\n\n` + ex.enonce,
+        solution: ex.solution
+      });
+    }
   });
   conteneur.innerHTML = html;
+  conteneur.querySelectorAll('.exo-verrouille').forEach(el => {
+    el.addEventListener('click', () => {
+      afficherPaywall(etat.exoMatiere, 'exo-liste', etat.exoChapitre.titre);
+    });
+  });
 }
 // ============================================
-// PAYWALL — DÉBLOCAGE MOBILE MONEY
+// IDENTIFIANT DU TÉLÉPHONE
 // ============================================
-function afficherPaywall(comp) {
-  etat.compPaywall = comp;
+function idAppareilValide(id) {
+  if (!id || id.length !== 6) return false;
+  for (let i = 0; i < id.length; i++) {
+    if (ALPHABET_CODE.indexOf(id.charAt(i)) === -1) return false;
+  }
+  return true;
+}
+function genererIdAppareil() {
+  const tirage = new Uint32Array(6);
+  if (window.crypto && window.crypto.getRandomValues) {
+    window.crypto.getRandomValues(tirage);
+  } else {
+    for (let i = 0; i < 6; i++) tirage[i] = Math.floor(Math.random() * 4294967296);
+  }
+  let id = '';
+  for (let i = 0; i < 6; i++) {
+    id += ALPHABET_CODE.charAt(tirage[i] % ALPHABET_CODE.length);
+  }
+  return id;
+}
+function obtenirIdAppareil() {
+  let id = localStorage.getItem('guide-appareil-id');
+  if (!idAppareilValide(id)) {
+    id = genererIdAppareil();
+    localStorage.setItem('guide-appareil-id', id);
+  }
+  return id;
+}
+function copierTexteSecours(texte) {
+  try {
+    const zone = document.createElement('textarea');
+    zone.value = texte;
+    zone.style.position = 'fixed';
+    zone.style.opacity = '0';
+    document.body.appendChild(zone);
+    zone.select();
+    const ok = document.execCommand('copy');
+    document.body.removeChild(zone);
+    return ok;
+  } catch (e) {
+    return false;
+  }
+}
+function copierTexte(texte, bouton) {
+  const confirmer = (ok) => {
+    if (!bouton) return;
+    const ancien = bouton.getAttribute('data-libelle') || bouton.textContent;
+    bouton.setAttribute('data-libelle', ancien);
+    bouton.textContent = ok ? '✅ Copié' : '❌ Copie impossible';
+    setTimeout(() => { bouton.textContent = ancien; }, 2000);
+  };
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(texte)
+      .then(() => confirmer(true))
+      .catch(() => confirmer(copierTexteSecours(texte)));
+  } else {
+    confirmer(copierTexteSecours(texte));
+  }
+}
+// ============================================
+// PAYWALL — DÉBLOCAGE MOBILE MONEY (code lié au téléphone)
+// ============================================
+function afficherPaywall(matiere, origine, titreElement) {
+  const mat = (matiere && matiere.code) ? matiere : (trouverMatiereParId(etat.classe, matiere.id) || matiere);
+  etat.paywallMatiere = mat;
+  etat.paywallOrigine = origine || 'composantes';
   etat.niveau = 'paywall';
   const classeNom = CLASSES.find(c => c.id === etat.classe).nom;
-  $('fil-ariane').textContent = classeNom + ' › ' + etat.matiere.nom + ' › Débloquer';
+  $('fil-ariane').textContent = classeNom + ' › ' + mat.nom + ' › Débloquer';
+  const idAppareil = obtenirIdAppareil();
   const conteneur = $('matiere-contenu');
   conteneur.innerHTML = `
     <div class="paywall">
       <div class="paywall-icone">🔒</div>
-      <div class="paywall-titre">${comp.titre}</div>
-      <p class="paywall-texte">Débloque toutes les leçons premium de ${etat.matiere.nom} (${classeNom}) pour :</p>
+      <div class="paywall-titre">${titreElement || mat.nom}</div>
+      <p class="paywall-texte">Contenu premium de ${mat.nom} (${classeNom}) : ce chapitre, les exercices des niveaux Moyen, Difficile et Expert, et le Mode Examen complet de la matière.</p>
       <div class="paywall-prix">3000 Ar</div>
+      <p class="paywall-texte">Pack complet (toutes les matières payantes) : 12000 Ar</p>
       <div class="etape">
         <div class="etape-numero">1</div>
-        <div class="etape-texte">Envoie 3000 Ar à l'un de ces numéros (nom : Tiana Stephan)</div>
+        <div class="etape-texte">Voici l'identifiant de ce téléphone. Il sert à fabriquer ton code personnel. Fais la demande depuis l'application que tu utiliseras pour réviser.</div>
+      </div>
+      <div class="paywall-prix" id="texte-id-appareil" style="letter-spacing:4px;">${idAppareil}</div>
+      <button id="btn-copier-id" class="btn-valider">📋 Copier mon identifiant</button>
+      <div class="etape">
+        <div class="etape-numero">2</div>
+        <div class="etape-texte">Envoie 3000 Ar (ou 12000 Ar pour le pack) à l'un de ces numéros (nom : Tiana Stephan)</div>
       </div>
       <div class="mobile-money-liste">
         <div class="mm-item"><span class="mm-operateur">Mvola</span><span class="mm-numero">034 39 949 07</span></div>
@@ -631,62 +762,124 @@ function afficherPaywall(comp) {
         <div class="mm-item"><span class="mm-operateur">Orange Money</span><span class="mm-numero">032 24 159 98</span></div>
       </div>
       <div class="etape">
-        <div class="etape-numero">2</div>
-        <div class="etape-texte">Envoie une capture d'écran de la preuve de paiement (WhatsApp, SMS...)</div>
+        <div class="etape-numero">3</div>
+        <div class="etape-texte">Envoie la preuve de paiement (capture d'écran) ET ton identifiant, en précisant la matière ou le pack (WhatsApp, SMS...)</div>
       </div>
       <div class="etape">
-        <div class="etape-numero">3</div>
-        <div class="etape-texte">Reçois ton code personnel et colle-le ci-dessous</div>
+        <div class="etape-numero">4</div>
+        <div class="etape-texte">Reçois ton code personnel et colle-le ci-dessous. Ce code ne fonctionne que sur ce téléphone.</div>
       </div>
-      <input type="text" id="input-code" class="input-code" placeholder="GUIDE-CLASSE-MATIERE-0000-0000" maxlength="40">
+      <input type="text" id="input-code" class="input-code" placeholder="GUIDE-XXXXXX-MATH-XXXXXX" maxlength="40">
       <button id="btn-valider-code" class="btn-valider">Valider le code</button>
       <div id="message-code" class="message-code"></div>
     </div>
   `;
+  $('btn-copier-id').addEventListener('click', () => copierTexte(idAppareil, $('btn-copier-id')));
   $('btn-valider-code').addEventListener('click', traiterValidationCode);
 }
+function minutesBlocageCode() {
+  try {
+    const e = JSON.parse(localStorage.getItem('guide-essais-code') || 'null');
+    if (e && e.jusqua && Date.now() < e.jusqua) {
+      return Math.ceil((e.jusqua - Date.now()) / 60000);
+    }
+  } catch (err) {}
+  return 0;
+}
+function noterEchecCode() {
+  let e = { n: 0, jusqua: 0 };
+  try {
+    e = JSON.parse(localStorage.getItem('guide-essais-code') || 'null') || e;
+  } catch (err) {}
+  if (e.jusqua && Date.now() >= e.jusqua) e = { n: 0, jusqua: 0 };
+  e.n = (e.n || 0) + 1;
+  if (e.n >= 5) {
+    e.jusqua = Date.now() + 10 * 60 * 1000;
+    e.n = 0;
+  }
+  localStorage.setItem('guide-essais-code', JSON.stringify(e));
+}
+function reinitialiserEchecsCode() {
+  localStorage.removeItem('guide-essais-code');
+}
 function traiterValidationCode() {
-  const saisie = $('input-code').value;
-  const resultat = verifierCode(saisie, etat.classe, etat.matiere.code);
   const messageEl = $('message-code');
-  if (resultat) {
-    debloquerMatiere(etat.classe, etat.matiere.code);
-    messageEl.textContent = '✅ Code valide ! Matière débloquée.';
-    messageEl.className = 'message-code succes';
-    setTimeout(() => {
-      etat.niveau = 'composantes';
-      afficherListeComposantes();
-    }, 1500);
-  } else {
-    messageEl.textContent = '❌ Code invalide. Vérifie et réessaie.';
+  const minutes = minutesBlocageCode();
+  if (minutes > 0) {
+    messageEl.textContent = '⏳ Trop d\'essais. Réessaie dans ' + minutes + ' minute(s).';
     messageEl.className = 'message-code erreur';
+    return;
+  }
+  const resultat = analyserCode($('input-code').value, etat.classe);
+  if (!resultat) {
+    noterEchecCode();
+    messageEl.textContent = '❌ Code invalide pour ce téléphone. Vérifie et réessaie.';
+    messageEl.className = 'message-code erreur';
+    return;
+  }
+  reinitialiserEchecsCode();
+  enregistrerDeblocage(etat.classe, resultat.matiere, resultat.code);
+  const matiereDebloquee = trouverMatiereParCode(etat.classe, resultat.matiere);
+  const nom = resultat.matiere === 'PACK' ? 'Pack complet' : (matiereDebloquee ? matiereDebloquee.nom : resultat.matiere);
+  messageEl.textContent = '✅ Code valide ! ' + nom + ' débloqué.';
+  messageEl.className = 'message-code succes';
+  if (estMatiereDebloquee(etat.classe, etat.paywallMatiere.code)) {
+    setTimeout(() => {
+      if (etat.paywallOrigine === 'exo-liste') {
+        etat.niveau = 'exo-liste';
+        afficherExoListe();
+      } else {
+        etat.niveau = 'composantes';
+        afficherListeComposantes();
+      }
+    }, 1500);
   }
 }
-function calculerChecksum(classeId, matiereCode, serial) {
-  const texte = classeId.toUpperCase() + matiereCode + serial + SEL_SECRET;
-  let somme = 0;
+function trouverMatiereParCode(classeId, code) {
+  return (MATIERES_PAR_CLASSE[classeId] || []).find(m => m.code === code) || null;
+}
+function calculerChecksum(classeId, idAppareil, matiereCode) {
+  const texte = classeId.toUpperCase() + '|' + idAppareil + '|' + matiereCode + '|' + SEL_SECRET;
+  let h1 = 0x811c9dc5;
+  let h2 = 5381;
   for (let i = 0; i < texte.length; i++) {
-    somme += texte.charCodeAt(i) * (i + 1);
+    const c = texte.charCodeAt(i);
+    h1 = Math.imul(h1 ^ c, 16777619);
+    h2 = (Math.imul(h2, 33) + c * (i + 1)) | 0;
   }
-  const checksum = somme % 10000;
-  return String(checksum).padStart(4, '0');
+  let n = ((h1 >>> 0) ^ (h2 >>> 0)) >>> 0;
+  const base = ALPHABET_CODE.length;
+  let sortie = '';
+  for (let k = 0; k < 6; k++) {
+    sortie += ALPHABET_CODE.charAt(n % base);
+    n = Math.floor(n / base);
+  }
+  return sortie;
 }
-function verifierCode(saisie, classeId, matiereCode) {
-  if (!saisie) return false;
-  const parties = saisie.trim().toUpperCase().split('-');
-  if (parties.length !== 5) return false;
-  const [prefixe, classePart, matierePart, serial, checksum] = parties;
-  if (prefixe !== 'GUIDE') return false;
-  if (classePart !== classeId.toUpperCase()) return false;
-  if (matierePart !== matiereCode) return false;
-  if (!/^\d{4}$/.test(serial)) return false;
-  if (!/^\d{4}$/.test(checksum)) return false;
-  const checksumAttendu = calculerChecksum(classeId, matiereCode, serial);
-  return checksum === checksumAttendu;
+function analyserCode(saisie, classeId) {
+  if (!saisie) return null;
+  const propre = String(saisie).toUpperCase().replace(/[‐‑–—]/g, '-').replace(/\s+/g, '');
+  const parties = propre.split('-');
+  if (parties.length !== 4) return null;
+  const prefixe = parties[0];
+  const idCode = parties[1];
+  const matiereCode = parties[2];
+  const checksum = parties[3];
+  if (prefixe !== 'GUIDE') return null;
+  if (idCode !== obtenirIdAppareil()) return null;
+  const autorisees = (MATIERES_PAYANTES[classeId] || []).concat(['PACK']);
+  if (autorisees.indexOf(matiereCode) === -1) return null;
+  if (checksum !== calculerChecksum(classeId, idCode, matiereCode)) return null;
+  return { matiere: matiereCode, code: parties.join('-') };
 }
 function chargerDeblocages() {
-  const brut = localStorage.getItem('guide-deblocages');
-  return brut ? JSON.parse(brut) : {};
+  try {
+    const brut = localStorage.getItem('guide-deblocages');
+    const obj = brut ? JSON.parse(brut) : {};
+    return (obj && typeof obj === 'object') ? obj : {};
+  } catch (e) {
+    return {};
+  }
 }
 function sauvegarderDeblocages(deblocages) {
   localStorage.setItem('guide-deblocages', JSON.stringify(deblocages));
@@ -694,14 +887,20 @@ function sauvegarderDeblocages(deblocages) {
 function cleDeblocage(classeId, matiereCode) {
   return classeId + '-' + matiereCode;
 }
-function estMatiereDebloquee(classeId, matiereCode) {
+function enregistrerDeblocage(classeId, matiereCode, code) {
   const deblocages = chargerDeblocages();
-  return !!deblocages[cleDeblocage(classeId, matiereCode)];
-}
-function debloquerMatiere(classeId, matiereCode) {
-  const deblocages = chargerDeblocages();
-  deblocages[cleDeblocage(classeId, matiereCode)] = true;
+  deblocages[cleDeblocage(classeId, matiereCode)] = code;
   sauvegarderDeblocages(deblocages);
+}
+function deblocageValide(classeId, matiereCode) {
+  const stocke = chargerDeblocages()[cleDeblocage(classeId, matiereCode)];
+  if (typeof stocke !== 'string') return false;
+  const resultat = analyserCode(stocke, classeId);
+  return !!resultat && resultat.matiere === matiereCode;
+}
+function estMatiereDebloquee(classeId, matiereCode) {
+  if ((MATIERES_PAYANTES[classeId] || []).indexOf(matiereCode) === -1) return true;
+  return deblocageValide(classeId, matiereCode) || deblocageValide(classeId, 'PACK');
 }
 // ============================================
 // PROGRESSION
@@ -832,8 +1031,13 @@ function gererRetour() {
     etat.niveau = 'lecons';
     afficherListeLecons();
   } else if (etat.niveau === 'paywall') {
-    etat.niveau = 'composantes';
-    afficherListeComposantes();
+    if (etat.paywallOrigine === 'exo-liste') {
+      etat.niveau = 'exo-liste';
+      afficherExoListe();
+    } else {
+      etat.niveau = 'composantes';
+      afficherListeComposantes();
+    }
   } else if (etat.niveau === 'exo-chapitres') {
     etat.niveau = 'exo-matieres';
     afficherVue('exercices');
@@ -869,6 +1073,33 @@ function allerNotes() {
   majBoutonRetour(false);
   afficherNotes();
 }
+function afficherIdentifiantReglages() {
+  const vue = $('view-parametres');
+  if (!vue) return;
+  let zone = $('zone-id-appareil');
+  if (!zone) {
+    zone = document.createElement('div');
+    zone.id = 'zone-id-appareil';
+    zone.className = 'paywall';
+    vue.appendChild(zone);
+  }
+  const classeId = etat.classe || '3e';
+  const idAppareil = obtenirIdAppareil();
+  let lignes = '';
+  (MATIERES_PAYANTES[classeId] || []).forEach(code => {
+    const m = trouverMatiereParCode(classeId, code);
+    if (!m) return;
+    const ok = estMatiereDebloquee(classeId, code);
+    lignes += '<div>' + (ok ? '✅ ' : '🔒 ') + m.nom + '</div>';
+  });
+  zone.innerHTML = `
+    <div class="paywall-titre">Identifiant de ce téléphone</div>
+    <div class="paywall-prix" style="letter-spacing:4px;">${idAppareil}</div>
+    <button id="btn-copier-id-reglages" class="btn-valider">📋 Copier mon identifiant</button>
+    ${lignes ? '<p class="paywall-texte" style="margin-top:14px;text-align:left;">Matières premium :</p><div class="paywall-texte" style="text-align:left;">' + lignes + '</div>' : ''}
+  `;
+  $('btn-copier-id-reglages').addEventListener('click', () => copierTexte(idAppareil, $('btn-copier-id-reglages')));
+}
 function allerParametres() {
   afficherVue('parametres');
   majBoutonRetour(false);
@@ -876,6 +1107,7 @@ function allerParametres() {
   $('texte-classe-actuelle').textContent = classeObj
     ? ('Classe actuelle : ' + classeObj.nom)
     : 'Aucune classe sélectionnée';
+  afficherIdentifiantReglages();
 }
 function changerDeClasse() {
   if (confirm("Veux-tu changer de classe ? Tu devras choisir à nouveau ta classe au prochain écran.")) {
@@ -948,6 +1180,7 @@ function initInstallation() {
 // INITIALISATION
 // ============================================
 function initialiser() {
+  obtenirIdAppareil();
   const themeSauvegarde = localStorage.getItem('guide-theme') || 'clair';
   appliquerTheme(themeSauvegarde);
   const classeSauvegardee = localStorage.getItem('guide-classe-choisie');
