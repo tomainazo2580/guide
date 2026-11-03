@@ -1,0 +1,323 @@
+{
+  "id": "geo-5",
+  "titre": "Potentialités naturelles",
+  "lecons": [
+    {
+      "id": "geo-5-1",
+      "titre": "Le relief",
+      "blocs": [
+        {
+          "type": "remarque",
+          "texte": "Le fascicule présente le relief avec des cartes, qui ne sont pas reproduites ici. Les noms de massifs et de plaines cités en exemple ne figurent pas tous dans le fascicule : à vérifier avec ton professeur ou ton atlas."
+        },
+        {
+          "type": "definition",
+          "texte": "Relief : ensemble des formes de la surface de la Terre (montagnes, plateaux, plaines, vallées)."
+        },
+        {
+          "type": "texte",
+          "texte": "Le relief de Madagascar est très contrasté :\n• les deux tiers de l'île reposent sur le socle cristallin, formé de roches très anciennes ;\n• le versant oriental (vers l'océan Indien) est accidenté, marqué par des failles et des pentes fortes ;\n• le versant occidental (vers le canal de Mozambique) a des pentes douces sur environ 200 km, avec des couches sédimentaires inclinées vers l'ouest de 2° à 10°."
+        },
+        {
+          "type": "schema",
+          "titre": "Coupe schématique Est-Ouest de Madagascar",
+          "svg": "<svg width='300' height='180' viewBox='0 0 300 180' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='145' width='30' height='25' fill='#90caf9'/><rect x='270' y='134' width='30' height='36' fill='#90caf9'/><polygon points='40,145 68,75 98,52 138,45 172,62 210,88 245,118 270,134 270,170 40,170' fill='#d7b98e' stroke='#8d6e63'/><polygon points='172,62 210,88 245,118 270,134 270,170 160,170' fill='#f5e6a8' stroke='#8d6e63'/><text x='40' y='18' text-anchor='middle' font-size='11' font-weight='bold' fill='#222'>EST</text><text x='270' y='18' text-anchor='middle' font-size='11' font-weight='bold' fill='#222'>OUEST</text><text x='54' y='100' text-anchor='end' font-size='9' fill='#222'>Pente forte</text><text x='138' y='36' text-anchor='middle' font-size='10' fill='#222'>Hautes Terres</text><text x='235' y='64' text-anchor='middle' font-size='9' fill='#222'>Pente douce (200 km)</text><text x='105' y='112' text-anchor='middle' font-size='9' fill='#222'>Socle cristallin</text><text x='215' y='150' text-anchor='middle' font-size='9' fill='#222'>Roches sédimentaires</text></svg>",
+          "legende": "Schéma sans échelle : à gauche l'océan Indien, à droite le canal de Mozambique."
+        },
+        {
+          "type": "texte",
+          "texte": "Les principales formes du relief :\n• les massifs : ensembles montagneux, comme le Tsaratanana au Nord (où se trouve le Maromokotro, point culminant de l'île), l'Ankaratra ou l'Andringitra ;\n• les plateaux : les Hautes Terres au centre, et des plateaux dans l'Ouest ;\n• les plaines intérieures : par exemple la plaine du lac Alaotra ou le Betsimitatatra autour d'Antananarivo ;\n• les plaines côtières : étroites à l'Est, plus larges à l'Ouest."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["", "Versant oriental", "Versant occidental"],
+          "lignes": [
+            ["Roches", "Socle cristallin", "Couches sédimentaires"],
+            ["Pente", "Forte, avec des failles", "Douce sur environ 200 km (2° à 10°)"],
+            ["Plaine côtière", "Étroite", "Plus large"],
+            ["Cours d'eau", "Courts et rapides", "Longs, à pente faible"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Le socle cristallin occupe les deux tiers de l'île. Calcule sa surface approximative, sachant que Madagascar mesure environ 587 000 km².\n2) Compare le versant oriental et le versant occidental (pente et roches).\n3) Explique pourquoi les cours d'eau du versant oriental sont rapides.",
+          "solution": "1) 587 000 × 2 ÷ 3 ≈ 391 000 km².\n2) Versant oriental : pente forte, accidenté, avec des failles, sur le socle cristallin. Versant occidental : pente douce sur environ 200 km, couches sédimentaires inclinées vers l'ouest de 2° à 10°.\n3) Le relief de l'Est est accidenté et la pente est forte : l'eau descend vite vers l'océan, donc les cours d'eau sont rapides."
+        }
+      ],
+      "lexique": [
+        { "terme": "Socle cristallin", "definition": "Ensemble de roches très anciennes, qui forment la base de l'île sur les deux tiers de sa surface." },
+        { "terme": "Roche sédimentaire", "definition": "Roche formée par le dépôt de sédiments en couches successives." },
+        { "terme": "Faille", "definition": "Cassure de l'écorce terrestre le long de laquelle deux blocs se sont déplacés." },
+        { "terme": "Versant", "definition": "Pente d'un relief, côté tourné vers l'Est ou vers l'Ouest." },
+        { "terme": "Massif", "definition": "Ensemble montagneux." },
+        { "terme": "Plateau", "definition": "Vaste surface élevée, à peu près plane." },
+        { "terme": "Plaine", "definition": "Vaste surface basse, plane ou à peine ondulée." }
+      ]
+    },
+    {
+      "id": "geo-5-2",
+      "titre": "Les climats",
+      "blocs": [
+        {
+          "type": "remarque",
+          "texte": "La carte des zones climatiques A à J du fascicule n'est pas reproduite : elle est remplacée par un tableau. Les seuils de vitesse du vent des cyclones sont des valeurs courantes, et le fascicule ne donne que le seuil de 60 km/h : à vérifier avec ton professeur. La valeur de 115 mm pour Toliara (1992) est bien plus faible que les 350 mm cités pour le Sud : elle dépend sans doute de la station et de l'année, à vérifier aussi."
+        },
+        {
+          "type": "definition",
+          "texte": "Climat : ensemble des conditions de température et de précipitations (pluie) d'un lieu, observées sur une longue période."
+        },
+        {
+          "type": "texte",
+          "texte": "Madagascar se situe dans la zone intertropicale, entre 12° et 26° de latitude sud. Le climat est tropical, avec deux saisons :\n• une saison chaude et pluvieuse, de novembre à mars ;\n• une saison plus fraîche et sèche, d'avril à octobre.\nLe relief fait fortement varier le climat d'une région à l'autre : il pleut beaucoup plus à l'Est qu'à l'Ouest ou au Sud, et il fait plus frais en altitude (parfois des températures proches de 0 °C sur les sommets)."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les zones climatiques",
+          "entetes": ["Zone", "Précipitations (mm/an)", "Température (°C)"],
+          "lignes": [
+            ["A (très humide)", "2 500 à 3 700", "≥ 23,6"],
+            ["B", "1 350 à 2 500", "18 à 22"],
+            ["C", "1 200 à 2 000", "≥ 26"],
+            ["D", "1 250 à 1 500", "≥ 19"],
+            ["E", "1 400 à 1 700", "≥ 21"],
+            ["F", "800 à 1 100", "18 à 25"],
+            ["G", "700 à 1 200", "≥ 23"],
+            ["H", "600 à 800", "≥ 23"],
+            ["I", "environ 500", "≥ 23"],
+            ["J", "moins de 500 (moins de 50 jours de pluie)", "≥ 22"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Précipitations par province en 1992",
+          "svg": "<svg width='300' height='215' viewBox='0 0 300 215' xmlns='http://www.w3.org/2000/svg'><text x='150' y='16' text-anchor='middle' font-size='11' font-weight='bold' fill='#222'>Précipitations annuelles en 1992 (mm)</text><line x1='80' y1='26' x2='80' y2='208' stroke='#888'/><rect x='80' y='34' width='64' height='20' fill='#64b5f6'/><text x='76' y='48' text-anchor='end' font-size='10' fill='#222'>Antananarivo</text><text x='148' y='48' font-size='10' fill='#222'>972</text><rect x='80' y='64' width='53' height='20' fill='#64b5f6'/><text x='76' y='78' text-anchor='end' font-size='10' fill='#222'>Antsiranana</text><text x='137' y='78' font-size='10' fill='#222'>811</text><rect x='80' y='94' width='56' height='20' fill='#64b5f6'/><text x='76' y='108' text-anchor='end' font-size='10' fill='#222'>Fianarantsoa</text><text x='140' y='108' font-size='10' fill='#222'>862</text><rect x='80' y='124' width='89' height='20' fill='#64b5f6'/><text x='76' y='138' text-anchor='end' font-size='10' fill='#222'>Mahajanga</text><text x='173' y='138' font-size='10' fill='#222'>1359</text><rect x='80' y='154' width='166' height='20' fill='#64b5f6'/><text x='76' y='168' text-anchor='end' font-size='10' fill='#222'>Toamasina</text><text x='250' y='168' font-size='10' fill='#222'>2537</text><rect x='80' y='184' width='8' height='20' fill='#64b5f6'/><text x='76' y='198' text-anchor='end' font-size='10' fill='#222'>Toliara</text><text x='92' y='198' font-size='10' fill='#222'>115</text></svg>",
+          "legende": "La province de Toamasina est la plus arrosée, celle de Toliara la plus sèche."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les grandes régions climatiques",
+          "entetes": ["Région", "Températures", "Précipitations", "À retenir"],
+          "lignes": [
+            ["Est", "20 à 30 °C", "2 000 à 3 500 mm", "Record : Maroantsetra 3 730 mm ; Ankay reçoit moins (1 416 mm) ; dépressions et cyclones de novembre à mars"],
+            ["Ouest", "27 à 34 °C", "environ 750 mm", "Quelques stations reçoivent plus : Port-Bergé 1 541 mm, Miandrivazo 1 235 mm ; le Sambirano et Nosy-Be ont un climat intermédiaire"],
+            ["Sud", "–", "environ 350 mm", "Climat sec : steppe et baobabs"],
+            ["Hautes Terres centrales", "15 à 18 °C", "environ 1 400 mm", "Plus frais ; l'Itasy reçoit environ 2 000 mm"]
+          ]
+        },
+        {
+          "type": "definition",
+          "texte": "Dépression tropicale et cyclone : une dépression tropicale est une perturbation à vents inférieurs à environ 60 km/h ; un cyclone tropical a des vents supérieurs à environ 118 km/h. Ils frappent surtout l'Est de novembre à mars."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Précipitations en 1992 : Antananarivo 972 mm, Antsiranana 811 mm, Fianarantsoa 862 mm, Mahajanga 1 359 mm, Toamasina 2 537 mm, Toliara 115 mm.\n1) Calcule l'écart entre la province la plus arrosée et la moins arrosée.\n2) Calcule la moyenne des six provinces (arrondie à l'unité).\n3) Quelles provinces reçoivent plus que cette moyenne ?\n4) Quelle zone climatique reçoit environ 500 mm de pluie avec une température d'au moins 23 °C ?",
+          "solution": "1) 2 537 − 115 = 2 422 mm.\n2) Total : 972 + 811 + 862 + 1 359 + 2 537 + 115 = 6 656 mm. Moyenne : 6 656 ÷ 6 ≈ 1 109 mm.\n3) Mahajanga (1 359 mm) et Toamasina (2 537 mm).\n4) La zone I."
+        }
+      ],
+      "lexique": [
+        { "terme": "Climat", "definition": "Conditions moyennes de température et de précipitations d'un lieu sur une longue période." },
+        { "terme": "Précipitations", "definition": "Eau qui tombe du ciel (pluie), mesurée en millimètres." },
+        { "terme": "Zone intertropicale", "definition": "Zone située de part et d'autre de l'équateur, entre les tropiques." },
+        { "terme": "Saison sèche", "definition": "Période de l'année où il pleut peu (d'avril à octobre à Madagascar)." },
+        { "terme": "Dépression tropicale", "definition": "Perturbation pluvieuse à vents inférieurs à environ 60 km/h." },
+        { "terme": "Cyclone", "definition": "Tempête tropicale très violente, à vents très forts et pluies abondantes." }
+      ]
+    },
+    {
+      "id": "geo-5-3",
+      "titre": "La végétation",
+      "blocs": [
+        {
+          "type": "remarque",
+          "texte": "La carte de la végétation du fascicule n'est pas reproduite. Les définitions des trois groupes de formations sont des définitions générales de géographie, et les précisions sur les mangroves sont ajoutées ici : à vérifier avec ton professeur."
+        },
+        {
+          "type": "definition",
+          "texte": "Végétation : ensemble des plantes qui couvrent un espace. Une formation végétale est un type de végétation reconnaissable à son aspect (forêt, savane, steppe...)."
+        },
+        {
+          "type": "texte",
+          "texte": "Les formations végétales se classent en trois groupes :\n• les formations climatiques : leur aspect dépend surtout du climat (pluie, température) ;\n• les formations édaphiques : leur aspect dépend surtout du sol ;\n• les formations physiographiques : leur aspect dépend surtout du relief ou de la situation (altitude, bord de mer, zones inondées)."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Région", "Formations végétales dominantes"],
+          "lignes": [
+            ["Nord", "Savane, steppe, forêt dense"],
+            ["Centre", "Savane, steppe"],
+            ["Est", "Forêt dense"],
+            ["Ouest", "Savane, forêt claire"],
+            ["Sud", "Brousse épineuse (avec des baobabs)"]
+          ]
+        },
+        {
+          "type": "texte",
+          "texte": "La répartition de la végétation suit celle du climat :\n• à l'Est, très pluvieux, pousse la forêt dense ;\n• à l'Ouest, avec une saison sèche marquée, la savane et la forêt claire dominent ;\n• au Sud, très sec, la brousse épineuse remplace la forêt.\nLes mangroves sont des formations d'arbres (les palétuviers) qui poussent dans l'eau salée ou saumâtre, au bord de la mer, sur certaines côtes."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Quelle formation végétale domine à l'Est ? Et au Sud ?\n2) Explique cette différence à l'aide des précipitations (Est : 2 000 à 3 500 mm ; Sud : environ 350 mm).\n3) Parmi les trois groupes de formations, lequel dépend surtout du climat ?",
+          "solution": "1) À l'Est : la forêt dense. Au Sud : la brousse épineuse.\n2) L'Est reçoit de 2 000 à 3 500 mm de pluie par an : l'eau abondante permet à une forêt dense de se développer. Le Sud reçoit environ 350 mm : le climat sec ne permet que des plantes adaptées à la sécheresse, comme la brousse épineuse et les baobabs.\n3) Les formations climatiques."
+        }
+      ],
+      "lexique": [
+        { "terme": "Formation végétale", "definition": "Type de végétation reconnaissable à son aspect." },
+        { "terme": "Forêt dense", "definition": "Forêt aux arbres serrés, dans les régions très pluvieuses." },
+        { "terme": "Forêt claire", "definition": "Forêt aux arbres plus espacés, dans les régions à saison sèche marquée." },
+        { "terme": "Savane", "definition": "Grande étendue d'herbes hautes avec quelques arbres." },
+        { "terme": "Steppe", "definition": "Végétation d'herbes courtes et clairsemées, dans un climat sec." },
+        { "terme": "Brousse épineuse", "definition": "Végétation d'arbustes épineux adaptés à la sécheresse." },
+        { "terme": "Mangrove", "definition": "Forêt de palétuviers qui pousse au bord de la mer, dans l'eau salée ou saumâtre." }
+      ]
+    },
+    {
+      "id": "geo-5-4",
+      "titre": "Les sols",
+      "blocs": [
+        {
+          "type": "remarque",
+          "texte": "Le fascicule nomme les grands types de sols et indique où on les trouve pour certains. Les caractères de chaque type, donnés ici de façon générale, sont à compléter avec ton professeur ou ton cahier de cours."
+        },
+        {
+          "type": "definition",
+          "texte": "Sol : couche superficielle de la Terre où poussent les plantes. Il résulte de la transformation de la roche par le climat et les êtres vivants."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Type de sol", "Où le trouve-t-on ?", "Caractères généraux"],
+          "lignes": [
+            ["Sols ferralitiques", "Plus du tiers de la superficie de l'île", "Souvent rouges, acides et pauvres, fragiles face à l'érosion"],
+            ["Sols ferrugineux", "Ouest et Sud", "Riches en fer, propres aux régions à saison sèche marquée"],
+            ["Sols hydromorphes", "Zones humides, bas-fonds, plaines inondables", "Gorgés d'eau une grande partie de l'année : adaptés à la riziculture"],
+            ["Sols volcaniques (andosols)", "Antsirabe, Itasy, Montagne d'Ambre", "Issus de roches volcaniques : riches et fertiles"],
+            ["Sols calcaires", "Zones où la roche est calcaire", "Issus de roches calcaires, riches en calcium"]
+          ]
+        },
+        {
+          "type": "texte",
+          "texte": "La fertilité d'un sol dépend de sa nature, mais aussi de la façon dont on le traite. Sur les sols fragiles, la déforestation et les feux de brousse favorisent l'érosion et appauvrissent la terre. C'est pourquoi la protection du sol est un enjeu important pour l'agriculture."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Quel type de sol couvre plus du tiers de l'île ?\n2) Cite les trois régions du fascicule où l'on trouve des sols volcaniques.\n3) Un paysan possède un terrain bas, gorgé d'eau une grande partie de l'année. Quel type de sol est-ce probablement ? Quelle culture y est adaptée ?",
+          "solution": "1) Les sols ferralitiques.\n2) Antsirabe, l'Itasy et la Montagne d'Ambre.\n3) Un sol hydromorphe. La riziculture y est adaptée."
+        }
+      ],
+      "lexique": [
+        { "terme": "Sol", "definition": "Couche superficielle de la Terre où poussent les plantes." },
+        { "terme": "Roche mère", "definition": "Roche d'origine dont la transformation donne le sol." },
+        { "terme": "Érosion", "definition": "Usure et enlèvement du sol par l'eau ou le vent." },
+        { "terme": "Fertilité", "definition": "Capacité d'un sol à nourrir les plantes cultivées." },
+        { "terme": "Andosol", "definition": "Sol fertile issu de roches volcaniques." },
+        { "terme": "Hydromorphe", "definition": "Se dit d'un sol gorgé d'eau pendant une grande partie de l'année." }
+      ]
+    },
+    {
+      "id": "geo-5-5",
+      "titre": "L'hydrographie",
+      "blocs": [
+        {
+          "type": "remarque",
+          "texte": "La carte du réseau hydrographique n'est pas reproduite. Les superficies des cinq ensembles sont celles du fascicule et sont des ordres de grandeur : leur somme dépasse un peu la superficie de l'île. Les noms de fleuves cités en exemple sont à vérifier avec ton professeur ou ton atlas."
+        },
+        {
+          "type": "definition",
+          "texte": "Hydrographie : ensemble des cours d'eau, des lacs et des étendues d'eau d'une région."
+        },
+        {
+          "type": "definition",
+          "texte": "Bassin versant : territoire dont toutes les eaux s'écoulent vers un même fleuve et ses affluents."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les cinq ensembles hydrographiques",
+          "entetes": ["Ensemble", "Superficie approximative (km²)"],
+          "lignes": [
+            ["Montagne d'Ambre", "11 200"],
+            ["Tsaratanana", "20 000"],
+            ["Est", "150 000"],
+            ["Ouest", "365 000"],
+            ["Sud", "48 750"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Comparer les fleuves",
+          "entetes": ["Versant", "Caractères des fleuves", "Explication"],
+          "lignes": [
+            ["Est", "Réguliers, rapides, non navigables", "Pente forte et pluies abondantes"],
+            ["Ouest", "Longs, à faible débit, navigables", "Pente douce"],
+            ["Sud", "Souvent à sec", "Climat sec, peu de pluie"]
+          ]
+        },
+        {
+          "type": "texte",
+          "texte": "Les fleuves de l'Est (par exemple le Mangoro) ont un débit régulier, mais leur cours rapide, avec des chutes, les rend impropres à la navigation. Ceux de l'Ouest (par exemple la Betsiboka, la Tsiribihina ou le Mangoky) sont longs et lents : ils sont navigables sur une partie de leur cours. Dans le Sud, des cours d'eau comme le Mandrare sont souvent à sec."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Superficies : Montagne d'Ambre 11 200 km², Tsaratanana 20 000 km², Est 150 000 km², Ouest 365 000 km², Sud 48 750 km².\n1) Quel est l'ensemble le plus étendu ?\n2) Calcule l'écart de superficie entre l'ensemble Ouest et l'ensemble Sud.\n3) Combien de fois l'ensemble Ouest est-il plus grand que l'ensemble Est (arrondi au dixième) ?\n4) Pourquoi les fleuves de l'Ouest sont-ils navigables alors que ceux de l'Est ne le sont pas ?",
+          "solution": "1) L'ensemble Ouest (365 000 km²).\n2) 365 000 − 48 750 = 316 250 km².\n3) 365 000 ÷ 150 000 ≈ 2,4 : l'ensemble Ouest est environ 2,4 fois plus grand que l'ensemble Est.\n4) Dans l'Ouest, la pente est douce : les fleuves sont longs et lents, donc navigables. Dans l'Est, la pente est forte : les fleuves sont rapides, avec des chutes, donc non navigables."
+        }
+      ],
+      "lexique": [
+        { "terme": "Hydrographie", "definition": "Ensemble des cours d'eau et des lacs d'une région." },
+        { "terme": "Fleuve", "definition": "Grand cours d'eau qui se jette dans la mer." },
+        { "terme": "Affluent", "definition": "Cours d'eau qui se jette dans un autre cours d'eau." },
+        { "terme": "Bassin versant", "definition": "Territoire drainé par un fleuve et ses affluents." },
+        { "terme": "Débit", "definition": "Quantité d'eau qui passe en un point d'un cours d'eau pendant un temps donné." },
+        { "terme": "Navigable", "definition": "Se dit d'un cours d'eau sur lequel des bateaux peuvent circuler." }
+      ]
+    },
+    {
+      "id": "geo-5-6",
+      "titre": "L'utilité des milieux naturels",
+      "blocs": [
+        {
+          "type": "remarque",
+          "texte": "Le fascicule relie les milieux naturels aux activités économiques. Les exemples de cette leçon développent ce lien : à compléter avec ton professeur ou ton cahier de cours."
+        },
+        {
+          "type": "definition",
+          "texte": "Potentialités naturelles : ensemble des atouts que le milieu naturel (relief, climat, végétation, sols, eau) offre aux activités humaines."
+        },
+        {
+          "type": "texte",
+          "texte": "Chaque élément du milieu naturel offre des possibilités, mais impose aussi des contraintes. L'être humain adapte ses activités à ces conditions."
+        },
+        {
+          "type": "tableau",
+          "entetes": ["Élément du milieu", "Atout", "Activité possible"],
+          "lignes": [
+            ["Relief : plaines", "Terrain plat, facile à irriguer", "Riziculture"],
+            ["Relief : pentes et chutes d'eau", "Force de l'eau", "Production d'électricité (hydroélectricité)"],
+            ["Relief : massifs", "Paysages remarquables", "Tourisme"],
+            ["Climat chaud et pluvieux (Est)", "Eau abondante", "Cultures qui demandent beaucoup de pluie"],
+            ["Climat à saison sèche (Ouest, Sud)", "Espaces ouverts de savane et de steppe", "Élevage de zébus"],
+            ["Forêt", "Bois, plantes, biodiversité", "Exploitation du bois, écotourisme"],
+            ["Mangrove", "Milieu riche en poissons et crevettes", "Pêche"],
+            ["Sols volcaniques", "Sols fertiles", "Agriculture variée (Antsirabe, Itasy)"],
+            ["Fleuves et lacs", "Eau douce", "Irrigation, pêche, transport (fleuves navigables de l'Ouest)"]
+          ]
+        },
+        {
+          "type": "texte",
+          "texte": "Les contraintes du milieu naturel sont aussi à connaître : cyclones à l'Est, sécheresse au Sud, érosion des sols fragiles. Une mauvaise utilisation du milieu (déforestation, feux de brousse) peut détruire ces ressources : c'est le sujet de la protection de l'environnement."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Associe chaque milieu à une activité : plaine inondable, chute d'eau, forêt, savane, mangrove.\nActivités : élevage de zébus ; pêche ; hydroélectricité ; riziculture ; exploitation du bois.\n2) Rédige un paragraphe d'environ cinq lignes expliquant comment le climat de l'Est offre des atouts à l'agriculture, mais expose aussi la région à des risques.",
+          "solution": "1) Plaine inondable : riziculture. Chute d'eau : hydroélectricité. Forêt : exploitation du bois. Savane : élevage de zébus. Mangrove : pêche.\n2) Exemple : « L'Est de Madagascar reçoit de 2 000 à 3 500 mm de pluie par an et reste chaud toute l'année. Ces conditions favorisent la forêt dense et les cultures qui ont besoin de beaucoup d'eau. Elles offrent donc de vrais atouts à l'agriculture. Mais la région est aussi exposée aux dépressions et aux cyclones, de novembre à mars. Ces phénomènes peuvent détruire les cultures et les habitations. Les paysans de l'Est doivent donc s'adapter à ce risque. »"
+        }
+      ],
+      "lexique": [
+        { "terme": "Potentialité", "definition": "Atout du milieu naturel que l'on peut utiliser pour une activité." },
+        { "terme": "Contrainte", "definition": "Difficulté imposée par le milieu naturel (cyclone, sécheresse, érosion)." },
+        { "terme": "Ressource naturelle", "definition": "Élément de la nature utile à l'être humain (eau, sol, forêt, minerais)." },
+        { "terme": "Hydroélectricité", "definition": "Électricité produite grâce à la force de l'eau." },
+        { "terme": "Irrigation", "definition": "Apport d'eau aux cultures par des canaux ou des tuyaux." },
+        { "terme": "Écotourisme", "definition": "Tourisme dans les espaces naturels, qui respecte l'environnement." }
+      ]
+    }
+  ]
+}
