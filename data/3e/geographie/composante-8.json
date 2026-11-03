@@ -1,0 +1,124 @@
+{
+  "id": "geo-8",
+  "titre": "La protection de l'environnement",
+  "lecons": [
+    {
+      "id": "geo-8-1",
+      "titre": "La dégradation de l'environnement et ses conséquences",
+      "blocs": [
+        {
+          "type": "remarque",
+          "texte": "Le fascicule présente les causes de la dégradation de l'environnement sous forme de planche d'images et de listes. Les explications et les exemples de cette leçon les développent : à compléter avec ton professeur ou ton cahier de cours."
+        },
+        {
+          "type": "definition",
+          "texte": "Environnement : ensemble des éléments naturels (air, eau, sol, forêts, êtres vivants) et des aménagements humains qui entourent les êtres vivants."
+        },
+        {
+          "type": "definition",
+          "texte": "Protection de l'environnement : ensemble des actions qui permettent de préserver la nature et de limiter les dégâts causés par les activités humaines."
+        },
+        {
+          "type": "texte",
+          "texte": "Les principales causes de la dégradation de l'environnement à Madagascar :\n• la déforestation : coupe des arbres pour le bois de chauffe, le charbon, les cultures ou la construction ;\n• les feux de brousse ;\n• la pollution de l'eau ;\n• les fumées des usines et des voitures ;\n• les déchets abandonnés ;\n• l'extraction minière ;\n• les catastrophes naturelles (cyclones, inondations, sécheresse)."
+        },
+        {
+          "type": "tableau",
+          "titre": "Causes et conséquences",
+          "entetes": ["Cause", "Exemple", "Conséquence"],
+          "lignes": [
+            ["Déforestation", "Coupe d'arbres pour le charbon ou les cultures", "Érosion, baisse des pluies, disparition d'animaux et de plantes"],
+            ["Feux de brousse", "Brûlis pour renouveler les pâturages", "Sol nu et appauvri, végétation détruite"],
+            ["Pollution de l'eau", "Eaux usées, déchets, produits chimiques jetés dans les rivières", "Maladies, mort des poissons, eau impropre à la consommation"],
+            ["Fumées d'usines et de voitures", "Gaz rejetés dans l'air", "Air pollué, maladies respiratoires"],
+            ["Déchets", "Ordures jetées dans la rue ou les canaux", "Insalubrité, maladies, canaux bouchés, inondations"],
+            ["Extraction minière", "Creusement du sol, rejets dans les cours d'eau", "Sol détruit, eau polluée, paysages abîmés"],
+            ["Catastrophes naturelles", "Cyclones, inondations, sécheresse", "Destructions, érosion, pertes de récoltes"]
+          ]
+        },
+        {
+          "type": "texte",
+          "texte": "L'accroissement rapide de la population aggrave ces problèmes :\n• plus de personnes veulent du bois, des terres à cultiver et des logements : la déforestation augmente ;\n• dans les villes qui grandissent vite, les services manquent : les déchets s'accumulent (insalubrité) et des bidonvilles apparaissent ;\n• la pollution de l'eau et de l'air s'étend."
+        },
+        {
+          "type": "schema",
+          "titre": "Un enchaînement de conséquences",
+          "svg": "<svg width='300' height='205' viewBox='0 0 300 205' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='6' width='260' height='30' fill='#ffe0b2' stroke='#888'/><rect x='20' y='46' width='260' height='30' fill='#ffccbc' stroke='#888'/><rect x='20' y='86' width='260' height='30' fill='#fff9c4' stroke='#888'/><rect x='20' y='126' width='260' height='30' fill='#e1bee7' stroke='#888'/><rect x='20' y='166' width='260' height='30' fill='#ef9a9a' stroke='#888'/><text x='150' y='25' text-anchor='middle' font-size='10' fill='#222'>Croissance rapide de la population</text><text x='150' y='65' text-anchor='middle' font-size='10' fill='#222'>Déforestation, pollution, insalubrité</text><text x='150' y='105' text-anchor='middle' font-size='10' fill='#222'>Manque de bois, moins de pluies, érosion</text><text x='150' y='145' text-anchor='middle' font-size='10' fill='#222'>Sols moins fertiles</text><text x='150' y='185' text-anchor='middle' font-size='10' fill='#222'>Mauvaises récoltes, famine</text><line x1='150' y1='36' x2='150' y2='40' stroke='#888'/><polygon points='150,46 146,40 154,40' fill='#888'/><line x1='150' y1='76' x2='150' y2='80' stroke='#888'/><polygon points='150,86 146,80 154,80' fill='#888'/><line x1='150' y1='116' x2='150' y2='120' stroke='#888'/><polygon points='150,126 146,120 154,120' fill='#888'/><line x1='150' y1='156' x2='150' y2='160' stroke='#888'/><polygon points='150,166 146,160 154,160' fill='#888'/></svg>",
+          "legende": "Chaque conséquence en entraîne une autre : c'est un cercle vicieux."
+        },
+        {
+          "type": "texte",
+          "texte": "Les effets sur la vie des habitants :\n• manque de bois pour cuisiner et construire ;\n• insuffisance de pluies quand la forêt disparaît ;\n• érosion : la terre est emportée par la pluie ;\n• infertilité : le sol appauvri produit moins ;\n• famine : les récoltes sont insuffisantes pour nourrir la population."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Classe chaque cause en origine humaine ou naturelle : déforestation ; catastrophes naturelles ; feux de brousse ; fumées d'usines ; extraction minière ; déchets abandonnés.\n2) Écris l'enchaînement de conséquences qui part de la déforestation et mène à la famine (au moins quatre étapes).\n3) Exemple fictif : une forêt de 1 200 hectares ne mesure plus que 900 hectares dix ans plus tard. Calcule la perte en hectares, puis en pourcentage de la surface initiale.\n4) Explique pourquoi la croissance de la population aggrave la déforestation.",
+          "solution": "1) Origine humaine : déforestation, feux de brousse, fumées d'usines, extraction minière, déchets abandonnés. Origine naturelle : catastrophes naturelles.\n2) Déforestation → moins de pluies et érosion → sol appauvri, moins fertile → mauvaises récoltes → famine.\n3) Perte : 1 200 − 900 = 300 hectares. Pourcentage : 300 ÷ 1 200 = 0,25, soit 25 %.\n4) Plus il y a d'habitants, plus il faut de bois, de charbon, de terres cultivées et de logements : on coupe donc davantage d'arbres."
+        }
+      ],
+      "lexique": [
+        { "terme": "Environnement", "definition": "Ensemble des éléments naturels et des aménagements qui entourent les êtres vivants." },
+        { "terme": "Déforestation", "definition": "Disparition des forêts à cause de la coupe des arbres ou des incendies." },
+        { "terme": "Érosion", "definition": "Usure et enlèvement du sol par l'eau ou le vent." },
+        { "terme": "Pollution", "definition": "Présence dans l'air, l'eau ou le sol de substances qui nuisent aux êtres vivants." },
+        { "terme": "Insalubrité", "definition": "État d'un lieu sale, qui nuit à la santé." },
+        { "terme": "Bidonville", "definition": "Quartier de logements précaires, souvent sans eau ni électricité." },
+        { "terme": "Cercle vicieux", "definition": "Situation où chaque conséquence aggrave la cause du problème." }
+      ]
+    },
+    {
+      "id": "geo-8-2",
+      "titre": "Sensibiliser et protéger",
+      "blocs": [
+        {
+          "type": "remarque",
+          "texte": "Le fascicule cite la sensibilisation, la gestion des déchets, la fertilité du sol et l'éco-geste (définition suivie d'un exemple), puis cinq étapes de campagne, sans les développer. Les explications et les exemples de cette leçon sont donnés de façon générale : à compléter avec ton professeur ou ton cahier de cours, surtout pour la liste exacte des cinq étapes."
+        },
+        {
+          "type": "definition",
+          "texte": "Sensibilisation : action qui consiste à informer les gens sur un problème pour qu'ils changent leur comportement."
+        },
+        {
+          "type": "definition",
+          "texte": "Éco-geste : petit geste simple du quotidien qui protège l'environnement."
+        },
+        {
+          "type": "exemple",
+          "texte": "Exemples d'éco-gestes : éteindre la lumière en quittant une pièce ; ne pas jeter les déchets dans la rue ni dans les canaux ; utiliser un sac réutilisable ; ne pas gaspiller l'eau ; planter un arbre ; ne pas allumer de feu de brousse."
+        },
+        {
+          "type": "texte",
+          "texte": "La gestion des déchets :\n• réduire : produire moins de déchets, éviter les emballages inutiles ;\n• réutiliser : donner une seconde vie aux objets (bouteilles, sacs, boîtes) ;\n• trier : séparer les déchets (organiques, plastiques, verre, métaux) ;\n• recycler : transformer certains déchets en nouveaux objets ;\n• composter : transformer les déchets de cuisine en engrais naturel pour les jardins."
+        },
+        {
+          "type": "texte",
+          "texte": "Préserver la fertilité du sol :\n• reboiser et planter des arbres ou des haies pour retenir la terre ;\n• éviter les feux de brousse ;\n• aménager les pentes (terrasses, rizières en gradins, courbes de niveau) pour freiner l'érosion ;\n• enrichir le sol avec du compost ou du fumier ;\n• alterner les cultures pour ne pas épuiser la terre."
+        },
+        {
+          "type": "texte",
+          "texte": "Une campagne de sensibilisation se prépare en cinq étapes :\n• 1. choisir le problème à traiter ;\n• 2. définir le public visé et l'objectif ;\n• 3. préparer le message et les supports (affiches, radio, théâtre, chansons, exposés) ;\n• 4. mener l'action auprès du public ;\n• 5. évaluer les résultats."
+        },
+        {
+          "type": "schema",
+          "titre": "Les cinq étapes d'une campagne",
+          "svg": "<svg width='300' height='205' viewBox='0 0 300 205' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='6' width='260' height='30' fill='#c8e6c9' stroke='#888'/><rect x='20' y='46' width='260' height='30' fill='#fff9c4' stroke='#888'/><rect x='20' y='86' width='260' height='30' fill='#bbdefb' stroke='#888'/><rect x='20' y='126' width='260' height='30' fill='#e1bee7' stroke='#888'/><rect x='20' y='166' width='260' height='30' fill='#ffccbc' stroke='#888'/><text x='150' y='25' text-anchor='middle' font-size='10' fill='#222'>1. Choisir le problème</text><text x='150' y='65' text-anchor='middle' font-size='10' fill='#222'>2. Définir le public et l'objectif</text><text x='150' y='105' text-anchor='middle' font-size='10' fill='#222'>3. Préparer le message et les supports</text><text x='150' y='145' text-anchor='middle' font-size='10' fill='#222'>4. Mener l'action</text><text x='150' y='185' text-anchor='middle' font-size='10' fill='#222'>5. Évaluer les résultats</text><line x1='150' y1='36' x2='150' y2='40' stroke='#888'/><polygon points='150,46 146,40 154,40' fill='#888'/><line x1='150' y1='76' x2='150' y2='80' stroke='#888'/><polygon points='150,86 146,80 154,80' fill='#888'/><line x1='150' y1='116' x2='150' y2='120' stroke='#888'/><polygon points='150,126 146,120 154,120' fill='#888'/><line x1='150' y1='156' x2='150' y2='160' stroke='#888'/><polygon points='150,166 146,160 154,160' fill='#888'/></svg>",
+          "legende": "Le schéma résume la démarche : de l'idée à l'évaluation."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Donne la définition d'un éco-geste, puis un exemple.\n2) Dans une classe fictive de 40 élèves, 30 trient leurs déchets. Calcule le pourcentage d'élèves qui trient.\n3) Cite trois moyens de préserver la fertilité du sol.\n4) Ton école veut organiser une campagne pour garder la cour propre. Rédige un paragraphe d'environ cinq lignes qui décrit les étapes de cette campagne.",
+          "solution": "1) Un éco-geste est un petit geste simple du quotidien qui protège l'environnement. Exemple : ne pas jeter les déchets dans la rue.\n2) 30 ÷ 40 = 0,75, soit 75 %.\n3) Par exemple : reboiser ; éviter les feux de brousse ; aménager les pentes en terrasses ; utiliser du compost.\n4) Exemple : « Nous choisissons d'abord le problème : les papiers et les emballages jetés dans la cour. Nous définissons ensuite le public visé, c'est-à-dire tous les élèves, et l'objectif : une cour propre toute l'année. Nous préparons des affiches et un petit spectacle pour expliquer pourquoi il faut jeter ses déchets dans les poubelles. Puis nous menons l'action pendant une semaine, classe par classe. Enfin, nous évaluons les résultats en comparant la propreté de la cour avant et après la campagne. »"
+        }
+      ],
+      "lexique": [
+        { "terme": "Sensibilisation", "definition": "Action qui informe les gens sur un problème pour changer leur comportement." },
+        { "terme": "Éco-geste", "definition": "Petit geste quotidien qui protège l'environnement." },
+        { "terme": "Recyclage", "definition": "Transformation de déchets en nouveaux objets." },
+        { "terme": "Compost", "definition": "Engrais naturel obtenu à partir de déchets organiques." },
+        { "terme": "Reboisement", "definition": "Plantation d'arbres pour reconstituer une forêt." },
+        { "terme": "Terrasse", "definition": "Replat aménagé sur une pente pour cultiver et freiner l'érosion." },
+        { "terme": "Public cible", "definition": "Groupe de personnes que l'on veut informer lors d'une campagne." }
+      ]
+    }
+  ]
+}
