@@ -18,7 +18,7 @@
           "type": "tableau",
           "entetes": ["Type d'industrie", "Rôle", "Exemples d'entreprises"],
           "lignes": [
-            ["Agro-alimentaire", "Transformer les produits agricoles et d'élevage", "SIRAMA et SIRANALA (sucre), huilerie de Toamasina, SOCOLAIT (lait), STAR (boissons)"],
+            ["Agro-alimentaire", "Transformer les produits agricoles et d'élevage", "SIRAMA et SIRANALA (sucre), huilerie de Toamatave, SOCOLAIT (lait), STAR (boissons)"],
             ["Textile", "Transformer le coton en fils, tissus et vêtements", "SOMACOU, COTONA"],
             ["Mécanique", "Fabriquer ou réparer machines et navires", "SECREN (Antsiranana)"],
             ["Chimique", "Fabriquer savons, produits d'entretien, médicaments", "SOVONERIE-PHARMAD"],
@@ -28,7 +28,7 @@
         },
         {
           "type": "remarque",
-                    "texte": "Les structures de production : on distingue les entreprises publiques (appartenant à l'État), privées (appartenant à des particuliers ou à des sociétés) et mixtes (capitaux publics et privés). Les entreprises franches, tournées vers l'exportation, bénéficient d'avantages fiscaux."
+          "texte": "Dans le fascicule, la SIRANALA est placée à une localisation dont je ne suis pas sûr. Je ne la précise donc pas ici : demande confirmation à ton professeur avant de la citer sur une carte."
         },
         {
           "type": "texte",
