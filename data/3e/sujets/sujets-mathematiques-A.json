@@ -1,0 +1,89 @@
+{
+  "matiere": "mathematiques",
+  "type": "sujets-types",
+  "partie": "A",
+  "partieTitre": "Activités géométriques",
+  "mention": "Sujet type d'après d'anciens sujets du BEPC de Madagascar (document trouvé en ligne). Corrigé rédigé pour Guide.",
+  "exercices": [
+    {
+      "id": "st-A-01",
+      "domaine": "I",
+      "domaineTitre": "Configuration du plan",
+      "titre": "Triangle rectangle, hauteur et centre de gravité",
+      "enonce": "L'unité de longueur est le centimètre.\nOn considère un triangle ABC tel que AB = 6√3, BC = 12 et AC = 6.\n\na) En utilisant la propriété réciproque de Pythagore, justifier que ABC est rectangle en A.\nb) Calculer sin(angle ABC).\nc) Soit H le pied de la hauteur issue de A relative au côté [BC]. Calculer CH.\nd) I étant le milieu du segment [BC], démontrer que le triangle AIC est équilatéral.\ne) On appelle J le projeté orthogonal de I sur le côté [AC]. Les droites (IJ) et (AH) se coupent en K. Prouver que IK/IJ = 2/3.",
+      "solution": "a) AB² + AC² = (6√3)² + 6² = 108 + 36 = 144 et BC² = 12² = 144.\nComme AB² + AC² = BC², d'après la réciproque de Pythagore, ABC est rectangle en A.\n\nb) Dans le triangle rectangle ABC : sin(angle ABC) = côté opposé / hypoténuse = AC / BC = 6/12 = 1/2.\n(L'angle ABC mesure donc 30°.)\n\nc) Dans le triangle rectangle ABC, avec la hauteur [AH] : AC² = CH × CB.\nDonc CH = AC² / CB = 36 / 12 = 3 cm.\n\nd) La médiane issue de l'angle droit mesure la moitié de l'hypoténuse : AI = BC/2 = 6.\nDe plus IC = BC/2 = 6 et AC = 6.\nDonc AI = IC = AC = 6 : le triangle AIC est équilatéral.\n\ne) Dans le triangle équilatéral AIC, la hauteur issue de I est aussi une médiane : J est le milieu de [AC].\nD'autre part, H est sur [IC] avec CH = 3 et IC = 6 : H est le milieu de [IC].\nDonc (IJ) est la médiane issue de I et (AH) est la médiane issue de A.\nLeur point d'intersection K est le centre de gravité du triangle AIC : il est situé aux 2/3 de chaque médiane à partir du sommet.\nDonc IK = (2/3) × IJ, c'est-à-dire IK/IJ = 2/3."
+    },
+    {
+      "id": "st-A-02",
+      "domaine": "I",
+      "domaineTitre": "Configuration du plan",
+      "titre": "Triangle rectangle isocèle et carré",
+      "enonce": "L'unité de longueur est le centimètre.\nABC est un triangle rectangle isocèle en A tel que AB = AC = 4. D est le symétrique de A par rapport à la droite (BC).\n\na) Que représente la droite (AD) pour le triangle ABC ?\nb) Montrer que le quadrilatère ABDC est un carré.\nc) S est un point de [AB] tel que SB = 1. La parallèle à (BC) passant par S coupe [AD] en I. Déterminer la nature du triangle AIS.\nd) (MN) est une droite parallèle à (BC) telle que M appartient à [AB] et N appartient à [AC]. Quelle est la position de M pour que l'aire du triangle AMN soit la moitié de celle du triangle ABC ?",
+      "solution": "a) Comme ABC est isocèle en A, la droite (AD), perpendiculaire à (BC) et passant par A, est à la fois la hauteur, la médiane, la médiatrice de [BC] et la bissectrice de l'angle A. C'est l'axe de symétrie du triangle.\n\nb) D est le symétrique de A par rapport à (BC), donc BD = BA = 4 et CD = CA = 4.\nAinsi AB = BD = DC = CA = 4 : ABDC est un losange.\nDe plus l'angle BAC est droit. Un losange qui a un angle droit est un carré.\n\nc) AS = AB − SB = 4 − 1 = 3.\nLes diagonales du carré sont perpendiculaires : (AD) est perpendiculaire à (BC). Comme (SI) est parallèle à (BC), (SI) est perpendiculaire à (AD) : le triangle AIS est rectangle en I.\nLa diagonale [AD] coupe l'angle droit en deux : l'angle IAS mesure 45°.\nUn triangle rectangle qui a un angle de 45° est isocèle : AIS est un triangle rectangle isocèle en I.\n\nd) Aire de ABC = (4 × 4) / 2 = 8 cm². On veut une aire de 4 cm² pour AMN.\n(MN) est parallèle à (BC), donc AMN est lui aussi rectangle isocèle en A : AM = AN et son aire vaut AM²/2.\nAM²/2 = 4 donne AM² = 8, donc AM = 2√2 ≈ 2,83 cm.\nM est donc le point de [AB] situé à 2√2 cm de A (c'est-à-dire AM/AB = √2/2)."
+    },
+    {
+      "id": "st-A-03",
+      "domaine": "I",
+      "domaineTitre": "Configuration du plan",
+      "titre": "Médiane et projeté orthogonal (angle de 30°)",
+      "enonce": "ABC est un triangle rectangle en A tel que BC = 8 cm et l'angle B mesure 30°. Le segment [AD] est une médiane de ABC. Le point E est le projeté orthogonal de D sur (AB).\n\n1) Calculer la longueur AB.\n2) a) Démontrer que (AC) et (DE) sont parallèles.\n   b) Calculer le rapport DE/AC.\n   c) En déduire l'aire du triangle ABD en fonction de l'aire du triangle ABC.\n   d) Comparer les aires des triangles ADC et ABD.",
+      "solution": "1) Dans le triangle rectangle ABC : cos B = AB / BC.\nAB = BC × cos 30° = 8 × (√3/2) = 4√3 ≈ 6,9 cm.\n\n2) a) (AC) est perpendiculaire à (AB) (angle droit en A) et (DE) est perpendiculaire à (AB). Deux droites perpendiculaires à une même droite sont parallèles : (AC) // (DE).\n\nb) D est le milieu de [BC] et (DE) est parallèle à (AC). D'après Thalès dans le triangle BAC : DE/AC = BD/BC = 1/2.\n\nc) Aire de ABD = (1/2) × AB × DE, car (DE) est la hauteur issue de D.\nOr DE = AC/2, donc aire de ABD = (1/2) × AB × (AC/2) = (1/2) × [(1/2) × AB × AC] = (1/2) × aire de ABC.\n\nd) Les triangles ABD et ADC ont des bases égales (BD = DC) et la même hauteur issue de A. Ils ont donc la même aire : chacun vaut la moitié de l'aire de ABC. (Une médiane partage un triangle en deux triangles de même aire.)"
+    },
+    {
+      "id": "st-A-04",
+      "domaine": "II",
+      "domaineTitre": "Géométrie vectorielle et analytique",
+      "titre": "Droite, milieu et médiatrice",
+      "enonce": "Le plan est muni d'un repère orthonormé (O ; I ; J), l'unité étant le centimètre. On donne les points A(0 ; 6) et B(3 ; 0).\n\n1) Justifier que le point A appartient à la droite (D) d'équation 2x + y − 6 = 0.\n2) Soit E le point du plan tel que vecteur AE + vecteur BE = vecteur nul.\n   a) Que représente le point E pour le segment [AB] ?\n   b) Déterminer une équation de la droite (Δ), médiatrice de [AB].\n3) Soit F(7 ; 6). Donner une équation cartésienne de la droite (L) passant par F et parallèle à la médiane du triangle ABF issue de A.",
+      "solution": "1) Pour A(0 ; 6) : 2×0 + 6 − 6 = 0. L'égalité est vraie, donc A appartient à (D).\n\n2) a) AE + BE = 0 signifie AE = −BE = EB : E est le milieu de [AB].\nE a pour coordonnées ((0+3)/2 ; (6+0)/2) = (3/2 ; 3).\n\nb) La médiatrice (Δ) passe par E et est perpendiculaire à (AB).\nLe vecteur AB a pour coordonnées (3 ; −6). C'est un vecteur normal à (Δ).\n(Δ) : 3(x − 3/2) − 6(y − 3) = 0, soit 3x − 6y + 27/2 = 0. En multipliant par 2/3 : 2x − 4y + 9 = 0.\nVérification avec E : 2×(3/2) − 4×3 + 9 = 3 − 12 + 9 = 0.\n\n3) La médiane du triangle ABF issue de A passe par A et par le milieu K de [BF].\nK = ((3+7)/2 ; (0+6)/2) = (5 ; 3). Le vecteur AK a pour coordonnées (5 ; −3).\n(L) est parallèle à (AK) : elle a pour vecteur directeur (5 ; −3). Son équation est donc de la forme 3x + 5y + c = 0.\nElle passe par F(7 ; 6) : 3×7 + 5×6 + c = 0, donc c = −51.\n(L) : 3x + 5y − 51 = 0."
+    },
+    {
+      "id": "st-A-05",
+      "domaine": "II",
+      "domaineTitre": "Géométrie vectorielle et analytique",
+      "titre": "Vecteurs colinéaires et droite perpendiculaire",
+      "enonce": "Dans un plan muni d'un repère orthonormé (O ; I ; J), on donne les points A(1 ; −3) et B(2 ; 5).\n\n1) Soit C le point du plan d'abscisse 3. Calculer l'ordonnée de C pour que les vecteurs OB et AC soient colinéaires.\n2) Chercher une équation cartésienne de la droite (D) passant par A et perpendiculaire à la droite (OC).",
+      "solution": "1) C a pour coordonnées (3 ; y).\nOB a pour coordonnées (2 ; 5) et AC a pour coordonnées (3 − 1 ; y + 3) = (2 ; y + 3).\nDeux vecteurs (x ; y) et (x' ; y') sont colinéaires si x×y' − x'×y = 0.\nIci : 2×(y + 3) − 2×5 = 0, donc y + 3 = 5 et y = 2.\nC a pour coordonnées (3 ; 2).\n\n2) Le vecteur OC a pour coordonnées (3 ; 2). Il est normal à (D), puisque (D) est perpendiculaire à (OC).\nUne équation de (D) est donc 3x + 2y + c = 0.\n(D) passe par A(1 ; −3) : 3×1 + 2×(−3) + c = 0, donc c = 3.\n(D) : 3x + 2y + 3 = 0."
+    },
+    {
+      "id": "st-A-06",
+      "domaine": "II",
+      "domaineTitre": "Géométrie vectorielle et analytique",
+      "titre": "Triangle rectangle isocèle et carré dans un repère",
+      "enonce": "Le plan est muni d'un repère orthonormé (O ; I ; J). L'unité de longueur est le centimètre.\n\n1) Placer dans ce plan les points A(−3 ; 2), B(2 ; −3) et C(2 ; 2).\n2) a) Que peut-on dire des vecteurs AC et BC ?\n   b) Calculer les longueurs AC et BC.\n   c) Déduire de a) et b) la nature du triangle ABC.\n3) La droite (OC) coupe (AB) en un point H.\n   a) Justifier que les vecteurs OC et AB sont orthogonaux.\n   b) Que peut être le segment [CH] pour le triangle ABC ?\n   c) Écrire une équation cartésienne de la droite (CH).\n4) a) Construire le point E symétrique de C par rapport à H.\n   b) Calculer les coordonnées du point E.\n   c) Justifier que ACBE est un parallélogramme.\n   d) Préciser la nature de ce parallélogramme.",
+      "solution": "1) À faire sur ton cahier (papier quadrillé). Tu peux vérifier ton dessin avec les calculs ci-dessous.\n\n2) a) AC a pour coordonnées (2 − (−3) ; 2 − 2) = (5 ; 0) et BC a pour coordonnées (2 − 2 ; 2 − (−3)) = (0 ; 5).\nLeur produit scalaire est 5×0 + 0×5 = 0 : les vecteurs AC et BC sont orthogonaux. Ils ont de plus la même longueur.\n\nb) AC = 5 cm et BC = 5 cm.\n\nc) AC = BC et (AC) est perpendiculaire à (BC) : ABC est un triangle rectangle isocèle en C.\n\n3) a) OC a pour coordonnées (2 ; 2) et AB a pour coordonnées (5 ; −5).\nOC · AB = 2×5 + 2×(−5) = 0 : ces vecteurs sont orthogonaux.\n\nb) (CH) est perpendiculaire à (AB) : [CH] est la hauteur issue de C. Comme le triangle est isocèle en C, c'est aussi la médiane, la médiatrice de [AB] et la bissectrice de l'angle C.\n\nc) (CH) est la droite (OC). Elle passe par O(0 ; 0) et C(2 ; 2) : son équation est y = x, soit x − y = 0.\n\n4) a) À faire sur ton cahier.\n\nb) H est le milieu de [AB] : H = ((−3+2)/2 ; (2−3)/2) = (−1/2 ; −1/2).\nH est le milieu de [CE], donc E = 2H − C = (−1 − 2 ; −1 − 2) = (−3 ; −3).\n\nc) Les diagonales [AB] et [CE] de ACBE ont le même milieu H : ACBE est un parallélogramme.\n\nd) AC = CB et l'angle en C est droit : ACBE est un parallélogramme qui a deux côtés consécutifs égaux et un angle droit. C'est un carré."
+    },
+    {
+      "id": "st-A-07",
+      "domaine": "III",
+      "domaineTitre": "Configuration de l'espace",
+      "titre": "La stèle (pavé et pyramide)",
+      "enonce": "Une stèle est constituée d'un pavé droit de 2 m de hauteur, à base carrée de 40 cm de côté, surmonté d'une pyramide régulière à base carrée de 40 cm de côté. La hauteur totale de la stèle mesure 2,30 m.\n\n1) Calculer le volume du pavé droit.\n2) Cette stèle est fabriquée en granite. Calculer le volume total de granite nécessaire pour fabriquer la stèle.\n\nN.B. : les volumes seront exprimés en m³.",
+      "solution": "On convertit : 40 cm = 0,4 m.\n\n1) Volume du pavé = côté × côté × hauteur = 0,4 × 0,4 × 2 = 0,32 m³.\n\n2) Hauteur de la pyramide = 2,30 − 2 = 0,30 m.\nVolume de la pyramide = (1/3) × aire de la base × hauteur = (1/3) × (0,4 × 0,4) × 0,30 = (1/3) × 0,16 × 0,30 = 0,016 m³.\nVolume total de granite = 0,32 + 0,016 = 0,336 m³."
+    },
+    {
+      "id": "st-A-08",
+      "domaine": "III",
+      "domaineTitre": "Configuration de l'espace",
+      "titre": "Cône coupé par un plan parallèle à la base",
+      "enonce": "On donne un cône de révolution de sommet S, de hauteur 12 cm et dont la base est un disque de rayon 3 cm.\n\n1) Calculer le volume V de ce cône (on prendra π = 3).\n2) On coupe ce cône à 4 cm du sommet par un plan parallèle à celui de sa base. On obtient un cône réduit et un tronc de cône. Calculer le volume V' de ce tronc de cône.",
+      "solution": "1) V = (1/3) × π × r² × h = (1/3) × 3 × 3² × 12 = (1/3) × 3 × 9 × 12 = 108 cm³.\n\n2) Le plan coupe à 4 cm du sommet, alors que la hauteur totale est 12 cm. Le rapport de réduction est k = 4/12 = 1/3.\nLes volumes sont multipliés par k³ = 1/27.\nVolume du cône réduit = 108 / 27 = 4 cm³.\nVolume du tronc de cône : V' = 108 − 4 = 104 cm³."
+    },
+    {
+      "id": "st-A-09",
+      "domaine": "III",
+      "domaineTitre": "Configuration de l'espace",
+      "titre": "Pyramide et tronc de pyramide",
+      "enonce": "L'unité de longueur est le centimètre.\nOn considère une pyramide régulière de sommet S, dont la base est le carré ABCD de centre H. On donne AB = 6 et la hauteur SH = 4.\n\n1) Calculer le volume V de cette pyramide SABCD.\n2) Un plan (P) parallèle à la base coupe [SA] en M tel que SM/SA = 1/4. On obtient alors deux solides : une petite pyramide et un tronc de pyramide. Calculer le volume V' du tronc de pyramide.",
+      "solution": "1) V = (1/3) × aire de la base × hauteur = (1/3) × 6² × 4 = (1/3) × 36 × 4 = 48 cm³.\n\n2) La petite pyramide est une réduction de la grande pyramide, dans le rapport k = SM/SA = 1/4.\nSon volume est donc 48 × k³ = 48 × (1/64) = 0,75 cm³.\nVolume du tronc : V' = 48 − 0,75 = 47,25 cm³."
+    },
+    {
+      "id": "st-A-10",
+      "domaine": "III",
+      "domaineTitre": "Configuration de l'espace",
+      "titre": "Le moule cubique évidé d'un cône",
+      "enonce": "On veut confectionner un moule en aluminium de forme cubique, d'arête 8 cm, évidé d'un cône de révolution de hauteur 6 cm et de rayon 3 cm à la face supérieure.\n\nCalculer le volume d'aluminium nécessaire. (On prendra π ≈ 3,14.)",
+      "solution": "Volume du cube = 8³ = 512 cm³.\nVolume du cône = (1/3) × π × r² × h = (1/3) × π × 3² × 6 = 18π ≈ 18 × 3,14 = 56,52 cm³.\nVolume d'aluminium = volume du cube − volume du cône = 512 − 18π ≈ 512 − 56,52 = 455,48 cm³, soit environ 455,5 cm³."
+    }
+  ]
+}
