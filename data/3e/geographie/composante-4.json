@@ -8,7 +8,7 @@
       "blocs": [
         {
           "type": "remarque",
-          "texte": "Le fascicule ne donne ici que des plans de méthode. Les explications et les exemples de cette leçon sont rédigés par moi à partir de ces plans : à relire avec ton professeur ou ton cahier de cours."
+          "texte": "Le fascicule ne donne ici que des plans de méthode. Les explications et les exemples de cette leçon les développent : à compléter avec ton professeur ou ton cahier de cours."
         },
         {
           "type": "definition",
@@ -30,7 +30,7 @@
         },
         {
           "type": "remarque",
-          "texte": "Je lis NASDI comme Nature, Auteur, Source, Date, Intention, car ce sont les éléments listés dans le fascicule. Vérifie auprès de ton professeur que c'est bien la définition utilisée dans ton établissement."
+          "texte": "NASDI se lit ici : Nature, Auteur, Source, Date, Intention, d'après la liste du fascicule. Vérifie auprès de ton professeur que c'est bien la définition utilisée dans ton établissement."
         },
         {
           "type": "texte",
@@ -81,7 +81,7 @@
       "blocs": [
         {
           "type": "remarque",
-          "texte": "Le modèle rédigé de cette leçon est de moi. Il applique la méthode du fascicule avec des données de ce cours. À relire avec ton professeur."
+          "texte": "Le modèle rédigé de cette leçon applique la méthode du fascicule avec des données de ce cours. À compléter avec ton professeur."
         },
         {
           "type": "definition",
