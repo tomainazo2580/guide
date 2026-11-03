@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'guide-v30';
+const CACHE_VERSION = 'guide-v31';
 const CACHE_NAME = CACHE_VERSION;
 const APP_SHELL = [
   './',
@@ -65,7 +65,15 @@ const APP_SHELL = [
   './data/3e/exercices/exercices-svt.json',
   './data/3e/exercices/exercices-francais.json',
   './data/3e/exercices/exercices-histoire.json',
-  './data/3e/exercices/exercices-geographie.json'
+  './data/3e/exercices/exercices-geographie.json',
+  './data/3e/sujets/sujets-mathematiques-A.json',
+  './data/3e/sujets/sujets-mathematiques-B.json',
+  './data/3e/sujets/sujets-sciences-physiques-A.json',
+  './data/3e/sujets/sujets-sciences-physiques-B.json',
+  './data/3e/sujets/sujets-sciences-physiques-C.json',
+  './data/3e/sujets/sujets-svt-A.json',
+  './data/3e/sujets/sujets-svt-B.json',
+  './data/3e/sujets/sujets-svt-C.json'
 ];
 self.addEventListener('install', (event) => {
   event.waitUntil(
