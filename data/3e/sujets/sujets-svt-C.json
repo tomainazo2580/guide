@@ -1,0 +1,89 @@
+{
+  "matiere": "svt",
+  "type": "sujets-types",
+  "partie": "C",
+  "partieTitre": "Reproduction humaine et géologie",
+  "mention": "Sujet d'entraînement rédigé pour Guide d'après le programme officiel. Corrigé rédigé d'après le cours, calculs vérifiés.",
+  "exercices": [
+    {
+      "id": "st-SVT-17",
+      "domaine": "reproduction",
+      "domaineTitre": "La reproduction humaine",
+      "titre": "Les fistules",
+      "enonce": "Les fistules sont des problèmes de santé qui touchent parfois les femmes.\n\n1. Définis une fistule.\n2. Cite trois types de fistules.\n3. Une fistule recto-vaginale relie deux organes. Lesquels ? (Aide-toi du nom.)\n4. Une fistule artério-veineuse relie deux vaisseaux. Lesquels ? (Aide-toi du nom.)",
+      "solution": "1. Une fistule est un abouchement anormal entre deux cavités, deux organes ou deux vaisseaux.\n\n2. Parmi : la fistule anale, la fistule recto-vaginale, la fistule artério-veineuse, la fistule pulmonaire artério-veineuse, la fistule obstétricale (ou vésico-génitale). Il suffit d'en citer trois.\n\n3. Une fistule recto-vaginale relie le rectum et le vagin.\n\n4. Une fistule artério-veineuse relie une artère et une veine."
+    },
+    {
+      "id": "st-SVT-18",
+      "domaine": "reproduction",
+      "domaineTitre": "La reproduction humaine",
+      "titre": "La fistule obstétricale : formation et causes",
+      "enonce": "Soa a 17 ans. Elle est enceinte, elle mange peu et mal, elle n'a fait aucune consultation prénatale. Le jour de l'accouchement, elle reste à la maison, sans accoucheur. Le travail dure très longtemps.\n\n1. Explique comment se forme une fistule obstétricale.\n2. Cite quatre causes de la fistule obstétricale.\n3. Relève, dans l'histoire de Soa, les facteurs qui augmentent le risque de fistule obstétricale.",
+      "solution": "1. Quand le travail de l'accouchement est prolongé et que la césarienne n'est pas faite à temps, la tête du bébé appuie fortement sur l'os pelvien. Cette pression perfore le vagin et la vessie et/ou le rectum : c'est la fistule obstétricale.\n\n2. Parmi : la grossesse précoce (avant 20 ans), la malnutrition, l'absence de consultations prénatales, l'accouchement non surveillé, la pauvreté, le manque d'accoucheurs, l'accès limité à la césarienne. Il suffit d'en citer quatre.\n\n3. Dans l'histoire de Soa : la grossesse précoce (17 ans, donc moins de 20 ans), la malnutrition, l'absence de consultations prénatales et l'accouchement non surveillé (sans accoucheur)."
+    },
+    {
+      "id": "st-SVT-19",
+      "domaine": "reproduction",
+      "domaineTitre": "La reproduction humaine",
+      "titre": "La fistule obstétricale : symptômes, conséquences, prévention",
+      "enonce": "1. Cite trois symptômes d'une femme atteinte de fistule obstétricale.\n2. Cite trois conséquences possibles de cette maladie.\n3. Cite quatre moyens de prévenir la fistule obstétricale.\n4. Une jeune fille de 15 ans est enceinte. Quels conseils lui donnerais-tu pour éviter une fistule ? (Appuie-toi sur le cours.)",
+      "solution": "1. Parmi : l'incontinence urinaire ou fécale, la mauvaise odeur, les infections, l'infertilité. Il suffit d'en citer trois.\n\n2. Parmi : l'incontinence chronique, les infections, les maladies rénales, l'anémie. Il suffit d'en citer trois.\n\n3. Parmi : un régime riche en protéines et en fer, les consultations prénatales, le fait de retarder la première grossesse, l'hygiène intime, l'orientation vers les structures de dépistage. Il suffit d'en citer quatre.\n\n4. On lui conseille de faire des consultations prénatales, de bien se nourrir (aliments riches en protéines et en fer), de garder une bonne hygiène intime et d'être suivie par un personnel de santé pour l'accouchement. Elle est aussi concernée par le conseil de retarder la première grossesse : à 15 ans, la grossesse est précoce."
+    },
+    {
+      "id": "st-SVT-20",
+      "domaine": "reproduction",
+      "domaineTitre": "La reproduction humaine",
+      "titre": "Le cancer du col de l'utérus",
+      "enonce": "Le cancer du col de l'utérus est un cancer qui touche les femmes.\n\n1. Quel virus est présent dans près de 99 % des cas de ce cancer ?\n2. Parmi 1000 femmes atteintes de ce cancer, environ combien sont infectées par ce virus ?\n3. Les types HPV16 et HPV18 sont responsables d'environ 70 % des cas. Environ combien de ces 1000 femmes sont concernées ?\n4. Le col de l'utérus comprend trois parties. Nomme-les.\n5. Cite trois signes qui doivent pousser une femme à consulter.",
+      "solution": "1. Le papillomavirus humain (HPV, ou PVH).\n\n2. 99 % de 1000 = 0,99 × 1000 = 990. Environ 990 femmes sont infectées.\n\n3. 70 % de 1000 = 0,70 × 1000 = 700. Environ 700 femmes sont concernées par HPV16 et HPV18.\n\n4. L'endocol, la zone de jonction et l'exocol.\n\n5. Les saignements entre les règles, les saignements après les rapports, les pertes malodorantes."
+    },
+    {
+      "id": "st-SVT-21",
+      "domaine": "reproduction",
+      "domaineTitre": "La reproduction humaine",
+      "titre": "Dépistage et prévention du cancer du col",
+      "enonce": "1. À partir de quel âge le dépistage du cancer du col est-il conseillé ? Que change la présence du VIH ?\n2. Quel examen sert au dépistage ?\n3. Nadia a 27 ans et n'a pas le VIH. Sa cousine Hanta a 27 ans et vit avec le VIH. Laquelle doit être dépistée dès maintenant ? Justifie.\n4. Classe chaque action dans prévention primaire, secondaire ou tertiaire :\n   a) le vaccin contre le PVH chez les filles de 9 à 14 ans ;\n   b) le dépistage ;\n   c) la chirurgie, la radiothérapie, la chimiothérapie et les soins palliatifs.\n5. Quels traitements sont utilisés pour les lésions précancéreuses ?",
+      "solution": "1. Le dépistage est conseillé dès 30 ans. Il est conseillé dès 25 ans chez les femmes qui vivent avec le VIH.\n\n2. Le frottis cervico-utérin (FCU).\n\n3. Hanta doit être dépistée dès maintenant : elle vit avec le VIH, donc le dépistage commence dès 25 ans. Nadia, qui n'a pas le VIH, sera dépistée à partir de 30 ans.\n\n4. a) Prévention primaire ; b) prévention secondaire ; c) prévention tertiaire.\n\n5. La cryothérapie ou l'ablation thermique."
+    },
+    {
+      "id": "st-SVT-22",
+      "domaine": "geologie",
+      "domaineTitre": "La géologie",
+      "titre": "Classer les pierres",
+      "enonce": "Voici des pierres : diamant, ambre, agate, rubis, corail, grenat, saphir, nacre, émeraude, topaze.\n\n1. Classe-les en trois groupes : pierres précieuses, pierres fines (semi-précieuses), pierres organiques.\n2. Combien y a-t-il de pierres précieuses ? Nomme-les toutes.\n3. Cite trois autres pierres fines que celles de la liste.\n4. Cite une autre pierre organique que celles de la liste.",
+      "solution": "1. Pierres précieuses : diamant, rubis, saphir, émeraude. Pierres fines : agate, grenat, topaze. Pierres organiques : ambre, corail, nacre.\n\n2. Il y a quatre pierres précieuses : le diamant, l'émeraude, le saphir et le rubis.\n\n3. Parmi : l'aigue-marine, l'améthyste, la citrine, l'opale, le jade, le jaspe, l'obsidienne, le quartz rose, la labradorite, la tourmaline. Il suffit d'en citer trois.\n\n4. Le jais (les autres pierres organiques du cours sont l'ambre, le corail et la nacre)."
+    },
+    {
+      "id": "st-SVT-23",
+      "domaine": "geologie",
+      "domaineTitre": "La géologie",
+      "titre": "Propriétés et valeur des pierres précieuses",
+      "enonce": "1. Cite quatre propriétés des pierres précieuses et fines.\n2. Cite les quatre critères qui distinguent les pierres précieuses des autres pierres.\n3. Associe chaque critère à ses éléments :\n   Critères : beauté ; qualité ; valeur.\n   Éléments : (a) pureté, éclat, dureté ; (b) carat ; (c) brillance, translucidité, facettage.",
+      "solution": "1. La beauté, la durabilité, la couleur et la luminosité.\n\n2. La rareté, la beauté, la qualité et la valeur.\n\n3. Beauté → (c) brillance, translucidité, facettage ; qualité → (a) pureté, éclat, dureté ; valeur → (b) carat."
+    },
+    {
+      "id": "st-SVT-24",
+      "domaine": "geologie",
+      "domaineTitre": "La géologie",
+      "titre": "Utilisations des pierres",
+      "enonce": "Les pierres précieuses et fines ont plusieurs utilisations.\n\n1. Cite trois domaines d'utilisation des pierres.\n2. Quelle propriété optique des pierres est recherchée en joaillerie ?\n3. Dans l'industrie, cite deux pierres utilisées en horlogerie.\n4. Quelle pierre sert à fabriquer des lentilles et des lasers ?",
+      "solution": "1. La joaillerie, l'industrie et la lithothérapie.\n\n2. Un indice de réfraction élevé.\n\n3. Parmi : l'émeraude, le rubis, le saphir. Il suffit d'en citer deux.\n\n4. Le saphir."
+    },
+    {
+      "id": "st-SVT-25",
+      "domaine": "geologie",
+      "domaineTitre": "La géologie",
+      "titre": "L'exploitation des pierres",
+      "enonce": "On exploite les pierres dans des gisements primaires et dans des gisements secondaires.\n\n1. Classe chaque mode d'exploitation : mine à ciel ouvert ; mine souterraine ; exploitation alluviale (placers). Indique à chaque fois s'il s'agit d'un gisement primaire ou secondaire.\n2. En quoi consiste l'exploitation alluviale ?\n3. Cite trois pierres exploitées dans les gisements secondaires.\n4. Un chercheur de pierres lave et tamise du sable, du gravier et de la boue pour trouver des saphirs. Quel type de gisement exploite-t-il ?",
+      "solution": "1. Mine à ciel ouvert : gisement primaire. Mine souterraine : gisement primaire. Exploitation alluviale (placers) : gisement secondaire.\n\n2. Elle consiste à laver et à tamiser du sable, du gravier et de la boue pour y trouver les pierres.\n\n3. Les diamants, les grenats et les saphirs.\n\n4. Il exploite un gisement secondaire, par exploitation alluviale."
+    },
+    {
+      "id": "st-SVT-26",
+      "domaine": "geologie",
+      "domaineTitre": "La géologie",
+      "titre": "Les impacts de l'exploitation sur l'environnement",
+      "enonce": "L'exploitation des pierres peut abîmer l'environnement.\n\n1. Cite quatre impacts environnementaux de l'exploitation des pierres.\n2. Associe chaque situation à l'impact correspondant :\n   Situations : (a) on coupe les arbres pour ouvrir une mine ; (b) la pluie emporte la terre laissée à nu ; (c) les villageois voisins du chantier ont de plus en plus de mal à trouver de l'eau ; (d) des restes de l'exploitation s'accumulent autour du site.\n   Impacts : déforestation ; érosion des sols ; déchets ; approvisionnement en eau des riverains.\n3. Quel impact concerne les êtres vivants de la mer ?",
+      "solution": "1. Parmi : l'érosion des sols, l'atteinte à l'écosystème marin et à la biodiversité, les déchets, les gaz à effet de serre, les difficultés d'approvisionnement en eau des riverains, la déforestation. Il suffit d'en citer quatre.\n\n2. (a) → déforestation ; (b) → érosion des sols ; (c) → approvisionnement en eau des riverains ; (d) → déchets.\n\n3. L'impact sur l'écosystème marin et la biodiversité."
+    }
+  ]
+}
