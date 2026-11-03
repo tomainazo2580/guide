@@ -1,0 +1,81 @@
+{
+  "matiere": "svt",
+  "type": "sujets-types",
+  "partie": "B",
+  "partieTitre": "Êtres vivants et santé",
+  "mention": "Sujet d'entraînement rédigé pour Guide d'après le programme officiel. Corrigé rédigé d'après le cours, calculs vérifiés.",
+  "exercices": [
+    {
+      "id": "st-SVT-08",
+      "domaine": "plantes",
+      "domaineTitre": "Les plantes",
+      "titre": "Absorption de l'eau et des sels minéraux",
+      "enonce": "La racine d'une plante joue plusieurs rôles.\n\n1. Où se trouvent les poils absorbants ?\n2. Que sont les poils absorbants ?\n3. Cite les trois rôles de la racine.\n4. Remets dans l'ordre le trajet de l'eau et des sels minéraux : xylème (sève brute) ; poils absorbants ; stèle centrale ; sol.\n5. Pourquoi les sels minéraux (phosphore, azote, potassium) sont-ils absorbés en même temps que l'eau ?",
+      "solution": "1. Les poils absorbants se trouvent sur les racines, dans la zone pilifère.\n\n2. Ce sont des excroissances des cellules de l'épiderme de la racine. Il y en a plusieurs milliards.\n\n3. La racine sert à : absorber l'eau et les sels minéraux ; ancrer la plante dans le sol ; mettre en réserve (eau, sels, sucre, amidon).\n\n4. Sol → poils absorbants → stèle centrale → xylème (sève brute).\n\n5. Les sels minéraux sont dissous dans l'eau du sol : la plante les absorbe donc avec l'eau, par les poils absorbants."
+    },
+    {
+      "id": "st-SVT-09",
+      "domaine": "plantes",
+      "domaineTitre": "Les plantes",
+      "titre": "Les besoins des plantes",
+      "enonce": "Un élève veut savoir de quoi une plante a besoin pour se développer. Il prépare des plantes identiques et les observe pendant 5 à 6 jours.\n\n1. Cite les quatre besoins d'une plante étudiés dans les expériences.\n2. Pour étudier le besoin en lumière, il place un lot de plantes à la lumière et un autre lot à l'obscurité. Lequel est le lot témoin ? Lequel est le lot test ?\n3. Quelle seule condition doit changer entre les deux lots ? Pourquoi les autres conditions doivent-elles rester identiques ?\n4. Si les plantes du lot test se développent moins bien que celles du témoin, que peut-on conclure ?",
+      "solution": "1. Les quatre besoins sont : l'eau, les sels minéraux, la lumière et le dioxyde de carbone.\n\n2. Le lot témoin est celui placé à la lumière (conditions normales). Le lot test est celui placé à l'obscurité.\n\n3. Seule la lumière doit changer. Les autres conditions (eau, sels minéraux, dioxyde de carbone, type de plante) doivent rester identiques, sinon on ne saurait pas quelle condition explique la différence observée.\n\n4. On peut conclure que la lumière est nécessaire au bon développement de la plante."
+    },
+    {
+      "id": "st-SVT-10",
+      "domaine": "plantes",
+      "domaineTitre": "Les plantes",
+      "titre": "Les soins donnés aux cultures",
+      "enonce": "Dans un jardin, on pratique plusieurs soins aux plantes.\n\n1. Associe chaque soin à sa définition.\n   Soins : sarclage ; éclaircissage ; arrosage ; désherbage manuel.\n   Définitions : (a) retirer des plantules d'une ligne ; (b) couper les mauvaises herbes sous la surface du sol avec un sarcloir ; (c) apporter de l'eau à la plante ; (d) arracher les mauvaises herbes à la main.\n\n2. Dis si chaque phrase est vraie ou fausse :\n   a) On arrose seulement quand c'est nécessaire, par exemple en cas de sécheresse.\n   b) Le sarcloir sert à couper les mauvaises herbes.\n   c) Le désherbage manuel est plus facile quand les herbes sont petites et que le sol est ameubli et sec.\n   d) L'éclaircissage consiste à ajouter des plantules sur une ligne.",
+      "solution": "1. Sarclage → (b) ; éclaircissage → (a) ; arrosage → (c) ; désherbage manuel → (d).\n\n2. a) Vrai.\n   b) Vrai.\n   c) Vrai.\n   d) Faux : l'éclaircissage consiste à retirer des plantules d'une ligne, pas à en ajouter."
+    },
+    {
+      "id": "st-SVT-11",
+      "domaine": "plantes",
+      "domaineTitre": "Les plantes",
+      "titre": "Protéger les cultures",
+      "enonce": "Les cultures sont attaquées par des bio-agresseurs.\n\n1. Nomme les trois catégories de bio-agresseurs et explique chacune en une phrase.\n2. Dans chaque situation, indique la catégorie de bio-agresseur :\n   a) des chenilles mangent les feuilles du chou ;\n   b) des mauvaises herbes poussent entre les rangs de légumes ;\n   c) la rouille attaque les feuilles d'une plante.\n3. Cite deux méthodes naturelles de protection des cultures.\n4. Associe chaque pesticide à sa cible : herbicide ; insecticide ; fongicide.\n   Cibles : (a) les champignons (pourriture des racines, moisissure, rouille) ; (b) les mauvaises herbes ; (c) les insectes.",
+      "solution": "1. Les agents pathogènes provoquent des maladies. Les ravageurs sont des prédateurs ou des parasites des cultures. Les adventices sont les mauvaises herbes.\n\n2. a) Chenilles : ravageurs.\n   b) Mauvaises herbes : adventices.\n   c) Rouille : maladie causée par un champignon, donc agent pathogène.\n\n3. Le neem (voandelaka), efficace contre plus de 200 insectes ravageurs (feuilles ou tourteaux), et le piment, utilisé contre les fourmis, les pucerons et les chenilles.\n\n4. Herbicide → (b) ; insecticide → (c) ; fongicide → (a)."
+    },
+    {
+      "id": "st-SVT-12",
+      "domaine": "systeme-nerveux",
+      "domaineTitre": "Le système nerveux",
+      "titre": "Organisation du système nerveux",
+      "enonce": "Le système nerveux commande et coordonne l'activité du corps.\n\n1. De quoi le système nerveux est-il constitué ?\n2. Compose le système nerveux central (SNC) et le système nerveux périphérique (SNP).\n3. Quelle structure protège la moelle épinière ?\n4. Les nerfs rachidiens se répartissent ainsi : 8 paires cervicales, 12 thoraciques, 5 lombaires, 5 sacrées et 1 coccygienne. Combien y a-t-il de paires de nerfs rachidiens ? Avec les 12 paires de nerfs crâniens, combien de paires de nerfs obtient-on en tout ?\n5. Parmi la marche et la respiration, laquelle dépend du système somatique (mouvements volontaires) et laquelle du système autonome (fonctions involontaires) ?",
+      "solution": "1. Il est constitué de neurones et de nerfs.\n\n2. Le SNC comprend l'encéphale (cerveau, cervelet, tronc cérébral) et la moelle épinière. Le SNP comprend les nerfs et les ganglions.\n\n3. Les vertèbres protègent la moelle épinière.\n\n4. 8 + 12 + 5 + 5 + 1 = 31 paires de nerfs rachidiens. Avec les nerfs crâniens : 12 + 31 = 43 paires de nerfs.\n\n5. La marche dépend du système somatique (mouvement volontaire). La respiration dépend du système autonome (fonction involontaire)."
+    },
+    {
+      "id": "st-SVT-13",
+      "domaine": "systeme-nerveux",
+      "domaineTitre": "Le système nerveux",
+      "titre": "Les trois types de réactions",
+      "enonce": "Il existe trois types de réactions : le mouvement réflexe inné (MRI), le mouvement réflexe acquis (MRA) et le mouvement volontaire (MV).\n\n1. Définis un réflexe.\n2. Classe chaque situation dans MRI, MRA ou MV :\n   a) retirer la main d'un objet brûlant ;\n   b) écrire une phrase ;\n   c) saliver devant un citron coupé ;\n   d) prendre un livre sur la table ;\n   e) monter à bicyclette ;\n   f) fermer les paupières devant un objet qui approche ;\n   g) déposer la clé sur la table ;\n   h) freiner du pied, pour un chauffeur expérimenté.\n3. Quel organe commande les mouvements volontaires ?",
+      "solution": "1. Un réflexe est une réaction rapide et involontaire à un stimulus.\n\n2. a) MRI ; b) MRA ; c) MRI ; d) MV ; e) MRA ; f) MRI ; g) MV ; h) MRA (réflexe acquis, comme la jambe du chauffeur).\n\n3. Le cerveau commande les mouvements volontaires."
+    },
+    {
+      "id": "st-SVT-14",
+      "domaine": "systeme-nerveux",
+      "domaineTitre": "Le système nerveux",
+      "titre": "L'arc réflexe",
+      "enonce": "Hery touche une casserole brûlante et retire aussitôt sa main.\n\n1. De quel type de réaction s'agit-il ?\n2. Quel est le stimulus ?\n3. Remets dans l'ordre les éléments de l'arc réflexe : muscle ; nerf moteur ; moelle épinière ; nerf sensitif ; organe sensitif (peau).\n4. Quel est le centre nerveux de cette réaction ?\n5. Pourquoi Hery retire-t-il sa main avant d'avoir eu le temps de réfléchir ?",
+      "solution": "1. C'est un mouvement réflexe inné (MRI).\n\n2. Le stimulus est la chaleur de la casserole, qui brûle la peau.\n\n3. Organe sensitif (peau) → nerf sensitif → moelle épinière → nerf moteur → muscle.\n\n4. Le centre nerveux est la moelle épinière.\n\n5. Un réflexe est une réaction rapide et involontaire : le message passe par la moelle épinière et le muscle se contracte sans attendre une décision volontaire."
+    },
+    {
+      "id": "st-SVT-15",
+      "domaine": "systeme-nerveux",
+      "domaineTitre": "Le système nerveux",
+      "titre": "Le sommeil",
+      "enonce": "Le sommeil est indispensable à la santé du système nerveux.\n\nDurées de sommeil recommandées : nouveau-né 20 h ; enfant de 2 ans 14 h ; écolier 10 à 11 h ; adolescent 9 à 10 h ; adulte 7 à 9 h ; 3e âge 7 h.\n\n1. Lala, 14 ans, se couche à 23 h 30 et se lève à 6 h. Combien d'heures dort-elle ?\n2. Compare cette durée à celle recommandée pour un adolescent. Combien d'heures de sommeil lui manque-t-il ?\n3. Cite deux règles d'or à suivre avant d'aller dormir.\n4. Cite deux règles d'or à suivre au moment du coucher.",
+      "solution": "1. De 23 h 30 à 6 h, il y a 6 h 30 de sommeil.\n\n2. Un adolescent doit dormir 9 à 10 h. Il manque à Lala 9 − 6,5 = 2,5 h à 10 − 6,5 = 3,5 h, soit entre 2 h 30 et 3 h 30 de sommeil.\n\n3. Avant de dormir : prendre une boisson calmante, se laver les dents, avoir des activités délassantes (au choix, deux de ces règles).\n\n4. Au coucher : se coucher à heures régulières, dormir dans une chambre calme, obscure et aérée, porter des vêtements amples (au choix, deux de ces règles)."
+    },
+    {
+      "id": "st-SVT-16",
+      "domaine": "systeme-nerveux",
+      "domaineTitre": "Le système nerveux",
+      "titre": "Hygiène du système nerveux et substances nocives",
+      "enonce": "Certaines habitudes protègent le système nerveux, d'autres lui nuisent.\n\n1. Cite trois habitudes à éviter pour préserver le système nerveux.\n2. Pourquoi un petit-déjeuner insuffisant est-il mauvais pour le système nerveux ?\n3. Associe chaque substance à un de ses effets :\n   Substances : tabac ; alcool.\n   Effets : (a) coma éthylique ; (b) cancers, bronchite, asthme.\n4. Cite deux autres substances psychoactives dangereuses pour la santé.",
+      "solution": "1. Parmi : la sédentarité, les corps gras en excès, un petit-déjeuner insuffisant, un repas de midi trop copieux (au choix, trois de ces habitudes).\n\n2. Un petit-déjeuner insuffisant provoque une hypoglycémie : le système nerveux manque de glucose, donc d'énergie.\n\n3. Tabac → (b) ; alcool → (a).\n\n4. Parmi : les médicaments pris sans avis médical, le cannabis, les autres drogues."
+    }
+  ]
+}
