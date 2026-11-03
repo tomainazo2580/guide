@@ -359,3 +359,8 @@ body[data-theme="sombre"] .statut-sauvegarde-notes.succes {
 }
 .carte-matiere-nom { line-height: 1.25; }
 .carte-matiere-statut { min-height: 14px; }
+
+/* ---------- MARGE DE SÉCURITÉ SOUS LE CONTENU (barre de navigation) ---------- */
+#contenu-principal {
+  padding-bottom: 130px;
+}
