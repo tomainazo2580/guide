@@ -1097,10 +1097,55 @@ function afficherIdentifiantReglages() {
     <div class="paywall-prix" style="letter-spacing:4px;">${idAppareil}</div>
     <button id="btn-copier-id-reglages" class="btn-valider">📋 Copier mon identifiant</button>
     ${lignes ? '<p class="paywall-texte" style="margin-top:14px;text-align:left;">Matières premium :</p><div class="paywall-texte" style="text-align:left;">' + lignes + '</div>' : ''}
-    <p class="paywall-texte" style="margin-top:14px;text-align:left;">⚠️ <strong>Important :</strong> ne supprime pas « Cookies et données des sites » dans Chrome : tu perdrais ton déblocage. Garde aussi le message qui contient ton code. Si tu perds tout, contacte-nous avec ton nouvel identifiant.</p>
+    <p class="paywall-texte" style="margin-top:14px;text-align:left;">⚠️ <strong>Important :</strong> ne supprime pas « Cookies et données des sites » dans Chrome : tu perdrais ton déblocage.</p>
   `;
   $('btn-copier-id-reglages').addEventListener('click', () => copierTexte(idAppareil, $('btn-copier-id-reglages')));
 }
+function initialiser() {
+  obtenirIdAppareil();
+  if (navigator.storage && navigator.storage.persist) {
+    navigator.storage.persist().catch(() => {});
+  }
+  const themeSauvegarde = localStorage.getItem('guide-theme') || 'clair';
+  appliquerTheme(themeSauvegarde);
+  const classeSauvegardee = localStorage.getItem('guide-classe-choisie');
+  const classeValide = CLASSES.find(c => c.id === classeSauvegardee && c.disponible);
+  if (classeValide) {
+    etat.classe = classeValide.id;
+    etat.niveau = 'matieres';
+    afficherVue('matieres');
+    majBoutonRetour(false);
+    renderMatieres();
+  } else {
+    renderClasses();
+    afficherVue('classes');
+    majBoutonRetour(false);
+  }
+  $('btn-retour').addEventListener('click', gererRetour);
+  $('btn-theme').addEventListener('click', basculerTheme);
+  document.querySelectorAll('.nav-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const cible = btn.getAttribute('data-nav');
+      if (cible === 'accueil') allerAccueil();
+      if (cible === 'exercices') allerExercices();
+      if (cible === 'notes') allerNotes();
+      if (cible === 'parametres') allerParametres();
+    });
+  });
+  $('btn-reset-progression').addEventListener('click', () => {
+    if (confirm('Veux-tu vraiment réinitialiser toute ta progression ? Cette action est irréversible.')) {
+      localStorage.removeItem('guide-progression');
+      alert('Progression réinitialisée.');
+    }
+  });
+  $('btn-changer-classe').addEventListener('click', changerDeClasse);
+  initInstallation();
+  initNotesPerso();
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./service-worker.js');
+  }
+}
+document.addEventListener('DOMContentLoaded', initialiser);
 function initialiser() {
   obtenirIdAppareil();
   if (navigator.storage && navigator.storage.persist) {
