@@ -1,0 +1,121 @@
+{
+  "matiere": "mathematiques",
+  "type": "sujets-types",
+  "partie": "B",
+  "partieTitre": "Activités numériques",
+  "mention": "Sujet type d'après d'anciens sujets du BEPC de Madagascar (document trouvé en ligne). Corrigé rédigé pour Guide.",
+  "exercices": [
+    {
+      "id": "st-B-01",
+      "domaine": "IV",
+      "domaineTitre": "Algèbre",
+      "titre": "Puissances de 10 et radicaux",
+      "enonce": "1) Écris A = (2,5 × 10⁻⁷) ÷ (5 × 10⁻⁶) sous la forme a × 10ⁿ (a décimal, n entier relatif).\n\n2) Écris B = √75 + √48 − 7√3 sous la forme a√b (b le plus petit possible).\n\n3) Écris C = (210 × 10⁻⁵) ÷ (4,2 × 10⁻³) sous la forme a × 10ⁿ.",
+      "solution": "1) 2,5 ÷ 5 = 0,5 et 10⁻⁷ ÷ 10⁻⁶ = 10⁻¹.\nDonc A = 0,5 × 10⁻¹ = 5 × 10⁻².\n\n2) √75 = √(25 × 3) = 5√3 et √48 = √(16 × 3) = 4√3.\nB = 5√3 + 4√3 − 7√3 = 2√3.\n\n3) 210 ÷ 4,2 = 50 et 10⁻⁵ ÷ 10⁻³ = 10⁻².\nC = 50 × 10⁻² = 0,5 = 5 × 10⁻¹."
+    },
+    {
+      "id": "st-B-02",
+      "domaine": "IV",
+      "domaineTitre": "Algèbre",
+      "titre": "Inégalités et encadrements",
+      "enonce": "1) Traduis par une inégalité : x ∈ ]0 ; +∞[.\n\n2) On donne 2,236 < √5 < 2,237. Encadre 9 − √5 par deux décimaux consécutifs d'ordre 3.\n\n3) On donne 1,414 < √2 < 1,415. Encadre 10 + √2 par deux décimaux consécutifs d'ordre 2.",
+      "solution": "1) x ∈ ]0 ; +∞[ signifie x > 0.\n\n2) 2,236 < √5 < 2,237\nDonc −2,237 < −√5 < −2,236.\nOn ajoute 9 : 9 − 2,237 < 9 − √5 < 9 − 2,236.\nSoit 6,763 < 9 − √5 < 6,764.\n\n3) 10 + 1,414 < 10 + √2 < 10 + 1,415, soit 11,414 < 10 + √2 < 11,415.\nDeux décimaux consécutifs d'ordre 2 : 11,41 < 10 + √2 < 11,42."
+    },
+    {
+      "id": "st-B-03",
+      "domaine": "IV",
+      "domaineTitre": "Algèbre",
+      "titre": "Fonctions affines",
+      "enonce": "1) f est une fonction affine telle que f(0) = 5 et f(5) = 7. Détermine l'expression de f(x).\n\n2) g est la fonction définie par g(x) = ax + 4. Détermine a pour que la droite représentant g passe par le point A(2 ; 6).",
+      "solution": "1) f(x) = ax + b.\nf(0) = b = 5.\nf(5) = 5a + 5 = 7, donc 5a = 2 et a = 0,4.\nf(x) = 0,4x + 5.\n\n2) La droite passe par A(2 ; 6) si g(2) = 6.\n2a + 4 = 6, donc 2a = 2 et a = 1.\ng(x) = x + 4."
+    },
+    {
+      "id": "st-B-04",
+      "domaine": "IV",
+      "domaineTitre": "Algèbre",
+      "titre": "Factorisation et équation produit",
+      "enonce": "On donne P(x) = x² − 2 + (x + √2)(1 + √2 + x).\n\n1) Factorise P(x).\n\n2) Résous l'équation P(x) = 0.",
+      "solution": "1) x² − 2 = x² − (√2)² = (x − √2)(x + √2).\nP(x) = (x + √2)(x − √2) + (x + √2)(1 + √2 + x)\nP(x) = (x + √2)[(x − √2) + (1 + √2 + x)]\nP(x) = (x + √2)(2x + 1).\n\n2) Un produit est nul si l'un des facteurs est nul.\nx + √2 = 0 donne x = −√2.\n2x + 1 = 0 donne x = −1/2.\nS = {−√2 ; −1/2}."
+    },
+    {
+      "id": "st-B-05",
+      "domaine": "IV",
+      "domaineTitre": "Algèbre",
+      "titre": "Identité remarquable, fraction et inéquation",
+      "enonce": "On donne B(x) = 9x² + 6x + 1 et F(x) = ½(2x − 1)(3x + 1) / B(x).\n\n1) Factorise B(x).\n\n2) Calcule B(√2) sous la forme a + b√2. Avec 1,41 < √2 < 1,42, encadre B(√2).\n\n3) Pour quelles valeurs de x F(x) existe-t-il ? Simplifie F(x).\n\n4) Résous ½(2x − 1) ≤ 3x + 1. Donne la solution sous forme d'intervalle.",
+      "solution": "1) B(x) = (3x)² + 2 × 3x × 1 + 1² = (3x + 1)².\n\n2) B(√2) = (3√2 + 1)² = 18 + 6√2 + 1 = 19 + 6√2.\n1,41 < √2 < 1,42 donne 8,46 < 6√2 < 8,52.\nDonc 27,46 < B(√2) < 27,52.\n\n3) F(x) existe si B(x) ≠ 0, c'est-à-dire (3x + 1)² ≠ 0, donc x ≠ −1/3.\nF(x) = ½(2x − 1)(3x + 1) / (3x + 1)² = ½(2x − 1) / (3x + 1) = (2x − 1) / (6x + 2).\n\n4) ½(2x − 1) = x − ½.\nx − ½ ≤ 3x + 1\n−½ − 1 ≤ 3x − x\n−3/2 ≤ 2x\nx ≥ −3/4.\nS = [−3/4 ; +∞[."
+    },
+    {
+      "id": "st-B-06",
+      "domaine": "IV",
+      "domaineTitre": "Algèbre",
+      "titre": "Systèmes d'équations",
+      "enonce": "1) Résous le système : x + 3y = 5 et 2x − y = 3.\n\n2) Résous le système : 2x − y + 2 = 0 et x − 3 = 0. Que représente la solution pour les droites d'équations 2x − y + 2 = 0 et x − 3 = 0 ?",
+      "solution": "1) De 2x − y = 3, on tire y = 2x − 3.\nOn remplace dans x + 3y = 5 : x + 3(2x − 3) = 5, soit 7x − 9 = 5, donc x = 2.\nAlors y = 2 × 2 − 3 = 1.\nVérification : 2 + 3 × 1 = 5 ✓ et 2 × 2 − 1 = 3 ✓.\nS = {(2 ; 1)}.\n\n2) x − 3 = 0 donne x = 3.\n2 × 3 − y + 2 = 0 donne y = 8.\nS = {(3 ; 8)}.\nCe couple est celui du point d'intersection des deux droites : la droite y = 2x + 2 et la droite verticale x = 3."
+    },
+    {
+      "id": "st-B-07",
+      "domaine": "IV",
+      "domaineTitre": "Algèbre",
+      "titre": "Problèmes à mettre en équation",
+      "enonce": "1) Saïd a 3 fois plus d'argent que Benja. Leur tante donne 3 000 Ar à chacun. Saïd a alors 2 fois plus d'argent que Benja. Quelle somme chacun avait-il au départ ?\n\n2) Deux entiers naturels non nuls ont pour quotient 3 et pour différence 10. Trouve ces deux entiers.",
+      "solution": "1) Soit x l'argent de Benja au départ. Saïd a 3x.\nAprès le cadeau : Benja a x + 3 000 et Saïd a 3x + 3 000.\n3x + 3 000 = 2(x + 3 000)\n3x + 3 000 = 2x + 6 000\nx = 3 000.\nBenja avait 3 000 Ar et Saïd 9 000 Ar.\nVérification : 6 000 et 12 000, et 12 000 = 2 × 6 000 ✓.\n\n2) Soient a le plus grand entier et b le plus petit.\na ÷ b = 3 donne a = 3b. a − b = 10.\n3b − b = 10, donc 2b = 10 et b = 5. Alors a = 15.\nLes entiers sont 15 et 5.\nVérification : 15 ÷ 5 = 3 ✓ et 15 − 5 = 10 ✓."
+    },
+    {
+      "id": "st-B-08",
+      "domaine": "IV",
+      "domaineTitre": "Algèbre",
+      "titre": "PGCD : découpe de planches",
+      "enonce": "Un menuisier a deux planches de 360 cm et de 432 cm de long. Il veut les couper en morceaux de même longueur, la plus grande possible, sans aucune perte.\n\n1) Calcule la longueur d'un morceau.\n\n2) Combien de morceaux obtient-il en tout ?",
+      "solution": "1) La longueur cherchée est le PGCD de 360 et 432.\n432 = 360 × 1 + 72\n360 = 72 × 5 + 0\nLe dernier reste non nul est 72, donc PGCD(360 ; 432) = 72.\nChaque morceau mesure 72 cm.\n\n2) 360 ÷ 72 = 5 morceaux et 432 ÷ 72 = 6 morceaux.\nIl obtient 5 + 6 = 11 morceaux."
+    },
+    {
+      "id": "st-B-09",
+      "domaine": "IV",
+      "domaineTitre": "Algèbre",
+      "titre": "Location de bicyclette",
+      "enonce": "Un loueur propose trois tarifs pour x heures de location :\n• Tarif 1 : 16 000 Ar quelle que soit la durée.\n• Tarif 2 : 1 200 Ar par heure.\n• Tarif 3 : un forfait de 5 000 Ar, plus 600 Ar par heure.\n\n1) Exprime en fonction de x les prix f(x), g(x) et h(x) des tarifs 1, 2 et 3.\n\n2) Représente les trois fonctions dans un même repère (0,5 cm pour 1 h en abscisse, 1 cm pour 2 000 Ar en ordonnée).\n\n3) Quel est le tarif le plus avantageux pour 6 h, 12 h, 20 h de location ?",
+      "solution": "1) f(x) = 16 000\ng(x) = 1 200x\nh(x) = 5 000 + 600x\n\n2) Pour tracer, calcule deux points par droite (à faire sur ton cahier) :\n• f : droite horizontale passant par (0 ; 16 000).\n• g : (0 ; 0) et (10 ; 12 000).\n• h : (0 ; 5 000) et (10 ; 11 000).\n\n3) Pour 6 h : f = 16 000, g = 7 200, h = 8 600. Le tarif 2 est le plus avantageux.\nPour 12 h : f = 16 000, g = 14 400, h = 12 200. Le tarif 3 est le plus avantageux.\nPour 20 h : f = 16 000, g = 24 000, h = 17 000. Le tarif 1 est le plus avantageux.\n\nPour aller plus loin : g = h quand 1 200x = 5 000 + 600x, soit x ≈ 8,33 h. Et h = f quand 5 000 + 600x = 16 000, soit x ≈ 18,33 h.\nLe tarif 2 est le meilleur avant 8 h 20 min, le tarif 3 entre 8 h 20 min et 18 h 20 min, le tarif 1 ensuite."
+    },
+    {
+      "id": "st-B-10",
+      "domaine": "IV",
+      "domaineTitre": "Algèbre",
+      "titre": "Produit, développement et inéquation",
+      "enonce": "On donne A(x) = (4x − 3)(−x + 2).\n\n1) Résous A(x) = 0.\n\n2) Développe, réduis et ordonne A(x).\n\n3) Calcule A(4/3), puis donne une valeur approchée par excès à 10⁻² près.\n\n4) Résous x + 2 ≥ 4x − 3. Donne la solution sous forme d'intervalle.",
+      "solution": "1) 4x − 3 = 0 donne x = 3/4.\n−x + 2 = 0 donne x = 2.\nS = {3/4 ; 2}.\n\n2) A(x) = 4x × (−x) + 4x × 2 − 3 × (−x) − 3 × 2\nA(x) = −4x² + 8x + 3x − 6\nA(x) = −4x² + 11x − 6.\n\n3) A(4/3) = (16/3 − 3)(−4/3 + 2) = (7/3) × (2/3) = 14/9 = 1,5555…\nValeur approchée par excès à 10⁻² près : 1,56.\n\n4) x + 2 ≥ 4x − 3\n2 + 3 ≥ 4x − x\n5 ≥ 3x\nx ≤ 5/3.\nS = ]−∞ ; 5/3]."
+    },
+    {
+      "id": "st-B-11",
+      "domaine": "IV",
+      "domaineTitre": "Algèbre",
+      "titre": "Fonction affine et intersection de droites",
+      "enonce": "Soit la fonction f définie par f(x) = 15x + 20. On appelle (D1) la droite d'équation y = f(x) et (D2) la droite d'équation 5x + y − 4 = 0.\n\n1) f est-elle croissante ou décroissante ? Justifie.\n\n2) Si 3 < x < 3,1, donne un encadrement de f(x).\n\n3) Calcule les coordonnées du point d'intersection de (D1) et (D2).",
+      "solution": "1) f(x) = 15x + 20 est de la forme ax + b avec a = 15 > 0.\nf est donc croissante.\n\n2) 3 < x < 3,1\n15 × 3 < 15x < 15 × 3,1\n45 < 15x < 46,5\n65 < 15x + 20 < 66,5.\nDonc 65 < f(x) < 66,5 (65 est une valeur approchée par défaut de f(x)).\n\n3) (D2) : y = 4 − 5x.\nOn cherche x tel que 15x + 20 = 4 − 5x, soit 20x = −16, donc x = −0,8.\ny = 15 × (−0,8) + 20 = 8.\nLe point d'intersection est (−0,8 ; 8).\nVérification avec (D2) : 5 × (−0,8) + 8 − 4 = 0 ✓."
+    },
+    {
+      "id": "st-B-12",
+      "domaine": "V",
+      "domaineTitre": "Organisation des données",
+      "titre": "Masses de poissons",
+      "enonce": "Deux pêcheurs ont pesé leurs poissons (masses en kg) :\n9 ; 14 ; 7 ; 13,5 ; 7,5 ; 12 ; 5,5 ; 12 ; 3 ; 10 ;\n6,5 ; 7 ; 4 ; 9 ; 7,5 ; 8 ; 12 ; 11 ; 13 ; 6.\n\n1) Quel est le caractère étudié ? Quelle est sa nature ?\n\n2) Regroupe les données dans un tableau avec les classes [3 ; 6[, [6 ; 9[, [9 ; 12[, [12 ; 15[ (effectifs et fréquences en %).\n\n3) Quel pourcentage des poissons pèse au moins 6 kg ?",
+      "solution": "1) Le caractère étudié est la masse d'un poisson (en kg). C'est un caractère quantitatif, regroupé ici en classes.\n\n2) Il y a 20 poissons.\n\nClasse | Effectif | Fréquence\n[3 ; 6[ | 3 | 15 %\n[6 ; 9[ | 7 | 35 %\n[9 ; 12[ | 4 | 20 %\n[12 ; 15[ | 6 | 30 %\nTotal | 20 | 100 %\n\n3) Les poissons de 6 kg ou plus sont dans les trois dernières classes : 7 + 4 + 6 = 17.\n17 ÷ 20 = 0,85, soit 85 % des poissons."
+    },
+    {
+      "id": "st-B-13",
+      "domaine": "V",
+      "domaineTitre": "Organisation des données",
+      "titre": "Tailles des élèves d'une classe",
+      "enonce": "On a mesuré la taille des 50 élèves d'une classe.\n\nTaille (en m) | Effectif\n[1,50 ; 1,60[ | 30\n[1,60 ; 1,70[ | ?\n[1,70 ; 1,80[ | 5\n\n1) Complète le tableau.\n\n2) Quelle est la classe modale ?\n\n3) Combien d'élèves mesurent au moins 1,60 m ?\n\n4) Calcule la fréquence de chaque classe en pourcentage.",
+      "solution": "1) 50 − 30 − 5 = 15. L'effectif de la classe [1,60 ; 1,70[ est 15.\n\n2) La classe modale est celle qui a le plus grand effectif : [1,50 ; 1,60[.\n\n3) 15 + 5 = 20 élèves mesurent au moins 1,60 m (soit 40 %).\n\n4) [1,50 ; 1,60[ : 30 ÷ 50 = 60 %\n[1,60 ; 1,70[ : 15 ÷ 50 = 30 %\n[1,70 ; 1,80[ : 5 ÷ 50 = 10 %\nTotal : 100 %."
+    },
+    {
+      "id": "st-B-14",
+      "domaine": "V",
+      "domaineTitre": "Organisation des données",
+      "titre": "Étude des consonnes d'une phrase",
+      "enonce": "On considère la phrase : « RIEN NE SERT DE COURIR, IL FAUT PARTIR A POINT ».\n\n1) Combien y a-t-il de consonnes dans cette phrase ?\n\n2) Quelle est la population étudiée ? Quel est le caractère ?\n\n3) Combien de consonnes différentes la phrase contient-elle ?\n\n4) Dresse le tableau des effectifs et des fréquences (en %).\n\n5) Quel est le mode de cette série ?",
+      "solution": "1) On compte mot par mot :\nRIEN : R, N (2) ; NE : N (1) ; SERT : S, R, T (3) ; DE : D (1) ; COURIR : C, R, R (3) ; IL : L (1) ; FAUT : F, T (2) ; PARTIR : P, R, T, R (4) ; A : aucune ; POINT : P, N, T (3).\nTotal : 2 + 1 + 3 + 1 + 3 + 1 + 2 + 4 + 0 + 3 = 20 consonnes.\n\n2) La population est l'ensemble des consonnes de la phrase (20 au total). Le caractère est la consonne (caractère qualitatif).\n\n3) Il y a 9 consonnes différentes : R, N, S, T, D, C, L, F, P.\n\n4) Consonne | Effectif | Fréquence\nR | 6 | 30 %\nN | 3 | 15 %\nS | 1 | 5 %\nT | 4 | 20 %\nD | 1 | 5 %\nC | 1 | 5 %\nL | 1 | 5 %\nF | 1 | 5 %\nP | 2 | 10 %\nTotal | 20 | 100 %\n\n5) Le mode est la valeur de plus grand effectif : la consonne R (6 fois)."
+    }
+  ]
+}
