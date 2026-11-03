@@ -22,10 +22,8 @@
     margin-bottom: 20px;
     line-height: 1.5;
   }
-  h1 {
-    font-size: 20px;
-    margin-bottom: 20px;
-  }
+  h1 { font-size: 20px; margin-bottom: 20px; }
+  h2 { font-size: 16px; margin-top: 30px; }
   label {
     display: block;
     font-size: 13px;
@@ -41,11 +39,13 @@
     background-color: #1e293b;
     color: #e2e8f0;
     font-size: 15px;
+    box-sizing: border-box;
   }
+  input.id { text-transform: uppercase; letter-spacing: 3px; font-family: monospace; }
   button {
     width: 100%;
     padding: 12px;
-    margin-top: 20px;
+    margin-top: 16px;
     background-color: #5b9bd5;
     color: #0f172a;
     border: none;
@@ -54,6 +54,7 @@
     font-weight: 700;
     cursor: pointer;
   }
+  button.secondaire { background-color: #334155; color: #e2e8f0; }
   .resultat {
     margin-top: 20px;
     padding: 16px;
@@ -66,110 +67,204 @@
     color: #5b9bd5;
     word-break: break-all;
   }
+  .message { margin-top: 12px; font-size: 14px; line-height: 1.5; }
+  .erreur { color: #fca5a5; }
+  .info { color: #fcd34d; }
+  .entree {
+    background-color: #1e293b;
+    border-radius: 8px;
+    padding: 10px 12px;
+    margin-top: 8px;
+    font-size: 13px;
+    line-height: 1.5;
+    word-break: break-all;
+  }
+  .entree .code { font-family: monospace; color: #5b9bd5; }
 </style>
 </head>
 <body>
-
 <div class="avertissement">
-  ⚠️ Usage personnel uniquement. Ne partage JAMAIS le lien de cette page à qui que ce soit, y compris aux élèves.
+  ⚠️ Usage personnel uniquement. Ne partage JAMAIS cette page, y compris aux élèves.
 </div>
-
 <h1>🔑 Générateur de codes Guide</h1>
 
 <label for="select-classe">Classe de l'élève</label>
 <select id="select-classe">
   <option value="3e">Troisième</option>
-  <option value="tle">Terminale</option>
 </select>
 
-<label for="select-matiere">Matière</label>
-<select id="select-matiere"></select>
+<label for="input-id">Identifiant du téléphone (6 caractères)</label>
+<input type="text" id="input-id" class="id" maxlength="6" autocomplete="off" placeholder="K7M4Q2">
 
-<label for="input-serial">Numéro de série</label>
-<input type="text" id="input-serial" maxlength="4">
+<label for="select-matiere">Matière ou pack</label>
+<select id="select-matiere">
+  <option value="MATH">Mathématiques (3000 Ar)</option>
+  <option value="FRAN">Français (3000 Ar)</option>
+  <option value="ANGL">Anglais (3000 Ar)</option>
+  <option value="SVT">SVT (3000 Ar)</option>
+  <option value="SPHY">Sciences Physiques (3000 Ar)</option>
+  <option value="HIST">Histoire (3000 Ar)</option>
+  <option value="GEOG">Géographie (3000 Ar)</option>
+  <option value="PACK">PACK COMPLET (12000 Ar)</option>
+</select>
+
+<label for="input-note">Note (nom de l'élève, opérateur, référence du paiement…)</label>
+<input type="text" id="input-note" autocomplete="off" placeholder="Ex : Rado, Mvola 15/06">
 
 <button id="btn-generer">Générer le code</button>
-
+<div id="message" class="message"></div>
 <div id="resultat" class="resultat" hidden></div>
+<button id="btn-copier-code" class="secondaire" hidden>📋 Copier le code</button>
+
+<h2>📒 Registre des codes</h2>
+<div id="registre"></div>
+<button id="btn-copier-registre" class="secondaire">📋 Copier tout le registre (sauvegarde)</button>
 
 <script>
 const SEL_SECRET = "BEPC2026MDG";
-
-const MATIERES_PAR_CLASSE = {
-  '3e': [
-    { code: 'MALG', nom: 'Malagasy' },
-    { code: 'FRAN', nom: 'Français' },
-    { code: 'ANGL', nom: 'Anglais' },
-    { code: 'MATH', nom: 'Mathématiques' },
-    { code: 'SVT',  nom: 'SVT' },
-    { code: 'SPHY', nom: 'Sciences Physiques' },
-    { code: 'HIST', nom: 'Histoire' },
-    { code: 'GEOG', nom: 'Géographie' }
-  ],
-  'tle': [
-    { code: 'MALG', nom: 'Malagasy' },
-    { code: 'FRAN', nom: 'Français' },
-    { code: 'ANGL', nom: 'Anglais' },
-    { code: 'MATH', nom: 'Mathématiques' },
-    { code: 'SVT',  nom: 'SVT' },
-    { code: 'PCHI', nom: 'Physique / Chimie' },
-    { code: 'HGEO', nom: 'Histoire-Géographie' },
-    { code: 'PHIL', nom: 'Philosophie' }
-  ]
-};
+const ALPHABET_CODE = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789';
+const CLE_REGISTRE = 'guide-registre-codes';
 
 function $(id) { return document.getElementById(id); }
 
-function remplirMatieres() {
-  const classeId = $('select-classe').value;
-  const matieres = MATIERES_PAR_CLASSE[classeId] || [];
-  $('select-matiere').innerHTML = matieres.map(m => `<option value="${m.code}">${m.nom}</option>`).join('');
-  preRemplirSerial();
-}
-
-function cleCompteur() {
-  return $('select-classe').value + '-' + $('select-matiere').value;
-}
-
-function preRemplirSerial() {
-  const compteurs = JSON.parse(localStorage.getItem('guide-codes-generes') || '{}');
-  const cle = cleCompteur();
-  const dernier = compteurs[cle] || 0;
-  const prochain = dernier + 1;
-  $('input-serial').value = String(prochain).padStart(4, '0');
-}
-
-function calculerChecksum(classeId, matiereCode, serial) {
-  const texte = classeId.toUpperCase() + matiereCode + serial + SEL_SECRET;
-  let somme = 0;
+function calculerChecksum(classeId, idAppareil, matiereCode) {
+  const texte = classeId.toUpperCase() + '|' + idAppareil + '|' + matiereCode + '|' + SEL_SECRET;
+  let h1 = 0x811c9dc5;
+  let h2 = 5381;
   for (let i = 0; i < texte.length; i++) {
-    somme += texte.charCodeAt(i) * (i + 1);
+    const c = texte.charCodeAt(i);
+    h1 = Math.imul(h1 ^ c, 16777619);
+    h2 = (Math.imul(h2, 33) + c * (i + 1)) | 0;
   }
-  const checksum = somme % 10000;
-  return String(checksum).padStart(4, '0');
+  let n = ((h1 >>> 0) ^ (h2 >>> 0)) >>> 0;
+  const base = ALPHABET_CODE.length;
+  let sortie = '';
+  for (let k = 0; k < 6; k++) {
+    sortie += ALPHABET_CODE.charAt(n % base);
+    n = Math.floor(n / base);
+  }
+  return sortie;
 }
 
-$('select-classe').addEventListener('change', remplirMatieres);
-$('select-matiere').addEventListener('change', preRemplirSerial);
+function idValide(id) {
+  if (!id || id.length !== 6) return false;
+  for (let i = 0; i < id.length; i++) {
+    if (ALPHABET_CODE.indexOf(id.charAt(i)) === -1) return false;
+  }
+  return true;
+}
+
+function chargerRegistre() {
+  try {
+    const r = JSON.parse(localStorage.getItem(CLE_REGISTRE) || '[]');
+    return Array.isArray(r) ? r : [];
+  } catch (e) { return []; }
+}
+
+function sauverRegistre(r) {
+  localStorage.setItem(CLE_REGISTRE, JSON.stringify(r));
+}
+
+function afficherMessage(texte, classe) {
+  const m = $('message');
+  m.textContent = texte;
+  m.className = 'message ' + (classe || '');
+}
+
+function afficherRegistre() {
+  const zone = $('registre');
+  zone.innerHTML = '';
+  const r = chargerRegistre();
+  if (r.length === 0) {
+    const vide = document.createElement('div');
+    vide.className = 'entree';
+    vide.textContent = 'Aucun code généré pour le moment.';
+    zone.appendChild(vide);
+    return;
+  }
+  r.slice().reverse().forEach(e => {
+    const div = document.createElement('div');
+    div.className = 'entree';
+    const l1 = document.createElement('div');
+    l1.textContent = e.date + ' — ' + e.id + ' — ' + e.matiere + (e.note ? ' — ' + e.note : '');
+    const l2 = document.createElement('div');
+    l2.className = 'code';
+    l2.textContent = e.code;
+    div.appendChild(l1);
+    div.appendChild(l2);
+    zone.appendChild(div);
+  });
+}
+
+function copier(texte, bouton) {
+  const ancien = bouton.getAttribute('data-libelle') || bouton.textContent;
+  bouton.setAttribute('data-libelle', ancien);
+  const fini = ok => {
+    bouton.textContent = ok ? '✅ Copié' : '❌ Copie impossible';
+    setTimeout(() => { bouton.textContent = ancien; }, 2000);
+  };
+  const secours = () => {
+    try {
+      const z = document.createElement('textarea');
+      z.value = texte;
+      z.style.position = 'fixed';
+      z.style.opacity = '0';
+      document.body.appendChild(z);
+      z.select();
+      const ok = document.execCommand('copy');
+      document.body.removeChild(z);
+      return ok;
+    } catch (e) { return false; }
+  };
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(texte).then(() => fini(true)).catch(() => fini(secours()));
+  } else {
+    fini(secours());
+  }
+}
 
 $('btn-generer').addEventListener('click', () => {
   const classeId = $('select-classe').value;
-  const matiereCode = $('select-matiere').value;
-  const serial = $('input-serial').value.padStart(4, '0');
+  const id = $('input-id').value.trim().toUpperCase();
+  const matiere = $('select-matiere').value;
+  const note = $('input-note').value.trim();
+  $('resultat').hidden = true;
+  $('btn-copier-code').hidden = true;
 
-  const checksum = calculerChecksum(classeId, matiereCode, serial);
-  const code = `GUIDE-${classeId.toUpperCase()}-${matiereCode}-${serial}-${checksum}`;
+  if (!idValide(id)) {
+    afficherMessage("Identifiant invalide : 6 caractères, parmi les lettres A-Z (sans I, L, O) et les chiffres 2-9 (sans 0 ni 1). Vérifie avec l'élève, surtout O/0 et I/1.", 'erreur');
+    return;
+  }
+
+  const code = 'GUIDE-' + id + '-' + matiere + '-' + calculerChecksum(classeId, id, matiere);
+  const registre = chargerRegistre();
+  const deja = registre.find(e => e.id === id && e.matiere === matiere);
 
   $('resultat').textContent = code;
   $('resultat').hidden = false;
+  $('btn-copier-code').hidden = false;
+  $('btn-copier-code').onclick = () => copier(code, $('btn-copier-code'));
 
-  const compteurs = JSON.parse(localStorage.getItem('guide-codes-generes') || '{}');
-  compteurs[cleCompteur()] = parseInt(serial, 10);
-  localStorage.setItem('guide-codes-generes', JSON.stringify(compteurs));
+  if (deja) {
+    afficherMessage('Attention : un code pour cet identifiant et cette matière a déjà été généré le ' + deja.date + '. Vérifie que ce n\'est pas un doublon.', 'info');
+  } else {
+    afficherMessage('Code généré. Envoie-le à l\'élève après vérification du paiement.', '');
+  }
+
+  const d = new Date();
+  const date = d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+  registre.push({ date: date, id: id, matiere: matiere, note: note, code: code });
+  sauverRegistre(registre);
+  afficherRegistre();
 });
 
-remplirMatieres();
-</script>
+$('btn-copier-registre').addEventListener('click', () => {
+  const r = chargerRegistre();
+  const texte = r.map(e => [e.date, e.id, e.matiere, e.note, e.code].join(' | ')).join('\n');
+  copier(texte || 'Registre vide', $('btn-copier-registre'));
+});
 
+afficherRegistre();
+</script>
 </body>
 </html>
