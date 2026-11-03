@@ -1,0 +1,65 @@
+{
+  "matiere": "svt",
+  "type": "sujets-types",
+  "partie": "A",
+  "partieTitre": "Alimentation de l'Homme",
+  "mention": "Sujet d'entraînement rédigé pour Guide d'après le programme officiel. Corrigé rédigé d'après le cours, calculs vérifiés.",
+  "exercices": [
+    {
+      "id": "st-SVT-01",
+      "domaine": "alimentation",
+      "domaineTitre": "Alimentation de l'Homme",
+      "titre": "Aliments composés, aliments simples et nutriments",
+      "enonce": "1) Définir : aliment composé, aliment simple, nutriment.\n2) Parmi les aliments suivants, lesquels sont des aliments composés : pain, riz, glucides, viande, lait, lipides ?\n3) Citer les six aliments simples.\n4) Lors de la digestion, les grosses molécules sont découpées en nutriments sous l'action des enzymes. Compléter :\n• amidon → ...\n• protides → ...\n• lipides → ... et ...\n5) L'eau, les sels minéraux et les vitamines subissent-ils la digestion ? Justifier.\n6) Comment un nutriment passe-t-il dans le sang ?",
+      "solution": "1) • Aliment composé : aliment que nous consommons au quotidien (pain, riz, viande, lait). Il est constitué de plusieurs catégories de composants appelés aliments simples.\n• Aliment simple : constituant organique ou minéral d'un aliment composé.\n• Nutriment : petite molécule soluble, directement assimilable par l'organisme et capable de traverser la paroi de l'intestin grêle pour passer dans le sang.\n\n2) Le pain, le riz, la viande et le lait sont des aliments composés. Les glucides et les lipides sont des aliments simples.\n\n3) Les glucides, les lipides, les protéines (protides), l'eau, les sels minéraux et les vitamines.\n\n4) • amidon → glucose\n• protides → acides aminés\n• lipides → acides gras et glycérol\n\n5) Non. L'eau, les sels minéraux et les vitamines sont déjà de très petites molécules : ce sont des nutriments directs, qui ne subissent pas de digestion.\n\n6) Le nutriment traverse la paroi de l'intestin grêle et passe dans le sang."
+    },
+    {
+      "id": "st-SVT-02",
+      "domaine": "alimentation",
+      "domaineTitre": "Alimentation de l'Homme",
+      "titre": "Les rôles des aliments simples",
+      "enonce": "1) Associer chaque aliment simple à son rôle principal (exemple de réponse : 7-G).\nAliments simples : 1. Glucides ; 2. Lipides ; 3. Protéines ; 4. Eau ; 5. Sels minéraux ; 6. Vitamines.\nRôles :\nA. Principal constituant des muscles et de la peau ; remplacement des cellules et des tissus.\nB. Principale source d'énergie de l'alimentation.\nC. Stockage de l'énergie dans les tissus adipeux ; entrent dans la composition des membranes des cellules.\nD. Élimination des déchets (urine, sueur), solvant et moyen de transport.\nE. Exemples : calcium pour les os, fer pour le sang, iode.\nF. Substances organiques nécessaires en petite quantité, que l'organisme ne peut pas fabriquer.\n\n2) Dire si chaque affirmation est vraie ou fausse. Corriger celles qui sont fausses.\na) Les protéines sont l'unique source d'azote de l'organisme.\nb) Les légumineuses (haricot, pois chiche) sont une source de protéines végétales.\nc) Les vitamines du groupe B se trouvent surtout dans les céréales.\nd) Les sels minéraux fournissent de l'énergie.\ne) La viande, le poisson, les œufs et le lait sont riches en protéines animales.\nf) Les lipides existent seulement à l'état liquide.",
+      "solution": "1) 1-B ; 2-C ; 3-A ; 4-D ; 5-E ; 6-F.\n\n2) a) Vrai.\nb) Vrai.\nc) Vrai.\nd) Faux. L'eau et les éléments minéraux ne fournissent aucune énergie.\ne) Vrai.\nf) Faux. Les lipides peuvent être solides (comme les cires) ou liquides (comme l'huile)."
+    },
+    {
+      "id": "st-SVT-03",
+      "domaine": "alimentation",
+      "domaineTitre": "Alimentation de l'Homme",
+      "titre": "La respiration cellulaire et l'énergie des aliments",
+      "enonce": "L'énergie apportée par les aliments organiques est libérée dans toutes les cellules du corps.\n\n1) Comment s'appelle ce phénomène ?\n2) Quel gaz est utilisé ? Quel gaz est rejeté ?\n3) Citer trois manifestations de la vie permises par l'énergie libérée.\n4) Définir le métabolisme de base.\n5) Donner la valeur énergétique de 1 g de glucides, de 1 g de protides et de 1 g de lipides (en kJ). Quel nutriment fournit le plus d'énergie par gramme ?\n6) Un enfant de 10 ans a besoin d'environ 2 000 kcal par jour. Convertir cette valeur en kJ (1 kcal = 4,184 kJ).",
+      "solution": "1) La respiration cellulaire.\n\n2) Elle utilise de l'oxygène et rejette du dioxyde de carbone.\n\n3) Par exemple : les battements cardiaques et l'activité cérébrale ; la croissance et la réparation du corps ; la production de chaleur pour maintenir le corps à 37 °C ; les contractions musculaires qui permettent les mouvements ; les divisions cellulaires.\n\n4) Le métabolisme de base est la dépense d'énergie minimale nécessaire au maintien des fonctions vitales de l'organisme au repos (respiration, circulation du sang, température du corps à 37 °C).\n\n5) • 1 g de glucides = 17 kJ (4 kcal)\n• 1 g de protides = 17 kJ (4 kcal)\n• 1 g de lipides = 38 kJ (9 kcal)\nLes lipides fournissent le plus d'énergie par gramme.\n\n6) 2 000 × 4,184 = 8 368 kJ, soit environ 8 400 kJ."
+    },
+    {
+      "id": "st-SVT-04",
+      "domaine": "alimentation",
+      "domaineTitre": "Alimentation de l'Homme",
+      "titre": "L'énergie apportée par les repas d'une journée",
+      "enonce": "Un homme adulte en bonne santé, d'activité modérée, a un besoin énergétique d'environ 11 320 kJ par jour. Voici ce qu'il mange au cours d'une journée :\n• Petit-déjeuner : 80 g de glucides, 15 g de protides, 10 g de lipides.\n• Déjeuner : 150 g de glucides, 40 g de protides, 20 g de lipides.\n• Dîner : 110 g de glucides, 30 g de protides, 15 g de lipides.\nOn donne : 1 g de glucides = 17 kJ ; 1 g de protides = 17 kJ ; 1 g de lipides = 38 kJ.\n\n1) Calculer la masse totale de glucides, de protides et de lipides sur la journée.\n2) Calculer l'énergie apportée par chaque type de nutriment.\n3) Calculer l'énergie totale fournie par la journée.\n4) Cet apport est-il suffisant ? Justifier en le comparant au besoin.\n5) Exprimer l'énergie totale en kcal (on prendra 1 kJ ≈ 0,24 kcal).",
+      "solution": "1) Glucides : 80 + 150 + 110 = 340 g.\nProtides : 15 + 40 + 30 = 85 g.\nLipides : 10 + 20 + 15 = 45 g.\n\n2) Glucides : 340 × 17 = 5 780 kJ.\nProtides : 85 × 17 = 1 445 kJ.\nLipides : 45 × 38 = 1 710 kJ.\n\n3) Énergie totale = 5 780 + 1 445 + 1 710 = 8 935 kJ.\n\n4) 8 935 kJ < 11 320 kJ : l'apport est insuffisant. Il manque environ 11 320 − 8 935 = 2 385 kJ.\n\n5) 8 935 × 0,24 ≈ 2 144 kcal, ce qui est inférieur aux besoins d'environ 2 700 kcal."
+    },
+    {
+      "id": "st-SVT-05",
+      "domaine": "alimentation",
+      "domaineTitre": "Alimentation de l'Homme",
+      "titre": "L'eau dans l'alimentation",
+      "enonce": "Un adulte de 60 kg a besoin en moyenne de 2,8 litres d'eau par jour. Ces besoins sont couverts par :\n• les boissons : de 1 à 1,5 litre ;\n• l'eau contenue dans les aliments solides : environ 1,2 litre ;\n• la production interne, due à la digestion des autres constituants des aliments : de 0,3 à 0,4 litre.\n\n1) Citer quatre rôles de l'eau dans l'organisme.\n2) Les aliments d'un adulte lui apportent 1,2 L d'eau et son organisme en produit 0,4 L. Quel volume doit-il boire pour atteindre 2,8 L ? Ce volume respecte-t-il la recommandation sur les boissons ?\n3) L'eau représente en moyenne près de 70 % du poids du corps. Calculer la masse d'eau dans le corps de cet adulte de 60 kg.\n4) Pourquoi les boissons sont-elles placées à la base de la pyramide alimentaire ?",
+      "solution": "1) L'eau permet : l'élimination des déchets (urine et sueur) ; l'expiration (vapeur d'eau) ; d'être solvant et réactif de certaines réactions chimiques ; d'être un moyen de transport.\n\n2) Volume à boire = 2,8 − 1,2 − 0,4 = 1,2 L.\nCe volume est compris entre 1 L et 1,5 L : il respecte la recommandation.\n\n3) 60 × 70 / 100 = 42 kg d'eau.\n\n4) Les boissons forment la base de la pyramide car c'est l'étage le plus important sur le plan des quantités : l'eau représente en moyenne près de 70 % du poids du corps. De plus, l'eau et les boissons comme le café ou le thé ne fournissent aucune calorie."
+    },
+    {
+      "id": "st-SVT-06",
+      "domaine": "alimentation",
+      "domaineTitre": "Alimentation de l'Homme",
+      "titre": "La pyramide alimentaire et le repas équilibré",
+      "enonce": "1) Citer les étages de la pyramide alimentaire, de la base au sommet.\n2) Compléter : on recommande de consommer des légumes et des fruits au moins ... fois par jour ; des viandes, poissons ou œufs ... fois par jour ; du poisson au moins ... fois par semaine.\n3) Dans l'assiette d'un repas équilibré pour un adulte, quelle fraction est occupée par : les éléments végétaux (légumes et fruits) ; les féculents et céréales ; les aliments bâtisseurs ?\n4) Classer dans ces trois groupes : riz, œuf, tomate, manioc, banane, poisson, maïs.\n5) Un adolescent a besoin d'environ 10 000 kJ par jour. Le petit-déjeuner doit apporter environ 25 % des apports, le déjeuner de 35 à 40 %, le dîner environ 30 %. Calculer l'énergie à apporter au petit-déjeuner, au dîner, puis l'intervalle pour le déjeuner.",
+      "solution": "1) De la base au sommet : les boissons ; les céréales et dérivés (féculents) ; les légumes et fruits ; le lait et les produits laitiers ; les viandes, poissons et œufs ; les matières grasses ; les sucres et produits sucrés.\n\n2) Légumes et fruits : au moins 5 fois par jour. Viandes, poissons, œufs : 1 à 2 fois par jour. Poisson : au moins 2 fois par semaine.\n\n3) • éléments végétaux : 1/2 de l'assiette ;\n• féculents et céréales : 1/4 ;\n• aliments bâtisseurs (viande, poisson, œuf, légumineuses) : 1/4.\n\n4) • éléments végétaux : tomate, banane ;\n• féculents et céréales : riz, manioc, maïs ;\n• aliments bâtisseurs : œuf, poisson.\n\n5) Petit-déjeuner : 25 % de 10 000 = 2 500 kJ.\nDîner : 30 % de 10 000 = 3 000 kJ.\nDéjeuner : 35 % de 10 000 = 3 500 kJ jusqu'à 40 % de 10 000 = 4 000 kJ, soit entre 3 500 et 4 000 kJ."
+    },
+    {
+      "id": "st-SVT-07",
+      "domaine": "alimentation",
+      "domaineTitre": "Alimentation de l'Homme",
+      "titre": "Les formes de malnutrition",
+      "enonce": "1) Citer les quatre formes de malnutrition.\n2) Associer chaque situation à la forme de malnutrition correspondante :\na) Une fillette de 7 ans est nettement trop petite pour son âge, après des carences alimentaires prolongées.\nb) Un enfant a un poids très insuffisant par rapport à sa taille, après une maladie grave.\nc) Un adolescent consomme plus d'énergie qu'il n'en dépense et stocke un excès de graisses.\nd) Un enfant mange à sa faim, mais manque de fer et d'iode.\n3) Citer deux maladies dont une alimentation saine et équilibrée réduit le risque.\n4) Citer deux autres bienfaits d'une alimentation équilibrée.",
+      "solution": "1) La malnutrition chronique (retard de croissance) ; la malnutrition aiguë ; le surpoids et l'obésité ; les carences en micronutriments (faim cachée).\n\n2) a) Malnutrition chronique (retard de croissance) : taille insuffisante par rapport à l'âge.\nb) Malnutrition aiguë : poids très insuffisant par rapport à la taille.\nc) Surpoids et obésité : déséquilibre entre l'énergie consommée et l'énergie dépensée.\nd) Carence en micronutriments (faim cachée) : manque de vitamines ou de minéraux essentiels.\n\n3) Par exemple : l'obésité, le diabète, l'hypertension artérielle, les maladies cardiovasculaires, le cancer, l'ostéoporose (deux au choix).\n\n4) Elle donne une sensation de bien-être et permet au corps de se développer, de se renforcer et d'évoluer."
+    }
+  ]
+}
