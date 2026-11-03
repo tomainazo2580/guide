@@ -772,6 +772,7 @@ function afficherPaywall(matiere, origine, titreElement) {
       <input type="text" id="input-code" class="input-code" placeholder="GUIDE-XXXXXX-MATH-XXXXXX" maxlength="40">
       <button id="btn-valider-code" class="btn-valider">Valider le code</button>
       <div id="message-code" class="message-code"></div>
+      <p class="paywall-texte" style="margin-top:14px;text-align:left;">⚠️ <strong>Important :</strong> ne supprime pas « Cookies et données des sites » dans Chrome : tu perdrais ton déblocage.</p>
     </div>
   `;
   $('btn-copier-id').addEventListener('click', () => copierTexte(idAppareil, $('btn-copier-id')));
