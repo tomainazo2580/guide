@@ -21,6 +21,96 @@
     revoir: '❌ À revoir'
   };
   let minuteur = null;
+
+  // ---------- Sujets types (Maths, Sciences Physiques, SVT) ----------
+  function plage(prefixe, de, a) {
+    const r = [];
+    for (let n = de; n <= a; n++) r.push(prefixe + String(n).padStart(2, '0'));
+    return r;
+  }
+  const DOSSIER_SUJETS = './data/3e/sujets/';
+  const SUJETS_TYPES = {
+    MATH: {
+      fichiers: ['sujets-mathematiques-A.json', 'sujets-mathematiques-B.json'],
+      groupes: [
+        plage('st-A-', 1, 3),
+        plage('st-A-', 4, 6),
+        plage('st-A-', 7, 10),
+        plage('st-B-', 1, 11),
+        plage('st-B-', 12, 14)
+      ]
+    },
+    SPHY: {
+      fichiers: ['sujets-sciences-physiques-A.json', 'sujets-sciences-physiques-B.json', 'sujets-sciences-physiques-C.json'],
+      groupes: [
+        plage('st-SP-', 1, 7),
+        plage('st-SP-', 8, 14),
+        plage('st-SP-', 15, 22)
+      ]
+    },
+    SVT: {
+      fichiers: ['sujets-svt-A.json', 'sujets-svt-B.json', 'sujets-svt-C.json'],
+      groupes: [
+        plage('st-SVT-', 1, 7),
+        plage('st-SVT-', 8, 11),
+        plage('st-SVT-', 12, 16),
+        plage('st-SVT-', 17, 21),
+        plage('st-SVT-', 22, 26)
+      ]
+    }
+  };
+  const cacheSujets = {};
+
+  function codeSujet(m) {
+    if (etat.classe !== '3e') return null;
+    const mat = trouverMatiereParId(etat.classe, m.id) || m;
+    return (mat && SUJETS_TYPES[mat.code]) ? mat.code : null;
+  }
+  function nbExercicesSujet(m) {
+    const code = codeSujet(m);
+    return code ? SUJETS_TYPES[code].groupes.length : NIVEAUX_SUJET.length;
+  }
+  async function chargerSujets(code) {
+    const cfg = SUJETS_TYPES[code];
+    if (!cfg) return null;
+    if (cacheSujets[code]) return cacheSujets[code];
+    try {
+      const parts = await Promise.all(cfg.fichiers.map(f =>
+        fetch(DOSSIER_SUJETS + f).then(r => {
+          if (!r.ok) throw new Error('introuvable');
+          return r.json();
+        })
+      ));
+      const exos = [];
+      let mention = '';
+      parts.forEach(p => {
+        if (!mention && p.mention) mention = p.mention;
+        (p.exercices || []).forEach(ex => exos.push(ex));
+      });
+      const res = { exos: exos, mention: mention };
+      cacheSujets[code] = res;
+      return res;
+    } catch (e) {
+      return null;
+    }
+  }
+  function composerSujetType(sujets, code) {
+    const cfg = SUJETS_TYPES[code];
+    const items = [];
+    cfg.groupes.forEach(ids => {
+      const dispo = sujets.exos.filter(ex => ids.indexOf(ex.id) !== -1);
+      if (!dispo.length) return;
+      const ex = dispo[Math.floor(Math.random() * dispo.length)];
+      items.push({
+        chapId: ex.id,
+        chapTitre: ex.domaineTitre || ex.titre,
+        idx: 0,
+        niveau: 'sujet'
+      });
+    });
+    return items;
+  }
+
   // ---------- Stockage ----------
   function lireSession() {
     try {
@@ -45,6 +135,7 @@
   function ecrireHisto(liste) {
     localStorage.setItem(CLE_HISTO, JSON.stringify(liste));
   }
+
   // ---------- Essai gratuit par matière ----------
   function lireEssais() {
     try {
@@ -76,6 +167,7 @@
       essaiDispo: payante && !debloquee && !essaiUtilise
     };
   }
+
   // ---------- Verrouillage (utilise le hook existant de app.js) ----------
   function examenVerrouille() {
     const s = lireSession();
@@ -85,6 +177,7 @@
     if (examenVerrouille()) localStorage.setItem('guide-mode-examen', 'actif');
     else localStorage.removeItem('guide-mode-examen');
   }
+
   // ---------- Outils ----------
   function melanger(tab) {
     const a = tab.slice();
@@ -130,7 +223,8 @@
   function trouverExoEntree(classe, matiereId) {
     return (EXERCICES_PAR_CLASSE[classe] || []).find(m => m.id === matiereId && m.disponible);
   }
-  // ---------- Composition du sujet ----------
+
+  // ---------- Composition du sujet (matières sans sujet type) ----------
   function candidats(chap, niveau, utilises) {
     const r = [];
     chap.exercices.forEach((ex, i) => {
@@ -178,6 +272,16 @@
     return items;
   }
   async function chargerLignes(s) {
+    if (s.sujet) {
+      const suj = await chargerSujets(s.sujetCode);
+      if (!suj) return null;
+      const lignesSujet = [];
+      s.items.forEach((it, i) => {
+        const ex = suj.exos.find(e => e.id === it.chapId);
+        if (ex) lignesSujet.push({ i: i, item: it, ex: ex });
+      });
+      return lignesSujet;
+    }
     const entree = trouverExoEntree(s.classe, s.matiereId);
     if (!entree) return null;
     const data = await recupererDonneesExercices(s.classe, entree);
@@ -190,6 +294,7 @@
     });
     return lignes;
   }
+
   // ---------- Chronomètre ----------
   function arreterMinuteur() {
     if (minuteur) { clearInterval(minuteur); minuteur = null; }
@@ -235,6 +340,7 @@
       restaurerTitre();
     }
   }
+  
   // ---------- Écran 0 : point d'entrée ----------
   function allerExamen() {
     etat.niveau = 'examen';
@@ -247,6 +353,7 @@
     else if (s && s.phase === 'corrige') renderCorrige();
     else renderChoix();
   }
+
   // ---------- Écran 1 : choix de la matière ----------
   function renderChoix() {
     const zone = $('examen-contenu');
@@ -261,14 +368,10 @@
       <div class="bloc-pedagogique bloc-remarque">
         <div class="bloc-label">ℹ️ Comment ça marche</div>
         <div class="bloc-texte">
-          • Choisis une matière : l'app compose un sujet d'environ 5 exercices (du niveau moyen au niveau expert), différent à chaque essai.
-
+          • Choisis une matière : l'app compose un sujet de 3 à 5 exercices, différent à chaque essai.
           • Tu as 2 h. Pendant l'épreuve, les leçons et les corrigés sont verrouillés.
-
           • Écris tes réponses sur une feuille.
-
           • À la fin, tu consultes le corrigé et tu t'auto-évalues. Ton bilan est gardé dans « Mes notes ».
-
           • 🎁 Chaque matière payante offre un premier examen gratuit.
         </div>
       </div>
@@ -300,6 +403,7 @@
       grille.appendChild(carte);
     });
   }
+
   // ---------- Écran : essai gratuit utilisé ----------
   function renderBloque(m) {
     const zone = $('examen-contenu');
@@ -310,9 +414,7 @@
         <div class="bloc-label">🔒 Essai gratuit utilisé</div>
         <div class="bloc-texte">
           Tu as déjà passé ton examen gratuit en ${m.nom}.
-
           Pour passer d'autres examens dans cette matière, débloque-la (3000 Ar) ou prends le pack complet (12000 Ar).
-
           Les leçons gratuites et les exercices 🟢 restent accessibles.
         </div>
       </div>
@@ -332,11 +434,13 @@
     restaurerTitre();
     afficherPaywall(mat, 'composantes', 'Mode Examen — ' + mat.nom);
   }
+
   // ---------- Écran 2 : confirmation avant de lancer ----------
   function renderConfirmation(m) {
     const zone = $('examen-contenu');
     window.scrollTo(0, 0);
     const acces = infoAcces(m);
+    const nb = nbExercicesSujet(m);
     const noteEssai = acces.essaiDispo
       ? `<div class="bloc-pedagogique bloc-remarque">
           <div class="bloc-label">🎁 Essai gratuit</div>
@@ -349,14 +453,10 @@
       <div class="bloc-pedagogique bloc-methode">
         <div class="bloc-label">⏱ Conditions de l'épreuve</div>
         <div class="bloc-texte">
-          • Environ 5 exercices tirés au hasard
-
+          • ${nb} exercices tirés au hasard
           • Durée : 2 h
-
           • Leçons et exercices verrouillés jusqu'à la fin
-
           • Prévois une feuille et un stylo
-
           • Si tu fermes l'app, le temps continue de s'écouler
         </div>
       </div>
@@ -368,23 +468,36 @@
     $('examen-lancer').addEventListener('click', () => lancerExamen(m));
   }
   async function lancerExamen(m) {
-    const entree = trouverExoEntree(etat.classe, m.id);
-    if (!entree) return;
     const acces = infoAcces(m);
     if (acces.bloquee) { renderBloque(m); return; }
-    const data = await recupererDonneesExercices(etat.classe, entree);
-    if (!data) {
-      alert("Impossible de charger les exercices pour le moment.");
-      return;
+    const code = codeSujet(m);
+    let items = [];
+    let extra = {};
+    if (code) {
+      const sujets = await chargerSujets(code);
+      if (!sujets) {
+        alert("Impossible de charger le sujet pour le moment. Vérifie ta connexion, puis réessaie.");
+        return;
+      }
+      items = composerSujetType(sujets, code);
+      extra = { sujet: true, sujetCode: code };
+    } else {
+      const entree = trouverExoEntree(etat.classe, m.id);
+      if (!entree) return;
+      const data = await recupererDonneesExercices(etat.classe, entree);
+      if (!data) {
+        alert("Impossible de charger les exercices pour le moment.");
+        return;
+      }
+      items = composerSujet(data);
     }
-    const items = composerSujet(data);
     if (!items.length) {
       alert("Aucun exercice disponible pour cette matière.");
       return;
     }
     if (acces.essaiDispo) marquerEssaiUtilise(acces.cle);
     const debut = Date.now();
-    ecrireSession({
+    ecrireSession(Object.assign({
       classe: etat.classe,
       matiereId: m.id,
       matiereNom: m.nom,
@@ -394,10 +507,11 @@
       phase: 'en-cours',
       items: items,
       evals: {}
-    });
+    }, extra));
     majVerrou();
     renderEpreuve();
   }
+
   // ---------- Écran 3 : l'épreuve ----------
   async function renderEpreuve() {
     const s = lireSession();
@@ -468,6 +582,7 @@
     restaurerTitre();
     renderChoix();
   }
+
   // ---------- Écran 4 : corrigé + auto-évaluation ----------
   async function renderCorrige() {
     const s = lireSession();
@@ -491,12 +606,16 @@
       return;
     }
     const evals = s.evals || {};
+    const infoSujet = (s.sujet && cacheSujets[s.sujetCode] && cacheSujets[s.sujetCode].mention)
+      ? `<p class="texte-parametre">${cacheSujets[s.sujetCode].mention}</p>`
+      : '';
     let html = `
       <h2 class="titre-lecon">📖 Corrigé et auto-évaluation</h2>
       <div class="bloc-pedagogique bloc-remarque">
         <div class="bloc-label">💡 Comment faire</div>
         <div class="bloc-texte">Compare ta feuille avec la correction, puis dis honnêtement comment tu t'en es sortie pour chaque exercice.</div>
-      </div>`;
+      </div>
+      ${infoSujet}`;
     lignes.forEach((l, n) => {
       const cur = evals[l.i];
       const bouton = (val, texte) =>
@@ -553,6 +672,7 @@
       validerBilan(sess, lignes);
     });
   }
+
   // ---------- Bilan ----------
   function validerBilan(s, lignes) {
     let points = 0;
@@ -637,6 +757,7 @@
     }
     $('examen-nouveau').addEventListener('click', renderChoix);
   }
+
   // ---------- Historique dans « Mes notes » ----------
   function renderHistoriqueExamens() {
     const zone = $('notes-examens');
@@ -669,6 +790,7 @@
       }
     });
   }
+
   // ---------- Branchement sur l'app ----------
   function init() {
     document.querySelectorAll('.nav-btn').forEach(btn => {
