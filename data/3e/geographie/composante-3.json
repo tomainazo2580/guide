@@ -18,7 +18,7 @@
           "type": "tableau",
           "entetes": ["Type d'industrie", "Rôle", "Exemples d'entreprises"],
           "lignes": [
-            ["Agro-alimentaire", "Transformer les produits agricoles et d'élevage", "SIRAMA et SIRANALA (sucre), huilerie de Toamatave, SOCOLAIT (lait), STAR (boissons)"],
+            ["Agro-alimentaire", "Transformer les produits agricoles et d'élevage", "SIRAMA et SIRANALA (sucre), huilerie de Toamasina, SOCOLAIT (lait), STAR (boissons)"],
             ["Textile", "Transformer le coton en fils, tissus et vêtements", "SOMACOU, COTONA"],
             ["Mécanique", "Fabriquer ou réparer machines et navires", "SECREN (Antsiranana)"],
             ["Chimique", "Fabriquer savons, produits d'entretien, médicaments", "SOVONERIE-PHARMAD"],
