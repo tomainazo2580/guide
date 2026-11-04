@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'guide-v33';
+const CACHE_VERSION = 'guide-v34';
 const CACHE_NAME = CACHE_VERSION;
 const APP_SHELL = [
   './',
@@ -8,10 +8,12 @@ const APP_SHELL = [
   './css/examen.css',
   './js/app.js',
   './js/examen.js',
+  './js/partage.js',
   './icons/icon.svg',
   './icons/icon.png',
   './icons/icon-192.png',
   './icons/icon-512.png',
+  './icons/qr-guide.png',
   './data/3e/mathematiques/composante-1.json',
   './data/3e/mathematiques/composante-2.json',
   './data/3e/mathematiques/composante-3.json',
