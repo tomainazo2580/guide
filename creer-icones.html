@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Création des icônes</title>
+<style>
+  body { font-family: sans-serif; background: #f1f5f9; margin: 0; padding: 16px; text-align: center; }
+  h1 { font-size: 20px; }
+  .carte { background: #fff; border-radius: 16px; padding: 16px; margin: 16px auto; max-width: 340px; }
+  .carte img { display: block; margin: 0 auto 12px; max-width: 200px; height: auto; }
+  .carte a { display: inline-block; background: #1e3a5f; color: #fff; padding: 12px 18px; border-radius: 10px; text-decoration: none; font-weight: bold; }
+  .nom { font-weight: bold; margin-bottom: 8px; }
+  .note { font-size: 13px; color: #475569; }
+</style>
+</head>
+<body>
+<h1>Création des icônes (B jaune)</h1>
+<p class="note">Appuie sur chaque bouton « Télécharger ». Il y a 3 fichiers à télécharger.</p>
+<div id="zone"></div>
+<script>
+const SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+<rect width="512" height="512" fill="#fbbf24"/>
+<path d="M250 405 L250 274 Q184 240 110 266 L110 394 Q184 368 250 405 Z" fill="#1e3a5f"/>
+<path d="M262 405 L262 274 Q328 240 402 266 L402 394 Q328 368 262 405 Z" fill="#1e3a5f"/>
+<g fill="none" stroke="#fbbf24" stroke-width="7" stroke-linecap="round">
+<path d="M138 298 Q186 286 230 306"/>
+<path d="M138 326 Q186 314 230 334"/>
+<path d="M138 354 Q186 342 230 362"/>
+<path d="M374 298 Q326 286 282 306"/>
+<path d="M374 326 Q326 314 282 334"/>
+<path d="M374 354 Q326 342 282 362"/>
+</g>
+<path d="M178 195 L178 246 Q256 286 334 246 L334 195 Z" fill="#374151"/>
+<path d="M256 108 L402 170 L256 232 L110 170 Z" fill="#111827"/>
+<path d="M382 178 L382 238" stroke="#111827" stroke-width="6" stroke-linecap="round"/>
+<circle cx="382" cy="247" r="9" fill="#111827"/>
+</svg>`;
+
+const FICHIERS = [
+  { nom: 'icon-192.png', taille: 192 },
+  { nom: 'icon-512.png', taille: 512 },
+  { nom: 'icon.png', taille: 512 }
+];
+
+const zone = document.getElementById('zone');
+const src = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(SVG);
+
+FICHIERS.forEach(f => {
+  const img = new Image();
+  img.onload = () => {
+    const c = document.createElement('canvas');
+    c.width = f.taille;
+    c.height = f.taille;
+    c.getContext('2d').drawImage(img, 0, 0, f.taille, f.taille);
+    const url = c.toDataURL('image/png');
+    const carte = document.createElement('div');
+    carte.className = 'carte';
+    carte.innerHTML = '<div class="nom">' + f.nom + ' (' + f.taille + ' × ' + f.taille + ')</div>' +
+      '<img src="' + url + '" alt="' + f.nom + '">' +
+      '<a href="' + url + '" download="' + f.nom + '">⬇️ Télécharger</a>';
+    zone.appendChild(carte);
+  };
+  img.onerror = () => {
+    zone.innerHTML += '<p class="note">Erreur pour ' + f.nom + '</p>';
+  };
+  img.src = src;
+});
+</script>
+</body>
+</html>
