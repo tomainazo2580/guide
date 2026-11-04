@@ -763,7 +763,7 @@ function afficherPaywall(matiere, origine, titreElement) {
       </div>
       <div class="etape">
         <div class="etape-numero">3</div>
-        <div class="etape-texte">Envoie la preuve de paiement (capture d'écran) ET ton identifiant, en précisant la matière ou le pack, sur Tsiky ou WhatsApp au 034 39 949 07 (ou par SMS)
+        <div class="etape-texte">Envoie la preuve de paiement (capture d'écran) ET ton identifiant, en précisant la matière ou le pack, sur Tsiky ou WhatsApp au 034 39 949 07 (ou par SMS)</div>
       </div>
       <div class="etape">
         <div class="etape-numero">4</div>
