@@ -12,15 +12,12 @@
 <link rel="stylesheet" href="./css/examen.css">
 </head>
 <body data-theme="clair">
-
 <header class="app-header">
   <button id="btn-retour" class="btn-retour" aria-label="Retour" hidden>←</button>
   <h1 id="titre-header" class="titre-header">Guide</h1>
   <button id="btn-theme" class="btn-theme" aria-label="Changer de thème">🌙</button>
 </header>
-
 <main id="contenu-principal">
-
   <div id="banner-installer" class="banner-installer" hidden>
     <div class="banner-installer-icone">📲</div>
     <div class="banner-installer-texte">
@@ -32,72 +29,57 @@
       <button id="btn-fermer-installer" class="btn-fermer-installer" aria-label="Fermer">✕</button>
     </div>
   </div>
-
   <section id="view-classes" class="view" hidden>
     <p class="sous-titre-accueil">Tu es en quelle classe ?</p>
     <div id="grille-classes" class="grille-classes"></div>
   </section>
-
   <section id="view-matieres" class="view" hidden>
     <p class="sous-titre-accueil" id="sous-titre-matieres">Choisis ta matière</p>
     <div id="zone-reprendre" hidden></div>
     <div id="grille-matieres" class="grille-matieres"></div>
   </section>
-
   <section id="view-exercices" class="view" hidden>
     <p class="sous-titre-accueil">Sujets et corrigés — choisis une matière</p>
     <div id="grille-exo-matieres" class="grille-matieres"></div>
   </section>
-
   <section id="view-matiere" class="view" hidden>
     <nav id="fil-ariane" class="fil-ariane"></nav>
     <div id="matiere-contenu"></div>
   </section>
-
   <section id="view-examen" class="view" hidden>
     <div id="examen-contenu"></div>
   </section>
-
   <section id="view-notes" class="view" hidden>
     <h2 class="titre-vue">📒 Mes notes</h2>
-
     <div class="bloc-notes-perso">
       <label for="textarea-notes-perso" class="label-notes-perso">Écris ici tes notes personnelles :</label>
       <textarea id="textarea-notes-perso" class="textarea-notes-perso" rows="4" placeholder="Écris ici tes notes, rappels, astuces à retenir..."></textarea>
       <div id="statut-sauvegarde-notes" class="statut-sauvegarde-notes"></div>
     </div>
-
     <h3 class="notes-section-titre">📊 Ma progression</h3>
     <div id="notes-contenu"></div>
-
     <h3 class="notes-section-titre">🎓 Mes examens</h3>
     <div id="notes-examens"></div>
   </section>
-
   <section id="view-parametres" class="view" hidden>
     <h2 class="titre-vue">⚙️ Paramètres</h2>
-
     <div class="bloc-parametre">
       <h3>Ma classe</h3>
       <p class="texte-parametre" id="texte-classe-actuelle">Classe actuelle : —</p>
       <button id="btn-changer-classe" class="btn-secondaire">🔄 Changer de classe</button>
     </div>
-
     <div class="bloc-parametre">
       <h3>Progression</h3>
       <p class="texte-parametre">Tu peux réinitialiser ta progression de lecture si tu veux repartir de zéro.</p>
       <button id="btn-reset-progression" class="btn-danger">🗑️ Réinitialiser ma progression</button>
     </div>
-
     <div class="bloc-parametre">
       <h3>À propos</h3>
       <p class="texte-parametre">Guide — application de révision hors ligne.
 Version 0.9</p>
     </div>
   </section>
-
 </main>
-
 <nav class="nav-basse">
   <button class="nav-btn" data-nav="accueil">
     <span class="nav-icone">🏠</span><span class="nav-texte">Accueil</span>
@@ -115,8 +97,8 @@ Version 0.9</p>
     <span class="nav-icone">⚙️</span><span class="nav-texte">Réglages</span>
   </button>
 </nav>
-
 <script src="./js/app.js"></script>
 <script src="./js/examen.js"></script>
+<script src="./js/partage.js"></script>
 </body>
 </html>
