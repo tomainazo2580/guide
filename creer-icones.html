@@ -15,15 +15,23 @@
 </style>
 </head>
 <body>
-<h1>Création des icônes (B jaune)</h1>
+<h1>Création des icônes (C bleu dégradé)</h1>
 <p class="note">Appuie sur chaque bouton « Télécharger ». Il y a 3 fichiers à télécharger.</p>
 <div id="zone"></div>
 <script>
 const SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
-<rect width="512" height="512" fill="#fbbf24"/>
-<path d="M250 405 L250 274 Q184 240 110 266 L110 394 Q184 368 250 405 Z" fill="#1e3a5f"/>
-<path d="M262 405 L262 274 Q328 240 402 266 L402 394 Q328 368 262 405 Z" fill="#1e3a5f"/>
-<g fill="none" stroke="#fbbf24" stroke-width="7" stroke-linecap="round">
+<defs>
+<linearGradient id="gradC" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#cfe9ff"/>
+<stop offset="1" stop-color="#6fb7f2"/>
+</linearGradient>
+</defs>
+<rect width="512" height="512" fill="url(#gradC)"/>
+<g fill="#ffffff" stroke="#1e3a5f" stroke-width="8" stroke-linejoin="round">
+<path d="M250 405 L250 274 Q184 240 110 266 L110 394 Q184 368 250 405 Z"/>
+<path d="M262 405 L262 274 Q328 240 402 266 L402 394 Q328 368 262 405 Z"/>
+</g>
+<g fill="none" stroke="#9db4d0" stroke-width="7" stroke-linecap="round">
 <path d="M138 298 Q186 286 230 306"/>
 <path d="M138 326 Q186 314 230 334"/>
 <path d="M138 354 Q186 342 230 362"/>
@@ -31,10 +39,10 @@ const SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width
 <path d="M374 326 Q326 314 282 334"/>
 <path d="M374 354 Q326 342 282 362"/>
 </g>
-<path d="M178 195 L178 246 Q256 286 334 246 L334 195 Z" fill="#374151"/>
-<path d="M256 108 L402 170 L256 232 L110 170 Z" fill="#111827"/>
-<path d="M382 178 L382 238" stroke="#111827" stroke-width="6" stroke-linecap="round"/>
-<circle cx="382" cy="247" r="9" fill="#111827"/>
+<path d="M178 195 L178 246 Q256 286 334 246 L334 195 Z" fill="#162c49"/>
+<path d="M256 108 L402 170 L256 232 L110 170 Z" fill="#1e3a5f"/>
+<path d="M382 178 L382 238" stroke="#fbbf24" stroke-width="6" stroke-linecap="round"/>
+<circle cx="382" cy="247" r="10" fill="#fbbf24"/>
 </svg>`;
 
 const FICHIERS = [
