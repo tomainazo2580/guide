@@ -364,3 +364,9 @@ body[data-theme="sombre"] .statut-sauvegarde-notes.succes {
 #contenu-principal {
   padding-bottom: 130px;
 }
+
+
+/* ---------- Bandeau d'installation : respecter l'attribut hidden ---------- */
+.banner-installer[hidden] {
+  display: none;
+}
