@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aperçu des icônes</title>
+<style>
+  body { font-family: sans-serif; background: #f1f5f9; margin: 0; padding: 16px; text-align: center; }
+  h1 { font-size: 20px; }
+  .carte { background: #fff; border-radius: 16px; padding: 16px; margin: 16px auto; max-width: 340px; }
+  .carte h2 { margin: 0 0 12px; font-size: 18px; }
+  .grande { border-radius: 36px; display: block; margin: 0 auto 12px; }
+  .petites { display: flex; justify-content: center; align-items: center; gap: 16px; }
+  .ronde { border-radius: 50%; }
+  .legende { font-size: 13px; color: #475569; margin-top: 8px; }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="gradC" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe9ff"/>
+      <stop offset="1" stop-color="#6fb7f2"/>
+    </linearGradient>
+
+    <symbol id="icA" viewBox="0 0 512 512">
+      <rect width="512" height="512" fill="#1e3a5f"/>
+      <path d="M250 405 L250 274 Q184 240 110 266 L110 394 Q184 368 250 405 Z" fill="#ffffff"/>
+      <path d="M262 405 L262 274 Q328 240 402 266 L402 394 Q328 368 262 405 Z" fill="#ffffff"/>
+      <g fill="none" stroke="#9db4d0" stroke-width="7" stroke-linecap="round">
+        <path d="M138 298 Q186 286 230 306"/>
+        <path d="M138 326 Q186 314 230 334"/>
+        <path d="M138 354 Q186 342 230 362"/>
+        <path d="M374 298 Q326 286 282 306"/>
+        <path d="M374 326 Q326 314 282 334"/>
+        <path d="M374 354 Q326 342 282 362"/>
+      </g>
+      <path d="M178 195 L178 246 Q256 286 334 246 L334 195 Z" fill="#d99a0b"/>
+      <path d="M256 108 L402 170 L256 232 L110 170 Z" fill="#fbbf24"/>
+      <path d="M382 178 L382 238" stroke="#fbbf24" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="382" cy="247" r="9" fill="#fbbf24"/>
+    </symbol>
+
+    <symbol id="icB" viewBox="0 0 512 512">
+      <rect width="512" height="512" fill="#fbbf24"/>
+      <path d="M250 405 L250 274 Q184 240 110 266 L110 394 Q184 368 250 405 Z" fill="#1e3a5f"/>
+      <path d="M262 405 L262 274 Q328 240 402 266 L402 394 Q328 368 262 405 Z" fill="#1e3a5f"/>
+      <g fill="none" stroke="#fbbf24" stroke-width="7" stroke-linecap="round">
+        <path d="M138 298 Q186 286 230 306"/>
+        <path d="M138 326 Q186 314 230 334"/>
+        <path d="M138 354 Q186 342 230 362"/>
+        <path d="M374 298 Q326 286 282 306"/>
+        <path d="M374 326 Q326 314 282 334"/>
+        <path d="M374 354 Q326 342 282 362"/>
+      </g>
+      <path d="M178 195 L178 246 Q256 286 334 246 L334 195 Z" fill="#374151"/>
+      <path d="M256 108 L402 170 L256 232 L110 170 Z" fill="#111827"/>
+      <path d="M382 178 L382 238" stroke="#111827" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="382" cy="247" r="9" fill="#111827"/>
+    </symbol>
+
+    <symbol id="icC" viewBox="0 0 512 512">
+      <rect width="512" height="512" fill="url(#gradC)"/>
+      <g fill="#ffffff" stroke="#1e3a5f" stroke-width="8" stroke-linejoin="round">
+        <path d="M250 405 L250 274 Q184 240 110 266 L110 394 Q184 368 250 405 Z"/>
+        <path d="M262 405 L262 274 Q328 240 402 266 L402 394 Q328 368 262 405 Z"/>
+      </g>
+      <g fill="none" stroke="#9db4d0" stroke-width="7" stroke-linecap="round">
+        <path d="M138 298 Q186 286 230 306"/>
+        <path d="M138 326 Q186 314 230 334"/>
+        <path d="M138 354 Q186 342 230 362"/>
+        <path d="M374 298 Q326 286 282 306"/>
+        <path d="M374 326 Q326 314 282 334"/>
+        <path d="M374 354 Q326 342 282 362"/>
+      </g>
+      <path d="M178 195 L178 246 Q256 286 334 246 L334 195 Z" fill="#162c49"/>
+      <path d="M256 108 L402 170 L256 232 L110 170 Z" fill="#1e3a5f"/>
+      <path d="M382 178 L382 238" stroke="#fbbf24" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="382" cy="247" r="10" fill="#fbbf24"/>
+    </symbol>
+  </defs>
+</svg>
+
+<h1>Aperçu des icônes</h1>
+
+<div class="carte">
+  <h2>A — Bleu Guide</h2>
+  <svg class="grande" width="180" height="180" viewBox="0 0 180 180"><use href="#icA" width="180" height="180"/></svg>
+  <div class="petites">
+    <svg width="64" height="64" viewBox="0 0 64 64" style="border-radius:14px"><use href="#icA" width="64" height="64"/></svg>
+    <svg class="ronde" width="64" height="64" viewBox="0 0 64 64"><use href="#icA" width="64" height="64"/></svg>
+    <svg width="40" height="40" viewBox="0 0 40 40" style="border-radius:9px"><use href="#icA" width="40" height="40"/></svg>
+  </div>
+  <div class="legende">Fond bleu foncé, livre blanc, toque jaune</div>
+</div>
+
+<div class="carte">
+  <h2>B — Jaune</h2>
+  <svg class="grande" width="180" height="180" viewBox="0 0 180 180"><use href="#icB" width="180" height="180"/></svg>
+  <div class="petites">
+    <svg width="64" height="64" viewBox="0 0 64 64" style="border-radius:14px"><use href="#icB" width="64" height="64"/></svg>
+    <svg class="ronde" width="64" height="64" viewBox="0 0 64 64"><use href="#icB" width="64" height="64"/></svg>
+    <svg width="40" height="40" viewBox="0 0 40 40" style="border-radius:9px"><use href="#icB" width="40" height="40"/></svg>
+  </div>
+  <div class="legende">Fond jaune doré, livre bleu foncé, toque noire</div>
+</div>
+
+<div class="carte">
+  <h2>C — Bleu clair</h2>
+  <svg class="grande" width="180" height="180" viewBox="0 0 180 180"><use href="#icC" width="180" height="180"/></svg>
+  <div class="petites">
+    <svg width="64" height="64" viewBox="0 0 64 64" style="border-radius:14px"><use href="#icC" width="64" height="64"/></svg>
+    <svg class="ronde" width="64" height="64" viewBox="0 0 64 64"><use href="#icC" width="64" height="64"/></svg>
+    <svg width="40" height="40" viewBox="0 0 40 40" style="border-radius:9px"><use href="#icC" width="40" height="40"/></svg>
+  </div>
+  <div class="legende">Fond bleu ciel, livre blanc bordé, toque bleu foncé, gland jaune</div>
+</div>
+
+<p class="legende">Chaque icône est montrée en grand, puis en petit (carré arrondi, rond, très petit) pour voir comment elle apparaîtra sur ton écran d'accueil.</p>
+</body>
+</html>
