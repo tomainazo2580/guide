@@ -414,7 +414,7 @@
         <div class="bloc-label">🔒 Essai gratuit utilisé</div>
         <div class="bloc-texte">
           Tu as déjà passé ton examen gratuit en ${m.nom}.
-          Pour passer d'autres examens dans cette matière, débloque-la (3000 Ar) ou prends le pack complet (12000 Ar).
+          Pour passer d'autres examens dans cette matière, débloque-la (2000 Ar) ou prends le pack complet (10000 Ar).
           Les leçons gratuites et les exercices 🟢 restent accessibles.
         </div>
       </div>
