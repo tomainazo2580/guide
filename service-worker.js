@@ -1,5 +1,5 @@
-const CACHE_VERSION = 'guide-v34';
-const CACHE_NAME = CACHE_VERSION;
+const CACHE_VERSION = 'guide-v35';
+
 const APP_SHELL = [
   './',
   './index.html',
@@ -79,44 +79,35 @@ const APP_SHELL = [
   './data/3e/sujets/sujets-svt-B.json',
   './data/3e/sujets/sujets-svt-C.json'
 ];
+
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => {
-      return Promise.all(
-        APP_SHELL.map((url) => {
-          return cache.add(url).catch((err) => {
-            console.warn('Impossible de mettre en cache :', url, err);
-          });
-        })
-      );
-    }).then(() => self.skipWaiting())
+    caches.open(CACHE_VERSION).then((cache) =>
+      Promise.all(
+        APP_SHELL.map((url) =>
+          cache.add(url).catch(() => {})
+        )
+      )
+    ).then(() => self.skipWaiting())
   );
 });
+
 self.addEventListener('activate', (event) => {
   event.waitUntil(
-    caches.keys().then((cacheNames) => {
-      return Promise.all(
-        cacheNames.map((name) => {
-          if (name !== CACHE_NAME) {
-            return caches.delete(name);
-          }
-        })
-      );
-    }).then(() => self.clients.claim())
+    caches.keys().then((noms) =>
+      Promise.all(
+        noms.filter((nom) => nom !== CACHE_VERSION).map((nom) => caches.delete(nom))
+      )
+    ).then(() => self.clients.claim())
   );
 });
+
 self.addEventListener('fetch', (event) => {
+  if (event.request.method !== 'GET') return;
   event.respondWith(
-    caches.match(event.request).then((cachedResponse) => {
-      if (cachedResponse) {
-        return cachedResponse;
-      }
-      return fetch(event.request).then((networkResponse) => {
-        return caches.open(CACHE_NAME).then((cache) => {
-          cache.put(event.request, networkResponse.clone());
-          return networkResponse;
-        });
-      }).catch(() => {
+    caches.match(event.request).then((enCache) => {
+      if (enCache) return enCache;
+      return fetch(event.request).catch(() => {
         if (event.request.mode === 'navigate') {
           return caches.match('./index.html');
         }
