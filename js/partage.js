@@ -99,7 +99,12 @@
         <span>📤 Partager Guide</span><span>›</span>
       </button>
     `;
-    vue.appendChild(bloc);
+    const blocClasse = document.getElementById('bloc-classe');
+    if (blocClasse && blocClasse.parentNode) {
+      blocClasse.parentNode.insertBefore(bloc, blocClasse.nextSibling);
+    } else {
+      vue.appendChild(bloc);
+    }
     document.getElementById('btn-ouvrir-partage').addEventListener('click', ouvrirFenetre);
   }
 
