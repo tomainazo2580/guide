@@ -731,7 +731,6 @@ function copierTexte(texte, bouton) {
 // PAYWALL — DÉBLOCAGE MOBILE MONEY (code lié au téléphone)
 // ============================================
 function afficherPaywall(matiere, origine, titreElement) {
-function afficherPaywall(matiere, origine, titreElement) {
   const mat = (matiere && matiere.code) ? matiere : (trouverMatiereParId(etat.classe, matiere.id) || matiere);
   etat.paywallMatiere = mat;
   etat.paywallOrigine = origine || 'composantes';
@@ -1100,96 +1099,6 @@ function afficherIdentifiantReglages() {
   `;
   $('btn-copier-id-reglages').addEventListener('click', () => copierTexte(idAppareil, $('btn-copier-id-reglages')));
 }
-function initialiser() {
-  obtenirIdAppareil();
-  if (navigator.storage && navigator.storage.persist) {
-    navigator.storage.persist().catch(() => {});
-  }
-  const themeSauvegarde = localStorage.getItem('guide-theme') || 'clair';
-  appliquerTheme(themeSauvegarde);
-  const classeSauvegardee = localStorage.getItem('guide-classe-choisie');
-  const classeValide = CLASSES.find(c => c.id === classeSauvegardee && c.disponible);
-  if (classeValide) {
-    etat.classe = classeValide.id;
-    etat.niveau = 'matieres';
-    afficherVue('matieres');
-    majBoutonRetour(false);
-    renderMatieres();
-  } else {
-    renderClasses();
-    afficherVue('classes');
-    majBoutonRetour(false);
-  }
-  $('btn-retour').addEventListener('click', gererRetour);
-  $('btn-theme').addEventListener('click', basculerTheme);
-  document.querySelectorAll('.nav-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const cible = btn.getAttribute('data-nav');
-      if (cible === 'accueil') allerAccueil();
-      if (cible === 'exercices') allerExercices();
-      if (cible === 'notes') allerNotes();
-      if (cible === 'parametres') allerParametres();
-    });
-  });
-  $('btn-reset-progression').addEventListener('click', () => {
-    if (confirm('Veux-tu vraiment réinitialiser toute ta progression ? Cette action est irréversible.')) {
-      localStorage.removeItem('guide-progression');
-      alert('Progression réinitialisée.');
-    }
-  });
-  $('btn-changer-classe').addEventListener('click', changerDeClasse);
-  initInstallation();
-  initNotesPerso();
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('./service-worker.js');
-  }
-}
-document.addEventListener('DOMContentLoaded', initialiser);
-function initialiser() {
-  obtenirIdAppareil();
-  if (navigator.storage && navigator.storage.persist) {
-    navigator.storage.persist().catch(() => {});
-  }
-  const themeSauvegarde = localStorage.getItem('guide-theme') || 'clair';
-  appliquerTheme(themeSauvegarde);
-  const classeSauvegardee = localStorage.getItem('guide-classe-choisie');
-  const classeValide = CLASSES.find(c => c.id === classeSauvegardee && c.disponible);
-  if (classeValide) {
-    etat.classe = classeValide.id;
-    etat.niveau = 'matieres';
-    afficherVue('matieres');
-    majBoutonRetour(false);
-    renderMatieres();
-  } else {
-    renderClasses();
-    afficherVue('classes');
-    majBoutonRetour(false);
-  }
-  $('btn-retour').addEventListener('click', gererRetour);
-  $('btn-theme').addEventListener('click', basculerTheme);
-  document.querySelectorAll('.nav-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const cible = btn.getAttribute('data-nav');
-      if (cible === 'accueil') allerAccueil();
-      if (cible === 'exercices') allerExercices();
-      if (cible === 'notes') allerNotes();
-      if (cible === 'parametres') allerParametres();
-    });
-  });
-  $('btn-reset-progression').addEventListener('click', () => {
-    if (confirm('Veux-tu vraiment réinitialiser toute ta progression ? Cette action est irréversible.')) {
-      localStorage.removeItem('guide-progression');
-      alert('Progression réinitialisée.');
-    }
-  });
-  $('btn-changer-classe').addEventListener('click', changerDeClasse);
-  initInstallation();
-  initNotesPerso();
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('./service-worker.js');
-  }
-}
-document.addEventListener('DOMContentLoaded', initialiser);
 function allerParametres() {
   afficherVue('parametres');
   majBoutonRetour(false);
@@ -1271,6 +1180,9 @@ function initInstallation() {
 // ============================================
 function initialiser() {
   obtenirIdAppareil();
+  if (navigator.storage && navigator.storage.persist) {
+    navigator.storage.persist().catch(() => {});
+  }
   const themeSauvegarde = localStorage.getItem('guide-theme') || 'clair';
   appliquerTheme(themeSauvegarde);
   const classeSauvegardee = localStorage.getItem('guide-classe-choisie');
