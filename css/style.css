@@ -155,8 +155,6 @@ body[data-theme="sombre"] {
   border-bottom: 1px solid var(--bordure);
 }
 #view-matiere {
-  background-image: linear-gradient(var(--bordure) 1px, transparent 1px);
-  background-size: 100% 28px;
   background-color: var(--bg-carte);
   border-radius: 12px;
   padding: 16px;
@@ -288,7 +286,6 @@ body[data-theme="sombre"] .btn-danger { background-color: #4a2424; color: #fca5a
 }
 .nav-icone { font-size: 20px; }
 .nav-texte { font-size: 11px; }
-
 /* ---------- NOTES PERSONNELLES (bloc-notes libre, version compacte) ---------- */
 .bloc-notes-perso {
   background-color: var(--bg-carte);
@@ -359,13 +356,10 @@ body[data-theme="sombre"] .statut-sauvegarde-notes.succes {
 }
 .carte-matiere-nom { line-height: 1.25; }
 .carte-matiere-statut { min-height: 14px; }
-
 /* ---------- MARGE DE SÉCURITÉ SOUS LE CONTENU (barre de navigation) ---------- */
 #contenu-principal {
   padding-bottom: 130px;
 }
-
-
 /* ---------- Bandeau d'installation : respecter l'attribut hidden ---------- */
 .banner-installer[hidden] {
   display: none;
