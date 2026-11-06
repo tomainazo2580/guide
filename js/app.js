@@ -117,7 +117,7 @@ const EXERCICES_PAR_CLASSE = {
 // ============================================
 const ALPHABET_CODE = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789';
 const MATIERES_PAYANTES = {
-  '3e': ['FRAN', 'ANGL', 'MATH', 'SVT', 'SPHY', 'HIST', 'GEOG'],
+  '3e': ['MATH', 'SVT', 'SPHY'],
   'tle': []
 };
 // Position (à partir de 1) du chapitre payant dans la liste des chapitres de chaque matière
