@@ -355,7 +355,7 @@
   }
 
   // ---------- Écran 1 : choix de la matière ----------
-  function renderChoix() {
+    function renderChoix() {
     const zone = $('examen-contenu');
     window.scrollTo(0, 0);
     if (!etat.classe) {
@@ -378,7 +378,7 @@
       <div id="examen-grille" class="grille-matieres"></div>`;
     const grille = $('examen-grille');
     (MATIERES_PAR_CLASSE[etat.classe] || []).forEach(m => {
-      const dispo = !!trouverExoEntree(etat.classe, m.id);
+      const dispo = !!m.disponible && !!trouverExoEntree(etat.classe, m.id);
       let statut = '';
       let acces = null;
       if (!dispo) {
@@ -403,7 +403,6 @@
       grille.appendChild(carte);
     });
   }
-
   // ---------- Écran : essai gratuit utilisé ----------
   function renderBloque(m) {
     const zone = $('examen-contenu');
@@ -414,7 +413,7 @@
         <div class="bloc-label">🔒 Essai gratuit utilisé</div>
         <div class="bloc-texte">
           Tu as déjà passé ton examen gratuit en ${m.nom}.
-          Pour passer d'autres examens dans cette matière, débloque-la (2000 Ar) ou prends le pack complet (10000 Ar).
+          Pour passer d'autres examens dans cette matière, débloque-la (2000 Ar).
           Les leçons gratuites et les exercices 🟢 restent accessibles.
         </div>
       </div>
