@@ -731,6 +731,7 @@ function copierTexte(texte, bouton) {
 // PAYWALL — DÉBLOCAGE MOBILE MONEY (code lié au téléphone)
 // ============================================
 function afficherPaywall(matiere, origine, titreElement) {
+function afficherPaywall(matiere, origine, titreElement) {
   const mat = (matiere && matiere.code) ? matiere : (trouverMatiereParId(etat.classe, matiere.id) || matiere);
   etat.paywallMatiere = mat;
   etat.paywallOrigine = origine || 'composantes';
@@ -741,16 +742,14 @@ function afficherPaywall(matiere, origine, titreElement) {
   const conteneur = $('matiere-contenu');
   conteneur.innerHTML = `
     <div class="paywall">
-      <div class="paywall-icone">🔒</div>
-      <div class="paywall-titre">${titreElement || mat.nom}</div>
-      <p class="paywall-texte">Contenu premium de ${mat.nom} (${classeNom}) : ce chapitre, les exercices des niveaux Moyen, Difficile et Expert, et le Mode Examen complet de la matière.</p>
+      <div class="paywall-titre">Accès premium (${mat.nom})</div>
       <div class="paywall-prix">2000 Ar</div>
       <div class="etape">
         <div class="etape-numero">1</div>
-        <div class="etape-texte">Voici l'identifiant de ce téléphone. Il sert à fabriquer ton code personnel. Fais ta demande depuis l'application que tu utiliseras pour réviser.</div>
+        <div class="etape-texte">Identifiant de ce téléphone</div>
       </div>
       <div class="paywall-prix" id="texte-id-appareil" style="letter-spacing:4px;">${idAppareil}</div>
-      <button id="btn-copier-id" class="btn-valider">📋 Copier mon identifiant</button>
+      <button id="btn-copier-id" class="btn-valider">Copier mon identifiant</button>
       <div class="etape">
         <div class="etape-numero">2</div>
         <div class="etape-texte">Envoie 2000 Ar à l'un de ces numéros (nom : Tiana Stephan) :</div>
@@ -762,16 +761,16 @@ function afficherPaywall(matiere, origine, titreElement) {
       </div>
       <div class="etape">
         <div class="etape-numero">3</div>
-        <div class="etape-texte">Envoie la capture du paiement ET ton identifiant, en précisant la matière, sur Tsiky (<a href="https://tomainazo2580.github.io/tsiky" target="_blank" rel="noopener" style="word-break:break-all;">https://tomainazo2580.github.io/tsiky</a>) ou sur WhatsApp au 034 39 949 07, ou par SMS.</div>
+        <div class="etape-texte">Envoie la capture, ton identifiant et la matière sur Tsiky (<a href="https://tomainazo2580.github.io/tsiky" target="_blank" rel="noopener" style="word-break:break-all;">https://tomainazo2580.github.io/tsiky</a>), sur WhatsApp au 034 39 949 07, ou par SMS.</div>
       </div>
       <div class="etape">
         <div class="etape-numero">4</div>
-        <div class="etape-texte">Tu reçois ton code personnel. Colle-le ci-dessous : il ne fonctionne que sur ce téléphone.</div>
+        <div class="etape-texte">Colle ton code ci-dessous. Il ne fonctionne que sur ce téléphone.</div>
       </div>
       <input type="text" id="input-code" class="input-code" placeholder="GUIDE-XXXXXX-MATH-XXXXXX" maxlength="40">
       <button id="btn-valider-code" class="btn-valider">Valider le code</button>
       <div id="message-code" class="message-code"></div>
-      <p class="paywall-texte" style="margin-top:14px;text-align:left;color:#d32f2f;">⚠️ <strong>Important :</strong> ne supprime pas « Cookies et données des sites » dans Chrome : tu perdrais ton déblocage.</p>
+      <p class="paywall-texte" style="margin-top:14px;text-align:left;color:#d32f2f;"><strong>Important :</strong> ne supprime pas « Cookies et données des sites » dans Chrome : tu perdrais ton déblocage.</p>
     </div>
   `;
   $('btn-copier-id').addEventListener('click', () => copierTexte(idAppareil, $('btn-copier-id')));
