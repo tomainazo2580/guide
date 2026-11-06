@@ -466,7 +466,19 @@ function afficherContenuLecon() {
   if (etat.lecon.lexique && etat.lecon.lexique.length > 0) {
     html += renderLexique(etat.lecon.lexique);
   }
+  const lecons = etat.composante.lecons || [];
+  const position = lecons.findIndex(l => l.id === etat.lecon.id);
+  const suivante = (position >= 0 && position < lecons.length - 1) ? lecons[position + 1] : null;
+  if (suivante) {
+    html += `<button id="btn-lecon-suivante" class="btn-valider" style="margin-top:20px;">Leçon suivante →</button>`;
+  }
   conteneur.innerHTML = html;
+  if (suivante) {
+    $('btn-lecon-suivante').addEventListener('click', () => {
+      selectionnerLecon(suivante);
+      window.scrollTo(0, 0);
+    });
+  }
 }
 function renderBloc(bloc) {
   if (bloc.type === 'schema') {
