@@ -1090,14 +1090,14 @@ function afficherIdentifiantReglages() {
     const m = trouverMatiereParCode(classeId, code);
     if (!m) return;
     const ok = estMatiereDebloquee(classeId, code);
-    lignes += '<div>' + (ok ? '✅ ' : '🔒 ') + m.nom + '</div>';
+    lignes += '<div>' + m.nom + ' : ' + (ok ? 'débloquée' : 'verrouillée') + '</div>';
   });
   zone.innerHTML = `
     <div class="paywall-titre">Identifiant de ce téléphone</div>
     <div class="paywall-prix" style="letter-spacing:4px;">${idAppareil}</div>
-    <button id="btn-copier-id-reglages" class="btn-valider">📋 Copier mon identifiant</button>
+    <button id="btn-copier-id-reglages" class="btn-valider">Copier mon identifiant</button>
     ${lignes ? '<p class="paywall-texte" style="margin-top:14px;text-align:left;">Matières premium :</p><div class="paywall-texte" style="text-align:left;">' + lignes + '</div>' : ''}
-    <p class="paywall-texte" style="margin-top:14px;text-align:left;color:#d32f2f;">⚠️ <strong>Important :</strong> ne supprime pas « Cookies et données des sites » dans Chrome : tu perdrais ton déblocage.</p>
+    <p class="paywall-texte" style="margin-top:14px;text-align:left;color:#d32f2f;"><strong>Important :</strong> ne supprime pas « Cookies et données des sites » dans Chrome : tu perdrais ton déblocage.</p>
   `;
   $('btn-copier-id-reglages').addEventListener('click', () => copierTexte(idAppareil, $('btn-copier-id-reglages')));
 }
