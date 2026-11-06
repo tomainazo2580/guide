@@ -1,5 +1,4 @@
-const CACHE_VERSION = 'guide-v35';
-
+const CACHE_VERSION = 'guide-v36';
 const APP_SHELL = [
   './',
   './index.html',
@@ -79,7 +78,6 @@ const APP_SHELL = [
   './data/3e/sujets/sujets-svt-B.json',
   './data/3e/sujets/sujets-svt-C.json'
 ];
-
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_VERSION).then((cache) =>
@@ -91,7 +89,6 @@ self.addEventListener('install', (event) => {
     ).then(() => self.skipWaiting())
   );
 });
-
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys().then((noms) =>
@@ -101,7 +98,6 @@ self.addEventListener('activate', (event) => {
     ).then(() => self.clients.claim())
   );
 });
-
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
   event.respondWith(
