@@ -745,7 +745,6 @@ function afficherPaywall(matiere, origine, titreElement) {
       <div class="paywall-titre">${titreElement || mat.nom}</div>
       <p class="paywall-texte">Contenu premium de ${mat.nom} (${classeNom}) : ce chapitre, les exercices des niveaux Moyen, Difficile et Expert, et le Mode Examen complet de la matière.</p>
       <div class="paywall-prix">2000 Ar</div>
-      <p class="paywall-texte">Pack complet (toutes les matières payantes) : 10000 Ar</p>
       <div class="etape">
         <div class="etape-numero">1</div>
         <div class="etape-texte">Voici l'identifiant de ce téléphone. Il sert à fabriquer ton code personnel. Fais ta demande depuis l'application que tu utiliseras pour réviser.</div>
@@ -754,7 +753,7 @@ function afficherPaywall(matiere, origine, titreElement) {
       <button id="btn-copier-id" class="btn-valider">📋 Copier mon identifiant</button>
       <div class="etape">
         <div class="etape-numero">2</div>
-        <div class="etape-texte">Envoie 2000 Ar (ou 10000 Ar pour le pack) à l'un de ces numéros (nom : Tiana Stephan) :</div>
+        <div class="etape-texte">Envoie 2000 Ar à l'un de ces numéros (nom : Tiana Stephan) :</div>
       </div>
       <div class="mobile-money-liste">
         <div class="mm-item"><span class="mm-operateur">Mvola</span><span class="mm-numero">034 39 949 07</span></div>
@@ -763,7 +762,7 @@ function afficherPaywall(matiere, origine, titreElement) {
       </div>
       <div class="etape">
         <div class="etape-numero">3</div>
-        <div class="etape-texte">Envoie la capture du paiement ET ton identifiant, en précisant la matière ou le pack, sur Tsiky (<a href="https://tomainazo2580.github.io/tsiky" target="_blank" rel="noopener" style="word-break:break-all;">https://tomainazo2580.github.io/tsiky</a>) ou sur WhatsApp au 034 39 949 07, ou par SMS.</div>
+        <div class="etape-texte">Envoie la capture du paiement ET ton identifiant, en précisant la matière, sur Tsiky (<a href="https://tomainazo2580.github.io/tsiky" target="_blank" rel="noopener" style="word-break:break-all;">https://tomainazo2580.github.io/tsiky</a>) ou sur WhatsApp au 034 39 949 07, ou par SMS.</div>
       </div>
       <div class="etape">
         <div class="etape-numero">4</div>
