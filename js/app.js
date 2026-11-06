@@ -14,7 +14,7 @@ const CLASSES = [
 const MATIERES_PAR_CLASSE = {
   '3e': [
     { id: 'malagasy',           code: 'MALG', nom: 'Malagasy',           icone: '📚', disponible: false, fichier: './data/3e/malagasy.json' },
-    { id: 'francais',           code: 'FRAN', nom: 'Français',           icone: '📖', disponible: true,  fichiers: [
+    { id: 'francais',           code: 'FRAN', nom: 'Français',           icone: '📖', disponible: false, fichiers: [
       './data/3e/francais/composante-1.json',
       './data/3e/francais/composante-2.json',
       './data/3e/francais/composante-3.json',
@@ -23,7 +23,7 @@ const MATIERES_PAR_CLASSE = {
       './data/3e/francais/composante-6.json',
       './data/3e/francais/composante-7.json'
     ] },
-    { id: 'anglais',            code: 'ANGL', nom: 'Anglais',            icone: '🌍', disponible: true,  fichiers: [
+    { id: 'anglais',            code: 'ANGL', nom: 'Anglais',            icone: '🌍', disponible: false, fichiers: [
       './data/3e/anglais/composante-1.json',
       './data/3e/anglais/composante-2.json',
       './data/3e/anglais/composante-3.json',
@@ -54,7 +54,7 @@ const MATIERES_PAR_CLASSE = {
       './data/3e/sciences-physiques/composante-4.json',
       './data/3e/sciences-physiques/composante-5.json'
     ] },
-    { id: 'histoire',           code: 'HIST', nom: 'Histoire',           icone: '🏛️', disponible: true,  fichiers: [
+    { id: 'histoire',           code: 'HIST', nom: 'Histoire',           icone: '🏛️', disponible: false, fichiers: [
       './data/3e/histoire/composante-1.json',
       './data/3e/histoire/composante-2.json',
       './data/3e/histoire/composante-3.json',
@@ -66,7 +66,7 @@ const MATIERES_PAR_CLASSE = {
       './data/3e/histoire/composante-9.json',
       './data/3e/histoire/composante-10.json'
     ] },
-    { id: 'geographie',         code: 'GEOG', nom: 'Géographie',         icone: '🗺️', disponible: true,  fichiers: [
+    { id: 'geographie',         code: 'GEOG', nom: 'Géographie',         icone: '🗺️', disponible: false, fichiers: [
       './data/3e/geographie/composante-1.json',
       './data/3e/geographie/composante-2.json',
       './data/3e/geographie/composante-3.json',
