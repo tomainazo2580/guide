@@ -7,7 +7,6 @@
   const LIEN = 'https://tomainazo2580.github.io/guide/';
   const LIEN_TSIKY = 'https://tomainazo2580.github.io/tsiky';
   const TEXTE_PARTAGE = 'Je révise avec Guide, une application de révision pour le BEPC. Les premières leçons sont gratuites.';
-
   function copierSecours(texte) {
     try {
       const zone = document.createElement('textarea');
@@ -23,11 +22,10 @@
       return false;
     }
   }
-
   function copierLien(bouton) {
     const original = bouton.textContent;
     const fini = (ok) => {
-      bouton.textContent = ok ? '✅ Lien copié' : '⚠️ Copie impossible';
+      bouton.textContent = ok ? 'Lien copié' : 'Copie impossible';
       setTimeout(() => { bouton.textContent = original; }, 2000);
     };
     if (navigator.clipboard && navigator.clipboard.writeText) {
@@ -38,17 +36,14 @@
       fini(copierSecours(LIEN));
     }
   }
-
   function partagerAutres() {
     if (!navigator.share) return;
     navigator.share({ title: 'Guide', text: TEXTE_PARTAGE, url: LIEN }).catch(() => {});
   }
-
   function fermerFenetre() {
     const f = document.getElementById('fenetre-partage');
     if (f) f.parentNode.removeChild(f);
   }
-
   function ouvrirFenetre() {
     if (document.getElementById('fenetre-partage')) return;
     const styleBouton = 'display:block;width:100%;box-sizing:border-box;margin-bottom:8px;padding:14px;border:none;border-radius:10px;background:#e8eef7;color:#1e3a5f;font-size:1rem;font-weight:600;cursor:pointer;';
@@ -61,12 +56,12 @@
           <h3 style="margin:0;font-size:1.2rem;color:#1e3a5f;">Partager Guide</h3>
           <button id="btn-fermer-partage" aria-label="Fermer" style="border:none;background:transparent;font-size:1.5rem;color:#1e3a5f;cursor:pointer;padding:4px 8px;">✕</button>
         </div>
-        <p style="margin:0 0 8px;color:#4a5a70;line-height:1.4;">Fais scanner ce code à un ami, ou envoie-lui le lien.</p>
+        <p style="margin:0 0 8px;color:#4a5a70;line-height:1.4;">Fais scanner ce code ou envoie le lien.</p>
         <img src="./icons/qr-guide.png" alt="QR code de Guide" style="display:block;margin:12px auto;width:100%;max-width:240px;height:auto;background:#ffffff;border-radius:12px;">
-        <button id="btn-copier-lien" style="${styleBouton}">📋 Copier le lien</button>
-        <button id="btn-partager-autres" style="${styleBouton}">📤 Autres applis</button>
-        <p style="margin:12px 0 8px;color:#4a5a70;line-height:1.4;">Tu peux aussi l'envoyer par Tsiky (<a href="${LIEN_TSIKY}" target="_blank" rel="noopener" style="color:#1e6bb8;word-break:break-all;">${LIEN_TSIKY}</a>), WhatsApp ou SMS.</p>
-        <p style="margin:0 0 14px;color:#4a5a70;line-height:1.4;">Chaque ami reçoit son propre code de déblocage après paiement : le tien ne fonctionne que sur ton téléphone.</p>
+        <button id="btn-copier-lien" style="${styleBouton}">Copier le lien</button>
+        <button id="btn-partager-autres" style="${styleBouton}">Autres applis</button>
+        <p style="margin:12px 0 8px;color:#4a5a70;line-height:1.4;">Ou par Tsiky (<a href="${LIEN_TSIKY}" target="_blank" rel="noopener" style="color:#1e6bb8;word-break:break-all;">${LIEN_TSIKY}</a>), WhatsApp ou SMS.</p>
+        <p style="margin:0 0 14px;color:#4a5a70;line-height:1.4;">Chaque téléphone a son propre code de déblocage.</p>
         <button id="btn-fermer-partage-bas" style="${styleBouton}margin-bottom:0;background:#1e3a5f;color:#ffffff;">Fermer</button>
       </div>
     `;
@@ -86,7 +81,6 @@
       btnAutres.style.display = 'none';
     }
   }
-
   function init() {
     const vue = document.getElementById('view-parametres');
     if (!vue) return;
@@ -95,8 +89,8 @@
     bloc.className = 'bloc-parametre';
     bloc.id = 'bloc-partage';
     bloc.innerHTML = `
-      <button id="btn-ouvrir-partage" class="btn-secondaire" style="display:flex;align-items:center;justify-content:space-between;text-align:left;">
-        <span>📤 Partager Guide</span><span>›</span>
+      <button id="btn-ouvrir-partage" class="btn-secondaire" style="display:flex;align-items:center;justify-content:center;text-align:center;">
+        <span>Partager Guide</span>
       </button>
     `;
     const blocClasse = document.getElementById('bloc-classe');
@@ -107,7 +101,6 @@
     }
     document.getElementById('btn-ouvrir-partage').addEventListener('click', ouvrirFenetre);
   }
-
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
   } else {
