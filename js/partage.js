@@ -60,8 +60,7 @@
         <img src="./icons/qr-guide.png" alt="QR code de Guide" style="display:block;margin:12px auto;width:100%;max-width:240px;height:auto;background:#ffffff;border-radius:12px;">
         <button id="btn-copier-lien" style="${styleBouton}">Copier le lien</button>
         <button id="btn-partager-autres" style="${styleBouton}">Autres applis</button>
-        <p style="margin:12px 0 8px;color:#4a5a70;line-height:1.4;">Ou par Tsiky (<a href="${LIEN_TSIKY}" target="_blank" rel="noopener" style="color:#1e6bb8;word-break:break-all;">${LIEN_TSIKY}</a>), WhatsApp ou SMS.</p>
-        <p style="margin:0 0 14px;color:#4a5a70;line-height:1.4;">Chaque téléphone a son propre code de déblocage.</p>
+        <p style="margin:12px 0 14px;color:#4a5a70;line-height:1.4;">Ou par Tsiky (<a href="${LIEN_TSIKY}" target="_blank" rel="noopener" style="color:#1e6bb8;word-break:break-all;">${LIEN_TSIKY}</a>), WhatsApp ou SMS.</p>
         <button id="btn-fermer-partage-bas" style="${styleBouton}margin-bottom:0;background:#1e3a5f;color:#ffffff;">Fermer</button>
       </div>
     `;
