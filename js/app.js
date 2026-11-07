@@ -564,7 +564,6 @@ function renderLexique(lexique) {
 // CHAPITRE "EXERCICES" — SUJETS ET CORRIGÉS (indépendant des leçons)
 // ============================================
 const NIVEAUX_EXO_PAYANTS = {
-  '🟡': 'Niveau Moyen',
   '🟠': 'Niveau Difficile',
   '🔴': 'Niveau Expert (BEPC)'
 };
