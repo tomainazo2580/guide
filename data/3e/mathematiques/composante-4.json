@@ -385,4 +385,368 @@
         { "terme": "Vecteurs colinéaires", "definition": "Deux vecteurs qui ont la même direction. Pour (x ; y) et (x' ; y'), cela revient à x × y' − x' × y = 0." }
       ]
     },
+        {
+      "id": "geo-11",
+      "titre": "Les applications du plan",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "Une transformation du plan associe à chaque point M un point M', appelé l'image de M.\nDans cette leçon, on étudie quatre transformations : la symétrie axiale, la symétrie centrale, la translation et la rotation.\nChacune conserve les longueurs, les angles et les aires : l'image d'une figure est une figure identique, seule sa position change."
+        },
+        {
+          "type": "definition",
+          "texte": "Symétrie axiale : deux points M et M' sont symétriques par rapport à une droite (d) lorsque (d) est la médiatrice du segment [MM'].\nAutrement dit, (d) passe par le milieu de [MM'] et (d) est perpendiculaire à (MM').\nSi M est sur (d), son symétrique est M lui-même.\nLa droite (d) s'appelle l'axe de symétrie."
+        },
+        {
+          "type": "schema",
+          "titre": "Symétrie axiale : le triangle ABC et son image A'B'C'",
+          "svg": "<svg width='320' height='220' viewBox='0 0 320 220' xmlns='http://www.w3.org/2000/svg'><line x1='160' y1='10' x2='160' y2='210' stroke='#dc2626' stroke-width='2' stroke-dasharray='6 4'/><polygon points='80,60 40,150 120,150' fill='#dbeafe' stroke='#1d4ed8' stroke-width='2'/><polygon points='240,60 280,150 200,150' fill='#dcfce7' stroke='#15803d' stroke-width='2'/><line x1='80' y1='60' x2='240' y2='60' stroke='#94a3b8' stroke-width='1.5' stroke-dasharray='3 3'/><line x1='40' y1='150' x2='280' y2='150' stroke='#94a3b8' stroke-width='1.5' stroke-dasharray='3 3'/><text x='68' y='54' font-size='14' fill='#1d4ed8'>A</text><text x='24' y='168' font-size='14' fill='#1d4ed8'>B</text><text x='110' y='170' font-size='14' fill='#1d4ed8'>C</text><text x='246' y='54' font-size='14' fill='#15803d'>A'</text><text x='276' y='168' font-size='14' fill='#15803d'>B'</text><text x='192' y='170' font-size='14' fill='#15803d'>C'</text><text x='168' y='24' font-size='14' fill='#dc2626'>(d)</text></svg>",
+          "legende": "La droite (d) est la médiatrice de [AA'], de [BB'] et de [CC']."
+        },
+        {
+          "type": "regle",
+          "texte": "La symétrie axiale conserve les distances (A'B' = AB), les angles, les aires, l'alignement et le parallélisme.\nL'image d'une droite est une droite ; l'image d'un cercle est un cercle de même rayon ; l'image du milieu d'un segment est le milieu du segment image.\nElle change le sens de parcours : la figure est « retournée », comme dans un miroir."
+        },
+        {
+          "type": "methode",
+          "titre": "Construire le symétrique d'un point M par rapport à (d)",
+          "texte": "1. Avec l'équerre, tracer la perpendiculaire à (d) passant par M. Elle coupe (d) en H.\n2. Avec le compas (pointe en H, ouverture HM), marquer M' de l'autre côté de (d), sur la même perpendiculaire.\n3. Vérifier : HM' = HM et (d) ⟂ (MM').\nPour une figure, on construit le symétrique de chaque sommet, puis on relie les points dans le même ordre."
+        },
+        {
+          "type": "tableau",
+          "titre": "Axes de symétrie de quelques figures",
+          "entetes": ["Figure", "Nombre d'axes de symétrie"],
+          "lignes": [
+            ["Segment [AB]", "2 (sa médiatrice et la droite (AB))"],
+            ["Triangle isocèle", "1"],
+            ["Triangle équilatéral", "3"],
+            ["Rectangle (non carré)", "2"],
+            ["Losange (non carré)", "2"],
+            ["Carré", "4"],
+            ["Parallélogramme quelconque", "0"],
+            ["Cercle", "une infinité (toute droite passant par le centre)"]
+          ]
+        },
+        {
+          "type": "formule",
+          "texte": "Dans un repère orthonormé, pour un point M(x ; y) :\nSymétrique par rapport à l'axe des abscisses : M'(x ; −y)\nSymétrique par rapport à l'axe des ordonnées : M'(−x ; y)"
+        },
+        {
+          "type": "exemple",
+          "texte": "Soit A(2 ; 3).\nSymétrique par rapport à l'axe des abscisses : A'(2 ; −3).\nSymétrique par rapport à l'axe des ordonnées : A''(−2 ; 3)."
+        },
+        {
+          "type": "exemple",
+          "texte": "Le triangle ABC vérifie AB = 5 cm et l'angle ABC mesure 40°. A'B'C' est son symétrique par rapport à une droite (d).\nLa symétrie axiale conserve les longueurs et les angles, donc A'B' = 5 cm et l'angle A'B'C' mesure 40°.\nLes deux triangles ont aussi la même aire."
+        },
+        {
+          "type": "definition",
+          "texte": "Symétrie centrale : deux points M et M' sont symétriques par rapport à un point O lorsque O est le milieu du segment [MM'].\nLe symétrique de O est O lui-même.\nLe point O s'appelle le centre de symétrie."
+        },
+        {
+          "type": "schema",
+          "titre": "Symétrie centrale de centre O",
+          "svg": "<svg width='320' height='220' viewBox='0 0 320 220' xmlns='http://www.w3.org/2000/svg'><line x1='70' y1='50' x2='250' y2='170' stroke='#94a3b8' stroke-width='1.5' stroke-dasharray='4 3'/><line x1='40' y1='120' x2='280' y2='100' stroke='#94a3b8' stroke-width='1.5' stroke-dasharray='4 3'/><line x1='120' y1='130' x2='200' y2='90' stroke='#94a3b8' stroke-width='1.5' stroke-dasharray='4 3'/><polygon points='70,50 40,120 120,130' fill='#dbeafe' stroke='#1d4ed8' stroke-width='2'/><polygon points='250,170 280,100 200,90' fill='#dcfce7' stroke='#15803d' stroke-width='2'/><circle cx='160' cy='110' r='4' fill='#dc2626'/><text x='168' y='106' font-size='14' fill='#dc2626'>O</text><text x='58' y='46' font-size='14' fill='#1d4ed8'>A</text><text x='22' y='126' font-size='14' fill='#1d4ed8'>B</text><text x='116' y='148' font-size='14' fill='#1d4ed8'>C</text><text x='254' y='188' font-size='14' fill='#15803d'>A'</text><text x='284' y='96' font-size='14' fill='#15803d'>B'</text><text x='196' y='84' font-size='14' fill='#15803d'>C'</text></svg>",
+          "legende": "O est le milieu de [AA'], de [BB'] et de [CC']."
+        },
+        {
+          "type": "regle",
+          "texte": "La symétrie centrale conserve les distances, les angles, les aires et l'alignement.\nL'image d'une droite est une droite parallèle à la droite de départ.\nLe sens de parcours est conservé : la figure a fait un demi-tour autour de O.\nLa symétrie centrale de centre O est la rotation de centre O et d'angle 180°."
+        },
+        {
+          "type": "formule",
+          "texte": "M' est le symétrique de M par rapport à O  ⇔  →OM' = −→OM  ⇔  O est le milieu de [MM'].\nSi O(a ; b) et M(x ; y), alors M'(2a − x ; 2b − y).\nPar rapport à l'origine : M(x ; y) devient M'(−x ; −y)."
+        },
+        {
+          "type": "exemple",
+          "texte": "Soit O(1 ; 2) et M(4 ; −1). Le symétrique de M par rapport à O est M'(x' ; y') avec :\nx' = 2 × 1 − 4 = −2\ny' = 2 × 2 − (−1) = 5\nDonc M'(−2 ; 5).\nVérification : le milieu de [MM'] a pour coordonnées ((4 + (−2)) ÷ 2 ; (−1 + 5) ÷ 2) = (1 ; 2) = O. ✔"
+        },
+        {
+          "type": "remarque",
+          "texte": "Une figure a un centre de symétrie quand elle est confondue avec sa symétrique par rapport à ce point.\nLe parallélogramme, le rectangle, le losange et le carré ont pour centre de symétrie le point d'intersection de leurs diagonales. Le cercle a pour centre de symétrie son centre.\nUn triangle n'a jamais de centre de symétrie."
+        },
+        {
+          "type": "definition",
+          "texte": "Translation : la translation de vecteur →u associe à tout point M le point M' tel que →MM' = →u.\nLe déplacement se fait dans la direction de →u, dans le sens de →u, et sur une longueur égale à celle de →u.\nC'est un « glissement » : la figure ne tourne pas et n'est pas retournée."
+        },
+        {
+          "type": "schema",
+          "titre": "Translation de vecteur u",
+          "svg": "<svg width='320' height='190' viewBox='0 0 320 190' xmlns='http://www.w3.org/2000/svg'><polygon points='40,150 100,150 70,100' fill='#dbeafe' stroke='#1d4ed8' stroke-width='2'/><polygon points='170,110 230,110 200,60' fill='#dcfce7' stroke='#15803d' stroke-width='2'/><line x1='100' y1='150' x2='230' y2='110' stroke='#94a3b8' stroke-width='1.5' stroke-dasharray='4 3'/><line x1='70' y1='100' x2='200' y2='60' stroke='#94a3b8' stroke-width='1.5' stroke-dasharray='4 3'/><line x1='40' y1='150' x2='170' y2='110' stroke='#dc2626' stroke-width='2'/><polygon points='170,110 161.9,117.7 158.9,108.1' fill='#dc2626'/><text x='28' y='168' font-size='14' fill='#1d4ed8'>A</text><text x='102' y='168' font-size='14' fill='#1d4ed8'>B</text><text x='60' y='94' font-size='14' fill='#1d4ed8'>C</text><text x='158' y='132' font-size='14' fill='#15803d'>A'</text><text x='234' y='128' font-size='14' fill='#15803d'>B'</text><text x='204' y='56' font-size='14' fill='#15803d'>C'</text><text x='112' y='112' font-size='14' fill='#dc2626'>→u</text></svg>",
+          "legende": "→AA' = →BB' = →CC' = →u : tous les points glissent de la même façon."
+        },
+        {
+          "type": "regle",
+          "texte": "La translation conserve les distances, les angles, les aires, l'alignement et le sens de parcours.\nL'image d'une droite est une droite parallèle.\nSi A' et B' sont les images de A et B, alors →AA' = →BB', donc ABB'A' est un parallélogramme (si A, B, A' ne sont pas alignés), et A'B' = AB."
+        },
+        {
+          "type": "formule",
+          "texte": "Dans un repère, si →u a pour coordonnées (a ; b) et si M(x ; y), alors l'image de M par la translation de vecteur →u est M'(x + a ; y + b).\nInversement, si A(xA ; yA) a pour image A'(xA' ; yA'), alors →u (xA' − xA ; yA' − yA)."
+        },
+        {
+          "type": "exemple",
+          "texte": "Translation de vecteur →u (3 ; 1). Triangle ABC avec A(0 ; 0), B(2 ; 0), C(1 ; 3).\nA' = (0 + 3 ; 0 + 1) = (3 ; 1)\nB' = (2 + 3 ; 0 + 1) = (5 ; 1)\nC' = (1 + 3 ; 3 + 1) = (4 ; 4)\nOn vérifie : A'B' = 5 − 3 = 2 = AB. Les longueurs sont conservées."
+        },
+        {
+          "type": "remarque",
+          "texte": "Lien avec les parallélogrammes : ABCD est un parallélogramme  ⇔  →AB = →DC  ⇔  C est l'image de D par la translation de vecteur →AB."
+        },
+        {
+          "type": "definition",
+          "texte": "Rotation : soit O un point, α un angle et un sens de rotation. L'image d'un point M (différent de O) par la rotation de centre O et d'angle α est le point M' tel que :\n• OM' = OM ;\n• l'angle MOM' mesure α, en tournant dans le sens indiqué.\nLe centre O est son propre image.\nLe sens direct (ou positif) est le sens contraire des aiguilles d'une montre ; le sens indirect est le sens des aiguilles d'une montre."
+        },
+        {
+          "type": "schema",
+          "titre": "Rotation de centre O et d'angle 60°",
+          "svg": "<svg width='320' height='180' viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg'><path d='M 200 150 A 100 100 0 0 0 150 63.4' fill='none' stroke='#94a3b8' stroke-width='1.5' stroke-dasharray='4 3'/><line x1='100' y1='150' x2='200' y2='150' stroke='#1d4ed8' stroke-width='1.5'/><line x1='100' y1='150' x2='150' y2='63.4' stroke='#15803d' stroke-width='1.5'/><line x1='140' y1='150' x2='200' y2='150' stroke='#1d4ed8' stroke-width='4'/><line x1='120' y1='115.4' x2='150' y2='63.4' stroke='#15803d' stroke-width='4'/><path d='M 140 150 A 40 40 0 0 0 120 115.4' fill='none' stroke='#dc2626' stroke-width='2'/><circle cx='100' cy='150' r='4' fill='#dc2626'/><text x='86' y='168' font-size='14' fill='#dc2626'>O</text><text x='134' y='168' font-size='14' fill='#1d4ed8'>P</text><text x='198' y='168' font-size='14' fill='#1d4ed8'>M</text><text x='156' y='60' font-size='14' fill='#15803d'>M'</text><text x='100' y='112' font-size='14' fill='#15803d'>P'</text><text x='122' y='142' font-size='11' fill='#dc2626'>60°</text></svg>",
+          "legende": "Le segment [PM] a pour image le segment [P'M'] : OM' = OM, OP' = OP, et P'M' = PM."
+        },
+        {
+          "type": "regle",
+          "texte": "La rotation conserve les distances, les angles, les aires et l'alignement.\nL'image d'une droite est une droite ; l'image d'un cercle est un cercle de même rayon.\nSeul le centre O reste à sa place.\nUne rotation d'angle 180° est une symétrie centrale ; une rotation d'angle 360° laisse toutes les figures à leur place."
+        },
+        {
+          "type": "methode",
+          "titre": "Construire l'image M' d'un point M par une rotation de centre O et d'angle α",
+          "texte": "1. Tracer le segment [OM].\n2. Avec le rapporteur placé en O, mesurer l'angle α à partir de [OM], dans le bon sens, et tracer une demi-droite.\n3. Avec le compas (pointe en O, ouverture OM), marquer M' sur cette demi-droite.\n4. Vérifier : OM' = OM."
+        },
+        {
+          "type": "exemple",
+          "texte": "M est à 4 cm de O. On fait tourner M de 90° autour de O pour obtenir M'.\nOn a OM' = OM = 4 cm et l'angle MOM' = 90°.\nLe triangle OMM' est rectangle isocèle en O. Par Pythagore : MM'² = 4² + 4² = 32, donc MM' = 4√2 ≈ 5,66 cm."
+        },
+        {
+          "type": "remarque",
+          "texte": "Un polygone régulier à n côtés est invariant par la rotation de même centre que lui et d'angle 360° ÷ n : il se superpose alors à lui-même.\nTriangle équilatéral : 120° ; carré : 90° ; pentagone régulier : 72° ; hexagone régulier : 60°."
+        },
+        {
+          "type": "tableau",
+          "titre": "Récapitulatif des quatre transformations",
+          "entetes": ["Transformation", "Ce qui la définit", "Image d'une droite", "Particularité"],
+          "lignes": [
+            ["Symétrie axiale", "un axe (d)", "une droite", "retourne la figure"],
+            ["Symétrie centrale", "un centre O", "une droite parallèle", "demi-tour autour de O"],
+            ["Translation", "un vecteur →u", "une droite parallèle", "glissement"],
+            ["Rotation", "un centre O, un angle, un sens", "une droite", "fait tourner la figure"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Toutes ces transformations conservent les longueurs, les angles et les aires.\nL'agrandissement ou la réduction (voir Thalès et la leçon sur les agrandissements) est différent : il multiplie les longueurs par un coefficient k, conserve les angles et multiplie les aires par k²."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Dans un repère orthonormé, on donne A(3 ; 5), B(−2 ; 4) et C(0 ; −3).\n1) Donner les coordonnées des symétriques A', B', C' par rapport à l'axe des abscisses.\n2) Donner les coordonnées des symétriques A'', B'', C'' par rapport à l'origine.",
+          "solution": "1) On change le signe de l'ordonnée : A'(3 ; −5), B'(−2 ; −4), C'(0 ; 3).\n2) On change le signe des deux coordonnées : A''(−3 ; −5), B''(2 ; −4), C''(0 ; 3)."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Combien d'axes de symétrie ont : un rectangle non carré, un losange non carré, un triangle équilatéral, un parallélogramme quelconque ?\n2) Parmi ces quatre figures, lesquelles ont un centre de symétrie ?",
+          "solution": "1) Rectangle : 2 axes. Losange : 2 axes. Triangle équilatéral : 3 axes. Parallélogramme quelconque : aucun axe.\n2) Le rectangle, le losange et le parallélogramme ont un centre de symétrie (l'intersection des diagonales). Le triangle équilatéral n'en a pas."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Dans un repère orthonormé, on donne O(2 ; 1) et A(5 ; 4).\n1) Calculer les coordonnées de A', symétrique de A par rapport à O.\n2) Vérifier que O est le milieu de [AA'].\n3) Calculer la longueur AA'.",
+          "solution": "1) A'(2 × 2 − 5 ; 2 × 1 − 4) = A'(−1 ; −2).\n2) Le milieu de [AA'] est ((5 + (−1)) ÷ 2 ; (4 + (−2)) ÷ 2) = (2 ; 1) = O. ✔\n3) AA' = √((−1 − 5)² + (−2 − 4)²) = √(36 + 36) = √72 = 6√2 ≈ 8,49."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Soit →u (2 ; −3), A(1 ; 1) et B(4 ; 2). A' et B' sont les images de A et B par la translation de vecteur →u.\n1) Calculer les coordonnées de A' et B'.\n2) Montrer que A'B' = AB.",
+          "solution": "1) A'(1 + 2 ; 1 + (−3)) = A'(3 ; −2) et B'(4 + 2 ; 2 + (−3)) = B'(6 ; −1).\n2) AB = √((4 − 1)² + (2 − 1)²) = √(9 + 1) = √10.\nA'B' = √((6 − 3)² + (−1 − (−2))²) = √(9 + 1) = √10.\nDonc A'B' = AB : la translation conserve les longueurs."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Dans un repère, on donne A(0 ; 0), B(4 ; 1) et C(5 ; 4). Trouver les coordonnées du point D tel que ABCD soit un parallélogramme, puis vérifier le résultat avec les diagonales.",
+          "solution": "ABCD est un parallélogramme  ⇔  →AB = →DC.\n→AB (4 ; 1) et →DC (5 − xD ; 4 − yD).\nDonc 5 − xD = 4 et 4 − yD = 1, soit xD = 1 et yD = 3 : D(1 ; 3).\nVérification : le milieu de [AC] est (2,5 ; 2) et le milieu de [BD] est ((4 + 1) ÷ 2 ; (1 + 3) ÷ 2) = (2,5 ; 2). Les diagonales ont le même milieu. ✔"
+        },
+        {
+          "type": "exercice",
+          "enonce": "Le point M est à 5 cm du point O. M' est l'image de M par la rotation de centre O et d'angle 90°.\n1) Quelle est la longueur OM' ?\n2) Quelle est la nature du triangle OMM' ?\n3) Calculer MM' (valeur exacte puis arrondie au dixième).",
+          "solution": "1) La rotation conserve la distance au centre : OM' = OM = 5 cm.\n2) OM = OM' et l'angle MOM' = 90° : OMM' est rectangle isocèle en O.\n3) MM'² = 5² + 5² = 50, donc MM' = √50 = 5√2 ≈ 7,1 cm."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Quel est le plus petit angle de rotation (non nul) de centre O qui laisse inchangé : 1) un triangle équilatéral de centre O ; 2) un carré de centre O ; 3) un hexagone régulier de centre O ?",
+          "solution": "On utilise 360° ÷ n.\n1) Triangle équilatéral : 360° ÷ 3 = 120°.\n2) Carré : 360° ÷ 4 = 90°.\n3) Hexagone régulier : 360° ÷ 6 = 60°."
+        }
+      ],
+      "lexique": [
+        { "terme": "Transformation", "definition": "Correspondance qui associe à chaque point du plan un point image." },
+        { "terme": "Image", "definition": "Point (ou figure) obtenu après une transformation." },
+        { "terme": "Axe de symétrie", "definition": "Droite par rapport à laquelle deux points sont symétriques ; c'est la médiatrice du segment qui les joint." },
+        { "terme": "Centre de symétrie", "definition": "Point qui est le milieu de chaque segment joignant un point et son symétrique." },
+        { "terme": "Translation", "definition": "Transformation qui déplace tous les points selon un même vecteur." },
+        { "terme": "Rotation", "definition": "Transformation qui fait tourner les points autour d'un centre d'un angle donné, dans un sens donné." },
+        { "terme": "Sens direct", "definition": "Sens contraire des aiguilles d'une montre." },
+        { "terme": "Médiatrice", "definition": "Droite perpendiculaire à un segment en son milieu." }
+      ]
+    },
+    {
+      "id": "geo-12",
+      "titre": "Les unités de longueur et d'aire",
+      "blocs": [
+        {
+          "type": "definition",
+          "texte": "L'unité de longueur du système métrique est le mètre (m).\nLes autres unités sont des multiples ou des sous-multiples du mètre : chaque unité vaut 10 fois la suivante."
+        },
+        {
+          "type": "tableau",
+          "titre": "Unités de longueur",
+          "entetes": ["km", "hm", "dam", "m", "dm", "cm", "mm"],
+          "lignes": [
+            ["1 000 m", "100 m", "10 m", "1 m", "0,1 m", "0,01 m", "0,001 m"]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Convertir une longueur avec le tableau",
+          "texte": "1. Écrire le nombre dans le tableau, un seul chiffre par colonne, le chiffre des unités dans la colonne de l'unité donnée.\n2. Compléter par des zéros si nécessaire.\n3. Lire le nombre en plaçant la virgule après le chiffre de la colonne de l'unité demandée.\nPour passer d'une unité à une unité plus petite, on multiplie par 10 à chaque colonne ; dans l'autre sens, on divise par 10 à chaque colonne."
+        },
+        {
+          "type": "exemple",
+          "texte": "3,6 km = 3 600 m (3 colonnes de km à m : 3,6 × 1 000)\n450 cm = 4,5 m (2 colonnes de cm à m : 450 ÷ 100)\n0,8 dm = 8 cm\n2 500 mm = 2,5 m\n7 m 25 cm = 7,25 m"
+        },
+        {
+          "type": "exemple",
+          "texte": "Un commerçant vend du tissu à 4 000 Ar le mètre. Une cliente achète 2,5 m : elle paie 2,5 × 4 000 = 10 000 Ar.\nUn élève fait des pas de 60 cm. En 100 pas, il parcourt 100 × 60 = 6 000 cm = 60 m."
+        },
+        {
+          "type": "remarque",
+          "texte": "On n'additionne que des longueurs exprimées dans la même unité.\nExemple : 2 m + 35 cm = 200 cm + 35 cm = 235 cm = 2,35 m."
+        },
+        {
+          "type": "definition",
+          "texte": "L'aire d'une surface mesure son étendue. L'unité d'aire est le mètre carré (m²) : c'est l'aire d'un carré de 1 m de côté.\nComme 1 m = 10 dm, un carré de 1 m de côté a un côté de 10 dm, donc son aire est 10 × 10 = 100 dm².\nAinsi : 1 m² = 100 dm²."
+        },
+        {
+          "type": "schema",
+          "titre": "1 m² = 100 dm²",
+          "svg": "<svg width='320' height='250' viewBox='0 0 320 250' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='20' width='200' height='200' fill='#dbeafe'/><rect x='30' y='20' width='20' height='20' fill='#fef3c7' stroke='#d97706' stroke-width='2'/><path d='M30 20V220M50 20V220M70 20V220M90 20V220M110 20V220M130 20V220M150 20V220M170 20V220M190 20V220M210 20V220M230 20V220M30 20H230M30 40H230M30 60H230M30 80H230M30 100H230M30 120H230M30 140H230M30 160H230M30 180H230M30 200H230M30 220H230' stroke='#64748b' stroke-width='1' fill='none'/><rect x='30' y='20' width='200' height='200' fill='none' stroke='#1d4ed8' stroke-width='2'/><text x='130' y='240' font-size='14' fill='#1d4ed8' text-anchor='middle'>10 dm = 1 m</text><text x='238' y='125' font-size='14' fill='#1d4ed8'>1 m</text><text x='238' y='36' font-size='13' fill='#d97706'>= 1 dm²</text></svg>",
+          "legende": "Le carré d'un mètre de côté contient 10 × 10 = 100 petits carrés d'un décimètre de côté."
+        },
+        {
+          "type": "tableau",
+          "titre": "Unités d'aire",
+          "entetes": ["Unité", "km²", "hm²", "dam²", "m²", "dm²", "cm²", "mm²"],
+          "lignes": [
+            ["Valeur en m²", "1 000 000", "10 000", "100", "1", "0,01", "0,0001", "0,000001"],
+            ["Unité agraire", "", "hectare (ha)", "are (a)", "centiare (ca)", "", "", ""]
+          ]
+        },
+        {
+          "type": "regle",
+          "texte": "Chaque unité d'aire vaut 100 fois l'unité suivante.\nDans le tableau de conversion des aires, il faut deux chiffres par colonne.\nUnités agraires (pour les terrains) : 1 ha = 1 hm² = 10 000 m² ; 1 a = 1 dam² = 100 m² ; 1 ca = 1 m².\nAinsi : 1 km² = 100 ha."
+        },
+        {
+          "type": "methode",
+          "titre": "Convertir une aire",
+          "texte": "1. Écrire le nombre dans le tableau, deux chiffres par colonne, les unités dans la colonne de l'unité donnée.\n2. Compléter par des zéros.\n3. Lire le nombre en plaçant la virgule après la colonne de l'unité demandée.\nÀ chaque colonne de plus, on multiplie (ou on divise) par 100."
+        },
+        {
+          "type": "exemple",
+          "texte": "3 m² = 300 dm²\n0,6 m² = 60 dm² = 6 000 cm²\n4,5 m² = 45 000 cm² (2 colonnes : 4,5 × 10 000)\n85 000 cm² = 8,5 m²\n12 cm² = 1 200 mm²\n2,5 ha = 25 000 m²\n7 500 m² = 0,75 ha\n3 km² = 300 ha"
+        },
+        {
+          "type": "remarque",
+          "texte": "Erreur fréquente : 1 m² n'est pas égal à 10 dm², mais à 100 dm².\nRappel : si on multiplie les longueurs par k, on multiplie les aires par k². Ici k = 10, donc les aires sont multipliées par 100."
+        },
+        {
+          "type": "tableau",
+          "titre": "Aires et périmètres usuels",
+          "entetes": ["Figure", "Aire", "Périmètre"],
+          "lignes": [
+            ["Carré de côté c", "c × c", "4 × c"],
+            ["Rectangle (longueur L, largeur l)", "L × l", "2 × (L + l)"],
+            ["Triangle (base b, hauteur h)", "(b × h) ÷ 2", "somme des trois côtés"],
+            ["Parallélogramme (base b, hauteur h)", "b × h", "2 × (somme de deux côtés consécutifs)"],
+            ["Losange (diagonales D et d)", "(D × d) ÷ 2", "4 × côté"],
+            ["Trapèze (bases B et b, hauteur h)", "((B + b) × h) ÷ 2", "somme des quatre côtés"],
+            ["Disque de rayon R", "π × R²", "2 × π × R (longueur du cercle)"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Hauteur du triangle et du trapèze",
+          "svg": "<svg width='320' height='160' viewBox='0 0 320 160' xmlns='http://www.w3.org/2000/svg'><polygon points='10,130 130,130 50,30' fill='#dbeafe' stroke='#1d4ed8' stroke-width='2'/><line x1='50' y1='30' x2='50' y2='130' stroke='#dc2626' stroke-width='2' stroke-dasharray='5 3'/><path d='M50 120 H60 V130' fill='none' stroke='#dc2626' stroke-width='1.5'/><text x='66' y='148' font-size='14' fill='#1d4ed8'>b</text><text x='36' y='85' font-size='14' fill='#dc2626'>h</text><polygon points='180,130 310,130 290,30 210,30' fill='#dcfce7' stroke='#15803d' stroke-width='2'/><line x1='210' y1='30' x2='210' y2='130' stroke='#dc2626' stroke-width='2' stroke-dasharray='5 3'/><path d='M210 120 H220 V130' fill='none' stroke='#dc2626' stroke-width='1.5'/><text x='246' y='22' font-size='14' fill='#15803d'>b</text><text x='243' y='148' font-size='14' fill='#15803d'>B</text><text x='196' y='85' font-size='14' fill='#dc2626'>h</text></svg>",
+          "legende": "La hauteur h est perpendiculaire à la base."
+        },
+        {
+          "type": "exemple",
+          "texte": "Un terrain rectangulaire mesure 25 m sur 18 m.\nAire : 25 × 18 = 450 m².\nPérimètre : 2 × (25 + 18) = 86 m.\nSi la clôture coûte 3 500 Ar le mètre, elle coûte 86 × 3 500 = 301 000 Ar."
+        },
+        {
+          "type": "exemple",
+          "texte": "Une rizière rectangulaire mesure 120 m sur 50 m.\nAire : 120 × 50 = 6 000 m² = 0,6 ha."
+        },
+        {
+          "type": "exemple",
+          "texte": "Triangle de base 12 cm et de hauteur 7 cm : aire = (12 × 7) ÷ 2 = 42 cm².\nTrapèze de bases 10 cm et 6 cm et de hauteur 4 cm : aire = ((10 + 6) × 4) ÷ 2 = 32 cm²."
+        },
+        {
+          "type": "exemple",
+          "texte": "Disque de diamètre 10 m. Le rayon est R = 10 ÷ 2 = 5 m.\nAire = π × 5² = 25π m² ≈ 78,5 m².\nLongueur du cercle = 2 × π × 5 = 10π m ≈ 31,4 m."
+        },
+        {
+          "type": "exemple",
+          "texte": "Peindre un mur : le mur mesure 5 m sur 2,5 m et il comporte une porte de 1 m sur 2 m.\nAire du mur : 5 × 2,5 = 12,5 m². Aire de la porte : 1 × 2 = 2 m².\nSurface à peindre : 12,5 − 2 = 10,5 m²."
+        },
+        {
+          "type": "exemple",
+          "texte": "Carreler une salle de 6 m sur 4 m avec des carreaux carrés de 40 cm de côté.\nAire de la salle : 6 × 4 = 24 m².\nAire d'un carreau : 40 × 40 = 1 600 cm² = 0,16 m².\nNombre de carreaux : 24 ÷ 0,16 = 150."
+        },
+        {
+          "type": "exemple",
+          "texte": "Figure composée : un rectangle de 8 m sur 5 m surmonté d'un demi-disque de diamètre 8 m.\nAire du rectangle : 8 × 5 = 40 m².\nRayon du demi-disque : 4 m ; aire du demi-disque : (π × 4²) ÷ 2 = 8π m².\nAire totale : 40 + 8π ≈ 40 + 25,1 = 65,1 m²."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Convertir en mètres : 3,5 km ; 250 cm ; 85 dm ; 4 700 mm.",
+          "solution": "3,5 km = 3 500 m\n250 cm = 2,5 m\n85 dm = 8,5 m\n4 700 mm = 4,7 m"
+        },
+        {
+          "type": "exercice",
+          "enonce": "Convertir : 5 m² en cm² ; 3 200 dm² en m² ; 4,2 ha en m² ; 85 000 cm² en m².",
+          "solution": "5 m² = 5 × 10 000 = 50 000 cm²\n3 200 dm² = 3 200 ÷ 100 = 32 m²\n4,2 ha = 4,2 × 10 000 = 42 000 m²\n85 000 cm² = 85 000 ÷ 10 000 = 8,5 m²"
+        },
+        {
+          "type": "exercice",
+          "enonce": "Un terrain rectangulaire mesure 45 m sur 30 m. Calculer son aire en m², en ares et en hectares.",
+          "solution": "Aire : 45 × 30 = 1 350 m².\nEn ares : 1 350 ÷ 100 = 13,5 a.\nEn hectares : 1 350 ÷ 10 000 = 0,135 ha."
+        },
+        {
+          "type": "exercice",
+          "enonce": "On veut carreler une salle rectangulaire de 5 m sur 3,2 m avec des carreaux carrés de 40 cm de côté, vendus 1 500 Ar pièce.\n1) Calculer l'aire de la salle en m².\n2) Calculer l'aire d'un carreau en m².\n3) Combien de carreaux faut-il et quel est le prix total ?",
+          "solution": "1) 5 × 3,2 = 16 m².\n2) 40 cm = 0,4 m, donc l'aire d'un carreau est 0,4 × 0,4 = 0,16 m².\n3) Nombre de carreaux : 16 ÷ 0,16 = 100. Prix : 100 × 1 500 = 150 000 Ar."
+        },
+        {
+          "type": "exercice",
+          "enonce": "1) Calculer l'aire d'un trapèze de bases 14 cm et 8 cm et de hauteur 5 cm.\n2) Un triangle est rectangle, avec des côtés de l'angle droit de 9 cm et 12 cm. Calculer son aire et son hypoténuse.",
+          "solution": "1) Aire = ((14 + 8) × 5) ÷ 2 = (22 × 5) ÷ 2 = 55 cm².\n2) Aire = (9 × 12) ÷ 2 = 54 cm².\nHypoténuse : √(9² + 12²) = √(81 + 144) = √225 = 15 cm."
+        },
+        {
+          "type": "exercice",
+          "enonce": "La longueur d'un cercle est de 31,4 cm. Avec π ≈ 3,14, calculer son rayon, puis l'aire du disque correspondant.",
+          "solution": "2 × π × R = 31,4, donc R = 31,4 ÷ (2 × 3,14) = 31,4 ÷ 6,28 = 5 cm.\nAire = π × 5² = 25π ≈ 78,5 cm²."
+        },
+        {
+          "type": "exercice",
+          "enonce": "Un carré a pour côté 6 cm. On l'agrandit : le nouveau côté mesure 18 cm.\n1) Quel est le coefficient d'agrandissement des longueurs ?\n2) Calculer les deux aires et vérifier que le rapport des aires est k².",
+          "solution": "1) k = 18 ÷ 6 = 3.\n2) Aire du petit carré : 6 × 6 = 36 cm². Aire du grand carré : 18 × 18 = 324 cm².\n324 ÷ 36 = 9 = 3² = k². ✔"
+        },
+        {
+          "type": "exercice",
+          "enonce": "Un jardin a la forme d'un rectangle de 12 m sur 7 m, surmonté d'un demi-disque dont le diamètre est le côté de 7 m. Calculer son aire exacte, puis arrondie au dixième de m².",
+          "solution": "Aire du rectangle : 12 × 7 = 84 m².\nRayon du demi-disque : 7 ÷ 2 = 3,5 m ; aire du demi-disque : (π × 3,5²) ÷ 2 = (12,25π) ÷ 2 = 6,125π m².\nAire totale exacte : 84 + 6,125π m².\nValeur approchée : 84 + 6,125 × 3,1416 ≈ 84 + 19,24 ≈ 103,2 m²."
+        }
+      ],
+      "lexique": [
+        { "terme": "Aire", "definition": "Mesure de l'étendue d'une surface, exprimée en unités d'aire (m², cm², ha...)." },
+        { "terme": "Périmètre", "definition": "Longueur du contour d'une figure." },
+        { "terme": "Hectare (ha)", "definition": "Unité agraire : 1 ha = 10 000 m²." },
+        { "terme": "Are (a)", "definition": "Unité agraire : 1 a = 100 m²." },
+        { "terme": "Hauteur", "definition": "Segment perpendiculaire à la base, issu du sommet opposé (triangle) ou joignant les deux bases (trapèze)." },
+        { "terme": "Base", "definition": "Côté choisi comme référence pour calculer l'aire d'un triangle ou d'un parallélogramme." }
+      ]
+    }
+  ]
+}
     
