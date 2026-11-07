@@ -71,3 +71,130 @@
         }
       ]
     },
+        {
+      "id": "exo-operations",
+      "titre": "Opérations",
+      "exercices": [
+        {
+          "enonce": "🟢 Niveau Facile\n\nUn article coûte 8000 Ar. Calculer son prix après une réduction de 25%.",
+          "solution": "Réduction = 8000 × 25/100 = 2000 Ar\nNouveau prix = 8000 − 2000 = 6000 Ar\n\n<div style='text-align:center;margin:8px 0'><div style='display:inline-block;background:#ffffff;padding:8px;border-radius:8px'><svg width='260' height='92' viewBox='0 0 260 92' xmlns='http://www.w3.org/2000/svg'><g text-anchor='middle' fill='#1f2937' font-size='11'><text x='130' y='14' font-size='12' font-weight='bold'>Prix initial : 8000 Ar (100 %)</text></g><rect x='10' y='22' width='180' height='30' fill='#bbf7d0' stroke='#16a34a' stroke-width='1.5'/><rect x='190' y='22' width='60' height='30' fill='#fecaca' stroke='#dc2626' stroke-width='1.5'/><g text-anchor='middle' fill='#1f2937' font-size='11'><text x='100' y='42' font-weight='bold'>75 % à payer</text><text x='220' y='42' font-weight='bold'>25 %</text><text x='100' y='70'>6000 Ar</text><text x='220' y='70'>2000 Ar</text><text x='100' y='83' font-size='10'>(prix payé)</text><text x='220' y='83' font-size='10'>(réduction)</text></g></svg></div></div>"
+        },
+        {
+          "enonce": "🟢 Niveau Facile\n\nRado et Mino se partagent 15 000 Ar proportionnellement à 2 et 3.\nCalculer la part de chacun.",
+          "solution": "Nombre de parts : 2 + 3 = 5\nValeur d'une part : 15 000 ÷ 5 = 3000 Ar\n\nPart de Rado : 2 × 3000 = 6000 Ar\nPart de Mino : 3 × 3000 = 9000 Ar\n\nVérification : 6000 + 9000 = 15 000 Ar ✓"
+        },
+        {
+          "enonce": "🟡 Niveau Moyen\n\nUn artisan utilise de la peinture proportionnellement à la surface à peindre : pour 6 m², il utilise 1,5 L de peinture.\na) Quel est le coefficient de proportionnalité (en L/m²) ?\nb) Quelle quantité de peinture faut-il pour 18 m² ?",
+          "solution": "a) Coefficient = 1,5 ÷ 6 = 0,25 L par m²\n\nb) Quantité = 18 × 0,25 = 4,5 L\n\n<div style='text-align:center;margin:8px 0'><div style='display:inline-block;background:#ffffff;padding:8px;border-radius:8px'><svg width='220' height='125' viewBox='0 0 220 125' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='30' width='80' height='30' fill='#f1f5f9' stroke='#94a3b8'/><rect x='90' y='30' width='60' height='30' fill='#ffffff' stroke='#94a3b8'/><rect x='150' y='30' width='60' height='30' fill='#ffffff' stroke='#94a3b8'/><rect x='10' y='60' width='80' height='30' fill='#f1f5f9' stroke='#94a3b8'/><rect x='90' y='60' width='60' height='30' fill='#ffffff' stroke='#94a3b8'/><rect x='150' y='60' width='60' height='30' fill='#ffffff' stroke='#94a3b8'/><g fill='#1f2937' font-size='11'><text x='14' y='49'>Surface (m²)</text><text x='14' y='79'>Peinture (L)</text></g><g text-anchor='middle' fill='#1f2937' font-size='12' font-weight='bold'><text x='120' y='49'>6</text><text x='180' y='49'>18</text><text x='120' y='79'>1,5</text><text x='180' y='79' fill='#15803d'>4,5</text></g><path d='M120 27 Q150 5 180 27' fill='none' stroke='#dc2626' stroke-width='1.5'/><polygon points='180,28 171.2,25.4 176,19' fill='#dc2626'/><path d='M120 93 Q150 115 180 93' fill='none' stroke='#dc2626' stroke-width='1.5'/><polygon points='180,93 171.2,94.6 176,101' fill='#dc2626'/><g text-anchor='middle' fill='#dc2626' font-size='11' font-weight='bold'><text x='150' y='12'>× 3</text><text x='150' y='121'>× 3</text></g></svg></div></div>"
+        },
+        {
+          "enonce": "🟡 Niveau Moyen\n\nTrois associés mettent 20 000 Ar, 30 000 Ar et 50 000 Ar dans une affaire. Le bénéfice est de 120 000 Ar. Il est partagé proportionnellement aux mises.\nCalculer la part de chaque associé.",
+          "solution": "Les mises 20 000, 30 000 et 50 000 sont proportionnelles à 2, 3 et 5.\nNombre de parts : 2 + 3 + 5 = 10\nValeur d'une part : 120 000 ÷ 10 = 12 000 Ar\n\nPremier associé : 2 × 12 000 = 24 000 Ar\nDeuxième associé : 3 × 12 000 = 36 000 Ar\nTroisième associé : 5 × 12 000 = 60 000 Ar\n\nVérification : 24 000 + 36 000 + 60 000 = 120 000 Ar ✓"
+        },
+        {
+          "enonce": "🟠 Niveau Difficile\n\nUn article coûte 24 000 Ar. Il subit d'abord une réduction de 15%, puis son nouveau prix augmente de 10%.\nCalculer le prix final de l'article.",
+          "solution": "Réduction : 24 000 × 15/100 = 3 600 Ar\nPrix après réduction : 24 000 − 3 600 = 20 400 Ar\n\nAugmentation : 20 400 × 10/100 = 2 040 Ar\nPrix final : 20 400 + 2 040 = 22 440 Ar\n\n<div style='text-align:center;margin:8px 0'><div style='display:inline-block;background:#ffffff;padding:8px;border-radius:8px'><svg width='250' height='95' viewBox='0 0 250 95' xmlns='http://www.w3.org/2000/svg'><rect x='4' y='36' width='66' height='34' rx='6' fill='#f1f5f9' stroke='#64748b' stroke-width='1.5'/><rect x='90' y='36' width='66' height='34' rx='6' fill='#fef9c3' stroke='#ca8a04' stroke-width='1.5'/><rect x='176' y='36' width='66' height='34' rx='6' fill='#dcfce7' stroke='#16a34a' stroke-width='1.5'/><line x1='70' y1='53' x2='84' y2='53' stroke='#475569' stroke-width='2'/><polygon points='90,53 83,49 83,57' fill='#475569'/><line x1='156' y1='53' x2='170' y2='53' stroke='#475569' stroke-width='2'/><polygon points='176,53 169,49 169,57' fill='#475569'/><g text-anchor='middle' fill='#1f2937' font-size='11' font-weight='bold'><text x='37' y='57'>24 000 Ar</text><text x='123' y='57'>20 400 Ar</text><text x='209' y='57'>22 440 Ar</text><text x='80' y='28' font-size='10' fill='#dc2626'>− 15 %</text><text x='166' y='28' font-size='10' fill='#15803d'>+ 10 %</text></g><g text-anchor='middle' fill='#475569' font-size='9'><text x='37' y='86'>départ</text><text x='123' y='86'>après réduction</text><text x='209' y='86'>prix final</text></g></svg></div></div>"
+        },
+        {
+          "enonce": "🟠 Niveau Difficile\n\nUn héritage est partagé entre trois frères A, B et C proportionnellement à 2, 3 et 5. La part de C dépasse la part de A de 36 000 Ar.\na) Calculer la valeur d'une part.\nb) Calculer la part de chaque frère.\nc) Calculer la somme totale partagée.",
+          "solution": "a) La part de C compte 5 parts et celle de A en compte 2.\nLa différence est 5 − 2 = 3 parts, et elle vaut 36 000 Ar.\nValeur d'une part : 36 000 ÷ 3 = 12 000 Ar\n\nb) Part de A : 2 × 12 000 = 24 000 Ar\nPart de B : 3 × 12 000 = 36 000 Ar\nPart de C : 5 × 12 000 = 60 000 Ar\n\nc) Somme totale : 24 000 + 36 000 + 60 000 = 120 000 Ar\n(ou 10 parts × 12 000 = 120 000 Ar)"
+        },
+        {
+          "enonce": "🔴 Niveau Expert (BEPC)\n\nUn cycliste roule à vitesse constante. Il parcourt 15 km en 40 minutes.\na) Quelle est sa vitesse en km/h ?\nb) À cette vitesse, combien de temps (en minutes) mettra-t-il pour parcourir 27 km ?\n\n<div style='text-align:center;margin:8px 0'><div style='display:inline-block;background:#ffffff;padding:8px;border-radius:8px'><svg width='260' height='100' viewBox='0 0 260 100' xmlns='http://www.w3.org/2000/svg'><text x='20' y='34' text-anchor='middle' font-size='20'>🚴</text><text x='150' y='28' text-anchor='middle' font-size='10' fill='#475569'>vitesse constante</text><line x1='20' y1='52' x2='140' y2='52' stroke='#2563eb' stroke-width='4'/><line x1='140' y1='52' x2='236' y2='52' stroke='#94a3b8' stroke-width='3' stroke-dasharray='6 4'/><circle cx='20' cy='52' r='5' fill='#1f2937'/><circle cx='140' cy='52' r='5' fill='#1f2937'/><circle cx='236' cy='52' r='5' fill='#1f2937'/><g text-anchor='middle' font-size='11' fill='#1f2937' font-weight='bold'><text x='20' y='74'>0 km</text><text x='140' y='74'>15 km</text><text x='236' y='74'>27 km</text></g><g text-anchor='middle' font-size='11' fill='#b45309'><text x='20' y='90'>0 min</text><text x='140' y='90'>40 min</text><text x='236' y='90'>? min</text></g></svg></div></div>",
+          "solution": "a) On convertit 40 minutes en heures : 40/60 = 2/3 h\nVitesse = distance ÷ temps = 15 ÷ (2/3) = 15 × 3/2 = 22,5 km/h\n\nb) Temps = distance ÷ vitesse = 27 ÷ 22,5 = 1,2 h\n1,2 h = 1,2 × 60 = 72 minutes\n\nIl mettra 72 minutes pour parcourir 27 km."
+        },
+        {
+          "enonce": "🔴 Niveau Expert (BEPC)\n\nUne entreprise distribue une prime de 360 000 Ar à trois employés, proportionnellement à 2, 3 et 7.\na) Calculer la part de chaque employé.\nb) Quel pourcentage de la prime le troisième employé reçoit-il ? (arrondir au dixième)\nc) L'année suivante, la prime totale augmente de 25 %. Elle est partagée de la même façon. Calculer la nouvelle part de chaque employé.",
+          "solution": "a) Nombre de parts : 2 + 3 + 7 = 12\nValeur d'une part : 360 000 ÷ 12 = 30 000 Ar\n\nPremier employé : 2 × 30 000 = 60 000 Ar\nDeuxième employé : 3 × 30 000 = 90 000 Ar\nTroisième employé : 7 × 30 000 = 210 000 Ar\n\nVérification : 60 000 + 90 000 + 210 000 = 360 000 Ar ✓\n\nb) Pourcentage du troisième : 210 000 ÷ 360 000 = 7/12 ≈ 0,5833\nLe troisième employé reçoit environ 58,3 % de la prime.\n\nc) Augmentation : 360 000 × 25/100 = 90 000 Ar\nNouvelle prime : 360 000 + 90 000 = 450 000 Ar\nNouvelle valeur d'une part : 450 000 ÷ 12 = 37 500 Ar\n\nPremier employé : 2 × 37 500 = 75 000 Ar\nDeuxième employé : 3 × 37 500 = 112 500 Ar\nTroisième employé : 7 × 37 500 = 262 500 Ar\n\nVérification : 75 000 + 112 500 + 262 500 = 450 000 Ar ✓"
+        }
+      ]
+    },
+        {
+      "id": "exo-algebre",
+      "titre": "Algèbre",
+      "exercices": [
+        {
+          "enonce": "🟢 Niveau Facile\n\nRésoudre l'équation : 4x + 3 = 15",
+          "solution": "4x + 3 = 15\n4x = 15 − 3\n4x = 12\nx = 12 / 4 = 3\n\nS = {3}\n\n<div style='text-align:center;margin:8px 0'><div style='display:inline-block;background:#ffffff;padding:8px;border-radius:8px'><svg width='260' height='175' viewBox='0 0 260 175' xmlns='http://www.w3.org/2000/svg'><polygon points='130,32 112,125 148,125' fill='#cbd5e1' stroke='#64748b'/><rect x='92' y='125' width='76' height='7' rx='3' fill='#64748b'/><rect x='52' y='28' width='156' height='6' rx='3' fill='#475569'/><g stroke='#94a3b8' stroke-width='1.5'><line x1='70' y1='34' x2='30' y2='100'/><line x1='70' y1='34' x2='110' y2='100'/><line x1='190' y1='34' x2='150' y2='100'/><line x1='190' y1='34' x2='230' y2='100'/></g><rect x='28' y='100' width='84' height='6' rx='3' fill='#475569'/><rect x='148' y='100' width='84' height='6' rx='3' fill='#475569'/><g fill='#fde68a' stroke='#d97706'><rect x='36' y='84' width='16' height='16'/><rect x='54' y='84' width='16' height='16'/><rect x='72' y='84' width='16' height='16'/><rect x='90' y='84' width='16' height='16'/></g><g fill='#bbf7d0' stroke='#16a34a'><circle cx='54' cy='76' r='6'/><circle cx='72' cy='76' r='6'/><circle cx='90' cy='76' r='6'/></g><rect x='170' y='70' width='40' height='30' rx='4' fill='#fed7aa' stroke='#ea580c'/><g text-anchor='middle' fill='#1f2937' font-weight='bold'><text x='44' y='96' font-size='11'>x</text><text x='62' y='96' font-size='11'>x</text><text x='80' y='96' font-size='11'>x</text><text x='98' y='96' font-size='11'>x</text><text x='54' y='79' font-size='8'>1</text><text x='72' y='79' font-size='8'>1</text><text x='90' y='79' font-size='8'>1</text><text x='190' y='91' font-size='15'>15</text><text x='130' y='152' font-size='13'>4x + 3 = 15</text><text x='130' y='168' font-size='10' font-weight='normal'>On retire 3 de chaque côté : 4x = 12</text></g></svg></div></div>"
+        },
+        {
+          "enonce": "🟢 Niveau Facile\n\nFactoriser :\na) 5x + 15\nb) x² + 4x\nc) 6a − 9b",
+          "solution": "a) 5x + 15 = 5 × x + 5 × 3 = 5(x + 3)\n\nb) x² + 4x = x × x + x × 4 = x(x + 4)\n\nc) 6a − 9b = 3 × 2a − 3 × 3b = 3(2a − 3b)"
+        },
+        {
+          "enonce": "🟢 Niveau Facile\n\nRésoudre les inéquations et écrire l'ensemble des solutions sous forme d'intervalle :\na) x + 5 > 8\nb) 2x ≤ 10",
+          "solution": "a) x + 5 > 8\nx > 8 − 5\nx > 3\nS = ]3 ; +∞[\n\nb) 2x ≤ 10\nx ≤ 10 ÷ 2\nx ≤ 5\nS = ]−∞ ; 5]"
+        },
+        {
+          "enonce": "🟢 Niveau Facile\n\nRésoudre le système par substitution :\ny = x + 1\nx + y = 7",
+          "solution": "On remplace y par x + 1 dans la deuxième équation :\nx + (x + 1) = 7\n2x + 1 = 7\n2x = 6\nx = 3\n\nOn en déduit y = x + 1 = 3 + 1 = 4.\n\nS = {(3 ; 4)}\n\nVérification : 3 + 4 = 7 ✓ et 4 = 3 + 1 ✓"
+        },
+        {
+          "enonce": "🟢 Niveau Facile\n\nUn nombre multiplié par 3, puis augmenté de 5, donne 20.\nQuel est ce nombre ?",
+          "solution": "On appelle x le nombre cherché.\nL'équation est : 3x + 5 = 20\n\n3x = 20 − 5\n3x = 15\nx = 5\n\nLe nombre cherché est 5.\n\nVérification : 3 × 5 + 5 = 20 ✓"
+        },
+        {
+          "enonce": "🟡 Niveau Moyen\n\nRésoudre les équations suivantes :\na) 5x − 7 = 2x + 8\nb) 3(x + 2) = 2x − 1",
+          "solution": "a) 5x − 7 = 2x + 8\n5x − 2x = 8 + 7\n3x = 15\nx = 5\nS = {5}\n\nb) 3(x + 2) = 2x − 1\n3x + 6 = 2x − 1\n3x − 2x = −1 − 6\nx = −7\nS = {−7}"
+        },
+        {
+          "enonce": "🟡 Niveau Moyen\n\nFactoriser à l'aide des identités remarquables :\na) x² − 25\nb) x² + 6x + 9\nc) 4x² − 12x + 9",
+          "solution": "a) x² − 25 = x² − 5² = (x − 5)(x + 5)\n\nb) x² + 6x + 9 = x² + 2 × x × 3 + 3² = (x + 3)²\n\nc) 4x² − 12x + 9 = (2x)² − 2 × 2x × 3 + 3² = (2x − 3)²"
+        },
+        {
+          "enonce": "🟡 Niveau Moyen\n\nRésoudre les inéquations :\na) 3x − 4 ≤ 11\nb) 5x + 2 > 2x + 11",
+          "solution": "a) 3x − 4 ≤ 11\n3x ≤ 11 + 4\n3x ≤ 15\nx ≤ 5\nS = ]−∞ ; 5]\n\nb) 5x + 2 > 2x + 11\n5x − 2x > 11 − 2\n3x > 9\nx > 3\nS = ]3 ; +∞["
+        },
+        {
+          "enonce": "🟡 Niveau Moyen\n\nRésoudre le système par addition :\nx + y = 10\nx − y = 4",
+          "solution": "On additionne les deux équations membre à membre : le y disparaît.\n(x + y) + (x − y) = 10 + 4\n2x = 14\nx = 7\n\nOn remplace x dans la première équation :\n7 + y = 10\ny = 3\n\nS = {(7 ; 3)}\n\nVérification : 7 + 3 = 10 ✓ et 7 − 3 = 4 ✓"
+        },
+        {
+          "enonce": "🟡 Niveau Moyen\n\nRado a deux fois l'âge de Mino. À eux deux, ils ont 36 ans.\nQuel est l'âge de chacun ?",
+          "solution": "On appelle x l'âge de Mino. Alors Rado a 2x ans.\nL'équation est : x + 2x = 36\n\n3x = 36\nx = 12\n\nMino a 12 ans et Rado a 2 × 12 = 24 ans.\n\nVérification : 12 + 24 = 36 ✓"
+        },
+        {
+          "enonce": "🟠 Niveau Difficile\n\nOn considère la fonction affine f définie par f(x) = −3x + 5.\na) Calculer f(0) et f(2).\nb) Quelle est l'image de −1 par f ?\nc) Déterminer l'antécédent de 11 par f.\n\n<div style='text-align:center;margin:8px 0'><div style='display:inline-block;background:#ffffff;padding:8px;border-radius:8px'><svg width='260' height='95' viewBox='0 0 260 95' xmlns='http://www.w3.org/2000/svg'><text x='130' y='14' text-anchor='middle' font-size='11' fill='#475569'>Machine f</text><circle cx='16' cy='50' r='13' fill='#e0f2fe' stroke='#0284c7' stroke-width='1.5'/><line x1='29' y1='50' x2='38' y2='50' stroke='#475569' stroke-width='2'/><polygon points='44,50 38,46 38,54' fill='#475569'/><rect x='44' y='30' width='60' height='40' rx='6' fill='#fef9c3' stroke='#ca8a04' stroke-width='1.5'/><line x1='104' y1='50' x2='118' y2='50' stroke='#475569' stroke-width='2'/><polygon points='124,50 118,46 118,54' fill='#475569'/><rect x='124' y='30' width='60' height='40' rx='6' fill='#dcfce7' stroke='#16a34a' stroke-width='1.5'/><line x1='184' y1='50' x2='192' y2='50' stroke='#475569' stroke-width='2'/><polygon points='198,50 192,46 192,54' fill='#475569'/><ellipse cx='225' cy='50' rx='27' ry='14' fill='#fee2e2' stroke='#dc2626' stroke-width='1.5'/><g text-anchor='middle' fill='#1f2937' font-weight='bold' font-size='12'><text x='16' y='55'>x</text><text x='74' y='55'>× (−3)</text><text x='154' y='55'>+ 5</text><text x='225' y='55'>f(x)</text></g><g text-anchor='middle' fill='#475569' font-size='9'><text x='16' y='88'>entrée</text><text x='225' y='88'>sortie</text></g></svg></div></div>",
+          "solution": "a) f(0) = −3×0 + 5 = 5\nf(2) = −3×2 + 5 = −6 + 5 = −1\n\nb) f(−1) = −3×(−1) + 5 = 3 + 5 = 8\n\nc) On cherche x tel que f(x) = 11 :\n−3x + 5 = 11\n−3x = 6\nx = −2\nL'antécédent de 11 est −2.\n\n<div style='text-align:center;margin:8px 0'><div style='display:inline-block;background:#ffffff;padding:8px;border-radius:8px'><svg width='260' height='205' viewBox='0 0 260 205' xmlns='http://www.w3.org/2000/svg'><line x1='35' y1='159' x2='225' y2='159' stroke='#1f2937' stroke-width='1.5'/><polygon points='230,159 222,155 222,163' fill='#1f2937'/><line x1='130' y1='200' x2='130' y2='10' stroke='#1f2937' stroke-width='1.5'/><polygon points='130,4 126,12 134,12' fill='#1f2937'/><g stroke='#1f2937'><line x1='70' y1='155' x2='70' y2='163'/><line x1='100' y1='155' x2='100' y2='163'/><line x1='160' y1='155' x2='160' y2='163'/><line x1='190' y1='155' x2='190' y2='163'/></g><line x1='60' y1='15' x2='210' y2='195' stroke='#2563eb' stroke-width='2'/><line x1='70' y1='27' x2='70' y2='159' stroke='#dc2626' stroke-width='1' stroke-dasharray='4 3'/><line x1='70' y1='27' x2='130' y2='27' stroke='#dc2626' stroke-width='1' stroke-dasharray='4 3'/><g fill='#dc2626'><circle cx='70' cy='27' r='4'/><circle cx='100' cy='63' r='4'/><circle cx='130' cy='99' r='4'/><circle cx='190' cy='171' r='4'/></g><g font-size='10' fill='#1f2937'><text x='62' y='152' text-anchor='middle'>−2</text><text x='100' y='152' text-anchor='middle'>−1</text><text x='160' y='152' text-anchor='middle'>1</text><text x='190' y='152' text-anchor='middle'>2</text><text x='64' y='32' text-anchor='end' fill='#dc2626'>(−2 ; 11)</text><text x='94' y='68' text-anchor='end' fill='#dc2626'>(−1 ; 8)</text><text x='138' y='95' fill='#dc2626'>(0 ; 5)</text><text x='198' y='174' fill='#dc2626'>(2 ; −1)</text><text x='236' y='172'>x</text><text x='138' y='12'>y</text></g><text x='225' y='42' text-anchor='end' font-size='11' font-weight='bold' fill='#2563eb'>y = −3x + 5</text></svg></div></div>"
+        },
+        {
+          "enonce": "🟠 Niveau Difficile\n\nRésoudre les équations suivantes :\na) (x − 3)(2x + 4) = 0\nb) x² − 16 = 0\nc) x² + 5x = 0",
+          "solution": "On utilise la règle : un produit de facteurs est nul si et seulement si l'un des facteurs est nul.\n\na) (x − 3)(2x + 4) = 0\nx − 3 = 0 ou 2x + 4 = 0\nx = 3 ou x = −2\nS = {−2 ; 3}\n\nb) x² − 16 = 0\n(x − 4)(x + 4) = 0\nx = 4 ou x = −4\nS = {−4 ; 4}\n\nc) x² + 5x = 0\nx(x + 5) = 0\nx = 0 ou x = −5\nS = {−5 ; 0}"
+        },
+        {
+          "enonce": "🟠 Niveau Difficile\n\nRésoudre les inéquations. Attention au sens de l'inégalité.\na) −2x + 6 ≥ 0\nb) 4 − 3x < 10\nÉcrire chaque ensemble des solutions sous forme d'intervalle.",
+          "solution": "a) −2x + 6 ≥ 0\n−2x ≥ −6\nOn divise par −2, qui est négatif : on change le sens de l'inégalité.\nx ≤ 3\nS = ]−∞ ; 3]\n\nb) 4 − 3x < 10\n−3x < 6\nOn divise par −3, qui est négatif : on change le sens de l'inégalité.\nx > −2\nS = ]−2 ; +∞["
+        },
+        {
+          "enonce": "🟠 Niveau Difficile\n\nRésoudre le système :\n2x + 3y = 12\n3x − 2y = 5",
+          "solution": "On multiplie la première équation par 2 et la deuxième par 3, pour obtenir des termes en y opposés :\n4x + 6y = 24\n9x − 6y = 15\n\nOn additionne :\n13x = 39\nx = 3\n\nOn remplace x dans la première équation :\n2 × 3 + 3y = 12\n3y = 6\ny = 2\n\nS = {(3 ; 2)}\n\nVérification : 2×3 + 3×2 = 12 ✓ et 3×3 − 2×2 = 5 ✓"
+        },
+        {
+          "enonce": "🟠 Niveau Difficile\n\nUn rectangle a une longueur qui dépasse sa largeur de 5 m. Son périmètre est de 50 m.\na) Mettre le problème en équation.\nb) Calculer la largeur et la longueur.\nc) Calculer l'aire du rectangle.",
+          "solution": "a) On appelle x la largeur en mètres. La longueur est x + 5.\nLe périmètre est 2 × (largeur + longueur) :\n2(x + x + 5) = 50\n\nb) 2(2x + 5) = 50\n4x + 10 = 50\n4x = 40\nx = 10\n\nLa largeur est 10 m et la longueur est 10 + 5 = 15 m.\n\nc) Aire = 10 × 15 = 150 m²"
+        },
+        {
+          "enonce": "🔴 Niveau Expert (BEPC)\n\nRésoudre l'équation suivante, en utilisant les identités remarquables :\n(x + 3)² − (x − 2)² = 25",
+          "solution": "On développe chaque carré :\n(x + 3)² = x² + 6x + 9\n(x − 2)² = x² − 4x + 4\n\nOn calcule la différence :\n(x² + 6x + 9) − (x² − 4x + 4) = x² + 6x + 9 − x² + 4x − 4 = 10x + 5\n\nL'équation devient :\n10x + 5 = 25\n10x = 20\nx = 2\n\nS = {2}"
+        },
+        {
+          "enonce": "🔴 Niveau Expert (BEPC)\n\nOn pose E = (2x + 1)² − 9.\na) Factoriser E.\nb) Résoudre l'équation E = 0.\nc) Développer et réduire E.\nd) Calculer E pour x = 0, avec la forme factorisée, puis avec la forme développée. Que remarque-t-on ?",
+          "solution": "a) E = (2x + 1)² − 3²\nE = (2x + 1 − 3)(2x + 1 + 3)\nE = (2x − 2)(2x + 4)\nE = 2(x − 1) × 2(x + 2)\nE = 4(x − 1)(x + 2)\n\nb) E = 0 équivaut à 4(x − 1)(x + 2) = 0\nx − 1 = 0 ou x + 2 = 0\nx = 1 ou x = −2\nS = {−2 ; 1}\n\nc) E = (2x + 1)² − 9 = 4x² + 4x + 1 − 9 = 4x² + 4x − 8\n\nd) Avec la forme factorisée : E = 4 × (0 − 1) × (0 + 2) = 4 × (−1) × 2 = −8\nAvec la forme développée : E = 4 × 0 + 4 × 0 − 8 = −8\nOn trouve le même résultat, ce qui confirme que les deux formes sont égales."
+        },
+        {
+          "enonce": "🔴 Niveau Expert (BEPC)\n\nDéterminer les entiers naturels x qui vérifient à la fois :\n2x − 3 ≥ 1 et 5 − x > −1\n\na) Résoudre la première inéquation.\nb) Résoudre la deuxième inéquation.\nc) Écrire sous forme d'intervalle l'ensemble des nombres qui vérifient les deux.\nd) En déduire les entiers naturels cherchés.",
+          "solution": "a) 2x − 3 ≥ 1\n2x ≥ 4\nx ≥ 2\n\nb) 5 − x > −1\n−x > −6\nOn multiplie par −1 : on change le sens de l'inégalité.\nx < 6\n\nc) Il faut x ≥ 2 et x < 6, donc 2 ≤ x < 6.\nL'ensemble des solutions est l'intervalle [2 ; 6[.\n\nd) Les entiers naturels de l'intervalle [2 ; 6[ sont : 2 ; 3 ; 4 ; 5."
+        },
+        {
+          "enonce": "🔴 Niveau Expert (BEPC)\n\nMino achète 3 cahiers et 2 stylos pour 5500 Ar. Rado achète 2 cahiers et 4 stylos pour 5000 Ar. Les prix sont les mêmes pour les deux.\na) Choisir les inconnues et écrire le système.\nb) Résoudre le système.\nc) Quel est le prix d'un cahier et d'un stylo achetés ensemble ?",
+          "solution": "a) On appelle c le prix d'un cahier et s le prix d'un stylo, en Ar.\n3c + 2s = 5500\n2c + 4s = 5000\n\nb) On multiplie la première équation par 2 :\n6c + 4s = 11 000\nOn soustrait la deuxième équation :\n(6c + 4s) − (2c + 4s) = 11 000 − 5000\n4c = 6000\nc = 1500\n\nOn remplace dans la première équation :\n3 × 1500 + 2s = 5500\n4500 + 2s = 5500\n2s = 1000\ns = 500\n\nUn cahier coûte 1500 Ar et un stylo coûte 500 Ar.\n\nVérification : 2 × 1500 + 4 × 500 = 3000 + 2000 = 5000 ✓\n\nc) 1500 + 500 = 2000 Ar"
+        },
+        {
+          "enonce": "🔴 Niveau Expert (BEPC)\n\nUn loueur de motos propose deux formules, pour une distance de x kilomètres :\nFormule A : 1000 Ar de forfait, puis 600 Ar par kilomètre.\nFormule B : 800 Ar par kilomètre, sans forfait.\na) Exprimer le prix de chaque formule en fonction de x.\nb) Pour quelle distance les deux formules coûtent-elles le même prix ?\nc) Pour 8 km, quelle formule est la moins chère ?\nd) À partir de quelle distance la formule A est-elle plus avantageuse ?",
+          "solution": "a) Formule A : PA = 1000 + 600x\nFormule B : PB = 800x\n\nb) PA = PB\n1000 + 600x = 800x\n1000 = 200x\nx = 5\nLes deux formules coûtent le même prix pour 5 km (4000 Ar).\n\nc) Pour 8 km :\nPA = 1000 + 600 × 8 = 5800 Ar\nPB = 800 × 8 = 6400 Ar\nLa formule A est la moins chère.\n\nd) On résout PA < PB :\n1000 + 600x < 800x\n1000 < 200x\nx > 5\nLa formule A est plus avantageuse au-delà de 5 km."
+        }
+      ]
+    },
+    
+    
+    
