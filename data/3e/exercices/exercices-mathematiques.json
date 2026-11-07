@@ -195,6 +195,66 @@
         }
       ]
     },
+        {
+      "id": "exo-geometrie",
+      "titre": "Géométrie et Mesure",
+      "exercices": [
+        {
+          "enonce": "🟢 Niveau Facile\n\nCalculer l'angle au centre d'un polygone régulier à 8 côtés (un octogone).\n\n<div style='text-align:center;margin:8px 0'><div style='display:inline-block;background:#ffffff;padding:8px;border-radius:8px'><svg width='220' height='200' viewBox='0 0 220 200' xmlns='http://www.w3.org/2000/svg'><polygon points='190,100 166.6,43.4 110,20 53.4,43.4 30,100 53.4,156.6 110,180 166.6,156.6' fill='#e0f2fe' stroke='#0369a1' stroke-width='2'/><line x1='110' y1='100' x2='190' y2='100' stroke='#dc2626' stroke-width='2'/><line x1='110' y1='100' x2='166.6' y2='43.4' stroke='#dc2626' stroke-width='2'/><path d='M135 100 A25 25 0 0 0 127.7 82.3' fill='none' stroke='#dc2626' stroke-width='2'/><circle cx='110' cy='100' r='3' fill='#1f2937'/><g fill='#1f2937' font-size='12' font-weight='bold'><text x='98' y='116'>O</text><text x='146' y='90' fill='#dc2626' font-size='14'>?</text></g><text x='110' y='196' text-anchor='middle' font-size='10' fill='#475569'>Octogone régulier (8 côtés)</text></svg></div></div>",
+          "solution": "Angle au centre = 360° / n = 360° / 8 = 45°"
+        },
+        {
+          "enonce": "🟢 Niveau Facile\n\nABC est un triangle rectangle en A, avec AB = 3 cm, AC = 4 cm et BC = 5 cm.\nCalculer sin B, cos B et tan B.",
+          "solution": "Par rapport à l'angle B :\n– le côté opposé est [AC] ;\n– le côté adjacent est [AB] ;\n– l'hypoténuse est [BC].\n\nsin B = opposé / hypoténuse = AC / BC = 4/5 = 0,8\ncos B = adjacent / hypoténuse = AB / BC = 3/5 = 0,6\ntan B = opposé / adjacent = AC / AB = 4/3"
+        },
+        {
+          "enonce": "🟢 Niveau Facile\n\nSur un cercle de centre O, on place trois points A, B et M. L'angle au centre AOB mesure 80°. L'angle inscrit AMB intercepte le même arc AB.\na) Calculer l'angle AMB.\nb) Un angle inscrit mesure 35°. Combien mesure l'angle au centre qui intercepte le même arc ?\nc) [AB] est un diamètre du cercle et N est un point du cercle, différent de A et de B. Combien mesure l'angle ANB ?",
+          "solution": "a) Un angle inscrit mesure la moitié de l'angle au centre qui intercepte le même arc :\nAMB = 80° ÷ 2 = 40°\n\nb) L'angle au centre mesure le double de l'angle inscrit :\n2 × 35° = 70°\n\nc) L'angle au centre qui intercepte l'arc AB est l'angle plat AOB = 180°.\nANB = 180° ÷ 2 = 90°\nUn triangle ANB inscrit dans un cercle, dont un côté est un diamètre, est rectangle en N."
+        },
+        {
+          "enonce": "🟢 Niveau Facile\n\nABCD est un parallélogramme.\na) Citer un vecteur égal à →AB.\nb) Citer un vecteur égal à →AD.\nc) Simplifier : →AB + →BC + →CD",
+          "solution": "a) Dans un parallélogramme ABCD, les côtés opposés sont parallèles et de même longueur, et ils vont dans le même sens :\n→AB = →DC\n\nb) →AD = →BC\n\nc) On utilise la relation de Chasles :\n→AB + →BC = →AC\n→AC + →CD = →AD\nDonc →AB + →BC + →CD = →AD"
+        },
+        {
+          "enonce": "🟢 Niveau Facile\n\nDans un repère, on donne les points A(1 ; 2) et B(5 ; 6).\na) Calculer les coordonnées du vecteur →AB.\nb) Calculer les coordonnées du milieu I de [AB].",
+          "solution": "a) →AB a pour coordonnées (xB − xA ; yB − yA) :\n→AB (5 − 1 ; 6 − 2) = (4 ; 4)\n\nb) Les coordonnées du milieu sont les moyennes des coordonnées :\nxI = (1 + 5)/2 = 3\nyI = (2 + 6)/2 = 4\nI (3 ; 4)"
+        },
+        {
+          "enonce": "🟢 Niveau Facile\n\nDans un repère, on donne le point A(2 ; 3). Donner les coordonnées de :\na) A1, symétrique de A par rapport à l'axe des abscisses ;\nb) A2, symétrique de A par rapport à l'axe des ordonnées ;\nc) A3, symétrique de A par rapport à l'origine O ;\nd) A4, image de A par la translation de vecteur →u (3 ; −1).",
+          "solution": "a) La symétrie par rapport à l'axe des abscisses garde l'abscisse et change le signe de l'ordonnée :\nA1 (2 ; −3)\n\nb) La symétrie par rapport à l'axe des ordonnées change le signe de l'abscisse et garde l'ordonnée :\nA2 (−2 ; 3)\n\nc) La symétrie par rapport à l'origine change le signe des deux coordonnées :\nA3 (−2 ; −3)\n\nd) On ajoute les coordonnées du vecteur à celles de A :\nA4 (2 + 3 ; 3 + (−1)) = (5 ; 2)"
+        },
+        {
+          "enonce": "🟢 Niveau Facile\n\nConvertir :\na) 3,5 km en mètres\nb) 450 cm en mètres\nc) 2,5 m² en cm²\nd) 4 ha en m²",
+          "solution": "a) 1 km = 1000 m, donc 3,5 km = 3,5 × 1000 = 3500 m\n\nb) 1 m = 100 cm, donc 450 cm = 450 ÷ 100 = 4,5 m\n\nc) 1 m² = 10 000 cm², donc 2,5 m² = 2,5 × 10 000 = 25 000 cm²\n\nd) 1 ha = 10 000 m², donc 4 ha = 4 × 10 000 = 40 000 m²"
+        },
+        {
+          "enonce": "🟡 Niveau Moyen\n\nABC est un triangle. M est un point de [AB] et N un point de [AC] tels que (MN) soit parallèle à (BC).\nOn donne : AM = 4 cm, AB = 10 cm, AC = 7,5 cm.\nCalculer AN.\n\n<div style='text-align:center;margin:8px 0'><div style='display:inline-block;background:#ffffff;padding:8px;border-radius:8px'><svg width='260' height='212' viewBox='0 0 260 212' xmlns='http://www.w3.org/2000/svg'><polygon points='130,15 20,150 240,150' fill='#f8fafc' stroke='#1f2937' stroke-width='2'/><line x1='86' y1='69' x2='174' y2='69' stroke='#dc2626' stroke-width='2'/><circle cx='86' cy='69' r='3' fill='#dc2626'/><circle cx='174' cy='69' r='3' fill='#dc2626'/><g font-size='12' font-weight='bold' fill='#1f2937'><text x='130' y='11' text-anchor='middle'>A</text><text x='8' y='164'>B</text><text x='244' y='164'>C</text><text x='80' y='73' text-anchor='end'>M</text><text x='180' y='73'>N</text></g><g font-size='11' fill='#2563eb'><text x='97' y='38' text-anchor='end'>4</text><text x='62' y='80' text-anchor='end'>10</text><text x='198' y='82'>7,5</text><text x='162' y='42' fill='#dc2626' font-weight='bold'>?</text></g><g text-anchor='middle' fill='#1f2937'><text x='130' y='184' font-size='11'>(MN) // (BC)</text><text x='130' y='202' font-size='10'>AM = 4 cm ; AB = 10 cm ; AC = 7,5 cm</text></g></svg></div></div>",
+          "solution": "D'après le théorème de Thalès :\nAM/AB = AN/AC\n4/10 = AN/7,5\nAN = 4 × 7,5 / 10\nAN = 30/10 = 3\n\nAN = 3 cm."
+        },
+        {
+          "enonce": "🟡 Niveau Moyen\n\nABC est un triangle rectangle en A, avec AB = 6 cm et l'angle ABC = 35°.\na) Calculer AC (arrondir au dixième).\nb) Calculer BC (arrondir au dixième).\n(La calculatrice doit être en mode degrés.)",
+          "solution": "Par rapport à l'angle B : [AC] est le côté opposé, [AB] le côté adjacent et [BC] l'hypoténuse.\n\na) tan B = AC / AB\nAC = AB × tan 35° = 6 × 0,7002...\nAC ≈ 4,2 cm\n\nb) cos B = AB / BC\nBC = AB / cos 35° = 6 / 0,8192...\nBC ≈ 7,3 cm"
+        },
+        {
+          "enonce": "🟡 Niveau Moyen\n\n[AB] est un diamètre d'un cercle de centre O. M est un point du cercle, différent de A et de B. On donne l'angle MAB = 52°.\na) Quelle est la nature du triangle AMB ? Justifier.\nb) Calculer l'angle ABM.\nc) Calculer l'angle au centre MOB.",
+          "solution": "a) M est sur le cercle de diamètre [AB] : le triangle AMB est rectangle en M. L'angle AMB mesure 90°.\n\nb) Dans un triangle, la somme des angles est 180° :\nABM = 180° − 90° − 52° = 38°\n\nc) L'angle au centre MOB intercepte le même arc MB que l'angle inscrit MAB. Il mesure le double :\nMOB = 2 × 52° = 104°\n\nVérification : le triangle OMB est isocèle en O (OM = OB), donc OMB = OBM = (180° − 104°) ÷ 2 = 38°. On retrouve bien ABM = 38°."
+        },
+        {
+          "enonce": "🟡 Niveau Moyen\n\nABCD est un parallélogramme. Compléter avec un seul vecteur :\na) →AB + →AD = ...\nb) →BA + →BC = ...\nc) →AC − →AB = ...\nd) →AB + →CD = ...",
+          "solution": "a) Règle du parallélogramme : →AB + →AD = →AC\n\nb) Même règle, avec le sommet B : →BA + →BC = →BD\n\nc) Par la relation de Chasles, →AC = →AB + →BC, donc →AC − →AB = →BC\n\nd) →CD est l'opposé de →DC, et →DC = →AB, donc →CD = −→AB.\nAinsi →AB + →CD = →AB − →AB = vecteur nul."
+        },
+        {
+          "enonce": "🟡 Niveau Moyen\n\nDans un repère orthonormé, on donne les points A(−1 ; 2) et B(3 ; 5).\na) Calculer les coordonnées du vecteur →AB.\nb) Calculer la distance AB.\nc) Calculer les coordonnées du milieu I de [AB].",
+          "solution": "a) →AB (3 − (−1) ; 5 − 2) = (4 ; 3)\n\nb) AB = √((xB − xA)² + (yB − yA)²)\nAB = √(4² + 3²) = √(16 + 9) = √25 = 5\n\nc) xI = (−1 + 3)/2 = 1\nyI = (2 + 5)/2 = 3,5\nI (1 ; 3,5)"
+        },
+        {
+          "enonce": "🟡 Niveau Moyen\n\nDans un repère, on donne le point A(−1 ; 4) et le vecteur →u (2 ; −3).\na) Calculer les coordonnées de l'image de A par la translation de vecteur →u.\nb) Le point B'(4 ; 0) est l'image d'un point B par cette translation. Calculer les coordonnées de B.\nc) Calculer les coordonnées du symétrique de M(5 ; −1) par rapport au point I(2 ; 1).",
+          "solution": "a) On ajoute les coordonnées du vecteur :\nA' (−1 + 2 ; 4 + (−3)) = (1 ; 1)\n\nb) On retranche les coordonnées du vecteur :\nB (4 − 2 ; 0 − (−3)) = (2 ; 3)\n\nc) I est le milieu de [MM'], où M' est le symétrique de M.\nxI = (xM + xM')/2 donne xM' = 2 × 2 − 5 = −1\nyI = (yM + yM')/2 donne yM' = 2 × 1 − (−1) = 3\nM' (−1 ; 3)"
+        },
+        {
+          "enonce": "🟡 Niveau Moyen\n\nUn terrain rectangulaire mesure 45 m de long et 28 m de large.\na) Calculer son aire en m², puis en ares et en hectares.\nb) Calculer son périmètre.\nc) Un triangle a une base de 12 m et une hauteur de 7,5 m. Calculer son aire.\nd) Convertir 3 400 000 cm² en m².",
+          "solution": "a) Aire = 45 × 28 = 1260 m²\n1 are = 100 m², donc 1260 m² = 1260 ÷ 100 = 12,6 a\n1 ha = 10 000 m², donc 1260 m² = 1260 ÷ 10 000 = 0,126 ha\n\nb) Périmètre = 2 × (45 + 28) = 2 × 73 = 146 m\n\nc) Aire du triangle = base × hauteur ÷ 2 = 12 × 7,5 ÷ 2 = 90 ÷ 2 = 45 m²\n\nd) 1 m² = 10 000 cm², donc 3 400 000 cm² = 3 400 000 ÷ 10 000 = 340 m²"
+        },
     
     
     
