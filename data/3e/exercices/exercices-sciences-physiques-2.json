@@ -1,0 +1,27 @@
+{
+  "matiere": "Sciences Physiques",
+  "chapitres": [
+    {
+      "id": "exo-sp-6-poids-archimede",
+      "titre": "Thématique 6 : Poids et poussée d'Archimède",
+      "exercices": [
+        {
+          "enonce": "🟢 Niveau Facile\n\nUne valise a une masse de 12 kg. On prend g = 10 N/kg sur Terre.\n\n1) Calculer le poids de la valise sur Terre.\n2) Sur la Lune, g = 1,6 N/kg. Calculer le poids de la valise sur la Lune.\n3) Quelle est la masse de la valise sur la Lune ?\n4) Un autre objet fait indiquer 45 N à un dynamomètre sur Terre. Quelle est sa masse ?",
+          "solution": "1) P = m × g = 12 × 10 = 120 N.\n2) P = m × g = 12 × 1,6 = 19,2 N.\n3) La masse ne change pas d'un lieu à l'autre : elle vaut toujours 12 kg.\n4) m = P / g = 45 / 10 = 4,5 kg."
+        },
+        {
+          "enonce": "🟡 Niveau Moyen\n\nUn cube plein a une arête de 5 cm et une masse de 337,5 g. On prend g = 10 N/kg et ρeau = 1000 kg/m³.\n\nMasses volumiques : aluminium 2700 kg/m³ ; fer 7800 kg/m³ ; cuivre 8900 kg/m³.\n\n1) Calculer le volume du cube en cm³.\n2) Calculer sa masse volumique en g/cm³, puis en kg/m³.\n3) De quel métal est-il fait ?\n4) Un bloc de 2 dm³ du même métal est plongé dans l'eau. Calculer sa masse, puis son poids. Coule-t-il ou flotte-t-il ?",
+          "solution": "1) V = 5 × 5 × 5 = 125 cm³.\n2) ρ = m / V = 337,5 / 125 = 2,7 g/cm³. Comme 1 g/cm³ = 1000 kg/m³, ρ = 2700 kg/m³.\n3) C'est de l'aluminium.\n4) V = 2 dm³ = 0,002 m³.\nm = ρ × V = 2700 × 0,002 = 5,4 kg.\nP = m × g = 5,4 × 10 = 54 N.\nComme 2700 > 1000, le bloc coule."
+        },
+        {
+          "enonce": "🟠 Niveau Difficile\n\nUn objet est suspendu à un dynamomètre. Dans l'air, le dynamomètre indique 8,1 N. L'objet est ensuite entièrement plongé dans l'eau : le dynamomètre indique alors 5,1 N. On prend g = 10 N/kg et ρeau = 1000 kg/m³.\n\n1) Calculer la poussée d'Archimède exercée par l'eau.\n2) Calculer le volume de l'objet, en m³ puis en cm³.\n3) Calculer la masse de l'objet, puis sa masse volumique. De quel métal s'agit-il probablement (aluminium 2700 kg/m³, fer 7800 kg/m³) ?\n4) On plonge le même objet dans de l'eau de mer (ρ = 1030 kg/m³). Calculer la nouvelle poussée, puis l'indication du dynamomètre.",
+          "solution": "1) Π = P − Papparent = 8,1 − 5,1 = 3 N.\n2) V = Π / (ρeau × g) = 3 / (1000 × 10) = 0,0003 m³ = 300 cm³.\n3) m = P / g = 8,1 / 10 = 0,81 kg.\nρ = m / V = 0,81 / 0,0003 = 2700 kg/m³ : c'est probablement de l'aluminium.\n4) Π = ρ × V × g = 1030 × 0,0003 × 10 = 3,09 N.\nLe dynamomètre indique P − Π = 8,1 − 3,09 = 5,01 N. L'indication est un peu plus petite que dans l'eau douce, car la poussée est plus grande dans l'eau de mer."
+        },
+        {
+          "enonce": "🔴 Niveau Expert (BEPC)\n\nUne pirogue en bois a une masse de 60 kg. On la modélise par une boîte de 4 m de longueur, 0,5 m de largeur et 0,4 m de hauteur. Elle flotte sur un lac d'eau douce. On prend g = 10 N/kg et ρeau = 1000 kg/m³.\n\n1) Calculer le poids de la pirogue vide.\n2) La pirogue vide flotte en équilibre. Calculer la poussée d'Archimède, puis le volume d'eau déplacé. En déduire de quelle hauteur elle s'enfonce dans l'eau.\n3) La pirogue ne doit pas s'enfoncer au-delà de ses bords (hauteur 0,4 m). Calculer la poussée maximale, puis la masse totale maximale, et enfin la charge maximale qu'elle peut transporter.\n4) Cinq passagers de 60 kg chacun embarquent avec 100 kg de riz. Peut-elle les transporter ? De quelle hauteur s'enfonce-t-elle alors ? Quelle hauteur de bord reste-t-il au-dessus de l'eau ?",
+          "solution": "1) P = m × g = 60 × 10 = 600 N.\n2) À l'équilibre, Π = P = 600 N.\nV = Π / (ρ × g) = 600 / (1000 × 10) = 0,06 m³.\nLa surface du fond vaut 4 × 0,5 = 2 m².\nHauteur enfoncée = V / surface = 0,06 / 2 = 0,03 m = 3 cm.\n3) Volume maximal immergé : 4 × 0,5 × 0,4 = 0,8 m³.\nΠmax = ρ × V × g = 1000 × 0,8 × 10 = 8000 N.\nÀ la limite, le poids total est égal à 8000 N, donc la masse totale maximale est 8000 / 10 = 800 kg.\nCharge maximale = 800 − 60 = 740 kg.\n4) Charge : 5 × 60 + 100 = 400 kg. Comme 400 < 740, la pirogue peut les transporter.\nMasse totale : 60 + 400 = 460 kg. Poids total : 4600 N, donc Π = 4600 N.\nV = 4600 / (1000 × 10) = 0,46 m³.\nHauteur enfoncée = 0,46 / 2 = 0,23 m = 23 cm.\nIl reste 40 − 23 = 17 cm de bord au-dessus de l'eau."
+        }
+      ]
+    }
+  ]
+}
