@@ -1,0 +1,343 @@
+{
+  "id": "math4-5-proportionnalite",
+  "titre": "Chapitre 5 : La proportionnalité",
+  "lecons": [
+    {
+      "id": "math4-5-1-grandeurs",
+      "titre": "Grandeurs proportionnelles et coefficient",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Grandeurs proportionnelles",
+          "texte": "Deux grandeurs sont proportionnelles quand on passe des valeurs de l'une aux valeurs de l'autre en multipliant toujours par le même nombre, non nul.\nCe nombre s'appelle le coefficient de proportionnalité, noté k.\nSi x est la première grandeur et y la seconde :\ny = k × x et k = y ÷ x."
+        },
+        {
+          "type": "tableau",
+          "titre": "Exemple : le prix du riz",
+          "entetes": ["Masse de riz (kg)", "1", "2", "3", "5"],
+          "lignes": [
+            ["Prix (Ar)", "2 500", "5 000", "7 500", "12 500"]
+          ]
+        },
+        {
+          "type": "exemple",
+          "titre": "Le coefficient",
+          "texte": "Dans le tableau du riz, on multiplie la masse par 2 500 pour trouver le prix :\n• 1 × 2 500 = 2 500\n• 3 × 2 500 = 7 500\n• 5 × 2 500 = 12 500\nLe coefficient de proportionnalité est k = 2 500. C'est le prix d'un kilogramme : 2 500 Ar/kg."
+        },
+        {
+          "type": "methode",
+          "titre": "Reconnaître un tableau de proportionnalité",
+          "texte": "1. Pour chaque colonne, calculer le quotient (nombre de la 2e ligne) ÷ (nombre de la 1re ligne).\n2. Si tous les quotients sont égaux, le tableau est un tableau de proportionnalité. Leur valeur commune est le coefficient k.\n3. Si un seul quotient est différent, ce n'est pas un tableau de proportionnalité.\nExemple : 2 → 6 ; 5 → 15 ; 8 → 24.\n6 ÷ 2 = 3 ; 15 ÷ 5 = 3 ; 24 ÷ 8 = 3. Les quotients sont égaux, donc c'est un tableau de proportionnalité de coefficient 3."
+        },
+        {
+          "type": "exemple",
+          "titre": "Un tableau qui n'est pas de proportionnalité",
+          "texte": "Âge d'un enfant et sa taille :\n• 5 ans → 110 cm : 110 ÷ 5 = 22\n• 10 ans → 140 cm : 140 ÷ 10 = 14\n• 15 ans → 165 cm : 165 ÷ 15 = 11\nLes quotients sont différents : la taille n'est pas proportionnelle à l'âge."
+        },
+        {
+          "type": "regle",
+          "titre": "Propriétés d'un tableau de proportionnalité",
+          "texte": "• Si on multiplie (ou divise) une colonne par un nombre, on obtient une autre colonne du tableau.\n• Si on additionne deux colonnes, on obtient une autre colonne du tableau.\nExemple avec le riz : colonne (2 ; 5 000) + colonne (3 ; 7 500) = colonne (5 ; 12 500)."
+        },
+        {
+          "type": "remarque",
+          "texte": "Beaucoup de situations ne sont pas proportionnelles :\n• l'âge et la taille ;\n• le prix d'un taxi qui a un forfait de départ (la somme fixe change les quotients) ;\n• le nombre de pages lues et l'âge du lecteur.\nIl faut toujours vérifier avant d'utiliser la proportionnalité."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Grandeur", "Ce qu'on peut mesurer : longueur, masse, prix, durée..."],
+            ["Proportionnelles", "Qui varient ensemble en multipliant toujours par le même nombre"],
+            ["Coefficient de proportionnalité", "Le nombre par lequel on multiplie, noté k"],
+            ["Quotient", "Résultat d'une division"],
+            ["Forfait", "Somme fixe payée à l'avance"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Ces tableaux sont-ils des tableaux de proportionnalité ? Si oui, donne le coefficient.\na) x : 2 ; 5 ; 8 et y : 6 ; 15 ; 24.\nb) x : 3 ; 6 ; 9 et y : 5 ; 10 ; 16.",
+          "solution": "a) 6 ÷ 2 = 3 ; 15 ÷ 5 = 3 ; 24 ÷ 8 = 3. Les quotients sont égaux : oui, avec k = 3.\nb) 5 ÷ 3 ≈ 1,67 ; 10 ÷ 6 ≈ 1,67 ; 16 ÷ 9 ≈ 1,78. Les quotients ne sont pas tous égaux : non."
+        }
+      ]
+    },
+    {
+      "id": "math4-5-2-produit-croix",
+      "titre": "Quatrième proportionnelle et produit en croix",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Quatrième proportionnelle",
+          "texte": "Dans un tableau de proportionnalité à deux lignes et deux colonnes, si on connaît trois nombres, le quatrième nombre est appelé la quatrième proportionnelle.\nOn peut le calculer de trois façons : avec le coefficient, avec le passage à l'unité, ou avec le produit en croix."
+        },
+        {
+          "type": "methode",
+          "titre": "Avec le coefficient",
+          "texte": "On calcule k, puis on multiplie.\nExemple : 7 cahiers coûtent 12 250 Ar. Combien coûtent 12 cahiers ?\nk = 12 250 ÷ 7 = 1 750 Ar par cahier.\nPrix de 12 cahiers = 12 × 1 750 = 21 000 Ar."
+        },
+        {
+          "type": "methode",
+          "titre": "Passage à l'unité",
+          "texte": "On cherche d'abord la valeur pour 1, puis on multiplie.\nExemple : 5 L d'essence coûtent 22 500 Ar. Combien coûtent 8 L ?\n• Pour 1 L : 22 500 ÷ 5 = 4 500 Ar.\n• Pour 8 L : 8 × 4 500 = 36 000 Ar."
+        },
+        {
+          "type": "regle",
+          "titre": "Produit en croix",
+          "texte": "Dans un tableau de proportionnalité, les produits en croix sont égaux :\nsi a/b = c/d (avec b et d différents de 0), alors a × d = b × c.\nPour un tableau\n a | c\n b | x\non a a × x = b × c, donc x = (b × c) ÷ a.\nOn multiplie les deux nombres connus qui sont en diagonale, puis on divise par le troisième nombre."
+        },
+        {
+          "type": "schema",
+          "titre": "Le produit en croix",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='300' height='150' viewBox='0 0 300 150'><rect x='70' y='20' width='160' height='90' fill='none' stroke='currentColor' stroke-width='2'/><line x1='150' y1='20' x2='150' y2='110' stroke='currentColor' stroke-width='1.5'/><line x1='70' y1='65' x2='230' y2='65' stroke='currentColor' stroke-width='1.5'/><line x1='88' y1='32' x2='212' y2='98' stroke='#e11d48' stroke-width='2'/><line x1='212' y1='32' x2='88' y2='98' stroke='#e11d48' stroke-width='2'/><g font-size='18' font-weight='bold' fill='currentColor' text-anchor='middle'><text x='110' y='50'>4</text><text x='190' y='50'>10</text><text x='110' y='95'>18</text><text x='190' y='95'>x</text></g><text x='150' y='137' font-size='14' fill='currentColor' text-anchor='middle'>4 × x = 10 × 18, donc x = 180 ÷ 4 = 45</text></svg>",
+          "legende": "On multiplie les nombres reliés par chaque diagonale : les deux produits sont égaux."
+        },
+        {
+          "type": "exemple",
+          "titre": "Une recette",
+          "texte": "Pour 4 personnes, il faut 300 g de riz. Quelle quantité faut-il pour 10 personnes ?\nTableau :\nPersonnes : 4 | 10\nRiz (g) : 300 | x\n4 × x = 10 × 300, donc x = 3 000 ÷ 4 = 750.\nIl faut 750 g de riz pour 10 personnes."
+        },
+        {
+          "type": "remarque",
+          "texte": "• Vérifier d'abord que la situation est proportionnelle.\n• Écrire un tableau avec les unités avant de calculer.\n• Vérifier que le résultat est logique : plus de personnes, plus de riz."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Quatrième proportionnelle", "Nombre manquant dans un tableau de proportionnalité"],
+            ["Produit en croix", "Multiplication des nombres placés en diagonale"],
+            ["Passage à l'unité", "Calculer d'abord la valeur pour 1"],
+            ["Diagonale", "Ligne qui relie deux coins opposés"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Une voiture consomme 6 L d'essence pour 80 km. Combien consomme-t-elle pour 200 km ? Utilise le produit en croix.",
+          "solution": "Tableau : distance 80 | 200 et essence 6 | x.\n80 × x = 200 × 6 = 1 200, donc x = 1 200 ÷ 80 = 15.\nLa voiture consomme 15 L pour 200 km."
+        }
+      ]
+    },
+    {
+      "id": "math4-5-3-graphique",
+      "titre": "Représentation graphique",
+      "blocs": [
+        {
+          "type": "regle",
+          "titre": "Graphique d'une situation proportionnelle",
+          "texte": "On place dans un repère les points dont les coordonnées (x ; y) sont les colonnes du tableau.\n• Si les grandeurs sont proportionnelles, les points sont alignés sur une droite qui passe par l'origine O.\n• Réciproquement, si les points sont alignés sur une droite qui passe par l'origine, les grandeurs sont proportionnelles.\nSi la droite ne passe pas par O, ou si les points ne sont pas alignés, il n'y a pas de proportionnalité."
+        },
+        {
+          "type": "schema",
+          "titre": "Graphique de y = 2x",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='300' height='225' viewBox='0 0 300 225'><line x1='40' y1='190' x2='284' y2='190' stroke='currentColor' stroke-width='2'/><polygon points='290,190 281,186 281,194' fill='currentColor'/><line x1='40' y1='190' x2='40' y2='16' stroke='currentColor' stroke-width='2'/><polygon points='40,10 36,19 44,19' fill='currentColor'/><g stroke='currentColor' stroke-width='1.5'><line x1='85' y1='186' x2='85' y2='194'/><line x1='130' y1='186' x2='130' y2='194'/><line x1='175' y1='186' x2='175' y2='194'/><line x1='220' y1='186' x2='220' y2='194'/><line x1='265' y1='186' x2='265' y2='194'/><line x1='36' y1='154' x2='44' y2='154'/><line x1='36' y1='118' x2='44' y2='118'/><line x1='36' y1='82' x2='44' y2='82'/><line x1='36' y1='46' x2='44' y2='46'/></g><g font-size='12' fill='currentColor' text-anchor='middle'><text x='85' y='208'>1</text><text x='130' y='208'>2</text><text x='175' y='208'>3</text><text x='220' y='208'>4</text><text x='265' y='208'>5</text></g><g font-size='12' fill='currentColor' text-anchor='end'><text x='33' y='158'>2</text><text x='33' y='122'>4</text><text x='33' y='86'>6</text><text x='33' y='50'>8</text></g><text x='28' y='204' font-size='13' font-weight='bold' fill='currentColor'>O</text><line x1='40' y1='190' x2='250' y2='22' stroke='#e11d48' stroke-width='2'/><g fill='#e11d48'><circle cx='85' cy='154' r='4'/><circle cx='130' cy='118' r='4'/><circle cx='175' cy='82' r='4'/><circle cx='220' cy='46' r='4'/></g><text x='255' y='34' font-size='14' font-weight='bold' fill='#e11d48'>y = 2x</text></svg>",
+          "legende": "Les points (1 ; 2), (2 ; 4), (3 ; 6) et (4 ; 8) sont alignés avec l'origine O."
+        },
+        {
+          "type": "exemple",
+          "titre": "Lire sur le graphique",
+          "texte": "Sur le graphique de y = 2x :\n• pour x = 2, on lit y = 4 ;\n• pour x = 4, on lit y = 8 ;\n• le coefficient k est l'ordonnée du point d'abscisse 1 : ici k = 2.\nOn peut aussi lire entre les points marqués : pour x = 2,5, on trouve y = 5 (2 × 2,5)."
+        },
+        {
+          "type": "methode",
+          "titre": "Tracer le graphique d'une situation proportionnelle",
+          "texte": "1. Dresser le tableau de proportionnalité.\n2. Choisir une échelle sur chaque axe.\n3. Placer les points (x ; y) du tableau.\n4. Tracer la droite qui passe par l'origine et par ces points.\nUn seul point autre que O suffit à tracer la droite, mais on en place au moins deux ou trois pour vérifier."
+        },
+        {
+          "type": "exemple",
+          "titre": "Taux de la banque",
+          "texte": "Une banque donne un intérêt de 5 % : 40 Ar placés rapportent 2 Ar, 80 Ar rapportent 4 Ar et 100 Ar rapportent 5 Ar.\nQuotients : 2 ÷ 40 = 0,05 ; 4 ÷ 80 = 0,05 ; 5 ÷ 100 = 0,05. L'intérêt est proportionnel à la somme placée, avec k = 0,05 (soit 5 %). Les points (40 ; 2), (80 ; 4) et (100 ; 5) sont alignés avec l'origine."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Alignés", "Sur une même droite"],
+            ["Origine", "Point O, de coordonnées (0 ; 0)"],
+            ["Abscisse", "Nombre lu sur l'axe horizontal"],
+            ["Ordonnée", "Nombre lu sur l'axe vertical"],
+            ["Intérêt", "Argent que rapporte une somme placée à la banque"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Le prix d'un tissu est proportionnel à sa longueur : 2 m coûtent 6 000 Ar. Complète : 1 m → ? ; 3 m → ? ; 5 m → ?. Quel est le coefficient ? Comment sont placés les points sur le graphique ?",
+          "solution": "1 m coûte 6 000 ÷ 2 = 3 000 Ar. 3 m coûtent 9 000 Ar. 5 m coûtent 15 000 Ar.\nLe coefficient est k = 3 000 Ar/m.\nLes points (1 ; 3 000), (2 ; 6 000), (3 ; 9 000), (5 ; 15 000) sont alignés sur une droite qui passe par l'origine."
+        }
+      ]
+    },
+    {
+      "id": "math4-5-4-pourcentages",
+      "titre": "Pourcentages",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Pourcentage",
+          "texte": "Un pourcentage (ou taux) est une fraction de dénominateur 100.\nt % = t/100.\nExemples : 25 % = 25/100 = 0,25 = 1/4 ; 50 % = 1/2 ; 100 % = 1 (le tout)."
+        },
+        {
+          "type": "regle",
+          "titre": "Calculer un pourcentage d'une quantité",
+          "texte": "Pour trouver t % d'une quantité, on multiplie cette quantité par t/100.\nExemple : 20 % de 15 000 Ar = 20/100 × 15 000 = 0,2 × 15 000 = 3 000 Ar.\nC'est une situation de proportionnalité : 100 % correspond à la quantité totale."
+        },
+        {
+          "type": "regle",
+          "titre": "Calculer un taux",
+          "texte": "Pour savoir quel pourcentage une partie représente du total :\ntaux = (partie ÷ total) × 100.\nExemple : 12 élèves sur 40 : 12 ÷ 40 = 0,3, donc 30 %."
+        },
+        {
+          "type": "schema",
+          "titre": "30 % de 40 élèves",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='300' height='105' viewBox='0 0 300 105'><rect x='30' y='25' width='60' height='32' fill='#e11d48' fill-opacity='0.4' stroke='currentColor' stroke-width='2'/><rect x='90' y='25' width='140' height='32' fill='none' stroke='currentColor' stroke-width='2'/><g font-size='13' fill='currentColor' text-anchor='middle'><text x='30' y='20'>0 %</text><text x='230' y='20'>100 %</text><text x='60' y='46' font-weight='bold'>30 %</text></g><text x='60' y='76' font-size='12' fill='currentColor' text-anchor='middle'>12 élèves</text><text x='160' y='76' font-size='12' fill='currentColor' text-anchor='middle'>28 élèves</text><text x='130' y='98' font-size='13' fill='currentColor' text-anchor='middle'>Total : 40 élèves = 100 %</text></svg>",
+          "legende": "La barre entière représente le tout (100 %). La partie colorée représente 30 % du tout."
+        },
+        {
+          "type": "methode",
+          "titre": "Augmentation et réduction",
+          "texte": "• Augmenter une quantité de t % : multiplier par (1 + t/100).\n  Augmenter de 15 % : × 1,15.\n• Diminuer une quantité de t % : multiplier par (1 − t/100).\n  Réduire de 20 % : × 0,8.\nExemples :\n• Un article à 40 000 Ar augmente de 15 % : 40 000 × 1,15 = 46 000 Ar.\n• Un article à 25 000 Ar est soldé à − 20 % : 25 000 × 0,8 = 20 000 Ar (la réduction est de 5 000 Ar)."
+        },
+        {
+          "type": "remarque",
+          "texte": "• Pour retrouver le prix de départ après une augmentation de 25 %, on divise par 1,25 : si le prix final est 50 000 Ar, le prix de départ est 50 000 ÷ 1,25 = 40 000 Ar.\n• Deux pourcentages ne s'additionnent pas toujours : une hausse de 10 % puis une baisse de 10 % ne ramène pas au prix de départ.\n• 50 % veut dire la moitié, 25 % le quart, 10 % le dixième."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Pourcentage", "Fraction de dénominateur 100"],
+            ["Taux", "Pourcentage"],
+            ["Remise ou réduction", "Baisse du prix"],
+            ["Augmentation", "Hausse du prix ou de la quantité"],
+            ["Soldé", "Vendu moins cher"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Calcule 15 % de 80 000 Ar.\n2) Dans une classe, 18 élèves sur 24 ont réussi. Quel est le pourcentage de réussite ?\n3) Un article à 40 000 Ar augmente de 5 %. Quel est son nouveau prix ?",
+          "solution": "1) 0,15 × 80 000 = 12 000 Ar.\n2) 18 ÷ 24 = 0,75, donc 75 %.\n3) 40 000 × 1,05 = 42 000 Ar."
+        }
+      ]
+    },
+    {
+      "id": "math4-5-5-echelles",
+      "titre": "Échelles",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Échelle",
+          "texte": "L'échelle d'un plan ou d'une carte est le quotient :\néchelle = (distance sur le plan) ÷ (distance réelle),\ndans la même unité.\nL'échelle 1/50 000 veut dire : 1 cm sur le plan représente 50 000 cm dans la réalité, soit 500 m.\nLes distances sur le plan sont proportionnelles aux distances réelles."
+        },
+        {
+          "type": "schema",
+          "titre": "Échelle 1/50 000",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='300' height='95' viewBox='0 0 300 95'><rect x='60' y='30' width='60' height='16' fill='#e11d48' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><rect x='120' y='30' width='60' height='16' fill='none' stroke='currentColor' stroke-width='2'/><g font-size='13' fill='currentColor' text-anchor='middle'><text x='60' y='24'>0</text><text x='120' y='24'>500 m</text><text x='180' y='24'>1 km</text><text x='90' y='64'>1 cm</text><text x='150' y='64'>1 cm</text></g><text x='120' y='86' font-size='13' font-weight='bold' fill='currentColor' text-anchor='middle'>Échelle 1/50 000</text></svg>",
+          "legende": "Sur la carte, 2 cm représentent 1 km dans la réalité."
+        },
+        {
+          "type": "methode",
+          "titre": "Utiliser l'échelle",
+          "texte": "• Du plan vers la réalité : multiplier par le dénominateur.\n• De la réalité vers le plan : diviser par le dénominateur.\nToujours convertir en cm avant de calculer, puis reconvertir (1 m = 100 cm, 1 km = 100 000 cm).\nExemple 1 : sur une carte à l'échelle 1/200 000, deux villes sont distantes de 6,5 cm.\n6,5 × 200 000 = 1 300 000 cm = 13 000 m = 13 km.\nExemple 2 : deux villes sont distantes de 24 km. Sur une carte au 1/500 000, quelle est la distance ?\n24 km = 2 400 000 cm. 2 400 000 ÷ 500 000 = 4,8 cm."
+        },
+        {
+          "type": "methode",
+          "titre": "Calculer une échelle",
+          "texte": "Un segment de 5 cm sur le plan représente 2 km dans la réalité.\n1. Convertir dans la même unité : 2 km = 200 000 cm.\n2. Faire le quotient : 5 ÷ 200 000 = 1/40 000.\nL'échelle est 1/40 000."
+        },
+        {
+          "type": "remarque",
+          "texte": "• Plus le dénominateur est grand, plus la carte est petite et moins elle est détaillée. Une carte au 1/1 000 000 montre un grand pays, une carte au 1/10 000 montre un quartier.\n• Une échelle sans unité est valable dans n'importe quelle unité : 1/50 000 veut dire 1 cm pour 50 000 cm, ou 1 mm pour 50 000 mm."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Échelle", "Quotient entre la distance sur le plan et la distance réelle"],
+            ["Plan ou carte", "Dessin réduit d'un lieu"],
+            ["Distance réelle", "Distance mesurée sur le terrain"],
+            ["Réduction", "Dessin plus petit que la réalité"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Sur une carte au 1/250 000, deux villes sont séparées par 3,2 cm. Quelle est la distance réelle en km ?\n2) Deux villages sont distants de 15 km. Quelle distance les sépare sur une carte au 1/300 000 ?",
+          "solution": "1) 3,2 × 250 000 = 800 000 cm = 8 km.\n2) 15 km = 1 500 000 cm. 1 500 000 ÷ 300 000 = 5 cm."
+        }
+      ]
+    },
+    {
+      "id": "math4-5-6-vitesse",
+      "titre": "Vitesse moyenne, grandeurs produit et quotient",
+      "blocs": [
+        {
+          "type": "formule",
+          "titre": "Vitesse moyenne",
+          "texte": "v = d ÷ t\nd = v × t\nt = d ÷ v\navec d la distance, t la durée et v la vitesse moyenne.\nUnités : km/h (distance en km, durée en h) ou m/s (distance en m, durée en s)."
+        },
+        {
+          "type": "schema",
+          "titre": "Le triangle d, v, t",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='300' height='150' viewBox='0 0 300 150'><polygon points='150,15 60,120 240,120' fill='#e11d48' fill-opacity='0.12' stroke='currentColor' stroke-width='2'/><line x1='103' y1='70' x2='197' y2='70' stroke='currentColor' stroke-width='2'/><g font-size='20' font-weight='bold' fill='currentColor' text-anchor='middle'><text x='150' y='58'>d</text><text x='122' y='103'>v</text><text x='178' y='103'>t</text></g><text x='150' y='142' font-size='13' fill='currentColor' text-anchor='middle'>Cache la lettre cherchée</text></svg>",
+          "legende": "Cache d : il reste v × t. Cache v : il reste d ÷ t. Cache t : il reste d ÷ v."
+        },
+        {
+          "type": "exemple",
+          "titre": "Calculs de vitesse",
+          "texte": "• Un bus parcourt 150 km en 2 h : v = 150 ÷ 2 = 75 km/h.\n• Un taxi-brousse roule à 60 km/h pendant 1,5 h : d = 60 × 1,5 = 90 km.\n• Pour faire 90 km à 60 km/h : t = 90 ÷ 60 = 1,5 h = 1 h 30 min."
+        },
+        {
+          "type": "remarque",
+          "titre": "Durées décimales",
+          "texte": "Une durée en heures décimales se convertit en minutes en multipliant la partie décimale par 60.\n• 0,5 h = 30 min.\n• 1,25 h = 1 h + 0,25 × 60 min = 1 h 15 min.\n• 40 min = 40/60 h = 2/3 h.\nAttention : 1 h 30 min s'écrit 1,5 h, et non 1,30 h."
+        },
+        {
+          "type": "regle",
+          "titre": "Convertir km/h et m/s",
+          "texte": "1 km/h = 1 000 m ÷ 3 600 s = 1/3,6 m/s.\n• De km/h vers m/s : on divise par 3,6.\n• De m/s vers km/h : on multiplie par 3,6.\nExemples : 36 km/h = 10 m/s. 20 m/s = 72 km/h. 130 km/h ≈ 36 m/s."
+        },
+        {
+          "type": "exemple",
+          "titre": "Attention : la vitesse moyenne n'est pas la moyenne des vitesses",
+          "texte": "Un cycliste fait un aller de 60 km à 30 km/h, puis le retour de 60 km à 60 km/h.\n• Aller : 60 ÷ 30 = 2 h. Retour : 60 ÷ 60 = 1 h.\n• Distance totale : 120 km. Durée totale : 3 h.\n• Vitesse moyenne : 120 ÷ 3 = 40 km/h, et non (30 + 60) ÷ 2 = 45 km/h."
+        },
+        {
+          "type": "definition",
+          "titre": "Grandeurs produit et grandeurs quotient",
+          "texte": "• Une grandeur produit est le produit de deux grandeurs : aire = longueur × largeur (en m²) ; énergie = puissance × durée (en kWh ou en Wh) ; volume = aire de la base × hauteur.\n• Une grandeur quotient est le quotient de deux grandeurs : vitesse = distance ÷ durée (km/h) ; densité de population = nombre d'habitants ÷ superficie (hab/km²) ; masse volumique = masse ÷ volume (g/cm³) ; débit = volume ÷ durée (L/min).\nL'unité d'une grandeur produit ou quotient est formée avec les unités des deux grandeurs."
+        },
+        {
+          "type": "exemple",
+          "titre": "Énergie électrique",
+          "texte": "Une lampe de 60 W reste allumée 5 h.\nÉnergie = 60 × 5 = 300 Wh = 0,3 kWh.\nConversion : 1 kWh = 1 000 Wh, donc 2,5 kWh = 2 500 Wh.\n\nDébit : un robinet remplit 120 L en 8 min : débit = 120 ÷ 8 = 15 L/min."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Vitesse moyenne", "Distance totale divisée par la durée totale"],
+            ["Durée", "Temps que dure un déplacement"],
+            ["Grandeur produit", "Grandeur obtenue en multipliant deux grandeurs"],
+            ["Grandeur quotient", "Grandeur obtenue en divisant deux grandeurs"],
+            ["Débit", "Volume qui s'écoule pendant une durée donnée"],
+            ["Masse volumique", "Masse d'une unité de volume d'une matière"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Un camion parcourt 180 km en 2 h 30 min. Quelle est sa vitesse moyenne ?\n2) Convertis 54 km/h en m/s.\n3) Un cycliste roule à 45 km/h pendant 40 min. Quelle distance parcourt-il ?",
+          "solution": "1) 2 h 30 min = 2,5 h. v = 180 ÷ 2,5 = 72 km/h.\n2) 54 ÷ 3,6 = 15 m/s.\n3) 40 min = 2/3 h. d = 45 × 2/3 = 30 km."
+        }
+      ]
+    }
+  ]
+}
