@@ -1,0 +1,280 @@
+{
+  "id": "theme8",
+  "titre": "Thématique 8 : Aimants et magnétisme",
+  "lecons": [
+    {
+      "id": "sp-8-1",
+      "titre": "Aimants et pôles",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Qu'est-ce qu'un aimant ?",
+          "texte": "Un aimant est un objet qui attire certains métaux, comme le fer, sans aucun contact ni courant électrique.\n\nIl existe des aimants naturels (la magnétite, appelée « pierre d'aimant ») et des aimants artificiels fabriqués par l'homme : barreau, aimant en U, aiguille de boussole, petit aimant de réfrigérateur."
+        },
+        {
+          "type": "tableau",
+          "titre": "Ce que l'aimant attire ou non",
+          "entetes": ["Attirés par un aimant", "Non attirés par un aimant"],
+          "lignes": [
+            ["Fer, acier, nickel, cobalt", "Cuivre, aluminium, plomb, or"],
+            ["Clou, trombone, boîte de conserve", "Plastique, bois, verre, papier"]
+          ]
+        },
+        {
+          "type": "definition",
+          "titre": "Les pôles d'un aimant",
+          "texte": "Tout aimant a deux pôles : un pôle nord (N) et un pôle sud (S). Ce sont les zones où l'attraction est la plus forte, aux extrémités d'un barreau.\n\nSi on suspend un aimant par un fil, il tourne et se fixe : son pôle nord indique le nord géographique."
+        },
+        {
+          "type": "regle",
+          "titre": "Attraction et répulsion",
+          "texte": "• Deux pôles de même nom (N et N, ou S et S) se repoussent.\n• Deux pôles de noms différents (N et S) s'attirent."
+        },
+        {
+          "type": "schema",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='320' height='170' viewBox='0 0 320 170'><rect width='320' height='170' fill='#ffffff'/><text x='160' y='20' text-anchor='middle' font-size='14' font-weight='bold' fill='#222222'>Attraction (pôles différents)</text><rect x='20' y='30' width='60' height='30' fill='#1e88e5'/><rect x='80' y='30' width='60' height='30' fill='#e53935'/><rect x='190' y='30' width='60' height='30' fill='#1e88e5'/><rect x='250' y='30' width='60' height='30' fill='#e53935'/><text x='50' y='51' text-anchor='middle' font-size='16' font-weight='bold' fill='#ffffff'>S</text><text x='110' y='51' text-anchor='middle' font-size='16' font-weight='bold' fill='#ffffff'>N</text><text x='220' y='51' text-anchor='middle' font-size='16' font-weight='bold' fill='#ffffff'>S</text><text x='280' y='51' text-anchor='middle' font-size='16' font-weight='bold' fill='#ffffff'>N</text><text x='165' y='52' text-anchor='middle' font-size='18' fill='#222222'>→ ←</text><text x='160' y='100' text-anchor='middle' font-size='14' font-weight='bold' fill='#222222'>Répulsion (pôles identiques)</text><rect x='20' y='110' width='60' height='30' fill='#1e88e5'/><rect x='80' y='110' width='60' height='30' fill='#e53935'/><rect x='190' y='110' width='60' height='30' fill='#e53935'/><rect x='250' y='110' width='60' height='30' fill='#1e88e5'/><text x='50' y='131' text-anchor='middle' font-size='16' font-weight='bold' fill='#ffffff'>S</text><text x='110' y='131' text-anchor='middle' font-size='16' font-weight='bold' fill='#ffffff'>N</text><text x='220' y='131' text-anchor='middle' font-size='16' font-weight='bold' fill='#ffffff'>N</text><text x='280' y='131' text-anchor='middle' font-size='16' font-weight='bold' fill='#ffffff'>S</text><text x='165' y='132' text-anchor='middle' font-size='18' fill='#222222'>← →</text></svg>",
+          "legende": "Rouge = pôle nord (N), bleu = pôle sud (S). Les flèches montrent l'effet entre les deux aimants."
+        },
+        {
+          "type": "remarque",
+          "titre": "On ne peut pas isoler un pôle",
+          "texte": "Si on casse un aimant en deux, on n'obtient pas un pôle nord seul et un pôle sud seul. On obtient deux aimants plus petits, qui ont chacun un pôle nord et un pôle sud."
+        },
+        {
+          "type": "methode",
+          "titre": "Savoir si un objet est un aimant",
+          "texte": "1. Prendre un aimant dont on connaît les pôles.\n2. Approcher un de ses pôles de l'objet, puis retourner l'objet.\n3. Si on observe une répulsion, l'objet est un aimant : les pôles de même nom se repoussent.\n4. Si on observe seulement une attraction (dans les deux positions), l'objet est un morceau de fer ou d'acier non aimanté.\n\nAttention : une simple attraction ne prouve pas qu'un objet est un aimant, car l'aimant attire aussi le fer. Seule la répulsion le prouve."
+        },
+        {
+          "type": "definition",
+          "titre": "Aimantation temporaire et permanente",
+          "texte": "Un morceau de fer ou d'acier posé contre un aimant s'aimante à son tour.\n\n• Le fer doux s'aimante seulement tant qu'il est près de l'aimant : l'aimantation est temporaire (des clous accrochés en chaîne tombent quand on retire l'aimant).\n• L'acier garde son aimantation : elle est permanente. C'est avec de l'acier qu'on fabrique les aimants.\n\nUn aimant perd ses propriétés s'il est fortement chauffé ou s'il reçoit de nombreux chocs."
+        },
+        {
+          "type": "exercice",
+          "titre": "Vérifie-toi",
+          "enonce": "1) On approche le pôle nord d'un barreau aimanté d'une extrémité d'un autre barreau : il est repoussé. Que peut-on dire de cet autre barreau et de cette extrémité ?\n2) Une canette en aluminium est-elle attirée par un aimant ? Pourquoi ?",
+          "solution": "1) L'autre barreau est un aimant (il y a répulsion). Son extrémité est un pôle nord, car deux pôles de même nom se repoussent.\n\n2) Non. L'aluminium n'est pas un matériau magnétique : seuls le fer, l'acier, le nickel et le cobalt sont attirés."
+        }
+      ]
+    },
+    {
+      "id": "sp-8-2",
+      "titre": "Champ magnétique et lignes de champ",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Le champ magnétique",
+          "texte": "Autour d'un aimant (ou d'un fil parcouru par un courant), il existe une région de l'espace où une aiguille aimantée subit une force : on dit qu'il y règne un champ magnétique.\n\nLe champ magnétique se note B et se mesure en tesla (T). Aux petites valeurs, on utilise :\n• 1 mT (millitesla) = 0,001 T\n• 1 µT (microtesla) = 0,000001 T"
+        },
+        {
+          "type": "definition",
+          "titre": "La boussole",
+          "texte": "Une boussole est une petite aiguille aimantée qui peut tourner librement sur un pivot. Elle sert à détecter un champ magnétique : elle s'oriente toujours dans la direction du champ.\n\nEn un point, le sens du champ magnétique est le sens indiqué par le pôle nord de l'aiguille."
+        },
+        {
+          "type": "definition",
+          "titre": "Les caractéristiques du champ B",
+          "texte": "En un point donné, le champ magnétique est décrit par :\n• sa direction : celle de l'aiguille aimantée placée en ce point ;\n• son sens : du pôle sud vers le pôle nord de l'aiguille ;\n• sa valeur, en tesla (T)."
+        },
+        {
+          "type": "definition",
+          "titre": "Lignes de champ et spectre magnétique",
+          "texte": "Une ligne de champ est une courbe orientée qui suit, en chaque point, la direction et le sens du champ magnétique.\n\nOn peut voir ces lignes avec de la limaille de fer : on la saupoudre sur une feuille posée sur un aimant. Les grains s'alignent et dessinent le spectre magnétique de l'aimant."
+        },
+        {
+          "type": "regle",
+          "titre": "Sens des lignes de champ d'un aimant",
+          "texte": "• À l'extérieur de l'aimant, les lignes de champ sortent par le pôle nord et entrent par le pôle sud.\n• À l'intérieur de l'aimant, elles vont du pôle sud vers le pôle nord : ce sont des courbes fermées.\n• Là où les lignes sont serrées (près des pôles), le champ est plus fort."
+        },
+        {
+          "type": "schema",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='320' height='200' viewBox='0 0 320 200'><defs><marker id='fl-m' markerWidth='8' markerHeight='8' refX='4' refY='4' orient='auto'><path d='M0 0 L8 4 L0 8 z' fill='#555555'/></marker></defs><rect width='320' height='200' fill='#ffffff'/><path d='M100 100 C 10 100, 20 20, 160 20 C 300 20, 310 100, 220 100' fill='none' stroke='#555555' stroke-width='1.5' marker-mid='url(#fl-m)'/><path d='M120 85 C 120 55, 140 55, 165 55 C 190 55, 210 55, 210 85' fill='none' stroke='#555555' stroke-width='1.5' marker-mid='url(#fl-m)'/><path d='M100 100 C 10 100, 20 180, 160 180 C 300 180, 310 100, 220 100' fill='none' stroke='#555555' stroke-width='1.5' marker-mid='url(#fl-m)'/><path d='M120 115 C 120 145, 140 145, 165 145 C 190 145, 210 145, 210 115' fill='none' stroke='#555555' stroke-width='1.5' marker-mid='url(#fl-m)'/><rect x='100' y='85' width='60' height='30' fill='#e53935'/><rect x='160' y='85' width='60' height='30' fill='#1e88e5'/><text x='130' y='106' text-anchor='middle' font-size='16' font-weight='bold' fill='#ffffff'>N</text><text x='190' y='106' text-anchor='middle' font-size='16' font-weight='bold' fill='#ffffff'>S</text></svg>",
+          "legende": "Lignes de champ d'un aimant droit : à l'extérieur, elles vont du pôle nord (N) vers le pôle sud (S)."
+        },
+        {
+          "type": "definition",
+          "titre": "Champ uniforme",
+          "texte": "Un champ magnétique est uniforme dans une région quand ses lignes de champ y sont parallèles et également espacées : il a alors la même direction, le même sens et la même valeur en tout point. C'est à peu près le cas entre les deux branches d'un aimant en U."
+        },
+        {
+          "type": "methode",
+          "titre": "Trouver le sens du champ avec une boussole",
+          "texte": "1. Placer la boussole au point étudié, loin de tout autre aimant et de tout objet en fer.\n2. Attendre que l'aiguille se stabilise.\n3. Le sens du champ est le sens indiqué par le pôle nord de l'aiguille.\n\nExemple : près du pôle nord d'un aimant, le pôle nord de l'aiguille est repoussé : il s'éloigne de l'aimant, comme les lignes de champ qui sortent du pôle nord."
+        },
+        {
+          "type": "tableau",
+          "titre": "Ordres de grandeur du champ magnétique (valeurs approximatives)",
+          "entetes": ["Source", "Champ B"],
+          "lignes": [
+            ["Champ magnétique terrestre", "quelques dizaines de µT (environ 0,00005 T)"],
+            ["Petit aimant de réfrigérateur", "quelques mT (environ 0,005 T)"],
+            ["Aimant en U de laboratoire", "environ 0,1 T"],
+            ["Appareil d'IRM (hôpital)", "1,5 T à 3 T"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "Vérifie-toi",
+          "enonce": "1) Une boussole est placée près du pôle nord d'un barreau aimanté. Vers où pointe son pôle nord ?\n2) Convertir 50 µT en tesla.",
+          "solution": "1) Le pôle nord de l'aiguille est repoussé par le pôle nord du barreau : il pointe en s'éloignant de l'aimant, dans le sens des lignes de champ qui sortent du pôle nord.\n\n2) 1 µT = 0,000001 T donc 50 µT = 50 × 0,000001 = 0,00005 T."
+        }
+      ]
+    },
+    {
+      "id": "sp-8-3",
+      "titre": "La boussole et le champ magnétique terrestre",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "La Terre est un grand aimant",
+          "texte": "La Terre se comporte comme un énorme aimant. Elle crée un champ magnétique qui entoure la planète : le champ magnétique terrestre. Ce champ est lié aux mouvements du noyau métallique liquide à l'intérieur de la Terre.\n\nC'est lui qui oriente l'aiguille d'une boussole."
+        },
+        {
+          "type": "regle",
+          "titre": "Pourquoi la boussole indique le nord",
+          "texte": "Le pôle nord de l'aiguille d'une boussole (souvent colorié en rouge) pointe vers le nord géographique.\n\nComme deux pôles de noms différents s'attirent, le pôle de la Terre situé près du nord géographique est un pôle sud magnétique. De même, près du sud géographique se trouve un pôle nord magnétique."
+        },
+        {
+          "type": "schema",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='320' height='210' viewBox='0 0 320 210'><rect width='320' height='210' fill='#ffffff'/><text x='160' y='14' text-anchor='middle' font-size='12' fill='#222222'>Nord géographique</text><circle cx='160' cy='105' r='70' fill='#cfe8ff' stroke='#1565c0' stroke-width='2'/><line x1='160' y1='20' x2='160' y2='190' stroke='#555555' stroke-width='1.5' stroke-dasharray='4 3'/><g transform='rotate(11 160 105)'><rect x='148' y='55' width='24' height='50' fill='#1e88e5'/><rect x='148' y='105' width='24' height='50' fill='#e53935'/><text x='160' y='86' text-anchor='middle' font-size='14' font-weight='bold' fill='#ffffff'>S</text><text x='160' y='136' text-anchor='middle' font-size='14' font-weight='bold' fill='#ffffff'>N</text></g><text x='8' y='50' font-size='11' fill='#1e88e5'>Pôle sud magnétique</text><text x='312' y='165' text-anchor='end' font-size='11' fill='#e53935'>Pôle nord magnétique</text><text x='160' y='204' text-anchor='middle' font-size='12' fill='#222222'>Sud géographique</text></svg>",
+          "legende": "La Terre vue comme un aimant : son pôle sud magnétique est près du nord géographique. L'axe pointillé est l'axe de rotation de la Terre."
+        },
+        {
+          "type": "remarque",
+          "titre": "Pôles magnétiques et pôles géographiques",
+          "texte": "Les pôles magnétiques ne sont pas exactement aux pôles géographiques. L'écart, appelé déclinaison, change selon le lieu et varie lentement au fil des années. Pour s'orienter dans la vie courante, on peut le négliger."
+        },
+        {
+          "type": "methode",
+          "titre": "S'orienter avec une boussole",
+          "texte": "1. Tenir la boussole à plat, loin des objets en fer, des aimants et des fils électriques.\n2. Attendre que l'aiguille cesse de bouger.\n3. Tourner le cadran jusqu'à placer la lettre N sous le pôle nord de l'aiguille (la pointe rouge).\n4. Lire les autres directions : sud (S), est (E) et ouest (O).\n\nExemple : de Madagascar, le Mozambique est vers l'ouest, et l'océan Indien s'étend vers l'est."
+        },
+        {
+          "type": "remarque",
+          "titre": "Ce qui fausse une boussole",
+          "texte": "Un aimant, un objet en fer ou en acier, un haut-parleur, un fil parcouru par un courant ou un moteur placé près de la boussole changent la direction de l'aiguille. Il faut donc s'en éloigner pour lire le nord."
+        },
+        {
+          "type": "exercice",
+          "titre": "Vérifie-toi",
+          "enonce": "1) Vers quel pôle géographique le pôle nord de l'aiguille d'une boussole pointe-t-il ?\n2) Le pôle magnétique de la Terre situé près du nord géographique est-il un pôle nord ou un pôle sud magnétique ? Expliquer.\n3) Un élève pose sa boussole sur une table dont les pieds sont en fer, à côté d'un haut-parleur. Pourquoi la lecture est-elle mauvaise ?",
+          "solution": "1) Vers le pôle nord géographique.\n\n2) C'est un pôle sud magnétique : le pôle nord de l'aiguille est attiré par lui, et seuls des pôles de noms différents s'attirent.\n\n3) Le fer et l'aimant du haut-parleur créent leurs propres champs magnétiques, qui s'ajoutent au champ terrestre et dévient l'aiguille."
+        }
+      ]
+    },
+    {
+      "id": "sp-8-4",
+      "titre": "Courant électrique et champ magnétique : l'expérience d'Œrsted",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "L'expérience d'Œrsted (1820)",
+          "texte": "En 1820, le physicien danois Hans Christian Œrsted a observé qu'un fil parcouru par un courant électrique fait dévier une aiguille aimantée placée près de lui.\n\nCette expérience montre qu'un courant électrique crée un champ magnétique : l'électricité et le magnétisme sont liés."
+        },
+        {
+          "type": "methode",
+          "titre": "Réaliser l'expérience",
+          "texte": "1. Placer une boussole à plat. Quand l'aiguille est immobile, elle indique le nord.\n2. Tendre un fil au-dessus de l'aiguille, parallèle à elle (direction nord-sud).\n3. Fermer l'interrupteur : l'aiguille dévie.\n4. Ouvrir l'interrupteur : l'aiguille revient vers le nord.\n5. Inverser les bornes de la pile : l'aiguille dévie dans l'autre sens.\n\nSécurité : ne jamais relier le fil directement aux bornes de la pile. Il faut mettre une lampe ou une résistance dans le circuit, pour éviter un court-circuit et un échauffement dangereux."
+        },
+        {
+          "type": "tableau",
+          "titre": "Observations",
+          "entetes": ["Situation", "Aiguille de la boussole"],
+          "lignes": [
+            ["Pas de courant (interrupteur ouvert)", "Elle indique le nord"],
+            ["Courant dans un sens", "Elle dévie d'un côté"],
+            ["Courant dans l'autre sens", "Elle dévie de l'autre côté"],
+            ["Courant plus intense", "La déviation est plus grande"]
+          ]
+        },
+        {
+          "type": "schema",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='320' height='210' viewBox='0 0 320 210'><rect width='320' height='210' fill='#ffffff'/><text x='8' y='16' font-size='12' fill='#222222'>Nord ↑</text><circle cx='80' cy='105' r='40' fill='#f5f5f5' stroke='#555555' stroke-width='2'/><polygon points='80,70 74,105 86,105' fill='#e53935'/><polygon points='80,140 74,105 86,105' fill='#1e88e5'/><line x1='80' y1='25' x2='80' y2='185' stroke='#8d6e63' stroke-width='4'/><circle cx='240' cy='105' r='40' fill='#f5f5f5' stroke='#555555' stroke-width='2'/><g transform='rotate(70 240 105)'><polygon points='240,70 234,105 246,105' fill='#e53935'/><polygon points='240,140 234,105 246,105' fill='#1e88e5'/></g><line x1='240' y1='25' x2='240' y2='185' stroke='#8d6e63' stroke-width='4'/><text x='88' y='36' font-size='11' fill='#8d6e63'>fil</text><text x='248' y='36' font-size='11' fill='#8d6e63'>fil</text><text x='80' y='203' text-anchor='middle' font-size='13' font-weight='bold' fill='#222222'>I = 0</text><text x='240' y='203' text-anchor='middle' font-size='13' font-weight='bold' fill='#222222'>I ≠ 0</text></svg>",
+          "legende": "Vue de dessus. À gauche, sans courant, l'aiguille (pointe rouge = pôle nord) indique le nord. À droite, quand le courant passe dans le fil, l'aiguille dévie."
+        },
+        {
+          "type": "regle",
+          "titre": "Conclusions de l'expérience",
+          "texte": "• Un fil parcouru par un courant crée un champ magnétique autour de lui.\n• Le sens du champ dépend du sens du courant : si on inverse le courant, on inverse le champ.\n• Le champ est d'autant plus fort que l'intensité du courant est grande, et plus faible quand on s'éloigne du fil.\n• Sans courant, il n'y a pas de champ magnétique créé par le fil."
+        },
+        {
+          "type": "definition",
+          "titre": "Champ autour d'un fil rectiligne",
+          "texte": "Autour d'un long fil droit, les lignes de champ sont des cercles centrés sur le fil, dans des plans perpendiculaires au fil.\n\nRègle de la main droite : on place le pouce de la main droite dans le sens du courant ; les autres doigts, repliés autour du fil, indiquent le sens du champ magnétique."
+        },
+        {
+          "type": "exercice",
+          "titre": "Vérifie-toi",
+          "enonce": "Un fil traversé par un courant est placé au-dessus d'une boussole et fait dévier l'aiguille.\n1) Que se passe-t-il si on ouvre l'interrupteur ?\n2) Que se passe-t-il si on inverse les branchements de la pile ?\n3) Quelle conclusion Œrsted en a-t-il tirée ?",
+          "solution": "1) Il n'y a plus de courant, donc plus de champ créé par le fil : l'aiguille revient vers le nord.\n\n2) Le sens du courant est inversé, donc le sens du champ aussi : l'aiguille dévie dans l'autre sens.\n\n3) Un courant électrique crée un champ magnétique."
+        }
+      ]
+    },
+    {
+      "id": "sp-8-5",
+      "titre": "Bobine et électroaimant",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "La bobine (ou solénoïde)",
+          "texte": "Une bobine est un fil conducteur enroulé en plusieurs tours, appelés spires. Quand elle est parcourue par un courant, elle crée un champ magnétique plus fort que celui d'un fil droit.\n\nLe champ d'une bobine ressemble à celui d'un aimant droit : elle a une face nord et une face sud. À l'intérieur, les lignes de champ sont presque parallèles."
+        },
+        {
+          "type": "schema",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='320' height='125' viewBox='0 0 320 125'><defs><marker id='bo-m' markerWidth='8' markerHeight='8' refX='6' refY='4' orient='auto'><path d='M0 0 L8 4 L0 8 z' fill='#555555'/></marker></defs><rect width='320' height='125' fill='#ffffff'/><ellipse cx='110' cy='55' rx='8' ry='35' fill='none' stroke='#b87333' stroke-width='3'/><ellipse cx='130' cy='55' rx='8' ry='35' fill='none' stroke='#b87333' stroke-width='3'/><ellipse cx='150' cy='55' rx='8' ry='35' fill='none' stroke='#b87333' stroke-width='3'/><ellipse cx='170' cy='55' rx='8' ry='35' fill='none' stroke='#b87333' stroke-width='3'/><ellipse cx='190' cy='55' rx='8' ry='35' fill='none' stroke='#b87333' stroke-width='3'/><ellipse cx='210' cy='55' rx='8' ry='35' fill='none' stroke='#b87333' stroke-width='3'/><line x1='230' y1='55' x2='92' y2='55' stroke='#555555' stroke-width='2' marker-end='url(#bo-m)'/><text x='60' y='64' text-anchor='middle' font-size='22' font-weight='bold' fill='#e53935'>N</text><text x='260' y='64' text-anchor='middle' font-size='22' font-weight='bold' fill='#1e88e5'>S</text><text x='60' y='115' text-anchor='middle' font-size='11' fill='#222222'>Face nord</text><text x='260' y='115' text-anchor='middle' font-size='11' fill='#222222'>Face sud</text></svg>",
+          "legende": "Une bobine parcourue par un courant se comporte comme un aimant droit. À l'intérieur, la flèche montre le sens du champ : de la face sud vers la face nord."
+        },
+        {
+          "type": "regle",
+          "titre": "Trouver la face nord d'une bobine",
+          "texte": "Règle de la main droite : on replie les doigts de la main droite dans le sens du courant dans les spires. Le pouce tendu indique la face nord de la bobine (le sens du champ à l'intérieur).\n\nAutre repère : en regardant une face de la bobine, si le courant tourne dans le sens inverse des aiguilles d'une montre, c'est la face nord ; s'il tourne dans le sens des aiguilles d'une montre, c'est la face sud.\n\nSi on inverse le sens du courant, les faces nord et sud s'échangent."
+        },
+        {
+          "type": "definition",
+          "titre": "L'électroaimant",
+          "texte": "Un électroaimant est une bobine dans laquelle on a placé un noyau de fer doux. Le fer doux s'aimante quand le courant passe et renforce beaucoup le champ de la bobine.\n\nQuand on coupe le courant, le fer doux perd presque toute son aimantation : l'électroaimant n'attire plus."
+        },
+        {
+          "type": "regle",
+          "titre": "Rendre un électroaimant plus puissant",
+          "texte": "Le champ d'un électroaimant est plus intense si :\n• on augmente l'intensité du courant ;\n• on augmente le nombre de spires de la bobine ;\n• on place un noyau de fer doux à l'intérieur."
+        },
+        {
+          "type": "tableau",
+          "titre": "Aimant permanent et électroaimant",
+          "entetes": ["", "Aimant permanent", "Électroaimant"],
+          "lignes": [
+            ["Marche et arrêt", "Impossible : il attire toujours", "Possible : on ouvre ou on ferme le circuit"],
+            ["Inversion des pôles", "Impossible", "Possible : on inverse le sens du courant"],
+            ["Force de l'aimant", "Fixe", "Réglable (courant, spires)"],
+            ["Source d'énergie", "Aucune", "Pile ou générateur"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Applications des électroaimants",
+          "entetes": ["Appareil", "Rôle de l'électroaimant"],
+          "lignes": [
+            ["Grue de ferrailleur", "Soulève des pièces de métal ; on les lâche en coupant le courant"],
+            ["Sonnette électrique", "Attire un petit marteau qui frappe la cloche"],
+            ["Relais et disjoncteur", "Ferme ou ouvre un circuit à distance"],
+            ["Haut-parleur", "Fait vibrer la membrane qui produit le son"],
+            ["Moteur électrique", "Fait tourner le rotor grâce aux forces magnétiques"]
+          ]
+        },
+        {
+          "type": "exemple",
+          "titre": "Exemple",
+          "texte": "Vue de face, le courant circule dans une bobine dans le sens inverse des aiguilles d'une montre. Cette face est donc la face nord. Si on inverse les branchements de la pile, cette face devient la face sud."
+        },
+        {
+          "type": "exercice",
+          "titre": "Vérifie-toi",
+          "enonce": "1) Citer trois façons d'augmenter la force d'un électroaimant.\n2) Pourquoi utilise-t-on du fer doux et non de l'acier pour le noyau ?\n3) Comment une grue à électroaimant lâche-t-elle une voiture qu'elle a soulevée ?",
+          "solution": "1) Augmenter l'intensité du courant, augmenter le nombre de spires, placer un noyau de fer doux dans la bobine.\n\n2) Le fer doux s'aimante seulement quand le courant passe et perd son aimantation quand on coupe le courant. L'acier resterait aimanté et la grue ne pourrait plus lâcher la charge.\n\n3) On coupe le courant dans la bobine : le noyau de fer doux perd son aimantation et la voiture tombe."
+        }
+      ]
+    }
+  ]
+}
