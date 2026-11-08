@@ -22,61 +22,86 @@
   };
   let minuteur = null;
 
-  // ---------- Sujets types (Maths, Sciences Physiques, SVT) ----------
+  // ---------- Sujets types (par classe et par matière) ----------
   function plage(prefixe, de, a) {
     const r = [];
     for (let n = de; n <= a; n++) r.push(prefixe + String(n).padStart(2, '0'));
     return r;
   }
-  const DOSSIER_SUJETS = './data/3e/sujets/';
+  const DOSSIERS_SUJETS = {
+    '3e': './data/3e/sujets/',
+    '4e': './data/4e/sujets/'
+  };
   const SUJETS_TYPES = {
-    MATH: {
-      fichiers: ['sujets-mathematiques-A.json', 'sujets-mathematiques-B.json'],
-      groupes: [
-        plage('st-A-', 1, 3),
-        plage('st-A-', 4, 6),
-        plage('st-A-', 7, 10),
-        plage('st-B-', 1, 11),
-        plage('st-B-', 12, 14)
-      ]
+    '3e': {
+      MATH: {
+        fichiers: ['sujets-mathematiques-A.json', 'sujets-mathematiques-B.json'],
+        groupes: [
+          plage('st-A-', 1, 3),
+          plage('st-A-', 4, 6),
+          plage('st-A-', 7, 10),
+          plage('st-B-', 1, 11),
+          plage('st-B-', 12, 14)
+        ]
+      },
+      SPHY: {
+        fichiers: ['sujets-sciences-physiques-A.json', 'sujets-sciences-physiques-B.json', 'sujets-sciences-physiques-C.json'],
+        groupes: [
+          plage('st-SP-', 1, 7),
+          plage('st-SP-', 8, 14),
+          plage('st-SP-', 15, 22)
+        ]
+      },
+      SVT: {
+        fichiers: ['sujets-svt-A.json', 'sujets-svt-B.json', 'sujets-svt-C.json'],
+        groupes: [
+          plage('st-SVT-', 1, 7),
+          plage('st-SVT-', 8, 11),
+          plage('st-SVT-', 12, 16),
+          plage('st-SVT-', 17, 21),
+          plage('st-SVT-', 22, 26)
+        ]
+      }
     },
-    SPHY: {
-      fichiers: ['sujets-sciences-physiques-A.json', 'sujets-sciences-physiques-B.json', 'sujets-sciences-physiques-C.json'],
-      groupes: [
-        plage('st-SP-', 1, 7),
-        plage('st-SP-', 8, 14),
-        plage('st-SP-', 15, 22)
-      ]
-    },
-    SVT: {
-      fichiers: ['sujets-svt-A.json', 'sujets-svt-B.json', 'sujets-svt-C.json'],
-      groupes: [
-        plage('st-SVT-', 1, 7),
-        plage('st-SVT-', 8, 11),
-        plage('st-SVT-', 12, 16),
-        plage('st-SVT-', 17, 21),
-        plage('st-SVT-', 22, 26)
-      ]
+    '4e': {
+      MATH: {
+        fichiers: ['sujets-mathematiques-A.json'],
+        groupes: [
+          plage('st4-', 1, 3),
+          plage('st4-', 4, 6),
+          plage('st4-', 7, 9),
+          plage('st4-', 10, 12)
+        ]
+      }
     }
   };
   const cacheSujets = {};
 
+  function cfgSujets(classe, code) {
+    const parClasse = SUJETS_TYPES[classe];
+    return (parClasse && code && parClasse[code]) ? parClasse[code] : null;
+  }
+  function cleCache(classe, code) {
+    return classe + '-' + code;
+  }
   function codeSujet(m) {
-    if (etat.classe !== '3e') return null;
     const mat = trouverMatiereParId(etat.classe, m.id) || m;
-    return (mat && SUJETS_TYPES[mat.code]) ? mat.code : null;
+    return (mat && cfgSujets(etat.classe, mat.code)) ? mat.code : null;
   }
   function nbExercicesSujet(m) {
     const code = codeSujet(m);
-    return code ? SUJETS_TYPES[code].groupes.length : NIVEAUX_SUJET.length;
+    return code ? cfgSujets(etat.classe, code).groupes.length : NIVEAUX_SUJET.length;
   }
-  async function chargerSujets(code) {
-    const cfg = SUJETS_TYPES[code];
+  async function chargerSujets(classe, code) {
+    const cfg = cfgSujets(classe, code);
     if (!cfg) return null;
-    if (cacheSujets[code]) return cacheSujets[code];
+    const cle = cleCache(classe, code);
+    if (cacheSujets[cle]) return cacheSujets[cle];
+    const dossier = DOSSIERS_SUJETS[classe];
+    if (!dossier) return null;
     try {
       const parts = await Promise.all(cfg.fichiers.map(f =>
-        fetch(DOSSIER_SUJETS + f).then(r => {
+        fetch(dossier + f).then(r => {
           if (!r.ok) throw new Error('introuvable');
           return r.json();
         })
@@ -88,14 +113,14 @@
         (p.exercices || []).forEach(ex => exos.push(ex));
       });
       const res = { exos: exos, mention: mention };
-      cacheSujets[code] = res;
+      cacheSujets[cle] = res;
       return res;
     } catch (e) {
       return null;
     }
   }
-  function composerSujetType(sujets, code) {
-    const cfg = SUJETS_TYPES[code];
+  function composerSujetType(sujets, classe, code) {
+    const cfg = cfgSujets(classe, code);
     const items = [];
     cfg.groupes.forEach(ids => {
       const dispo = sujets.exos.filter(ex => ids.indexOf(ex.id) !== -1);
@@ -273,7 +298,7 @@
   }
   async function chargerLignes(s) {
     if (s.sujet) {
-      const suj = await chargerSujets(s.sujetCode);
+      const suj = await chargerSujets(s.classe, s.sujetCode);
       if (!suj) return null;
       const lignesSujet = [];
       s.items.forEach((it, i) => {
@@ -340,7 +365,7 @@
       restaurerTitre();
     }
   }
-  
+
   // ---------- Écran 0 : point d'entrée ----------
   function allerExamen() {
     etat.niveau = 'examen';
@@ -355,7 +380,7 @@
   }
 
   // ---------- Écran 1 : choix de la matière ----------
-    function renderChoix() {
+  function renderChoix() {
     const zone = $('examen-contenu');
     window.scrollTo(0, 0);
     if (!etat.classe) {
@@ -403,6 +428,7 @@
       grille.appendChild(carte);
     });
   }
+
   // ---------- Écran : essai gratuit utilisé ----------
   function renderBloque(m) {
     const zone = $('examen-contenu');
@@ -473,12 +499,12 @@
     let items = [];
     let extra = {};
     if (code) {
-      const sujets = await chargerSujets(code);
+      const sujets = await chargerSujets(etat.classe, code);
       if (!sujets) {
         alert("Impossible de charger le sujet pour le moment. Vérifie ta connexion, puis réessaie.");
         return;
       }
-      items = composerSujetType(sujets, code);
+      items = composerSujetType(sujets, etat.classe, code);
       extra = { sujet: true, sujetCode: code };
     } else {
       const entree = trouverExoEntree(etat.classe, m.id);
@@ -605,8 +631,9 @@
       return;
     }
     const evals = s.evals || {};
-    const infoSujet = (s.sujet && cacheSujets[s.sujetCode] && cacheSujets[s.sujetCode].mention)
-      ? `<p class="texte-parametre">${cacheSujets[s.sujetCode].mention}</p>`
+    const cleSuj = s.sujet ? cleCache(s.classe, s.sujetCode) : null;
+    const infoSujet = (cleSuj && cacheSujets[cleSuj] && cacheSujets[cleSuj].mention)
+      ? `<p class="texte-parametre">${cacheSujets[cleSuj].mention}</p>`
       : '';
     let html = `
       <h2 class="titre-lecon">📖 Corrigé et auto-évaluation</h2>
