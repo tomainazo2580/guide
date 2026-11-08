@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'guide-v40';
+const CACHE_VERSION = 'guide-v41';
 
 const APP_SHELL = [
   './',
@@ -43,6 +43,12 @@ const APP_SHELL = [
   './data/3e/svt/composante-3.json',
   './data/3e/svt/composante-4.json',
   './data/3e/svt/composante-5.json',
+  './data/3e/svt/composante-6.json',
+  './data/3e/svt/composante-7.json',
+  './data/3e/svt/composante-8.json',
+  './data/3e/svt/composante-9.json',
+  './data/3e/svt/composante-10.json',
+  './data/3e/svt/composante-11.json',
 
   './data/3e/sciences-physiques/composante-1.json',
   './data/3e/sciences-physiques/composante-2.json',
@@ -75,6 +81,9 @@ const APP_SHELL = [
   './data/3e/exercices/exercices-anglais.json',
   './data/3e/exercices/exercices-sciences-physiques.json',
   './data/3e/exercices/exercices-svt.json',
+  './data/3e/exercices/exercices-svt-2.json',
+  './data/3e/exercices/exercices-svt-3.json',
+  './data/3e/exercices/exercices-svt-4.json',
   './data/3e/exercices/exercices-francais.json',
   './data/3e/exercices/exercices-histoire.json',
   './data/3e/exercices/exercices-geographie.json',
@@ -106,9 +115,9 @@ self.addEventListener('install', event => {
 self.addEventListener('activate', event => {
   event.waitUntil(
     caches.keys()
-      .then(noms =>
+      .then(keys =>
         Promise.all(
-          noms
+          keys
             .filter(nom => nom !== CACHE_VERSION)
             .map(nom => caches.delete(nom))
         )
@@ -120,8 +129,8 @@ self.addEventListener('activate', event => {
 self.addEventListener('fetch', event => {
   if (event.request.method !== 'GET') return;
   event.respondWith(
-    caches.match(event.request).then(enCache => {
-      if (enCache) return enCache;
+    caches.match(event.request).then(reponse => {
+      if (reponse) return reponse;
       return fetch(event.request).catch(() => {
         if (event.request.mode === 'navigate') {
           return caches.match('./index.html');
