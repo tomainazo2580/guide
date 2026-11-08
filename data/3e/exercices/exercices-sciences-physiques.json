@@ -25,7 +25,7 @@
     },
     {
       "id": "exo-sp-2-electricite",
-      "titre": "Thématique 2 : Électricité et Magnétisme",
+      "titre": "Thématique 2 : Électricité",
       "exercices": [
         {
           "enonce": "🟢 Niveau Facile\n\nRappel : la loi d'Ohm s'écrit U = R × I.\n1. Un conducteur ohmique de résistance R = 100 Ω est traversé par un courant d'intensité I = 0,15 A. Calculer la tension U à ses bornes.\n2. La tension aux bornes d'un conducteur ohmique est U = 12 V et l'intensité est I = 0,4 A. Calculer sa résistance R.\n3. Un conducteur ohmique de résistance R = 45 Ω est soumis à une tension U = 9 V. Calculer l'intensité I du courant.",
