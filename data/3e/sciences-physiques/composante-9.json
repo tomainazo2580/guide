@@ -1,0 +1,237 @@
+{
+  "id": "theme9",
+  "titre": "Thématique 9 : Mirage, couleurs et filtres",
+  "lecons": [
+    {
+      "id": "sp-9-1",
+      "titre": "Le mirage",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Qu'est-ce qu'un mirage ?",
+          "texte": "Un mirage est un phénomène optique : on voit un objet ou une image à un endroit où il n'y en a pas. Sur une route chaude, on croit voir une flaque d'eau qui disparaît quand on s'approche.\n\nCe n'est pas une hallucination : un mirage peut être photographié. Il s'explique par la réfraction de la lumière dans l'air."
+        },
+        {
+          "type": "regle",
+          "titre": "Pourquoi la lumière se courbe dans l'air",
+          "texte": "• Dans un milieu homogène, la lumière se propage en ligne droite.\n• L'air chaud est moins dense que l'air froid : son indice de réfraction est un peu plus faible.\n• Quand la température de l'air change avec l'altitude, l'air n'est plus homogène : l'indice change d'une couche à l'autre, et le rayon de lumière se courbe au lieu d'aller droit."
+        },
+        {
+          "type": "definition",
+          "titre": "Le mirage d'une route chaude",
+          "texte": "Quand le soleil chauffe fortement le sol (route goudronnée, sable, saison chaude), l'air proche du sol est beaucoup plus chaud que l'air situé au-dessus.\n\nLes rayons venus du ciel ou d'un objet lointain (arbre, voiture) descendent vers le sol, mais en traversant les couches d'air de plus en plus chaudes ils se courbent vers le haut avant de toucher le sol, puis arrivent dans l'œil de l'observateur."
+        },
+        {
+          "type": "schema",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='320' height='210' viewBox='0 0 320 210'><defs><marker id='mi-m' markerWidth='8' markerHeight='8' refX='6' refY='4' orient='auto'><path d='M0 0 L8 4 L0 8 z' fill='#e53935'/></marker></defs><rect width='320' height='210' fill='#e3f2fd'/><rect x='0' y='110' width='320' height='40' fill='#ffe0b2'/><rect x='0' y='150' width='320' height='60' fill='#bdbdbd'/><text x='10' y='20' font-size='12' fill='#222222'>Air plus froid</text><text x='10' y='132' font-size='12' fill='#222222'>Air très chaud</text><rect x='47' y='105' width='6' height='45' fill='#6d4c41'/><circle cx='50' cy='85' r='22' fill='#43a047'/><path d='M58 80 Q 160 165 270 100' fill='none' stroke='#e53935' stroke-width='2' marker-end='url(#mi-m)'/><line x1='270' y1='100' x2='126' y2='185' stroke='#e65100' stroke-width='2' stroke-dasharray='5 4'/><circle cx='126' cy='185' r='7' fill='none' stroke='#e65100' stroke-width='2' stroke-dasharray='3 2'/><circle cx='270' cy='100' r='6' fill='#222222'/><text x='270' y='86' text-anchor='middle' font-size='12' fill='#222222'>Observateur</text><text x='140' y='202' font-size='11' fill='#222222'>image (sous le sol)</text></svg>",
+          "legende": "Trait rouge : trajet réel de la lumière, courbé vers le haut. Pointillés : direction dans laquelle l'œil croit voir l'objet, donc une image qui semble être sous le sol, comme dans une flaque."
+        },
+        {
+          "type": "remarque",
+          "titre": "Pourquoi on croit voir de l'eau",
+          "texte": "L'œil suppose que la lumière a voyagé en ligne droite : il place donc l'image au bout de la droite en pointillés, sous le niveau du sol. Cette image est celle du ciel bleu (et des objets, renversés), ce qui ressemble à une surface d'eau qui brille.\n\nEn avançant, on voit que la « flaque » recule et que le sol est sec."
+        },
+        {
+          "type": "definition",
+          "titre": "Le mirage au-dessus de la mer ou de la glace",
+          "texte": "Quand la surface est plus froide que l'air situé au-dessus (mer froide, banquise), l'air proche de la surface est plus froid que l'air d'au-dessus. Les rayons se courbent alors vers le bas.\n\nOn voit parfois des bateaux ou une côte lointaine qui semblent flotter au-dessus de l'horizon, ou qui paraissent plus hauts qu'en réalité."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les deux sortes de mirages",
+          "entetes": ["", "Mirage chaud", "Mirage froid"],
+          "lignes": [
+            ["Où", "Route chaude, désert, sable brûlant", "Mer froide, banquise"],
+            ["Air près de la surface", "Plus chaud", "Plus froid"],
+            ["Rayons", "Courbés vers le haut", "Courbés vers le bas"],
+            ["On voit", "Une « flaque » au sol, images renversées", "Objets lointains surélevés ou flottants"]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Expliquer un mirage",
+          "texte": "1. Dire où est l'air le plus chaud et où est l'air le plus froid.\n2. En déduire que l'indice de réfraction de l'air change d'une couche à l'autre.\n3. Dire que les rayons de lumière se courbent (réfraction) au lieu d'aller en ligne droite.\n4. Dire que l'œil place l'objet sur la droite prolongeant le rayon qui arrive : l'image paraît à un endroit où il n'y a rien."
+        },
+        {
+          "type": "exercice",
+          "titre": "Vérifie-toi",
+          "enonce": "1) Pourquoi une route goudronnée chauffée par le soleil peut-elle donner l'impression d'être mouillée au loin ?\n2) Un mirage est-il une illusion de l'esprit ? Justifier.",
+          "solution": "1) L'air près de la route est très chaud et se trouve sous de l'air plus frais. Les rayons venus du ciel se courbent vers le haut avant de toucher le sol et arrivent dans l'œil : on voit une image du ciel qui semble venir du sol, comme sur une flaque d'eau.\n\n2) Non : c'est un phénomène physique dû à la réfraction de la lumière dans l'air. On peut le photographier."
+        }
+      ]
+    },
+    {
+      "id": "sp-9-2",
+      "titre": "La lumière blanche et sa décomposition",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Lumière blanche, polychromatique et monochromatique",
+          "texte": "La lumière du Soleil et celle d'une lampe à incandescence sont des lumières blanches. Une lumière blanche contient plusieurs couleurs : elle est dite polychromatique.\n\nUne lumière qui ne contient qu'une seule couleur est monochromatique (par exemple celle d'un laser rouge)."
+        },
+        {
+          "type": "definition",
+          "titre": "Décomposer la lumière blanche",
+          "texte": "Quand un faisceau de lumière blanche traverse un prisme en verre, il ressort étalé en une bande de couleurs : c'est la dispersion de la lumière. Cette bande est le spectre de la lumière blanche, sur un écran.\n\nLes couleurs sont : rouge, orange, jaune, vert, bleu, indigo, violet (VIBUJOR en sens inverse)."
+        },
+        {
+          "type": "schema",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='320' height='200' viewBox='0 0 320 200'><rect width='320' height='200' fill='#ffffff'/><polygon points='130,30 70,140 190,140' fill='#e1f5fe' stroke='#0277bd' stroke-width='2'/><line x1='10' y1='120' x2='94' y2='95' stroke='#888888' stroke-width='3'/><line x1='94' y1='95' x2='168' y2='100' stroke='#bbbbbb' stroke-width='2'/><line x1='168' y1='100' x2='300' y2='120' stroke='#e53935' stroke-width='2'/><line x1='168' y1='100' x2='300' y2='130' stroke='#fb8c00' stroke-width='2'/><line x1='168' y1='100' x2='300' y2='140' stroke='#fdd835' stroke-width='2'/><line x1='168' y1='100' x2='300' y2='150' stroke='#43a047' stroke-width='2'/><line x1='168' y1='100' x2='300' y2='160' stroke='#1e88e5' stroke-width='2'/><line x1='168' y1='100' x2='300' y2='170' stroke='#3949ab' stroke-width='2'/><line x1='168' y1='100' x2='300' y2='180' stroke='#8e24aa' stroke-width='2'/><line x1='305' y1='105' x2='305' y2='190' stroke='#333333' stroke-width='3'/><text x='10' y='140' font-size='12' fill='#222222'>Lumière blanche</text><text x='130' y='160' text-anchor='middle' font-size='12' fill='#222222'>Prisme</text><text x='300' y='98' text-anchor='end' font-size='12' fill='#222222'>Écran</text></svg>",
+          "legende": "Le prisme dévie le moins le rouge (en haut) et le plus le violet (en bas)."
+        },
+        {
+          "type": "regle",
+          "titre": "Pourquoi les couleurs se séparent",
+          "texte": "L'indice de réfraction du verre est un peu différent pour chaque couleur. Le rouge est le moins dévié et le violet est le plus dévié. Les couleurs ressortent donc dans des directions différentes.\n\nUne lumière monochromatique n'est pas décomposée par un prisme : elle est seulement déviée."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les couleurs et leurs longueurs d'onde (valeurs approximatives)",
+          "entetes": ["Couleur", "Longueur d'onde"],
+          "lignes": [
+            ["Violet et indigo", "400 à 450 nm"],
+            ["Bleu", "450 à 490 nm"],
+            ["Vert", "490 à 570 nm"],
+            ["Jaune", "570 à 590 nm"],
+            ["Orange", "590 à 620 nm"],
+            ["Rouge", "620 à 800 nm"]
+          ]
+        },
+        {
+          "type": "definition",
+          "titre": "L'arc-en-ciel",
+          "texte": "L'arc-en-ciel est la décomposition de la lumière du Soleil par les gouttelettes d'eau en suspension dans l'air après ou pendant la pluie.\n\nPour le voir, il faut tourner le dos au Soleil, avec la pluie devant soi. Le rouge est à l'extérieur de l'arc et le violet à l'intérieur."
+        },
+        {
+          "type": "definition",
+          "titre": "Recomposer la lumière blanche",
+          "texte": "On peut refaire de la lumière blanche à partir des couleurs :\n• avec un deuxième prisme placé à l'envers, qui recombine les couleurs ;\n• avec le disque de Newton : un disque peint des sept couleurs, qu'on fait tourner très vite. Les couleurs se mélangent dans l'œil et le disque paraît blanc (ou gris très clair)."
+        },
+        {
+          "type": "exercice",
+          "titre": "Vérifie-toi",
+          "enonce": "1) Quelle couleur est la moins déviée par un prisme ? Quelle couleur est la plus déviée ?\n2) On envoie un faisceau de laser rouge sur un prisme. Observe-t-on un spectre ? Pourquoi ?\n3) Où se trouve le rouge dans un arc-en-ciel ?",
+          "solution": "1) Le rouge est le moins dévié, le violet est le plus dévié.\n\n2) Non. La lumière du laser est monochromatique : elle ne contient qu'une couleur, donc elle n'est pas décomposée. Elle est seulement déviée.\n\n3) Le rouge est à l'extérieur de l'arc, le violet est à l'intérieur."
+        }
+      ]
+    },
+    {
+      "id": "sp-9-3",
+      "titre": "La synthèse additive des couleurs",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Les trois couleurs primaires de la lumière",
+          "texte": "Avec trois lumières colorées, le rouge, le vert et le bleu, on peut obtenir presque toutes les couleurs en les superposant. Ce sont les couleurs primaires de la lumière.\n\nCe procédé s'appelle la synthèse additive : on additionne des lumières."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mélanges de lumières colorées",
+          "entetes": ["Lumières superposées", "Couleur obtenue"],
+          "lignes": [
+            ["Rouge + vert", "Jaune"],
+            ["Rouge + bleu", "Magenta"],
+            ["Vert + bleu", "Cyan"],
+            ["Rouge + vert + bleu", "Blanc"]
+          ]
+        },
+        {
+          "type": "schema",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='320' height='220' viewBox='0 0 320 220'><defs><clipPath id='cl-g'><circle cx='175' cy='85' r='55'/></clipPath><clipPath id='cl-b'><circle cx='145' cy='135' r='55'/></clipPath></defs><rect width='320' height='220' fill='#000000'/><circle cx='115' cy='85' r='55' fill='#ff0000'/><circle cx='175' cy='85' r='55' fill='#00ff00'/><circle cx='145' cy='135' r='55' fill='#0000ff'/><circle cx='115' cy='85' r='55' fill='#ffff00' clip-path='url(#cl-g)'/><circle cx='115' cy='85' r='55' fill='#ff00ff' clip-path='url(#cl-b)'/><circle cx='175' cy='85' r='55' fill='#00ffff' clip-path='url(#cl-b)'/><g clip-path='url(#cl-g)'><circle cx='115' cy='85' r='55' fill='#ffffff' clip-path='url(#cl-b)'/></g><text x='20' y='35' font-size='13' fill='#ffffff'>Rouge</text><text x='300' y='35' text-anchor='end' font-size='13' fill='#ffffff'>Vert</text><text x='145' y='214' text-anchor='middle' font-size='13' fill='#ffffff'>Bleu</text><text x='145' y='66' text-anchor='middle' font-size='10' fill='#000000'>Jaune</text><text x='108' y='132' text-anchor='middle' font-size='9' fill='#000000'>Magenta</text><text x='183' y='132' text-anchor='middle' font-size='10' fill='#000000'>Cyan</text><text x='145' y='104' text-anchor='middle' font-size='10' fill='#000000'>Blanc</text></svg>",
+          "legende": "Trois projecteurs rouge, vert et bleu éclairent un écran noir. Là où les faisceaux se superposent, on voit jaune, magenta, cyan, et blanc au centre."
+        },
+        {
+          "type": "definition",
+          "titre": "Couleurs complémentaires",
+          "texte": "Deux couleurs sont complémentaires quand leur mélange donne du blanc :\n• jaune (rouge + vert) et bleu ;\n• magenta (rouge + bleu) et vert ;\n• cyan (vert + bleu) et rouge."
+        },
+        {
+          "type": "remarque",
+          "titre": "Où voit-on la synthèse additive ?",
+          "texte": "Un écran de télévision, d'ordinateur ou de téléphone est formé de très petits points, les pixels. Chaque pixel est fait de trois points lumineux : un rouge, un vert et un bleu. En réglant l'éclat de chacun, l'écran fabrique toutes les couleurs. Quand les trois sont éteints, le pixel est noir ; quand les trois sont allumés, il est blanc.\n\nLes projecteurs de scène colorés fonctionnent de la même façon."
+        },
+        {
+          "type": "methode",
+          "titre": "Trouver la couleur d'un mélange de lumières",
+          "texte": "1. Écrire les couleurs primaires (R, V, B) contenues dans chaque lumière.\n2. Rassembler toutes les couleurs primaires présentes.\n3. Lire dans le tableau la couleur correspondante.\n\nExemple : lumière jaune (R + V) + lumière bleue (B) = R + V + B = lumière blanche."
+        },
+        {
+          "type": "exercice",
+          "titre": "Vérifie-toi",
+          "enonce": "1) Quelle couleur obtient-on en superposant une lumière rouge et une lumière verte ?\n2) On superpose une lumière cyan et une lumière rouge. Quelle couleur obtient-on ?\n3) Pourquoi un pixel d'écran éteint est-il noir ?",
+          "solution": "1) Du jaune.\n\n2) Le cyan est formé de vert et de bleu. Avec le rouge, on a rouge + vert + bleu : on obtient du blanc (le cyan et le rouge sont complémentaires).\n\n3) Parce qu'il n'envoie aucune lumière : les trois points rouge, vert et bleu sont éteints."
+        }
+      ]
+    },
+    {
+      "id": "sp-9-4",
+      "titre": "Filtres colorés et couleur des objets",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Qu'est-ce qu'un filtre coloré ?",
+          "texte": "Un filtre coloré est une plaque transparente (verre ou plastique) qui laisse passer certaines couleurs de la lumière et absorbe les autres.\n\nUn filtre rouge laisse passer la lumière rouge et absorbe le vert et le bleu. Un filtre est donc caractérisé par les couleurs qu'il transmet."
+        },
+        {
+          "type": "tableau",
+          "titre": "Couleurs transmises et absorbées",
+          "entetes": ["Filtre", "Laisse passer", "Absorbe"],
+          "lignes": [
+            ["Rouge", "Rouge", "Vert et bleu"],
+            ["Vert", "Vert", "Rouge et bleu"],
+            ["Bleu", "Bleu", "Rouge et vert"],
+            ["Jaune", "Rouge et vert", "Bleu"],
+            ["Cyan", "Vert et bleu", "Rouge"],
+            ["Magenta", "Rouge et bleu", "Vert"]
+          ]
+        },
+        {
+          "type": "schema",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='320' height='150' viewBox='0 0 320 150'><rect width='320' height='150' fill='#ffffff'/><text x='10' y='14' font-size='11' fill='#222222'>Lumière envoyée</text><text x='310' y='14' text-anchor='end' font-size='11' fill='#222222'>Lumière qui sort</text><rect x='10' y='25' width='90' height='35' fill='#ffffff' stroke='#999999' stroke-width='2'/><text x='55' y='48' text-anchor='middle' font-size='13' fill='#222222'>blanche</text><rect x='140' y='18' width='30' height='49' fill='#e53935' fill-opacity='0.8' stroke='#b71c1c' stroke-width='2'/><rect x='210' y='25' width='100' height='35' fill='#e53935'/><text x='260' y='48' text-anchor='middle' font-size='13' fill='#ffffff'>rouge</text><text x='105' y='48' font-size='16' fill='#222222'>→</text><text x='175' y='48' font-size='16' fill='#222222'>→</text><rect x='10' y='85' width='90' height='35' fill='#43a047'/><text x='55' y='108' text-anchor='middle' font-size='13' fill='#ffffff'>verte</text><rect x='140' y='78' width='30' height='49' fill='#e53935' fill-opacity='0.8' stroke='#b71c1c' stroke-width='2'/><rect x='210' y='85' width='100' height='35' fill='#000000'/><text x='260' y='108' text-anchor='middle' font-size='13' fill='#ffffff'>noir</text><text x='105' y='108' font-size='16' fill='#222222'>→</text><text x='175' y='108' font-size='16' fill='#222222'>→</text><text x='155' y='145' text-anchor='middle' font-size='11' fill='#222222'>filtre rouge</text></svg>",
+          "legende": "Un filtre rouge éclairé par de la lumière blanche donne du rouge. Éclairé par de la lumière verte, il ne laisse rien passer : on voit du noir."
+        },
+        {
+          "type": "regle",
+          "titre": "Superposer des filtres (synthèse soustractive)",
+          "texte": "Quand on superpose des filtres, seules passent les couleurs que tous les filtres laissent passer. À chaque filtre, on retire (on soustrait) de la lumière : c'est la synthèse soustractive.\n\n• Jaune + cyan : seul le vert passe, donc vert.\n• Jaune + magenta : seul le rouge passe, donc rouge.\n• Cyan + magenta : seul le bleu passe, donc bleu.\n• Jaune + cyan + magenta : rien ne passe, donc noir.\n• Rouge + vert : rien ne passe, donc noir."
+        },
+        {
+          "type": "remarque",
+          "titre": "Les couleurs primaires des encres",
+          "texte": "Les imprimantes et les peintres mélangent des encres ou des peintures : c'est de la synthèse soustractive. Leurs couleurs primaires sont le cyan, le magenta et le jaune (plus du noir en imprimerie)."
+        },
+        {
+          "type": "definition",
+          "titre": "La couleur d'un objet",
+          "texte": "Un objet éclairé diffuse une partie de la lumière qu'il reçoit et absorbe le reste. Sa couleur est celle de la lumière qu'il diffuse.\n\n• Un objet rouge diffuse le rouge et absorbe les autres couleurs.\n• Un objet blanc diffuse toutes les couleurs.\n• Un objet noir absorbe toutes les couleurs : il ne diffuse rien.\n\nLa couleur d'un objet dépend donc de la lumière qui l'éclaire."
+        },
+        {
+          "type": "tableau",
+          "titre": "Le drapeau de Madagascar (blanc, rouge, vert) sous différentes lumières",
+          "entetes": ["Partie du drapeau", "Lumière blanche", "Lumière rouge", "Lumière verte"],
+          "lignes": [
+            ["Bande blanche", "Blanche", "Rouge", "Verte"],
+            ["Bande rouge", "Rouge", "Rouge", "Noire"],
+            ["Bande verte", "Verte", "Noire", "Verte"]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Prévoir la couleur d'un objet sous une lumière colorée",
+          "texte": "1. Chercher quelles couleurs primaires la lumière envoie.\n2. Chercher quelles couleurs l'objet diffuse (son pigment).\n3. L'objet paraît de la couleur commune aux deux. S'il n'y a rien en commun, il paraît noir.\n\nExemple : une tomate rouge éclairée en lumière verte ne diffuse pas de vert : elle paraît noire."
+        },
+        {
+          "type": "remarque",
+          "titre": "Dans la vie réelle",
+          "texte": "Les objets et les filtres ne sont jamais parfaits : un objet rouge éclairé en vert paraît en général très sombre plutôt que parfaitement noir. Les lunettes de soleil sont des filtres : elles diminuent l'intensité de la lumière. La protection contre les rayons ultraviolets dépend d'un traitement du verre, pas de la couleur sombre des verres."
+        },
+        {
+          "type": "exercice",
+          "titre": "Vérifie-toi",
+          "enonce": "1) Quelles couleurs laisse passer un filtre jaune ?\n2) On superpose un filtre cyan et un filtre jaune, et on les éclaire en lumière blanche. Quelle couleur sort ?\n3) Un T-shirt bleu est éclairé par une lumière rouge. De quelle couleur paraît-il ? Pourquoi ?",
+          "solution": "1) Le rouge et le vert (qui forment le jaune). Il absorbe le bleu.\n\n2) Le cyan laisse passer vert et bleu ; le jaune laisse passer rouge et vert. La seule couleur commune est le vert : la lumière sort verte.\n\n3) Il paraît noir : le T-shirt bleu ne diffuse que du bleu, et la lumière rouge ne contient pas de bleu. Il absorbe la lumière rouge et ne diffuse rien."
+        }
+      ]
+    }
+  ]
+}
