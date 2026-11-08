@@ -1,0 +1,329 @@
+{
+  "id": "theme11",
+  "titre": "Thématique 11 : Transformations chimiques",
+  "lecons": [
+    {
+      "id": "sp-11-1",
+      "titre": "Transformations physiques et transformations chimiques",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Transformation physique",
+          "texte": "Dans une transformation physique, le corps change d'état ou de forme, mais ses molécules ne changent pas. On retrouve le même corps.\n\nExemples : la glace qui fond, l'eau qui bout, le sel qui se dissout dans l'eau, un morceau de bois qu'on coupe."
+        },
+        {
+          "type": "definition",
+          "titre": "Transformation chimique",
+          "texte": "Dans une transformation chimique (ou réaction chimique), des corps disparaissent et de nouveaux corps apparaissent. Ces nouveaux corps ont des propriétés différentes.\n\n• Les corps qui disparaissent sont les réactifs.\n• Les corps qui apparaissent sont les produits.\n\nLes atomes ne changent pas : ils se séparent et se réarrangent autrement pour former de nouvelles molécules."
+        },
+        {
+          "type": "tableau",
+          "titre": "Exemples",
+          "entetes": ["Transformation physique", "Transformation chimique"],
+          "lignes": [
+            ["Fusion d'un glaçon", "Combustion du bois ou du charbon"],
+            ["Ébullition de l'eau", "Combustion du gaz butane"],
+            ["Dissolution du sel ou du sucre", "Formation de la rouille"],
+            ["Découpe d'un morceau de fer", "Cuisson d'un œuf"],
+            ["Mélange de sable et de sel", "Électrolyse de l'eau"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Les indices d'une transformation chimique",
+          "entetes": ["Indice", "Exemple"],
+          "lignes": [
+            ["Changement de couleur", "Le fer brillant devient brun-rouge (rouille)"],
+            ["Dégagement de gaz", "Des bulles se forment à la surface d'une électrode"],
+            ["Formation d'un solide dans un liquide (précipité)", "Un trouble apparaît quand on ajoute de la soude"],
+            ["Dégagement de chaleur ou de lumière", "Une flamme, un mélange qui rougeoie"],
+            ["Odeur nouvelle", "Odeur de brûlé"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Un indice n'est pas toujours une preuve",
+          "texte": "Un indice aide à soupçonner une transformation chimique, mais ne suffit pas toujours. Par exemple, l'eau qui bout dégage des bulles de vapeur et ce n'est pas une transformation chimique. Pour être sûr, on vérifie qu'un nouveau corps est apparu."
+        },
+        {
+          "type": "regle",
+          "titre": "Conservation lors d'une transformation chimique",
+          "texte": "« Rien ne se perd, rien ne se crée, tout se transforme » (Lavoisier).\n\n• Les éléments se conservent : ce sont les mêmes types d'atomes avant et après.\n• Le nombre d'atomes de chaque élément se conserve.\n• La masse totale se conserve : la masse des réactifs consommés est égale à la masse des produits formés.\n\nPar contre, le nombre de molécules ou de moles peut changer."
+        },
+        {
+          "type": "definition",
+          "titre": "L'équation chimique",
+          "texte": "L'équation chimique est l'écriture de la réaction avec des formules : les réactifs à gauche, les produits à droite, séparés par une flèche.\n\nExemple : 2 H₂ + O₂ → 2 H₂O\n\nLes nombres placés devant les formules sont les coefficients. Ils permettent d'avoir le même nombre d'atomes de chaque élément de part et d'autre de la flèche : on dit que l'équation est équilibrée."
+        },
+        {
+          "type": "methode",
+          "titre": "Équilibrer une équation",
+          "texte": "1. Écrire les formules des réactifs et des produits.\n2. Compter les atomes de chaque élément à gauche et à droite.\n3. Ajouter des coefficients devant les formules pour égaliser les nombres d'atomes. Ne jamais changer les indices d'une formule, car cela changerait le corps.\n4. Équilibrer d'abord les éléments qui apparaissent dans un seul réactif et un seul produit, puis finir par O et H.\n5. Vérifier élément par élément."
+        },
+        {
+          "type": "exemple",
+          "titre": "Exemples",
+          "texte": "• Fer + dioxygène → oxyde de fer III : Fe + O₂ → Fe₂O₃\nÀ droite : 2 Fe et 3 O. On prend 4 Fe et 3 O₂ (6 O) pour avoir 2 Fe₂O₃ (6 O) :\n4 Fe + 3 O₂ → 2 Fe₂O₃. Vérification : 4 Fe et 6 O de chaque côté.\n\n• Propane : C₃H₈ + O₂ → CO₂ + H₂O\nOn équilibre C : 3 CO₂ ; puis H : 4 H₂O ; puis O : 3 × 2 + 4 = 10, donc 5 O₂ :\nC₃H₈ + 5 O₂ → 3 CO₂ + 4 H₂O."
+        },
+        {
+          "type": "exercice",
+          "titre": "Vérifie-toi",
+          "enonce": "1) Le sucre se dissout dans le thé : transformation physique ou chimique ? Et le bois qui brûle ?\n2) Équilibrer : Mg + O₂ → MgO\n3) Équilibrer : Al + O₂ → Al₂O₃",
+          "solution": "1) La dissolution du sucre est une transformation physique : on retrouve le sucre en faisant évaporer l'eau. Le bois qui brûle est une transformation chimique : de nouveaux corps (cendres, dioxyde de carbone, vapeur d'eau) apparaissent.\n\n2) 2 Mg + O₂ → 2 MgO (2 Mg et 2 O de chaque côté).\n\n3) 4 Al + 3 O₂ → 2 Al₂O₃ (4 Al et 6 O de chaque côté)."
+        }
+      ]
+    },
+    {
+      "id": "sp-11-2",
+      "titre": "Le fer et le soufre : une combinaison chimique",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Mélange et combinaison",
+          "texte": "Un mélange de poudre de fer et de poudre de soufre est un simple mélange : on voit les grains gris du fer et les grains jaunes du soufre, et un aimant attire le fer.\n\nSi on chauffe ce mélange, il se produit une transformation chimique : le fer et le soufre se combinent et forment un nouveau corps, le sulfure de fer, de formule FeS."
+        },
+        {
+          "type": "methode",
+          "titre": "L'expérience",
+          "texte": "1. Mélanger 7 g de poudre de fer et 4 g de poudre de soufre.\n2. Approcher un aimant : il attire les grains de fer. Le mélange n'est donc pas un corps nouveau.\n3. Mettre le mélange dans un tube à essais et le chauffer à l'extrémité.\n4. Dès que le mélange rougeoie, retirer la flamme : la réaction continue seule et le rougeoiement se propage dans tout le tube.\n5. Laisser refroidir et récupérer le corps noir formé : l'aimant ne l'attire plus.\n\nSécurité : porter des lunettes, travailler à l'air libre et ne pas trop chauffer : le soufre peut dégager un gaz irritant, le dioxyde de soufre."
+        },
+        {
+          "type": "schema",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='320' height='160' viewBox='0 0 320 160'><rect width='320' height='160' fill='#ffffff'/><text x='80' y='16' text-anchor='middle' font-size='12' font-weight='bold' fill='#222222'>Avant chauffage</text><text x='240' y='16' text-anchor='middle' font-size='12' font-weight='bold' fill='#222222'>Après chauffage</text><rect x='50' y='26' width='20' height='14' fill='#e53935'/><rect x='70' y='26' width='20' height='14' fill='#1e88e5'/><path d='M20 100 L140 100 L125 125 L35 125 Z' fill='#eeeeee' stroke='#555555' stroke-width='2'/><circle cx='62' cy='60' r='4' fill='#757575'/><circle cx='74' cy='68' r='4' fill='#757575'/><circle cx='80' cy='54' r='4' fill='#757575'/><circle cx='68' cy='80' r='4' fill='#757575'/><circle cx='40' cy='96' r='4' fill='#fdd835'/><circle cx='55' cy='96' r='4' fill='#fdd835'/><circle cx='90' cy='96' r='4' fill='#fdd835'/><circle cx='105' cy='96' r='4' fill='#fdd835'/><circle cx='120' cy='96' r='4' fill='#fdd835'/><circle cx='72' cy='96' r='4' fill='#fdd835'/><text x='80' y='147' text-anchor='middle' font-size='11' fill='#222222'>Le fer est attiré</text><text x='160' y='108' text-anchor='middle' font-size='24' fill='#222222'>→</text><text x='160' y='124' text-anchor='middle' font-size='10' fill='#222222'>chauffage</text><rect x='220' y='26' width='20' height='14' fill='#e53935'/><rect x='240' y='26' width='20' height='14' fill='#1e88e5'/><path d='M180 100 L300 100 L285 125 L195 125 Z' fill='#eeeeee' stroke='#555555' stroke-width='2'/><circle cx='200' cy='96' r='4' fill='#212121'/><circle cx='215' cy='96' r='4' fill='#212121'/><circle cx='230' cy='96' r='4' fill='#212121'/><circle cx='245' cy='96' r='4' fill='#212121'/><circle cx='260' cy='96' r='4' fill='#212121'/><circle cx='275' cy='96' r='4' fill='#212121'/><text x='240' y='147' text-anchor='middle' font-size='11' fill='#222222'>Rien n'est attiré</text></svg>",
+          "legende": "À gauche, le mélange de fer (gris) et de soufre (jaune) : l'aimant attire le fer. À droite, le sulfure de fer noir : l'aimant ne l'attire plus."
+        },
+        {
+          "type": "tableau",
+          "titre": "Avant et après la réaction",
+          "entetes": ["", "Mélange fer + soufre", "Sulfure de fer"],
+          "lignes": [
+            ["Aspect", "Grains gris et grains jaunes", "Corps noir, uniforme"],
+            ["Aimant", "Attire le fer", "N'attire pas"],
+            ["Nature", "Mélange de deux corps", "Un seul corps nouveau"],
+            ["Chaleur", "—", "Dégagée pendant la réaction"]
+          ]
+        },
+        {
+          "type": "formule",
+          "titre": "Équation de la réaction",
+          "texte": "Fe + S → FeS\n\nfer + soufre → sulfure de fer\n\n1 mol de Fe réagit avec 1 mol de S pour donner 1 mol de FeS."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les proportions en masse (M(Fe) = 56 g/mol ; M(S) = 32 g/mol ; M(FeS) = 88 g/mol)",
+          "entetes": ["Fer", "Soufre", "Sulfure de fer"],
+          "lignes": [
+            ["1 mol = 56 g", "1 mol = 32 g", "1 mol = 88 g"],
+            ["7 g", "4 g", "11 g"],
+            ["14 g", "8 g", "22 g"],
+            ["28 g", "16 g", "44 g"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Une réaction qui dégage de la chaleur",
+          "texte": "Une fois amorcée par un peu de chaleur, la réaction continue seule parce qu'elle dégage elle-même de la chaleur : on dit qu'elle est exothermique. La masse se conserve : 7 g + 4 g = 11 g de sulfure de fer."
+        },
+        {
+          "type": "definition",
+          "titre": "Réactif en excès",
+          "texte": "Si les quantités de fer et de soufre ne sont pas dans les bonnes proportions (1 mol pour 1 mol), un des deux réactifs est entièrement consommé et l'autre reste : c'est le réactif en excès. Le réactif entièrement consommé limite la quantité de produit formé."
+        },
+        {
+          "type": "exemple",
+          "titre": "Exemple avec un excès",
+          "texte": "On chauffe 14 g de fer et 12 g de soufre.\n• n(Fe) = 14 / 56 = 0,25 mol ; n(S) = 12 / 32 = 0,375 mol.\n• Le fer est entièrement consommé (il faut 0,25 mol de soufre) : le soufre est en excès.\n• Il se forme 0,25 mol de FeS, soit 0,25 × 88 = 22 g.\n• Le soufre qui reste : 0,375 − 0,25 = 0,125 mol, soit 0,125 × 32 = 4 g.\n• Contrôle : 14 + 12 = 26 g avant ; 22 + 4 = 26 g après."
+        },
+        {
+          "type": "exercice",
+          "titre": "Vérifie-toi",
+          "enonce": "Données : M(Fe) = 56 g/mol ; M(S) = 32 g/mol.\n1) Écrire l'équation de la réaction entre le fer et le soufre.\n2) On chauffe 28 g de fer avec 16 g de soufre. Quelle masse de sulfure de fer obtient-on ?\n3) On chauffe 7 g de fer avec 8 g de soufre. Quel réactif est en excès ? Quelle masse de ce réactif reste-t-il ?",
+          "solution": "1) Fe + S → FeS.\n\n2) n(Fe) = 28 / 56 = 0,5 mol ; n(S) = 16 / 32 = 0,5 mol. Les quantités sont dans les bonnes proportions : il se forme 0,5 mol de FeS, de masse 0,5 × 88 = 44 g (28 + 16 = 44 g).\n\n3) n(Fe) = 7 / 56 = 0,125 mol ; n(S) = 8 / 32 = 0,25 mol. Le soufre est en excès. Il reste 0,25 − 0,125 = 0,125 mol de soufre, soit 0,125 × 32 = 4 g. (Il se forme 0,125 × 88 = 11 g de FeS : 7 + 8 = 15 g = 11 + 4.)"
+        }
+      ]
+    },
+    {
+      "id": "sp-11-3",
+      "titre": "La corrosion du fer : la rouille",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Qu'est-ce que la rouille ?",
+          "texte": "La rouille est le corps brun-rouge, friable, qui se forme à la surface du fer ou de l'acier laissé à l'air humide. C'est une transformation chimique : le fer réagit avec le dioxygène de l'air, en présence d'eau.\n\nLa corrosion est l'attaque lente d'un métal par les corps qui l'entourent (air, eau, acides)."
+        },
+        {
+          "type": "regle",
+          "titre": "Les conditions de la rouille",
+          "texte": "Pour que le fer rouille, il faut à la fois :\n• du dioxygène (de l'air) ;\n• de l'eau (ou de l'humidité).\n\nSi l'un des deux manque, il n'y a pas de rouille. Le sel (eau de mer, air marin) accélère la rouille."
+        },
+        {
+          "type": "schema",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='320' height='200' viewBox='0 0 320 200'><rect width='320' height='200' fill='#ffffff'/><rect x='30' y='30' width='50' height='90' rx='6' fill='#ffffff' stroke='#555555' stroke-width='2'/><rect x='32' y='58' width='46' height='60' rx='4' fill='#bbdefb'/><rect x='32' y='50' width='46' height='8' fill='#fdd835'/><rect x='52' y='92' width='6' height='24' fill='#757575'/><rect x='135' y='30' width='50' height='90' rx='6' fill='#ffffff' stroke='#555555' stroke-width='2'/><rect x='137' y='62' width='46' height='54' rx='4' fill='#f5f5f5'/><rect x='157' y='92' width='6' height='24' fill='#757575'/><rect x='240' y='30' width='50' height='90' rx='6' fill='#ffffff' stroke='#555555' stroke-width='2'/><rect x='242' y='62' width='46' height='54' rx='4' fill='#bbdefb'/><rect x='262' y='62' width='6' height='54' fill='#8d3a14'/><text x='55' y='145' text-anchor='middle' font-size='11' fill='#222222'>Eau bouillie</text><text x='55' y='158' text-anchor='middle' font-size='11' fill='#222222'>+ huile</text><text x='160' y='145' text-anchor='middle' font-size='11' fill='#222222'>Air sec</text><text x='160' y='158' text-anchor='middle' font-size='11' fill='#222222'>(sans eau)</text><text x='265' y='145' text-anchor='middle' font-size='11' fill='#222222'>Eau + air</text><text x='55' y='185' text-anchor='middle' font-size='11' font-weight='bold' fill='#2e7d32'>pas de rouille</text><text x='160' y='185' text-anchor='middle' font-size='11' font-weight='bold' fill='#2e7d32'>pas de rouille</text><text x='265' y='185' text-anchor='middle' font-size='11' font-weight='bold' fill='#c62828'>rouille</text></svg>",
+          "legende": "Trois tubes avec un clou. Dans le premier, l'huile empêche l'air de passer dans l'eau. Dans le deuxième, il n'y a pas d'eau. Seul le clou du troisième tube (eau et air) rouille."
+        },
+        {
+          "type": "formule",
+          "titre": "Équation de la formation de la rouille (simplifiée)",
+          "texte": "4 Fe + 3 O₂ → 2 Fe₂O₃\n\nfer + dioxygène → oxyde de fer III\n\nLa vraie rouille contient aussi de l'eau (Fe₂O₃, n H₂O). L'équation simplifiée suffit pour les calculs de 3e."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les quantités (M(Fe) = 56 g/mol ; M(O₂) = 32 g/mol ; M(Fe₂O₃) = 160 g/mol)",
+          "entetes": ["", "Fer", "Dioxygène", "Oxyde de fer III"],
+          "lignes": [
+            ["Coefficients", "4", "3", "2"],
+            ["Quantités de matière", "4 mol", "3 mol", "2 mol"],
+            ["Masses", "4 × 56 = 224 g", "3 × 32 = 96 g", "2 × 160 = 320 g"]
+          ]
+        },
+        {
+          "type": "exemple",
+          "titre": "Exemple",
+          "texte": "Un morceau de fer de 11,2 g rouille entièrement.\n• n(Fe) = 11,2 / 56 = 0,2 mol.\n• Dioxygène consommé : n(O₂) = 0,2 × 3 / 4 = 0,15 mol, soit V = 0,15 × 22,4 = 3,36 L.\n• Rouille formée : n(Fe₂O₃) = 0,2 × 2 / 4 = 0,1 mol, soit m = 0,1 × 160 = 16 g.\n• Contrôle : 11,2 g + 0,15 × 32 = 11,2 + 4,8 = 16 g.\n\nLa rouille est plus lourde que le fer de départ : elle a fixé du dioxygène."
+        },
+        {
+          "type": "tableau",
+          "titre": "Comment protéger le fer de la rouille",
+          "entetes": ["Moyen", "Principe", "Exemple"],
+          "lignes": [
+            ["Peinture, vernis", "Empêche l'eau et l'air de toucher le métal", "Portail, coque de bateau"],
+            ["Graisse, huile", "Même principe", "Chaîne de vélo, outils"],
+            ["Galvanisation (couche de zinc)", "Le zinc protège le fer en dessous", "Tôle ondulée des toits"],
+            ["Acier inoxydable", "Alliage avec du chrome, qui ne rouille pas", "Couverts, casseroles"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Autres métaux",
+          "texte": "L'aluminium s'oxyde aussi, mais il se forme sur lui une couche très fine d'alumine Al₂O₃ qui adhère bien et le protège : il ne se détruit pas en profondeur. La rouille du fer, au contraire, est friable et laisse la corrosion continuer.\n\nLe cuivre se couvre lentement de vert-de-gris. Près de la mer, à Madagascar, l'air salé accélère la corrosion des objets en fer."
+        },
+        {
+          "type": "exercice",
+          "titre": "Vérifie-toi",
+          "enonce": "Données : M(Fe) = 56 g/mol ; M(O) = 16 g/mol ; M(Fe₂O₃) = 160 g/mol.\n1) Quelles sont les deux conditions pour qu'un clou rouille ?\n2) Pourquoi galvanise-t-on les tôles de toit ?\n3) Un clou de 5,6 g rouille entièrement en Fe₂O₃. Quelle masse de rouille obtient-on ?",
+          "solution": "1) Il faut du dioxygène et de l'eau (ou de l'humidité).\n\n2) La couche de zinc protège le fer : elle l'isole de l'air et de l'eau, donc la tôle rouille beaucoup moins vite.\n\n3) n(Fe) = 5,6 / 56 = 0,1 mol.\nD'après 4 Fe + 3 O₂ → 2 Fe₂O₃ : n(Fe₂O₃) = 0,1 × 2 / 4 = 0,05 mol.\nm = 0,05 × 160 = 8 g."
+        }
+      ]
+    },
+    {
+      "id": "sp-11-4",
+      "titre": "L'électrolyse de l'eau",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Corps simple et corps composé",
+          "texte": "• Un corps simple est formé d'un seul élément : dihydrogène H₂, dioxygène O₂, fer Fe.\n• Un corps composé est formé de plusieurs éléments : eau H₂O, dioxyde de carbone CO₂, sulfure de fer FeS.\n\nUn corps composé peut être décomposé en corps simples, et on peut le former à partir d'eux."
+        },
+        {
+          "type": "definition",
+          "titre": "Qu'est-ce que l'électrolyse ?",
+          "texte": "L'électrolyse est une décomposition d'un corps par le courant électrique. Pour l'eau, on utilise deux électrodes reliées à un générateur et plongées dans l'eau.\n\nL'eau pure conduit très mal l'électricité : on y ajoute un peu d'acide sulfurique ou de soude (manipulation faite par un adulte ou l'enseignant) pour que le courant passe."
+        },
+        {
+          "type": "schema",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='320' height='245' viewBox='0 0 320 245'><rect width='320' height='245' fill='#ffffff'/><text x='110' y='24' text-anchor='middle' font-size='12' font-weight='bold' fill='#222222'>Cathode (−)</text><text x='210' y='24' text-anchor='middle' font-size='12' font-weight='bold' fill='#222222'>Anode (+)</text><rect x='60' y='100' width='200' height='80' fill='#ffffff' stroke='#555555' stroke-width='2'/><rect x='61' y='120' width='198' height='59' fill='#bbdefb'/><rect x='95' y='40' width='30' height='100' fill='#ffffff' stroke='#555555' stroke-width='2'/><rect x='96' y='120' width='28' height='20' fill='#bbdefb'/><rect x='195' y='40' width='30' height='100' fill='#ffffff' stroke='#555555' stroke-width='2'/><rect x='196' y='80' width='28' height='60' fill='#bbdefb'/><text x='110' y='85' text-anchor='middle' font-size='15' font-weight='bold' fill='#222222'>H₂</text><text x='210' y='65' text-anchor='middle' font-size='15' font-weight='bold' fill='#222222'>O₂</text><line x1='110' y1='170' x2='110' y2='130' stroke='#212121' stroke-width='3'/><line x1='210' y1='170' x2='210' y2='130' stroke='#212121' stroke-width='3'/><path d='M110 170 L110 220 L135 220' fill='none' stroke='#212121' stroke-width='2'/><path d='M210 170 L210 220 L185 220' fill='none' stroke='#212121' stroke-width='2'/><rect x='135' y='208' width='50' height='24' fill='#eeeeee' stroke='#555555' stroke-width='2'/><text x='143' y='225' text-anchor='middle' font-size='14' font-weight='bold' fill='#222222'>−</text><text x='177' y='225' text-anchor='middle' font-size='14' font-weight='bold' fill='#222222'>+</text><text x='20' y='88' font-size='11' fill='#222222'>2 volumes</text><text x='235' y='68' font-size='11' fill='#222222'>1 volume</text></svg>",
+          "legende": "Deux tubes retournés recueillent les gaz. Le volume de dihydrogène (cathode, borne −) est le double de celui du dioxygène (anode, borne +)."
+        },
+        {
+          "type": "regle",
+          "titre": "Ce qu'on observe",
+          "texte": "• Des bulles de gaz se forment sur les deux électrodes.\n• À la cathode (reliée à la borne −), on recueille du dihydrogène H₂.\n• À l'anode (reliée à la borne +), on recueille du dioxygène O₂.\n• Le volume de dihydrogène est le double de celui du dioxygène (mesurés dans les mêmes conditions)."
+        },
+        {
+          "type": "tableau",
+          "titre": "Identifier les gaz",
+          "entetes": ["Gaz", "Test", "Résultat"],
+          "lignes": [
+            ["Dioxygène O₂", "Plonger une bûchette qui rougeoie", "Elle se rallume vivement"],
+            ["Dihydrogène H₂", "Approcher une flamme à l'ouverture du tube", "Petite détonation (aboiement)"]
+          ]
+        },
+        {
+          "type": "formule",
+          "titre": "Équation de l'électrolyse",
+          "texte": "2 H₂O → 2 H₂ + O₂\n\n2 mol d'eau donnent 2 mol de dihydrogène et 1 mol de dioxygène.\n\nLes volumes des gaz sont donc dans le rapport 2 pour 1, ce qui est bien ce qu'on observe."
+        },
+        {
+          "type": "exemple",
+          "titre": "Exemple",
+          "texte": "On décompose 9 g d'eau (M(H₂O) = 18 g/mol).\n• n(H₂O) = 9 / 18 = 0,5 mol.\n• n(H₂) = 0,5 mol, soit V = 0,5 × 22,4 = 11,2 L, et m = 0,5 × 2 = 1 g.\n• n(O₂) = 0,5 / 2 = 0,25 mol, soit V = 0,25 × 22,4 = 5,6 L, et m = 0,25 × 32 = 8 g.\n• Contrôle : 1 g + 8 g = 9 g d'eau."
+        },
+        {
+          "type": "definition",
+          "titre": "La synthèse de l'eau",
+          "texte": "La transformation inverse est la synthèse de l'eau : le dihydrogène brûle dans le dioxygène et forme de l'eau.\n\n2 H₂ + O₂ → 2 H₂O\n\nLa décomposition et la synthèse prouvent que l'eau n'est pas un corps simple : elle est formée de deux éléments, l'hydrogène et l'oxygène (2 H pour 1 O)."
+        },
+        {
+          "type": "remarque",
+          "titre": "Sécurité",
+          "texte": "Un mélange de dihydrogène et de dioxygène est explosif. L'électrolyse se fait avec de petits volumes, loin de toute flamme, et sous la surveillance d'un adulte ou de l'enseignant. Le dihydrogène brûle sans produire de dioxyde de carbone : on parle de lui comme d'un combustible d'avenir."
+        },
+        {
+          "type": "exercice",
+          "titre": "Vérifie-toi",
+          "enonce": "Données : M(H) = 1 g/mol ; M(O) = 16 g/mol ; Vm = 22,4 L/mol.\nLors de l'électrolyse de l'eau, on recueille 4,48 L de dihydrogène à la cathode.\n1) Quel gaz recueille-t-on à l'anode ? Comment l'identifier ?\n2) Quel volume de ce gaz recueille-t-on ?\n3) Quelle masse d'eau a été décomposée ?",
+          "solution": "1) À l'anode, on recueille du dioxygène. Une bûchette qui rougeoie s'y rallume vivement.\n\n2) Le volume de dioxygène est la moitié de celui du dihydrogène : 4,48 / 2 = 2,24 L.\n\n3) n(H₂) = 4,48 / 22,4 = 0,2 mol. D'après 2 H₂O → 2 H₂ + O₂, n(H₂O) = n(H₂) = 0,2 mol.\nM(H₂O) = 18 g/mol, donc m = 0,2 × 18 = 3,6 g."
+        }
+      ]
+    },
+    {
+      "id": "sp-11-5",
+      "titre": "La précipitation des hydroxydes métalliques",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Ions, précipité et hydroxyde",
+          "texte": "Un sel dissous dans l'eau donne des ions. Par exemple, le sulfate de cuivre donne des ions cuivre II (Cu²⁺, qui colorent l'eau en bleu) et des ions sulfate (SO₄²⁻). La soude (hydroxyde de sodium) donne des ions sodium (Na⁺) et des ions hydroxyde (OH⁻).\n\nQuand on mélange une solution contenant des ions métalliques avec de la soude, il se forme parfois un solide dans le liquide : c'est un précipité. Ce solide est un hydroxyde métallique, formé de l'ion métallique et d'ions hydroxyde OH⁻."
+        },
+        {
+          "type": "schema",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='320' height='170' viewBox='0 0 320 170'><rect width='320' height='170' fill='#ffffff'/><text x='160' y='16' text-anchor='middle' font-size='12' fill='#222222'>Solution d'ions + soude (Na⁺ et OH⁻)</text><rect x='30' y='30' width='40' height='90' rx='6' fill='#ffffff' stroke='#555555' stroke-width='2'/><rect x='32' y='55' width='36' height='63' rx='4' fill='#e8f4fd'/><rect x='32' y='98' width='36' height='20' rx='4' fill='#1e88e5'/><rect x='105' y='30' width='40' height='90' rx='6' fill='#ffffff' stroke='#555555' stroke-width='2'/><rect x='107' y='55' width='36' height='63' rx='4' fill='#f1f8e9'/><rect x='107' y='98' width='36' height='20' rx='4' fill='#7cb342'/><rect x='180' y='30' width='40' height='90' rx='6' fill='#ffffff' stroke='#555555' stroke-width='2'/><rect x='182' y='55' width='36' height='63' rx='4' fill='#fff8e1'/><rect x='182' y='98' width='36' height='20' rx='4' fill='#bf4a14'/><rect x='255' y='30' width='40' height='90' rx='6' fill='#ffffff' stroke='#555555' stroke-width='2'/><rect x='257' y='55' width='36' height='63' rx='4' fill='#f5f5f5'/><rect x='257' y='98' width='36' height='20' rx='4' fill='#fafafa' stroke='#bbbbbb' stroke-width='1'/><text x='50' y='142' text-anchor='middle' font-size='12' font-weight='bold' fill='#222222'>Cu²⁺</text><text x='125' y='142' text-anchor='middle' font-size='12' font-weight='bold' fill='#222222'>Fe²⁺</text><text x='200' y='142' text-anchor='middle' font-size='12' font-weight='bold' fill='#222222'>Fe³⁺</text><text x='275' y='142' text-anchor='middle' font-size='12' font-weight='bold' fill='#222222'>Zn²⁺</text><text x='50' y='158' text-anchor='middle' font-size='11' fill='#222222'>bleu</text><text x='125' y='158' text-anchor='middle' font-size='11' fill='#222222'>vert</text><text x='200' y='158' text-anchor='middle' font-size='11' fill='#222222'>rouille</text><text x='275' y='158' text-anchor='middle' font-size='11' fill='#222222'>blanc</text></svg>",
+          "legende": "Au fond de chaque tube, le précipité (hydroxyde) formé avec la soude, avec sa couleur."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les précipités à connaître",
+          "entetes": ["Ion métallique", "Solution de départ", "Précipité avec la soude", "Formule", "Se dissout dans un excès de soude ?"],
+          "lignes": [
+            ["Cu²⁺ (cuivre II)", "Bleue", "Bleu", "Cu(OH)₂", "Non"],
+            ["Fe²⁺ (fer II)", "Vert pâle", "Vert", "Fe(OH)₂", "Non"],
+            ["Fe³⁺ (fer III)", "Jaune-orangé", "Rouille (brun-rouge)", "Fe(OH)₃", "Non"],
+            ["Zn²⁺ (zinc)", "Incolore", "Blanc", "Zn(OH)₂", "Oui"],
+            ["Al³⁺ (aluminium)", "Incolore", "Blanc gélatineux", "Al(OH)₃", "Oui"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Écrire l'équation ionique",
+          "texte": "L'hydroxyde formé est électriquement neutre : il faut autant de charges + que de charges −. Le nombre d'ions OH⁻ est donc égal à la charge de l'ion métallique.\n\n• Cu²⁺ + 2 OH⁻ → Cu(OH)₂\n• Fe²⁺ + 2 OH⁻ → Fe(OH)₂\n• Fe³⁺ + 3 OH⁻ → Fe(OH)₃\n• Zn²⁺ + 2 OH⁻ → Zn(OH)₂\n• Al³⁺ + 3 OH⁻ → Al(OH)₃\n\nLes autres ions (Na⁺, SO₄²⁻, Cl⁻…) ne participent pas à la réaction : ce sont des ions spectateurs. Ils restent dissous et n'apparaissent pas dans l'équation ionique."
+        },
+        {
+          "type": "exemple",
+          "titre": "Avec les formules complètes",
+          "texte": "Sulfate de cuivre + soude : CuSO₄ + 2 NaOH → Cu(OH)₂ + Na₂SO₄\n\nVérification : 1 Cu, 1 S, 2 Na, 6 O et 2 H de chaque côté. Les ions Na⁺ et SO₄²⁻ sont spectateurs : l'équation ionique est Cu²⁺ + 2 OH⁻ → Cu(OH)₂."
+        },
+        {
+          "type": "methode",
+          "titre": "Identifier un ion avec la soude",
+          "texte": "1. Ajouter quelques gouttes de soude à la solution.\n2. Observer la couleur du précipité : bleu (Cu²⁺), vert (Fe²⁺), rouille (Fe³⁺), blanc (Zn²⁺ ou Al³⁺).\n3. Si le précipité est blanc, ajouter un excès de soude : s'il disparaît, l'ion est Zn²⁺ ou Al³⁺. Pour les distinguer, il faut un autre test, que l'on ne voit pas ici.\n4. Si aucun précipité n'apparaît, l'ion n'est pas l'un de ceux-ci (les ions Na⁺ et K⁺ ne précipitent pas)."
+        },
+        {
+          "type": "remarque",
+          "titre": "À savoir",
+          "texte": "• Le précipité vert d'hydroxyde de fer II brunit à l'air : le fer II se transforme en fer III (couleur rouille).\n• On utilise la précipitation pour retirer de certaines eaux polluées les ions de métaux : on les transforme en hydroxydes solides, puis on filtre."
+        },
+        {
+          "type": "exemple",
+          "titre": "Exemple de calcul",
+          "texte": "On fait réagir 0,1 mol d'ions Cu²⁺ avec un excès de soude. Données : M(Cu) = 63,5 g/mol ; M(O) = 16 g/mol ; M(H) = 1 g/mol.\n• Cu²⁺ + 2 OH⁻ → Cu(OH)₂ : il faut 2 × 0,1 = 0,2 mol d'ions OH⁻ et il se forme 0,1 mol de Cu(OH)₂.\n• M(Cu(OH)₂) = 63,5 + 2 × (16 + 1) = 97,5 g/mol.\n• m = 0,1 × 97,5 = 9,75 g de précipité bleu."
+        },
+        {
+          "type": "exercice",
+          "titre": "Vérifie-toi",
+          "enonce": "1) Une solution bleue donne un précipité bleu avec la soude. Quel ion contient-elle ? Écrire l'équation ionique.\n2) Une solution incolore donne un précipité blanc qui disparaît avec un excès de soude. Quels ions sont possibles ?\n3) Une solution contient 0,2 mol d'ions Fe³⁺. Quelle quantité d'ions OH⁻ faut-il pour les précipiter totalement ?",
+          "solution": "1) Elle contient des ions cuivre II : Cu²⁺ + 2 OH⁻ → Cu(OH)₂.\n\n2) Les ions Zn²⁺ ou Al³⁺ (leurs hydroxydes blancs se dissolvent dans un excès de soude).\n\n3) Fe³⁺ + 3 OH⁻ → Fe(OH)₃ : il faut 3 mol d'ions OH⁻ pour 1 mol de Fe³⁺, donc 3 × 0,2 = 0,6 mol."
+        }
+      ]
+    }
+  ]
+}
