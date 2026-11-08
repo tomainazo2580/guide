@@ -1,0 +1,282 @@
+{
+  "id": "math4-2-fractions",
+  "titre": "Chapitre 2 : Les fractions",
+  "lecons": [
+    {
+      "id": "math4-2-1-notion",
+      "titre": "Notion de fraction et simplification",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Fraction",
+          "texte": "Une fraction s'écrit a/b, avec b différent de 0.\n• a est le numérateur (en haut).\n• b est le dénominateur (en bas).\n• Le trait de fraction veut dire « divisé par » : a/b = a ÷ b.\nExemple : 3/4 veut dire 3 ÷ 4. On partage l'unité en 4 parts égales et on en prend 3."
+        },
+        {
+          "type": "schema",
+          "titre": "La fraction 3/4",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='300' height='110' viewBox='0 0 300 110'><rect x='30' y='20' width='60' height='50' fill='#e11d48' fill-opacity='0.35' stroke='currentColor' stroke-width='2'/><rect x='90' y='20' width='60' height='50' fill='#e11d48' fill-opacity='0.35' stroke='currentColor' stroke-width='2'/><rect x='150' y='20' width='60' height='50' fill='#e11d48' fill-opacity='0.35' stroke='currentColor' stroke-width='2'/><rect x='210' y='20' width='60' height='50' fill='none' stroke='currentColor' stroke-width='2'/><text x='150' y='95' font-size='14' fill='currentColor' text-anchor='middle'>3 parts colorées sur 4 parts égales</text></svg>",
+          "legende": "Le dénominateur dit en combien de parts on partage. Le numérateur dit combien on en prend."
+        },
+        {
+          "type": "exemple",
+          "titre": "Fraction et entier",
+          "texte": "• 6/3 = 6 ÷ 3 = 2.\n• Tout nombre entier est une fraction : 5 = 5/1.\n• 0/7 = 0.\n• 1/2 = 0,5 et 3/4 = 0,75 (on divise le numérateur par le dénominateur)."
+        },
+        {
+          "type": "regle",
+          "titre": "Signe d'une fraction",
+          "texte": "• (−a)/b = a/(−b) = −(a/b).\n• (−a)/(−b) = a/b.\nOn place en général le signe − devant la fraction.\nExemple : 3/(−5) = −3/5 et (−2)/(−7) = 2/7."
+        },
+        {
+          "type": "regle",
+          "titre": "Fractions égales",
+          "texte": "On ne change pas une fraction si on multiplie (ou si on divise) le numérateur et le dénominateur par le même nombre non nul :\na/b = (a × k)/(b × k) et a/b = (a ÷ k)/(b ÷ k).\nExemples :\n• 2/3 = (2 × 4)/(3 × 4) = 8/12.\n• 18/24 = (18 ÷ 6)/(24 ÷ 6) = 3/4."
+        },
+        {
+          "type": "methode",
+          "titre": "Simplifier une fraction",
+          "texte": "Simplifier, c'est diviser le numérateur et le dénominateur par un même diviseur commun.\n1. Chercher un diviseur commun (voir les critères ci-dessous).\n2. Diviser en haut et en bas.\n3. Recommencer jusqu'à ce que ce ne soit plus possible : la fraction est alors irréductible.\nExemple : 36/48 = 18/24 (÷ 2) = 9/12 (÷ 2) = 3/4 (÷ 3). On aurait pu tout faire d'un coup en divisant par 12."
+        },
+        {
+          "type": "remarque",
+          "titre": "Critères de divisibilité",
+          "texte": "• Par 2 : le dernier chiffre est pair (0, 2, 4, 6, 8).\n• Par 5 : le dernier chiffre est 0 ou 5.\n• Par 10 : le dernier chiffre est 0.\n• Par 3 : la somme des chiffres est un multiple de 3 (ex. 123 : 1 + 2 + 3 = 6, donc divisible par 3).\n• Par 9 : la somme des chiffres est un multiple de 9 (ex. 531 : 5 + 3 + 1 = 9)."
+        },
+        {
+          "type": "remarque",
+          "texte": "Une fraction est irréductible quand le numérateur et le dénominateur n'ont pas d'autre diviseur commun que 1. Exemple : 3/4 et 5/7 sont irréductibles. On donne en général le résultat final sous forme irréductible."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Numérateur", "Nombre du haut de la fraction"],
+            ["Dénominateur", "Nombre du bas de la fraction, jamais égal à 0"],
+            ["Quotient", "Résultat d'une division"],
+            ["Simplifier", "Diviser en haut et en bas par le même nombre"],
+            ["Irréductible", "Qu'on ne peut plus simplifier"],
+            ["Diviseur commun", "Nombre qui divise à la fois le haut et le bas"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Simplifie : 28/42 et 45/60.\n2) Complète : 5/7 = ?/21.",
+          "solution": "1) 28/42 : on divise par 14, donc 28/42 = 2/3. 45/60 : on divise par 15, donc 45/60 = 3/4.\n2) 7 × 3 = 21, donc on multiplie aussi le haut par 3 : 5/7 = 15/21."
+        }
+      ]
+    },
+    {
+      "id": "math4-2-2-comparer",
+      "titre": "Comparer des fractions",
+      "blocs": [
+        {
+          "type": "regle",
+          "titre": "Comparer avec le même dénominateur",
+          "texte": "Deux fractions positives qui ont le même dénominateur sont rangées comme leurs numérateurs.\nExemple : 5/9 > 2/9 car 5 > 2."
+        },
+        {
+          "type": "regle",
+          "titre": "Comparer avec le même numérateur",
+          "texte": "Deux fractions positives qui ont le même numérateur : la plus grande est celle qui a le plus petit dénominateur (les parts sont plus grosses).\nExemple : 3/4 > 3/7."
+        },
+        {
+          "type": "methode",
+          "titre": "Réduire au même dénominateur",
+          "texte": "Pour comparer (ou additionner) des fractions de dénominateurs différents :\n1. Chercher un multiple commun des dénominateurs, de préférence le plus petit.\n2. Transformer chaque fraction en fraction égale ayant ce dénominateur.\n3. Comparer les numérateurs.\nExemple : comparer 3/4 et 5/6. Multiples de 4 : 4, 8, 12... Multiples de 6 : 6, 12... Le plus petit multiple commun est 12.\n3/4 = 9/12 et 5/6 = 10/12.\nComme 9 < 10, on a 3/4 < 5/6."
+        },
+        {
+          "type": "schema",
+          "titre": "Fractions sur la droite graduée",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='320' height='95' viewBox='0 0 320 95'><line x1='10' y1='50' x2='308' y2='50' stroke='currentColor' stroke-width='2'/><polygon points='312,50 303,46 303,54' fill='currentColor'/><g stroke='currentColor' stroke-width='1.5'><line x1='20' y1='42' x2='20' y2='58'/><line x1='55' y1='46' x2='55' y2='54'/><line x1='90' y1='46' x2='90' y2='54'/><line x1='125' y1='46' x2='125' y2='54'/><line x1='160' y1='42' x2='160' y2='58'/><line x1='195' y1='46' x2='195' y2='54'/><line x1='230' y1='46' x2='230' y2='54'/><line x1='265' y1='46' x2='265' y2='54'/><line x1='300' y1='42' x2='300' y2='58'/></g><g font-size='13' fill='currentColor' text-anchor='middle'><text x='20' y='76'>0</text><text x='160' y='76'>1</text><text x='300' y='76'>2</text></g><circle cx='125' cy='50' r='5' fill='#e11d48'/><circle cx='230' cy='50' r='5' fill='#e11d48'/><g font-size='14' font-weight='bold' fill='#e11d48' text-anchor='middle'><text x='125' y='32'>3/4</text><text x='230' y='32'>3/2</text></g></svg>",
+          "legende": "Chaque unité est partagée en 4 parts égales. 3/4 est avant 1. 3/2 = 6/4 est entre 1 et 2."
+        },
+        {
+          "type": "regle",
+          "titre": "Comparer à 1",
+          "texte": "• Si le numérateur est plus petit que le dénominateur, la fraction positive est plus petite que 1. Exemple : 5/8 < 1.\n• S'il est égal, la fraction vaut 1. Exemple : 7/7 = 1.\n• S'il est plus grand, la fraction est plus grande que 1. Exemple : 9/4 > 1."
+        },
+        {
+          "type": "exemple",
+          "titre": "Avec des fractions négatives",
+          "texte": "Comparer −3/4 et −2/3.\nAu même dénominateur : −3/4 = −9/12 et −2/3 = −8/12.\nLes deux sont négatifs : le plus grand est celui qui est le plus proche de 0. Donc −9/12 < −8/12, c'est-à-dire −3/4 < −2/3."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Multiple", "Résultat de la table de multiplication d'un nombre (4, 8, 12 sont des multiples de 4)"],
+            ["Multiple commun", "Nombre qui est multiple de plusieurs nombres à la fois"],
+            ["Dénominateur commun", "Même dénominateur pour plusieurs fractions"],
+            ["Réduire", "Transformer pour avoir le même dénominateur"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Compare 5/6 et 7/9.\n2) Range dans l'ordre croissant : 2/3 ; 5/8 ; 3/4.",
+          "solution": "1) Le plus petit multiple commun de 6 et 9 est 18. 5/6 = 15/18 et 7/9 = 14/18. Donc 5/6 > 7/9.\n2) Dénominateur commun 24 : 2/3 = 16/24 ; 5/8 = 15/24 ; 3/4 = 18/24. Ordre croissant : 5/8 < 2/3 < 3/4."
+        }
+      ]
+    },
+    {
+      "id": "math4-2-3-addition",
+      "titre": "Addition et soustraction de fractions",
+      "blocs": [
+        {
+          "type": "regle",
+          "titre": "Même dénominateur",
+          "texte": "On additionne (ou on soustrait) les numérateurs et on garde le dénominateur :\na/c + b/c = (a + b)/c et a/c − b/c = (a − b)/c.\nExemples :\n• 2/5 + 1/5 = 3/5.\n• 7/9 − 4/9 = 3/9 = 1/3."
+        },
+        {
+          "type": "methode",
+          "titre": "Dénominateurs différents",
+          "texte": "1. Réduire les fractions au même dénominateur (le plus petit multiple commun).\n2. Additionner ou soustraire les numérateurs, garder le dénominateur.\n3. Simplifier le résultat si possible.\nExemple : 3/4 + 5/6 = 9/12 + 10/12 = 19/12."
+        },
+        {
+          "type": "exemple",
+          "titre": "Autres exemples",
+          "texte": "• 7/8 − 1/4 = 7/8 − 2/8 = 5/8.\n• 2 − 3/5 = 10/5 − 3/5 = 7/5 (on écrit 2 = 10/5).\n• −1/2 + 1/3 = −3/6 + 2/6 = −1/6.\n• 5/6 − 1/3 = 5/6 − 2/6 = 3/6 = 1/2."
+        },
+        {
+          "type": "remarque",
+          "texte": "Erreur à éviter : on n'additionne jamais les dénominateurs. 1/2 + 1/3 n'est pas égal à 2/5 : en réalité 1/2 + 1/3 = 3/6 + 2/6 = 5/6."
+        },
+        {
+          "type": "exemple",
+          "titre": "Problème",
+          "texte": "Dans un champ, Rakoto plante du riz sur 1/3 de la surface et du maïs sur 1/4.\nFraction plantée : 1/3 + 1/4 = 4/12 + 3/12 = 7/12.\nFraction non plantée : 1 − 7/12 = 12/12 − 7/12 = 5/12."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Réduire au même dénominateur", "Écrire des fractions égales qui ont le même nombre en bas"],
+            ["Surface", "Taille d'un terrain ou d'une figure"],
+            ["Fraction non plantée", "Ce qui reste : 1 moins la fraction plantée"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Calcule : a) 3/8 + 1/4   b) 5/6 − 2/9   c) 2 − 3/7   d) −1/3 − 1/4",
+          "solution": "a) 3/8 + 2/8 = 5/8.\nb) 15/18 − 4/18 = 11/18.\nc) 14/7 − 3/7 = 11/7.\nd) −4/12 − 3/12 = −7/12."
+        }
+      ]
+    },
+    {
+      "id": "math4-2-4-multiplication",
+      "titre": "Multiplication, division et fraction d'une quantité",
+      "blocs": [
+        {
+          "type": "regle",
+          "titre": "Multiplier deux fractions",
+          "texte": "On multiplie les numérateurs entre eux et les dénominateurs entre eux :\na/b × c/d = (a × c)/(b × d).\nLa règle des signes est la même que pour les nombres relatifs.\nExemples :\n• 2/3 × 5/7 = 10/21.\n• (−2/3) × (5/4) = −10/12 = −5/6."
+        },
+        {
+          "type": "methode",
+          "titre": "Simplifier avant de multiplier",
+          "texte": "On peut simplifier en croix avant de calculer, c'est plus facile.\n4/9 × 3/8 : 4 et 8 se simplifient par 4, 3 et 9 par 3.\n4/9 × 3/8 = (1 × 1)/(3 × 2) = 1/6."
+        },
+        {
+          "type": "definition",
+          "titre": "Inverse d'un nombre",
+          "texte": "L'inverse d'une fraction a/b (avec a et b différents de 0) est la fraction b/a.\nLe produit d'un nombre par son inverse vaut 1 : a/b × b/a = 1.\n• L'inverse de 3/4 est 4/3.\n• L'inverse de 5 est 1/5.\n• L'inverse de −2/7 est −7/2.\n• 0 n'a pas d'inverse."
+        },
+        {
+          "type": "regle",
+          "titre": "Diviser par une fraction",
+          "texte": "Diviser par une fraction, c'est multiplier par son inverse :\na/b ÷ c/d = a/b × d/c.\nExemples :\n• 3/4 ÷ 5/2 = 3/4 × 2/5 = 6/20 = 3/10.\n• 4 ÷ 2/3 = 4 × 3/2 = 6.\n• (−4/7) ÷ (2/3) = −4/7 × 3/2 = −12/14 = −6/7."
+        },
+        {
+          "type": "regle",
+          "titre": "Fraction d'une quantité",
+          "texte": "Prendre une fraction d'une quantité, c'est multiplier la quantité par la fraction.\nExemple : 3/5 de 40 = 3/5 × 40 = (3 × 40)/5 = 24.\nOn peut aussi diviser 40 par 5 (= 8), puis multiplier par 3 : 8 × 3 = 24."
+        },
+        {
+          "type": "schema",
+          "titre": "3/5 de 40",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='300' height='115' viewBox='0 0 300 115'><rect x='25' y='20' width='50' height='45' fill='#e11d48' fill-opacity='0.35' stroke='currentColor' stroke-width='2'/><rect x='75' y='20' width='50' height='45' fill='#e11d48' fill-opacity='0.35' stroke='currentColor' stroke-width='2'/><rect x='125' y='20' width='50' height='45' fill='#e11d48' fill-opacity='0.35' stroke='currentColor' stroke-width='2'/><rect x='175' y='20' width='50' height='45' fill='none' stroke='currentColor' stroke-width='2'/><rect x='225' y='20' width='50' height='45' fill='none' stroke='currentColor' stroke-width='2'/><g font-size='15' fill='currentColor' text-anchor='middle'><text x='50' y='48'>8</text><text x='100' y='48'>8</text><text x='150' y='48'>8</text><text x='200' y='48'>8</text><text x='250' y='48'>8</text></g><text x='150' y='95' font-size='14' fill='currentColor' text-anchor='middle'>40 ÷ 5 = 8, puis 3 × 8 = 24</text></svg>",
+          "legende": "On partage 40 en 5 parts de 8, et on prend 3 parts."
+        },
+        {
+          "type": "exemple",
+          "titre": "Applications",
+          "texte": "• 2/3 de 90 000 Ar = 2/3 × 90 000 = 60 000 Ar.\n• Les 3/4 de 200 élèves = 150 élèves.\n• La moitié de 3/4 = 1/2 × 3/4 = 3/8."
+        },
+        {
+          "type": "remarque",
+          "texte": "• Multiplier par une fraction plus petite que 1 donne un résultat plus petit.\n• Pour multiplier un entier par une fraction : 5 × 2/3 = 10/3.\n• Pour une division, on ne change que la deuxième fraction (celle de droite) : on la remplace par son inverse."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Produit", "Résultat d'une multiplication"],
+            ["Inverse", "Nombre qui, multiplié par le premier, donne 1"],
+            ["Fraction d'une quantité", "Partie d'un tout, calculée en multipliant"],
+            ["Simplifier en croix", "Simplifier un numérateur avec un dénominateur d'une autre fraction"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Calcule : a) 3/5 × 10/9   b) (−4/7) ÷ (2/3)   c) 3/4 de 200   d) 4 ÷ 2/3",
+          "solution": "a) 3/5 × 10/9 = 30/45 = 2/3.\nb) −4/7 × 3/2 = −12/14 = −6/7.\nc) 3/4 × 200 = 150.\nd) 4 × 3/2 = 12/2 = 6."
+        }
+      ]
+    },
+    {
+      "id": "math4-2-5-priorites",
+      "titre": "Priorités opératoires et problèmes",
+      "blocs": [
+        {
+          "type": "regle",
+          "titre": "Priorités",
+          "texte": "Ce sont les mêmes que pour les nombres relatifs :\n1. Les parenthèses d'abord.\n2. Puis les multiplications et les divisions.\n3. Enfin les additions et les soustractions."
+        },
+        {
+          "type": "exemple",
+          "titre": "Expressions avec des fractions",
+          "texte": "A = 1/2 + 2/3 × 3/4\nA = 1/2 + 6/12 = 1/2 + 1/2 = 1\n\nB = (1/2 + 1/3) ÷ 5/6\nB = (3/6 + 2/6) ÷ 5/6 = 5/6 × 6/5 = 1\n\nC = 3/4 − 1/2 × 3/5\nC = 3/4 − 3/10 = 15/20 − 6/20 = 9/20"
+        },
+        {
+          "type": "remarque",
+          "titre": "Fraction à plusieurs étages",
+          "texte": "Une grande fraction se lit comme une division : le grand trait de fraction veut dire « divisé par ».\n(2/3) / (4/9) = 2/3 ÷ 4/9 = 2/3 × 9/4 = 18/12 = 3/2."
+        },
+        {
+          "type": "methode",
+          "titre": "Résoudre un problème avec des fractions",
+          "texte": "1. Lire l'énoncé et repérer le tout (la quantité de départ).\n2. Traduire chaque « fraction de » par une multiplication.\n3. Pour un reste : 1 − (fractions déjà utilisées).\n4. Vérifier que le résultat est logique (plus petit que le tout, par exemple)."
+        },
+        {
+          "type": "exemple",
+          "titre": "Problème : le salaire",
+          "texte": "Un salaire est de 120 000 Ar. On dépense 1/4 pour le loyer et 1/3 pour la nourriture.\n• Fraction dépensée : 1/4 + 1/3 = 3/12 + 4/12 = 7/12.\n• Fraction restante : 1 − 7/12 = 5/12.\n• Somme restante : 5/12 × 120 000 = 50 000 Ar.\nVérification : loyer 30 000 + nourriture 40 000 = 70 000, et 120 000 − 70 000 = 50 000."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Salaire", "Argent gagné pour un travail"],
+            ["Loyer", "Argent payé pour habiter un logement"],
+            ["Le tout", "La quantité de départ, qui correspond à la fraction 1"],
+            ["Fraction restante", "1 moins la somme des fractions utilisées"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Calcule : A = 1/2 − 1/3 × 3/4   B = (2/3 + 1/6) × 6/5",
+          "solution": "A = 1/2 − 3/12 = 1/2 − 1/4 = 2/4 − 1/4 = 1/4.\nB = (4/6 + 1/6) × 6/5 = 5/6 × 6/5 = 1."
+        }
+      ]
+    }
+  ]
+}
