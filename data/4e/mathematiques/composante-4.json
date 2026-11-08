@@ -1,0 +1,297 @@
+{
+  "id": "math4-4-litteral",
+  "titre": "Chapitre 4 : Calcul littéral et équations du premier degré",
+  "lecons": [
+    {
+      "id": "math4-4-1-expressions",
+      "titre": "Expressions littérales et réduction",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Expression littérale",
+          "texte": "Une expression littérale est une expression qui contient une ou plusieurs lettres. Chaque lettre représente un nombre.\nExemples :\n• Le périmètre d'un rectangle de longueur L et de largeur l : P = 2 × (L + l).\n• Le prix de n cahiers à 1 750 Ar l'un : 1 750 × n.\nLe calcul littéral permet d'écrire une règle valable pour tous les nombres."
+        },
+        {
+          "type": "regle",
+          "titre": "Simplifier l'écriture",
+          "texte": "On peut supprimer le signe × devant une lettre ou devant une parenthèse :\n• 3 × a = 3a\n• a × b = ab\n• 2 × (x + 1) = 2(x + 1)\n• a × a = a²\n• 1 × a = a et 0 × a = 0\nAttention : entre deux nombres, on garde le signe ×. Par exemple 3 × 5 = 15, et non 35."
+        },
+        {
+          "type": "definition",
+          "titre": "Valeur numérique",
+          "texte": "Calculer la valeur numérique d'une expression, c'est remplacer chaque lettre par un nombre, puis calculer.\nExemple : A = 3x − 5.\n• Pour x = 4 : A = 3 × 4 − 5 = 12 − 5 = 7.\n• Pour x = −2 : A = 3 × (−2) − 5 = −6 − 5 = −11.\nQuand on remplace une lettre par un nombre négatif, on le met entre parenthèses."
+        },
+        {
+          "type": "exemple",
+          "titre": "Autre valeur numérique",
+          "texte": "B = x² − 3x pour x = −2.\nB = (−2)² − 3 × (−2) = 4 − (−6) = 4 + 6 = 10.\nAttention : (−2)² = 4, car le carré s'applique au nombre avec son signe."
+        },
+        {
+          "type": "definition",
+          "titre": "Termes et termes semblables",
+          "texte": "Dans une somme, chaque morceau séparé par + ou − est un terme.\n• Dans 3x − 5 + 2x², les termes sont 3x, −5 et 2x².\n• Deux termes sont semblables s'ils ont la même partie littérale (la même lettre, avec le même exposant).\n• 3x et 5x sont semblables. 4 et −7 sont semblables. 2x² et 2x ne sont pas semblables."
+        },
+        {
+          "type": "methode",
+          "titre": "Réduire une expression",
+          "texte": "Réduire, c'est regrouper les termes semblables. On additionne leurs nombres (leurs coefficients) et on garde la partie littérale.\n• 3x + 5x = 8x\n• 7a − 2a + a = 6a\n• 4x + 3 − x + 5 = (4x − x) + (3 + 5) = 3x + 8\n• 2x² + 3x ne se réduit pas (termes non semblables)."
+        },
+        {
+          "type": "remarque",
+          "texte": "• a + a = 2a, mais a × a = a². Ce n'est pas la même chose : pour a = 3, a + a = 6 et a × a = 9.\n• Le coefficient de x dans −x est −1 : −x + 4x = 3x."
+        },
+        {
+          "type": "exemple",
+          "titre": "Périmètre",
+          "texte": "Un triangle a pour côtés x, x + 3 et 2x − 1.\nPérimètre = x + (x + 3) + (2x − 1) = x + x + 3 + 2x − 1 = 4x + 2.\nPour x = 5 cm : P = 4 × 5 + 2 = 22 cm."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Littéral", "Qui utilise des lettres"],
+            ["Terme", "Morceau d'une somme, séparé par + ou −"],
+            ["Termes semblables", "Termes qui ont la même partie littérale"],
+            ["Coefficient", "Le nombre qui multiplie la lettre (dans 5x, c'est 5)"],
+            ["Réduire", "Regrouper les termes semblables"],
+            ["Valeur numérique", "Résultat quand on remplace les lettres par des nombres"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Réduis : A = 5x + 2 − 3x + 7.\n2) Calcule la valeur numérique de B = 2x² − 3x pour x = −1.",
+          "solution": "1) A = (5x − 3x) + (2 + 7) = 2x + 9.\n2) B = 2 × (−1)² − 3 × (−1) = 2 × 1 + 3 = 5."
+        }
+      ]
+    },
+    {
+      "id": "math4-4-2-distributivite",
+      "titre": "Distributivité : développer et factoriser",
+      "blocs": [
+        {
+          "type": "regle",
+          "titre": "Distributivité",
+          "texte": "Pour tous nombres k, a et b :\nk(a + b) = ka + kb\nk(a − b) = ka − kb\nOn distribue le facteur k à chaque terme de la parenthèse."
+        },
+        {
+          "type": "schema",
+          "titre": "Aire d'un rectangle découpé en deux",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='300' height='135' viewBox='0 0 300 135'><rect x='40' y='20' width='140' height='60' fill='#e11d48' fill-opacity='0.3' stroke='currentColor' stroke-width='2'/><rect x='180' y='20' width='80' height='60' fill='#e11d48' fill-opacity='0.1' stroke='currentColor' stroke-width='2'/><g font-size='15' fill='currentColor' text-anchor='middle'><text x='110' y='56'>3x</text><text x='220' y='56'>6</text><text x='110' y='98'>x</text><text x='220' y='98'>2</text><text x='25' y='55'>3</text></g><text x='150' y='125' font-size='14' fill='currentColor' text-anchor='middle'>3 × (x + 2) = 3x + 6</text></svg>",
+          "legende": "Aire totale = 3 × (x + 2). Aire des deux morceaux = 3x + 3 × 2 = 3x + 6. C'est la même aire."
+        },
+        {
+          "type": "methode",
+          "titre": "Développer",
+          "texte": "Développer, c'est transformer un produit en une somme.\n• 4(x + 3) = 4x + 12\n• −2(x − 5) = −2x + 10 (attention : (−2) × (−5) = +10)\n• 3(2x + 1) = 6x + 3\n• x(x + 2) = x² + 2x"
+        },
+        {
+          "type": "regle",
+          "titre": "Supprimer des parenthèses",
+          "texte": "• Parenthèses précédées de + : on les enlève sans rien changer.\n  5x + (2x − 3) = 5x + 2x − 3 = 7x − 3\n• Parenthèses précédées de − : on les enlève et on change le signe de chaque terme à l'intérieur.\n  5x − (2x − 3) = 5x − 2x + 3 = 3x + 3\n(c'est la distributivité avec k = −1)."
+        },
+        {
+          "type": "exemple",
+          "titre": "Développer et réduire",
+          "texte": "• 3(x + 2) + 2(x − 1) = 3x + 6 + 2x − 2 = 5x + 4\n• 2(3x − 1) − 4(x − 2) = 6x − 2 − 4x + 8 = 2x + 6\n• 4(x + 1) − (3x − 2) = 4x + 4 − 3x + 2 = x + 6"
+        },
+        {
+          "type": "methode",
+          "titre": "Factoriser",
+          "texte": "Factoriser, c'est transformer une somme en un produit : c'est l'inverse de développer.\nka + kb = k(a + b)\n1. Repérer le facteur commun à tous les termes.\n2. L'écrire devant une parenthèse.\n3. Mettre dans la parenthèse ce qui reste.\nExemples :\n• 6x + 9 = 3 × 2x + 3 × 3 = 3(2x + 3)\n• 5x − 10 = 5(x − 2)\n• 12x + 8 = 4(3x + 2)\n• x² + 4x = x(x + 4)\nPour vérifier, on redéveloppe : 3(2x + 3) = 6x + 9."
+        },
+        {
+          "type": "exemple",
+          "titre": "Calcul astucieux",
+          "texte": "La distributivité aide à calculer de tête.\n• 17 × 102 = 17 × (100 + 2) = 1 700 + 34 = 1 734.\n• 25 × 98 = 25 × (100 − 2) = 2 500 − 50 = 2 450."
+        },
+        {
+          "type": "remarque",
+          "titre": "Erreurs à éviter",
+          "texte": "• 3(x + 2) = 3x + 6, et non 3x + 2 : le facteur 3 multiplie tous les termes.\n• −(x − 4) = −x + 4, et non −x − 4.\n• 2(x + 3) n'est pas égal à 2x + 3."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Distributivité", "Propriété qui permet de multiplier chaque terme d'une parenthèse"],
+            ["Développer", "Transformer un produit en une somme"],
+            ["Factoriser", "Transformer une somme en un produit"],
+            ["Facteur commun", "Nombre ou lettre présent dans tous les termes"],
+            ["Produit", "Résultat d'une multiplication"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Développe : 5(2x − 3).\n2) Développe et réduis : 4(x + 1) − (3x − 2).\n3) Factorise : 12x − 18.",
+          "solution": "1) 5(2x − 3) = 10x − 15.\n2) 4x + 4 − 3x + 2 = x + 6.\n3) 12x − 18 = 6 × 2x − 6 × 3 = 6(2x − 3)."
+        }
+      ]
+    },
+    {
+      "id": "math4-4-3-equations",
+      "titre": "Équations du type ax + b = c",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Équation et solution",
+          "texte": "Une équation est une égalité qui contient une lettre appelée l'inconnue (souvent x).\n• Les expressions de chaque côté du signe = sont les membres de l'équation.\n• Une solution est une valeur de l'inconnue qui rend l'égalité vraie.\n• Résoudre une équation, c'est trouver toutes ses solutions.\nExemple : 2x + 1 = 7 a pour solution x = 3, car 2 × 3 + 1 = 7. Pour x = 2, on trouve 5, donc 2 n'est pas solution."
+        },
+        {
+          "type": "regle",
+          "titre": "Propriétés des égalités",
+          "texte": "On ne change pas une égalité (donc les solutions d'une équation) si :\n• on ajoute ou on retire le même nombre aux deux membres ;\n• on multiplie ou on divise les deux membres par le même nombre non nul.\nC'est comme une balance en équilibre : ce qu'on fait d'un côté, on le fait de l'autre."
+        },
+        {
+          "type": "schema",
+          "titre": "La balance",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='300' height='135' viewBox='0 0 300 135'><line x1='50' y1='40' x2='250' y2='40' stroke='currentColor' stroke-width='3'/><polygon points='150,40 135,95 165,95' fill='currentColor' fill-opacity='0.4' stroke='currentColor' stroke-width='2'/><line x1='115' y1='95' x2='185' y2='95' stroke='currentColor' stroke-width='3'/><g stroke='currentColor' stroke-width='1.5'><line x1='50' y1='40' x2='30' y2='70'/><line x1='50' y1='40' x2='70' y2='70'/><line x1='250' y1='40' x2='230' y2='70'/><line x1='250' y1='40' x2='270' y2='70'/></g><rect x='20' y='70' width='60' height='30' fill='#e11d48' fill-opacity='0.3' stroke='currentColor' stroke-width='2'/><rect x='220' y='70' width='60' height='30' fill='#e11d48' fill-opacity='0.3' stroke='currentColor' stroke-width='2'/><g font-size='15' fill='currentColor' text-anchor='middle'><text x='50' y='91'>x + 3</text><text x='250' y='91'>7</text></g><text x='150' y='125' font-size='14' fill='currentColor' text-anchor='middle'>On retire 3 des deux côtés : x = 4</text></svg>",
+          "legende": "La balance reste en équilibre si on retire 3 de chaque côté. Il reste x = 7 − 3 = 4."
+        },
+        {
+          "type": "methode",
+          "titre": "Résoudre ax + b = c",
+          "texte": "1. Retirer b (ou ajouter son opposé) aux deux membres, pour isoler le terme en x.\n2. Diviser les deux membres par a (a différent de 0).\n3. Vérifier en remplaçant x dans l'équation de départ.\n4. Conclure par une phrase.\nExemple : 3x + 5 = 20.\n3x + 5 − 5 = 20 − 5\n3x = 15\nx = 15 ÷ 3 = 5.\nVérification : 3 × 5 + 5 = 20. La solution est 5."
+        },
+        {
+          "type": "exemple",
+          "titre": "Autres exemples",
+          "texte": "• 2x − 7 = 3 : 2x = 3 + 7 = 10, donc x = 5.\n• −4x + 1 = 13 : −4x = 12, donc x = 12 ÷ (−4) = −3.\n• 5x = 2 : x = 2/5.\n• x/3 − 1 = 4 : x/3 = 5, donc x = 5 × 3 = 15.\nVérification de la deuxième : −4 × (−3) + 1 = 12 + 1 = 13."
+        },
+        {
+          "type": "remarque",
+          "texte": "On dit souvent « on passe 5 de l'autre côté en changeant son signe ». C'est un raccourci : en vrai, on ajoute ou on retire 5 aux deux membres. Il faut écrire la ligne de calcul de façon claire pour que le correcteur comprenne."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Équation", "Égalité avec une inconnue"],
+            ["Inconnue", "La lettre dont on cherche la valeur"],
+            ["Membre", "Chaque côté du signe ="],
+            ["Solution", "Valeur de l'inconnue qui rend l'égalité vraie"],
+            ["Isoler", "Mettre seul d'un côté du signe ="],
+            ["Opposé", "Même distance à zéro, signe contraire"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Résous : a) 4x − 3 = 9   b) −2x + 5 = 11   c) 5x = 3",
+          "solution": "a) 4x = 12, donc x = 3.\nb) −2x = 6, donc x = −3.\nc) x = 3/5.\nVérification de b) : −2 × (−3) + 5 = 6 + 5 = 11."
+        }
+      ]
+    },
+    {
+      "id": "math4-4-4-equations-2",
+      "titre": "Équations du type ax + b = cx + d",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Résoudre ax + b = cx + d",
+          "texte": "L'inconnue est des deux côtés.\n1. Si besoin, développer et réduire chaque membre.\n2. Regrouper les termes en x d'un côté (on retire cx aux deux membres).\n3. Regrouper les nombres de l'autre côté.\n4. Diviser par le coefficient de x.\n5. Vérifier dans l'équation de départ.\nExemple : 5x + 3 = 2x + 12\n5x − 2x = 12 − 3\n3x = 9\nx = 3.\nVérification : 5 × 3 + 3 = 18 et 2 × 3 + 12 = 18. La solution est 3."
+        },
+        {
+          "type": "exemple",
+          "titre": "Un coefficient négatif",
+          "texte": "3x − 4 = 7x + 8\n3x − 7x = 8 + 4\n−4x = 12\nx = −3.\nVérification : 3 × (−3) − 4 = −13 et 7 × (−3) + 8 = −13."
+        },
+        {
+          "type": "exemple",
+          "titre": "Avec des parenthèses",
+          "texte": "2(x + 3) = 5x − 3\n2x + 6 = 5x − 3 (on développe)\n2x − 5x = −3 − 6\n−3x = −9\nx = 3.\nVérification : 2 × (3 + 3) = 12 et 5 × 3 − 3 = 12.\n\nAutre exemple : 3(x − 2) − (x + 4) = 0\n3x − 6 − x − 4 = 0\n2x − 10 = 0\n2x = 10, donc x = 5."
+        },
+        {
+          "type": "methode",
+          "titre": "Avec des fractions",
+          "texte": "On multiplie les deux membres par un dénominateur commun pour faire disparaître les fractions.\nx/2 + 1 = x/3 + 2\nOn multiplie par 6 : 3x + 6 = 2x + 12\n3x − 2x = 12 − 6\nx = 6.\nVérification : 6/2 + 1 = 4 et 6/3 + 2 = 4."
+        },
+        {
+          "type": "remarque",
+          "titre": "Cas particuliers",
+          "texte": "• 2x + 3 = 2x + 5 : en retirant 2x, on obtient 3 = 5, ce qui est faux. L'équation n'a pas de solution.\n• 2x + 3 = 2x + 3 : l'égalité est toujours vraie. Tout nombre est solution.\nCes cas sont rares, mais il faut les reconnaître."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Regrouper", "Mettre ensemble les termes de même sorte"],
+            ["Coefficient", "Nombre qui multiplie la lettre"],
+            ["Dénominateur commun", "Même nombre en bas pour plusieurs fractions"],
+            ["Vérifier", "Remplacer la solution dans l'équation de départ"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Résous : a) 6x − 5 = 2x + 7   b) 3(x + 1) = x + 11",
+          "solution": "a) 6x − 2x = 7 + 5, donc 4x = 12 et x = 3.\nb) 3x + 3 = x + 11, donc 3x − x = 11 − 3, soit 2x = 8 et x = 4.\nVérification de b) : 3 × (4 + 1) = 15 et 4 + 11 = 15."
+        }
+      ]
+    },
+    {
+      "id": "math4-4-5-problemes",
+      "titre": "Mettre un problème en équation",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Les étapes",
+          "texte": "1. Choisir l'inconnue : écrire « Soit x le (ou la) … » (ce qu'on cherche, avec son unité).\n2. Exprimer les autres quantités avec x.\n3. Écrire l'équation qui traduit l'énoncé.\n4. Résoudre l'équation.\n5. Vérifier avec l'énoncé et conclure par une phrase."
+        },
+        {
+          "type": "exemple",
+          "titre": "Problème 1 : un nombre",
+          "texte": "Le triple d'un nombre, augmenté de 5, est égal à 29. Quel est ce nombre ?\nSoit x ce nombre. Le triple de x est 3x.\n3x + 5 = 29\n3x = 24\nx = 8.\nVérification : 3 × 8 + 5 = 29. Le nombre est 8."
+        },
+        {
+          "type": "exemple",
+          "titre": "Problème 2 : un rectangle",
+          "texte": "La longueur d'un rectangle dépasse sa largeur de 3 cm. Son périmètre est de 26 cm. Quelles sont ses dimensions ?\nSoit x la largeur en cm. La longueur est x + 3.\nPérimètre = 2 × (longueur + largeur) = 2(x + 3 + x) = 2(2x + 3) = 4x + 6.\n4x + 6 = 26\n4x = 20\nx = 5.\nLargeur 5 cm, longueur 8 cm. Vérification : 2 × (8 + 5) = 26 cm."
+        },
+        {
+          "type": "schema",
+          "titre": "Le rectangle du problème 2",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='300' height='125' viewBox='0 0 300 125'><rect x='50' y='30' width='190' height='60' fill='#e11d48' fill-opacity='0.2' stroke='currentColor' stroke-width='2'/><g font-size='15' font-weight='bold' fill='currentColor' text-anchor='middle'><text x='145' y='22'>x + 3</text><text x='262' y='65'>x</text></g><text x='145' y='115' font-size='14' fill='currentColor' text-anchor='middle'>Périmètre = 26 cm</text></svg>",
+          "legende": "Largeur x, longueur x + 3. Périmètre : 2(x + 3 + x) = 26."
+        },
+        {
+          "type": "exemple",
+          "titre": "Problème 3 : partager de l'argent",
+          "texte": "Hery et Lalao ont ensemble 35 000 Ar. Hery a 5 000 Ar de plus que Lalao. Combien chacun a-t-il ?\nSoit x la somme de Lalao en Ar. Hery a x + 5 000.\nx + (x + 5 000) = 35 000\n2x + 5 000 = 35 000\n2x = 30 000\nx = 15 000.\nLalao a 15 000 Ar et Hery 20 000 Ar. Vérification : 15 000 + 20 000 = 35 000."
+        },
+        {
+          "type": "exemple",
+          "titre": "Problème 4 : deux tarifs",
+          "texte": "Un loueur de vélos propose deux tarifs.\n• Tarif A : 2 000 Ar de forfait + 500 Ar par heure.\n• Tarif B : 5 000 Ar de forfait + 200 Ar par heure.\nAu bout de combien d'heures les deux tarifs coûtent-ils la même chose ?\nSoit x le nombre d'heures.\n2 000 + 500x = 5 000 + 200x\n500x − 200x = 5 000 − 2 000\n300x = 3 000\nx = 10.\nÀ 10 heures, A coûte 2 000 + 5 000 = 7 000 Ar et B coûte 5 000 + 2 000 = 7 000 Ar. Pour moins de 10 heures, le tarif A est moins cher ; pour plus de 10 heures, le tarif B est moins cher."
+        },
+        {
+          "type": "remarque",
+          "texte": "• Toujours dire ce que représente x, avec l'unité.\n• La solution doit avoir un sens : un nombre de personnes est un entier positif, une longueur est positive.\n• Toujours vérifier avec l'énoncé, pas seulement avec l'équation."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Mise en équation", "Traduire un problème par une équation"],
+            ["Forfait", "Somme fixe payée à l'avance"],
+            ["Périmètre", "Longueur du tour d'une figure"],
+            ["Dépasser", "Être plus grand que"],
+            ["Triple", "Trois fois"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Rado a 3 ans de moins que sa sœur. À eux deux, ils ont 21 ans. Quel âge a chacun ?",
+          "solution": "Soit x l'âge de la sœur. Rado a x − 3 ans.\nx + (x − 3) = 21\n2x − 3 = 21\n2x = 24\nx = 12.\nLa sœur a 12 ans et Rado a 9 ans. Vérification : 12 + 9 = 21."
+        }
+      ]
+    }
+  ]
+}
