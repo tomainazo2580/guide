@@ -1,0 +1,27 @@
+{
+  "matiere": "Sciences Physiques",
+  "chapitres": [
+    {
+      "id": "exo-sp-7-joule-jirama",
+      "titre": "Thématique 7 : Effet Joule, énergie et facture JIRAMA",
+      "exercices": [
+        {
+          "enonce": "🟢 Niveau Facile\n\nUn fer à repasser porte l'inscription : 220 V – 1100 W. Il fonctionne pendant 2 heures. Le prix du kWh est de 500 Ar.\n\n1) Calculer l'intensité du courant qui traverse le fer.\n2) Calculer l'énergie consommée en Wh, puis en kWh.\n3) Calculer le coût de ce repassage.",
+          "solution": "1) P = U × I donc I = P / U = 1100 / 220 = 5 A.\n\n2) E = P × t = 1100 W × 2 h = 2200 Wh = 2,2 kWh.\n\n3) Coût = 2,2 kWh × 500 Ar = 1100 Ar."
+        },
+        {
+          "enonce": "🟡 Niveau Moyen\n\nUn réchaud électrique porte l'inscription : 220 V – 1500 W. On l'utilise pendant 40 minutes. Le prix du kWh est de 500 Ar.\n\n1) Calculer l'intensité du courant (arrondir à 0,1 A).\n2) Calculer l'énergie consommée en kWh.\n3) Exprimer cette énergie en joules.\n4) Calculer le coût de cette utilisation.",
+          "solution": "1) I = P / U = 1500 / 220 ≈ 6,8 A.\n\n2) 40 min = 40/60 h = 2/3 h.\nP = 1500 W = 1,5 kW.\nE = P × t = 1,5 × 2/3 = 1 kWh.\n\n3) 1 kWh = 3 600 000 J, donc E = 3 600 000 J.\nVérification : E = 1500 W × 2400 s = 3 600 000 J.\n\n4) Coût = 1 kWh × 500 Ar = 500 Ar."
+        },
+        {
+          "enonce": "🟠 Niveau Difficile\n\nUne résistance chauffante de 50 Ω est traversée par un courant de 4 A pendant 5 minutes.\n\n1) Calculer la quantité de chaleur Q dégagée en joules.\n2) Calculer la puissance de la résistance.\n3) Retrouver Q avec la formule E = P × t.\n4) On double l'intensité (8 A) pendant la même durée. Calculer la nouvelle quantité de chaleur. Par combien a-t-elle été multipliée ?\n5) Exprimer la chaleur de la question 1 en kWh (arrondir à 0,001 kWh).",
+          "solution": "1) t = 5 min = 300 s.\nQ = R × I² × t = 50 × 4² × 300 = 50 × 16 × 300 = 240 000 J.\n\n2) P = R × I² = 50 × 16 = 800 W.\n\n3) E = P × t = 800 × 300 = 240 000 J. On retrouve bien Q.\n\n4) Q' = 50 × 8² × 300 = 50 × 64 × 300 = 960 000 J.\n960 000 / 240 000 = 4 : la chaleur est multipliée par 4 quand l'intensité est doublée (car I est au carré).\n\n5) 240 000 / 3 600 000 ≈ 0,067 kWh."
+        },
+        {
+          "enonce": "🔴 Niveau Expert (BEPC)\n\nLa famille Rakoto reçoit sa facture JIRAMA. L'ancien index du compteur est 2450 kWh et le nouvel index est 2590 kWh. Le prix du kWh est de 500 Ar. Les frais fixes sont de 2000 Ar par mois.\n\n1) Calculer la consommation du mois, puis le montant de la facture.\n\n2) On étudie trois appareils (un mois = 30 jours) :\n• 4 ampoules à incandescence de 60 W, allumées 5 h par jour ;\n• un téléviseur de 100 W, allumé 6 h par jour ;\n• un fer à repasser de 1100 W, utilisé 1 h par jour.\nCalculer l'énergie consommée par chaque appareil en un mois (en kWh), puis le total et son coût.\n\n3) On remplace les 4 ampoules par 4 ampoules LED de 9 W, allumées aussi 5 h par jour. Calculer l'économie réalisée en un mois (en kWh et en Ar).\n\n4) Le disjoncteur de la maison est de 16 A sous 220 V. Calculer la puissance maximale que l'installation peut supporter. Un soir, on utilise en même temps les 4 ampoules de 60 W, le téléviseur, le fer, une bouilloire de 2000 W et un réchaud de 1500 W. Le disjoncteur va-t-il couper le courant ? Justifier.",
+          "solution": "1) Consommation = nouvel index − ancien index = 2590 − 2450 = 140 kWh.\nMontant = 140 × 500 + 2000 = 70 000 + 2000 = 72 000 Ar.\n\n2) • Ampoules : 4 × 60 = 240 W = 0,24 kW.\nPar jour : 0,24 × 5 = 1,2 kWh. Par mois : 1,2 × 30 = 36 kWh.\n• Téléviseur : 0,1 kW × 6 h = 0,6 kWh par jour. Par mois : 0,6 × 30 = 18 kWh.\n• Fer : 1,1 kW × 1 h = 1,1 kWh par jour. Par mois : 1,1 × 30 = 33 kWh.\nTotal : 36 + 18 + 33 = 87 kWh.\nCoût : 87 × 500 = 43 500 Ar.\n\n3) 4 LED : 4 × 9 = 36 W = 0,036 kW.\nPar jour : 0,036 × 5 = 0,18 kWh. Par mois : 0,18 × 30 = 5,4 kWh.\nÉconomie : 36 − 5,4 = 30,6 kWh par mois.\nEn argent : 30,6 × 500 = 15 300 Ar par mois.\n\n4) Puissance maximale : P = U × I = 220 × 16 = 3520 W.\nPuissance utilisée en même temps : 240 + 100 + 1100 + 2000 + 1500 = 4940 W.\nIntensité correspondante : I = 4940 / 220 ≈ 22,5 A.\n4940 W > 3520 W (ou 22,5 A > 16 A) : le disjoncteur va couper le courant, pour protéger l'installation contre la surcharge."
+        }
+      ]
+    }
+  ]
+}
