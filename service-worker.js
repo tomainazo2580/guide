@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'guide-v41';
+const CACHE_VERSION = 'guide-v42';
 
 const APP_SHELL = [
   './',
@@ -55,6 +55,12 @@ const APP_SHELL = [
   './data/3e/sciences-physiques/composante-3.json',
   './data/3e/sciences-physiques/composante-4.json',
   './data/3e/sciences-physiques/composante-5.json',
+  './data/3e/sciences-physiques/composante-6.json',
+  './data/3e/sciences-physiques/composante-7.json',
+  './data/3e/sciences-physiques/composante-8.json',
+  './data/3e/sciences-physiques/composante-9.json',
+  './data/3e/sciences-physiques/composante-10.json',
+  './data/3e/sciences-physiques/composante-11.json',
 
   './data/3e/histoire/composante-1.json',
   './data/3e/histoire/composante-2.json',
@@ -80,6 +86,12 @@ const APP_SHELL = [
   './data/3e/exercices/exercices-mathematiques.json',
   './data/3e/exercices/exercices-anglais.json',
   './data/3e/exercices/exercices-sciences-physiques.json',
+  './data/3e/exercices/exercices-sciences-physiques-2.json',
+  './data/3e/exercices/exercices-sciences-physiques-3.json',
+  './data/3e/exercices/exercices-sciences-physiques-4.json',
+  './data/3e/exercices/exercices-sciences-physiques-5.json',
+  './data/3e/exercices/exercices-sciences-physiques-6.json',
+  './data/3e/exercices/exercices-sciences-physiques-7.json',
   './data/3e/exercices/exercices-svt.json',
   './data/3e/exercices/exercices-svt-2.json',
   './data/3e/exercices/exercices-svt-3.json',
@@ -98,43 +110,40 @@ const APP_SHELL = [
   './data/3e/sujets/sujets-svt-C.json'
 ];
 
-self.addEventListener('install', event => {
+self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open(CACHE_VERSION)
-      .then(cache =>
-        Promise.all(
-          APP_SHELL.map(url =>
-            cache.add(new Request(url, { cache: 'reload' })).catch(() => {})
-          )
+    caches.open(CACHE_VERSION).then((cache) =>
+      Promise.all(
+        APP_SHELL.map((url) =>
+          cache.add(new Request(url, { cache: 'reload' })).catch(() => {})
         )
       )
-      .then(() => self.skipWaiting())
+    ).then(() => self.skipWaiting())
   );
 });
 
-self.addEventListener('activate', event => {
+self.addEventListener('activate', (event) => {
   event.waitUntil(
-    caches.keys()
-      .then(keys =>
-        Promise.all(
-          keys
-            .filter(nom => nom !== CACHE_VERSION)
-            .map(nom => caches.delete(nom))
-        )
+    caches.keys().then((cles) =>
+      Promise.all(
+        cles
+          .filter((cle) => cle !== CACHE_VERSION)
+          .map((cle) => caches.delete(cle))
       )
-      .then(() => self.clients.claim())
+    ).then(() => self.clients.claim())
   );
 });
 
-self.addEventListener('fetch', event => {
+self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
   event.respondWith(
-    caches.match(event.request).then(reponse => {
-      if (reponse) return reponse;
+    caches.match(event.request).then((enCache) => {
+      if (enCache) return enCache;
       return fetch(event.request).catch(() => {
         if (event.request.mode === 'navigate') {
           return caches.match('./index.html');
         }
+        return Response.error();
       });
     })
   );
