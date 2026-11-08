@@ -1,0 +1,297 @@
+{
+  "id": "sp4-2-melanges",
+  "titre": "Chapitre 2 : Mélanges et corps purs",
+  "lecons": [
+    {
+      "id": "sp4-2-purs-melanges",
+      "titre": "Corps purs et mélanges",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Corps pur",
+          "texte": "Un corps pur est formé d’une seule substance. Exemples : l’eau distillée, le fer, le cuivre, le dioxygène."
+        },
+        {
+          "type": "definition",
+          "titre": "Mélange",
+          "texte": "Un mélange contient au moins deux substances différentes. Exemples : l’air, l’eau de mer, l’eau du robinet, l’eau boueuse."
+        },
+        {
+          "type": "schema",
+          "titre": "Mélanges homogènes et hétérogènes",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='350' height='165' viewBox='0 0 350 165'><g fill='none' stroke='currentColor' stroke-width='1.5'><path d='M20 30 L20 120 L90 120 L90 30'/><path d='M140 30 L140 120 L210 120 L210 30'/><path d='M260 30 L260 120 L330 120 L330 30'/></g><rect x='21' y='55' width='69' height='65' fill='#e11d48' fill-opacity='0.2'/><rect x='141' y='80' width='69' height='40' fill='#e11d48' fill-opacity='0.3'/><rect x='141' y='55' width='69' height='25' fill='currentColor' fill-opacity='0.15'/><rect x='261' y='55' width='69' height='65' fill='#e11d48' fill-opacity='0.2'/><rect x='261' y='108' width='69' height='12' fill='currentColor' fill-opacity='0.45'/><g fill='currentColor' font-size='12' text-anchor='middle'><text x='55' y='138'>Eau salée</text><text x='175' y='138'>Eau et huile</text><text x='295' y='138'>Eau et sable</text></g><g fill='#e11d48' font-size='12' text-anchor='middle'><text x='55' y='156'>homogène</text><text x='175' y='156'>hétérogène</text><text x='295' y='156'>hétérogène</text></g></svg>",
+          "legende": "Eau salée : on ne voit qu’une seule phase. Eau et huile : deux couches visibles. Eau et sable : le sable est visible au fond."
+        },
+        {
+          "type": "tableau",
+          "titre": "Deux sortes de mélanges",
+          "entetes": ["Mélange", "Ce qu’on observe", "Exemples"],
+          "lignes": [
+            ["Homogène", "On ne distingue qu’une seule phase, même à la loupe.", "Eau salée, eau sucrée, air, sirop"],
+            ["Hétérogène", "On distingue au moins deux phases.", "Eau et huile, eau et sable, eau boueuse"]
+          ]
+        },
+        {
+          "type": "definition",
+          "titre": "Solution",
+          "texte": "Une solution est un mélange homogène obtenu en dissolvant une substance (le soluté) dans un liquide (le solvant).\nDans l’eau sucrée, le sucre est le soluté et l’eau est le solvant. Quand le solvant est l’eau, on parle de solution aqueuse."
+        },
+        {
+          "type": "formule",
+          "titre": "Masse d’une solution",
+          "texte": "masse de la solution = masse du solvant + masse du soluté"
+        },
+        {
+          "type": "exemple",
+          "titre": "Dissoudre du sucre",
+          "texte": "On dissout 20 g de sucre dans 180 g d’eau.\nMasse de la solution : 180 + 20 = 200 g.\nLe sucre a disparu à la vue, mais sa masse est toujours là."
+        },
+        {
+          "type": "remarque",
+          "titre": "Solution saturée",
+          "texte": "On ne peut pas dissoudre une quantité illimitée de soluté dans un volume d’eau. Quand l’eau ne peut plus rien dissoudre, la solution est saturée : le soluté ajouté en plus reste au fond."
+        },
+        {
+          "type": "remarque",
+          "titre": "Limpide ne veut pas dire pur",
+          "texte": "L’eau salée, l’eau sucrée et l’eau du robinet sont transparentes, mais ce sont des mélanges. Un mélange homogène peut ressembler à un corps pur."
+        },
+        {
+          "type": "remarque",
+          "titre": "Liquides miscibles ou non",
+          "texte": "L’eau et l’alcool se mélangent complètement : on dit qu’ils sont miscibles. L’eau et l’huile ne se mélangent pas : elles ne sont pas miscibles et forment deux couches."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Corps pur", "Substance unique, sans mélange."],
+            ["Phase", "Partie d’un mélange qu’on distingue des autres."],
+            ["Soluté", "Substance dissoute dans un liquide."],
+            ["Solvant", "Liquide qui dissout le soluté."],
+            ["Miscible", "Qui se mélange complètement avec un autre liquide."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. Classe ces mélanges en homogènes ou hétérogènes : l’eau sucrée ; l’eau et l’huile ; l’eau boueuse ; l’air.\n2. On dissout 5 g de sel dans 95 g d’eau. Quelle est la masse de la solution ? Donne le soluté et le solvant.\n3. Une eau limpide est-elle forcément un corps pur ? Justifie.",
+          "solution": "1. Homogènes : l’eau sucrée, l’air. Hétérogènes : l’eau et l’huile, l’eau boueuse.\n2. Masse de la solution : 95 + 5 = 100 g. Le soluté est le sel, le solvant est l’eau.\n3. Non. Elle peut contenir des substances dissoutes (sel, gaz…) : c’est alors un mélange homogène."
+        }
+      ]
+    },
+    {
+      "id": "sp4-2-heterogene",
+      "titre": "Séparer un mélange hétérogène",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Séparer les constituants",
+          "texte": "Les constituants d’un mélange hétérogène se séparent par des procédés qui ne changent pas leur nature : la décantation, la filtration, le tamisage, le triage à l’aimant."
+        },
+        {
+          "type": "methode",
+          "titre": "La décantation",
+          "texte": "Elle sépare un solide et un liquide, ou deux liquides non miscibles.\n1. On laisse le mélange au repos.\n2. Le solide le plus lourd tombe au fond : c’est le dépôt (ou sédiment).\n3. On verse doucement le liquide qui est au-dessus.\nPour deux liquides non miscibles, on utilise une ampoule à décanter : on ouvre le robinet pour faire couler le liquide du bas. On le referme avant que l’autre liquide ne sorte."
+        },
+        {
+          "type": "schema",
+          "titre": "La décantation",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='330' height='205' viewBox='0 0 330 205'><defs><clipPath id='sp42c'><ellipse cx='80' cy='90' rx='35' ry='50'/></clipPath></defs><g clip-path='url(#sp42c)'><rect x='40' y='95' width='80' height='50' fill='#e11d48' fill-opacity='0.3'/><rect x='40' y='40' width='80' height='55' fill='currentColor' fill-opacity='0.15'/></g><g fill='none' stroke='currentColor' stroke-width='1.5'><ellipse cx='80' cy='90' rx='35' ry='50'/><rect x='72' y='20' width='16' height='22'/><rect x='76' y='138' width='8' height='32'/><line x1='64' y1='152' x2='96' y2='152' stroke-width='3'/><path d='M205 50 L205 150 L275 150 L275 50'/></g><rect x='206' y='80' width='69' height='70' fill='#e11d48' fill-opacity='0.2'/><rect x='206' y='136' width='69' height='14' fill='currentColor' fill-opacity='0.45'/><g fill='currentColor' font-size='11'><text x='125' y='72'>Huile (en haut)</text><text x='125' y='122'>Eau (en bas)</text><text x='102' y='156'>Robinet</text></g><g fill='currentColor' font-size='12' text-anchor='middle'><text x='80' y='190'>Ampoule à décanter</text><text x='240' y='190'>Eau et sable laissés au repos</text></g><text x='240' y='125' font-size='11' fill='currentColor' text-anchor='middle'>Eau</text><text x='240' y='168' font-size='11' fill='currentColor' text-anchor='middle'>Dépôt de sable</text></svg>",
+          "legende": "À gauche : le liquide le moins dense (l’huile) flotte au-dessus de l’eau. À droite : le sable se dépose au fond."
+        },
+        {
+          "type": "methode",
+          "titre": "La filtration",
+          "texte": "Elle sépare un solide (en grains très fins) d’un liquide.\n1. On plie un filtre en papier et on le place dans un entonnoir.\n2. On place l’entonnoir au-dessus d’un bécher.\n3. On verse le mélange dans le filtre, doucement, sans dépasser le bord.\nLe liquide qui passe à travers le filtre s’appelle le filtrat. Le solide qui reste sur le filtre s’appelle le résidu."
+        },
+        {
+          "type": "schema",
+          "titre": "La filtration",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='360' height='230' viewBox='0 0 360 230'><polygon points='94,60 166,60 130,106' fill='#e11d48' fill-opacity='0.2'/><rect x='91' y='190' width='78' height='25' fill='#e11d48' fill-opacity='0.2'/><g fill='none' stroke='currentColor' stroke-width='1.5'><path d='M70 40 L190 40 L140 105 L140 125 L120 125 L120 105 Z'/><path d='M90 155 L90 215 L170 215 L170 155'/></g><path d='M78 42 L130 108 L182 42' fill='none' stroke='#e11d48' stroke-width='1.5' stroke-dasharray='4 3'/><g fill='currentColor'><circle cx='120' cy='96' r='2.5'/><circle cx='130' cy='99' r='2.5'/><circle cx='140' cy='96' r='2.5'/><circle cx='125' cy='89' r='2.5'/><circle cx='135' cy='90' r='2.5'/></g><g fill='#e11d48'><circle cx='130' cy='134' r='2.5'/><circle cx='130' cy='150' r='2.5'/></g><g fill='currentColor' font-size='11'><text x='200' y='45'>Entonnoir</text><text x='200' y='72'>Filtre en papier</text><text x='75' y='72' text-anchor='end'>Mélange</text><text x='100' y='101' text-anchor='end'>Résidu</text><text x='180' y='205'>Filtrat</text></g></svg>",
+          "legende": "Le résidu reste sur le filtre ; le filtrat tombe dans le bécher."
+        },
+        {
+          "type": "tableau",
+          "titre": "Quel procédé choisir ?",
+          "entetes": ["Mélange", "Procédé", "Principe"],
+          "lignes": [
+            ["Eau et gros grains de sable", "Décantation", "Le sable est plus lourd et tombe au fond."],
+            ["Eau et huile", "Ampoule à décanter", "Les liquides non miscibles forment deux couches."],
+            ["Eau et fines particules de terre", "Filtration", "Le filtre arrête les particules solides."],
+            ["Sable et gravier", "Tamisage", "Le tamis laisse passer les grains fins."],
+            ["Limaille de fer et sable", "Triage à l’aimant", "L’aimant attire le fer."]
+          ]
+        },
+        {
+          "type": "exemple",
+          "titre": "Clarifier une eau boueuse",
+          "texte": "1. On laisse l’eau au repos : la terre se dépose au fond.\n2. On verse doucement l’eau du dessus (décantation).\n3. On filtre cette eau pour retenir les particules qui restent (filtration).\nOn obtient une eau limpide."
+        },
+        {
+          "type": "remarque",
+          "titre": "Attention avant de boire",
+          "texte": "Une eau limpide n’est pas forcément propre. Elle peut contenir des microbes ou des substances dissoutes. Il faut la faire bouillir ou la traiter avant de la boire."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Décantation", "Séparation par repos : le solide le plus lourd se dépose."],
+            ["Filtrat", "Liquide qui a traversé le filtre."],
+            ["Résidu", "Solide resté sur le filtre."],
+            ["Tamis", "Grille fine qui laisse passer les petits grains."],
+            ["Limaille", "Petits morceaux de métal très fins."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. Quel procédé utilises-tu pour séparer l’eau et l’huile ? Où se place l’huile ?\n2. Comment sépare-t-on du sable et de la limaille de fer ?\n3. On filtre une eau boueuse. Comment s’appellent le liquide obtenu et le solide resté sur le filtre ?",
+          "solution": "1. On utilise une ampoule à décanter. L’huile est moins dense que l’eau : elle se place au-dessus.\n2. On passe un aimant : il attire la limaille de fer et laisse le sable.\n3. Le liquide obtenu est le filtrat. Le solide resté sur le filtre est le résidu."
+        }
+      ]
+    },
+    {
+      "id": "sp4-2-homogene",
+      "titre": "Séparer un mélange homogène",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Un mélange homogène ne se filtre pas",
+          "texte": "Dans un mélange homogène, le soluté est dissous : il traverse le filtre. Il faut employer l’évaporation ou la distillation."
+        },
+        {
+          "type": "tableau",
+          "titre": "Évaporation et distillation",
+          "entetes": ["Procédé", "Principe", "Ce qu’on récupère"],
+          "lignes": [
+            ["Évaporation", "On chauffe la solution : l’eau s’évapore et disparaît dans l’air.", "Le soluté solide (le sel), mais pas l’eau"],
+            ["Distillation", "On chauffe la solution, on recueille la vapeur et on la refroidit pour la liquéfier.", "Le liquide (l’eau pure) et le soluté (le sel)"]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "La distillation de l’eau salée",
+          "texte": "1. On verse l’eau salée dans un ballon avec quelques grains de pierre ponce, qui régularisent l’ébullition.\n2. On chauffe : l’eau bout, le sel reste dans le ballon.\n3. La vapeur d’eau passe dans le réfrigérant, entouré d’eau froide, et se liquéfie.\n4. On recueille l’eau pure dans un erlenmeyer : c’est le distillat.\nLe thermomètre est placé à la sortie des vapeurs du ballon."
+        },
+        {
+          "type": "schema",
+          "titre": "Le montage de distillation",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='340' height='235' viewBox='0 0 340 235'><defs><marker id='sp42a' markerWidth='8' markerHeight='8' refX='6' refY='3' orient='auto' markerUnits='strokeWidth'><path d='M0 0 L6 3 L0 6 z' fill='#e11d48'/></marker></defs><g transform='translate(12,0)'><rect x='35' y='174' width='70' height='22' rx='4' fill='currentColor' fill-opacity='0.15' stroke='currentColor'/><path d='M38 140 A32 32 0 0 0 102 140 Z' fill='#e11d48' fill-opacity='0.25'/><polygon points='263,192 307,192 315,205 255,205' fill='#e11d48' fill-opacity='0.25'/><g fill='none' stroke='currentColor' stroke-width='1.5'><circle cx='70' cy='140' r='32'/><path d='M63 110 L63 55 L77 55 L77 62 L135 72'/><path d='M77 110 L77 74 L135 84'/><line x1='70' y1='28' x2='70' y2='72'/><polygon points='140,56 265,91 265,135 140,100'/><line x1='135' y1='72' x2='270' y2='110'/><line x1='135' y1='84' x2='270' y2='122'/><path d='M275 148 L275 172 L255 205 L315 205 L295 172 L295 148'/></g><rect x='61' y='48' width='18' height='7' fill='currentColor'/><circle cx='70' cy='74' r='3' fill='#e11d48'/><g fill='none' stroke='#e11d48' stroke-width='1.5'><line x1='240' y1='152' x2='240' y2='130' marker-end='url(#sp42a)'/><line x1='165' y1='62' x2='165' y2='38' marker-end='url(#sp42a)'/><path d='M270 116 L285 124 L285 148' marker-end='url(#sp42a)'/></g><g fill='currentColor' font-size='11'><text x='82' y='34'>Thermomètre</text><text x='34' y='128' text-anchor='end'>Ballon</text><text x='34' y='142' text-anchor='end'>Mélange</text><text x='70' y='214' text-anchor='middle'>Chauffe-ballon</text><text x='215' y='66' text-anchor='middle'>Réfrigérant</text><text x='172' y='42'>Eau (sortie)</text><text x='240' y='166' text-anchor='middle'>Eau froide (entrée)</text><text x='285' y='222' text-anchor='middle'>Distillat</text></g></g></svg>",
+          "legende": "L’eau froide entre par le bas du réfrigérant et sort par le haut. Le distillat est recueilli dans l’erlenmeyer."
+        },
+        {
+          "type": "exemple",
+          "titre": "Distiller 200 g d’eau salée",
+          "texte": "L’eau salée contient 10 g de sel.\nSi toute l’eau est distillée :\n- masse de l’eau distillée : 200 − 10 = 190 g ;\n- masse de sel restée dans le ballon : 10 g.\nVérification : 190 + 10 = 200 g."
+        },
+        {
+          "type": "remarque",
+          "titre": "Distiller un mélange de liquides",
+          "texte": "Pour un mélange d’eau et d’éthanol, le liquide qui bout le plus facilement passe en premier. L’éthanol bout à 78 °C, l’eau à 100 °C. Le thermomètre indique d’abord une température proche de 78 °C, puis elle monte vers 100 °C."
+        },
+        {
+          "type": "remarque",
+          "titre": "Précautions",
+          "texte": "Ne jamais chauffer un montage fermé : les vapeurs doivent pouvoir sortir par l’extrémité du réfrigérant. Ne pas chauffer jusqu’à ce que le ballon soit sec. Le ballon et le chauffe-ballon restent très chauds après l’expérience."
+        },
+        {
+          "type": "remarque",
+          "titre": "La distillation dans la vie",
+          "texte": "La distillation sert à produire l’eau distillée, l’alcool et les huiles essentielles (par exemple l’ylang-ylang à Nosy Be)."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Distillation", "Séparation par chauffage, puis refroidissement de la vapeur."],
+            ["Distillat", "Liquide recueilli à la sortie du réfrigérant."],
+            ["Réfrigérant", "Tube entouré d’eau froide, qui refroidit la vapeur."],
+            ["Pierre ponce", "Petits grains de roche qui évitent les brusques projections."],
+            ["Erlenmeyer", "Flacon en forme de cône, avec un col étroit."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. On veut récupérer le sel d’une eau salée, sans garder l’eau. Quel procédé choisis-tu ?\n2. On veut récupérer l’eau pure d’une eau salée. Quel procédé utilises-tu ?\n3. On distille 300 g d’eau salée qui contient 15 g de sel. Quelle masse d’eau distillée obtient-on au maximum ? Quelle masse de sel reste dans le ballon ?",
+          "solution": "1. L’évaporation : l’eau s’évapore et le sel reste.\n2. La distillation : la vapeur est liquéfiée dans le réfrigérant.\n3. Eau distillée : 300 − 15 = 285 g au maximum. Le sel reste dans le ballon : 15 g. Vérification : 285 + 15 = 300 g."
+        }
+      ]
+    },
+    {
+      "id": "sp4-2-constantes",
+      "titre": "Constantes physiques et pureté",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Constantes physiques",
+          "texte": "Les constantes physiques d’un corps pur sont des grandeurs qui ont une valeur précise : la température de fusion, la température d’ébullition et la masse volumique. Elles permettent d’identifier un corps pur."
+        },
+        {
+          "type": "tableau",
+          "titre": "Constantes de quelques corps purs",
+          "entetes": ["Corps pur", "Fusion (°C)", "Ébullition (°C)", "Masse volumique (g/cm³)"],
+          "lignes": [
+            ["Eau", "0", "100", "1,0"],
+            ["Éthanol", "−114", "78", "0,79"],
+            ["Mercure", "−39", "357", "13,5"],
+            ["Fer", "environ 1 540", "environ 2 860", "7,9"]
+          ]
+        },
+        {
+          "type": "formule",
+          "titre": "Masse volumique",
+          "texte": "masse volumique = masse ÷ volume\nρ = m ÷ V\nExemple d’unité : g/cm³ (1 g/cm³ = 1 kg/L)."
+        },
+        {
+          "type": "exemple",
+          "titre": "Calculer une masse volumique",
+          "texte": "50 cm³ d’huile ont une masse de 46 g.\nρ = 46 ÷ 50 = 0,92 g/cm³.\nComme 0,92 est inférieur à 1 (masse volumique de l’eau), l’huile flotte sur l’eau."
+        },
+        {
+          "type": "schema",
+          "titre": "Chauffer un corps pur et un mélange",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='360' height='210' viewBox='0 0 360 210'><g stroke='currentColor' stroke-width='1.5' fill='none'><line x1='50' y1='180' x2='50' y2='15'/><line x1='50' y1='180' x2='345' y2='180'/></g><polyline points='55,165 90,100 200,100 235,50' fill='none' stroke='#e11d48' stroke-width='2.5'/><polyline points='55,165 90,115 130,95 170,80 210,68 250,58' fill='none' stroke='currentColor' stroke-width='2' stroke-dasharray='6 4'/><g fill='currentColor' font-size='11'><text x='55' y='12'>Température</text><text x='345' y='198' text-anchor='end'>Temps</text><text x='145' y='118' fill='#e11d48'>Corps pur : palier</text><text x='262' y='62'>Mélange : pas de palier</text></g></svg>",
+          "legende": "Pendant l’ébullition, la température d’un corps pur reste constante. Celle d’un mélange continue de monter."
+        },
+        {
+          "type": "regle",
+          "titre": "À retenir",
+          "texte": "Un corps pur a des constantes physiques fixes : sa température reste constante pendant le changement d’état.\nUn mélange n’a pas de constantes fixes : sa température varie pendant le changement d’état."
+        },
+        {
+          "type": "remarque",
+          "titre": "Pourquoi l’eau salée est un mélange",
+          "texte": "L’eau salée ne bout pas à 100 °C : elle bout un peu plus haut, et sa température augmente pendant l’ébullition. C’est bien la preuve qu’il s’agit d’un mélange. L’eau distillée, elle, bout à 100 °C de façon constante."
+        },
+        {
+          "type": "methode",
+          "titre": "Vérifier si un liquide est pur",
+          "texte": "1. On chauffe le liquide en notant la température toutes les minutes.\n2. Si la température reste constante pendant l’ébullition, c’est sans doute un corps pur : on compare avec le tableau pour l’identifier.\n3. Si la température monte pendant l’ébullition, c’est un mélange."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Constante physique", "Valeur précise et fixe qui caractérise un corps pur."],
+            ["Masse volumique", "Masse d’une unité de volume d’un corps."],
+            ["Identifier", "Reconnaître une substance."],
+            ["Palier", "Partie horizontale d’une courbe de température."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Utilise le tableau des constantes.\n1. Un liquide incolore bout à 78 °C, à température constante. De quel corps pur peut-il s’agir ?\n2. Un autre liquide commence à bouillir à 82 °C. Pendant l’ébullition, sa température monte jusqu’à 95 °C. Est-ce un corps pur ?\n3. Un morceau de fer a une masse de 79 g et un volume de 10 cm³. Calcule sa masse volumique.",
+          "solution": "1. Il peut s’agir d’éthanol, car sa température d’ébullition est de 78 °C.\n2. Non : la température n’est pas constante pendant l’ébullition, c’est donc un mélange.\n3. ρ = 79 ÷ 10 = 7,9 g/cm³, ce qui correspond bien à la masse volumique du fer."
+        }
+      ]
+    }
+  ]
+}
