@@ -1,0 +1,112 @@
+{
+  "id": "theme7",
+  "titre": "Thématique 7 : Effet Joule, énergie et facture JIRAMA",
+  "lecons": [
+    {
+      "id": "sp-7-1",
+      "titre": "La puissance électrique",
+      "blocs": [
+        { "type": "definition", "texte": "La puissance électrique d'un appareil mesure l'énergie qu'il reçoit chaque seconde. Elle se note P et s'exprime en watts (W). Plus la puissance est grande, plus l'appareil consomme d'énergie rapidement." },
+        { "type": "formule", "texte": "P = U × I\n- P : puissance, en watts (W)\n- U : tension aux bornes de l'appareil, en volts (V)\n- I : intensité du courant qui le traverse, en ampères (A)\nOn en déduit : I = P / U et U = P / I.\nRappel : 1 kW = 1000 W." },
+        { "type": "remarque", "texte": "En 3e, on utilise P = U × I pour tous les appareils des exercices. Elle est exacte pour les appareils de chauffage (fer à repasser, bouilloire, réchaud, lampe à incandescence)." },
+        {
+          "type": "schema",
+          "titre": "La plaque signalétique d'un appareil",
+          "svg": "<svg width='300' height='150' viewBox='0 0 300 150' xmlns='http://www.w3.org/2000/svg'><rect x='40' y='15' width='220' height='100' rx='8' fill='#e2e8f0' stroke='#1e293b' stroke-width='2'/><text x='150' y='45' font-size='13' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>FER À REPASSER</text><text x='150' y='75' font-size='14' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>220 V ~ 50 Hz</text><text x='150' y='101' font-size='16' font-weight='bold' font-family='sans-serif' fill='#dc2626' text-anchor='middle'>1100 W</text><text x='150' y='137' font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>tension nominale 220 V, puissance nominale 1100 W</text></svg>",
+          "legende": "La plaque donne les valeurs pour lesquelles l'appareil est fabriqué."
+        },
+        { "type": "definition", "texte": "Les valeurs écrites sur la plaque signalétique sont les valeurs nominales : la tension nominale et la puissance nominale. L'appareil fonctionne normalement quand on le branche sous sa tension nominale. À Madagascar, la tension du secteur est de 220 V." },
+        { "type": "methode", "texte": "Pour calculer l'intensité du courant dans un appareil :\n1. Lire sa puissance P et sa tension U sur la plaque.\n2. Écrire I = P / U.\n3. Calculer, avec P en watts et U en volts : le résultat est en ampères." },
+        { "type": "exemple", "texte": "Un fer à repasser porte l'inscription 220 V - 1100 W.\nI = P / U = 1100 / 220 = 5 A.\nSi on connaît I et U : un réchaud traversé par 6 A sous 220 V a une puissance P = 220 × 6 = 1320 W." },
+        { "type": "regle", "texte": "Quand plusieurs appareils sont branchés en même temps sur le secteur, leurs puissances s'additionnent : Ptotale = P1 + P2 + P3 + ...\nL'intensité totale est alors Itotale = Ptotale / U. Si elle dépasse le calibre du disjoncteur, celui-ci coupe le courant." },
+        { "type": "exemple", "texte": "Un disjoncteur de 16 A, sous 220 V, supporte au maximum P = 220 × 16 = 3520 W.\nBouilloire (2000 W) + fer (1100 W) = 3100 W, soit I = 3100 / 220 ≈ 14,1 A : le disjoncteur tient.\nOn ajoute un réchaud de 1500 W : 4600 W, soit I ≈ 20,9 A. C'est plus que 16 A : le disjoncteur coupe." },
+        { "type": "exercice", "enonce": "Sur une lampe, on lit « 220 V - 40 W ». Calculer l'intensité du courant qui la traverse quand elle fonctionne normalement.", "solution": "I = P / U = 40 / 220 ≈ 0,18 A, soit environ 180 mA." },
+        { "type": "exercice", "enonce": "Un fer à repasser branché sous 220 V est traversé par un courant de 5 A. Calculer sa puissance en watts, puis en kilowatts.", "solution": "P = U × I = 220 × 5 = 1100 W = 1,1 kW." },
+        { "type": "exercice", "enonce": "Une prise est protégée par un disjoncteur de 10 A. La tension est de 220 V. On branche en même temps une bouilloire de 1800 W et un fer de 1100 W. Que se passe-t-il ?", "solution": "Ptotale = 1800 + 1100 = 2900 W.\nItotale = P / U = 2900 / 220 ≈ 13,2 A.\nComme 13,2 A > 10 A, le disjoncteur coupe le courant." }
+      ]
+    },
+    {
+      "id": "sp-7-2",
+      "titre": "L'énergie électrique",
+      "blocs": [
+        { "type": "definition", "texte": "L'énergie électrique consommée par un appareil est l'énergie qu'il reçoit du secteur pendant son fonctionnement. Elle augmente avec la puissance de l'appareil et avec la durée pendant laquelle on l'utilise." },
+        { "type": "formule", "texte": "E = P × t\n- E : énergie, en joules (J) ou en kilowattheures (kWh)\n- P : puissance, en watts (W) ou en kilowatts (kW)\n- t : durée de fonctionnement, en secondes (s) ou en heures (h)\nOn en déduit : P = E / t et t = E / P." },
+        {
+          "type": "tableau",
+          "titre": "Quelles unités choisir ?",
+          "entetes": ["P en", "t en", "E en"],
+          "lignes": [["watts (W)", "secondes (s)", "joules (J)"], ["kilowatts (kW)", "heures (h)", "kilowattheures (kWh)"]]
+        },
+        { "type": "definition", "texte": "Le kilowattheure (kWh) est l'énergie consommée par un appareil de 1 kW qui fonctionne pendant 1 heure. C'est l'unité utilisée par la JIRAMA pour facturer l'électricité." },
+        { "type": "regle", "texte": "Conversions à connaître :\n- 1 kWh = 1000 Wh\n- 1 kWh = 1000 W × 3600 s = 3 600 000 J\n- 1 Wh = 3600 J\nPour passer des kWh aux J, on multiplie par 3 600 000. Pour passer des J aux kWh, on divise par 3 600 000." },
+        { "type": "methode", "texte": "Pour calculer l'énergie consommée :\n1. Lire la puissance de l'appareil et la durée d'utilisation.\n2. Choisir le couple d'unités : W et s pour obtenir des joules, kW et h pour obtenir des kWh.\n3. Convertir si besoin (1 kW = 1000 W ; 1 h = 3600 s ; 1 min = 60 s).\n4. Calculer E = P × t et écrire l'unité." },
+        { "type": "exemple", "texte": "Une bouilloire de 2000 W fonctionne pendant 3 minutes.\nEn joules : t = 3 × 60 = 180 s, donc E = 2000 × 180 = 360 000 J.\nEn kWh : P = 2 kW, t = 3 / 60 = 0,05 h, donc E = 2 × 0,05 = 0,1 kWh.\nVérification : 0,1 × 3 600 000 = 360 000 J." },
+        { "type": "remarque", "texte": "Le compteur d'énergie électrique d'une maison mesure l'énergie consommée en kWh. Plus on utilise d'appareils puissants longtemps, plus le compteur avance vite. C'est lui qui sert à établir la facture." },
+        { "type": "exercice", "enonce": "Un fer à repasser de 1100 W fonctionne pendant 2 heures. Calculer l'énergie consommée en kWh, puis en joules.", "solution": "P = 1100 W = 1,1 kW et t = 2 h.\nE = P × t = 1,1 × 2 = 2,2 kWh.\nEn joules : E = 2,2 × 3 600 000 = 7 920 000 J." },
+        { "type": "exercice", "enonce": "Une ampoule de 20 W reste allumée 6 heures. Calculer l'énergie consommée en Wh, puis en kWh.", "solution": "E = P × t = 20 × 6 = 120 Wh.\nEn kWh : 120 / 1000 = 0,12 kWh." },
+        { "type": "exercice", "enonce": "1) Convertir 5 kWh en joules.\n2) Convertir 7 200 000 J en kWh.\n3) Un appareil consomme 3 kWh en 2 heures. Quelle est sa puissance ?", "solution": "1) 5 × 3 600 000 = 18 000 000 J.\n2) 7 200 000 / 3 600 000 = 2 kWh.\n3) P = E / t = 3 / 2 = 1,5 kW, soit 1500 W." }
+      ]
+    },
+    {
+      "id": "sp-7-3",
+      "titre": "L'effet Joule",
+      "blocs": [
+        { "type": "definition", "texte": "L'effet Joule est le dégagement de chaleur qui se produit quand un courant électrique traverse un conducteur, comme un fil ou une résistance. Un conducteur qui laisse passer le courant s'échauffe." },
+        {
+          "type": "schema",
+          "titre": "Un courant traverse une résistance",
+          "svg": "<svg width='320' height='150' viewBox='0 0 320 150' xmlns='http://www.w3.org/2000/svg'><line x1='20' y1='90' x2='90' y2='90' stroke='#1e293b' stroke-width='3'/><polyline points='90,90 105,68 120,110 135,68 150,110 165,68 180,110 195,68 210,110 225,90' fill='none' stroke='#dc2626' stroke-width='3'/><line x1='225' y1='90' x2='300' y2='90' stroke='#1e293b' stroke-width='3'/><path d='M130,55 q6,-8 0,-16 t0,-16' fill='none' stroke='#f97316' stroke-width='2.5'/><path d='M170,55 q6,-8 0,-16 t0,-16' fill='none' stroke='#f97316' stroke-width='2.5'/><path d='M210,55 q6,-8 0,-16 t0,-16' fill='none' stroke='#f97316' stroke-width='2.5'/><text x='170' y='14' font-size='12' font-weight='bold' font-family='sans-serif' fill='#f97316' text-anchor='middle'>chaleur Q</text><line x1='30' y1='125' x2='70' y2='125' stroke='#2563eb' stroke-width='2.5'/><polygon points='70,120 82,125 70,130' fill='#2563eb'/><text x='56' y='116' font-size='12' font-weight='bold' font-family='sans-serif' fill='#2563eb' text-anchor='middle'>courant I</text><text x='170' y='132' font-size='12' font-weight='bold' font-family='sans-serif' fill='#dc2626' text-anchor='middle'>résistance R</text></svg>",
+          "legende": "Le courant qui traverse la résistance la chauffe : de l'énergie électrique est transformée en chaleur."
+        },
+        { "type": "formule", "texte": "Énergie dégagée sous forme de chaleur (loi de Joule) :\nQ = R × I² × t\n- Q : énergie thermique dégagée, en joules (J)\n- R : résistance du conducteur, en ohms (Ω)\n- I : intensité du courant, en ampères (A)\n- t : durée, en secondes (s)\nI² signifie I × I. La puissance dissipée est P = R × I²." },
+        { "type": "remarque", "texte": "Lien avec ce qui précède : comme U = R × I, on a aussi P = U × I = R × I². Pour un appareil de chauffage, toute l'énergie reçue est transformée en chaleur, donc Q = E = P × t = U × I × t." },
+        { "type": "regle", "texte": "La chaleur dégagée dépend beaucoup de l'intensité, car I est au carré : si l'intensité double, la chaleur dégagée pendant le même temps est 4 fois plus grande. Elle augmente aussi avec la résistance et avec la durée." },
+        { "type": "methode", "texte": "Pour calculer la chaleur dégagée par effet Joule :\n1. Repérer R (en Ω), I (en A) et t (en s).\n2. Convertir la durée en secondes (1 min = 60 s ; 1 h = 3600 s).\n3. Calculer d'abord I², puis R × I² × t.\n4. Donner le résultat en joules." },
+        { "type": "exemple", "texte": "Une résistance de 50 Ω est traversée par un courant de 2 A pendant 10 minutes.\nt = 10 × 60 = 600 s.\nQ = R × I² × t = 50 × 2² × 600 = 50 × 4 × 600 = 120 000 J.\nLa puissance dissipée est P = R × I² = 50 × 4 = 200 W, et on retrouve Q = 200 × 600 = 120 000 J." },
+        {
+          "type": "tableau",
+          "titre": "L'effet Joule : utile ou gênant",
+          "entetes": ["Utile : on veut de la chaleur", "Gênant : la chaleur est perdue ou dangereuse"],
+          "lignes": [
+            ["Fer à repasser, bouilloire, réchaud électrique", "Fils de rallonge qui chauffent"],
+            ["Grille-pain, sèche-cheveux, chauffe-eau", "Appareils (ordinateur, chargeur) qui chauffent"],
+            ["Lampe à incandescence (lumière et chaleur)", "Pertes d'énergie dans les lignes électriques"]
+          ]
+        },
+        { "type": "remarque", "texte": "Dangers de l'effet Joule : si on branche trop d'appareils sur une même prise ou une multiprise, l'intensité devient trop grande, les fils chauffent fortement et peuvent faire fondre l'isolant ou provoquer un incendie. Il ne faut jamais surcharger une multiprise, ni utiliser un fil abîmé ou trop fin." },
+        { "type": "definition", "texte": "Un fusible est un petit fil qui fond quand l'intensité dépasse une valeur fixée. Il coupe alors le circuit et protège l'installation contre la surchauffe. Un disjoncteur joue le même rôle, mais il suffit de le remettre en marche pour rétablir le courant." },
+        { "type": "exercice", "enonce": "Une résistance de 20 Ω est traversée par un courant de 3 A pendant 5 minutes. Calculer l'énergie dégagée sous forme de chaleur.", "solution": "t = 5 × 60 = 300 s.\nQ = R × I² × t = 20 × 3² × 300 = 20 × 9 × 300 = 54 000 J." },
+        { "type": "exercice", "enonce": "Un réchaud électrique est branché sous 220 V et traversé par un courant de 5 A. On suppose que toute l'énergie est transformée en chaleur.\n1) Calculer sa résistance.\n2) Calculer l'énergie dégagée en 10 minutes avec Q = R × I² × t.\n3) Vérifier avec Q = P × t.", "solution": "1) R = U / I = 220 / 5 = 44 Ω.\n2) t = 600 s. Q = 44 × 5² × 600 = 44 × 25 × 600 = 660 000 J.\n3) P = U × I = 220 × 5 = 1100 W. Q = P × t = 1100 × 600 = 660 000 J. Les deux résultats sont identiques." },
+        { "type": "exercice", "enonce": "Une rallonge est traversée par un courant de 4 A. Elle chauffe. Si on branche d'autres appareils et que le courant passe à 8 A, que devient la chaleur dégagée dans le même temps ? Quel danger cela représente-t-il ?", "solution": "L'intensité est multipliée par 2, donc la chaleur dégagée est multipliée par 2² = 4. Le fil chauffe beaucoup plus : l'isolant peut fondre et il y a un risque d'incendie. Il faut débrancher des appareils." }
+      ]
+    },
+    {
+      "id": "sp-7-4",
+      "titre": "La facture d'électricité JIRAMA",
+      "blocs": [
+        { "type": "definition", "texte": "La JIRAMA mesure l'énergie électrique consommée par un foyer grâce à un compteur. Le compteur affiche un index en kWh : il augmente au fur et à mesure que l'on consomme. La facture se calcule à partir de la différence entre deux relevés." },
+        { "type": "formule", "texte": "Consommation = nouvel index − ancien index (en kWh)\nMontant = consommation × prix du kWh\nSi la facture comporte aussi des frais fixes (par exemple une redevance), on les ajoute au montant." },
+        {
+          "type": "schema",
+          "titre": "Du compteur au montant à payer",
+          "svg": "<svg width='320' height='236' viewBox='0 0 320 236' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='10' width='260' height='36' rx='6' fill='#e2e8f0' stroke='#1e293b' stroke-width='1.5'/><text x='160' y='33' font-size='13' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Ancien index : 1250 kWh</text><line x1='160' y1='46' x2='160' y2='60' stroke='#1e293b' stroke-width='2'/><polygon points='154,58 166,58 160,68' fill='#1e293b'/><rect x='30' y='70' width='260' height='36' rx='6' fill='#e2e8f0' stroke='#1e293b' stroke-width='1.5'/><text x='160' y='93' font-size='13' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Nouvel index : 1380 kWh</text><line x1='160' y1='106' x2='160' y2='120' stroke='#1e293b' stroke-width='2'/><polygon points='154,118 166,118 160,128' fill='#1e293b'/><rect x='30' y='130' width='260' height='36' rx='6' fill='#bfdbfe' stroke='#1e293b' stroke-width='1.5'/><text x='160' y='153' font-size='13' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>1380 − 1250 = 130 kWh</text><line x1='160' y1='166' x2='160' y2='180' stroke='#1e293b' stroke-width='2'/><polygon points='154,178 166,178 160,188' fill='#1e293b'/><rect x='30' y='190' width='260' height='36' rx='6' fill='#bbf7d0' stroke='#16a34a' stroke-width='1.5'/><text x='160' y='213' font-size='13' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>130 × 500 = 65 000 Ar</text></svg>",
+          "legende": "Exemple avec un prix de 500 Ar le kWh (prix donné pour l'exemple)."
+        },
+        { "type": "remarque", "texte": "Le prix du kWh n'est pas toujours le même : il peut changer avec le temps, et la facture peut comporter des taxes ou des frais fixes. Dans les exercices, le prix et les frais fixes sont toujours donnés dans l'énoncé. Pour connaître les vrais tarifs, il faut lire sa facture." },
+        { "type": "exemple", "texte": "Un foyer a un ancien index de 1250 kWh et un nouvel index de 1380 kWh. Le kWh coûte 500 Ar et il y a 2000 Ar de frais fixes.\nConsommation = 1380 − 1250 = 130 kWh.\nMontant = 130 × 500 + 2000 = 65 000 + 2000 = 67 000 Ar." },
+        { "type": "methode", "texte": "Pour estimer la consommation d'un appareil sur un mois :\n1. Convertir sa puissance en kW (1 kW = 1000 W).\n2. Calculer le nombre d'heures de fonctionnement : heures par jour × nombre de jours.\n3. Calculer E = P × t en kWh.\n4. Multiplier par le prix du kWh pour obtenir le coût." },
+        {
+          "type": "tableau",
+          "titre": "Puissances usuelles (valeurs approchées)",
+          "entetes": ["Appareil", "Puissance"],
+          "lignes": [["Lampe LED", "9 W"], ["Ampoule à incandescence", "60 W"], ["Ventilateur", "50 W"], ["Télévision", "100 W"], ["Fer à repasser", "1100 W"], ["Réchaud électrique", "1500 W"], ["Bouilloire", "2000 W"]]
+        },
+        { "type": "exemple", "texte": "Une ampoule de 60 W est allumée 5 h par jour pendant 30 jours.\nt = 5 × 30 = 150 h. P = 0,06 kW.\nE = 0,06 × 150 = 9 kWh, soit 9 × 500 = 4500 Ar.\nUne lampe LED de 9 W donne la même lumière : E = 0,009 × 150 = 1,35 kWh, soit 675 Ar. L'économie est de 3825 Ar par mois et par ampoule." },
+        { "type": "regle", "texte": "Pour réduire sa facture :\n- remplacer les ampoules à incandescence par des lampes LED ;\n- éteindre les lampes et les appareils qu'on n'utilise pas, et ne pas laisser les appareils en veille ;\n- utiliser les appareils de chauffage (fer, bouilloire, réchaud) seulement le temps nécessaire ;\n- ne pas surcharger les prises, pour la sécurité." },
+        { "type": "exercice", "enonce": "Le compteur d'une maison indiquait 2340 kWh le mois dernier et indique 2415 kWh ce mois-ci. Le kWh coûte 500 Ar. Calculer la consommation, puis le montant de la facture.", "solution": "Consommation = 2415 − 2340 = 75 kWh.\nMontant = 75 × 500 = 37 500 Ar." },
+        { "type": "exercice", "enonce": "Une télévision de 100 W fonctionne 4 heures par jour pendant 30 jours. Le kWh coûte 500 Ar.\n1) Calculer l'énergie consommée en kWh.\n2) Calculer le coût.", "solution": "1) P = 0,1 kW et t = 4 × 30 = 120 h.\nE = 0,1 × 120 = 12 kWh.\n2) Coût = 12 × 500 = 6000 Ar." },
+        { "type": "exercice", "enonce": "Une famille remplace 4 ampoules de 60 W par 4 lampes LED de 9 W. Chaque lampe est allumée 5 heures par jour pendant 30 jours. Le kWh coûte 500 Ar.\n1) Calculer l'énergie consommée par les 4 ampoules de 60 W.\n2) Calculer l'énergie consommée par les 4 lampes LED.\n3) Quelle économie la famille réalise-t-elle sur le mois ?", "solution": "t = 5 × 30 = 150 h.\n1) 4 × 60 = 240 W = 0,24 kW. E = 0,24 × 150 = 36 kWh.\n2) 4 × 9 = 36 W = 0,036 kW. E = 0,036 × 150 = 5,4 kWh.\n3) Économie d'énergie = 36 − 5,4 = 30,6 kWh, soit 30,6 × 500 = 15 300 Ar." }
+      ]
+    }
+  ]
+}
