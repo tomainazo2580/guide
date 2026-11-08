@@ -1,0 +1,311 @@
+{
+  "id": "math4-3-puissances",
+  "titre": "Chapitre 3 : Les puissances et la notation scientifique",
+  "lecons": [
+    {
+      "id": "math4-3-1-definition",
+      "titre": "Puissance d'un nombre",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Puissance d'exposant entier positif",
+          "texte": "Soit a un nombre et n un entier plus grand que 1.\na^n = a × a × a × … × a (n facteurs égaux à a).\n• a^n se lit « a puissance n ».\n• a est la base. n est l'exposant.\nExemples :\n• 2³ = 2 × 2 × 2 = 8.\n• 5² = 5 × 5 = 25.\n• 10⁴ = 10 × 10 × 10 × 10 = 10 000.\nOn dit aussi « a au carré » pour a² et « a au cube » pour a³."
+        },
+        {
+          "type": "schema",
+          "titre": "Le carré d'un nombre",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='300' height='130' viewBox='0 0 300 130'><g fill='#e11d48' fill-opacity='0.35' stroke='currentColor' stroke-width='2'><rect x='100' y='15' width='30' height='30'/><rect x='130' y='15' width='30' height='30'/><rect x='160' y='15' width='30' height='30'/><rect x='100' y='45' width='30' height='30'/><rect x='130' y='45' width='30' height='30'/><rect x='160' y='45' width='30' height='30'/><rect x='100' y='75' width='30' height='30'/><rect x='130' y='75' width='30' height='30'/><rect x='160' y='75' width='30' height='30'/></g><text x='145' y='123' font-size='14' fill='currentColor' text-anchor='middle'>3² = 3 × 3 = 9 carreaux</text></svg>",
+          "legende": "Un carré de 3 carreaux de côté contient 3 × 3 = 9 carreaux. C'est pour cela qu'on dit « au carré »."
+        },
+        {
+          "type": "regle",
+          "titre": "Exposants 1 et 0",
+          "texte": "• a¹ = a.\n• a⁰ = 1 si a est différent de 0.\nExemples : 7¹ = 7 ; 7⁰ = 1 ; 1 000⁰ = 1 ; (−3)⁰ = 1.\nAussi : 1^n = 1 pour tout n, et 0^n = 0 si n est plus grand que 0."
+        },
+        {
+          "type": "exemple",
+          "titre": "Les lapins",
+          "texte": "Imaginons que le nombre de lapins double chaque mois, en partant d'un seul lapin :\n• après 1 mois : 2 lapins = 2¹\n• après 2 mois : 4 lapins = 2²\n• après 3 mois : 8 lapins = 2³\n• après 4 mois : 16 lapins = 2⁴\nAprès n mois : 2^n lapins. Après 10 mois : 2¹⁰ = 1 024 lapins.\nLes puissances permettent d'écrire vite des nombres qui grandissent très vite."
+        },
+        {
+          "type": "regle",
+          "titre": "Signe d'une puissance",
+          "texte": "Si la base est négative :\n• exposant pair : le résultat est positif ;\n• exposant impair : le résultat est négatif.\nExemples :\n• (−2)² = (−2) × (−2) = 4.\n• (−2)³ = (−2) × (−2) × (−2) = −8.\n• (−1)⁵⁰ = 1 et (−1)⁷ = −1."
+        },
+        {
+          "type": "remarque",
+          "texte": "• Ne pas confondre : 2³ = 2 × 2 × 2 = 8, et non 2 × 3 = 6.\n• Attention aux parenthèses : (−3)² = 9, mais −3² = −9. Dans −3², l'exposant ne s'applique qu'à 3, puis on met le signe −.\n• (−2)⁴ = 16, mais −2⁴ = −16."
+        },
+        {
+          "type": "tableau",
+          "titre": "Puissances à connaître",
+          "entetes": ["Base", "Puissances"],
+          "lignes": [
+            ["2", "2¹ = 2 ; 2² = 4 ; 2³ = 8 ; 2⁴ = 16 ; 2⁵ = 32 ; 2⁶ = 64"],
+            ["3", "3² = 9 ; 3³ = 27 ; 3⁴ = 81 ; 3⁵ = 243"],
+            ["5", "5² = 25 ; 5³ = 125 ; 5⁴ = 625"],
+            ["10", "10² = 100 ; 10³ = 1 000 ; 10⁴ = 10 000"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Puissance", "Produit d'un même nombre par lui-même plusieurs fois"],
+            ["Base", "Le nombre que l'on multiplie par lui-même"],
+            ["Exposant", "Le petit nombre en haut : il dit combien de fois on multiplie"],
+            ["Facteur", "Chacun des nombres d'une multiplication"],
+            ["Carré", "Puissance 2"],
+            ["Cube", "Puissance 3"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Calcule : a) 2⁵   b) (−2)⁴   c) −5²   d) 7⁰ + 3¹",
+          "solution": "a) 2⁵ = 2 × 2 × 2 × 2 × 2 = 32.\nb) (−2)⁴ = 16 (exposant pair).\nc) −5² = −(5 × 5) = −25.\nd) 7⁰ + 3¹ = 1 + 3 = 4."
+        }
+      ]
+    },
+    {
+      "id": "math4-3-2-regles",
+      "titre": "Règles de calcul sur les puissances",
+      "blocs": [
+        {
+          "type": "regle",
+          "titre": "Produit de deux puissances de même base",
+          "texte": "a^n × a^p = a^(n+p) : on garde la base et on additionne les exposants.\nPourquoi ? 2³ × 2² = (2 × 2 × 2) × (2 × 2) = 2⁵, car on a 3 + 2 = 5 facteurs.\nExemples :\n• 5⁴ × 5² = 5⁶.\n• 10³ × 10 = 10³ × 10¹ = 10⁴."
+        },
+        {
+          "type": "regle",
+          "titre": "Quotient de deux puissances de même base",
+          "texte": "a^n ÷ a^p = a^(n−p), avec a différent de 0 : on garde la base et on soustrait les exposants.\nPourquoi ? 7⁵ ÷ 7² = (7 × 7 × 7 × 7 × 7) ÷ (7 × 7) = 7³.\nExemples :\n• 3⁸ ÷ 3⁵ = 3³ = 27.\n• 2⁶ ÷ 2⁶ = 2⁰ = 1."
+        },
+        {
+          "type": "regle",
+          "titre": "Puissance d'une puissance",
+          "texte": "(a^n)^p = a^(n×p) : on garde la base et on multiplie les exposants.\nPourquoi ? (2³)² = 2³ × 2³ = 2⁶.\nExemple : (2³)² = 2⁶ = 64. Vérification : 2³ = 8 et 8² = 64."
+        },
+        {
+          "type": "regle",
+          "titre": "Puissance d'un produit et d'un quotient",
+          "texte": "• (a × b)^n = a^n × b^n.\n• (a / b)^n = a^n / b^n (b différent de 0).\nExemples :\n• (2 × 5)³ = 2³ × 5³ = 8 × 125 = 1 000 = 10³.\n• (3/4)² = 3²/4² = 9/16.\n• (2/3)³ = 8/27."
+        },
+        {
+          "type": "formule",
+          "titre": "À retenir",
+          "texte": "a^n × a^p = a^(n+p)\na^n ÷ a^p = a^(n−p)\n(a^n)^p = a^(n×p)\n(a × b)^n = a^n × b^n\n(a / b)^n = a^n / b^n"
+        },
+        {
+          "type": "remarque",
+          "titre": "Erreurs à éviter",
+          "texte": "• 2³ × 2² = 2⁵, et non 4⁵ : on ne multiplie pas les bases, on additionne les exposants.\n• On ne peut pas regrouper des puissances de bases différentes : 2³ × 3² ne se simplifie pas avec les exposants (il vaut 8 × 9 = 72).\n• (a + b)² n'est pas égal à a² + b². Exemple : (2 + 3)² = 25, mais 2² + 3² = 13."
+        },
+        {
+          "type": "exemple",
+          "titre": "Calculs",
+          "texte": "A = (3⁵ × 3²) ÷ 3⁴ = 3⁷ ÷ 3⁴ = 3³ = 27.\nB = (2²)³ × 2 = 2⁶ × 2¹ = 2⁷ = 128.\nC = 2⁴ × 5⁴ = (2 × 5)⁴ = 10⁴ = 10 000."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Même base", "Le nombre en bas est le même (par exemple 2³ et 2⁵)"],
+            ["Regrouper", "Écrire en une seule puissance"],
+            ["Quotient", "Résultat d'une division"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Écris sous la forme d'une seule puissance : a) 4³ × 4⁵   b) 6⁷ ÷ 6⁴   c) (5²)⁴   d) 2⁴ × 5⁴",
+          "solution": "a) 4³ × 4⁵ = 4⁸.\nb) 6⁷ ÷ 6⁴ = 6³.\nc) (5²)⁴ = 5⁸.\nd) 2⁴ × 5⁴ = (2 × 5)⁴ = 10⁴."
+        }
+      ]
+    },
+    {
+      "id": "math4-3-3-negatif",
+      "titre": "Exposant négatif",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Puissance d'exposant négatif",
+          "texte": "Soit a un nombre différent de 0 et n un entier positif.\na^(−n) = 1 / a^n.\nAutrement dit, a^(−n) est l'inverse de a^n.\nExemples :\n• 2⁻¹ = 1/2.\n• 2⁻³ = 1/2³ = 1/8.\n• 5⁻² = 1/5² = 1/25.\n• 10⁻² = 1/100 = 0,01.\n• (−2)⁻³ = 1/(−2)³ = −1/8."
+        },
+        {
+          "type": "exemple",
+          "titre": "D'où vient cette définition ?",
+          "texte": "Avec la règle du quotient : 2² ÷ 2⁵ = 2^(2−5) = 2⁻³.\nMais en calculant : 2² ÷ 2⁵ = 4 ÷ 32 = 1/8.\nDonc 2⁻³ = 1/8 = 1/2³. La règle reste cohérente."
+        },
+        {
+          "type": "schema",
+          "titre": "Des puissances de 2 de plus en plus petites",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='320' height='115' viewBox='0 0 320 115'><g fill='#e11d48' fill-opacity='0.35' stroke='currentColor' stroke-width='1.5'><rect x='20' y='8' width='200' height='20'/><rect x='20' y='34' width='100' height='20'/><rect x='20' y='60' width='50' height='20'/><rect x='20' y='86' width='25' height='20'/></g><g font-size='14' fill='currentColor'><text x='230' y='23'>1 = 2⁰</text><text x='130' y='49'>1/2 = 2⁻¹</text><text x='80' y='75'>1/4 = 2⁻²</text><text x='55' y='101'>1/8 = 2⁻³</text></g></svg>",
+          "legende": "Quand l'exposant diminue de 1, on divise par 2. En passant à 2⁻¹, 2⁻², 2⁻³, on continue de diviser par 2."
+        },
+        {
+          "type": "regle",
+          "titre": "Les règles de calcul restent valables",
+          "texte": "Les règles de la leçon 2 fonctionnent aussi avec des exposants négatifs.\nExemples :\n• 3⁵ × 3⁻² = 3³ = 27.\n• 2⁻³ × 2⁻² = 2⁻⁵ = 1/32.\n• 5² ÷ 5⁵ = 5⁻³ = 1/125.\n• (2⁻¹)³ = 2⁻³ = 1/8."
+        },
+        {
+          "type": "remarque",
+          "texte": "• Un exposant négatif ne donne pas un nombre négatif : 2⁻³ = 1/8, et non −8. Il donne l'inverse.\n• Pour une fraction : (2/3)⁻² = (3/2)² = 9/4. On inverse la fraction et on change le signe de l'exposant.\n• a⁰ = 1 reste vrai : 2⁻³ × 2³ = 2⁰ = 1."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Exposant négatif", "Exposant avec un signe − : il donne l'inverse de la puissance"],
+            ["Inverse", "Pour un nombre a, c'est 1/a : le produit des deux vaut 1"],
+            ["Cohérent", "Qui ne se contredit pas"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Calcule : a) 3⁻²   b) 10⁻⁴   c) 2⁵ × 2⁻⁷   d) (1/2)⁻³",
+          "solution": "a) 3⁻² = 1/3² = 1/9.\nb) 10⁻⁴ = 1/10 000 = 0,0001.\nc) 2⁵ × 2⁻⁷ = 2⁻² = 1/4.\nd) (1/2)⁻³ = 2³ = 8."
+        }
+      ]
+    },
+    {
+      "id": "math4-3-4-dix",
+      "titre": "Puissances de 10",
+      "blocs": [
+        {
+          "type": "regle",
+          "titre": "Puissances de 10",
+          "texte": "• 10^n (n positif) est 1 suivi de n zéros. Exemple : 10⁵ = 100 000.\n• 10⁰ = 1.\n• 10^(−n) s'écrit avec n chiffres après la virgule, le dernier étant 1. Exemple : 10⁻³ = 0,001."
+        },
+        {
+          "type": "tableau",
+          "titre": "Tableau des puissances de 10",
+          "entetes": ["Puissance", "Valeur"],
+          "lignes": [
+            ["10⁶", "1 000 000 (un million)"],
+            ["10⁵", "100 000"],
+            ["10⁴", "10 000"],
+            ["10³", "1 000 (mille)"],
+            ["10²", "100"],
+            ["10¹", "10"],
+            ["10⁰", "1"],
+            ["10⁻¹", "0,1"],
+            ["10⁻²", "0,01"],
+            ["10⁻³", "0,001"],
+            ["10⁻⁶", "0,000001"]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Multiplier par une puissance de 10",
+          "texte": "• Multiplier par 10^n (n positif) : décaler la virgule de n rangs vers la droite (en ajoutant des zéros si besoin).\n• Multiplier par 10^(−n) : décaler la virgule de n rangs vers la gauche.\nExemples :\n• 3,47 × 10² = 347.\n• 5,2 × 10⁴ = 52 000.\n• 3,47 × 10⁻² = 0,0347.\n• 82 × 10⁻³ = 0,082."
+        },
+        {
+          "type": "regle",
+          "titre": "Calculs",
+          "texte": "Ce sont les règles des puissances, avec la base 10.\n• 10³ × 10⁴ = 10⁷.\n• 10⁶ ÷ 10² = 10⁴.\n• (10²)³ = 10⁶.\n• 10⁻³ × 10⁵ = 10².\nPour des produits comme (2 × 10³) × (3 × 10⁴), on multiplie d'un côté les nombres, de l'autre les puissances de 10 :\n(2 × 10³) × (3 × 10⁴) = (2 × 3) × (10³ × 10⁴) = 6 × 10⁷."
+        },
+        {
+          "type": "exemple",
+          "titre": "Autres calculs",
+          "texte": "• (8 × 10⁵) ÷ (4 × 10²) = (8 ÷ 4) × 10³ = 2 × 10³ = 2 000.\n• 5 × 10⁻² × 4 × 10³ = 20 × 10¹ = 200."
+        },
+        {
+          "type": "tableau",
+          "titre": "Puissances de 10 et unités",
+          "entetes": ["Préfixe", "Valeur", "Exemple"],
+          "lignes": [
+            ["kilo (k)", "10³", "1 km = 10³ m ; 1 kWh = 10³ Wh"],
+            ["méga (M)", "10⁶", "1 MW = 10⁶ W"],
+            ["giga (G)", "10⁹", "1 GW = 10⁹ W"],
+            ["milli (m)", "10⁻³", "1 mm = 10⁻³ m ; 1 mL = 10⁻³ L"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Rang", "Place d'un chiffre dans un nombre"],
+            ["Décaler la virgule", "Déplacer la virgule vers la droite ou vers la gauche"],
+            ["Préfixe", "Début d'un mot d'unité qui donne la puissance de 10 (kilo, milli...)"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Calcule : a) 4,2 × 10³   b) 56 × 10⁻²   c) 10⁸ × 10⁻³ ÷ 10²   d) (3 × 10⁴) × (2 × 10³)",
+          "solution": "a) 4,2 × 10³ = 4 200.\nb) 56 × 10⁻² = 0,56.\nc) 10⁸ × 10⁻³ = 10⁵, puis 10⁵ ÷ 10² = 10³ = 1 000.\nd) (3 × 2) × (10⁴ × 10³) = 6 × 10⁷ = 60 000 000."
+        }
+      ]
+    },
+    {
+      "id": "math4-3-5-scientifique",
+      "titre": "Notation scientifique",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Notation scientifique",
+          "texte": "Un nombre positif est écrit en notation scientifique s'il est de la forme :\na × 10^n\navec a un nombre décimal tel que 1 ≤ a < 10 (un seul chiffre, non nul, avant la virgule) et n un entier relatif.\nExemples : 4,5 × 10⁶ ; 3 × 10⁻⁴ ; 7,02 × 10².\nCes écritures ne sont pas en notation scientifique :\n• 45 × 10⁵ (45 est plus grand que 10) ;\n• 0,45 × 10⁷ (0,45 est plus petit que 1).\nPour un nombre négatif, on écrit le signe − devant : −4,5 × 10⁶."
+        },
+        {
+          "type": "schema",
+          "titre": "4 500 000 = 4,5 × 10⁶",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='320' height='115' viewBox='0 0 320 115'><path d='M 222 50 Q 138 5 54 50' fill='none' stroke='#e11d48' stroke-width='2'/><polygon points='54,52 49,42 59,42' fill='#e11d48'/><text x='138' y='20' font-size='13' font-weight='bold' fill='#e11d48' text-anchor='middle'>6 rangs vers la gauche</text><g font-size='24' fill='currentColor' text-anchor='middle'><text x='40' y='80'>4</text><text x='68' y='80'>5</text><text x='96' y='80'>0</text><text x='124' y='80'>0</text><text x='152' y='80'>0</text><text x='180' y='80'>0</text><text x='208' y='80'>0</text></g><circle cx='222' cy='78' r='2.5' fill='currentColor'/><circle cx='54' cy='78' r='3' fill='#e11d48'/><text x='160' y='107' font-size='14' fill='currentColor' text-anchor='middle'>4 500 000 = 4,5 × 10⁶</text></svg>",
+          "legende": "On place la virgule après le premier chiffre (4). Elle a avancé de 6 rangs vers la gauche, donc l'exposant est 6."
+        },
+        {
+          "type": "methode",
+          "titre": "Écrire un nombre en notation scientifique",
+          "texte": "1. Repérer le premier chiffre non nul en partant de la gauche.\n2. Placer la virgule juste après ce chiffre pour obtenir a (entre 1 et 10).\n3. Compter de combien de rangs la virgule a été déplacée : c'est n.\n4. Le signe de n : positif si le nombre de départ est grand (au moins 10), négatif s'il est petit (plus petit que 1).\nExemples :\n• 4 500 000 = 4,5 × 10⁶.\n• 72 000 = 7,2 × 10⁴.\n• 0,00032 = 3,2 × 10⁻⁴ (la virgule va de 4 rangs vers la droite).\n• 0,5 = 5 × 10⁻¹.\n• 6 = 6 × 10⁰."
+        },
+        {
+          "type": "exemple",
+          "titre": "Des nombres de la vie réelle",
+          "texte": "• Distance Terre-Soleil : environ 150 000 000 km = 1,5 × 10⁸ km.\n• Vitesse de la lumière : environ 300 000 km/s = 3 × 10⁵ km/s.\n• Superficie de Madagascar : environ 587 000 km² = 5,87 × 10⁵ km².\n• Épaisseur d'un cheveu : environ 0,00007 m = 7 × 10⁻⁵ m."
+        },
+        {
+          "type": "methode",
+          "titre": "Calculer avec la notation scientifique",
+          "texte": "• Produit : on multiplie les nombres, on additionne les exposants. (3 × 10⁴) × (5 × 10³) = 15 × 10⁷ = 1,5 × 10⁸ (on remet en notation scientifique).\n• Quotient : (6 × 10⁵) ÷ (2 × 10⁻²) = 3 × 10⁷, car 5 − (−2) = 7.\n• Somme : on écrit les deux nombres avec la même puissance de 10. 3 × 10⁴ + 5 × 10³ = 3 × 10⁴ + 0,5 × 10⁴ = 3,5 × 10⁴."
+        },
+        {
+          "type": "regle",
+          "titre": "Comparer deux nombres positifs en notation scientifique",
+          "texte": "• Le plus grand est celui qui a le plus grand exposant.\n• Si les exposants sont égaux, on compare les nombres a.\nExemples :\n• 3,2 × 10⁵ > 4,1 × 10⁴ (320 000 > 41 000).\n• 6,3 × 10⁻² > 6,1 × 10⁻² (même exposant, 6,3 > 6,1)."
+        },
+        {
+          "type": "exemple",
+          "titre": "Problème : la lumière du Soleil",
+          "texte": "La lumière met environ 500 s (8 min 20 s) pour venir du Soleil jusqu'à la Terre. Sa vitesse est de 3 × 10⁵ km/s.\nDistance = vitesse × temps = 3 × 10⁵ × 5 × 10² = 15 × 10⁷ = 1,5 × 10⁸ km.\nOn retrouve les 150 millions de kilomètres."
+        },
+        {
+          "type": "remarque",
+          "texte": "Sur une calculatrice, 4,5 × 10⁶ peut s'afficher « 4.5E6 » ou « 4,5 ×10^6 ». Cela veut bien dire 4 500 000."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Notation scientifique", "Écriture a × 10^n avec a entre 1 et 10"],
+            ["Décimal", "Nombre qui s'écrit avec une virgule"],
+            ["Entier relatif", "Nombre entier positif, négatif ou nul"],
+            ["Superficie", "Surface d'un pays ou d'un terrain"],
+            ["Environ", "À peu près, valeur approchée"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Écris en notation scientifique : a) 25 000 000   b) 0,0042   c) 600 × 10⁴\n2) Calcule et donne le résultat en notation scientifique : (4 × 10⁻³) × (5 × 10⁶)",
+          "solution": "1) a) 25 000 000 = 2,5 × 10⁷.\nb) 0,0042 = 4,2 × 10⁻³.\nc) 600 × 10⁴ = 6 × 10² × 10⁴ = 6 × 10⁶.\n2) (4 × 5) × (10⁻³ × 10⁶) = 20 × 10³ = 2 × 10⁴."
+        }
+      ]
+    }
+  ]
+}
