@@ -1,0 +1,367 @@
+{
+  "id": "svt-maladies",
+  "titre": "Les maladies dues aux microbes",
+  "lecons": [
+    {
+      "id": "svt-mal-1",
+      "titre": "La tuberculose : cause et transmission",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "La tuberculose",
+          "texte": "La tuberculose est une maladie infectieuse et contagieuse due à une bactérie : le bacille de Koch. Elle atteint surtout les poumons. Le bacille a été découvert par Robert Koch en 1882."
+        },
+        {
+          "type": "tableau",
+          "titre": "Fiche d'identité",
+          "entetes": ["Élément", "Réponse"],
+          "lignes": [
+            ["Agent", "Bacille de Koch (bactérie en bâtonnet)"],
+            ["Transmission", "Par l'air : gouttelettes et crachats d'un malade qui tousse, éternue ou parle"],
+            ["Organe le plus touché", "Les poumons (tuberculose pulmonaire)"],
+            ["Autres organes possibles", "Os, reins, ganglions, méninges"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Les signes de la maladie",
+          "texte": "Toux qui dure plus de deux semaines, crachats parfois mêlés de sang, fièvre surtout le soir, sueurs la nuit, fatigue, perte d'appétit et amaigrissement."
+        },
+        {
+          "type": "remarque",
+          "titre": "Qui est le plus exposé ?",
+          "texte": "Les personnes qui vivent dans des logements sombres et surpeuplés, les personnes mal nourries, les personnes affaiblies par une autre maladie (surtout le SIDA) et les personnes qui côtoient un malade non soigné."
+        }
+      ],
+      "lexique": [
+        { "terme": "Bacille de Koch", "definition": "Bactérie qui provoque la tuberculose." },
+        { "terme": "Crachat", "definition": "Matière rejetée par la toux." },
+        { "terme": "Pulmonaire", "definition": "Qui concerne les poumons." },
+        { "terme": "Contagieux", "definition": "Qui se transmet d'une personne à une autre." }
+      ]
+    },
+    {
+      "id": "svt-mal-2",
+      "titre": "La tuberculose : dépistage, traitement et prévention",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Le dépistage",
+          "entetes": ["Examen", "Ce qu'il montre"],
+          "lignes": [
+            ["Examen des crachats au microscope", "La présence du bacille de Koch"],
+            ["Radiographie des poumons", "Les lésions des poumons"],
+            ["Test à la tuberculine (IDR)", "Si l'organisme a déjà rencontré le bacille"]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Le traitement",
+          "texte": "La tuberculose se soigne avec plusieurs antibiotiques pris ensemble pendant au moins six mois. Il faut suivre le traitement jusqu'au bout, même si l'on se sent mieux. Un traitement arrêté trop tôt peut rendre les bactéries résistantes."
+        },
+        {
+          "type": "regle",
+          "titre": "La prévention",
+          "texte": "1. Vacciner les nouveau-nés avec le BCG. 2. Aérer les maisons et laisser entrer le soleil. 3. Se couvrir la bouche quand on tousse. 4. Ne pas cracher par terre. 5. Bien se nourrir. 6. Dépister et soigner vite les malades."
+        },
+        {
+          "type": "remarque",
+          "texte": "Le BCG ne protège pas complètement mais il évite surtout les formes graves chez l'enfant. Un malade qui prend bien son traitement cesse rapidement de contaminer les autres."
+        }
+      ],
+      "lexique": [
+        { "terme": "BCG", "definition": "Vaccin contre la tuberculose." },
+        { "terme": "Dépistage", "definition": "Recherche d'une maladie chez une personne qui n'a pas encore de signes ou avant de la soigner." },
+        { "terme": "Radiographie", "definition": "Image de l'intérieur du corps obtenue avec des rayons X." },
+        { "terme": "Tuberculine", "definition": "Produit injecté sous la peau pour savoir si l'on a déjà rencontré le bacille." }
+      ]
+    },
+    {
+      "id": "svt-mal-3",
+      "titre": "Les IST et la syphilis",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Les IST",
+          "texte": "Les infections sexuellement transmissibles (IST) sont des maladies qui se transmettent surtout lors de rapports sexuels non protégés. Exemples : la syphilis, la blennorragie, le SIDA, l'hépatite B."
+        },
+        {
+          "type": "tableau",
+          "titre": "La syphilis : fiche d'identité",
+          "entetes": ["Élément", "Réponse"],
+          "lignes": [
+            ["Agent", "Tréponème pâle (bactérie en forme de spirale)"],
+            ["Transmission", "Rapports sexuels non protégés ; de la mère à l'enfant pendant la grossesse ; sang contaminé"],
+            ["Traitement", "Antibiotiques (pénicilline)"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Les trois stades de la syphilis",
+          "entetes": ["Stade", "Signes"],
+          "lignes": [
+            ["Primaire (vers 3 semaines après la contamination)", "Chancre : petite plaie ronde, indolore, aux organes génitaux ; elle disparaît seule mais la maladie continue"],
+            ["Secondaire (quelques semaines plus tard)", "Éruption rouge sur le corps, fièvre, ganglions gonflés, plaques dans la bouche"],
+            ["Tertiaire (après des années, sans traitement)", "Atteinte du cœur, des vaisseaux et du cerveau : paralysie, folie, mort"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Syphilis congénitale",
+          "texte": "Une femme enceinte malade peut transmettre la syphilis à son bébé : fausse couche, mort du bébé ou bébé malade et handicapé. Le dépistage et le traitement pendant la grossesse permettent de l'éviter."
+        }
+      ],
+      "lexique": [
+        { "terme": "IST", "definition": "Infection sexuellement transmissible." },
+        { "terme": "Tréponème pâle", "definition": "Bactérie en spirale qui provoque la syphilis." },
+        { "terme": "Chancre", "definition": "Petite plaie indolore du début de la syphilis." },
+        { "terme": "Congénital", "definition": "Présent dès la naissance." }
+      ]
+    },
+    {
+      "id": "svt-mal-4",
+      "titre": "La blennorragie",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "La blennorragie",
+          "texte": "La blennorragie (ou gonococcie, appelée aussi « chaude-pisse ») est une IST due à une bactérie : le gonocoque. C'est un coque, qui se présente par deux (diplocoque)."
+        },
+        {
+          "type": "tableau",
+          "titre": "Fiche d'identité",
+          "entetes": ["Élément", "Réponse"],
+          "lignes": [
+            ["Agent", "Gonocoque"],
+            ["Transmission", "Rapports sexuels non protégés ; de la mère à l'enfant à l'accouchement"],
+            ["Incubation", "Quelques jours (2 à 7 jours en général)"],
+            ["Traitement", "Antibiotiques"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Les signes",
+          "entetes": ["Chez l'homme", "Chez la femme"],
+          "lignes": [
+            ["Brûlures en urinant", "Souvent aucun signe : la maladie passe inaperçue"],
+            ["Écoulement de pus jaune ou verdâtre", "Parfois pertes vaginales anormales, douleurs du bas-ventre"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Les complications si on ne soigne pas",
+          "texte": "La maladie peut provoquer la stérilité chez l'homme et chez la femme. Chez le nouveau-né contaminé, elle peut infecter les yeux et causer la cécité."
+        },
+        {
+          "type": "remarque",
+          "texte": "Pour éviter la contamination, il faut utiliser un préservatif. Si l'on a des signes, il faut consulter un médecin sans attendre, et le partenaire doit aussi se faire soigner. Ne pas se soigner seul avec des médicaments pris au hasard."
+        }
+      ],
+      "lexique": [
+        { "terme": "Gonocoque", "definition": "Bactérie qui provoque la blennorragie." },
+        { "terme": "Stérilité", "definition": "Incapacité d'avoir des enfants." },
+        { "terme": "Cécité", "definition": "Perte de la vue." },
+        { "terme": "Préservatif", "definition": "Protection qui empêche la transmission des IST pendant un rapport sexuel." }
+      ]
+    },
+    {
+      "id": "svt-mal-5",
+      "titre": "Le SIDA : le virus et sa transmission",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "VIH et SIDA",
+          "texte": "Le VIH est le virus de l'immunodéficience humaine. Le SIDA (syndrome d'immunodéficience acquise) est la maladie qui apparaît quand le VIH a détruit les défenses de l'organisme."
+        },
+        {
+          "type": "regle",
+          "titre": "Comment le virus agit",
+          "texte": "Le VIH entre dans les lymphocytes T4, qui commandent les défenses de l'organisme. Il s'y multiplie puis les détruit. Peu à peu, le système immunitaire s'effondre. Le malade attrape alors des maladies qu'une personne en bonne santé n'attrape pas : ce sont des maladies opportunistes (tuberculose, diarrhées, pneumonie...)."
+        },
+        {
+          "type": "tableau",
+          "titre": "Le VIH se transmet par",
+          "entetes": ["Voie", "Exemples"],
+          "lignes": [
+            ["Voie sexuelle", "Rapports non protégés avec une personne infectée"],
+            ["Voie sanguine", "Seringue ou lame souillée, transfusion de sang non contrôlé"],
+            ["De la mère à l'enfant", "Pendant la grossesse, l'accouchement ou l'allaitement"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Le VIH ne se transmet PAS par",
+          "entetes": ["Situation", "Risque"],
+          "lignes": [
+            ["Poignée de main, accolade, baiser sur la joue", "Aucun"],
+            ["Partage d'un repas, d'un verre, d'un lit, des toilettes", "Aucun"],
+            ["Piqûre de moustique", "Aucun"],
+            ["Travailler ou étudier avec une personne séropositive", "Aucun"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Il ne faut pas rejeter les personnes séropositives. Ce n'est pas une punition : elles ont besoin de soutien et peuvent vivre longtemps avec un bon traitement."
+        }
+      ],
+      "lexique": [
+        { "terme": "VIH", "definition": "Virus de l'immunodéficience humaine." },
+        { "terme": "SIDA", "definition": "Syndrome d'immunodéficience acquise." },
+        { "terme": "Maladie opportuniste", "definition": "Maladie qui profite de l'affaiblissement des défenses." },
+        { "terme": "Séropositif", "definition": "Personne dont le sang contient des anticorps contre le VIH." }
+      ]
+    },
+    {
+      "id": "svt-mal-6",
+      "titre": "Le SIDA : dépistage, évolution et prévention",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les étapes de la maladie",
+          "entetes": ["Étape", "Ce qui se passe"],
+          "lignes": [
+            ["Contamination", "Le virus entre dans l'organisme"],
+            ["Séropositivité sans signes", "Les anticorps apparaissent. Pas de signe visible pendant plusieurs années, mais la personne peut transmettre le virus"],
+            ["SIDA déclaré", "Les défenses sont détruites : maladies opportunistes, amaigrissement, fièvre, diarrhée"]
+          ]
+        },
+        {
+          "type": "definition",
+          "titre": "Le dépistage : le test ELISA",
+          "texte": "Le test ELISA recherche dans le sang les anticorps contre le VIH. S'il est positif, on le confirme par un second test. Il faut attendre environ trois mois après un risque : avant, le corps n'a pas encore fabriqué assez d'anticorps et le test peut être négatif à tort."
+        },
+        {
+          "type": "remarque",
+          "titre": "Le traitement",
+          "texte": "Il n'existe pas de médicament qui guérit le SIDA. Les antirétroviraux (ARV) ralentissent la multiplication du virus. Pris toute la vie, ils permettent de vivre longtemps en bonne santé. Les antibiotiques ne marchent pas contre le virus."
+        },
+        {
+          "type": "regle",
+          "titre": "La prévention",
+          "texte": "1. Abstinence ou fidélité à un seul partenaire dépisté. 2. Préservatif à chaque rapport. 3. Seringues et lames à usage unique. 4. Sang transfusé toujours contrôlé. 5. Dépistage pendant la grossesse pour protéger le bébé. 6. Se faire dépister régulièrement."
+        }
+      ],
+      "lexique": [
+        { "terme": "ELISA", "definition": "Test sanguin qui recherche les anticorps contre le VIH." },
+        { "terme": "Antirétroviral (ARV)", "definition": "Médicament qui freine la multiplication du VIH." },
+        { "terme": "Abstinence", "definition": "Fait de ne pas avoir de rapports sexuels." },
+        { "terme": "Transfusion", "definition": "Don de sang à un malade." }
+      ]
+    },
+    {
+      "id": "svt-mal-7",
+      "titre": "La peste : l'agent et sa transmission",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "La peste",
+          "texte": "La peste est une maladie infectieuse très grave, due à une bactérie : le bacille de la peste (Yersinia pestis), découvert par Yersin en 1894. C'est une maladie du rat, transmise à l'homme par la puce du rat."
+        },
+        {
+          "type": "schema",
+          "titre": "Le cycle de la peste bubonique",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='340' height='110' viewBox='0 0 340 110'><g fill='#fdebd0' stroke='#b9770e' stroke-width='2'><rect x='8' y='35' width='88' height='40' rx='8'/><rect x='126' y='35' width='88' height='40' rx='8'/><rect x='244' y='35' width='88' height='40' rx='8'/></g><g stroke='#333' stroke-width='3'><line x1='98' y1='55' x2='122' y2='55'/><line x1='216' y1='55' x2='240' y2='55'/></g><g fill='#333'><polygon points='124,55 114,49 114,61'/><polygon points='242,55 232,49 232,61'/></g><g font-family='sans-serif' font-size='13' fill='#222' text-anchor='middle'><text x='52' y='60'>Rat malade</text><text x='170' y='60'>Puce</text><text x='288' y='60'>Homme</text><text x='170' y='98' font-size='11'>La puce pique le rat, puis l'homme</text></g></svg>",
+          "legende": "Le rat porte le bacille, la puce le transporte, l'homme est piqué."
+        },
+        {
+          "type": "tableau",
+          "titre": "La peste à Madagascar",
+          "entetes": ["Fait", "Précision"],
+          "lignes": [
+            ["Arrivée", "En 1898, par le port de Toamasina, avec des bateaux transportant des rats"],
+            ["Extension", "Elle gagne ensuite les Hautes Terres, où le climat et les conditions de vie favorisent les rats et les puces"],
+            ["Aujourd'hui", "La peste existe toujours à Madagascar. Elle est la plus fréquente de septembre à avril"],
+            ["Agent et réservoir", "Bacille de la peste ; le rat (surtout le rat noir) est le réservoir"],
+            ["Vecteur", "La puce du rat"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Quand les rats meurent en grand nombre, les puces quittent les cadavres et piquent l'homme. Beaucoup de rats morts dans un village doivent alerter les habitants et le centre de santé."
+        }
+      ],
+      "lexique": [
+        { "terme": "Bacille de la peste", "definition": "Bactérie qui provoque la peste (Yersinia pestis)." },
+        { "terme": "Vecteur", "definition": "Animal qui transporte et transmet un microbe." },
+        { "terme": "Réservoir", "definition": "Être vivant chez qui le microbe vit et se conserve." },
+        { "terme": "Épidémie", "definition": "Maladie qui touche beaucoup de personnes en même temps dans une région." }
+      ]
+    },
+    {
+      "id": "svt-mal-8",
+      "titre": "La peste : formes, traitement et prévention",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les trois formes de peste",
+          "entetes": ["Forme", "Voie d'entrée", "Signes"],
+          "lignes": [
+            ["Bubonique", "Piqûre de puce (peau)", "Fièvre forte, frissons, bubon : ganglion très gonflé et douloureux à l'aine, à l'aisselle ou au cou"],
+            ["Pulmonaire", "Voie respiratoire : microbes respirés ou bubonique non soignée qui gagne les poumons", "Toux, crachats sanglants, difficulté à respirer. Se transmet d'une personne à l'autre par l'air. Très grave"],
+            ["Septicémique", "Sang", "Fièvre, taches sur la peau, malade très abattu. Très grave"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Danger de la peste pulmonaire",
+          "texte": "La peste pulmonaire est la forme la plus contagieuse. Sans traitement rapide, elle tue en quelques jours. Un malade qui tousse doit être isolé et soigné immédiatement."
+        },
+        {
+          "type": "methode",
+          "titre": "Le traitement",
+          "texte": "La peste se soigne avec des antibiotiques, à condition de commencer très vite. Il faut aller sans attendre au centre de santé dès les premiers signes : fièvre forte avec bubon ou toux grave. Ne pas se soigner avec des remèdes traditionnels seulement."
+        },
+        {
+          "type": "regle",
+          "titre": "La prévention",
+          "texte": "1. Lutter contre les rats : bien fermer les greniers, ranger les récoltes en hauteur, utiliser des pièges. 2. Lutter contre les puces avec les insecticides, sur les ordres des agents de santé. 3. Garder la maison propre, éviter les déchets. 4. Signaler les rats morts. 5. Isoler les malades et surveiller leurs contacts. 6. Enterrer les morts de peste selon les consignes des autorités sanitaires."
+        }
+      ],
+      "lexique": [
+        { "terme": "Bubon", "definition": "Gros ganglion douloureux, typique de la peste bubonique." },
+        { "terme": "Septicémie", "definition": "Infection grave du sang." },
+        { "terme": "Isoler", "definition": "Séparer un malade des autres pour éviter la contagion." },
+        { "terme": "Insecticide", "definition": "Produit qui tue les insectes." }
+      ]
+    },
+    {
+      "id": "svt-mal-9",
+      "titre": "Récapitulatif des maladies",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les cinq maladies du programme",
+          "entetes": ["Maladie", "Microbe", "Transmission", "Prévention"],
+          "lignes": [
+            ["Tuberculose", "Bacille de Koch (bactérie)", "Air : toux, crachats", "BCG, aération, bonne hygiène"],
+            ["Syphilis", "Tréponème pâle (bactérie)", "Sexuelle, mère-enfant, sang", "Préservatif, dépistage"],
+            ["Blennorragie", "Gonocoque (bactérie)", "Sexuelle, mère-enfant", "Préservatif, traitement des deux partenaires"],
+            ["SIDA", "VIH (virus)", "Sexuelle, sang, mère-enfant", "Préservatif, seringue neuve, dépistage"],
+            ["Peste", "Bacille de la peste (bactérie)", "Piqûre de puce ; air pour la forme pulmonaire", "Lutte contre rats et puces"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Traitement possible ?",
+          "entetes": ["Maladie", "Traitement"],
+          "lignes": [
+            ["Tuberculose", "Antibiotiques pendant 6 mois ou plus : guérison possible"],
+            ["Syphilis", "Antibiotiques (pénicilline) : guérison possible"],
+            ["Blennorragie", "Antibiotiques : guérison possible"],
+            ["SIDA", "Pas de guérison ; ARV pour contrôler le virus"],
+            ["Peste", "Antibiotiques très tôt : guérison possible"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "À retenir : quatre de ces maladies sont dues à des bactéries, donc soignées par des antibiotiques. Le SIDA est dû à un virus et ne se guérit pas avec des antibiotiques."
+        }
+      ],
+      "lexique": [
+        { "terme": "Bactérie", "definition": "Microbe formé d'une seule cellule sans noyau." },
+        { "terme": "Virus", "definition": "Microbe qui vit et se multiplie seulement dans une cellule." },
+        { "terme": "Prévention", "definition": "Ensemble des mesures qui évitent la maladie." }
+      ]
+    }
+  ]
+}
