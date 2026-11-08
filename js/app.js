@@ -1527,4 +1527,216 @@ async function afficherNotes() {
   if (!auMoinsUne) {
     html = '<p class="texte-vide">Aucune matière disponible pour le moment.</p>';
   }
-  
+  conteneur.innerHTML = html;
+}
+// ============================================
+// NAVIGATION — BOUTON RETOUR (utilisé par le rond flottant de gauche)
+// ============================================
+function gererRetour() {
+  if (etat.niveau === 'composantes') {
+    etat.niveau = 'matieres';
+    afficherVue('matieres');
+    majBoutonRetour(false);
+    renderMatieres();
+  } else if (etat.niveau === 'lecons') {
+    etat.niveau = 'composantes';
+    afficherListeComposantes();
+  } else if (etat.niveau === 'contenu') {
+    etat.niveau = 'lecons';
+    afficherListeLecons();
+  } else if (etat.niveau === 'paywall') {
+    if (etat.paywallOrigine === 'exo-liste') {
+      etat.niveau = 'exo-liste';
+      afficherExoListe();
+    } else {
+      etat.niveau = 'composantes';
+      afficherListeComposantes();
+    }
+  } else if (etat.niveau === 'exo-chapitres') {
+    etat.niveau = 'exo-matieres';
+    afficherVue('exercices');
+    majBoutonRetour(false);
+    renderExoMatieres();
+  } else if (etat.niveau === 'exo-liste') {
+    etat.niveau = 'exo-chapitres';
+    afficherVue('matiere');
+    majBoutonRetour(true);
+    afficherExoChapitres();
+  } else {
+    allerAccueil();
+  }
+  window.scrollTo(0, 0);
+}
+// ============================================
+// NAVIGATION BASSE
+// ============================================
+function allerAccueil() {
+  if (etat.classe) {
+    etat.niveau = 'matieres';
+    afficherVue('matieres');
+    majBoutonRetour(false);
+    renderMatieres();
+  } else {
+    etat.niveau = 'classes';
+    afficherVue('classes');
+    majBoutonRetour(false);
+  }
+}
+function allerNotes() {
+  afficherVue('notes');
+  majBoutonRetour(false);
+  afficherNotes();
+}
+function afficherIdentifiantReglages() {
+  const vue = $('view-parametres');
+  if (!vue) return;
+  let zone = $('zone-id-appareil');
+  if (!zone) {
+    zone = document.createElement('div');
+    zone.id = 'zone-id-appareil';
+    zone.className = 'paywall';
+    vue.appendChild(zone);
+  }
+  const classeId = etat.classe || '3e';
+  const idAppareil = obtenirIdAppareil();
+  let lignes = '';
+  (MATIERES_PAYANTES[classeId] || []).forEach(code => {
+    const m = trouverMatiereParCode(classeId, code);
+    if (!m) return;
+    const ok = estMatiereDebloquee(classeId, code);
+    lignes += '<div>' + m.nom + ' : ' + (ok ? 'débloquée' : 'verrouillée') + '</div>';
+  });
+  zone.innerHTML = `
+    <div class="paywall-titre">Identifiant de ce téléphone</div>
+    <div class="paywall-prix" style="letter-spacing:4px;">${idAppareil}</div>
+    <button id="btn-copier-id-reglages" class="btn-valider">Copier mon identifiant</button>
+    ${lignes ? '<p class="paywall-texte" style="margin-top:14px;text-align:left;">Matières premium :</p><div class="paywall-texte" style="text-align:left;">' + lignes + '</div>' : ''}
+    <p class="paywall-texte" style="margin-top:14px;text-align:left;color:#d32f2f;"><strong>Important :</strong> ne supprime pas « Cookies et données des sites » dans Chrome : tu perdrais ton déblocage.</p>
+  `;
+  $('btn-copier-id-reglages').addEventListener('click', () => copierTexte(idAppareil, $('btn-copier-id-reglages')));
+}
+function allerParametres() {
+  afficherVue('parametres');
+  majBoutonRetour(false);
+  const classeObj = CLASSES.find(c => c.id === etat.classe);
+  $('texte-classe-actuelle').textContent = classeObj
+    ? ('Classe actuelle : ' + classeObj.nom)
+    : 'Aucune classe sélectionnée';
+  afficherIdentifiantReglages();
+}
+function changerDeClasse() {
+  if (confirm("Veux-tu changer de classe ? Tu devras choisir à nouveau ta classe au prochain écran.")) {
+    localStorage.removeItem('guide-classe-choisie');
+    etat.classe = null;
+    renderClasses();
+    afficherVue('classes');
+    majBoutonRetour(false);
+  }
+}
+// ============================================
+// THÈME
+// ============================================
+function appliquerTheme(theme) {
+  document.body.setAttribute('data-theme', theme);
+  $('btn-theme').textContent = theme === 'sombre' ? '☀️' : '🌙';
+  localStorage.setItem('guide-theme', theme);
+}
+function basculerTheme() {
+  const actuel = document.body.getAttribute('data-theme');
+  appliquerTheme(actuel === 'sombre' ? 'clair' : 'sombre');
+}
+// ============================================
+// INSTALLATION DE L'APP (bandeau personnalisé)
+// ============================================
+let deferredInstallPrompt = null;
+const DELAI_REAPPARITION_JOURS = 7;
+function estDejaInstallee() {
+  return window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+}
+function bandeauDoitSAfficher() {
+  if (estDejaInstallee()) return false;
+  const brut = localStorage.getItem('guide-install-dismiss');
+  if (!brut) return true;
+  const dateFermeture = parseInt(brut, 10);
+  if (isNaN(dateFermeture)) return true;
+  const delaiMs = DELAI_REAPPARITION_JOURS * 24 * 60 * 60 * 1000;
+  return (Date.now() - dateFermeture) >= delaiMs;
+}
+function afficherBanniereInstall() {
+  if (!bandeauDoitSAfficher()) return;
+  $('banner-installer').hidden = false;
+}
+function cacherBanniereInstall() {
+  $('banner-installer').hidden = true;
+}
+function initInstallation() {
+  window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    deferredInstallPrompt = e;
+    afficherBanniereInstall();
+  });
+  $('btn-installer-app').addEventListener('click', async () => {
+    if (!deferredInstallPrompt) return;
+    deferredInstallPrompt.prompt();
+    await deferredInstallPrompt.userChoice;
+    deferredInstallPrompt = null;
+    cacherBanniereInstall();
+  });
+  $('btn-fermer-installer').addEventListener('click', () => {
+    localStorage.setItem('guide-install-dismiss', String(Date.now()));
+    cacherBanniereInstall();
+  });
+  window.addEventListener('appinstalled', () => {
+    localStorage.setItem('guide-install-dismiss', String(Date.now()));
+    cacherBanniereInstall();
+  });
+}
+// ============================================
+// INITIALISATION
+// ============================================
+function initialiser() {
+  obtenirIdAppareil();
+  if (navigator.storage && navigator.storage.persist) {
+    navigator.storage.persist().catch(() => {});
+  }
+  const themeSauvegarde = localStorage.getItem('guide-theme') || 'clair';
+  appliquerTheme(themeSauvegarde);
+  const classeSauvegardee = localStorage.getItem('guide-classe-choisie');
+  const classeValide = CLASSES.find(c => c.id === classeSauvegardee && c.disponible);
+  if (classeValide) {
+    etat.classe = classeValide.id;
+    etat.niveau = 'matieres';
+    afficherVue('matieres');
+    majBoutonRetour(false);
+    renderMatieres();
+  } else {
+    renderClasses();
+    afficherVue('classes');
+    majBoutonRetour(false);
+  }
+  $('btn-retour').addEventListener('click', gererRetour);
+  $('btn-theme').addEventListener('click', basculerTheme);
+  document.querySelectorAll('.nav-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const cible = btn.getAttribute('data-nav');
+      if (cible === 'accueil') allerAccueil();
+      if (cible === 'exercices') allerExercices();
+      if (cible === 'notes') allerNotes();
+      if (cible === 'parametres') allerParametres();
+      setTimeout(majBoutonsFlottants, 60);
+    });
+  });
+  $('btn-reset-progression').addEventListener('click', () => {
+    if (confirm('Veux-tu vraiment réinitialiser toute ta progression ? Cette action est irréversible.')) {
+      localStorage.removeItem('guide-progression');
+      alert('Progression réinitialisée.');
+    }
+  });
+  $('btn-changer-classe').addEventListener('click', changerDeClasse);
+  initInstallation();
+  initNotesPerso();
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./service-worker.js');
+  }
+}
+document.addEventListener('DOMContentLoaded', initialiser);
