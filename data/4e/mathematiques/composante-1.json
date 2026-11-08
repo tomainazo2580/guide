@@ -1,0 +1,266 @@
+{
+  "id": "math4-1-relatifs",
+  "titre": "Chapitre 1 : Les nombres relatifs",
+  "lecons": [
+    {
+      "id": "math4-1-1-droite",
+      "titre": "Nombres relatifs, droite graduée et comparaison",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Nombre relatif",
+          "texte": "Un nombre relatif est un nombre accompagné d'un signe + ou −.\n• +3 se lit « plus trois » ; −5 se lit « moins cinq ».\n• Un nombre précédé de + est positif. Un nombre précédé de − est négatif.\n• +3 s'écrit aussi 3.\n• 0 n'a pas de signe : il n'est ni positif ni négatif."
+        },
+        {
+          "type": "exemple",
+          "titre": "À quoi servent-ils ?",
+          "texte": "• Température : −3 °C veut dire 3 degrés sous zéro.\n• Argent : +5000 Ar (je gagne), −2000 Ar (je dois).\n• Altitude : −50 m veut dire 50 m sous le niveau de la mer.\n• Étage : −1 est le sous-sol."
+        },
+        {
+          "type": "definition",
+          "titre": "Droite graduée et abscisse",
+          "texte": "Une droite graduée a :\n• une origine O (le point de départ, qui correspond à 0) ;\n• une unité de longueur ;\n• un sens positif (en général vers la droite).\nChaque point de la droite est repéré par un nombre relatif, appelé son abscisse.\nSur le schéma : A a pour abscisse −3 et B a pour abscisse +2. On écrit A(−3) et B(2)."
+        },
+        {
+          "type": "schema",
+          "titre": "Droite graduée",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='320' height='95' viewBox='0 0 320 95'><line x1='10' y1='50' x2='308' y2='50' stroke='currentColor' stroke-width='2'/><polygon points='312,50 303,46 303,54' fill='currentColor'/><g stroke='currentColor' stroke-width='1.5'><line x1='20' y1='45' x2='20' y2='55'/><line x1='48' y1='45' x2='48' y2='55'/><line x1='76' y1='45' x2='76' y2='55'/><line x1='104' y1='45' x2='104' y2='55'/><line x1='132' y1='45' x2='132' y2='55'/><line x1='160' y1='42' x2='160' y2='58'/><line x1='188' y1='45' x2='188' y2='55'/><line x1='216' y1='45' x2='216' y2='55'/><line x1='244' y1='45' x2='244' y2='55'/><line x1='272' y1='45' x2='272' y2='55'/><line x1='300' y1='45' x2='300' y2='55'/></g><g font-size='13' fill='currentColor' text-anchor='middle'><text x='20' y='74'>−5</text><text x='48' y='74'>−4</text><text x='76' y='74'>−3</text><text x='104' y='74'>−2</text><text x='132' y='74'>−1</text><text x='160' y='74'>0</text><text x='188' y='74'>1</text><text x='216' y='74'>2</text><text x='244' y='74'>3</text><text x='272' y='74'>4</text><text x='300' y='74'>5</text></g><circle cx='76' cy='50' r='5' fill='#e11d48'/><circle cx='216' cy='50' r='5' fill='#e11d48'/><g font-size='15' font-weight='bold' fill='#e11d48' text-anchor='middle'><text x='76' y='32'>A</text><text x='216' y='32'>B</text><text x='160' y='32'>O</text></g></svg>",
+          "legende": "Les nombres négatifs sont à gauche de 0, les positifs à droite."
+        },
+        {
+          "type": "definition",
+          "titre": "Nombres opposés",
+          "texte": "Deux nombres sont opposés quand ils ont la même distance à zéro mais des signes contraires.\n• L'opposé de 3 est −3.\n• L'opposé de −5 est 5.\n• L'opposé de 0 est 0.\nSur la droite graduée, deux nombres opposés sont de part et d'autre de l'origine, à égale distance."
+        },
+        {
+          "type": "regle",
+          "titre": "Comparer deux nombres relatifs",
+          "texte": "• Tout nombre négatif est plus petit que 0, et 0 est plus petit que tout nombre positif.\n• Deux nombres positifs : le plus grand est celui qui est le plus loin de 0.\n• Deux nombres négatifs : le plus grand est celui qui est le plus proche de 0.\n• Sur la droite graduée, le plus grand est toujours celui qui est le plus à droite."
+        },
+        {
+          "type": "exemple",
+          "titre": "Comparer",
+          "texte": "• −7 < −2 car −7 est plus loin de 0 que −2.\n• −1,5 > −3.\n• −4 < 3 car un négatif est plus petit qu'un positif.\nRanger dans l'ordre croissant (du plus petit au plus grand) : −4 ; 3 ; −0,5 ; 0 ; 2,5.\nRéponse : −4 < −0,5 < 0 < 2,5 < 3."
+        },
+        {
+          "type": "remarque",
+          "texte": "Attention : −8 est plus petit que −2, même si 8 est plus grand que 2. Avec les négatifs, plus le nombre sans signe est grand, plus le nombre est petit."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Relatif", "Nombre avec un signe + ou −"],
+            ["Opposé", "Même distance à zéro, signe contraire"],
+            ["Abscisse", "Nombre qui repère un point sur une droite graduée"],
+            ["Graduée", "Marquée de traits régulièrement espacés"],
+            ["Origine", "Point de départ, repéré par 0"],
+            ["Croissant", "Du plus petit au plus grand"],
+            ["Décroissant", "Du plus grand au plus petit"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Range dans l'ordre croissant : −3 ; 5 ; −8 ; 0 ; 2,5 ; −0,5.",
+          "solution": "−8 < −3 < −0,5 < 0 < 2,5 < 5."
+        }
+      ]
+    },
+    {
+      "id": "math4-1-2-plan",
+      "titre": "Repérage dans le plan",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Repère du plan",
+          "texte": "Un repère est formé de deux droites graduées perpendiculaires qui se coupent en O :\n• l'axe des abscisses, horizontal ;\n• l'axe des ordonnées, vertical.\nO est l'origine du repère."
+        },
+        {
+          "type": "definition",
+          "titre": "Coordonnées d'un point",
+          "texte": "Chaque point M du plan est repéré par deux nombres relatifs : ses coordonnées (x ; y).\n• x est l'abscisse (lue sur l'axe horizontal).\n• y est l'ordonnée (lue sur l'axe vertical).\nOn écrit M(x ; y). On donne toujours l'abscisse en premier."
+        },
+        {
+          "type": "schema",
+          "titre": "Un repère et quatre points",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300' viewBox='0 0 300 300'><line x1='10' y1='150' x2='288' y2='150' stroke='currentColor' stroke-width='2'/><polygon points='292,150 283,146 283,154' fill='currentColor'/><line x1='150' y1='290' x2='150' y2='12' stroke='currentColor' stroke-width='2'/><polygon points='150,8 146,17 154,17' fill='currentColor'/><g stroke='currentColor' stroke-width='1.5'><line x1='30' y1='146' x2='30' y2='154'/><line x1='60' y1='146' x2='60' y2='154'/><line x1='90' y1='146' x2='90' y2='154'/><line x1='120' y1='146' x2='120' y2='154'/><line x1='180' y1='146' x2='180' y2='154'/><line x1='210' y1='146' x2='210' y2='154'/><line x1='240' y1='146' x2='240' y2='154'/><line x1='270' y1='146' x2='270' y2='154'/><line x1='146' y1='30' x2='154' y2='30'/><line x1='146' y1='60' x2='154' y2='60'/><line x1='146' y1='90' x2='154' y2='90'/><line x1='146' y1='120' x2='154' y2='120'/><line x1='146' y1='180' x2='154' y2='180'/><line x1='146' y1='210' x2='154' y2='210'/><line x1='146' y1='240' x2='154' y2='240'/><line x1='146' y1='270' x2='154' y2='270'/></g><g font-size='11' fill='currentColor' text-anchor='middle'><text x='30' y='168'>−4</text><text x='60' y='168'>−3</text><text x='90' y='168'>−2</text><text x='120' y='168'>−1</text><text x='180' y='168'>1</text><text x='210' y='168'>2</text><text x='240' y='168'>3</text><text x='270' y='168'>4</text></g><g font-size='11' fill='currentColor' text-anchor='end'><text x='143' y='34'>4</text><text x='143' y='64'>3</text><text x='143' y='94'>2</text><text x='143' y='124'>1</text><text x='143' y='184'>−1</text><text x='143' y='214'>−2</text><text x='143' y='244'>−3</text><text x='143' y='274'>−4</text></g><g font-size='13' font-weight='bold' fill='currentColor'><text x='138' y='166'>O</text><text x='280' y='140'>x</text><text x='158' y='20'>y</text></g><polyline points='240,150 240,90 150,90' fill='none' stroke='#e11d48' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='240' cy='90' r='5' fill='#e11d48'/><circle cx='90' cy='60' r='5' fill='#e11d48'/><circle cx='60' cy='180' r='5' fill='#e11d48'/><circle cx='210' cy='210' r='5' fill='#e11d48'/><g font-size='14' font-weight='bold' fill='#e11d48'><text x='248' y='86'>A</text><text x='98' y='56'>B</text><text x='68' y='176'>C</text><text x='218' y='206'>D</text></g></svg>",
+          "legende": "A(3 ; 2), B(−2 ; 3), C(−3 ; −1), D(2 ; −2). Pour A : 3 vers la droite, puis 2 vers le haut."
+        },
+        {
+          "type": "methode",
+          "titre": "Placer un point M(x ; y)",
+          "texte": "1. Partir de l'origine O.\n2. Avancer horizontalement de x : vers la droite si x est positif, vers la gauche s'il est négatif.\n3. Puis avancer verticalement de y : vers le haut si y est positif, vers le bas s'il est négatif.\n4. Marquer le point."
+        },
+        {
+          "type": "remarque",
+          "texte": "• Un point de l'axe des abscisses a pour ordonnée 0 : par exemple (4 ; 0).\n• Un point de l'axe des ordonnées a pour abscisse 0 : par exemple (0 ; −3).\n• L'origine a pour coordonnées (0 ; 0).\n• (2 ; 3) et (3 ; 2) ne sont pas le même point : l'ordre compte."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Repère", "Deux droites graduées perpendiculaires qui servent à placer les points"],
+            ["Axe", "Droite graduée du repère"],
+            ["Ordonnée", "Nombre qui indique la hauteur d'un point"],
+            ["Coordonnées", "Le couple abscisse et ordonnée d'un point"],
+            ["Perpendiculaires", "Qui se coupent en formant un angle droit"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Sur le schéma, lis les coordonnées de C et de D. Puis explique comment placer E(−1 ; 2).",
+          "solution": "C(−3 ; −1) et D(2 ; −2).\nPour E(−1 ; 2) : partir de O, aller 1 case vers la gauche, puis 2 cases vers le haut."
+        }
+      ]
+    },
+    {
+      "id": "math4-1-3-addition",
+      "titre": "Addition et soustraction",
+      "blocs": [
+        {
+          "type": "regle",
+          "titre": "Additionner deux nombres de même signe",
+          "texte": "On garde le signe commun et on additionne les distances à zéro.\n• (+3) + (+5) = +8\n• (−3) + (−5) = −8"
+        },
+        {
+          "type": "regle",
+          "titre": "Additionner deux nombres de signes différents",
+          "texte": "On garde le signe du nombre qui a la plus grande distance à zéro. Puis on soustrait la plus petite distance de la plus grande.\n• (+7) + (−3) = +4 car 7 est le plus loin de 0 et 7 − 3 = 4.\n• (−7) + (+3) = −4.\n• (−2) + (+9) = +7."
+        },
+        {
+          "type": "remarque",
+          "texte": "La somme de deux nombres opposés est toujours 0 : (+4) + (−4) = 0. Et ajouter 0 ne change rien : a + 0 = a."
+        },
+        {
+          "type": "schema",
+          "titre": "Addition sur la droite graduée",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='320' height='95' viewBox='0 0 320 95'><line x1='10' y1='60' x2='308' y2='60' stroke='currentColor' stroke-width='2'/><polygon points='312,60 303,56 303,64' fill='currentColor'/><g stroke='currentColor' stroke-width='1.5'><line x1='20' y1='55' x2='20' y2='65'/><line x1='48' y1='55' x2='48' y2='65'/><line x1='76' y1='55' x2='76' y2='65'/><line x1='104' y1='55' x2='104' y2='65'/><line x1='132' y1='55' x2='132' y2='65'/><line x1='160' y1='52' x2='160' y2='68'/><line x1='188' y1='55' x2='188' y2='65'/><line x1='216' y1='55' x2='216' y2='65'/><line x1='244' y1='55' x2='244' y2='65'/><line x1='272' y1='55' x2='272' y2='65'/><line x1='300' y1='55' x2='300' y2='65'/></g><g font-size='13' fill='currentColor' text-anchor='middle'><text x='20' y='84'>−5</text><text x='48' y='84'>−4</text><text x='76' y='84'>−3</text><text x='104' y='84'>−2</text><text x='132' y='84'>−1</text><text x='160' y='84'>0</text><text x='188' y='84'>1</text><text x='216' y='84'>2</text><text x='244' y='84'>3</text><text x='272' y='84'>4</text><text x='300' y='84'>5</text></g><path d='M 244 52 Q 174 2 104 52' fill='none' stroke='#e11d48' stroke-width='2'/><polygon points='104,54 100,43 111,45' fill='#e11d48'/><circle cx='244' cy='60' r='4' fill='#e11d48'/><circle cx='104' cy='60' r='4' fill='#e11d48'/><text x='174' y='16' font-size='14' font-weight='bold' fill='#e11d48' text-anchor='middle'>−5</text></svg>",
+          "legende": "3 + (−5) = −2 : on part de 3 et on recule de 5 unités."
+        },
+        {
+          "type": "formule",
+          "titre": "Soustraction",
+          "texte": "Soustraire un nombre, c'est ajouter son opposé :\na − b = a + (−b)"
+        },
+        {
+          "type": "exemple",
+          "titre": "Soustractions",
+          "texte": "• 5 − (−3) = 5 + 3 = 8\n• (−4) − (+6) = (−4) + (−6) = −10\n• (−2) − (−7) = (−2) + 7 = 5"
+        },
+        {
+          "type": "regle",
+          "titre": "Supprimer les parenthèses",
+          "texte": "• a + (+b) = a + b\n• a + (−b) = a − b\n• a − (+b) = a − b\n• a − (−b) = a + b\nExemple : 3 + (−5) = 3 − 5 = −2."
+        },
+        {
+          "type": "methode",
+          "titre": "Calculer une somme algébrique",
+          "texte": "Une somme algébrique est une suite d'additions et de soustractions, comme −3 + 8 − 5 + 2.\n1. Regrouper les nombres positifs : 8 + 2 = 10.\n2. Regrouper les nombres négatifs : 3 + 5 = 8.\n3. Faire la différence et mettre le signe du groupe qui est le plus grand : 10 − 8 = 2.\nRésultat : −3 + 8 − 5 + 2 = 2."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Somme", "Résultat d'une addition"],
+            ["Différence", "Résultat d'une soustraction"],
+            ["Somme algébrique", "Suite d'additions et de soustractions de nombres relatifs"],
+            ["Terme", "Chacun des nombres que l'on additionne"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Calcule : a) (−8) + (+5)  b) 4 − (−6)  c) −3 + 7 − 9 + 2",
+          "solution": "a) (−8) + (+5) = −3.\nb) 4 − (−6) = 4 + 6 = 10.\nc) Positifs : 7 + 2 = 9. Négatifs : 3 + 9 = 12. Donc 9 − 12 = −3."
+        }
+      ]
+    },
+    {
+      "id": "math4-1-4-multiplication",
+      "titre": "Multiplication, division et règle des signes",
+      "blocs": [
+        {
+          "type": "regle",
+          "titre": "Règle des signes",
+          "texte": "• Si les deux nombres ont le même signe, le produit (ou le quotient) est positif.\n• Si les deux nombres ont des signes contraires, le produit (ou le quotient) est négatif.\nLa distance à zéro du résultat est le produit (ou le quotient) des distances à zéro."
+        },
+        {
+          "type": "tableau",
+          "titre": "Signe du résultat (multiplication ou division)",
+          "entetes": ["Premier nombre / second nombre", "Positif (+)", "Négatif (−)"],
+          "lignes": [
+            ["Positif (+)", "+", "−"],
+            ["Négatif (−)", "−", "+"]
+          ]
+        },
+        {
+          "type": "exemple",
+          "titre": "Multiplications",
+          "texte": "• (+3) × (+4) = +12\n• (−3) × (−4) = +12\n• (−3) × (+4) = −12\n• (+3) × (−4) = −12"
+        },
+        {
+          "type": "exemple",
+          "titre": "Divisions",
+          "texte": "• (−12) ÷ (+3) = −4\n• (−12) ÷ (−3) = +4\n• (+12) ÷ (−3) = −4\n• 0 ÷ (−5) = 0"
+        },
+        {
+          "type": "regle",
+          "titre": "Produit de plusieurs facteurs",
+          "texte": "Pour trouver le signe, on compte les facteurs négatifs :\n• nombre pair de facteurs négatifs : le produit est positif ;\n• nombre impair de facteurs négatifs : le produit est négatif.\nExemple : (−2) × (−3) × (−4) a 3 facteurs négatifs, donc le signe est − et le produit est −24."
+        },
+        {
+          "type": "remarque",
+          "texte": "• 0 × a = 0, quel que soit a.\n• On ne peut jamais diviser par 0.\n• Ne pas confondre : (−3) × (−5) = +15, mais (−3) + (−5) = −8."
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Calcule : a) (−6) × (−4)  b) (−5) × 3  c) (−20) ÷ (−5)  d) (−2) × (−3) × (−5)  e) 0 ÷ (−7)",
+          "solution": "a) +24.\nb) −15.\nc) +4.\nd) 3 facteurs négatifs, donc négatif : 2 × 3 × 5 = 30, résultat −30.\ne) 0."
+        }
+      ]
+    },
+    {
+      "id": "math4-1-5-priorites",
+      "titre": "Priorités opératoires",
+      "blocs": [
+        {
+          "type": "regle",
+          "titre": "Ordre des calculs",
+          "texte": "1. On calcule d'abord ce qui est entre parenthèses (en commençant par les parenthèses les plus à l'intérieur).\n2. Puis les multiplications et les divisions, de gauche à droite.\n3. Enfin les additions et les soustractions, de gauche à droite."
+        },
+        {
+          "type": "exemple",
+          "titre": "Un calcul de la vie courante",
+          "texte": "Fanja achète 5 cahiers et 3 stylos à 1750 Ar l'article, et 2 livres à 8500 Ar l'un.\nDépense = (5 + 3) × 1750 + 2 × 8500\n= 8 × 1750 + 2 × 8500\n= 14 000 + 17 000\n= 31 000 Ar."
+        },
+        {
+          "type": "exemple",
+          "titre": "Avec des nombres relatifs",
+          "texte": "A = 3 − 4 × (−2)\nA = 3 − (−8)\nA = 3 + 8 = 11\n\nB = (−5 + 2) × (−4)\nB = (−3) × (−4) = 12\n\nD = 2 − (3 − 7) × 2\nD = 2 − (−4) × 2\nD = 2 − (−8)\nD = 2 + 8 = 10"
+        },
+        {
+          "type": "remarque",
+          "titre": "Fractions",
+          "texte": "Dans une fraction, on calcule le numérateur et le dénominateur séparément, puis on divise.\nExemple : (−2 + 8) / (3 − 5) = 6 / (−2) = −3."
+        },
+        {
+          "type": "methode",
+          "titre": "Bien présenter",
+          "texte": "• Faire une seule opération par ligne ou presque.\n• Recopier ce qui ne change pas.\n• Mettre entre parenthèses un nombre négatif qui suit un signe d'opération : 3 − (−8), et non 3 − −8."
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Calcule : A = 5 − 3 × (−4)   B = (7 − 10) × (2 − 6)   C = (−12 + 4) ÷ (−2) − 3",
+          "solution": "A = 5 − (−12) = 5 + 12 = 17.\nB = (−3) × (−4) = 12.\nC = (−8) ÷ (−2) − 3 = 4 − 3 = 1."
+        }
+      ]
+    }
+  ]
+}
