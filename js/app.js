@@ -40,12 +40,22 @@ const MATIERES_PAR_CLASSE = {
       './data/3e/mathematiques/composante-4.json',
       './data/3e/mathematiques/composante-5.json'
     ] },
+    // SVT : 11 chapitres, rangés dans l'ordre d'apprentissage
+    // 1 Alimentation (c1) · 2 Système nerveux (c3) · 3 Sens et vue (c6) · 4 Microbes (c7)
+    // 5 Maladies (c8) · 6 Reproduction humaine (c4, premium) · 7 Organisation des êtres vivants (c2)
+    // 8 Plantes à fleurs (c9) · 9 Roches (c10) · 10 Pierres gemmes (c5) · 11 Sol (c11)
     { id: 'svt',                code: 'SVT',  nom: 'SVT',                icone: '🔬', disponible: true,  fichiers: [
       './data/3e/svt/composante-1.json',
-      './data/3e/svt/composante-2.json',
       './data/3e/svt/composante-3.json',
+      './data/3e/svt/composante-6.json',
+      './data/3e/svt/composante-7.json',
+      './data/3e/svt/composante-8.json',
       './data/3e/svt/composante-4.json',
-      './data/3e/svt/composante-5.json'
+      './data/3e/svt/composante-2.json',
+      './data/3e/svt/composante-9.json',
+      './data/3e/svt/composante-10.json',
+      './data/3e/svt/composante-5.json',
+      './data/3e/svt/composante-11.json'
     ] },
     { id: 'sciences-physiques', code: 'SPHY', nom: 'Sciences Physiques', icone: '⚛️', disponible: true,  fichiers: [
       './data/3e/sciences-physiques/composante-1.json',
@@ -89,6 +99,9 @@ const MATIERES_PAR_CLASSE = {
     { id: 'philosophie',     code: 'PHIL', nom: 'Philosophie',         icone: '🧠', disponible: false, fichier: './data/tle/philosophie.json' }
   ]
 };
+// Matières dont les chapitres sont numérotés automatiquement selon leur position
+// (« Chapitre 1 : ... », « Chapitre 2 : ... »)
+const MATIERES_NUMEROTEES = ['svt'];
 // ============================================
 // EXERCICES — SUJETS ET CORRIGÉS (section indépendante, évolutive)
 // ============================================
@@ -101,7 +114,26 @@ const EXERCICES_PAR_CLASSE = {
     { id: 'sciences-physiques', nom: 'Sciences Physiques', icone: '⚛️', disponible: true,
       fichier: './data/3e/exercices/exercices-sciences-physiques.json' },
     { id: 'svt', nom: 'SVT', icone: '🔬', disponible: true,
-      fichier: './data/3e/exercices/exercices-svt.json' },
+      fichiers: [
+        './data/3e/exercices/exercices-svt.json',
+        './data/3e/exercices/exercices-svt-2.json',
+        './data/3e/exercices/exercices-svt-3.json',
+        './data/3e/exercices/exercices-svt-4.json'
+      ],
+      // Ordre d'affichage des chapitres d'exercices (même ordre logique que le cours)
+      ordre: [
+        'exo-svt-1-alimentation',
+        'exo-svt-3-sante',
+        'exo-svt-6-sens',
+        'exo-svt-7-microbes',
+        'exo-svt-8-maladies',
+        'exo-svt-4-reproduction',
+        'exo-svt-2-plantes',
+        'exo-svt-9-plantes-fleurs',
+        'exo-svt-10-roches',
+        'exo-svt-5-geologie',
+        'exo-svt-11-sol'
+      ] },
     { id: 'francais', nom: 'Français', icone: '📖', disponible: true,
       fichier: './data/3e/exercices/exercices-francais.json' },
     { id: 'histoire', nom: 'Histoire', icone: '🏛️', disponible: true,
@@ -121,10 +153,11 @@ const MATIERES_PAYANTES = {
   'tle': []
 };
 // Position (à partir de 1) du chapitre payant dans la liste des chapitres de chaque matière
+// SVT : le chapitre premium « Reproduction humaine » est en position 6
 const CHAPITRE_PREMIUM = {
   'mathematiques': 4,
   'sciences-physiques': 2,
-  'svt': 4,
+  'svt': 6,
   'geographie': 4,
   'histoire': 9,
   'francais': 6,
@@ -392,6 +425,16 @@ async function reprendreDerniereLecon() {
 // ============================================
 // CHARGEMENT DES DONNÉES (gère fichier unique OU plusieurs petits fichiers)
 // ============================================
+// Remplace l'ancien numéro (« Thématique 3 : ... ») par « Chapitre N : ... »
+// selon la position du chapitre dans la liste.
+function numeroterChapitres(composantes) {
+  composantes.forEach((comp, index) => {
+    if (!comp || comp.erreurChargement) return;
+    const sansNumero = String(comp.titre || '')
+      .replace(/^\s*(?:Thématique|Thematique|Chapitre|Composante)\s*\d+\s*[:.\-–—]?\s*/i, '');
+    comp.titre = 'Chapitre ' + (index + 1) + ' : ' + sansNumero;
+  });
+}
 async function recupererDonneesMatiere(classeId, matiere) {
   const cleCache = classeId + '-' + matiere.id;
   if (etat.cache[cleCache]) return etat.cache[cleCache];
@@ -421,6 +464,9 @@ async function recupererDonneesMatiere(classeId, matiere) {
       composantes = data.composantes || [];
     } else {
       return null;
+    }
+    if (MATIERES_NUMEROTEES.indexOf(matiere.id) !== -1) {
+      numeroterChapitres(composantes);
     }
     const data = { matiere: matiere.nom, composantes };
     etat.cache[cleCache] = data;
@@ -965,13 +1011,44 @@ function niveauPayantExercice(ex) {
   const debut = String(ex.enonce || '').trim().slice(0, 2);
   return NIVEAUX_EXO_PAYANTS[debut] ? debut : null;
 }
+// Gère un fichier unique (fichier) OU plusieurs fichiers (fichiers) réunis en une seule liste.
+// Si « ordre » est donné, les chapitres sont rangés dans cet ordre.
 async function recupererDonneesExercices(classeId, matiere) {
   const cleCache = 'exo-' + classeId + '-' + matiere.id;
   if (etat.cache[cleCache]) return etat.cache[cleCache];
   try {
-    const reponse = await fetch(matiere.fichier);
-    const data = await reponse.json();
-    etat.cache[cleCache] = data;
+    let data;
+    let toutCharge = true;
+    if (matiere.fichiers && Array.isArray(matiere.fichiers)) {
+      const resultats = await Promise.allSettled(
+        matiere.fichiers.map(url => fetch(url).then(r => r.json()))
+      );
+      let chapitres = [];
+      resultats.forEach((resultat, index) => {
+        if (resultat.status === 'fulfilled' && resultat.value && Array.isArray(resultat.value.chapitres)) {
+          chapitres = chapitres.concat(resultat.value.chapitres);
+        } else {
+          toutCharge = false;
+          console.error('Erreur de chargement des exercices :', matiere.fichiers[index], resultat.reason);
+        }
+      });
+      if (!chapitres.length) return null;
+      if (Array.isArray(matiere.ordre)) {
+        const rang = (id) => {
+          const i = matiere.ordre.indexOf(id);
+          return i === -1 ? 999 : i;
+        };
+        chapitres = chapitres
+          .map((c, i) => ({ c: c, i: i }))
+          .sort((a, b) => (rang(a.c.id) - rang(b.c.id)) || (a.i - b.i))
+          .map(x => x.c);
+      }
+      data = { matiere: matiere.nom, chapitres: chapitres };
+    } else {
+      const reponse = await fetch(matiere.fichier);
+      data = await reponse.json();
+    }
+    if (toutCharge) etat.cache[cleCache] = data;
     return data;
   } catch (e) {
     console.error(e);
