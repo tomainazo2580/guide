@@ -1,0 +1,445 @@
+{
+  "id": "svt-sol",
+  "titre": "Le sol",
+  "lecons": [
+    {
+      "id": "svt-sol-1",
+      "titre": "Le sol et ses constituants",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Le sol",
+          "texte": "Le sol est la couche superficielle de l'écorce terrestre, meuble, où poussent les plantes. Il résulte de la transformation de la roche par l'altération et par l'action des êtres vivants."
+        },
+        {
+          "type": "schema",
+          "titre": "Profil d'un sol",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='340' height='200' viewBox='0 0 340 200'><rect x='20' y='10' width='150' height='45' fill='#5d4037' stroke='#222' stroke-width='1'/><rect x='20' y='55' width='150' height='50' fill='#a1887f' stroke='#222' stroke-width='1'/><rect x='20' y='105' width='150' height='45' fill='#d7ccc8' stroke='#222' stroke-width='1'/><rect x='20' y='150' width='150' height='40' fill='#9e9e9e' stroke='#222' stroke-width='1'/><g font-family='sans-serif' font-size='12' fill='#222'><text x='185' y='36'>Horizon A</text><text x='185' y='84'>Horizon B</text><text x='185' y='130'>Horizon C</text><text x='185' y='174'>Roche mère</text></g><g font-family='sans-serif' font-size='10' fill='#555'><text x='185' y='48'>riche en humus</text><text x='185' y='97'>peu d'humus</text><text x='185' y='143'>roche fragmentée</text><text x='185' y='187'>roche dure</text></g></svg>",
+          "legende": "Les couches successives du sol forment un profil, de la surface vers la roche mère."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les horizons du sol",
+          "entetes": ["Horizon", "Description"],
+          "lignes": [
+            ["A (en surface)", "Sombre, riche en humus, en racines et en êtres vivants : c'est la couche la plus fertile"],
+            ["B", "Plus clair, contient moins d'humus ; il reçoit des éléments entraînés depuis l'horizon A"],
+            ["C", "Roche mère fragmentée, en cours d'altération"],
+            ["Roche mère", "Roche dure d'où provient le sol"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Les constituants du sol",
+          "entetes": ["Constituant", "Exemples", "Rôle"],
+          "lignes": [
+            ["Éléments minéraux", "Sable, limon, argile, cailloux, sels minéraux", "Squelette du sol ; fournissent les sels minéraux"],
+            ["Matière organique", "Humus, débris de plantes et d'animaux", "Nourrit les plantes, retient l'eau, améliore la structure"],
+            ["Eau", "Eau qui circule entre les grains", "Dissout les sels minéraux, absorbée par les racines"],
+            ["Air", "Dans les petits espaces entre les grains", "Respiration des racines et des êtres vivants du sol"],
+            ["Êtres vivants", "Vers de terre, insectes, champignons, bactéries", "Décomposent les déchets et aèrent le sol"]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Mettre en évidence les constituants",
+          "texte": "Eau : chauffer un peu de terre dans un tube, des gouttes se forment sur la paroi. Air : verser de l'eau sur de la terre sèche dans un verre, des bulles montent. Humus : chauffer fortement de la terre, elle noircit puis brûle en perdant du poids. Éléments minéraux : ce qui reste après la combustion."
+        }
+      ],
+      "lexique": [
+        { "terme": "Sol", "definition": "Couche superficielle meuble de l'écorce terrestre où poussent les plantes." },
+        { "terme": "Profil du sol", "definition": "Coupe verticale montrant les couches du sol." },
+        { "terme": "Horizon", "definition": "Couche du sol." },
+        { "terme": "Roche mère", "definition": "Roche dure d'où provient le sol." },
+        { "terme": "Humus", "definition": "Matière organique noire, issue de la décomposition des déchets." }
+      ]
+    },
+    {
+      "id": "svt-sol-2",
+      "titre": "La texture et la structure du sol",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Texture",
+          "texte": "La texture d'un sol est la proportion des différents grains minéraux qui le composent : sable, limon et argile. Elle ne change pas facilement."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les trois sortes de grains",
+          "entetes": ["Grain", "Taille", "Caractères"],
+          "lignes": [
+            ["Sable", "0,06 à 2 mm", "Visible à l'œil nu, rugueux, laisse passer l'eau très vite"],
+            ["Limon", "0,002 à 0,06 mm", "Doux comme de la farine, retient moyennement l'eau"],
+            ["Argile", "Moins de 0,002 mm", "Très fin, collant quand il est mouillé, retient beaucoup d'eau"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Quelques textures",
+          "entetes": ["Sol", "Composition", "Particularités"],
+          "lignes": [
+            ["Sableux", "Beaucoup de sable", "Léger, sec, pauvre ; s'échauffe vite"],
+            ["Argileux", "Beaucoup d'argile", "Lourd, collant, mal aéré ; difficile à travailler"],
+            ["Limoneux", "Beaucoup de limon", "Bon pour les cultures, mais il se tasse facilement"],
+            ["Équilibré (sol franc)", "Sable, limon, argile en proportions voisines", "Le meilleur pour les cultures"]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Séparer les grains par décantation",
+          "texte": "1. Mettre de la terre dans un bocal rempli d'eau. 2. Bien agiter puis laisser reposer plusieurs heures. 3. Observer les couches : le sable au fond, le limon au milieu, l'argile au-dessus, et l'humus qui flotte. 4. Mesurer l'épaisseur de chaque couche pour comparer."
+        },
+        {
+          "type": "definition",
+          "titre": "Structure",
+          "texte": "La structure est la façon dont les grains sont assemblés entre eux. Elle peut changer avec le travail du sol et l'humus."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les types de structure",
+          "entetes": ["Structure", "Aspect", "Valeur"],
+          "lignes": [
+            ["Grumeleuse", "Petits agrégats arrondis, aérés", "Très bonne : l'eau et l'air circulent bien"],
+            ["Particulaire", "Grains séparés (sable)", "Moyenne : l'eau s'en va trop vite"],
+            ["Compacte (massive)", "Bloc dur, sans espace", "Mauvaise : racines et eau ne passent pas"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "L'humus colle les grains en grumeaux : il améliore la structure d'un sol sableux comme celle d'un sol argileux."
+        }
+      ],
+      "lexique": [
+        { "terme": "Texture", "definition": "Proportion de sable, de limon et d'argile dans le sol." },
+        { "terme": "Structure", "definition": "Manière dont les grains du sol sont assemblés." },
+        { "terme": "Décantation", "definition": "Dépôt des grains au fond de l'eau selon leur taille." },
+        { "terme": "Grumeau", "definition": "Petit agrégat de terre." }
+      ]
+    },
+    {
+      "id": "svt-sol-3",
+      "titre": "La porosité et la perméabilité",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Porosité",
+          "texte": "La porosité est la proportion de vides (pores) entre les grains du sol. Ces vides contiennent de l'air et de l'eau. Un sol poreux peut stocker beaucoup d'eau."
+        },
+        {
+          "type": "definition",
+          "titre": "Perméabilité",
+          "texte": "La perméabilité est la capacité du sol à se laisser traverser par l'eau. Un sol perméable laisse l'eau s'infiltrer vite. Un sol imperméable la retient en surface."
+        },
+        {
+          "type": "tableau",
+          "titre": "Comparaison des sols",
+          "entetes": ["Sol", "Perméabilité", "Rétention d'eau"],
+          "lignes": [
+            ["Sableux", "Très perméable", "Faible : l'eau s'écoule vite"],
+            ["Limoneux", "Moyenne", "Moyenne"],
+            ["Argileux", "Très faible (imperméable)", "Forte : l'eau stagne en surface"]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Comparer la perméabilité",
+          "texte": "1. Prendre trois entonnoirs avec un coton au fond, remplis d'un même volume de sable, de limon et d'argile. 2. Verser le même volume d'eau sur chacun. 3. Mesurer le volume d'eau recueilli et le temps d'écoulement. 4. Conclure : le sable laisse passer l'eau le plus vite, l'argile le moins vite."
+        },
+        {
+          "type": "remarque",
+          "texte": "Un sol trop perméable se dessèche et perd ses éléments nutritifs. Un sol imperméable provoque l'inondation des racines, qui manquent d'air, et favorise l'érosion par ruissellement. Le meilleur sol retient l'eau mais laisse l'excès s'écouler."
+        }
+      ],
+      "lexique": [
+        { "terme": "Porosité", "definition": "Proportion de vides entre les grains du sol." },
+        { "terme": "Perméabilité", "definition": "Capacité du sol à se laisser traverser par l'eau." },
+        { "terme": "Infiltration", "definition": "Pénétration de l'eau dans le sol." },
+        { "terme": "Ruissellement", "definition": "Écoulement de l'eau à la surface du sol." }
+      ]
+    },
+    {
+      "id": "svt-sol-4",
+      "titre": "Le pH du sol",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Le pH",
+          "texte": "Le pH mesure l'acidité d'un sol. Il se lit sur une échelle de 0 à 14. Un sol de pH inférieur à 7 est acide, un sol de pH égal à 7 est neutre, un sol de pH supérieur à 7 est basique."
+        },
+        {
+          "type": "schema",
+          "titre": "L'échelle du pH",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='340' height='100' viewBox='0 0 340 100'><rect x='20' y='20' width='140' height='34' fill='#f5b041' stroke='#555'/><rect x='160' y='20' width='20' height='34' fill='#58d68d' stroke='#555'/><rect x='180' y='20' width='140' height='34' fill='#5dade2' stroke='#555'/><g font-family='sans-serif' font-size='12' fill='#222' text-anchor='middle'><text x='90' y='42'>Acide</text><text x='250' y='42'>Basique</text><text x='20' y='74'>0</text><text x='170' y='74'>7</text><text x='320' y='74'>14</text><text x='170' y='92' font-size='11'>Neutre</text></g></svg>",
+          "legende": "Plus le pH est faible, plus le sol est acide."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mesurer le pH",
+          "entetes": ["Méthode", "Principe"],
+          "lignes": [
+            ["Papier pH", "On délaie de la terre dans de l'eau distillée, on filtre, on trempe le papier dans l'eau, on compare sa couleur avec l'échelle"],
+            ["pH-mètre", "Appareil électronique qui donne directement la valeur"],
+            ["Observation des plantes", "Certaines plantes indiquent l'acidité du sol (par exemple les fougères)"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Corriger le pH",
+          "entetes": ["Sol", "Problème", "Correction"],
+          "lignes": [
+            ["Trop acide (pH inférieur à 5,5)", "Beaucoup d'éléments nutritifs ne sont plus utilisables par les plantes", "Chaulage : apporter de la chaux ou des cendres ; ajouter du compost"],
+            ["Trop basique (pH supérieur à 8)", "Le fer et d'autres éléments sont bloqués", "Ajouter de la matière organique ou du soufre"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "La plupart des plantes cultivées préfèrent un pH compris entre 6 et 7. Beaucoup de sols de Madagascar sont acides, ce qui explique l'usage de chaux et de matière organique."
+        }
+      ],
+      "lexique": [
+        { "terme": "pH", "definition": "Nombre qui mesure l'acidité d'un milieu." },
+        { "terme": "Acide", "definition": "De pH inférieur à 7." },
+        { "terme": "Basique", "definition": "De pH supérieur à 7." },
+        { "terme": "Chaulage", "definition": "Apport de chaux pour diminuer l'acidité du sol." }
+      ]
+    },
+    {
+      "id": "svt-sol-5",
+      "titre": "Les éléments nutritifs du sol",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Éléments nutritifs",
+          "texte": "Les plantes absorbent par leurs racines de l'eau et des sels minéraux dissous. Les éléments les plus importants sont l'azote (N), le phosphore (P), le potassium (K), le calcium (Ca), le magnésium (Mg), le soufre (S) et le fer (Fe)."
+        },
+        {
+          "type": "tableau",
+          "titre": "Rôle des éléments principaux",
+          "entetes": ["Élément", "Rôle", "Signe de manque"],
+          "lignes": [
+            ["Azote (N)", "Croissance des tiges et des feuilles, couleur verte", "Plante chétive, feuilles jaunes (surtout les plus vieilles)"],
+            ["Phosphore (P)", "Développement des racines, floraison, fructification", "Croissance lente, peu de fleurs et de fruits"],
+            ["Potassium (K)", "Résistance aux maladies et à la sécheresse, qualité des fruits", "Bord des feuilles brûlé, plante fragile"],
+            ["Calcium (Ca)", "Solidité des cellules et des racines", "Jeunes feuilles déformées, racines faibles"],
+            ["Magnésium (Mg)", "Constituant de la chlorophylle", "Feuilles jaunes entre les nervures"],
+            ["Soufre (S)", "Fabrication des protéines", "Jeunes feuilles jaune pâle"],
+            ["Fer (Fe)", "Formation de la chlorophylle", "Jeunes feuilles très pâles (chlorose)"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Renouveler les éléments",
+          "texte": "Les récoltes enlèvent chaque année des éléments au sol. Il faut les remplacer par des engrais. Les engrais organiques (fumier, compost, feuilles) améliorent aussi la structure. Les engrais minéraux (NPK, urée) agissent vite mais ne remplacent pas l'humus."
+        },
+        {
+          "type": "remarque",
+          "texte": "Un engrais NPK porte trois chiffres qui donnent les proportions d'azote, de phosphore et de potassium. Trop d'engrais pollue l'eau et peut brûler les plantes. Il faut suivre les doses conseillées."
+        }
+      ],
+      "lexique": [
+        { "terme": "Sel minéral", "definition": "Substance dissoute dans l'eau du sol, absorbée par les racines." },
+        { "terme": "Engrais", "definition": "Produit apporté au sol pour nourrir les plantes." },
+        { "terme": "Compost", "definition": "Engrais organique obtenu par décomposition de déchets végétaux." },
+        { "terme": "Carence", "definition": "Manque d'un élément nutritif." },
+        { "terme": "Chlorose", "definition": "Jaunissement des feuilles par manque de chlorophylle." }
+      ]
+    },
+    {
+      "id": "svt-sol-6",
+      "titre": "La formation du sol et l'humus",
+      "blocs": [
+        {
+          "type": "regle",
+          "titre": "Du rocher au sol",
+          "texte": "Le sol se forme très lentement, sur des centaines et des milliers d'années. La roche mère est d'abord cassée et transformée par l'altération. Les débris sont ensuite colonisés par des êtres vivants. Leurs déchets forment l'humus. Le sol se construit ainsi horizon après horizon."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les trois types d'altération",
+          "entetes": ["Altération", "Cause", "Effet"],
+          "lignes": [
+            ["Physique", "Variation de température, gel, vent, eau qui coule, racines", "La roche se fissure et se brise en morceaux, sans changer de nature"],
+            ["Chimique", "Eau de pluie, acidité, oxygène", "Les minéraux sont transformés ou dissous ; les feldspaths donnent de l'argile ; le fer se rouille"],
+            ["Biologique", "Racines, lichens, microbes, vers", "Les roches sont fragmentées et enrichies en matière organique"]
+          ]
+        },
+        {
+          "type": "definition",
+          "titre": "L'humus",
+          "texte": "L'humus est une matière organique noire et molle, formée par la décomposition des feuilles, des racines, des cadavres d'animaux et des excréments, sous l'action des bactéries, des champignons et des vers de terre."
+        },
+        {
+          "type": "regle",
+          "titre": "Humification et minéralisation",
+          "texte": "1. Les déchets (litière) sont fragmentés par les vers, les insectes et autres animaux. 2. Les champignons et les bactéries les décomposent : c'est l'humification, qui produit l'humus. 3. Lentement, l'humus est à son tour décomposé en sels minéraux : c'est la minéralisation. Ces sels sont absorbés par les racines."
+        },
+        {
+          "type": "tableau",
+          "titre": "Rôle de l'humus",
+          "entetes": ["Action", "Résultat"],
+          "lignes": [
+            ["Réserve de sels minéraux", "Nourrit les plantes progressivement"],
+            ["Colle les grains entre eux", "Structure grumeleuse"],
+            ["Retient l'eau comme une éponge", "Le sol sèche moins vite"],
+            ["Foncé : absorbe la chaleur", "Sol plus chaud au printemps"],
+            ["Nourrit les êtres vivants du sol", "Sol vivant et aéré"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Le feu et le labour intensif détruisent l'humus. Un sol sans humus est pauvre et s'érode facilement."
+        }
+      ],
+      "lexique": [
+        { "terme": "Altération", "definition": "Transformation d'une roche par l'eau, la température et les êtres vivants." },
+        { "terme": "Litière", "definition": "Couche de feuilles et de débris à la surface du sol." },
+        { "terme": "Humification", "definition": "Transformation des déchets en humus." },
+        { "terme": "Minéralisation", "definition": "Transformation de l'humus en sels minéraux." },
+        { "terme": "Décomposeur", "definition": "Être vivant qui détruit les déchets organiques." }
+      ]
+    },
+    {
+      "id": "svt-sol-7",
+      "titre": "Les sols de Madagascar",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les grands types de sols",
+          "entetes": ["Type de sol", "Où ?", "Caractères", "Valeur agricole"],
+          "lignes": [
+            ["Sols latéritiques (ferrallitiques)", "Hautes Terres et côte est (climat chaud et humide)", "Rouges ou jaunes, riches en fer et en aluminium, argileux, acides, pauvres en éléments nutritifs, minces en humus", "Faible : ont besoin d'engrais et de chaux ; la riziculture dans les bas-fonds"],
+            ["Sols ferrugineux tropicaux", "Ouest et nord-ouest (climat tropical à saison sèche)", "Rougeâtres ou beiges, sableux à sablo-argileux, riches en fer, peu d'humus", "Moyenne : maïs, arachide, manioc, avec des engrais"],
+            ["Sols calcaires", "Régions de roches calcaires (ouest, sud-ouest, Ankarana, Bemaraha)", "Contiennent du calcaire, basiques, souvent minces et secs", "Moyenne à faible : bons pour le coton, le sisal, l'élevage"],
+            ["Sols volcaniques", "Ankaratra, Itasy, Nosy Be, nord (Montagne d'Ambre)", "Foncés, riches en minéraux et en humus, légers et bien aérés", "Élevée : légumes, pomme de terre, café, cultures vivrières"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Les sols alluviaux",
+          "texte": "Dans les vallées et les deltas, les rivières déposent du limon : ce sont les sols alluviaux, très fertiles. À Madagascar on les appelle baiboho (par exemple le long de la Betsiboka ou de la Sofia). On y cultive le riz, le maïs, le tabac, le manioc."
+        },
+        {
+          "type": "regle",
+          "titre": "Pourquoi tant de sols rouges ?",
+          "texte": "Sous un climat chaud et pluvieux, les roches s'altèrent en profondeur. L'eau emporte la silice et les éléments nutritifs, et le fer reste : il s'oxyde (rouille) et colore le sol en rouge. On parle de latérisation."
+        },
+        {
+          "type": "tableau",
+          "titre": "Choisir la culture selon le sol",
+          "entetes": ["Sol", "Cultures conseillées"],
+          "lignes": [
+            ["Latéritique des Hautes Terres", "Riz de bas-fond, manioc, patate douce, eucalyptus, pin (reboisement)"],
+            ["Ferrugineux de l'ouest", "Arachide, maïs, manioc, coton"],
+            ["Volcanique", "Légumes, pomme de terre, canne à sucre, café, ylang-ylang à Nosy Be"],
+            ["Alluvial (baiboho)", "Riz, maïs, tabac, légumes"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Cette répartition est simplifiée : un même village peut avoir plusieurs types de sols. Il faut tenir compte de l'observation locale et des conseils des techniciens agricoles."
+        }
+      ],
+      "lexique": [
+        { "terme": "Latérite", "definition": "Sol rouge riche en fer et en aluminium, typique des régions chaudes et humides." },
+        { "terme": "Latérisation", "definition": "Formation d'un sol latéritique par lessivage de la silice et accumulation du fer." },
+        { "terme": "Alluvion", "definition": "Dépôt de limon laissé par un cours d'eau." },
+        { "terme": "Baiboho", "definition": "Sol alluvial fertile des vallées et des deltas de Madagascar." },
+        { "terme": "Sol volcanique", "definition": "Sol issu de l'altération de roches volcaniques, souvent fertile." }
+      ]
+    },
+    {
+      "id": "svt-sol-8",
+      "titre": "L'érosion du sol",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "L'érosion",
+          "texte": "L'érosion est l'usure et l'entraînement du sol par l'eau, le vent ou la gravité. Un sol qui ne porte plus de végétation est directement exposé à la pluie et au vent."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les causes de l'érosion",
+          "entetes": ["Cause", "Explication"],
+          "lignes": [
+            ["Facteurs naturels", "Fortes pluies, vent, pente forte, sol nu, sol peu perméable"],
+            ["Déforestation", "Sans arbres, la pluie frappe directement le sol et les racines ne le retiennent plus"],
+            ["Feux de brousse et culture sur brûlis (tavy)", "Détruisent la végétation et l'humus"],
+            ["Surpâturage", "Les zébus broutent l'herbe et tassent le sol"],
+            ["Mauvaises pratiques", "Culture dans le sens de la pente, labour excessif, sols laissés nus après la récolte"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Les formes d'érosion",
+          "texte": "Érosion en nappe : l'eau emporte une mince couche de terre sur toute la surface. Érosion en ravines : l'eau creuse des rigoles qui s'agrandissent. Lavaka : grandes ravines aux parois abruptes, très fréquentes sur les Hautes Terres. Érosion éolienne : le vent emporte le sable et la poussière, surtout dans le sud."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les conséquences",
+          "entetes": ["Conséquence", "Effet"],
+          "lignes": [
+            ["Perte de fertilité", "L'horizon A, riche en humus, est emporté ; les rendements baissent"],
+            ["Ensablement", "Le sable et la terre comblent les rizières, les canaux et les rivières"],
+            ["Eaux boueuses", "Rivières rouges ; le port peut se combler"],
+            ["Inondations et glissements de terrain", "Les sols nus retiennent mal l'eau"],
+            ["Pauvreté et exode", "Les familles perdent leurs terres cultivables"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "La nature met des siècles à former quelques centimètres de sol, mais une seule saison de pluies peut les emporter. C'est pourquoi la conservation du sol est une urgence."
+        }
+      ],
+      "lexique": [
+        { "terme": "Érosion", "definition": "Usure et transport du sol par l'eau, le vent ou la gravité." },
+        { "terme": "Lavaka", "definition": "Grande ravine d'érosion aux parois abruptes." },
+        { "terme": "Tavy", "definition": "Culture sur brûlis pratiquée sur les terrains en pente." },
+        { "terme": "Ensablement", "definition": "Dépôt de sable ou de terre qui comble les rizières et les rivières." },
+        { "terme": "Déforestation", "definition": "Disparition des forêts par coupe ou incendie." }
+      ]
+    },
+    {
+      "id": "svt-sol-9",
+      "titre": "La conservation du sol",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les moyens de protéger le sol",
+          "entetes": ["Moyen", "Principe", "Effet"],
+          "lignes": [
+            ["Reboisement", "Planter des arbres sur les collines nues", "Les racines retiennent la terre, les feuilles protègent du choc de la pluie"],
+            ["Cultures en courbes de niveau", "Labourer et semer le long des courbes, perpendiculairement à la pente", "L'eau ralentit et s'infiltre"],
+            ["Terrasses et diguettes", "Aménager des marches sur la pente", "L'eau est retenue, la terre ne glisse pas"],
+            ["Haies vives et bandes enherbées", "Planter des lignes de végétation dans les champs", "Arrêtent le ruissellement"],
+            ["Paillage et couverture du sol", "Couvrir la terre avec de la paille, des feuilles, des plantes de couverture", "Protège de la pluie, garde l'humidité, ajoute de l'humus"],
+            ["Rotation et association des cultures", "Alterner les cultures, associer légumineuses et céréales", "Évite l'épuisement du sol"],
+            ["Fumure organique et compost", "Apporter du fumier, du compost", "Améliorent la structure et nourrissent le sol"],
+            ["Lutte contre les feux de brousse", "Éviter de brûler les champs et les pâturages", "Conserve l'humus et la végétation"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Règles à retenir",
+          "texte": "1. Ne jamais laisser le sol nu. 2. Ralentir l'eau avant qu'elle ne ruisselle. 3. Rendre au sol ce que les récoltes lui prennent. 4. Éviter le feu. 5. Agir ensemble : la protection du sol est l'affaire de toute la communauté."
+        },
+        {
+          "type": "exemple",
+          "titre": "Un champ sur une pente",
+          "texte": "Un paysan cultive du manioc sur une colline nue. Pour protéger son champ : il sème le long des courbes de niveau, plante des bandes d'herbe entre les lignes, paille la terre avec les résidus de récolte, arrête de brûler et plante des arbres au sommet."
+        },
+        {
+          "type": "remarque",
+          "texte": "Protéger le sol, c'est protéger l'eau, la récolte et la vie des générations futures. Les actions de reboisement, les dina (règles de la communauté) et les techniques de conservation sont des moyens de développement durable."
+        }
+      ],
+      "lexique": [
+        { "terme": "Reboisement", "definition": "Plantation d'arbres pour protéger les terrains nus." },
+        { "terme": "Courbes de niveau", "definition": "Lignes qui suivent le relief à altitude constante." },
+        { "terme": "Terrasse", "definition": "Marche aménagée sur une pente pour retenir la terre." },
+        { "terme": "Paillage", "definition": "Couverture du sol avec de la paille ou des feuilles." },
+        { "terme": "Rotation des cultures", "definition": "Alternance de cultures différentes sur un même champ." },
+        { "terme": "Développement durable", "definition": "Façon de répondre aux besoins d'aujourd'hui sans priver les générations futures." }
+      ]
+    }
+  ]
+}
