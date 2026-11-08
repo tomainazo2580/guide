@@ -1,0 +1,324 @@
+{
+  "id": "math4-11-cosinus",
+  "titre": "Chapitre 11 : Cosinus d'un angle aigu",
+  "lecons": [
+    {
+      "id": "m4-11-1-cotes",
+      "titre": "Les côtés d'un triangle rectangle : hypoténuse, adjacent, opposé",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Les trois côtés par rapport à un angle aigu",
+          "texte": "Soit ABC un triangle rectangle en A, et soit l'angle aigu B.\nL'hypoténuse est le côté opposé à l'angle droit : [BC]. Elle ne change jamais.\nLe côté adjacent à l'angle B est le côté de l'angle B qui n'est pas l'hypoténuse : [AB].\nLe côté opposé à l'angle B est le côté qui est en face de B, qui ne touche pas B : [AC]."
+        },
+        {
+          "type": "schema",
+          "titre": "Les côtés par rapport à l'angle B",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='320' height='160' viewBox='0 0 320 160'><polygon points='90,130 260,130 90,40' fill='#e11d48' fill-opacity='0.12' stroke='currentColor' stroke-width='1.5'/><path d='M90 118 L102 118 L102 130' fill='none' stroke='currentColor' stroke-width='1.2'/><path d='M230 130 A30 30 0 0 1 233.5 116' fill='none' stroke='#e11d48' stroke-width='1.5'/><text x='76' y='146' font-size='13' fill='currentColor'>A</text><text x='264' y='144' font-size='13' fill='currentColor'>B</text><text x='80' y='36' font-size='13' fill='currentColor'>C</text><text x='175' y='148' font-size='12' text-anchor='middle' fill='currentColor'>adjacent</text><text x='84' y='88' font-size='12' text-anchor='end' fill='currentColor'>opposé</text><text x='185' y='72' font-size='12' fill='#e11d48'>hypoténuse</text></svg>",
+          "legende": "Pour l'angle B : [AB] est adjacent, [AC] est opposé, [BC] est l'hypoténuse."
+        },
+        {
+          "type": "tableau",
+          "titre": "Le même triangle, vu depuis chaque angle aigu",
+          "entetes": ["Angle étudié", "Hypoténuse", "Côté adjacent", "Côté opposé"],
+          "lignes": [
+            ["B", "[BC]", "[AB]", "[AC]"],
+            ["C", "[BC]", "[AC]", "[AB]"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Les deux angles aigus",
+          "texte": "La somme des angles d'un triangle est 180°. Dans un triangle rectangle, l'angle droit mesure 90°, donc les deux angles aigus ont pour somme 90°.\nSi l'angle B mesure 35°, alors l'angle C mesure 90° − 35° = 55°."
+        },
+        {
+          "type": "remarque",
+          "titre": "Adjacent et opposé dépendent de l'angle choisi",
+          "texte": "L'hypoténuse est toujours la même. Mais le côté adjacent à B devient le côté opposé à C, et inversement.\nAvant de calculer, dis toujours de quel angle tu parles."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Adjacent", "Qui touche l'angle étudié (sans être l'hypoténuse)."],
+            ["Opposé", "En face de l'angle étudié : il ne touche pas l'angle."],
+            ["Aigu", "Se dit d'un angle plus petit que 90°."],
+            ["Hypoténuse", "Côté opposé à l'angle droit, le plus long côté."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Le triangle EFG est rectangle en F.\n1) Quelle est son hypoténuse ?\n2) Pour l'angle E, donne le côté adjacent et le côté opposé.\n3) Pour l'angle G, donne le côté adjacent et le côté opposé.\n4) Si l'angle E mesure 35°, combien mesure l'angle G ?",
+          "solution": "1) L'angle droit est en F, donc l'hypoténuse est [EG].\n2) Pour l'angle E : le côté adjacent est [EF] (il touche E et n'est pas l'hypoténuse), le côté opposé est [FG].\n3) Pour l'angle G : le côté adjacent est [FG], le côté opposé est [EF].\n4) Angle G = 90° − 35° = 55°."
+        }
+      ]
+    },
+    {
+      "id": "m4-11-2-cosinus",
+      "titre": "Le cosinus d'un angle aigu",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Cosinus d'un angle aigu",
+          "texte": "Dans un triangle rectangle, le cosinus d'un angle aigu est le quotient de la longueur du côté adjacent à cet angle par la longueur de l'hypoténuse.\nPour le triangle ABC rectangle en A : cos B = AB ÷ BC.\nPour retenir : CAH, comme Cosinus = Adjacent ÷ Hypoténuse."
+        },
+        {
+          "type": "schema",
+          "titre": "Un triangle 3 ; 4 ; 5",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='330' height='170' viewBox='0 0 330 170'><polygon points='40,140 200,140 40,20' fill='#e11d48' fill-opacity='0.12' stroke='currentColor' stroke-width='1.5'/><path d='M40 128 L52 128 L52 140' fill='none' stroke='currentColor' stroke-width='1.2'/><path d='M172 140 A28 28 0 0 1 177.6 123.2' fill='none' stroke='#e11d48' stroke-width='1.5'/><text x='26' y='154' font-size='13' fill='currentColor'>A</text><text x='206' y='144' font-size='13' fill='currentColor'>B</text><text x='46' y='16' font-size='13' fill='currentColor'>C</text><text x='120' y='158' font-size='12' text-anchor='middle' fill='currentColor'>4</text><text x='30' y='85' font-size='12' text-anchor='end' fill='currentColor'>3</text><text x='128' y='68' font-size='12' fill='#e11d48'>5</text><text x='215' y='70' font-size='12' fill='currentColor'>cos B = 4/5 = 0,8</text><text x='215' y='92' font-size='12' fill='currentColor'>cos C = 3/5 = 0,6</text></svg>",
+          "legende": "ABC est rectangle en A avec AB = 4, AC = 3 et BC = 5. Pour B, le côté adjacent est AB. Pour C, le côté adjacent est AC."
+        },
+        {
+          "type": "exemple",
+          "titre": "Le triangle 3 ; 4 ; 5",
+          "texte": "ABC est rectangle en A, avec AB = 4 cm, AC = 3 cm et BC = 5 cm.\ncos B = AB ÷ BC = 4 ÷ 5 = 0,8.\ncos C = AC ÷ BC = 3 ÷ 5 = 0,6.\nLe cosinus n'a pas d'unité : c'est un quotient de deux longueurs."
+        },
+        {
+          "type": "exemple",
+          "titre": "Un triangle plus grand, le même angle",
+          "texte": "Soit DEF rectangle en D, avec DE = 8 cm, DF = 6 cm et EF = 10 cm. C'est le triangle 3 ; 4 ; 5 agrandi deux fois.\ncos E = DE ÷ EF = 8 ÷ 10 = 0,8.\nOn retrouve le même cosinus que pour B dans le triangle précédent : l'angle E est le même que l'angle B, car un agrandissement ne change pas les angles.\nLe cosinus ne dépend donc que de l'angle, pas de la taille du triangle."
+        },
+        {
+          "type": "regle",
+          "titre": "Le cosinus d'un angle aigu est compris entre 0 et 1",
+          "texte": "Le côté adjacent est plus court que l'hypoténuse. Le quotient adjacent ÷ hypoténuse est donc plus petit que 1.\nPour un angle aigu : 0 < cos < 1.\nSi tu trouves un cosinus plus grand que 1, tu as certainement inversé les deux longueurs."
+        },
+        {
+          "type": "methode",
+          "titre": "Écrire un cosinus",
+          "texte": "1. Repère l'angle droit, puis l'hypoténuse.\n2. Repère l'angle dont tu veux le cosinus. Trouve le côté adjacent.\n3. Écris la formule avec les lettres : cos B = AB ÷ BC.\n4. Remplace par les valeurs, puis calcule.\nExemple : EFG rectangle en F. Pour l'angle E, cos E = EF ÷ EG. Pour l'angle G, cos G = FG ÷ EG."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Cosinus", "Nombre qui dépend seulement de l'angle : adjacent ÷ hypoténuse."],
+            ["Quotient", "Résultat d'une division."],
+            ["Sans unité", "Se dit d'un nombre qui n'est pas en cm ni en m."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Le triangle ABC est rectangle en A, avec AB = 5 cm, AC = 12 cm et BC = 13 cm.\n1) Écris cos B avec des lettres, puis calcule-le sous forme de fraction.\n2) Écris cos C et calcule-le sous forme de fraction.\n3) Donne les deux cosinus en écriture décimale, arrondis au millième.",
+          "solution": "1) Pour l'angle B, le côté adjacent est [AB]. cos B = AB ÷ BC = 5 ÷ 13.\n2) Pour l'angle C, le côté adjacent est [AC]. cos C = AC ÷ BC = 12 ÷ 13.\n3) 5 ÷ 13 ≈ 0,385 et 12 ÷ 13 ≈ 0,923. Ils sont bien entre 0 et 1."
+        }
+      ]
+    },
+    {
+      "id": "m4-11-3-calculatrice",
+      "titre": "Utiliser la calculatrice",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Trouver le cosinus d'un angle",
+          "texte": "1. Vérifie que la calculatrice est en mode degrés (la lettre D ou DEG s'affiche à l'écran).\n2. Appuie sur la touche cos, puis tape la mesure de l'angle, puis ferme la parenthèse si besoin.\n3. Appuie sur = et lis le résultat.\nSelon les calculatrices, on tape cos 40 = ou cos ( 40 ) =."
+        },
+        {
+          "type": "methode",
+          "titre": "Trouver un angle à partir de son cosinus",
+          "texte": "On utilise la touche cos⁻¹ (on la lit « arc cosinus »). Elle est souvent au-dessus de la touche cos : il faut d'abord appuyer sur la touche 2nde ou SHIFT.\nExemple : pour trouver l'angle dont le cosinus est 0,8, on tape cos⁻¹ ( 0,8 ) = et on lit 36,86...\nOn arrondit ensuite : l'angle est environ 36,9°."
+        },
+        {
+          "type": "tableau",
+          "titre": "Quelques valeurs de cosinus (arrondies au millième)",
+          "entetes": ["Angle", "Cosinus"],
+          "lignes": [
+            ["0°", "1"],
+            ["10°", "0,985"],
+            ["20°", "0,940"],
+            ["30°", "0,866"],
+            ["40°", "0,766"],
+            ["45°", "0,707"],
+            ["50°", "0,643"],
+            ["60°", "0,5"],
+            ["70°", "0,342"],
+            ["80°", "0,174"],
+            ["90°", "0"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Plus l'angle est grand, plus le cosinus est petit",
+          "texte": "Quand l'angle aigu augmente, son cosinus diminue : cos 20° est plus grand que cos 70°.\nÀ retenir : cos 60° = 0,5 exactement, cos 0° = 1 et cos 90° = 0. Les valeurs de 0° et de 90° ne servent pas dans un triangle rectangle, car un angle aigu est strictement compris entre 0° et 90°."
+        },
+        {
+          "type": "exemple",
+          "titre": "Exemples",
+          "texte": "cos 40° ≈ 0,766 et cos 75° ≈ 0,259.\nL'angle dont le cosinus est 0,5 est 60° : cos⁻¹(0,5) = 60°.\nL'angle dont le cosinus est 0,8 est environ 36,9° : cos⁻¹(0,8) ≈ 36,9°."
+        },
+        {
+          "type": "remarque",
+          "titre": "Les erreurs à éviter",
+          "texte": "Si la calculatrice est en mode radians (R ou RAD) ou en grades (G ou GRAD), les résultats sont faux. Vérifie le mode avant de commencer.\nLa touche cos⁻¹ n'est pas la même chose que 1 ÷ cos. Elle sert à retrouver l'angle.\nUn cosinus d'angle aigu est toujours entre 0 et 1. Si tu obtiens autre chose, vérifie le mode de la calculatrice."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Mode degrés", "Réglage de la calculatrice pour mesurer les angles en degrés."],
+            ["cos⁻¹", "Touche qui donne l'angle quand on connaît son cosinus."],
+            ["Arrondir", "Garder un nombre limité de chiffres après la virgule."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Avec la calculatrice, donne cos 25° et cos 80°, arrondis au millième. Lequel est le plus grand ? Pourquoi ?\n2) Donne l'angle dont le cosinus est 0,9, puis l'angle dont le cosinus est 0,25, arrondis au dixième de degré.",
+          "solution": "1) cos 25° ≈ 0,906 et cos 80° ≈ 0,174. Le plus grand est cos 25° : plus l'angle est petit, plus son cosinus est grand.\n2) cos⁻¹(0,9) ≈ 25,8° et cos⁻¹(0,25) ≈ 75,5°."
+        }
+      ]
+    },
+    {
+      "id": "m4-11-4-longueur",
+      "titre": "Calculer une longueur avec le cosinus",
+      "blocs": [
+        {
+          "type": "formule",
+          "titre": "Les deux formules utiles",
+          "texte": "ABC est rectangle en A. On part de cos B = AB ÷ BC.\nPour trouver le côté adjacent : AB = BC × cos B.\nPour trouver l'hypoténuse : BC = AB ÷ cos B."
+        },
+        {
+          "type": "methode",
+          "titre": "Les étapes",
+          "texte": "1. Dis dans quel triangle tu travailles et où est l'angle droit.\n2. Repère l'angle connu, le côté adjacent et l'hypoténuse.\n3. Écris « Dans le triangle ABC rectangle en A, cos B = AB ÷ BC ».\n4. Remplace par les valeurs connues.\n5. Résous l'équation : multiplie si tu cherches le côté adjacent, divise si tu cherches l'hypoténuse.\n6. Donne la réponse arrondie avec l'unité."
+        },
+        {
+          "type": "exemple",
+          "titre": "Trouver le côté adjacent",
+          "texte": "ABC est rectangle en A, avec BC = 10 cm et l'angle B = 40°. Calcule AB au dixième près.\nDans le triangle ABC rectangle en A : cos B = AB ÷ BC.\ncos 40° = AB ÷ 10\nAB = 10 × cos 40° ≈ 10 × 0,766 = 7,66.\nAB ≈ 7,7 cm."
+        },
+        {
+          "type": "exemple",
+          "titre": "Trouver l'hypoténuse",
+          "texte": "ABC est rectangle en A, avec AB = 6 cm et l'angle B = 35°. Calcule BC au dixième près.\nDans le triangle ABC rectangle en A : cos B = AB ÷ BC.\ncos 35° = 6 ÷ BC\nBC = 6 ÷ cos 35° ≈ 6 ÷ 0,819 ≈ 7,32.\nBC ≈ 7,3 cm.\nOn vérifie : l'hypoténuse (7,3) est plus longue que le côté adjacent (6)."
+        },
+        {
+          "type": "remarque",
+          "titre": "Contrôler son résultat",
+          "texte": "Le côté adjacent est toujours plus petit que l'hypoténuse. Si tu trouves le contraire, tu as probablement multiplié au lieu de diviser, ou l'inverse.\nSi on te demande le troisième côté, tu peux ensuite utiliser le théorème de Pythagore.\nLe cosinus ne permet pas de calculer directement le côté opposé : ce n'est pas le côté adjacent."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Résoudre", "Trouver la valeur inconnue qui rend l'égalité vraie."],
+            ["Au dixième près", "Avec un seul chiffre après la virgule."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) ABC est rectangle en A, avec BC = 12 cm et l'angle B = 50°. Calcule AB au dixième près.\n2) DEF est rectangle en D, avec DE = 7 cm et l'angle E = 35°. Calcule EF au dixième près.",
+          "solution": "1) Dans le triangle ABC rectangle en A : cos B = AB ÷ BC.\ncos 50° = AB ÷ 12\nAB = 12 × cos 50° ≈ 12 × 0,643 ≈ 7,7 cm.\n2) Dans le triangle DEF rectangle en D : cos E = DE ÷ EF.\ncos 35° = 7 ÷ EF\nEF = 7 ÷ cos 35° ≈ 7 ÷ 0,819 ≈ 8,5 cm."
+        }
+      ]
+    },
+    {
+      "id": "m4-11-5-angle",
+      "titre": "Calculer un angle avec le cosinus",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Les étapes",
+          "texte": "1. Dis dans quel triangle tu travailles et où est l'angle droit.\n2. Repère l'angle cherché, le côté adjacent et l'hypoténuse (ce sont les deux longueurs connues).\n3. Écris « cos B = AB ÷ BC » et remplace par les valeurs.\n4. Calcule le quotient.\n5. Avec la touche cos⁻¹, trouve l'angle et arrondis.\n6. Écris la phrase de réponse avec l'unité (°)."
+        },
+        {
+          "type": "exemple",
+          "titre": "Un angle dans un triangle 3 ; 4 ; 5",
+          "texte": "ABC est rectangle en A, avec AB = 3 cm et BC = 5 cm. Calcule l'angle B au dixième de degré près.\nDans le triangle ABC rectangle en A : cos B = AB ÷ BC = 3 ÷ 5 = 0,6.\nB = cos⁻¹(0,6) ≈ 53,1°.\nOn en déduit l'angle C : 90° − 53,1° = 36,9°."
+        },
+        {
+          "type": "exemple",
+          "titre": "Un autre exemple",
+          "texte": "ABC est rectangle en A, avec AB = 6 cm et BC = 8 cm.\ncos B = 6 ÷ 8 = 0,75.\nB = cos⁻¹(0,75) ≈ 41,4°.\nL'angle C vaut environ 90° − 41,4° = 48,6°."
+        },
+        {
+          "type": "remarque",
+          "titre": "Quand on connaît d'autres longueurs",
+          "texte": "Pour utiliser le cosinus, il faut connaître le côté adjacent et l'hypoténuse. Si on connaît seulement les deux côtés de l'angle droit, on calcule d'abord l'hypoténuse avec le théorème de Pythagore, puis on utilise le cosinus.\nUne fois un angle aigu trouvé, l'autre s'obtient par 90° moins le premier."
+        },
+        {
+          "type": "tableau",
+          "titre": "Quel outil pour quelle situation ?",
+          "entetes": ["Dans un triangle rectangle, je connais...", "Je cherche...", "J'utilise..."],
+          "lignes": [
+            ["Deux côtés", "Le troisième côté", "Théorème de Pythagore"],
+            ["Un angle aigu et un côté (adjacent ou hypoténuse)", "L'autre de ces deux côtés", "cos B = adjacent ÷ hypoténuse"],
+            ["Le côté adjacent et l'hypoténuse", "L'angle aigu", "cos⁻¹ du quotient"],
+            ["Un angle aigu", "L'autre angle aigu", "90° moins l'angle connu"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Déduire", "Trouver un résultat à partir de ceux qu'on connaît déjà."],
+            ["Complémentaires", "Se dit de deux angles dont la somme est 90°."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "ABC est rectangle en A, avec AB = 7 cm et BC = 10 cm.\n1) Calcule cos B.\n2) Calcule l'angle B au dixième de degré près.\n3) Déduis-en l'angle C.",
+          "solution": "1) Dans le triangle ABC rectangle en A : cos B = AB ÷ BC = 7 ÷ 10 = 0,7.\n2) B = cos⁻¹(0,7) ≈ 45,6°.\n3) C = 90° − 45,6° = 44,4°."
+        }
+      ]
+    },
+    {
+      "id": "m4-11-6-problemes",
+      "titre": "Applications et problèmes",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Rédiger un problème de type BEPC",
+          "texte": "1. Fais un schéma. Code l'angle droit, les longueurs et les angles connus, et l'inconnue.\n2. Repère le triangle rectangle utile et dis pourquoi il est rectangle (mur vertical, sol horizontal, hauteur d'un triangle...).\n3. Choisis l'outil : cosinus pour un angle et deux côtés, Pythagore pour trois côtés.\n4. Écris la formule avec les lettres, remplace par les valeurs, puis calcule.\n5. Donne la phrase de réponse avec l'unité, et vérifie que le résultat est logique."
+        },
+        {
+          "type": "schema",
+          "titre": "Une échelle contre un mur",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='300' height='175' viewBox='0 0 300 175'><line x1='30' y1='140' x2='270' y2='140' stroke='currentColor' stroke-width='1.5'/><line x1='60' y1='20' x2='60' y2='140' stroke='currentColor' stroke-width='3'/><line x1='120' y1='140' x2='60' y2='36' stroke='#e11d48' stroke-width='3'/><path d='M60 128 L72 128 L72 140' fill='none' stroke='currentColor' stroke-width='1.2'/><path d='M95 140 A25 25 0 0 1 107.5 118.35' fill='none' stroke='#e11d48' stroke-width='1.5'/><text x='80' y='116' font-size='12' fill='currentColor'>60°</text><text x='98' y='84' font-size='12' fill='#e11d48'>4 m</text><text x='90' y='158' font-size='12' text-anchor='middle' fill='currentColor'>x = ?</text><text x='150' y='100' font-size='12' fill='currentColor'>cos 60° = x ÷ 4</text><text x='54' y='80' font-size='12' text-anchor='end' fill='currentColor'>mur</text><text x='270' y='156' font-size='12' text-anchor='end' fill='currentColor'>sol</text></svg>",
+          "legende": "L'échelle (4 m) est l'hypoténuse. La distance x entre le mur et le pied de l'échelle est le côté adjacent à l'angle de 60°."
+        },
+        {
+          "type": "exemple",
+          "titre": "L'échelle",
+          "texte": "Une échelle de 4 m est posée contre un mur vertical sur un sol horizontal. Elle fait un angle de 60° avec le sol. À quelle distance du mur est son pied ?\nLe mur est vertical et le sol est horizontal : le triangle est rectangle au pied du mur. L'échelle est l'hypoténuse. La distance x est le côté adjacent à l'angle de 60°.\ncos 60° = x ÷ 4\nx = 4 × cos 60° = 4 × 0,5 = 2 m.\nLe pied de l'échelle est à 2 m du mur."
+        },
+        {
+          "type": "exemple",
+          "titre": "Un triangle isocèle",
+          "texte": "ABC est isocèle en A, avec AB = AC = 13 cm et BC = 10 cm. H est le pied de la hauteur issue de A, donc le milieu de [BC] et BH = 5 cm. Le triangle ABH est rectangle en H.\nDans le triangle ABH : cos B = BH ÷ AB = 5 ÷ 13 ≈ 0,385.\nL'angle B = cos⁻¹(5 ÷ 13) ≈ 67,4°.\nLe triangle est isocèle, donc l'angle C = l'angle B ≈ 67,4°.\nL'angle A = 180° − 2 × 67,4° = 180° − 134,8° = 45,2°."
+        },
+        {
+          "type": "remarque",
+          "titre": "Les unités et l'arrondi",
+          "texte": "Les longueurs doivent être dans la même unité avant de calculer.\nN'arrondis qu'à la fin du calcul, pas au milieu : cela évite d'accumuler des erreurs.\nUn angle se donne en degrés, avec le signe °. Une longueur se donne avec son unité."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Isocèle", "Qui a deux côtés de même longueur."],
+            ["Hauteur", "Segment perpendiculaire à un côté, issu du sommet opposé."],
+            ["Vertical, horizontal", "Vertical : comme un fil à plomb. Horizontal : comme la surface de l'eau au repos."],
+            ["Rampe", "Plan incliné qui permet de monter ou de descendre."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Une rampe de 5 m de long fait un angle de 20° avec le sol horizontal. Quelle est la distance horizontale entre le bas et le haut de la rampe ? Donne le résultat au centième près.\n2) Une échelle de 5 m est posée contre un mur vertical. Son pied est à 2 m du mur, sur un sol horizontal. Calcule l'angle que l'échelle fait avec le sol, au dixième de degré près. Calcule ensuite la hauteur atteinte sur le mur, au centième près.",
+          "solution": "1) La rampe est l'hypoténuse. La distance horizontale d est le côté adjacent à l'angle de 20°.\ncos 20° = d ÷ 5\nd = 5 × cos 20° ≈ 5 × 0,940 ≈ 4,70 m.\n2) Le mur est vertical et le sol est horizontal : le triangle est rectangle au pied du mur. L'échelle (5 m) est l'hypoténuse et la distance au mur (2 m) est le côté adjacent à l'angle avec le sol.\ncos α = 2 ÷ 5 = 0,4, donc α = cos⁻¹(0,4) ≈ 66,4°.\nPour la hauteur h, on utilise le théorème de Pythagore : 5² = h² + 2², donc h² = 25 − 4 = 21 et h = √21 ≈ 4,58 m."
+        }
+      ]
+    }
+  ]
+}
