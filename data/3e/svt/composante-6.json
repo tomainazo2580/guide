@@ -1,0 +1,285 @@
+{
+  "id": "svt-sens",
+  "titre": "Les sens et la vue",
+  "lecons": [
+    {
+      "id": "svt-sens-1",
+      "titre": "Stimuli et organes des sens",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Stimulus",
+          "texte": "Un stimulus est une variation du milieu (lumière, son, odeur, contact, chaleur...) capable d'exciter un organe des sens."
+        },
+        {
+          "type": "definition",
+          "titre": "Organe des sens et récepteur",
+          "texte": "Un organe des sens contient des cellules spécialisées appelées récepteurs sensoriels. Chaque récepteur ne réagit qu'à un seul type de stimulus. Exemple : l'œil réagit à la lumière, mais pas aux sons."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les cinq sens",
+          "entetes": ["Sens", "Organe", "Stimulus"],
+          "lignes": [
+            ["Vue", "Œil", "Lumière"],
+            ["Ouïe", "Oreille", "Sons"],
+            ["Odorat", "Fosses nasales", "Substances odorantes"],
+            ["Goût", "Langue", "Saveurs (sucré, salé, acide, amer)"],
+            ["Toucher", "Peau", "Contact, pression, chaleur, douleur"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Du stimulus à la sensation",
+          "texte": "Stimulus → récepteur sensoriel → nerf sensitif → cerveau → sensation. Sans cerveau, on ne ressent rien, même si l'organe des sens est intact."
+        },
+        {
+          "type": "remarque",
+          "texte": "Les organes des sens nous renseignent sur le monde extérieur. Ils font partie de la fonction de relation."
+        }
+      ],
+      "lexique": [
+        { "terme": "Stimulus", "definition": "Variation du milieu qui excite un récepteur." },
+        { "terme": "Récepteur sensoriel", "definition": "Cellule spécialisée qui réagit à un stimulus." },
+        { "terme": "Nerf sensitif", "definition": "Nerf qui conduit le message du récepteur vers le centre nerveux." },
+        { "terme": "Sensation", "definition": "Impression ressentie par le cerveau après un stimulus." }
+      ]
+    },
+    {
+      "id": "svt-sens-2",
+      "titre": "L'œil : sa structure",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Le globe oculaire",
+          "texte": "L'œil est une sphère appelée globe oculaire. Il est logé dans l'orbite, une cavité du crâne. Il est protégé par les paupières, les cils, les sourcils et les larmes."
+        },
+        {
+          "type": "schema",
+          "titre": "Coupe de l'œil",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='340' height='230' viewBox='0 0 340 230'><circle cx='170' cy='110' r='70' fill='#e8f4fb'/><path d='M 118 63 Q 78 110 118 157 Z' fill='#d6eaf8'/><path d='M 118 63 Q 78 110 118 157' fill='none' stroke='#4a90d9' stroke-width='3'/><path d='M 118 63 A 70 70 0 1 1 118 157' fill='none' stroke='#999' stroke-width='4'/><path d='M 122 66 A 65 65 0 1 1 122 154' fill='none' stroke='#222' stroke-width='3'/><path d='M 125 69 A 61 61 0 1 1 125 151' fill='none' stroke='#d9534f' stroke-width='3'/><line x1='118' y1='63' x2='118' y2='94' stroke='#8b5a2b' stroke-width='6'/><line x1='118' y1='126' x2='118' y2='157' stroke='#8b5a2b' stroke-width='6'/><ellipse cx='132' cy='110' rx='10' ry='24' fill='#f9e79f' stroke='#b7950b' stroke-width='2'/><line x1='229' y1='126' x2='292' y2='140' stroke='#f39c12' stroke-width='9'/><circle cx='231' cy='108' r='4' fill='#f1c40f' stroke='#b7950b'/><g stroke='#555' stroke-width='1'><line x1='36' y1='34' x2='103' y2='86'/><line x1='118' y1='20' x2='118' y2='78'/><line x1='50' y1='194' x2='108' y2='122'/><line x1='132' y1='134' x2='132' y2='214'/><line x1='225' y1='18' x2='205' y2='50'/><line x1='262' y1='64' x2='233' y2='88'/><line x1='250' y1='94' x2='235' y2='106'/><line x1='212' y1='202' x2='201' y2='163'/></g><g font-family='sans-serif' font-size='11' fill='#222'><text x='6' y='30'>Cornée</text><text x='104' y='16'>Iris</text><text x='4' y='200'>Humeur aqueuse</text><text x='96' y='224'>Cristallin</text><text x='150' y='112'>Humeur vitrée</text><text x='200' y='14'>Sclérotique</text><text x='262' y='60'>Choroïde</text><text x='252' y='96'>Tache jaune</text><text x='250' y='162'>Nerf optique</text><text x='212' y='210'>Rétine</text></g></svg>",
+          "legende": "Coupe schématique de l'œil (la lumière entre par la gauche)."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les parties de l'œil et leur rôle",
+          "entetes": ["Partie", "Rôle"],
+          "lignes": [
+            ["Sclérotique", "Membrane externe blanche et résistante : elle protège l'œil et lui donne sa forme"],
+            ["Cornée", "Partie transparente à l'avant de la sclérotique : elle laisse passer la lumière"],
+            ["Choroïde", "Membrane moyenne noire, riche en vaisseaux : elle nourrit l'œil et absorbe la lumière (chambre noire)"],
+            ["Rétine", "Membrane interne sensible à la lumière : elle contient les cellules visuelles"],
+            ["Iris", "Disque coloré qui règle la quantité de lumière"],
+            ["Pupille", "Trou noir au centre de l'iris : la lumière y passe"],
+            ["Humeur aqueuse", "Liquide transparent entre la cornée et le cristallin"],
+            ["Cristallin", "Lentille transparente et élastique : elle fait converger les rayons lumineux"],
+            ["Humeur vitrée", "Gel transparent qui remplit le globe : il maintient sa forme"],
+            ["Nerf optique", "Conduit le message visuel de la rétine vers le cerveau"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Il faut retenir les trois membranes, de l'extérieur vers l'intérieur : sclérotique, choroïde, rétine. Les milieux transparents sont : cornée, humeur aqueuse, cristallin, humeur vitrée."
+        }
+      ],
+      "lexique": [
+        { "terme": "Globe oculaire", "definition": "Sphère formant l'œil." },
+        { "terme": "Orbite", "definition": "Cavité du crâne où se loge l'œil." },
+        { "terme": "Sclérotique", "definition": "Membrane externe blanche de l'œil." },
+        { "terme": "Choroïde", "definition": "Membrane moyenne noire de l'œil." },
+        { "terme": "Rétine", "definition": "Membrane interne sensible à la lumière." },
+        { "terme": "Cristallin", "definition": "Lentille transparente de l'œil." }
+      ]
+    },
+    {
+      "id": "svt-sens-3",
+      "titre": "Formation de l'image et accommodation",
+      "blocs": [
+        {
+          "type": "regle",
+          "titre": "Trajet de la lumière dans l'œil",
+          "texte": "Cornée → humeur aqueuse → pupille → cristallin → humeur vitrée → rétine. Ces milieux transparents se comportent comme une lentille convergente."
+        },
+        {
+          "type": "definition",
+          "titre": "L'image sur la rétine",
+          "texte": "Pour un œil normal, l'image se forme exactement sur la rétine. Elle est réelle, renversée et plus petite que l'objet. Le cerveau la remet à l'endroit."
+        },
+        {
+          "type": "definition",
+          "titre": "Accommodation",
+          "texte": "L'accommodation est la capacité de l'œil à voir net à des distances différentes. Elle se fait par un changement de courbure du cristallin, commandé par les muscles ciliaires."
+        },
+        {
+          "type": "tableau",
+          "titre": "Voir de près et voir de loin",
+          "entetes": ["Objet", "Muscles ciliaires", "Cristallin"],
+          "lignes": [
+            ["Proche", "Se contractent", "Plus bombé, plus convergent"],
+            ["Lointain", "Se relâchent", "Plus aplati, moins convergent"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "La pupille",
+          "texte": "L'iris règle la taille de la pupille. Forte lumière : la pupille se rétrécit pour protéger la rétine. Faible lumière : elle s'agrandit pour laisser entrer plus de lumière. C'est un réflexe."
+        }
+      ],
+      "lexique": [
+        { "terme": "Accommodation", "definition": "Adaptation de l'œil pour voir net de près ou de loin." },
+        { "terme": "Muscles ciliaires", "definition": "Muscles qui changent la courbure du cristallin." },
+        { "terme": "Lentille convergente", "definition": "Lentille qui rassemble les rayons lumineux en un point." }
+      ]
+    },
+    {
+      "id": "svt-sens-4",
+      "titre": "De la rétine au cerveau",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Les cellules de la rétine",
+          "texte": "La rétine contient des cellules visuelles sensibles à la lumière : les cônes et les bâtonnets."
+        },
+        {
+          "type": "tableau",
+          "titre": "Cônes et bâtonnets",
+          "entetes": ["Cônes", "Bâtonnets"],
+          "lignes": [
+            ["Vision des couleurs", "Vision en noir et blanc"],
+            ["Fonctionnent en lumière vive", "Fonctionnent en lumière faible (nuit)"],
+            ["Nombreux dans la tache jaune", "Nombreux sur les bords de la rétine"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Le trajet du message visuel",
+          "texte": "Rétine (cônes et bâtonnets) → nerf optique → aire visuelle (aire optique) du cerveau, à l'arrière de la tête. C'est dans le cerveau que l'on voit vraiment."
+        },
+        {
+          "type": "remarque",
+          "texte": "Tache jaune : zone de la rétine où la vision est la plus précise. Tache aveugle : endroit où le nerf optique quitte l'œil ; il n'y a pas de cellules visuelles, donc on n'y voit rien."
+        }
+      ],
+      "lexique": [
+        { "terme": "Cônes", "definition": "Cellules de la rétine pour la vision des couleurs." },
+        { "terme": "Bâtonnets", "definition": "Cellules de la rétine pour la vision en lumière faible." },
+        { "terme": "Aire visuelle", "definition": "Zone du cerveau qui reçoit le message venu de l'œil." },
+        { "terme": "Tache jaune", "definition": "Zone de la rétine où la vision est la plus nette." },
+        { "terme": "Tache aveugle", "definition": "Zone de la rétine sans cellules visuelles, à la sortie du nerf optique." }
+      ]
+    },
+    {
+      "id": "svt-sens-5",
+      "titre": "Les défauts de la vue",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Œil normal",
+          "texte": "Un œil normal voit net les objets lointains comme les objets proches (à partir d'environ 25 cm), grâce à l'accommodation. L'image se forme toujours sur la rétine."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les trois défauts de la vue",
+          "entetes": ["Défaut", "Cause", "Où se forme l'image", "Vision floue", "Correction"],
+          "lignes": [
+            ["Myopie", "Œil trop long ou cristallin trop convergent", "En avant de la rétine", "De loin", "Verres divergents"],
+            ["Hypermétropie", "Œil trop court ou cristallin pas assez convergent", "En arrière de la rétine", "De près", "Verres convergents"],
+            ["Presbytie", "Cristallin qui perd son élasticité avec l'âge (vers 45 ans)", "En arrière de la rétine", "De près", "Verres convergents"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Un verre divergent est plus mince au centre qu'au bord. Un verre convergent est plus épais au centre qu'au bord."
+        },
+        {
+          "type": "exemple",
+          "texte": "Un élève voit bien son cahier mais ne lit pas le tableau : il est probablement myope. Il doit consulter un médecin ou un opticien, qui lui donnera des verres divergents."
+        }
+      ],
+      "lexique": [
+        { "terme": "Myopie", "definition": "Défaut de l'œil qui voit mal de loin." },
+        { "terme": "Hypermétropie", "definition": "Défaut de l'œil qui voit mal de près." },
+        { "terme": "Presbytie", "definition": "Difficulté à voir de près due à l'âge." },
+        { "terme": "Verre divergent", "definition": "Verre qui écarte les rayons lumineux ; il corrige la myopie." },
+        { "terme": "Verre convergent", "definition": "Verre qui rapproche les rayons lumineux ; il corrige l'hypermétropie et la presbytie." }
+      ]
+    },
+    {
+      "id": "svt-sens-6",
+      "titre": "L'hygiène de l'œil",
+      "blocs": [
+        {
+          "type": "regle",
+          "titre": "Les règles à respecter",
+          "texte": "Lire ou écrire avec un bon éclairage, sans éblouissement. Garder une distance de 25 à 30 cm entre l'œil et le cahier. Ne pas lire en marchant ou dans un véhicule en mouvement. Se laver le visage et les mains souvent. Ne pas se frotter les yeux avec des mains sales."
+        },
+        {
+          "type": "tableau",
+          "titre": "Dangers et précautions",
+          "entetes": ["Danger", "Précaution"],
+          "lignes": [
+            ["Soleil trop fort", "Porter des lunettes de soleil ou un chapeau ; ne jamais regarder le soleil"],
+            ["Poussière, fumée", "Protéger les yeux, les rincer à l'eau propre"],
+            ["Lecture dans la pénombre", "Allumer une lampe, lire près d'une fenêtre"],
+            ["Écrans trop longtemps", "Faire des pauses et regarder au loin"],
+            ["Produits chimiques, objets pointus", "Éviter tout contact ; consulter si l'œil est touché"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "La vitamine A est importante pour la vue. On en trouve dans la carotte, la papaye, les légumes verts, le foie et le lait. Il faut aussi consulter régulièrement un médecin."
+        }
+      ],
+      "lexique": [
+        { "terme": "Hygiène", "definition": "Ensemble des règles qui protègent la santé." },
+        { "terme": "Éblouissement", "definition": "Gêne causée par une lumière trop forte." },
+        { "terme": "Vitamine A", "definition": "Vitamine utile à la vue, présente dans la carotte et les légumes verts." }
+      ]
+    },
+    {
+      "id": "svt-sens-7",
+      "titre": "La toxicomanie",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Drogue et toxicomanie",
+          "texte": "Une drogue est une substance qui modifie le fonctionnement du système nerveux. La toxicomanie est la dépendance d'une personne à une ou plusieurs drogues : elle ne peut plus s'en passer."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les classes de drogues",
+          "entetes": ["Classe", "Exemples", "Effets principaux"],
+          "lignes": [
+            ["Opiacés", "Opium, morphine, héroïne", "Calment la douleur, procurent une euphorie, provoquent une très forte dépendance"],
+            ["Hallucinogènes", "Cannabis, LSD", "Provoquent des hallucinations et perturbent la perception"],
+            ["Psychostimulants", "Cocaïne, amphétamines, ecstasy", "Excitent le système nerveux et cachent la fatigue"],
+            ["Barbituriques", "Somnifères, calmants", "Ralentissent le système nerveux et provoquent un sommeil profond"],
+            ["Solvants", "Colle, essence, dissolvants (inhalés)", "Détruisent les cellules nerveuses et abîment le cerveau"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Action des drogues sur l'organisme",
+          "texte": "Les drogues perturbent la transmission des messages nerveux. Le toxicomane a besoin de doses de plus en plus fortes (accoutumance). Quand il arrête, il souffre : c'est le syndrome de manque."
+        },
+        {
+          "type": "remarque",
+          "titre": "Conséquences",
+          "texte": "Maladies, troubles mentaux, échec scolaire, problèmes familiaux, vols et violence. Les seringues partagées transmettent des maladies comme le SIDA."
+        },
+        {
+          "type": "methode",
+          "titre": "La lutte contre la toxicomanie",
+          "texte": "1. Prévenir : informer les jeunes à l'école et dans la famille. 2. Interdire : la loi punit la vente et le trafic de drogues. 3. Soigner : cure de désintoxication, soutien médical et psychologique. 4. Aider : accompagner le malade au lieu de le rejeter."
+        }
+      ],
+      "lexique": [
+        { "terme": "Drogue", "definition": "Substance qui modifie le fonctionnement du système nerveux." },
+        { "terme": "Toxicomanie", "definition": "Dépendance à une drogue." },
+        { "terme": "Accoutumance", "definition": "Besoin d'augmenter les doses pour avoir le même effet." },
+        { "terme": "Syndrome de manque", "definition": "Souffrance ressentie quand on arrête la drogue." },
+        { "terme": "Désintoxication", "definition": "Traitement qui aide à arrêter la drogue." }
+      ]
+    }
+  ]
+}
