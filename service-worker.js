@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'guide-v42';
+const CACHE_VERSION = 'guide-v43';
 
 const APP_SHELL = [
   './',
@@ -107,7 +107,35 @@ const APP_SHELL = [
   './data/3e/sujets/sujets-sciences-physiques-C.json',
   './data/3e/sujets/sujets-svt-A.json',
   './data/3e/sujets/sujets-svt-B.json',
-  './data/3e/sujets/sujets-svt-C.json'
+  './data/3e/sujets/sujets-svt-C.json',
+
+  './data/4e/mathematiques/composante-1.json',
+  './data/4e/mathematiques/composante-2.json',
+  './data/4e/mathematiques/composante-3.json',
+  './data/4e/mathematiques/composante-4.json',
+  './data/4e/mathematiques/composante-5.json',
+  './data/4e/mathematiques/composante-6.json',
+  './data/4e/mathematiques/composante-7.json',
+  './data/4e/mathematiques/composante-8.json',
+  './data/4e/mathematiques/composante-9.json',
+  './data/4e/mathematiques/composante-10.json',
+  './data/4e/mathematiques/composante-11.json',
+  './data/4e/mathematiques/composante-12.json',
+
+  './data/4e/exercices/exercices-mathematiques.json',
+  './data/4e/exercices/exercices-mathematiques-2.json',
+  './data/4e/exercices/exercices-mathematiques-3.json',
+  './data/4e/exercices/exercices-mathematiques-4.json',
+  './data/4e/exercices/exercices-mathematiques-5.json',
+  './data/4e/exercices/exercices-mathematiques-6.json',
+  './data/4e/exercices/exercices-mathematiques-7.json',
+  './data/4e/exercices/exercices-mathematiques-8.json',
+  './data/4e/exercices/exercices-mathematiques-9.json',
+  './data/4e/exercices/exercices-mathematiques-10.json',
+  './data/4e/exercices/exercices-mathematiques-11.json',
+  './data/4e/exercices/exercices-mathematiques-12.json',
+
+  './data/4e/sujets/sujets-mathematiques-A.json'
 ];
 
 self.addEventListener('install', (event) => {
