@@ -367,8 +367,14 @@ function afficherListeComposantes() {
   const classeNom = CLASSES.find(c => c.id === etat.classe).nom;
   $('fil-ariane').textContent = classeNom + ' › ' + etat.matiere.nom;
   const conteneur = $('matiere-contenu');
-  conteneur.innerHTML = '<div class="liste-cartes" id="liste-composantes"></div>';
+  const rechercheActive = !estModeExamenActif();
+  conteneur.innerHTML =
+    (rechercheActive ? htmlBarreRecherche() + '<div id="resultats-recherche"></div>' : '') +
+    '<div class="liste-cartes" id="liste-composantes"></div>';
   const liste = $('liste-composantes');
+  if (rechercheActive) {
+    brancherRecherche($('input-recherche'), $('resultats-recherche'), liste);
+  }
   etat.dataMatiere.composantes.forEach(comp => {
     if (comp.erreurChargement) {
       const carte = document.createElement('div');
@@ -469,10 +475,14 @@ function afficherContenuLecon() {
   const lecons = etat.composante.lecons || [];
   const position = lecons.findIndex(l => l.id === etat.lecon.id);
   const suivante = (position >= 0 && position < lecons.length - 1) ? lecons[position + 1] : null;
+  html += `<div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:20px;">`;
+  html += `<button id="btn-recherche-lecon" class="btn-valider" style="flex:1;min-width:140px;margin-top:0;">Rechercher</button>`;
   if (suivante) {
-    html += `<button id="btn-lecon-suivante" class="btn-valider" style="margin-top:20px;">Leçon suivante →</button>`;
+    html += `<button id="btn-lecon-suivante" class="btn-valider" style="flex:1;min-width:140px;margin-top:0;">Leçon suivante →</button>`;
   }
+  html += `</div>`;
   conteneur.innerHTML = html;
+  $('btn-recherche-lecon').addEventListener('click', afficherRecherche);
   if (suivante) {
     $('btn-lecon-suivante').addEventListener('click', () => {
       selectionnerLecon(suivante);
@@ -559,6 +569,312 @@ function renderLexique(lexique) {
   });
   html += '</ul></details>';
   return html;
+}
+// ============================================
+// RECHERCHE DANS LA MATIÈRE EN COURS
+// (hors ligne, sans accents, tolère les petites fautes)
+// ============================================
+const RECHERCHE_MIN = 2;
+const RECHERCHE_MAX_RESULTATS = 30;
+const STYLE_MARQUE = 'background:#fde047;color:#111;border-radius:2px;padding:0 1px;';
+const STYLE_CHAMP_RECHERCHE = 'width:100%;box-sizing:border-box;padding:12px 14px;font-size:16px;border:1px solid #94a3b8;border-radius:10px;background:#fff;color:#111;margin-bottom:12px;font-family:inherit;text-transform:none;letter-spacing:normal;';
+function echapperHtml(t) {
+  return String(t == null ? '' : t)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+// Normalise caractère par caractère : la longueur du texte ne change jamais
+// (utile pour surligner au bon endroit dans le texte d'origine).
+function normaliserTexte(t) {
+  const texte = String(t == null ? '' : t);
+  let s = '';
+  for (let i = 0; i < texte.length; i++) {
+    const c = texte.charAt(i);
+    if (c === '’' || c === '‘' || c === '`') { s += "'"; continue; }
+    if (c === 'œ' || c === 'Œ') { s += 'o'; continue; }
+    if (c === 'æ' || c === 'Æ') { s += 'a'; continue; }
+    if (c === '−' || c === '–' || c === '—') { s += '-'; continue; }
+    if (c === '\u00a0' || c === '\u202f') { s += ' '; continue; }
+    const r = c.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    s += r.length ? r.charAt(0) : ' ';
+  }
+  return s;
+}
+function texteBrutRecherche(html) {
+  return String(html == null ? '' : html)
+    .replace(/<svg[\s\S]*?<\/svg>/gi, ' ')
+    .replace(/<br\s*\/?>/gi, '\n')
+    .replace(/<\/?[a-zA-Z][^>]*>/g, '')
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&amp;/g, '&');
+}
+function ajouterSegments(valeur, segs) {
+  if (valeur === null || valeur === undefined || valeur === '') return;
+  texteBrutRecherche(valeur).split('\n').forEach(ligne => {
+    const t = ligne.replace(/\s+/g, ' ').trim();
+    if (t.length >= 2) segs.push({ txt: t, norm: normaliserTexte(t) });
+  });
+}
+function extraireSegmentsLecon(lecon) {
+  const segs = [];
+  (lecon.blocs || []).forEach(b => {
+    ajouterSegments(b.titre, segs);
+    ajouterSegments(b.texte, segs);
+    ajouterSegments(b.legende, segs);
+    ajouterSegments(b.enonce, segs);
+    ajouterSegments(b.solution, segs);
+    if (b.type === 'tableau') {
+      (b.entetes || []).forEach(e => ajouterSegments(e, segs));
+      (b.lignes || []).forEach(ligne => {
+        if (Array.isArray(ligne)) {
+          ligne.forEach(cell => ajouterSegments(cell, segs));
+        } else if (ligne && typeof ligne === 'object') {
+          Object.keys(ligne).forEach(k => ajouterSegments(ligne[k], segs));
+        }
+      });
+    }
+  });
+  (lecon.lexique || []).forEach(item => {
+    ajouterSegments((item.terme || '') + ' — ' + (item.traduction || item.definition || ''), segs);
+  });
+  return segs;
+}
+function obtenirIndexRecherche() {
+  const cle = 'idx-' + etat.classe + '-' + etat.matiere.id;
+  if (etat.cache[cle]) return etat.cache[cle];
+  const index = [];
+  etat.dataMatiere.composantes.forEach(comp => {
+    if (comp.erreurChargement) return;
+    (comp.lecons || []).forEach(lecon => {
+      const segs = extraireSegmentsLecon(lecon);
+      const titreNorm = normaliserTexte(lecon.titre || '');
+      const tout = titreNorm + ' ' + segs.map(s => s.norm).join(' ');
+      const ensemble = {};
+      tout.split(/[^a-z0-9]+/).forEach(m => { if (m.length >= 3) ensemble[m] = true; });
+      index.push({
+        comp: comp,
+        lecon: lecon,
+        titreNorm: titreNorm,
+        segs: segs,
+        tout: tout,
+        mots: Object.keys(ensemble)
+      });
+    });
+  });
+  etat.cache[cle] = index;
+  return index;
+}
+function distanceEdition(a, b, max) {
+  if (Math.abs(a.length - b.length) > max) return max + 1;
+  let prec = [];
+  for (let j = 0; j <= b.length; j++) prec[j] = j;
+  for (let i = 1; i <= a.length; i++) {
+    const cour = [i];
+    let minLigne = i;
+    for (let j = 1; j <= b.length; j++) {
+      const cout = a.charAt(i - 1) === b.charAt(j - 1) ? 0 : 1;
+      const v = Math.min(prec[j] + 1, cour[j - 1] + 1, prec[j - 1] + cout);
+      cour[j] = v;
+      if (v < minLigne) minLigne = v;
+    }
+    if (minLigne > max) return max + 1;
+    prec = cour;
+  }
+  return prec[b.length];
+}
+function formesDuJeton(jeton, ent) {
+  if (ent.tout.indexOf(jeton) !== -1) return { formes: [jeton], approx: false };
+  if (jeton.length < 5 || !/^[a-z]+$/.test(jeton)) return null;
+  const max = jeton.length >= 8 ? 2 : 1;
+  const formes = [];
+  for (let i = 0; i < ent.mots.length; i++) {
+    if (distanceEdition(jeton, ent.mots[i], max) <= max) {
+      formes.push(ent.mots[i]);
+      if (formes.length >= 3) break;
+    }
+  }
+  return formes.length ? { formes: formes, approx: true } : null;
+}
+function chercherDansMatiere(requete) {
+  const jetons = normaliserTexte(requete).split(/\s+/)
+    .filter((j, i, tab) => j.length > 0 && tab.indexOf(j) === i);
+  if (!jetons.length) return [];
+  const index = obtenirIndexRecherche();
+  const resultats = [];
+  const verrousVus = {};
+  index.forEach((ent, ordre) => {
+    if (estChapitreVerrouille(etat.matiere, ent.comp)) {
+      const titres = normaliserTexte(ent.comp.titre || '') + ' ' + ent.titreNorm;
+      const tous = jetons.every(j => titres.indexOf(j) !== -1);
+      if (tous && !verrousVus[ent.comp.id]) {
+        verrousVus[ent.comp.id] = true;
+        resultats.push({ verrouille: true, comp: ent.comp, score: 5, ordre: ordre });
+      }
+      return;
+    }
+    let score = 0;
+    let toutesFormes = [];
+    for (let k = 0; k < jetons.length; k++) {
+      const r = formesDuJeton(jetons[k], ent);
+      if (!r) return;
+      toutesFormes = toutesFormes.concat(r.formes);
+      if (ent.titreNorm.indexOf(jetons[k]) !== -1) score += 10;
+      else if (r.approx) score += 1;
+      else score += 2;
+    }
+    toutesFormes = toutesFormes.filter((f, i, tab) => tab.indexOf(f) === i);
+    let meilleur = null;
+    let meilleurN = 0;
+    let nbSegs = 0;
+    ent.segs.forEach(s => {
+      let n = 0;
+      toutesFormes.forEach(f => { if (s.norm.indexOf(f) !== -1) n++; });
+      if (n > 0) {
+        nbSegs++;
+        if (n > meilleurN) { meilleurN = n; meilleur = s; }
+      }
+    });
+    score += Math.min(nbSegs, 5) + meilleurN;
+    resultats.push({
+      verrouille: false,
+      comp: ent.comp,
+      lecon: ent.lecon,
+      score: score,
+      ordre: ordre,
+      seg: meilleur || ent.segs[0] || null,
+      formes: toutesFormes
+    });
+  });
+  resultats.sort((a, b) => (b.score - a.score) || (a.ordre - b.ordre));
+  return resultats;
+}
+function extraitSurligne(seg, formes) {
+  if (!seg) return '';
+  const txt = seg.txt;
+  const norm = seg.norm;
+  let pos = -1;
+  formes.forEach(f => {
+    const p = norm.indexOf(f);
+    if (p !== -1 && (pos === -1 || p < pos)) pos = p;
+  });
+  const base = pos < 0 ? 0 : pos;
+  const debut = Math.max(0, base - 40);
+  const fin = Math.min(txt.length, base + 100);
+  let plages = [];
+  formes.forEach(f => {
+    let p = norm.indexOf(f, debut);
+    while (p !== -1 && p < fin) {
+      plages.push([p, Math.min(p + f.length, fin)]);
+      p = norm.indexOf(f, p + f.length);
+    }
+  });
+  plages.sort((a, b) => a[0] - b[0]);
+  const fusion = [];
+  plages.forEach(pl => {
+    const dernier = fusion[fusion.length - 1];
+    if (dernier && pl[0] <= dernier[1]) {
+      if (pl[1] > dernier[1]) dernier[1] = pl[1];
+    } else {
+      fusion.push([pl[0], pl[1]]);
+    }
+  });
+  let html = debut > 0 ? '…' : '';
+  let curseur = debut;
+  fusion.forEach(pl => {
+    html += echapperHtml(txt.slice(curseur, pl[0]));
+    html += '<mark style="' + STYLE_MARQUE + '">' + echapperHtml(txt.slice(pl[0], pl[1])) + '</mark>';
+    curseur = pl[1];
+  });
+  html += echapperHtml(txt.slice(curseur, fin));
+  if (fin < txt.length) html += '…';
+  return html;
+}
+function rendreResultatsRecherche(zone, requete) {
+  zone.innerHTML = '';
+  if (estModeExamenActif()) return;
+  const tous = chercherDansMatiere(requete);
+  const info = document.createElement('p');
+  info.className = 'texte-vide';
+  if (!tous.length) {
+    info.textContent = 'Aucun résultat. Essaie un autre mot.';
+    zone.appendChild(info);
+    return;
+  }
+  const affiches = tous.slice(0, RECHERCHE_MAX_RESULTATS);
+  info.textContent = tous.length > affiches.length
+    ? tous.length + ' résultats (les ' + affiches.length + ' premiers)'
+    : tous.length + (tous.length > 1 ? ' résultats' : ' résultat');
+  zone.appendChild(info);
+  const liste = document.createElement('div');
+  liste.className = 'liste-cartes';
+  affiches.forEach(r => {
+    const carte = document.createElement('div');
+    if (r.verrouille) {
+      carte.className = 'carte-liste verrouille';
+      carte.innerHTML = `
+        <div class="carte-liste-titre">${echapperHtml(r.comp.titre)} 🔒</div>
+        <div class="carte-liste-souscription">Chapitre premium — à débloquer</div>`;
+      carte.addEventListener('click', () => {
+        afficherPaywall(etat.matiere, 'composantes', r.comp.titre);
+      });
+    } else {
+      carte.className = 'carte-liste';
+      const extrait = extraitSurligne(r.seg, r.formes);
+      carte.innerHTML = `
+        <div class="carte-liste-titre">${echapperHtml(r.lecon.titre)}</div>
+        <div style="font-size:12px;opacity:0.7;margin-top:2px;">${echapperHtml(r.comp.titre)}</div>
+        ${extrait ? '<div style="font-size:14px;margin-top:6px;line-height:1.4;">' + extrait + '</div>' : ''}`;
+      carte.addEventListener('click', () => {
+        etat.composante = r.comp;
+        selectionnerLecon(r.lecon);
+        window.scrollTo(0, 0);
+      });
+    }
+    liste.appendChild(carte);
+  });
+  zone.appendChild(liste);
+}
+function htmlBarreRecherche() {
+  return `<input type="search" id="input-recherche" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Rechercher dans ${echapperHtml(etat.matiere.nom)}" style="${STYLE_CHAMP_RECHERCHE}">`;
+}
+function brancherRecherche(input, zone, liste) {
+  if (!input || !zone) return;
+  let minuteur = null;
+  const lancer = () => {
+    const actif = input.value.trim().length >= RECHERCHE_MIN;
+    if (actif) {
+      rendreResultatsRecherche(zone, input.value);
+    } else {
+      zone.innerHTML = '';
+    }
+    if (liste) liste.style.display = actif ? 'none' : '';
+  };
+  input.addEventListener('input', () => {
+    clearTimeout(minuteur);
+    minuteur = setTimeout(lancer, 200);
+  });
+  input.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      clearTimeout(minuteur);
+      lancer();
+      input.blur();
+    }
+  });
+}
+function afficherRecherche() {
+  if (estModeExamenActif()) return;
+  etat.niveau = 'recherche';
+  const classeNom = CLASSES.find(c => c.id === etat.classe).nom;
+  $('fil-ariane').textContent = classeNom + ' › ' + etat.matiere.nom + ' › Recherche';
+  $('matiere-contenu').innerHTML = htmlBarreRecherche() + '<div id="resultats-recherche"></div>';
+  const input = $('input-recherche');
+  brancherRecherche(input, $('resultats-recherche'), null);
+  window.scrollTo(0, 0);
+  input.focus();
 }
 // ============================================
 // CHAPITRE "EXERCICES" — SUJETS ET CORRIGÉS (indépendant des leçons)
@@ -1039,6 +1355,9 @@ function gererRetour() {
   } else if (etat.niveau === 'contenu') {
     etat.niveau = 'lecons';
     afficherListeLecons();
+  } else if (etat.niveau === 'recherche') {
+    etat.niveau = 'contenu';
+    afficherContenuLecon();
   } else if (etat.niveau === 'paywall') {
     if (etat.paywallOrigine === 'exo-liste') {
       etat.niveau = 'exo-liste';
@@ -1234,3 +1553,4 @@ function initialiser() {
   }
 }
 document.addEventListener('DOMContentLoaded', initialiser);
+```
