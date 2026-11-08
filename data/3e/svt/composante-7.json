@@ -1,0 +1,373 @@
+{
+  "id": "svt-microbes",
+  "titre": "Les microbes",
+  "lecons": [
+    {
+      "id": "svt-mic-1",
+      "titre": "Qu'est-ce qu'un microbe ?",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Microbe",
+          "texte": "Un microbe est un être vivant microscopique, trop petit pour être vu à l'œil nu. On ne peut l'observer qu'avec un microscope. Il est présent partout : air, eau, sol, aliments, peau, mains, objets."
+        },
+        {
+          "type": "exemple",
+          "titre": "Un microbe très étudié : le bacille subtil",
+          "texte": "On met du foin sec dans de l'eau tiède et on laisse reposer quelques jours. L'eau devient trouble et une pellicule se forme à la surface : c'est une infusion de foin. Au microscope, on voit de petits bâtonnets mobiles : ce sont des bacilles subtils (Bacillus subtilis), des bactéries qui vivaient sur le foin sous forme de spores."
+        },
+        {
+          "type": "regle",
+          "titre": "Ce que montre l'expérience",
+          "texte": "Les microbes se trouvent dans le milieu où l'on ne les attendait pas. Ils se multiplient très vite quand ils trouvent de la nourriture, de l'humidité et une température favorable."
+        },
+        {
+          "type": "tableau",
+          "titre": "Microbes utiles et microbes nuisibles",
+          "entetes": ["Microbes utiles", "Microbes nuisibles"],
+          "lignes": [
+            ["Levures : fabrication du pain, de la bière, du rhum", "Bactéries et virus : maladies de l'homme, des animaux et des plantes"],
+            ["Bactéries du yaourt et du fromage", "Moisissures : aliments gâtés"],
+            ["Bactéries du sol : décomposent les déchets et produisent l'humus", "Bactéries de la fermentation qui rendent la viande et le lait impropres à la consommation"],
+            ["Bactéries de l'intestin : aident la digestion", "Microbes qui infectent les plaies"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Les microbes qui provoquent des maladies sont appelés microbes pathogènes ou germes. Tous les microbes ne sont pas dangereux."
+        }
+      ],
+      "lexique": [
+        { "terme": "Microbe", "definition": "Être vivant microscopique." },
+        { "terme": "Microscope", "definition": "Instrument qui grossit les objets très petits." },
+        { "terme": "Microbe pathogène", "definition": "Microbe qui provoque une maladie." },
+        { "terme": "Spore", "definition": "Forme de résistance d'un microbe, capable de survivre longtemps." },
+        { "terme": "Infusion", "definition": "Liquide dans lequel on a laissé tremper une matière (ici le foin)." }
+      ]
+    },
+    {
+      "id": "svt-mic-2",
+      "titre": "Les grands groupes de microbes",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Cinq groupes de microbes",
+          "texte": "On classe les microbes en cinq groupes : les algues unicellulaires, les protozoaires, les champignons microscopiques, les bactéries et les virus."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les cinq groupes",
+          "entetes": ["Groupe", "Caractères", "Exemples"],
+          "lignes": [
+            ["Algues unicellulaires", "Une seule cellule, vert grâce à la chlorophylle, vit dans l'eau, presque toujours inoffensif", "Chlorelle, algues de l'eau douce"],
+            ["Protozoaires", "Une seule cellule avec noyau, sans chlorophylle, souvent parasite", "Plasmodium (paludisme), amibe (dysenterie amibienne)"],
+            ["Champignons microscopiques", "Cellules avec noyau, sans chlorophylle, forment des filaments ou des cellules isolées", "Levures, moisissures, champignon de la teigne et des mycoses"],
+            ["Bactéries", "Une seule cellule sans noyau, se multiplient très vite par division", "Bacille de Koch (tuberculose), tréponème pâle (syphilis), bacille de la peste"],
+            ["Virus", "Pas de cellule, beaucoup plus petits, ne vivent et ne se multiplient que dans une cellule vivante", "Virus du SIDA (VIH), de la grippe, de la rougeole, de la rage"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Les formes des bactéries",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='340' height='130' viewBox='0 0 340 130'><g fill='#d6eaf8' stroke='#2874a6' stroke-width='2'><circle cx='38' cy='45' r='14'/><circle cx='66' cy='45' r='14'/><rect x='112' y='33' width='56' height='24' rx='12'/></g><g fill='none' stroke='#2874a6' stroke-width='5'><path d='M 200 45 q 10 -22 20 0 t 20 0 t 20 0'/><path d='M 292 28 Q 322 45 292 62'/></g><g font-family='sans-serif' font-size='11' fill='#222'><text x='22' y='100'>Coques</text><text x='116' y='100'>Bacilles</text><text x='206' y='100'>Spirilles</text><text x='286' y='100'>Vibrions</text></g></svg>",
+          "legende": "Coques : ronds. Bacilles : en bâtonnet. Spirilles : en spirale. Vibrions : en virgule."
+        },
+        {
+          "type": "remarque",
+          "texte": "Les bactéries se voient au microscope ordinaire. Les virus sont si petits qu'il faut un microscope électronique pour les voir."
+        }
+      ],
+      "lexique": [
+        { "terme": "Unicellulaire", "definition": "Formé d'une seule cellule." },
+        { "terme": "Protozoaire", "definition": "Être unicellulaire avec noyau, sans chlorophylle." },
+        { "terme": "Bactérie", "definition": "Être unicellulaire sans noyau." },
+        { "terme": "Virus", "definition": "Microbe sans cellule qui se multiplie seulement dans une cellule vivante." },
+        { "terme": "Parasite", "definition": "Être vivant qui vit aux dépens d'un autre." },
+        { "terme": "Moisissure", "definition": "Champignon microscopique qui se développe sur les aliments." }
+      ]
+    },
+    {
+      "id": "svt-mic-3",
+      "titre": "L'infection et ses étapes",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Infection",
+          "texte": "Une infection est l'entrée de microbes pathogènes dans l'organisme, suivie de leur multiplication. Elle peut provoquer une maladie infectieuse. Une maladie contagieuse se transmet d'une personne à une autre."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les portes d'entrée des microbes",
+          "entetes": ["Porte d'entrée", "Exemple"],
+          "lignes": [
+            ["Voies respiratoires", "Tuberculose, grippe (microbes dans l'air, par la toux)"],
+            ["Voies digestives", "Choléra, typhoïde (eau et aliments souillés, mains sales)"],
+            ["Peau blessée", "Tétanos (plaie souillée par la terre)"],
+            ["Piqûre d'insecte", "Paludisme (moustique), peste (puce du rat)"],
+            ["Voies sexuelles et sang", "Syphilis, SIDA (rapports non protégés, seringue souillée)"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Les étapes d'une infection",
+          "texte": "1. Contamination : les microbes entrent dans le corps. 2. Incubation : ils se multiplient, mais on ne ressent rien. 3. Phase d'état : les signes apparaissent (fièvre, douleur, toux...) car les microbes détruisent des cellules et produisent des toxines. 4. Évolution : guérison, passage à une forme chronique, ou mort si l'organisme ne se défend pas assez."
+        },
+        {
+          "type": "remarque",
+          "texte": "La durée de l'incubation varie selon la maladie : quelques heures ou plusieurs années. Pendant l'incubation, une personne peut déjà transmettre certains microbes sans le savoir."
+        }
+      ],
+      "lexique": [
+        { "terme": "Infection", "definition": "Entrée et multiplication de microbes dans l'organisme." },
+        { "terme": "Contagion", "definition": "Transmission d'une maladie d'une personne à une autre." },
+        { "terme": "Incubation", "definition": "Période entre l'entrée des microbes et les premiers signes." },
+        { "terme": "Toxine", "definition": "Poison produit par certains microbes." },
+        { "terme": "Maladie chronique", "definition": "Maladie qui dure longtemps." }
+      ]
+    },
+    {
+      "id": "svt-mic-4",
+      "titre": "Le soi et le non-soi",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "L'immunité",
+          "texte": "L'immunité est l'ensemble des moyens par lesquels l'organisme se défend contre les microbes et les corps étrangers. Elle repose sur la distinction entre le soi et le non-soi."
+        },
+        {
+          "type": "tableau",
+          "titre": "Soi et non-soi",
+          "entetes": ["Soi", "Non-soi"],
+          "lignes": [
+            ["Molécules et cellules propres à l'organisme", "Tout ce qui est étranger à l'organisme"],
+            ["Reconnu et toléré", "Reconnu comme étranger et combattu"],
+            ["Exemples : cellules de la peau, du sang, des organes", "Exemples : microbes, toxines, greffon venu d'un autre individu"]
+          ]
+        },
+        {
+          "type": "definition",
+          "titre": "Antigène",
+          "texte": "Un antigène est une molécule du non-soi qui déclenche une réponse immunitaire. Chaque microbe porte ses propres antigènes."
+        },
+        {
+          "type": "remarque",
+          "texte": "C'est parce que le système immunitaire reconnaît le non-soi qu'une greffe d'organe venant d'une autre personne peut être rejetée, sauf si les deux personnes sont assez compatibles et si le malade reçoit des médicaments."
+        }
+      ],
+      "lexique": [
+        { "terme": "Immunité", "definition": "Capacité de l'organisme à se défendre contre les microbes." },
+        { "terme": "Soi", "definition": "Ensemble des éléments propres à l'organisme." },
+        { "terme": "Non-soi", "definition": "Tout élément étranger à l'organisme." },
+        { "terme": "Antigène", "definition": "Molécule étrangère qui déclenche la réponse immunitaire." },
+        { "terme": "Greffe", "definition": "Transplantation d'un organe ou d'un tissu d'une personne à une autre." }
+      ]
+    },
+    {
+      "id": "svt-mic-5",
+      "titre": "La défense de l'organisme",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Les trois lignes de défense",
+          "entetes": ["Ligne", "Moyens", "Rôle"],
+          "lignes": [
+            ["1re : barrières naturelles", "Peau, muqueuses, mucus, larmes, salive, acidité de l'estomac", "Empêcher les microbes d'entrer"],
+            ["2e : défense non spécifique", "Globes blancs phagocytes, inflammation, fièvre", "Détruire tous les microbes qui sont entrés"],
+            ["3e : défense spécifique", "Lymphocytes et anticorps", "Détruire un microbe précis"]
+          ]
+        },
+        {
+          "type": "definition",
+          "titre": "La phagocytose",
+          "texte": "Les phagocytes sont des globules blancs. Ils entourent les microbes, les avalent et les digèrent. Cette action s'appelle la phagocytose. Le pus d'une plaie infectée contient des phagocytes morts et des microbes détruits."
+        },
+        {
+          "type": "definition",
+          "titre": "Les anticorps",
+          "texte": "Les anticorps sont des protéines fabriquées par des globules blancs appelés lymphocytes. Chaque anticorps se fixe sur un seul antigène, comme une clé dans sa serrure. Les microbes ainsi bloqués sont ensuite détruits par les phagocytes."
+        },
+        {
+          "type": "regle",
+          "titre": "Rôle des deux sortes de lymphocytes",
+          "texte": "Les lymphocytes B fabriquent les anticorps. Les lymphocytes T détruisent les cellules de l'organisme déjà infectées par un virus."
+        },
+        {
+          "type": "remarque",
+          "titre": "La mémoire immunitaire",
+          "texte": "Après une première infection, certains lymphocytes gardent la mémoire du microbe. Si le même microbe revient, la réponse est plus rapide et plus forte : on est immunisé. C'est le principe de la vaccination."
+        }
+      ],
+      "lexique": [
+        { "terme": "Phagocyte", "definition": "Globule blanc qui avale et détruit les microbes." },
+        { "terme": "Phagocytose", "definition": "Destruction des microbes par les phagocytes." },
+        { "terme": "Lymphocyte", "definition": "Globule blanc qui produit des anticorps ou détruit des cellules infectées." },
+        { "terme": "Anticorps", "definition": "Protéine qui se fixe sur un antigène précis pour le neutraliser." },
+        { "terme": "Muqueuse", "definition": "Membrane humide qui tapisse l'intérieur du nez, de la bouche, des voies digestives." }
+      ]
+    },
+    {
+      "id": "svt-mic-6",
+      "titre": "L'asepsie et l'antisepsie",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Définitions",
+          "entetes": ["Mot", "Définition", "Moment"],
+          "lignes": [
+            ["Asepsie", "Ensemble des méthodes qui empêchent l'entrée de microbes", "Avant : on prévient la contamination"],
+            ["Antisepsie", "Destruction des microbes déjà présents sur la peau, une plaie ou une muqueuse", "Après : on élimine les microbes présents"],
+            ["Désinfection", "Destruction des microbes sur les objets, les locaux, les surfaces", "Avant ou après"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Moyens utilisés",
+          "entetes": ["Asepsie", "Antisepsie"],
+          "lignes": [
+            ["Stérilisation du matériel : autoclave, ébullition, flambage", "Alcool à 70°"],
+            ["Port de gants, de masque, de blouse propre", "Teinture d'iode, eau oxygénée"],
+            ["Lavage des mains au savon", "Savon et eau propre pour nettoyer une plaie"],
+            ["Eau bouillie ou filtrée, nourriture bien cuite", "Produits chlorés (Dakin) pour les plaies"]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Soigner une petite plaie",
+          "texte": "1. Se laver les mains. 2. Nettoyer la plaie à l'eau propre et au savon. 3. Appliquer un antiseptique. 4. Couvrir avec un pansement propre. 5. Consulter un médecin si la plaie est profonde ou souillée de terre (risque de tétanos)."
+        },
+        {
+          "type": "remarque",
+          "texte": "L'eau de Javel désinfecte les surfaces, mais ne doit pas être utilisée sur la peau."
+        }
+      ],
+      "lexique": [
+        { "terme": "Asepsie", "definition": "Ensemble des méthodes pour empêcher l'arrivée des microbes." },
+        { "terme": "Antisepsie", "definition": "Destruction des microbes présents sur un tissu vivant." },
+        { "terme": "Antiseptique", "definition": "Produit qui détruit les microbes sur la peau ou une plaie." },
+        { "terme": "Stérilisation", "definition": "Destruction de tous les microbes d'un objet." },
+        { "terme": "Autoclave", "definition": "Appareil qui stérilise le matériel par la vapeur sous pression." }
+      ]
+    },
+    {
+      "id": "svt-mic-7",
+      "titre": "Les vaccins",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Vaccin et vaccination",
+          "texte": "Un vaccin est une préparation qui contient un microbe tué ou affaibli, ou une toxine rendue inoffensive, qui ne peut pas rendre malade. La vaccination est l'injection (ou l'ingestion) du vaccin pour protéger contre une maladie."
+        },
+        {
+          "type": "regle",
+          "titre": "Principe de la vaccination",
+          "texte": "Le vaccin contient des antigènes. L'organisme les reconnaît comme du non-soi, fabrique des anticorps et garde la mémoire du microbe. Plus tard, si le vrai microbe arrive, il est détruit vite : la personne ne tombe pas malade. La vaccination est un moyen préventif."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les vaccins à connaître",
+          "entetes": ["Vaccin", "Maladie évitée"],
+          "lignes": [
+            ["BCG", "Tuberculose"],
+            ["Antipoliomyélitique", "Poliomyélite"],
+            ["DTC", "Diphtérie, tétanos, coqueluche"],
+            ["Antirougeoleux", "Rougeole"],
+            ["Antihépatite B", "Hépatite B"],
+            ["Antitétanique", "Tétanos"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Certains vaccins nécessitent des rappels pour garder la protection. Le carnet de santé note chaque vaccin reçu. Une légère fièvre après la vaccination est normale. Le premier vaccin a été découvert par Jenner (variole, 1796). Pasteur a mis au point le vaccin contre la rage (1885)."
+        }
+      ],
+      "lexique": [
+        { "terme": "Vaccin", "definition": "Préparation qui apprend à l'organisme à se défendre sans le rendre malade." },
+        { "terme": "Vaccination", "definition": "Action de donner un vaccin." },
+        { "terme": "Préventif", "definition": "Qui empêche la maladie d'apparaître." },
+        { "terme": "Rappel", "definition": "Nouvelle dose de vaccin pour renforcer la protection." },
+        { "terme": "Immunisé", "definition": "Protégé contre une maladie." }
+      ]
+    },
+    {
+      "id": "svt-mic-8",
+      "titre": "Les sérums",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Sérum thérapeutique",
+          "texte": "Un sérum est un liquide qui contient des anticorps déjà fabriqués, pris dans le sang d'un animal (souvent le cheval) ou d'une personne immunisée. On l'injecte à un malade pour le soigner ou le protéger tout de suite. Ce traitement s'appelle la sérothérapie."
+        },
+        {
+          "type": "tableau",
+          "titre": "Vaccin et sérum",
+          "entetes": ["", "Vaccin", "Sérum"],
+          "lignes": [
+            ["Contenu", "Antigènes (microbe tué ou affaibli)", "Anticorps tout faits"],
+            ["Rôle", "Préventif : protège avant la maladie", "Curatif : soigne ou protège en urgence"],
+            ["Action", "Lente (quelques jours ou semaines)", "Immédiate"],
+            ["Durée de protection", "Longue", "Courte (quelques semaines)"],
+            ["Qui fabrique les anticorps ?", "L'organisme lui-même", "Un autre être vivant"]
+          ]
+        },
+        {
+          "type": "exemple",
+          "titre": "Quand utilise-t-on un sérum ?",
+          "texte": "Après une morsure de serpent venimeux (sérum antivenimeux), après une blessure souillée de terre chez une personne non vaccinée (sérum antitétanique), après une morsure d'animal enragé (sérum antirabique, avec le vaccin)."
+        },
+        {
+          "type": "remarque",
+          "texte": "Ne pas confondre le sérum thérapeutique avec le sérum physiologique ou le sérum glucosé. Ceux-ci sont de l'eau salée ou sucrée, sans anticorps."
+        }
+      ],
+      "lexique": [
+        { "terme": "Sérum", "definition": "Liquide du sang qui contient des anticorps." },
+        { "terme": "Sérothérapie", "definition": "Traitement par injection de sérum." },
+        { "terme": "Curatif", "definition": "Qui sert à guérir." },
+        { "terme": "Sérum antivenimeux", "definition": "Sérum qui neutralise le venin d'un animal." }
+      ]
+    },
+    {
+      "id": "svt-mic-9",
+      "titre": "Les antibiotiques",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Antibiotique",
+          "texte": "Un antibiotique est un médicament qui tue les bactéries ou arrête leur multiplication. Beaucoup viennent de champignons microscopiques. La pénicilline, venue du champignon Penicillium, a été découverte par Fleming en 1928."
+        },
+        {
+          "type": "regle",
+          "titre": "Limite des antibiotiques",
+          "texte": "Les antibiotiques agissent seulement sur les bactéries. Ils sont inefficaces contre les virus (grippe, rougeole, SIDA) et contre les champignons."
+        },
+        {
+          "type": "methode",
+          "titre": "Bien utiliser les antibiotiques",
+          "texte": "1. Les prendre seulement sur ordonnance. 2. Respecter la dose et les heures. 3. Poursuivre le traitement jusqu'au bout, même si l'on se sent mieux. 4. Ne jamais les donner à quelqu'un d'autre. 5. Ne pas garder les restes pour un usage futur."
+        },
+        {
+          "type": "remarque",
+          "titre": "La résistance aux antibiotiques",
+          "texte": "Si l'on prend mal les antibiotiques, les bactéries les plus fortes survivent et se multiplient : elles deviennent résistantes. Le médicament ne marche alors plus. C'est un grave problème de santé publique."
+        },
+        {
+          "type": "tableau",
+          "titre": "Quel moyen utiliser ?",
+          "entetes": ["Moyen", "Quand ?"],
+          "lignes": [
+            ["Asepsie et antisepsie", "Pour éviter l'infection ou nettoyer une plaie"],
+            ["Vaccin", "Avant la maladie, pour s'en protéger"],
+            ["Sérum", "En urgence, quand on n'a pas de protection"],
+            ["Antibiotique", "Pour soigner une infection due à des bactéries"]
+          ]
+        }
+      ],
+      "lexique": [
+        { "terme": "Antibiotique", "definition": "Médicament contre les bactéries." },
+        { "terme": "Pénicilline", "definition": "Premier antibiotique, extrait d'un champignon." },
+        { "terme": "Ordonnance", "definition": "Papier écrit par le médecin qui indique le médicament à prendre." },
+        { "terme": "Résistance", "definition": "Capacité des bactéries à survivre à un antibiotique." }
+      ]
+    }
+  ]
+}
