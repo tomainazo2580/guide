@@ -1,0 +1,286 @@
+{
+  "id": "sp4-3-transformations",
+  "titre": "Chapitre 3 : Transformations physiques et chimiques",
+  "lecons": [
+    {
+      "id": "sp4-3-physique-chimique",
+      "titre": "Phénomène physique ou transformation chimique",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Phénomène physique",
+          "texte": "Dans un phénomène physique, aucune nouvelle substance n’apparaît. Les substances gardent leur nature : seuls l’état, la forme ou l’aspect peuvent changer."
+        },
+        {
+          "type": "definition",
+          "titre": "Transformation chimique",
+          "texte": "Dans une transformation chimique (ou réaction chimique), des substances disparaissent et de nouvelles substances apparaissent. Les substances qui disparaissent changent de nature."
+        },
+        {
+          "type": "schema",
+          "titre": "Comment décider ?",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='360' height='165' viewBox='0 0 360 165'><defs><marker id='sp43a' markerWidth='8' markerHeight='8' refX='6' refY='3' orient='auto' markerUnits='strokeWidth'><path d='M0 0 L6 3 L0 6 z' fill='#e11d48'/></marker></defs><rect x='50' y='10' width='260' height='36' rx='6' fill='none' stroke='currentColor' stroke-width='1.5'/><g fill='none' stroke='#e11d48' stroke-width='1.5'><line x1='110' y1='47' x2='80' y2='96' marker-end='url(#sp43a)'/><line x1='250' y1='47' x2='280' y2='96' marker-end='url(#sp43a)'/></g><rect x='5' y='100' width='150' height='55' rx='6' fill='#e11d48' fill-opacity='0.12' stroke='currentColor' stroke-width='1.5'/><rect x='205' y='100' width='150' height='55' rx='6' fill='#e11d48' fill-opacity='0.3' stroke='currentColor' stroke-width='1.5'/><g fill='currentColor' text-anchor='middle'><text x='180' y='33' font-size='12'>Une nouvelle substance apparaît-elle ?</text><text x='80' y='124' font-size='11'>Phénomène physique</text><text x='80' y='142' font-size='10'>(fusion de la glace)</text><text x='280' y='124' font-size='11'>Transformation chimique</text><text x='280' y='142' font-size='10'>(combustion du carbone)</text><text x='88' y='76' font-size='12' text-anchor='end'>Non</text><text x='272' y='76' font-size='12' text-anchor='start'>Oui</text></g></svg>",
+          "legende": "Le critère sûr : une nouvelle substance apparaît ou non."
+        },
+        {
+          "type": "tableau",
+          "titre": "Quelques exemples",
+          "entetes": ["Phénomène", "Type", "Pourquoi"],
+          "lignes": [
+            ["Fusion de la glace", "Physique", "L’eau reste de l’eau."],
+            ["Sucre dissous dans l’eau", "Physique", "En évaporant l’eau, on retrouve le sucre."],
+            ["Feuille de papier déchirée", "Physique", "Ce sont toujours des morceaux de papier."],
+            ["Bougie qui brûle", "Chimique", "Du dioxyde de carbone et de la vapeur d’eau apparaissent."],
+            ["Papier qui brûle", "Chimique", "Des cendres et des fumées apparaissent."],
+            ["Œuf qu’on fait cuire", "Chimique", "L’œuf cuit ne redevient pas cru."],
+            ["Sucre chauffé jusqu’au caramel", "Chimique", "Une substance brune, de saveur différente, apparaît."]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Les signes d’une transformation chimique",
+          "texte": "Une transformation chimique s’accompagne souvent de l’un de ces signes :\n- un changement de couleur ;\n- un dégagement de gaz ;\n- la formation d’un solide (un dépôt) ;\n- un dégagement de chaleur ou de lumière ;\n- une odeur nouvelle."
+        },
+        {
+          "type": "remarque",
+          "titre": "Attention aux faux signes",
+          "texte": "Quand l’eau bout, un gaz se dégage : c’est la vapeur d’eau. Pourtant c’est un phénomène physique, car la vapeur d’eau est toujours de l’eau. Ces signes sont des indices. Le critère sûr reste l’apparition d’une nouvelle substance."
+        },
+        {
+          "type": "remarque",
+          "titre": "Peut-on revenir en arrière ?",
+          "texte": "Après un phénomène physique, on retrouve facilement la substance de départ : l’eau fondue peut geler de nouveau. Après une transformation chimique, les substances de départ ont disparu : le papier brûlé ne redevient pas du papier."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Substance", "Matière bien précise : l’eau, le sel, le fer…"],
+            ["Phénomène physique", "Changement sans apparition de nouvelle substance."],
+            ["Transformation chimique", "Changement avec disparition et apparition de substances."],
+            ["Dépôt", "Solide qui se forme et se dépose au fond ou sur une paroi."],
+            ["Dégagement", "Production d’un gaz, de chaleur ou de lumière."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. Classe en phénomène physique ou transformation chimique : la glace qui fond ; un clou de fer qui rouille ; le sucre qui se dissout ; le bois qui brûle ; l’eau qui s’évapore.\n2. Un élève dit : « Il y a des bulles dans la casserole, donc c’est une réaction chimique ». Quand l’eau bout, a-t-il raison ? Justifie.\n3. On dissout du sel dans l’eau, puis on fait évaporer l’eau : on retrouve le sel. Est-ce physique ou chimique ?",
+          "solution": "1. Physiques : la glace qui fond, le sucre qui se dissout, l’eau qui s’évapore. Chimiques : le clou qui rouille, le bois qui brûle.\n2. Non. Les bulles sont de la vapeur d’eau : c’est de l’eau, il n’y a pas de nouvelle substance. C’est un phénomène physique.\n3. C’est physique : le sel n’a pas changé de nature, on le retrouve."
+        }
+      ]
+    },
+    {
+      "id": "sp4-3-reactifs-produits",
+      "titre": "Réactifs et produits",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Réactifs",
+          "texte": "Les réactifs sont les substances qui disparaissent (qui sont consommées) pendant une transformation chimique."
+        },
+        {
+          "type": "definition",
+          "titre": "Produits",
+          "texte": "Les produits sont les substances qui apparaissent (qui sont formées) pendant une transformation chimique."
+        },
+        {
+          "type": "schema",
+          "titre": "Réactifs et produits",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='360' height='130' viewBox='0 0 360 130'><defs><marker id='sp43b' markerWidth='8' markerHeight='8' refX='6' refY='3' orient='auto' markerUnits='strokeWidth'><path d='M0 0 L6 3 L0 6 z' fill='#e11d48'/></marker></defs><rect x='10' y='25' width='130' height='60' rx='6' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='220' y='25' width='130' height='60' rx='6' fill='#e11d48' fill-opacity='0.2' stroke='currentColor' stroke-width='1.5'/><line x1='148' y1='55' x2='212' y2='55' stroke='#e11d48' stroke-width='2' marker-end='url(#sp43b)'/><g fill='currentColor' text-anchor='middle'><text x='75' y='50' font-size='13'>Réactifs</text><text x='75' y='70' font-size='10'>ce qui disparaît</text><text x='285' y='50' font-size='13'>Produits</text><text x='285' y='70' font-size='10'>ce qui apparaît</text><text x='180' y='46' font-size='11'>réaction</text><text x='180' y='112' font-size='12'>carbone + dioxygène → dioxyde de carbone</text></g></svg>",
+          "legende": "Les réactifs sont à gauche de la flèche, les produits à droite."
+        },
+        {
+          "type": "formule",
+          "titre": "Le bilan en mots",
+          "texte": "réactif 1 + réactif 2 → produit 1 + produit 2\nLe signe + se lit « et ». La flèche se lit « donne » ou « forme »."
+        },
+        {
+          "type": "exemple",
+          "titre": "Quatre bilans à connaître",
+          "texte": "Carbone brûlé dans le dioxygène :\ncarbone + dioxygène → dioxyde de carbone\nSoufre brûlé dans le dioxygène (flamme bleue, gaz piquant et toxique) :\nsoufre + dioxygène → dioxyde de soufre\nPaille de fer qui brûle :\nfer + dioxygène → oxyde de fer\nBougie qui brûle :\ncire + dioxygène → dioxyde de carbone + eau (vapeur)"
+        },
+        {
+          "type": "methode",
+          "titre": "Écrire un bilan en mots",
+          "texte": "1. Repère ce qui disparaît : ce sont les réactifs.\n2. Repère ce qui apparaît : ce sont les produits.\n3. Écris les réactifs, séparés par +, puis la flèche, puis les produits.\nExemple : une bougie s’éteint sous une cloche. Disparaissent : la cire et le dioxygène. Apparaissent : le dioxyde de carbone et l’eau."
+        },
+        {
+          "type": "remarque",
+          "titre": "Réactif en excès",
+          "texte": "La réaction s’arrête quand l’un des réactifs est entièrement consommé. L’autre réactif, s’il en reste, est en excès. Sous la cloche du chapitre 1, la bougie s’éteint quand le dioxygène est épuisé : la cire est en excès."
+        },
+        {
+          "type": "remarque",
+          "titre": "Faire démarrer une réaction",
+          "texte": "Certaines réactions ne démarrent pas toutes seules : il faut une flamme ou une étincelle. Le charbon, par exemple, doit d’abord être rougi pour brûler."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Réactif", "Substance consommée pendant la réaction."],
+            ["Produit", "Substance formée pendant la réaction."],
+            ["Bilan", "Résumé de la réaction : réactifs → produits."],
+            ["Consommé", "Qui a disparu en réagissant."],
+            ["En excès", "Qui reste en fin de réaction, car il y en avait trop."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. Écris le bilan en mots de la combustion du soufre dans le dioxygène. Nomme les réactifs et le produit.\n2. Une bougie s’éteint sous une cloche fermée. Quel réactif a été épuisé ? Lequel est resté en excès ?\n3. Nomme les deux produits de la combustion d’une bougie.",
+          "solution": "1. soufre + dioxygène → dioxyde de soufre. Les réactifs sont le soufre et le dioxygène ; le produit est le dioxyde de soufre.\n2. Le dioxygène a été épuisé. La cire est restée en excès.\n3. Le dioxyde de carbone et l’eau (sous forme de vapeur)."
+        }
+      ]
+    },
+    {
+      "id": "sp4-3-combustion-carbone",
+      "titre": "La combustion du carbone",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Combustion",
+          "texte": "Une combustion est une réaction chimique entre un combustible et le dioxygène, avec dégagement de chaleur et souvent de lumière. Le combustible est la substance qui brûle ; le dioxygène, qui permet la combustion, s’appelle le comburant."
+        },
+        {
+          "type": "tableau",
+          "titre": "Ce qu’il faut pour qu’un feu brûle",
+          "entetes": ["Élément", "Rôle", "Exemples"],
+          "lignes": [
+            ["Combustible", "Il brûle.", "Charbon de bois, bois, gaz butane"],
+            ["Comburant", "Il permet la combustion.", "Le dioxygène de l’air"],
+            ["Chaleur", "Elle fait démarrer la réaction.", "Flamme, étincelle"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Éteindre un feu",
+          "texte": "Il suffit de supprimer l’un des trois éléments : retirer le combustible, couper l’arrivée d’air (avec un couvercle ou une couverture), ou refroidir avec de l’eau. Le charbon de bois est surtout formé de carbone presque pur."
+        },
+        {
+          "type": "methode",
+          "titre": "Expérience : brûler du carbone dans le dioxygène",
+          "texte": "1. Remplis un flacon de dioxygène.\n2. Chauffe un morceau de charbon de bois, fixé à une cuillère à combustion, jusqu’au rouge.\n3. Plonge-le dans le flacon : il brille d’un éclat très vif et lance des étincelles.\n4. Retire la cuillère. Verse un peu d’eau de chaux dans le flacon et agite : l’eau de chaux se trouble.\nConclusion : un gaz s’est formé, le dioxyde de carbone."
+        },
+        {
+          "type": "schema",
+          "titre": "La combustion du charbon",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='360' height='215' viewBox='0 0 360 215'><rect x='61' y='61' width='98' height='109' fill='#e11d48' fill-opacity='0.1'/><rect x='266' y='135' width='68' height='35' fill='currentColor' fill-opacity='0.35'/><g fill='none' stroke='currentColor' stroke-width='2'><path d='M60 60 L60 170 L160 170 L160 60'/><path d='M265 100 L265 170 L335 170 L335 100'/><line x1='110' y1='40' x2='110' y2='98'/></g><rect x='100' y='36' width='20' height='6' fill='currentColor'/><rect x='100' y='98' width='20' height='7' fill='currentColor'/><circle cx='110' cy='93' r='5' fill='#e11d48'/><g stroke='#e11d48' stroke-width='1.5'><line x1='102' y1='86' x2='97' y2='80'/><line x1='110' y1='84' x2='110' y2='76'/><line x1='118' y1='86' x2='123' y2='80'/></g><line x1='128' y1='93' x2='164' y2='93' stroke='currentColor' stroke-width='1' stroke-dasharray='3 2'/><g fill='currentColor' font-size='11'><text x='168' y='96'>Charbon rougi</text><text x='110' y='190' text-anchor='middle'>Flacon de dioxygène</text><text x='300' y='190' text-anchor='middle'>Eau de chaux</text><text x='300' y='205' text-anchor='middle'>(troublée)</text></g></svg>",
+          "legende": "À gauche : le charbon rougi brûle dans le dioxygène. À droite : l’eau de chaux versée ensuite se trouble."
+        },
+        {
+          "type": "regle",
+          "titre": "Test du dioxyde de carbone",
+          "texte": "Le dioxyde de carbone trouble l’eau de chaux : elle devient blanche et laiteuse."
+        },
+        {
+          "type": "formule",
+          "titre": "Bilan de la combustion complète du carbone",
+          "texte": "carbone + dioxygène → dioxyde de carbone\nRéactifs : le carbone et le dioxygène. Produit : le dioxyde de carbone."
+        },
+        {
+          "type": "remarque",
+          "titre": "Dans l’air ou dans le dioxygène pur",
+          "texte": "Dans l’air, le charbon rougit seulement, car l’air ne contient qu’environ 1/5 de dioxygène. Dans le dioxygène pur, il brûle beaucoup plus vivement."
+        },
+        {
+          "type": "remarque",
+          "titre": "Combustion incomplète : un grand danger",
+          "texte": "Quand le dioxygène manque (pièce fermée, fourneau mal aéré), le carbone brûle mal et il se forme du monoxyde de carbone :\ncarbone + dioxygène → monoxyde de carbone\nCe gaz est incolore, inodore et très toxique. Ne jamais faire brûler du charbon dans une pièce fermée : il faut toujours aérer."
+        },
+        {
+          "type": "exemple",
+          "titre": "Autres combustions",
+          "texte": "Le gaz butane des cuisinières brûle aussi dans le dioxygène :\nbutane + dioxygène → dioxyde de carbone + eau\nLe bois et la bougie donnent aussi du dioxyde de carbone et de l’eau."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Combustion", "Réaction avec le dioxygène, avec dégagement de chaleur."],
+            ["Combustible", "Substance qui brûle."],
+            ["Comburant", "Substance qui permet la combustion : le dioxygène."],
+            ["Eau de chaux", "Liquide limpide qui se trouble avec le dioxyde de carbone."],
+            ["Incandescent", "Rougi par la chaleur."],
+            ["Monoxyde de carbone", "Gaz toxique formé par une combustion incomplète."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. Dans un feu de bois, quel est le combustible ? Quel est le comburant ?\n2. Écris le bilan en mots de la combustion complète du carbone.\n3. Comment reconnaît-on le dioxyde de carbone ?\n4. Pourquoi est-il dangereux de faire brûler du charbon dans une pièce fermée ?",
+          "solution": "1. Le combustible est le bois ; le comburant est le dioxygène de l’air.\n2. carbone + dioxygène → dioxyde de carbone.\n3. Il trouble l’eau de chaux.\n4. Le dioxygène s’épuise. Il se forme alors du monoxyde de carbone, un gaz toxique qu’on ne voit pas et qu’on ne sent pas."
+        }
+      ]
+    },
+    {
+      "id": "sp4-3-conservation",
+      "titre": "La conservation de la masse",
+      "blocs": [
+        {
+          "type": "regle",
+          "titre": "Loi de Lavoisier",
+          "texte": "Pendant une transformation chimique, la masse totale des réactifs consommés est égale à la masse totale des produits formés. On dit que la masse se conserve.\nCette loi a été établie par Antoine Lavoisier, un chimiste français du XVIIIe siècle."
+        },
+        {
+          "type": "formule",
+          "titre": "Conservation de la masse",
+          "texte": "masse des réactifs consommés = masse des produits formés\nPour la combustion du carbone :\nmasse de carbone + masse de dioxygène = masse de dioxyde de carbone"
+        },
+        {
+          "type": "schema",
+          "titre": "Masse avant et après",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='360' height='150' viewBox='0 0 360 150'><rect x='70' y='25' width='60' height='32' fill='currentColor' fill-opacity='0.4' stroke='currentColor'/><rect x='130' y='25' width='160' height='32' fill='#e11d48' fill-opacity='0.25' stroke='currentColor'/><rect x='70' y='80' width='220' height='32' fill='#e11d48' fill-opacity='0.5' stroke='currentColor'/><g fill='currentColor' font-size='12' text-anchor='middle'><text x='100' y='46'>C 12 g</text><text x='210' y='46'>O₂ 32 g</text><text x='180' y='101'>CO₂ 44 g</text></g><g fill='currentColor' font-size='12' text-anchor='end'><text x='62' y='46'>Avant</text><text x='62' y='101'>Après</text></g><text x='180' y='138' font-size='12' fill='currentColor' text-anchor='middle'>Masse avant = masse après = 44 g</text></svg>",
+          "legende": "Les longueurs sont proportionnelles aux masses : 12 g + 32 g = 44 g."
+        },
+        {
+          "type": "exemple",
+          "titre": "Brûler du carbone",
+          "texte": "12 g de carbone brûlent complètement avec 32 g de dioxygène.\nMasse de dioxyde de carbone formé : 12 + 32 = 44 g.\nLa proportion est toujours la même : avec 3 g de carbone, il faut 8 g de dioxygène et on obtient 11 g de dioxyde de carbone (3 + 8 = 11)."
+        },
+        {
+          "type": "exemple",
+          "titre": "Quand un réactif est en excès",
+          "texte": "On brûle 5 g de carbone dans 8 g de dioxygène.\n8 g de dioxygène ne peuvent brûler que 3 g de carbone, et forment 11 g de dioxyde de carbone.\nIl reste donc 5 − 3 = 2 g de carbone, en excès.\nVérification : avant, 5 + 8 = 13 g. Après, 11 + 2 = 13 g."
+        },
+        {
+          "type": "methode",
+          "titre": "Calculer une masse inconnue",
+          "texte": "1. Écris le bilan en mots.\n2. Écris l’égalité : masse des réactifs = masse des produits.\n3. Remplace par les valeurs connues et calcule.\nExemple : 6 g de carbone brûlent avec 16 g de dioxygène.\nMasse de dioxyde de carbone : 6 + 16 = 22 g."
+        },
+        {
+          "type": "remarque",
+          "titre": "Pourquoi la masse semble parfois changer",
+          "texte": "Une bougie qui brûle sur une balance perd de la masse : le dioxyde de carbone et la vapeur d’eau s’échappent dans l’air. Dans un flacon fermé, la masse resterait constante.\nÀ l’inverse, de la paille de fer qui brûle gagne de la masse : le fer fixe le dioxygène de l’air.\nDans les deux cas, il faut compter tous les réactifs et tous les produits, gaz compris."
+        },
+        {
+          "type": "remarque",
+          "titre": "Les substances changent, pas la masse",
+          "texte": "Pendant une transformation chimique, les substances changent. La masse totale, elle, ne change pas. Nous l’expliquerons avec les atomes aux chapitres 4 et 9."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Conservation", "Le fait de rester constant, de ne pas changer."],
+            ["Masse totale", "Somme des masses de toutes les substances."],
+            ["Vase clos", "Récipient fermé : rien n’y entre ni n’en sort."],
+            ["Lavoisier", "Chimiste français du XVIIIe siècle."],
+            ["En excès", "Qui reste en fin de réaction."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. 6 g de carbone brûlent complètement avec 16 g de dioxygène. Quelle masse de dioxyde de carbone se forme ?\n2. Une masse de 5 g de paille de fer brûle dans l’air. Après la combustion, le solide obtenu a une masse de 6,9 g. Quelle masse de dioxygène le fer a-t-il fixée ?\n3. Une bougie brûle sur une balance et la masse indiquée diminue. Un élève dit que la masse ne se conserve pas. Que peux-tu lui répondre ?",
+          "solution": "1. 6 + 16 = 22 g de dioxyde de carbone.\n2. fer + dioxygène → oxyde de fer. La masse de dioxygène fixée est : 6,9 − 5 = 1,9 g.\n3. La masse se conserve, mais les produits de la combustion (dioxyde de carbone et vapeur d’eau) sont des gaz qui s’échappent dans l’air. La balance ne les pèse plus. Dans un flacon fermé, la masse resterait constante."
+        }
+      ]
+    }
+  ]
+}
