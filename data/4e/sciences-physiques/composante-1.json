@@ -1,0 +1,299 @@
+{
+  "id": "sp4-1-eau-air",
+  "titre": "Chapitre 1 : L’eau, l’air et les états de la matière",
+  "lecons": [
+    {
+      "id": "sp4-1-etats",
+      "titre": "Les trois états de la matière",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "La matière",
+          "texte": "La matière est tout ce qui a une masse et occupe un volume. Elle se présente sous trois états : l’état solide, l’état liquide et l’état gazeux."
+        },
+        {
+          "type": "schema",
+          "titre": "Les trois états vus de très près",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='360' height='160' viewBox='0 0 360 160'><rect x='10' y='20' width='100' height='100' rx='6' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='130' y='20' width='100' height='100' rx='6' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='250' y='20' width='100' height='100' rx='6' fill='none' stroke='currentColor' stroke-width='1.5'/><g fill='#e11d48' fill-opacity='0.8'><circle cx='30' cy='40' r='7'/><circle cx='50' cy='40' r='7'/><circle cx='70' cy='40' r='7'/><circle cx='90' cy='40' r='7'/><circle cx='30' cy='60' r='7'/><circle cx='50' cy='60' r='7'/><circle cx='70' cy='60' r='7'/><circle cx='90' cy='60' r='7'/><circle cx='30' cy='80' r='7'/><circle cx='50' cy='80' r='7'/><circle cx='70' cy='80' r='7'/><circle cx='90' cy='80' r='7'/><circle cx='30' cy='100' r='7'/><circle cx='50' cy='100' r='7'/><circle cx='70' cy='100' r='7'/><circle cx='90' cy='100' r='7'/><circle cx='145' cy='105' r='7'/><circle cx='163' cy='107' r='7'/><circle cx='182' cy='104' r='7'/><circle cx='201' cy='106' r='7'/><circle cx='218' cy='101' r='7'/><circle cx='154' cy='89' r='7'/><circle cx='173' cy='87' r='7'/><circle cx='192' cy='90' r='7'/><circle cx='211' cy='86' r='7'/><circle cx='146' cy='72' r='7'/><circle cx='165' cy='70' r='7'/><circle cx='184' cy='72' r='7'/><circle cx='270' cy='45' r='7'/><circle cx='318' cy='40' r='7'/><circle cx='295' cy='75' r='7'/><circle cx='335' cy='95' r='7'/><circle cx='268' cy='100' r='7'/><circle cx='310' cy='110' r='7'/></g><g fill='currentColor' font-size='13' text-anchor='middle'><text x='60' y='142'>Solide</text><text x='180' y='142'>Liquide</text><text x='300' y='142'>Gaz</text></g></svg>",
+          "legende": "Représentation simplifiée : dans un solide, les particules sont rangées et serrées ; dans un liquide, elles sont serrées mais désordonnées ; dans un gaz, elles sont très éloignées les unes des autres."
+        },
+        {
+          "type": "tableau",
+          "titre": "Propriétés des trois états",
+          "entetes": ["État", "Forme", "Volume", "Compressible"],
+          "lignes": [
+            ["Solide", "Propre : il garde sa forme", "Propre : constant", "Non"],
+            ["Liquide", "Pas de forme propre : il prend celle du récipient, avec une surface libre horizontale", "Propre : constant", "Presque pas"],
+            ["Gaz", "Pas de forme propre : il occupe tout le récipient", "Pas de volume propre : il occupe tout l’espace disponible", "Oui, facilement"]
+          ]
+        },
+        {
+          "type": "exemple",
+          "titre": "Exemples",
+          "texte": "Solides : un caillou, le fer, la glace.\nLiquides : l’eau, l’huile, le pétrole.\nGaz : l’air, le dioxygène, la vapeur d’eau."
+        },
+        {
+          "type": "remarque",
+          "titre": "Attention aux poudres",
+          "texte": "Le sable ou la farine s’écoulent comme un liquide. Pourtant ce sont des solides : chaque grain garde sa forme."
+        },
+        {
+          "type": "remarque",
+          "titre": "Comprimer un gaz",
+          "texte": "Avec une seringue fermée au bout, on peut enfoncer le piston quand elle contient de l’air. On ne le peut presque pas quand elle contient de l’eau. Le gaz est compressible, le liquide ne l’est presque pas."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Matière", "Tout ce qui a une masse et occupe un volume."],
+            ["Compressible", "Qu’on peut comprimer, c’est-à-dire dont on peut diminuer le volume en le pressant."],
+            ["Surface libre", "Surface d’un liquide en contact avec l’air."],
+            ["Particule", "Très petit grain de matière, invisible à l’œil nu."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. Classe en solide, liquide ou gaz : l’huile, le fer, le dioxygène, le pétrole, le sel de cuisine, la vapeur d’eau.\n2. Pourquoi peut-on comprimer l’air d’une pompe à vélo, mais pas l’eau d’une seringue fermée ?",
+          "solution": "1. Solides : le fer, le sel de cuisine. Liquides : l’huile, le pétrole. Gaz : le dioxygène, la vapeur d’eau.\n2. Un gaz est compressible : ses particules sont très éloignées et peuvent se rapprocher. Dans un liquide, les particules sont déjà serrées, donc le volume ne diminue presque pas."
+        }
+      ]
+    },
+    {
+      "id": "sp4-1-changements",
+      "titre": "Les changements d’état de l’eau",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Changement d’état",
+          "texte": "Un changement d’état est le passage d’un état à un autre. La substance ne change pas de nature : l’eau reste de l’eau, qu’elle soit sous forme de glace, de liquide ou de vapeur."
+        },
+        {
+          "type": "schema",
+          "titre": "Les six changements d’état",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='400' height='200' viewBox='0 0 400 200'><defs><marker id='sp41a' markerWidth='8' markerHeight='8' refX='6' refY='3' orient='auto' markerUnits='strokeWidth'><path d='M0 0 L6 3 L0 6 z' fill='#e11d48'/></marker></defs><g fill='none' stroke='currentColor' stroke-width='1.5'><rect x='10' y='65' width='70' height='60' rx='6'/><rect x='165' y='65' width='70' height='60' rx='6'/><rect x='320' y='65' width='70' height='60' rx='6'/></g><g fill='none' stroke='#e11d48' stroke-width='1.5'><line x1='82' y1='82' x2='163' y2='82' marker-end='url(#sp41a)'/><line x1='237' y1='82' x2='318' y2='82' marker-end='url(#sp41a)'/><line x1='163' y1='108' x2='82' y2='108' marker-end='url(#sp41a)'/><line x1='318' y1='108' x2='237' y2='108' marker-end='url(#sp41a)'/><path d='M45 63 Q200 -15 355 63' marker-end='url(#sp41a)'/><path d='M355 127 Q200 215 45 127' marker-end='url(#sp41a)'/></g><g fill='currentColor' font-size='11' text-anchor='middle'><text x='45' y='92' font-size='13'>Solide</text><text x='45' y='110'>(glace)</text><text x='200' y='92' font-size='13'>Liquide</text><text x='200' y='110'>(eau)</text><text x='355' y='92' font-size='13'>Gaz</text><text x='355' y='110'>(vapeur)</text><text x='122' y='76'>Fusion</text><text x='277' y='76'>Vaporisation</text><text x='122' y='122'>Solidification</text><text x='277' y='122'>Liquéfaction</text><text x='200' y='42'>Sublimation</text><text x='200' y='158'>Condensation solide</text></g></svg>",
+          "legende": "Les flèches du haut vont vers l’état le plus désordonné ; celles du bas reviennent vers l’état le plus ordonné."
+        },
+        {
+          "type": "tableau",
+          "titre": "Le nom de chaque changement",
+          "entetes": ["Passage", "Nom", "Exemple"],
+          "lignes": [
+            ["Solide → liquide", "Fusion", "Un glaçon fond dans un verre."],
+            ["Liquide → solide", "Solidification", "L’eau gèle dans le congélateur."],
+            ["Liquide → gaz", "Vaporisation", "L’eau bout dans une casserole."],
+            ["Gaz → liquide", "Liquéfaction (ou condensation)", "La buée se forme sur un miroir froid."],
+            ["Solide → gaz", "Sublimation", "Une boule de naphtaline disparaît lentement."],
+            ["Gaz → solide", "Condensation solide", "Le givre se dépose sur l’herbe par une nuit très froide."]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "La température pendant un changement d’état",
+          "texte": "Pour l’eau pure, sous la pression normale, la température reste constante pendant tout le changement d’état.\nFusion et solidification : 0 °C.\nÉbullition : 100 °C."
+        },
+        {
+          "type": "schema",
+          "titre": "Chauffer de la glace",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='360' height='210' viewBox='0 0 360 210'><g stroke='currentColor' stroke-width='1.5' fill='none'><line x1='50' y1='180' x2='50' y2='15'/><line x1='50' y1='180' x2='345' y2='180'/></g><g stroke='currentColor' stroke-width='1' stroke-dasharray='4 3' stroke-opacity='0.5'><line x1='50' y1='140' x2='95' y2='140'/><line x1='50' y1='60' x2='225' y2='60'/></g><polyline points='55,170 95,140 150,140 225,60 290,60 330,30' fill='none' stroke='#e11d48' stroke-width='2.5'/><g fill='currentColor' font-size='11'><text x='46' y='144' text-anchor='end'>0 °C</text><text x='46' y='64' text-anchor='end'>100 °C</text><text x='55' y='12'>Température (°C)</text><text x='345' y='198' text-anchor='end'>Temps</text><text x='60' y='125'>glace</text><text x='122' y='157' text-anchor='middle'>fusion</text><text x='195' y='115'>eau liquide</text><text x='257' y='50' text-anchor='middle'>ébullition</text><text x='318' y='72' text-anchor='middle'>vapeur</text></g></svg>",
+          "legende": "Courbe de chauffage de l’eau : la température reste constante pendant la fusion (0 °C) et pendant l’ébullition (100 °C). Ces deux parties horizontales s’appellent des paliers."
+        },
+        {
+          "type": "exemple",
+          "titre": "Lire la courbe",
+          "texte": "On chauffe de la glace à −10 °C.\n1. La température monte jusqu’à 0 °C.\n2. La glace fond : le thermomètre reste à 0 °C (premier palier).\n3. Quand toute la glace a fondu, la température de l’eau monte jusqu’à 100 °C.\n4. L’eau bout : le thermomètre reste à 100 °C (second palier).\n5. Quand toute l’eau est vaporisée, la température de la vapeur continue de monter."
+        },
+        {
+          "type": "remarque",
+          "titre": "Évaporation et ébullition",
+          "texte": "L’évaporation est lente : elle a lieu à toute température, seulement à la surface du liquide (le linge sèche au soleil). L’ébullition a lieu à 100 °C, dans tout le liquide, avec des bulles."
+        },
+        {
+          "type": "remarque",
+          "titre": "Masse et volume",
+          "texte": "Pendant un changement d’état, la masse ne change pas : 2 kg d’eau donnent 2 kg de glace. Le volume change : en gelant, l’eau augmente de volume d’environ 9 %. 1 L d’eau donne environ 1,09 L de glace. C’est pourquoi les glaçons flottent et qu’une bouteille pleine d’eau peut éclater au congélateur."
+        },
+        {
+          "type": "remarque",
+          "titre": "L’eau bout-elle toujours à 100 °C ?",
+          "texte": "Elle bout à 100 °C au niveau de la mer. En altitude, la pression de l’air est plus faible et l’eau bout plus tôt : à Antananarivo (environ 1 300 m), vers 96 °C."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Fusion", "Passage de l’état solide à l’état liquide."],
+            ["Ébullition", "Vaporisation rapide dans tout le liquide, avec des bulles."],
+            ["Palier", "Partie horizontale de la courbe : la température ne change pas."],
+            ["Buée", "Fines gouttes d’eau déposées sur une surface froide."],
+            ["Pression normale", "Pression de l’air au niveau de la mer."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. Nomme le changement d’état dans chaque cas : un glaçon dans de l’eau chaude ; la buée sur une vitre ; le linge qui sèche ; l’eau mise au congélateur.\n2. On chauffe de la glace à −10 °C. Quelle température indique le thermomètre pendant la fusion ?\n3. Un bidon contient 2 L d’eau, soit 2 kg. L’eau gèle. Quelle est la masse de la glace ? Quel volume occupe-t-elle environ ?",
+          "solution": "1. Fusion ; liquéfaction (condensation) ; vaporisation (évaporation) ; solidification.\n2. Il indique 0 °C, tant que toute la glace n’a pas fondu.\n3. La masse ne change pas : 2 kg. Le volume augmente d’environ 9 % : 2 × 1,09 = 2,18, soit environ 2,18 L."
+        }
+      ]
+    },
+    {
+      "id": "sp4-1-air",
+      "titre": "L’air",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "L’air",
+          "texte": "L’air est un mélange de gaz qui entoure la Terre : c’est l’atmosphère. Il est incolore, inodore et transparent. Il a une masse et il occupe un volume."
+        },
+        {
+          "type": "tableau",
+          "titre": "Composition de l’air (en volume)",
+          "entetes": ["Gaz", "Formule", "Proportion"],
+          "lignes": [
+            ["Diazote", "N₂", "environ 78 %, soit à peu près 4/5"],
+            ["Dioxygène", "O₂", "environ 21 %, soit à peu près 1/5"],
+            ["Autres gaz (argon, dioxyde de carbone, vapeur d’eau…)", "", "environ 1 %"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Composition de l’air",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='360' height='135' viewBox='0 0 360 135'><rect x='30' y='20' width='234' height='40' fill='#e11d48' fill-opacity='0.35' stroke='currentColor'/><rect x='264' y='20' width='63' height='40' fill='#e11d48' fill-opacity='0.6' stroke='currentColor'/><rect x='327' y='20' width='3' height='40' fill='currentColor'/><g fill='currentColor' font-size='12' text-anchor='middle'><text x='147' y='45'>N₂ 78 %</text><text x='295' y='45' font-size='11'>O₂ 21 %</text></g><rect x='30' y='76' width='10' height='10' fill='#e11d48' fill-opacity='0.35' stroke='currentColor'/><rect x='30' y='96' width='10' height='10' fill='#e11d48' fill-opacity='0.6' stroke='currentColor'/><rect x='30' y='116' width='10' height='10' fill='currentColor'/><g fill='currentColor' font-size='12'><text x='48' y='85'>Diazote N₂ : environ 78 % (4/5)</text><text x='48' y='105'>Dioxygène O₂ : environ 21 % (1/5)</text><text x='48' y='125'>Autres gaz : environ 1 %</text></g></svg>",
+          "legende": "La barre représente 100 % du volume de l’air."
+        },
+        {
+          "type": "methode",
+          "titre": "Expérience : la bougie sous la cloche",
+          "texte": "Matériel : une cuve d’eau, une bougie posée sur un morceau de liège qui flotte, une cloche en verre.\n1. Allume la bougie et recouvre-la avec la cloche.\n2. Observe : la flamme s’éteint au bout de quelques instants.\n3. Observe l’eau : elle monte dans la cloche, d’environ 1/5 du volume d’air enfermé.\nConclusion : la bougie a utilisé le dioxygène de l’air, qui représente environ 1/5 de son volume. Le gaz restant, surtout du diazote, n’entretient plus la combustion."
+        },
+        {
+          "type": "schema",
+          "titre": "Avant et après",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='360' height='200' viewBox='0 0 360 200'><rect x='15' y='150' width='150' height='35' fill='#e11d48' fill-opacity='0.25'/><rect x='195' y='150' width='150' height='35' fill='#e11d48' fill-opacity='0.25'/><rect x='230' y='126' width='80' height='24' fill='#e11d48' fill-opacity='0.25'/><g fill='none' stroke='currentColor' stroke-width='2'><path d='M15 130 L15 185 L165 185 L165 130'/><path d='M195 130 L195 185 L345 185 L345 130'/><path d='M50 160 L50 30 L130 30 L130 160'/><path d='M230 160 L230 30 L310 30 L310 160'/></g><g fill='currentColor'><rect x='75' y='146' width='30' height='4' fill-opacity='0.5'/><rect x='255' y='122' width='30' height='4' fill-opacity='0.5'/></g><g fill='currentColor' fill-opacity='0.2' stroke='currentColor'><rect x='85' y='122' width='10' height='24'/><rect x='265' y='100' width='10' height='22'/></g><ellipse cx='90' cy='114' rx='4' ry='7' fill='#e11d48'/><g stroke='#e11d48' stroke-width='1.5'><line x1='318' y1='126' x2='318' y2='150'/><line x1='318' y1='30' x2='318' y2='126'/></g><g fill='currentColor' font-size='12' text-anchor='middle'><text x='90' y='18'>Avant</text><text x='270' y='18'>Après</text></g><g fill='currentColor' font-size='11'><text x='324' y='142'>1/5</text><text x='324' y='82'>4/5</text></g></svg>",
+          "legende": "Après l’extinction de la flamme, l’eau est montée d’environ 1/5 du volume de la cloche (schéma idéal)."
+        },
+        {
+          "type": "remarque",
+          "titre": "Pourquoi « environ » ?",
+          "texte": "La bougie s’éteint avant d’avoir utilisé tout le dioxygène. L’eau monte donc un peu moins de 1/5. Avec de la paille de fer humide, qui consomme presque tout le dioxygène, on obtient un résultat très proche de 1/5."
+        },
+        {
+          "type": "regle",
+          "titre": "À retenir",
+          "texte": "L’air contient environ 1/5 de dioxygène et 4/5 de diazote, en volume."
+        },
+        {
+          "type": "tableau",
+          "titre": "Le dioxygène et le diazote",
+          "entetes": ["Gaz", "Propriétés", "Test"],
+          "lignes": [
+            ["Dioxygène (O₂)", "Entretient la combustion et la respiration", "Une allumette qui rougeoie se rallume."],
+            ["Diazote (N₂)", "N’entretient pas la combustion et ne brûle pas", "Une flamme plongée dans le diazote s’éteint."]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Le dioxyde de carbone",
+          "texte": "Le dioxyde de carbone (CO₂) est présent dans l’air en très petite quantité (environ 0,04 %). Il trouble l’eau de chaux, ce qui permet de le reconnaître. Nous nous en servirons au chapitre 3."
+        },
+        {
+          "type": "exemple",
+          "titre": "La masse de l’air",
+          "texte": "1 litre d’air a une masse d’environ 1,2 g.\nUne salle de 90 m³ contient 90 000 L d’air.\nMasse d’air : 90 000 × 1,2 = 108 000 g = 108 kg."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Atmosphère", "Couche d’air qui entoure la Terre."],
+            ["Mélange", "Plusieurs substances mélangées ensemble."],
+            ["Combustion", "Réaction d’une substance avec le dioxygène, avec dégagement de chaleur (la bougie brûle)."],
+            ["Cloche", "Récipient de verre que l’on retourne sur un objet."],
+            ["Diazote", "Gaz de formule N₂, le plus abondant dans l’air."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. Dans 20 L d’air, quels volumes de dioxygène et de diazote trouve-t-on environ ?\n2. Pourquoi la bougie s’éteint-elle sous la cloche ?\n3. Quelle est la masse d’air d’une pièce de 50 m³ ? (1 L d’air a une masse d’environ 1,2 g.)",
+          "solution": "1. Dioxygène : 20 × 1/5 = 4 L. Diazote : 20 × 4/5 = 16 L.\n2. La bougie a utilisé presque tout le dioxygène. Le gaz restant n’entretient plus la combustion.\n3. 50 m³ = 50 000 L. Masse : 50 000 × 1,2 = 60 000 g = 60 kg."
+        }
+      ]
+    },
+    {
+      "id": "sp4-1-eau",
+      "titre": "L’eau : propriétés et cycle",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "L’eau pure",
+          "texte": "L’eau pure est un liquide incolore, inodore et sans saveur. C’est un composé d’hydrogène et d’oxygène, de formule H₂O (nous l’étudierons au chapitre 6)."
+        },
+        {
+          "type": "tableau",
+          "titre": "Quelques constantes de l’eau pure",
+          "entetes": ["Grandeur", "Valeur"],
+          "lignes": [
+            ["Température de fusion", "0 °C"],
+            ["Température d’ébullition", "100 °C (pression normale)"],
+            ["Masse d’un litre", "environ 1 kg"]
+          ]
+        },
+        {
+          "type": "formule",
+          "titre": "Masse d’un volume d’eau",
+          "texte": "1 L d’eau a une masse d’environ 1 kg.\n1 cm³ d’eau a une masse d’environ 1 g."
+        },
+        {
+          "type": "methode",
+          "titre": "Reconnaître l’eau",
+          "texte": "On verse le liquide sur du sulfate de cuivre anhydre, une poudre blanche.\nSi la poudre devient bleue, le liquide contient de l’eau.\nAttention : ce test montre qu’il y a de l’eau, mais pas que l’eau est pure."
+        },
+        {
+          "type": "remarque",
+          "titre": "L’eau de la nature n’est pas pure",
+          "texte": "L’eau de pluie, de rivière, de la mer ou du robinet contient des gaz et des sels dissous. L’eau potable n’est donc pas de l’eau pure. Nous étudierons ces mélanges au chapitre 2."
+        },
+        {
+          "type": "schema",
+          "titre": "Le cycle de l’eau",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='360' height='200' viewBox='0 0 360 200'><defs><marker id='sp41b' markerWidth='8' markerHeight='8' refX='6' refY='3' orient='auto' markerUnits='strokeWidth'><path d='M0 0 L6 3 L0 6 z' fill='#e11d48'/></marker></defs><rect x='0' y='160' width='150' height='40' fill='#e11d48' fill-opacity='0.25'/><rect x='150' y='160' width='210' height='40' fill='currentColor' fill-opacity='0.1'/><polygon points='230,160 300,95 360,160' fill='currentColor' fill-opacity='0.15' stroke='currentColor'/><circle cx='30' cy='35' r='14' fill='#e11d48'/><g fill='currentColor' fill-opacity='0.2' stroke='currentColor'><ellipse cx='215' cy='42' rx='25' ry='14'/><ellipse cx='240' cy='38' rx='28' ry='16'/><ellipse cx='262' cy='44' rx='20' ry='11'/></g><g fill='none' stroke='#e11d48' stroke-width='1.5'><path d='M70 150 Q70 70 188 50' marker-end='url(#sp41b)'/><line x1='212' y1='62' x2='206' y2='92'/><line x1='232' y1='62' x2='226' y2='92'/><line x1='252' y1='62' x2='246' y2='92'/><path d='M268 122 Q200 148 152 156' marker-end='url(#sp41b)'/></g><g fill='currentColor' font-size='11'><text x='30' y='64' text-anchor='middle'>Soleil</text><text x='66' y='108' text-anchor='end'>Évaporation</text><text x='240' y='14' text-anchor='middle'>Condensation</text><text x='196' y='112'>Précipitations</text><text x='240' y='182' text-anchor='middle'>Ruissellement</text><text x='60' y='185' text-anchor='middle'>Mer</text></g></svg>",
+          "legende": "Le cycle de l’eau : l’eau passe de la mer au nuage, puis revient à la mer."
+        },
+        {
+          "type": "exemple",
+          "titre": "Les étapes du cycle de l’eau",
+          "texte": "1. Le Soleil chauffe la mer, les lacs et les rivières : l’eau s’évapore.\n2. La vapeur d’eau monte, se refroidit et se condense en fines gouttelettes : ce sont les nuages.\n3. L’eau retombe sous forme de précipitations (pluie, grêle).\n4. L’eau ruisselle ou s’infiltre dans le sol, puis rejoint les rivières et la mer.\nDans ce cycle, l’eau change plusieurs fois d’état : vaporisation, liquéfaction et parfois solidification (la grêle)."
+        },
+        {
+          "type": "remarque",
+          "titre": "Protéger l’eau",
+          "texte": "L’eau potable est précieuse. Il faut protéger les sources et ne pas la gaspiller."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Pur", "Qui ne contient qu’une seule substance."],
+            ["Anhydre", "Sans eau."],
+            ["Précipitations", "Eau qui tombe du ciel : pluie, grêle."],
+            ["Infiltration", "Passage de l’eau à travers le sol."],
+            ["Ruissellement", "Écoulement de l’eau à la surface du sol."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. Quelle est la masse de 25 L d’eau ?\n2. Du sulfate de cuivre anhydre devient bleu au contact d’un liquide. Que peut-on conclure ?\n3. Nomme deux changements d’état qui ont lieu dans le cycle de l’eau.",
+          "solution": "1. 1 L d’eau a une masse d’environ 1 kg, donc 25 L ont une masse d’environ 25 kg.\n2. Le liquide contient de l’eau. On ne peut pas dire qu’il s’agit d’eau pure.\n3. La vaporisation (évaporation) de l’eau de la mer, et la liquéfaction (condensation) de la vapeur en gouttelettes dans les nuages."
+        }
+      ]
+    }
+  ]
+}
