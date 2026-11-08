@@ -1,0 +1,27 @@
+{
+  "matiere": "Mathématiques 4ème",
+  "chapitres": [
+    {
+      "id": "exo-math4-1-relatifs",
+      "titre": "Chapitre 1 : Les nombres relatifs",
+      "exercices": [
+        {
+          "enonce": "🟢 Niveau Facile\n\n1) Range dans l'ordre croissant : −7 ; 4 ; −1,5 ; 0 ; 3 ; −10.\n\n2) Donne l'opposé de chaque nombre : 8 ; −12 ; 0 ; −3,5.\n\n3) Calcule :\na) (−6) + (−4)\nb) (+9) + (−12)\nc) 5 − (−2)\nd) (−3) × (−7)\ne) (−18) ÷ 3\n\n4) Dans un repère, le point A est situé à 3 unités à gauche de O et à 2 unités au-dessus de O. Donne ses coordonnées.",
+          "solution": "1) −10 < −7 < −1,5 < 0 < 3 < 4.\n\n2) L'opposé de 8 est −8. L'opposé de −12 est 12. L'opposé de 0 est 0. L'opposé de −3,5 est 3,5.\n\n3)\na) (−6) + (−4) = −10 (même signe : on additionne 6 + 4 et on garde le signe −).\nb) (+9) + (−12) = −3 (12 est le plus loin de 0 : signe −, et 12 − 9 = 3).\nc) 5 − (−2) = 5 + 2 = 7.\nd) (−3) × (−7) = +21 (même signe).\ne) (−18) ÷ 3 = −6 (signes contraires).\n\n4) Gauche de O : l'abscisse est négative, donc x = −3. Au-dessus de O : l'ordonnée est positive, donc y = 2. A(−3 ; 2)."
+        },
+        {
+          "enonce": "🟡 Niveau Moyen\n\n1) Sur le plateau de l'Ankaratra, il fait −3 °C à 6 h du matin. À midi, la température a monté de 11 degrés. Le soir, elle a baissé de 9 degrés. Quelle est la température le soir ?\n\n2) Calcule :\nA = −5 + 9 − 12 + 4\nB = 7 − (−3) + (−10) − 4\n\n3) Calcule :\na) (−4) × (−2) × (−3)\nb) (−56) ÷ 7\nc) (−15) ÷ (−3)\n\n4) Calcule :\nC = 4 − 3 × (−5)\nD = (−6 + 2) × (3 − 8)\nE = −2 × (5 − 9) + 7",
+          "solution": "1) À midi : −3 + 11 = 8 °C. Le soir : 8 − 9 = −1 °C. La température du soir est −1 °C.\n\n2)\nA : positifs 9 + 4 = 13 ; négatifs 5 + 12 = 17 ; 13 − 17 = −4. Donc A = −4.\nB = 7 + 3 − 10 − 4 = 10 − 14 = −4. Donc B = −4.\n\n3)\na) Trois facteurs négatifs (nombre impair) : le résultat est négatif. 4 × 2 × 3 = 24, donc −24.\nb) −8.\nc) Même signe : +5.\n\n4)\nC = 4 − (−15) = 4 + 15 = 19.\nD = (−4) × (−5) = 20.\nE = −2 × (−4) + 7 = 8 + 7 = 15."
+        },
+        {
+          "enonce": "🟠 Niveau Difficile\n\n1) Dans un jeu de questions, on gagne 5 points pour une bonne réponse et on perd 3 points pour une mauvaise réponse. Rado répond à 12 questions et donne 8 bonnes réponses.\na) Combien a-t-il de mauvaises réponses ?\nb) Calcule son score final.\nc) Quel serait le score d'un joueur qui se trompe aux 12 questions ?\n\n2) Calcule :\nA = (−2 + 8) / (3 − 5)\nB = (4 − 10) × (−3) − (−2) × 5\nC = [3 − (2 − 7)] × (−2)\nD = (−4) × (−5) − 6 ÷ (−2)\n\n3) Dans un repère (unité : 1 cm), on donne A(−2 ; 1), B(3 ; 1) et C(3 ; −3).\na) Place ces points.\nb) Calcule les longueurs AB et BC.\nc) Quelle est la nature du triangle ABC ? Justifie.\nd) Donne les coordonnées du point D tel que ABCD soit un rectangle.",
+          "solution": "1)\na) 12 − 8 = 4 mauvaises réponses.\nb) Score = 8 × 5 + 4 × (−3) = 40 − 12 = 28 points.\nc) 12 × (−3) = −36 points.\n\n2)\nA = 6 / (−2) = −3.\nB = (−6) × (−3) − (−10) = 18 + 10 = 28.\nC = [3 − (−5)] × (−2) = 8 × (−2) = −16.\nD = 20 − (−3) = 20 + 3 = 23.\n\n3)\na) A est 2 cases à gauche de O et 1 case en haut. B est 3 cases à droite et 1 case en haut. C est 3 cases à droite et 3 cases en bas.\nb) A et B ont la même ordonnée (1) : [AB] est horizontal et AB = 3 − (−2) = 5 cm. B et C ont la même abscisse (3) : [BC] est vertical et BC = 1 − (−3) = 4 cm.\nc) (AB) est horizontale et (BC) est verticale : elles sont perpendiculaires. Le triangle ABC est rectangle en B.\nd) D a la même abscisse que A et la même ordonnée que C : D(−2 ; −3)."
+        },
+        {
+          "enonce": "🔴 Niveau Expert (BEPC)\n\nExercice 1\nUn commerçant d'Ambositra note son résultat chaque jour de la semaine (un gain est positif, une perte est négative) :\nLundi : +12 000 Ar ; mardi : −5 000 Ar ; mercredi : +8 500 Ar ; jeudi : −15 000 Ar ; vendredi : +4 000 Ar.\na) Calcule son bilan sur les cinq jours.\nb) Quel est son gain moyen par jour ?\nc) Combien doit-il gagner le samedi pour que le bilan de la semaine soit de +10 000 Ar ?\n\nExercice 2\nSans calculer le produit, donne le signe de chaque nombre, puis calcule-le :\nA = (−3) × (−5) × (−2) × 4\nB = (−7) × (−2) × (−1) × (−3) × 5\n\nExercice 3\nOn donne a = −3 et b = 5. Calcule :\na) a + b\nb) a − b\nc) a × b\nd) (a + b) × (a − b)\n\nExercice 4\nCalcule en détaillant :\nE = 3 − 2 × (5 − 8) − (−4) × (−2)\nF = [(−12) ÷ (−3) − 7] × (2 − 5)\nG = (−6 + 2 × 4) / (1 − 3)",
+          "solution": "Exercice 1\na) 12 000 − 5 000 = 7 000 ; 7 000 + 8 500 = 15 500 ; 15 500 − 15 000 = 500 ; 500 + 4 000 = 4 500. Le bilan est +4 500 Ar (un gain de 4 500 Ar).\nb) 4 500 ÷ 5 = 900 Ar par jour.\nc) 10 000 − 4 500 = 5 500. Il doit gagner 5 500 Ar le samedi.\n\nExercice 2\nA : 3 facteurs négatifs (impair), donc le signe est −. 3 × 5 × 2 × 4 = 120. A = −120.\nB : 4 facteurs négatifs (pair), donc le signe est +. 7 × 2 × 1 × 3 × 5 = 210. B = 210.\n\nExercice 3\na) a + b = −3 + 5 = 2.\nb) a − b = −3 − 5 = −8.\nc) a × b = (−3) × 5 = −15.\nd) (a + b) × (a − b) = 2 × (−8) = −16.\n\nExercice 4\nE = 3 − 2 × (−3) − 8 = 3 + 6 − 8 = 1.\nF = [4 − 7] × (−3) = (−3) × (−3) = 9.\nG = (−6 + 8) / (−2) = 2 / (−2) = −1."
+        }
+      ]
+    }
+  ]
+}
