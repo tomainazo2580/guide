@@ -152,6 +152,7 @@ const etat = {
   exoMatiere: null,
   exoData: null,
   exoChapitre: null,
+  retourActif: false,
   cache: {}
 };
 function $(id) { return document.getElementById(id); }
@@ -163,10 +164,107 @@ function afficherVue(nom) {
   }
   document.querySelectorAll('.view').forEach(v => v.hidden = true);
   cible.hidden = false;
+  const zoneFlot = $('flottants-nav');
+  if (zoneFlot && nom !== 'matiere') zoneFlot.style.display = 'none';
   window.scrollTo(0, 0);
 }
+// Le bouton « ← » du haut n'est plus utilisé dans les leçons, listes, exercices
+// et paiement : les deux ronds flottants le remplacent.
+// Il reste seulement pour les autres écrans (ex. Mode Examen) si le code les demande.
 function majBoutonRetour(visible) {
-  $('btn-retour').hidden = !visible;
+  etat.retourActif = !!visible;
+  const vueMatiere = $('view-matiere');
+  const dansMatiere = !!vueMatiere && !vueMatiere.hidden;
+  $('btn-retour').hidden = !(visible && !dansMatiere);
+  majBoutonsFlottants();
+}
+// ============================================
+// BOUTONS RONDS FLOTTANTS (précédent / suivant)
+// ============================================
+const SVG_FLECHE_GAUCHE = "<svg width='22' height='22' viewBox='0 0 24 24'><polyline points='15,5 8,12 15,19' fill='none' stroke='#ffffff' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/></svg>";
+const SVG_FLECHE_DROITE = "<svg width='22' height='22' viewBox='0 0 24 24'><polyline points='9,5 16,12 9,19' fill='none' stroke='#ffffff' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/></svg>";
+const STYLE_ROND = 'width:46px;height:46px;border-radius:50%;border:2px solid rgba(255,255,255,0.35);background:#1e3a5f;box-shadow:0 2px 8px rgba(0,0,0,0.35);padding:0;margin:0;display:flex;align-items:center;justify-content:center;cursor:pointer;pointer-events:auto;';
+let dernierDefilement = 0;
+function creerBoutonsFlottants() {
+  let zone = $('flottants-nav');
+  if (zone) return zone;
+  zone = document.createElement('div');
+  zone.id = 'flottants-nav';
+  zone.style.cssText = 'position:fixed;left:0;right:0;bottom:80px;display:none;justify-content:space-between;align-items:center;padding:0 14px;pointer-events:none;z-index:50;transition:transform 0.25s ease,opacity 0.25s ease;';
+  zone.innerHTML =
+    '<button type="button" id="flot-prec" aria-label="Retour" style="' + STYLE_ROND + '">' + SVG_FLECHE_GAUCHE + '</button>' +
+    '<button type="button" id="flot-suiv" aria-label="Leçon suivante" style="' + STYLE_ROND + '">' + SVG_FLECHE_DROITE + '</button>';
+  document.body.appendChild(zone);
+  window.addEventListener('scroll', () => {
+    const z = $('flottants-nav');
+    if (!z || z.style.display === 'none') return;
+    const y = window.pageYOffset || document.documentElement.scrollTop || 0;
+    const bas = window.innerHeight + y >= document.documentElement.scrollHeight - 120;
+    const d = y - dernierDefilement;
+    if (y < 40 || bas) {
+      afficherFlot(true);
+      dernierDefilement = y;
+    } else if (d > 8) {
+      afficherFlot(false);
+      dernierDefilement = y;
+    } else if (d < -8) {
+      afficherFlot(true);
+      dernierDefilement = y;
+    }
+  }, { passive: true });
+  return zone;
+}
+function afficherFlot(visible) {
+  const zone = $('flottants-nav');
+  if (!zone) return;
+  zone.style.opacity = visible ? '1' : '0';
+  zone.style.transform = visible ? 'translateY(0)' : 'translateY(24px)';
+  for (let i = 0; i < zone.children.length; i++) {
+    zone.children[i].style.pointerEvents = visible ? 'auto' : 'none';
+  }
+}
+function allerLeconVoisine(delta) {
+  const lecons = (etat.composante && etat.composante.lecons) || [];
+  const position = etat.lecon ? lecons.findIndex(l => l.id === etat.lecon.id) : -1;
+  const cible = position >= 0 ? lecons[position + delta] : null;
+  if (cible) {
+    selectionnerLecon(cible);
+  } else {
+    etat.niveau = 'lecons';
+    afficherListeLecons();
+  }
+  window.scrollTo(0, 0);
+}
+function majBoutonsFlottants() {
+  const zone = creerBoutonsFlottants();
+  const conteneur = $('matiere-contenu');
+  const vueMatiere = $('view-matiere');
+  const actif = !!etat.retourActif && !!vueMatiere && !vueMatiere.hidden;
+  if (!actif) {
+    zone.style.display = 'none';
+    if (conteneur) conteneur.style.paddingBottom = '';
+    return;
+  }
+  const nav = document.querySelector('.nav-basse');
+  const hauteurNav = nav ? nav.offsetHeight : 64;
+  zone.style.bottom = (hauteurNav + 14) + 'px';
+  const prec = $('flot-prec');
+  const suiv = $('flot-suiv');
+  if (etat.niveau === 'contenu' && !estModeExamenActif() && etat.lecon && etat.composante) {
+    prec.onclick = () => allerLeconVoisine(-1);
+    suiv.onclick = () => allerLeconVoisine(1);
+    prec.setAttribute('aria-label', 'Leçon précédente');
+    suiv.setAttribute('aria-label', 'Leçon suivante');
+    suiv.style.display = 'flex';
+  } else {
+    prec.onclick = gererRetour;
+    prec.setAttribute('aria-label', 'Retour');
+    suiv.onclick = null;
+    suiv.style.display = 'none';
+  }
+  if (conteneur) conteneur.style.paddingBottom = '64px';
+  zone.style.display = 'flex';
+  afficherFlot(true);
 }
 // ============================================
 // MODE EXAMEN — hook de verrouillage (prêt, inactif par défaut)
@@ -407,6 +505,7 @@ function afficherListeComposantes() {
     });
     liste.appendChild(carte);
   });
+  majBoutonsFlottants();
 }
 function selectionnerComposante(comp) {
   if (estChapitreVerrouille(etat.matiere, comp)) {
@@ -437,6 +536,7 @@ function afficherListeLecons() {
     carte.addEventListener('click', () => selectionnerLecon(lecon));
     liste.appendChild(carte);
   });
+  majBoutonsFlottants();
 }
 function selectionnerLecon(lecon) {
   etat.lecon = lecon;
@@ -447,6 +547,7 @@ function selectionnerLecon(lecon) {
     const classeNom = CLASSES.find(c => c.id === etat.classe).nom;
     $('fil-ariane').textContent = classeNom + ' › ' + etat.matiere.nom + ' › ' + etat.composante.titre + ' › ' + lecon.titre;
     $('matiere-contenu').innerHTML = htmlLeconVerrouillee();
+    majBoutonsFlottants();
     return;
   }
   marquerLeconVue(etat.classe, etat.matiere.id, lecon.id);
@@ -472,23 +573,8 @@ function afficherContenuLecon() {
   if (etat.lecon.lexique && etat.lecon.lexique.length > 0) {
     html += renderLexique(etat.lecon.lexique);
   }
-  const lecons = etat.composante.lecons || [];
-  const position = lecons.findIndex(l => l.id === etat.lecon.id);
-  const suivante = (position >= 0 && position < lecons.length - 1) ? lecons[position + 1] : null;
-  html += `<div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:20px;">`;
-  html += `<button id="btn-recherche-lecon" class="btn-valider" style="flex:1;min-width:140px;margin-top:0;">Rechercher</button>`;
-  if (suivante) {
-    html += `<button id="btn-lecon-suivante" class="btn-valider" style="flex:1;min-width:140px;margin-top:0;">Leçon suivante →</button>`;
-  }
-  html += `</div>`;
   conteneur.innerHTML = html;
-  $('btn-recherche-lecon').addEventListener('click', afficherRecherche);
-  if (suivante) {
-    $('btn-lecon-suivante').addEventListener('click', () => {
-      selectionnerLecon(suivante);
-      window.scrollTo(0, 0);
-    });
-  }
+  majBoutonsFlottants();
 }
 function renderBloc(bloc) {
   if (bloc.type === 'schema') {
@@ -865,17 +951,6 @@ function brancherRecherche(input, zone, liste) {
     }
   });
 }
-function afficherRecherche() {
-  if (estModeExamenActif()) return;
-  etat.niveau = 'recherche';
-  const classeNom = CLASSES.find(c => c.id === etat.classe).nom;
-  $('fil-ariane').textContent = classeNom + ' › ' + etat.matiere.nom + ' › Recherche';
-  $('matiere-contenu').innerHTML = htmlBarreRecherche() + '<div id="resultats-recherche"></div>';
-  const input = $('input-recherche');
-  brancherRecherche(input, $('resultats-recherche'), null);
-  window.scrollTo(0, 0);
-  input.focus();
-}
 // ============================================
 // CHAPITRE "EXERCICES" — SUJETS ET CORRIGÉS (indépendant des leçons)
 // ============================================
@@ -957,6 +1032,7 @@ function afficherExoChapitres() {
     carte.addEventListener('click', () => selectionnerExoChapitre(chap));
     liste.appendChild(carte);
   });
+  majBoutonsFlottants();
 }
 function selectionnerExoChapitre(chap) {
   etat.exoChapitre = chap;
@@ -991,6 +1067,7 @@ function afficherExoListe() {
       afficherPaywall(etat.exoMatiere, 'exo-liste', etat.exoChapitre.titre);
     });
   });
+  majBoutonsFlottants();
 }
 // ============================================
 // IDENTIFIANT DU TÉLÉPHONE
@@ -1101,6 +1178,7 @@ function afficherPaywall(matiere, origine, titreElement) {
   `;
   $('btn-copier-id').addEventListener('click', () => copierTexte(idAppareil, $('btn-copier-id')));
   $('btn-valider-code').addEventListener('click', traiterValidationCode);
+  majBoutonsFlottants();
 }
 function minutesBlocageCode() {
   try {
@@ -1341,7 +1419,7 @@ async function afficherNotes() {
   conteneur.innerHTML = html;
 }
 // ============================================
-// NAVIGATION — BOUTON RETOUR
+// NAVIGATION — BOUTON RETOUR (utilisé par le rond flottant de gauche)
 // ============================================
 function gererRetour() {
   if (etat.niveau === 'composantes') {
@@ -1355,9 +1433,6 @@ function gererRetour() {
   } else if (etat.niveau === 'contenu') {
     etat.niveau = 'lecons';
     afficherListeLecons();
-  } else if (etat.niveau === 'recherche') {
-    etat.niveau = 'contenu';
-    afficherContenuLecon();
   } else if (etat.niveau === 'paywall') {
     if (etat.paywallOrigine === 'exo-liste') {
       etat.niveau = 'exo-liste';
@@ -1537,6 +1612,7 @@ function initialiser() {
       if (cible === 'exercices') allerExercices();
       if (cible === 'notes') allerNotes();
       if (cible === 'parametres') allerParametres();
+      setTimeout(majBoutonsFlottants, 60);
     });
   });
   $('btn-reset-progression').addEventListener('click', () => {
