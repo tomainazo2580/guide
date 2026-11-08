@@ -9,7 +9,7 @@
         {
           "type": "definition",
           "titre": "Expérience aléatoire",
-          "texte": "Une expérience est aléatoire quand on connaît toutes les résultats possibles à l'avance, mais qu'on ne peut pas prévoir lequel va sortir. C'est le hasard qui décide.\nChaque résultat possible s'appelle une issue.\nL'ensemble de toutes les issues s'appelle l'univers. On le note Ω (lire « oméga »)."
+          "texte": "Une expérience est aléatoire quand on connaît tous les résultats possibles à l'avance, mais qu'on ne peut pas prévoir lequel va sortir. C'est le hasard qui décide.\nChaque résultat possible s'appelle une issue.\nL'ensemble de toutes les issues s'appelle l'univers. On le note Ω (lire « oméga »)."
         },
         {
           "type": "exemple",
