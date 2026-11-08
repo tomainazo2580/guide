@@ -1,0 +1,144 @@
+{
+  "id": "theme6",
+  "titre": "Thématique 6 : Poids et poussée d'Archimède",
+  "lecons": [
+    {
+      "id": "sp-6-1",
+      "titre": "Le poids d'un objet",
+      "blocs": [
+        { "type": "definition", "texte": "Le poids d'un objet est la force d'attraction exercée par la Terre (ou par un autre astre) sur cet objet. C'est une action à distance. Le poids se note P et s'exprime en newtons (N)." },
+        { "type": "regle", "texte": "Les quatre caractéristiques du poids :\n1. Point d'application : le centre de gravité G de l'objet.\n2. Direction : la verticale (celle d'un fil à plomb).\n3. Sens : vers le bas, vers le centre de la Terre.\n4. Norme : P = m × g." },
+        { "type": "formule", "texte": "P = m × g\n- P : poids, en newtons (N)\n- m : masse, en kilogrammes (kg)\n- g : intensité de la pesanteur, en N/kg\nOn en déduit : m = P / g et g = P / m.\nSur Terre, g ≈ 9,8 N/kg. Dans les exercices, on prend g = 10 N/kg." },
+        {
+          "type": "tableau",
+          "titre": "Intensité de la pesanteur (valeurs approchées)",
+          "entetes": ["Astre", "g (N/kg)"],
+          "lignes": [["Terre", "9,8 (arrondi à 10)"], ["Lune", "1,6"], ["Mars", "3,7"], ["Jupiter", "24,8"]]
+        },
+        {
+          "type": "schema",
+          "titre": "Le poids est proportionnel à la masse",
+          "svg": "<svg width='300' height='200' viewBox='0 0 300 200' xmlns='http://www.w3.org/2000/svg'><line x1='50' y1='160' x2='272' y2='160' stroke='#1e293b' stroke-width='2'/><polygon points='268,155 280,160 268,165' fill='#1e293b'/><line x1='50' y1='160' x2='50' y2='22' stroke='#1e293b' stroke-width='2'/><polygon points='45,26 50,14 55,26' fill='#1e293b'/><line x1='50' y1='160' x2='250' y2='40' stroke='#dc2626' stroke-width='2.5'/><circle cx='90' cy='136' r='3' fill='#dc2626'/><circle cx='130' cy='112' r='3' fill='#dc2626'/><circle cx='170' cy='88' r='3' fill='#dc2626'/><circle cx='210' cy='64' r='3' fill='#dc2626'/><circle cx='250' cy='40' r='3' fill='#dc2626'/><text x='50' y='175' font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>0</text><text x='90' y='175' font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>1</text><text x='130' y='175' font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>2</text><text x='170' y='175' font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>3</text><text x='210' y='175' font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>4</text><text x='250' y='175' font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>5</text><text x='44' y='164' font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='end'>0</text><text x='44' y='140' font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='end'>10</text><text x='44' y='116' font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='end'>20</text><text x='44' y='92' font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='end'>30</text><text x='44' y='68' font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='end'>40</text><text x='44' y='44' font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='end'>50</text><text x='80' y='18' font-size='12' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>P (N)</text><text x='150' y='195' font-size='12' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>masse m (kg)</text><text x='62' y='52' font-size='11' font-family='sans-serif' fill='#1e293b'>P = m × g</text><text x='62' y='68' font-size='11' font-family='sans-serif' fill='#1e293b'>pente : g = 10 N/kg</text></svg>",
+          "legende": "Les points sont alignés sur une droite qui passe par l'origine : P et m sont proportionnels."
+        },
+        { "type": "remarque", "texte": "Le rapport P / m est toujours le même en un lieu donné : c'est g. Sur le graphique, c'est une droite qui passe par l'origine." },
+        {
+          "type": "tableau",
+          "titre": "Ne pas confondre masse et poids",
+          "entetes": ["", "Masse", "Poids"],
+          "lignes": [
+            ["Ce que c'est", "La quantité de matière", "Une force"],
+            ["Symbole et unité", "m, en kg", "P, en N"],
+            ["Appareil de mesure", "Balance", "Dynamomètre"],
+            ["Change d'un lieu à l'autre ?", "Non", "Oui, car g change"]
+          ]
+        },
+        { "type": "methode", "texte": "Pour calculer un poids ou une masse :\n1. Écrire la formule P = m × g.\n2. Vérifier que la masse est en kg (1 g = 0,001 kg).\n3. Remplacer par les valeurs et calculer.\n4. Donner le résultat avec son unité : N pour le poids, kg pour la masse." },
+        { "type": "exemple", "texte": "Un sac de ciment a une masse de 50 kg. On prend g = 10 N/kg.\nSur Terre : P = 50 × 10 = 500 N.\nSur Mars (g = 3,7 N/kg) : P = 50 × 3,7 = 185 N.\nLa masse est toujours 50 kg : seul le poids change." },
+        { "type": "remarque", "texte": "Le fil à plomb (un fil tendu par une petite masse) indique la verticale. C'est la direction du poids. Les maçons s'en servent pour vérifier qu'un mur est bien droit." },
+        { "type": "exercice", "enonce": "Un zébu a une masse de 300 kg. On prend g = 10 N/kg. Calculer son poids.", "solution": "P = m × g = 300 × 10 = 3000 N." },
+        { "type": "exercice", "enonce": "Un dynamomètre indique 36 N lorsqu'un objet y est suspendu. On prend g = 10 N/kg. Quelle est la masse de l'objet ?", "solution": "m = P / g = 36 / 10 = 3,6 kg." },
+        { "type": "exercice", "enonce": "Un objet a une masse de 6 kg. Calculer son poids sur Terre (g = 10 N/kg), puis sur la Lune (g = 1,6 N/kg). Que peut-on dire de sa masse sur la Lune ?", "solution": "Sur Terre : P = 6 × 10 = 60 N.\nSur la Lune : P = 6 × 1,6 = 9,6 N.\nLa masse ne change pas : elle vaut toujours 6 kg." },
+        { "type": "exercice", "enonce": "On suspend des masses à un dynamomètre et on relève les poids :\nm = 0,1 kg → P = 1 N ; m = 0,2 kg → P = 2 N ; m = 0,5 kg → P = 5 N.\nMontrer que le poids est proportionnel à la masse et trouver la valeur de g.", "solution": "On calcule P / m : 1 / 0,1 = 10 ; 2 / 0,2 = 10 ; 5 / 0,5 = 10.\nLe rapport est constant, donc P est proportionnel à m.\nOn en déduit g = 10 N/kg." }
+      ]
+    },
+    {
+      "id": "sp-6-2",
+      "titre": "Masse volumique et densité",
+      "blocs": [
+        { "type": "definition", "texte": "La masse volumique d'un corps est la masse d'une unité de volume de ce corps. Elle se note ρ (lettre grecque rho). Elle permet de comparer des matières : à volume égal, un corps de grande masse volumique est plus lourd." },
+        { "type": "formule", "texte": "ρ = m / V\nOn en déduit : m = ρ × V et V = m / ρ.\n- ρ : masse volumique, en kg/m³ (ou en g/cm³, ou en kg/L)\n- m : masse, en kg (ou en g)\n- V : volume, en m³ (ou en cm³, ou en L)" },
+        { "type": "remarque", "texte": "Conversions à connaître :\n- 1 g/cm³ = 1 kg/L = 1000 kg/m³\n- 1 L = 1 dm³ = 0,001 m³\n- 1 mL = 1 cm³ = 0,000 001 m³\n- 1 m³ = 1000 L\nLa masse volumique de l'eau est 1000 kg/m³, soit 1 kg/L : un litre d'eau a une masse de 1 kg." },
+        {
+          "type": "tableau",
+          "titre": "Masses volumiques usuelles (valeurs approchées)",
+          "entetes": ["Matière", "ρ (kg/m³)"],
+          "lignes": [
+            ["Air", "1,2"],
+            ["Bois léger (pin)", "500"],
+            ["Alcool", "800"],
+            ["Huile", "900"],
+            ["Glace", "920"],
+            ["Eau", "1000"],
+            ["Eau de mer", "1030"],
+            ["Aluminium", "2700"],
+            ["Fer, acier", "7800"],
+            ["Cuivre", "8900"],
+            ["Plomb", "11 300"],
+            ["Mercure", "13 600"]
+          ]
+        },
+        { "type": "definition", "texte": "La densité d'un corps est le rapport entre sa masse volumique et celle de l'eau : d = ρ / ρeau. Elle n'a pas d'unité." },
+        { "type": "exemple", "texte": "Pour le fer : d = 7800 / 1000 = 7,8. Un volume de fer est 7,8 fois plus lourd que le même volume d'eau." },
+        { "type": "methode", "texte": "Pour trouver la masse volumique d'un petit solide de forme irrégulière (une pierre, par exemple) :\n1. Mesurer sa masse m avec une balance.\n2. Verser de l'eau dans une éprouvette graduée et lire le volume V1.\n3. Plonger le solide dans l'eau et lire le nouveau volume V2.\n4. Le volume du solide est V = V2 − V1.\n5. Calculer ρ = m / V." },
+        {
+          "type": "schema",
+          "titre": "Mesurer un volume par déplacement d'eau",
+          "svg": "<svg width='320' height='190' viewBox='0 0 320 190' xmlns='http://www.w3.org/2000/svg'><rect x='50' y='90' width='60' height='60' fill='#bfdbfe'/><path d='M50,30 L50,150 L110,150 L110,30' fill='none' stroke='#1e293b' stroke-width='2'/><rect x='190' y='66' width='60' height='84' fill='#bfdbfe'/><ellipse cx='220' cy='136' rx='14' ry='10' fill='#78716c'/><path d='M190,30 L190,150 L250,150 L250,30' fill='none' stroke='#1e293b' stroke-width='2'/><text x='46' y='94' font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='end'>50 mL</text><text x='186' y='70' font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='end'>70 mL</text><line x1='122' y1='110' x2='168' y2='110' stroke='#1e293b' stroke-width='2'/><polygon points='168,105 178,110 168,115' fill='#1e293b'/><text x='150' y='100' font-size='10' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>on plonge</text><text x='80' y='168' font-size='12' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Avant</text><text x='220' y='168' font-size='12' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Après</text><text x='160' y='186' font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Volume de la pierre = 70 − 50 = 20 mL = 20 cm³</text></svg>",
+          "legende": "Le niveau de l'eau monte : la hausse est égale au volume du solide."
+        },
+        { "type": "exemple", "texte": "Un morceau de métal a une masse m = 54 g. Plongé dans l'éprouvette, il fait monter l'eau de 50 mL à 70 mL.\nV = 70 − 50 = 20 mL = 20 cm³.\nρ = m / V = 54 / 20 = 2,7 g/cm³ = 2700 kg/m³.\nD'après le tableau, c'est probablement de l'aluminium." },
+        { "type": "exercice", "enonce": "Un bloc de fer a un volume de 2 L. La masse volumique du fer est 7800 kg/m³. Calculer la masse du bloc.", "solution": "V = 2 L = 2 dm³ = 0,002 m³.\nm = ρ × V = 7800 × 0,002 = 15,6 kg." },
+        { "type": "exercice", "enonce": "Une bouteille contient 1 L d'huile. La masse de l'huile est 0,9 kg. Calculer la masse volumique de l'huile en kg/m³. L'huile est-elle plus dense ou moins dense que l'eau ?", "solution": "V = 1 L = 0,001 m³.\nρ = m / V = 0,9 / 0,001 = 900 kg/m³.\n900 < 1000 : l'huile est moins dense que l'eau." },
+        { "type": "exercice", "enonce": "Un réservoir contient 200 L d'eau. Quelle est la masse de cette eau ?", "solution": "La masse volumique de l'eau est 1 kg/L.\nm = ρ × V = 1 × 200 = 200 kg." }
+      ]
+    },
+    {
+      "id": "sp-6-3",
+      "titre": "La poussée d'Archimède",
+      "blocs": [
+        { "type": "definition", "texte": "Quand un objet est plongé dans un liquide, le liquide exerce sur lui une force verticale dirigée vers le haut : c'est la poussée d'Archimède. On la note Π (lettre grecque pi majuscule), parfois F_A. Elle s'exprime en newtons (N)." },
+        { "type": "exemple", "texte": "On la sent dans la vie courante : un seau plein d'eau paraît plus léger quand on le soulève dans l'eau ; un ballon qu'on enfonce dans l'eau remonte ; on se sent plus léger en nageant dans la mer ou une piscine." },
+        { "type": "regle", "texte": "Les quatre caractéristiques de la poussée d'Archimède :\n1. Point d'application : le centre de gravité du volume de liquide déplacé (pour un objet entièrement immergé et homogène, le centre de l'objet).\n2. Direction : la verticale.\n3. Sens : vers le haut.\n4. Norme : égale au poids du liquide déplacé par l'objet." },
+        { "type": "theoreme", "texte": "Théorème d'Archimède : tout corps plongé dans un liquide reçoit de sa part une poussée verticale, dirigée vers le haut, dont la norme est égale au poids du volume de liquide déplacé." },
+        { "type": "formule", "texte": "Π = ρliquide × Vimmergé × g\n- Π : poussée d'Archimède, en N\n- ρliquide : masse volumique du liquide, en kg/m³\n- Vimmergé : volume de la partie de l'objet qui est dans le liquide, en m³\n- g : 10 N/kg\nSi l'objet est entièrement immergé, Vimmergé est le volume de l'objet." },
+        { "type": "exemple", "texte": "Un objet de 1 L (0,001 m³) entièrement plongé dans l'eau :\nΠ = 1000 × 0,001 × 10 = 10 N.\nChaque litre d'eau déplacé donne donc 10 N de poussée." },
+        {
+          "type": "schema",
+          "titre": "Mesurer la poussée avec un dynamomètre",
+          "svg": "<svg width='320' height='215' viewBox='0 0 320 215' xmlns='http://www.w3.org/2000/svg'><line x1='20' y1='10' x2='140' y2='10' stroke='#1e293b' stroke-width='3'/><line x1='80' y1='10' x2='80' y2='16' stroke='#1e293b' stroke-width='2'/><rect x='65' y='16' width='30' height='60' fill='#e2e8f0' stroke='#1e293b' stroke-width='2'/><line x1='95' y1='28' x2='101' y2='28' stroke='#1e293b' stroke-width='1.5'/><line x1='95' y1='40' x2='101' y2='40' stroke='#1e293b' stroke-width='1.5'/><line x1='95' y1='52' x2='101' y2='52' stroke='#1e293b' stroke-width='1.5'/><line x1='95' y1='64' x2='101' y2='64' stroke='#1e293b' stroke-width='1.5'/><line x1='65' y1='52' x2='95' y2='52' stroke='#dc2626' stroke-width='2.5'/><line x1='80' y1='76' x2='80' y2='100' stroke='#64748b' stroke-width='1.5'/><rect x='65' y='100' width='30' height='34' fill='#94a3b8' stroke='#1e293b' stroke-width='1.5'/><line x1='165' y1='10' x2='285' y2='10' stroke='#1e293b' stroke-width='3'/><line x1='225' y1='10' x2='225' y2='16' stroke='#1e293b' stroke-width='2'/><rect x='210' y='16' width='30' height='60' fill='#e2e8f0' stroke='#1e293b' stroke-width='2'/><line x1='240' y1='28' x2='246' y2='28' stroke='#1e293b' stroke-width='1.5'/><line x1='240' y1='40' x2='246' y2='40' stroke='#1e293b' stroke-width='1.5'/><line x1='240' y1='52' x2='246' y2='52' stroke='#1e293b' stroke-width='1.5'/><line x1='240' y1='64' x2='246' y2='64' stroke='#1e293b' stroke-width='1.5'/><line x1='210' y1='40' x2='240' y2='40' stroke='#dc2626' stroke-width='2.5'/><rect x='176' y='115' width='98' height='65' fill='#bfdbfe'/><path d='M175,100 L175,180 L275,180 L275,100' fill='none' stroke='#1e293b' stroke-width='2'/><line x1='225' y1='76' x2='225' y2='128' stroke='#64748b' stroke-width='1.5'/><rect x='210' y='128' width='30' height='34' fill='#94a3b8' stroke='#1e293b' stroke-width='1.5'/><text x='80' y='198' font-size='12' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Dans l'air : 5 N</text><text x='225' y='198' font-size='12' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Dans l'eau : 3 N</text><text x='160' y='212' font-size='12' font-weight='bold' font-family='sans-serif' fill='#2563eb' text-anchor='middle'>Π = 5 − 3 = 2 N</text></svg>",
+          "legende": "Plongé dans l'eau, l'objet tire moins fort sur le dynamomètre : l'eau le pousse vers le haut."
+        },
+        { "type": "formule", "texte": "Le poids apparent est le poids que l'on lit sur le dynamomètre quand l'objet est dans le liquide :\nPapparent = P − Π\n- P : poids de l'objet dans l'air\n- Π : poussée d'Archimède" },
+        { "type": "exemple", "texte": "Un objet pèse 5 N dans l'air et 3 N dans l'eau.\nΠ = 5 − 3 = 2 N.\nVolume de l'objet (entièrement immergé) : V = Π / (ρ × g) = 2 / (1000 × 10) = 0,0002 m³ = 200 cm³." },
+        { "type": "remarque", "texte": "La poussée d'Archimède dépend de la masse volumique du liquide et du volume immergé. Elle ne dépend pas de la masse de l'objet, ni de la profondeur tant que l'objet est entièrement immergé. Elle existe aussi dans l'air, mais elle est négligeable pour les objets ordinaires." },
+        { "type": "exemple", "texte": "Un bloc de 2 dm³ (0,002 m³) est entièrement immergé.\nDans l'eau douce : Π = 1000 × 0,002 × 10 = 20 N.\nDans l'eau de mer (1030 kg/m³) : Π = 1030 × 0,002 × 10 = 20,6 N.\nLa poussée est un peu plus grande dans l'eau de mer : on y flotte plus facilement." },
+        { "type": "exercice", "enonce": "Un cube de volume 500 cm³ est entièrement plongé dans l'eau. Son poids est P = 13 N. On prend g = 10 N/kg et ρeau = 1000 kg/m³.\n1) Calculer la poussée d'Archimède.\n2) Calculer le poids apparent du cube dans l'eau.", "solution": "1) V = 500 cm³ = 0,0005 m³.\nΠ = ρ × V × g = 1000 × 0,0005 × 10 = 5 N.\n2) Papparent = P − Π = 13 − 5 = 8 N." },
+        { "type": "exercice", "enonce": "Un objet pèse 12 N dans l'air et 9 N lorsqu'il est entièrement plongé dans l'eau. On prend g = 10 N/kg et ρeau = 1000 kg/m³.\n1) Calculer la poussée d'Archimède.\n2) Calculer le volume de l'objet.\n3) Calculer sa masse volumique.", "solution": "1) Π = 12 − 9 = 3 N.\n2) V = Π / (ρ × g) = 3 / (1000 × 10) = 0,0003 m³ = 300 cm³.\n3) m = P / g = 12 / 10 = 1,2 kg.\nρ = m / V = 1,2 / 0,0003 = 4000 kg/m³." },
+        { "type": "exercice", "enonce": "Une pierre pèse 20 N dans l'air et 12 N dans l'eau. Donner les quatre caractéristiques de la poussée d'Archimède qu'elle subit.", "solution": "Π = 20 − 12 = 8 N.\n- Point d'application : le centre de gravité du volume d'eau déplacé (le centre de la pierre).\n- Direction : verticale.\n- Sens : vers le haut.\n- Norme : 8 N." }
+      ]
+    },
+    {
+      "id": "sp-6-4",
+      "titre": "Flottaison des corps",
+      "blocs": [
+        { "type": "definition", "texte": "Un objet plongé dans un liquide est soumis à deux forces verticales : son poids P (vers le bas) et la poussée d'Archimède Π (vers le haut). Ce qui compare ces deux forces décide s'il coule ou s'il flotte." },
+        {
+          "type": "tableau",
+          "titre": "Les trois cas possibles (objet entièrement immergé)",
+          "entetes": ["Comparaison", "Ce qui se passe"],
+          "lignes": [
+            ["Π < P", "L'objet coule : il descend vers le fond."],
+            ["Π > P", "L'objet remonte, puis flotte en partie hors de l'eau."],
+            ["Π = P", "L'objet reste en équilibre, entre deux eaux."]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Coule, flotte, entre deux eaux",
+          "svg": "<svg width='330' height='195' viewBox='0 0 330 195' xmlns='http://www.w3.org/2000/svg'><rect x='11' y='70' width='88' height='80' fill='#bfdbfe'/><rect x='121' y='70' width='88' height='80' fill='#bfdbfe'/><rect x='231' y='70' width='88' height='80' fill='#bfdbfe'/><path d='M10,40 L10,150 L100,150 L100,40' fill='none' stroke='#1e293b' stroke-width='2'/><path d='M120,40 L120,150 L210,150 L210,40' fill='none' stroke='#1e293b' stroke-width='2'/><path d='M230,40 L230,150 L320,150 L320,40' fill='none' stroke='#1e293b' stroke-width='2'/><rect x='40' y='85' width='30' height='30' fill='#78716c' stroke='#1e293b' stroke-width='1.5'/><rect x='150' y='55' width='30' height='30' fill='#a16207' stroke='#1e293b' stroke-width='1.5'/><rect x='260' y='95' width='30' height='30' fill='#94a3b8' stroke='#1e293b' stroke-width='1.5'/><line x1='55' y1='100' x2='55' y2='134' stroke='#dc2626' stroke-width='3'/><polygon points='49,134 61,134 55,146' fill='#dc2626'/><line x1='55' y1='100' x2='55' y2='80' stroke='#2563eb' stroke-width='3'/><polygon points='49,80 61,80 55,70' fill='#2563eb'/><line x1='165' y1='70' x2='165' y2='95' stroke='#dc2626' stroke-width='3'/><polygon points='159,95 171,95 165,107' fill='#dc2626'/><line x1='165' y1='70' x2='165' y2='45' stroke='#2563eb' stroke-width='3'/><polygon points='159,45 171,45 165,33' fill='#2563eb'/><line x1='275' y1='110' x2='275' y2='134' stroke='#dc2626' stroke-width='3'/><polygon points='269,134 281,134 275,146' fill='#dc2626'/><line x1='275' y1='110' x2='275' y2='86' stroke='#2563eb' stroke-width='3'/><polygon points='269,86 281,86 275,74' fill='#2563eb'/><text x='76' y='138' font-size='13' font-weight='bold' font-family='sans-serif' fill='#dc2626'>P</text><text x='76' y='82' font-size='13' font-weight='bold' font-family='sans-serif' fill='#2563eb'>Π</text><text x='186' y='102' font-size='13' font-weight='bold' font-family='sans-serif' fill='#dc2626'>P</text><text x='186' y='44' font-size='13' font-weight='bold' font-family='sans-serif' fill='#2563eb'>Π</text><text x='296' y='138' font-size='13' font-weight='bold' font-family='sans-serif' fill='#dc2626'>P</text><text x='296' y='84' font-size='13' font-weight='bold' font-family='sans-serif' fill='#2563eb'>Π</text><text x='55' y='168' font-size='12' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Coule</text><text x='55' y='184' font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Π &lt; P</text><text x='165' y='168' font-size='12' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Flotte</text><text x='165' y='184' font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Π = P</text><text x='275' y='168' font-size='11' font-weight='bold' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Entre deux eaux</text><text x='275' y='184' font-size='11' font-family='sans-serif' fill='#1e293b' text-anchor='middle'>Π = P</text></svg>",
+          "legende": "Flèche rouge : le poids P. Flèche bleue : la poussée d'Archimède Π."
+        },
+        { "type": "regle", "texte": "Pour un objet plein et homogène, on compare simplement les masses volumiques :\n- ρobjet > ρliquide : l'objet coule.\n- ρobjet < ρliquide : l'objet flotte.\n- ρobjet = ρliquide : l'objet reste entre deux eaux.\nExplication : entièrement immergé, P = ρobjet × V × g et Π = ρliquide × V × g. Le volume V et g sont les mêmes, donc seule la masse volumique décide." },
+        { "type": "formule", "texte": "Quand un objet homogène flotte à la surface, il est en équilibre : Π = P. La fraction de son volume qui est sous l'eau vaut :\nVimmergé / V = ρobjet / ρliquide" },
+        { "type": "exemple", "texte": "- Le fer (7800 kg/m³) coule dans l'eau (1000 kg/m³).\n- Le bois de pin (500 kg/m³) flotte, avec la moitié de son volume sous l'eau : 500 / 1000 = 0,5.\n- La glace (920 kg/m³) flotte aussi : 920 / 1000 = 0,92, donc environ 92 % d'un glaçon est sous l'eau." },
+        { "type": "methode", "texte": "Pour savoir si un objet flotte :\n1. Calculer sa masse volumique ρobjet = m / V.\n2. La comparer à celle du liquide.\n3. Conclure : plus petite, il flotte ; plus grande, il coule.\nOu bien calculer P = m × g et la poussée maximale Π = ρliquide × V × g (objet entièrement immergé), puis comparer P et Π." },
+        { "type": "remarque", "texte": "Pourquoi un bateau en acier flotte-t-il alors que l'acier coule ? Sa coque est creuse : elle contient beaucoup d'air. La masse volumique moyenne du bateau (acier et air ensemble) est plus petite que celle de l'eau, et il déplace un grand volume d'eau. C'est aussi pour cela qu'une pirogue en bois flotte.\nUn sous-marin, lui, remplit ou vide des réservoirs d'eau pour couler, rester entre deux eaux ou remonter." },
+        { "type": "remarque", "texte": "L'eau de mer est plus dense que l'eau douce (1030 kg/m³ contre 1000 kg/m³) : un même objet s'y enfonce un peu moins, et l'on y flotte plus facilement." },
+        { "type": "exercice", "enonce": "Un cube de bois de 10 cm de côté a une masse de 600 g. On prend g = 10 N/kg et ρeau = 1000 kg/m³.\n1) Calculer sa masse volumique. Flotte-t-il dans l'eau ?\n2) Quelle fraction de son volume est sous l'eau ?\n3) Quelle est la valeur de la poussée d'Archimède quand il flotte ?", "solution": "1) V = 10 × 10 × 10 = 1000 cm³. ρ = 600 / 1000 = 0,6 g/cm³ = 600 kg/m³. Comme 600 < 1000, le cube flotte.\n2) Vimmergé / V = 600 / 1000 = 0,6 : 60 % du cube est sous l'eau.\n3) À l'équilibre, Π = P = m × g = 0,6 × 10 = 6 N." },
+        { "type": "exercice", "enonce": "Un bloc de métal a une masse de 3,9 kg et un volume de 0,5 dm³. On prend g = 10 N/kg et ρeau = 1000 kg/m³.\n1) Calculer sa masse volumique. De quel métal s'agit-il probablement (voir le tableau) ?\n2) Calculer la poussée maximale de l'eau sur ce bloc.\n3) Coule-t-il ? Quel est son poids apparent dans l'eau ?", "solution": "1) V = 0,5 dm³ = 0,0005 m³. ρ = 3,9 / 0,0005 = 7800 kg/m³ : c'est du fer (ou de l'acier).\n2) Π = ρeau × V × g = 1000 × 0,0005 × 10 = 5 N.\n3) P = 3,9 × 10 = 39 N. Comme Π < P, le bloc coule.\nPapparent = P − Π = 39 − 5 = 34 N." },
+        { "type": "exercice", "enonce": "Un petit bateau, avec sa charge, a une masse de 2000 kg. On prend g = 10 N/kg et ρeau = 1000 kg/m³.\n1) Quel volume d'eau doit-il déplacer au minimum pour flotter ?\n2) Dans l'eau de mer (1030 kg/m³), ce volume est-il plus grand ou plus petit ? Calculer-le.", "solution": "1) À l'équilibre, Π = P = 2000 × 10 = 20 000 N.\nV = Π / (ρ × g) = 20 000 / (1000 × 10) = 2 m³.\n2) Dans l'eau de mer : V = 20 000 / (1030 × 10) ≈ 1,94 m³. Le volume est un peu plus petit : le bateau s'enfonce moins dans l'eau de mer." }
+      ]
+    }
+  ]
+}
