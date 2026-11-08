@@ -1,0 +1,345 @@
+{
+  "id": "math4-8-symetries",
+  "titre": "Chapitre 8 : Symétrie axiale et symétrie centrale",
+  "lecons": [
+    {
+      "id": "m4-8-1-axiale-point",
+      "titre": "Symétrie axiale : le symétrique d'un point",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Médiatrice d'un segment",
+          "texte": "La médiatrice d'un segment [AB] est la droite perpendiculaire à [AB] qui passe par son milieu.\nTout point de la médiatrice est à la même distance de A et de B."
+        },
+        {
+          "type": "definition",
+          "titre": "Symétrique d'un point par rapport à une droite",
+          "texte": "Soit (d) une droite et A un point qui n'est pas sur (d). Le symétrique de A par rapport à (d) est le point A' tel que (d) soit la médiatrice du segment [AA'].\nLa droite (d) s'appelle l'axe de symétrie.\nSi A est sur (d), son symétrique est A lui-même."
+        },
+        {
+          "type": "schema",
+          "titre": "A et son symétrique A' par rapport à (d)",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='300' height='160' viewBox='0 0 300 160'><line x1='150' y1='10' x2='150' y2='150' stroke='#e11d48' stroke-width='2'/><line x1='80' y1='60' x2='220' y2='60' stroke='currentColor' stroke-width='1.5' stroke-dasharray='4 3'/><path d='M150 52 L158 52 L158 60' fill='none' stroke='currentColor' stroke-width='1.2'/><line x1='115' y1='55' x2='115' y2='65' stroke='currentColor' stroke-width='1.5'/><line x1='185' y1='55' x2='185' y2='65' stroke='currentColor' stroke-width='1.5'/><circle cx='80' cy='60' r='3.5' fill='currentColor'/><circle cx='220' cy='60' r='3.5' fill='currentColor'/><circle cx='150' cy='60' r='3.5' fill='#e11d48'/><text x='70' y='50' font-size='13' fill='currentColor'>A</text><text x='224' y='50' font-size='13' fill='currentColor'>A'</text><text x='138' y='80' font-size='13' fill='currentColor'>H</text><text x='158' y='22' font-size='13' fill='#e11d48'>(d)</text></svg>",
+          "legende": "(d) est perpendiculaire à [AA'] et passe par son milieu H. Les deux petits traits montrent que HA = HA'."
+        },
+        {
+          "type": "methode",
+          "titre": "Construire le symétrique d'un point avec l'équerre et le compas",
+          "texte": "1. Avec l'équerre, trace la perpendiculaire à (d) qui passe par A. Elle coupe (d) en H.\n2. Mesure ou prends au compas la longueur HA.\n3. De l'autre côté de (d), sur la même perpendiculaire, place A' tel que HA' = HA.\n4. Vérifie : (d) est bien perpendiculaire à (AA') et passe par le milieu de [AA']."
+        },
+        {
+          "type": "methode",
+          "titre": "Sur un quadrillage",
+          "texte": "Compte le nombre de carreaux entre A et l'axe, en suivant une ligne du quadrillage perpendiculaire à l'axe. Compte le même nombre de carreaux de l'autre côté de l'axe : tu trouves A'."
+        },
+        {
+          "type": "remarque",
+          "titre": "Les deux sens marchent",
+          "texte": "Si A' est le symétrique de A par rapport à (d), alors A est aussi le symétrique de A' par rapport à (d).\nUn point de l'axe reste à sa place : on dit qu'il est invariant."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Symétrique", "Le point « image » obtenu par la symétrie."],
+            ["Axe de symétrie", "La droite par rapport à laquelle on fait la symétrie."],
+            ["Médiatrice", "Droite perpendiculaire à un segment en son milieu."],
+            ["Perpendiculaire", "Qui forme un angle droit (90°)."],
+            ["Invariant", "Qui ne change pas de place."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "A' est le symétrique de A par rapport à la droite (d). La droite (AA') coupe (d) en H et on mesure AH = 3 cm.\n1) Quelle est la position de (d) par rapport au segment [AA'] ?\n2) Donne les longueurs HA' et AA'.\n3) Quel est le symétrique d'un point B qui est sur (d) ?",
+          "solution": "1) (d) est la médiatrice de [AA'] : elle est perpendiculaire à [AA'] et passe par son milieu H.\n2) H est le milieu de [AA'], donc HA' = HA = 3 cm. Alors AA' = 3 + 3 = 6 cm.\n3) Le symétrique de B est B lui-même, car B est sur l'axe."
+        }
+      ]
+    },
+    {
+      "id": "m4-8-2-axiale-figures",
+      "titre": "Symétrie axiale : figures, propriétés et axes de symétrie",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Tracer le symétrique d'une figure",
+          "texte": "1. Construis le symétrique de chaque point important (les sommets pour un polygone, le centre pour un cercle).\n2. Relie les symétriques dans le même ordre que sur la figure de départ.\n3. Nomme les points avec la même lettre suivie du signe ' (A', B', C'...)."
+        },
+        {
+          "type": "schema",
+          "titre": "Un triangle et son symétrique",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='300' height='150' viewBox='0 0 300 150'><line x1='150' y1='5' x2='150' y2='145' stroke='#e11d48' stroke-width='2'/><line x1='60' y1='25' x2='240' y2='25' stroke='currentColor' stroke-opacity='0.4' stroke-dasharray='4 3'/><line x1='120' y1='120' x2='180' y2='120' stroke='currentColor' stroke-opacity='0.4' stroke-dasharray='4 3'/><line x1='30' y1='95' x2='270' y2='95' stroke='currentColor' stroke-opacity='0.4' stroke-dasharray='4 3'/><polygon points='60,25 120,120 30,95' fill='#e11d48' fill-opacity='0.12' stroke='currentColor' stroke-width='1.5'/><polygon points='240,25 180,120 270,95' fill='#e11d48' fill-opacity='0.12' stroke='currentColor' stroke-width='1.5'/><text x='50' y='20' font-size='13' fill='currentColor'>A</text><text x='116' y='138' font-size='13' fill='currentColor'>B</text><text x='12' y='100' font-size='13' fill='currentColor'>C</text><text x='244' y='20' font-size='13' fill='currentColor'>A'</text><text x='174' y='138' font-size='13' fill='currentColor'>B'</text><text x='274' y='100' font-size='13' fill='currentColor'>C'</text><text x='156' y='16' font-size='13' fill='#e11d48'>(d)</text></svg>",
+          "legende": "Le triangle A'B'C' est le symétrique de ABC par rapport à (d). Il a exactement la même forme et la même taille, mais il est « retourné » comme dans un miroir."
+        },
+        {
+          "type": "regle",
+          "titre": "Propriétés de la symétrie axiale",
+          "texte": "1. Le symétrique d'une droite est une droite. Des points alignés ont des symétriques alignés.\n2. Le symétrique d'un segment est un segment de même longueur : A'B' = AB.\n3. Le symétrique d'un angle est un angle de même mesure.\n4. Le symétrique d'une figure a la même aire et le même périmètre que la figure.\nLe symétrique d'un cercle est un cercle de même rayon. Son centre est le symétrique du centre du premier cercle."
+        },
+        {
+          "type": "definition",
+          "titre": "Axe de symétrie d'une figure",
+          "texte": "Une droite (d) est un axe de symétrie d'une figure quand le symétrique de la figure par rapport à (d) est la figure elle-même.\nEn pratique : si on plie la figure le long de (d), les deux moitiés se superposent exactement."
+        },
+        {
+          "type": "tableau",
+          "titre": "Nombre d'axes de symétrie de figures usuelles",
+          "entetes": ["Figure", "Nombre d'axes", "Où sont les axes ?"],
+          "lignes": [
+            ["Triangle quelconque", "0", "Aucun"],
+            ["Triangle isocèle", "1", "La médiatrice de la base"],
+            ["Triangle équilatéral", "3", "Les trois médiatrices des côtés"],
+            ["Rectangle (non carré)", "2", "Les médiatrices des côtés"],
+            ["Losange (non carré)", "2", "Les deux diagonales"],
+            ["Carré", "4", "Les 2 diagonales et les 2 médiatrices des côtés"],
+            ["Parallélogramme quelconque", "0", "Aucun"],
+            ["Trapèze isocèle", "1", "La médiatrice des bases"],
+            ["Cercle", "Une infinité", "Toute droite passant par le centre"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Le miroir inverse la gauche et la droite",
+          "texte": "Dans la symétrie axiale, une figure et son symétrique ne se superposent pas en les glissant sur la feuille : il faut retourner la feuille (comme un pli).\nExemple : la lettre « R » devient « Я » dans un miroir."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Aligné", "Sur une même droite."],
+            ["Périmètre", "Longueur du tour d'une figure."],
+            ["Se superposer", "Se placer exactement l'une sur l'autre."],
+            ["Une infinité", "Un nombre qu'on ne peut pas finir de compter."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Le triangle A'B'C' est le symétrique du triangle ABC par rapport à une droite (d). On sait que AB = 4 cm, BC = 5 cm et que l'angle ABC mesure 70°.\n1) Donne A'B', B'C' et la mesure de l'angle A'B'C'.\n2) Combien d'axes de symétrie ont : un rectangle qui n'est pas un carré, un triangle équilatéral, un parallélogramme quelconque ?",
+          "solution": "1) La symétrie axiale conserve les longueurs et les angles.\nA'B' = AB = 4 cm. B'C' = BC = 5 cm. L'angle A'B'C' mesure 70°.\n2) Le rectangle a 2 axes de symétrie. Le triangle équilatéral en a 3. Le parallélogramme quelconque n'en a aucun."
+        }
+      ]
+    },
+    {
+      "id": "m4-8-3-centrale-point",
+      "titre": "Symétrie centrale : le symétrique d'un point",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Symétrique d'un point par rapport à un point",
+          "texte": "Soit O un point et M un point différent de O. Le symétrique de M par rapport à O est le point M' tel que O soit le milieu du segment [MM'].\nLe point O s'appelle le centre de symétrie.\nLe symétrique de O est O lui-même."
+        },
+        {
+          "type": "schema",
+          "titre": "M et son symétrique M' par rapport à O",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='300' height='160' viewBox='0 0 300 160'><line x1='80' y1='40' x2='220' y2='120' stroke='currentColor' stroke-width='1.5'/><line x1='113' y1='63' x2='117' y2='57' stroke='currentColor' stroke-width='1.5'/><line x1='183' y1='104' x2='187' y2='96' stroke='currentColor' stroke-width='1.5'/><circle cx='80' cy='40' r='3.5' fill='currentColor'/><circle cx='220' cy='120' r='3.5' fill='currentColor'/><circle cx='150' cy='80' r='4.5' fill='#e11d48'/><text x='68' y='36' font-size='13' fill='currentColor'>M</text><text x='226' y='134' font-size='13' fill='currentColor'>M'</text><text x='158' y='72' font-size='13' fill='#e11d48'>O</text></svg>",
+          "legende": "M, O et M' sont alignés et OM = OM'. O est le milieu de [MM']."
+        },
+        {
+          "type": "methode",
+          "titre": "Construire le symétrique d'un point par rapport à O",
+          "texte": "1. Trace la droite (MO).\n2. Mets la pointe du compas sur O et prends l'écartement OM.\n3. Reporte cet écartement sur la droite (MO), de l'autre côté de O. Tu obtiens M'.\n4. Vérifie : O est bien le milieu de [MM']."
+        },
+        {
+          "type": "methode",
+          "titre": "Sur un quadrillage",
+          "texte": "Pour aller de M à O, compte les carreaux à droite ou à gauche, puis en haut ou en bas. Refais exactement le même déplacement en partant de O : tu arrives en M'."
+        },
+        {
+          "type": "remarque",
+          "titre": "C'est un demi-tour",
+          "texte": "La symétrie centrale revient à faire tourner la figure d'un demi-tour (180°) autour de O.\nContrairement à la symétrie axiale, on n'a pas besoin de retourner la feuille : un demi-tour sur la feuille suffit.\nLes points M et M' sont toujours alignés avec O."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Centre de symétrie", "Le point O autour duquel on fait la symétrie."],
+            ["Milieu", "Point qui partage un segment en deux parties égales."],
+            ["Demi-tour", "Rotation de 180°."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) M' est le symétrique de M par rapport à O et OM = 4 cm. Donne OM' et MM'. Que dire des points M, O et M' ?\n2) Sur une droite graduée, O a pour abscisse 2 et M a pour abscisse 5. Quelle est l'abscisse de M' ?",
+          "solution": "1) O est le milieu de [MM'], donc OM' = OM = 4 cm. MM' = 4 + 4 = 8 cm. Les points M, O et M' sont alignés.\n2) M est à 3 unités à droite de O (5 − 2 = 3). M' est à 3 unités à gauche de O : 2 − 3 = −1. L'abscisse de M' est −1.\n(Vérification : le milieu de 5 et −1 est (5 + (−1)) ÷ 2 = 2.)"
+        }
+      ]
+    },
+    {
+      "id": "m4-8-4-centrale-figures",
+      "titre": "Symétrie centrale : le symétrique d'une figure",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Tracer le symétrique d'une figure par rapport à O",
+          "texte": "1. Construis le symétrique de chaque point important : sommets d'un polygone, extrémités d'un segment, centre d'un cercle.\n2. Relie ces symétriques dans le même ordre que sur la figure de départ."
+        },
+        {
+          "type": "schema",
+          "titre": "Un triangle et son symétrique par rapport à O",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='300' height='160' viewBox='0 0 300 160'><line x1='90' y1='30' x2='210' y2='130' stroke='currentColor' stroke-opacity='0.4' stroke-dasharray='4 3'/><line x1='60' y1='90' x2='240' y2='70' stroke='currentColor' stroke-opacity='0.4' stroke-dasharray='4 3'/><line x1='120' y1='110' x2='180' y2='50' stroke='currentColor' stroke-opacity='0.4' stroke-dasharray='4 3'/><polygon points='90,30 60,90 120,110' fill='#e11d48' fill-opacity='0.12' stroke='currentColor' stroke-width='1.5'/><polygon points='210,130 240,70 180,50' fill='#e11d48' fill-opacity='0.12' stroke='currentColor' stroke-width='1.5'/><circle cx='150' cy='80' r='4.5' fill='#e11d48'/><text x='82' y='26' font-size='13' fill='currentColor'>A</text><text x='44' y='96' font-size='13' fill='currentColor'>B</text><text x='118' y='126' font-size='13' fill='currentColor'>C</text><text x='214' y='146' font-size='13' fill='currentColor'>A'</text><text x='246' y='74' font-size='13' fill='currentColor'>B'</text><text x='176' y='44' font-size='13' fill='currentColor'>C'</text><text x='154' y='64' font-size='13' fill='#e11d48'>O</text></svg>",
+          "legende": "Les droites (AA'), (BB') et (CC') passent toutes par O. Le triangle A'B'C' est le triangle ABC après un demi-tour autour de O."
+        },
+        {
+          "type": "regle",
+          "titre": "Symétrique de quelques figures par rapport à O",
+          "texte": "Segment : le symétrique de [AB] est le segment [A'B'], avec A'B' = AB. Les droites (AB) et (A'B') sont parallèles.\nDroite : le symétrique d'une droite (d) est une droite (d') parallèle à (d). Si O est sur (d), alors (d') = (d).\nDemi-droite : le symétrique est une demi-droite de sens opposé, portée par une droite parallèle.\nCercle : le symétrique d'un cercle de centre I et de rayon r est un cercle de même rayon r, dont le centre I' est le symétrique de I. Si I = O, le cercle est son propre symétrique.\nTriangle : le symétrique de ABC est le triangle A'B'C', avec les mêmes longueurs et les mêmes angles."
+        },
+        {
+          "type": "exemple",
+          "titre": "Un segment et un cercle",
+          "texte": "Soit [AB] un segment de 6 cm. Son symétrique par rapport à O est [A'B'] avec A'B' = 6 cm, et (A'B') est parallèle à (AB).\nSoit un cercle de centre I et de rayon 3 cm. Son symétrique par rapport à O est un cercle de rayon 3 cm et de centre I', symétrique de I. Pour le tracer, il suffit de construire I' puis de tracer un cercle de rayon 3 cm autour de I'."
+        },
+        {
+          "type": "remarque",
+          "titre": "Les lettres avec le signe '",
+          "texte": "On lit A' « A prime » ou « A prime ». Le symétrique de A' par rapport au même centre O est A.\nSi on fait deux fois de suite la symétrie par rapport à O, on revient à la position de départ."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Parallèles", "Deux droites qui ne se coupent jamais."],
+            ["Demi-droite", "Droite qui commence en un point et continue sans fin d'un seul côté."],
+            ["Rayon", "Distance entre le centre d'un cercle et un point du cercle."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Soit O un point, [AB] un segment avec AB = 5 cm, et un cercle de centre I et de rayon 2 cm.\n1) Quel est le symétrique de [AB] par rapport à O ? Que valent sa longueur et sa position par rapport à (AB) ?\n2) Quel est le symétrique du cercle par rapport à O ?\n3) Que se passe-t-il si I = O ?",
+          "solution": "1) Le symétrique de [AB] est le segment [A'B'], avec A'B' = 5 cm. Les droites (A'B') et (AB) sont parallèles.\n2) C'est un cercle de rayon 2 cm, de centre I' symétrique de I par rapport à O.\n3) Si I = O, alors I' = O = I : le cercle est son propre symétrique."
+        }
+      ]
+    },
+    {
+      "id": "m4-8-5-centrale-proprietes",
+      "titre": "Symétrie centrale : propriétés et centre de symétrie",
+      "blocs": [
+        {
+          "type": "regle",
+          "titre": "Propriétés de la symétrie centrale",
+          "texte": "1. Elle conserve l'alignement : des points alignés ont des symétriques alignés.\n2. Elle conserve les longueurs : A'B' = AB.\n3. Elle conserve les angles.\n4. Elle conserve les aires et les périmètres.\n5. Le symétrique d'une droite est une droite parallèle."
+        },
+        {
+          "type": "definition",
+          "titre": "Centre de symétrie d'une figure",
+          "texte": "Un point O est un centre de symétrie d'une figure quand le symétrique de la figure par rapport à O est la figure elle-même.\nEn pratique : si on fait un demi-tour de la figure autour de O, elle retombe exactement sur elle-même."
+        },
+        {
+          "type": "schema",
+          "titre": "Le parallélogramme et son centre",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='300' height='150' viewBox='0 0 300 150'><polygon points='40,120 100,30 260,30 200,120' fill='#e11d48' fill-opacity='0.12' stroke='currentColor' stroke-width='1.5'/><line x1='40' y1='120' x2='260' y2='30' stroke='currentColor' stroke-opacity='0.6' stroke-dasharray='4 3'/><line x1='100' y1='30' x2='200' y2='120' stroke='currentColor' stroke-opacity='0.6' stroke-dasharray='4 3'/><circle cx='150' cy='75' r='4.5' fill='#e11d48'/><text x='28' y='134' font-size='13' fill='currentColor'>A</text><text x='94' y='24' font-size='13' fill='currentColor'>B</text><text x='262' y='24' font-size='13' fill='currentColor'>C</text><text x='204' y='136' font-size='13' fill='currentColor'>D</text><text x='132' y='76' font-size='13' text-anchor='end' fill='#e11d48'>O</text></svg>",
+          "legende": "Les diagonales [AC] et [BD] se coupent en O. O est le milieu de chacune : C est le symétrique de A, et D est le symétrique de B, par rapport à O."
+        },
+        {
+          "type": "tableau",
+          "titre": "Centres de symétrie de figures usuelles",
+          "entetes": ["Figure", "Centre de symétrie"],
+          "lignes": [
+            ["Segment", "Son milieu"],
+            ["Cercle", "Son centre"],
+            ["Parallélogramme", "Le point d'intersection des diagonales"],
+            ["Rectangle, losange, carré", "Le point d'intersection des diagonales"],
+            ["Triangle", "Aucun"],
+            ["Trapèze isocèle", "Aucun"]
+          ]
+        },
+        {
+          "type": "exemple",
+          "titre": "Une conséquence pour les parallélogrammes",
+          "texte": "ABCD est un parallélogramme de centre O. La symétrie centrale de centre O envoie A sur C et B sur D. Donc le segment [AB] a pour symétrique le segment [CD].\nOn en déduit : CD = AB, et (CD) est parallèle à (AB).\nDe la même façon, AD = BC."
+        },
+        {
+          "type": "remarque",
+          "titre": "Axe et centre, ce n'est pas la même chose",
+          "texte": "Une figure peut avoir un axe de symétrie sans avoir de centre : le triangle isocèle, le trapèze isocèle.\nUne figure peut avoir un centre sans avoir d'axe : le parallélogramme quelconque.\nUne figure peut avoir les deux : le rectangle, le losange, le carré, le cercle.\nPour les lettres : H et O ont un axe et un centre, N et S ont un centre mais pas d'axe, A a un axe mais pas de centre."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Diagonale", "Segment qui relie deux sommets non voisins d'un polygone."],
+            ["Intersection", "Point où deux lignes se coupent."],
+            ["Conserver", "Ne pas changer."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "ABCD est un parallélogramme de centre O, avec AB = 5 cm et BC = 3 cm.\n1) Quel est le symétrique de A par rapport à O ? et celui de B ?\n2) Quel est le symétrique du segment [AB] ? Déduis-en CD et la position de (CD) par rapport à (AB).\n3) Donne AD.",
+          "solution": "1) Le symétrique de A est C. Le symétrique de B est D.\n2) Le symétrique de [AB] est [CD]. La symétrie centrale conserve les longueurs : CD = AB = 5 cm. Les droites (CD) et (AB) sont parallèles.\n3) De même, le symétrique de [BC] est [DA], donc AD = BC = 3 cm."
+        }
+      ]
+    },
+    {
+      "id": "m4-8-6-comparer-problemes",
+      "titre": "Comparer les deux symétries, repère et problèmes",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Symétrie axiale et symétrie centrale",
+          "entetes": ["", "Symétrie axiale", "Symétrie centrale"],
+          "lignes": [
+            ["Élément de départ", "Une droite (l'axe)", "Un point (le centre)"],
+            ["Le segment [MM']", "A pour médiatrice l'axe", "A pour milieu le centre O"],
+            ["Points invariants", "Tous les points de l'axe", "Seulement le centre O"],
+            ["Image d'une droite", "Une droite, pas forcément parallèle", "Une droite toujours parallèle"],
+            ["Longueurs, angles, aires", "Conservés", "Conservés"],
+            ["Effet sur la figure", "Retournement (miroir)", "Demi-tour de 180°"]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Rédiger une construction",
+          "texte": "1. Dis quel point ou quelle figure tu construis et par rapport à quoi.\n2. Écris la définition utilisée : « (d) est la médiatrice de [AA'] » ou « O est le milieu de [MM'] ».\n3. Fais la construction soigneusement et marque les codages (angle droit, segments égaux).\n4. Pour une figure, construis d'abord les symétriques des points importants."
+        },
+        {
+          "type": "schema",
+          "titre": "Symétries dans un repère",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='300' height='180' viewBox='0 0 300 180'><line x1='10' y1='90' x2='290' y2='90' stroke='currentColor' stroke-width='1.5'/><line x1='150' y1='5' x2='150' y2='175' stroke='currentColor' stroke-width='1.5'/><rect x='75' y='40' width='150' height='100' fill='none' stroke='currentColor' stroke-opacity='0.4' stroke-dasharray='4 3'/><circle cx='225' cy='40' r='4' fill='#e11d48'/><circle cx='75' cy='140' r='4' fill='currentColor'/><circle cx='225' cy='140' r='4' fill='currentColor'/><circle cx='75' cy='40' r='4' fill='currentColor'/><text x='232' y='36' font-size='11' fill='#e11d48'>A(3 ; 2)</text><text x='70' y='156' font-size='11' text-anchor='end' fill='currentColor'>A'(−3 ; −2)</text><text x='232' y='156' font-size='11' fill='currentColor'>B(3 ; −2)</text><text x='70' y='36' font-size='11' text-anchor='end' fill='currentColor'>C(−3 ; 2)</text><text x='140' y='104' font-size='11' text-anchor='end' fill='currentColor'>O</text></svg>",
+          "legende": "A' est le symétrique de A par rapport à l'origine O. B est son symétrique par rapport à l'axe des abscisses. C est son symétrique par rapport à l'axe des ordonnées."
+        },
+        {
+          "type": "regle",
+          "titre": "Symétriques d'un point A(x ; y) dans un repère",
+          "texte": "Par rapport à l'origine O : on change les deux signes. A'(−x ; −y).\nPar rapport à l'axe des abscisses (l'axe horizontal) : seul le signe de y change. B(x ; −y).\nPar rapport à l'axe des ordonnées (l'axe vertical) : seul le signe de x change. C(−x ; y)."
+        },
+        {
+          "type": "exemple",
+          "titre": "Un petit problème",
+          "texte": "ABC est un triangle tel que AB = 6 cm, BC = 4 cm et l'angle ABC = 50°. On construit son symétrique A'B'C' par rapport à un point O.\nA'B' = 6 cm, B'C' = 4 cm et l'angle A'B'C' = 50°, car la symétrie centrale conserve les longueurs et les angles.\nLes droites (A'B') et (AB) sont parallèles. Le périmètre et l'aire de A'B'C' sont les mêmes que ceux de ABC."
+        },
+        {
+          "type": "remarque",
+          "titre": "Pour les figures du BEPC",
+          "texte": "On te demande souvent de construire le symétrique d'une figure, puis de citer la propriété utilisée pour justifier une longueur ou un angle.\nÉcris toujours la phrase : « La symétrie axiale (ou centrale) conserve les longueurs et les angles. »"
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Abscisse", "Le premier nombre d'un point dans un repère (position horizontale)."],
+            ["Ordonnée", "Le deuxième nombre d'un point dans un repère (position verticale)."],
+            ["Origine", "Le point O de coordonnées (0 ; 0)."],
+            ["Codage", "Les petits signes sur une figure pour montrer les angles droits et les longueurs égales."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Dans un repère, on donne le point A(−2 ; 5). Donne les coordonnées :\n1) de son symétrique par rapport à l'origine O ;\n2) de son symétrique par rapport à l'axe des abscisses ;\n3) de son symétrique par rapport à l'axe des ordonnées.",
+          "solution": "1) On change les deux signes : (2 ; −5).\n2) Seul le signe de l'ordonnée change : (−2 ; −5).\n3) Seul le signe de l'abscisse change : (2 ; 5)."
+        }
+      ]
+    }
+  ]
+}
