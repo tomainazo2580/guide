@@ -5,13 +5,38 @@ const SEL_SECRET = "BEPC2026MDG";
 const CLASSES = [
   { id: '6e',   nom: '6ème',      disponible: false },
   { id: '5e',   nom: '5ème',      disponible: false },
-  { id: '4e',   nom: '4ème',      disponible: false },
+  { id: '4e',   nom: '4ème',      disponible: true  },
   { id: '3e',   nom: 'Troisième', disponible: true  },
   { id: '2nd',  nom: 'Seconde',   disponible: false },
   { id: '1ere', nom: 'Première',  disponible: false },
   { id: 'tle',  nom: 'Terminale', disponible: false }
 ];
 const MATIERES_PAR_CLASSE = {
+  // 4ème : seules les Mathématiques sont ouvertes (12 chapitres, gratuits).
+  // Les autres matières restent « Bientôt disponible ».
+  '4e': [
+    { id: 'malagasy',           code: 'MALG', nom: 'Malagasy',           icone: '📚', disponible: false },
+    { id: 'francais',           code: 'FRAN', nom: 'Français',           icone: '📖', disponible: false },
+    { id: 'anglais',            code: 'ANGL', nom: 'Anglais',            icone: '🌍', disponible: false },
+    { id: 'mathematiques',      code: 'MATH', nom: 'Mathématiques',      icone: '📐', disponible: true,  fichiers: [
+      './data/4e/mathematiques/composante-1.json',
+      './data/4e/mathematiques/composante-2.json',
+      './data/4e/mathematiques/composante-3.json',
+      './data/4e/mathematiques/composante-4.json',
+      './data/4e/mathematiques/composante-5.json',
+      './data/4e/mathematiques/composante-6.json',
+      './data/4e/mathematiques/composante-7.json',
+      './data/4e/mathematiques/composante-8.json',
+      './data/4e/mathematiques/composante-9.json',
+      './data/4e/mathematiques/composante-10.json',
+      './data/4e/mathematiques/composante-11.json',
+      './data/4e/mathematiques/composante-12.json'
+    ] },
+    { id: 'svt',                code: 'SVT',  nom: 'SVT',                icone: '🔬', disponible: false },
+    { id: 'sciences-physiques', code: 'SPHY', nom: 'Sciences Physiques', icone: '⚛️', disponible: false },
+    { id: 'histoire',           code: 'HIST', nom: 'Histoire',           icone: '🏛️', disponible: false },
+    { id: 'geographie',         code: 'GEOG', nom: 'Géographie',         icone: '🗺️', disponible: false }
+  ],
   '3e': [
     { id: 'malagasy',           code: 'MALG', nom: 'Malagasy',           icone: '📚', disponible: false, fichier: './data/3e/malagasy.json' },
     { id: 'francais',           code: 'FRAN', nom: 'Français',           icone: '📖', disponible: false, fichiers: [
@@ -111,12 +136,30 @@ const MATIERES_PAR_CLASSE = {
   ]
 };
 // Matières dont les chapitres sont numérotés automatiquement selon leur position
-// (« Chapitre 1 : ... », « Chapitre 2 : ... »), pour le cours et pour les exercices
+// (« Chapitre 1 : ... », « Chapitre 2 : ... »), pour le cours et pour les exercices.
+// La Maths 4ème n'est pas ici : ses titres contiennent déjà « Chapitre N : ».
 const MATIERES_NUMEROTEES = ['svt', 'sciences-physiques'];
 // ============================================
 // EXERCICES — SUJETS ET CORRIGÉS (section indépendante, évolutive)
 // ============================================
 const EXERCICES_PAR_CLASSE = {
+  '4e': [
+    { id: 'mathematiques', nom: 'Mathématiques', icone: '📐', disponible: true,
+      fichiers: [
+        './data/4e/exercices/exercices-mathematiques.json',
+        './data/4e/exercices/exercices-mathematiques-2.json',
+        './data/4e/exercices/exercices-mathematiques-3.json',
+        './data/4e/exercices/exercices-mathematiques-4.json',
+        './data/4e/exercices/exercices-mathematiques-5.json',
+        './data/4e/exercices/exercices-mathematiques-6.json',
+        './data/4e/exercices/exercices-mathematiques-7.json',
+        './data/4e/exercices/exercices-mathematiques-8.json',
+        './data/4e/exercices/exercices-mathematiques-9.json',
+        './data/4e/exercices/exercices-mathematiques-10.json',
+        './data/4e/exercices/exercices-mathematiques-11.json',
+        './data/4e/exercices/exercices-mathematiques-12.json'
+      ] }
+  ],
   '3e': [
     { id: 'mathematiques', nom: 'Mathématiques', icone: '📐', disponible: true,
       fichier: './data/3e/exercices/exercices-mathematiques.json' },
@@ -179,15 +222,18 @@ const EXERCICES_PAR_CLASSE = {
 // ============================================
 // ACCÈS PAYANT — matières payantes, chapitre premium, alphabet des codes
 // (Malagasy : gratuit, donc absent de ces listes)
+// La 4ème est entièrement gratuite : aucune matière payante.
 // ============================================
 const ALPHABET_CODE = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789';
 const MATIERES_PAYANTES = {
+  '4e': [],
   '3e': ['MATH', 'SVT', 'SPHY'],
   'tle': []
 };
 // Position (à partir de 1) du chapitre payant dans la liste des chapitres de chaque matière
 // SVT : le chapitre premium « Reproduction humaine » est en position 6
 // Sciences Physiques : le chapitre premium « Électricité » est en position 4
+// Ces réglages ne comptent que pour une classe qui a des matières payantes (la 3ème).
 const CHAPITRE_PREMIUM = {
   'mathematiques': 4,
   'sciences-physiques': 4,
@@ -535,6 +581,8 @@ function ouvrirMatiere() {
 // ============================================
 function estChapitreVerrouille(matiere, comp) {
   if (!matiere || !comp || comp.erreurChargement) return false;
+  // Une matière qui n'est pas payante dans cette classe (ex. toute la 4ème) n'a jamais de chapitre premium
+  if ((MATIERES_PAYANTES[etat.classe] || []).indexOf(matiere.code) === -1) return false;
   if (estMatiereDebloquee(etat.classe, matiere.code)) return false;
   const position = CHAPITRE_PREMIUM[matiere.id];
   if (!position) return false;
@@ -1047,6 +1095,7 @@ function niveauPayantExercice(ex) {
 }
 // Gère un fichier unique (fichier) OU plusieurs fichiers (fichiers) réunis en une seule liste.
 // Si « ordre » est donné, les chapitres sont rangés dans cet ordre.
+// Pour les matières de MATIERES_NUMEROTEES (SVT, Sciences Physiques), les titres sont numérotés.
 async function recupererDonneesExercices(classeId, matiere) {
   const cleCache = 'exo-' + classeId + '-' + matiere.id;
   if (etat.cache[cleCache]) return etat.cache[cleCache];
@@ -1076,6 +1125,9 @@ async function recupererDonneesExercices(classeId, matiere) {
           .map((c, i) => ({ c: c, i: i }))
           .sort((a, b) => (rang(a.c.id) - rang(b.c.id)) || (a.i - b.i))
           .map(x => x.c);
+      }
+      if (MATIERES_NUMEROTEES.indexOf(matiere.id) !== -1) {
+        numeroterChapitres(chapitres);
       }
       data = { matiere: matiere.nom, chapitres: chapitres };
     } else {
