@@ -1,0 +1,488 @@
+{
+  "id": "math4-12-volumes",
+  "titre": "Chapitre 12 : Agrandissement, pyramide, cône et volumes",
+  "lecons": [
+    {
+      "id": "math4-12-1-agrandissement",
+      "titre": "Agrandissement et réduction",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Agrandir ou réduire une figure",
+          "texte": "Agrandir ou réduire une figure, c'est multiplier toutes ses longueurs par un même nombre positif k, appelé le rapport.\n\n• Si k > 1, c'est un agrandissement.\n• Si 0 < k < 1, c'est une réduction.\n• Si k = 1, la figure ne change pas."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Agrandissement", "Figure plus grande, de même forme que la figure de départ"],
+            ["Réduction", "Figure plus petite, de même forme que la figure de départ"],
+            ["Rapport k", "Nombre par lequel on multiplie toutes les longueurs"],
+            ["Conserver", "Ne pas changer"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Calculer une longueur ou le rapport",
+          "texte": "longueur nouvelle = k × longueur de départ\n\nPour trouver k : k = longueur nouvelle ÷ longueur de départ"
+        },
+        {
+          "type": "exemple",
+          "titre": "Un agrandissement",
+          "texte": "Un rectangle mesure 4 cm sur 6 cm. On l'agrandit avec k = 3.\nNouvelle largeur : 4 × 3 = 12 cm.\nNouvelle longueur : 6 × 3 = 18 cm."
+        },
+        {
+          "type": "exemple",
+          "titre": "Une réduction",
+          "texte": "Un segment mesure 20 cm. On le réduit avec k = 0,5.\nNouvelle longueur : 20 × 0,5 = 10 cm."
+        },
+        {
+          "type": "exemple",
+          "titre": "Trouver le rapport",
+          "texte": "Une photo de 10 cm de large est agrandie. Elle mesure maintenant 25 cm de large.\nk = 25 ÷ 10 = 2,5."
+        },
+        {
+          "type": "schema",
+          "titre": "Un agrandissement de rapport 2",
+          "svg": "<svg width='220' height='120' viewBox='0 0 220 120' xmlns='http://www.w3.org/2000/svg'><rect x='15' y='60' width='40' height='30' fill='#e11d48' fill-opacity='0.15' stroke='currentColor' stroke-width='2'/><rect x='85' y='30' width='80' height='60' fill='#e11d48' fill-opacity='0.15' stroke='currentColor' stroke-width='2'/><text x='35' y='54' text-anchor='middle' font-size='11' fill='currentColor'>4 cm</text><text x='11' y='79' text-anchor='end' font-size='11' fill='currentColor'>3 cm</text><text x='125' y='24' text-anchor='middle' font-size='11' fill='currentColor'>8 cm</text><text x='170' y='64' text-anchor='start' font-size='11' fill='currentColor'>6 cm</text><text x='70' y='79' text-anchor='middle' font-size='12' fill='#e11d48'>× 2</text></svg>",
+          "legende": "Toutes les longueurs sont multipliées par 2 : 4 cm devient 8 cm et 3 cm devient 6 cm."
+        },
+        {
+          "type": "theoreme",
+          "titre": "Les angles ne changent pas",
+          "texte": "Dans un agrandissement ou une réduction, les angles gardent la même mesure. La figure agrandie ou réduite a donc la même forme que la figure de départ.\n\nUn triangle rectangle reste rectangle, un carré reste un carré."
+        },
+        {
+          "type": "exemple",
+          "titre": "Un triangle rectangle agrandi",
+          "texte": "Le triangle de côtés 3 cm, 4 cm et 5 cm est rectangle (3² + 4² = 9 + 16 = 25 = 5²).\nOn l'agrandit avec k = 2 : les côtés deviennent 6 cm, 8 cm et 10 cm.\nOn vérifie : 6² + 8² = 36 + 64 = 100 = 10². Il est toujours rectangle."
+        },
+        {
+          "type": "remarque",
+          "titre": "Le même k pour toutes les longueurs",
+          "texte": "Le rapport k doit être le même pour toutes les longueurs. Un rectangle de 4 cm sur 6 cm qui devient un rectangle de 8 cm sur 9 cm n'est pas un agrandissement : 8 ÷ 4 = 2 mais 9 ÷ 6 = 1,5."
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. Un rectangle mesure 12 cm sur 8 cm. On le réduit avec k = 0,25. Calcule ses nouvelles dimensions.\n2. Une photo de 9 cm de large est agrandie à 27 cm de large. Quel est le rapport k ?\n3. Un triangle a des côtés de 6 cm, 8 cm et 10 cm. On le réduit avec k = 0,5. Donne les nouveaux côtés.",
+          "solution": "1. 12 × 0,25 = 3 cm et 8 × 0,25 = 2 cm. Le nouveau rectangle mesure 3 cm sur 2 cm.\n\n2. k = 27 ÷ 9 = 3.\n\n3. 6 × 0,5 = 3 cm ; 8 × 0,5 = 4 cm ; 10 × 0,5 = 5 cm."
+        }
+      ]
+    },
+    {
+      "id": "math4-12-2-aires-volumes",
+      "titre": "Effet sur les aires et les volumes",
+      "blocs": [
+        {
+          "type": "theoreme",
+          "titre": "Longueurs, aires et volumes",
+          "texte": "Dans un agrandissement ou une réduction de rapport k :\n• les longueurs sont multipliées par k ;\n• les aires sont multipliées par k² ;\n• les volumes sont multipliés par k³."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Aire", "Mesure de la surface d'une figure (en cm², m²...)"],
+            ["Volume", "Mesure de l'espace occupé par un solide (en cm³, m³...)"],
+            ["Quotient", "Résultat d'une division"]
+          ]
+        },
+        {
+          "type": "formule",
+          "titre": "À retenir",
+          "texte": "aire nouvelle = k² × aire de départ\nvolume nouveau = k³ × volume de départ"
+        },
+        {
+          "type": "tableau",
+          "titre": "Quelques rapports",
+          "entetes": ["Rapport k", "Longueurs", "Aires", "Volumes"],
+          "lignes": [
+            ["2", "× 2", "× 4", "× 8"],
+            ["3", "× 3", "× 9", "× 27"],
+            ["0,5", "× 0,5", "× 0,25", "× 0,125"],
+            ["10", "× 10", "× 100", "× 1 000"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Côté × 2, aire × 4",
+          "svg": "<svg width='220' height='135' viewBox='0 0 220 135' xmlns='http://www.w3.org/2000/svg'><rect x='15' y='70' width='30' height='30' fill='#e11d48' fill-opacity='0.15' stroke='currentColor' stroke-width='2'/><rect x='95' y='20' width='80' height='80' fill='#e11d48' fill-opacity='0.15' stroke='currentColor' stroke-width='2'/><line x1='135' y1='20' x2='135' y2='100' stroke='currentColor' stroke-width='1.5'/><line x1='95' y1='60' x2='175' y2='60' stroke='currentColor' stroke-width='1.5'/><text x='30' y='114' text-anchor='middle' font-size='11' fill='currentColor'>côté 1</text><text x='30' y='127' text-anchor='middle' font-size='11' fill='currentColor'>aire 1</text><text x='135' y='114' text-anchor='middle' font-size='11' fill='currentColor'>côté 2</text><text x='135' y='127' text-anchor='middle' font-size='11' fill='currentColor'>aire 4</text></svg>",
+          "legende": "Le grand carré contient 4 petits carrés : quand le côté est multiplié par 2, l'aire est multipliée par 4."
+        },
+        {
+          "type": "exemple",
+          "titre": "Une aire agrandie",
+          "texte": "Un carré de côté 3 cm a pour aire 3 × 3 = 9 cm². On l'agrandit avec k = 2.\nNouveau côté : 6 cm. Nouvelle aire : 6 × 6 = 36 cm².\nAvec la règle : 9 × 2² = 9 × 4 = 36 cm². On retrouve le même résultat."
+        },
+        {
+          "type": "exemple",
+          "titre": "Un volume agrandi",
+          "texte": "Un cube d'arête 2 cm a pour volume 2 × 2 × 2 = 8 cm³. On l'agrandit avec k = 3.\nNouvelle arête : 6 cm. Nouveau volume : 6 × 6 × 6 = 216 cm³.\nAvec la règle : 8 × 3³ = 8 × 27 = 216 cm³."
+        },
+        {
+          "type": "exemple",
+          "titre": "Une aire réduite",
+          "texte": "Un rectangle de 6 cm sur 4 cm a pour aire 24 cm². On le réduit avec k = 0,5.\nNouvelle aire : 24 × 0,5² = 24 × 0,25 = 6 cm².\nVérification : le nouveau rectangle mesure 3 cm sur 2 cm, donc 3 × 2 = 6 cm²."
+        },
+        {
+          "type": "methode",
+          "titre": "Retrouver k à partir d'une aire ou d'un volume",
+          "texte": "1. Calculer le quotient : aire nouvelle ÷ aire de départ (ou volume nouveau ÷ volume de départ).\n2. Pour une aire, ce quotient vaut k². Chercher le nombre positif dont le carré donne ce quotient.\n3. Pour un volume, ce quotient vaut k³. Chercher le nombre positif dont le cube donne ce quotient."
+        },
+        {
+          "type": "exemple",
+          "titre": "Chercher k",
+          "texte": "L'aire d'une figure passe de 5 cm² à 45 cm². 45 ÷ 5 = 9, donc k² = 9 et k = 3.\n\nLe volume d'un solide passe de 8 cm³ à 216 cm³. 216 ÷ 8 = 27, donc k³ = 27 et k = 3."
+        },
+        {
+          "type": "remarque",
+          "titre": "Attention à l'erreur fréquente",
+          "texte": "Doubler les longueurs ne double pas l'aire : l'aire est multipliée par 4. Le volume, lui, est multiplié par 8."
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. Une figure d'aire 20 cm² est agrandie avec k = 3. Quelle est sa nouvelle aire ?\n2. Un solide de volume 50 cm³ est agrandi avec k = 3. Quel est son nouveau volume ?\n3. L'aire d'une figure passe de 5 cm² à 80 cm². Quel est le rapport k ?",
+          "solution": "1. 20 × 3² = 20 × 9 = 180 cm².\n\n2. 50 × 3³ = 50 × 27 = 1 350 cm³.\n\n3. 80 ÷ 5 = 16, donc k² = 16 et k = 4."
+        }
+      ]
+    },
+    {
+      "id": "math4-12-3-perspective",
+      "titre": "La perspective cavalière",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Perspective cavalière",
+          "texte": "La perspective cavalière est une façon de dessiner un solide sur une feuille, pour qu'il paraisse en relief."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Perspective", "Manière de dessiner le relief sur une feuille plate"],
+            ["Face", "Surface plane d'un solide"],
+            ["Fuyante", "Arête qui part vers l'arrière du solide"],
+            ["Coefficient de réduction", "Nombre par lequel on multiplie la longueur des fuyantes"],
+            ["Pointillés", "Traits discontinus utilisés pour les arêtes cachées"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Les règles du dessin",
+          "texte": "• Les faces de devant sont dessinées en vraie grandeur, avec leurs vrais angles.\n• Les arêtes fuyantes sont dessinées obliques, avec un angle donné (souvent 45°).\n• Les longueurs des fuyantes sont multipliées par un coefficient de réduction (souvent 0,5).\n• Les droites parallèles restent parallèles.\n• Les arêtes cachées sont tracées en pointillés."
+        },
+        {
+          "type": "schema",
+          "titre": "Un pavé en perspective cavalière",
+          "svg": "<svg width='160' height='120' viewBox='0 0 160 120' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='50' width='80' height='50' fill='#e11d48' fill-opacity='0.12' stroke='currentColor' stroke-width='2'/><line x1='20' y1='50' x2='50' y2='20' stroke='currentColor' stroke-width='2'/><line x1='100' y1='50' x2='130' y2='20' stroke='currentColor' stroke-width='2'/><line x1='100' y1='100' x2='130' y2='70' stroke='currentColor' stroke-width='2'/><line x1='50' y1='20' x2='130' y2='20' stroke='currentColor' stroke-width='2'/><line x1='130' y1='20' x2='130' y2='70' stroke='currentColor' stroke-width='2'/><line x1='20' y1='100' x2='50' y2='70' stroke='currentColor' stroke-width='1.5' stroke-dasharray='4 3'/><line x1='50' y1='70' x2='130' y2='70' stroke='currentColor' stroke-width='1.5' stroke-dasharray='4 3'/><line x1='50' y1='70' x2='50' y2='20' stroke='currentColor' stroke-width='1.5' stroke-dasharray='4 3'/></svg>",
+          "legende": "La face avant est en vraie grandeur. Les arêtes fuyantes sont tracées à 45°. Les trois arêtes cachées sont en pointillés."
+        },
+        {
+          "type": "methode",
+          "titre": "Dessiner un pavé",
+          "texte": "1. Dessiner la face avant en vraie grandeur (un rectangle).\n2. Depuis chaque sommet, tracer une fuyante, avec le même angle et la même longueur.\n3. Relier les extrémités des fuyantes pour dessiner la face arrière.\n4. Repasser en trait plein les arêtes visibles et en pointillés les arêtes cachées."
+        },
+        {
+          "type": "exemple",
+          "titre": "Les mesures à tracer",
+          "texte": "Un pavé mesure 6 cm de large, 3 cm de haut et 4 cm de profondeur. On choisit un angle de 45° et un coefficient de 0,5.\nFace avant : un rectangle de 6 cm sur 3 cm.\nFuyantes : 4 × 0,5 = 2 cm, tracées à 45°."
+        },
+        {
+          "type": "exemple",
+          "titre": "Dessiner une pyramide à base carrée",
+          "texte": "On dessine d'abord la base en perspective (un parallélogramme). On place le point où se coupent les diagonales de la base. On place le sommet à la verticale de ce point, à la hauteur voulue. Puis on relie le sommet aux quatre coins de la base."
+        },
+        {
+          "type": "remarque",
+          "titre": "Ne pas mesurer sur le dessin",
+          "texte": "Sur le dessin, les fuyantes sont plus courtes que dans la réalité et les angles des faces qui ne sont pas de face ne valent plus 90°. On ne retrouve donc pas les vraies mesures en mesurant sur le dessin."
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. Un cube d'arête 6 cm est dessiné en perspective cavalière avec un coefficient de 0,5. Quelle longueur trace-t-on pour une arête fuyante ? Et pour une arête de la face avant ?\n2. Un pavé a une profondeur réelle de 10 cm. Quelle longueur trace-t-on pour ses fuyantes avec un coefficient de 0,5 ?\n3. Combien d'arêtes sont cachées sur le dessin d'un pavé ?\n4. Une fuyante est tracée sur 3 cm avec un coefficient de 0,5. Quelle est sa longueur réelle ?",
+          "solution": "1. Fuyante : 6 × 0,5 = 3 cm. Arête de la face avant : 6 cm (vraie grandeur).\n\n2. 10 × 0,5 = 5 cm.\n\n3. Trois arêtes sont cachées.\n\n4. Longueur réelle = 3 ÷ 0,5 = 6 cm."
+        }
+      ]
+    },
+    {
+      "id": "math4-12-4-volumes-capacites",
+      "titre": "Volumes et capacités",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Volume et capacité",
+          "texte": "Le volume mesure l'espace occupé par un solide. Il s'exprime en cm³, dm³, m³...\n\nLa capacité mesure la quantité de liquide qu'un récipient peut contenir. Elle s'exprime en litres (L), millilitres (mL)..."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Volume", "Espace occupé par un solide"],
+            ["Capacité", "Quantité de liquide que peut contenir un récipient"],
+            ["Litre (L)", "Unité de capacité, égale à 1 dm³"],
+            ["Millilitre (mL)", "Un millième de litre, égal à 1 cm³"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Formules des volumes",
+          "entetes": ["Solide", "Volume"],
+          "lignes": [
+            ["Cube d'arête a", "a × a × a = a³"],
+            ["Pavé droit", "longueur × largeur × hauteur"],
+            ["Prisme droit", "aire de la base × hauteur"],
+            ["Cylindre", "π × r² × h"],
+            ["Pyramide", "(aire de la base × h) ÷ 3"],
+            ["Cône", "(π × r² × h) ÷ 3"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Passer d'une unité de volume à une autre",
+          "texte": "Pour passer d'une unité de volume à la suivante (plus petite), on multiplie par 1 000.\n\n1 m³ = 1 000 dm³\n1 dm³ = 1 000 cm³\nDonc 1 m³ = 1 000 000 cm³."
+        },
+        {
+          "type": "tableau",
+          "titre": "Volumes et capacités",
+          "entetes": ["Volume", "Capacité"],
+          "lignes": [
+            ["1 m³", "1 000 L"],
+            ["1 dm³", "1 L"],
+            ["1 cm³", "1 mL"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Un cube de 1 dm d'arête",
+          "svg": "<svg width='200' height='125' viewBox='0 0 200 125' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='45' width='60' height='60' fill='#e11d48' fill-opacity='0.12' stroke='currentColor' stroke-width='2'/><line x1='20' y1='45' x2='45' y2='20' stroke='currentColor' stroke-width='2'/><line x1='80' y1='45' x2='105' y2='20' stroke='currentColor' stroke-width='2'/><line x1='80' y1='105' x2='105' y2='80' stroke='currentColor' stroke-width='2'/><line x1='45' y1='20' x2='105' y2='20' stroke='currentColor' stroke-width='2'/><line x1='105' y1='20' x2='105' y2='80' stroke='currentColor' stroke-width='2'/><line x1='20' y1='105' x2='45' y2='80' stroke='currentColor' stroke-width='1.5' stroke-dasharray='4 3'/><line x1='45' y1='80' x2='105' y2='80' stroke='currentColor' stroke-width='1.5' stroke-dasharray='4 3'/><line x1='45' y1='80' x2='45' y2='20' stroke='currentColor' stroke-width='1.5' stroke-dasharray='4 3'/><text x='50' y='119' text-anchor='middle' font-size='11' fill='currentColor'>10 cm</text><text x='118' y='45' font-size='12' fill='#e11d48'>1 dm³</text><text x='118' y='62' font-size='11' fill='currentColor'>= 1 L</text><text x='118' y='79' font-size='11' fill='currentColor'>= 1 000 cm³</text><text x='118' y='103' font-size='11' fill='currentColor'>1 cm³ = 1 mL</text></svg>",
+          "legende": "Un cube de 10 cm d'arête a un volume de 1 000 cm³, soit 1 dm³, soit 1 litre."
+        },
+        {
+          "type": "exemple",
+          "titre": "Convertir",
+          "texte": "2,5 dm³ = 2,5 L = 2 500 mL.\n3 m³ = 3 000 L.\n450 cm³ = 450 mL = 0,45 L."
+        },
+        {
+          "type": "exemple",
+          "titre": "Un aquarium",
+          "texte": "Un aquarium a pour dimensions 50 cm, 30 cm et 40 cm.\nV = 50 × 30 × 40 = 60 000 cm³.\n60 000 cm³ = 60 dm³ = 60 L."
+        },
+        {
+          "type": "exemple",
+          "titre": "Un seau",
+          "texte": "Un seau cylindrique a un rayon de 10 cm et une hauteur de 30 cm. On prend π ≈ 3,14.\nV = π × 10² × 30 = 3 000 × π ≈ 3 000 × 3,14 = 9 420 cm³.\n9 420 cm³ = 9,42 dm³ = 9,42 L."
+        },
+        {
+          "type": "methode",
+          "titre": "Calculer une capacité",
+          "texte": "1. Calculer le volume avec les bonnes unités (toutes les longueurs dans la même unité).\n2. Convertir : 1 dm³ = 1 L et 1 cm³ = 1 mL.\n3. Écrire la réponse avec l'unité demandée."
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. Convertis : 7 dm³ en litres ; 3,2 L en cm³ ; 0,5 m³ en litres ; 1 500 mL en litres.\n2. Un bassin a pour dimensions 2 m, 1,5 m et 1 m. Calcule son volume en m³, puis sa capacité en litres.",
+          "solution": "1. 7 dm³ = 7 L.\n3,2 L = 3,2 dm³ = 3 200 cm³.\n0,5 m³ = 500 dm³ = 500 L.\n1 500 mL = 1 500 cm³ = 1,5 dm³ = 1,5 L.\n\n2. V = 2 × 1,5 × 1 = 3 m³.\n3 m³ = 3 000 dm³ = 3 000 L."
+        }
+      ]
+    },
+    {
+      "id": "math4-12-5-pyramide",
+      "titre": "La pyramide",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "La pyramide",
+          "texte": "Une pyramide est un solide qui a :\n• une base, qui est un polygone ;\n• des faces latérales, qui sont toutes des triangles ;\n• un sommet S commun à toutes les faces latérales."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Base", "Face sur laquelle la pyramide est posée"],
+            ["Sommet", "Point où se rejoignent toutes les faces latérales"],
+            ["Face latérale", "Face triangulaire qui n'est pas la base"],
+            ["Arête", "Segment où deux faces se rencontrent"],
+            ["Polygone régulier", "Polygone dont tous les côtés et tous les angles sont égaux"]
+          ]
+        },
+        {
+          "type": "definition",
+          "titre": "Hauteur et pyramide régulière",
+          "texte": "La hauteur h d'une pyramide est le segment qui joint le sommet S à la base et qui est perpendiculaire à la base.\n\nUne pyramide régulière a pour base un polygone régulier (par exemple un carré). Le pied de sa hauteur est le centre de la base, et ses faces latérales sont des triangles isocèles identiques."
+        },
+        {
+          "type": "schema",
+          "titre": "Pyramide à base carrée",
+          "svg": "<svg width='180' height='120' viewBox='0 0 180 120' xmlns='http://www.w3.org/2000/svg'><polygon points='30,100 110,100 150,75 70,75' fill='#e11d48' fill-opacity='0.12' stroke='none'/><line x1='30' y1='100' x2='110' y2='100' stroke='currentColor' stroke-width='2'/><line x1='110' y1='100' x2='150' y2='75' stroke='currentColor' stroke-width='2'/><line x1='90' y1='18' x2='30' y2='100' stroke='currentColor' stroke-width='2'/><line x1='90' y1='18' x2='110' y2='100' stroke='currentColor' stroke-width='2'/><line x1='90' y1='18' x2='150' y2='75' stroke='currentColor' stroke-width='2'/><line x1='30' y1='100' x2='70' y2='75' stroke='currentColor' stroke-width='1.5' stroke-dasharray='4 3'/><line x1='70' y1='75' x2='150' y2='75' stroke='currentColor' stroke-width='1.5' stroke-dasharray='4 3'/><line x1='90' y1='18' x2='70' y2='75' stroke='currentColor' stroke-width='1.5' stroke-dasharray='4 3'/><line x1='90' y1='18' x2='90' y2='87' stroke='#e11d48' stroke-width='2' stroke-dasharray='4 3'/><text x='96' y='15' font-size='12' fill='currentColor'>S</text><text x='18' y='108' font-size='12' fill='currentColor'>A</text><text x='112' y='113' font-size='12' fill='currentColor'>B</text><text x='154' y='78' font-size='12' fill='currentColor'>C</text><text x='60' y='72' font-size='12' fill='currentColor'>D</text><text x='96' y='96' font-size='12' fill='currentColor'>H</text><text x='95' y='55' font-size='12' fill='#e11d48'>h</text></svg>",
+          "legende": "Pyramide SABCD de base carrée. SH est la hauteur : elle tombe au centre H de la base, là où se coupent les diagonales."
+        },
+        {
+          "type": "tableau",
+          "titre": "Faces, sommets et arêtes",
+          "entetes": ["Base", "Faces", "Sommets", "Arêtes"],
+          "lignes": [
+            ["Triangle", "4", "4", "6"],
+            ["Carré ou rectangle", "5", "5", "8"],
+            ["Pentagone", "6", "6", "10"],
+            ["Hexagone", "7", "7", "12"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Pour une base à n côtés",
+          "texte": "La pyramide a n + 1 faces (la base et n triangles), n + 1 sommets et 2 × n arêtes."
+        },
+        {
+          "type": "formule",
+          "titre": "Volume d'une pyramide",
+          "texte": "V = (aire de la base × h) ÷ 3\n\nL'aire de la base est en cm² et la hauteur en cm : le volume est alors en cm³."
+        },
+        {
+          "type": "exemple",
+          "titre": "Base carrée",
+          "texte": "Une pyramide a pour base un carré de côté 6 cm et pour hauteur 10 cm.\nAire de la base : 6 × 6 = 36 cm².\nV = 36 × 10 ÷ 3 = 360 ÷ 3 = 120 cm³."
+        },
+        {
+          "type": "exemple",
+          "titre": "Base triangulaire",
+          "texte": "La base est un triangle rectangle dont les côtés de l'angle droit mesurent 3 cm et 4 cm. La hauteur de la pyramide est 9 cm.\nAire de la base : 3 × 4 ÷ 2 = 6 cm².\nV = 6 × 9 ÷ 3 = 54 ÷ 3 = 18 cm³."
+        },
+        {
+          "type": "methode",
+          "titre": "Retrouver la hauteur",
+          "texte": "Comme V = (aire de la base × h) ÷ 3, on obtient :\nh = 3 × V ÷ aire de la base."
+        },
+        {
+          "type": "exemple",
+          "titre": "Chercher h",
+          "texte": "Une pyramide a pour volume 96 cm³ et pour base un rectangle de 4 cm sur 6 cm.\nAire de la base : 4 × 6 = 24 cm².\nh = 3 × 96 ÷ 24 = 288 ÷ 24 = 12 cm.\nVérification : 24 × 12 ÷ 3 = 96 cm³."
+        },
+        {
+          "type": "remarque",
+          "titre": "Un tiers du prisme",
+          "texte": "Une pyramide a un volume égal au tiers de celui du prisme qui a la même base et la même hauteur. Dans l'exemple de la base carrée, le prisme aurait pour volume 36 × 10 = 360 cm³, et la pyramide en a le tiers : 120 cm³."
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. Une pyramide a pour base un carré de côté 9 cm et pour hauteur 12 cm. Calcule son volume.\n2. Une pyramide a pour volume 100 cm³ et pour base un rectangle de 5 cm sur 6 cm. Calcule sa hauteur.\n3. Combien une pyramide à base pentagonale a-t-elle de faces, de sommets et d'arêtes ?",
+          "solution": "1. Aire de la base : 9 × 9 = 81 cm².\nV = 81 × 12 ÷ 3 = 972 ÷ 3 = 324 cm³.\n\n2. Aire de la base : 5 × 6 = 30 cm².\nh = 3 × 100 ÷ 30 = 300 ÷ 30 = 10 cm.\n\n3. Elle a 6 faces, 6 sommets et 10 arêtes."
+        }
+      ]
+    },
+    {
+      "id": "math4-12-6-cone",
+      "titre": "Le cône",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Le cône de révolution",
+          "texte": "Un cône de révolution est un solide qui a :\n• une base qui est un disque ;\n• un sommet S ;\n• une surface latérale courbe qui joint le sommet au cercle de base.\n\nIl est obtenu en faisant tourner un triangle rectangle autour d'un des côtés de l'angle droit."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Révolution", "Tour complet autour d'un axe"],
+            ["Disque", "Surface limitée par un cercle"],
+            ["Rayon", "Distance du centre du disque à son bord"],
+            ["Génératrice", "Segment qui joint le sommet à un point du cercle de base"]
+          ]
+        },
+        {
+          "type": "definition",
+          "titre": "Hauteur et génératrice",
+          "texte": "La hauteur h d'un cône est le segment qui joint le sommet S au centre O du disque de base. Elle est perpendiculaire à la base.\n\nUne génératrice est un segment qui joint S à un point du cercle de base. Toutes les génératrices ont la même longueur g."
+        },
+        {
+          "type": "schema",
+          "titre": "Un cône de révolution",
+          "svg": "<svg width='200' height='130' viewBox='0 0 200 130' xmlns='http://www.w3.org/2000/svg'><path d='M35,105 A55,15 0 0 0 145,105' fill='#e11d48' fill-opacity='0.12' stroke='currentColor' stroke-width='2'/><path d='M35,105 A55,15 0 0 1 145,105' fill='none' stroke='currentColor' stroke-width='1.5' stroke-dasharray='4 3'/><line x1='90' y1='15' x2='35' y2='105' stroke='currentColor' stroke-width='2'/><line x1='90' y1='15' x2='145' y2='105' stroke='currentColor' stroke-width='2'/><line x1='90' y1='15' x2='90' y2='105' stroke='#e11d48' stroke-width='2' stroke-dasharray='4 3'/><line x1='90' y1='105' x2='145' y2='105' stroke='#e11d48' stroke-width='2'/><circle cx='90' cy='105' r='2' fill='currentColor'/><text x='96' y='15' font-size='12' fill='currentColor'>S</text><text x='80' y='101' font-size='12' fill='currentColor'>O</text><text x='94' y='62' font-size='12' fill='#e11d48'>h</text><text x='114' y='99' font-size='12' fill='#e11d48'>r</text><text x='126' y='55' font-size='12' fill='currentColor'>g</text></svg>",
+          "legende": "S est le sommet, O le centre du disque de base, h la hauteur, r le rayon et g une génératrice."
+        },
+        {
+          "type": "theoreme",
+          "titre": "Pythagore dans le cône",
+          "texte": "La hauteur, un rayon et une génératrice forment un triangle rectangle. L'hypoténuse est la génératrice :\n\ng² = r² + h²"
+        },
+        {
+          "type": "formule",
+          "titre": "Volume d'un cône",
+          "texte": "V = (π × r² × h) ÷ 3\n\nr est le rayon du disque de base et h la hauteur. L'aire de la base est π × r².\n\nDans ce cours, on prend π ≈ 3,14 sauf indication contraire."
+        },
+        {
+          "type": "exemple",
+          "titre": "Un petit cône",
+          "texte": "Un cône a pour rayon 3 cm et pour hauteur 4 cm.\nAire de la base : π × 3² = 9 × π ≈ 28,26 cm².\nV = (π × 9 × 4) ÷ 3 = 12 × π ≈ 12 × 3,14 = 37,68 cm³.\nGénératrice : g² = 3² + 4² = 9 + 16 = 25, donc g = 5 cm."
+        },
+        {
+          "type": "exemple",
+          "titre": "Un cône plus grand",
+          "texte": "Un cône a pour rayon 6 cm et pour hauteur 8 cm.\nV = (π × 6² × 8) ÷ 3 = (π × 36 × 8) ÷ 3 = 96 × π ≈ 96 × 3,14 = 301,44 cm³.\nGénératrice : g² = 36 + 64 = 100, donc g = 10 cm."
+        },
+        {
+          "type": "exemple",
+          "titre": "Attention au diamètre",
+          "texte": "Un cône a pour diamètre de base 10 cm et pour hauteur 9 cm.\nLe rayon est la moitié du diamètre : r = 10 ÷ 2 = 5 cm.\nV = (π × 5² × 9) ÷ 3 = 75 × π ≈ 75 × 3,14 = 235,5 cm³."
+        },
+        {
+          "type": "remarque",
+          "titre": "Un tiers du cylindre",
+          "texte": "Un cône a un volume égal au tiers de celui du cylindre qui a la même base et la même hauteur. Pour r = 3 cm et h = 4 cm, le cylindre a pour volume π × 9 × 4 = 36 × π, et le cône 12 × π, soit le tiers."
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "On prend π ≈ 3,14.\n1. Un cône a pour rayon 6 cm et pour hauteur 5 cm. Donne son volume exact en fonction de π, puis une valeur approchée.\n2. Un cône a pour hauteur 12 cm et pour rayon 5 cm. Calcule sa génératrice.\n3. Un cône a pour diamètre de base 8 cm et pour hauteur 6 cm. Calcule son volume (exact, puis approché).",
+          "solution": "1. V = (π × 6² × 5) ÷ 3 = (π × 36 × 5) ÷ 3 = 180 × π ÷ 3 = 60 × π.\nValeur approchée : 60 × 3,14 = 188,4 cm³.\n\n2. g² = r² + h² = 5² + 12² = 25 + 144 = 169.\ng = √169 = 13 cm.\n\n3. Le rayon est 8 ÷ 2 = 4 cm.\nV = (π × 4² × 6) ÷ 3 = (π × 16 × 6) ÷ 3 = 32 × π.\nValeur approchée : 32 × 3,14 = 100,48 cm³."
+        }
+      ]
+    },
+    {
+      "id": "math4-12-7-applications",
+      "titre": "Problèmes de synthèse",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Résoudre un problème de volume",
+          "texte": "1. Lire l'énoncé et faire un schéma.\n2. Repérer le solide et choisir la bonne formule.\n3. Vérifier les unités : rayon ou diamètre ? cm ou m ?\n4. Calculer, puis arrondir si on le demande.\n5. Convertir si besoin (cm³ en litres) et écrire une phrase de réponse."
+        },
+        {
+          "type": "exemple",
+          "titre": "Un tas de sable",
+          "texte": "Un tas de sable a la forme d'un cône de rayon 1 m et de hauteur 0,9 m. On prend π ≈ 3,14.\nV = (π × 1² × 0,9) ÷ 3 = 0,3 × π ≈ 0,3 × 3,14 = 0,942 m³.\n0,942 m³ = 942 dm³ = 942 L.\nLe tas contient environ 942 litres de sable."
+        },
+        {
+          "type": "exemple",
+          "titre": "Un verre conique",
+          "texte": "Un verre a la forme d'un cône de rayon 4 cm et de hauteur 9 cm.\nV = (π × 4² × 9) ÷ 3 = (π × 16 × 9) ÷ 3 = 48 × π ≈ 48 × 3,14 = 150,72 cm³.\nLe verre peut contenir environ 150,7 mL.\n\nOn peut aussi chercher la hauteur d'une pyramide à partir de son volume avec h = 3 × V ÷ aire de la base."
+        },
+        {
+          "type": "remarque",
+          "titre": "Un verre rempli à moitié de sa hauteur",
+          "texte": "Le verre est posé pointe en bas, rempli jusqu'à la moitié de sa hauteur. Le liquide forme un petit cône : c'est une réduction du verre avec k = 0,5.\nSon volume est 150,72 × 0,5³ = 150,72 × 0,125 = 18,84 cm³.\nLe verre rempli à moitié de la hauteur ne contient donc pas la moitié du volume, mais seulement un huitième."
+        },
+        {
+          "type": "exemple",
+          "titre": "Une pyramide réduite",
+          "texte": "Une pyramide en bois a pour volume 2 000 cm³. On fabrique une réduction de cette pyramide avec k = 0,5.\nNouveau volume : 2 000 × 0,5³ = 2 000 × 0,125 = 250 cm³."
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "On prend π ≈ 3,14.\n1. Un entonnoir a la forme d'un cône de rayon 5 cm et de hauteur 12 cm. Calcule son volume en cm³, puis en litres.\n2. Combien de fois faut-il remplir cet entonnoir pour remplir une bouteille de 1,5 L ?\n3. Une pyramide de volume 270 cm³ est réduite avec k = 1/3. Quel est le volume de la pyramide réduite ?",
+          "solution": "1. V = (π × 5² × 12) ÷ 3 = (π × 25 × 12) ÷ 3 = 300 × π ÷ 3 = 100 × π.\nV ≈ 100 × 3,14 = 314 cm³.\n314 cm³ = 314 mL = 0,314 L.\n\n2. 1,5 L = 1 500 mL.\n1 500 ÷ 314 ≈ 4,8.\nIl faut donc le remplir 5 fois (4 fois ne suffisent pas : 4 × 314 = 1 256 mL, moins de 1 500 mL).\n\n3. Le volume est multiplié par k³ = (1/3)³ = 1/27.\n270 ÷ 27 = 10 cm³."
+        }
+      ]
+    }
+  ]
+}
