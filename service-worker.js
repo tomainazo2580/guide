@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'guide-v39';
+const CACHE_VERSION = 'guide-v40';
 
 const APP_SHELL = [
   './',
