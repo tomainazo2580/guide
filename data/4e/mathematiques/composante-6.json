@@ -1,0 +1,364 @@
+{
+  "id": "math4-6-statistiques",
+  "titre": "Chapitre 6 : Les statistiques",
+  "lecons": [
+    {
+      "id": "math4-6-1-vocabulaire",
+      "titre": "Vocabulaire et effectifs",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Vocabulaire de la statistique",
+          "texte": "La statistique recueille des données, les organise et les présente.\n• La population est l'ensemble étudié (par exemple les élèves d'une classe).\n• Un individu est un élément de la population (un élève).\n• Le caractère est ce qu'on étudie chez chaque individu (la couleur du cartable, la taille...).\n• Les valeurs (ou modalités) du caractère sont les réponses possibles (rouge, bleu, 1,55 m...)."
+        },
+        {
+          "type": "definition",
+          "titre": "Les types de caractères",
+          "texte": "• Caractère qualitatif : il ne se mesure pas et ne se compte pas. Ses valeurs sont des mots. Exemples : la couleur des yeux, le moyen de transport, la matière préférée.\n• Caractère quantitatif : ses valeurs sont des nombres (une mesure ou un comptage). Exemples : la taille, la note, le nombre de frères et sœurs.\nUn caractère quantitatif est :\n• discret s'il prend des valeurs isolées, en général entières (nombre de frères et sœurs : 0, 1, 2, 3...) ;\n• continu s'il peut prendre toutes les valeurs d'un intervalle (taille, masse, durée). On regroupe alors les valeurs en classes."
+        },
+        {
+          "type": "definition",
+          "titre": "Effectif et effectif total",
+          "texte": "• L'effectif d'une valeur est le nombre d'individus qui ont cette valeur.\n• L'effectif total N est la somme de tous les effectifs : c'est le nombre d'individus de la population.\nOn présente les données dans un tableau d'effectifs."
+        },
+        {
+          "type": "exemple",
+          "titre": "Les cartables d'une classe",
+          "texte": "On interroge 50 élèves sur la couleur de leur cartable.",
+          "lignes": null
+        },
+        {
+          "type": "tableau",
+          "titre": "Tableau d'effectifs",
+          "entetes": ["Couleur", "Effectif"],
+          "lignes": [
+            ["Rouge", "8"],
+            ["Bleu", "13"],
+            ["Vert", "10"],
+            ["Noir", "9"],
+            ["Jaune", "4"],
+            ["Rose", "6"],
+            ["Total", "50"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Après avoir rempli un tableau, il faut toujours vérifier que la somme des effectifs est égale au nombre d'individus : 8 + 13 + 10 + 9 + 4 + 6 = 50. Le caractère « couleur du cartable » est qualitatif."
+        },
+        {
+          "type": "methode",
+          "titre": "Faire un dépouillement",
+          "texte": "Pour construire un tableau d'effectifs à partir d'une liste de données :\n1. Écrire les valeurs possibles dans la première colonne.\n2. Parcourir la liste et faire un trait à chaque fois qu'une valeur apparaît (en regroupant par 5).\n3. Compter les traits pour chaque valeur : c'est l'effectif.\n4. Calculer l'effectif total et le comparer au nombre de données."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Population", "Ensemble des individus étudiés"],
+            ["Individu", "Un élément de la population"],
+            ["Caractère", "Ce qu'on étudie chez chaque individu"],
+            ["Qualitatif", "Dont les valeurs sont des mots"],
+            ["Quantitatif", "Dont les valeurs sont des nombres"],
+            ["Discret", "Qui prend des valeurs isolées"],
+            ["Continu", "Qui peut prendre toutes les valeurs d'un intervalle"],
+            ["Effectif", "Nombre d'individus qui ont une valeur"],
+            ["Dépouillement", "Comptage des données"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Indique si chaque caractère est qualitatif, quantitatif discret ou quantitatif continu : a) la couleur des yeux  b) le nombre de frères et sœurs  c) la taille  d) la matière préférée.\n2) Nombre de frères et sœurs de 10 élèves : 2 ; 1 ; 0 ; 3 ; 1 ; 2 ; 2 ; 1 ; 0 ; 2. Construis le tableau d'effectifs.",
+          "solution": "1) a) qualitatif. b) quantitatif discret. c) quantitatif continu. d) qualitatif.\n2) Valeur 0 : effectif 2. Valeur 1 : effectif 3. Valeur 2 : effectif 4. Valeur 3 : effectif 1. Total : 2 + 3 + 4 + 1 = 10."
+        }
+      ]
+    },
+    {
+      "id": "math4-6-2-frequences",
+      "titre": "Fréquences et pourcentages",
+      "blocs": [
+        {
+          "type": "formule",
+          "titre": "Fréquence",
+          "texte": "La fréquence d'une valeur est le quotient de son effectif n par l'effectif total N :\nf = n ÷ N\n• Une fréquence est comprise entre 0 et 1.\n• La somme de toutes les fréquences est égale à 1.\n• En multipliant par 100, on obtient un pourcentage : f × 100 %."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les cartables : effectifs, fréquences, pourcentages",
+          "entetes": ["Couleur", "Effectif", "Fréquence", "Pourcentage"],
+          "lignes": [
+            ["Rouge", "8", "0,16", "16 %"],
+            ["Bleu", "13", "0,26", "26 %"],
+            ["Vert", "10", "0,20", "20 %"],
+            ["Noir", "9", "0,18", "18 %"],
+            ["Jaune", "4", "0,08", "8 %"],
+            ["Rose", "6", "0,12", "12 %"],
+            ["Total", "50", "1", "100 %"]
+          ]
+        },
+        {
+          "type": "exemple",
+          "titre": "Un calcul",
+          "texte": "Fréquence du bleu : 13 ÷ 50 = 0,26, soit 26 %.\nFréquence du vert : 10 ÷ 50 = 0,2, soit 20 %.\nVérification : 0,16 + 0,26 + 0,20 + 0,18 + 0,08 + 0,12 = 1."
+        },
+        {
+          "type": "remarque",
+          "texte": "• Si une fréquence est écrite en fraction, on peut la simplifier : 10/50 = 1/5.\n• Quand les fréquences sont arrondies, leur somme peut être très proche de 1 sans l'être exactement (par exemple 0,99 ou 1,01).\n• La fréquence permet de comparer des groupes de tailles différentes, ce que l'effectif ne permet pas."
+        },
+        {
+          "type": "exemple",
+          "titre": "Comparer avec les fréquences",
+          "texte": "Dans la classe A, 12 élèves sur 30 aiment le football. Dans la classe B, 15 élèves sur 50 l'aiment.\nClasse A : 12 ÷ 30 = 0,4 = 40 %. Classe B : 15 ÷ 50 = 0,3 = 30 %.\nC'est dans la classe A que la proportion est la plus grande, même si l'effectif est plus petit."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Fréquence", "Effectif divisé par l'effectif total"],
+            ["Pourcentage", "Fréquence multipliée par 100"],
+            ["Proportion", "Part d'un groupe dans un ensemble"],
+            ["Arrondi", "Valeur proche, avec moins de chiffres"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Dans un groupe de 20 élèves, les effectifs des moyens de transport sont : à pied 4, vélo 6, bus 8, moto 2. Calcule les fréquences et les pourcentages.",
+          "solution": "À pied : 4 ÷ 20 = 0,2 = 20 %.\nVélo : 6 ÷ 20 = 0,3 = 30 %.\nBus : 8 ÷ 20 = 0,4 = 40 %.\nMoto : 2 ÷ 20 = 0,1 = 10 %.\nTotal : 0,2 + 0,3 + 0,4 + 0,1 = 1, soit 100 %."
+        }
+      ]
+    },
+    {
+      "id": "math4-6-3-moyenne",
+      "titre": "Mode, étendue et moyenne",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Mode et étendue",
+          "texte": "• Le mode est la valeur qui a le plus grand effectif. Exemple : dans le tableau des cartables, le mode est « bleu » (effectif 13).\n• L'étendue (pour un caractère quantitatif) est la différence entre la plus grande et la plus petite valeur.\nExemple : notes 4 ; 9 ; 12 ; 15 : l'étendue est 15 − 4 = 11."
+        },
+        {
+          "type": "formule",
+          "titre": "Moyenne simple",
+          "texte": "moyenne = (somme des valeurs) ÷ (nombre de valeurs)\nExemple : notes 8 ; 12 ; 15 ; 9 ; 11.\nSomme : 8 + 12 + 15 + 9 + 11 = 55. Il y a 5 notes.\nMoyenne = 55 ÷ 5 = 11."
+        },
+        {
+          "type": "formule",
+          "titre": "Moyenne pondérée",
+          "texte": "Quand chaque valeur a un effectif (ou un coefficient), on multiplie chaque valeur par son effectif :\nmoyenne = (n₁x₁ + n₂x₂ + … + nₖxₖ) ÷ N\navec N = n₁ + n₂ + … + nₖ."
+        },
+        {
+          "type": "exemple",
+          "titre": "Notes d'une classe de 20 élèves",
+          "texte": "Note 6 : effectif 2. Note 8 : effectif 4. Note 10 : effectif 6. Note 12 : effectif 5. Note 14 : effectif 3.\nSomme pondérée : 6 × 2 + 8 × 4 + 10 × 6 + 12 × 5 + 14 × 3 = 12 + 32 + 60 + 60 + 42 = 206.\nEffectif total : 2 + 4 + 6 + 5 + 3 = 20.\nMoyenne = 206 ÷ 20 = 10,3.\nLe mode est 10 (effectif 6). L'étendue est 14 − 6 = 8."
+        },
+        {
+          "type": "exemple",
+          "titre": "Moyenne avec des coefficients",
+          "texte": "Un élève a 12 en maths (coefficient 4), 14 en sciences physiques (coefficient 3) et 9 en français (coefficient 2).\nMoyenne = (12 × 4 + 14 × 3 + 9 × 2) ÷ (4 + 3 + 2) = (48 + 42 + 18) ÷ 9 = 108 ÷ 9 = 12.\nLa matière qui a le plus gros coefficient pèse le plus dans la moyenne."
+        },
+        {
+          "type": "remarque",
+          "texte": "• La moyenne est toujours comprise entre la plus petite et la plus grande valeur.\n• La moyenne n'est pas forcément une des valeurs de la série : 10,3 n'est pas une note de la liste.\n• Si on ajoute le même nombre à toutes les valeurs, la moyenne augmente de ce nombre.\n• Une valeur très grande ou très petite change beaucoup la moyenne."
+        },
+        {
+          "type": "methode",
+          "titre": "Retrouver une note manquante",
+          "texte": "Un élève a eu 9, 13 et 11 à trois devoirs. Quelle note doit-il avoir au 4e devoir pour avoir 12 de moyenne ?\nPour 4 notes de moyenne 12, la somme doit être 4 × 12 = 48.\nSomme actuelle : 9 + 13 + 11 = 33.\nNote cherchée : 48 − 33 = 15."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Mode", "Valeur qui a le plus grand effectif"],
+            ["Étendue", "Plus grande valeur moins plus petite valeur"],
+            ["Moyenne", "Somme des valeurs divisée par leur nombre"],
+            ["Pondérée", "Où chaque valeur compte selon son effectif ou son coefficient"],
+            ["Coefficient", "Nombre qui donne l'importance d'une matière ou d'une note"],
+            ["Série", "Ensemble des données"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Les pointures de 10 élèves sont : 36 (effectif 2), 37 (effectif 3), 38 (effectif 4), 40 (effectif 1). Calcule la moyenne, le mode et l'étendue.",
+          "solution": "Somme pondérée : 36 × 2 + 37 × 3 + 38 × 4 + 40 × 1 = 72 + 111 + 152 + 40 = 375.\nMoyenne = 375 ÷ 10 = 37,5.\nMode : 38 (effectif 4).\nÉtendue : 40 − 36 = 4."
+        }
+      ]
+    },
+    {
+      "id": "math4-6-4-batons",
+      "titre": "Diagramme en bâtons",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Diagramme en bâtons",
+          "texte": "Un diagramme en bâtons représente un tableau d'effectifs (ou de fréquences).\n• On l'utilise pour un caractère qualitatif ou quantitatif discret.\n• Chaque valeur est représentée par un bâton vertical.\n• La hauteur du bâton est proportionnelle à l'effectif.\n• Tous les bâtons ont la même largeur et sont espacés."
+        },
+        {
+          "type": "schema",
+          "titre": "Couleur des cartables (50 élèves)",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='320' height='200' viewBox='0 0 320 200'><line x1='40' y1='160' x2='305' y2='160' stroke='currentColor' stroke-width='2'/><line x1='40' y1='160' x2='40' y2='18' stroke='currentColor' stroke-width='2'/><polygon points='40,12 36,21 44,21' fill='currentColor'/><g stroke='currentColor' stroke-width='1.5'><line x1='36' y1='110' x2='44' y2='110'/><line x1='36' y1='60' x2='44' y2='60'/></g><g font-size='11' fill='currentColor' text-anchor='end'><text x='33' y='164'>0</text><text x='33' y='114'>5</text><text x='33' y='64'>10</text></g><g stroke='#e11d48' stroke-width='8'><line x1='62' y1='160' x2='62' y2='80'/><line x1='104' y1='160' x2='104' y2='30'/><line x1='146' y1='160' x2='146' y2='60'/><line x1='188' y1='160' x2='188' y2='70'/><line x1='230' y1='160' x2='230' y2='120'/><line x1='272' y1='160' x2='272' y2='100'/></g><g font-size='12' font-weight='bold' fill='currentColor' text-anchor='middle'><text x='62' y='75'>8</text><text x='104' y='25'>13</text><text x='146' y='55'>10</text><text x='188' y='65'>9</text><text x='230' y='115'>4</text><text x='272' y='95'>6</text></g><g font-size='11' fill='currentColor' text-anchor='middle'><text x='62' y='177'>Rouge</text><text x='104' y='177'>Bleu</text><text x='146' y='177'>Vert</text><text x='188' y='177'>Noir</text><text x='230' y='177'>Jaune</text><text x='272' y='177'>Rose</text></g><text x='160' y='195' font-size='12' fill='currentColor' text-anchor='middle'>Couleur du cartable</text><text x='50' y='16' font-size='12' fill='currentColor'>Effectif</text></svg>",
+          "legende": "Le bâton le plus haut (bleu) indique le mode."
+        },
+        {
+          "type": "methode",
+          "titre": "Construire un diagramme en bâtons",
+          "texte": "1. Tracer deux axes : l'axe horizontal pour les valeurs, l'axe vertical pour les effectifs.\n2. Choisir une échelle sur l'axe vertical (par exemple 1 cm pour 2 élèves), en fonction du plus grand effectif.\n3. Pour chaque valeur, tracer un bâton dont la hauteur correspond à l'effectif.\n4. Écrire les noms des valeurs sous les bâtons, donner un titre et écrire l'effectif au-dessus de chaque bâton."
+        },
+        {
+          "type": "methode",
+          "titre": "Lire un diagramme en bâtons",
+          "texte": "1. Lire le titre et les axes.\n2. Repérer le bâton de la valeur cherchée et lire sa hauteur sur l'axe vertical : c'est l'effectif.\n3. Pour avoir l'effectif total, ajouter les hauteurs de tous les bâtons.\n4. Pour une fréquence, diviser l'effectif par l'effectif total."
+        },
+        {
+          "type": "remarque",
+          "texte": "• Un diagramme en bâtons peut aussi représenter les fréquences : l'axe vertical est alors gradué en fréquence ou en pourcentage.\n• Pour un caractère quantitatif discret, les bâtons sont placés dans l'ordre croissant des valeurs.\n• L'échelle doit commencer à 0, sinon le diagramme trompe le lecteur."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Diagramme", "Dessin qui présente des données"],
+            ["Bâton", "Trait vertical dont la hauteur donne l'effectif"],
+            ["Axe", "Droite graduée du repère"],
+            ["Échelle", "Longueur dessinée pour une unité"],
+            ["Proportionnelle", "Qui varie dans le même rapport"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Sur le diagramme des cartables, combien d'élèves ont un cartable bleu ou vert ? Quelle est la fréquence des cartables noirs ?",
+          "solution": "Bleu : 13. Vert : 10. Total : 13 + 10 = 23 élèves.\nFréquence des noirs : 9 ÷ 50 = 0,18, soit 18 %."
+        }
+      ]
+    },
+    {
+      "id": "math4-6-5-circulaire",
+      "titre": "Diagramme circulaire",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Diagramme circulaire",
+          "texte": "Un diagramme circulaire est un disque partagé en secteurs.\n• Chaque valeur est représentée par un secteur.\n• L'angle d'un secteur est proportionnel à l'effectif.\n• Le disque entier (360°) représente l'effectif total, soit 100 %."
+        },
+        {
+          "type": "formule",
+          "titre": "Calculer l'angle d'un secteur",
+          "texte": "angle = (effectif ÷ effectif total) × 360°\nou angle = fréquence × 360°\nLa somme des angles est égale à 360°."
+        },
+        {
+          "type": "exemple",
+          "titre": "Les élèves d'un collège selon leur moyen de transport",
+          "texte": "Sur 360 élèves : 50 viennent à pied, 110 en moto et 200 en bus.\nCe cas est simple : l'effectif total est 360, donc chaque effectif donne directement son angle.\n• À pied : 50°.\n• En moto : 110°.\n• En bus : 200°.\nVérification : 50 + 110 + 200 = 360."
+        },
+        {
+          "type": "schema",
+          "titre": "Moyen de transport (360 élèves)",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='320' height='165' viewBox='0 0 320 165'><path d='M110,82 L110,17 A65,65 0 0 1 159.8,40.2 Z' fill='#e11d48' fill-opacity='0.85' stroke='currentColor' stroke-width='1.5'/><path d='M110,82 L159.8,40.2 A65,65 0 0 1 132.2,143.1 Z' fill='#f59e0b' fill-opacity='0.85' stroke='currentColor' stroke-width='1.5'/><path d='M110,82 L132.2,143.1 A65,65 0 1 1 110,17 Z' fill='#3b82f6' fill-opacity='0.85' stroke='currentColor' stroke-width='1.5'/><g font-size='12' font-weight='bold' fill='#ffffff' text-anchor='middle'><text x='129' y='45'>50°</text><text x='149' y='96'>110°</text><text x='72' y='88'>200°</text></g><rect x='210' y='40' width='14' height='14' fill='#e11d48' fill-opacity='0.85'/><rect x='210' y='70' width='14' height='14' fill='#f59e0b' fill-opacity='0.85'/><rect x='210' y='100' width='14' height='14' fill='#3b82f6' fill-opacity='0.85'/><g font-size='13' fill='currentColor'><text x='230' y='52'>À pied : 50</text><text x='230' y='82'>Moto : 110</text><text x='230' y='112'>Bus : 200</text></g></svg>",
+          "legende": "Plus l'effectif est grand, plus l'angle du secteur est grand. Ici, le bus est le mode."
+        },
+        {
+          "type": "exemple",
+          "titre": "Quand le total n'est pas 360",
+          "texte": "Pour les 50 cartables, on calcule les angles : angle = fréquence × 360°.\n• Rouge : 0,16 × 360 = 57,6°.\n• Bleu : 0,26 × 360 = 93,6°.\n• Vert : 0,20 × 360 = 72°.\n• Noir : 0,18 × 360 = 64,8°.\n• Jaune : 0,08 × 360 = 28,8°.\n• Rose : 0,12 × 360 = 43,2°.\nTotal : 360°. Pour dessiner, on arrondit à 1° près."
+        },
+        {
+          "type": "methode",
+          "titre": "Construire un diagramme circulaire",
+          "texte": "1. Calculer l'angle de chaque secteur.\n2. Tracer un cercle avec un compas et un rayon vertical.\n3. Avec le rapporteur, tracer le premier secteur à partir du rayon.\n4. Tracer les autres secteurs les uns à la suite des autres.\n5. Colorier, écrire la légende (ou le nom sur chaque secteur) et donner un titre."
+        },
+        {
+          "type": "remarque",
+          "texte": "• Pour lire un diagramme circulaire, on retrouve l'effectif d'un secteur avec : effectif = (angle ÷ 360) × effectif total.\n• Le diagramme circulaire convient bien pour montrer des parts d'un tout. Le diagramme en bâtons convient mieux pour comparer des effectifs précis."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Secteur", "Part du disque comprise entre deux rayons"],
+            ["Angle", "Ouverture entre deux demi-droites, mesurée en degrés"],
+            ["Rapporteur", "Instrument pour mesurer ou tracer les angles"],
+            ["Légende", "Texte qui explique les couleurs"],
+            ["Compas", "Instrument pour tracer des cercles"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Dans un groupe de 40 personnes, 10 aiment le riz, 24 aiment le manioc et 6 aiment le maïs (chacun un seul choix). Calcule l'angle de chaque secteur. Dans un diagramme circulaire d'une autre enquête, un secteur de 90° représente combien d'élèves sur 200 ?",
+          "solution": "Riz : (10 ÷ 40) × 360 = 90°.\nManioc : (24 ÷ 40) × 360 = 216°.\nMaïs : (6 ÷ 40) × 360 = 54°.\nTotal : 90 + 216 + 54 = 360°.\nUn secteur de 90° : (90 ÷ 360) × 200 = 50 élèves."
+        }
+      ]
+    },
+    {
+      "id": "math4-6-6-histogramme",
+      "titre": "Classes et histogramme",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Classes",
+          "texte": "Quand un caractère quantitatif est continu (taille, masse, durée), il prend beaucoup de valeurs différentes. On les regroupe en classes, c'est-à-dire en intervalles.\n• [140 ; 150[ veut dire : de 140 inclus à 150 exclu.\n• L'amplitude d'une classe est la différence entre ses deux extrémités : 150 − 140 = 10.\n• Le centre d'une classe est le milieu de l'intervalle : (140 + 150) ÷ 2 = 145.\nEn 4ème, on prend des classes de même amplitude."
+        },
+        {
+          "type": "tableau",
+          "titre": "Tailles de 40 élèves",
+          "entetes": ["Taille (cm)", "Effectif", "Centre"],
+          "lignes": [
+            ["[140 ; 150[", "4", "145"],
+            ["[150 ; 160[", "10", "155"],
+            ["[160 ; 170[", "14", "165"],
+            ["[170 ; 180[", "8", "175"],
+            ["[180 ; 190[", "4", "185"],
+            ["Total", "40", ""]
+          ]
+        },
+        {
+          "type": "definition",
+          "titre": "Histogramme",
+          "texte": "Un histogramme représente un caractère continu regroupé en classes.\n• Chaque classe est un rectangle.\n• La largeur du rectangle correspond à l'amplitude de la classe.\n• Les rectangles se touchent (il n'y a pas d'espace entre les classes).\n• Avec des classes de même amplitude, la hauteur est proportionnelle à l'effectif."
+        },
+        {
+          "type": "schema",
+          "titre": "Histogramme des tailles",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='300' height='200' viewBox='0 0 300 200'><line x1='40' y1='150' x2='290' y2='150' stroke='currentColor' stroke-width='2'/><line x1='40' y1='150' x2='40' y2='20' stroke='currentColor' stroke-width='2'/><polygon points='40,14 36,23 44,23' fill='currentColor'/><g fill='#e11d48' fill-opacity='0.35' stroke='currentColor' stroke-width='1.5'><rect x='40' y='118' width='45' height='32'/><rect x='85' y='70' width='45' height='80'/><rect x='130' y='38' width='45' height='112'/><rect x='175' y='86' width='45' height='64'/><rect x='220' y='118' width='45' height='32'/></g><g stroke='currentColor' stroke-width='1.5'><line x1='36' y1='110' x2='44' y2='110'/><line x1='36' y1='70' x2='44' y2='70'/></g><g font-size='11' fill='currentColor' text-anchor='end'><text x='33' y='154'>0</text><text x='33' y='114'>5</text><text x='33' y='74'>10</text></g><g font-size='12' font-weight='bold' fill='currentColor' text-anchor='middle'><text x='62' y='112'>4</text><text x='107' y='64'>10</text><text x='152' y='32'>14</text><text x='197' y='80'>8</text><text x='242' y='112'>4</text></g><g font-size='11' fill='currentColor' text-anchor='middle'><text x='40' y='166'>140</text><text x='85' y='166'>150</text><text x='130' y='166'>160</text><text x='175' y='166'>170</text><text x='220' y='166'>180</text><text x='265' y='166'>190</text></g><text x='160' y='188' font-size='12' fill='currentColor' text-anchor='middle'>Taille (cm)</text><text x='50' y='18' font-size='12' fill='currentColor'>Effectif</text></svg>",
+          "legende": "Les rectangles se touchent. La classe [160 ; 170[ est la classe modale : elle a le plus grand effectif (14)."
+        },
+        {
+          "type": "methode",
+          "titre": "Moyenne approchée avec des classes",
+          "texte": "On ne connaît plus les valeurs exactes : on utilise le centre de chaque classe, puis on calcule la moyenne pondérée.\nMoyenne ≈ (145 × 4 + 155 × 10 + 165 × 14 + 175 × 8 + 185 × 4) ÷ 40\n= (580 + 1 550 + 2 310 + 1 400 + 740) ÷ 40\n= 6 580 ÷ 40 = 164,5.\nLa taille moyenne est environ 164,5 cm. C'est une valeur approchée."
+        },
+        {
+          "type": "remarque",
+          "texte": "• Bâtons : caractère qualitatif ou quantitatif discret, bâtons séparés.\n• Histogramme : caractère continu en classes, rectangles collés.\n• Si les classes n'ont pas la même amplitude, la hauteur ne doit plus être égale à l'effectif : c'est l'aire du rectangle qui doit être proportionnelle à l'effectif. En 4ème, on évite ce cas."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Classe", "Intervalle de valeurs regroupées"],
+            ["Amplitude", "Longueur d'une classe : extrémité haute moins extrémité basse"],
+            ["Centre d'une classe", "Milieu de l'intervalle"],
+            ["Histogramme", "Diagramme de rectangles collés pour un caractère continu"],
+            ["Classe modale", "Classe qui a le plus grand effectif"],
+            ["Inclus, exclu", "Compris ou non compris dans l'intervalle"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Les masses de 20 sacs sont réparties ainsi : [0 ; 10[ : 2 ; [10 ; 20[ : 6 ; [20 ; 30[ : 8 ; [30 ; 40[ : 4. Donne la classe modale, puis calcule la masse moyenne approchée.",
+          "solution": "Classe modale : [20 ; 30[ (effectif 8).\nCentres : 5, 15, 25 et 35.\nMoyenne ≈ (5 × 2 + 15 × 6 + 25 × 8 + 35 × 4) ÷ 20 = (10 + 90 + 200 + 140) ÷ 20 = 440 ÷ 20 = 22.\nLa masse moyenne est environ 22 kg."
+        }
+      ]
+    }
+  ]
+}
