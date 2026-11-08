@@ -1,0 +1,312 @@
+{
+  "id": "math4-7-probabilites",
+  "titre": "Chapitre 7 : Les probabilités",
+  "lecons": [
+    {
+      "id": "m4-7-1-experience",
+      "titre": "Expérience aléatoire et univers",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Expérience aléatoire",
+          "texte": "Une expérience est aléatoire quand on connaît toutes les résultats possibles à l'avance, mais qu'on ne peut pas prévoir lequel va sortir. C'est le hasard qui décide.\nChaque résultat possible s'appelle une issue.\nL'ensemble de toutes les issues s'appelle l'univers. On le note Ω (lire « oméga »)."
+        },
+        {
+          "type": "exemple",
+          "titre": "Quelques expériences aléatoires",
+          "texte": "Lancer un dé à 6 faces : Ω = {1 ; 2 ; 3 ; 4 ; 5 ; 6}. Il y a 6 issues.\nLancer une pièce de monnaie : Ω = {pile ; face}. Il y a 2 issues.\nTirer une boule dans un sac qui contient 3 boules rouges et 5 boules vertes : on a 8 issues possibles (les 8 boules).\nFaire tourner une roue partagée en 8 secteurs numérotés de 1 à 8 : Ω = {1 ; 2 ; 3 ; 4 ; 5 ; 6 ; 7 ; 8}."
+        },
+        {
+          "type": "schema",
+          "titre": "L'univers du lancer d'un dé",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='300' height='80' viewBox='0 0 300 80'><text x='10' y='16' font-size='12' fill='currentColor'>Ω = {1 ; 2 ; 3 ; 4 ; 5 ; 6}</text><rect x='10' y='24' width='40' height='40' rx='6' fill='#e11d48' fill-opacity='0.12' stroke='currentColor' stroke-width='1.5'/><rect x='57' y='24' width='40' height='40' rx='6' fill='#e11d48' fill-opacity='0.12' stroke='currentColor' stroke-width='1.5'/><rect x='104' y='24' width='40' height='40' rx='6' fill='#e11d48' fill-opacity='0.12' stroke='currentColor' stroke-width='1.5'/><rect x='151' y='24' width='40' height='40' rx='6' fill='#e11d48' fill-opacity='0.12' stroke='currentColor' stroke-width='1.5'/><rect x='198' y='24' width='40' height='40' rx='6' fill='#e11d48' fill-opacity='0.12' stroke='currentColor' stroke-width='1.5'/><rect x='245' y='24' width='40' height='40' rx='6' fill='#e11d48' fill-opacity='0.12' stroke='currentColor' stroke-width='1.5'/><text x='30' y='51' font-size='18' text-anchor='middle' fill='currentColor'>1</text><text x='77' y='51' font-size='18' text-anchor='middle' fill='currentColor'>2</text><text x='124' y='51' font-size='18' text-anchor='middle' fill='currentColor'>3</text><text x='171' y='51' font-size='18' text-anchor='middle' fill='currentColor'>4</text><text x='218' y='51' font-size='18' text-anchor='middle' fill='currentColor'>5</text><text x='265' y='51' font-size='18' text-anchor='middle' fill='currentColor'>6</text></svg>",
+          "legende": "Chaque case est une issue. Les six cases forment l'univers Ω."
+        },
+        {
+          "type": "remarque",
+          "titre": "Ce n'est pas aléatoire si le résultat est sûr",
+          "texte": "Calculer 2 + 3 n'est pas une expérience aléatoire : le résultat est toujours 5.\nPour parler de probabilités, il faut d'abord pouvoir écrire toutes les issues possibles."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Aléatoire", "Qui dépend du hasard."],
+            ["Issue", "Un résultat possible de l'expérience."],
+            ["Univers (Ω)", "L'ensemble de toutes les issues."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Une roue est partagée en 8 secteurs numérotés de 1 à 8. On la fait tourner et on lit le numéro obtenu.\n1) Est-ce une expérience aléatoire ?\n2) Écris l'univers Ω. Combien y a-t-il d'issues ?",
+          "solution": "1) Oui. On connaît tous les numéros possibles, mais on ne peut pas prévoir lequel va sortir.\n2) Ω = {1 ; 2 ; 3 ; 4 ; 5 ; 6 ; 7 ; 8}. Il y a 8 issues."
+        }
+      ]
+    },
+    {
+      "id": "m4-7-2-evenements",
+      "titre": "Les événements",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Événement",
+          "texte": "Un événement est un ensemble d'issues. On le désigne souvent par une lettre : A, B, C...\nL'événement est réalisé quand l'issue obtenue fait partie de cet ensemble.\nUn événement élémentaire ne contient qu'une seule issue.\nUn événement certain contient toutes les issues (c'est Ω) : il se réalise toujours.\nUn événement impossible ne contient aucune issue : il ne se réalise jamais."
+        },
+        {
+          "type": "exemple",
+          "titre": "Avec un dé à 6 faces",
+          "texte": "A : « obtenir un nombre pair » = {2 ; 4 ; 6}.\nB : « obtenir un nombre inférieur à 5 » = {1 ; 2 ; 3 ; 4}.\nC : « obtenir 3 » = {3}. C'est un événement élémentaire.\nD : « obtenir 7 ». Aucune face ne porte 7 : c'est un événement impossible.\nE : « obtenir un nombre entre 1 et 6 ». C'est toujours vrai : c'est un événement certain."
+        },
+        {
+          "type": "remarque",
+          "titre": "Bien lire les mots de l'énoncé",
+          "texte": "« Inférieur à 5 » veut dire strictement plus petit que 5 : 1, 2, 3, 4.\n« Au plus 5 » veut dire 5 ou moins : 1, 2, 3, 4, 5.\n« Au moins 5 » veut dire 5 ou plus : 5, 6.\n« Strictement supérieur à 5 » veut dire plus grand que 5 : 6."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Événement", "Un ensemble d'issues, par exemple « obtenir un nombre pair »."],
+            ["Réalisé", "L'issue obtenue fait partie de l'événement."],
+            ["Au moins", "Cette valeur ou plus."],
+            ["Au plus", "Cette valeur ou moins."],
+            ["Strictement", "Sans compter la valeur elle-même."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "On fait tourner la roue de 8 secteurs numérotés de 1 à 8. Écris les issues de chaque événement :\nA : « obtenir un multiple de 3 »\nB : « obtenir un nombre premier »\nC : « obtenir au moins 6 »\nD : « obtenir un nombre supérieur à 8 »\nQuel événement est impossible ?",
+          "solution": "A = {3 ; 6}.\nB = {2 ; 3 ; 5 ; 7}.\nC = {6 ; 7 ; 8}.\nD ne contient aucune issue, car aucun numéro n'est supérieur à 8. D est l'événement impossible."
+        }
+      ]
+    },
+    {
+      "id": "m4-7-3-equiprobabilite",
+      "titre": "Équiprobabilité et calcul d'une probabilité",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Issues équiprobables",
+          "texte": "Des issues sont équiprobables quand elles ont toutes la même chance de sortir.\nC'est le cas pour un dé non truqué, une pièce équilibrée, ou un tirage au hasard dans un sac où toutes les boules sont identiques au toucher."
+        },
+        {
+          "type": "formule",
+          "titre": "Probabilité d'un événement",
+          "texte": "Quand toutes les issues sont équiprobables :\nP(A) = nombre de cas favorables ÷ nombre de cas possibles\nLes cas possibles sont toutes les issues de Ω.\nLes cas favorables sont les issues qui réalisent A."
+        },
+        {
+          "type": "methode",
+          "titre": "Calculer une probabilité",
+          "texte": "1. Écris l'univers Ω et compte les cas possibles.\n2. Vérifie que les issues sont équiprobables.\n3. Compte les cas favorables à l'événement.\n4. Divise le nombre de cas favorables par le nombre de cas possibles. Simplifie la fraction."
+        },
+        {
+          "type": "exemple",
+          "titre": "Le dé et le sac de boules",
+          "texte": "On lance un dé. A : « obtenir un nombre inférieur à 5 ». Cas favorables : 1, 2, 3, 4, soit 4 cas. Cas possibles : 6.\nP(A) = 4/6 = 2/3.\n\nUn sac contient 8 boules identiques : 3 rouges et 5 vertes. On tire une boule au hasard. P(rouge) = 3/8, car il y a 3 cas favorables sur 8 cas possibles.\nOn peut écrire 3/8 = 0,375 = 37,5 %."
+        },
+        {
+          "type": "schema",
+          "titre": "Un sac de 8 boules",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='300' height='140' viewBox='0 0 300 140'><rect x='60' y='10' width='180' height='100' rx='20' fill='none' stroke='currentColor' stroke-width='2'/><circle cx='90' cy='45' r='16' fill='#e11d48'/><circle cx='130' cy='45' r='16' fill='#e11d48'/><circle cx='170' cy='45' r='16' fill='#e11d48'/><circle cx='210' cy='45' r='16' fill='currentColor' fill-opacity='0.25' stroke='currentColor'/><circle cx='90' cy='85' r='16' fill='currentColor' fill-opacity='0.25' stroke='currentColor'/><circle cx='130' cy='85' r='16' fill='currentColor' fill-opacity='0.25' stroke='currentColor'/><circle cx='170' cy='85' r='16' fill='currentColor' fill-opacity='0.25' stroke='currentColor'/><circle cx='210' cy='85' r='16' fill='currentColor' fill-opacity='0.25' stroke='currentColor'/><text x='150' y='131' font-size='12' text-anchor='middle' fill='currentColor'>3 rouges sur 8 boules</text></svg>",
+          "legende": "Les boules rouges sont les cas favorables. Il y a 8 cas possibles au total."
+        },
+        {
+          "type": "remarque",
+          "titre": "Attention : deux issues ne veulent pas dire une chance sur deux",
+          "texte": "La formule ne marche que si les issues sont équiprobables.\nDemain, il pleuvra ou il ne pleuvra pas : il y a deux issues, mais elles n'ont pas forcément la même chance.\nDe même, sur une roue dont un secteur est très grand et l'autre très petit, les chances ne sont pas égales."
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Un sac contient 5 boules rouges, 3 boules vertes et 2 boules bleues, toutes identiques au toucher. On tire une boule au hasard. Calcule :\n1) P(rouge)\n2) P(verte ou bleue)\n3) P(jaune)",
+          "solution": "Il y a 5 + 3 + 2 = 10 boules, donc 10 cas possibles.\n1) P(rouge) = 5/10 = 1/2.\n2) Cas favorables : 3 + 2 = 5. P(verte ou bleue) = 5/10 = 1/2.\n3) Il n'y a aucune boule jaune : 0 cas favorable. P(jaune) = 0/10 = 0. C'est un événement impossible."
+        }
+      ]
+    },
+    {
+      "id": "m4-7-4-proprietes",
+      "titre": "Propriétés des probabilités",
+      "blocs": [
+        {
+          "type": "regle",
+          "titre": "Une probabilité est comprise entre 0 et 1",
+          "texte": "Pour tout événement A : 0 ≤ P(A) ≤ 1.\nUn événement impossible a pour probabilité 0.\nUn événement certain a pour probabilité 1.\nUne probabilité ne peut jamais être négative, ni plus grande que 1."
+        },
+        {
+          "type": "schema",
+          "titre": "L'échelle des probabilités",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='320' height='100' viewBox='0 0 320 100'><line x1='20' y1='55' x2='300' y2='55' stroke='currentColor' stroke-width='2'/><circle cx='20' cy='55' r='5' fill='#e11d48'/><circle cx='160' cy='55' r='5' fill='#e11d48'/><circle cx='300' cy='55' r='5' fill='#e11d48'/><text x='5' y='35' font-size='11' fill='currentColor'>impossible</text><text x='160' y='35' font-size='11' text-anchor='middle' fill='currentColor'>une chance sur deux</text><text x='315' y='35' font-size='11' text-anchor='end' fill='currentColor'>certain</text><text x='20' y='80' font-size='13' text-anchor='middle' fill='currentColor'>0</text><text x='160' y='80' font-size='13' text-anchor='middle' fill='currentColor'>1/2</text><text x='300' y='80' font-size='13' text-anchor='middle' fill='currentColor'>1</text></svg>",
+          "legende": "Plus la probabilité est proche de 1, plus l'événement est probable. Plus elle est proche de 0, moins il l'est."
+        },
+        {
+          "type": "regle",
+          "titre": "La somme des probabilités des issues vaut 1",
+          "texte": "Si on additionne les probabilités de toutes les issues de l'univers, on obtient 1.\nLa probabilité d'un événement est la somme des probabilités des issues qui le composent."
+        },
+        {
+          "type": "exemple",
+          "titre": "Le dé",
+          "texte": "Chaque face a la probabilité 1/6. La somme des 6 issues est 6 × 1/6 = 1.\nA : « obtenir un nombre pair » = {2 ; 4 ; 6}.\nP(A) = P(2) + P(4) + P(6) = 1/6 + 1/6 + 1/6 = 3/6 = 1/2."
+        },
+        {
+          "type": "remarque",
+          "titre": "Un résultat impossible à écrire",
+          "texte": "Si tu trouves P(A) = 7/4 ou P(A) = −0,3, tu t'es trompé : une probabilité est toujours entre 0 et 1.\nPense à vérifier ton résultat avec cette règle."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Probabilité", "Nombre entre 0 et 1 qui mesure les chances qu'un événement se réalise."],
+            ["Truqué", "Se dit d'un dé ou d'une pièce dont les issues n'ont pas la même chance de sortir."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Une roue a 5 secteurs. Les probabilités de s'arrêter sur les quatre premiers sont 0,1 ; 0,3 ; 0,25 et 0,15. Quelle est la probabilité du cinquième secteur ?\n2) Parmi ces nombres, lesquels ne peuvent pas être des probabilités : 1,2 ; 0,4 ; −0,3 ; 3/5 ; 7/4 ?",
+          "solution": "1) La somme des probabilités vaut 1.\n0,1 + 0,3 + 0,25 + 0,15 = 0,8.\nProbabilité du cinquième secteur : 1 − 0,8 = 0,2.\n2) Ne peuvent pas être des probabilités : 1,2 (plus grand que 1), −0,3 (négatif) et 7/4 (qui vaut 1,75, plus grand que 1). Par contre 0,4 et 3/5 conviennent."
+        }
+      ]
+    },
+    {
+      "id": "m4-7-5-contraire",
+      "titre": "Événement contraire",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Événement contraire",
+          "texte": "Le contraire d'un événement A est l'événement « A n'est pas réalisé ». On le note Ā (lire « A barre »).\nIl contient toutes les issues de l'univers qui ne sont pas dans A.\nA et Ā ne peuvent pas se réaliser en même temps, et l'un des deux se réalise toujours."
+        },
+        {
+          "type": "schema",
+          "titre": "A et son contraire",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='300' height='150' viewBox='0 0 300 150'><rect x='10' y='10' width='280' height='130' rx='8' fill='none' stroke='currentColor' stroke-width='2'/><ellipse cx='100' cy='75' rx='65' ry='45' fill='#e11d48' fill-opacity='0.2' stroke='#e11d48' stroke-width='2'/><text x='22' y='30' font-size='14' fill='currentColor'>Ω</text><text x='100' y='80' font-size='18' text-anchor='middle' fill='currentColor'>A</text><text x='225' y='80' font-size='18' text-anchor='middle' fill='currentColor'>Ā</text></svg>",
+          "legende": "Le grand rectangle est l'univers Ω. Tout ce qui est hors de l'ellipse A est dans Ā."
+        },
+        {
+          "type": "formule",
+          "titre": "Probabilité du contraire",
+          "texte": "P(Ā) = 1 − P(A)"
+        },
+        {
+          "type": "exemple",
+          "titre": "Avec un dé",
+          "texte": "A : « obtenir 6 ». Ā = {1 ; 2 ; 3 ; 4 ; 5}.\nP(A) = 1/6, donc P(Ā) = 1 − 1/6 = 5/6.\n\nB : « obtenir un nombre inférieur à 5 » = {1 ; 2 ; 3 ; 4}. B̄ = {5 ; 6}.\nP(B) = 4/6, donc P(B̄) = 1 − 4/6 = 2/6 = 1/3.\n\nUn sac contient 3 boules rouges sur 8. P(rouge) = 3/8, donc P(pas rouge) = 1 − 3/8 = 5/8."
+        },
+        {
+          "type": "remarque",
+          "titre": "Bien choisir le contraire",
+          "texte": "Le contraire de « pair » est « impair ».\nLe contraire de « obtenir au moins une fois 6 » est « n'obtenir aucun 6 ».\nAttention : le contraire de « rouge » est « pas rouge », et pas forcément « vert », car il peut y avoir d'autres couleurs dans le sac."
+        },
+        {
+          "type": "methode",
+          "titre": "Quand utiliser le contraire ?",
+          "texte": "Quand l'événement est long à compter, regarde si son contraire est plus court. Calcule P(contraire), puis fais 1 − P(contraire)."
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) La probabilité de gagner à un jeu est 0,35. Quelle est la probabilité de perdre ?\n2) On lance un dé. A : « obtenir un multiple de 3 ». Écris Ā, puis calcule P(A) et P(Ā).",
+          "solution": "1) Perdre est le contraire de gagner. 1 − 0,35 = 0,65.\n2) A = {3 ; 6}, donc P(A) = 2/6 = 1/3.\nĀ = {1 ; 2 ; 4 ; 5}, donc P(Ā) = 4/6 = 2/3.\nVérification : 1 − 1/3 = 2/3."
+        }
+      ]
+    },
+    {
+      "id": "m4-7-6-frequence",
+      "titre": "Fréquence et probabilité",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Fréquence observée",
+          "texte": "Quand on répète une expérience plusieurs fois, la fréquence d'un événement est :\nfréquence = nombre de fois où l'événement s'est réalisé ÷ nombre total d'essais.\nLa fréquence est un résultat observé. La probabilité est une valeur prévue par le calcul."
+        },
+        {
+          "type": "regle",
+          "titre": "Plus on répète, plus la fréquence se rapproche de la probabilité",
+          "texte": "Quand le nombre d'essais devient très grand, la fréquence d'un événement se stabilise autour de sa probabilité.\nAvec peu d'essais, la fréquence peut être assez éloignée de la probabilité."
+        },
+        {
+          "type": "tableau",
+          "titre": "Exemple : lancers d'une pièce équilibrée",
+          "entetes": ["Nombre de lancers", "10", "100", "1000", "10000"],
+          "lignes": [
+            ["Nombre de piles", "7", "52", "497", "5030"],
+            ["Fréquence de pile", "0,70", "0,52", "0,497", "0,503"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Le hasard n'a pas de mémoire",
+          "texte": "La probabilité d'obtenir 6 avec un dé est 1/6. Cela ne veut pas dire qu'en 6 lancers on aura exactement un 6.\nSi tu n'as pas eu de 6 depuis longtemps, la chance d'en avoir un au prochain lancer reste 1/6.\nLes résultats du tableau ci-dessus sont un exemple : si tu refais l'expérience, tu obtiendras d'autres nombres."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Fréquence", "Part observée : nombre de réalisations ÷ nombre d'essais."],
+            ["Se stabiliser", "Se rapprocher d'une valeur et y rester presque."],
+            ["Essai", "Une répétition de l'expérience."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "On lance un dé 200 fois. Le 6 sort 38 fois.\n1) Calcule la fréquence du 6, en écriture décimale puis en pourcentage.\n2) Compare avec la probabilité théorique 1/6 (environ 0,167).\n3) Un élève dit : « Sur 6 lancers, je suis sûr d'avoir un 6. » A-t-il raison ?",
+          "solution": "1) 38 ÷ 200 = 0,19 = 19 %.\n2) La fréquence 0,19 est proche de 1/6 ≈ 0,167, mais pas égale. Avec un autre essai de 200 lancers, on aurait une autre fréquence.\n3) Non. La probabilité de 6 est 1/6 à chaque lancer. Sur 6 lancers, on peut très bien ne jamais avoir de 6."
+        }
+      ]
+    },
+    {
+      "id": "m4-7-7-deux-lancers",
+      "titre": "Deux lancers successifs et problèmes",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Quand on répète deux fois l'expérience",
+          "texte": "Les issues sont alors des couples (premier résultat, deuxième résultat).\nIl faut les écrire toutes, sans en oublier, dans une liste ou dans un tableau.\nOn compte ensuite les cas favorables parmi tous les cas possibles."
+        },
+        {
+          "type": "exemple",
+          "titre": "Deux pièces",
+          "texte": "On lance une pièce deux fois de suite. Les issues sont : PP, PF, FP, FF (P pour pile, F pour face). Il y a 4 cas possibles, tous équiprobables.\nP(deux piles) = 1/4.\nP(une pile et une face) = 2/4 = 1/2, car PF et FP conviennent.\nPour P(au moins une face), on peut utiliser le contraire : « aucune face » = PP, donc P = 1 − 1/4 = 3/4."
+        },
+        {
+          "type": "tableau",
+          "titre": "Somme des points de deux dés (premier dé en ligne, deuxième dé en colonne)",
+          "entetes": ["+", "1", "2", "3", "4", "5", "6"],
+          "lignes": [
+            ["1", "2", "3", "4", "5", "6", "7"],
+            ["2", "3", "4", "5", "6", "7", "8"],
+            ["3", "4", "5", "6", "7", "8", "9"],
+            ["4", "5", "6", "7", "8", "9", "10"],
+            ["5", "6", "7", "8", "9", "10", "11"],
+            ["6", "7", "8", "9", "10", "11", "12"]
+          ]
+        },
+        {
+          "type": "exemple",
+          "titre": "Lire le tableau des deux dés",
+          "texte": "Il y a 6 × 6 = 36 cas possibles.\nLa somme 7 apparaît 6 fois dans le tableau, donc P(somme = 7) = 6/36 = 1/6.\nLa somme 12 apparaît une seule fois, donc P(somme = 12) = 1/36.\nLa somme est au moins 10 dans 6 cases (10 trois fois, 11 deux fois, 12 une fois), donc P(somme ≥ 10) = 6/36 = 1/6."
+        },
+        {
+          "type": "remarque",
+          "titre": "Dans un problème de type BEPC",
+          "texte": "1. Écris clairement l'univers (ou le nombre de cas possibles).\n2. Dis que les issues sont équiprobables.\n3. Définis l'événement avec ses issues.\n4. Écris la formule P = cas favorables ÷ cas possibles, puis le résultat sous forme de fraction simplifiée.\n5. Vérifie que ton résultat est entre 0 et 1."
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "On lance deux dés équilibrés et on fait la somme des points. Utilise le tableau ci-dessus.\n1) Combien y a-t-il de cas possibles ?\n2) Calcule P(somme = 5).\n3) Calcule P(somme différente de 7).",
+          "solution": "1) 6 × 6 = 36 cas possibles.\n2) La somme 5 apparaît 4 fois : (1 ; 4), (2 ; 3), (3 ; 2), (4 ; 1). P(somme = 5) = 4/36 = 1/9.\n3) « Somme différente de 7 » est le contraire de « somme = 7 ». P(somme = 7) = 6/36 = 1/6, donc P = 1 − 1/6 = 5/6."
+        }
+      ]
+    }
+  ]
+}
