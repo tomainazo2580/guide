@@ -1,0 +1,282 @@
+{
+  "id": "math4-10-cercle-circonscrit",
+  "titre": "Chapitre 10 : Triangle rectangle et cercle circonscrit",
+  "lecons": [
+    {
+      "id": "m4-10-1-cercle",
+      "titre": "Le cercle : vocabulaire et distances",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Cercle et disque",
+          "texte": "Un cercle de centre O et de rayon r est l'ensemble des points situés à la distance r du point O.\nLe disque est la surface à l'intérieur du cercle, bord compris."
+        },
+        {
+          "type": "schema",
+          "titre": "Le vocabulaire du cercle",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='300' height='160' viewBox='0 0 300 160'><circle cx='150' cy='80' r='60' fill='#e11d48' fill-opacity='0.08' stroke='currentColor' stroke-width='1.5'/><line x1='90' y1='80' x2='210' y2='80' stroke='currentColor' stroke-width='1.5'/><line x1='150' y1='80' x2='180' y2='132' stroke='#e11d48' stroke-width='2'/><line x1='108' y1='38' x2='192' y2='38' stroke='currentColor' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='150' cy='80' r='3.5' fill='#e11d48'/><circle cx='90' cy='80' r='3' fill='currentColor'/><circle cx='210' cy='80' r='3' fill='currentColor'/><circle cx='180' cy='132' r='3' fill='currentColor'/><circle cx='108' cy='38' r='3' fill='currentColor'/><circle cx='192' cy='38' r='3' fill='currentColor'/><text x='74' y='84' font-size='13' fill='currentColor'>A</text><text x='214' y='84' font-size='13' fill='currentColor'>B</text><text x='144' y='96' font-size='13' fill='#e11d48'>O</text><text x='186' y='143' font-size='13' fill='currentColor'>E</text><text x='96' y='34' font-size='13' fill='currentColor'>C</text><text x='196' y='34' font-size='13' fill='currentColor'>D</text></svg>",
+          "legende": "[AB] est un diamètre (il passe par O), [OE] est un rayon, [CD] est une corde."
+        },
+        {
+          "type": "definition",
+          "titre": "Rayon, corde, diamètre, arc",
+          "texte": "Un rayon est un segment qui joint le centre à un point du cercle.\nUne corde est un segment dont les deux extrémités sont sur le cercle.\nUn diamètre est une corde qui passe par le centre. Sa longueur est le double du rayon : d = 2 × r.\nUn arc est une partie du cercle.\nLe diamètre est la plus grande corde du cercle."
+        },
+        {
+          "type": "regle",
+          "titre": "Où est un point par rapport au cercle ?",
+          "texte": "Soit un cercle de centre O et de rayon r, et un point M.\nSi OM = r, le point M est sur le cercle.\nSi OM < r, le point M est à l'intérieur du cercle.\nSi OM > r, le point M est à l'extérieur du cercle.\nTous les rayons d'un même cercle ont la même longueur. Si OA = OB, alors A et B sont sur le même cercle de centre O."
+        },
+        {
+          "type": "formule",
+          "titre": "Périmètre et aire",
+          "texte": "Le périmètre du cercle (on dit aussi la circonférence) est P = 2 × π × r.\nL'aire du disque est A = π × r × r = π × r².\nOn prend π ≈ 3,14, ou la touche π de la calculatrice."
+        },
+        {
+          "type": "exemple",
+          "titre": "Un cercle de rayon 4 cm",
+          "texte": "Le diamètre est 2 × 4 = 8 cm.\nLe périmètre est 2 × π × 4 = 8π ≈ 25,13 cm.\nL'aire du disque est π × 4² = 16π ≈ 50,27 cm²."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Rayon", "Distance entre le centre et un point du cercle."],
+            ["Diamètre", "Corde qui passe par le centre, double du rayon."],
+            ["Corde", "Segment dont les deux bouts sont sur le cercle."],
+            ["Circonférence", "Longueur du cercle, appelée aussi périmètre du cercle."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Un cercle de centre O a pour diamètre 10 cm.\n1) Quel est son rayon ?\n2) On place trois points : OM = 5 cm, ON = 6 cm et OP = 4 cm. Où est chaque point par rapport au cercle ?\n3) Calcule le périmètre du cercle, au dixième près.",
+          "solution": "1) Le rayon est 10 ÷ 2 = 5 cm.\n2) M est sur le cercle (OM = 5 = rayon). N est à l'extérieur (6 > 5). P est à l'intérieur (4 < 5).\n3) Périmètre = 2 × π × 5 = 10π ≈ 31,4 cm."
+        }
+      ]
+    },
+    {
+      "id": "m4-10-2-circonscrit",
+      "titre": "Le cercle circonscrit à un triangle",
+      "blocs": [
+        {
+          "type": "regle",
+          "titre": "Rappel : la médiatrice",
+          "texte": "La médiatrice d'un segment [AB] est la droite perpendiculaire à [AB] qui passe par son milieu.\nTout point M de la médiatrice est à la même distance de A et de B : MA = MB.\nRéciproquement, un point qui est à la même distance de A et de B est sur la médiatrice de [AB]."
+        },
+        {
+          "type": "definition",
+          "titre": "Cercle circonscrit à un triangle",
+          "texte": "Le cercle circonscrit à un triangle est le cercle qui passe par ses trois sommets.\nOn dit que le triangle est inscrit dans ce cercle.\nSon centre est à la même distance des trois sommets."
+        },
+        {
+          "type": "theoreme",
+          "titre": "Où est le centre du cercle circonscrit ?",
+          "texte": "Les médiatrices des trois côtés d'un triangle ABC se coupent en un même point O.\nCe point O est le centre du cercle circonscrit au triangle : OA = OB = OC."
+        },
+        {
+          "type": "schema",
+          "titre": "Les médiatrices et le cercle circonscrit",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='300' height='160' viewBox='0 0 300 160'><circle cx='150' cy='80' r='60' fill='none' stroke='currentColor' stroke-width='1.5'/><polygon points='140,21 101,114 202,110' fill='#e11d48' fill-opacity='0.12' stroke='currentColor' stroke-width='1.5'/><line x1='150' y1='80' x2='121' y2='68' stroke='currentColor' stroke-opacity='0.7' stroke-dasharray='4 3'/><line x1='150' y1='80' x2='152' y2='112' stroke='currentColor' stroke-opacity='0.7' stroke-dasharray='4 3'/><line x1='150' y1='80' x2='171' y2='66' stroke='currentColor' stroke-opacity='0.7' stroke-dasharray='4 3'/><circle cx='121' cy='68' r='2.5' fill='currentColor'/><circle cx='152' cy='112' r='2.5' fill='currentColor'/><circle cx='171' cy='66' r='2.5' fill='currentColor'/><circle cx='150' cy='80' r='4' fill='#e11d48'/><text x='146' y='14' font-size='13' fill='currentColor'>A</text><text x='86' y='126' font-size='13' fill='currentColor'>B</text><text x='206' y='122' font-size='13' fill='currentColor'>C</text><text x='156' y='76' font-size='13' fill='#e11d48'>O</text></svg>",
+          "legende": "Les trois traits en pointillés sont des morceaux des médiatrices. Ils se coupent en O, centre du cercle qui passe par A, B et C."
+        },
+        {
+          "type": "methode",
+          "titre": "Construire le cercle circonscrit",
+          "texte": "1. Trace la médiatrice de [AB] (équerre et compas, ou règle graduée pour le milieu).\n2. Trace la médiatrice de [BC].\n3. Marque leur point d'intersection O.\n4. Trace le cercle de centre O qui passe par A. Il passe aussi par B et par C.\n5. Pour contrôler, trace la médiatrice de [AC] : elle doit passer par O."
+        },
+        {
+          "type": "exemple",
+          "titre": "Pourquoi les trois sommets sont sur le même cercle",
+          "texte": "O est sur la médiatrice de [AB], donc OA = OB.\nO est sur la médiatrice de [BC], donc OB = OC.\nOn a donc OA = OB = OC : les trois sommets sont à la même distance de O. Ils sont tous sur le cercle de centre O et de rayon OA."
+        },
+        {
+          "type": "remarque",
+          "titre": "Où se trouve le centre ?",
+          "texte": "Si les trois angles du triangle sont aigus (plus petits que 90°), le centre est à l'intérieur du triangle.\nSi le triangle a un angle obtus (plus grand que 90°), le centre est à l'extérieur du triangle.\nSi le triangle est rectangle, le centre est le milieu de l'hypoténuse. C'est l'objet de la leçon suivante."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Circonscrit", "Qui entoure la figure en passant par tous ses sommets."],
+            ["Inscrit", "Qui a tous ses sommets sur le cercle."],
+            ["Se couper en un même point", "Passer toutes les trois par le même point."],
+            ["Obtus", "Se dit d'un angle plus grand que 90°."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Le point O est le centre du cercle circonscrit au triangle ABC, avec OA = 4 cm.\n1) Donne OB et OC.\n2) Quel est le diamètre de ce cercle ?\n3) La médiatrice de [AB] et la médiatrice de [BC] se coupent en O. Que peut-on dire de la médiatrice de [AC] ?",
+          "solution": "1) O est le centre du cercle circonscrit, donc OA = OB = OC = 4 cm.\n2) Le diamètre est 2 × 4 = 8 cm.\n3) Les trois médiatrices d'un triangle se coupent en un même point : la médiatrice de [AC] passe aussi par O."
+        }
+      ]
+    },
+    {
+      "id": "m4-10-3-rectangle-cercle",
+      "titre": "Triangle rectangle et cercle circonscrit",
+      "blocs": [
+        {
+          "type": "theoreme",
+          "titre": "Le cercle circonscrit à un triangle rectangle",
+          "texte": "Si un triangle est rectangle, alors le centre de son cercle circonscrit est le milieu de l'hypoténuse.\nL'hypoténuse est donc un diamètre de ce cercle."
+        },
+        {
+          "type": "schema",
+          "titre": "Un triangle rectangle en A inscrit dans un cercle",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='300' height='160' viewBox='0 0 300 160'><circle cx='150' cy='80' r='70' fill='none' stroke='currentColor' stroke-width='1.5'/><polygon points='110,23 80,80 220,80' fill='#e11d48' fill-opacity='0.12' stroke='currentColor' stroke-width='1.5'/><line x1='110' y1='23' x2='150' y2='80' stroke='#e11d48' stroke-width='2' stroke-dasharray='4 3'/><path d='M105 32 L114 36.5 L119 28' fill='none' stroke='currentColor' stroke-width='1.2'/><circle cx='150' cy='80' r='3.5' fill='#e11d48'/><text x='98' y='20' font-size='13' fill='currentColor'>A</text><text x='62' y='92' font-size='13' fill='currentColor'>B</text><text x='224' y='92' font-size='13' fill='currentColor'>C</text><text x='146' y='98' font-size='13' fill='#e11d48'>M</text></svg>",
+          "legende": "ABC est rectangle en A. Son hypoténuse [BC] est un diamètre du cercle, et M, milieu de [BC], est le centre. Donc MA = MB = MC."
+        },
+        {
+          "type": "formule",
+          "titre": "La médiane de l'angle droit",
+          "texte": "Si ABC est rectangle en A et si M est le milieu de [BC], alors MA = MB = MC = BC ÷ 2.\nLe rayon du cercle circonscrit est la moitié de l'hypoténuse."
+        },
+        {
+          "type": "exemple",
+          "titre": "Deux triangles rectangles",
+          "texte": "ABC est rectangle en A, avec AB = 6 cm et AC = 8 cm.\nD'après le théorème de Pythagore : BC² = 6² + 8² = 36 + 64 = 100, donc BC = 10 cm.\nLe cercle circonscrit a pour diamètre [BC] : son rayon est 10 ÷ 2 = 5 cm. Si M est le milieu de [BC], alors AM = 5 cm.\n\nUn autre triangle rectangle en A a pour hypoténuse BC = 13 cm. Le rayon de son cercle circonscrit est 13 ÷ 2 = 6,5 cm."
+        },
+        {
+          "type": "remarque",
+          "titre": "Pourquoi ça marche ?",
+          "texte": "ABC est rectangle en A et M est le milieu de [BC]. Soit D le symétrique de A par rapport à M (symétrie centrale, chapitre 8).\nLes diagonales [AD] et [BC] ont le même milieu M : ABDC est un parallélogramme. Il a un angle droit en A : c'est un rectangle.\nLes diagonales d'un rectangle ont la même longueur : AD = BC. Comme M est le milieu de [AD], on a MA = AD ÷ 2 = BC ÷ 2."
+        },
+        {
+          "type": "methode",
+          "titre": "Rédiger avec cette propriété",
+          "texte": "1. Écris : « Le triangle ABC est rectangle en A. »\n2. Écris : « Son cercle circonscrit a pour diamètre l'hypoténuse [BC]. »\n3. Conclus : « Donc le centre est M, milieu de [BC], et MA = BC ÷ 2. »\nCette propriété ne marche que dans un triangle rectangle. Dans un autre triangle, la distance entre un sommet et le milieu du côté opposé n'est pas la moitié de ce côté."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Hypoténuse", "Côté opposé à l'angle droit, le plus long côté."],
+            ["Médiane", "Segment qui relie un sommet au milieu du côté opposé."],
+            ["Circonscrit", "Cercle qui passe par les trois sommets."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Le triangle ABC est rectangle en B, avec AB = 9 cm et BC = 12 cm.\n1) Calcule AC.\n2) Où se trouve le centre du cercle circonscrit à ABC ? Donne son rayon.\n3) M est le milieu de [AC]. Donne BM.",
+          "solution": "1) Le triangle ABC est rectangle en B, donc l'hypoténuse est [AC]. D'après le théorème de Pythagore :\nAC² = AB² + BC² = 9² + 12² = 81 + 144 = 225.\nAC = √225 = 15 cm.\n2) Le centre est le milieu de l'hypoténuse [AC]. Le rayon est 15 ÷ 2 = 7,5 cm.\n3) M est le centre du cercle circonscrit, donc BM = 7,5 cm."
+        }
+      ]
+    },
+    {
+      "id": "m4-10-4-reciproque",
+      "titre": "La réciproque : reconnaître un triangle rectangle",
+      "blocs": [
+        {
+          "type": "theoreme",
+          "titre": "Un côté est un diamètre",
+          "texte": "Si un triangle est inscrit dans un cercle et si l'un de ses côtés est un diamètre de ce cercle, alors ce triangle est rectangle.\nL'angle droit est en face du diamètre, c'est-à-dire au sommet qui n'est pas une extrémité du diamètre."
+        },
+        {
+          "type": "theoreme",
+          "titre": "La médiane est la moitié du côté",
+          "texte": "Si, dans un triangle ABC, le milieu M de [BC] vérifie MA = BC ÷ 2, alors le triangle ABC est rectangle en A.\nAutrement dit : si MA = MB = MC, alors A est sur le cercle de diamètre [BC], et l'angle en A est droit."
+        },
+        {
+          "type": "exemple",
+          "titre": "Avec un diamètre",
+          "texte": "[AB] est un diamètre d'un cercle de centre O, avec AB = 10 cm. C est un point du cercle, différent de A et de B.\nLe triangle ABC est inscrit dans le cercle et [AB] est un diamètre : le triangle ABC est rectangle en C.\nSi AC = 6 cm, alors BC² = AB² − AC² = 100 − 36 = 64, donc BC = 8 cm."
+        },
+        {
+          "type": "exemple",
+          "titre": "Avec la médiane",
+          "texte": "Dans le triangle ABC, M est le milieu de [BC] et BC = 14 cm.\nSi AM = 7 cm, alors AM = 14 ÷ 2 = BC ÷ 2. Le triangle ABC est rectangle en A.\nSi AM = 6 cm, alors AM n'est pas égal à 14 ÷ 2 = 7. Le triangle ABC n'est pas rectangle en A (car dans un triangle rectangle en A, on aurait AM = 7)."
+        },
+        {
+          "type": "methode",
+          "titre": "Tracer un angle droit avec le compas",
+          "texte": "1. Trace un segment [AB] et marque son milieu O.\n2. Trace le cercle de centre O qui passe par A (et par B).\n3. Place un point C n'importe où sur ce cercle.\n4. L'angle ACB est droit, sans avoir besoin de l'équerre."
+        },
+        {
+          "type": "tableau",
+          "titre": "Quel outil choisir ?",
+          "entetes": ["Ce que je sais", "Ce que j'utilise"],
+          "lignes": [
+            ["Je connais les trois côtés d'un triangle", "Réciproque du théorème de Pythagore"],
+            ["Le triangle est rectangle et je cherche une longueur", "Théorème de Pythagore"],
+            ["Un côté du triangle est un diamètre d'un cercle qui passe par le troisième sommet", "Le triangle est rectangle (propriété du cercle)"],
+            ["Une médiane est égale à la moitié du côté qu'elle coupe", "Le triangle est rectangle (propriété de la médiane)"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Les erreurs à éviter",
+          "texte": "Il faut que le diamètre soit un côté du triangle et que le troisième sommet soit sur le cercle.\nSi C est à l'intérieur du cercle de diamètre [AB], l'angle ACB est plus grand que 90°. Si C est à l'extérieur, il est plus petit que 90°.\nOn ne peut pas dire « le triangle est rectangle » parce qu'il a l'air rectangle sur le dessin."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Réciproque", "Le résultat dans l'autre sens : on part du cercle ou de la médiane pour conclure à l'angle droit."],
+            ["Inscrit", "Dont les sommets sont sur le cercle."],
+            ["Au sommet", "Au point où se rencontrent deux côtés."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) [EF] est un diamètre d'un cercle de centre O, avec EF = 12 cm. G est un point du cercle avec EG = 7,2 cm. Quelle est la nature du triangle EFG ? Calcule FG.\n2) Dans un triangle ABC, M est le milieu de [BC] et BC = 18 cm. Le triangle ABC est-il rectangle en A si AM = 9 cm ? et si AM = 8 cm ?",
+          "solution": "1) Le triangle EFG est inscrit dans le cercle et [EF] est un diamètre : il est rectangle en G.\nD'après le théorème de Pythagore : EF² = EG² + FG².\n144 = 51,84 + FG²\nFG² = 144 − 51,84 = 92,16\nFG = √92,16 = 9,6 cm.\n2) BC ÷ 2 = 9. Si AM = 9, alors AM = BC ÷ 2 : le triangle ABC est rectangle en A.\nSi AM = 8, alors AM n'est pas égal à 9 : le triangle ABC n'est pas rectangle en A."
+        }
+      ]
+    },
+    {
+      "id": "m4-10-5-problemes",
+      "titre": "Applications et problèmes",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Rédiger un problème de type BEPC",
+          "texte": "1. Fais une figure et code l'angle droit, les longueurs connues, les milieux.\n2. Cherche le triangle rectangle utile et dis pourquoi il est rectangle.\n3. Utilise l'outil adapté : Pythagore pour une longueur, la propriété de la médiane ou du cercle pour reconnaître un angle droit ou trouver un rayon.\n4. Écris la propriété utilisée, fais le calcul, puis donne la phrase de réponse avec l'unité."
+        },
+        {
+          "type": "exemple",
+          "titre": "Cercle circonscrit à un triangle 5 ; 12 ; 13",
+          "texte": "ABC est rectangle en A, avec AB = 5 cm et AC = 12 cm.\nBC² = 5² + 12² = 25 + 144 = 169, donc BC = 13 cm.\nLe cercle circonscrit a pour diamètre [BC] : son rayon est 13 ÷ 2 = 6,5 cm.\nSon périmètre est 2 × π × 6,5 = 13π ≈ 40,8 cm.\nL'aire du disque est π × 6,5² = 42,25π ≈ 132,7 cm²."
+        },
+        {
+          "type": "exemple",
+          "titre": "Retrouver un côté avec la médiane",
+          "texte": "ABC est rectangle en A, M est le milieu de [BC], AM = 4,5 cm et AB = 6 cm.\nLe triangle est rectangle en A, donc BC = 2 × AM = 2 × 4,5 = 9 cm.\nD'après le théorème de Pythagore : AC² = BC² − AB² = 81 − 36 = 45.\nAC = √45 ≈ 6,7 cm."
+        },
+        {
+          "type": "exemple",
+          "titre": "Le cercle circonscrit à un rectangle",
+          "texte": "Un terrain rectangulaire ABCD mesure AB = 60 m et BC = 80 m. Sa diagonale [AC] mesure 100 m (chapitre 9).\nLes diagonales d'un rectangle ont la même longueur et se coupent en leur milieu O. Donc OA = OB = OC = OD = 100 ÷ 2 = 50 m.\nUn poteau planté en O est à 50 m de chaque coin du terrain. Le cercle de centre O et de rayon 50 m passe par les quatre coins : c'est le cercle circonscrit au rectangle."
+        },
+        {
+          "type": "remarque",
+          "titre": "Tous les quadrilatères n'ont pas de cercle circonscrit",
+          "texte": "Un rectangle (donc aussi un carré) a toujours un cercle circonscrit, dont le centre est le point d'intersection des diagonales.\nUn parallélogramme a un cercle circonscrit seulement s'il est rectangle. Un losange qui n'est pas un carré n'en a pas."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Circonférence", "Longueur du cercle."],
+            ["Médiane", "Segment qui relie un sommet au milieu du côté opposé."],
+            ["Équidistant", "Qui est à la même distance de plusieurs points."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "ABC est un triangle rectangle en A, avec AB = 8 cm et AC = 15 cm.\n1) Calcule BC.\n2) Quel est le rayon du cercle circonscrit ?\n3) M est le milieu de [BC]. Donne AM.\n4) Calcule le périmètre du cercle circonscrit, au dixième près.",
+          "solution": "1) Le triangle ABC est rectangle en A. D'après le théorème de Pythagore :\nBC² = AB² + AC² = 8² + 15² = 64 + 225 = 289.\nBC = √289 = 17 cm.\n2) L'hypoténuse [BC] est un diamètre du cercle circonscrit. Le rayon est 17 ÷ 2 = 8,5 cm.\n3) M est le centre du cercle circonscrit, donc AM = 8,5 cm.\n4) Périmètre = 2 × π × 8,5 = 17π ≈ 53,4 cm."
+        }
+      ]
+    }
+  ]
+}
