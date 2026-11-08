@@ -24,8 +24,7 @@
         {
           "type": "exemple",
           "titre": "Les cartables d'une classe",
-          "texte": "On interroge 50 élèves sur la couleur de leur cartable.",
-          "lignes": null
+          "texte": "On interroge 50 élèves sur la couleur de leur cartable. Les résultats sont dans le tableau ci-dessous."
         },
         {
           "type": "tableau",
