@@ -1,0 +1,361 @@
+{
+  "id": "math4-9-pythagore",
+  "titre": "Chapitre 9 : Théorème de Pythagore et sa réciproque",
+  "lecons": [
+    {
+      "id": "m4-9-1-racines",
+      "titre": "Carrés et racines carrées",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Le carré d'un nombre",
+          "texte": "Le carré d'un nombre a est a × a. On le note a².\nExemples : 5² = 5 × 5 = 25 ; 1,5² = 2,25 ; 0² = 0."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les carrés à connaître (de 1 à 8)",
+          "entetes": ["n", "1", "2", "3", "4", "5", "6", "7", "8"],
+          "lignes": [
+            ["n²", "1", "4", "9", "16", "25", "36", "49", "64"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Les carrés à connaître (de 9 à 15)",
+          "entetes": ["n", "9", "10", "11", "12", "13", "14", "15"],
+          "lignes": [
+            ["n²", "81", "100", "121", "144", "169", "196", "225"]
+          ]
+        },
+        {
+          "type": "definition",
+          "titre": "La racine carrée",
+          "texte": "La racine carrée d'un nombre positif a est le nombre positif dont le carré est a. On la note √a.\nExemple : √49 = 7, car 7² = 49 et 7 est positif.\nCalculer une racine carrée, c'est faire le chemin inverse de la mise au carré."
+        },
+        {
+          "type": "regle",
+          "titre": "Deux égalités utiles",
+          "texte": "Pour tout nombre positif a :\n√(a²) = a, par exemple √(3²) = 3.\n(√a)² = a, par exemple (√5)² = 5."
+        },
+        {
+          "type": "exemple",
+          "titre": "Racines exactes et racines approchées",
+          "texte": "√25 = 5 ; √144 = 12 ; √100 = 10. Ces nombres sont des carrés parfaits : la racine est un nombre entier.\n√2 n'est pas un nombre entier ni un nombre décimal exact. Avec la calculatrice, on trouve 1,4142... On écrit √2 ≈ 1,41 (valeur approchée au centième).\nDe même √20 ≈ 4,47 et √50 ≈ 7,07 au centième près."
+        },
+        {
+          "type": "methode",
+          "titre": "Encadrer une racine carrée",
+          "texte": "Pour encadrer √30 entre deux nombres entiers :\n1. Cherche les carrés parfaits qui entourent 30 : 25 < 30 < 36.\n2. Prends les racines : √25 < √30 < √36.\n3. Donc 5 < √30 < 6.\nAvec la calculatrice : √30 ≈ 5,48."
+        },
+        {
+          "type": "remarque",
+          "titre": "Attention aux pièges",
+          "texte": "On ne peut pas calculer la racine carrée d'un nombre négatif : √(−4) n'existe pas, car aucun nombre multiplié par lui-même ne donne un résultat négatif.\nAttention : √(a + b) n'est pas égal à √a + √b. Par exemple √(9 + 16) = √25 = 5, alors que √9 + √16 = 3 + 4 = 7.\nOn calcule d'abord la somme, puis la racine."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Carré parfait", "Nombre entier qui est le carré d'un autre nombre entier : 1, 4, 9, 16, 25..."],
+            ["Racine carrée", "Nombre positif dont le carré est le nombre de départ."],
+            ["Valeur approchée", "Nombre proche du résultat exact, arrondi à une précision demandée."],
+            ["Encadrer", "Trouver un nombre plus petit et un nombre plus grand, entre lesquels se trouve le résultat."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Calcule : 13², √81, √169, √(7²).\n2) Encadre √50 entre deux entiers consécutifs.\n3) Calcule √(16 + 9), puis √16 + √9. Les deux résultats sont-ils égaux ?",
+          "solution": "1) 13² = 169. √81 = 9. √169 = 13. √(7²) = 7.\n2) 49 < 50 < 64, donc 7 < √50 < 8 (en effet √50 ≈ 7,07).\n3) √(16 + 9) = √25 = 5. √16 + √9 = 4 + 3 = 7. Les deux résultats ne sont pas égaux : √(a + b) n'est pas √a + √b."
+        }
+      ]
+    },
+    {
+      "id": "m4-9-2-theoreme",
+      "titre": "Le théorème de Pythagore",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Triangle rectangle et hypoténuse",
+          "texte": "Un triangle rectangle est un triangle qui a un angle droit (90°).\nL'hypoténuse est le côté opposé à l'angle droit. C'est toujours le plus long côté du triangle.\nLes deux autres côtés sont les côtés de l'angle droit."
+        },
+        {
+          "type": "schema",
+          "titre": "Un triangle rectangle en A",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='300' height='160' viewBox='0 0 300 160'><polygon points='60,130 60,30 240,130' fill='#e11d48' fill-opacity='0.12' stroke='currentColor' stroke-width='1.5'/><path d='M60 118 L72 118 L72 130' fill='none' stroke='currentColor' stroke-width='1.2'/><text x='44' y='148' font-size='13' fill='currentColor'>A</text><text x='50' y='24' font-size='13' fill='currentColor'>B</text><text x='244' y='148' font-size='13' fill='currentColor'>C</text><text x='40' y='85' font-size='12' text-anchor='end' fill='currentColor'>AB</text><text x='145' y='148' font-size='12' fill='currentColor'>AC</text><text x='140' y='62' font-size='12' fill='#e11d48'>BC : hypoténuse</text></svg>",
+          "legende": "L'angle droit est en A. Le côté opposé à A est [BC] : c'est l'hypoténuse."
+        },
+        {
+          "type": "theoreme",
+          "titre": "Théorème de Pythagore",
+          "texte": "Si un triangle ABC est rectangle en A, alors BC² = AB² + AC².\nAutrement dit : dans un triangle rectangle, le carré de l'hypoténuse est égal à la somme des carrés des deux autres côtés."
+        },
+        {
+          "type": "exemple",
+          "titre": "Le triangle 3 ; 4 ; 5",
+          "texte": "Un triangle ABC est rectangle en A avec AB = 3 cm et AC = 4 cm.\nAB² + AC² = 3² + 4² = 9 + 16 = 25.\nDonc BC² = 25, et BC = 5 cm.\nDès l'Antiquité, les constructeurs utilisaient une corde à nœuds régulièrement espacés pour former un triangle de côtés 3, 4 et 5 : ils obtenaient ainsi un angle droit."
+        },
+        {
+          "type": "methode",
+          "titre": "Écrire la bonne égalité",
+          "texte": "1. Repère l'angle droit.\n2. L'hypoténuse est le côté en face de l'angle droit. Elle est seule d'un côté de l'égalité, au carré.\n3. De l'autre côté, additionne les carrés des deux autres côtés.\nExemple : EFG rectangle en F, l'hypoténuse est [EG], donc EG² = EF² + FG²."
+        },
+        {
+          "type": "remarque",
+          "titre": "Ce que le théorème ne dit pas",
+          "texte": "Le théorème s'utilise seulement dans un triangle rectangle. On ne peut pas l'utiliser si on ne sait pas qu'il y a un angle droit.\nIl faut toujours commencer par dire dans quel triangle on travaille et en quel point il est rectangle."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Hypoténuse", "Côté opposé à l'angle droit, le plus long côté d'un triangle rectangle."],
+            ["Côtés de l'angle droit", "Les deux côtés qui forment l'angle droit."],
+            ["Théorème", "Résultat mathématique démontré, qu'on peut utiliser dans un calcul."],
+            ["Opposé", "En face de. Le côté opposé à un angle est celui qui ne touche pas cet angle."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Le triangle MNP est rectangle en N. Quelle est son hypoténuse ? Écris l'égalité de Pythagore.\n2) Le triangle RST est rectangle en S. Écris l'égalité de Pythagore.\n3) Un triangle est rectangle en A, avec AB = 6 cm et AC = 8 cm. Calcule BC.",
+          "solution": "1) L'angle droit est en N, donc l'hypoténuse est [MP]. On écrit MP² = MN² + NP².\n2) L'angle droit est en S, donc l'hypoténuse est [RT]. On écrit RT² = RS² + ST².\n3) BC² = AB² + AC² = 6² + 8² = 36 + 64 = 100. BC = √100 = 10 cm."
+        }
+      ]
+    },
+    {
+      "id": "m4-9-3-hypotenuse",
+      "titre": "Calculer l'hypoténuse",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Les étapes pour calculer l'hypoténuse",
+          "texte": "1. Dis dans quel triangle tu travailles, et où est l'angle droit.\n2. Écris : « D'après le théorème de Pythagore, ... » et l'égalité.\n3. Remplace les longueurs connues par leurs valeurs.\n4. Calcule les carrés et additionne.\n5. Prends la racine carrée du résultat.\n6. Écris la phrase de réponse avec l'unité."
+        },
+        {
+          "type": "exemple",
+          "titre": "Un résultat exact",
+          "texte": "Le triangle ABC est rectangle en A, avec AB = 9 cm et AC = 12 cm. Calcule BC.\nLe triangle ABC est rectangle en A. D'après le théorème de Pythagore :\nBC² = AB² + AC²\nBC² = 9² + 12²\nBC² = 81 + 144\nBC² = 225\nBC = √225 = 15 cm."
+        },
+        {
+          "type": "exemple",
+          "titre": "Un résultat approché",
+          "texte": "Le triangle ABC est rectangle en A, avec AB = 4 cm et AC = 5 cm. Calcule BC au dixième près.\nLe triangle ABC est rectangle en A. D'après le théorème de Pythagore :\nBC² = AB² + AC²\nBC² = 4² + 5²\nBC² = 16 + 25\nBC² = 41\nBC = √41 ≈ 6,4 cm.\n(41 n'est pas un carré parfait, donc on donne une valeur approchée.)"
+        },
+        {
+          "type": "remarque",
+          "titre": "Les erreurs à éviter",
+          "texte": "Ne t'arrête pas à BC² = 41 : il faut prendre la racine carrée pour avoir BC.\nNe calcule pas 4² comme 4 × 2 : 4² = 16.\nVérifie ton résultat : l'hypoténuse doit être plus longue que chacun des deux autres côtés. Ici 6,4 est bien plus grand que 4 et que 5."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Au dixième près", "Avec un seul chiffre après la virgule."],
+            ["Valeur exacte", "Le résultat sans arrondi, par exemple √41."],
+            ["Remplacer", "Mettre les valeurs données à la place des lettres."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Le triangle DEF est rectangle en E, avec DE = 5 cm et EF = 12 cm. Calcule DF.\n2) Le triangle ABC est rectangle en A, avec AB = 3 cm et AC = 6 cm. Calcule BC, d'abord la valeur exacte, puis une valeur approchée au dixième.",
+          "solution": "1) Le triangle DEF est rectangle en E. D'après le théorème de Pythagore :\nDF² = DE² + EF² = 5² + 12² = 25 + 144 = 169.\nDF = √169 = 13 cm.\n2) Le triangle ABC est rectangle en A. D'après le théorème de Pythagore :\nBC² = AB² + AC² = 3² + 6² = 9 + 36 = 45.\nLa valeur exacte est BC = √45 cm. Une valeur approchée est BC ≈ 6,7 cm."
+        }
+      ]
+    },
+    {
+      "id": "m4-9-4-cote",
+      "titre": "Calculer un côté de l'angle droit",
+      "blocs": [
+        {
+          "type": "formule",
+          "titre": "Quand on cherche un côté de l'angle droit",
+          "texte": "Si ABC est rectangle en A, on sait que BC² = AB² + AC².\nPour trouver AB : AB² = BC² − AC².\nPour trouver AC : AC² = BC² − AB².\nOn soustrait le carré du côté connu au carré de l'hypoténuse."
+        },
+        {
+          "type": "tableau",
+          "titre": "Addition ou soustraction ?",
+          "entetes": ["Je cherche", "Je fais"],
+          "lignes": [
+            ["L'hypoténuse", "J'additionne les carrés des deux autres côtés"],
+            ["Un côté de l'angle droit", "Je soustrais le carré du côté connu au carré de l'hypoténuse"]
+          ]
+        },
+        {
+          "type": "exemple",
+          "titre": "Un résultat exact",
+          "texte": "Le triangle ABC est rectangle en A, avec BC = 13 cm et AC = 12 cm. Calcule AB.\nLe triangle ABC est rectangle en A. D'après le théorème de Pythagore :\nBC² = AB² + AC²\n13² = AB² + 12²\n169 = AB² + 144\nAB² = 169 − 144 = 25\nAB = √25 = 5 cm."
+        },
+        {
+          "type": "exemple",
+          "titre": "Un résultat approché",
+          "texte": "Le triangle ABC est rectangle en A, avec BC = 10 cm et AB = 7 cm. Calcule AC au centième près.\nD'après le théorème de Pythagore : BC² = AB² + AC².\n10² = 7² + AC²\n100 = 49 + AC²\nAC² = 100 − 49 = 51\nAC = √51 ≈ 7,14 cm."
+        },
+        {
+          "type": "remarque",
+          "titre": "Un contrôle important",
+          "texte": "Dans un côté de l'angle droit, le résultat est toujours plus petit que l'hypoténuse. Ici 7,14 est bien plus petit que 10.\nSi tu obtiens une soustraction négative, tu as sans doute mélangé l'hypoténuse et un autre côté. Reprends en cherchant où est l'angle droit."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Soustraire", "Faire une soustraction : enlever une quantité à une autre."],
+            ["Au centième près", "Avec deux chiffres après la virgule."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Le triangle RST est rectangle en R, avec ST = 17 cm et RS = 8 cm. Calcule RT.\n2) Le triangle RST est rectangle en R, avec ST = 9 cm et RS = 6 cm. Calcule RT, valeur exacte puis valeur approchée au dixième.",
+          "solution": "1) L'angle droit est en R, donc l'hypoténuse est [ST]. D'après le théorème de Pythagore :\nST² = RS² + RT²\n17² = 8² + RT²\n289 = 64 + RT²\nRT² = 289 − 64 = 225\nRT = √225 = 15 cm.\n2) ST² = RS² + RT²\n81 = 36 + RT²\nRT² = 81 − 36 = 45\nValeur exacte : RT = √45 cm. Valeur approchée : RT ≈ 6,7 cm."
+        }
+      ]
+    },
+    {
+      "id": "m4-9-5-reciproque",
+      "titre": "La réciproque : un triangle est-il rectangle ?",
+      "blocs": [
+        {
+          "type": "theoreme",
+          "titre": "Réciproque du théorème de Pythagore",
+          "texte": "Si, dans un triangle ABC, on a BC² = AB² + AC², alors le triangle ABC est rectangle en A.\nL'angle droit est en face du côté qui est au carré tout seul."
+        },
+        {
+          "type": "theoreme",
+          "titre": "Quand l'égalité est fausse",
+          "texte": "Si, dans un triangle ABC, le carré du plus grand côté n'est pas égal à la somme des carrés des deux autres côtés, alors le triangle n'est pas rectangle."
+        },
+        {
+          "type": "schema",
+          "titre": "Un triangle de côtés 5, 12 et 13",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='240' height='150' viewBox='0 0 240 150'><polygon points='40,130 40,70 184,130' fill='#e11d48' fill-opacity='0.12' stroke='currentColor' stroke-width='1.5'/><text x='47' y='123' font-size='15' fill='#e11d48'>?</text><text x='26' y='144' font-size='13' fill='currentColor'>A</text><text x='26' y='66' font-size='13' fill='currentColor'>B</text><text x='190' y='144' font-size='13' fill='currentColor'>C</text><text x='24' y='104' font-size='12' text-anchor='end' fill='currentColor'>5</text><text x='108' y='146' font-size='12' fill='currentColor'>12</text><text x='120' y='92' font-size='12' fill='currentColor'>13</text></svg>",
+          "legende": "On ne sait pas encore si l'angle en A est droit. On le vérifie par le calcul."
+        },
+        {
+          "type": "methode",
+          "titre": "Démontrer qu'un triangle est rectangle (ou non)",
+          "texte": "1. Repère le plus grand côté.\n2. Calcule d'une part le carré du plus grand côté.\n3. Calcule d'autre part la somme des carrés des deux autres côtés.\n4. Compare les deux résultats.\n5. Si les deux résultats sont égaux, conclus avec la réciproque : le triangle est rectangle, et l'angle droit est opposé au plus grand côté. S'ils sont différents, le triangle n'est pas rectangle."
+        },
+        {
+          "type": "exemple",
+          "titre": "Le triangle ABC avec AB = 5, AC = 12, BC = 13 (en cm)",
+          "texte": "Le plus grand côté est [BC].\nD'une part : BC² = 13² = 169.\nD'autre part : AB² + AC² = 5² + 12² = 25 + 144 = 169.\nOn a BC² = AB² + AC².\nD'après la réciproque du théorème de Pythagore, le triangle ABC est rectangle en A."
+        },
+        {
+          "type": "exemple",
+          "titre": "Le triangle DEF avec DE = 6, EF = 7, DF = 9 (en cm)",
+          "texte": "Le plus grand côté est [DF].\nD'une part : DF² = 9² = 81.\nD'autre part : DE² + EF² = 6² + 7² = 36 + 49 = 85.\nOn a DF² ≠ DE² + EF², car 81 ≠ 85.\nLe triangle DEF n'est donc pas rectangle."
+        },
+        {
+          "type": "tableau",
+          "titre": "Des triangles rectangles connus (côtés entiers)",
+          "entetes": ["Petit côté", "Autre côté", "Hypoténuse"],
+          "lignes": [
+            ["3", "4", "5"],
+            ["6", "8", "10"],
+            ["5", "12", "13"],
+            ["8", "15", "17"],
+            ["7", "24", "25"],
+            ["9", "12", "15"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Théorème ou réciproque ?",
+          "entetes": ["", "Théorème", "Réciproque"],
+          "lignes": [
+            ["On sait", "Le triangle est rectangle", "Une égalité entre les carrés des côtés"],
+            ["On veut", "Calculer une longueur", "Montrer que le triangle est rectangle"],
+            ["On écrit", "Hypoténuse² = somme des deux autres carrés", "On compare les deux calculs séparément"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Les erreurs à éviter",
+          "texte": "Dans la réciproque, ne commence jamais par écrire BC² = AB² + AC² : tu ne sais pas encore que c'est vrai. Calcule les deux côtés séparément, puis compare.\nOn compare toujours le plus grand côté avec les deux autres, sinon la vérification ne prouve rien.\nUn triangle presque rectangle n'est pas rectangle : 81 et 85 sont différents, même s'ils sont proches."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Réciproque", "Le théorème dans l'autre sens : on part de l'égalité pour conclure à l'angle droit."],
+            ["D'une part, d'autre part", "Pour présenter deux calculs séparés avant de les comparer."],
+            ["Conclure", "Donner la réponse finale en citant le théorème utilisé."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Les triangles suivants sont-ils rectangles ? Les longueurs sont en cm.\n1) Triangle IJK : IJ = 7, JK = 24, IK = 25.\n2) Triangle LMN : LM = 4, MN = 6, LN = 8.",
+          "solution": "1) Le plus grand côté est [IK].\nD'une part : IK² = 25² = 625.\nD'autre part : IJ² + JK² = 7² + 24² = 49 + 576 = 625.\nOn a IK² = IJ² + JK². D'après la réciproque du théorème de Pythagore, le triangle IJK est rectangle en J.\n2) Le plus grand côté est [LN].\nD'une part : LN² = 8² = 64.\nD'autre part : LM² + MN² = 4² + 6² = 16 + 36 = 52.\nOn a LN² ≠ LM² + MN² car 64 ≠ 52. Le triangle LMN n'est pas rectangle."
+        }
+      ]
+    },
+    {
+      "id": "m4-9-6-problemes",
+      "titre": "Applications et problèmes",
+      "blocs": [
+        {
+          "type": "regle",
+          "titre": "Où trouve-t-on des triangles rectangles ?",
+          "texte": "Dans un rectangle, la diagonale coupe la figure en deux triangles rectangles : d² = longueur² + largeur².\nDans un carré de côté c, la diagonale d vérifie d² = c² + c² = 2c².\nDans un triangle isocèle, la hauteur issue du sommet principal coupe la base en son milieu et forme deux triangles rectangles.\nUne échelle contre un mur, un poteau et son câble, une rampe : le mur (ou le poteau) est vertical, le sol est horizontal, donc l'angle est droit."
+        },
+        {
+          "type": "exemple",
+          "titre": "La diagonale d'un écran",
+          "texte": "Un écran rectangulaire mesure 40 cm de large et 30 cm de haut. Quelle est la longueur de sa diagonale ?\nLa diagonale est l'hypoténuse d'un triangle rectangle de côtés 40 et 30.\nd² = 40² + 30² = 1 600 + 900 = 2 500.\nd = √2 500 = 50 cm."
+        },
+        {
+          "type": "exemple",
+          "titre": "La diagonale d'un carré",
+          "texte": "Un carré a un côté de 6 cm. Sa diagonale d vérifie :\nd² = 6² + 6² = 36 + 36 = 72.\nd = √72 ≈ 8,49 cm.\nLa diagonale est plus longue que le côté, ce qui est normal."
+        },
+        {
+          "type": "schema",
+          "titre": "La hauteur d'un triangle isocèle",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='300' height='160' viewBox='0 0 300 160'><polygon points='150,15 70,135 230,135' fill='#e11d48' fill-opacity='0.12' stroke='currentColor' stroke-width='1.5'/><line x1='150' y1='15' x2='150' y2='135' stroke='currentColor' stroke-width='1.5' stroke-dasharray='4 3'/><path d='M150 123 L162 123 L162 135' fill='none' stroke='currentColor' stroke-width='1.2'/><text x='156' y='20' font-size='13' fill='currentColor'>A</text><text x='50' y='146' font-size='13' fill='currentColor'>B</text><text x='234' y='146' font-size='13' fill='currentColor'>C</text><text x='140' y='152' font-size='13' text-anchor='end' fill='currentColor'>H</text><text x='92' y='72' font-size='12' text-anchor='end' fill='currentColor'>13</text><text x='198' y='72' font-size='12' fill='currentColor'>13</text><text x='158' y='80' font-size='12' fill='#e11d48'>h</text><text x='110' y='130' font-size='12' text-anchor='middle' fill='currentColor'>5</text><text x='190' y='130' font-size='12' text-anchor='middle' fill='currentColor'>5</text></svg>",
+          "legende": "ABC est isocèle en A, avec AB = AC = 13 cm et BC = 10 cm. H est le milieu de [BC] et la hauteur h = AH. Figure non à l'échelle."
+        },
+        {
+          "type": "exemple",
+          "titre": "Calculer la hauteur du triangle isocèle",
+          "texte": "ABC est isocèle en A avec AB = AC = 13 cm et BC = 10 cm. H est le pied de la hauteur issue de A.\nLa droite (AH) est l'axe de symétrie du triangle : H est le milieu de [BC], donc BH = 5 cm.\nLe triangle ABH est rectangle en H. D'après le théorème de Pythagore :\nAB² = AH² + BH²\n13² = AH² + 5²\n169 = AH² + 25\nAH² = 169 − 25 = 144\nAH = √144 = 12 cm."
+        },
+        {
+          "type": "methode",
+          "titre": "Rédiger un problème de type BEPC",
+          "texte": "1. Fais un schéma et code l'angle droit, les longueurs connues et la longueur cherchée.\n2. Repère le triangle rectangle utile, et dis pourquoi il est rectangle (par exemple « le mur est vertical et le sol est horizontal »).\n3. Écris « D'après le théorème de Pythagore » et l'égalité.\n4. Calcule, puis donne la réponse avec l'unité.\n5. Vérifie que le résultat est logique : l'hypoténuse est le plus grand côté.\n6. Si on te demande de prouver qu'un angle est droit, utilise la réciproque avec les deux calculs séparés."
+        },
+        {
+          "type": "remarque",
+          "titre": "Les unités",
+          "texte": "Toutes les longueurs doivent être dans la même unité avant de calculer. Convertis d'abord si nécessaire (par exemple 1,5 m = 150 cm).\nLe résultat d'un carré est en cm² mais la longueur finale, après la racine carrée, est de nouveau en cm."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Diagonale", "Segment qui relie deux sommets non voisins d'un polygone."],
+            ["Hauteur", "Segment perpendiculaire à un côté (ou à son prolongement), issu du sommet opposé."],
+            ["Isocèle", "Qui a deux côtés de même longueur."],
+            ["Vertical, horizontal", "Vertical : comme un fil à plomb. Horizontal : comme la surface de l'eau au repos."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Une échelle de 2,5 m est posée contre un mur vertical. Le pied de l'échelle est à 1,5 m du mur, sur un sol horizontal.\n1) Fais un schéma du triangle rectangle et donne l'hypoténuse.\n2) À quelle hauteur l'échelle touche-t-elle le mur ?",
+          "solution": "1) Le mur est vertical et le sol est horizontal : le triangle formé par le mur, le sol et l'échelle est rectangle au pied du mur. L'hypoténuse est l'échelle (2,5 m).\n2) Appelons h la hauteur cherchée. D'après le théorème de Pythagore :\n2,5² = h² + 1,5²\n6,25 = h² + 2,25\nh² = 6,25 − 2,25 = 4\nh = √4 = 2 m.\nL'échelle touche le mur à 2 m de hauteur."
+        }
+      ]
+    }
+  ]
+}
