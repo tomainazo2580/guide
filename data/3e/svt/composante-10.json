@@ -1,0 +1,334 @@
+{
+  "id": "svt-roches",
+  "titre": "La formation des roches",
+  "lecons": [
+    {
+      "id": "svt-roc-1",
+      "titre": "Les roches et leurs trois familles",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Roche et minéral",
+          "texte": "Une roche est un matériau solide qui forme l'écorce terrestre. Elle est composée d'un ou de plusieurs minéraux. Un minéral est une substance naturelle solide, de composition chimique définie : quartz, mica, feldspath..."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les trois familles de roches",
+          "entetes": ["Famille", "Origine", "Exemples"],
+          "lignes": [
+            ["Roches sédimentaires", "Dépôt et tassement de débris, ou précipitation, ou accumulation de restes d'êtres vivants", "Grès, argile, calcaire, sel, charbon"],
+            ["Roches magmatiques", "Refroidissement et solidification du magma", "Granite, basalte, gabbro, andésite"],
+            ["Roches métamorphiques", "Transformation d'une roche sous l'effet de la chaleur et de la pression, sans fusion", "Marbre, schiste, quartzite, gneiss"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "À Madagascar",
+          "texte": "L'ouest de l'île est surtout formé de roches sédimentaires (calcaires, grès). Le centre et l'est reposent sur un très ancien socle de roches magmatiques et métamorphiques (granite, gneiss, quartzite). On trouve aussi des roches volcaniques récentes (basalte), par exemple à l'Ankaratra, à l'Itasy, à Nosy Be et à la Montagne d'Ambre."
+        },
+        {
+          "type": "methode",
+          "titre": "Reconnaître une roche",
+          "texte": "1. Observer la couleur. 2. Regarder si l'on voit des cristaux, des grains ou des couches. 3. Tester la dureté (peut-on la rayer avec une pointe d'acier ?). 4. Déposer une goutte d'acide dilué : une effervescence indique du calcaire. 5. Chercher des fossiles."
+        }
+      ],
+      "lexique": [
+        { "terme": "Roche", "definition": "Matériau solide formé de minéraux, qui constitue l'écorce terrestre." },
+        { "terme": "Minéral", "definition": "Substance naturelle solide de composition chimique définie." },
+        { "terme": "Magma", "definition": "Roche en fusion située en profondeur." },
+        { "terme": "Écorce terrestre", "definition": "Couche solide superficielle de la Terre." }
+      ]
+    },
+    {
+      "id": "svt-roc-2",
+      "titre": "La formation des roches sédimentaires",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Roche sédimentaire",
+          "texte": "Une roche sédimentaire se forme à la surface de la Terre, à partir de sédiments (débris de roches, restes d'êtres vivants, sels dissous) qui se déposent, s'accumulent puis se transforment en roche dure."
+        },
+        {
+          "type": "regle",
+          "titre": "Les étapes de la formation",
+          "texte": "1. Altération et érosion : les roches sont cassées et usées par l'eau, le vent, les variations de température. 2. Transport : les débris sont emportés par les rivières, le vent, les glaciers ou la pente. 3. Sédimentation : les débris se déposent en couches (strates) dans les lacs, les mers, les deltas. 4. Diagenèse : les sédiments sont transformés en roche dure."
+        },
+        {
+          "type": "definition",
+          "titre": "La diagenèse",
+          "texte": "La diagenèse est l'ensemble des transformations qui changent un sédiment meuble en roche dure. Sous le poids des couches supérieures, l'eau est chassée et les grains sont tassés (compaction). Des minéraux dissous cristallisent entre les grains et les collent (cimentation)."
+        },
+        {
+          "type": "schema",
+          "titre": "Les couches (strates) d'un dépôt",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='340' height='170' viewBox='0 0 340 170'><rect x='20' y='20' width='190' height='34' fill='#f5deb3' stroke='#7e5109' stroke-width='2'/><rect x='20' y='54' width='190' height='34' fill='#d7a86e' stroke='#7e5109' stroke-width='2'/><rect x='20' y='88' width='190' height='34' fill='#b98b5a' stroke='#7e5109' stroke-width='2'/><rect x='20' y='122' width='190' height='34' fill='#8d6e4a' stroke='#7e5109' stroke-width='2'/><ellipse cx='150' cy='105' rx='12' ry='6' fill='#fdf2e9' stroke='#555'/><g stroke='#555' stroke-width='1'><line x1='162' y1='105' x2='226' y2='105'/></g><g font-family='sans-serif' font-size='11' fill='#222'><text x='228' y='109'>Fossile</text><text x='228' y='42'>Couche récente</text><text x='228' y='146'>Couche ancienne</text></g></svg>",
+          "legende": "Les couches se déposent les unes sur les autres : la plus ancienne est en bas, la plus récente en haut."
+        },
+        {
+          "type": "remarque",
+          "texte": "Exemple : un sable déposé au fond d'une rivière devient du grès après des milliers d'années de compaction et de cimentation. Les massifs de grès de l'Isalo et les tsingy calcaires de l'Ankarana et du Bemaraha sont des roches sédimentaires."
+        }
+      ],
+      "lexique": [
+        { "terme": "Sédiment", "definition": "Débris ou dépôt déposé par l'eau, le vent ou la glace." },
+        { "terme": "Érosion", "definition": "Usure et transport des roches par l'eau, le vent, la glace." },
+        { "terme": "Sédimentation", "definition": "Dépôt des sédiments en couches." },
+        { "terme": "Strate", "definition": "Couche de roche sédimentaire." },
+        { "terme": "Diagenèse", "definition": "Transformation d'un sédiment meuble en roche dure." },
+        { "terme": "Compaction", "definition": "Tassement des sédiments sous le poids des couches supérieures." }
+      ]
+    },
+    {
+      "id": "svt-roc-3",
+      "titre": "Les types de roches sédimentaires",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Trois types de roches sédimentaires",
+          "entetes": ["Type", "Origine", "Exemples"],
+          "lignes": [
+            ["Détritiques", "Accumulation de débris de roches (grains, galets)", "Conglomérat, grès, argile"],
+            ["Chimiques", "Précipitation de substances dissoutes dans l'eau (souvent par évaporation)", "Sel gemme, gypse"],
+            ["Biologiques (organiques)", "Accumulation de coquilles, squelettes ou débris de végétaux", "Calcaire coquillier, craie, charbon"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Les roches détritiques selon la taille des grains",
+          "entetes": ["Débris", "Taille", "Roche formée"],
+          "lignes": [
+            ["Galets", "Plus de 2 mm", "Conglomérat (poudingue)"],
+            ["Sable", "Entre 0,06 mm et 2 mm", "Grès"],
+            ["Argile", "Moins de 0,06 mm", "Argilite (argile durcie)"]
+          ]
+        },
+        {
+          "type": "definition",
+          "titre": "Les fossiles",
+          "texte": "Un fossile est le reste ou la trace d'un être vivant ancien conservé dans une roche sédimentaire. Les fossiles renseignent sur l'âge de la roche et sur le milieu où elle s'est formée (mer, lac, forêt)."
+        },
+        {
+          "type": "tableau",
+          "titre": "Utilité de quelques roches sédimentaires",
+          "entetes": ["Roche", "Usage"],
+          "lignes": [
+            ["Calcaire", "Chaux, ciment, pierre de construction"],
+            ["Grès", "Construction, pavage"],
+            ["Argile", "Briques, poterie, tuiles"],
+            ["Sel gemme", "Alimentation, conservation"],
+            ["Charbon", "Source d'énergie (par exemple le bassin de la Sakoa à Madagascar)"]
+          ]
+        }
+      ],
+      "lexique": [
+        { "terme": "Détritique", "definition": "Formé de débris de roches." },
+        { "terme": "Précipitation", "definition": "Formation d'un solide à partir d'une substance dissoute." },
+        { "terme": "Fossile", "definition": "Reste ou trace d'un être vivant ancien conservé dans une roche." },
+        { "terme": "Galet", "definition": "Pierre arrondie par le roulement dans l'eau." },
+        { "terme": "Gypse", "definition": "Roche chimique tendre, utilisée pour fabriquer le plâtre." }
+      ]
+    },
+    {
+      "id": "svt-roc-4",
+      "titre": "La formation des roches magmatiques",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Magma et roche magmatique",
+          "texte": "Le magma est une roche en fusion, très chaude (plus de 700 °C), formée en profondeur. Il contient des gaz dissous. Une roche magmatique se forme quand le magma refroidit et se solidifie."
+        },
+        {
+          "type": "tableau",
+          "titre": "Deux modes de refroidissement",
+          "entetes": ["", "Roches plutoniques", "Roches effusives (volcaniques)"],
+          "lignes": [
+            ["Où ?", "En profondeur, dans l'écorce", "À la surface (éruption volcanique)"],
+            ["Refroidissement", "Très lent (milliers d'années)", "Rapide"],
+            ["Cristaux", "Gros, visibles à l'œil nu : texture grenue", "Très petits ou absents : texture microlitique ou vitreuse"],
+            ["Exemples", "Granite, gabbro, diorite", "Basalte, andésite, rhyolite, obsidienne"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Règle à retenir",
+          "texte": "Plus le refroidissement est lent, plus les cristaux sont gros. Un refroidissement très rapide ne laisse pas le temps de former des cristaux : la roche est un verre naturel (obsidienne)."
+        },
+        {
+          "type": "remarque",
+          "texte": "Lors d'une éruption, le magma qui sort du volcan s'appelle la lave. Elle perd ses gaz et refroidit vite. Les roches plutoniques n'apparaissent à la surface que lorsque l'érosion a enlevé les roches qui les recouvraient."
+        }
+      ],
+      "lexique": [
+        { "terme": "Magma", "definition": "Roche en fusion contenant des gaz, formée en profondeur." },
+        { "terme": "Lave", "definition": "Magma arrivé à la surface lors d'une éruption." },
+        { "terme": "Roche plutonique", "definition": "Roche magmatique refroidie lentement en profondeur." },
+        { "terme": "Roche effusive", "definition": "Roche magmatique refroidie rapidement à la surface." },
+        { "terme": "Texture grenue", "definition": "Aspect d'une roche dont les cristaux sont visibles à l'œil nu." },
+        { "terme": "Obsidienne", "definition": "Verre volcanique noir, refroidi très vite." }
+      ]
+    },
+    {
+      "id": "svt-roc-5",
+      "titre": "Les familles de roches magmatiques et leurs gisements",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Trois familles de roches magmatiques",
+          "entetes": ["Famille", "Couleur et composition", "Roche plutonique", "Roche effusive"],
+          "lignes": [
+            ["Basaltique", "Sombre, riche en fer et magnésium, pauvre en silice", "Gabbro", "Basalte"],
+            ["Andésitique", "Intermédiaire", "Diorite", "Andésite"],
+            ["Granitique", "Claire, riche en silice (quartz, feldspath, mica)", "Granite", "Rhyolite"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Les formes de gisements",
+          "entetes": ["Gisement", "Description"],
+          "lignes": [
+            ["Batholite", "Énorme masse de roche plutonique (souvent granitique) refroidie en profondeur, qui apparaît à la surface après l'érosion"],
+            ["Filon", "Magma qui a rempli une fente de la roche et s'y est solidifié en lame étroite"],
+            ["Coulée", "Nappe de lave qui s'écoule sur le flanc d'un volcan puis se solidifie"],
+            ["Plateau", "Vaste étendue formée de nombreuses coulées de lave superposées, très fluides"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Gisements magmatiques",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='340' height='210' viewBox='0 0 340 210'><rect x='0' y='90' width='340' height='120' fill='#d9c3a0'/><path d='M 10 210 Q 20 140 100 132 Q 180 140 190 210 Z' fill='#e6b0aa' stroke='#a93226' stroke-width='2'/><path d='M 142 134 L 158 90 L 166 90 L 152 134 Z' fill='#c0392b'/><polygon points='240,90 285,42 330,90' fill='#8d6e63' stroke='#4e342e' stroke-width='2'/><rect x='282' y='46' width='6' height='108' fill='#c0392b'/><ellipse cx='285' cy='168' rx='32' ry='16' fill='#e74c3c' stroke='#922b21' stroke-width='2'/><path d='M 283 46 L 266 68 L 248 90' fill='none' stroke='#e74c3c' stroke-width='5'/><g stroke='#555' stroke-width='1'><line x1='150' y1='66' x2='160' y2='108'/><line x1='198' y1='30' x2='262' y2='66'/></g><g font-family='sans-serif' font-size='11' fill='#222'><text x='52' y='178'>Batholite</text><text x='128' y='62'>Filon</text><text x='160' y='24'>Coulée</text><text x='262' y='204'>Chambre magmatique</text></g></svg>",
+          "legende": "Un batholite et un filon en profondeur ; un volcan avec sa cheminée et sa coulée."
+        },
+        {
+          "type": "remarque",
+          "texte": "Le basalte est la roche volcanique la plus répandue. À Madagascar, l'Ankaratra, l'Itasy, Nosy Be et la Montagne d'Ambre sont des régions volcaniques. Les Hautes Terres comportent beaucoup de granite."
+        }
+      ],
+      "lexique": [
+        { "terme": "Batholite", "definition": "Très grande masse de roche plutonique." },
+        { "terme": "Filon", "definition": "Lame de roche magmatique qui remplit une fente." },
+        { "terme": "Coulée", "definition": "Nappe de lave qui s'écoule puis se solidifie." },
+        { "terme": "Plateau", "definition": "Grande étendue formée de coulées de lave superposées." },
+        { "terme": "Silice", "definition": "Composé de silicium et d'oxygène, présent dans le quartz." }
+      ]
+    },
+    {
+      "id": "svt-roc-6",
+      "titre": "Les roches métamorphiques",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Le métamorphisme",
+          "texte": "Le métamorphisme est la transformation d'une roche à l'état solide, sans fusion, sous l'effet de la chaleur et de la pression. Les minéraux changent, de nouveaux minéraux apparaissent. La roche obtenue est une roche métamorphique."
+        },
+        {
+          "type": "tableau",
+          "titre": "Deux types de métamorphisme",
+          "entetes": ["", "Métamorphisme de contact", "Métamorphisme général"],
+          "lignes": [
+            ["Cause principale", "Chaleur d'un magma qui monte au contact d'une roche", "Chaleur et forte pression en profondeur"],
+            ["Étendue", "Zone étroite autour du magma (auréole de contact)", "Très vaste : chaînes de montagnes anciennes, de grandes régions"],
+            ["Exemple", "Calcaire transformé en marbre près d'un granite", "Argile transformée en schiste, puis en gneiss"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Roche d'origine et roche transformée",
+          "entetes": ["Roche d'origine", "Roche métamorphique"],
+          "lignes": [
+            ["Calcaire", "Marbre"],
+            ["Grès", "Quartzite"],
+            ["Argile", "Schiste, puis micaschiste, puis gneiss selon l'intensité"],
+            ["Granite", "Gneiss"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Les degrés du métamorphisme",
+          "texte": "Plus la température et la pression augmentent, plus le métamorphisme est intense : on passe d'un degré faible (schiste) à un degré moyen (micaschiste) puis à un degré fort (gneiss). Si la température devient trop élevée, la roche fond : on retrouve du magma."
+        },
+        {
+          "type": "remarque",
+          "texte": "Les roches métamorphiques sont souvent feuilletées (schiste, gneiss) : les minéraux sont alignés par la pression. Le massif de l'Itremo à Madagascar contient du quartzite et du marbre."
+        }
+      ],
+      "lexique": [
+        { "terme": "Métamorphisme", "definition": "Transformation d'une roche solide sous l'effet de la chaleur et de la pression." },
+        { "terme": "Auréole de contact", "definition": "Zone transformée autour d'une masse de magma." },
+        { "terme": "Schiste", "definition": "Roche métamorphique feuilletée issue de l'argile." },
+        { "terme": "Marbre", "definition": "Roche métamorphique issue du calcaire." },
+        { "terme": "Gneiss", "definition": "Roche métamorphique très transformée, aux minéraux alignés en bandes." },
+        { "terme": "Quartzite", "definition": "Roche métamorphique très dure issue du grès." }
+      ]
+    },
+    {
+      "id": "svt-roc-7",
+      "titre": "Le cycle des roches",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Cycle des roches",
+          "texte": "Les roches ne sont pas éternelles : elles se transforment lentement les unes en les autres, sur des millions d'années. Cet ensemble de transformations forme le cycle des roches."
+        },
+        {
+          "type": "schema",
+          "titre": "Le cycle des roches",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='340' height='215' viewBox='0 0 340 215'><defs><marker id='fl' markerWidth='8' markerHeight='8' refX='7' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 Z' fill='#333'/></marker></defs><g fill='#fdebd0' stroke='#b9770e' stroke-width='2'><rect x='120' y='8' width='100' height='32' rx='6'/><rect x='221' y='72' width='110' height='32' rx='6'/><rect x='200' y='154' width='100' height='32' rx='6'/><rect x='30' y='154' width='120' height='32' rx='6'/><rect x='4' y='72' width='120' height='32' rx='6'/></g><g stroke='#333' stroke-width='2' fill='none'><line x1='200' y1='40' x2='250' y2='70' marker-end='url(#fl)'/><line x1='276' y1='104' x2='262' y2='152' marker-end='url(#fl)'/><line x1='198' y1='170' x2='152' y2='170' marker-end='url(#fl)'/><line x1='70' y1='154' x2='64' y2='106' marker-end='url(#fl)'/><line x1='100' y1='70' x2='140' y2='42' marker-end='url(#fl)'/></g><g font-family='sans-serif' font-size='11' fill='#222' text-anchor='middle'><text x='170' y='28'>Magma</text><text x='276' y='92'>Roche magmatique</text><text x='250' y='174'>Sédiments</text><text x='90' y='174'>Roche sédimentaire</text><text x='64' y='92'>Roche métamorphique</text></g><g font-family='sans-serif' font-size='10' fill='#a04000'><text x='232' y='52'>Refroidissement</text><text x='290' y='126'>Érosion,</text><text x='290' y='138'>transport</text><text x='158' y='160'>Diagenèse</text><text x='74' y='126'>Pression,</text><text x='74' y='138'>chaleur</text><text x='30' y='54'>Fusion</text></g></svg>",
+          "legende": "Chaque roche peut se transformer en une autre famille."
+        },
+        {
+          "type": "regle",
+          "titre": "Les passages du cycle",
+          "texte": "Magma → refroidissement → roche magmatique. Roche magmatique, métamorphique ou sédimentaire → érosion, transport, sédimentation → sédiments → diagenèse → roche sédimentaire. Roche sédimentaire ou magmatique → chaleur et pression → roche métamorphique. Roche métamorphique → fusion → magma."
+        },
+        {
+          "type": "remarque",
+          "texte": "Le cycle n'a ni début ni fin. Toute roche peut devenir une autre : un granite peut être érodé en sable, devenir un grès, puis un quartzite, puis fondre et redonner un magma."
+        }
+      ],
+      "lexique": [
+        { "terme": "Cycle des roches", "definition": "Ensemble des transformations qui font passer les roches d'une famille à une autre." },
+        { "terme": "Fusion", "definition": "Passage de l'état solide à l'état liquide sous l'effet de la chaleur." },
+        { "terme": "Solidification", "definition": "Passage de l'état liquide à l'état solide." }
+      ]
+    },
+    {
+      "id": "svt-roc-8",
+      "titre": "Récapitulatif : comparer les trois familles",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Comparaison des trois familles",
+          "entetes": ["", "Sédimentaires", "Magmatiques", "Métamorphiques"],
+          "lignes": [
+            ["Formation", "Dépôt, compaction, cimentation (diagenèse)", "Refroidissement du magma", "Transformation sous chaleur et pression"],
+            ["Lieu", "Surface (mers, lacs, rivières)", "Profondeur ou surface (volcans)", "Profondeur"],
+            ["Aspect", "Couches (strates), grains, parfois fossiles", "Cristaux (grenue) ou petits cristaux (microlitique)", "Souvent feuilletées ou en bandes"],
+            ["Fossiles", "Possibles", "Jamais", "Rares ou détruits"],
+            ["Exemples", "Grès, calcaire, argile, charbon", "Granite, basalte, gabbro", "Marbre, schiste, gneiss, quartzite"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Roches et usages",
+          "entetes": ["Roche", "Famille", "Usage"],
+          "lignes": [
+            ["Granite", "Magmatique", "Construction, dallage, monuments"],
+            ["Basalte", "Magmatique", "Empierrement des routes, construction"],
+            ["Calcaire", "Sédimentaire", "Chaux, ciment"],
+            ["Marbre", "Métamorphique", "Décoration, sculpture"],
+            ["Argile", "Sédimentaire", "Briques, poterie"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Pour trouver la famille d'une roche : des cristaux nets ou une surface de lave sans fossile font penser à une roche magmatique ; des couches avec des fossiles font penser à une roche sédimentaire ; des feuillets ou des bandes font penser à une roche métamorphique."
+        }
+      ],
+      "lexique": [
+        { "terme": "Feuilleté", "definition": "Qui se débite en feuillets minces." },
+        { "terme": "Strate", "definition": "Couche d'une roche sédimentaire." },
+        { "terme": "Texture", "definition": "Aspect d'une roche selon la taille et la disposition de ses cristaux." }
+      ]
+    }
+  ]
+}
