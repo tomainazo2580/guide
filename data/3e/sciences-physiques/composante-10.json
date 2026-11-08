@@ -1,0 +1,302 @@
+{
+  "id": "theme10",
+  "titre": "Thématique 10 : La mole et le volume molaire",
+  "lecons": [
+    {
+      "id": "sp-10-1",
+      "titre": "La quantité de matière et la mole",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Pourquoi compter par paquets ?",
+          "texte": "Les atomes et les molécules sont si petits qu'un simple grain de sel en contient des milliards de milliards. On ne peut pas les compter un par un.\n\nOn les compte donc par paquets, comme on compte les œufs par douzaines. Le paquet utilisé en chimie s'appelle la mole."
+        },
+        {
+          "type": "definition",
+          "titre": "La mole et la constante d'Avogadro",
+          "texte": "La mole (symbole : mol) est la quantité de matière d'un échantillon qui contient 6,02 × 10²³ entités identiques (atomes, molécules ou ions).\n\nLe nombre 6,02 × 10²³ s'appelle la constante d'Avogadro. On la note NA :\nNA = 6,02 × 10²³ mol⁻¹\n\nLa quantité de matière se note n et se mesure en mol."
+        },
+        {
+          "type": "tableau",
+          "titre": "Comparaison avec des paquets de la vie courante",
+          "entetes": ["Paquet", "Nombre d'objets"],
+          "lignes": [
+            ["1 paire", "2"],
+            ["1 douzaine", "12"],
+            ["1 mole", "602 000 000 000 000 000 000 000 (6,02 × 10²³)"]
+          ]
+        },
+        {
+          "type": "formule",
+          "titre": "Relation entre n et le nombre d'entités N",
+          "texte": "N = n × NA\n\nn = N / NA\n\nN : nombre d'entités (atomes, molécules, ions)\nn : quantité de matière, en mol\nNA : 6,02 × 10²³ mol⁻¹"
+        },
+        {
+          "type": "schema",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='320' height='130' viewBox='0 0 320 130'><defs><marker id='mo-a' markerWidth='8' markerHeight='8' refX='6' refY='4' orient='auto'><path d='M0 0 L8 4 L0 8 z' fill='#555555'/></marker></defs><rect width='320' height='130' fill='#ffffff'/><rect x='15' y='35' width='100' height='60' rx='8' fill='#e3f2fd' stroke='#1565c0' stroke-width='2'/><text x='65' y='62' text-anchor='middle' font-size='20' font-weight='bold' fill='#222222'>n</text><text x='65' y='82' text-anchor='middle' font-size='12' fill='#222222'>(mol)</text><rect x='205' y='35' width='100' height='60' rx='8' fill='#fff3e0' stroke='#e65100' stroke-width='2'/><text x='255' y='62' text-anchor='middle' font-size='20' font-weight='bold' fill='#222222'>N</text><text x='255' y='82' text-anchor='middle' font-size='12' fill='#222222'>(entités)</text><line x1='120' y1='55' x2='200' y2='55' stroke='#555555' stroke-width='2' marker-end='url(#mo-a)'/><text x='160' y='47' text-anchor='middle' font-size='13' fill='#222222'>× NA</text><line x1='200' y1='78' x2='120' y2='78' stroke='#555555' stroke-width='2' marker-end='url(#mo-a)'/><text x='160' y='98' text-anchor='middle' font-size='13' fill='#222222'>÷ NA</text></svg>",
+          "legende": "Pour passer des moles au nombre d'entités, on multiplie par NA. Pour revenir, on divise par NA."
+        },
+        {
+          "type": "exemple",
+          "titre": "Exemples",
+          "texte": "• 2 mol de molécules d'eau : N = 2 × 6,02 × 10²³ = 12,04 × 10²³ = 1,204 × 10²⁴ molécules.\n• 3,01 × 10²³ atomes de fer : n = 3,01 × 10²³ / 6,02 × 10²³ = 0,5 mol."
+        },
+        {
+          "type": "remarque",
+          "titre": "Toujours préciser l'entité",
+          "texte": "Il faut dire de quoi on compte les moles : une mole d'atomes, de molécules ou d'ions.\n\nExemple : 1 mol de molécules d'eau (H₂O) contient 6,02 × 10²³ molécules, soit 2 mol d'atomes d'hydrogène et 1 mol d'atomes d'oxygène.\n\nDe même, le dioxygène (O₂) est formé de molécules à deux atomes : 1 mol de O₂ contient 2 mol d'atomes d'oxygène."
+        },
+        {
+          "type": "methode",
+          "titre": "Calculer un nombre d'entités ou une quantité de matière",
+          "texte": "1. Repérer ce qu'on cherche : N (nombre d'entités) ou n (quantité de matière).\n2. Écrire la bonne formule : N = n × NA ou n = N / NA.\n3. Remplacer par les valeurs avec NA = 6,02 × 10²³ mol⁻¹.\n4. Écrire le résultat avec son unité (mol, ou nombre d'entités)."
+        },
+        {
+          "type": "exercice",
+          "titre": "Vérifie-toi",
+          "enonce": "1) Combien de molécules y a-t-il dans 0,5 mol de dioxygène ?\n2) Une quantité de cuivre contient 1,204 × 10²⁴ atomes. Quelle est sa quantité de matière ?\n3) Combien de moles d'atomes d'hydrogène y a-t-il dans 1 mol d'eau (H₂O) ?",
+          "solution": "1) N = n × NA = 0,5 × 6,02 × 10²³ = 3,01 × 10²³ molécules.\n\n2) n = N / NA = 1,204 × 10²⁴ / 6,02 × 10²³ = 2 mol.\n\n3) Chaque molécule H₂O contient 2 atomes d'hydrogène, donc 1 mol de H₂O contient 2 mol d'atomes d'hydrogène."
+        }
+      ]
+    },
+    {
+      "id": "sp-10-2",
+      "titre": "La masse molaire",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Masse molaire atomique",
+          "texte": "La masse molaire atomique d'un élément est la masse d'une mole de ses atomes. On la note M et on l'exprime en grammes par mole (g/mol).\n\nElle se lit dans le tableau périodique. Au BEPC, les valeurs sont en général données dans l'énoncé."
+        },
+        {
+          "type": "tableau",
+          "titre": "Masses molaires atomiques (valeurs arrondies)",
+          "entetes": ["Élément", "Symbole", "M (g/mol)"],
+          "lignes": [
+            ["Hydrogène", "H", "1"],
+            ["Carbone", "C", "12"],
+            ["Azote", "N", "14"],
+            ["Oxygène", "O", "16"],
+            ["Sodium", "Na", "23"],
+            ["Magnésium", "Mg", "24"],
+            ["Aluminium", "Al", "27"],
+            ["Soufre", "S", "32"],
+            ["Chlore", "Cl", "35,5"],
+            ["Potassium", "K", "39"],
+            ["Calcium", "Ca", "40"],
+            ["Fer", "Fe", "56"],
+            ["Cuivre", "Cu", "63,5"],
+            ["Zinc", "Zn", "65"]
+          ]
+        },
+        {
+          "type": "definition",
+          "titre": "Masse molaire moléculaire",
+          "texte": "La masse molaire d'une molécule (ou d'un composé) est la masse d'une mole de ces molécules. On l'obtient en additionnant les masses molaires atomiques de tous les atomes qui la composent, en tenant compte des indices de la formule."
+        },
+        {
+          "type": "methode",
+          "titre": "Calculer une masse molaire",
+          "texte": "1. Écrire la formule du corps (exemple : H₂SO₄).\n2. Compter les atomes de chaque élément avec les indices.\n3. Multiplier chaque nombre d'atomes par la masse molaire de l'élément.\n4. Additionner.\n\nExemple : H₂SO₄ contient 2 H, 1 S et 4 O.\nM = 2 × 1 + 32 + 4 × 16 = 2 + 32 + 64 = 98 g/mol."
+        },
+        {
+          "type": "exemple",
+          "titre": "Quelques masses molaires à connaître",
+          "texte": "• Eau H₂O : 2 × 1 + 16 = 18 g/mol\n• Dioxyde de carbone CO₂ : 12 + 2 × 16 = 44 g/mol\n• Dioxygène O₂ : 2 × 16 = 32 g/mol\n• Chlorure de sodium NaCl (sel de cuisine) : 23 + 35,5 = 58,5 g/mol\n• Butane C₄H₁₀ : 4 × 12 + 10 × 1 = 58 g/mol\n• Carbonate de calcium CaCO₃ : 40 + 12 + 3 × 16 = 100 g/mol"
+        },
+        {
+          "type": "schema",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='320' height='155' viewBox='0 0 320 155'><rect width='320' height='155' fill='#ffffff'/><text x='160' y='16' text-anchor='middle' font-size='13' font-weight='bold' fill='#222222'>Masse d'une mole (en g)</text><line x1='10' y1='130' x2='310' y2='130' stroke='#555555' stroke-width='2'/><rect x='20' y='103' width='40' height='27' fill='#42a5f5'/><rect x='80' y='82' width='40' height='48' fill='#66bb6a'/><rect x='140' y='64' width='40' height='66' fill='#ffa726'/><rect x='200' y='46' width='40' height='84' fill='#8d6e63'/><rect x='260' y='42' width='40' height='88' fill='#ab47bc'/><text x='40' y='98' text-anchor='middle' font-size='12' fill='#222222'>18</text><text x='100' y='77' text-anchor='middle' font-size='12' fill='#222222'>32</text><text x='160' y='59' text-anchor='middle' font-size='12' fill='#222222'>44</text><text x='220' y='41' text-anchor='middle' font-size='12' fill='#222222'>56</text><text x='280' y='37' text-anchor='middle' font-size='12' fill='#222222'>58,5</text><text x='40' y='146' text-anchor='middle' font-size='12' fill='#222222'>H₂O</text><text x='100' y='146' text-anchor='middle' font-size='12' fill='#222222'>O₂</text><text x='160' y='146' text-anchor='middle' font-size='12' fill='#222222'>CO₂</text><text x='220' y='146' text-anchor='middle' font-size='12' fill='#222222'>Fe</text><text x='280' y='146' text-anchor='middle' font-size='12' fill='#222222'>NaCl</text></svg>",
+          "legende": "Une mole de chaque corps n'a pas la même masse : 18 g pour l'eau, 32 g pour le dioxygène, 44 g pour le dioxyde de carbone, 56 g pour le fer, 58,5 g pour le sel."
+        },
+        {
+          "type": "formule",
+          "titre": "Relation entre masse, quantité de matière et masse molaire",
+          "texte": "n = m / M\n\nm = n × M\n\nM = m / n\n\nm : masse de l'échantillon, en g\nM : masse molaire, en g/mol\nn : quantité de matière, en mol"
+        },
+        {
+          "type": "exemple",
+          "titre": "Exemples",
+          "texte": "• 36 g d'eau : n = m / M = 36 / 18 = 2 mol.\n• 0,5 mol de fer : m = n × M = 0,5 × 56 = 28 g.\n• 11,7 g de sel NaCl : n = 11,7 / 58,5 = 0,2 mol."
+        },
+        {
+          "type": "remarque",
+          "titre": "Pièges à éviter",
+          "texte": "• Ne pas confondre l'atome et la molécule : l'atome d'oxygène a M = 16 g/mol, mais le dioxygène O₂ a M = 32 g/mol.\n• La masse doit être en grammes pour utiliser M en g/mol. Si elle est en kg, il faut la convertir (1 kg = 1000 g).\n• Un nombre de moles n'a pas de « g » : c'est une quantité de matière, pas une masse."
+        },
+        {
+          "type": "exercice",
+          "titre": "Vérifie-toi",
+          "enonce": "Données : M(N) = 14 g/mol ; M(H) = 1 g/mol ; M(C) = 12 g/mol ; M(O) = 16 g/mol.\n1) Calculer la masse molaire de l'ammoniac NH₃.\n2) Quelle quantité de matière y a-t-il dans 3,4 g d'ammoniac ?\n3) Quelle est la masse de 0,25 mol de dioxyde de carbone CO₂ ?",
+          "solution": "1) M(NH₃) = 14 + 3 × 1 = 17 g/mol.\n\n2) n = m / M = 3,4 / 17 = 0,2 mol.\n\n3) M(CO₂) = 12 + 2 × 16 = 44 g/mol.\nm = n × M = 0,25 × 44 = 11 g."
+        }
+      ]
+    },
+    {
+      "id": "sp-10-3",
+      "titre": "Le volume molaire des gaz",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Le volume molaire",
+          "texte": "Le volume molaire Vm est le volume occupé par une mole de gaz. Il s'exprime en litres par mole (L/mol).\n\nDans les conditions normales de température et de pression (0 °C et 1 atm), on a :\nVm = 22,4 L/mol"
+        },
+        {
+          "type": "regle",
+          "titre": "Loi d'Avogadro-Ampère",
+          "texte": "Des volumes égaux de gaz différents, pris à la même température et à la même pression, contiennent le même nombre de molécules.\n\nConséquence : 1 mol de n'importe quel gaz (H₂, O₂, CO₂, butane…) occupe le même volume, 22,4 L dans les conditions normales, alors que sa masse est différente."
+        },
+        {
+          "type": "schema",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='320' height='150' viewBox='0 0 320 150'><rect width='320' height='150' fill='#ffffff'/><text x='160' y='16' text-anchor='middle' font-size='12' font-weight='bold' fill='#222222'>1 mol de gaz (0 °C, 1 atm)</text><rect x='15' y='28' width='80' height='90' rx='6' fill='#e3f2fd' stroke='#1565c0' stroke-width='2'/><rect x='120' y='28' width='80' height='90' rx='6' fill='#e8f5e9' stroke='#2e7d32' stroke-width='2'/><rect x='225' y='28' width='80' height='90' rx='6' fill='#fff3e0' stroke='#e65100' stroke-width='2'/><text x='55' y='55' text-anchor='middle' font-size='17' font-weight='bold' fill='#222222'>H₂</text><text x='160' y='55' text-anchor='middle' font-size='17' font-weight='bold' fill='#222222'>O₂</text><text x='265' y='55' text-anchor='middle' font-size='17' font-weight='bold' fill='#222222'>CO₂</text><text x='55' y='78' text-anchor='middle' font-size='13' fill='#222222'>2 g</text><text x='160' y='78' text-anchor='middle' font-size='13' fill='#222222'>32 g</text><text x='265' y='78' text-anchor='middle' font-size='13' fill='#222222'>44 g</text><text x='55' y='102' text-anchor='middle' font-size='13' font-weight='bold' fill='#222222'>22,4 L</text><text x='160' y='102' text-anchor='middle' font-size='13' font-weight='bold' fill='#222222'>22,4 L</text><text x='265' y='102' text-anchor='middle' font-size='13' font-weight='bold' fill='#222222'>22,4 L</text><text x='160' y='140' text-anchor='middle' font-size='11' fill='#222222'>6,02 × 10²³ molécules dans chaque récipient</text></svg>",
+          "legende": "Même volume, même nombre de molécules, mais des masses différentes."
+        },
+        {
+          "type": "formule",
+          "titre": "Relation entre volume et quantité de matière",
+          "texte": "n = V / Vm\n\nV = n × Vm\n\nV : volume du gaz, en L\nVm : 22,4 L/mol (conditions normales)\nn : quantité de matière, en mol"
+        },
+        {
+          "type": "exemple",
+          "titre": "Exemples",
+          "texte": "• 5,6 L de dioxygène : n = V / Vm = 5,6 / 22,4 = 0,25 mol. Sa masse est m = 0,25 × 32 = 8 g.\n• 2 mol de méthane : V = n × Vm = 2 × 22,4 = 44,8 L."
+        },
+        {
+          "type": "remarque",
+          "titre": "Le volume molaire dépend de la température et de la pression",
+          "texte": "Le volume molaire dépend des conditions. Par exemple, à 20 °C et 1 atm, il vaut environ 24 L/mol. Dans les exercices, on utilise la valeur de l'énoncé ; sans indication, on prend 22,4 L/mol.\n\nLe volume molaire ne concerne que les gaz. Pour un liquide ou un solide, on ne calcule pas le volume avec 22,4 L/mol : une mole d'eau liquide (18 g) occupe environ 18 mL, et une mole de fer (56 g) environ 7 cm³."
+        },
+        {
+          "type": "tableau",
+          "titre": "Masse de 22,4 L de quelques gaz (1 mol)",
+          "entetes": ["Gaz", "Formule", "M (g/mol)", "Masse de 22,4 L"],
+          "lignes": [
+            ["Dihydrogène", "H₂", "2", "2 g"],
+            ["Méthane", "CH₄", "16", "16 g"],
+            ["Diazote", "N₂", "28", "28 g"],
+            ["Dioxygène", "O₂", "32", "32 g"],
+            ["Dioxyde de carbone", "CO₂", "44", "44 g"],
+            ["Butane", "C₄H₁₀", "58", "58 g"]
+          ]
+        },
+        {
+          "type": "definition",
+          "titre": "Densité d'un gaz par rapport à l'air",
+          "texte": "L'air est un mélange d'environ 80 % de diazote (28 g/mol) et 20 % de dioxygène (32 g/mol). Sa masse molaire moyenne est d'environ 29 g/mol.\n\nLa densité d'un gaz par rapport à l'air est : d = M / 29\n\n• Si d > 1, le gaz est plus lourd que l'air : il descend. Exemple : CO₂, d = 44 / 29 ≈ 1,5.\n• Si d < 1, le gaz est plus léger que l'air : il monte. Exemple : CH₄, d = 16 / 29 ≈ 0,55.\n\nLe butane (d = 58 / 29 = 2) est deux fois plus lourd que l'air : une fuite de gaz butane s'accumule près du sol, ce qui est dangereux."
+        },
+        {
+          "type": "exercice",
+          "titre": "Vérifie-toi",
+          "enonce": "On travaille dans les conditions normales (Vm = 22,4 L/mol).\n1) Quel volume occupent 0,5 mol de dioxygène ?\n2) Quelle quantité de matière y a-t-il dans 67,2 L de diazote ? Quelle est sa masse (M = 28 g/mol) ?\n3) Calculer la densité du dioxyde de carbone par rapport à l'air (M = 44 g/mol). Est-il plus lourd ou plus léger que l'air ?",
+          "solution": "1) V = n × Vm = 0,5 × 22,4 = 11,2 L.\n\n2) n = V / Vm = 67,2 / 22,4 = 3 mol.\nm = n × M = 3 × 28 = 84 g.\n\n3) d = M / 29 = 44 / 29 ≈ 1,5. Cette valeur est supérieure à 1 : le dioxyde de carbone est plus lourd que l'air."
+        }
+      ]
+    },
+    {
+      "id": "sp-10-4",
+      "titre": "Relier masse, volume et nombre de moles",
+      "blocs": [
+        {
+          "type": "regle",
+          "titre": "La mole est le point de passage",
+          "texte": "Il n'existe pas de formule directe entre la masse et le volume d'un gaz. On passe toujours par la quantité de matière n :\n• n = m / M (avec la masse molaire, en g/mol)\n• n = V / Vm (avec le volume molaire, en L/mol, pour un gaz)\n• n = N / NA (avec la constante d'Avogadro)"
+        },
+        {
+          "type": "schema",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='320' height='125' viewBox='0 0 320 125'><defs><marker id='mo-b' markerWidth='8' markerHeight='8' refX='6' refY='4' orient='auto'><path d='M0 0 L8 4 L0 8 z' fill='#555555'/></marker></defs><rect width='320' height='125' fill='#ffffff'/><rect x='10' y='35' width='70' height='60' rx='8' fill='#fce4ec' stroke='#ad1457' stroke-width='2'/><text x='45' y='62' text-anchor='middle' font-size='20' font-weight='bold' fill='#222222'>m</text><text x='45' y='82' text-anchor='middle' font-size='12' fill='#222222'>(g)</text><rect x='125' y='35' width='70' height='60' rx='8' fill='#e3f2fd' stroke='#1565c0' stroke-width='2'/><text x='160' y='62' text-anchor='middle' font-size='20' font-weight='bold' fill='#222222'>n</text><text x='160' y='82' text-anchor='middle' font-size='12' fill='#222222'>(mol)</text><rect x='240' y='35' width='70' height='60' rx='8' fill='#e8f5e9' stroke='#2e7d32' stroke-width='2'/><text x='275' y='62' text-anchor='middle' font-size='20' font-weight='bold' fill='#222222'>V</text><text x='275' y='82' text-anchor='middle' font-size='12' fill='#222222'>(L)</text><line x1='82' y1='55' x2='123' y2='55' stroke='#555555' stroke-width='2' marker-end='url(#mo-b)'/><text x='102' y='48' text-anchor='middle' font-size='12' fill='#222222'>÷ M</text><line x1='123' y1='78' x2='82' y2='78' stroke='#555555' stroke-width='2' marker-end='url(#mo-b)'/><text x='102' y='95' text-anchor='middle' font-size='12' fill='#222222'>× M</text><line x1='197' y1='55' x2='238' y2='55' stroke='#555555' stroke-width='2' marker-end='url(#mo-b)'/><text x='217' y='48' text-anchor='middle' font-size='12' fill='#222222'>× Vm</text><line x1='238' y1='78' x2='197' y2='78' stroke='#555555' stroke-width='2' marker-end='url(#mo-b)'/><text x='217' y='95' text-anchor='middle' font-size='12' fill='#222222'>÷ Vm</text><text x='160' y='118' text-anchor='middle' font-size='11' fill='#222222'>Pour passer de m à V, on passe par n.</text></svg>",
+          "legende": "Masse, quantité de matière et volume d'un gaz : n est au centre."
+        },
+        {
+          "type": "tableau",
+          "titre": "Quel chemin suivre ?",
+          "entetes": ["On connaît", "On cherche", "Étapes"],
+          "lignes": [
+            ["m", "V (gaz)", "n = m / M, puis V = n × Vm"],
+            ["V (gaz)", "m", "n = V / Vm, puis m = n × M"],
+            ["m", "N", "n = m / M, puis N = n × NA"],
+            ["V (gaz)", "N", "n = V / Vm, puis N = n × NA"]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Résoudre un exercice sur la mole",
+          "texte": "1. Écrire les données avec leurs unités (m en g, V en L).\n2. Calculer la masse molaire M si elle n'est pas donnée.\n3. Calculer la quantité de matière n avec la donnée dont on dispose.\n4. Convertir n en la grandeur cherchée (m, V ou N).\n5. Donner le résultat avec son unité."
+        },
+        {
+          "type": "exemple",
+          "titre": "Exemple 1 : de la masse au volume",
+          "texte": "On veut le volume de 22 g de dioxyde de carbone (M = 44 g/mol), dans les conditions normales.\n\nn = m / M = 22 / 44 = 0,5 mol\nV = n × Vm = 0,5 × 22,4 = 11,2 L\n\nOn peut aussi trouver le nombre de molécules : N = n × NA = 0,5 × 6,02 × 10²³ = 3,01 × 10²³ molécules."
+        },
+        {
+          "type": "exemple",
+          "titre": "Exemple 2 : du volume à la masse",
+          "texte": "On veut la masse de 44,8 L de butane C₄H₁₀ (M = 58 g/mol), dans les conditions normales.\n\nn = V / Vm = 44,8 / 22,4 = 2 mol\nm = n × M = 2 × 58 = 116 g"
+        },
+        {
+          "type": "exemple",
+          "titre": "Exemple 3 : une bouteille de gaz butane",
+          "texte": "Une bouteille contient 6 kg de butane (M = 58 g/mol).\n\nm = 6 kg = 6000 g\nn = m / M = 6000 / 58 ≈ 103,4 mol\n\nSi tout ce gaz était libéré dans les conditions normales : V = 103,4 × 22,4 ≈ 2317 L, soit environ 2,3 m³.\n\nUne petite bouteille liquide donne donc un grand volume de gaz : c'est pourquoi une fuite est dangereuse."
+        },
+        {
+          "type": "remarque",
+          "titre": "Erreurs fréquentes",
+          "texte": "• Utiliser 22,4 L/mol pour un liquide ou un solide : c'est faux, Vm ne concerne que les gaz.\n• Oublier de convertir les kilogrammes en grammes, ou les millilitres en litres (1 L = 1000 mL).\n• Utiliser la masse molaire d'un atome (O = 16) au lieu de celle de la molécule (O₂ = 32).\n• Confondre n (en mol) et m (en g)."
+        },
+        {
+          "type": "exercice",
+          "titre": "Vérifie-toi",
+          "enonce": "Données : M(H) = 1 g/mol ; M(O) = 16 g/mol ; M(C) = 12 g/mol ; Vm = 22,4 L/mol.\n1) Quel volume de gaz occupent 8 g de dioxygène O₂ ?\n2) Quelle est la masse de 11,2 L de dioxyde de carbone CO₂ ?\n3) Combien de molécules y a-t-il dans 9 g d'eau ?",
+          "solution": "1) M(O₂) = 2 × 16 = 32 g/mol.\nn = 8 / 32 = 0,25 mol.\nV = n × Vm = 0,25 × 22,4 = 5,6 L.\n\n2) M(CO₂) = 12 + 2 × 16 = 44 g/mol.\nn = V / Vm = 11,2 / 22,4 = 0,5 mol.\nm = n × M = 0,5 × 44 = 22 g.\n\n3) M(H₂O) = 2 × 1 + 16 = 18 g/mol.\nn = 9 / 18 = 0,5 mol.\nN = n × NA = 0,5 × 6,02 × 10²³ = 3,01 × 10²³ molécules."
+        }
+      ]
+    },
+    {
+      "id": "sp-10-5",
+      "titre": "La mole et les équations chimiques",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Que dit une équation chimique ?",
+          "texte": "Une équation chimique équilibrée indique dans quelles proportions les corps réagissent et se forment. Les coefficients placés devant les formules comptent les molécules ou, de la même manière, les moles.\n\nExemple : 2 H₂ + O₂ → 2 H₂O signifie que 2 mol de dihydrogène réagissent avec 1 mol de dioxygène pour donner 2 mol d'eau."
+        },
+        {
+          "type": "regle",
+          "titre": "Proportionnalité en moles",
+          "texte": "Les quantités de matière des corps qui réagissent ou qui se forment sont proportionnelles aux coefficients de l'équation.\n\nPour deux corps A et B, avec leurs coefficients a et b :\nn(A) / a = n(B) / b\n\nLes coefficients s'appliquent aux moles, pas aux masses. Il faut convertir les masses en moles, puis revenir aux masses si besoin."
+        },
+        {
+          "type": "tableau",
+          "titre": "Exemple : 2 H₂ + O₂ → 2 H₂O",
+          "entetes": ["", "Dihydrogène H₂", "Dioxygène O₂", "Eau H₂O"],
+          "lignes": [
+            ["Coefficient", "2", "1", "2"],
+            ["Quantité de matière", "2 mol", "1 mol", "2 mol"],
+            ["Masse", "2 × 2 = 4 g", "32 g", "2 × 18 = 36 g"],
+            ["Volume (gaz, conditions normales)", "44,8 L", "22,4 L", "eau liquide : on ne calcule pas avec 22,4 L"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Conservation de la masse",
+          "texte": "La masse des corps qui réagissent est égale à la masse des corps formés : 4 g + 32 g = 36 g. Les masses se conservent, mais pas les coefficients : il y a 3 mol avant la réaction (2 + 1) et 2 mol après."
+        },
+        {
+          "type": "methode",
+          "titre": "Calculer des quantités à partir d'une équation",
+          "texte": "1. Écrire l'équation et vérifier qu'elle est équilibrée.\n2. Calculer la quantité de matière du corps dont on connaît la masse ou le volume.\n3. Utiliser les coefficients : n(B) = n(A) × coefficient de B / coefficient de A.\n4. Convertir n(B) en masse (× M) ou en volume de gaz (× Vm)."
+        },
+        {
+          "type": "exemple",
+          "titre": "Exemple : combustion du butane",
+          "texte": "Équation : 2 C₄H₁₀ + 13 O₂ → 8 CO₂ + 10 H₂O\n(Vérification : 8 C et 20 H de chaque côté ; 26 O de chaque côté.)\n\nOn brûle 5,8 g de butane (M = 58 g/mol).\n• n(C₄H₁₀) = 5,8 / 58 = 0,1 mol.\n• Dioxygène nécessaire : n(O₂) = 0,1 × 13 / 2 = 0,65 mol, soit V = 0,65 × 22,4 = 14,56 L.\n• Dioxyde de carbone formé : n(CO₂) = 0,1 × 8 / 2 = 0,4 mol, soit V = 0,4 × 22,4 = 8,96 L.\n• Eau formée : n(H₂O) = 0,1 × 10 / 2 = 0,5 mol, soit m = 0,5 × 18 = 9 g.\n\nContrôle des masses : 5,8 + 0,65 × 32 = 26,6 g avant ; 0,4 × 44 + 9 = 26,6 g après."
+        },
+        {
+          "type": "exercice",
+          "titre": "Vérifie-toi",
+          "enonce": "Le méthane brûle selon l'équation : CH₄ + 2 O₂ → CO₂ + 2 H₂O. On brûle 3,2 g de méthane.\nDonnées : M(C) = 12 g/mol ; M(H) = 1 g/mol ; M(O) = 16 g/mol ; Vm = 22,4 L/mol.\n1) Calculer la quantité de matière de méthane brûlé.\n2) Calculer le volume de dioxygène nécessaire.\n3) Calculer le volume de dioxyde de carbone formé et la masse d'eau formée.",
+          "solution": "1) M(CH₄) = 12 + 4 × 1 = 16 g/mol.\nn(CH₄) = 3,2 / 16 = 0,2 mol.\n\n2) n(O₂) = 0,2 × 2 / 1 = 0,4 mol.\nV(O₂) = 0,4 × 22,4 = 8,96 L.\n\n3) n(CO₂) = 0,2 × 1 / 1 = 0,2 mol.\nV(CO₂) = 0,2 × 22,4 = 4,48 L.\nn(H₂O) = 0,2 × 2 / 1 = 0,4 mol ; M(H₂O) = 18 g/mol.\nm(H₂O) = 0,4 × 18 = 7,2 g."
+        }
+      ]
+    }
+  ]
+}
