@@ -1,0 +1,350 @@
+{
+  "id": "svt-plantes",
+  "titre": "La reproduction des plantes à fleurs",
+  "lecons": [
+    {
+      "id": "svt-fl-1",
+      "titre": "L'organisation de la fleur",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "La fleur",
+          "texte": "La fleur est l'organe de reproduction des plantes à fleurs. Elle porte les organes mâles et les organes femelles, qui permettent de fabriquer le fruit et la graine."
+        },
+        {
+          "type": "schema",
+          "titre": "Coupe d'une fleur",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='340' height='250' viewBox='0 0 340 250'><path d='M 152 168 Q 90 150 96 62 Q 130 90 156 140 Z' fill='#f5b7b1' stroke='#c0392b' stroke-width='2'/><path d='M 188 168 Q 250 150 244 62 Q 210 90 184 140 Z' fill='#f5b7b1' stroke='#c0392b' stroke-width='2'/><path d='M 166 176 Q 130 196 112 180 Q 140 170 160 166 Z' fill='#a9dfbf' stroke='#1e8449' stroke-width='2'/><path d='M 174 176 Q 210 196 228 180 Q 200 170 180 166 Z' fill='#a9dfbf' stroke='#1e8449' stroke-width='2'/><line x1='170' y1='180' x2='170' y2='240' stroke='#1e8449' stroke-width='6'/><ellipse cx='170' cy='174' rx='12' ry='6' fill='#d5b895' stroke='#7e5109' stroke-width='2'/><ellipse cx='170' cy='150' rx='18' ry='22' fill='#d5f5e3' stroke='#1e8449' stroke-width='2'/><circle cx='164' cy='146' r='4' fill='#f9e79f' stroke='#b7950b'/><circle cx='176' cy='154' r='4' fill='#f9e79f' stroke='#b7950b'/><line x1='170' y1='128' x2='170' y2='86' stroke='#1e8449' stroke-width='4'/><ellipse cx='170' cy='80' rx='10' ry='6' fill='#f7dc6f' stroke='#b7950b' stroke-width='2'/><line x1='150' y1='165' x2='128' y2='100' stroke='#555' stroke-width='3'/><ellipse cx='126' cy='92' rx='7' ry='10' fill='#f4d03f' stroke='#b7950b' stroke-width='2'/><line x1='190' y1='165' x2='212' y2='100' stroke='#555' stroke-width='3'/><ellipse cx='214' cy='92' rx='7' ry='10' fill='#f4d03f' stroke='#b7950b' stroke-width='2'/><g stroke='#555' stroke-width='1'><line x1='40' y1='44' x2='100' y2='72'/><line x1='52' y1='100' x2='118' y2='95'/><line x1='34' y1='136' x2='138' y2='130'/><line x1='40' y1='196' x2='125' y2='184'/><line x1='62' y1='226' x2='160' y2='176'/><line x1='248' y1='22' x2='178' y2='76'/><line x1='268' y1='118' x2='180' y2='108'/><line x1='268' y1='158' x2='188' y2='152'/><line x1='266' y1='196' x2='176' y2='156'/></g><g font-family='sans-serif' font-size='11' fill='#222'><text x='4' y='40'>Pétale</text><text x='4' y='104'>Anthère</text><text x='4' y='140'>Filet</text><text x='4' y='200'>Sépale</text><text x='4' y='230'>Réceptacle</text><text x='250' y='20'>Stigmate</text><text x='270' y='122'>Style</text><text x='270' y='162'>Ovaire</text><text x='268' y='200'>Ovule</text><text x='178' y='238'>Pédoncule</text></g></svg>",
+          "legende": "Coupe schématique d'une fleur complète."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les pièces de la fleur",
+          "entetes": ["Partie", "Éléments", "Rôle"],
+          "lignes": [
+            ["Pédoncule et réceptacle", "Tige de la fleur et son extrémité renflée", "Porter les pièces de la fleur"],
+            ["Calice", "Ensemble des sépales (souvent verts)", "Protéger la fleur en bouton"],
+            ["Corolle", "Ensemble des pétales (souvent colorés)", "Attirer les insectes"],
+            ["Androcée", "Ensemble des étamines", "Organe mâle : fabriquer le pollen"],
+            ["Gynécée (pistil)", "Ovaire, style, stigmate", "Organe femelle : contenir les ovules"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Le calice et la corolle forment le périanthe. Une fleur qui a toutes ces pièces est une fleur complète. Une fleur qui porte à la fois des étamines et un pistil est hermaphrodite (hibiscus). Une fleur unisexuée n'a que des étamines ou que le pistil : le maïs, la courge et le papayer en sont des exemples."
+        },
+        {
+          "type": "methode",
+          "titre": "Observer une fleur",
+          "texte": "1. Prendre une fleur d'hibiscus. 2. La couper en deux dans le sens de la longueur. 3. Repérer de l'extérieur vers l'intérieur : sépales, pétales, étamines, pistil. 4. Dessiner la coupe et mettre les légendes."
+        }
+      ],
+      "lexique": [
+        { "terme": "Calice", "definition": "Ensemble des sépales." },
+        { "terme": "Corolle", "definition": "Ensemble des pétales." },
+        { "terme": "Étamine", "definition": "Organe mâle de la fleur." },
+        { "terme": "Pistil", "definition": "Organe femelle de la fleur." },
+        { "terme": "Hermaphrodite", "definition": "Qui possède à la fois des organes mâles et femelles." },
+        { "terme": "Périanthe", "definition": "Ensemble formé par le calice et la corolle." }
+      ]
+    },
+    {
+      "id": "svt-fl-2",
+      "titre": "L'étamine et le grain de pollen",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "L'étamine",
+          "texte": "L'étamine est l'organe mâle de la fleur. Elle comprend un filet (petite tige) et une anthère (renflement) qui porte quatre sacs polliniques. Ces sacs contiennent les grains de pollen."
+        },
+        {
+          "type": "regle",
+          "titre": "Le grain de pollen",
+          "texte": "Le grain de pollen est une cellule microscopique protégée par une paroi résistante (exine). Il contient deux cellules : une grosse cellule végétative et une petite cellule reproductrice. La cellule reproductrice fournira les gamètes mâles."
+        },
+        {
+          "type": "remarque",
+          "texte": "À maturité, l'anthère s'ouvre et libère le pollen : c'est la déhiscence. Au microscope, les grains de pollen ont des formes et des ornements différents selon les espèces : on peut ainsi reconnaître la plante d'origine."
+        },
+        {
+          "type": "exemple",
+          "texte": "Si l'on frotte l'anthère d'une fleur d'hibiscus avec le doigt, on récolte une poudre jaune : ce sont des milliers de grains de pollen."
+        }
+      ],
+      "lexique": [
+        { "terme": "Filet", "definition": "Partie mince de l'étamine qui porte l'anthère." },
+        { "terme": "Anthère", "definition": "Partie renflée de l'étamine qui contient le pollen." },
+        { "terme": "Sac pollinique", "definition": "Logette de l'anthère où se forment les grains de pollen." },
+        { "terme": "Pollen", "definition": "Ensemble des grains de pollen, éléments mâles de la plante." },
+        { "terme": "Gamète", "definition": "Cellule reproductrice, mâle ou femelle." }
+      ]
+    },
+    {
+      "id": "svt-fl-3",
+      "titre": "Le pistil et l'ovule",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Le pistil",
+          "texte": "Le pistil est l'organe femelle de la fleur. Il comprend trois parties : le stigmate (sommet, souvent collant, qui reçoit le pollen), le style (tube qui relie le stigmate à l'ovaire) et l'ovaire (partie renflée qui contient les ovules)."
+        },
+        {
+          "type": "definition",
+          "titre": "L'ovule",
+          "texte": "L'ovule est une petite structure arrondie logée dans l'ovaire et attachée par un petit pied appelé funicule. Il est entouré de téguments, percés d'une petite ouverture : le micropyle. À l'intérieur se trouve le sac embryonnaire."
+        },
+        {
+          "type": "tableau",
+          "titre": "Le sac embryonnaire",
+          "entetes": ["Élément", "Rôle"],
+          "lignes": [
+            ["Oosphère (gamète femelle)", "Elle sera fécondée par un gamète mâle"],
+            ["Deux synergides", "Cellules situées près du micropyle, elles accompagnent l'oosphère"],
+            ["Deux noyaux centraux", "Ils participeront à la formation des réserves de la graine"],
+            ["Trois antipodes", "Cellules situées au fond du sac"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Le nombre d'ovules varie : un seul chez la mangue, un grand nombre chez le haricot (les petits pois alignés dans la gousse sont d'anciens ovules)."
+        }
+      ],
+      "lexique": [
+        { "terme": "Stigmate", "definition": "Sommet du pistil qui reçoit le pollen." },
+        { "terme": "Style", "definition": "Tube qui relie le stigmate à l'ovaire." },
+        { "terme": "Ovaire", "definition": "Partie renflée du pistil qui contient les ovules." },
+        { "terme": "Ovule", "definition": "Organe qui contient le gamète femelle." },
+        { "terme": "Micropyle", "definition": "Petite ouverture de l'ovule." },
+        { "terme": "Oosphère", "definition": "Gamète femelle." }
+      ]
+    },
+    {
+      "id": "svt-fl-4",
+      "titre": "La pollinisation",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Pollinisation",
+          "texte": "La pollinisation est le transport du pollen depuis les anthères jusqu'au stigmate d'une fleur de la même espèce."
+        },
+        {
+          "type": "tableau",
+          "titre": "Deux types de pollinisation",
+          "entetes": ["Type", "Définition", "Exemple"],
+          "lignes": [
+            ["Autopollinisation", "Le pollen arrive sur le stigmate de la même fleur (ou d'une fleur de la même plante)", "Haricot, tomate, riz"],
+            ["Pollinisation croisée", "Le pollen arrive sur le stigmate d'une fleur d'une autre plante de la même espèce", "Maïs, papayer, vanillier avec aide de l'homme"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Les agents de pollinisation",
+          "entetes": ["Agent", "Nom du mode", "Caractères de la fleur"],
+          "lignes": [
+            ["Insectes (abeilles, papillons)", "Entomophile", "Pétales colorés, parfum, nectar, pollen collant"],
+            ["Vent", "Anémophile", "Fleurs petites et ternes, pollen léger et très abondant, stigmates plumeux"],
+            ["Oiseaux (souimangas)", "Ornithophile", "Fleurs grandes, rouges ou orangées, riches en nectar"],
+            ["Eau, chauves-souris, homme", "Autres", "Selon les espèces"]
+          ]
+        },
+        {
+          "type": "exemple",
+          "titre": "Le vanillier",
+          "texte": "À Madagascar, les fleurs de vanille sont pollinisées à la main, un par un, par les paysans, car l'insecte qui les pollinise n'existe pas dans le pays. Un petit bâtonnet permet de mettre le pollen sur le stigmate."
+        },
+        {
+          "type": "remarque",
+          "texte": "L'insecte qui vient boire le nectar se couvre de pollen et le dépose sur la fleur suivante : il est utile à la plante. C'est pourquoi on dit qu'il faut protéger les abeilles."
+        }
+      ],
+      "lexique": [
+        { "terme": "Pollinisation", "definition": "Transport du pollen jusqu'au stigmate." },
+        { "terme": "Autopollinisation", "definition": "Pollinisation à l'intérieur de la même fleur ou de la même plante." },
+        { "terme": "Pollinisation croisée", "definition": "Pollinisation entre deux plantes différentes de la même espèce." },
+        { "terme": "Nectar", "definition": "Liquide sucré produit par les fleurs." },
+        { "terme": "Entomophile", "definition": "Pollinisé par les insectes." },
+        { "terme": "Anémophile", "definition": "Pollinisé par le vent." }
+      ]
+    },
+    {
+      "id": "svt-fl-5",
+      "titre": "La double fécondation",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Fécondation",
+          "texte": "La fécondation est la rencontre d'un gamète mâle et d'un gamète femelle, qui se fusionnent pour former une cellule-œuf."
+        },
+        {
+          "type": "regle",
+          "titre": "Les étapes",
+          "texte": "1. Le grain de pollen tombe sur le stigmate collant et germe. 2. Il forme un tube pollinique qui s'enfonce dans le style jusqu'à l'ovaire. 3. Le tube entre dans l'ovule par le micropyle. 4. La cellule reproductrice se divise en deux gamètes mâles, qui passent dans le tube. 5. Les deux gamètes mâles sont libérés dans le sac embryonnaire."
+        },
+        {
+          "type": "tableau",
+          "titre": "La double fécondation",
+          "entetes": ["Fusion", "Résultat", "Devient"],
+          "lignes": [
+            ["1er gamète mâle + oosphère", "Œuf principal", "Embryon (future plantule)"],
+            ["2e gamète mâle + deux noyaux centraux", "Œuf accessoire", "Albumen (réserves de la graine)"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "On parle de double fécondation parce qu'il y a deux fusions dans le même sac embryonnaire. Elle n'existe que chez les plantes à fleurs. Si le pollen n'est pas de la même espèce, le tube pollinique ne se forme pas : il n'y a pas de fécondation."
+        }
+      ],
+      "lexique": [
+        { "terme": "Fécondation", "definition": "Fusion d'un gamète mâle et d'un gamète femelle." },
+        { "terme": "Tube pollinique", "definition": "Tube formé par le grain de pollen qui conduit les gamètes mâles jusqu'à l'ovule." },
+        { "terme": "Œuf", "definition": "Cellule formée par la fusion de deux gamètes." },
+        { "terme": "Embryon", "definition": "Jeune plante en début de développement dans la graine." },
+        { "terme": "Albumen", "definition": "Réserves nutritives de la graine." }
+      ]
+    },
+    {
+      "id": "svt-fl-6",
+      "titre": "Du fruit à la graine",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Après la fécondation",
+          "entetes": ["Avant (fleur)", "Après (fruit)"],
+          "lignes": [
+            ["Ovaire", "Fruit"],
+            ["Paroi de l'ovaire", "Péricarpe (peau et chair du fruit)"],
+            ["Ovule", "Graine"],
+            ["Téguments de l'ovule", "Téguments de la graine"],
+            ["Œuf principal", "Embryon"],
+            ["Œuf accessoire", "Albumen"],
+            ["Pétales, étamines, style, stigmate", "Se fanent et tombent"]
+          ]
+        },
+        {
+          "type": "definition",
+          "titre": "Le fruit et la graine",
+          "texte": "Le fruit est l'ovaire transformé après la fécondation. Il protège les graines. La graine est l'ovule transformé : elle contient l'embryon et les réserves."
+        },
+        {
+          "type": "regle",
+          "titre": "La graine",
+          "texte": "Une graine comprend le tégument (enveloppe protectrice), l'embryon (radicule, tigelle, gemmule, cotylédons) et des réserves (albumen ou cotylédons épais). Dans de bonnes conditions (eau, air, chaleur), elle germe et donne une nouvelle plante."
+        },
+        {
+          "type": "tableau",
+          "titre": "Deux sortes de fruits",
+          "entetes": ["Fruits charnus", "Fruits secs"],
+          "lignes": [
+            ["Chair molle et juteuse", "Péricarpe dur et sec"],
+            ["Mangue, orange, tomate, goyave", "Arachide, haricot (gousse), riz, maïs"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "La dissémination des graines",
+          "entetes": ["Agent", "Exemple"],
+          "lignes": [
+            ["Animaux (qui mangent le fruit ou transportent la graine)", "Lémuriens, oiseaux, chauves-souris : mangue, goyave, ficus"],
+            ["Vent", "Graines légères munies d'ailes ou d'aigrettes"],
+            ["Eau", "Noix de coco, flottante sur la mer"],
+            ["Éclatement du fruit", "Gousse qui s'ouvre et projette les graines"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "Certains fruits se forment sans fécondation et n'ont pas de graine : c'est le cas de la banane cultivée."
+        }
+      ],
+      "lexique": [
+        { "terme": "Fruit", "definition": "Ovaire transformé qui contient les graines." },
+        { "terme": "Graine", "definition": "Ovule transformé qui contient l'embryon." },
+        { "terme": "Péricarpe", "definition": "Paroi du fruit." },
+        { "terme": "Cotylédon", "definition": "Feuille de réserve de l'embryon dans la graine." },
+        { "terme": "Dissémination", "definition": "Dispersion des graines loin de la plante mère." },
+        { "terme": "Germination", "definition": "Début du développement de la graine en une jeune plante." }
+      ]
+    },
+    {
+      "id": "svt-fl-7",
+      "titre": "La reproduction asexuée",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Reproduction asexuée",
+          "texte": "La reproduction asexuée (ou multiplication végétative) est la formation d'une nouvelle plante à partir d'un morceau de la plante mère, sans fleur, sans pollen et sans graine. La nouvelle plante est identique à la plante mère : c'est un clone."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les moyens naturels",
+          "entetes": ["Organe", "Exemple"],
+          "lignes": [
+            ["Tubercule (tige souterraine renflée)", "Pomme de terre"],
+            ["Stolon (tige rampante)", "Fraisier"],
+            ["Bulbe", "Oignon, ail"],
+            ["Rhizome (tige souterraine)", "Gingembre, curcuma"],
+            ["Rejet ou drageon (pousse au pied de la plante)", "Bananier, ananas"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Les moyens artificiels",
+          "entetes": ["Méthode", "Principe", "Exemples"],
+          "lignes": [
+            ["Bouturage", "On coupe un morceau de tige, de feuille ou de racine et on le met en terre humide : il forme des racines", "Manioc, canne à sucre, patate douce, rosier"],
+            ["Marcottage", "Une branche reste attachée à la plante mère, on la couvre de terre ou de terreau jusqu'à ce qu'elle forme des racines, puis on la sépare", "Litchi, jasmin, vigne"],
+            ["Greffage", "On fixe une pousse (greffon) sur une autre plante déjà enracinée (porte-greffe) : les deux se soudent", "Manguier, oranger, rosier"]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Réussir une bouture de manioc",
+          "texte": "1. Choisir une tige saine, bien mûre. 2. La couper en tronçons de 20 à 25 cm avec plusieurs nœuds. 3. Planter les tronçons dans un sol humide, les nœuds vers le haut. 4. Arroser et surveiller les pousses."
+        }
+      ],
+      "lexique": [
+        { "terme": "Clone", "definition": "Plante identique à la plante mère, obtenue sans graine." },
+        { "terme": "Bouture", "definition": "Morceau de plante mis en terre pour former une nouvelle plante." },
+        { "terme": "Marcotte", "definition": "Branche qui forme des racines tout en restant attachée à la plante mère." },
+        { "terme": "Greffon", "definition": "Pousse que l'on fixe sur un autre plant." },
+        { "terme": "Porte-greffe", "definition": "Plante enracinée qui reçoit le greffon." }
+      ]
+    },
+    {
+      "id": "svt-fl-8",
+      "titre": "Reproduction sexuée et asexuée : comparaison",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Comparaison",
+          "entetes": ["", "Reproduction sexuée", "Reproduction asexuée"],
+          "lignes": [
+            ["Organe utilisé", "Fleur", "Tige, racine, feuille, bulbe..."],
+            ["Gamètes et fécondation", "Oui", "Non"],
+            ["Pollinisation", "Nécessaire", "Inutile"],
+            ["Résultat", "Graine, puis nouvelle plante", "Nouvelle plante directement"],
+            ["Descendants", "Différents de la plante mère", "Identiques à la plante mère"],
+            ["Rapidité", "Plus lente", "Plus rapide"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Avantages et inconvénients",
+          "entetes": ["", "Avantages", "Inconvénients"],
+          "lignes": [
+            ["Sexuée", "Variété des plantes ; graines résistantes que le vent, l'eau ou les animaux dispersent", "Dépend de la pollinisation et du climat ; plus lente"],
+            ["Asexuée", "Rapide ; garde les bonnes qualités (fruits sucrés, gros tubercules) ; permet de reproduire les plantes sans graine (banane)", "Aucune variété : si la plante mère est malade, tous les plants le sont aussi"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "texte": "L'agriculteur utilise la reproduction asexuée pour garder les bonnes variétés (manioc, canne à sucre, manguier) et la reproduction sexuée (semis de graines) pour le riz, le maïs et les haricots."
+        }
+      ],
+      "lexique": [
+        { "terme": "Sexuée", "definition": "Qui utilise des gamètes et une fécondation." },
+        { "terme": "Asexuée", "definition": "Qui n'utilise ni gamète ni fécondation." },
+        { "terme": "Variété", "definition": "Groupe de plantes d'une même espèce qui ont les mêmes qualités." }
+      ]
+    }
+  ]
+}
