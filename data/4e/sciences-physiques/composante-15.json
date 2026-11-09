@@ -1,0 +1,385 @@
+{
+  "id": "sp4-15-ombres-lune",
+  "titre": "Chapitre 15 : Ombres, éclipses, phases de la Lune",
+  "lecons": [
+    {
+      "id": "sp4-15-ombres",
+      "titre": "Ombre propre et ombre portée",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Ombre portée",
+          "texte": "L'ombre portée d'un objet opaque est la zone, sur un écran ou sur le sol, qui ne reçoit pas la lumière de la source parce que l'objet la bloque."
+        },
+        {
+          "type": "definition",
+          "titre": "Ombre propre",
+          "texte": "L'ombre propre d'un objet est la partie de sa surface qui n'est pas éclairée par la source. C'est la face tournée à l'opposé de la source."
+        },
+        {
+          "type": "schema",
+          "titre": "Ombre propre et ombre portée",
+          "svg": "<svg width='330' height='190' viewBox='0 0 330 190' xmlns='http://www.w3.org/2000/svg'><defs><marker id='sp415a' viewBox='0 0 10 10' refX='9' refY='5' markerWidth='6' markerHeight='6' orient='auto'><path d='M0 0L10 5L0 10z' fill='#e11d48'/></marker></defs><polygon points='125.2,68.5 290,31.4 290,148.6 125.2,111.5' fill='currentColor' fill-opacity='0.15'/><circle cx='130' cy='90' r='22' fill='#e11d48' fill-opacity='0.2' stroke='currentColor' stroke-width='1.5'/><path d='M125.2 68.5A22 22 0 1 1 125.2 111.5Z' fill='currentColor' fill-opacity='0.55'/><line x1='30' y1='90' x2='290' y2='31.4' stroke='#e11d48' stroke-width='1.2' marker-end='url(#sp415a)'/><line x1='30' y1='90' x2='290' y2='148.6' stroke='#e11d48' stroke-width='1.2' marker-end='url(#sp415a)'/><line x1='30' y1='90' x2='290' y2='18' stroke='#e11d48' stroke-width='1.2' marker-end='url(#sp415a)'/><line x1='30' y1='90' x2='290' y2='162' stroke='#e11d48' stroke-width='1.2' marker-end='url(#sp415a)'/><line x1='36' y1='90' x2='104' y2='90' stroke='#e11d48' stroke-width='1.2' marker-end='url(#sp415a)'/><circle cx='30' cy='90' r='5' fill='#e11d48'/><line x1='290' y1='10' x2='290' y2='170' stroke='currentColor' stroke-width='3'/><line x1='290' y1='31.4' x2='290' y2='148.6' stroke='#e11d48' stroke-width='5'/><text x='45' y='122' text-anchor='middle' font-size='11' fill='currentColor'>Source ponctuelle</text><text x='130' y='50' text-anchor='middle' font-size='11' fill='currentColor'>Objet opaque</text><text x='215' y='95' text-anchor='middle' font-size='11' fill='currentColor'>Ombre portée</text><text x='290' y='184' text-anchor='middle' font-size='11' fill='currentColor'>Écran</text></svg>",
+          "legende": "La moitié sombre de la balle est son ombre propre. La zone sombre sur l'écran est l'ombre portée."
+        },
+        {
+          "type": "regle",
+          "titre": "Pourquoi une ombre ?",
+          "texte": "La lumière se propage en ligne droite (chapitre 14). Les rayons qui frôlent l'objet opaque continuent tout droit : derrière l'objet, ils laissent une zone sans lumière. Cette zone est l'ombre portée."
+        },
+        {
+          "type": "methode",
+          "titre": "Tracer l'ombre portée d'un objet",
+          "texte": "1. Place la source, l'objet opaque et l'écran.\n2. Trace deux rayons qui partent de la source et qui frôlent le haut et le bas de l'objet.\n3. Prolonge ces deux rayons jusqu'à l'écran.\n4. La zone de l'écran située entre les deux rayons est l'ombre portée."
+        },
+        {
+          "type": "tableau",
+          "titre": "Taille de l'ombre portée",
+          "entetes": ["Changement", "Effet sur l'ombre portée"],
+          "lignes": [
+            ["On rapproche l'objet de la source (l'écran ne bouge pas)", "L'ombre devient plus grande."],
+            ["On éloigne l'objet de la source (l'écran ne bouge pas)", "L'ombre devient plus petite."],
+            ["La source est très éloignée (le Soleil)", "Les rayons sont presque parallèles : l'ombre a à peu près la taille de l'objet."]
+          ]
+        },
+        {
+          "type": "exemple",
+          "titre": "L'ombre d'un bâton planté verticalement",
+          "texte": "L'ombre est toujours du côté opposé au Soleil. Le matin, le Soleil est bas : l'ombre est longue et dirigée vers l'ouest. Vers midi, le Soleil est le plus haut : l'ombre est la plus courte. Le soir, elle s'allonge de nouveau, vers l'est."
+        },
+        {
+          "type": "remarque",
+          "titre": "Le cadran solaire",
+          "texte": "Un cadran solaire utilise ce principe : l'ombre d'une tige tourne au cours de la journée et indique l'heure."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["ombre portée", "zone sans lumière derrière un objet opaque"],
+            ["ombre propre", "partie d'un objet qui n'est pas éclairée"],
+            ["écran", "surface sur laquelle on observe la lumière ou l'ombre"],
+            ["frôler", "toucher à peine, passer tout près"],
+            ["ponctuelle", "très petite, comme un point"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Une petite lampe éclaire une balle opaque. Derrière la balle, on place un écran.\n\n1. Quelle partie de la balle forme l'ombre propre ?\n2. Comment appelle-t-on la zone sans lumière sur l'écran ?\n3. On rapproche la balle de la lampe, sans bouger l'écran. L'ombre portée devient-elle plus grande ou plus petite ?\n4. On observe l'ombre d'un poteau vertical à 7 h puis à midi. À quel moment est-elle la plus courte ? Pourquoi ?",
+          "solution": "1. La moitié de la balle tournée à l'opposé de la lampe.\n2. L'ombre portée.\n3. Elle devient plus grande : les rayons qui frôlent la balle s'écartent davantage avant d'arriver à l'écran.\n4. À midi. Le Soleil est alors le plus haut dans le ciel, donc l'ombre est la plus courte."
+        }
+      ]
+    },
+    {
+      "id": "sp4-15-penombre",
+      "titre": "Sources étendues et pénombre",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Source ponctuelle et source étendue",
+          "texte": "Une source ponctuelle est une source de très petite taille, qu'on assimile à un point. Une source étendue est une source de grande taille : un tube fluorescent, une grande flamme, une fenêtre éclairée."
+        },
+        {
+          "type": "regle",
+          "titre": "Avec une source étendue",
+          "texte": "Chaque point de la source envoie ses propres rayons et donne sa propre ombre. Sur l'écran, on obtient donc deux zones : une zone qui ne reçoit aucune lumière de la source (l'ombre) et une zone qui reçoit la lumière d'une partie de la source seulement (la pénombre)."
+        },
+        {
+          "type": "definition",
+          "titre": "Pénombre",
+          "texte": "La pénombre est la zone de l'écran qui reçoit la lumière d'une partie seulement de la source. Elle est moins sombre que l'ombre."
+        },
+        {
+          "type": "schema",
+          "titre": "Ombre et pénombre avec une source étendue",
+          "svg": "<svg width='300' height='195' viewBox='0 0 300 195' xmlns='http://www.w3.org/2000/svg'><polygon points='120,60 200,15.6 200,51.1' fill='currentColor' fill-opacity='0.2'/><polygon points='120,120 200,128.9 200,164.4' fill='currentColor' fill-opacity='0.2'/><polygon points='120,60 200,51.1 200,128.9 120,120' fill='currentColor' fill-opacity='0.55'/><line x1='30' y1='70' x2='200' y2='51.1' stroke='#e11d48' stroke-width='1.2'/><line x1='30' y1='110' x2='200' y2='128.9' stroke='#e11d48' stroke-width='1.2'/><line x1='30' y1='70' x2='200' y2='164.4' stroke='#e11d48' stroke-width='1.2'/><line x1='30' y1='110' x2='200' y2='15.6' stroke='#e11d48' stroke-width='1.2'/><line x1='30' y1='70' x2='30' y2='110' stroke='#e11d48' stroke-width='6'/><rect x='116' y='60' width='8' height='60' fill='currentColor' fill-opacity='0.4' stroke='currentColor'/><line x1='200' y1='10' x2='200' y2='170' stroke='currentColor' stroke-width='3'/><line x1='200' y1='15.6' x2='200' y2='51.1' stroke='#e11d48' stroke-opacity='0.45' stroke-width='5'/><line x1='200' y1='128.9' x2='200' y2='164.4' stroke='#e11d48' stroke-opacity='0.45' stroke-width='5'/><line x1='200' y1='51.1' x2='200' y2='128.9' stroke='#e11d48' stroke-width='5'/><text x='4' y='55' font-size='11' fill='currentColor'>Source étendue</text><text x='95' y='150' text-anchor='middle' font-size='11' fill='currentColor'>Objet opaque</text><text x='200' y='185' text-anchor='middle' font-size='11' fill='currentColor'>Écran</text><text x='210' y='36' font-size='11' fill='currentColor'>Pénombre</text><text x='210' y='94' font-size='11' fill='currentColor'>Ombre</text><text x='210' y='150' font-size='11' fill='currentColor'>Pénombre</text></svg>",
+          "legende": "Au centre, l'ombre : aucune lumière de la source. De chaque côté, la pénombre : une partie de la source est visible."
+        },
+        {
+          "type": "tableau",
+          "titre": "Ombre et pénombre",
+          "entetes": ["Zone", "Lumière reçue de la source"],
+          "lignes": [
+            ["Zone éclairée", "Toute la source est visible."],
+            ["Pénombre", "Une partie de la source est visible."],
+            ["Ombre", "Aucune partie de la source n'est visible."]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Bords nets ou bords flous",
+          "texte": "Avec une source ponctuelle, il n'y a pas de pénombre : le bord de l'ombre est net. Avec une source étendue, le bord de l'ombre est flou. Plus l'écran est loin de l'objet, plus la pénombre est large."
+        },
+        {
+          "type": "remarque",
+          "titre": "Le Soleil",
+          "texte": "Vu de la Terre, le Soleil est une source étendue. C'est pourquoi le bord de l'ombre d'un arbre ou d'un mur est un peu flou. Dans la leçon sur les éclipses, nous verrons l'ombre et la pénombre de la Lune et de la Terre."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["source étendue", "source de grande taille"],
+            ["pénombre", "zone qui reçoit la lumière d'une partie de la source"],
+            ["assimiler", "considérer comme équivalent à"],
+            ["flou", "pas net"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "On éclaire un objet opaque avec un grand tube lumineux. On observe l'écran placé derrière.\n\n1. Une toute petite lampe donnerait-elle une pénombre ? Pourquoi ?\n2. Comment s'appelle la zone moins sombre autour de l'ombre ?\n3. Un point de cette zone reçoit-il la lumière de toute la source ?\n4. On éloigne l'écran de l'objet. La pénombre devient-elle plus large ou plus étroite ?",
+          "solution": "1. Non : une source ponctuelle donne une ombre à bord net, sans pénombre.\n2. La pénombre.\n3. Non, il reçoit seulement la lumière d'une partie de la source.\n4. Elle devient plus large."
+        }
+      ]
+    },
+    {
+      "id": "sp4-15-jour-nuit",
+      "titre": "Jour, nuit et mouvements de la Terre et de la Lune",
+      "blocs": [
+        {
+          "type": "regle",
+          "titre": "Le Soleil éclaire la moitié de la Terre",
+          "texte": "La Terre est une sphère. Le Soleil, très loin, n'éclaire que la moitié tournée vers lui : c'est le jour. L'autre moitié est dans l'ombre propre de la Terre : c'est la nuit."
+        },
+        {
+          "type": "schema",
+          "titre": "Jour et nuit",
+          "svg": "<svg width='300' height='185' viewBox='0 0 300 185' xmlns='http://www.w3.org/2000/svg'><defs><marker id='sp415b' viewBox='0 0 10 10' refX='9' refY='5' markerWidth='6' markerHeight='6' orient='auto'><path d='M0 0L10 5L0 10z' fill='#e11d48'/></marker></defs><line x1='5' y1='60' x2='145' y2='60' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp415b)'/><line x1='5' y1='100' x2='125' y2='100' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp415b)'/><line x1='5' y1='140' x2='145' y2='140' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp415b)'/><circle cx='180' cy='100' r='50' fill='currentColor' fill-opacity='0.08' stroke='currentColor' stroke-width='2'/><path d='M180 50A50 50 0 0 0 180 150Z' fill='#e11d48' fill-opacity='0.3'/><path d='M180 50A50 50 0 0 1 180 150Z' fill='currentColor' fill-opacity='0.45'/><line x1='180' y1='50' x2='180' y2='150' stroke='currentColor' stroke-dasharray='4 3'/><text x='150' y='104' text-anchor='middle' font-size='12' fill='currentColor'>Jour</text><text x='212' y='104' text-anchor='middle' font-size='12' fill='currentColor'>Nuit</text><text x='62' y='42' text-anchor='middle' font-size='11' fill='currentColor'>Rayons du Soleil</text><text x='180' y='172' text-anchor='middle' font-size='11' fill='currentColor'>Terre</text></svg>",
+          "legende": "Le Soleil éclaire la moitié de la Terre. Comme la Terre tourne, chaque lieu passe tour à tour du jour à la nuit."
+        },
+        {
+          "type": "regle",
+          "titre": "L'alternance du jour et de la nuit",
+          "texte": "La Terre tourne sur elle-même autour de l'axe des pôles, d'ouest en est, en environ 24 h. Un lieu passe donc de la partie éclairée à la partie sombre, puis revient : c'est l'alternance du jour et de la nuit. Le Soleil se lève à l'est et se couche à l'ouest : ce mouvement n'est qu'apparent, il est dû à la rotation de la Terre."
+        },
+        {
+          "type": "tableau",
+          "titre": "Trois mouvements à connaître",
+          "entetes": ["Mouvement", "Durée", "Ce que cela donne"],
+          "lignes": [
+            ["La Terre tourne sur elle-même", "environ 24 h", "Un jour : l'alternance du jour et de la nuit"],
+            ["La Terre tourne autour du Soleil", "environ 365 jours", "Une année"],
+            ["La Lune tourne autour de la Terre", "environ 27 jours", "Les phases reviennent tous les 29 j 12 h (lunaison)"]
+          ]
+        },
+        {
+          "type": "definition",
+          "titre": "Lunaison",
+          "texte": "Une lunaison est la durée qui sépare deux nouvelles Lunes successives. Elle vaut 29 jours et 12 heures, soit 29,5 jours."
+        },
+        {
+          "type": "remarque",
+          "titre": "Pourquoi 29,5 jours et non 27 jours ?",
+          "texte": "La Lune fait un tour complet autour de la Terre en environ 27 jours. Mais pendant ce temps, la Terre avance sur son orbite autour du Soleil. Il faut donc environ 2 jours de plus pour retrouver la même position par rapport au Soleil et à la Terre, donc la même phase."
+        },
+        {
+          "type": "exemple",
+          "titre": "Calculs sur la lunaison",
+          "texte": "29 j 12 h = 29 × 24 + 12 = 696 + 12 = 708 h.\nDouze lunaisons durent 12 × 29,5 = 354 jours, soit 365 − 354 = 11 jours de moins qu'une année."
+        },
+        {
+          "type": "remarque",
+          "titre": "Toujours la même face",
+          "texte": "La Lune tourne aussi sur elle-même, et elle fait un tour sur elle-même pendant le temps qu'elle met pour faire un tour autour de la Terre. C'est pourquoi nous voyons toujours la même face de la Lune. La face cachée existe : elle est éclairée comme l'autre, mais on ne la voit pas depuis la Terre."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["rotation", "mouvement d'un objet qui tourne sur lui-même"],
+            ["orbite", "trajectoire d'un astre autour d'un autre"],
+            ["lunaison", "durée entre deux nouvelles Lunes"],
+            ["mouvement apparent", "mouvement qu'on croit voir, mais qui est dû au mouvement de l'observateur"],
+            ["axe des pôles", "droite imaginaire qui passe par les deux pôles de la Terre"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. Quel mouvement de la Terre explique l'alternance du jour et de la nuit ?\n2. Convertis une lunaison, 29 j 12 h, en heures.\n3. Une nouvelle Lune a lieu le 1er mars à 0 h. À quelle date et à quelle heure environ aura lieu la nouvelle Lune suivante ?\n4. Combien de jours durent douze lunaisons ? Compare avec une année de 365 jours.",
+          "solution": "1. La rotation de la Terre sur elle-même, en environ 24 h.\n2. 29 × 24 + 12 = 696 + 12 = 708 h.\n3. 29 j 12 h après le 1er mars à 0 h : le 30 mars vers midi.\n4. 12 × 29,5 = 354 jours, soit 365 − 354 = 11 jours de moins qu'une année."
+        }
+      ]
+    },
+    {
+      "id": "sp4-15-phases",
+      "titre": "Les phases de la Lune",
+      "blocs": [
+        {
+          "type": "regle",
+          "titre": "Une moitié toujours éclairée",
+          "texte": "La Lune est une sphère qui ne produit pas de lumière. Comme la Terre, elle est toujours éclairée sur une moitié : celle qui est tournée vers le Soleil. Mais depuis la Terre, nous ne voyons pas toujours cette moitié éclairée : selon la position de la Lune sur son orbite, nous voyons une partie différente de sa face éclairée."
+        },
+        {
+          "type": "definition",
+          "titre": "Phases de la Lune",
+          "texte": "Les phases de la Lune sont les aspects successifs de la Lune vus depuis la Terre. Elles se répètent dans le même ordre tous les 29 j 12 h."
+        },
+        {
+          "type": "schema",
+          "titre": "La Lune sur son orbite",
+          "svg": "<svg width='330' height='215' viewBox='0 0 330 215' xmlns='http://www.w3.org/2000/svg'><defs><marker id='sp415c' viewBox='0 0 10 10' refX='9' refY='5' markerWidth='6' markerHeight='6' orient='auto'><path d='M0 0L10 5L0 10z' fill='#e11d48'/></marker></defs><line x1='5' y1='88' x2='50' y2='88' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp415c)'/><line x1='5' y1='108' x2='50' y2='108' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp415c)'/><line x1='5' y1='128' x2='50' y2='128' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp415c)'/><text x='4' y='76' font-size='12' fill='currentColor'>Soleil</text><circle cx='165' cy='108' r='75' fill='none' stroke='currentColor' stroke-opacity='0.5' stroke-dasharray='4 3'/><circle cx='165' cy='108' r='16' fill='currentColor' fill-opacity='0.08' stroke='currentColor' stroke-width='1.5'/><path d='M165 92A16 16 0 0 0 165 124Z' fill='#e11d48' fill-opacity='0.3'/><text x='165' y='146' text-anchor='middle' font-size='11' fill='currentColor'>Terre</text><circle cx='90' cy='108' r='9' fill='currentColor' fill-opacity='0.45' stroke='currentColor'/><path d='M90 99A9 9 0 0 0 90 117Z' fill='#e11d48' fill-opacity='0.55'/><circle cx='165' cy='183' r='9' fill='currentColor' fill-opacity='0.45' stroke='currentColor'/><path d='M165 174A9 9 0 0 0 165 192Z' fill='#e11d48' fill-opacity='0.55'/><circle cx='240' cy='108' r='9' fill='currentColor' fill-opacity='0.45' stroke='currentColor'/><path d='M240 99A9 9 0 0 0 240 117Z' fill='#e11d48' fill-opacity='0.55'/><circle cx='165' cy='33' r='9' fill='currentColor' fill-opacity='0.45' stroke='currentColor'/><path d='M165 24A9 9 0 0 0 165 42Z' fill='#e11d48' fill-opacity='0.55'/><path d='M190 178A75 75 0 0 0 232 138' fill='none' stroke='#e11d48' stroke-width='2' marker-end='url(#sp415c)'/><text x='70' y='112' text-anchor='middle' font-size='12' fill='currentColor'>1</text><text x='165' y='207' text-anchor='middle' font-size='12' fill='currentColor'>2</text><text x='259' y='112' text-anchor='middle' font-size='12' fill='currentColor'>3</text><text x='165' y='17' text-anchor='middle' font-size='12' fill='currentColor'>4</text></svg>",
+          "legende": "Les rayons du Soleil viennent de la gauche. 1 : nouvelle Lune. 2 : premier quartier. 3 : pleine Lune. 4 : dernier quartier. Dans chaque cas, la moitié de la Lune tournée vers le Soleil est éclairée. Les tailles et les distances ne sont pas à l'échelle."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les huit phases",
+          "entetes": ["Phase", "Aspect de la Lune", "Quand la voit-on ?"],
+          "lignes": [
+            ["Nouvelle Lune", "La face tournée vers nous n'est pas éclairée", "Elle est dans le ciel avec le Soleil : on ne la voit pas."],
+            ["Premier croissant", "Mince croissant", "Peu après le coucher du Soleil, vers l'ouest."],
+            ["Premier quartier", "Demi-disque", "Dans la première moitié de la nuit."],
+            ["Gibbeuse croissante", "Plus d'un demi-disque", "Une grande partie de la nuit."],
+            ["Pleine Lune", "Disque entier", "Toute la nuit : elle se lève quand le Soleil se couche."],
+            ["Gibbeuse décroissante", "Plus d'un demi-disque", "La nuit, surtout après minuit."],
+            ["Dernier quartier", "Demi-disque", "Dans la seconde moitié de la nuit et le matin."],
+            ["Dernier croissant", "Mince croissant", "Juste avant le lever du Soleil, vers l'est."]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Le cycle",
+          "texte": "Après la nouvelle Lune, la partie éclairée qu'on voit grandit chaque jour : la Lune est croissante. Après la pleine Lune, elle diminue : la Lune est décroissante. Entre deux phases principales (nouvelle Lune, premier quartier, pleine Lune, dernier quartier), il s'écoule environ 29,5 ÷ 4 ≈ 7,4 jours."
+        },
+        {
+          "type": "exemple",
+          "titre": "Un cycle complet",
+          "texte": "Si la nouvelle Lune a lieu un certain jour, le premier quartier a lieu environ 7 jours plus tard, la pleine Lune environ 15 jours plus tard, le dernier quartier environ 22 jours plus tard. La nouvelle Lune suivante revient environ 29,5 jours après la première."
+        },
+        {
+          "type": "methode",
+          "titre": "Reproduire les phases dans une pièce sombre",
+          "texte": "1. Dans une pièce sombre, place une lampe sur une table : elle représente le Soleil.\n2. Tiens une balle claire à bout de bras : elle représente la Lune. Ta tête représente la Terre.\n3. Tourne lentement sur toi-même, en gardant la balle devant toi.\n4. Observe la partie éclairée de la balle : elle prend successivement l'aspect des phases de la Lune."
+        },
+        {
+          "type": "remarque",
+          "titre": "Pourquoi « quartier » ?",
+          "texte": "Au premier et au dernier quartier, on voit un demi-disque, c'est-à-dire la moitié de la Lune. Le mot quartier vient du quart de l'orbite que la Lune a parcouru depuis la nouvelle Lune."
+        },
+        {
+          "type": "remarque",
+          "titre": "Une erreur fréquente",
+          "texte": "Les phases ne sont pas dues à l'ombre de la Terre sur la Lune. Elles viennent de la position de la Lune par rapport à la Terre et au Soleil. L'ombre de la Terre ne tombe sur la Lune que lors d'une éclipse de Lune."
+        },
+        {
+          "type": "remarque",
+          "titre": "Hémisphère sud et hémisphère nord",
+          "texte": "Le côté éclairé de la Lune n'est pas le même dans les deux hémisphères. Dans l'hémisphère sud, où se trouve Madagascar, la Lune croissante est éclairée sur sa gauche. Dans l'hémisphère nord, elle est éclairée sur sa droite. Près de l'équateur, le croissant peut même paraître couché."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["phase", "aspect de la Lune à un moment donné"],
+            ["croissant", "forme mince, en arc, de la partie éclairée"],
+            ["gibbeuse", "plus d'un demi-disque et moins d'un disque entier"],
+            ["quartier", "demi-disque éclairé"],
+            ["croissante", "dont la partie éclairée visible grandit"],
+            ["décroissante", "dont la partie éclairée visible diminue"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. Quelle fraction du disque lunaire voit-on au premier quartier ?\n2. Quelle est la phase quand la Lune est entre la Terre et le Soleil ? La voit-on ? Pourquoi ?\n3. À la pleine Lune, comment sont placés la Terre, la Lune et le Soleil ? À quelle heure la Lune se lève-t-elle environ ?\n4. Un élève affirme : « Les phases de la Lune sont dues à l'ombre de la Terre sur la Lune. » Cette affirmation est-elle vraie ?",
+          "solution": "1. La moitié : on voit un demi-disque.\n2. C'est la nouvelle Lune. On ne la voit pas : la face éclairée est tournée vers le Soleil, donc à l'opposé de la Terre.\n3. La Terre est à peu près entre le Soleil et la Lune. La Lune se lève environ quand le Soleil se couche.\n4. Non. Les phases viennent de la position de la Lune par rapport à la Terre et au Soleil : on voit plus ou moins la face éclairée. L'ombre de la Terre ne tombe sur la Lune que pendant une éclipse de Lune."
+        }
+      ]
+    },
+    {
+      "id": "sp4-15-eclipses",
+      "titre": "Les éclipses",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Éclipse de Soleil",
+          "texte": "Il y a éclipse de Soleil quand la Lune passe entre le Soleil et la Terre et cache tout ou une partie du Soleil pour un observateur situé sur la Terre."
+        },
+        {
+          "type": "definition",
+          "titre": "Éclipse de Lune",
+          "texte": "Il y a éclipse de Lune quand la Lune passe dans l'ombre de la Terre. La Terre se trouve alors entre le Soleil et la Lune."
+        },
+        {
+          "type": "schema",
+          "titre": "Les deux types d'éclipses",
+          "svg": "<svg width='330' height='192' viewBox='0 0 330 192' xmlns='http://www.w3.org/2000/svg'><text x='165' y='14' text-anchor='middle' font-size='12' fill='currentColor'>Éclipse de Soleil (nouvelle Lune)</text><polygon points='190,42 277,48 190,54' fill='currentColor' fill-opacity='0.35'/><circle cx='30' cy='48' r='22' fill='#e11d48' fill-opacity='0.3' stroke='currentColor' stroke-width='1.5'/><circle cx='190' cy='48' r='6' fill='currentColor' fill-opacity='0.5' stroke='currentColor'/><circle cx='290' cy='48' r='14' fill='currentColor' fill-opacity='0.08' stroke='currentColor' stroke-width='1.5'/><text x='30' y='84' text-anchor='middle' font-size='11' fill='currentColor'>Soleil</text><text x='190' y='84' text-anchor='middle' font-size='11' fill='currentColor'>Lune</text><text x='290' y='84' text-anchor='middle' font-size='11' fill='currentColor'>Terre</text><text x='165' y='108' text-anchor='middle' font-size='12' fill='currentColor'>Éclipse de Lune (pleine Lune)</text><polygon points='170,129 310,134 310,152 170,157' fill='currentColor' fill-opacity='0.35'/><circle cx='30' cy='143' r='22' fill='#e11d48' fill-opacity='0.3' stroke='currentColor' stroke-width='1.5'/><circle cx='170' cy='143' r='14' fill='currentColor' fill-opacity='0.08' stroke='currentColor' stroke-width='1.5'/><circle cx='290' cy='143' r='6' fill='currentColor' fill-opacity='0.5' stroke='currentColor'/><text x='30' y='182' text-anchor='middle' font-size='11' fill='currentColor'>Soleil</text><text x='170' y='182' text-anchor='middle' font-size='11' fill='currentColor'>Terre</text><text x='290' y='182' text-anchor='middle' font-size='11' fill='currentColor'>Lune</text></svg>",
+          "legende": "La zone grisée est l'ombre. En haut, l'ombre de la Lune atteint la Terre. En bas, la Lune entre dans l'ombre de la Terre. Les tailles et les distances ne sont pas à l'échelle."
+        },
+        {
+          "type": "tableau",
+          "titre": "Comparaison",
+          "entetes": ["Critère", "Éclipse de Soleil", "Éclipse de Lune"],
+          "lignes": [
+            ["Alignement", "Soleil, Lune, Terre", "Soleil, Terre, Lune"],
+            ["Phase de la Lune", "Nouvelle Lune", "Pleine Lune"],
+            ["Qui est dans l'ombre ?", "Un lieu de la Terre, dans l'ombre ou la pénombre de la Lune", "La Lune, dans l'ombre ou la pénombre de la Terre"],
+            ["Où la voit-on ?", "Dans une zone étroite de la Terre", "Partout où la Lune est au-dessus de l'horizon"],
+            ["Durée de la totalité", "Quelques minutes (7 min 30 s au plus)", "Peut dépasser une heure"],
+            ["Danger pour les yeux ?", "Oui, sans protection", "Non"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Totale, partielle, annulaire",
+          "texte": "Éclipse de Soleil :\n- Dans l'ombre de la Lune, l'éclipse est totale : le Soleil est entièrement caché.\n- Dans la pénombre de la Lune, l'éclipse est partielle : une partie du Soleil reste visible.\n- Quand la Lune est un peu plus loin de la Terre, elle paraît trop petite pour cacher tout le Soleil : on voit un anneau lumineux. L'éclipse est annulaire.\nÉclipse de Lune : elle est totale si la Lune entre entièrement dans l'ombre de la Terre, partielle si une partie seulement y entre."
+        },
+        {
+          "type": "remarque",
+          "titre": "Une Lune rouge",
+          "texte": "Pendant une éclipse totale de Lune, la Lune ne disparaît pas : elle prend souvent une teinte rouge orangé, car un peu de lumière du Soleil traverse l'atmosphère de la Terre avant d'arriver sur la Lune."
+        },
+        {
+          "type": "regle",
+          "titre": "Pourquoi n'y a-t-il pas d'éclipse chaque mois ?",
+          "texte": "Il y a une nouvelle Lune et une pleine Lune chaque mois, mais pas d'éclipse chaque fois. Le plan de l'orbite de la Lune est incliné d'environ 5° par rapport à celui de l'orbite de la Terre. Le plus souvent, à la nouvelle Lune, l'ombre de la Lune passe au-dessus ou au-dessous de la Terre. À la pleine Lune, la Lune passe au-dessus ou au-dessous de l'ombre de la Terre. Il faut que les trois astres soient bien alignés."
+        },
+        {
+          "type": "remarque",
+          "titre": "Une coïncidence",
+          "texte": "Le Soleil a un diamètre d'environ 1 400 000 km, la Lune d'environ 3 500 km : 1 400 000 ÷ 3 500 = 400. Le Soleil est donc environ 400 fois plus grand que la Lune. Il est aussi environ 400 fois plus loin (150 000 000 ÷ 384 000 ≈ 391). Vus de la Terre, le Soleil et la Lune ont donc à peu près la même taille apparente, ce qui permet à la Lune de cacher le Soleil."
+        },
+        {
+          "type": "remarque",
+          "titre": "Sécurité",
+          "texte": "Ne regarde jamais le Soleil sans protection, même pendant une éclipse partielle : les yeux peuvent être brûlés sans douleur. Les lunettes de soleil ordinaires, les radiographies et les verres fumés ne suffisent pas. Utilise des lunettes spéciales pour éclipses, ou observe l'image projetée sur un écran par un petit trou (comme dans une chambre noire), en tournant le dos au Soleil. Une éclipse de Lune est sans danger."
+        },
+        {
+          "type": "regle",
+          "titre": "Ce qu'il faut retenir du chapitre",
+          "texte": "- L'ombre propre est la partie non éclairée d'un objet ; l'ombre portée est la zone sans lumière derrière lui.\n- Une source étendue donne une ombre entourée d'une pénombre.\n- La Terre tourne sur elle-même en 24 h : c'est l'alternance du jour et de la nuit.\n- La Lune est toujours éclairée sur une moitié. Ses phases reviennent tous les 29 j 12 h.\n- Éclipse de Soleil : Soleil, Lune, Terre alignés, à la nouvelle Lune.\n- Éclipse de Lune : Soleil, Terre, Lune alignés, à la pleine Lune."
+        },
+        {
+          "type": "remarque",
+          "titre": "La suite",
+          "texte": "Le chapitre 16 étudie le poids, la poussée d'Archimède et les énergies renouvelables."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["éclipse", "disparition totale ou partielle d'un astre cachée par un autre"],
+            ["aligné", "placé sur une même droite"],
+            ["totale", "qui cache entièrement"],
+            ["partielle", "qui cache une partie seulement"],
+            ["annulaire", "qui forme un anneau"],
+            ["atmosphère", "couche d'air qui entoure la Terre"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. Dans quel ordre sont alignés le Soleil, la Lune et la Terre lors d'une éclipse de Soleil ? Quelle est alors la phase de la Lune ?\n2. Même question pour une éclipse de Lune.\n3. Pourquoi n'y a-t-il pas une éclipse de Soleil à chaque nouvelle Lune ?\n4. Peut-on regarder une éclipse partielle de Soleil avec des lunettes de soleil ordinaires ? Comment l'observer sans danger ?",
+          "solution": "1. Soleil, Lune, Terre. C'est la nouvelle Lune.\n2. Soleil, Terre, Lune. C'est la pleine Lune.\n3. Le plan de l'orbite de la Lune est incliné d'environ 5° par rapport à celui de l'orbite de la Terre. Le plus souvent, les trois astres ne sont pas parfaitement alignés.\n4. Non, elles ne protègent pas assez les yeux. On utilise des lunettes spéciales pour éclipses, ou on observe l'image du Soleil projetée sur un écran par un petit trou, en tournant le dos au Soleil."
+        }
+      ]
+    }
+  ]
+}
