@@ -1,0 +1,345 @@
+{
+  "id": "sp4-12-courant-alternatif",
+  "titre": "Chapitre 12 : Courant alternatif",
+  "lecons": [
+    {
+      "id": "sp4-12-production",
+      "titre": "Produire une tension alternative",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Tension et courant alternatifs",
+          "texte": "Une tension alternative change de sens (de signe) régulièrement : tantôt une borne est positive, tantôt c'est l'autre. Elle fait circuler un courant alternatif, qui change lui aussi de sens régulièrement.\nAu chapitre 10, la pile donnait une tension continue, toujours de même sens."
+        },
+        {
+          "type": "schema",
+          "titre": "Continue ou alternative",
+          "svg": "<svg width='380' height='155' viewBox='0 0 380 155' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif'><line x1='30' y1='15' x2='30' y2='115' stroke='currentColor' stroke-width='1.5'/><line x1='30' y1='65' x2='170' y2='65' stroke='currentColor' stroke-width='1.5'/><line x1='30' y1='35' x2='170' y2='35' stroke='#e11d48' stroke-width='2.5'/><text x='38' y='22' font-size='12' fill='currentColor'>U</text><text x='173' y='69' font-size='12' fill='currentColor'>t</text><text x='100' y='134' text-anchor='middle' font-size='12' fill='currentColor'>Tension continue</text><text x='100' y='149' text-anchor='middle' font-size='10' fill='currentColor'>constante, un seul sens</text><line x1='210' y1='15' x2='210' y2='115' stroke='currentColor' stroke-width='1.5'/><line x1='210' y1='65' x2='370' y2='65' stroke='currentColor' stroke-width='1.5'/><polyline points='210,65 215,53.5 220,43.8 225,37.3 230,35 235,37.3 240,43.8 245,53.5 250,65 255,76.5 260,86.2 265,92.7 270,95 275,92.7 280,86.2 285,76.5 290,65 295,53.5 300,43.8 305,37.3 310,35 315,37.3 320,43.8 325,53.5 330,65 335,76.5 340,86.2 345,92.7 350,95 355,92.7 360,86.2 365,76.5 370,65' fill='none' stroke='#e11d48' stroke-width='2.5'/><text x='218' y='22' font-size='12' fill='currentColor'>U</text><text x='366' y='80' font-size='12' fill='currentColor'>t</text><text x='290' y='134' text-anchor='middle' font-size='12' fill='currentColor'>Tension alternative</text><text x='290' y='149' text-anchor='middle' font-size='10' fill='currentColor'>change de signe, se répète</text></svg>",
+          "legende": "Pile : tension constante. Prise du secteur : tension alternative."
+        },
+        {
+          "type": "definition",
+          "titre": "Voltmètre à zéro central",
+          "texte": "Dans un voltmètre à zéro central, l'aiguille est au milieu du cadran quand la tension est nulle. Elle dévie d'un côté pour une tension positive et de l'autre côté pour une tension négative. Il permet donc de voir le changement de sens de la tension."
+        },
+        {
+          "type": "methode",
+          "titre": "L'expérience de la bobine et de l'aimant",
+          "texte": "1) Relie les deux bornes d'une bobine à un voltmètre à zéro central. Il n'y a aucune pile dans le circuit.\n2) Place l'aimant immobile près de la bobine : l'aiguille reste au zéro.\n3) Approche vite le pôle nord de l'aimant : l'aiguille dévie d'un côté.\n4) Éloigne l'aimant : l'aiguille dévie de l'autre côté.\n5) Fais un va-et-vient régulier : l'aiguille oscille de part et d'autre du zéro."
+        },
+        {
+          "type": "schema",
+          "titre": "Aimant et bobine",
+          "svg": "<svg width='380' height='155' viewBox='0 0 380 155' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif'><defs><marker id='sp412a' markerWidth='8' markerHeight='8' refX='7' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='#e11d48'/></marker></defs><rect x='40' y='62' width='35' height='26' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='75' y='62' width='35' height='26' fill='#e11d48' fill-opacity='0.8' stroke='currentColor' stroke-width='1.5'/><text x='57' y='80' text-anchor='middle' font-size='13' fill='currentColor'>S</text><text x='92' y='80' text-anchor='middle' font-size='13' fill='currentColor'>N</text><text x='75' y='48' text-anchor='middle' font-size='11' fill='currentColor'>Aimant</text><line x1='75' y1='108' x2='45' y2='108' stroke='#e11d48' stroke-width='2' marker-end='url(#sp412a)'/><line x1='75' y1='108' x2='105' y2='108' stroke='#e11d48' stroke-width='2' marker-end='url(#sp412a)'/><text x='75' y='126' text-anchor='middle' font-size='11' fill='currentColor'>va-et-vient</text><ellipse cx='160' cy='75' rx='5' ry='20' fill='none' stroke='currentColor' stroke-width='1.5'/><ellipse cx='170' cy='75' rx='5' ry='20' fill='none' stroke='currentColor' stroke-width='1.5'/><ellipse cx='180' cy='75' rx='5' ry='20' fill='none' stroke='currentColor' stroke-width='1.5'/><ellipse cx='190' cy='75' rx='5' ry='20' fill='none' stroke='currentColor' stroke-width='1.5'/><ellipse cx='200' cy='75' rx='5' ry='20' fill='none' stroke='currentColor' stroke-width='1.5'/><ellipse cx='210' cy='75' rx='5' ry='20' fill='none' stroke='currentColor' stroke-width='1.5'/><ellipse cx='220' cy='75' rx='5' ry='20' fill='none' stroke='currentColor' stroke-width='1.5'/><text x='190' y='47' text-anchor='middle' font-size='11' fill='currentColor'>Bobine</text><line x1='160' y1='55' x2='160' y2='30' stroke='currentColor' stroke-width='1.5'/><line x1='160' y1='30' x2='310' y2='30' stroke='currentColor' stroke-width='1.5'/><line x1='310' y1='30' x2='310' y2='56' stroke='currentColor' stroke-width='1.5'/><line x1='220' y1='95' x2='220' y2='130' stroke='currentColor' stroke-width='1.5'/><line x1='220' y1='130' x2='310' y2='130' stroke='currentColor' stroke-width='1.5'/><line x1='310' y1='130' x2='310' y2='104' stroke='currentColor' stroke-width='1.5'/><circle cx='310' cy='80' r='24' fill='none' stroke='currentColor' stroke-width='1.5'/><path d='M294,90 A16,16 0 0 1 326,90' fill='none' stroke='currentColor' stroke-width='1'/><line x1='310' y1='90' x2='310' y2='76' stroke='#e11d48' stroke-width='1.5'/><text x='310' y='71' text-anchor='middle' font-size='9' fill='currentColor'>0</text><text x='310' y='101' text-anchor='middle' font-size='10' fill='currentColor'>V</text><text x='300' y='149' text-anchor='middle' font-size='11' fill='currentColor'>Voltmètre à zéro central</text></svg>",
+          "legende": "Quand l'aimant bouge près de la bobine, une tension apparaît. L'aiguille dévie."
+        },
+        {
+          "type": "tableau",
+          "titre": "Ce que l'on observe",
+          "entetes": ["Situation", "Aiguille du voltmètre"],
+          "lignes": [
+            ["Aimant immobile (près ou dans la bobine)", "Reste au zéro"],
+            ["On approche l'aimant", "Dévie d'un côté"],
+            ["On éloigne l'aimant", "Dévie de l'autre côté"],
+            ["Va-et-vient régulier", "Oscille de part et d'autre du zéro"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Ce qui compte, c'est le mouvement",
+          "texte": "La tension apparaît seulement quand l'aimant bouge par rapport à la bobine (ou la bobine par rapport à l'aimant). Elle disparaît quand le mouvement s'arrête. Si on inverse le mouvement ou le pôle de l'aimant, le sens de la tension s'inverse."
+        },
+        {
+          "type": "regle",
+          "titre": "De quoi dépend la tension obtenue",
+          "texte": "La tension est plus grande quand :\n1) l'aimant bouge plus vite ;\n2) la bobine a plus de spires (plus de tours de fil) ;\n3) l'aimant est plus puissant."
+        },
+        {
+          "type": "remarque",
+          "titre": "Une découverte du XIXe siècle",
+          "texte": "L'Anglais Michael Faraday a découvert ce phénomène en 1831. On l'appelle l'induction électromagnétique."
+        },
+        {
+          "type": "exemple",
+          "titre": "La dynamo de vélo",
+          "texte": "Une dynamo de vélo contient un aimant qui tourne près d'une bobine. Quand on pédale, la lampe s'allume. Plus on va vite, plus elle brille. À l'arrêt, elle s'éteint."
+        },
+        {
+          "type": "remarque",
+          "titre": "La suite",
+          "texte": "Dans les centrales électriques, de grands alternateurs, entraînés par l'eau, la vapeur ou le vent, produisent ainsi la tension alternative. Nous étudierons l'alternateur au chapitre 13."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Alternatif", "Qui change de sens régulièrement."],
+            ["Continu", "Qui garde toujours le même sens."],
+            ["Bobine", "Fil enroulé en un grand nombre de tours, appelés spires."],
+            ["Zéro central", "Voltmètre dont le zéro est au milieu du cadran."],
+            ["Induction", "Production d'une tension par le mouvement d'un aimant près d'une bobine."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) L'aimant est immobile près de la bobine. Que indique le voltmètre à zéro central ?\n2) On approche l'aimant, puis on l'éloigne. Que fait l'aiguille ? Quel type de tension obtient-on avec un va-et-vient régulier ?\n3) Donne deux façons d'obtenir une tension plus grande.",
+          "solution": "1) Il indique zéro : sans mouvement, il n'y a pas de tension.\n2) L'aiguille dévie d'un côté quand on approche l'aimant, puis de l'autre côté quand on l'éloigne. Avec un va-et-vient régulier, on obtient une tension alternative.\n3) Déplacer l'aimant plus vite, ou utiliser une bobine qui a plus de spires. On peut aussi prendre un aimant plus puissant."
+        }
+      ]
+    },
+    {
+      "id": "sp4-12-observer",
+      "titre": "Observer une tension alternative : l'oscilloscope",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Oscilloscope et oscillogramme",
+          "texte": "Un oscilloscope est un appareil qui montre comment une tension varie au cours du temps. Il se branche comme un voltmètre, en dérivation. Il dessine sur un écran quadrillé une courbe appelée oscillogramme : l'axe horizontal représente le temps et l'axe vertical représente la tension."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les deux réglages à connaître",
+          "entetes": ["Réglage", "Signification"],
+          "lignes": [
+            ["Sensibilité verticale (en V/div)", "Tension qui correspond à 1 division verticale."],
+            ["Base de temps (en ms/div)", "Durée qui correspond à 1 division horizontale."]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Tension continue à l'oscilloscope",
+          "texte": "Une tension continue donne une droite horizontale. Elle est au-dessus de l'axe central si la tension est positive, et sa hauteur donne la valeur de la tension. Une tension nulle donne une droite sur l'axe central."
+        },
+        {
+          "type": "definition",
+          "titre": "Tension périodique",
+          "texte": "Une tension est périodique quand la même courbe se répète identique à intervalles de temps égaux. La plus petite partie de courbe qui se répète s'appelle le motif."
+        },
+        {
+          "type": "definition",
+          "titre": "Alternance",
+          "texte": "La tension du secteur est sinusoïdale : sa courbe a la forme d'une vague. La partie au-dessus de l'axe est une alternance positive. La partie au-dessous est une alternance négative. Un motif complet contient une alternance positive et une alternance négative."
+        },
+        {
+          "type": "schema",
+          "titre": "Un oscillogramme",
+          "svg": "<svg width='380' height='220' viewBox='0 0 380 220' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif'><path d='M30,10V170M70,10V170M110,10V170M150,10V170M190,10V170M230,10V170M270,10V170M310,10V170M350,10V170M30,10H350M30,30H350M30,50H350M30,70H350M30,90H350M30,110H350M30,130H350M30,150H350M30,170H350' fill='none' stroke='currentColor' stroke-width='0.8' stroke-opacity='0.25'/><line x1='30' y1='90' x2='350' y2='90' stroke='currentColor' stroke-width='1.5' stroke-opacity='0.5'/><polyline points='30,90 40,67 50,47.6 60,34.6 70,30 80,34.6 90,47.6 100,67 110,90 120,113 130,132.4 140,145.4 150,150 160,145.4 170,132.4 180,113 190,90 200,67 210,47.6 220,34.6 230,30 240,34.6 250,47.6 260,67 270,90 280,113 290,132.4 300,145.4 310,150 320,145.4 330,132.4 340,113 350,90' fill='none' stroke='currentColor' stroke-width='2.5'/><line x1='70' y1='90' x2='70' y2='30' stroke='#e11d48' stroke-width='3'/><line x1='30' y1='182' x2='190' y2='182' stroke='#e11d48' stroke-width='2'/><line x1='30' y1='177' x2='30' y2='187' stroke='#e11d48' stroke-width='2'/><line x1='190' y1='177' x2='190' y2='187' stroke='#e11d48' stroke-width='2'/><text x='190' y='199' text-anchor='middle' font-size='11' fill='currentColor'>Rouge : Umax = 3 div, une période T = 4 div</text><text x='190' y='214' text-anchor='middle' font-size='11' fill='currentColor'>Sensibilité : 5 V/div. Base de temps : 5 ms/div.</text></svg>",
+          "legende": "Le sommet est à 3 divisions de l'axe. Une période occupe 4 divisions horizontales."
+        },
+        {
+          "type": "formule",
+          "titre": "Tension maximale et période",
+          "texte": "Umax = (nombre de divisions de l'axe au sommet) × sensibilité verticale\nT = (nombre de divisions d'une période) × base de temps"
+        },
+        {
+          "type": "exemple",
+          "titre": "Lire l'oscillogramme du schéma",
+          "texte": "Tension maximale : Umax = 3 div × 5 V/div = 15 V.\nPériode : T = 4 div × 5 ms/div = 20 ms.\nDu creux au sommet, il y a 6 divisions : 6 × 5 = 30 V, soit 2 × 15 V."
+        },
+        {
+          "type": "remarque",
+          "titre": "Erreur fréquente",
+          "texte": "Ne confonds pas un nombre de divisions avec une tension. Ici le sommet est à 3 divisions, mais la tension maximale n'est ni 3 V ni 5 V : c'est 3 × 5 = 15 V. Il faut toujours multiplier par la sensibilité."
+        },
+        {
+          "type": "methode",
+          "titre": "Lire un oscillogramme",
+          "texte": "1) Lis les deux réglages : sensibilité (V/div) et base de temps (ms/div).\n2) Pour la tension maximale, compte les divisions entre l'axe central et un sommet, puis multiplie par la sensibilité.\n3) Pour la période, compte les divisions horizontales entre deux sommets successifs, puis multiplie par la base de temps.\n4) Écris le résultat avec son unité."
+        },
+        {
+          "type": "remarque",
+          "titre": "Durée d'une alternance",
+          "texte": "Une période contient deux alternances : une positive et une négative. Chacune dure donc T / 2. Ici : 20 / 2 = 10 ms."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Oscilloscope", "Appareil qui montre la variation d'une tension au cours du temps."],
+            ["Oscillogramme", "Courbe dessinée sur l'écran de l'oscilloscope."],
+            ["Sensibilité verticale", "Tension qui correspond à une division verticale."],
+            ["Base de temps", "Durée qui correspond à une division horizontale."],
+            ["Période", "Durée d'un motif de la courbe."],
+            ["Alternance", "Partie positive ou partie négative de la courbe."],
+            ["Sinusoïdale", "En forme de vague régulière."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Un oscillogramme a pour sensibilité 2 V/div et pour base de temps 2 ms/div. Le sommet est à 4 divisions de l'axe. Une période occupe 5 divisions horizontales.\n1) Calcule la tension maximale.\n2) Calcule la période.\n3) Calcule la durée d'une alternance.\n4) Avec le même réglage de sensibilité, on branche une pile de 6 V. Que voit-on à l'écran ?",
+          "solution": "1) Umax = 4 × 2 = 8 V.\n2) T = 5 × 2 = 10 ms.\n3) Une alternance dure T / 2 = 10 / 2 = 5 ms.\n4) Une droite horizontale, au-dessus de l'axe central, à 6 / 2 = 3 divisions."
+        }
+      ]
+    },
+    {
+      "id": "sp4-12-periode-frequence",
+      "titre": "Période et fréquence",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Période",
+          "texte": "La période T est la durée d'un motif. Son unité est la seconde (s). On utilise aussi la milliseconde (ms) : 1 s = 1 000 ms, donc 1 ms = 0,001 s."
+        },
+        {
+          "type": "definition",
+          "titre": "Fréquence",
+          "texte": "La fréquence f est le nombre de périodes en une seconde. Son unité est le hertz (Hz). Plus la tension varie vite, plus sa fréquence est grande."
+        },
+        {
+          "type": "formule",
+          "titre": "Relation entre f et T",
+          "texte": "f = 1 / T et T = 1 / f\nf en hertz (Hz) ; T en secondes (s). Il faut convertir T en secondes avant de calculer f."
+        },
+        {
+          "type": "exemple",
+          "titre": "Le secteur de Madagascar",
+          "texte": "Sur le schéma précédent : T = 20 ms = 0,02 s.\nf = 1 / 0,02 = 50 Hz.\nLa tension du secteur fait donc 50 périodes en une seconde. Inversement : T = 1 / 50 = 0,02 s = 20 ms."
+        },
+        {
+          "type": "exemple",
+          "titre": "Une période de 4 ms",
+          "texte": "T = 4 ms = 0,004 s.\nf = 1 / 0,004 = 250 Hz."
+        },
+        {
+          "type": "exemple",
+          "titre": "Une fréquence de 1 000 Hz",
+          "texte": "f = 1 000 Hz.\nT = 1 / 1 000 = 0,001 s = 1 ms."
+        },
+        {
+          "type": "remarque",
+          "titre": "T grand, f petit",
+          "texte": "La période et la fréquence varient en sens inverse. Une période longue donne une petite fréquence. Une période courte donne une grande fréquence."
+        },
+        {
+          "type": "exemple",
+          "titre": "Le cœur est aussi un phénomène périodique",
+          "texte": "Un cœur bat 72 fois par minute, soit 72 / 60 = 1,2 battement par seconde.\nSa fréquence est 1,2 Hz et sa période est T = 1 / 1,2 ≈ 0,83 s.\nLe diapason qui donne la note la a pour fréquence 440 Hz : sa période est T = 1 / 440 ≈ 2,3 ms."
+        },
+        {
+          "type": "methode",
+          "titre": "Trouver la fréquence avec un oscillogramme",
+          "texte": "1) Compte le nombre de divisions horizontales d'une période.\n2) Multiplie par la base de temps : tu obtiens T.\n3) Convertis T en secondes.\n4) Calcule f = 1 / T.\nExemple : 4 div × 5 ms/div = 20 ms = 0,02 s, donc f = 1 / 0,02 = 50 Hz."
+        },
+        {
+          "type": "remarque",
+          "titre": "Autres pays",
+          "texte": "Dans d'autres pays, la fréquence du secteur est de 60 Hz, par exemple aux États-Unis. À Madagascar, elle est de 50 Hz. Un appareil doit être prévu pour la fréquence et pour la tension du réseau sur lequel on le branche."
+        },
+        {
+          "type": "remarque",
+          "titre": "Une tension continue n'a pas de période",
+          "texte": "Une tension continue ne se répète pas : elle est constante. On ne parle donc ni de période ni de fréquence pour une pile."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Période T", "Durée d'un motif, en secondes."],
+            ["Fréquence f", "Nombre de périodes par seconde, en hertz."],
+            ["Hertz", "Unité de fréquence, de symbole Hz."],
+            ["Milliseconde", "Un millième de seconde, de symbole ms."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Une tension a pour période T = 25 ms. Calcule sa fréquence.\n2) Une tension a pour fréquence f = 500 Hz. Calcule sa période en secondes, puis en ms.\n3) Sur un oscillogramme, une période occupe 4 divisions et la base de temps est de 2,5 ms/div. Calcule T, puis f.\n4) Le cœur d'un sportif bat 90 fois par minute. Calcule la fréquence et la période de ses battements.",
+          "solution": "1) T = 25 ms = 0,025 s. f = 1 / 0,025 = 40 Hz.\n2) T = 1 / 500 = 0,002 s = 2 ms.\n3) T = 4 × 2,5 = 10 ms = 0,010 s. f = 1 / 0,010 = 100 Hz.\n4) f = 90 / 60 = 1,5 Hz. T = 1 / 1,5 ≈ 0,67 s."
+        }
+      ]
+    },
+    {
+      "id": "sp4-12-secteur",
+      "titre": "La tension du secteur et la valeur efficace",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Le secteur",
+          "texte": "Le secteur est le réseau électrique qui alimente les maisons, par exemple celui de la Jirama à Madagascar. Il fournit une tension alternative sinusoïdale de 220 V et de fréquence 50 Hz."
+        },
+        {
+          "type": "regle",
+          "titre": "Les nombres du secteur à Madagascar",
+          "texte": "Tension nominale : 220 V.\nFréquence : f = 50 Hz.\nPériode : T = 0,02 s = 20 ms.\nDans une seconde, il y a 50 périodes, donc 100 alternances (50 positives et 50 négatives). La tension change donc de sens 100 fois par seconde."
+        },
+        {
+          "type": "remarque",
+          "titre": "Pourquoi la lampe ne clignote-t-elle pas ?",
+          "texte": "Une lampe branchée sur le secteur s'éclaire 100 fois par seconde. Notre œil ne voit pas des variations aussi rapides : la lumière nous paraît continue."
+        },
+        {
+          "type": "definition",
+          "titre": "Tension efficace",
+          "texte": "Une tension alternative varie sans cesse : elle n'est maximale qu'un instant. On utilise donc la tension efficace Ueff : c'est la valeur de la tension continue qui ferait chauffer un résistor autant que la tension alternative. Quand on dit que le secteur fait 220 V, on parle de sa tension efficace."
+        },
+        {
+          "type": "regle",
+          "titre": "Voltmètre en courant alternatif",
+          "texte": "Un voltmètre réglé sur la position AC (ou ~) mesure la tension efficace. Sur la position DC, il est prévu pour le courant continu : il n'indique pas la tension efficace d'une tension alternative. Il faut donc toujours choisir la bonne position."
+        },
+        {
+          "type": "formule",
+          "titre": "Tension maximale et tension efficace",
+          "texte": "Umax = √2 × Ueff et Ueff = Umax / √2\n√2 ≈ 1,414. La tension maximale est toujours plus grande que la tension efficace."
+        },
+        {
+          "type": "exemple",
+          "titre": "Le secteur",
+          "texte": "Ueff = 220 V.\nUmax = 220 × 1,414 = 311,08, soit environ 311 V.\nLa tension du secteur monte donc jusqu'à 311 V, puis redescend, change de signe et atteint −311 V."
+        },
+        {
+          "type": "tableau",
+          "titre": "Quelques valeurs",
+          "entetes": ["Ueff (V)", "Umax = 1,414 × Ueff (V)"],
+          "lignes": [
+            ["6", "environ 8,5"],
+            ["12", "environ 17"],
+            ["220", "environ 311"]
+          ]
+        },
+        {
+          "type": "exemple",
+          "titre": "Passer de Umax à Ueff",
+          "texte": "Un oscillogramme donne Umax = 17 V.\nUeff = 17 / 1,414 ≈ 12 V. Un voltmètre en position AC indiquerait environ 12 V."
+        },
+        {
+          "type": "regle",
+          "titre": "Le secteur est dangereux",
+          "texte": "Une tension de 220 V peut tuer. On ne touche jamais un fil dénudé ni l'intérieur d'une prise, on ne manipule pas un appareil branché avec les mains mouillées, et on ne répare jamais un appareil sans l'avoir débranché. On ne mesure pas la tension du secteur sans l'accord du professeur."
+        },
+        {
+          "type": "remarque",
+          "titre": "Les deux fils d'une prise",
+          "texte": "Dans une prise, un fil, la phase, est dangereux au toucher. L'autre, le neutre, a une tension proche de 0 V par rapport à la terre. On ne peut pas les distinguer à l'œil : il faut considérer les deux comme dangereux."
+        },
+        {
+          "type": "remarque",
+          "titre": "La suite",
+          "texte": "Pour alimenter un appareil sous une tension plus petite, ou pour obtenir une tension continue à partir du secteur, on utilise un transformateur, une diode et un adaptateur. Nous les étudierons au chapitre 13."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Secteur", "Réseau électrique qui alimente les maisons."],
+            ["Tension efficace", "Valeur de la tension continue qui chaufferait autant que la tension alternative."],
+            ["Tension maximale", "Plus grande valeur atteinte par la tension."],
+            ["Phase et neutre", "Les deux fils d'une prise du secteur."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Une tension alternative a pour tension efficace 9 V. Calcule sa tension maximale.\n2) Un oscillogramme montre une tension maximale de 17 V. Calcule la tension efficace.\n3) Le secteur a une fréquence de 50 Hz. Combien de périodes y a-t-il en 1 s ? Combien d'alternances ? Combien de périodes en 1 minute ?",
+          "solution": "1) Umax = 9 × 1,414 = 12,726, soit environ 12,7 V.\n2) Ueff = 17 / 1,414 ≈ 12 V.\n3) En 1 s : 50 périodes, donc 100 alternances (50 positives et 50 négatives). En 1 minute : 50 × 60 = 3 000 périodes."
+        }
+      ]
+    }
+  ]
+}
