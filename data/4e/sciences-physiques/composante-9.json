@@ -1,0 +1,328 @@
+{
+  "id": "sp4-9-equation-bilan",
+  "titre": "Chapitre 9 : Équation-bilan et réactions",
+  "lecons": [
+    {
+      "id": "sp4-9-equation",
+      "titre": "Écrire et équilibrer une équation-bilan",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Équation-bilan",
+          "texte": "Une équation-bilan résume une transformation chimique. À gauche de la flèche, on écrit les réactifs. À droite, on écrit les produits. Elle se lit : les réactifs donnent les produits."
+        },
+        {
+          "type": "exemple",
+          "titre": "Combustion du carbone",
+          "texte": "En mots : carbone + dioxygène → dioxyde de carbone.\nAvec les formules : C + O₂ → CO₂."
+        },
+        {
+          "type": "regle",
+          "titre": "Les atomes se conservent",
+          "texte": "Dans une transformation chimique, on retrouve à droite autant d'atomes de chaque élément qu'à gauche. Les atomes sont seulement regroupés autrement. C'est pourquoi la masse totale se conserve."
+        },
+        {
+          "type": "regle",
+          "titre": "Équilibrer : on change les coefficients, jamais les indices",
+          "texte": "Pour avoir le même nombre d'atomes des deux côtés, on place des coefficients devant les formules. On ne change jamais un indice : changer l'indice changerait le corps. H₂O est de l'eau, mais H₂O₂ est un autre corps, l'eau oxygénée."
+        },
+        {
+          "type": "remarque",
+          "titre": "Coefficient et indice",
+          "texte": "Un coefficient multiplie toute la formule : 2 H₂O représente 2 molécules, donc 4 atomes H et 2 atomes O. Quand le coefficient est 1, on ne l'écrit pas."
+        },
+        {
+          "type": "methode",
+          "titre": "Écrire une équation-bilan",
+          "texte": "1) Écris l'équation en mots : réactifs → produits.\n2) Remplace les noms par les formules. Le dioxygène est O₂, le dihydrogène est H₂.\n3) Compte les atomes de chaque élément à gauche, puis à droite.\n4) Ajoute des coefficients, un élément après l'autre, jusqu'à obtenir les mêmes nombres des deux côtés.\n5) Vérifie une dernière fois en recomptant tout."
+        },
+        {
+          "type": "exemple",
+          "titre": "Équilibrer la formation de l'eau",
+          "texte": "Équation non équilibrée : H₂ + O₂ → H₂O.\nÀ gauche : 2 H et 2 O. À droite : 2 H et 1 O. Il manque un atome O à droite.\nOn écrit 2 devant H₂O : à droite, il y a maintenant 4 H et 2 O.\nIl faut alors 4 H à gauche : on écrit 2 devant H₂.\nÉquation équilibrée : 2 H₂ + O₂ → 2 H₂O.\nVérification : 4 H et 2 O des deux côtés."
+        },
+        {
+          "type": "schema",
+          "titre": "Une équation équilibrée",
+          "svg": "<svg width='380' height='130' viewBox='0 0 380 130' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif'><defs><marker id='sp49a' markerWidth='8' markerHeight='8' refX='7' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='#e11d48'/></marker></defs><circle cx='20' cy='45' r='8' fill='none' stroke='currentColor' stroke-width='1.5'/><circle cx='36' cy='45' r='8' fill='none' stroke='currentColor' stroke-width='1.5'/><circle cx='62' cy='45' r='8' fill='none' stroke='currentColor' stroke-width='1.5'/><circle cx='78' cy='45' r='8' fill='none' stroke='currentColor' stroke-width='1.5'/><text x='104' y='51' text-anchor='middle' font-size='18' fill='currentColor'>+</text><circle cx='127' cy='45' r='11' fill='#e11d48' fill-opacity='0.8' stroke='currentColor' stroke-width='1.5'/><circle cx='149' cy='45' r='11' fill='#e11d48' fill-opacity='0.8' stroke='currentColor' stroke-width='1.5'/><line x1='178' y1='45' x2='215' y2='45' stroke='#e11d48' stroke-width='2' marker-end='url(#sp49a)'/><circle cx='250' cy='38' r='11' fill='#e11d48' fill-opacity='0.8' stroke='currentColor' stroke-width='1.5'/><circle cx='236' cy='55' r='8' fill='none' stroke='currentColor' stroke-width='1.5'/><circle cx='264' cy='55' r='8' fill='none' stroke='currentColor' stroke-width='1.5'/><circle cx='320' cy='38' r='11' fill='#e11d48' fill-opacity='0.8' stroke='currentColor' stroke-width='1.5'/><circle cx='306' cy='55' r='8' fill='none' stroke='currentColor' stroke-width='1.5'/><circle cx='334' cy='55' r='8' fill='none' stroke='currentColor' stroke-width='1.5'/><text x='49' y='95' text-anchor='middle' font-size='14' fill='currentColor'>2 H₂</text><text x='138' y='95' text-anchor='middle' font-size='14' fill='currentColor'>O₂</text><text x='285' y='95' text-anchor='middle' font-size='14' fill='currentColor'>2 H₂O</text><text x='190' y='120' text-anchor='middle' font-size='11' fill='currentColor'>Avant : 4 H et 2 O. Après : 4 H et 2 O.</text></svg>",
+          "legende": "Cercle vide : atome d'hydrogène. Cercle rouge : atome d'oxygène."
+        },
+        {
+          "type": "exemple",
+          "titre": "Équilibrer la rouille (écriture simplifiée)",
+          "texte": "Fe + O₂ → Fe₂O₃. Il y a 2 Fe à droite, donc on écrit 2 Fe₂O₃ pour avoir un nombre pair d'atomes O. Ce qui donne 4 Fe et 6 O à droite.\nOn écrit 4 devant Fe et 3 devant O₂ : 4 Fe + 3 O₂ → 2 Fe₂O₃.\nVérification : 4 Fe et 6 O des deux côtés.\nLa vraie rouille est un peu plus compliquée : cette équation est une écriture simplifiée."
+        },
+        {
+          "type": "remarque",
+          "titre": "Les charges se conservent aussi",
+          "texte": "Quand l'équation contient des ions, la charge totale doit aussi être la même à gauche et à droite. Par exemple, Ag⁺ + Cl⁻ → AgCl : +1 − 1 = 0 des deux côtés."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Équation-bilan", "Écriture qui résume une transformation chimique."],
+            ["Équilibrer", "Placer des coefficients pour avoir les mêmes atomes des deux côtés."],
+            ["Coefficient", "Nombre écrit devant une formule."],
+            ["Conservation", "Fait de ne rien perdre : ici, les atomes."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Équilibre : H₂ + Cl₂ → HCl.\n2) Équilibre : N₂ + H₂ → NH₃.\n3) Un élève écrit H₂ + O → H₂O pour avoir le même nombre d'atomes. Pourquoi est-ce faux ?",
+          "solution": "1) H₂ + Cl₂ → 2 HCl. Vérification : 2 H et 2 Cl des deux côtés.\n2) N₂ + 3 H₂ → 2 NH₃. Vérification : 2 N et 6 H des deux côtés.\n3) Le dioxygène est formé de molécules O₂, pas d'atomes O isolés. On équilibre avec des coefficients, sans changer les formules : 2 H₂ + O₂ → 2 H₂O."
+        }
+      ]
+    },
+    {
+      "id": "sp4-9-combustions",
+      "titre": "Les combustions",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Combustion",
+          "texte": "Une combustion est une réaction entre un combustible (carbone, soufre, méthane, dihydrogène...) et le dioxygène. Elle dégage de la chaleur et souvent de la lumière. Le dioxygène est le comburant."
+        },
+        {
+          "type": "tableau",
+          "titre": "Combustions à connaître",
+          "entetes": ["Combustible", "Équation-bilan", "Produit"],
+          "lignes": [
+            ["Carbone (complète)", "C + O₂ → CO₂", "Dioxyde de carbone"],
+            ["Carbone (incomplète)", "2 C + O₂ → 2 CO", "Monoxyde de carbone"],
+            ["Soufre", "S + O₂ → SO₂", "Dioxyde de soufre"],
+            ["Dihydrogène", "2 H₂ + O₂ → 2 H₂O", "Eau"],
+            ["Méthane", "CH₄ + 2 O₂ → CO₂ + 2 H₂O", "Dioxyde de carbone et eau"],
+            ["Fer (écriture simplifiée)", "4 Fe + 3 O₂ → 2 Fe₂O₃", "Oxyde de fer (rouille)"]
+          ]
+        },
+        {
+          "type": "exemple",
+          "titre": "Vérifier la combustion du méthane",
+          "texte": "CH₄ + 2 O₂ → CO₂ + 2 H₂O.\nÀ gauche : 1 C, 4 H, et 2 × 2 = 4 O.\nÀ droite : 1 C, 2 × 2 = 4 H, et 2 + 2 = 4 O.\nLes atomes sont conservés."
+        },
+        {
+          "type": "regle",
+          "titre": "Combustion complète et incomplète",
+          "texte": "Quand il y a assez de dioxygène, la combustion du carbone est complète : elle donne du dioxyde de carbone CO₂. Quand le dioxygène manque, elle est incomplète : elle donne du monoxyde de carbone CO."
+        },
+        {
+          "type": "remarque",
+          "titre": "Le monoxyde de carbone est un gaz mortel",
+          "texte": "Le monoxyde de carbone CO n'a ni couleur ni odeur : on ne le sent pas. Il est très toxique. Il se forme quand le charbon brûle mal, par exemple dans une pièce fermée. On ne doit jamais faire cuire sur un fourneau à charbon dans une pièce sans air, ni dormir à côté d'un charbon qui brûle."
+        },
+        {
+          "type": "remarque",
+          "titre": "Le dioxyde de carbone",
+          "texte": "Le dioxyde de carbone CO₂ n'est pas toxique à faible dose, mais il ne permet pas de respirer : dans un lieu fermé, un excès de CO₂ chasse l'air. Il trouble l'eau de chaux."
+        },
+        {
+          "type": "exemple",
+          "titre": "Masses et équation",
+          "texte": "On admet que, dans C + O₂ → CO₂, 12 g de carbone réagissent avec 32 g de dioxygène et donnent 44 g de dioxyde de carbone : 12 + 32 = 44.\nDans 2 C + O₂ → 2 CO, 24 g de carbone réagissent avec 32 g de dioxygène et donnent 56 g de monoxyde de carbone : 24 + 32 = 56."
+        },
+        {
+          "type": "exemple",
+          "titre": "Quand un réactif est en excès",
+          "texte": "On brûle 12 g de carbone dans 40 g de dioxygène. Seuls 32 g de dioxygène peuvent réagir avec 12 g de carbone.\nIl se forme 44 g de CO₂ et il reste 40 − 32 = 8 g de dioxygène.\nVérification : 12 + 40 = 52 g avant, 44 + 8 = 52 g après."
+        },
+        {
+          "type": "remarque",
+          "titre": "Les trois conditions d'un feu",
+          "texte": "Pour qu'il y ait combustion, il faut un combustible, du dioxygène et de la chaleur. Pour éteindre un feu, il suffit d'en supprimer un : on peut le priver d'air avec une couverture ou le refroidir avec de l'eau. Sur un feu électrique ou un feu d'huile, on n'utilise pas d'eau."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Combustible", "Corps qui brûle."],
+            ["Comburant", "Corps qui permet de brûler : le dioxygène."],
+            ["Combustion complète", "Combustion avec assez de dioxygène."],
+            ["Combustion incomplète", "Combustion avec trop peu de dioxygène."],
+            ["Excès", "Quantité qui reste après la réaction."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Écris l'équation de la combustion complète du soufre.\n2) Équilibre : CH₄ + O₂ → CO₂ + H₂O.\n3) Dans la combustion complète du carbone, 6 g de carbone réagissent avec 16 g de dioxygène. Quelle masse de dioxyde de carbone obtient-on ?",
+          "solution": "1) S + O₂ → SO₂.\n2) CH₄ + 2 O₂ → CO₂ + 2 H₂O. Vérification : 1 C, 4 H et 4 O des deux côtés.\n3) Les atomes se conservent, donc la masse aussi : 6 + 16 = 22 g de dioxyde de carbone."
+        }
+      ]
+    },
+    {
+      "id": "sp4-9-calcaire",
+      "titre": "L'acide chlorhydrique sur le calcaire",
+      "blocs": [
+        {
+          "type": "regle",
+          "titre": "Observations",
+          "texte": "Quand on verse de l'acide chlorhydrique sur du calcaire, on observe une effervescence : des bulles se forment. Le morceau de calcaire diminue peu à peu. Le gaz qui se dégage trouble l'eau de chaux : c'est du dioxyde de carbone."
+        },
+        {
+          "type": "exemple",
+          "titre": "Équation en mots",
+          "texte": "Réactifs : le calcaire (carbonate de calcium) et l'acide chlorhydrique.\nProduits : le chlorure de calcium, l'eau et le dioxyde de carbone.\ncarbonate de calcium + acide chlorhydrique → chlorure de calcium + eau + dioxyde de carbone."
+        },
+        {
+          "type": "formule",
+          "titre": "Équation-bilan",
+          "texte": "CaCO₃ + 2 HCl → CaCl₂ + H₂O + CO₂"
+        },
+        {
+          "type": "schema",
+          "titre": "Acide sur calcaire et test du gaz",
+          "svg": "<svg width='380' height='165' viewBox='0 0 380 165' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif'><path d='M45,32 L45,112 Q45,137 70,137 Q95,137 95,112 L95,32' fill='none' stroke='currentColor' stroke-width='1.5'/><path d='M46,65 L46,112 Q46,136 70,136 Q94,136 94,112 L94,65 z' fill='currentColor' fill-opacity='0.12'/><rect x='42' y='26' width='56' height='8' fill='currentColor' fill-opacity='0.4'/><path d='M70,26 L70,8 L225,8 L225,95' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='55' y='118' width='28' height='14' rx='4' fill='currentColor' fill-opacity='0.5'/><circle cx='60' cy='104' r='3' fill='none' stroke='currentColor' stroke-width='1'/><circle cx='76' cy='94' r='3' fill='none' stroke='currentColor' stroke-width='1'/><circle cx='66' cy='82' r='3' fill='none' stroke='currentColor' stroke-width='1'/><path d='M200,52 L200,112 Q200,137 225,137 Q250,137 250,112 L250,52' fill='none' stroke='currentColor' stroke-width='1.5'/><path d='M201,85 L201,112 Q201,136 225,136 Q249,136 249,112 L249,85 z' fill='#e11d48' fill-opacity='0.35'/><circle cx='222' cy='105' r='3' fill='none' stroke='currentColor' stroke-width='1'/><circle cx='230' cy='98' r='3' fill='none' stroke='currentColor' stroke-width='1'/><text x='70' y='154' text-anchor='middle' font-size='11' fill='currentColor'>Acide sur calcaire</text><text x='225' y='154' text-anchor='middle' font-size='11' fill='currentColor'>Eau de chaux trouble</text><text x='125' y='28' font-size='10' fill='currentColor'>gaz CO₂</text></svg>",
+          "legende": "Le calcaire (morceau gris) diminue. Le gaz formé trouble l'eau de chaux."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les atomes avant et après",
+          "entetes": ["Élément", "Avant : CaCO₃ + 2 HCl", "Après : CaCl₂ + H₂O + CO₂"],
+          "lignes": [
+            ["Ca", "1", "1"],
+            ["C", "1", "1"],
+            ["O", "3", "1 + 2 = 3"],
+            ["H", "2", "2"],
+            ["Cl", "2", "2"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Que contient la solution à la fin ?",
+          "texte": "Le chlorure de calcium CaCl₂ est un composé ionique, dissous dans l'eau : la solution contient des ions Ca²⁺ et Cl⁻. Ce sont les ions des chapitres 7 et 8."
+        },
+        {
+          "type": "remarque",
+          "titre": "Écriture avec les ions (pour information)",
+          "texte": "Seul l'ion H⁺ de l'acide agit sur le carbonate. On peut écrire : CaCO₃ + 2 H⁺ → Ca²⁺ + H₂O + CO₂.\nCharges : 0 + 2 = +2 à gauche, et +2 + 0 + 0 = +2 à droite."
+        },
+        {
+          "type": "exemple",
+          "titre": "Dans la vie courante",
+          "texte": "Un détartrant est un acide : il dissout le calcaire (le tartre) des bouilloires. Le jus de citron et le vinaigre, acides plus faibles, attaquent aussi le calcaire, mais plus lentement. Dans la nature, l'eau de pluie, légèrement acide, creuse peu à peu les roches calcaires et forme des grottes."
+        },
+        {
+          "type": "remarque",
+          "titre": "Sécurité",
+          "texte": "Ne mélange jamais un produit détartrant ou un acide avec de l'eau de Javel : le mélange dégage du chlore, un gaz toxique. L'acide chlorhydrique concentré brûle la peau : on l'utilise seulement avec un professeur, avec des lunettes et des gants."
+        },
+        {
+          "type": "remarque",
+          "titre": "Les masses (pour ceux qui ont lu la mole)",
+          "texte": "M(CaCO₃) = 40 + 12 + 3 × 16 = 100 g/mol. M(HCl) = 1 + 35,5 = 36,5 g/mol. M(CaCl₂) = 40 + 2 × 35,5 = 111 g/mol. M(H₂O) = 18 g/mol. M(CO₂) = 44 g/mol.\nAvant : 100 g de calcaire + 2 × 36,5 = 73 g d'acide, soit 173 g.\nAprès : 111 + 18 + 44 = 173 g. La masse se conserve."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Calcaire", "Roche formée de carbonate de calcium CaCO₃."],
+            ["Acide chlorhydrique", "Solution de chlorure d'hydrogène HCl dans l'eau."],
+            ["Chlorure de calcium", "Composé ionique de formule CaCl₂."],
+            ["Détartrant", "Produit acide qui dissout le tartre."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Donne les réactifs et les produits de la réaction de l'acide chlorhydrique sur le calcaire.\n2) Comment prouve-t-on que le gaz dégagé est du dioxyde de carbone ?\n3) On verse un peu d'acide sur un gros morceau de calcaire. L'effervescence s'arrête alors qu'il reste du calcaire. Pourquoi ?",
+          "solution": "1) Réactifs : CaCO₃ et HCl. Produits : CaCl₂, H₂O et CO₂.\n2) On fait passer le gaz dans l'eau de chaux : elle se trouble.\n3) Tout l'acide a été utilisé : il n'y a plus de réactif pour continuer la transformation. Il reste du calcaire en excès."
+        }
+      ]
+    },
+    {
+      "id": "sp4-9-metaux-acide",
+      "titre": "L'acide chlorhydrique sur les métaux",
+      "blocs": [
+        {
+          "type": "regle",
+          "titre": "Le fer, le zinc et l'aluminium sont attaqués",
+          "texte": "Quand on plonge du fer, du zinc ou de l'aluminium dans l'acide chlorhydrique, il se forme des bulles de dihydrogène. Le métal disparaît peu à peu et la solution contient les ions du métal. Le cuivre, lui, n'est pas attaqué."
+        },
+        {
+          "type": "tableau",
+          "titre": "Équations-bilans",
+          "entetes": ["Métal", "Équation-bilan", "Ion dans la solution"],
+          "lignes": [
+            ["Fer", "Fe + 2 HCl → FeCl₂ + H₂", "Fe²⁺ (vert pâle)"],
+            ["Zinc", "Zn + 2 HCl → ZnCl₂ + H₂", "Zn²⁺ (incolore)"],
+            ["Aluminium", "2 Al + 6 HCl → 2 AlCl₃ + 3 H₂", "Al³⁺ (incolore)"],
+            ["Cuivre", "Pas de réaction", "Aucun"]
+          ]
+        },
+        {
+          "type": "exemple",
+          "titre": "Vérifier l'équation du fer",
+          "texte": "Fe + 2 HCl → FeCl₂ + H₂.\nÀ gauche : 1 Fe, 2 H, 2 Cl.\nÀ droite : 1 Fe, 2 Cl, 2 H.\nLes atomes sont conservés."
+        },
+        {
+          "type": "schema",
+          "titre": "Un clou de fer dans l'acide",
+          "svg": "<svg width='380' height='160' viewBox='0 0 380 160' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif'><path d='M60,25 L60,115 Q60,142 85,142 Q110,142 110,115 L110,25' fill='none' stroke='currentColor' stroke-width='1.5'/><path d='M61,60 L61,115 Q61,141 85,141 Q109,141 109,115 L109,60 z' fill='currentColor' fill-opacity='0.12'/><line x1='75' y1='72' x2='96' y2='128' stroke='currentColor' stroke-width='4' stroke-opacity='0.7'/><circle cx='70' cy='108' r='3' fill='none' stroke='currentColor' stroke-width='1'/><circle cx='100' cy='98' r='3' fill='none' stroke='currentColor' stroke-width='1'/><circle cx='82' cy='88' r='3' fill='none' stroke='currentColor' stroke-width='1'/><circle cx='88' cy='72' r='3' fill='none' stroke='currentColor' stroke-width='1'/><text x='135' y='45' font-size='12' fill='currentColor'>Bulles de dihydrogène</text><text x='135' y='85' font-size='12' fill='currentColor'>Acide chlorhydrique</text><text x='135' y='118' font-size='12' fill='currentColor'>Clou de fer</text></svg>",
+          "legende": "Le clou diminue, des bulles de H₂ se forment et la solution devient vert pâle."
+        },
+        {
+          "type": "regle",
+          "titre": "Identifier le dihydrogène",
+          "texte": "On recueille le gaz dans un tube à essais, puis on approche une flamme de l'ouverture. Si le gaz est du dihydrogène, on entend une petite détonation (un « pop »)."
+        },
+        {
+          "type": "remarque",
+          "titre": "Identifier l'ion fer II",
+          "texte": "Une fois la réaction terminée, on peut ajouter de la soude à la solution : un précipité vert foncé de Fe(OH)₂ confirme la présence des ions Fe²⁺."
+        },
+        {
+          "type": "remarque",
+          "titre": "Écriture avec les ions (pour information)",
+          "texte": "Les ions chlorure Cl⁻ ne changent pas : on les retrouve dans la solution. Ce qui agit, c'est l'ion H⁺ de l'acide : Fe + 2 H⁺ → Fe²⁺ + H₂.\nCharges : 0 + 2 = +2 à gauche, et +2 + 0 = +2 à droite."
+        },
+        {
+          "type": "remarque",
+          "titre": "Où est passé la masse ?",
+          "texte": "Dans un tube ouvert, la masse du tube semble diminuer, car le dihydrogène s'échappe dans l'air. La masse ne disparaît pas : si on recueillait tout le gaz, la masse totale resterait la même."
+        },
+        {
+          "type": "remarque",
+          "titre": "L'aluminium démarre lentement",
+          "texte": "L'aluminium est protégé par une fine couche transparente (chapitre 7). L'acide doit d'abord la détruire : les bulles apparaissent donc un peu plus tard, puis la réaction devient vive."
+        },
+        {
+          "type": "remarque",
+          "titre": "Le cuivre résiste",
+          "texte": "Le cuivre ne réagit pas avec l'acide chlorhydrique : aucune bulle, aucun changement. Seul l'acide nitrique concentré l'attaque, avec un gaz roux très toxique. Cette expérience est dangereuse et ne se fait pas en classe sans professeur."
+        },
+        {
+          "type": "remarque",
+          "titre": "Sécurité",
+          "texte": "Le dihydrogène est inflammable et explosif quand il est mélangé à l'air : on en recueille toujours de petites quantités, loin de toute flamme, sauf pour le test. Les lunettes et les gants sont obligatoires avec les acides."
+        },
+        {
+          "type": "remarque",
+          "titre": "Les masses (pour ceux qui ont lu la mole)",
+          "texte": "M(Fe) = 56 g/mol ; 2 × M(HCl) = 73 g ; M(FeCl₂) = 56 + 71 = 127 g/mol ; M(H₂) = 2 g/mol.\nAvant : 56 + 73 = 129 g. Après : 127 + 2 = 129 g. La masse se conserve."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Dihydrogène", "Gaz H₂, inflammable et explosif."],
+            ["Détonation", "Petit bruit sec produit par une explosion."],
+            ["Chlorure de fer II", "Composé ionique FeCl₂, qui donne des ions Fe²⁺ et Cl⁻."],
+            ["Attaquer", "Réagir avec un métal et le faire disparaître peu à peu."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Écris l'équation-bilan de la réaction du zinc avec l'acide chlorhydrique. Quel ion contient la solution ? Quelle est sa couleur ?\n2) Comment identifie-t-on le gaz qui se dégage ?\n3) Vérifie que 2 Al + 6 HCl → 2 AlCl₃ + 3 H₂ est équilibrée.\n4) Un fil de cuivre est plongé dans l'acide chlorhydrique. Que se passe-t-il ?",
+          "solution": "1) Zn + 2 HCl → ZnCl₂ + H₂. La solution contient l'ion Zn²⁺, qui est incolore.\n2) On approche une flamme du tube : le dihydrogène produit une petite détonation.\n3) À gauche : 2 Al, 6 H, 6 Cl. À droite : 2 Al, 3 × 2 = 6 H, 2 × 3 = 6 Cl. L'équation est équilibrée.\n4) Il ne se passe rien : le cuivre n'est pas attaqué par l'acide chlorhydrique."
+        }
+      ]
+    }
+  ]
+}
