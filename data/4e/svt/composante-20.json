@@ -1,0 +1,419 @@
+{
+  "id": "svt4-20-structure-globe",
+  "titre": "La structure du globe terrestre",
+  "lecons": [
+    {
+      "id": "svt4-20-l1-systeme-solaire",
+      "titre": "La Terre dans l'Univers et le système solaire",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "L'Univers, les galaxies et les étoiles",
+          "texte": "L'Univers est l'ensemble de tout ce qui existe : l'espace, la matière, l'énergie et le temps. Il contient des centaines de milliards de galaxies.\nUne galaxie est un immense groupe d'étoiles, de gaz et de poussières. Notre galaxie s'appelle la Voie lactée : elle contient plus de cent milliards d'étoiles et mesure environ 100 000 années-lumière de diamètre.\nUne étoile est une boule de gaz très chaude qui produit de la lumière et de la chaleur. Le Soleil est une étoile de la Voie lactée."
+        },
+        {
+          "type": "formule",
+          "titre": "Les unités de distance dans l'espace",
+          "texte": "1 unité astronomique (UA) = distance Terre-Soleil = environ 150 millions de km.\n1 année-lumière (al) = distance parcourue par la lumière en un an = environ 9,46 × 10¹² km, soit près de 9 460 milliards de km.\nVitesse de la lumière : c = 300 000 km/s.\nTemps = distance ÷ vitesse."
+        },
+        {
+          "type": "exemple",
+          "titre": "Les distances dans l'espace",
+          "texte": "Combien de temps la lumière du Soleil met-elle pour arriver sur Terre ?\n150 000 000 ÷ 300 000 = 500 s = 8 min 20 s.\nLe Soleil que nous voyons est donc celui d'il y a un peu plus de 8 minutes.\nLa plus proche étoile après le Soleil est à environ 4,2 années-lumière :\n4,2 × 9,46 × 10¹² = 39,7 × 10¹² km, soit environ 4 × 10¹³ km (40 000 milliards de km)."
+        },
+        {
+          "type": "definition",
+          "titre": "Le système solaire",
+          "texte": "Le système solaire est formé du Soleil et de tout ce qui tourne autour de lui : 8 planètes, leurs satellites, des planètes naines, des astéroïdes et des comètes.\nLe Soleil contient plus de 99 % de la masse du système solaire. Son diamètre est environ 109 fois celui de la Terre. Sa surface est à environ 5 500 °C. Il fournit la lumière et la chaleur qui rendent la vie possible sur Terre.\nLe système solaire s'est formé il y a environ 4,6 milliards d'années, en même temps que la Terre."
+        },
+        {
+          "type": "schema",
+          "titre": "Le système solaire (de gauche à droite : du plus proche au plus éloigné du Soleil)",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='560' height='195' viewBox='0 0 560 195' font-family='sans-serif' font-size='12'><line x1='72' y1='95' x2='545' y2='95' stroke='currentColor' stroke-opacity='0.3' stroke-dasharray='3 3'/><circle cx='40' cy='95' r='32' fill='#e11d48' fill-opacity='0.4' stroke='#e11d48'/><text x='40' y='148' text-anchor='middle' fill='currentColor'>Soleil</text><circle cx='100' cy='95' r='3' fill='currentColor' fill-opacity='0.6' stroke='currentColor'/><text x='100' y='120' text-anchor='middle' fill='currentColor'>Mercure</text><circle cx='135' cy='95' r='5' fill='currentColor' fill-opacity='0.6' stroke='currentColor'/><text x='135' y='78' text-anchor='middle' fill='currentColor'>Vénus</text><circle cx='175' cy='95' r='5' fill='#e11d48' fill-opacity='0.7' stroke='#e11d48'/><text x='175' y='120' text-anchor='middle' fill='#e11d48' font-weight='bold'>Terre</text><circle cx='215' cy='95' r='4' fill='currentColor' fill-opacity='0.6' stroke='currentColor'/><text x='215' y='78' text-anchor='middle' fill='currentColor'>Mars</text><circle cx='285' cy='95' r='16' fill='currentColor' fill-opacity='0.3' stroke='currentColor'/><text x='285' y='130' text-anchor='middle' fill='currentColor'>Jupiter</text><circle cx='365' cy='95' r='13' fill='currentColor' fill-opacity='0.3' stroke='currentColor'/><ellipse cx='365' cy='95' rx='24' ry='5' fill='none' stroke='currentColor'/><text x='365' y='68' text-anchor='middle' fill='currentColor'>Saturne</text><circle cx='440' cy='95' r='8' fill='currentColor' fill-opacity='0.3' stroke='currentColor'/><text x='440' y='122' text-anchor='middle' fill='currentColor'>Uranus</text><circle cx='510' cy='95' r='8' fill='currentColor' fill-opacity='0.3' stroke='currentColor'/><text x='510' y='78' text-anchor='middle' fill='currentColor'>Neptune</text><line x1='88' y1='160' x2='232' y2='160' stroke='currentColor'/><text x='160' y='178' text-anchor='middle' fill='currentColor'>Planètes telluriques</text><line x1='262' y1='160' x2='535' y2='160' stroke='currentColor'/><text x='398' y='178' text-anchor='middle' fill='currentColor'>Planètes géantes</text></svg>",
+          "legende": "Schéma très simplifié, hors échelle : les tailles et surtout les distances ne sont pas respectées. La Terre est la 3e planète."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les huit planètes",
+          "entetes": ["Planète", "Type", "Distance au Soleil (millions de km, valeurs arrondies)", "À retenir"],
+          "lignes": [
+            ["Mercure", "Tellurique", "58", "La plus proche du Soleil ; presque sans atmosphère"],
+            ["Vénus", "Tellurique", "108", "Atmosphère très épaisse de gaz carbonique : environ 465 °C au sol"],
+            ["Terre", "Tellurique", "150", "Eau liquide en surface ; seule planète connue où il y a de la vie"],
+            ["Mars", "Tellurique", "228", "Atmosphère très mince ; environ −60 °C en moyenne"],
+            ["Jupiter", "Géante gazeuse", "778", "La plus grosse planète du système solaire"],
+            ["Saturne", "Géante gazeuse", "1 430", "Célèbre pour ses anneaux"],
+            ["Uranus", "Géante glacée", "2 870", "Très froide"],
+            ["Neptune", "Géante glacée", "4 500", "La plus éloignée du Soleil"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Telluriques et géantes",
+          "texte": "Les planètes telluriques (Mercure, Vénus, Terre, Mars) sont petites, rocheuses et denses : elles ont un sol solide. Les planètes géantes (Jupiter, Saturne, Uranus, Neptune) sont beaucoup plus grosses et surtout formées de gaz et de glaces.\nEntre Mars et Jupiter se trouve la ceinture d'astéroïdes, qui contient des milliers de petits blocs de roche. Depuis 2006, Pluton n'est plus une planète : c'est une planète naine."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les mouvements de la Terre et de la Lune",
+          "entetes": ["Mouvement", "Durée", "Conséquence"],
+          "lignes": [
+            ["Rotation de la Terre sur elle-même", "environ 24 heures", "Alternance du jour et de la nuit"],
+            ["Révolution de la Terre autour du Soleil", "environ 365 jours et 6 heures", "L'année ; une année bissextile tous les 4 ans compense les 6 heures (6 h × 4 = 24 h)"],
+            ["Axe de la Terre incliné d'environ 23,5°", "toute l'année", "Les saisons ; à Madagascar, la saison chaude et pluvieuse correspond à l'été austral"],
+            ["Révolution de la Lune autour de la Terre", "lunaison de 29 jours et 12 heures", "Les phases de la Lune"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Pourquoi la vie existe-t-elle sur Terre ?",
+          "texte": "Plusieurs conditions sont réunies :\n- la Terre est à la bonne distance du Soleil : ni trop chaude, ni trop froide, donc l'eau peut rester liquide ;\n- l'eau liquide couvre environ 71 % de la surface ;\n- l'atmosphère contient de l'oxygène et protège des rayons dangereux (leçon 2) ;\n- le noyau de la Terre crée un champ magnétique qui protège des particules envoyées par le Soleil (leçon 4)."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Univers", "Ensemble de tout ce qui existe"],
+            ["Galaxie", "Immense groupe d'étoiles, de gaz et de poussières"],
+            ["Étoile", "Boule de gaz très chaude qui produit de la lumière"],
+            ["Planète", "Astre qui tourne autour d'une étoile et ne produit pas de lumière"],
+            ["Satellite", "Astre qui tourne autour d'une planète, comme la Lune autour de la Terre"],
+            ["Unité astronomique", "Distance Terre-Soleil, environ 150 millions de km"],
+            ["Année-lumière", "Distance parcourue par la lumière en un an"],
+            ["Rotation", "Tour d'un astre sur lui-même"],
+            ["Révolution", "Tour d'un astre autour d'un autre"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Données : distance Soleil-Vénus : 108 millions de km ; distance Soleil-Mars : 228 millions de km ; vitesse de la lumière : 300 000 km/s ; 1 UA = 150 millions de km.\n1. Combien de temps la lumière du Soleil met-elle pour atteindre Vénus ? Donne le résultat en secondes, puis en minutes.\n2. Exprime la distance Soleil-Mars en unités astronomiques, arrondie au dixième.\n3. Jupiter est-elle une planète tellurique ou une planète géante ? Cite deux autres planètes du même type.\n4. Cite deux conditions qui rendent la vie possible sur Terre.\n5. Pourquoi y a-t-il une alternance du jour et de la nuit ?",
+          "solution": "1. 108 000 000 ÷ 300 000 = 360 s, soit 360 ÷ 60 = 6 minutes.\n2. 228 ÷ 150 = 1,52, soit environ 1,5 UA.\n3. Jupiter est une planète géante (gazeuse). Autres planètes géantes : Saturne, Uranus, Neptune.\n4. Par exemple : la bonne distance au Soleil (l'eau reste liquide) ; la présence d'eau liquide ; une atmosphère avec de l'oxygène qui protège des rayons dangereux.\n5. La Terre tourne sur elle-même en 24 heures environ. À chaque instant, la moitié de la Terre est éclairée par le Soleil (jour) et l'autre moitié est dans l'ombre (nuit)."
+        }
+      ]
+    },
+    {
+      "id": "svt4-20-l2-atmosphere-biosphere",
+      "titre": "L'atmosphère et la biosphère",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "L'atmosphère",
+          "texte": "L'atmosphère est l'enveloppe de gaz qui entoure la Terre. Elle est retenue par la pesanteur. Elle est de plus en plus rare quand on monte : elle devient très mince vers quelques centaines de kilomètres d'altitude et se perd peu à peu dans l'espace.\nLa pression de l'air au niveau de la mer est d'environ 1 013 hPa (hectopascals). Elle diminue avec l'altitude."
+        },
+        {
+          "type": "tableau",
+          "titre": "La composition de l'air sec (ordres de grandeur)",
+          "entetes": ["Gaz", "Part de l'air", "Rôle"],
+          "lignes": [
+            ["Azote (N₂)", "environ 78 %", "Gaz peu réactif, nécessaire à la fabrication des protéines par les êtres vivants"],
+            ["Oxygène (O₂)", "environ 21 %", "Respiration des êtres vivants et combustions (chapitres 3 et 11)"],
+            ["Argon", "environ 0,9 %", "Gaz rare, inactif"],
+            ["Gaz carbonique (CO₂)", "environ 0,04 %", "Aliment des plantes (chapitre 4) ; gaz à effet de serre (leçon 3)"],
+            ["Vapeur d'eau", "variable (de 0 à 4 %)", "Forme les nuages ; gaz à effet de serre"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "D'où vient l'air que nous respirons ?",
+          "texte": "L'atmosphère primitive de la Terre ne contenait presque pas d'oxygène. Elle venait des gaz rejetés par les volcans (vapeur d'eau, gaz carbonique, chapitre 17). L'oxygène est apparu il y a environ 2,4 milliards d'années : il est produit par les êtres vivants qui font l'assimilation chlorophyllienne (chapitre 4). Les plantes, les algues et certaines bactéries renouvellent donc l'oxygène de l'air."
+        },
+        {
+          "type": "schema",
+          "titre": "Les couches de l'atmosphère",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='580' height='255' viewBox='0 0 580 255' font-family='sans-serif' font-size='12'><rect x='150' y='20' width='200' height='40' fill='currentColor' fill-opacity='0.03' stroke='currentColor'/><rect x='150' y='60' width='200' height='50' fill='currentColor' fill-opacity='0.06' stroke='currentColor'/><rect x='150' y='110' width='200' height='40' fill='currentColor' fill-opacity='0.1' stroke='currentColor'/><rect x='150' y='150' width='200' height='40' fill='currentColor' fill-opacity='0.16' stroke='currentColor'/><rect x='150' y='190' width='200' height='40' fill='currentColor' fill-opacity='0.24' stroke='currentColor'/><rect x='150' y='154' width='200' height='12' fill='#e11d48' fill-opacity='0.3'/><line x1='20' y1='230' x2='540' y2='230' stroke='currentColor' stroke-width='3'/><text x='250' y='44' text-anchor='middle' fill='currentColor'>Exosphère</text><text x='250' y='88' text-anchor='middle' fill='currentColor'>Thermosphère</text><text x='250' y='134' text-anchor='middle' fill='currentColor'>Mésosphère</text><text x='250' y='184' text-anchor='middle' fill='currentColor'>Stratosphère</text><text x='250' y='214' text-anchor='middle' fill='currentColor'>Troposphère</text><text x='140' y='64' text-anchor='end' fill='currentColor'>600 km</text><text x='140' y='114' text-anchor='end' fill='currentColor'>80 km</text><text x='140' y='154' text-anchor='end' fill='currentColor'>50 km</text><text x='140' y='194' text-anchor='end' fill='currentColor'>12 km</text><text x='140' y='226' text-anchor='end' fill='currentColor'>0 km</text><text x='360' y='44' fill='currentColor'>gaz très rares</text><text x='360' y='88' fill='currentColor'>aurores ; ISS vers 400 km</text><text x='360' y='134' fill='currentColor'>étoiles filantes</text><text x='360' y='164' fill='#e11d48'>couche d'ozone (20 à 30 km)</text><text x='360' y='214' fill='currentColor'>nuages, météo, avions</text><text x='24' y='247' fill='currentColor'>Sol</text></svg>",
+          "legende": "Schéma simplifié, hors échelle : les épaisseurs des couches ne sont pas respectées. Les altitudes sont des ordres de grandeur."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les couches de l'atmosphère",
+          "entetes": ["Couche", "Altitude (ordre de grandeur)", "Température", "À retenir"],
+          "lignes": [
+            ["Troposphère", "0 à 12 km", "Diminue avec l'altitude (environ −6,5 °C par km)", "Contient environ 80 % de l'air et presque toute la vapeur d'eau : nuages, pluie, vents, météo. C'est la couche où nous vivons."],
+            ["Stratosphère", "12 à 50 km", "Augmente avec l'altitude", "Contient la couche d'ozone, vers 20 à 30 km d'altitude."],
+            ["Mésosphère", "50 à 80 km", "Diminue, jusqu'à environ −90 °C", "Les météorites y brûlent : ce sont les étoiles filantes."],
+            ["Thermosphère", "80 à 600 km environ", "Très élevée, mais l'air y est extrêmement rare", "Aurores polaires ; la Station spatiale internationale y circule, vers 400 km."],
+            ["Exosphère", "Au-delà de 600 km environ", "—", "Gaz très rares : passage progressif vers l'espace."]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Les rôles de l'atmosphère",
+          "texte": "- Elle fournit l'oxygène pour la respiration et le gaz carbonique pour les plantes.\n- La couche d'ozone arrête la plus grande partie des rayons ultraviolets (UV) du Soleil, dangereux pour la peau, les yeux et les plantes.\n- Elle arrête et brûle la plupart des petites météorites.\n- Elle garde la chaleur grâce à l'effet de serre naturel (leçon 3).\n- Elle permet le cycle de l'eau et la météo : l'eau s'évapore, forme des nuages et retombe en pluie."
+        },
+        {
+          "type": "remarque",
+          "titre": "La pression diminue avec l'altitude",
+          "texte": "Plus on monte, moins il y a d'air au-dessus de soi : la pression baisse. Au sommet de l'Everest (environ 8 849 m), la pression est environ trois fois plus faible qu'au niveau de la mer. L'air contient toujours 21 % d'oxygène, mais il y a beaucoup moins de molécules dans chaque inspiration : les alpinistes manquent d'oxygène et utilisent souvent des bouteilles."
+        },
+        {
+          "type": "definition",
+          "titre": "L'hydrosphère",
+          "texte": "L'hydrosphère est l'ensemble de l'eau de la Terre : océans, mers, lacs, fleuves, glaces, eaux souterraines et vapeur d'eau de l'air. Les océans couvrent environ 71 % de la surface du globe. Environ 97 % de l'eau est salée. L'eau douce ne représente donc qu'environ 3 % de l'eau de la Terre, et en grande partie sous forme de glace ou d'eau souterraine."
+        },
+        {
+          "type": "definition",
+          "titre": "La biosphère",
+          "texte": "La biosphère est l'ensemble des êtres vivants de la Terre et des milieux où ils vivent. Elle comprend la partie basse de l'atmosphère, l'hydrosphère et la partie superficielle du sol. Elle ne forme qu'une mince couche autour du globe.\nLa vie sur Terre dépend de trois éléments : le Soleil, l'eau et le sol."
+        },
+        {
+          "type": "tableau",
+          "titre": "Soleil, eau, sol : les trois piliers de la biosphère",
+          "entetes": ["Élément", "Rôle pour les êtres vivants", "Chapitre"],
+          "lignes": [
+            ["Le Soleil", "Il fournit la lumière et la chaleur. La lumière permet aux plantes vertes de fabriquer leur matière (assimilation chlorophyllienne) ; tous les autres êtres vivants en dépendent.", "Chapitre 4"],
+            ["L'eau", "Elle constitue la plus grande partie des êtres vivants ; les plantes l'absorbent par les racines ; c'est le milieu de vie de nombreuses espèces.", "Chapitre 1"],
+            ["Le sol", "Il porte les plantes et leur fournit l'eau et les sels minéraux ; de nombreux êtres vivants y habitent.", "Chapitre 23"]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Le cycle de l'eau",
+          "texte": "1. Sous l'effet de la chaleur du Soleil, l'eau des océans, des lacs et du sol s'évapore. Les plantes en rejettent aussi sous forme de vapeur (transpiration, chapitre 2).\n2. En montant, l'air se refroidit. La vapeur d'eau se condense en minuscules gouttelettes qui forment les nuages.\n3. Les gouttelettes grossissent et retombent : ce sont les précipitations (pluie, grêle).\n4. L'eau ruisselle, s'infiltre dans le sol ou revient aux rivières, puis à la mer.\n5. Le cycle recommence. Le Soleil est donc le moteur du cycle de l'eau."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Atmosphère", "Enveloppe de gaz qui entoure la Terre"],
+            ["Troposphère", "Couche la plus basse de l'atmosphère, où se produit la météo"],
+            ["Stratosphère", "Couche située au-dessus de la troposphère, qui contient la couche d'ozone"],
+            ["Ozone", "Gaz (O₃) qui arrête une grande partie des rayons ultraviolets"],
+            ["Rayons ultraviolets (UV)", "Rayons invisibles du Soleil, dangereux en excès pour la peau et les yeux"],
+            ["Hydrosphère", "Ensemble de l'eau de la Terre"],
+            ["Biosphère", "Ensemble des êtres vivants et des milieux où ils vivent"],
+            ["Pression atmosphérique", "Force exercée par l'air sur une surface"],
+            ["Condensation", "Passage de la vapeur d'eau à l'état liquide"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. Dans 1 000 L d'air sec, quels volumes d'azote (78 %) et d'oxygène (21 %) trouve-t-on ? Quel volume reste-t-il pour les autres gaz ?\n2. Au niveau de la mer, il fait 28 °C. La température baisse de 6,5 °C par kilomètre dans la troposphère. Quelle est la température à 3 000 m d'altitude, à la verticale de ce lieu ?\n3. Dans quelle couche se trouve la couche d'ozone ? Quel est son rôle ?\n4. Pourquoi les alpinistes ont-ils du mal à respirer au sommet de l'Everest, alors que l'air contient toujours 21 % d'oxygène ?\n5. Quels sont les trois éléments dont dépend la biosphère ?",
+          "solution": "1. Azote : 78 % de 1 000 L = 780 L. Oxygène : 21 % de 1 000 L = 210 L. Reste : 1 000 − 780 − 210 = 10 L, qui sont de l'argon, du gaz carbonique et d'autres gaz.\n2. 3 000 m = 3 km. La baisse est de 6,5 × 3 = 19,5 °C. Température : 28 − 19,5 = 8,5 °C.\n3. Elle se trouve dans la stratosphère, vers 20 à 30 km d'altitude. Elle arrête la plus grande partie des rayons ultraviolets du Soleil.\n4. Plus on monte, plus la pression est faible : l'air est plus rare. Chaque inspiration contient donc beaucoup moins de molécules d'oxygène, même si la proportion reste de 21 %.\n5. Le Soleil, l'eau et le sol."
+        }
+      ]
+    },
+    {
+      "id": "svt4-20-l3-effet-serre",
+      "titre": "L'effet de serre",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "L'effet de serre naturel",
+          "texte": "Le Soleil envoie de la lumière qui traverse l'atmosphère. Environ 30 % est réfléchi vers l'espace par les nuages, l'air et la surface. Le reste est absorbé par le sol et les océans, qui se réchauffent.\nLe sol chauffé renvoie de la chaleur sous forme de rayons infrarouges. Certains gaz de l'atmosphère, appelés gaz à effet de serre, retiennent une partie de cette chaleur et en renvoient vers le sol. Comme les vitres d'une serre, ils laissent entrer la lumière mais gardent la chaleur : c'est l'effet de serre."
+        },
+        {
+          "type": "schema",
+          "titre": "Le principe de l'effet de serre",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='560' height='372' viewBox='0 0 560 372' font-family='sans-serif' font-size='12'><defs><marker id='fl20a' markerWidth='8' markerHeight='8' refX='6' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='#e11d48'/></marker></defs><circle cx='50' cy='45' r='24' fill='#e11d48' fill-opacity='0.5' stroke='#e11d48'/><text x='50' y='86' text-anchor='middle' fill='currentColor'>Soleil</text><rect x='20' y='95' width='520' height='45' fill='currentColor' fill-opacity='0.08'/><text x='24' y='122' fill='currentColor'>Atmosphère</text><rect x='20' y='200' width='520' height='35' fill='currentColor' fill-opacity='0.2' stroke='currentColor'/><text x='30' y='222' fill='currentColor'>Sol et océans</text><line x1='100' y1='45' x2='150' y2='195' stroke='#e11d48' stroke-width='2' marker-end='url(#fl20a)'/><line x1='135' y1='45' x2='185' y2='195' stroke='#e11d48' stroke-width='2' marker-end='url(#fl20a)'/><circle cx='168' cy='70' r='9' fill='#e11d48'/><text x='168' y='74' text-anchor='middle' fill='#fff' font-weight='bold'>1</text><line x1='200' y1='196' x2='248' y2='55' stroke='#e11d48' stroke-width='2' marker-end='url(#fl20a)'/><circle cx='268' cy='62' r='9' fill='#e11d48'/><text x='268' y='66' text-anchor='middle' fill='#fff' font-weight='bold'>2</text><line x1='310' y1='196' x2='370' y2='50' stroke='#e11d48' stroke-width='2' marker-end='url(#fl20a)'/><circle cx='392' cy='60' r='9' fill='#e11d48'/><text x='392' y='64' text-anchor='middle' fill='#fff' font-weight='bold'>3</text><line x1='430' y1='196' x2='430' y2='142' stroke='#e11d48' stroke-width='2' marker-end='url(#fl20a)'/><circle cx='412' cy='170' r='9' fill='#e11d48'/><text x='412' y='174' text-anchor='middle' fill='#fff' font-weight='bold'>4</text><line x1='490' y1='125' x2='490' y2='194' stroke='#e11d48' stroke-width='2' marker-end='url(#fl20a)'/><circle cx='514' cy='165' r='9' fill='#e11d48'/><text x='514' y='169' text-anchor='middle' fill='#fff' font-weight='bold'>5</text><circle cx='30' cy='266' r='9' fill='#e11d48'/><text x='30' y='270' text-anchor='middle' fill='#fff' font-weight='bold'>1</text><text x='46' y='270' fill='currentColor'>Rayons solaires : lumière qui traverse l'atmosphère</text><circle cx='30' cy='288' r='9' fill='#e11d48'/><text x='30' y='292' text-anchor='middle' fill='#fff' font-weight='bold'>2</text><text x='46' y='292' fill='currentColor'>Environ 30 % du rayonnement est réfléchi vers l'espace</text><circle cx='30' cy='310' r='9' fill='#e11d48'/><text x='30' y='314' text-anchor='middle' fill='#fff' font-weight='bold'>3</text><text x='46' y='314' fill='currentColor'>Une partie de la chaleur (infrarouge) du sol repart dans l'espace</text><circle cx='30' cy='332' r='9' fill='#e11d48'/><text x='30' y='336' text-anchor='middle' fill='#fff' font-weight='bold'>4</text><text x='46' y='336' fill='currentColor'>Une autre partie est retenue par les gaz à effet de serre</text><circle cx='30' cy='354' r='9' fill='#e11d48'/><text x='30' y='358' text-anchor='middle' fill='#fff' font-weight='bold'>5</text><text x='46' y='358' fill='currentColor'>Ces gaz renvoient de la chaleur vers le sol, qui se réchauffe</text></svg>",
+          "legende": "Schéma simplifié, hors échelle. Les nombres rouges relient les flèches à la légende du bas."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les principaux gaz à effet de serre",
+          "entetes": ["Gaz", "Origine naturelle", "Origine due aux activités humaines"],
+          "lignes": [
+            ["Vapeur d'eau", "Évaporation des océans et du sol", "Peu directement ; elle augmente quand l'air se réchauffe"],
+            ["Gaz carbonique (CO₂)", "Volcans, respiration des êtres vivants, feux naturels", "Combustion du charbon, du pétrole et du gaz (chapitre 22), feux de brousse, déforestation (chapitre 4)"],
+            ["Méthane (CH₄)", "Marais, termites", "Rizières, élevage, décharges d'ordures"],
+            ["Protoxyde d'azote (N₂O)", "Sols, océans", "Engrais azotés"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Un phénomène naturel indispensable à la vie",
+          "texte": "Sans effet de serre, la température moyenne de la Terre serait d'environ −18 °C : l'eau serait presque partout gelée. Avec l'effet de serre naturel, elle est d'environ 15 °C.\nLa différence est de 15 − (−18) = 33 °C. L'effet de serre naturel n'est donc pas un danger : c'est son renforcement par les activités humaines qui pose problème."
+        },
+        {
+          "type": "tableau",
+          "titre": "Trois planètes, trois atmosphères",
+          "entetes": ["Planète", "Atmosphère", "Température moyenne au sol"],
+          "lignes": [
+            ["Vénus", "Très épaisse (environ 90 fois la pression sur Terre), presque entièrement du gaz carbonique", "environ 465 °C"],
+            ["Terre", "Moyenne, avec des gaz à effet de serre en petite quantité", "environ 15 °C"],
+            ["Mars", "Très mince", "environ −60 °C"]
+          ]
+        },
+        {
+          "type": "definition",
+          "titre": "Le renforcement de l'effet de serre",
+          "texte": "Depuis environ 1850, les activités humaines rejettent de plus en plus de gaz à effet de serre : en brûlant du charbon, du pétrole et du gaz, en coupant les forêts, en élevant des animaux, en cultivant le riz et en utilisant des engrais. Les rejets de gaz carbonique sont de plusieurs dizaines de milliards de tonnes par an dans le monde.\nLes forêts et les océans absorbent une partie du gaz carbonique, mais pas la totalité. Le taux de gaz carbonique de l'air augmente donc. Plus il y a de gaz à effet de serre, plus la Terre retient de chaleur : c'est le réchauffement climatique."
+        },
+        {
+          "type": "exemple",
+          "titre": "L'augmentation du gaz carbonique",
+          "texte": "Le taux de gaz carbonique de l'air se mesure en ppm (parties par million). Vers 1850, il était d'environ 280 ppm. Aujourd'hui, il dépasse 420 ppm.\nAugmentation : 420 − 280 = 140 ppm.\nEn pourcentage : 140 ÷ 280 × 100 = 50 %.\nLe taux de gaz carbonique a donc augmenté d'environ la moitié depuis 1850. Dans le même temps, la température moyenne du globe a augmenté de plus d'un degré."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les conséquences du réchauffement",
+          "entetes": ["Conséquence", "Explication"],
+          "lignes": [
+            ["Fonte des glaces", "Les glaciers et les calottes polaires fondent"],
+            ["Montée du niveau de la mer", "L'eau des glaces qui fondent s'ajoute aux océans, et l'eau chaude se dilate : le niveau de la mer a monté d'environ 20 cm depuis 1900"],
+            ["Phénomènes extrêmes", "Sécheresses plus longues, vagues de chaleur, pluies plus violentes, cyclones plus intenses"],
+            ["Océans acidifiés", "Les océans absorbent du gaz carbonique, ce qui les rend plus acides : les coraux sont menacés"],
+            ["Risques pour les êtres vivants", "Les milieux changent plus vite que beaucoup d'espèces ne peuvent s'adapter (chapitre 6)"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Et à Madagascar ?",
+          "texte": "Madagascar émet très peu de gaz à effet de serre, mais l'île est très exposée au changement climatique : cyclones, sécheresses dans le Sud, montée de la mer sur les côtes, érosion et lavaka sur les sols dénudés (chapitre 23). La déforestation et les feux de brousse sont une cause importante des rejets de gaz carbonique dans le pays."
+        },
+        {
+          "type": "remarque",
+          "titre": "Ne pas confondre effet de serre et trou dans la couche d'ozone",
+          "texte": "Ce sont deux problèmes différents. L'effet de serre concerne la chaleur et le réchauffement. Le « trou » de la couche d'ozone est un amincissement de la couche d'ozone (leçon 2), causé par des gaz fabriqués par l'homme, les CFC, qui laissent passer plus d'ultraviolets. Ces gaz ont été interdits dans le monde par un accord international en 1987, et la couche d'ozone se reconstitue lentement."
+        },
+        {
+          "type": "tableau",
+          "titre": "Que faire pour limiter le réchauffement ?",
+          "entetes": ["Action", "Exemples"],
+          "lignes": [
+            ["Économiser l'énergie", "Éteindre ce qui ne sert pas, marcher ou prendre les transports en commun, utiliser des foyers de cuisine améliorés qui consomment moins de bois et de charbon de bois"],
+            ["Utiliser des énergies renouvelables", "Énergie solaire, hydroélectricité, énergie du vent"],
+            ["Protéger et replanter les forêts", "Les arbres absorbent du gaz carbonique ; éviter les feux de brousse"],
+            ["Mieux gérer les déchets et l'agriculture", "Trier, réduire et réutiliser les déchets ; limiter les engrais"],
+            ["S'adapter", "Cultures résistantes à la sécheresse, constructions solides contre les cyclones, protection des côtes"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Effet de serre", "Phénomène par lequel certains gaz de l'atmosphère retiennent la chaleur renvoyée par le sol"],
+            ["Gaz à effet de serre", "Gaz qui retient la chaleur, comme le gaz carbonique, le méthane ou la vapeur d'eau"],
+            ["Infrarouge", "Rayonnement invisible qui transporte la chaleur"],
+            ["Réchauffement climatique", "Augmentation de la température moyenne de la Terre"],
+            ["ppm", "Partie par million : 420 ppm veut dire 420 molécules de gaz carbonique pour un million de molécules d'air"],
+            ["Énergie renouvelable", "Énergie qui vient d'une source qui se renouvelle : Soleil, eau, vent"],
+            ["Combustible fossile", "Charbon, pétrole ou gaz, formés dans le sol il y a très longtemps"],
+            ["CFC", "Gaz artificiels qui détruisent la couche d'ozone"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Une voiture rejette en moyenne 120 g de gaz carbonique par kilomètre. Elle fait 25 km par jour.\n1. Quelle masse de gaz carbonique rejette-t-elle par jour, en kg ?\n2. Quelle masse rejette-t-elle en un an (365 jours), en kg ?\n3. Dans cet exercice, on suppose qu'un arbre adulte absorbe 20 kg de gaz carbonique par an (ordre de grandeur). Combien d'arbres faudrait-il pour absorber les rejets d'une année de cette voiture ? Arrondis à l'entier supérieur.\n4. Sans effet de serre, la température moyenne de la Terre serait de −18 °C ; avec, elle est de 15 °C. Quelle est la différence ?\n5. Cite deux actions pour réduire les rejets de gaz à effet de serre.",
+          "solution": "1. 120 × 25 = 3 000 g = 3 kg par jour.\n2. 3 × 365 = 1 095 kg par an, soit environ 1,1 tonne.\n3. 1 095 ÷ 20 = 54,75. Il faudrait 55 arbres.\n4. 15 − (−18) = 15 + 18 = 33 °C.\n5. Par exemple : économiser l'énergie (marcher, utiliser les transports en commun) ; protéger et replanter les forêts ; utiliser des énergies renouvelables ; éviter les feux de brousse."
+        }
+      ]
+    },
+    {
+      "id": "svt4-20-l4-structure-interne",
+      "titre": "La structure interne du globe et les ondes sismiques",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Comment connaître l'intérieur de la Terre ?",
+          "texte": "Le rayon de la Terre est d'environ 6 371 km. Le forage le plus profond du monde, celui de Kola en Russie, descend à environ 12 km : cela représente moins de 0,2 % du rayon. On ne peut donc pas aller voir l'intérieur du globe. Les scientifiques utilisent des méthodes indirectes :\n- l'étude des ondes sismiques, qui traversent toute la Terre (c'est la méthode principale) ;\n- l'étude des roches remontées par les volcans, qui viennent du manteau ;\n- l'étude des météorites, dont certaines sont faites de fer et de roches, comme l'intérieur de la Terre ;\n- la mesure de la température dans les mines et les forages."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les enveloppes internes de la Terre",
+          "entetes": ["Couche", "Profondeur", "État", "Composition"],
+          "lignes": [
+            ["Croûte océanique", "0 à 7 km environ", "Solide", "Basalte (chapitre 21)"],
+            ["Croûte continentale", "0 à 30-70 km", "Solide", "Granite et roches voisines (chapitre 21)"],
+            ["Manteau", "Sous la croûte, jusqu'à environ 2 900 km", "Solide : roche chaude et déformable très lentement ; il fond seulement par endroits", "Roche riche en olivine et en pyroxène (la péridotite)"],
+            ["Noyau externe", "2 900 à 5 100 km environ", "Liquide, en mouvement", "Fer et nickel"],
+            ["Graine (noyau interne)", "5 100 à 6 371 km", "Solide", "Fer et nickel"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "La structure interne du globe (coupe)",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='600' height='250' viewBox='0 0 600 250' font-family='sans-serif' font-size='12'><circle cx='150' cy='125' r='96' fill='currentColor' fill-opacity='0.1'/><circle cx='150' cy='125' r='98' fill='none' stroke='currentColor' stroke-width='4' stroke-opacity='0.8'/><circle cx='150' cy='125' r='54' fill='#e11d48' fill-opacity='0.25' stroke='currentColor'/><circle cx='150' cy='125' r='20' fill='#e11d48' fill-opacity='0.5' stroke='currentColor'/><circle cx='150' cy='29' r='9' fill='#e11d48'/><text x='150' y='33' text-anchor='middle' fill='#fff' font-weight='bold'>1</text><circle cx='150' cy='52' r='9' fill='#e11d48'/><text x='150' y='56' text-anchor='middle' fill='#fff' font-weight='bold'>2</text><circle cx='150' cy='88' r='9' fill='#e11d48'/><text x='150' y='92' text-anchor='middle' fill='#fff' font-weight='bold'>3</text><circle cx='150' cy='125' r='9' fill='#e11d48'/><text x='150' y='129' text-anchor='middle' fill='#fff' font-weight='bold'>4</text><circle cx='310' cy='45' r='9' fill='#e11d48'/><text x='310' y='49' text-anchor='middle' fill='#fff' font-weight='bold'>1</text><text x='326' y='49' fill='currentColor'>Croûte : 7 à 70 km d'épaisseur</text><circle cx='310' cy='80' r='9' fill='#e11d48'/><text x='310' y='84' text-anchor='middle' fill='#fff' font-weight='bold'>2</text><text x='326' y='84' fill='currentColor'>Manteau solide : jusqu'à 2 900 km</text><circle cx='310' cy='115' r='9' fill='#e11d48'/><text x='310' y='119' text-anchor='middle' fill='#fff' font-weight='bold'>3</text><text x='326' y='119' fill='currentColor'>Noyau externe liquide : 2 900 à 5 100 km</text><circle cx='310' cy='150' r='9' fill='#e11d48'/><text x='310' y='154' text-anchor='middle' fill='#fff' font-weight='bold'>4</text><text x='326' y='154' fill='currentColor'>Graine solide : 5 100 à 6 371 km</text><text x='300' y='194' fill='currentColor'>Lithosphère : croûte + haut du manteau</text><text x='300' y='210' fill='currentColor'>(environ 100 km d'épaisseur)</text><text x='300' y='236' fill='currentColor'>Rayon de la Terre : 6 371 km</text></svg>",
+          "legende": "Coupe simplifiée. Les profondeurs sont mesurées depuis la surface. Les rayons du manteau, du noyau externe et de la graine sont à l'échelle ; la croûte est dessinée beaucoup plus épaisse qu'en réalité."
+        },
+        {
+          "type": "definition",
+          "titre": "Lithosphère et asthénosphère",
+          "texte": "La lithosphère est la couche externe rigide de la Terre : elle comprend la croûte et la partie supérieure du manteau. Son épaisseur est d'environ 100 km. Elle est découpée en plaques (chapitre 19).\nSous la lithosphère se trouve l'asthénosphère, une partie du manteau plus chaude, plus molle, qui se déforme lentement. C'est sur elle que glissent les plaques. Sa limite inférieure est mal définie : elle atteint environ 250 km de profondeur (ordre de grandeur)."
+        },
+        {
+          "type": "regle",
+          "titre": "La température augmente avec la profondeur",
+          "texte": "Dans les premiers kilomètres de la croûte, la température augmente en moyenne de 25 à 30 °C par kilomètre : c'est le gradient géothermique. Il varie beaucoup selon les régions (il est plus fort près des volcans).\nPlus profond, la température continue d'augmenter : environ 1 300 °C vers 100 km, environ 3 500 °C à la base du manteau, et environ 5 000 °C ou plus au centre de la Terre.\nLa chaleur vient de la chaleur de formation de la Terre, qui n'est pas totalement perdue, et de la radioactivité naturelle des roches. Cette chaleur fait bouger lentement le manteau, comme l'eau qui chauffe dans une casserole : c'est la convection (chapitre 19)."
+        },
+        {
+          "type": "exemple",
+          "titre": "Un calcul de température",
+          "texte": "À la surface, la température moyenne est de 15 °C. On suppose un gradient de 30 °C par km.\nÀ 2 km de profondeur : 15 + 30 × 2 = 15 + 60 = 75 °C.\nCe calcul n'est valable que près de la surface : plus profond, la température augmente moins vite, sinon elle serait bien plus élevée au centre."
+        },
+        {
+          "type": "remarque",
+          "titre": "Une Terre très dense",
+          "texte": "La densité moyenne de la Terre est d'environ 5,5, alors que celle des roches de la surface est d'environ 2,7. L'intérieur contient donc des matériaux beaucoup plus denses que les roches : c'est le fer et le nickel du noyau, dont la densité est d'environ 10 à 13."
+        },
+        {
+          "type": "methode",
+          "titre": "Comment les ondes sismiques révèlent l'intérieur",
+          "texte": "1. Un séisme envoie des ondes P et S dans toute la Terre (chapitre 18). Des stations sismiques, placées partout dans le monde, les enregistrent.\n2. On note l'heure d'arrivée des ondes et on calcule leur vitesse dans chaque région traversée.\n3. Les ondes changent de vitesse, et parfois de direction, quand elles passent d'une roche à une autre ou d'un état à un autre.\n4. Un changement brusque de vitesse à une profondeur donnée signale une limite entre deux couches : c'est une discontinuité.\n5. Les ondes S ne se propagent pas dans les liquides, alors que les ondes P se propagent dans les solides et les liquides. Si des ondes S disparaissent, c'est qu'elles ont traversé un liquide."
+        },
+        {
+          "type": "tableau",
+          "titre": "Vitesse des ondes P selon la couche (ordres de grandeur)",
+          "entetes": ["Couche", "Vitesse des ondes P", "Ce que l'on observe"],
+          "lignes": [
+            ["Croûte", "6 à 7 km/s", "Les ondes S existent aussi (environ 3,5 km/s)"],
+            ["Manteau", "de 8 km/s en haut à plus de 13 km/s en bas", "Les ondes P et S accélèrent avec la profondeur : le manteau est solide"],
+            ["Noyau externe", "environ 8 à 10 km/s", "Brusque baisse de vitesse des ondes P ; les ondes S disparaissent : il est liquide"],
+            ["Graine", "environ 11 km/s", "Les ondes P accélèrent de nouveau : elle est solide"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Les grandes discontinuités",
+          "entetes": ["Discontinuité", "Profondeur", "Entre quelles couches ?", "Découverte"],
+          "lignes": [
+            ["Moho (Mohorovičić)", "7 km sous les océans, 30 à 70 km sous les continents", "Croûte et manteau", "En 1909, par le sismologue croate Andrija Mohorovičić"],
+            ["Gutenberg", "environ 2 900 km", "Manteau et noyau externe", "En 1914, par l'Allemand Beno Gutenberg"],
+            ["Lehmann", "environ 5 100 km", "Noyau externe et graine", "En 1936, par la Danoise Inge Lehmann"]
+          ]
+        },
+        {
+          "type": "exemple",
+          "titre": "Calculer les dimensions des couches",
+          "texte": "Rayon de la Terre : 6 371 km.\nRayon du noyau : 6 371 − 2 900 = 3 471 km.\nÉpaisseur du noyau externe : 5 100 − 2 900 = 2 200 km.\nRayon de la graine : 6 371 − 5 100 = 1 271 km.\nTemps d'une onde P qui traverse le manteau (2 900 km) à la vitesse moyenne de 10 km/s : 2 900 ÷ 10 = 290 s, soit 4 min 50 s."
+        },
+        {
+          "type": "remarque",
+          "titre": "Le noyau et le champ magnétique",
+          "texte": "Le fer liquide du noyau externe est en mouvement. Ce mouvement crée le champ magnétique de la Terre, qui fait tourner l'aiguille d'une boussole vers le nord. Ce champ forme un bouclier qui protège la Terre des particules envoyées par le Soleil. Au début de ce chapitre, c'est lui que nous avons cité parmi les conditions de la vie."
+        },
+        {
+          "type": "remarque",
+          "titre": "Le lien avec les autres chapitres",
+          "texte": "Le magma des volcans (chapitre 17) vient de la fusion partielle de roches du manteau ou de la croûte. En se refroidissant, il donne les roches magmatiques, comme le basalte et le granite, que l'on étudie au chapitre 21."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Croûte", "Couche la plus externe et la plus mince de la Terre"],
+            ["Manteau", "Couche épaisse située entre la croûte et le noyau"],
+            ["Noyau", "Partie centrale de la Terre, faite de fer et de nickel"],
+            ["Graine", "Partie solide au centre du noyau"],
+            ["Lithosphère", "Croûte et haut du manteau, rigides, découpées en plaques"],
+            ["Asthénosphère", "Partie du manteau plus chaude et plus molle, sous la lithosphère"],
+            ["Discontinuité", "Limite entre deux couches, où les ondes sismiques changent de vitesse"],
+            ["Gradient géothermique", "Augmentation de la température avec la profondeur"],
+            ["Péridotite", "Roche du manteau, riche en olivine et en pyroxène"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Le rayon de la Terre est de 6 371 km. Le manteau s'arrête à 2 900 km de profondeur, le noyau externe à 5 100 km.\n1. Quel est le rayon du noyau (noyau externe et graine) ?\n2. Quelle est l'épaisseur du noyau externe ?\n3. Une onde P traverse le manteau (2 900 km) à la vitesse moyenne de 10 km/s. Combien de temps met-elle ? Donne le résultat en secondes, puis en minutes et secondes.\n4. Après un séisme, les stations situées de l'autre côté du globe ne reçoivent pas d'ondes S. Que peut-on en conclure ?\n5. Le forage de Kola atteint environ 12 km de profondeur. Quel pourcentage du rayon de la Terre cela représente-t-il ? Arrondis au dixième.",
+          "solution": "1. 6 371 − 2 900 = 3 471 km.\n2. 5 100 − 2 900 = 2 200 km.\n3. 2 900 ÷ 10 = 290 s. 290 = 240 + 50, soit 4 min 50 s.\n4. Les ondes S ne traversent pas les liquides. Elles ont donc rencontré une couche liquide sur leur trajet : c'est le noyau externe.\n5. 12 ÷ 6 371 × 100 = 0,188, soit environ 0,2 % du rayon : même le forage le plus profond n'a atteint qu'une très mince partie de la croûte."
+        }
+      ]
+    }
+  ]
+}
