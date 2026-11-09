@@ -1,0 +1,370 @@
+{
+  "id": "svt4-4-assimilation",
+  "titre": "L'assimilation chlorophyllienne",
+  "lecons": [
+    {
+      "id": "svt4-4-l1-chlorophylle",
+      "titre": "La chlorophylle et l'amidon",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Assimilation chlorophyllienne",
+          "texte": "L'assimilation chlorophyllienne (ou photosynthèse) est l'ensemble des réactions qui se déroulent dans les parties vertes et éclairées d'une plante. Grâce à la lumière, la plante fabrique des sucres à partir du dioxyde de carbone et de l'eau, et elle dégage du dioxygène."
+        },
+        {
+          "type": "definition",
+          "titre": "Chlorophylle",
+          "texte": "La chlorophylle est le pigment vert contenu dans les chloroplastes des cellules des parties vertes. Elle capte l'énergie de la lumière."
+        },
+        {
+          "type": "methode",
+          "titre": "Extraire la chlorophylle",
+          "texte": "1. Couper en petits morceaux des feuilles vertes (épinard, brèdes).\n2. Les broyer dans un mortier avec un peu de sable et de l'alcool à 90°.\n3. Filtrer avec un papier filtre.\n\nOn obtient un liquide vert : c'est la solution de chlorophylle brute.\n\nSécurité : l'alcool s'enflamme facilement. Travailler loin de toute flamme, avec l'aide du professeur."
+        },
+        {
+          "type": "methode",
+          "titre": "La chromatographie de la chlorophylle",
+          "texte": "1. Tracer au crayon une ligne de départ à 2 cm du bas d'une bande de papier filtre.\n2. Déposer une goutte de solution verte au milieu de la ligne. Laisser sécher, puis recommencer plusieurs fois pour obtenir une tache bien colorée.\n3. Suspendre la bande dans un verre contenant 1 cm d'alcool. La tache doit être au-dessus du liquide, sans le toucher.\n4. Attendre 20 à 30 minutes. L'alcool monte dans le papier et entraîne les pigments, chacun à sa vitesse.\n5. Retirer la bande et marquer au crayon le niveau atteint par l'alcool.\n\nObservation : la tache s'est séparée en plusieurs bandes colorées : jaune-orangé tout en haut, puis des bandes vertes plus bas.\n\nConclusion : la couleur verte d'une feuille vient d'un mélange de plusieurs pigments, dont des chlorophylles et des pigments jaune-orangé."
+        },
+        {
+          "type": "formule",
+          "titre": "Le rapport frontal",
+          "texte": "rapport frontal = distance parcourue par la tache ÷ distance parcourue par le solvant\n\nLes deux distances se mesurent à partir de la ligne de départ, dans la même unité. Le rapport est toujours inférieur à 1. Chaque pigment a son rapport frontal, ce qui permet de le reconnaître."
+        },
+        {
+          "type": "exemple",
+          "titre": "Lire une chromatographie",
+          "texte": "Le solvant est monté de 10 cm. Une tache orangée a parcouru 9 cm : rapport frontal = 9 ÷ 10 = 0,9. Une tache verte a parcouru 5 cm : rapport frontal = 5 ÷ 10 = 0,5."
+        },
+        {
+          "type": "regle",
+          "titre": "Le test de l'amidon",
+          "texte": "L'amidon est un glucide de réserve. On le reconnaît avec l'eau iodée : elle est jaune-brun, et elle devient bleu-noir en présence d'amidon."
+        },
+        {
+          "type": "methode",
+          "titre": "Lumière, chlorophylle et amidon",
+          "texte": "Préparation : laisser un plant (géranium, haricot) 48 heures à l'obscurité. Ses feuilles perdent ainsi leur amidon.\n\nExpérience A : exposer ensuite à la lumière, pendant 5 à 6 heures, une feuille panachée (bords blancs sans chlorophylle, centre vert).\nExpérience B : sur une autre feuille, fixer une bande d'aluminium qui cache une partie du limbe, puis exposer la plante à la lumière pendant 5 à 6 heures.\n\nTraitement des feuilles :\n1. Cueillir la feuille et la plonger une minute dans de l'eau bouillante, pour la ramollir.\n2. La mettre dans un tube d'alcool chaud, au bain-marie, pour la décolorer.\n3. La rincer à l'eau, puis la recouvrir d'eau iodée.\n\nRésultats :\n- Feuille panachée : le centre vert devient bleu-noir ; le bord blanc reste jaune pâle.\n- Feuille avec l'aluminium : la partie cachée reste jaune pâle ; le reste devient bleu-noir.\n\nConclusion : l'amidon se forme seulement aux endroits qui contiennent de la chlorophylle et qui reçoivent la lumière. La chlorophylle et la lumière sont indispensables."
+        },
+        {
+          "type": "schema",
+          "titre": "Feuille panachée et eau iodée",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='420' height='230' viewBox='0 0 420 230' role='img' aria-label='Feuille panachée avant et après le test à l eau iodée' font-family='sans-serif' font-size='12'><text x='100' y='22' text-anchor='middle' fill='currentColor'>Feuille panachée</text><text x='320' y='22' text-anchor='middle' fill='currentColor'>Après l’eau iodée</text><ellipse cx='100' cy='100' rx='70' ry='50' fill='#f1f5f9' fill-opacity='0.6' stroke='currentColor' stroke-width='2'/><ellipse cx='100' cy='100' rx='46' ry='30' fill='#16a34a' fill-opacity='0.6'/><ellipse cx='320' cy='100' rx='70' ry='50' fill='#fde68a' fill-opacity='0.5' stroke='currentColor' stroke-width='2'/><ellipse cx='320' cy='100' rx='46' ry='30' fill='#1e1b4b' fill-opacity='0.8'/><path d='M178 100 H242 M234 95 L242 100 L234 105' stroke='#e11d48' stroke-width='2' fill='none'/><text x='210' y='88' text-anchor='middle' fill='currentColor'>eau iodée</text><text x='100' y='175' text-anchor='middle' fill='currentColor'>Centre vert : chlorophylle</text><text x='100' y='193' text-anchor='middle' fill='currentColor'>Bord blanc : sans chlorophylle</text><text x='320' y='175' text-anchor='middle' fill='currentColor'>Centre bleu-noir : amidon</text><text x='320' y='193' text-anchor='middle' fill='currentColor'>Bord pâle : pas d’amidon</text></svg>",
+          "legende": "Seule la partie verte de la feuille, éclairée, contient de l'amidon : elle devient bleu-noir."
+        },
+        {
+          "type": "remarque",
+          "titre": "Pourquoi chercher de l'amidon ?",
+          "texte": "Le premier sucre fabriqué par la feuille est le glucose. Une partie du glucose est transformée en amidon, qui s'accumule temporairement dans la feuille. Trouver de l'amidon montre donc que la feuille a fabriqué du sucre."
+        },
+        {
+          "type": "remarque",
+          "titre": "Sécurité",
+          "texte": "L'eau iodée tache la peau et les vêtements : ne pas la boire, ne pas la toucher. L'alcool chaud ne se chauffe jamais directement sur une flamme : on chauffe d'abord l'eau du bain-marie, on éteint la flamme, puis on y plonge le tube d'alcool, avec l'aide du professeur."
+        },
+        {
+          "type": "regle",
+          "titre": "À retenir",
+          "texte": "Les parties vertes d'une plante contiennent de la chlorophylle. À la lumière, elles fabriquent des sucres, dont une partie est stockée sous forme d'amidon. Le test à l'eau iodée (bleu-noir) montre la présence d'amidon. La chlorophylle et la lumière sont nécessaires."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Chlorophylle", "Pigment vert qui capte l'énergie de la lumière."],
+            ["Chloroplaste", "Petit grain vert, à l'intérieur de la cellule, qui contient la chlorophylle."],
+            ["Pigment", "Substance colorée."],
+            ["Amidon", "Glucide de réserve, formé de nombreux sucres assemblés."],
+            ["Panachée", "Se dit d'une feuille qui a des zones vertes et des zones blanches."],
+            ["Chromatographie", "Technique qui sépare les substances d'un mélange coloré."],
+            ["Décolorer", "Enlever la couleur."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Une plante est laissée 48 heures à l'obscurité. On entoure ensuite une partie d'une feuille d'une bande d'aluminium, puis on place la plante 6 heures à la lumière. On décolore la feuille à l'alcool chaud et on la recouvre d'eau iodée : la partie cachée par l'aluminium reste jaune pâle, le reste de la feuille devient bleu-noir.\nPar ailleurs, une chromatographie de la chlorophylle brute donne trois bandes. Le solvant est monté de 12 cm depuis la ligne de départ ; les bandes sont à 9 cm, 6 cm et 3 cm de cette ligne.\n1. Pourquoi laisse-t-on d'abord la plante à l'obscurité ?\n2. Que signifie la couleur bleu-noir ? Que montre la partie restée pâle ?\n3. Quel facteur cette expérience étudie-t-elle ? Quelle est la conclusion ?\n4. Calcule le rapport frontal de chaque bande.\n5. Que montre cette chromatographie sur la couleur verte de la feuille ?",
+          "solution": "1. Pour vider la feuille de son amidon : tout l'amidon trouvé ensuite s'est formé pendant l'expérience.\n2. Le bleu-noir montre la présence d'amidon. La partie restée pâle n'en contient pas.\n3. L'expérience étudie la lumière. La partie cachée de la lumière n'a pas fabriqué d'amidon : la lumière est nécessaire à la fabrication des sucres.\n4. Première bande : 9 ÷ 12 = 0,75. Deuxième bande : 6 ÷ 12 = 0,5. Troisième bande : 3 ÷ 12 = 0,25.\n5. La couleur verte vient d'un mélange de plusieurs pigments : la chlorophylle brute contient plusieurs substances colorées."
+        }
+      ]
+    },
+    {
+      "id": "svt4-4-l2-echanges-gazeux",
+      "titre": "Les échanges de gaz à la lumière",
+      "blocs": [
+        {
+          "type": "remarque",
+          "titre": "Hypothèse",
+          "texte": "À l'obscurité, une plante absorbe du dioxygène et rejette du dioxyde de carbone (chapitre 3). À la lumière, que se passe-t-il ? On propose l'hypothèse suivante : une plante verte éclairée rejette du dioxygène et absorbe du dioxyde de carbone. Pour la vérifier, il faut un test qui reconnaît le dioxygène."
+        },
+        {
+          "type": "regle",
+          "titre": "Le test du dioxygène",
+          "texte": "Un morceau de bois ou une allumette dont le bout est rougeoyant (sans flamme) se rallume vivement dans le dioxygène. C'est le test de ce gaz."
+        },
+        {
+          "type": "methode",
+          "titre": "Expérience 1 : le dioxygène dégagé par l'élodée",
+          "texte": "1. Mettre quelques brins d'élodée (plante d'aquarium) dans un bocal d'eau à laquelle on ajoute une pincée de bicarbonate de sodium. Il apporte du dioxyde de carbone dissous.\n2. Recouvrir les brins d'un entonnoir renversé, et placer sur sa tige un tube à essais rempli d'eau, ouverture vers le bas.\n3. Éclairer avec une lampe (ou mettre au soleil) pendant plusieurs heures.\n4. Préparer un montage identique mis à l'obscurité sous un carton (témoin).\n\nObservations : dans le montage éclairé, de petites bulles se dégagent des brins d'élodée et montent. Le gaz s'accumule en haut du tube et repousse l'eau. Dans le montage à l'obscurité, il n'y a pas de bulles.\n\nTest du gaz : on bouche le tube sous l'eau avec le pouce, on le retourne, et on y introduit une allumette dont le bout est rougeoyant. Elle se ravive et se rallume : le gaz est riche en dioxygène.\n\nConclusion : à la lumière, la plante verte dégage du dioxygène."
+        },
+        {
+          "type": "schema",
+          "titre": "Le dioxygène dégagé par l'élodée",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='480' height='250' viewBox='0 0 480 250' role='img' aria-label='Élodée sous un entonnoir renversé avec un tube à essais qui recueille le gaz' font-family='sans-serif' font-size='12'><rect x='91' y='90' width='158' height='129' fill='#3b82f6' fill-opacity='0.2'/><path d='M90 60 V220 H250 V60' fill='none' stroke='currentColor' stroke-width='2'/><path d='M152 130 V50 A18 18 0 0 1 188 50 V130 Z' fill='#3b82f6' fill-opacity='0.2'/><path d='M153 72 V50 A17 17 0 0 1 187 50 V72 Z' fill='#ffffff' fill-opacity='0.7'/><path d='M152 130 V50 A18 18 0 0 1 188 50 V130' fill='none' stroke='currentColor' stroke-width='1.5'/><text x='170' y='64' text-anchor='middle' fill='#e11d48'>O₂</text><path d='M162 100 V130 L130 186 H210 L178 130 V100' fill='none' stroke='currentColor' stroke-width='2'/><circle cx='170' cy='122' r='2.5' fill='#ffffff' stroke='currentColor' stroke-opacity='0.6'/><circle cx='172' cy='112' r='2.5' fill='#ffffff' stroke='currentColor' stroke-opacity='0.6'/><circle cx='168' cy='103' r='2.5' fill='#ffffff' stroke='currentColor' stroke-opacity='0.6'/><circle cx='170' cy='90' r='2.5' fill='#ffffff' stroke='currentColor' stroke-opacity='0.6'/><circle cx='171' cy='80' r='2.5' fill='#ffffff' stroke='currentColor' stroke-opacity='0.6'/><circle cx='160' cy='176' r='2.5' fill='#ffffff' stroke='currentColor' stroke-opacity='0.6'/><circle cx='172' cy='166' r='2.5' fill='#ffffff' stroke='currentColor' stroke-opacity='0.6'/><path d='M152 210 V190 M165 214 V186 M182 212 V188 M196 208 V190' stroke='#16a34a' stroke-width='2.5' fill='none'/><path d='M152 200 L145 196 M165 200 L172 196 M182 200 L175 196 M196 198 L203 194' stroke='#16a34a' stroke-width='2' fill='none'/><circle cx='410' cy='100' r='14' fill='#fde68a' stroke='currentColor' stroke-width='1.5'/><path d='M410 114 V150 M396 150 H424' stroke='currentColor' stroke-width='2' fill='none'/><path d='M392 110 H256 M264 105 L256 110 L264 115' stroke='#f59e0b' stroke-width='2' fill='none'/><text x='324' y='102' text-anchor='middle' fill='currentColor'>Lumière</text><text x='410' y='76' text-anchor='middle' fill='currentColor'>Lampe</text><line x1='190' y1='45' x2='258' y2='45' stroke='currentColor' stroke-opacity='0.6'/><text x='262' y='49' fill='currentColor'>Tube à essais rempli d’eau</text><line x1='206' y1='178' x2='258' y2='178' stroke='currentColor' stroke-opacity='0.6'/><text x='262' y='182' fill='currentColor'>Entonnoir renversé</text><line x1='88' y1='203' x2='150' y2='203' stroke='currentColor' stroke-opacity='0.6'/><text x='84' y='207' text-anchor='end' fill='currentColor'>Élodée</text><text x='170' y='240' text-anchor='middle' fill='currentColor'>Eau + une pincée de bicarbonate</text></svg>",
+          "legende": "À la lumière, l'élodée dégage des bulles de dioxygène, qui s'accumulent en haut du tube."
+        },
+        {
+          "type": "methode",
+          "titre": "Expérience 2 : le rôle du dioxyde de carbone",
+          "texte": "1. Préparer deux montages identiques en pleine lumière.\n2. Montage A : élodée dans de l'eau du robinet avec une pincée de bicarbonate de sodium (elle contient du dioxyde de carbone dissous).\n3. Montage B : élodée dans de l'eau qu'on a fait bouillir puis refroidir (elle ne contient presque plus de dioxyde de carbone), recouverte d'une fine couche d'huile qui empêche l'air d'y dissoudre du dioxyde de carbone.\n\nObservations : dans le montage A, les bulles sont nombreuses. Dans le montage B, il y en a très peu, voire aucune.\n\nConclusion : l'élodée ne dégage du dioxygène que si elle dispose de dioxyde de carbone. La plante absorbe donc du dioxyde de carbone pour réaliser l'assimilation chlorophyllienne."
+        },
+        {
+          "type": "remarque",
+          "titre": "Et les plantes qui vivent dans l'air ?",
+          "texte": "Les plantes terrestres prennent le dioxyde de carbone dans l'air. L'air n'en contient qu'environ 0,04 %. Il entre dans les feuilles par les stomates (chapitre 2). C'est aussi par les stomates que sort le dioxygène dégagé."
+        },
+        {
+          "type": "remarque",
+          "titre": "Sécurité",
+          "texte": "La lampe est branchée sur le courant du secteur : garder la lampe, la prise et les fils loin de l'eau, et ne pas les toucher avec les mains mouillées. La lampe chauffe : ne pas la toucher. Ne pas regarder directement une lampe très forte. Le bicarbonate de sodium est inoffensif, mais on ne le goûte pas."
+        },
+        {
+          "type": "formule",
+          "titre": "Débit de dioxygène",
+          "texte": "débit de O₂ = volume de gaz recueilli ÷ durée\nLa durée s'exprime en heures pour obtenir des mL par heure. 30 min = 0,5 h ; 20 min = 1/3 h ; 1 h = 60 min."
+        },
+        {
+          "type": "exemple",
+          "titre": "Un tube qui se remplit",
+          "texte": "En 30 minutes, on recueille 4,5 mL de gaz.\n30 min = 0,5 h.\nDébit : 4,5 ÷ 0,5 = 9 mL par heure."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les échanges de gaz d'une plante verte",
+          "entetes": ["Moment", "Gaz absorbé", "Gaz rejeté"],
+          "lignes": [
+            ["À l'obscurité (respiration seule)", "Dioxygène", "Dioxyde de carbone"],
+            ["À la lumière (assimilation chlorophyllienne en plus de la respiration)", "Dioxyde de carbone (en plus grande quantité)", "Dioxygène (en plus grande quantité)"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "À retenir",
+          "texte": "À la lumière, une plante verte absorbe du dioxyde de carbone et dégage du dioxygène. Le dioxygène se reconnaît avec une allumette au bout rougeoyant, qui se rallume. À l'obscurité, ou sans dioxyde de carbone, le dégagement de dioxygène s'arrête."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Élodée", "Plante aquatique, souvent utilisée dans les aquariums."],
+            ["Braise", "Bout de bois rougeoyant, sans flamme."],
+            ["Bicarbonate de sodium", "Poudre blanche qui libère du dioxyde de carbone dans l'eau."],
+            ["Dissous", "Mélangé à l'eau de façon invisible."],
+            ["Dégagement", "Gaz qui s'échappe et qu'on peut recueillir."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Avec le montage de l'élodée, on recueille 3 mL de gaz en 20 minutes sous la lumière d'une lampe. Le montage témoin, placé à l'obscurité, ne dégage aucun gaz. Dans un troisième montage, éclairé mais rempli d'eau bouillie refroidie et recouverte d'huile, on observe très peu de bulles.\n1. Comment reconnaît-on que le gaz recueilli est riche en dioxygène ?\n2. Calcule le débit de dioxygène en mL par minute, puis en mL par heure.\n3. Si le débit restait constant, quel volume serait recueilli en 6 heures ?\n4. Que conclus-tu du témoin placé à l'obscurité ?\n5. Que conclus-tu du montage à l'eau bouillie ?",
+          "solution": "1. On introduit dans le tube une allumette dont le bout est rougeoyant : elle se ravive et se rallume.\n2. 3 ÷ 20 = 0,15 mL par minute. En une heure : 0,15 × 60 = 9 mL par heure.\n3. 9 × 6 = 54 mL.\n4. Sans lumière, il n'y a pas de dégagement de dioxygène : la lumière est nécessaire à l'assimilation chlorophyllienne.\n5. L'eau bouillie ne contient presque plus de dioxyde de carbone : sans lui, presque pas de dioxygène. La plante a donc besoin de dioxyde de carbone pour dégager du dioxygène."
+        }
+      ]
+    },
+    {
+      "id": "svt4-4-l3-facteurs",
+      "titre": "Les facteurs de l'assimilation chlorophyllienne",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Intensité de l'assimilation chlorophyllienne",
+          "texte": "L'intensité de l'assimilation chlorophyllienne est la quantité de dioxygène dégagé (ou de dioxyde de carbone absorbé) pendant une durée donnée. Chez l'élodée, on la mesure en comptant les bulles par minute ou en mesurant le volume de gaz recueilli."
+        },
+        {
+          "type": "methode",
+          "titre": "Étudier un facteur à la fois",
+          "texte": "Pour savoir si un facteur agit, on fait varier ce facteur seul et on garde tous les autres identiques.\n\nExemple pour la lumière :\n1. Placer une lampe à différentes distances du bocal d'élodée (10 cm, 30 cm, 50 cm...).\n2. À chaque distance, attendre 5 minutes, puis compter les bulles pendant plusieurs minutes.\n3. Placer une cuve d'eau entre la lampe et le bocal : elle absorbe la chaleur de la lampe, donc la température du bocal ne change pas.\n4. Lire un thermomètre dans le bocal pour vérifier que la température reste la même."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les facteurs de l'assimilation chlorophyllienne",
+          "entetes": ["Facteur", "Effet sur l'intensité"],
+          "lignes": [
+            ["Lumière", "Nulle à l'obscurité. Elle augmente avec l'éclairement, puis atteint un palier."],
+            ["Dioxyde de carbone", "Elle augmente avec la quantité de CO₂ disponible, puis atteint un palier."],
+            ["Température", "Elle augmente jusqu'à un optimum (vers 30 à 35 °C pour beaucoup de plantes), puis elle diminue si la chaleur est excessive."],
+            ["Eau", "Quand le sol est trop sec, la plante ferme ses stomates : moins de CO₂ entre dans les feuilles et l'assimilation ralentit."]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Effet de l'éclairement (valeurs d'exemple)",
+          "entetes": ["Éclairement (unités)", "Bulles par minute"],
+          "lignes": [
+            ["0", "0"],
+            ["1", "14"],
+            ["2", "26"],
+            ["3", "36"],
+            ["4", "40"],
+            ["5", "40"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "L'assimilation selon l'éclairement",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='450' height='235' viewBox='0 0 450 235' role='img' aria-label='Courbe de l intensité de l assimilation en fonction de l éclairement' font-family='sans-serif' font-size='12'><path d='M60 190 H410 M60 190 V30' stroke='currentColor' stroke-width='1.5' fill='none'/><path d='M120 190 V195 M180 190 V195 M240 190 V195 M300 190 V195 M360 190 V195 M55 160 H60 M55 130 H60 M55 100 H60 M55 70 H60 M55 40 H60' stroke='currentColor' stroke-width='1' fill='none'/><text x='60' y='208' text-anchor='middle' fill='currentColor'>0</text><text x='120' y='208' text-anchor='middle' fill='currentColor'>1</text><text x='180' y='208' text-anchor='middle' fill='currentColor'>2</text><text x='240' y='208' text-anchor='middle' fill='currentColor'>3</text><text x='300' y='208' text-anchor='middle' fill='currentColor'>4</text><text x='360' y='208' text-anchor='middle' fill='currentColor'>5</text><text x='52' y='194' text-anchor='end' fill='currentColor'>0</text><text x='52' y='164' text-anchor='end' fill='currentColor'>10</text><text x='52' y='134' text-anchor='end' fill='currentColor'>20</text><text x='52' y='104' text-anchor='end' fill='currentColor'>30</text><text x='52' y='74' text-anchor='end' fill='currentColor'>40</text><text x='52' y='44' text-anchor='end' fill='currentColor'>50</text><polyline points='60,190 120,148 180,112 240,82 300,70 360,70' fill='none' stroke='#e11d48' stroke-width='2.5'/><circle cx='60' cy='190' r='4' fill='#e11d48'/><circle cx='120' cy='148' r='4' fill='#e11d48'/><circle cx='180' cy='112' r='4' fill='#e11d48'/><circle cx='240' cy='82' r='4' fill='#e11d48'/><circle cx='300' cy='70' r='4' fill='#e11d48'/><circle cx='360' cy='70' r='4' fill='#e11d48'/><text x='330' y='58' text-anchor='middle' fill='currentColor'>Palier</text><text x='235' y='226' text-anchor='middle' fill='currentColor'>Éclairement (unités)</text><text x='10' y='20' fill='currentColor'>O₂ dégagé (bulles par minute)</text></svg>",
+          "legende": "L'intensité augmente avec l'éclairement, puis reste constante : c'est le palier."
+        },
+        {
+          "type": "definition",
+          "titre": "Facteur limitant",
+          "texte": "Un facteur limitant est le facteur qui est en quantité insuffisante et qui empêche l'intensité d'augmenter. Sur le palier de la courbe, ce n'est plus la lumière qui limite : c'est un autre facteur, comme le dioxyde de carbone ou la température."
+        },
+        {
+          "type": "tableau",
+          "titre": "Effet de la température (valeurs d'exemple)",
+          "entetes": ["Température", "Bulles par minute"],
+          "lignes": [
+            ["10 °C", "9"],
+            ["20 °C", "18"],
+            ["30 °C", "30"],
+            ["40 °C", "10"]
+          ]
+        },
+        {
+          "type": "exemple",
+          "titre": "Lire le tableau de température",
+          "texte": "De 10 °C à 20 °C : 18 ÷ 9 = 2. L'intensité double.\nDe 30 °C à 40 °C : elle passe de 30 à 10 bulles par minute, soit 20 bulles de moins. 20 ÷ 30 × 100 ≈ 67 % de baisse : à 40 °C, il fait trop chaud pour cette plante."
+        },
+        {
+          "type": "remarque",
+          "titre": "Applications au jardin",
+          "texte": "Les cultures qui demandent beaucoup de lumière (riz, maïs, haricots) se plantent en plein soleil. On espace les plants pour que chaque feuille reçoive de la lumière. Une plante bien arrosée garde ses stomates ouverts et assimile mieux. Les serres permettent de maintenir une température favorable."
+        },
+        {
+          "type": "regle",
+          "titre": "À retenir",
+          "texte": "L'intensité de l'assimilation chlorophyllienne dépend de la lumière, du dioxyde de carbone, de la température et de l'eau. Elle augmente avec l'éclairement, puis atteint un palier. Elle passe par un optimum de température. Le facteur limitant est celui qui manque le plus."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Intensité", "Quantité de gaz échangée pendant une durée donnée."],
+            ["Éclairement", "Quantité de lumière reçue."],
+            ["Palier", "Partie de la courbe où la valeur ne change plus."],
+            ["Optimum", "Valeur du facteur pour laquelle l'intensité est la plus grande."],
+            ["Facteur limitant", "Facteur trop faible qui empêche l'intensité d'augmenter."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "On compte les bulles de dioxygène dégagées par un brin d'élodée en 5 minutes, à différentes distances de la lampe :\n- à 10 cm : 240 bulles\n- à 30 cm : 90 bulles\n- à 50 cm : 40 bulles\n- dans l'obscurité : 0 bulle\n1. Calcule le nombre de bulles par minute dans chaque cas.\n2. Comment varie l'intensité quand la lampe s'éloigne ? Explique.\n3. Combien de fois plus de bulles obtient-on à 10 cm qu'à 50 cm ?\n4. Pourquoi place-t-on une cuve d'eau entre la lampe et le bocal ?\n5. On rapproche encore la lampe, mais le nombre de bulles n'augmente plus. Propose une explication.",
+          "solution": "1. À 10 cm : 240 ÷ 5 = 48 bulles par minute. À 30 cm : 90 ÷ 5 = 18. À 50 cm : 40 ÷ 5 = 8. Dans l'obscurité : 0.\n2. Elle diminue quand la lampe s'éloigne : la plante reçoit moins de lumière, donc elle assimile moins. Sans lumière, il n'y a plus de dégagement.\n3. 48 ÷ 8 = 6 : six fois plus.\n4. La cuve d'eau absorbe la chaleur de la lampe. La température du bocal ne varie pas : seul le facteur lumière change, et on peut attribuer la différence à la lumière.\n5. L'intensité a atteint un palier : la lumière n'est plus le facteur limitant. Un autre facteur manque, par exemple le dioxyde de carbone ou la température."
+        }
+      ]
+    },
+    {
+      "id": "svt4-4-l4-bilan",
+      "titre": "Bilan : fabrication des sucres et importance dans la biosphère",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Autotrophe et hétérotrophe",
+          "texte": "Un être vivant autotrophe fabrique lui-même sa matière organique à partir de matière minérale : c'est le cas des plantes vertes, qui utilisent le dioxyde de carbone, l'eau et la lumière. Un être vivant hétérotrophe ne sait pas le faire : il se nourrit de matière organique fabriquée par d'autres êtres vivants. C'est le cas des animaux, dont l'être humain."
+        },
+        {
+          "type": "formule",
+          "titre": "L'équation de l'assimilation chlorophyllienne",
+          "texte": "dioxyde de carbone + eau + énergie lumineuse → glucose + dioxygène\n\nEn formules : 6 CO₂ + 6 H₂O + lumière → C₆H₁₂O₆ + 6 O₂\n\nLa réaction a lieu dans les chloroplastes, grâce à la chlorophylle."
+        },
+        {
+          "type": "exemple",
+          "titre": "Vérifier que l'équation est équilibrée",
+          "texte": "À gauche : C : 6 ; H : 6 × 2 = 12 ; O : 6 × 2 + 6 = 18.\nÀ droite : C : 6 ; H : 12 ; O : 6 + 6 × 2 = 18.\nLes nombres sont égaux de chaque côté : l'équation est équilibrée.\n\nElle montre que 6 molécules de CO₂ absorbées donnent 6 molécules de O₂ dégagées : les volumes de ces deux gaz sont à peu près égaux."
+        },
+        {
+          "type": "schema",
+          "titre": "Ce qui entre et ce qui sort de la feuille",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='520' height='230' viewBox='0 0 520 230' role='img' aria-label='Entrées et sorties de la feuille lors de l assimilation chlorophyllienne' font-family='sans-serif' font-size='12'><ellipse cx='260' cy='120' rx='90' ry='50' fill='#16a34a' fill-opacity='0.25' stroke='currentColor' stroke-width='2'/><text x='260' y='116' text-anchor='middle' fill='currentColor'>Chloroplastes</text><text x='260' y='133' text-anchor='middle' fill='currentColor'>(chlorophylle)</text><path d='M260 20 V66 M255 58 L260 66 L265 58' stroke='#f59e0b' stroke-width='2' fill='none'/><text x='272' y='44' fill='currentColor'>Lumière</text><path d='M90 95 H178 M170 90 L178 95 L170 100' stroke='#3b82f6' stroke-width='2' fill='none'/><path d='M90 145 H178 M170 140 L178 145 L170 150' stroke='#3b82f6' stroke-width='2' fill='none'/><text x='20' y='88' fill='currentColor'>CO₂ (air)</text><text x='20' y='138' fill='currentColor'>Eau (sève brute)</text><path d='M342 95 H430 M422 90 L430 95 L422 100' stroke='#e11d48' stroke-width='2' fill='none'/><path d='M342 145 H430 M422 140 L430 145 L422 150' stroke='#e11d48' stroke-width='2' fill='none'/><text x='354' y='88' fill='currentColor'>Dioxygène (O₂)</text><text x='354' y='138' fill='currentColor'>Glucose (sucre)</text><text x='260' y='205' text-anchor='middle' fill='currentColor'>dioxyde de carbone + eau + lumière → glucose + dioxygène</text></svg>",
+          "legende": "Flèches bleues et jaune : ce qui entre dans la feuille. Flèches rouges : ce qui en sort."
+        },
+        {
+          "type": "tableau",
+          "titre": "Que devient le glucose ?",
+          "entetes": ["Devenir", "Rôle"],
+          "lignes": [
+            ["Utilisé par la respiration", "Il libère l'énergie nécessaire à la vie de la plante."],
+            ["Transformé en amidon", "Il est stocké comme réserve dans les feuilles, les tubercules, les graines."],
+            ["Transformé en cellulose", "La cellulose forme les parois des cellules : elle permet la croissance de la plante."],
+            ["Transporté par la sève élaborée", "Il est distribué à tous les organes de la plante, y compris aux racines."],
+            ["Transformé avec les sels minéraux", "Avec les sels minéraux du sol, la plante fabrique d'autres substances organiques, comme les protides."]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Respiration et assimilation chlorophyllienne",
+          "entetes": ["", "Respiration", "Assimilation chlorophyllienne"],
+          "lignes": [
+            ["Où ?", "Dans toutes les cellules vivantes", "Dans les cellules vertes, qui contiennent de la chlorophylle"],
+            ["Quand ?", "Jour et nuit", "Seulement à la lumière"],
+            ["Gaz absorbé", "Dioxygène (O₂)", "Dioxyde de carbone (CO₂)"],
+            ["Gaz rejeté", "Dioxyde de carbone (CO₂)", "Dioxygène (O₂)"],
+            ["Sucre", "Il est consommé", "Il est fabriqué"],
+            ["Énergie", "Libérée dans la cellule", "Énergie lumineuse captée et stockée dans le sucre"]
+          ]
+        },
+        {
+          "type": "exemple",
+          "titre": "Un bilan sur 24 heures (valeurs d'exemple)",
+          "texte": "Une plante absorbe 30 mL de CO₂ par heure par assimilation chlorophyllienne, pendant 12 h de jour. Sa respiration rejette 10 mL de CO₂ par heure, jour et nuit.\n\nJour : 30 − 10 = 20 mL par heure absorbés en réel. Sur 12 h : 20 × 12 = 240 mL absorbés.\nNuit : 10 × 12 = 120 mL rejetés.\nBilan de la journée : 240 − 120 = 120 mL de CO₂ absorbés.\n\nLa plante a fixé plus de carbone qu'elle n'en a rejeté : elle fabrique de la matière et elle grandit."
+        },
+        {
+          "type": "tableau",
+          "titre": "Importance dans la biosphère",
+          "entetes": ["Rôle", "Explication"],
+          "lignes": [
+            ["Source de nourriture", "Les plantes vertes sont les producteurs : elles fabriquent la matière organique dont se nourrissent, directement ou non, tous les animaux (chapitre 6)."],
+            ["Source de dioxygène", "Les plantes, les algues et le phytoplancton dégagent le dioxygène que respirent les êtres vivants de l'air et de l'eau."],
+            ["Absorption du dioxyde de carbone", "Elle limite la quantité de CO₂ de l'atmosphère, un gaz à effet de serre (chapitre 20)."],
+            ["Source d'énergie", "Le bois et le charbon viennent de plantes qui ont fixé l'énergie du Soleil."]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Protéger les forêts",
+          "texte": "Les forêts de Madagascar absorbent du dioxyde de carbone, retiennent le sol et abritent de nombreuses espèces uniques au monde. Les feux de brousse et les défrichements les détruisent : moins de CO₂ est absorbé, l'érosion augmente et des animaux perdent leur habitat. Le reboisement et la protection des forêts restantes sont des gestes essentiels."
+        },
+        {
+          "type": "regle",
+          "titre": "À retenir",
+          "texte": "À la lumière, les parties vertes fabriquent du glucose à partir du dioxyde de carbone et de l'eau, et dégagent du dioxygène : 6 CO₂ + 6 H₂O + lumière → C₆H₁₂O₆ + 6 O₂. Le glucose sert à la respiration, à la croissance et au stockage (amidon). Les plantes vertes sont autotrophes : tous les êtres hétérotrophes dépendent d'elles."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Photosynthèse", "Autre nom de l'assimilation chlorophyllienne : fabrication de sucres avec la lumière."],
+            ["Autotrophe", "Qui fabrique sa propre matière organique à partir de matière minérale."],
+            ["Hétérotrophe", "Qui se nourrit de matière organique fabriquée par d'autres êtres vivants."],
+            ["Matière organique", "Matière fabriquée par les êtres vivants (sucres, protides, lipides)."],
+            ["Matière minérale", "Matière qui ne vient pas des êtres vivants (eau, sels minéraux, dioxyde de carbone)."],
+            ["Cellulose", "Glucide qui forme la paroi des cellules des plantes."],
+            ["Biosphère", "Ensemble des êtres vivants et des milieux où ils vivent."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Une plante verte, à la lumière, absorbe 180 mL de dioxyde de carbone en une heure par assimilation chlorophyllienne. Sa respiration rejette 40 mL de dioxyde de carbone par heure, jour et nuit.\n1. Quel volume de dioxygène l'assimilation dégage-t-elle en une heure ? Justifie avec l'équation.\n2. Quel volume de dioxyde de carbone la plante absorbe-t-elle en réel en une heure de lumière ?\n3. Pendant une nuit de 12 heures, quel volume de dioxyde de carbone la plante rejette-t-elle ? Quel volume de dioxygène consomme-t-elle ?\n4. Complète l'équation 6 CO₂ + 6 H₂O → C₆H₁₂O₆ + ? O₂ en comptant les atomes d'oxygène.\n5. Un élève affirme que la plante fabrique sa matière avec la terre. Que lui réponds-tu ?",
+          "solution": "1. Dans l'équation, 6 CO₂ absorbés donnent 6 O₂ dégagés : les volumes sont à peu près égaux. L'assimilation dégage environ 180 mL de dioxygène.\n2. 180 − 40 = 140 mL de dioxyde de carbone absorbés en réel.\n3. 40 × 12 = 480 mL de dioxyde de carbone rejetés. Elle consomme environ 480 mL de dioxygène, car 6 O₂ sont consommés pour 6 CO₂ rejetés.\n4. À gauche : 6 × 2 + 6 = 18 atomes d'oxygène. À droite : 6 dans le glucose, donc il faut 12 atomes d'oxygène dans O₂, soit 6 molécules. Le nombre manquant est 6.\n5. Ce n'est pas exact. La matière organique de la plante vient surtout du dioxyde de carbone de l'air et de l'eau, transformés grâce à la lumière. Le sol apporte l'eau et les sels minéraux, qui sont en petite quantité."
+        }
+      ]
+    }
+  ]
+}
