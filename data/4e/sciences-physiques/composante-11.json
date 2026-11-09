@@ -1,0 +1,297 @@
+{
+  "id": "sp4-11-lois-circuits",
+  "titre": "Chapitre 11 : Lois des circuits en série et en dérivation",
+  "lecons": [
+    {
+      "id": "sp4-11-serie",
+      "titre": "Le circuit en série",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Circuit en série",
+          "texte": "Dans un circuit en série, les dipôles sont placés les uns à la suite des autres, sur une seule boucle. Il n'y a qu'un seul chemin pour le courant : on ne rencontre aucun nœud."
+        },
+        {
+          "type": "exemple",
+          "titre": "Exemples",
+          "texte": "Une lampe de poche : la pile, l'interrupteur et l'ampoule sont en série.\nUn circuit avec une pile et deux lampes l'une après l'autre."
+        },
+        {
+          "type": "regle",
+          "titre": "Si un dipôle est coupé, tout s'arrête",
+          "texte": "Dans un circuit en série, si un dipôle est coupé (lampe grillée ou dévissée, fil cassé), la boucle est ouverte : tout le circuit s'éteint. Un interrupteur en série commande tout le circuit, quelle que soit sa place dans la boucle."
+        },
+        {
+          "type": "schema",
+          "titre": "Deux lampes en série",
+          "svg": "<svg width='380' height='165' viewBox='0 0 380 165' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif'><line x1='60' y1='35' x2='125' y2='35' stroke='currentColor' stroke-width='1.5'/><circle cx='140' cy='35' r='15' fill='#e11d48' fill-opacity='0.15' stroke='currentColor' stroke-width='1.5'/><line x1='129' y1='24' x2='151' y2='46' stroke='currentColor' stroke-width='1.5'/><line x1='151' y1='24' x2='129' y2='46' stroke='currentColor' stroke-width='1.5'/><line x1='155' y1='35' x2='225' y2='35' stroke='currentColor' stroke-width='1.5'/><circle cx='240' cy='35' r='15' fill='#e11d48' fill-opacity='0.15' stroke='currentColor' stroke-width='1.5'/><line x1='229' y1='24' x2='251' y2='46' stroke='currentColor' stroke-width='1.5'/><line x1='251' y1='24' x2='229' y2='46' stroke='currentColor' stroke-width='1.5'/><line x1='255' y1='35' x2='320' y2='35' stroke='currentColor' stroke-width='1.5'/><line x1='320' y1='35' x2='320' y2='125' stroke='currentColor' stroke-width='1.5'/><line x1='60' y1='125' x2='320' y2='125' stroke='currentColor' stroke-width='1.5'/><line x1='60' y1='35' x2='60' y2='72' stroke='currentColor' stroke-width='1.5'/><line x1='48' y1='72' x2='72' y2='72' stroke='currentColor' stroke-width='1.5'/><line x1='53' y1='82' x2='67' y2='82' stroke='currentColor' stroke-width='3'/><line x1='60' y1='82' x2='60' y2='125' stroke='currentColor' stroke-width='1.5'/><text x='30' y='76' text-anchor='middle' font-size='12' fill='currentColor'>+</text><text x='30' y='92' text-anchor='middle' font-size='12' fill='currentColor'>−</text><text x='140' y='15' text-anchor='middle' font-size='11' fill='currentColor'>L₁</text><text x='240' y='15' text-anchor='middle' font-size='11' fill='currentColor'>L₂</text><line x1='125' y1='62' x2='155' y2='62' stroke='#e11d48' stroke-width='1.5'/><line x1='125' y1='57' x2='125' y2='67' stroke='#e11d48' stroke-width='1.5'/><line x1='155' y1='57' x2='155' y2='67' stroke='#e11d48' stroke-width='1.5'/><line x1='225' y1='62' x2='255' y2='62' stroke='#e11d48' stroke-width='1.5'/><line x1='225' y1='57' x2='225' y2='67' stroke='#e11d48' stroke-width='1.5'/><line x1='255' y1='57' x2='255' y2='67' stroke='#e11d48' stroke-width='1.5'/><text x='140' y='82' text-anchor='middle' font-size='12' fill='currentColor'>U₁</text><text x='240' y='82' text-anchor='middle' font-size='12' fill='currentColor'>U₂</text><text x='190' y='108' text-anchor='middle' font-size='12' fill='currentColor'>U = U₁ + U₂</text><text x='190' y='150' text-anchor='middle' font-size='11' fill='currentColor'>Un seul chemin : I est la même partout</text></svg>",
+          "legende": "U : tension de la pile. U₁ et U₂ : tensions aux bornes de chaque lampe."
+        },
+        {
+          "type": "theoreme",
+          "titre": "Loi d'unicité de l'intensité en série",
+          "texte": "Dans un circuit en série, l'intensité du courant est la même en tout point du circuit : I = I₁ = I₂ = I₃."
+        },
+        {
+          "type": "exemple",
+          "titre": "Mesurer l'intensité à deux endroits",
+          "texte": "Un circuit en série contient une pile et deux lampes. On place l'ampèremètre entre la pile et la première lampe : il indique 0,25 A. On le place ensuite entre les deux lampes : il indique encore 0,25 A. Le courant ne diminue pas en traversant les lampes."
+        },
+        {
+          "type": "remarque",
+          "titre": "Le courant ne s'use pas",
+          "texte": "Une lampe n'use pas le courant : le même courant sort de la lampe qu'il y est entré. Même si deux lampes en série sont différentes, la même intensité les traverse. Ce qui se partage entre elles, c'est la tension."
+        },
+        {
+          "type": "theoreme",
+          "titre": "Loi d'additivité des tensions en série",
+          "texte": "Dans un circuit en série, la tension aux bornes du générateur est égale à la somme des tensions aux bornes des récepteurs : U = U₁ + U₂ + ..."
+        },
+        {
+          "type": "exemple",
+          "titre": "Calculer une tension",
+          "texte": "Une pile de 6 V alimente deux lampes en série. La tension aux bornes de L₁ est 2,5 V.\nU₂ = U − U₁ = 6 − 2,5 = 3,5 V.\nOn néglige ici les petits défauts de la pile : sa tension reste 6 V."
+        },
+        {
+          "type": "remarque",
+          "titre": "Lampes identiques en série",
+          "texte": "Deux lampes identiques en série se partagent la tension à égalité : sur une pile de 6 V, chacune reçoit 6 / 2 = 3 V. Trois lampes identiques sur 4,5 V reçoivent chacune 4,5 / 3 = 1,5 V. Les lampes brillent alors moins que sur leur tension nominale."
+        },
+        {
+          "type": "remarque",
+          "titre": "Un fil aux bornes d'une lampe",
+          "texte": "Si on relie les deux bornes de L₁ par un fil, la tension à ses bornes devient nulle : elle s'éteint. L₂ reçoit alors presque toute la tension de la pile et brille davantage. Si cette tension dépasse sa tension nominale, elle peut griller."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["En série", "Placé à la suite des autres, sur une seule boucle."],
+            ["Unicité", "Le fait d'être la même partout."],
+            ["Additivité", "Le fait de s'additionner."],
+            ["Tension nominale", "Tension indiquée sur un appareil, pour laquelle il est conçu."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Deux lampes sont en série. Un ampèremètre placé entre la pile et L₁ indique 0,3 A. Que indique-t-il s'il est placé entre L₁ et L₂ ?\n2) Une pile de 9 V alimente deux lampes en série. La tension aux bornes de L₁ est 5 V. Calcule la tension aux bornes de L₂.\n3) Trois lampes identiques sont en série sur une batterie de 12 V. Quelle est la tension aux bornes de chaque lampe ?",
+          "solution": "1) Il indique encore 0,3 A : dans un circuit en série, l'intensité est la même en tout point.\n2) U₂ = 9 − 5 = 4 V.\n3) 12 / 3 = 4 V pour chaque lampe."
+        }
+      ]
+    },
+    {
+      "id": "sp4-11-derivation",
+      "titre": "Le circuit en dérivation",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Circuit en dérivation",
+          "texte": "Dans un circuit en dérivation, plusieurs dipôles sont reliés aux deux mêmes points. Le courant a plusieurs chemins possibles : il se partage."
+        },
+        {
+          "type": "definition",
+          "titre": "Nœud et branche",
+          "texte": "Un nœud est un point du circuit où se rejoignent au moins trois conducteurs. Une branche est la partie du circuit comprise entre deux nœuds. La branche principale contient le générateur. Les autres sont les branches dérivées."
+        },
+        {
+          "type": "schema",
+          "titre": "Deux lampes en dérivation",
+          "svg": "<svg width='380' height='175' viewBox='0 0 380 175' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif'><line x1='60' y1='30' x2='260' y2='30' stroke='currentColor' stroke-width='1.5'/><line x1='60' y1='130' x2='260' y2='130' stroke='currentColor' stroke-width='1.5'/><line x1='60' y1='30' x2='60' y2='72' stroke='currentColor' stroke-width='1.5'/><line x1='48' y1='72' x2='72' y2='72' stroke='currentColor' stroke-width='1.5'/><line x1='53' y1='82' x2='67' y2='82' stroke='currentColor' stroke-width='3'/><line x1='60' y1='82' x2='60' y2='130' stroke='currentColor' stroke-width='1.5'/><line x1='170' y1='30' x2='170' y2='65' stroke='currentColor' stroke-width='1.5'/><circle cx='170' cy='80' r='15' fill='#e11d48' fill-opacity='0.15' stroke='currentColor' stroke-width='1.5'/><line x1='159' y1='69' x2='181' y2='91' stroke='currentColor' stroke-width='1.5'/><line x1='181' y1='69' x2='159' y2='91' stroke='currentColor' stroke-width='1.5'/><line x1='170' y1='95' x2='170' y2='130' stroke='currentColor' stroke-width='1.5'/><line x1='260' y1='30' x2='260' y2='65' stroke='currentColor' stroke-width='1.5'/><circle cx='260' cy='80' r='15' fill='#e11d48' fill-opacity='0.15' stroke='currentColor' stroke-width='1.5'/><line x1='249' y1='69' x2='271' y2='91' stroke='currentColor' stroke-width='1.5'/><line x1='271' y1='69' x2='249' y2='91' stroke='currentColor' stroke-width='1.5'/><line x1='260' y1='95' x2='260' y2='130' stroke='currentColor' stroke-width='1.5'/><circle cx='170' cy='30' r='4' fill='#e11d48'/><circle cx='170' cy='130' r='4' fill='#e11d48'/><text x='30' y='76' text-anchor='middle' font-size='12' fill='currentColor'>+</text><text x='30' y='92' text-anchor='middle' font-size='12' fill='currentColor'>−</text><text x='170' y='18' text-anchor='middle' font-size='12' fill='currentColor'>A</text><text x='170' y='148' text-anchor='middle' font-size='12' fill='currentColor'>B</text><text x='110' y='22' text-anchor='middle' font-size='12' fill='currentColor'>I</text><text x='160' y='62' text-anchor='end' font-size='12' fill='currentColor'>I₁</text><text x='250' y='62' text-anchor='end' font-size='12' fill='currentColor'>I₂</text><text x='192' y='84' font-size='11' fill='currentColor'>L₁</text><text x='282' y='84' font-size='11' fill='currentColor'>L₂</text><text x='80' y='108' font-size='11' fill='currentColor'>Pile</text><text x='190' y='168' text-anchor='middle' font-size='12' fill='currentColor'>Au nœud A : I = I₁ + I₂</text></svg>",
+          "legende": "A et B sont les deux nœuds. Chaque lampe est dans une branche dérivée."
+        },
+        {
+          "type": "theoreme",
+          "titre": "Loi des nœuds",
+          "texte": "La somme des intensités des courants qui arrivent à un nœud est égale à la somme des intensités des courants qui en repartent.\nPour un circuit à deux branches dérivées : I = I₁ + I₂."
+        },
+        {
+          "type": "schema",
+          "titre": "Un nœud",
+          "svg": "<svg width='380' height='140' viewBox='0 0 380 140' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif'><defs><marker id='sp411a' markerWidth='8' markerHeight='8' refX='7' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='#e11d48'/></marker></defs><line x1='60' y1='70' x2='180' y2='70' stroke='#e11d48' stroke-width='2' marker-end='url(#sp411a)'/><circle cx='190' cy='70' r='5' fill='currentColor'/><line x1='198' y1='65' x2='285' y2='30' stroke='#e11d48' stroke-width='2' marker-end='url(#sp411a)'/><line x1='198' y1='75' x2='285' y2='110' stroke='#e11d48' stroke-width='2' marker-end='url(#sp411a)'/><text x='120' y='58' text-anchor='middle' font-size='12' fill='currentColor'>I = 1,2 A</text><text x='292' y='34' font-size='12' fill='currentColor'>I₁ = 0,7 A</text><text x='292' y='118' font-size='12' fill='currentColor'>I₂ = 0,5 A</text><text x='190' y='98' text-anchor='middle' font-size='11' fill='currentColor'>nœud</text></svg>",
+          "legende": "Ce qui arrive au nœud est égal à ce qui en repart : 1,2 = 0,7 + 0,5."
+        },
+        {
+          "type": "exemple",
+          "titre": "Deux branches dérivées",
+          "texte": "Dans une branche, l'intensité est I₁ = 0,3 A. Dans l'autre, elle est I₂ = 0,2 A.\nDans la branche principale : I = I₁ + I₂ = 0,3 + 0,2 = 0,5 A."
+        },
+        {
+          "type": "exemple",
+          "titre": "Un nœud à quatre conducteurs",
+          "texte": "Deux courants arrivent à un nœud : 0,6 A et 0,4 A. Deux courants en repartent : 0,3 A et I.\nArrivée : 0,6 + 0,4 = 1,0 A. Donc I = 1,0 − 0,3 = 0,7 A."
+        },
+        {
+          "type": "theoreme",
+          "titre": "Loi d'unicité de la tension en dérivation",
+          "texte": "Dans un circuit en dérivation, la tension est la même aux bornes de toutes les branches dérivées : U = U₁ = U₂. Elle est égale à la tension aux bornes du générateur."
+        },
+        {
+          "type": "exemple",
+          "titre": "Une pile de 4,5 V",
+          "texte": "Deux lampes sont en dérivation sur une pile de 4,5 V. Le voltmètre indique 4,5 V aux bornes de L₁, et aussi 4,5 V aux bornes de L₂. Les deux lampes reçoivent toute la tension de la pile."
+        },
+        {
+          "type": "remarque",
+          "titre": "Lampes identiques en dérivation",
+          "texte": "Deux lampes identiques en dérivation reçoivent la même tension : elles sont traversées par la même intensité. Si I = 0,6 A, alors I₁ = I₂ = 0,6 / 2 = 0,3 A. Deux lampes différentes ont la même tension, mais des intensités différentes."
+        },
+        {
+          "type": "remarque",
+          "titre": "Les interrupteurs",
+          "texte": "Un interrupteur placé dans une branche dérivée ne commande que cette branche. Un interrupteur placé dans la branche principale commande tout le circuit."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Dérivation", "Montage où plusieurs dipôles sont reliés aux deux mêmes points."],
+            ["Nœud", "Point où se rejoignent au moins trois conducteurs."],
+            ["Branche", "Partie du circuit comprise entre deux nœuds."],
+            ["Branche principale", "Branche qui contient le générateur."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Deux lampes sont en dérivation. Les intensités sont I₁ = 0,15 A et I₂ = 0,25 A. Calcule l'intensité dans la branche principale.\n2) Dans la branche principale, I = 0,8 A. Dans une branche dérivée, I₁ = 0,5 A. Calcule I₂.\n3) Deux lampes sont en dérivation sur une pile de 4,5 V. Quelle tension indique un voltmètre aux bornes de L₂ ?",
+          "solution": "1) I = 0,15 + 0,25 = 0,40 A.\n2) I₂ = 0,8 − 0,5 = 0,3 A.\n3) 4,5 V : la tension est la même aux bornes de toutes les branches dérivées, et égale à celle de la pile."
+        }
+      ]
+    },
+    {
+      "id": "sp4-11-comparer",
+      "titre": "Série ou dérivation ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Comparer les deux montages",
+          "entetes": ["Critère", "En série", "En dérivation"],
+          "lignes": [
+            ["Chemins du courant", "Un seul", "Plusieurs"],
+            ["Nœuds", "Aucun", "Au moins deux"],
+            ["Une lampe grille", "Tout s'éteint", "Les autres continuent de briller"],
+            ["Intensité", "La même partout", "I = I₁ + I₂"],
+            ["Tension", "U = U₁ + U₂", "La même aux bornes de chaque branche"],
+            ["Lampes identiques", "Elles brillent moins", "Elles brillent normalement"]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Reconnaître le montage",
+          "texte": "Suis le fil avec le doigt, en partant d'une borne de la pile.\n1) Si le chemin ne se partage jamais et que tu reviens à l'autre borne en traversant tous les dipôles, c'est un montage en série.\n2) Si tu rencontres un nœud où le chemin se sépare en plusieurs branches, c'est un montage en dérivation.\nTu peux aussi dévisser une lampe : si tout s'éteint, les lampes sont en série."
+        },
+        {
+          "type": "regle",
+          "titre": "Pourquoi une maison est en dérivation",
+          "texte": "Dans une maison, tous les appareils sont branchés en dérivation sur le secteur. Chacun reçoit 220 V, la tension pour laquelle il est fait. Chacun fonctionne seul : on peut éteindre une lampe sans arrêter la télévision. Un appareil en panne ne coupe pas les autres."
+        },
+        {
+          "type": "exemple",
+          "titre": "Intensité dans la branche principale",
+          "texte": "Une lampe de 0,5 A, une télévision de 1 A et un fer à repasser de 5 A sont en dérivation.\nLa branche principale est traversée par I = 0,5 + 1 + 5 = 6,5 A."
+        },
+        {
+          "type": "regle",
+          "titre": "Disjoncteur et fusible",
+          "texte": "Plus on branche d'appareils en dérivation, plus l'intensité dans la branche principale est grande. Si elle devient trop grande, les fils chauffent et un incendie peut se produire. Pour s'en protéger, on place en série dans la branche principale un disjoncteur ou un fusible : il coupe le circuit si l'intensité dépasse sa valeur limite."
+        },
+        {
+          "type": "remarque",
+          "titre": "Prises multiples",
+          "texte": "Brancher beaucoup d'appareils puissants sur une même prise multiple est dangereux : l'intensité dans le fil d'alimentation devient trop grande, et le fil chauffe."
+        },
+        {
+          "type": "remarque",
+          "titre": "Les anciennes guirlandes",
+          "texte": "Dans les anciennes guirlandes de Noël, les petites lampes étaient en série : quand une seule grillait, toute la guirlande s'éteignait, et il fallait chercher la lampe en panne."
+        },
+        {
+          "type": "remarque",
+          "titre": "Court-circuit en dérivation",
+          "texte": "Si un fil relie les deux bornes d'une lampe qui est en dérivation, il relie en réalité les deux nœuds : toutes les branches sont court-circuitées et les lampes s'éteignent. Le courant passe presque entièrement dans le fil, et il est très intense : la pile s'abîme, le fil chauffe."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Disjoncteur", "Appareil qui coupe le circuit si l'intensité est trop grande."],
+            ["Fusible", "Fil qui fond si le courant est trop intense."],
+            ["Surcharge", "Trop d'appareils branchés : l'intensité devient trop grande."],
+            ["Secteur", "Réseau électrique de la maison, de 220 V."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Dans quel montage, série ou dérivation, toutes les lampes s'éteignent-elles quand l'une d'elles grille ?\n2) Dans une pièce, on branche en dérivation une lampe de 0,4 A, un ventilateur de 0,6 A et un réchaud de 8 A. Calcule l'intensité dans la branche principale. Le disjoncteur coupe à 10 A : coupe-t-il ?\n3) On branche en plus un fer à repasser de 5 A. Calcule la nouvelle intensité. Que fait le disjoncteur ?",
+          "solution": "1) En série.\n2) I = 0,4 + 0,6 + 8 = 9 A. 9 A est inférieur à 10 A : le disjoncteur ne coupe pas.\n3) I = 9 + 5 = 14 A. 14 A est supérieur à 10 A : le disjoncteur coupe le circuit, ce qui protège les fils."
+        }
+      ]
+    },
+    {
+      "id": "sp4-11-problemes",
+      "titre": "Résoudre un problème de circuit",
+      "blocs": [
+        {
+          "type": "methode",
+          "titre": "Les cinq étapes",
+          "texte": "1) Fais un schéma normalisé et note les données dessus.\n2) Repère le montage : série ou dérivation.\n3) Écris la loi qui convient : U = U₁ + U₂ en série ; I = I₁ + I₂ en dérivation.\n4) Fais le calcul, en convertissant d'abord les unités si besoin.\n5) Écris une phrase de réponse avec l'unité."
+        },
+        {
+          "type": "exemple",
+          "titre": "Problème en série",
+          "texte": "Une batterie de 12 V alimente deux lampes en série. La tension aux bornes de L₁ est 7,5 V. L'ampèremètre indique 0,2 A.\nTension aux bornes de L₂ : U₂ = 12 − 7,5 = 4,5 V.\nL'intensité est la même partout : 0,2 A, soit 0,2 × 1 000 = 200 mA dans chaque lampe."
+        },
+        {
+          "type": "exemple",
+          "titre": "Problème en dérivation",
+          "texte": "Trois lampes sont en dérivation sur une pile de 6 V. Les intensités sont 0,35 A, 0,25 A et 0,15 A.\nLa tension aux bornes de chaque lampe est 6 V.\nIntensité dans la branche principale : I = 0,35 + 0,25 + 0,15 = 0,75 A, soit 750 mA."
+        },
+        {
+          "type": "exemple",
+          "titre": "Unités différentes",
+          "texte": "Deux branches dérivées ont pour intensités I₁ = 120 mA et I₂ = 0,18 A.\nOn convertit : 0,18 A = 180 mA.\nI = 120 + 180 = 300 mA, soit 0,3 A.\nOn n'additionne jamais des mA avec des A sans convertir."
+        },
+        {
+          "type": "exemple",
+          "titre": "Repérer une mesure impossible",
+          "texte": "Un élève mesure, dans un circuit en dérivation : I = 0,3 A, I₁ = 0,2 A et I₂ = 0,2 A.\nOr I₁ + I₂ = 0,2 + 0,2 = 0,4 A, ce qui n'est pas 0,3 A. Une mesure est fausse : erreur de lecture ou de branchement. Il faut recommencer."
+        },
+        {
+          "type": "remarque",
+          "titre": "Erreurs fréquentes",
+          "texte": "1) En série, on croit que le courant diminue à chaque lampe : c'est faux, l'intensité est la même partout.\n2) En dérivation, on croit que la tension se partage entre les branches : c'est faux, elle est la même.\n3) On additionne des intensités en série ou des tensions en dérivation : c'est l'inverse.\n4) On oublie de convertir les mA en A."
+        },
+        {
+          "type": "tableau",
+          "titre": "Retenir l'essentiel",
+          "entetes": ["Montage", "Intensité", "Tension"],
+          "lignes": [
+            ["En série", "La même partout", "Elle s'additionne : U = U₁ + U₂"],
+            ["En dérivation", "Elle s'additionne : I = I₁ + I₂", "La même aux bornes de chaque branche"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Schéma normalisé", "Schéma fait avec les symboles officiels."],
+            ["Convertir", "Changer d'unité sans changer la valeur."],
+            ["Donnée", "Valeur donnée dans l'énoncé."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Une pile de 9 V alimente deux lampes en série. La tension aux bornes de L₁ est 3,5 V. Calcule la tension aux bornes de L₂.\n2) Dans la branche principale d'un circuit en dérivation, I = 450 mA. Dans une branche dérivée, I₁ = 0,3 A. Calcule I₂ en mA.\n3) Deux lampes identiques sont en dérivation sur une pile de 6 V. L'ampèremètre de la branche principale indique 0,9 A. Calcule l'intensité dans chaque lampe et la tension à leurs bornes.",
+          "solution": "1) U₂ = 9 − 3,5 = 5,5 V.\n2) I₁ = 0,3 A = 300 mA. I₂ = 450 − 300 = 150 mA.\n3) Les lampes sont identiques : I₁ = I₂ = 0,9 / 2 = 0,45 A. La tension à leurs bornes est 6 V."
+        }
+      ]
+    }
+  ]
+}
