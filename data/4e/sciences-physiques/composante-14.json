@@ -1,0 +1,374 @@
+{
+  "id": "sp4-14-lumiere",
+  "titre": "Chapitre 14 : Sources, propagation, vitesse de la lumière, année-lumière",
+  "lecons": [
+    {
+      "id": "sp4-14-sources",
+      "titre": "Sources de lumière et récepteurs",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Source primaire",
+          "texte": "Une source primaire de lumière est un objet qui produit lui-même la lumière qu'il émet. Exemples : le Soleil, une étoile, une flamme, une lampe allumée, un écran allumé, un éclair, une luciole."
+        },
+        {
+          "type": "definition",
+          "titre": "Objet diffusant (source secondaire)",
+          "texte": "Un objet diffusant ne produit pas de lumière. Il renvoie dans toutes les directions une partie de la lumière qu'il reçoit. Exemples : la Lune, les planètes, un mur, un livre, une personne."
+        },
+        {
+          "type": "tableau",
+          "titre": "Sources primaires chaudes et froides",
+          "entetes": ["Type", "Explication", "Exemples"],
+          "lignes": [
+            ["Source chaude", "Elle émet de la lumière parce que sa température est très élevée.", "Soleil, flamme de bougie, lampe à filament"],
+            ["Source froide", "Elle émet de la lumière sans être très chaude.", "DEL, tube fluorescent, écran, luciole"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Voir un objet",
+          "texte": "Pour voir un objet, il faut que de la lumière venant de cet objet entre dans l'œil. Si l'objet est une source primaire, il envoie sa propre lumière. Sinon, il doit être éclairé : il renvoie alors vers l'œil une partie de la lumière reçue. Dans le noir complet, on ne voit aucun objet qui n'est pas une source primaire."
+        },
+        {
+          "type": "schema",
+          "titre": "Du lampe à l'œil",
+          "svg": "<svg width='330' height='125' viewBox='0 0 330 125' xmlns='http://www.w3.org/2000/svg'><defs><marker id='sp414a' viewBox='0 0 10 10' refX='9' refY='5' markerWidth='6' markerHeight='6' orient='auto'><path d='M0 0L10 5L0 10z' fill='#e11d48'/></marker></defs><circle cx='40' cy='60' r='18' fill='#e11d48' fill-opacity='0.3' stroke='currentColor' stroke-width='1.5'/><rect x='140' y='40' width='50' height='40' fill='currentColor' fill-opacity='0.12' stroke='currentColor' stroke-width='1.5'/><ellipse cx='290' cy='60' rx='22' ry='13' fill='none' stroke='currentColor' stroke-width='1.5'/><circle cx='290' cy='60' r='6' fill='currentColor'/><line x1='62' y1='60' x2='136' y2='60' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp414a)'/><line x1='194' y1='60' x2='264' y2='60' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp414a)'/><text x='40' y='98' text-anchor='middle' font-size='11' fill='currentColor'>Source</text><text x='40' y='111' text-anchor='middle' font-size='11' fill='currentColor'>primaire</text><text x='165' y='98' text-anchor='middle' font-size='11' fill='currentColor'>Objet</text><text x='165' y='111' text-anchor='middle' font-size='11' fill='currentColor'>diffusant</text><text x='290' y='98' text-anchor='middle' font-size='11' fill='currentColor'>Récepteur</text><text x='290' y='111' text-anchor='middle' font-size='11' fill='currentColor'>(œil)</text></svg>",
+          "legende": "La lampe produit la lumière, l'objet en renvoie une partie, l'œil la reçoit."
+        },
+        {
+          "type": "definition",
+          "titre": "Récepteur de lumière",
+          "texte": "Un récepteur de lumière est un objet qui reçoit de la lumière et réagit à cette lumière."
+        },
+        {
+          "type": "tableau",
+          "titre": "Quelques récepteurs",
+          "entetes": ["Récepteur", "Ce qu'il fait de la lumière"],
+          "lignes": [
+            ["L'œil", "Il envoie au cerveau une information : on voit."],
+            ["Le capteur d'un appareil photo", "Il enregistre l'image."],
+            ["La cellule d'un panneau solaire", "Elle transforme la lumière en énergie électrique."]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "La Lune n'est pas une source primaire",
+          "texte": "La Lune ne produit pas de lumière. Nous la voyons parce qu'elle renvoie vers la Terre la lumière du Soleil. Nous y reviendrons au chapitre 15."
+        },
+        {
+          "type": "remarque",
+          "titre": "Sécurité",
+          "texte": "Ne regarde jamais le Soleil directement, même un instant. Ne dirige jamais un pointeur laser vers un œil, ni vers une vitre ou un miroir qui le renverrait vers quelqu'un."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["source primaire", "objet qui produit la lumière qu'il émet"],
+            ["objet diffusant", "objet qui renvoie dans toutes les directions la lumière reçue"],
+            ["récepteur", "objet qui reçoit la lumière et y réagit"],
+            ["émettre", "envoyer vers l'extérieur"],
+            ["luciole", "petit insecte qui produit de la lumière"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Dans une salle, une lampe allumée éclaire un livre posé sur la table. Un élève lit.\n\n1. La lampe est-elle une source primaire ou un objet diffusant ? Justifie.\n2. Le livre est-il une source primaire ? Quel est ici le récepteur de lumière ?\n3. Classe en sources chaudes ou froides : la bougie, la DEL, la luciole, le Soleil.\n4. On éteint la lampe et il n'y a plus aucune lumière dans la salle. L'élève voit-il encore le livre ? Pourquoi ?",
+          "solution": "1. C'est une source primaire, car elle produit elle-même la lumière.\n2. Non, c'est un objet diffusant : il renvoie la lumière reçue de la lampe. Le récepteur est l'œil de l'élève.\n3. Sources chaudes : la bougie et le Soleil. Sources froides : la DEL et la luciole.\n4. Non. Le livre ne produit pas de lumière : sans lumière à renvoyer, aucune lumière n'entre dans l'œil."
+        }
+      ]
+    },
+    {
+      "id": "sp4-14-milieux",
+      "titre": "Milieux transparents, translucides et opaques",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Milieu transparent",
+          "texte": "Un milieu transparent laisse passer la lumière et permet de voir nettement les objets à travers lui. Exemples : l'air, l'eau claire, le verre ordinaire."
+        },
+        {
+          "type": "definition",
+          "titre": "Milieu translucide",
+          "texte": "Un milieu translucide laisse passer une partie de la lumière, mais on ne voit pas nettement les objets à travers lui. Exemples : le papier calque, le verre dépoli, certains plastiques laiteux."
+        },
+        {
+          "type": "definition",
+          "titre": "Milieu opaque",
+          "texte": "Un milieu opaque ne laisse pas passer la lumière. Exemples : le bois, le métal, le carton épais, un mur."
+        },
+        {
+          "type": "schema",
+          "titre": "Trois comportements",
+          "svg": "<svg width='330' height='160' viewBox='0 0 330 160' xmlns='http://www.w3.org/2000/svg'><defs><marker id='sp414b' viewBox='0 0 10 10' refX='9' refY='5' markerWidth='6' markerHeight='6' orient='auto'><path d='M0 0L10 5L0 10z' fill='#e11d48'/></marker></defs><rect x='50' y='40' width='10' height='70' fill='currentColor' fill-opacity='0.1' stroke='currentColor'/><line x1='5' y1='55' x2='47' y2='55' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp414b)'/><line x1='5' y1='75' x2='47' y2='75' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp414b)'/><line x1='5' y1='95' x2='47' y2='95' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp414b)'/><line x1='63' y1='55' x2='105' y2='55' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp414b)'/><line x1='63' y1='75' x2='105' y2='75' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp414b)'/><line x1='63' y1='95' x2='105' y2='95' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp414b)'/><rect x='160' y='40' width='10' height='70' fill='currentColor' fill-opacity='0.3' stroke='currentColor'/><line x1='115' y1='55' x2='157' y2='55' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp414b)'/><line x1='115' y1='75' x2='157' y2='75' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp414b)'/><line x1='115' y1='95' x2='157' y2='95' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp414b)'/><line x1='173' y1='55' x2='212' y2='45' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp414b)'/><line x1='173' y1='75' x2='212' y2='75' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp414b)'/><line x1='173' y1='95' x2='212' y2='105' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp414b)'/><rect x='270' y='40' width='10' height='70' fill='currentColor' fill-opacity='0.6' stroke='currentColor'/><line x1='225' y1='55' x2='267' y2='55' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp414b)'/><line x1='225' y1='75' x2='267' y2='75' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp414b)'/><line x1='225' y1='95' x2='267' y2='95' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp414b)'/><text x='55' y='128' text-anchor='middle' font-size='11' fill='currentColor'>Transparent</text><text x='165' y='128' text-anchor='middle' font-size='11' fill='currentColor'>Translucide</text><text x='275' y='128' text-anchor='middle' font-size='11' fill='currentColor'>Opaque</text><text x='55' y='144' text-anchor='middle' font-size='10' fill='currentColor'>on voit net</text><text x='165' y='144' text-anchor='middle' font-size='10' fill='currentColor'>forme pas nette</text><text x='275' y='144' text-anchor='middle' font-size='10' fill='currentColor'>rien ne passe</text></svg>",
+          "legende": "Transparent : la lumière passe sans être désordonnée. Translucide : elle passe, mais dans toutes les directions. Opaque : elle ne passe pas."
+        },
+        {
+          "type": "tableau",
+          "titre": "Résumé",
+          "entetes": ["Milieu", "La lumière passe ?", "On voit nettement à travers ?"],
+          "lignes": [
+            ["Transparent", "Oui", "Oui"],
+            ["Translucide", "En partie", "Non"],
+            ["Opaque", "Non", "Non"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Un même matériau peut changer",
+          "texte": "Le verre ordinaire est transparent. Le verre dépoli (sablé) est translucide : c'est pourquoi on l'utilise pour les fenêtres de salle de bain. Plus une couche de matière est épaisse, moins elle laisse passer la lumière : une épaisse couche d'eau reste transparente en surface, mais devient sombre en profondeur."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["transparent", "qui laisse passer la lumière et permet de voir nettement"],
+            ["translucide", "qui laisse passer la lumière mais pas les formes nettes"],
+            ["opaque", "qui ne laisse pas passer la lumière"],
+            ["dépoli", "dont la surface a été rendue rugueuse"],
+            ["milieu", "matière que la lumière traverse (air, eau, verre...)"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "On place devant une lampe, tour à tour : une feuille de papier calque, une vitre en verre ordinaire et un carton épais.\n\n1. Classe chaque matériau : transparent, translucide ou opaque.\n2. Derrière lequel voit-on nettement la lampe ?\n3. Derrière lequel voit-on une lueur sans distinguer la forme de la lampe ?\n4. Pourquoi une fenêtre en verre dépoli laisse-t-elle entrer la lumière sans que l'on puisse voir à travers ?",
+          "solution": "1. Papier calque : translucide. Verre ordinaire : transparent. Carton épais : opaque.\n2. Derrière la vitre en verre ordinaire.\n3. Derrière le papier calque.\n4. Le verre dépoli est translucide : il laisse passer la lumière, mais dans toutes les directions, donc on ne voit pas de forme nette."
+        }
+      ]
+    },
+    {
+      "id": "sp4-14-propagation",
+      "titre": "Propagation rectiligne, rayon et faisceau",
+      "blocs": [
+        {
+          "type": "regle",
+          "titre": "Propagation rectiligne",
+          "texte": "Dans un milieu transparent et homogène (qui est le même partout, comme l'air ou l'eau pure), la lumière se propage en ligne droite. Elle peut aussi se propager dans le vide : la lumière du Soleil traverse l'espace vide avant d'arriver sur la Terre."
+        },
+        {
+          "type": "methode",
+          "titre": "Vérifier que la lumière va en ligne droite",
+          "texte": "1. Place une petite lampe, trois cartons percés d'un trou, puis un écran.\n2. Déplace les cartons jusqu'à voir une tache lumineuse sur l'écran.\n3. Observe : les trois trous sont alors alignés avec la lampe.\n4. Déplace un seul carton : la tache disparaît.\nConclusion : la lumière ne passe que si les trous sont sur une même droite."
+        },
+        {
+          "type": "definition",
+          "titre": "Rayon lumineux",
+          "texte": "Un rayon lumineux est un modèle : on représente le chemin de la lumière par une droite munie d'une flèche qui indique le sens de propagation."
+        },
+        {
+          "type": "definition",
+          "titre": "Faisceau lumineux",
+          "texte": "Un faisceau lumineux est un ensemble de rayons lumineux."
+        },
+        {
+          "type": "schema",
+          "titre": "Trois types de faisceaux",
+          "svg": "<svg width='330' height='130' viewBox='0 0 330 130' xmlns='http://www.w3.org/2000/svg'><defs><marker id='sp414c' viewBox='0 0 10 10' refX='9' refY='5' markerWidth='6' markerHeight='6' orient='auto'><path d='M0 0L10 5L0 10z' fill='#e11d48'/></marker></defs><line x1='10' y1='35' x2='100' y2='35' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp414c)'/><line x1='10' y1='60' x2='100' y2='60' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp414c)'/><line x1='10' y1='85' x2='100' y2='85' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp414c)'/><circle cx='120' cy='60' r='3' fill='currentColor'/><line x1='120' y1='60' x2='210' y2='25' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp414c)'/><line x1='120' y1='60' x2='210' y2='60' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp414c)'/><line x1='120' y1='60' x2='210' y2='95' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp414c)'/><circle cx='318' cy='60' r='3' fill='currentColor'/><line x1='230' y1='25' x2='315' y2='60' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp414c)'/><line x1='230' y1='60' x2='315' y2='60' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp414c)'/><line x1='230' y1='95' x2='315' y2='60' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp414c)'/><text x='55' y='120' text-anchor='middle' font-size='11' fill='currentColor'>Parallèle</text><text x='165' y='120' text-anchor='middle' font-size='11' fill='currentColor'>Divergent</text><text x='275' y='120' text-anchor='middle' font-size='11' fill='currentColor'>Convergent</text></svg>",
+          "legende": "Parallèle : les rayons gardent le même écart. Divergent : ils s'écartent à partir d'un point. Convergent : ils se rapprochent vers un point."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les faisceaux",
+          "entetes": ["Faisceau", "Les rayons...", "Exemple"],
+          "lignes": [
+            ["Parallèle", "gardent le même écart", "Rayons du Soleil qui arrivent sur la Terre (le Soleil est très loin)"],
+            ["Divergent", "s'écartent à partir d'un point", "Lumière d'une petite lampe ou d'une bougie"],
+            ["Convergent", "se rapprochent vers un point", "Lumière concentrée par une loupe"]
+          ]
+        },
+        {
+          "type": "definition",
+          "titre": "Chambre noire",
+          "texte": "Une chambre noire est une boîte fermée dont une face porte un très petit trou et dont la face opposée est un écran translucide. Sur l'écran, il se forme une image des objets placés devant le trou."
+        },
+        {
+          "type": "schema",
+          "titre": "L'image dans une chambre noire",
+          "svg": "<svg width='330' height='160' viewBox='0 0 330 160' xmlns='http://www.w3.org/2000/svg'><defs><marker id='sp414d' viewBox='0 0 10 10' refX='9' refY='5' markerWidth='6' markerHeight='6' orient='auto'><path d='M0 0L10 5L0 10z' fill='#e11d48'/></marker></defs><path d='M130 82V40H280V130H130V88' fill='none' stroke='currentColor' stroke-width='2'/><line x1='280' y1='40' x2='280' y2='130' stroke='currentColor' stroke-width='5' stroke-opacity='0.35'/><line x1='40' y1='65' x2='280' y2='118' stroke='#e11d48' stroke-width='1.2'/><line x1='40' y1='105' x2='280' y2='52' stroke='#e11d48' stroke-width='1.2'/><line x1='40' y1='105' x2='40' y2='65' stroke='currentColor' stroke-width='2' marker-end='url(#sp414d)'/><line x1='280' y1='52' x2='280' y2='118' stroke='#e11d48' stroke-width='2' marker-end='url(#sp414d)'/><text x='40' y='123' text-anchor='middle' font-size='11' fill='currentColor'>Objet</text><text x='130' y='30' text-anchor='middle' font-size='11' fill='currentColor'>Petit trou</text><text x='280' y='30' text-anchor='middle' font-size='11' fill='currentColor'>Écran</text><text x='205' y='150' text-anchor='middle' font-size='11' fill='currentColor'>Image renversée</text></svg>",
+          "legende": "Les rayons issus du haut de l'objet arrivent en bas de l'écran, ceux du bas arrivent en haut : l'image est renversée."
+        },
+        {
+          "type": "regle",
+          "titre": "Pourquoi l'image est renversée",
+          "texte": "De chaque point de l'objet, le trou ne laisse passer qu'un fin rayon. La lumière se propage en ligne droite : les rayons se croisent au niveau du trou. Le haut de l'objet donne donc le bas de l'image. Plus le trou est petit, plus l'image est nette, mais moins elle est lumineuse. L'appareil photo est un descendant de la chambre noire."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["rectiligne", "en ligne droite"],
+            ["homogène", "qui est le même partout"],
+            ["rayon lumineux", "droite fléchée qui représente le chemin de la lumière"],
+            ["faisceau", "ensemble de rayons lumineux"],
+            ["divergent", "qui s'écarte à partir d'un point"],
+            ["convergent", "qui se rapproche vers un point"],
+            ["chambre noire", "boîte fermée percée d'un petit trou qui donne une image"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Trois cartons percés d'un trou sont placés l'un derrière l'autre, entre une petite lampe et un écran.\n\n1. Dans quelle condition voit-on une tache lumineuse sur l'écran ?\n2. Que conclut-on sur la propagation de la lumière dans l'air ?\n3. Dans une chambre noire à petit trou, comment est l'image d'un arbre : droite ou renversée ?\n4. Comment appelle-t-on : (a) des rayons qui partent d'un même point et s'écartent ; (b) des rayons qui gardent toujours le même écart ?",
+          "solution": "1. Quand la lampe et les trois trous sont alignés sur une même droite.\n2. Dans l'air, milieu transparent et homogène, la lumière se propage en ligne droite.\n3. L'image est renversée : le haut de l'arbre est en bas de l'image.\n4. (a) Un faisceau divergent. (b) Un faisceau parallèle."
+        }
+      ]
+    },
+    {
+      "id": "sp4-14-vitesse",
+      "titre": "La vitesse de la lumière",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Vitesse de la lumière",
+          "texte": "Dans le vide, la lumière se propage à la vitesse c = 300 000 km/s (soit 3 × 10⁵ km/s). Dans l'air, sa vitesse est pratiquement la même. Dans l'eau et dans le verre, elle va moins vite."
+        },
+        {
+          "type": "remarque",
+          "titre": "Une vitesse énorme",
+          "texte": "La Terre a un tour d'environ 40 000 km. En une seconde, la lumière ferait 300 000 ÷ 40 000 = 7,5 fois le tour de la Terre. Par comparaison, le son se propage dans l'air à 340 m/s, soit 0,34 km/s : la lumière va près d'un million de fois plus vite que le son."
+        },
+        {
+          "type": "formule",
+          "titre": "Distance, vitesse, durée",
+          "texte": "d = c × t\nt = d ÷ c\nd en km, c en km/s, t en secondes (s)."
+        },
+        {
+          "type": "schema",
+          "titre": "Mesurer la distance Terre-Lune avec un laser",
+          "svg": "<svg width='330' height='125' viewBox='0 0 330 125' xmlns='http://www.w3.org/2000/svg'><defs><marker id='sp414e' viewBox='0 0 10 10' refX='9' refY='5' markerWidth='6' markerHeight='6' orient='auto'><path d='M0 0L10 5L0 10z' fill='#e11d48'/></marker></defs><circle cx='35' cy='55' r='22' fill='#e11d48' fill-opacity='0.2' stroke='currentColor' stroke-width='1.5'/><circle cx='295' cy='55' r='10' fill='currentColor' fill-opacity='0.25' stroke='currentColor' stroke-width='1.5'/><line x1='62' y1='48' x2='280' y2='48' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp414e)'/><line x1='280' y1='64' x2='62' y2='64' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp414e)'/><text x='170' y='38' text-anchor='middle' font-size='11' fill='currentColor'>Aller : 1,28 s</text><text x='170' y='82' text-anchor='middle' font-size='11' fill='currentColor'>Retour : 1,28 s</text><text x='35' y='95' text-anchor='middle' font-size='11' fill='currentColor'>Terre</text><text x='295' y='80' text-anchor='middle' font-size='11' fill='currentColor'>Lune</text><text x='170' y='112' text-anchor='middle' font-size='11' fill='currentColor'>d = 384 000 km</text></svg>",
+          "legende": "Un faisceau laser part de la Terre, se réfléchit sur un réflecteur posé sur la Lune et revient. L'aller-retour dure 2,56 s."
+        },
+        {
+          "type": "exemple",
+          "titre": "Distance Terre-Lune",
+          "texte": "L'aller-retour dure 2,56 s. L'aller seul dure 2,56 ÷ 2 = 1,28 s. Donc d = c × t = 300 000 × 1,28 = 384 000 km."
+        },
+        {
+          "type": "exemple",
+          "titre": "Lumière du Soleil",
+          "texte": "La distance Terre-Soleil est d'environ 150 millions de km, soit 150 000 000 km. t = d ÷ c = 150 000 000 ÷ 300 000 = 500 s, soit 8 min 20 s. Quand on regarde le Soleil, on le voit tel qu'il était il y a plus de 8 minutes."
+        },
+        {
+          "type": "exemple",
+          "titre": "Éclair et tonnerre",
+          "texte": "Pendant un orage, on voit l'éclair pratiquement au même instant où il se produit, puis on entend le tonnerre plus tard. Si le tonnerre arrive 3 s après l'éclair, la distance est d = 340 × 3 = 1 020 m, soit environ 1 km."
+        },
+        {
+          "type": "remarque",
+          "titre": "Sécurité pendant un orage",
+          "texte": "Reste à l'abri dans une maison ou un bâtiment en dur. Ne t'abrite pas sous un arbre isolé et ne reste pas dans l'eau ni dans un champ ouvert."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["vide", "espace où il n'y a aucune matière"],
+            ["laser", "faisceau de lumière très fin et très concentré"],
+            ["réflecteur", "objet qui renvoie la lumière dans la direction d'où elle vient"],
+            ["aller-retour", "trajet dans un sens, puis retour"],
+            ["vitesse", "distance parcourue en une seconde"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. Écris la vitesse de la lumière dans le vide en km/s.\n2. Un satellite est à 36 000 km de la Terre. Calcule la durée du trajet d'un signal lumineux envoyé de la Terre vers le satellite.\n3. Pendant un orage, on entend le tonnerre 5 s après l'éclair. À quelle distance l'éclair est-il tombé ? Le son va à 340 m/s ; on néglige la durée de la lumière.\n4. Pourquoi voit-on l'éclair avant d'entendre le tonnerre ?",
+          "solution": "1. c = 300 000 km/s, soit 3 × 10⁵ km/s.\n2. t = d ÷ c = 36 000 ÷ 300 000 = 0,12 s.\n3. d = 340 × 5 = 1 700 m.\n4. La lumière va près d'un million de fois plus vite que le son : elle arrive pratiquement tout de suite, alors que le son arrive plus tard."
+        }
+      ]
+    },
+    {
+      "id": "sp4-14-annee-lumiere",
+      "titre": "L'année-lumière",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Année-lumière",
+          "texte": "L'année-lumière (symbole : al) est la distance parcourue par la lumière dans le vide en une année. C'est une unité de distance, pas une unité de temps."
+        },
+        {
+          "type": "regle",
+          "titre": "Pourquoi cette unité ?",
+          "texte": "Entre les étoiles, les distances sont si grandes que le kilomètre donne des nombres énormes. L'année-lumière permet d'utiliser des nombres plus petits."
+        },
+        {
+          "type": "tableau",
+          "titre": "Ce que parcourt la lumière",
+          "entetes": ["Durée", "Distance parcourue"],
+          "lignes": [
+            ["1 seconde", "300 000 km"],
+            ["1 minute (60 s)", "18 000 000 km"],
+            ["1 heure (3 600 s)", "1 080 000 000 km"],
+            ["1 jour (86 400 s)", "25 920 000 000 km"],
+            ["1 an (365 jours)", "environ 9 460 000 000 000 km"]
+          ]
+        },
+        {
+          "type": "formule",
+          "titre": "Calcul d'une année-lumière",
+          "texte": "1 an = 365 × 86 400 = 31 536 000 s\n1 al = c × t = 300 000 × 31 536 000 ≈ 9,46 × 10¹² km\nC'est environ 9 460 milliards de km."
+        },
+        {
+          "type": "tableau",
+          "titre": "Quelques distances",
+          "entetes": ["Objet", "Distance", "Durée de la lumière"],
+          "lignes": [
+            ["Lune", "384 000 km", "1,28 s"],
+            ["Soleil", "150 millions de km", "8 min 20 s"],
+            ["Proxima du Centaure (étoile la plus proche du Soleil)", "environ 4,2 al", "environ 4,2 ans"]
+          ]
+        },
+        {
+          "type": "exemple",
+          "titre": "Proxima du Centaure en kilomètres",
+          "texte": "Distance en km : 4,2 × 9,46 × 10¹² = 39,732 × 10¹² km, soit environ 4,0 × 10¹³ km. C'est environ 40 000 milliards de km."
+        },
+        {
+          "type": "regle",
+          "titre": "Regarder loin, c'est regarder dans le passé",
+          "texte": "La lumière met du temps pour nous parvenir. Une étoile à 4,2 al est vue telle qu'elle était il y a environ 4,2 ans. Plus un astre est lointain, plus on le voit tel qu'il était dans un passé lointain."
+        },
+        {
+          "type": "remarque",
+          "titre": "Notre galaxie",
+          "texte": "La Voie lactée, la galaxie qui contient notre Soleil, mesure de l'ordre de 100 000 années-lumière de largeur."
+        },
+        {
+          "type": "regle",
+          "titre": "Ce qu'il faut retenir du chapitre",
+          "texte": "- Une source primaire produit sa lumière ; un objet diffusant renvoie la lumière reçue.\n- On voit un objet quand de la lumière venant de lui entre dans l'œil.\n- Un milieu est transparent, translucide ou opaque.\n- Dans un milieu transparent et homogène, la lumière se propage en ligne droite.\n- Dans le vide, la lumière va à 300 000 km/s : d = c × t.\n- Une année-lumière vaut environ 9,46 × 10¹² km : c'est une distance."
+        },
+        {
+          "type": "remarque",
+          "titre": "La suite",
+          "texte": "Le chapitre 15 étudie les ombres, les éclipses et les phases de la Lune."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["année-lumière", "distance parcourue par la lumière en un an"],
+            ["galaxie", "énorme ensemble d'étoiles"],
+            ["astre", "objet du ciel : étoile, planète, Lune..."],
+            ["notation scientifique", "écriture d'un nombre sous la forme a × 10 puissance n"],
+            ["milliard", "mille millions"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Une étoile est à 8,6 années-lumière de la Terre. On donne 1 al = 9,46 × 10¹² km.\n\n1. L'année-lumière est-elle une unité de temps ou de distance ?\n2. Combien de temps la lumière de cette étoile met-elle pour nous parvenir ?\n3. Calcule la distance de cette étoile en km, en notation scientifique arrondie à un chiffre après la virgule.\n4. Quand on regarde cette étoile ce soir, telle qu'elle était à quelle époque la voit-on ?",
+          "solution": "1. C'est une unité de distance.\n2. La lumière met environ 8,6 ans.\n3. 8,6 × 9,46 × 10¹² = 81,356 × 10¹² km, soit environ 8,1 × 10¹³ km.\n4. On la voit telle qu'elle était il y a environ 8,6 ans."
+        }
+      ]
+    }
+  ]
+}
