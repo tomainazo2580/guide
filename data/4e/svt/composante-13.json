@@ -1,0 +1,323 @@
+{
+  "id": "svt4-13-appareils-genitaux",
+  "titre": "Les appareils génitaux",
+  "lecons": [
+    {
+      "id": "svt4-13-l1-masculin",
+      "titre": "L'appareil génital masculin",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "L'appareil génital masculin",
+          "texte": "L'appareil génital masculin produit les spermatozoïdes et les conduit hors du corps. Il comprend deux testicules, les voies spermatiques (épididymes, canaux déférents, urètre), des glandes annexes (vésicules séminales et prostate) et un organe copulateur, le pénis. Il devient fonctionnel à la puberté (chapitre 12)."
+        },
+        {
+          "type": "schema",
+          "titre": "L'appareil génital masculin (coupe de profil)",
+          "svg": "<svg width='480' height='360' viewBox='0 0 480 360' xmlns='http://www.w3.org/2000/svg' fill='currentColor' font-family='sans-serif' font-size='12'><text x='160' y='16' text-anchor='middle' font-size='11'>Coupe de profil (schématique)</text><ellipse cx='130' cy='55' rx='48' ry='28' fill='currentColor' fill-opacity='0.1' stroke='currentColor' stroke-width='2'/><ellipse cx='130' cy='112' rx='24' ry='16' fill='#e11d48' fill-opacity='0.25' stroke='currentColor' stroke-width='2'/><ellipse cx='200' cy='100' rx='24' ry='12' fill='#e11d48' fill-opacity='0.25' stroke='currentColor' stroke-width='2'/><rect x='108' y='140' width='44' height='150' rx='20' fill='currentColor' fill-opacity='0.08' stroke='currentColor' stroke-width='2'/><line x1='130' y1='128' x2='130' y2='285' stroke='#e11d48' stroke-width='4'/><ellipse cx='240' cy='292' rx='64' ry='54' fill='currentColor' fill-opacity='0.05' stroke='currentColor' stroke-dasharray='4 3'/><ellipse cx='240' cy='290' rx='26' ry='34' fill='currentColor' fill-opacity='0.15' stroke='currentColor' stroke-width='2'/><path d='M240,256 C272,264 272,308 238,322' fill='none' stroke='#e11d48' stroke-opacity='0.6' stroke-width='7' stroke-linecap='round'/><path d='M240,254 C290,210 280,150 232,128 L152,118' fill='none' stroke='currentColor' stroke-width='3'/><circle cx='130' cy='55' r='9' fill='#e11d48'/><text x='130' y='59' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>1</text><circle cx='130' cy='112' r='9' fill='#e11d48'/><text x='130' y='116' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>2</text><circle cx='200' cy='100' r='9' fill='#e11d48'/><text x='200' y='104' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>3</text><circle cx='273' cy='183' r='9' fill='#e11d48'/><text x='273' y='187' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>4</text><circle cx='130' cy='160' r='9' fill='#e11d48'/><text x='130' y='164' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>5</text><line x1='93' y1='215' x2='108' y2='215' stroke='currentColor' stroke-width='1.5'/><circle cx='84' cy='215' r='9' fill='#e11d48'/><text x='84' y='219' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>6</text><circle cx='226' cy='290' r='9' fill='#e11d48'/><text x='226' y='294' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>7</text><circle cx='286' cy='287' r='9' fill='#e11d48'/><text x='286' y='291' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>8</text><circle cx='272' cy='339' r='9' fill='#e11d48'/><text x='272' y='343' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>9</text><circle cx='348' cy='50' r='9' fill='#e11d48'/><text x='348' y='54' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>1</text><text x='364' y='54'>Vessie</text><circle cx='348' cy='76' r='9' fill='#e11d48'/><text x='348' y='80' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>2</text><text x='364' y='80'>Prostate</text><circle cx='348' cy='102' r='9' fill='#e11d48'/><text x='348' y='106' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>3</text><text x='364' y='106'>Vésicule séminale</text><circle cx='348' cy='128' r='9' fill='#e11d48'/><text x='348' y='132' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>4</text><text x='364' y='132'>Canal déférent</text><circle cx='348' cy='154' r='9' fill='#e11d48'/><text x='348' y='158' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>5</text><text x='364' y='158'>Urètre</text><circle cx='348' cy='180' r='9' fill='#e11d48'/><text x='348' y='184' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>6</text><text x='364' y='184'>Pénis</text><circle cx='348' cy='206' r='9' fill='#e11d48'/><text x='348' y='210' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>7</text><text x='364' y='210'>Testicule</text><circle cx='348' cy='232' r='9' fill='#e11d48'/><text x='348' y='236' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>8</text><text x='364' y='236'>Épididyme</text><circle cx='348' cy='258' r='9' fill='#e11d48'/><text x='348' y='262' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>9</text><text x='364' y='262'>Scrotum</text></svg>",
+          "legende": "Les numéros du dessin renvoient à la liste de droite. Un seul testicule est dessiné. Le canal déférent passe en réalité derrière la vessie."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les organes de l'appareil génital masculin",
+          "entetes": ["Organe", "Description", "Rôle"],
+          "lignes": [
+            ["Testicules", "Deux organes ovoïdes d'environ 4 à 5 cm, placés dans le scrotum.", "Produisent les spermatozoïdes (dans de très fins tubes, les tubes séminifères) et l'hormone testostérone."],
+            ["Scrotum", "Sac de peau qui contient les testicules.", "Maintient les testicules à une température un peu plus basse que celle du corps."],
+            ["Épididyme", "Tube très fin et très enroulé, collé à chaque testicule.", "Les spermatozoïdes y finissent leur maturation et y sont stockés."],
+            ["Canal déférent", "Tube musclé qui monte du scrotum vers l'abdomen.", "Conduit les spermatozoïdes vers l'urètre."],
+            ["Vésicules séminales", "Deux petites glandes placées derrière la vessie.", "Fabriquent un liquide riche en sucre qui nourrit les spermatozoïdes."],
+            ["Prostate", "Glande placée sous la vessie, autour de l'urètre.", "Fabrique un liquide laiteux qui s'ajoute au sperme."],
+            ["Urètre", "Tube qui part de la vessie et traverse le pénis.", "Conduit l'urine ou le sperme vers l'extérieur."],
+            ["Pénis", "Organe fait de tissus spongieux. Son extrémité est le gland, recouvert par un repli de peau, le prépuce.", "Permet d'uriner et de déposer le sperme dans les voies génitales de la femme."]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Le trajet des spermatozoïdes",
+          "texte": "Les spermatozoïdes sont fabriqués dans les tubes séminifères des testicules. Ils passent dans l'épididyme, où ils finissent leur maturation et sont stockés. Pendant l'éjaculation, ils remontent par les canaux déférents. Près de la prostate, ils reçoivent le liquide des vésicules séminales et celui de la prostate, puis ils sortent par l'urètre.\nLe sperme est le mélange des spermatozoïdes et de ces liquides. C'est un liquide blanchâtre. Une éjaculation en contient environ 2 à 5 mL.\nLes testicules fabriquent des spermatozoïdes depuis la puberté, sans arrêt : en moyenne environ 100 millions par jour. Un spermatozoïde met environ 70 jours à se former."
+        },
+        {
+          "type": "remarque",
+          "titre": "Pourquoi les testicules sont à l'extérieur",
+          "texte": "La fabrication des spermatozoïdes se fait mieux à une température un peu plus basse que celle du corps (37 °C). Les testicules sont donc placés dans le scrotum, hors de l'abdomen, à environ 34 à 35 °C. Une chaleur excessive et très longue sur cette région, ou des vêtements très serrés, peuvent gêner leur fonctionnement. Les testicules sont sensibles aux chocs : on les protège pendant les sports de contact."
+        },
+        {
+          "type": "remarque",
+          "titre": "L'érection, l'éjaculation et l'urine",
+          "texte": "Le pénis contient des tissus spongieux. Pendant l'érection, ils se remplissent de sang et le pénis devient plus gros et plus dur. L'érection est involontaire : elle peut arriver sans que l'on y pense, et c'est normal à la puberté.\nLe même tube, l'urètre, sert à l'urine et au sperme. Mais ils ne passent jamais en même temps : au moment de l'éjaculation, un muscle ferme la sortie de la vessie."
+        },
+        {
+          "type": "methode",
+          "titre": "Réaliser un bon schéma annoté",
+          "texte": "1. Écris un titre au-dessus du dessin.\n2. Dessine au crayon, avec des traits nets et sans ombre. Garde les bonnes proportions entre les organes.\n3. Trace des traits de légende à la règle, sans qu'ils se croisent.\n4. Écris les noms à droite (ou à gauche) du dessin, bien alignés, ou utilise des numéros avec une liste.\n5. Colorie légèrement, avec peu de couleurs. Indique l'orientation (vue de face ou de profil)."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["testicule", "organe qui produit les spermatozoïdes et la testostérone"],
+            ["scrotum", "sac de peau qui contient les testicules"],
+            ["tube séminifère", "tube très fin du testicule où se fabriquent les spermatozoïdes"],
+            ["épididyme", "tube enroulé où les spermatozoïdes mûrissent et sont stockés"],
+            ["canal déférent", "tube qui conduit les spermatozoïdes vers l'urètre"],
+            ["vésicule séminale", "glande qui fabrique un liquide nourrissant du sperme"],
+            ["prostate", "glande qui fabrique un liquide laiteux du sperme"],
+            ["urètre", "tube qui conduit l'urine, et chez l'homme aussi le sperme"],
+            ["pénis", "organe copulateur de l'homme"],
+            ["gland", "extrémité du pénis"],
+            ["prépuce", "repli de peau qui recouvre le gland"],
+            ["sperme", "liquide qui contient les spermatozoïdes et les liquides des glandes"],
+            ["érection", "état du pénis rempli de sang, plus gros et plus dur"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Associe chaque rôle à un organe (testicule, épididyme, canal déférent, prostate, scrotum, urètre).\na) Conduit les spermatozoïdes de l'épididyme vers l'urètre.\nb) Sac de peau qui contient les testicules.\nc) Produit les spermatozoïdes.\nd) Fabrique un liquide laiteux qui s'ajoute au sperme.\ne) Stocke les spermatozoïdes et finit leur maturation.\nf) Conduit l'urine ou le sperme vers l'extérieur.\n2) Écris le trajet d'un spermatozoïde, depuis sa fabrication jusqu'à sa sortie du corps.\n3) Pourquoi les testicules sont-ils placés hors de l'abdomen ? Calcule leur température s'ils sont plus froids de 2 à 3 °C que le corps (37 °C). Pourquoi faut-il éviter les vêtements très serrés ?\n4) Un homme produit en moyenne 100 millions de spermatozoïdes par jour.\na) Combien en produit-il par heure ? (arrondis au millier)\nb) Combien en produit-il par seconde ? (arrondis à l'unité)\nc) Une éjaculation de 3 mL contient 60 millions de spermatozoïdes par mL. Combien de spermatozoïdes contient-elle en tout ?",
+          "solution": "1) a) Canal déférent. b) Scrotum. c) Testicule. d) Prostate. e) Épididyme. f) Urètre.\n2) Tubes séminifères du testicule → épididyme → canal déférent → urètre (en recevant le liquide des vésicules séminales et de la prostate) → sortie par le pénis.\n3) La fabrication des spermatozoïdes se fait mieux à une température un peu plus basse que celle du corps. Température des testicules : 37 − 2 = 35 °C et 37 − 3 = 34 °C, soit 34 à 35 °C. Des vêtements très serrés gardent la chaleur et peuvent gêner leur fonctionnement.\n4) a) 100 000 000 ÷ 24 ≈ 4 166 667, soit environ 4 167 000 par heure. b) 100 000 000 ÷ 86 400 ≈ 1 157 par seconde (1 jour = 24 × 3 600 = 86 400 s). c) 3 × 60 = 180 millions de spermatozoïdes."
+        }
+      ]
+    },
+    {
+      "id": "svt4-13-l2-feminin",
+      "titre": "L'appareil génital féminin",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "L'appareil génital féminin",
+          "texte": "L'appareil génital féminin produit les ovules, permet la rencontre avec les spermatozoïdes, puis accueille et fait grandir l'enfant jusqu'à la naissance. Il comprend deux ovaires, deux trompes, l'utérus, le vagin et la vulve. Les seins, ou glandes mammaires, produisent le lait après la naissance (chapitre 15)."
+        },
+        {
+          "type": "schema",
+          "titre": "L'appareil génital féminin (vue de face)",
+          "svg": "<svg width='480' height='345' viewBox='0 0 480 345' xmlns='http://www.w3.org/2000/svg' fill='currentColor' font-family='sans-serif' font-size='12'><text x='190' y='16' text-anchor='middle' font-size='11'>Vue de face (schématique)</text><path d='M160,90 C120,72 90,72 70,94' fill='none' stroke='currentColor' stroke-width='6' stroke-opacity='0.7'/><path d='M220,90 C260,72 290,72 310,94' fill='none' stroke='currentColor' stroke-width='6' stroke-opacity='0.7'/><ellipse cx='62' cy='124' rx='20' ry='28' fill='#e11d48' fill-opacity='0.25' stroke='currentColor' stroke-width='2'/><ellipse cx='318' cy='124' rx='20' ry='28' fill='#e11d48' fill-opacity='0.25' stroke='currentColor' stroke-width='2'/><path d='M158,86 Q190,72 222,86 Q234,130 212,188 L168,188 Q146,130 158,86 Z' fill='currentColor' fill-opacity='0.15' stroke='currentColor' stroke-width='2'/><rect x='172' y='188' width='36' height='24' rx='6' fill='#e11d48' fill-opacity='0.3' stroke='currentColor' stroke-width='2'/><rect x='168' y='214' width='44' height='88' rx='14' fill='currentColor' fill-opacity='0.1' stroke='currentColor' stroke-width='2'/><ellipse cx='190' cy='316' rx='30' ry='12' fill='#e11d48' fill-opacity='0.2' stroke='currentColor' stroke-width='2'/><circle cx='62' cy='124' r='9' fill='#e11d48'/><text x='62' y='128' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>1</text><circle cx='318' cy='124' r='9' fill='#e11d48'/><text x='318' y='128' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>1</text><circle cx='108' cy='77' r='9' fill='#e11d48'/><text x='108' y='81' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>2</text><circle cx='272' cy='77' r='9' fill='#e11d48'/><text x='272' y='81' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>2</text><circle cx='190' cy='130' r='9' fill='#e11d48'/><text x='190' y='134' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>3</text><circle cx='190' cy='200' r='9' fill='#e11d48'/><text x='190' y='204' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>4</text><circle cx='190' cy='258' r='9' fill='#e11d48'/><text x='190' y='262' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>5</text><circle cx='190' cy='316' r='9' fill='#e11d48'/><text x='190' y='320' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>6</text><circle cx='368' cy='50' r='9' fill='#e11d48'/><text x='368' y='54' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>1</text><text x='384' y='54'>Ovaire</text><circle cx='368' cy='76' r='9' fill='#e11d48'/><text x='368' y='80' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>2</text><text x='384' y='80'>Trompe</text><circle cx='368' cy='102' r='9' fill='#e11d48'/><text x='368' y='106' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>3</text><text x='384' y='106'>Utérus</text><circle cx='368' cy='128' r='9' fill='#e11d48'/><text x='368' y='132' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>4</text><text x='384' y='132'>Col de l'utérus</text><circle cx='368' cy='154' r='9' fill='#e11d48'/><text x='368' y='158' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>5</text><text x='384' y='158'>Vagin</text><circle cx='368' cy='180' r='9' fill='#e11d48'/><text x='368' y='184' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>6</text><text x='384' y='184'>Vulve</text></svg>",
+          "legende": "Les numéros du dessin renvoient à la liste de droite. Les deux ovaires et les deux trompes portent le même numéro."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les organes de l'appareil génital féminin",
+          "entetes": ["Organe", "Description", "Rôle"],
+          "lignes": [
+            ["Ovaires", "Deux organes en forme d'amande, d'environ 3 à 4 cm, dans le bas du ventre.", "Produisent les ovules et les hormones sexuelles (œstrogènes et progestérone)."],
+            ["Trompes (oviductes)", "Deux tubes d'environ 10 à 12 cm. L'extrémité proche de l'ovaire est un entonnoir à franges, le pavillon.", "Le pavillon recueille l'ovule. La trompe le conduit vers l'utérus. C'est là que se fait la fécondation."],
+            ["Utérus", "Organe creux et musculeux, en forme de poire renversée, d'environ 7 cm de long. Sa paroi musculaire est tapissée d'une muqueuse, l'endomètre.", "Accueille l'embryon et le fait grandir pendant la grossesse. Ses contractions aident à l'accouchement."],
+            ["Col de l'utérus", "Partie étroite de l'utérus, qui donne dans le vagin.", "Reste fermé pendant la grossesse. Il s'ouvre à l'accouchement."],
+            ["Vagin", "Conduit musculeux et élastique d'environ 8 à 10 cm.", "Reçoit le pénis. Laisse sortir le sang des règles. Laisse passer le bébé à la naissance."],
+            ["Vulve", "Ensemble des organes génitaux externes : grandes lèvres, petites lèvres, clitoris, entrées de l'urètre et du vagin.", "Protège l'entrée du vagin."],
+            ["Seins (glandes mammaires)", "Glandes qui se développent à la puberté.", "Fabriquent le lait après l'accouchement (chapitre 15)."]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Le trajet de l'ovule",
+          "texte": "Un ovule est libéré par un ovaire. Le pavillon de la trompe le recueille. Grâce aux petits cils et aux contractions de la trompe, l'ovule est poussé vers l'utérus.\nSi l'ovule rencontre des spermatozoïdes dans la trompe, la fécondation peut avoir lieu (chapitre 15). Sinon, l'ovule meurt au bout de 12 à 24 heures environ.\nLa femme libère en général un ovule tous les 28 jours environ, de la puberté à la ménopause, qui survient vers 45 à 55 ans (chapitre 14)."
+        },
+        {
+          "type": "remarque",
+          "titre": "Les ovaires et leurs follicules",
+          "texte": "À la naissance, les deux ovaires contiennent déjà plusieurs centaines de milliers de petits sacs, les follicules, qui renferment chacun un ovule en formation. La plupart disparaissent peu à peu. Seuls 400 à 500 ovules environ arrivent à maturité au cours de la vie. Les ovaires ne fabriquent donc pas d'ovules en continu comme les testicules fabriquent des spermatozoïdes."
+        },
+        {
+          "type": "remarque",
+          "titre": "Trois ouvertures séparées",
+          "texte": "Chez la femme, l'urètre (urine), le vagin (règles, naissance) et l'anus (selles) sont trois ouvertures séparées. L'urine ne passe jamais par le vagin. Cette disposition est importante pour l'hygiène (leçon 4)."
+        },
+        {
+          "type": "tableau",
+          "titre": "Comparer les deux appareils génitaux",
+          "entetes": ["Caractère", "Chez l'homme", "Chez la femme"],
+          "lignes": [
+            ["Gonades", "Deux testicules, dans le scrotum", "Deux ovaires, dans le bas du ventre"],
+            ["Cellule reproductrice", "Spermatozoïde", "Ovule"],
+            ["Production", "Continue, depuis la puberté, environ 100 millions par jour", "Un ovule environ tous les 28 jours, de la puberté à la ménopause"],
+            ["Hormones", "Testostérone", "Œstrogènes et progestérone"],
+            ["Conduits", "Épididyme, canal déférent, urètre", "Pavillon, trompe, utérus, vagin"],
+            ["Autres organes", "Vésicules séminales et prostate (liquides du sperme)", "Seins (lait pour le bébé)"],
+            ["Organe de la copulation", "Pénis", "Vagin"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["ovaire", "gonade femelle qui produit les ovules et des hormones"],
+            ["follicule", "petit sac de l'ovaire qui contient un ovule en formation"],
+            ["trompe (oviducte)", "tube qui conduit l'ovule vers l'utérus et où se fait la fécondation"],
+            ["pavillon", "extrémité de la trompe en forme d'entonnoir à franges"],
+            ["utérus", "organe creux et musculeux où se développe l'enfant"],
+            ["endomètre", "muqueuse qui tapisse l'intérieur de l'utérus"],
+            ["col de l'utérus", "partie étroite de l'utérus, qui donne dans le vagin"],
+            ["vagin", "conduit musculeux et élastique qui relie l'utérus à la vulve"],
+            ["vulve", "organes génitaux externes de la femme"],
+            ["glande mammaire", "glande du sein qui fabrique le lait"],
+            ["ménopause", "arrêt des règles et de l'ovulation, vers 45 à 55 ans"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Retrouve l'organe.\na) Lieu de production des ovules.\nb) Tube où se fait la fécondation.\nc) Organe creux et musculeux où se développe l'embryon.\nd) Conduit élastique qui reçoit le pénis et laisse passer le bébé à la naissance.\ne) Entonnoir à franges qui recueille l'ovule.\n2) Écris le trajet de l'ovule, depuis l'ovaire jusqu'à l'utérus.\n3) Vrai ou faux ? Corrige celles qui sont fausses.\na) Les ovaires produisent des hormones sexuelles.\nb) La fécondation se fait normalement dans le vagin.\nc) L'urine et le sang des règles sortent par le même conduit.\nd) Les testicules produisent des spermatozoïdes sans arrêt, alors que les ovaires libèrent un ovule environ tous les 28 jours.\n4) On admet qu'une femme libère un ovule tous les 28 jours, de 13 à 50 ans, sans interruption.\na) Combien de cycles environ par an ? (365 ÷ 28, arrondi à l'unité)\nb) Combien d'ovules pendant ces 37 ans ?\nc) Pendant 28 jours, un homme produit 100 millions de spermatozoïdes par jour. Combien de spermatozoïdes cela fait-il ? Que conclus-tu ?",
+          "solution": "1) a) Ovaire. b) Trompe (oviducte). c) Utérus. d) Vagin. e) Pavillon de la trompe.\n2) Ovaire → pavillon → trompe → utérus.\n3) a) Vrai. b) Faux : la fécondation se fait dans la trompe. c) Faux : l'urine sort par l'urètre, le sang des règles par le vagin. d) Vrai.\n4) a) 365 ÷ 28 ≈ 13,04, soit environ 13 cycles par an. b) 37 × 13 = 481 ovules. En réalité, il y en a un peu moins (grossesses, allaitement), ce qui correspond à 400 à 500 ovules. c) 28 × 100 000 000 = 2 800 000 000, soit 2,8 milliards de spermatozoïdes. L'homme produit des milliards de spermatozoïdes pendant que la femme libère un seul ovule : les gamètes mâles sont produits en très grand nombre, les gamètes femelles en très petit nombre."
+        }
+      ]
+    },
+    {
+      "id": "svt4-13-l3-gametes",
+      "titre": "Les cellules reproductrices : spermatozoïde et ovule",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Les gamètes",
+          "texte": "Les cellules reproductrices sont appelées gamètes. Le gamète mâle est le spermatozoïde, le gamète femelle est l'ovule. Ils sont produits par les gonades. Quand un spermatozoïde et un ovule s'unissent, c'est la fécondation (chapitre 15) : ils forment une cellule-œuf, qui deviendra un nouvel être humain."
+        },
+        {
+          "type": "schema",
+          "titre": "Un ovule et un spermatozoïde",
+          "svg": "<svg width='480' height='262' viewBox='0 0 480 262' xmlns='http://www.w3.org/2000/svg' fill='currentColor' font-family='sans-serif' font-size='12'><text x='110' y='22' text-anchor='middle' font-weight='bold'>Ovule</text><text x='340' y='22' text-anchor='middle' font-weight='bold'>Spermatozoïde</text><circle cx='110' cy='120' r='65' fill='none' stroke='currentColor' stroke-opacity='0.7' stroke-dasharray='5 3'/><circle cx='110' cy='120' r='55' fill='currentColor' fill-opacity='0.08' stroke='currentColor' stroke-width='2'/><circle cx='110' cy='120' r='13' fill='#e11d48' fill-opacity='0.5' stroke='currentColor'/><circle cx='110' cy='120' r='8' fill='#e11d48'/><text x='110' y='124' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>1</text><circle cx='110' cy='168' r='8' fill='#e11d48'/><text x='110' y='172' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>2</text><circle cx='110' cy='60' r='8' fill='#e11d48'/><text x='110' y='64' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>3</text><ellipse cx='262' cy='130' rx='20' ry='13' fill='#e11d48' fill-opacity='0.3' stroke='currentColor' stroke-width='2'/><rect x='282' y='124' width='24' height='12' fill='currentColor' fill-opacity='0.3' stroke='currentColor'/><path d='M306,130 q15,-14 30,0 t30,0 t30,0 t30,0' fill='none' stroke='currentColor' stroke-width='2.5'/><circle cx='262' cy='130' r='8' fill='#e11d48'/><text x='262' y='134' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>4</text><line x1='294' y1='108' x2='294' y2='124' stroke='currentColor' stroke-width='1.5'/><circle cx='294' cy='100' r='8' fill='#e11d48'/><text x='294' y='104' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>5</text><line x1='366' y1='108' x2='366' y2='128' stroke='currentColor' stroke-width='1.5'/><circle cx='366' cy='100' r='8' fill='#e11d48'/><text x='366' y='104' text-anchor='middle' font-size='11' font-weight='bold' fill='#ffffff'>6</text><text x='20' y='215' font-size='11'>Ovule : 1 noyau ; 2 cytoplasme riche en réserves ; 3 enveloppes protectrices</text><text x='20' y='232' font-size='11'>Spermatozoïde : 4 tête (contient le noyau) ; 5 pièce intermédiaire (énergie) ;</text><text x='20' y='248' font-size='11'>6 flagelle (mouvement)</text></svg>",
+          "legende": "Les deux cellules ne sont pas à la même échelle : le spermatozoïde est dessiné beaucoup plus grand qu'en réalité par rapport à l'ovule."
+        },
+        {
+          "type": "tableau",
+          "titre": "Comparer le spermatozoïde et l'ovule",
+          "entetes": ["Caractère", "Spermatozoïde", "Ovule"],
+          "lignes": [
+            ["Lieu de production", "Testicules (tubes séminifères)", "Ovaires (follicules)"],
+            ["Taille", "Environ 60 µm (0,06 mm) de long : tête de 5 µm, pièce intermédiaire de 5 µm, flagelle de 50 µm", "Environ 100 µm (0,1 mm) de diamètre : à peine visible à l'œil nu"],
+            ["Forme", "Tête, pièce intermédiaire et long flagelle", "Sphérique, entourée d'enveloppes"],
+            ["Mobilité", "Mobile : le flagelle le fait avancer, à environ 3 mm par minute", "Immobile : les cils et les contractions de la trompe le poussent"],
+            ["Réserves", "Presque aucune", "Beaucoup, dans le cytoplasme"],
+            ["Nombre", "Des centaines de millions par éjaculation", "Un seul libéré environ tous les 28 jours"],
+            ["Durée de vie après l'émission", "3 à 5 jours environ dans les voies génitales de la femme", "12 à 24 heures environ"],
+            ["Chromosomes dans le noyau", "23", "23"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Chaque gamète est adapté à son rôle",
+          "texte": "Le spermatozoïde est petit et léger, et mobile : il doit parcourir un long chemin pour rejoindre l'ovule. La pièce intermédiaire lui fournit l'énergie nécessaire, et sa tête transporte son noyau.\nL'ovule est grand et immobile : il contient des réserves qui nourriront l'embryon pendant les premiers jours.\nLes spermatozoïdes sont produits en très grand nombre, car beaucoup se perdent en chemin. Un seul spermatozoïde féconde l'ovule."
+        },
+        {
+          "type": "definition",
+          "titre": "Les chromosomes",
+          "texte": "Le noyau de chaque cellule contient des chromosomes, qui portent les caractères transmis des parents aux enfants (l'hérédité). Les cellules du corps humain ont 46 chromosomes. Un gamète n'en a que 23, la moitié. Lors de la fécondation, le noyau du spermatozoïde et celui de l'ovule s'unissent : la cellule-œuf a donc 23 + 23 = 46 chromosomes, dont la moitié vient de chaque parent."
+        },
+        {
+          "type": "remarque",
+          "titre": "Qui détermine le sexe de l'enfant ?",
+          "texte": "Parmi les 46 chromosomes, deux sont des chromosomes sexuels : XX chez la femme et XY chez l'homme. Chaque ovule porte un chromosome X. Un spermatozoïde porte soit un X, soit un Y. Si le spermatozoïde porte un X, l'enfant sera une fille (XX). S'il porte un Y, ce sera un garçon (XY). C'est donc le spermatozoïde qui détermine le sexe de l'enfant. La mère n'y est pour rien et ne doit jamais être blâmée pour le sexe de l'enfant."
+        },
+        {
+          "type": "formule",
+          "titre": "Le grossissement d'un dessin",
+          "texte": "Grossissement = taille du dessin ÷ taille réelle\nLes deux tailles doivent être dans la même unité. Le grossissement n'a pas d'unité."
+        },
+        {
+          "type": "exemple",
+          "titre": "Calculer un grossissement",
+          "texte": "Un élève dessine un ovule de 6 cm de diamètre. Sa taille réelle est 0,1 mm. On convertit : 6 cm = 60 mm. Grossissement = 60 ÷ 0,1 = 600.\nPour un spermatozoïde dessiné de 12 cm de long (taille réelle 0,06 mm) : 12 cm = 120 mm, et 120 ÷ 0,06 = 2 000."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["gamète", "cellule reproductrice (spermatozoïde ou ovule)"],
+            ["spermatozoïde", "gamète mâle, mobile, muni d'un flagelle"],
+            ["ovule", "gamète femelle, grand et immobile"],
+            ["flagelle", "long filament qui fait avancer le spermatozoïde"],
+            ["cytoplasme", "contenu de la cellule autour du noyau"],
+            ["chromosome", "élément du noyau qui porte les caractères héréditaires"],
+            ["cellule-œuf", "cellule formée par l'union d'un spermatozoïde et d'un ovule"],
+            ["micromètre (µm)", "millième de millimètre"],
+            ["grossissement", "nombre de fois que le dessin est plus grand que l'objet réel"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Cite trois différences entre l'ovule et le spermatozoïde.\n2) Un élève dessine un spermatozoïde de 15 cm de long. Sa longueur réelle est 0,06 mm. Calcule le grossissement. Il dessine aussi un ovule de 8 cm de diamètre (taille réelle 0,1 mm) : calcule le grossissement.\n3) Un spermatozoïde mesure 60 µm en tout. Sa tête mesure 5 µm et sa pièce intermédiaire 5 µm. Calcule la longueur de son flagelle.\n4) On admet qu'un spermatozoïde avance à 3 mm par minute. Quelle durée met-il pour parcourir 12 cm, entre le col de l'utérus et la trompe ? (valeurs simplifiées : en réalité les contractions de l'utérus l'aident)\n5) Une cellule du corps a 46 chromosomes. Combien en ont l'ovule, le spermatozoïde et la cellule-œuf ? Un couple a une fille : quel chromosome sexuel le spermatozoïde a-t-il apporté ? Qui détermine le sexe de l'enfant ?",
+          "solution": "1) Par exemple : l'ovule est plus gros (0,1 mm contre 0,06 mm de long), il est immobile alors que le spermatozoïde est mobile, il est riche en réserves alors que le spermatozoïde n'en a presque pas, il y en a un seul tous les 28 jours environ contre des centaines de millions de spermatozoïdes, il vit 12 à 24 heures contre 3 à 5 jours (trois différences suffisent).\n2) 15 cm = 150 mm : 150 ÷ 0,06 = 2 500. Ovule : 8 cm = 80 mm : 80 ÷ 0,1 = 800.\n3) 60 − 5 − 5 = 50 µm.\n4) 12 cm = 120 mm. 120 ÷ 3 = 40 minutes.\n5) Ovule : 23 chromosomes. Spermatozoïde : 23. Cellule-œuf : 23 + 23 = 46. Pour une fille (XX), le spermatozoïde a apporté un chromosome X. C'est le spermatozoïde qui détermine le sexe de l'enfant."
+        }
+      ]
+    },
+    {
+      "id": "svt4-13-l4-hygiene",
+      "titre": "Hygiène et santé des organes génitaux",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "L'hygiène intime",
+          "texte": "L'hygiène intime est l'ensemble des soins de propreté des organes génitaux externes. Elle protège contre les infections, les irritations et les mauvaises odeurs. Elle devient particulièrement importante à la puberté, quand la transpiration augmente et que les règles apparaissent pour les filles (chapitre 12)."
+        },
+        {
+          "type": "schema",
+          "titre": "Voies urinaires et voies génitales",
+          "svg": "<svg width='480' height='250' viewBox='0 0 480 250' xmlns='http://www.w3.org/2000/svg' fill='currentColor' font-family='sans-serif' font-size='12'><line x1='240' y1='10' x2='240' y2='240' stroke='currentColor' stroke-opacity='0.4' stroke-dasharray='4 4'/><text x='115' y='18' text-anchor='middle' font-weight='bold'>Femme</text><text x='365' y='18' text-anchor='middle' font-weight='bold'>Homme</text><ellipse cx='70' cy='65' rx='34' ry='24' fill='currentColor' fill-opacity='0.1' stroke='currentColor' stroke-width='2'/><text x='70' y='69' text-anchor='middle' font-size='11'>Vessie</text><line x1='70' y1='89' x2='70' y2='190' stroke='#e11d48' stroke-width='4'/><ellipse cx='150' cy='80' rx='26' ry='20' fill='currentColor' fill-opacity='0.1' stroke='currentColor' stroke-width='2'/><text x='150' y='84' text-anchor='middle' font-size='11'>Utérus</text><rect x='140' y='100' width='20' height='90' rx='8' fill='currentColor' fill-opacity='0.15' stroke='currentColor' stroke-width='2'/><text x='62' y='150' text-anchor='end' font-size='11'>Urètre</text><text x='166' y='150' font-size='11'>Vagin</text><text x='115' y='214' text-anchor='middle' font-size='11'>Deux conduits séparés :</text><text x='115' y='230' text-anchor='middle' font-size='11'>urètre (urine) et vagin</text><ellipse cx='330' cy='65' rx='34' ry='24' fill='currentColor' fill-opacity='0.1' stroke='currentColor' stroke-width='2'/><text x='330' y='69' text-anchor='middle' font-size='11'>Vessie</text><rect x='318' y='130' width='24' height='80' rx='10' fill='currentColor' fill-opacity='0.1' stroke='currentColor' stroke-width='2'/><line x1='330' y1='89' x2='330' y2='205' stroke='#e11d48' stroke-width='4'/><path d='M400,200 C400,140 380,115 332,115' fill='none' stroke='currentColor' stroke-width='3'/><text x='322' y='170' text-anchor='end' font-size='11'>Urètre commun</text><text x='410' y='150' font-size='11'>Canal</text><text x='410' y='164' font-size='11'>déférent</text><text x='350' y='195' font-size='11'>Pénis</text><text x='365' y='214' text-anchor='middle' font-size='11'>Un seul conduit, l'urètre :</text><text x='365' y='230' text-anchor='middle' font-size='11'>urine ou sperme, jamais ensemble</text></svg>",
+          "legende": "Schéma très simplifié. Le trait rouge représente l'urètre."
+        },
+        {
+          "type": "regle",
+          "titre": "Hygiène intime des filles",
+          "texte": "- Laver chaque jour l'extérieur de la vulve avec de l'eau propre (et, si on veut, un savon doux sans parfum), puis sécher avec une serviette propre.\n- Toujours essuyer et laver d'avant en arrière, de la vulve vers l'anus, jamais dans l'autre sens : cela évite d'amener des microbes de l'intestin vers l'urètre et le vagin.\n- Ne pas faire de douche vaginale et ne rien introduire dans le vagin (produits, plantes, liquides) : le vagin se nettoie tout seul, et ses sécrétions normales le protègent des microbes.\n- Porter des sous-vêtements en coton, propres, bien secs (séchés au soleil), et les changer chaque jour.\n- Pendant les règles : changer la protection toutes les 4 à 6 heures environ, se laver les mains avant et après. Un tissu réutilisable doit être lavé à l'eau et au savon, séché complètement au soleil, puis rangé propre.\n- Uriner régulièrement, ne pas se retenir trop longtemps, et boire de l'eau potable (chapitre 8)."
+        },
+        {
+          "type": "regle",
+          "titre": "Hygiène intime des garçons",
+          "texte": "- Laver chaque jour les organes génitaux externes à l'eau propre et au savon doux, puis sécher.\n- Si le garçon n'est pas circoncis, décalotter doucement le prépuce pour laver le gland, sécher, puis le remettre en place. Ne jamais forcer : si cela fait mal, consulter.\n- Porter des sous-vêtements propres, changés chaque jour, et éviter les vêtements très serrés.\n- Protéger les testicules pendant le sport et éviter les coups.\n- Uriner régulièrement."
+        },
+        {
+          "type": "remarque",
+          "titre": "La circoncision",
+          "texte": "La circoncision est l'ablation du prépuce. Elle est pratiquée dans certaines familles pour des raisons coutumières, religieuses ou médicales. Quand elle est choisie, elle doit être faite par une personne formée, avec du matériel propre et stérile, pour éviter les hémorragies et les infections. Après l'opération, il faut garder la plaie propre et surveiller la cicatrisation. En cas de saignement qui ne s'arrête pas, de fièvre ou d'une plaie qui gonfle ou coule, il faut aller au centre de santé."
+        },
+        {
+          "type": "tableau",
+          "titre": "Signes d'alerte : quand consulter ?",
+          "entetes": ["Signe", "Que faire"],
+          "lignes": [
+            ["Démangeaisons, rougeur, écoulement inhabituel (couleur ou odeur)", "Consulter un agent de santé. Ne pas se soigner seul avec des produits ou des plantes non conseillés."],
+            ["Brûlure en urinant, besoin d'uriner très fréquent", "Boire de l'eau et consulter : c'est souvent une infection urinaire."],
+            ["Plaie, bouton ou ulcération sur les organes génitaux", "Consulter vite : cela peut être une infection sexuellement transmissible (chapitre 16)."],
+            ["Douleur brutale et forte d'un testicule, avec gonflement", "Urgence : aller tout de suite à l'hôpital."],
+            ["Boule ou gonflement dans un testicule", "Consulter."],
+            ["Règles très douloureuses, très abondantes, ou absentes sans raison", "Consulter. Une absence de règles peut aussi être le signe d'une grossesse (chapitre 15)."],
+            ["Douleur au bas du ventre avec fièvre", "Consulter vite."]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Les infections sexuellement transmissibles",
+          "texte": "Les infections sexuellement transmissibles (IST) se transmettent surtout par les relations sexuelles non protégées. Si elles ne sont pas soignées, elles peuvent abîmer les organes génitaux et rendre stérile. Elles sont étudiées au chapitre 16, avec les moyens de s'en protéger."
+        },
+        {
+          "type": "remarque",
+          "titre": "Respect et confiance",
+          "texte": "Le corps de chacun mérite le respect. On ne se moque pas d'un camarade, et on ne touche jamais le corps de quelqu'un sans son accord. Parler de santé génitale à un agent de santé n'a rien de honteux : les soins et les paroles échangées restent confidentiels. Poser des questions vaut mieux que de croire les rumeurs."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["hygiène intime", "soins de propreté des organes génitaux externes"],
+            ["douche vaginale", "lavage de l'intérieur du vagin, déconseillé car il détruit la protection naturelle"],
+            ["protection périodique", "serviette ou tissu qui absorbe le sang des règles"],
+            ["infection urinaire", "infection de la vessie ou de l'urètre par des microbes"],
+            ["circoncision", "ablation du prépuce"],
+            ["confidentiel", "qui reste secret, qui n'est pas répété"],
+            ["stérile", "sans aucun microbe (pour du matériel) ; qui ne peut pas avoir d'enfant (pour une personne)"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Vrai ou faux ? Corrige celles qui sont fausses.\na) Il faut laver la vulve d'avant en arrière, de la vulve vers l'anus.\nb) La douche vaginale avec des produits est recommandée pour rester propre.\nc) Une douleur brutale et forte d'un testicule peut attendre quelques jours.\nd) Un tissu réutilisable doit être lavé au savon et séché complètement au soleil.\n2) Une jeune fille de 14 ans a des démangeaisons et un écoulement inhabituel. Une amie lui conseille d'introduire des plantes dans le vagin. Que lui réponds-tu ?\n3) Une élève change sa protection 4 fois par jour pendant 5 jours de règles, avec des serviettes. Un paquet de 8 serviettes coûte 2 400 Ar.\na) Combien de serviettes utilise-t-elle par cycle ?\nb) Quel est le prix d'une serviette ?\nc) Quel est le coût par cycle ?\nd) Quel est le coût par an, avec 13 cycles ?\ne) Propose une manière de réduire cette dépense sans risque pour la santé.\n4) Cite trois gestes d'hygiène importants pour un garçon.",
+          "solution": "1) a) Vrai. b) Faux : le vagin se nettoie tout seul, et les produits détruisent sa protection naturelle. c) Faux : c'est une urgence, il faut aller tout de suite à l'hôpital. d) Vrai.\n2) Je lui dis de ne rien introduire dans le vagin, car des plantes peuvent irriter ou aggraver l'infection. Elle doit aller consulter un agent de santé, qui trouvera la cause et donnera le traitement adapté.\n3) a) 4 × 5 = 20 serviettes. b) 2 400 ÷ 8 = 300 Ar. c) 20 × 300 = 6 000 Ar par cycle. d) 6 000 × 13 = 78 000 Ar par an. e) Utiliser des protections en tissu propre et réutilisables, lavées à l'eau et au savon et séchées complètement au soleil, et les changer aussi souvent que des serviettes.\n4) Par exemple : se laver chaque jour à l'eau propre et au savon doux, changer chaque jour de sous-vêtements propres, laver le gland en décalottant doucement s'il n'est pas circoncis, protéger les testicules pendant le sport, consulter en cas de douleur ou de gonflement (trois réponses suffisent)."
+        }
+      ]
+    }
+  ]
+}
