@@ -1,0 +1,330 @@
+{
+  "id": "svt4-3-respiration-plantes",
+  "titre": "La respiration des plantes",
+  "lecons": [
+    {
+      "id": "svt4-3-l1-dioxyde-carbone",
+      "titre": "Les plantes rejettent du dioxyde de carbone",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Respiration d'une plante",
+          "texte": "La respiration d'une plante est un échange de gaz avec l'air : elle absorbe du dioxygène (O₂) et rejette du dioxyde de carbone (CO₂). Elle a lieu jour et nuit, dans toutes les parties vivantes de la plante."
+        },
+        {
+          "type": "remarque",
+          "titre": "Hypothèse",
+          "texte": "Les animaux respirent. Les plantes respirent-elles aussi ? On propose l'hypothèse suivante : une plante rejette du dioxyde de carbone. Pour la vérifier, il faut un test qui reconnaît ce gaz : l'eau de chaux."
+        },
+        {
+          "type": "regle",
+          "titre": "Le test du dioxyde de carbone",
+          "texte": "L'eau de chaux est un liquide limpide. En présence de dioxyde de carbone, elle se trouble : elle devient blanche et laiteuse. C'est le test de ce gaz."
+        },
+        {
+          "type": "methode",
+          "titre": "Expérience 1 : des graines en germination",
+          "texte": "1. Faire germer des graines de haricot ou de maïs sur du coton humide pendant 2 à 3 jours.\n2. Mettre environ 100 g de ces graines dans un bocal. Y placer un petit gobelet d'eau de chaux limpide, sans que le liquide touche les graines.\n3. Fermer le bocal avec un couvercle bien étanche.\n4. Préparer un bocal témoin identique, avec des graines qu'on a fait cuire (elles sont mortes), et un gobelet d'eau de chaux.\n5. Attendre quelques heures (une nuit, par exemple).\n\nObservations : dans le bocal aux graines vivantes, l'eau de chaux se trouble. Dans le bocal témoin, elle reste limpide.\n\nConclusion : les graines vivantes en germination rejettent du dioxyde de carbone. Elles respirent."
+        },
+        {
+          "type": "schema",
+          "titre": "Le dioxyde de carbone rejeté par les graines",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='460' height='230' viewBox='0 0 460 230' role='img' aria-label='Bocal fermé avec des graines en germination et un gobelet d eau de chaux' font-family='sans-serif' font-size='12'><path d='M110 52 V200 H250 V52' fill='none' stroke='currentColor' stroke-width='2'/><rect x='104' y='44' width='152' height='8' fill='currentColor' fill-opacity='0.3' stroke='currentColor'/><rect x='167' y='168' width='36' height='32' fill='#94a3b8' fill-opacity='0.55'/><path d='M166 150 V200 H204 V150' fill='none' stroke='currentColor' stroke-width='1.5'/><ellipse cx='122' cy='192' rx='8' ry='6' fill='#92400e' fill-opacity='0.6'/><ellipse cx='138' cy='194' rx='8' ry='6' fill='#92400e' fill-opacity='0.6'/><ellipse cx='154' cy='192' rx='8' ry='6' fill='#92400e' fill-opacity='0.6'/><path d='M122 186 Q118 176 124 170 M138 188 Q142 178 136 172 M154 186 Q150 176 156 170' stroke='#16a34a' stroke-width='2' fill='none'/><path d='M142 160 C142 120 180 118 185 142 M179 135 L185 143 L191 135' stroke='#e11d48' stroke-width='2' fill='none'/><text x='150' y='114' fill='#e11d48'>CO₂</text><line x1='257' y1='48' x2='272' y2='48' stroke='currentColor' stroke-opacity='0.6'/><text x='277' y='52' fill='currentColor'>Couvercle</text><line x1='251' y1='100' x2='272' y2='100' stroke='currentColor' stroke-opacity='0.6'/><text x='277' y='104' fill='currentColor'>Bocal fermé</text><line x1='205' y1='185' x2='272' y2='185' stroke='currentColor' stroke-opacity='0.6'/><text x='277' y='189' fill='currentColor'>Eau de chaux troublée</text><line x1='130' y1='200' x2='130' y2='212' stroke='currentColor' stroke-opacity='0.6'/><text x='104' y='226' fill='currentColor'>Graines en germination</text></svg>",
+          "legende": "L'eau de chaux se trouble : les graines vivantes ont rejeté du dioxyde de carbone."
+        },
+        {
+          "type": "methode",
+          "titre": "Expérience 2 : des feuilles à l'obscurité",
+          "texte": "À la lumière, une plante verte absorbe du dioxyde de carbone pour fabriquer des sucres (voir chapitre 4). Cela cacherait celui qu'elle rejette. On fait donc l'expérience à l'obscurité.\n\n1. Mettre des feuilles fraîches dans un bocal, avec un gobelet d'eau de chaux limpide. Fermer le bocal.\n2. Envelopper le bocal de papier noir ou d'un tissu épais.\n3. Préparer un bocal témoin identique, sans feuilles, aussi enveloppé de noir.\n4. Attendre 24 heures.\n\nObservations : l'eau de chaux se trouble dans le bocal aux feuilles. Elle reste limpide dans le témoin.\n\nConclusion : les feuilles vertes rejettent aussi du dioxyde de carbone. Les graines et les feuilles respirent."
+        },
+        {
+          "type": "remarque",
+          "titre": "Tous les organes respirent",
+          "texte": "On obtient le même résultat avec des fleurs, des fruits, des racines ou des morceaux de pomme de terre. Tous les organes vivants d'une plante respirent."
+        },
+        {
+          "type": "remarque",
+          "titre": "Sécurité",
+          "texte": "L'eau de chaux est irritante : porter des lunettes de protection, ne pas la boire et ne pas se frotter les yeux. En cas de contact avec la peau ou les yeux, rincer abondamment à l'eau."
+        },
+        {
+          "type": "regle",
+          "titre": "À retenir",
+          "texte": "Les plantes rejettent du dioxyde de carbone : elles respirent, comme les animaux. Le CO₂ se reconnaît avec l'eau de chaux, qui se trouble. Toutes les parties vivantes de la plante respirent. Pour la mettre en évidence chez une plante verte, on travaille à l'obscurité."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Respiration", "Échange de gaz : la plante absorbe du dioxygène et rejette du dioxyde de carbone."],
+            ["Eau de chaux", "Liquide limpide qui se trouble en présence de dioxyde de carbone."],
+            ["Germination", "Début du développement d'une graine : elle gonfle et une petite plante en sort."],
+            ["Témoin", "Montage identique mais sans le facteur étudié, pour pouvoir comparer."],
+            ["Étanche", "Qui ne laisse passer ni l'air ni les liquides."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "On place 100 g de graines de haricot en germination dans le bocal A, et 100 g de graines de haricot cuites dans le bocal B. Chaque bocal contient un gobelet d'eau de chaux limpide et est fermé. Le lendemain, l'eau de chaux est trouble dans le bocal A et limpide dans le bocal B.\n1. Quel gaz trouble l'eau de chaux ?\n2. Pourquoi a-t-on utilisé des graines cuites dans le bocal B ?\n3. Que peux-tu conclure de cette expérience ?\n4. Pourquoi réalise-t-on l'expérience à l'obscurité quand on utilise une plante verte ?",
+          "solution": "1. Le dioxyde de carbone (CO₂).\n2. Les graines cuites sont mortes : le bocal B est le témoin. Il montre que le dioxyde de carbone vient des graines vivantes et non du bocal ou de l'air.\n3. Les graines vivantes rejettent du dioxyde de carbone : elles respirent.\n4. À la lumière, une plante verte absorbe du dioxyde de carbone pour fabriquer des sucres. Ce gaz absorbé cacherait celui que la plante rejette par sa respiration."
+        }
+      ]
+    },
+    {
+      "id": "svt4-3-l2-dioxygene",
+      "titre": "Les plantes consomment du dioxygène",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Dioxygène",
+          "texte": "Le dioxygène (O₂) est le gaz de l'air qui entretient la respiration et les combustions. L'air en contient environ 21 %, c'est-à-dire à peu près un cinquième de son volume."
+        },
+        {
+          "type": "remarque",
+          "titre": "Hypothèse",
+          "texte": "Si la plante respire, elle doit aussi consommer du dioxygène. On propose l'hypothèse suivante : en respirant dans un bocal fermé, des graines font baisser la quantité de dioxygène de l'air. Pour la vérifier, on utilise une bougie : elle ne brûle bien que s'il y a assez de dioxygène."
+        },
+        {
+          "type": "methode",
+          "titre": "Expérience : la bougie dans le bocal",
+          "texte": "1. Mettre des graines en germination dans un bocal A et le fermer. Fermer un bocal B identique, rempli d'air, sans graines.\n2. Attendre 24 heures.\n3. Ouvrir les bocaux l'un après l'autre et y descendre aussitôt une bougie allumée, fixée à un fil de fer.\n\nObservations : dans le bocal B, la bougie continue de brûler. Dans le bocal A, la flamme faiblit, puis s'éteint presque tout de suite.\n\nConclusion : les graines ont consommé une grande partie du dioxygène du bocal A. Elles ont besoin de dioxygène pour respirer."
+        },
+        {
+          "type": "schema",
+          "titre": "La bougie dans les deux bocaux",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='400' height='230' viewBox='0 0 400 230' role='img' aria-label='Deux bocaux avec une bougie, l un avec de l air frais et l autre avec des graines en germination' font-family='sans-serif' font-size='12'><text x='100' y='34' text-anchor='middle' fill='currentColor'>A : air frais</text><text x='280' y='34' text-anchor='middle' fill='currentColor'>B : après 24 h de germination</text><rect x='36' y='44' width='128' height='8' fill='currentColor' fill-opacity='0.3' stroke='currentColor'/><path d='M40 52 V190 H160 V52' fill='none' stroke='currentColor' stroke-width='2'/><rect x='95' y='145' width='10' height='45' fill='#fbbf24' fill-opacity='0.5' stroke='currentColor'/><path d='M100 120 C93 132 95 145 100 145 C105 145 107 132 100 120 Z' fill='#f59e0b' fill-opacity='0.8'/><text x='100' y='80' text-anchor='middle' fill='currentColor'>Air : 21 % de O₂</text><rect x='216' y='44' width='128' height='8' fill='currentColor' fill-opacity='0.3' stroke='currentColor'/><path d='M220 52 V190 H340 V52' fill='none' stroke='currentColor' stroke-width='2'/><rect x='275' y='145' width='10' height='45' fill='#fbbf24' fill-opacity='0.5' stroke='currentColor'/><path d='M280 138 C274 128 286 122 280 112' fill='none' stroke='currentColor' stroke-opacity='0.4' stroke-width='2'/><ellipse cx='240' cy='184' rx='8' ry='5' fill='#92400e' fill-opacity='0.6'/><ellipse cx='256' cy='186' rx='8' ry='5' fill='#92400e' fill-opacity='0.6'/><ellipse cx='304' cy='184' rx='8' ry='5' fill='#92400e' fill-opacity='0.6'/><ellipse cx='320' cy='186' rx='8' ry='5' fill='#92400e' fill-opacity='0.6'/><path d='M240 179 Q236 170 242 165 M304 179 Q308 170 302 165' stroke='#16a34a' stroke-width='2' fill='none'/><text x='280' y='78' text-anchor='middle' fill='#e11d48'>Moins de O₂</text><text x='280' y='96' text-anchor='middle' fill='#e11d48'>Plus de CO₂</text><text x='100' y='215' text-anchor='middle' fill='currentColor'>La bougie brûle</text><text x='280' y='215' text-anchor='middle' fill='#e11d48'>La bougie s’éteint</text></svg>",
+          "legende": "Dans le bocal B, les graines ont consommé le dioxygène : la bougie s'éteint."
+        },
+        {
+          "type": "remarque",
+          "titre": "Sécurité",
+          "texte": "Manipuler la bougie avec l'aide du professeur, loin du papier et des vêtements. Ne pas se pencher au-dessus du bocal."
+        },
+        {
+          "type": "tableau",
+          "titre": "La composition de l'air (valeurs approximatives)",
+          "entetes": ["Gaz", "Part du volume de l'air"],
+          "lignes": [
+            ["Diazote (N₂)", "environ 78 %"],
+            ["Dioxygène (O₂)", "environ 21 %"],
+            ["Dioxyde de carbone (CO₂)", "environ 0,04 %"],
+            ["Autres gaz (argon, vapeur d'eau...)", "environ 1 %"]
+          ]
+        },
+        {
+          "type": "formule",
+          "titre": "Volume de dioxygène dans l'air",
+          "texte": "volume de O₂ = volume d'air × 21 ÷ 100\n1 L = 1 000 mL"
+        },
+        {
+          "type": "exemple",
+          "titre": "Un bocal d'un litre",
+          "texte": "Un bocal contient 1 L d'air, soit 1 000 mL.\nVolume de dioxygène : 1 000 × 21 ÷ 100 = 210 mL."
+        },
+        {
+          "type": "remarque",
+          "titre": "Les racines aussi ont besoin d'air",
+          "texte": "Les racines respirent : elles prennent le dioxygène de l'air qui se trouve entre les grains de terre. Dans un sol très tassé ou inondé pendant longtemps, l'air manque. Chez la plupart des plantes, les racines manquent alors de dioxygène : elles s'abîment, la plante jaunit et peut mourir. C'est pourquoi on bine la terre, c'est-à-dire qu'on l'ameublit autour des plants."
+        },
+        {
+          "type": "regle",
+          "titre": "À retenir",
+          "texte": "La plante consomme du dioxygène en respirant, comme elle rejette du dioxyde de carbone. Dans un bocal fermé, des graines en germination font baisser la quantité de dioxygène : une bougie s'y éteint. L'air contient environ 21 % de dioxygène."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Dioxygène", "Gaz de l'air (O₂) qui entretient la respiration et les combustions."],
+            ["Diazote", "Gaz le plus abondant de l'air (N₂). Il n'entretient pas la combustion."],
+            ["Combustion", "Réaction où une matière brûle avec le dioxygène."],
+            ["Biner", "Ameublir la terre autour des plants avec une binette."],
+            ["Asphyxie", "Manque de dioxygène qui empêche de respirer."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Un flacon contient 500 mL d'air. On y enferme des graines en germination pendant 24 heures. Un flacon témoin identique contient 500 mL d'air sans graines.\n1. Calcule le volume de dioxygène contenu dans 500 mL d'air (21 %).\n2. Les graines ont consommé 30 mL de dioxygène. Quel volume en reste-t-il ? À quel pourcentage environ du volume du flacon cela correspond-il ?\n3. On plonge une bougie allumée dans chaque flacon. Qu'observe-t-on ? Explique.\n4. Pourquoi un plant dans un sol inondé pendant des semaines jaunit-il ?",
+          "solution": "1. 500 × 21 ÷ 100 = 105 mL de dioxygène.\n2. 105 − 30 = 75 mL. Cela correspond à 75 ÷ 500 × 100 = 15 % environ du volume du flacon.\n3. Dans le flacon témoin, la bougie continue de brûler. Dans le flacon avec les graines, la flamme faiblit et s'éteint, car les graines ont consommé une partie du dioxygène.\n4. Dans un sol inondé, l'air ne circule plus entre les grains de terre. Les racines manquent de dioxygène, elles ne peuvent plus respirer : elles s'abîment, absorbent mal l'eau et la plante jaunit."
+        }
+      ]
+    },
+    {
+      "id": "svt4-3-l3-intensite",
+      "titre": "L'intensité respiratoire et ses facteurs",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Intensité respiratoire",
+          "texte": "L'intensité respiratoire d'un organe est la quantité de dioxygène qu'il consomme (ou de dioxyde de carbone qu'il rejette) pendant une durée donnée, pour une masse donnée. On l'exprime, par exemple, en mL par heure et par 100 g."
+        },
+        {
+          "type": "formule",
+          "titre": "Calculer l'intensité respiratoire",
+          "texte": "débit = volume de CO₂ ÷ durée (mL par heure)\nintensité respiratoire = débit ÷ masse × 100 (mL par heure et par 100 g)\n\nLa masse est en grammes et la durée en heures."
+        },
+        {
+          "type": "exemple",
+          "titre": "Des graines germées",
+          "texte": "200 g de graines en germination dégagent 48 mL de dioxyde de carbone en 4 heures.\nDébit : 48 ÷ 4 = 12 mL par heure.\nIntensité : 12 ÷ 200 × 100 = 6 mL par heure et par 100 g."
+        },
+        {
+          "type": "tableau",
+          "titre": "L'intensité selon l'organe (ordres de grandeur)",
+          "entetes": ["Organe", "Intensité respiratoire"],
+          "lignes": [
+            ["Graine sèche", "Presque nulle"],
+            ["Graine en germination", "Très forte"],
+            ["Jeune feuille, jeune racine", "Forte"],
+            ["Fleur", "Forte"],
+            ["Tubercule ou racine de réserve", "Faible"],
+            ["Bois d'un tronc", "Très faible"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Pourquoi ces différences ?",
+          "texte": "Les organes qui grandissent, qui se développent ou qui fabriquent beaucoup de substances ont besoin de beaucoup d'énergie : ils respirent fort. Les organes au repos ou secs respirent très peu."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les facteurs de la respiration",
+          "entetes": ["Facteur", "Effet sur la respiration"],
+          "lignes": [
+            ["Température", "Elle augmente avec la température jusqu'à un maximum, puis elle diminue si la chaleur est excessive."],
+            ["Eau", "Un organe sec respire très peu. Une graine qui s'imbibe d'eau se met à respirer fortement."],
+            ["Dioxygène", "Sans dioxygène, la respiration s'arrête et la plante finit par mourir."],
+            ["Activité de l'organe", "Les organes jeunes, en croissance, respirent plus que les organes âgés ou au repos."]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Résultats d'une expérience (valeurs d'exemple)",
+          "entetes": ["Température", "CO₂ dégagé (mL par heure, pour 100 g de graines germées)"],
+          "lignes": [
+            ["5 °C", "5"],
+            ["15 °C", "12"],
+            ["25 °C", "25"],
+            ["35 °C", "40"],
+            ["45 °C", "15"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "La respiration selon la température",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='450' height='235' viewBox='0 0 450 235' role='img' aria-label='Courbe de l intensité respiratoire en fonction de la température' font-family='sans-serif' font-size='12'><path d='M60 190 H410 M60 190 V30' stroke='currentColor' stroke-width='1.5' fill='none'/><path d='M128 190 V195 M196 190 V195 M264 190 V195 M332 190 V195 M400 190 V195 M55 158 H60 M55 126 H60 M55 94 H60 M55 62 H60 M55 30 H60' stroke='currentColor' stroke-width='1' fill='none'/><text x='60' y='208' text-anchor='middle' fill='currentColor'>0</text><text x='128' y='208' text-anchor='middle' fill='currentColor'>10</text><text x='196' y='208' text-anchor='middle' fill='currentColor'>20</text><text x='264' y='208' text-anchor='middle' fill='currentColor'>30</text><text x='332' y='208' text-anchor='middle' fill='currentColor'>40</text><text x='400' y='208' text-anchor='middle' fill='currentColor'>50</text><text x='52' y='194' text-anchor='end' fill='currentColor'>0</text><text x='52' y='162' text-anchor='end' fill='currentColor'>10</text><text x='52' y='130' text-anchor='end' fill='currentColor'>20</text><text x='52' y='98' text-anchor='end' fill='currentColor'>30</text><text x='52' y='66' text-anchor='end' fill='currentColor'>40</text><text x='52' y='34' text-anchor='end' fill='currentColor'>50</text><polyline points='94,174 162,151.6 230,110 298,62 366,142' fill='none' stroke='#e11d48' stroke-width='2.5'/><circle cx='94' cy='174' r='4' fill='#e11d48'/><circle cx='162' cy='151.6' r='4' fill='#e11d48'/><circle cx='230' cy='110' r='4' fill='#e11d48'/><circle cx='298' cy='62' r='4' fill='#e11d48'/><circle cx='366' cy='142' r='4' fill='#e11d48'/><text x='308' y='58' fill='currentColor'>Maximum</text><text x='374' y='146' fill='currentColor'>Trop chaud</text><text x='230' y='226' text-anchor='middle' fill='currentColor'>Température (°C)</text><text x='10' y='20' fill='currentColor'>CO₂ dégagé (mL par heure, pour 100 g)</text></svg>",
+          "legende": "La respiration augmente avec la température, passe par un maximum, puis chute quand il fait trop chaud."
+        },
+        {
+          "type": "remarque",
+          "titre": "Conserver les récoltes",
+          "texte": "Les graines (riz, maïs, haricots) se conservent dans un endroit sec et frais. Sèches, elles respirent presque pas et gardent leurs réserves. Si elles sont humides et mal aérées, elles respirent fortement, s'échauffent et moisissent : la récolte est perdue. Les fruits et les légumes se gardent aussi plus longtemps au frais, car leur respiration est plus lente."
+        },
+        {
+          "type": "regle",
+          "titre": "À retenir",
+          "texte": "L'intensité respiratoire mesure la quantité de gaz échangée pendant une durée donnée, pour une masse donnée. Elle est forte dans les organes jeunes et actifs (germination, jeunes feuilles, fleurs), faible dans les organes secs ou au repos. Elle augmente avec la température jusqu'à un maximum, puis elle diminue si la chaleur est excessive."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Intensité respiratoire", "Quantité de gaz échangée par une masse donnée en une durée donnée."],
+            ["Débit", "Quantité qui passe par unité de temps (ici des mL par heure)."],
+            ["Imbiber", "Remplir d'eau, comme une éponge."],
+            ["Tubercule", "Partie souterraine renflée qui sert de réserve (pomme de terre, manioc)."],
+            ["Moisir", "Se couvrir de champignons microscopiques qui abîment les aliments."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Un élève mesure le dioxyde de carbone dégagé par 50 g de graines en germination pendant 2 heures, à plusieurs températures :\n- à 10 °C : 6 mL\n- à 20 °C : 16 mL\n- à 30 °C : 30 mL\n- à 50 °C : 4 mL\n1. Calcule le volume dégagé par heure à chaque température.\n2. Calcule l'intensité respiratoire, en mL par heure et par 100 g, à chaque température.\n3. Parmi ces mesures, à quelle température la respiration est-elle la plus forte ?\n4. Comment expliques-tu la valeur obtenue à 50 °C ?\n5. Pourquoi conserve-t-on les graines dans un endroit sec et frais ?",
+          "solution": "1. À 10 °C : 6 ÷ 2 = 3 mL par heure. À 20 °C : 16 ÷ 2 = 8 mL par heure. À 30 °C : 30 ÷ 2 = 15 mL par heure. À 50 °C : 4 ÷ 2 = 2 mL par heure.\n2. On divise par 50 et on multiplie par 100, ce qui revient à multiplier par 2 : 6 mL par heure et par 100 g à 10 °C ; 16 à 20 °C ; 30 à 30 °C ; 4 à 50 °C.\n3. À 30 °C.\n4. À 50 °C, il fait trop chaud : les cellules sont abîmées, la respiration est très faible.\n5. Des graines sèches et fraîches respirent très peu : elles gardent leurs réserves, ne s'échauffent pas et ne moisissent pas."
+        }
+      ]
+    },
+    {
+      "id": "svt4-3-l4-bilan",
+      "titre": "Bilan : la respiration libère de l'énergie",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Respiration cellulaire",
+          "texte": "La respiration est l'ensemble des réactions par lesquelles les cellules utilisent du dioxygène pour « brûler » des sucres, comme le glucose. Cela libère de l'énergie et rejette du dioxyde de carbone et de l'eau."
+        },
+        {
+          "type": "formule",
+          "titre": "L'équation de la respiration",
+          "texte": "glucose + dioxygène → dioxyde de carbone + eau + énergie\n\nEn formules : C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O + énergie"
+        },
+        {
+          "type": "schema",
+          "titre": "Ce qui entre et ce qui sort de la cellule",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='520' height='230' viewBox='0 0 520 230' role='img' aria-label='Entrées et sorties d une cellule qui respire' font-family='sans-serif' font-size='12'><ellipse cx='250' cy='110' rx='70' ry='60' fill='#16a34a' fill-opacity='0.15' stroke='currentColor' stroke-width='2'/><text x='250' y='114' text-anchor='middle' fill='currentColor'>Cellule vivante</text><path d='M118 80 H184 M177 75 L185 80 L177 85' stroke='#3b82f6' stroke-width='2' fill='none'/><path d='M118 140 H184 M177 135 L185 140 L177 145' stroke='#3b82f6' stroke-width='2' fill='none'/><text x='112' y='84' text-anchor='end' fill='currentColor'>Glucose (sucre)</text><text x='112' y='144' text-anchor='end' fill='currentColor'>Dioxygène (O₂)</text><path d='M326 70 H372 M365 65 L373 70 L365 75' stroke='#e11d48' stroke-width='2' fill='none'/><path d='M326 110 H372 M365 105 L373 110 L365 115' stroke='#e11d48' stroke-width='2' fill='none'/><path d='M326 150 H372 M365 145 L373 150 L365 155' stroke='#f59e0b' stroke-width='2' fill='none'/><text x='380' y='74' fill='currentColor'>Dioxyde de carbone</text><text x='380' y='114' fill='currentColor'>Eau</text><text x='380' y='154' fill='currentColor'>Énergie</text><text x='260' y='215' text-anchor='middle' fill='currentColor'>glucose + dioxygène → dioxyde de carbone + eau + énergie</text></svg>",
+          "legende": "Flèches bleues : ce qui entre dans la cellule. Flèches rouges et orange : ce qui en sort."
+        },
+        {
+          "type": "tableau",
+          "titre": "D'où viennent le glucose et le dioxygène ?",
+          "entetes": ["Substance", "Origine"],
+          "lignes": [
+            ["Glucose", "Fabriqué par les feuilles (sève élaborée) ou pris dans les réserves (graines, tubercules)."],
+            ["Dioxygène", "Pris dans l'air, par les stomates des feuilles ou par les racines dans l'air du sol."]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Expérience : la respiration dégage de la chaleur",
+          "texte": "1. Mettre 100 g de graines en germination dans une bouteille isotherme (un thermos), avec un thermomètre.\n2. Préparer un montage identique avec des graines cuites (témoin).\n3. Lire les températures au départ, puis après 24 heures.\n\nObservation : la température monte de plusieurs degrés avec les graines vivantes. Elle ne change pas dans le témoin.\n\nConclusion : en respirant, les graines libèrent de la chaleur. C'est une forme de l'énergie libérée."
+        },
+        {
+          "type": "remarque",
+          "titre": "Ce n'est pas une flamme",
+          "texte": "La respiration ressemble à une combustion : du dioxygène est consommé, du dioxyde de carbone et de l'eau sont produits. Mais elle se fait lentement, à la température de la plante, sans flamme. Une partie de l'énergie libérée sert à la croissance et au fonctionnement de la plante. Une autre partie part sous forme de chaleur."
+        },
+        {
+          "type": "tableau",
+          "titre": "Jour et nuit chez une plante verte",
+          "entetes": ["Moment", "Respiration", "Assimilation chlorophyllienne (chapitre 4)", "Échange de gaz visible"],
+          "lignes": [
+            ["Le jour, à la lumière", "Oui", "Oui, souvent plus forte que la respiration", "Elle absorbe du CO₂ et rejette du O₂."],
+            ["La nuit, à l'obscurité", "Oui", "Non", "Elle absorbe du O₂ et rejette du CO₂."]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Des plantes dans la chambre ?",
+          "texte": "La nuit, une plante rejette du dioxyde de carbone. La quantité est cependant si faible qu'elle n'est pas dangereuse dans une chambre aérée."
+        },
+        {
+          "type": "regle",
+          "titre": "À retenir",
+          "texte": "Toutes les cellules vivantes de la plante respirent, jour et nuit. Le glucose réagit avec le dioxygène : il se forme du dioxyde de carbone et de l'eau, et de l'énergie est libérée. Cette énergie sert à la croissance et au fonctionnement de la plante ; une partie est libérée sous forme de chaleur. À la lumière, l'assimilation chlorophyllienne cache la respiration de la plante verte."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Glucose", "Sucre simple qui sert de source d'énergie aux cellules."],
+            ["Énergie", "Ce qui permet à un être vivant de grandir, de bouger et de fonctionner."],
+            ["Isotherme", "Qui limite les échanges de chaleur avec l'extérieur (comme un thermos)."],
+            ["Réserve", "Substance mise de côté dans la graine ou le tubercule, pour plus tard."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Dans une bouteille isotherme, 100 g de graines de haricot en germination font monter la température de 22 °C à 27 °C en 24 heures. Dans une bouteille identique, des graines cuites restent à 22 °C.\n1. Calcule l'élévation de température dans la bouteille aux graines vivantes.\n2. Que montre le témoin ?\n3. Quelle forme d'énergie les graines ont-elles libérée ?\n4. Vérifie que l'équation C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O est équilibrée : compte les atomes de C, de H et de O de chaque côté.\n5. Une plante verte au soleil semble ne pas rejeter de dioxyde de carbone. Pourquoi ?",
+          "solution": "1. 27 − 22 = 5 °C.\n2. Le témoin montre que l'échauffement ne vient ni de la bouteille ni de la pièce : il est dû aux graines vivantes.\n3. De la chaleur, en même temps que d'autres formes d'énergie utilisées par la plante.\n4. À gauche : C : 6 ; H : 12 ; O : 6 + 6 × 2 = 18. À droite : C : 6 ; H : 6 × 2 = 12 ; O : 6 × 2 + 6 = 18. Les nombres sont égaux : l'équation est équilibrée.\n5. Elle respire aussi le jour, mais à la lumière l'assimilation chlorophyllienne absorbe du dioxyde de carbone en plus grande quantité. Le dioxyde de carbone rejeté par la respiration est donc réutilisé et ne se voit pas."
+        }
+      ]
+    }
+  ]
+}
