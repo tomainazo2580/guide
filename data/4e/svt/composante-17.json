@@ -1,0 +1,369 @@
+{
+  "id": "svt4-17-volcans",
+  "titre": "Les volcans",
+  "lecons": [
+    {
+      "id": "svt4-17-l1-volcan",
+      "titre": "Le volcan : description et fonctionnement",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Volcan",
+          "texte": "Un volcan est un endroit de l'écorce terrestre par où des matériaux venus de l'intérieur de la Terre (roche fondue, gaz, fragments de roche) sortent à la surface. Il forme souvent un relief en forme de cône. La sortie de ces matériaux s'appelle une éruption."
+        },
+        {
+          "type": "definition",
+          "titre": "Magma et lave",
+          "texte": "Le magma est de la roche en fusion qui se forme en profondeur. Sa température est comprise entre 700 °C et 1 200 °C environ, et il contient des gaz dissous. Quand le magma arrive à la surface et qu'il a perdu une grande partie de ses gaz, on l'appelle lave. La lave refroidit et devient une roche solide."
+        },
+        {
+          "type": "schema",
+          "titre": "Coupe d'un volcan",
+          "svg": "<svg width='560' height='275' viewBox='0 0 560 275' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='12'><defs><marker id='fl17a' markerWidth='8' markerHeight='8' refX='6' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='currentColor'/></marker></defs><rect x='20' y='200' width='520' height='70' fill='currentColor' fill-opacity='0.08' stroke='currentColor' stroke-width='1.5'/><path d='M20,200 L215,80 L240,95 L280,95 L305,80 L540,200 Z' fill='currentColor' fill-opacity='0.15' stroke='currentColor' stroke-width='1.5'/><rect x='252' y='95' width='16' height='125' fill='#e11d48' fill-opacity='0.5'/><ellipse cx='260' cy='240' rx='70' ry='22' fill='#e11d48' fill-opacity='0.5' stroke='currentColor' stroke-width='1.5'/><line x1='305' y1='80' x2='470' y2='164' stroke='#e11d48' stroke-width='4'/><g fill='currentColor' fill-opacity='0.15'><ellipse cx='255' cy='45' rx='28' ry='14'/><ellipse cx='285' cy='32' rx='28' ry='14'/><ellipse cx='235' cy='32' rx='28' ry='14'/></g><line x1='260' y1='90' x2='260' y2='62' stroke='currentColor' stroke-width='1.5' marker-end='url(#fl17a)'/><g stroke='currentColor' stroke-width='1' fill='none'><line x1='200' y1='52' x2='250' y2='90'/><line x1='247' y1='157' x2='251' y2='157'/><line x1='440' y1='116' x2='432' y2='144'/></g><g fill='currentColor'><text x='320' y='36'>Panache de gaz et de cendres</text><text x='195' y='54' text-anchor='end'>Cratère</text><text x='244' y='160' text-anchor='end'>Cheminée</text><text x='80' y='178'>Cône volcanique</text><text x='420' y='112'>Coulée de lave</text><text x='182' y='244' text-anchor='end'>Chambre magmatique</text><text x='30' y='262'>Roches de la croûte</text></g></svg>",
+          "legende": "Schéma simplifié, hors échelle. Le magma (en rouge) monte de la chambre magmatique par la cheminée et sort par le cratère. Il peut former une coulée de lave sur les flancs."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les parties d'un volcan",
+          "entetes": ["Partie", "Rôle"],
+          "lignes": [
+            ["Chambre magmatique", "Réservoir de magma, situé en profondeur (quelques kilomètres sous le volcan)"],
+            ["Cheminée", "Conduit par lequel le magma monte vers la surface"],
+            ["Cratère", "Ouverture en forme de cuvette, au sommet du volcan"],
+            ["Cône volcanique", "Relief formé par l'accumulation de lave et de fragments projetés autour du cratère"],
+            ["Coulée de lave", "Lave qui s'écoule sur les flancs et refroidit"],
+            ["Cheminées secondaires et fissures", "Autres passages par lesquels le magma peut sortir sur les flancs"]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Comment se produit une éruption",
+          "texte": "1. En profondeur, des roches fondent et forment du magma. Le magma est moins dense que les roches solides qui l'entourent : il monte.\n2. Il s'accumule dans la chambre magmatique.\n3. Le magma contient des gaz dissous. En montant, la pression diminue et des bulles de gaz se forment, comme quand on ouvre une bouteille de boisson gazeuse.\n4. Les bulles gonflent et poussent le magma dans la cheminée.\n5. Si la lave est fluide, les gaz s'échappent facilement et la lave coule : l'éruption est calme. Si la lave est très visqueuse, les gaz restent piégés, la pression monte et l'éruption est une explosion (leçon 3)."
+        },
+        {
+          "type": "remarque",
+          "titre": "Un modèle simple : la bouteille de boisson gazeuse",
+          "texte": "Une bouteille gazeuse secouée puis ouverte projette son liquide, parce que le gaz sort d'un coup. C'est comme un volcan dont les gaz sont libérés brutalement. Si tu fais l'expérience, fais-la dehors, sans approcher le visage du bouchon. Un modèle plus sûr : mélanger du bicarbonate et du vinaigre dans un récipient. Cela mousse, parce que le mélange dégage du dioxyde de carbone. Ce n'est qu'un modèle : un vrai volcan est bien plus complexe et bien plus dangereux."
+        },
+        {
+          "type": "definition",
+          "titre": "Caldeira",
+          "texte": "Une caldeira est une grande dépression, large de plus d'un kilomètre, qui se forme quand le sommet d'un volcan s'effondre après le vidage de la chambre magmatique. Elle est beaucoup plus grande qu'un cratère."
+        },
+        {
+          "type": "tableau",
+          "titre": "Volcan actif, endormi, éteint",
+          "entetes": ["État", "Description"],
+          "lignes": [
+            ["Actif", "Il est en éruption ou il a eu des éruptions récemment ; il peut recommencer"],
+            ["Endormi", "Il n'a pas eu d'éruption depuis très longtemps, mais il peut se réveiller"],
+            ["Éteint", "Il n'est plus alimenté en magma et ne se réveillera plus"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Attention aux volcans endormis",
+          "texte": "Il est parfois difficile de savoir si un volcan est endormi ou éteint. Un volcan endormi peut se réveiller après des siècles de calme : il ne faut pas le croire sans danger."
+        },
+        {
+          "type": "formule",
+          "titre": "Pente d'un relief",
+          "texte": "Pente (en %) = hauteur ÷ distance horizontale × 100, avec la hauteur et la distance dans la même unité."
+        },
+        {
+          "type": "exemple",
+          "titre": "Pente d'un volcan",
+          "texte": "Un volcan s'élève de 1 000 m sur une distance horizontale de 5 km, soit 5 000 m. Pente : 1 000 ÷ 5 000 × 100 = 20 %."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Volcan", "Endroit par où sortent à la surface des matériaux venus de l'intérieur de la Terre"],
+            ["Éruption", "Sortie de magma, de gaz et de fragments de roche par un volcan"],
+            ["Magma", "Roche en fusion qui contient des gaz, située en profondeur"],
+            ["Lave", "Magma arrivé à la surface, qui a perdu une grande partie de ses gaz"],
+            ["Chambre magmatique", "Réservoir de magma sous un volcan"],
+            ["Cheminée", "Conduit par lequel le magma monte"],
+            ["Cratère", "Cuvette située au sommet du volcan"],
+            ["Caldeira", "Très grande dépression formée par l'effondrement du sommet d'un volcan"],
+            ["Pente", "Mesure de l'inclinaison d'un relief"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Un volcan imaginaire a son sommet à 1 800 m d'altitude, au milieu d'une plaine située à 600 m d'altitude. Entre le sommet et le pied du volcan, la distance horizontale est de 4 km. Sa chambre magmatique est à 6 km sous le sol. Le magma monte à la vitesse moyenne de 0,5 m par seconde.\n\n1. Quelle est la hauteur du cône ?\n2. Calcule la pente moyenne du volcan, en %.\n3. Combien de temps le magma met-il pour monter de la chambre magmatique jusqu'à la surface ? Donne le résultat en secondes, puis en heures et minutes.\n4. Quelle est la différence entre le magma et la lave ?\n5. Pourquoi les gaz font-ils monter le magma dans la cheminée ?",
+          "solution": "1. 1 800 − 600 = 1 200 m.\n2. 4 km = 4 000 m ; 1 200 ÷ 4 000 × 100 = 30 %.\n3. 6 km = 6 000 m ; 6 000 ÷ 0,5 = 12 000 secondes. 12 000 ÷ 60 = 200 minutes, soit 3 h 20 min.\n4. Le magma est la roche fondue qui se trouve en profondeur et qui contient des gaz dissous. La lave est le magma arrivé à la surface, après avoir perdu une grande partie de ses gaz.\n5. En montant, la pression diminue et les gaz dissous forment des bulles qui gonflent. Ces bulles poussent le magma vers le haut, comme le gaz d'une bouteille gazeuse que l'on ouvre."
+        }
+      ]
+    },
+    {
+      "id": "svt4-17-l2-produits",
+      "titre": "Les produits d'une éruption",
+      "blocs": [
+        {
+          "type": "regle",
+          "titre": "Trois sortes de produits",
+          "texte": "Un volcan émet trois sortes de produits : de la lave (un liquide), des projections solides (des fragments de roche) et des gaz."
+        },
+        {
+          "type": "schema",
+          "titre": "Les produits d'une éruption",
+          "svg": "<svg width='560' height='245' viewBox='0 0 560 245' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='12'><defs><marker id='fl17b' markerWidth='8' markerHeight='8' refX='6' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='currentColor'/></marker></defs><rect x='20' y='210' width='520' height='30' fill='currentColor' fill-opacity='0.08' stroke='currentColor' stroke-width='1.5'/><path d='M170,210 L255,140 L275,150 L295,140 L390,210 Z' fill='currentColor' fill-opacity='0.15' stroke='currentColor' stroke-width='1.5'/><line x1='295' y1='140' x2='390' y2='210' stroke='#e11d48' stroke-width='4'/><line x1='390' y1='207' x2='445' y2='207' stroke='#e11d48' stroke-width='4'/><g fill='currentColor' fill-opacity='0.15'><ellipse cx='240' cy='50' rx='45' ry='18'/><ellipse cx='300' cy='42' rx='50' ry='20'/><ellipse cx='270' cy='72' rx='30' ry='14'/></g><line x1='275' y1='142' x2='275' y2='90' stroke='currentColor' stroke-width='1.5' marker-end='url(#fl17b)'/><g fill='none' stroke='currentColor' stroke-width='1' stroke-dasharray='4 3'><path d='M262,142 Q170,0 120,205'/><path d='M288,142 Q400,10 470,200'/></g><g fill='#e11d48'><circle cx='180' cy='87' r='7'/><circle cx='120' cy='202' r='7'/><circle cx='351' cy='92' r='3'/><circle cx='390' cy='91' r='3'/><circle cx='424' cy='115' r='3'/><circle cx='448' cy='150' r='3'/><circle cx='470' cy='203' r='3'/></g><line x1='425' y1='220' x2='435' y2='210' stroke='currentColor' stroke-width='1'/><g fill='currentColor'><text x='358' y='50'>Cendres et gaz</text><text x='108' y='190' text-anchor='end'>Bombes</text><text x='482' y='190'>Lapilli</text><text x='400' y='232'>Coulée de lave</text></g></svg>",
+          "legende": "Schéma simplifié, hors échelle. Les gaz et les cendres montent en panache. Les bombes et les lapilli retombent autour du volcan. La lave coule sur les flancs."
+        },
+        {
+          "type": "definition",
+          "titre": "La lave",
+          "texte": "La lave est de la roche fondue, à une température de 700 °C à 1 200 °C. Elle s'écoule en coulées. En refroidissant, elle devient une roche volcanique, comme le basalte (chapitre 21). La surface de la coulée se solidifie vite, mais l'intérieur reste chaud pendant des jours, des semaines, parfois des mois."
+        },
+        {
+          "type": "definition",
+          "titre": "Projections solides",
+          "texte": "Les projections sont des fragments de roche expulsés dans l'air par les explosions. On les classe d'après leur taille : les cendres, les lapilli et les bombes ou blocs."
+        },
+        {
+          "type": "tableau",
+          "titre": "Classement des projections",
+          "entetes": ["Nom", "Taille", "Description"],
+          "lignes": [
+            ["Cendres", "moins de 2 mm", "Poussière fine qui peut être emportée par le vent très loin"],
+            ["Lapilli", "de 2 mm à 64 mm", "Petits cailloux, du grain de gravier à la grosse noix"],
+            ["Bombes et blocs", "plus de 64 mm", "Gros fragments, jusqu'à plusieurs mètres. Une bombe est expulsée liquide et prend une forme en fuseau en refroidissant. Un bloc est déjà solide, avec des angles"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Scories et pierre ponce",
+          "texte": "Quand une lave contient beaucoup de bulles de gaz, elle donne des roches légères et pleines de trous. Les scories sont sombres et rugueuses. La pierre ponce est claire et si légère qu'elle peut flotter sur l'eau."
+        },
+        {
+          "type": "definition",
+          "titre": "Les gaz volcaniques",
+          "texte": "Les gaz sortent par le cratère et les fissures. Le plus abondant est la vapeur d'eau. On trouve aussi du dioxyde de carbone (CO₂), du dioxyde de soufre (SO₂) à l'odeur piquante, de l'hydrogène sulfuré (H₂S) à l'odeur d'œuf pourri, et d'autres gaz."
+        },
+        {
+          "type": "remarque",
+          "titre": "Des gaz dangereux",
+          "texte": "Le dioxyde de carbone est incolore, sans odeur et plus lourd que l'air : il s'accumule dans les creux, les cuvettes et les caves, et peut asphyxier. Le dioxyde de soufre irrite les yeux et les poumons (chapitre 11). L'hydrogène sulfuré est toxique. Il ne faut jamais descendre dans une dépression près d'un volcan actif."
+        },
+        {
+          "type": "remarque",
+          "titre": "Effets sur le climat",
+          "texte": "Lors des très fortes éruptions, des cendres et du dioxyde de soufre montent très haut dans l'atmosphère (chapitre 20) et arrêtent une partie de la lumière du Soleil. Le climat de la Terre se refroidit alors pendant quelques mois ou quelques années. Après l'éruption du Pinatubo (Philippines, 1991), la température moyenne de la Terre a baissé d'environ 0,5 °C."
+        },
+        {
+          "type": "tableau",
+          "titre": "Dangers et avantages des volcans",
+          "entetes": ["Dangers", "Avantages"],
+          "lignes": [
+            ["Les coulées de lave détruisent les maisons et les champs", "Les cendres et les laves s'altèrent en sols très fertiles (chapitre 23)"],
+            ["Les cendres s'accumulent sur les toits et peuvent les faire s'effondrer ; elles gênent la respiration, polluent l'eau et abîment les cultures", "Les roches volcaniques servent à construire des routes et des maisons"],
+            ["Les gaz toxiques peuvent intoxiquer", "La chaleur du sol donne des sources chaudes et de l'énergie (géothermie)"],
+            ["La pluie mélangée aux cendres forme des coulées de boue, les lahars", "Les volcans attirent des visiteurs (tourisme)"]
+          ]
+        },
+        {
+          "type": "exemple",
+          "titre": "Le poids des cendres sur un toit",
+          "texte": "Des cendres mouillées ont une masse volumique d'environ 1 000 kg par m³ (valeur arrondie). Une couche de 5 cm (0,05 m) sur 1 m² a un volume de 1 × 0,05 = 0,05 m³ et une masse de 0,05 × 1 000 = 50 kg."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Projection", "Fragment de roche expulsé par une éruption"],
+            ["Cendres", "Fragments de moins de 2 mm"],
+            ["Lapilli", "Fragments de 2 mm à 64 mm"],
+            ["Bombe", "Gros fragment expulsé liquide"],
+            ["Scorie", "Roche volcanique sombre, légère et pleine de trous"],
+            ["Pierre ponce", "Roche volcanique claire, pleine de bulles, qui peut flotter"],
+            ["Panache", "Colonne de gaz et de cendres au-dessus du cratère"],
+            ["Lahar", "Coulée de boue formée de cendres et d'eau"],
+            ["Géothermie", "Énergie tirée de la chaleur de l'intérieur de la Terre"],
+            ["Masse volumique", "Masse d'un volume donné de matière"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. Classe chacun de ces fragments en cendre, lapilli ou bombe (ou bloc) : a) 0,5 mm ; b) 8 mm ; c) 5 cm ; d) 12 cm ; e) 1,5 mm.\n2. Une couche de 10 cm de cendres mouillées recouvre le sol (masse volumique 1 000 kg/m³). Quelle est la masse de cendres sur 1 m² ?\n3. Un toit de 50 m² est recouvert de cette couche. Quelle est la masse de cendres sur le toit, en kg puis en tonnes ?\n4. Ce toit ne peut supporter que 3 000 kg de charge supplémentaire. Quel est le risque ? Que faut-il faire ?\n5. Une coulée de lave avance à 2 km par heure. Un village se trouve à 7 km. Au bout de combien de temps la lave l'atteindra-t-elle ?\n6. Un volcan rejette 500 tonnes de dioxyde de soufre par jour. Quelle masse rejette-t-il en 30 jours ?\n7. Pourquoi le dioxyde de carbone est-il particulièrement dangereux dans un creux du terrain ?",
+          "solution": "1. a) cendre ; b) lapilli (entre 2 et 64 mm) ; c) 5 cm = 50 mm : lapilli ; d) 12 cm = 120 mm : bombe ou bloc ; e) cendre.\n2. 10 cm = 0,10 m ; volume sur 1 m² : 1 × 0,10 = 0,10 m³ ; masse : 0,10 × 1 000 = 100 kg.\n3. 100 × 50 = 5 000 kg, soit 5 tonnes.\n4. 5 000 kg est plus que 3 000 kg : le toit risque de s'effondrer. Il faut déblayer le toit avec précaution, en se protégeant la bouche et le nez.\n5. 7 ÷ 2 = 3,5 heures, soit 3 h 30 min.\n6. 500 × 30 = 15 000 tonnes.\n7. Le dioxyde de carbone est plus lourd que l'air et il n'a ni couleur ni odeur : il s'accumule dans les creux sans qu'on le voie et chasse l'air respirable, ce qui peut asphyxier."
+        }
+      ]
+    },
+    {
+      "id": "svt4-17-l3-types-eruption",
+      "titre": "Les types d'éruption",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Viscosité",
+          "texte": "La viscosité mesure la difficulté d'un liquide à couler. Une lave fluide coule facilement, comme de l'huile. Une lave visqueuse coule difficilement, comme du miel épais ou du dentifrice."
+        },
+        {
+          "type": "regle",
+          "titre": "Ce qui décide du type d'éruption",
+          "texte": "Le type d'éruption dépend surtout de la viscosité de la lave. Une lave fluide, très chaude (1 000 °C à 1 200 °C), laisse les gaz s'échapper facilement : l'éruption est calme. Une lave visqueuse, moins chaude (700 °C à 900 °C), garde ses gaz prisonniers : ils s'échappent d'un coup et l'éruption est explosive. Plus une lave est riche en silice, plus elle est visqueuse."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les trois types d'éruption à connaître",
+          "entetes": ["", "Hawaïen", "Strombolien", "Péléen"],
+          "lignes": [
+            ["Lave", "Très fluide", "Assez fluide", "Très visqueuse"],
+            ["Gaz", "S'échappent facilement", "S'échappent par bouffées", "Piégés, puis libérés d'un coup"],
+            ["Éruption", "Calme (effusive) : coulées et fontaines de lave", "Explosions modérées et régulières", "Explosion très violente"],
+            ["Produits", "Longues coulées, très peu de projections", "Bombes, lapilli, scories, coulées courtes", "Cendres, blocs, nuée ardente"],
+            ["Relief", "Large cône à pente douce (volcan bouclier)", "Cône de scories à pente assez forte", "Dôme ou cône à pente très forte"],
+            ["Exemples", "Kilauea (Hawaï), Piton de la Fournaise (La Réunion)", "Stromboli (Italie)", "Montagne Pelée (Martinique), Merapi (Indonésie)"],
+            ["Danger", "Faible pour les vies, mais les coulées détruisent maisons et champs", "Moyen", "Très élevé"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Les trois types d'éruption",
+          "svg": "<svg width='560' height='240' viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='12'><defs><marker id='fl17c' markerWidth='8' markerHeight='8' refX='6' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='currentColor'/></marker></defs><line x1='10' y1='190' x2='550' y2='190' stroke='currentColor' stroke-width='1.5'/><path d='M15,190 L95,155 L175,190 Z' fill='currentColor' fill-opacity='0.15' stroke='currentColor' stroke-width='1.5'/><path d='M205,190 L280,120 L355,190 Z' fill='currentColor' fill-opacity='0.15' stroke='currentColor' stroke-width='1.5'/><path d='M385,190 L460,75 L540,190 Z' fill='currentColor' fill-opacity='0.15' stroke='currentColor' stroke-width='1.5'/><g stroke='#e11d48' stroke-width='3' fill='none'><line x1='95' y1='155' x2='15' y2='190'/><line x1='95' y1='155' x2='175' y2='190'/><line x1='280' y1='120' x2='305' y2='143.3'/></g><line x1='95' y1='152' x2='95' y2='126' stroke='currentColor' stroke-width='1.5' marker-end='url(#fl17c)'/><line x1='280' y1='118' x2='280' y2='100' stroke='currentColor' stroke-width='1.5' marker-end='url(#fl17c)'/><g fill='#e11d48'><circle cx='258' cy='108' r='3'/><circle cx='270' cy='96' r='3'/><circle cx='292' cy='90' r='3'/><circle cx='305' cy='106' r='3'/><circle cx='322' cy='80' r='5'/></g><circle cx='460' cy='80' r='12' fill='#e11d48' fill-opacity='0.5' stroke='currentColor' stroke-width='1.5'/><path d='M472,92 L548,188 L505,190 Z' fill='currentColor' fill-opacity='0.3'/><ellipse cx='470' cy='45' rx='30' ry='14' fill='currentColor' fill-opacity='0.15'/><g fill='currentColor' text-anchor='middle'><text x='95' y='22' font-weight='bold'>Hawaïen</text><text x='280' y='22' font-weight='bold'>Strombolien</text><text x='462' y='22' font-weight='bold'>Péléen</text><text x='95' y='210' font-size='11'>Lave très fluide</text><text x='95' y='226' font-size='11'>coulées longues</text><text x='280' y='210' font-size='11'>Explosions régulières</text><text x='280' y='226' font-size='11'>bombes et lapilli</text><text x='462' y='210' font-size='11'>Lave très visqueuse</text><text x='462' y='226' font-size='11'>nuée ardente</text></g></svg>",
+          "legende": "Schéma simplifié, hors échelle : les pentes sont de plus en plus fortes du type hawaïen au type péléen. En rouge : la lave et les projections. La zone grise du volcan péléen représente la nuée ardente."
+        },
+        {
+          "type": "definition",
+          "titre": "Nuée ardente",
+          "texte": "Une nuée ardente est une avalanche de gaz brûlants, de cendres et de blocs qui dévale les flancs d'un volcan à plus de 100 km/h. Sa température atteint plusieurs centaines de degrés. Elle détruit et brûle tout sur son passage, et on ne peut pas la fuir en courant."
+        },
+        {
+          "type": "exemple",
+          "titre": "La Montagne Pelée en 1902",
+          "texte": "Le 8 mai 1902, une nuée ardente de la Montagne Pelée (Martinique) a détruit la ville de Saint-Pierre en quelques minutes. Il y a eu environ 28 000 morts. Cette éruption a donné son nom au type péléen."
+        },
+        {
+          "type": "remarque",
+          "titre": "Des types qui se mélangent",
+          "texte": "Ces trois types sont des modèles. Un même volcan peut changer de type d'une éruption à l'autre. Il existe aussi d'autres types, par exemple le type vulcanien et le type plinien, très explosifs."
+        },
+        {
+          "type": "methode",
+          "titre": "Modéliser deux laves",
+          "texte": "1. Verser sur une planche inclinée une même quantité d'eau, d'huile, de miel et de pâte épaisse.\n2. Observer la distance parcourue en 10 secondes : l'eau et l'huile vont loin (laves fluides) ; le miel et la pâte avancent peu et forment un tas épais (laves visqueuses).\n3. Conclure : une lave fluide donne une longue coulée et un volcan large et plat ; une lave visqueuse reste près du cratère et forme un dôme ou un cône à pente forte."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Viscosité", "Difficulté d'un liquide à couler"],
+            ["Fluide", "Qui coule facilement"],
+            ["Visqueux", "Qui coule difficilement"],
+            ["Effusif", "Se dit d'une éruption calme, où la lave coule"],
+            ["Explosif", "Se dit d'une éruption violente, avec des projections"],
+            ["Volcan bouclier", "Volcan très large, à pente douce, formé de laves fluides"],
+            ["Dôme", "Bouchon de lave visqueuse qui s'accumule au sommet"],
+            ["Nuée ardente", "Avalanche de gaz brûlants, de cendres et de blocs"],
+            ["Silice", "Matière dont sont faits le quartz et le sable"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Deux volcans sont décrits. Le volcan A s'élève de 800 m au-dessus d'une plaine et son rayon à la base est de 16 km ; sa lave coule sur de longues distances. Le volcan B s'élève de 1 500 m et son rayon à la base est de 3 km ; son sommet porte un dôme et sa lave est très visqueuse.\n\n1. Calcule la pente moyenne de chaque volcan, en % (hauteur ÷ rayon, en mètres).\n2. Quel est le type d'éruption de chaque volcan ? Justifie.\n3. À Stromboli, une explosion a lieu en moyenne toutes les 15 minutes. Combien d'explosions y a-t-il par jour ?\n4. Une nuée ardente descend à 150 km/h. Un village est à 6 km du cratère. Au bout de combien de temps l'atteint-elle ? Donne le résultat en minutes puis en minutes et secondes.\n5. Un homme court à 10 km/h. Combien de fois la nuée ardente va-t-elle plus vite que lui ?\n6. Pourquoi une lave très visqueuse provoque-t-elle une éruption plus violente qu'une lave fluide ?",
+          "solution": "1. Volcan A : 800 ÷ 16 000 = 0,05, soit 5 %. Volcan B : 1 500 ÷ 3 000 = 0,5, soit 50 %.\n2. Le volcan A est de type hawaïen : pente douce, lave fluide qui coule loin. Le volcan B est de type péléen : pente forte, dôme, lave très visqueuse.\n3. 24 h = 24 × 60 = 1 440 minutes ; 1 440 ÷ 15 = 96 explosions par jour.\n4. 6 ÷ 150 = 0,04 h ; 0,04 × 60 = 2,4 minutes, soit 2 minutes et 24 secondes (0,4 min = 24 s).\n5. 150 ÷ 10 = 15 : elle va 15 fois plus vite.\n6. Dans une lave visqueuse, les gaz restent piégés. La pression augmente jusqu'à ce que les gaz s'échappent d'un coup en brisant le bouchon de lave : c'est une explosion. Dans une lave fluide, les gaz s'échappent peu à peu."
+        }
+      ]
+    },
+    {
+      "id": "svt4-17-l4-repartition-risques",
+      "titre": "Répartition des volcans, risques et surveillance",
+      "blocs": [
+        {
+          "type": "regle",
+          "titre": "Les volcans ne sont pas répartis au hasard",
+          "texte": "Il y a environ 1 500 volcans potentiellement actifs sur les continents et les îles, et un très grand nombre au fond des océans. La plupart se trouvent près des frontières entre les plaques de la croûte terrestre (chapitre 19). Quelques-uns, comme Hawaï et La Réunion, se trouvent au milieu d'une plaque, au-dessus d'une zone chaude du sous-sol."
+        },
+        {
+          "type": "schema",
+          "titre": "Où sont les volcans actifs ?",
+          "svg": "<svg width='560' height='145' viewBox='0 0 560 145' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='12'><text x='280' y='26' text-anchor='middle' fill='currentColor'>Volcans potentiellement actifs sur les continents et les îles (environ 1 500)</text><rect x='30' y='44' width='375' height='36' fill='#e11d48' fill-opacity='0.5'/><rect x='405' y='44' width='125' height='36' fill='currentColor' fill-opacity='0.12'/><rect x='30' y='44' width='500' height='36' fill='none' stroke='currentColor' stroke-width='1.5'/><line x1='405' y1='44' x2='405' y2='80' stroke='currentColor' stroke-width='1.5'/><g fill='none' stroke='currentColor' stroke-width='1.5'><path d='M30,90 v6 h375 v-6'/><path d='M410,90 v6 h120 v-6'/></g><g fill='currentColor' text-anchor='middle'><text x='217' y='67' font-weight='bold'>75 %</text><text x='467' y='67' font-weight='bold'>25 %</text><text x='217' y='114'>Ceinture de feu du Pacifique</text><text x='217' y='130'>environ 1 125 volcans</text><text x='467' y='114'>Reste du monde</text><text x='467' y='130'>environ 375 volcans</text></g></svg>",
+          "legende": "Valeurs arrondies. Les longueurs sont proportionnelles aux pourcentages : 75 % pour la ceinture de feu et 25 % pour le reste du monde."
+        },
+        {
+          "type": "definition",
+          "titre": "La ceinture de feu du Pacifique",
+          "texte": "La ceinture de feu du Pacifique est une zone en forme de grand arc, longue d'environ 40 000 km, qui entoure l'océan Pacifique. Elle porte environ 75 % des volcans actifs du monde et beaucoup de séismes (chapitre 18). Elle passe par le Japon, l'Indonésie, les Philippines, la Nouvelle-Zélande, l'Alaska et toute la côte ouest de l'Amérique, jusqu'aux Andes."
+        },
+        {
+          "type": "tableau",
+          "titre": "Quelques autres régions volcaniques",
+          "entetes": ["Région", "Exemples"],
+          "lignes": [
+            ["Atlantique", "Islande (sur la dorsale médio-atlantique)"],
+            ["Méditerranée", "Vésuve, Etna, Stromboli (Italie)"],
+            ["Afrique de l'Est", "Nyiragongo (République démocratique du Congo), Ol Doinyo Lengai (Tanzanie)"],
+            ["Océan Indien", "Piton de la Fournaise (La Réunion, 2 632 m) et Karthala (Grande Comore, 2 361 m)"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Les volcans voisins de Madagascar",
+          "texte": "Le Piton de la Fournaise est l'un des volcans les plus actifs du monde : il entre souvent en éruption, avec des coulées de lave de type hawaïen. Le Karthala est un volcan actif des Comores, avec une grande caldeira. Il peut produire des éruptions plus violentes et a obligé à évacuer des habitants lors de certaines éruptions."
+        },
+        {
+          "type": "remarque",
+          "titre": "Les volcans de Madagascar",
+          "texte": "Madagascar ne se trouve pas sur une frontière de plaque. Aucun de ses volcans n'est actuellement en éruption. Les régions volcaniques les plus récentes sont l'Ankaratra (près d'Antsirabe, avec le Tsiafajavona, 2 644 m), la région de l'Itasy (cônes et lacs de cratère), la Montagne d'Ambre (1 475 m) et Nosy Be, au nord. Leurs dernières éruptions remontent à une période très lointaine à l'échelle humaine, et ces volcans sont considérés comme endormis ou éteints. Des coulées de basalte plus anciennes couvrent aussi de grandes zones (Androy, Alaotra, Vohémar et d'autres : chapitre 21)."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les risques volcaniques",
+          "entetes": ["Risque", "Effet"],
+          "lignes": [
+            ["Coulées de lave", "Détruisent tout sur leur passage, mais avancent assez lentement pour que l'on puisse partir"],
+            ["Nuée ardente", "Très rapide et très chaude : le risque de mort est très élevé"],
+            ["Chute de cendres", "Toits écrasés, cultures détruites, eau polluée, difficultés pour respirer, avions cloués au sol"],
+            ["Gaz toxiques", "Intoxication et asphyxie, surtout dans les creux"],
+            ["Lahars", "Coulées de boue qui suivent les vallées et les rivières, parfois loin du volcan"],
+            ["Séismes et tsunamis", "Secousses avant ou pendant l'éruption ; un tsunami est possible si le volcan est dans la mer"]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Surveiller un volcan",
+          "texte": "1. Les sismographes enregistrent les petites secousses causées par la montée du magma.\n2. Des instruments mesurent le gonflement du sol : le volcan se déforme quand il se remplit de magma.\n3. On mesure la température et la composition des gaz.\n4. Un observatoire rassemble ces mesures, prévient les autorités et lance l'alerte.\n5. Ces signes permettent souvent d'annoncer une éruption quelques heures à quelques semaines avant, mais la prévision n'est pas exacte."
+        },
+        {
+          "type": "methode",
+          "titre": "Se protéger d'une éruption",
+          "texte": "1. Connaître les cartes des zones à risque et le plan d'évacuation, et le respecter.\n2. Quand l'alerte est donnée, partir tout de suite, sans retourner chercher des objets.\n3. Se couvrir le nez et la bouche avec un tissu humide en cas de cendres ou de gaz.\n4. S'éloigner des vallées et des rivières à cause des lahars.\n5. Ne jamais s'approcher d'un cratère ni d'une coulée, même pour regarder ou prendre une photo ; ne visiter un volcan qu'avec un guide.\n6. Rester informé par la radio ou les autorités."
+        },
+        {
+          "type": "remarque",
+          "titre": "Pourquoi vit-on près des volcans ?",
+          "texte": "Beaucoup de personnes vivent près des volcans, parce que les sols volcaniques sont très fertiles (chapitre 23). Il faut alors s'informer, rester vigilant et connaître le plan d'évacuation."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Ceinture de feu", "Zone de nombreux volcans et séismes autour de l'océan Pacifique"],
+            ["Potentiellement actif", "Qui peut entrer en éruption un jour"],
+            ["Observatoire volcanologique", "Centre qui surveille un volcan"],
+            ["Sismographe", "Appareil qui enregistre les secousses du sol"],
+            ["Évacuation", "Départ organisé des habitants d'une zone dangereuse"],
+            ["Tsunami", "Grande vague provoquée par un séisme ou une éruption sous la mer"],
+            ["Géothermie", "Énergie tirée de la chaleur de l'intérieur de la Terre"],
+            ["Endormi", "Se dit d'un volcan qui peut se réveiller"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. Environ 75 % des 1 500 volcans potentiellement actifs se trouvent dans la ceinture de feu du Pacifique. Combien cela fait-il de volcans ?\n2. Combien de volcans se trouvent hors de cette ceinture ? Quel pourcentage cela représente-t-il ?\n3. Un volcan menace un village de 2 000 habitants. Chaque bus transporte 50 personnes. Combien de trajets faut-il pour évacuer tout le village ?\n4. Huit bus sont disponibles. Chaque bus fait le même nombre de trajets. Combien de trajets par bus ?\n5. Un aller-retour dure 1 h 30. Combien de temps dure l'évacuation ? L'alerte a été donnée 12 heures avant l'arrivée prévue de la lave : l'évacuation est-elle terminée à temps ?\n6. Cite deux signes qui annoncent une éruption et un appareil qui les mesure.\n7. Cite un avantage et un danger d'habiter près d'un volcan.",
+          "solution": "1. 1 500 × 75 ÷ 100 = 1 125 volcans.\n2. 1 500 − 1 125 = 375 volcans, soit 100 − 75 = 25 %.\n3. 2 000 ÷ 50 = 40 trajets.\n4. 40 ÷ 8 = 5 trajets par bus.\n5. 5 × 1,5 = 7,5 heures, soit 7 h 30 min. Comme 7,5 h est inférieur à 12 h, l'évacuation est terminée à temps.\n6. Par exemple : des petites secousses du sol, enregistrées par des sismographes ; le gonflement du sol, mesuré par des instruments de déformation ; la hausse de la température ou des gaz.\n7. Avantage : les sols volcaniques sont très fertiles (ou : sources chaudes, tourisme). Danger : coulées de lave, chutes de cendres, gaz toxiques, lahars, nuée ardente."
+        }
+      ]
+    }
+  ]
+}
