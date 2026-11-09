@@ -1,0 +1,350 @@
+{
+  "id": "sp4-7-metaux-ions",
+  "titre": "Chapitre 7 : Métaux et ions",
+  "lecons": [
+    {
+      "id": "sp4-7-metaux",
+      "titre": "Les métaux : propriétés et structure",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Métal",
+          "texte": "Un métal est un corps simple formé d'atomes d'un même élément métallique (fer, cuivre, aluminium, zinc...). Ses atomes sont rangés de façon régulière. Un métal n'est pas formé de molécules."
+        },
+        {
+          "type": "tableau",
+          "titre": "Propriétés des métaux",
+          "entetes": ["Propriété", "Exemple"],
+          "lignes": [
+            ["Éclat métallique", "Une surface propre est brillante."],
+            ["Conduit l'électricité", "Les fils électriques sont en cuivre."],
+            ["Conduit la chaleur", "Les casseroles sont en aluminium ou en acier."],
+            ["Malléable", "On peut l'aplatir en feuille : le papier d'aluminium."],
+            ["Ductile", "On peut l'étirer en fil : le fil de cuivre."],
+            ["Solide à température ambiante", "Une seule exception : le mercure, qui est liquide."]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "L'aimant",
+          "texte": "Le fer est attiré par un aimant. Le nickel et le cobalt aussi. Le cuivre, l'aluminium et le zinc ne le sont pas. Attention : un objet attiré par un aimant n'est pas forcément en fer pur, mais il contient du fer, du nickel ou du cobalt."
+        },
+        {
+          "type": "definition",
+          "titre": "Structure d'un métal",
+          "texte": "Dans un morceau de métal, les atomes sont empilés de manière très régulière, comme des oranges bien rangées au marché. Pour certains métaux (cuivre, aluminium, or, argent), l'empilement s'appelle cubique à faces centrées (CFC) : on trouve un atome à chacun des 8 sommets d'un cube et un atome au centre de chacune des 6 faces."
+        },
+        {
+          "type": "schema",
+          "titre": "Maille cubique à faces centrées",
+          "svg": "<svg width='380' height='150' viewBox='0 0 380 150' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif'><rect x='30' y='50' width='80' height='80' fill='none' stroke='currentColor' stroke-width='1.2'/><rect x='60' y='20' width='80' height='80' fill='none' stroke='currentColor' stroke-width='1' stroke-dasharray='4 3' stroke-opacity='0.6'/><line x1='30' y1='50' x2='60' y2='20' stroke='currentColor' stroke-width='1.2'/><line x1='110' y1='50' x2='140' y2='20' stroke='currentColor' stroke-width='1.2'/><line x1='30' y1='130' x2='60' y2='100' stroke='currentColor' stroke-width='1' stroke-opacity='0.6'/><line x1='110' y1='130' x2='140' y2='100' stroke='currentColor' stroke-width='1.2'/><circle cx='30' cy='50' r='6' fill='currentColor' fill-opacity='0.7'/><circle cx='110' cy='50' r='6' fill='currentColor' fill-opacity='0.7'/><circle cx='30' cy='130' r='6' fill='currentColor' fill-opacity='0.7'/><circle cx='110' cy='130' r='6' fill='currentColor' fill-opacity='0.7'/><circle cx='60' cy='20' r='6' fill='currentColor' fill-opacity='0.7'/><circle cx='140' cy='20' r='6' fill='currentColor' fill-opacity='0.7'/><circle cx='60' cy='100' r='6' fill='currentColor' fill-opacity='0.7'/><circle cx='140' cy='100' r='6' fill='currentColor' fill-opacity='0.7'/><circle cx='70' cy='90' r='6' fill='#e11d48' fill-opacity='0.8'/><circle cx='85' cy='35' r='6' fill='#e11d48' fill-opacity='0.8'/><circle cx='125' cy='75' r='6' fill='#e11d48' fill-opacity='0.8'/><text x='165' y='45' font-size='13' fill='currentColor'>Cubique à faces centrées</text><text x='165' y='72' font-size='11' fill='currentColor'>Cercles gris : les 8 sommets</text><text x='165' y='90' font-size='11' fill='currentColor'>Cercles rouges : centres des faces</text><text x='165' y='108' font-size='11' fill='currentColor'>(3 faces sur 6 sont visibles)</text></svg>",
+          "legende": "Maille CFC : 8 atomes aux sommets et 6 au centre des faces, soit 14 atomes au total."
+        },
+        {
+          "type": "remarque",
+          "titre": "Tous les métaux ne s'empilent pas pareil",
+          "texte": "Le cuivre, l'aluminium, l'or et l'argent ont la structure CFC. D'autres métaux, comme le fer ou le zinc, ont un autre empilement régulier. Dans tous les cas, les atomes sont rangés avec ordre."
+        },
+        {
+          "type": "definition",
+          "titre": "Électrons libres",
+          "texte": "Dans un métal, certains électrons ne restent pas attachés à un atome : ils peuvent se déplacer dans tout le morceau. On les appelle électrons libres. Ce sont eux qui permettent au métal de conduire l'électricité (nous le verrons au chapitre 10)."
+        },
+        {
+          "type": "definition",
+          "titre": "Alliage",
+          "texte": "Un alliage est un mélange d'un métal avec d'autres éléments. Ce n'est donc pas un corps pur."
+        },
+        {
+          "type": "exemple",
+          "titre": "Alliages courants",
+          "texte": "L'acier : fer et un peu de carbone.\nLe laiton : cuivre et zinc.\nLe bronze : cuivre et étain."
+        },
+        {
+          "type": "remarque",
+          "titre": "La rouille",
+          "texte": "Le fer rouille quand il reste à l'air humide : il se couvre d'une couche brun-orange, la rouille. L'aluminium, lui, se couvre d'une fine couche transparente qui le protège."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Malléable", "Qui peut être aplati sans se casser."],
+            ["Ductile", "Qui peut être étiré en fil."],
+            ["Électron libre", "Électron qui peut se déplacer dans tout le métal."],
+            ["Alliage", "Mélange d'un métal avec d'autres éléments."],
+            ["CFC", "Cubique à faces centrées : un type d'empilement des atomes."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Un clou de fer et un fil de cuivre sont approchés d'un aimant. Lequel est attiré ?\n2) Pourquoi fabrique-t-on les fils électriques en cuivre ?\n3) Le laiton est-il un corps pur ? Justifie.",
+          "solution": "1) Le clou de fer est attiré. Le cuivre n'est pas attiré par un aimant.\n2) Le cuivre conduit bien l'électricité et il est ductile : on peut l'étirer en fil.\n3) Non : le laiton est un alliage, c'est-à-dire un mélange de cuivre et de zinc."
+        }
+      ]
+    },
+    {
+      "id": "sp4-7-ions",
+      "titre": "Des atomes aux ions",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Ion",
+          "texte": "Un ion est un atome, ou un groupe d'atomes, qui a gagné ou perdu des électrons. Il porte donc une charge électrique."
+        },
+        {
+          "type": "definition",
+          "titre": "Cation et anion",
+          "texte": "Un cation a perdu des électrons : il porte une charge positive (+).\nUn anion a gagné des électrons : il porte une charge négative (−)."
+        },
+        {
+          "type": "regle",
+          "titre": "Le noyau ne change pas",
+          "texte": "Quand un atome devient un ion, seul le nombre d'électrons change. Le noyau reste le même : le nombre de protons (donc Z) ne change pas, et l'élément reste le même.\nCharge de l'ion = nombre de protons − nombre d'électrons, comptée en unités de charge élémentaire e."
+        },
+        {
+          "type": "exemple",
+          "titre": "L'ion cuivre II",
+          "texte": "Atome de cuivre : Z = 29, donc 29 protons et 29 électrons.\nL'atome perd 2 électrons : il lui reste 29 − 2 = 27 électrons.\nCharge : 29 − 27 = +2e. C'est l'ion cuivre II, noté Cu²⁺."
+        },
+        {
+          "type": "exemple",
+          "titre": "L'ion chlorure",
+          "texte": "Atome de chlore : Z = 17, donc 17 protons et 17 électrons.\nL'atome gagne 1 électron : il a 17 + 1 = 18 électrons.\nCharge : 17 − 18 = −1e. C'est l'ion chlorure, noté Cl⁻."
+        },
+        {
+          "type": "schema",
+          "titre": "De l'atome à l'ion",
+          "svg": "<svg width='380' height='190' viewBox='0 0 380 190' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif'><defs><marker id='sp47a' markerWidth='8' markerHeight='8' refX='7' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='#e11d48'/></marker></defs><circle cx='60' cy='40' r='24' fill='none' stroke='currentColor' stroke-width='1.5'/><text x='60' y='45' text-anchor='middle' font-size='14' fill='currentColor'>Na</text><text x='60' y='78' text-anchor='middle' font-size='11' fill='currentColor'>11 p, 11 e⁻</text><line x1='100' y1='40' x2='200' y2='40' stroke='#e11d48' stroke-width='2' marker-end='url(#sp47a)'/><text x='150' y='30' text-anchor='middle' font-size='11' fill='currentColor'>perd 1 e⁻</text><circle cx='250' cy='40' r='22' fill='#e11d48' fill-opacity='0.15' stroke='currentColor' stroke-width='1.5'/><text x='250' y='45' text-anchor='middle' font-size='14' fill='currentColor'>Na⁺</text><text x='250' y='78' text-anchor='middle' font-size='11' fill='currentColor'>11 p, 10 e⁻</text><text x='300' y='45' font-size='12' fill='currentColor'>cation</text><circle cx='60' cy='130' r='24' fill='none' stroke='currentColor' stroke-width='1.5'/><text x='60' y='135' text-anchor='middle' font-size='14' fill='currentColor'>Cl</text><text x='60' y='168' text-anchor='middle' font-size='11' fill='currentColor'>17 p, 17 e⁻</text><line x1='100' y1='130' x2='200' y2='130' stroke='#e11d48' stroke-width='2' marker-end='url(#sp47a)'/><text x='150' y='120' text-anchor='middle' font-size='11' fill='currentColor'>gagne 1 e⁻</text><circle cx='250' cy='130' r='26' fill='#e11d48' fill-opacity='0.15' stroke='currentColor' stroke-width='1.5'/><text x='250' y='135' text-anchor='middle' font-size='14' fill='currentColor'>Cl⁻</text><text x='250' y='168' text-anchor='middle' font-size='11' fill='currentColor'>17 p, 18 e⁻</text><text x='300' y='135' font-size='12' fill='currentColor'>anion</text></svg>",
+          "legende": "p : protons. e⁻ : électrons. Le nombre de protons ne change pas."
+        },
+        {
+          "type": "tableau",
+          "titre": "Ions formés d'un seul atome",
+          "entetes": ["Ion", "Nom", "Protons", "Électrons", "Charge"],
+          "lignes": [
+            ["Na⁺", "sodium", "11", "10", "+1e"],
+            ["Ca²⁺", "calcium", "20", "18", "+2e"],
+            ["Al³⁺", "aluminium", "13", "10", "+3e"],
+            ["Cu²⁺", "cuivre II", "29", "27", "+2e"],
+            ["Fe²⁺", "fer II", "26", "24", "+2e"],
+            ["Fe³⁺", "fer III", "26", "23", "+3e"],
+            ["Zn²⁺", "zinc", "30", "28", "+2e"],
+            ["Cl⁻", "chlorure", "17", "18", "−1e"],
+            ["O²⁻", "oxyde", "8", "10", "−2e"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "L'ion hydrogène",
+          "texte": "L'atome d'hydrogène n'a qu'un proton et un électron. L'ion H⁺ a perdu son électron : il ne reste que le proton. C'est l'ion présent dans les acides."
+        },
+        {
+          "type": "definition",
+          "titre": "Ion formé de plusieurs atomes",
+          "texte": "Certains ions sont formés d'un groupe d'atomes qui reste lié et qui porte une charge. Pour compter les protons, on additionne ceux de tous les atomes du groupe."
+        },
+        {
+          "type": "tableau",
+          "titre": "Ions à plusieurs atomes",
+          "entetes": ["Ion", "Nom", "Atomes", "Charge"],
+          "lignes": [
+            ["NH₄⁺", "ammonium", "1 N et 4 H", "+1e"],
+            ["OH⁻", "hydroxyde", "1 O et 1 H", "−1e"],
+            ["NO₃⁻", "nitrate", "1 N et 3 O", "−1e"],
+            ["SO₄²⁻", "sulfate", "1 S et 4 O", "−2e"],
+            ["CO₃²⁻", "carbonate", "1 C et 3 O", "−2e"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Comment écrire un ion",
+          "texte": "On écrit la formule, puis la charge en haut à droite : le nombre d'abord, puis le signe. Quand la charge est 1, on n'écrit pas le chiffre.\nCu²⁺ : charge +2e. Na⁺ : charge +1e. SO₄²⁻ : charge −2e."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Ion", "Atome ou groupe d'atomes qui a gagné ou perdu des électrons."],
+            ["Cation", "Ion de charge positive."],
+            ["Anion", "Ion de charge négative."],
+            ["Charge élémentaire", "Plus petite charge électrique, notée e."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) L'ion aluminium Al³⁺ vient d'un atome de numéro atomique Z = 13. Donne son nombre de protons et d'électrons. Est-ce un cation ou un anion ?\n2) L'atome de soufre (Z = 16) devient l'ion S²⁻. Combien d'électrons gagne-t-il ? Combien en possède l'ion ?\n3) L'ion hydroxyde OH⁻ contient 1 atome d'oxygène (Z = 8) et 1 atome d'hydrogène (Z = 1). Combien a-t-il de protons ? Il possède 10 électrons : quelle est sa charge ?",
+          "solution": "1) Protons : 13. Électrons : 13 − 3 = 10. C'est un cation (charge +3e).\n2) Il gagne 2 électrons. L'ion possède 16 + 2 = 18 électrons.\n3) Protons : 8 + 1 = 9. Charge : 9 − 10 = −1e."
+        }
+      ]
+    },
+    {
+      "id": "sp4-7-solutions",
+      "titre": "Composés ioniques et solutions",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Solution aqueuse",
+          "texte": "Une solution aqueuse est un mélange d'eau (le solvant) et d'un corps dissous (le soluté)."
+        },
+        {
+          "type": "definition",
+          "titre": "Composé ionique",
+          "texte": "Un composé ionique est un solide formé de cations et d'anions rangés de façon régulière. Le sel de cuisine, ou chlorure de sodium, est un composé ionique : il est formé d'ions sodium Na⁺ et d'ions chlorure Cl⁻."
+        },
+        {
+          "type": "regle",
+          "titre": "Un composé ionique est neutre",
+          "texte": "Un composé ionique contient autant de charges positives que de charges négatives. Il est électriquement neutre, comme la solution obtenue quand on le dissout."
+        },
+        {
+          "type": "schema",
+          "titre": "Dissolution du sel dans l'eau",
+          "svg": "<svg width='380' height='145' viewBox='0 0 380 145' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif'><defs><marker id='sp47b' markerWidth='8' markerHeight='8' refX='7' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='#e11d48'/></marker></defs><circle cx='40' cy='35' r='11' fill='#e11d48' fill-opacity='0.8' stroke='currentColor' stroke-width='1.2'/><circle cx='65' cy='35' r='8' fill='none' stroke='currentColor' stroke-width='1.5'/><circle cx='90' cy='35' r='11' fill='#e11d48' fill-opacity='0.8' stroke='currentColor' stroke-width='1.2'/><circle cx='40' cy='60' r='8' fill='none' stroke='currentColor' stroke-width='1.5'/><circle cx='65' cy='60' r='11' fill='#e11d48' fill-opacity='0.8' stroke='currentColor' stroke-width='1.2'/><circle cx='90' cy='60' r='8' fill='none' stroke='currentColor' stroke-width='1.5'/><circle cx='40' cy='85' r='11' fill='#e11d48' fill-opacity='0.8' stroke='currentColor' stroke-width='1.2'/><circle cx='65' cy='85' r='8' fill='none' stroke='currentColor' stroke-width='1.5'/><circle cx='90' cy='85' r='11' fill='#e11d48' fill-opacity='0.8' stroke='currentColor' stroke-width='1.2'/><line x1='125' y1='60' x2='185' y2='60' stroke='#e11d48' stroke-width='2' marker-end='url(#sp47b)'/><text x='155' y='50' text-anchor='middle' font-size='10' fill='currentColor'>dans l'eau</text><circle cx='220' cy='38' r='11' fill='#e11d48' fill-opacity='0.8' stroke='currentColor' stroke-width='1.2'/><circle cx='265' cy='55' r='8' fill='none' stroke='currentColor' stroke-width='1.5'/><circle cx='315' cy='35' r='11' fill='#e11d48' fill-opacity='0.8' stroke='currentColor' stroke-width='1.2'/><circle cx='205' cy='62' r='8' fill='none' stroke='currentColor' stroke-width='1.5'/><circle cx='235' cy='85' r='8' fill='none' stroke='currentColor' stroke-width='1.5'/><circle cx='290' cy='92' r='11' fill='#e11d48' fill-opacity='0.8' stroke='currentColor' stroke-width='1.2'/><circle cx='340' cy='70' r='8' fill='none' stroke='currentColor' stroke-width='1.5'/><circle cx='345' cy='100' r='11' fill='#e11d48' fill-opacity='0.8' stroke='currentColor' stroke-width='1.2'/><text x='65' y='120' text-anchor='middle' font-size='11' fill='currentColor'>Cristal de NaCl</text><text x='285' y='128' text-anchor='middle' font-size='11' fill='currentColor'>Solution de NaCl</text></svg>",
+          "legende": "Cercle vide : ion sodium Na⁺. Cercle rouge : ion chlorure Cl⁻. Dans l'eau, les ions se séparent et se dispersent."
+        },
+        {
+          "type": "regle",
+          "titre": "Nom et formule",
+          "texte": "Dans le nom, on cite l'anion d'abord : chlorure de sodium. Dans la formule, on écrit le cation d'abord : NaCl.\nLes indices donnent le nombre d'ions de chaque sorte, de façon que le total des charges soit nul. Si un ion à plusieurs atomes doit être répété, on le met entre parenthèses : Ca(OH)₂."
+        },
+        {
+          "type": "methode",
+          "titre": "Trouver la formule d'un composé ionique",
+          "texte": "1) Écris les ions avec leur charge.\n2) Cherche combien d'ions de chaque sorte il faut pour que le total des charges soit nul.\n3) Écris les indices (rien si c'est 1).\nExemple : chlorure de fer III. Ions : Fe³⁺ (+3) et Cl⁻ (−1). Il faut 3 ions Cl⁻ pour 1 ion Fe³⁺ : +3 − 3 = 0. Formule : FeCl₃."
+        },
+        {
+          "type": "tableau",
+          "titre": "Composés ioniques à connaître",
+          "entetes": ["Nom", "Ions", "Formule"],
+          "lignes": [
+            ["Chlorure de sodium", "Na⁺ et Cl⁻", "NaCl"],
+            ["Chlorure de calcium", "Ca²⁺ et 2 Cl⁻", "CaCl₂"],
+            ["Chlorure de fer II", "Fe²⁺ et 2 Cl⁻", "FeCl₂"],
+            ["Chlorure de fer III", "Fe³⁺ et 3 Cl⁻", "FeCl₃"],
+            ["Chlorure d'ammonium", "NH₄⁺ et Cl⁻", "NH₄Cl"],
+            ["Sulfate de cuivre II", "Cu²⁺ et SO₄²⁻", "CuSO₄"],
+            ["Sulfate de zinc", "Zn²⁺ et SO₄²⁻", "ZnSO₄"],
+            ["Hydroxyde de sodium", "Na⁺ et OH⁻", "NaOH"],
+            ["Hydroxyde de calcium", "Ca²⁺ et 2 OH⁻", "Ca(OH)₂"],
+            ["Hydroxyde de fer III", "Fe³⁺ et 3 OH⁻", "Fe(OH)₃"],
+            ["Carbonate de calcium", "Ca²⁺ et CO₃²⁻", "CaCO₃"],
+            ["Carbonate de sodium", "2 Na⁺ et CO₃²⁻", "Na₂CO₃"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Couleur de quelques ions en solution",
+          "entetes": ["Ion", "Couleur de la solution"],
+          "lignes": [
+            ["Cu²⁺", "Bleue"],
+            ["Fe²⁺", "Vert pâle"],
+            ["Fe³⁺", "Jaune-orangé"],
+            ["Na⁺, Cl⁻, Zn²⁺, Ca²⁺", "Incolore"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Le sulfate de cuivre",
+          "texte": "Le sulfate de cuivre anhydre est blanc. Dissous dans l'eau, il donne une solution bleue : c'est la couleur de l'ion Cu²⁺."
+        },
+        {
+          "type": "regle",
+          "titre": "Solutions et électricité",
+          "texte": "Une solution qui contient des ions conduit le courant électrique : les ions peuvent se déplacer. L'eau salée conduit le courant. L'eau sucrée ne le conduit pas, car le sucre est formé de molécules sans charge. L'eau distillée ne conduit pratiquement pas le courant."
+        },
+        {
+          "type": "remarque",
+          "titre": "Sécurité",
+          "texte": "L'eau du robinet contient un peu d'ions : elle conduit le courant. Il ne faut jamais toucher un appareil électrique avec les mains mouillées."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Solvant", "Liquide dans lequel on dissout (ici l'eau)."],
+            ["Soluté", "Corps qui est dissous."],
+            ["Composé ionique", "Solide formé de cations et d'anions."],
+            ["Dissolution", "Passage d'un corps dans l'eau pour former une solution."],
+            ["Électriquement neutre", "Qui a autant de charges positives que négatives."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Écris la formule du chlorure de zinc, formé des ions Zn²⁺ et Cl⁻.\n2) Écris la formule du sulfate de sodium, formé des ions Na⁺ et SO₄²⁻.\n3) Pourquoi une solution de sel conduit-elle le courant alors qu'une solution de sucre ne le conduit pas ?",
+          "solution": "1) Il faut 2 ions Cl⁻ pour 1 ion Zn²⁺ : +2 − 2 = 0. Formule : ZnCl₂.\n2) Il faut 2 ions Na⁺ pour 1 ion SO₄²⁻ : +2 − 2 = 0. Formule : Na₂SO₄.\n3) L'eau salée contient des ions qui peuvent se déplacer. L'eau sucrée contient des molécules de sucre sans charge : il n'y a pas d'ions."
+        }
+      ]
+    },
+    {
+      "id": "sp4-7-metal-ion",
+      "titre": "Du métal à l'ion : cuivre, fer, zinc, aluminium",
+      "blocs": [
+        {
+          "type": "regle",
+          "titre": "Un métal attaqué donne des ions",
+          "texte": "Quand un métal est attaqué par une solution, il disparaît peu à peu : ses atomes perdent des électrons et deviennent des cations dissous dans la solution."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les ions des métaux courants",
+          "entetes": ["Métal", "Perte d'électrons", "Couleur de la solution"],
+          "lignes": [
+            ["Cuivre", "Cu → Cu²⁺ + 2 e⁻", "Bleue"],
+            ["Fer", "Fe → Fe²⁺ + 2 e⁻", "Vert pâle"],
+            ["Zinc", "Zn → Zn²⁺ + 2 e⁻", "Incolore"],
+            ["Aluminium", "Al → Al³⁺ + 3 e⁻", "Incolore"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Lire une écriture avec les électrons",
+          "texte": "Cu → Cu²⁺ + 2 e⁻ signifie : un atome de cuivre devient un ion Cu²⁺ en perdant 2 électrons. La charge totale ne change pas : 0 = +2 + (−2)."
+        },
+        {
+          "type": "exemple",
+          "titre": "Le fer et l'acide chlorhydrique",
+          "texte": "Un clou de fer plongé dans l'acide chlorhydrique se couvre de bulles : c'est du dihydrogène. Le clou diminue et la solution devient vert pâle : le fer a donné des ions Fe²⁺. Nous écrirons l'équation de cette réaction au chapitre 9."
+        },
+        {
+          "type": "exemple",
+          "titre": "Le zinc et l'acide chlorhydrique",
+          "texte": "Le zinc est aussi attaqué par l'acide chlorhydrique. Il se forme du dihydrogène et des ions Zn²⁺, incolores. La solution reste donc incolore."
+        },
+        {
+          "type": "remarque",
+          "titre": "Le cuivre résiste à l'acide chlorhydrique",
+          "texte": "Le cuivre n'est pas attaqué par l'acide chlorhydrique. Il faut de l'acide nitrique concentré pour l'attaquer. Cette réaction est dangereuse : elle dégage un gaz roux très toxique. On ne la fait jamais sans l'aide d'un professeur. On obtient une solution bleue, qui contient des ions Cu²⁺."
+        },
+        {
+          "type": "remarque",
+          "titre": "Sécurité avec les acides",
+          "texte": "Les acides concentrés brûlent la peau et les yeux. Ces expériences se font avec un professeur, avec des lunettes et des gants, et jamais à la maison."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Attaquer", "Réagir avec un métal et le faire disparaître peu à peu."],
+            ["Dihydrogène", "Gaz H₂, inflammable et explosif au contact d'une flamme."],
+            ["Concentré", "Qui contient beaucoup de corps dissous."],
+            ["Acide nitrique", "Acide capable d'attaquer le cuivre."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Écris la perte d'électrons de l'atome d'aluminium qui devient l'ion Al³⁺.\n2) Une solution obtenue en attaquant un métal est bleue. Quel ion contient-elle ? De quel métal vient-il ?\n3) Un clou de fer est plongé dans l'acide chlorhydrique. Pourquoi le clou diminue-t-il peu à peu ?",
+          "solution": "1) Al → Al³⁺ + 3 e⁻.\n2) Elle contient l'ion Cu²⁺ : le métal est le cuivre.\n3) Les atomes de fer perdent des électrons et deviennent des ions Fe²⁺ qui passent dans la solution : le fer disparaît peu à peu."
+        }
+      ]
+    }
+  ]
+}
