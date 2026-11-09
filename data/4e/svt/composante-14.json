@@ -1,0 +1,336 @@
+{
+  "id": "svt4-14-cycles-femme",
+  "titre": "Les cycles sexuels de la femme",
+  "lecons": [
+    {
+      "id": "svt4-14-l1-cycle-ovarien",
+      "titre": "Le cycle ovarien",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Le cycle sexuel de la femme",
+          "texte": "Le cycle sexuel de la femme est l'ensemble des changements qui se répètent à peu près tous les 28 jours, de la puberté à la ménopause, dans les ovaires et dans l'utérus. On compte les jours à partir du premier jour des règles, appelé jour 1."
+        },
+        {
+          "type": "remarque",
+          "titre": "Deux cycles en même temps",
+          "texte": "Dans les ovaires se déroule le cycle ovarien (cette leçon). Dans l'utérus se déroule le cycle utérin (leçon 2). Les deux sont commandés par les mêmes hormones (leçon 3) et restent synchronisés."
+        },
+        {
+          "type": "definition",
+          "titre": "Follicule",
+          "texte": "Un follicule est une petite poche de l'ovaire. Il contient une cellule sexuelle en formation, l'ovocyte, qui deviendra l'ovule. Il l'entoure de cellules qui la nourrissent."
+        },
+        {
+          "type": "remarque",
+          "titre": "Un grand stock dès la naissance",
+          "texte": "À la naissance, les deux ovaires contiennent ensemble environ un million de follicules. Beaucoup disparaissent avant la puberté : il en reste environ 300 000 à 400 000. Pourtant, seuls 400 à 500 ovules seront libérés au cours de la vie. Tous les autres follicules disparaissent sans arriver à maturité."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les trois étapes du cycle ovarien",
+          "entetes": ["Étape", "Quand ?", "Ce qui se passe"],
+          "lignes": [
+            ["Phase folliculaire", "Jours 1 à 14", "Plusieurs follicules grandissent, mais un seul devient mûr"],
+            ["Ovulation", "Vers le jour 14", "Le follicule mûr s'ouvre et libère l'ovule"],
+            ["Phase lutéale", "Jours 15 à 28", "Le follicule vide se transforme en corps jaune"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Un ovaire pendant un cycle de 28 jours",
+          "svg": "<svg width='560' height='230' viewBox='0 0 560 230' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='12'><defs><marker id='fl14a' markerWidth='8' markerHeight='8' refX='6' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='currentColor'/></marker></defs><g fill='currentColor' text-anchor='middle'><text x='50' y='40'>jour 1</text><text x='150' y='40'>jour 7</text><text x='262' y='40'>jour 13</text><text x='385' y='40'>jour 14</text><text x='500' y='40'>jours 15 à 28</text><text x='50' y='158'>Jeune</text><text x='50' y='174'>follicule</text><text x='150' y='158'>Follicule</text><text x='150' y='174'>en croissance</text><text x='262' y='158'>Follicule mûr</text><text x='262' y='174'>(un seul par cycle)</text><text x='385' y='158'>Ovulation</text><text x='385' y='174'>(ovule libéré)</text><text x='500' y='158'>Corps jaune</text><text x='500' y='174'>(progestérone)</text><text x='175' y='210'>Phase folliculaire (jours 1 à 14)</text><text x='447' y='210'>Phase lutéale (jours 15 à 28)</text></g><text x='436' y='66' fill='currentColor'>ovule</text><g fill='none' stroke='currentColor' stroke-width='1.5'><circle cx='50' cy='100' r='16'/><circle cx='150' cy='100' r='26'/><circle cx='150' cy='100' r='14' fill='currentColor' fill-opacity='0.08'/><circle cx='262' cy='100' r='38'/><circle cx='262' cy='100' r='26' fill='currentColor' fill-opacity='0.08'/><path d='M402,70.6 A34,34 0 1 0 417,88.4'/><circle cx='500' cy='100' r='24' fill='#e11d48' fill-opacity='0.35'/><line x1='72' y1='100' x2='118' y2='100' marker-end='url(#fl14a)'/><line x1='182' y1='100' x2='218' y2='100' marker-end='url(#fl14a)'/><line x1='306' y1='100' x2='345' y2='100' marker-end='url(#fl14a)'/><line x1='425' y1='100' x2='470' y2='100' marker-end='url(#fl14a)'/><line x1='395' y1='92' x2='418' y2='68' marker-end='url(#fl14a)'/><line x1='20' y1='190' x2='330' y2='190'/><line x1='350' y1='190' x2='545' y2='190'/></g><g fill='#e11d48'><circle cx='50' cy='100' r='6'/><circle cx='140' cy='100' r='5'/><circle cx='245' cy='100' r='6'/><circle cx='424' cy='62' r='6'/></g></svg>",
+          "legende": "Plusieurs follicules commencent à grandir, mais un seul arrive à maturité. Il libère l'ovule vers le jour 14, puis devient le corps jaune. Le point rouge représente l'ovocyte, puis l'ovule."
+        },
+        {
+          "type": "definition",
+          "titre": "Ovulation",
+          "texte": "L'ovulation est la libération d'un ovule par l'ovaire, vers le 14e jour d'un cycle de 28 jours. Le follicule mûr s'ouvre et l'ovule en sort. Le pavillon de la trompe le recueille et il avance dans la trompe. Il reste fécondable pendant 12 à 24 heures."
+        },
+        {
+          "type": "definition",
+          "titre": "Corps jaune",
+          "texte": "Le corps jaune est ce qui reste du follicule après l'ovulation. Il fabrique surtout la progestérone, ainsi que des œstrogènes. Sans fécondation, il disparaît vers le jour 28 et devient une petite cicatrice, le corps blanc. S'il y a fécondation, il continue de fonctionner (chapitre 15)."
+        },
+        {
+          "type": "exemple",
+          "titre": "Combien d'ovules en une vie ?",
+          "texte": "Une femme a des cycles pendant environ 35 ans. Il y a environ 13 cycles par an (365 ÷ 28 ≈ 13). Cela fait 35 × 13 = 455 cycles, donc environ 455 ovulations. Ce résultat est bien compris entre 400 et 500."
+        },
+        {
+          "type": "remarque",
+          "titre": "Bon à savoir",
+          "texte": "L'ovulation a lieu tantôt dans un ovaire, tantôt dans l'autre. Il n'y a pas d'ovulation avant la puberté, pendant la grossesse ni après la ménopause."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Cycle", "Suite de changements qui se répète régulièrement"],
+            ["Follicule", "Petite poche de l'ovaire qui contient un ovocyte"],
+            ["Ovocyte", "Cellule sexuelle de la femme en formation, avant de devenir un ovule"],
+            ["Ovulation", "Libération de l'ovule par l'ovaire"],
+            ["Corps jaune", "Reste du follicule après l'ovulation ; il fabrique la progestérone"],
+            ["Phase folliculaire", "Première moitié du cycle, avant l'ovulation"],
+            ["Phase lutéale", "Seconde moitié du cycle, après l'ovulation, quand le corps jaune est actif"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Une femme a ses premières règles à 13 ans et sa ménopause à 50 ans. Son cycle dure 28 jours.\n\n1. Pendant combien d'années a-t-elle des cycles ?\n2. Combien cela fait-il de jours (une année = 365 jours) ?\n3. Combien de cycles de 28 jours cela représente-t-il ? (Arrondis à l'unité.)\n4. Compare ce résultat avec les 400 à 500 ovules libérés au cours de la vie.\n5. Pourquoi une femme libère-t-elle en réalité un peu moins d'ovules que ce nombre de cycles ?",
+          "solution": "1. 50 − 13 = 37 ans.\n2. 37 × 365 = 13 505 jours.\n3. 13 505 ÷ 28 ≈ 482,3 ; il y a donc environ 482 cycles.\n4. 482 est dans la fourchette de 400 à 500 : le résultat est cohérent avec le cours.\n5. Pendant une grossesse, l'ovulation s'arrête. De plus, certains cycles se font sans ovulation (par exemple dans les premières années après les premières règles, ou en cas de maladie)."
+        }
+      ]
+    },
+    {
+      "id": "svt4-14-l2-cycle-uterin",
+      "titre": "Le cycle utérin et les règles",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Endomètre",
+          "texte": "L'endomètre est la muqueuse qui tapisse l'intérieur de l'utérus. Il contient beaucoup de petits vaisseaux sanguins et des glandes."
+        },
+        {
+          "type": "definition",
+          "titre": "Règles",
+          "texte": "Les règles (ou menstruations) sont l'écoulement par le vagin d'un mélange de sang et de morceaux d'endomètre. Le premier jour des règles est le jour 1 d'un nouveau cycle."
+        },
+        {
+          "type": "tableau",
+          "titre": "Le cycle utérin (cycle de 28 jours)",
+          "entetes": ["Phase", "Ce qui se passe dans l'utérus", "Hormones responsables"],
+          "lignes": [
+            ["Règles (jours 1 à 5)", "L'endomètre se détache par morceaux et s'écoule avec du sang par le vagin", "Chute des œstrogènes et de la progestérone"],
+            ["Reconstruction (jours 6 à 14)", "L'endomètre se reconstruit et s'épaissit", "Œstrogènes"],
+            ["Préparation (jours 15 à 28)", "L'endomètre devient très épais, riche en vaisseaux sanguins et en glandes", "Progestérone (avec des œstrogènes)"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "L'endomètre au cours du cycle",
+          "svg": "<svg width='560' height='210' viewBox='0 0 560 210' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='12'><g fill='none' stroke='currentColor' stroke-width='1.5'><rect x='20' y='60' width='150' height='90'/><rect x='205' y='60' width='150' height='90'/><rect x='390' y='60' width='150' height='90'/><rect x='20' y='110' width='150' height='40' fill='currentColor' fill-opacity='0.15'/><rect x='205' y='110' width='150' height='40' fill='currentColor' fill-opacity='0.15'/><rect x='390' y='110' width='150' height='40' fill='currentColor' fill-opacity='0.15'/><rect x='20' y='104' width='150' height='6' fill='#e11d48' fill-opacity='0.5' stroke='none'/><rect x='205' y='90' width='150' height='20' fill='#e11d48' fill-opacity='0.5' stroke='none'/><rect x='390' y='70' width='150' height='40' fill='#e11d48' fill-opacity='0.5' stroke='none'/><path d='M415,108 q6,-9 0,-18 q-6,-9 0,-18' stroke-width='1'/><path d='M465,108 q6,-9 0,-18 q-6,-9 0,-18' stroke-width='1'/><path d='M515,108 q6,-9 0,-18 q-6,-9 0,-18' stroke-width='1'/></g><g fill='#e11d48'><circle cx='50' cy='92' r='3.5'/><circle cx='85' cy='80' r='3.5'/><circle cx='115' cy='94' r='3.5'/><circle cx='140' cy='72' r='3.5'/><circle cx='65' cy='70' r='3.5'/></g><g fill='currentColor' text-anchor='middle'><text x='95' y='24' font-weight='bold'>Règles</text><text x='95' y='42'>jours 1 à 5</text><text x='280' y='24' font-weight='bold'>Reconstruction</text><text x='280' y='42'>jours 6 à 14</text><text x='465' y='24' font-weight='bold'>Muqueuse prête</text><text x='465' y='42'>jours 15 à 28</text><text x='95' y='134' font-size='11'>paroi musculaire</text><text x='280' y='134' font-size='11'>paroi musculaire</text><text x='465' y='134' font-size='11'>paroi musculaire</text><text x='95' y='174'>Endomètre mince</text><text x='95' y='192'>(chute des hormones)</text><text x='280' y='174'>Endomètre qui s'épaissit</text><text x='280' y='192'>(œstrogènes)</text><text x='465' y='174'>Endomètre très épais</text><text x='465' y='192'>(progestérone)</text></g></svg>",
+          "legende": "Coupe simplifiée de la paroi de l'utérus. La couche rouge est l'endomètre : il passe d'environ 1 mm à environ 10 mm d'épaisseur (valeurs approximatives), puis il se détache. Les points rouges représentent le sang des règles."
+        },
+        {
+          "type": "regle",
+          "titre": "Pourquoi cette préparation ?",
+          "texte": "À chaque cycle, l'utérus se prépare à accueillir un embryon. S'il y a fécondation, l'embryon s'enfonce dans l'endomètre épais : c'est la nidation (chapitre 15), et il n'y a pas de règles. S'il n'y a pas de fécondation, l'endomètre n'est pas utilisé : il se détache, les règles arrivent et un nouveau cycle commence."
+        },
+        {
+          "type": "remarque",
+          "titre": "Ce que sont vraiment les règles",
+          "texte": "Les règles sont un phénomène normal et naturel. Ce n'est pas du « sang sale » : c'est du sang ordinaire mélangé à des morceaux de muqueuse. Elles durent en général de 3 à 7 jours, et la perte de sang totale est de quelques dizaines de millilitres (environ 30 à 80 mL)."
+        },
+        {
+          "type": "remarque",
+          "titre": "À ne pas confondre",
+          "texte": "Durée des règles : 3 à 7 jours. Durée du cycle : le plus souvent de 21 à 35 jours (28 jours en moyenne). Les règles ne sont que le début du cycle."
+        },
+        {
+          "type": "methode",
+          "titre": "Pendant les règles",
+          "texte": "1. Se laver chaque jour à l'eau propre, avec un savon doux, comme d'habitude.\n2. Changer de protection toutes les 4 à 6 heures (chapitre 12). Une protection en tissu doit être lavée à l'eau propre et au savon, puis bien séchée, de préférence au soleil.\n3. Continuer d'aller à l'école et de faire ses activités : il n'y a aucune raison scientifique de s'en priver.\n4. Manger normalement, avec des aliments riches en fer (viande, poisson, œufs, brèdes, haricots), car le sang perdu contient du fer.\n5. En cas de douleurs au ventre, se reposer ; une bouillotte tiède posée sur le ventre peut soulager."
+        },
+        {
+          "type": "remarque",
+          "titre": "Quand consulter",
+          "texte": "Il faut consulter un agent de santé si les règles sont très abondantes (changer de protection toutes les heures pendant plusieurs heures), si elles durent plus de 7 jours, si les douleurs empêchent d'aller à l'école, s'il n'y a pas de premières règles à 16 ans, ou si les règles disparaissent plus de 3 mois alors qu'elles étaient régulières. Une absence de règles peut aussi signaler une grossesse (chapitre 15)."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Endomètre", "Muqueuse qui tapisse l'intérieur de l'utérus"],
+            ["Muqueuse", "Fine couche humide qui recouvre l'intérieur de certains organes"],
+            ["Menstruations", "Autre nom des règles"],
+            ["Nidation", "Installation de l'embryon dans l'endomètre"],
+            ["Embryon", "Tout premier stade du futur bébé"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Hanta a un cycle de 28 jours. Ses règles ont duré du 5 au 9 juin.\n\n1. Quel jour du cycle est le 9 juin ?\n2. Combien de jours ses règles ont-elles duré ?\n3. À quelle date tombe le 14e jour du cycle ?\n4. À quelle date auront lieu ses prochaines règles ?\n5. Que devient l'endomètre entre le 14e et le 28e jour, et grâce à quelle hormone ?\n6. Pourquoi les règles ont-elles lieu à la fin du cycle si l'ovule n'a pas été fécondé ?",
+          "solution": "1. Le 5 juin est le jour 1 ; le 9 juin est donc le jour 5.\n2. Du 5 au 9 juin inclus : 5 jours.\n3. Le jour 14 est le 5 juin + 13 jours = 18 juin.\n4. Le jour 29 est le 5 juin + 28 jours : juin a 30 jours, 5 + 28 = 33, donc 33 − 30 = 3 juillet.\n5. L'endomètre continue de s'épaissir et devient riche en vaisseaux sanguins et en glandes, grâce à la progestérone (avec des œstrogènes).\n6. Sans fécondation, l'endomètre préparé n'est pas utilisé. Le corps jaune disparaît, les hormones chutent et l'endomètre se détache : ce sont les règles."
+        }
+      ]
+    },
+    {
+      "id": "svt4-14-l3-hormones",
+      "titre": "Le contrôle par les hormones",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Hormone",
+          "texte": "Une hormone est un messager chimique fabriqué par une glande. Elle passe dans le sang et agit sur un organe précis, appelé organe cible. Dans le cycle de la femme, l'hypophyse (commandée par l'hypothalamus, chapitre 12) et les ovaires fabriquent chacun des hormones."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les quatre hormones du cycle",
+          "entetes": ["Hormone", "Fabriquée par", "Rôle"],
+          "lignes": [
+            ["FSH", "Hypophyse", "Fait grandir les follicules dans l'ovaire"],
+            ["LH", "Hypophyse", "Son pic déclenche l'ovulation, puis elle transforme le follicule vide en corps jaune"],
+            ["Œstrogènes", "Follicules (puis corps jaune)", "Reconstruisent l'endomètre ; leur taux élevé provoque le pic de LH"],
+            ["Progestérone", "Corps jaune", "Prépare l'endomètre à la nidation ; freine l'hypophyse"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Le circuit des hormones",
+          "svg": "<svg width='560' height='220' viewBox='0 0 560 220' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='12'><defs><marker id='fl14b' markerWidth='8' markerHeight='8' refX='6' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='currentColor'/></marker></defs><g fill='none' stroke='currentColor' stroke-width='1.5'><rect x='15' y='85' width='110' height='60' rx='8' fill='currentColor' fill-opacity='0.06'/><rect x='225' y='85' width='110' height='60' rx='8' fill='#e11d48' fill-opacity='0.15'/><rect x='435' y='85' width='110' height='60' rx='8' fill='#e11d48' fill-opacity='0.15'/><line x1='128' y1='115' x2='222' y2='115' marker-end='url(#fl14b)'/><line x1='338' y1='115' x2='432' y2='115' marker-end='url(#fl14b)'/><path d='M280,83 C280,30 70,30 70,81' stroke-dasharray='5 4' marker-end='url(#fl14b)'/></g><g fill='currentColor' text-anchor='middle'><text x='70' y='106'>Hypophyse</text><text x='70' y='124'>du cerveau</text><text x='280' y='104'>Ovaires</text><text x='280' y='120'>follicule et</text><text x='280' y='136'>corps jaune</text><text x='490' y='106'>Utérus</text><text x='490' y='124'>endomètre</text><text x='175' y='107'>FSH et LH</text><text x='385' y='107'>œstrogènes</text><text x='385' y='134'>progestérone</text><text x='175' y='30'>Retour : œstrogènes et progestérone</text><text x='280' y='185'>Pic de LH vers le jour 14 : ovulation</text><text x='280' y='205'>Chute des hormones vers le jour 28 : règles</text></g></svg>",
+          "legende": "L'hypophyse commande les ovaires avec la FSH et la LH. Les ovaires commandent l'utérus avec les œstrogènes et la progestérone. La flèche en pointillés montre que les hormones des ovaires agissent aussi en retour sur l'hypophyse."
+        },
+        {
+          "type": "methode",
+          "titre": "Le cycle en quatre temps",
+          "texte": "1. Début du cycle : l'hypophyse libère de la FSH. Plusieurs follicules grandissent et fabriquent des œstrogènes.\n2. Les œstrogènes reconstruisent l'endomètre. Quand leur taux est élevé (vers le jour 13), l'hypophyse libère un pic de LH : c'est l'ovulation.\n3. Après l'ovulation, le follicule devient le corps jaune. Il fabrique de la progestérone et des œstrogènes : l'endomètre se prépare à la nidation. Ces deux hormones freinent l'hypophyse : la FSH et la LH baissent et aucun nouveau follicule ne mûrit.\n4. Sans fécondation, le corps jaune disparaît vers le jour 28. Les hormones chutent : l'endomètre se détache (règles). L'hypophyse n'est plus freinée, elle libère de nouveau de la FSH et un nouveau cycle commence."
+        },
+        {
+          "type": "tableau",
+          "titre": "Niveaux des hormones dans le sang (valeurs relatives)",
+          "entetes": ["Moment du cycle", "Œstrogènes", "Progestérone", "LH"],
+          "lignes": [
+            ["Jours 1 à 5", "très faibles", "très faible", "faible"],
+            ["Jour 7", "en hausse", "très faible", "faible"],
+            ["Jours 12 à 13", "maximum", "très faible", "en forte hausse"],
+            ["Jour 14", "en baisse", "commence à monter", "maximum (pic)"],
+            ["Jour 21", "moyens", "maximum", "faible"],
+            ["Jour 28", "en baisse", "en baisse", "faible"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Quand les cycles s'arrêtent",
+          "texte": "Pendant la grossesse, le corps jaune continue de fonctionner : les hormones restent élevées, il n'y a ni ovulation ni règles (chapitre 15). À la ménopause, vers 45 à 55 ans, il ne reste presque plus de follicules : les ovaires fabriquent beaucoup moins d'œstrogènes et de progestérone, et les cycles s'arrêtent."
+        },
+        {
+          "type": "remarque",
+          "titre": "Hormones et contraception",
+          "texte": "La pilule contraceptive contient des hormones proches de celles de l'ovaire. Elle empêche l'ovulation (chapitre 16). Elle ne doit être prise que sur le conseil d'un professionnel de santé."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Hormone", "Messager chimique fabriqué par une glande et transporté par le sang"],
+            ["Organe cible", "Organe sur lequel agit une hormone"],
+            ["Hypophyse", "Petite glande située sous le cerveau ; elle fabrique la FSH et la LH"],
+            ["FSH", "Hormone qui stimule la croissance des follicules"],
+            ["LH", "Hormone qui provoque l'ovulation et la formation du corps jaune"],
+            ["Œstrogènes", "Hormones des follicules ; elles reconstruisent l'endomètre"],
+            ["Progestérone", "Hormone du corps jaune ; elle prépare l'endomètre à la nidation"],
+            ["Pic", "Valeur très haute mais très brève"],
+            ["Ménopause", "Arrêt définitif des cycles, vers 45 à 55 ans"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Des chercheurs étudient des femelles de mammifère adultes. Ils mesurent l'épaisseur de l'endomètre (chiffres simplifiés).\n\nLot A : femelles normales, 4 mm.\nLot B : ovaires enlevés, 0,5 mm.\nLot C : ovaires enlevés, puis injections d'œstrogènes, 3 mm.\nLot D : ovaires enlevés, puis injections d'œstrogènes et de progestérone, 6 mm.\n\n1. Que montre la comparaison des lots A et B ?\n2. De combien de millimètres l'endomètre augmente-t-il entre B et C ? Que montre ce résultat ?\n3. De combien augmente-t-il entre C et D ? Que montre ce résultat ?\n4. Combien de fois l'endomètre du lot D est-il plus épais que celui du lot B ?\n5. Conclus sur le rôle des hormones dans le contrôle de l'endomètre.",
+          "solution": "1. Sans ovaires, l'endomètre devient très mince (4 mm → 0,5 mm) : les ovaires sont nécessaires pour entretenir l'endomètre.\n2. 3 − 0,5 = 2,5 mm. Les œstrogènes reconstruisent en partie l'endomètre.\n3. 6 − 3 = 3 mm. La progestérone, ajoutée aux œstrogènes, épaissit encore l'endomètre.\n4. 6 ÷ 0,5 = 12 : l'endomètre du lot D est 12 fois plus épais.\n5. Les ovaires contrôlent l'endomètre grâce à deux hormones : les œstrogènes le reconstruisent, puis la progestérone le complète et le prépare à la nidation."
+        }
+      ]
+    },
+    {
+      "id": "svt4-14-l4-calendrier",
+      "titre": "Calendrier et calcul des dates",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Durée du cycle",
+          "texte": "La durée du cycle est le nombre de jours entre le premier jour des règles et la veille du premier jour des règles suivantes. Elle est le plus souvent comprise entre 21 et 35 jours ; la moyenne est de 28 jours."
+        },
+        {
+          "type": "regle",
+          "titre": "Jour de l'ovulation",
+          "texte": "Si le cycle dure N jours (le jour N est la veille des règles suivantes), l'ovulation a lieu vers le jour N − 14. La seconde partie du cycle, après l'ovulation, dure donc presque toujours environ 14 jours : c'est la première partie qui varie d'un cycle à l'autre."
+        },
+        {
+          "type": "tableau",
+          "titre": "Jour de l'ovulation selon la durée du cycle",
+          "entetes": ["Durée du cycle (N)", "Jour de l'ovulation (N − 14)"],
+          "lignes": [
+            ["26 jours", "jour 12"],
+            ["28 jours", "jour 14"],
+            ["30 jours", "jour 16"],
+            ["35 jours", "jour 21"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Période féconde",
+          "texte": "Les spermatozoïdes vivent de 3 à 5 jours dans les voies de la femme et l'ovule 12 à 24 heures. Une grossesse est donc possible depuis 5 jours avant l'ovulation jusqu'à 1 jour après : la période féconde va du jour (ovulation − 5) au jour (ovulation + 1), soit environ 7 jours."
+        },
+        {
+          "type": "schema",
+          "titre": "Un cycle de 28 jours",
+          "svg": "<svg width='560' height='190' viewBox='0 0 560 190' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='12'><defs><marker id='fl14c' markerWidth='8' markerHeight='8' refX='6' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='currentColor'/></marker></defs><rect x='28' y='70' width='90' height='24' fill='#e11d48' fill-opacity='0.5'/><rect x='172' y='70' width='126' height='24' fill='#e11d48' fill-opacity='0.2'/><rect x='28' y='70' width='504' height='24' fill='none' stroke='currentColor' stroke-width='1.5'/><path d='M46,70v24M64,70v24M82,70v24M100,70v24M118,70v24M136,70v24M154,70v24M172,70v24M190,70v24M208,70v24M226,70v24M244,70v24M262,70v24M280,70v24M298,70v24M316,70v24M334,70v24M352,70v24M370,70v24M388,70v24M406,70v24M424,70v24M442,70v24M460,70v24M478,70v24M496,70v24M514,70v24' fill='none' stroke='currentColor' stroke-width='0.8'/><text y='86' text-anchor='middle' font-size='9' fill='currentColor'><tspan x='37'>1</tspan><tspan x='55'>2</tspan><tspan x='73'>3</tspan><tspan x='91'>4</tspan><tspan x='109'>5</tspan><tspan x='127'>6</tspan><tspan x='145'>7</tspan><tspan x='163'>8</tspan><tspan x='181'>9</tspan><tspan x='199'>10</tspan><tspan x='217'>11</tspan><tspan x='235'>12</tspan><tspan x='253'>13</tspan><tspan x='271'>14</tspan><tspan x='289'>15</tspan><tspan x='307'>16</tspan><tspan x='325'>17</tspan><tspan x='343'>18</tspan><tspan x='361'>19</tspan><tspan x='379'>20</tspan><tspan x='397'>21</tspan><tspan x='415'>22</tspan><tspan x='433'>23</tspan><tspan x='451'>24</tspan><tspan x='469'>25</tspan><tspan x='487'>26</tspan><tspan x='505'>27</tspan><tspan x='523'>28</tspan></text><circle cx='271' cy='48' r='6' fill='#e11d48'/><line x1='271' y1='56' x2='271' y2='67' stroke='currentColor' stroke-width='1.5' marker-end='url(#fl14c)'/><g fill='currentColor' text-anchor='middle'><text x='271' y='30'>Ovulation (jour 14)</text><text x='73' y='128'>Règles</text><text x='73' y='144'>jours 1 à 5</text><text x='235' y='128'>Période féconde</text><text x='235' y='144'>jours 9 à 15</text></g><g fill='none' stroke='currentColor' stroke-width='1.5'><path d='M28,102 v6 h90 v-6'/><path d='M172,102 v6 h126 v-6'/></g><text x='532' y='172' text-anchor='end' fill='currentColor'>Jour 29 = jour 1 du cycle suivant</text></svg>",
+          "legende": "Chaque case est un jour. En rouge foncé : les règles. En rouge clair : la période féconde, centrée autour de l'ovulation. Le point rouge marque le jour de l'ovulation."
+        },
+        {
+          "type": "methode",
+          "titre": "Calculer des dates",
+          "texte": "1. Repérer la date du jour 1 (premier jour des règles) et la durée N du cycle.\n2. Prochaines règles : date du jour 1 + N jours.\n3. Jour de l'ovulation : N − 14.\n4. Date de l'ovulation : date du jour 1 + (jour de l'ovulation − 1) jours.\n5. Période féconde : du jour (ovulation − 5) au jour (ovulation + 1), puis convertir en dates comme à l'étape 4.\n6. Faire attention à la longueur des mois (30 ou 31 jours ; février 28 ou 29)."
+        },
+        {
+          "type": "exemple",
+          "titre": "Cycle de 28 jours commencé le 3 mars",
+          "texte": "Prochaines règles : 3 mars + 28 jours = 31 mars. Ovulation : jour 28 − 14 = 14, soit le 3 mars + 13 jours = 16 mars. Période féconde : jours 9 à 15, soit du 11 au 17 mars."
+        },
+        {
+          "type": "exemple",
+          "titre": "Cycle de 30 jours commencé le 10 avril",
+          "texte": "Prochaines règles : 10 avril + 30 jours = 10 mai (avril a 30 jours). Ovulation : jour 30 − 14 = 16, soit le 10 avril + 15 jours = 25 avril. Période féconde : jours 11 à 17, soit du 20 au 26 avril."
+        },
+        {
+          "type": "exemple",
+          "titre": "Durée moyenne du cycle",
+          "texte": "Cinq cycles ont duré 27, 29, 28, 30 et 26 jours. Somme : 27 + 29 + 28 + 30 + 26 = 140. Moyenne : 140 ÷ 5 = 28 jours."
+        },
+        {
+          "type": "tableau",
+          "titre": "Température au réveil (exemple)",
+          "entetes": ["Période du cycle", "Température au réveil"],
+          "lignes": [
+            ["Avant l'ovulation (jours 1 à 14)", "environ 36,4 °C"],
+            ["Après l'ovulation (jours 15 à 28)", "environ 36,8 °C"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "La courbe de température",
+          "texte": "Après l'ovulation, la progestérone fait monter la température du corps de 0,3 à 0,5 °C (ici 36,8 − 36,4 = 0,4 °C). On la mesure chaque matin au réveil, avant de se lever, avec le même thermomètre. Cette hausse montre que l'ovulation a déjà eu lieu : elle ne permet pas de la prévoir."
+        },
+        {
+          "type": "remarque",
+          "titre": "Cycles irréguliers : une estimation seulement",
+          "texte": "Dans les premières années après les premières règles, les cycles sont souvent irréguliers. Ils peuvent aussi l'être après, à cause de la maladie, d'une grande fatigue ou d'un changement de poids. La date de l'ovulation est alors très difficile à prévoir : le calcul ne donne qu'une estimation. Il ne permet pas d'éviter une grossesse de façon sûre, surtout chez une adolescente (chapitre 16). Un retard de règles chez une fille qui a eu des rapports sexuels peut signaler une grossesse (chapitre 15) : il faut en parler à un adulte de confiance ou consulter."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Durée du cycle", "Nombre de jours entre le premier jour des règles et la veille des règles suivantes"],
+            ["Période féconde", "Jours du cycle pendant lesquels une grossesse est possible"],
+            ["Cycle irrégulier", "Cycle dont la durée change beaucoup d'un mois à l'autre"],
+            ["Température au réveil", "Température du corps prise le matin, avant de se lever"],
+            ["Estimation", "Valeur proche de la réalité, mais qui n'est pas exacte"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Les cinq derniers cycles de Rosa ont duré 31, 33, 32, 34 et 30 jours. Son nouveau cycle a commencé le 12 septembre (jour 1). On prend pour N la durée moyenne de ses cycles.\n\n1. Calcule la durée moyenne N de ses cycles.\n2. À quelle date arriveront ses prochaines règles ?\n3. Quel est le jour de l'ovulation ?\n4. À quelle date a lieu l'ovulation ?\n5. Quelles sont les dates de la période féconde ?\n6. Pourquoi ces dates ne sont-elles qu'une estimation ?",
+          "solution": "1. 31 + 33 + 32 + 34 + 30 = 160 ; 160 ÷ 5 = 32 jours.\n2. 12 septembre + 32 jours : septembre a 30 jours, 12 + 32 = 44, donc 44 − 30 = 14 octobre.\n3. Jour de l'ovulation : 32 − 14 = jour 18.\n4. 12 septembre + 17 jours = 29 septembre.\n5. Période féconde : jours 13 à 19 (18 − 5 = 13 et 18 + 1 = 19), soit du 12 + 12 = 24 septembre au 12 + 18 = 30 septembre.\n6. Les cycles de Rosa varient de 30 à 34 jours : l'ovulation peut être décalée de plusieurs jours, et les spermatozoïdes peuvent vivre jusqu'à 5 jours. Le calcul ne donne qu'une estimation : il ne permet pas d'éviter une grossesse de façon sûre (chapitre 16)."
+        }
+      ]
+    }
+  ]
+}
