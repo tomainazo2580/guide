@@ -12,7 +12,7 @@ const CLASSES = [
   { id: 'tle',  nom: 'Terminale', disponible: false }
 ];
 const MATIERES_PAR_CLASSE = {
-  // 4ème : seules les Mathématiques sont ouvertes (12 chapitres, gratuits).
+  // 4ème : les Mathématiques (12 chapitres) et les Sciences Physiques (16 chapitres) sont ouvertes, gratuites.
   // Les autres matières restent « Bientôt disponible ».
   '4e': [
     { id: 'malagasy',           code: 'MALG', nom: 'Malagasy',           icone: '📚', disponible: false },
@@ -33,7 +33,24 @@ const MATIERES_PAR_CLASSE = {
       './data/4e/mathematiques/composante-12.json'
     ] },
     { id: 'svt',                code: 'SVT',  nom: 'SVT',                icone: '🔬', disponible: false },
-    { id: 'sciences-physiques', code: 'SPHY', nom: 'Sciences Physiques', icone: '⚛️', disponible: false },
+    { id: 'sciences-physiques', code: 'SPHY', nom: 'Sciences Physiques', icone: '⚛️', disponible: true,  fichiers: [
+      './data/4e/sciences-physiques/composante-1.json',
+      './data/4e/sciences-physiques/composante-2.json',
+      './data/4e/sciences-physiques/composante-3.json',
+      './data/4e/sciences-physiques/composante-4.json',
+      './data/4e/sciences-physiques/composante-5.json',
+      './data/4e/sciences-physiques/composante-6.json',
+      './data/4e/sciences-physiques/composante-7.json',
+      './data/4e/sciences-physiques/composante-8.json',
+      './data/4e/sciences-physiques/composante-9.json',
+      './data/4e/sciences-physiques/composante-10.json',
+      './data/4e/sciences-physiques/composante-11.json',
+      './data/4e/sciences-physiques/composante-12.json',
+      './data/4e/sciences-physiques/composante-13.json',
+      './data/4e/sciences-physiques/composante-14.json',
+      './data/4e/sciences-physiques/composante-15.json',
+      './data/4e/sciences-physiques/composante-16.json'
+    ] },
     { id: 'histoire',           code: 'HIST', nom: 'Histoire',           icone: '🏛️', disponible: false },
     { id: 'geographie',         code: 'GEOG', nom: 'Géographie',         icone: '🗺️', disponible: false }
   ],
@@ -138,6 +155,8 @@ const MATIERES_PAR_CLASSE = {
 // Matières dont les chapitres sont numérotés automatiquement selon leur position
 // (« Chapitre 1 : ... », « Chapitre 2 : ... »), pour le cours et pour les exercices.
 // La Maths 4ème n'est pas ici : ses titres contiennent déjà « Chapitre N : ».
+// La Sciences Physiques 4ème est concernée (même id que la 3ème) : ses fichiers sont rangés
+// de 1 à 16, la numérotation par position redonne donc les mêmes numéros.
 const MATIERES_NUMEROTEES = ['svt', 'sciences-physiques'];
 // ============================================
 // EXERCICES — SUJETS ET CORRIGÉS (section indépendante, évolutive)
@@ -158,6 +177,15 @@ const EXERCICES_PAR_CLASSE = {
         './data/4e/exercices/exercices-mathematiques-10.json',
         './data/4e/exercices/exercices-mathematiques-11.json',
         './data/4e/exercices/exercices-mathematiques-12.json'
+      ] },
+    // Sciences Physiques 4ème : 5 fichiers, chapitres 1-4, 5, 6-9, 10-13, 14-16
+    { id: 'sciences-physiques', nom: 'Sciences Physiques', icone: '⚛️', disponible: true,
+      fichiers: [
+        './data/4e/exercices/exercices-sciences-physiques.json',
+        './data/4e/exercices/exercices-sciences-physiques-5.json',
+        './data/4e/exercices/exercices-sciences-physiques-6.json',
+        './data/4e/exercices/exercices-sciences-physiques-10.json',
+        './data/4e/exercices/exercices-sciences-physiques-14.json'
       ] }
   ],
   '3e': [
