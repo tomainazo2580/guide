@@ -13,7 +13,7 @@
     facile: '🟢 Facile',
     moyen: '🟡 Moyen',
     difficile: '🟠 Difficile',
-    expert: '🔴 Expert (BEPC)'
+    expert: '🔴 Expert'
   };
   const LIBELLES_RES = {
     reussi: '✅ Réussi',
@@ -71,6 +71,15 @@
           plage('st4-', 4, 6),
           plage('st4-', 7, 9),
           plage('st4-', 10, 12)
+        ]
+      },
+      SPHY: {
+        fichiers: ['sujets-sciences-physiques-A.json'],
+        groupes: [
+          plage('st4-SP-', 1, 3),
+          plage('st4-SP-', 4, 6),
+          plage('st4-SP-', 7, 9),
+          plage('st4-SP-', 10, 12)
         ]
       }
     }
