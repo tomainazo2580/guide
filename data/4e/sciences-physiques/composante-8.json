@@ -1,0 +1,310 @@
+{
+  "id": "sp4-8-identifier-ions",
+  "titre": "Chapitre 8 : Identifier les ions",
+  "lecons": [
+    {
+      "id": "sp4-8-principe",
+      "titre": "Le principe du test et le test à la soude",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Test d'identification",
+          "texte": "Un test d'identification sert à savoir quel ion contient une solution. On ajoute un réactif et on observe : une couleur, un solide ou un gaz révèle la présence de l'ion."
+        },
+        {
+          "type": "definition",
+          "titre": "Précipité",
+          "texte": "Un précipité est un solide qui se forme au milieu d'un liquide quand deux solutions réagissent. Il rend le liquide trouble, puis se dépose peu à peu au fond du tube."
+        },
+        {
+          "type": "methode",
+          "titre": "Faire un test dans un tube à essais",
+          "texte": "1) Verse quelques millilitres de la solution à tester dans un tube à essais.\n2) Ajoute quelques gouttes du réactif.\n3) Observe sans tarder : couleur du précipité, trouble, gaz.\n4) Note le résultat. Si l'énoncé le demande, ajoute un excès de réactif et observe encore."
+        },
+        {
+          "type": "schema",
+          "titre": "Un précipité dans un tube",
+          "svg": "<svg width='380' height='160' viewBox='0 0 380 160' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif'><path d='M60,30 L60,110 Q60,135 85,135 Q110,135 110,110 L110,30' fill='none' stroke='currentColor' stroke-width='1.5'/><path d='M61,65 L61,110 Q61,134 85,134 Q109,134 109,110 L109,65 z' fill='currentColor' fill-opacity='0.12'/><ellipse cx='85' cy='124' rx='18' ry='7' fill='#e11d48' fill-opacity='0.65'/><path d='M85,6 Q91,16 85,22 Q79,16 85,6 z' fill='#e11d48' fill-opacity='0.8'/><line x1='85' y1='24' x2='85' y2='50' stroke='currentColor' stroke-width='1' stroke-dasharray='3 3'/><text x='135' y='22' font-size='12' fill='currentColor'>Gouttes de réactif</text><text x='135' y='80' font-size='12' fill='currentColor'>Solution à tester</text><text x='135' y='126' font-size='12' fill='currentColor'>Précipité au fond</text></svg>",
+          "legende": "Le réactif tombe goutte à goutte. Un solide se forme et se dépose au fond."
+        },
+        {
+          "type": "regle",
+          "titre": "Le test à la soude",
+          "texte": "La soude est une solution d'hydroxyde de sodium NaOH. Elle contient des ions hydroxyde OH⁻. Avec la plupart des ions métalliques, ces ions OH⁻ forment un précipité d'hydroxyde dont la couleur permet de reconnaître l'ion."
+        },
+        {
+          "type": "tableau",
+          "titre": "Résultats du test à la soude",
+          "entetes": ["Ion testé", "Précipité obtenu", "Formule du précipité"],
+          "lignes": [
+            ["Cu²⁺ (cuivre II)", "Bleu", "Cu(OH)₂"],
+            ["Fe²⁺ (fer II)", "Vert foncé", "Fe(OH)₂"],
+            ["Fe³⁺ (fer III)", "Rouille (brun-orangé)", "Fe(OH)₃"],
+            ["Zn²⁺ (zinc)", "Blanc", "Zn(OH)₂"]
+          ]
+        },
+        {
+          "type": "exemple",
+          "titre": "Cu²⁺ avec la soude",
+          "texte": "On ajoute de la soude à une solution bleue de sulfate de cuivre. Il se forme un précipité bleu.\nÉcriture simplifiée : Cu²⁺ + 2 OH⁻ → Cu(OH)₂.\nÀ gauche : +2 − 2 = 0. À droite, Cu(OH)₂ est neutre. La charge est conservée."
+        },
+        {
+          "type": "remarque",
+          "titre": "Le précipité de fer II change à l'air",
+          "texte": "Le précipité vert foncé de Fe(OH)₂ brunit peu à peu au contact de l'air et ressemble alors au précipité de Fe³⁺. Il faut donc observer tout de suite."
+        },
+        {
+          "type": "remarque",
+          "titre": "Zinc et aluminium",
+          "texte": "L'ion zinc Zn²⁺ donne un précipité blanc avec la soude. L'ion aluminium Al³⁺ aussi. Pour les distinguer, on ajoute un excès d'ammoniac : le précipité de zinc se redissout, celui d'aluminium ne se redissout pas."
+        },
+        {
+          "type": "remarque",
+          "titre": "Sécurité",
+          "texte": "La soude est très corrosive : elle brûle la peau et les yeux. On la manipule avec des lunettes et des gants, sous la surveillance du professeur."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Réactif", "Produit que l'on ajoute pour provoquer une réaction visible."],
+            ["Précipité", "Solide qui se forme dans un liquide."],
+            ["Soude", "Solution d'hydroxyde de sodium, qui contient des ions OH⁻."],
+            ["Ammoniac", "Solution basique utilisée pour distinguer le zinc de l'aluminium."],
+            ["Excès", "Quantité de réactif plus grande que nécessaire."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Une solution donne un précipité rouille avec la soude. Quel ion contient-elle ?\n2) Une autre solution donne un précipité vert foncé qui brunit à l'air. Quel ion contient-elle ?\n3) Combien d'ions OH⁻ faut-il pour précipiter 2 ions Fe³⁺ sous forme de Fe(OH)₃ ?",
+          "solution": "1) Elle contient l'ion fer III, Fe³⁺.\n2) Elle contient l'ion fer II, Fe²⁺.\n3) Chaque ion Fe³⁺ demande 3 ions OH⁻. Pour 2 ions Fe³⁺, il en faut 2 × 3 = 6 ions OH⁻."
+        }
+      ]
+    },
+    {
+      "id": "sp4-8-cations",
+      "titre": "Identifier Na⁺, Ca²⁺, H⁺ et OH⁻",
+      "blocs": [
+        {
+          "type": "regle",
+          "titre": "L'ion sodium Na⁺ : le test à la flamme",
+          "texte": "On trempe une baguette propre dans la solution, puis on la place dans une flamme. Si la flamme devient jaune-orangé, la solution contient des ions sodium Na⁺."
+        },
+        {
+          "type": "schema",
+          "titre": "Le test à la flamme",
+          "svg": "<svg width='380' height='150' viewBox='0 0 380 150' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif'><rect x='160' y='100' width='40' height='30' fill='currentColor' fill-opacity='0.25' stroke='currentColor' stroke-width='1.5'/><path d='M180,100 Q160,70 180,35 Q200,70 180,100 z' fill='#f59e0b' fill-opacity='0.75' stroke='currentColor' stroke-width='1'/><line x1='30' y1='62' x2='178' y2='72' stroke='currentColor' stroke-width='2'/><circle cx='178' cy='72' r='4' fill='#e11d48' fill-opacity='0.8'/><text x='30' y='50' font-size='12' fill='currentColor'>Baguette avec la solution</text><text x='215' y='60' font-size='12' fill='currentColor'>Flamme jaune-orangé</text><text x='215' y='78' font-size='12' fill='currentColor'>donc présence de Na⁺</text><text x='180' y='146' text-anchor='middle' font-size='11' fill='currentColor'>Brûleur</text></svg>",
+          "legende": "Une flamme jaune-orangé révèle l'ion sodium."
+        },
+        {
+          "type": "remarque",
+          "titre": "Le sodium est partout",
+          "texte": "Il y a du sodium dans la poussière, dans la sueur de la main, dans le verre. Une très faible lueur jaune ne prouve donc rien : le test est positif seulement si la flamme devient franchement jaune-orangé.\nPour information, d'autres ions colorent aussi la flamme : le cuivre la colore en vert et le potassium en violet."
+        },
+        {
+          "type": "regle",
+          "titre": "L'ion calcium Ca²⁺ : le carbonate de sodium",
+          "texte": "On ajoute une solution de carbonate de sodium Na₂CO₃. S'il y a des ions calcium, un précipité blanc de carbonate de calcium se forme.\nÉcriture simplifiée : Ca²⁺ + CO₃²⁻ → CaCO₃.\nÀ gauche : +2 − 2 = 0. À droite, CaCO₃ est neutre."
+        },
+        {
+          "type": "remarque",
+          "titre": "L'eau calcaire",
+          "texte": "L'eau du robinet contient souvent des ions calcium. Quand on la chauffe longtemps, du calcaire (CaCO₃) se dépose en croûte blanche dans la bouilloire : c'est le tartre."
+        },
+        {
+          "type": "definition",
+          "titre": "Acide et basique",
+          "texte": "Une solution acide contient un excès d'ions hydrogène H⁺. Une solution basique contient un excès d'ions hydroxyde OH⁻. Une solution neutre n'a ni excès de H⁺ ni excès de OH⁻."
+        },
+        {
+          "type": "regle",
+          "titre": "Les ions H⁺ et OH⁻ : l'indicateur coloré",
+          "texte": "Un indicateur coloré change de couleur selon que la solution est acide, neutre ou basique. Le bleu de bromothymol (BBT) devient jaune dans un acide, vert dans une solution neutre, bleu dans une base."
+        },
+        {
+          "type": "tableau",
+          "titre": "Couleur du bleu de bromothymol",
+          "entetes": ["Solution", "Ion en excès", "Couleur du BBT"],
+          "lignes": [
+            ["Acide", "H⁺", "Jaune"],
+            ["Neutre", "Aucun", "Vert"],
+            ["Basique", "OH⁻", "Bleu"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Le papier pH",
+          "texte": "Le papier pH sert aussi à repérer une solution acide (pH inférieur à 7), neutre (pH égal à 7) ou basique (pH supérieur à 7). Il se compare à une échelle de couleurs."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Test à la flamme", "Test qui révèle un ion par la couleur de la flamme."],
+            ["Indicateur coloré", "Produit qui change de couleur selon l'acidité."],
+            ["Acide", "Solution qui contient un excès d'ions H⁺."],
+            ["Basique", "Solution qui contient un excès d'ions OH⁻."],
+            ["Tartre", "Dépôt blanc de calcaire."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Dans le test à la flamme, la flamme devient franchement jaune-orangé. Quel ion est présent ?\n2) On ajoute du carbonate de sodium à une eau : un précipité blanc apparaît. Quel ion contient cette eau ? Donne la formule du précipité.\n3) Quelques gouttes de BBT donnent une couleur bleue dans une solution. Cette solution est-elle acide ou basique ? Quel ion est en excès ?",
+          "solution": "1) L'ion sodium Na⁺.\n2) L'ion calcium Ca²⁺. Le précipité blanc est le carbonate de calcium, de formule CaCO₃.\n3) Elle est basique. L'ion en excès est l'ion hydroxyde OH⁻."
+        }
+      ]
+    },
+    {
+      "id": "sp4-8-anions",
+      "titre": "Identifier Cl⁻, SO₄²⁻ et CO₃²⁻",
+      "blocs": [
+        {
+          "type": "regle",
+          "titre": "L'ion chlorure Cl⁻ : le nitrate d'argent",
+          "texte": "On ajoute quelques gouttes de nitrate d'argent. S'il y a des ions chlorure, un précipité blanc de chlorure d'argent se forme. Ce précipité noircit à la lumière.\nÉcriture simplifiée : Ag⁺ + Cl⁻ → AgCl.\nÀ gauche : +1 − 1 = 0. À droite, AgCl est neutre."
+        },
+        {
+          "type": "remarque",
+          "titre": "Le nitrate d'argent tache",
+          "texte": "Le nitrate d'argent noircit la peau et les vêtements de façon durable. On le manipule avec des gants."
+        },
+        {
+          "type": "regle",
+          "titre": "L'ion sulfate SO₄²⁻ : le chlorure de baryum",
+          "texte": "On ajoute une solution de chlorure de baryum. S'il y a des ions sulfate, un précipité blanc de sulfate de baryum se forme.\nÉcriture simplifiée : Ba²⁺ + SO₄²⁻ → BaSO₄.\nÀ gauche : +2 − 2 = 0. À droite, BaSO₄ est neutre."
+        },
+        {
+          "type": "remarque",
+          "titre": "Le baryum est toxique",
+          "texte": "Les sels de baryum solubles sont toxiques. On les manipule avec des gants, jamais près de la bouche, et on se lave les mains après l'expérience."
+        },
+        {
+          "type": "regle",
+          "titre": "L'ion carbonate CO₃²⁻ : l'acide chlorhydrique",
+          "texte": "On ajoute de l'acide chlorhydrique au solide ou à la solution. S'il y a des ions carbonate, il se produit une effervescence : des bulles de gaz apparaissent. Ce gaz est du dioxyde de carbone."
+        },
+        {
+          "type": "remarque",
+          "titre": "Une effervescence ne suffit pas",
+          "texte": "Un gaz peut se dégager pour une autre raison (par exemple avec un métal, il se forme du dihydrogène). Pour être sûr, on identifie le gaz : le dioxyde de carbone trouble l'eau de chaux."
+        },
+        {
+          "type": "schema",
+          "titre": "Le test du carbonate",
+          "svg": "<svg width='380' height='165' viewBox='0 0 380 165' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif'><path d='M45,32 L45,112 Q45,137 70,137 Q95,137 95,112 L95,32' fill='none' stroke='currentColor' stroke-width='1.5'/><path d='M46,75 L46,112 Q46,136 70,136 Q94,136 94,112 L94,75 z' fill='currentColor' fill-opacity='0.12'/><rect x='42' y='26' width='56' height='8' fill='currentColor' fill-opacity='0.4'/><path d='M70,26 L70,8 L225,8 L225,95' fill='none' stroke='currentColor' stroke-width='1.5'/><circle cx='60' cy='100' r='3' fill='none' stroke='currentColor' stroke-width='1'/><circle cx='75' cy='90' r='3' fill='none' stroke='currentColor' stroke-width='1'/><circle cx='68' cy='78' r='3' fill='none' stroke='currentColor' stroke-width='1'/><path d='M200,52 L200,112 Q200,137 225,137 Q250,137 250,112 L250,52' fill='none' stroke='currentColor' stroke-width='1.5'/><path d='M201,85 L201,112 Q201,136 225,136 Q249,136 249,112 L249,85 z' fill='#e11d48' fill-opacity='0.35'/><circle cx='222' cy='105' r='3' fill='none' stroke='currentColor' stroke-width='1'/><circle cx='230' cy='98' r='3' fill='none' stroke='currentColor' stroke-width='1'/><text x='70' y='154' text-anchor='middle' font-size='11' fill='currentColor'>Carbonate + acide</text><text x='225' y='154' text-anchor='middle' font-size='11' fill='currentColor'>Eau de chaux trouble</text><text x='140' y='28' font-size='10' fill='currentColor'>gaz CO₂</text></svg>",
+          "legende": "Le gaz dégagé passe dans l'eau de chaux et la rend trouble : c'est du dioxyde de carbone."
+        },
+        {
+          "type": "remarque",
+          "titre": "Pourquoi l'eau de chaux se trouble",
+          "texte": "L'eau de chaux contient des ions calcium. Le dioxyde de carbone forme avec eux un solide blanc de carbonate de calcium CaCO₃ : c'est ce solide qui trouble le liquide."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Effervescence", "Dégagement de bulles de gaz dans un liquide."],
+            ["Eau de chaux", "Solution qui se trouble en présence de dioxyde de carbone."],
+            ["Nitrate d'argent", "Réactif qui sert à reconnaître l'ion chlorure."],
+            ["Chlorure de baryum", "Réactif qui sert à reconnaître l'ion sulfate."],
+            ["Noircir", "Devenir noir."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) On ajoute du nitrate d'argent à une solution : un précipité blanc se forme. Quel ion est présent ? Que devient ce précipité à la lumière ?\n2) Avec le chlorure de baryum, une solution donne un précipité blanc. Quel ion est présent ?\n3) On verse de l'acide chlorhydrique sur un morceau de calcaire : des bulles se forment et le gaz trouble l'eau de chaux. Quel ion contient le calcaire ? Quel gaz s'est dégagé ?",
+          "solution": "1) L'ion chlorure Cl⁻. Le précipité noircit à la lumière.\n2) L'ion sulfate SO₄²⁻.\n3) Le calcaire contient l'ion carbonate CO₃²⁻. Le gaz dégagé est le dioxyde de carbone CO₂."
+        }
+      ]
+    },
+    {
+      "id": "sp4-8-bilan",
+      "titre": "Bilan : identifier les ions d'une solution",
+      "blocs": [
+        {
+          "type": "tableau",
+          "titre": "Tests des cations",
+          "entetes": ["Ion", "Réactif ou test", "Résultat"],
+          "lignes": [
+            ["Cu²⁺", "Soude", "Précipité bleu"],
+            ["Fe²⁺", "Soude", "Précipité vert foncé"],
+            ["Fe³⁺", "Soude", "Précipité rouille"],
+            ["Zn²⁺", "Soude", "Précipité blanc, qui se redissout dans un excès d'ammoniac"],
+            ["Na⁺", "Flamme", "Flamme jaune-orangé"],
+            ["Ca²⁺", "Carbonate de sodium", "Précipité blanc"],
+            ["H⁺", "BBT", "Jaune"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Tests des anions",
+          "entetes": ["Ion", "Réactif ou test", "Résultat"],
+          "lignes": [
+            ["Cl⁻", "Nitrate d'argent", "Précipité blanc qui noircit à la lumière"],
+            ["SO₄²⁻", "Chlorure de baryum", "Précipité blanc"],
+            ["CO₃²⁻", "Acide chlorhydrique", "Effervescence, gaz qui trouble l'eau de chaux"],
+            ["OH⁻", "BBT", "Bleu"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Tests de gaz",
+          "entetes": ["Gaz", "Test", "Résultat"],
+          "lignes": [
+            ["Dihydrogène H₂", "Approcher une flamme du tube", "Petite détonation"],
+            ["Dioxyde de carbone CO₂", "Eau de chaux", "L'eau de chaux se trouble"],
+            ["Dioxygène O₂", "Bûchette presque éteinte", "Elle se rallume"]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Identifier les ions d'une solution",
+          "texte": "1) Observe la couleur de la solution : le bleu fait penser à Cu²⁺, le vert pâle à Fe²⁺, le jaune-orangé à Fe³⁺.\n2) Teste le cation avec la soude (ou la flamme pour Na⁺, le carbonate de sodium pour Ca²⁺).\n3) Teste l'anion avec le nitrate d'argent (Cl⁻), le chlorure de baryum (SO₄²⁻) ou l'acide (CO₃²⁻).\n4) Écris la formule du composé : la somme des charges doit être nulle."
+        },
+        {
+          "type": "exemple",
+          "titre": "Une solution jaune-orangé",
+          "texte": "Observation : solution jaune-orangé. Avec la soude : précipité rouille, donc Fe³⁺. Avec le nitrate d'argent : précipité blanc, donc Cl⁻.\nFormule : il faut 3 ions Cl⁻ pour 1 ion Fe³⁺ (+3 − 3 = 0). Le composé est le chlorure de fer III, FeCl₃."
+        },
+        {
+          "type": "exemple",
+          "titre": "L'eau de mer",
+          "texte": "Dans l'eau de mer, la flamme devient jaune-orangé : il y a des ions Na⁺. Avec le nitrate d'argent, un précipité blanc se forme : il y a des ions Cl⁻. L'eau de mer contient donc du chlorure de sodium NaCl dissous."
+        },
+        {
+          "type": "remarque",
+          "titre": "Un seul test ne suffit pas toujours",
+          "texte": "Un précipité blanc avec la soude peut venir de Zn²⁺ ou de Al³⁺. Il faut alors un second test. Si un test ne donne rien, l'ion cherché n'est pas présent, ou il y en a trop peu pour être détecté."
+        },
+        {
+          "type": "remarque",
+          "titre": "Bien rédiger la réponse",
+          "texte": "Une bonne réponse indique : le réactif utilisé, ce que l'on observe, l'ion identifié.\nExemple : avec la soude, on obtient un précipité bleu : la solution contient l'ion Cu²⁺."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Identifier", "Reconnaître grâce à un test."],
+            ["Détonation", "Petit bruit sec produit par une explosion."],
+            ["Composé ionique", "Solide formé de cations et d'anions."],
+            ["Test positif", "Test qui donne le résultat attendu : l'ion est présent."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Un échantillon est une solution bleue. Avec la soude, on obtient un précipité bleu. Avec le nitrate d'argent, rien de visible. Avec le chlorure de baryum, un précipité blanc se forme.\n1) Quel cation contient la solution ?\n2) Quel anion contient-elle ?\n3) Écris la formule du composé dissous. Vérifie que la somme des charges est nulle.",
+          "solution": "1) Le précipité bleu avec la soude indique l'ion Cu²⁺.\n2) Rien avec le nitrate d'argent : il n'y a pas d'ion Cl⁻. Le précipité blanc avec le chlorure de baryum indique l'ion sulfate SO₄²⁻.\n3) Le composé est le sulfate de cuivre II, de formule CuSO₄. Charges : +2 − 2 = 0."
+        }
+      ]
+    }
+  ]
+}
