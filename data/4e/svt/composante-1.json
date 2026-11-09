@@ -1,0 +1,268 @@
+{
+  "id": "svt4-1-eau-plante",
+  "titre": "L'eau dans la plante et son absorption",
+  "lecons": [
+    {
+      "id": "svt4-1-l1-eau-presente",
+      "titre": "Les plantes contiennent de l'eau",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Teneur en eau",
+          "texte": "La teneur en eau d'une plante (ou d'un organe) est la part de sa masse qui est de l'eau. On l'exprime en pourcentage (%)."
+        },
+        {
+          "type": "methode",
+          "titre": "Expérience 1 : chauffer des débris végétaux",
+          "texte": "1. Couper en petits morceaux des feuilles et une tige fraîches.\n2. Les mettre dans un tube à essais bien sec.\n3. Chauffer doucement, le tube tenu avec une pince en bois.\n4. Observer les parois froides, en haut du tube.\n\nObservation : de la buée apparaît sur les parois, puis des gouttelettes de liquide se forment.\n\nTest du liquide : déposer une goutte sur de la poudre blanche de sulfate de cuivre anhydre. La poudre devient bleue : le liquide est de l'eau.\n\nConclusion : les débris de plante contenaient de l'eau, libérée par la chaleur."
+        },
+        {
+          "type": "schema",
+          "titre": "Mettre en évidence l'eau d'une plante",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='400' height='250' viewBox='0 0 400 250' role='img' aria-label='Tube à essais chauffé avec des débris de plante' font-family='sans-serif' font-size='12'><path d='M100 30 V170 A30 30 0 0 0 160 170 V30' fill='none' stroke='currentColor' stroke-width='2'/><circle cx='106' cy='60' r='2.5' fill='currentColor' fill-opacity='0.5'/><circle cx='108' cy='85' r='2.5' fill='currentColor' fill-opacity='0.5'/><circle cx='154' cy='70' r='2.5' fill='currentColor' fill-opacity='0.5'/><circle cx='152' cy='95' r='2.5' fill='currentColor' fill-opacity='0.5'/><circle cx='106' cy='110' r='2.5' fill='currentColor' fill-opacity='0.5'/><circle cx='154' cy='120' r='2.5' fill='currentColor' fill-opacity='0.5'/><ellipse cx='118' cy='188' rx='12' ry='6' fill='#16a34a' fill-opacity='0.7'/><ellipse cx='142' cy='190' rx='12' ry='6' fill='#16a34a' fill-opacity='0.7'/><ellipse cx='130' cy='180' rx='10' ry='5' fill='#16a34a' fill-opacity='0.7'/><path d='M130 208 C118 222 120 236 130 240 C140 236 142 222 130 208 Z' fill='#e11d48' fill-opacity='0.7'/><line x1='162' y1='42' x2='196' y2='38' stroke='currentColor' stroke-opacity='0.6'/><text x='200' y='42' fill='currentColor'>Tube à essais sec</text><line x1='156' y1='72' x2='196' y2='78' stroke='currentColor' stroke-opacity='0.6'/><text x='200' y='82' fill='currentColor'>Gouttelettes d’eau (buée)</text><line x1='150' y1='188' x2='196' y2='188' stroke='currentColor' stroke-opacity='0.6'/><text x='200' y='192' fill='currentColor'>Débris de plante</text><text x='160' y='230' fill='currentColor'>Chauffer doucement</text></svg>",
+          "legende": "La buée se forme sur la partie froide du tube : c'est l'eau libérée par les débris de plante."
+        },
+        {
+          "type": "remarque",
+          "titre": "Sécurité",
+          "texte": "Chauffer doucement, avec des lunettes de protection. Ne jamais diriger l'ouverture du tube vers soi ou vers un camarade. Si on chauffe trop fort, les débris noircissent : la matière de la plante se décompose. Le sulfate de cuivre est nocif : ne pas le toucher à mains nues ni le porter à la bouche."
+        },
+        {
+          "type": "formule",
+          "titre": "Calculer la teneur en eau",
+          "texte": "masse d'eau = masse fraîche − masse sèche\nteneur en eau (%) = masse d'eau ÷ masse fraîche × 100\n\nLes deux masses doivent être dans la même unité."
+        },
+        {
+          "type": "exemple",
+          "titre": "Une feuille fraîche",
+          "texte": "Une feuille fraîche a une masse de 50 g. Après séchage complet, elle a une masse de 8 g.\nMasse d'eau : 50 − 8 = 42 g.\nTeneur en eau : 42 ÷ 50 × 100 = 84 %."
+        },
+        {
+          "type": "tableau",
+          "titre": "Quelques teneurs en eau (valeurs approximatives)",
+          "entetes": ["Organe ou plante", "Teneur en eau (environ)"],
+          "lignes": [
+            ["Feuille de laitue", "95 %"],
+            ["Tomate (fruit)", "94 %"],
+            ["Carotte (racine)", "88 %"],
+            ["Pomme de terre (tubercule)", "78 %"],
+            ["Graine de haricot sèche", "10 à 12 %"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "À retenir",
+          "texte": "Les plantes vivantes contiennent beaucoup d'eau : en général plus de la moitié de leur masse. Les organes tendres (feuilles, fruits) en contiennent le plus. Les graines sèches en contiennent peu."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Buée", "Fines gouttelettes d'eau qui se forment sur une paroi froide."],
+            ["Masse fraîche", "Masse de la plante avant séchage."],
+            ["Masse sèche", "Masse de la plante après avoir enlevé toute son eau."],
+            ["Anhydre", "Sans eau. Le sulfate de cuivre anhydre est blanc ; il devient bleu au contact de l'eau."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Une feuille fraîche a une masse de 60 g. Après séchage complet, elle a une masse de 12 g.\n1. Calcule la masse d'eau contenue dans la feuille.\n2. Calcule sa teneur en eau en pourcentage.\n3. Quel test permet de reconnaître que le liquide recueilli en chauffant des débris de plante est de l'eau ?",
+          "solution": "1. Masse d'eau : 60 − 12 = 48 g.\n2. Teneur en eau : 48 ÷ 60 × 100 = 80 %.\n3. On dépose le liquide sur du sulfate de cuivre anhydre : la poudre blanche devient bleue."
+        }
+      ]
+    },
+    {
+      "id": "svt4-1-l2-absorption",
+      "titre": "L'absorption de l'eau par la plante",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Absorption",
+          "texte": "L'absorption est le passage de l'eau et des sels minéraux du sol vers l'intérieur de la plante."
+        },
+        {
+          "type": "remarque",
+          "titre": "Hypothèse",
+          "texte": "Une plante contient de l'eau, mais elle en perd aussi par ses feuilles. D'où vient cette eau ? On propose l'hypothèse suivante : la plante absorbe l'eau du sol par ses racines. On la vérifie par une expérience."
+        },
+        {
+          "type": "methode",
+          "titre": "Expérience 2 : mesurer le volume d'eau absorbé",
+          "texte": "1. Plonger les racines d'un jeune plant (haricot, par exemple) dans un flacon rempli d'eau.\n2. Fermer le flacon avec un bouchon percé de deux trous : l'un laisse passer la tige, l'autre un tube fin gradué rempli d'eau. Bien fermer pour que l'eau ne s'échappe pas ailleurs.\n3. Repérer le niveau de l'eau dans le tube.\n4. Préparer un flacon témoin identique, sans plante.\n5. Lire de nouveau les niveaux après 24 heures.\n\nRésultat : le niveau baisse dans le tube du flacon avec plante. Il ne change pas dans le flacon témoin.\n\nConclusion : l'eau qui disparaît du flacon a été absorbée par la plante, par ses racines."
+        },
+        {
+          "type": "schema",
+          "titre": "Le dispositif : flacon et tube fin",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='400' height='240' viewBox='0 0 400 240' role='img' aria-label='Flacon fermé avec une plante et un tube fin gradué' font-family='sans-serif' font-size='12'><path d='M131 108 V125 L101 150 V224 H219 V150 L189 125 V108 Z' fill='#3b82f6' fill-opacity='0.2'/><path d='M130 108 V125 L100 150 V225 H220 V150 L190 125 V108' fill='none' stroke='currentColor' stroke-width='2'/><rect x='126' y='98' width='68' height='10' fill='#92400e' fill-opacity='0.5' stroke='currentColor'/><rect x='173' y='70' width='5' height='38' fill='#3b82f6' fill-opacity='0.5'/><rect x='172' y='40' width='7' height='68' fill='none' stroke='currentColor'/><path d='M179 50 H184 M179 60 H184 M179 70 H184 M179 80 H184 M179 90 H184 M179 100 H184' stroke='currentColor' stroke-width='1'/><path d='M140 108 V45' stroke='#16a34a' stroke-width='3' fill='none'/><ellipse cx='126' cy='68' rx='14' ry='7' transform='rotate(-30 126 68)' fill='#16a34a' fill-opacity='0.6'/><ellipse cx='154' cy='56' rx='14' ry='7' transform='rotate(30 154 56)' fill='#16a34a' fill-opacity='0.6'/><ellipse cx='140' cy='44' rx='6' ry='10' fill='#16a34a' fill-opacity='0.6'/><path d='M140 108 V200 M140 140 L124 160 M140 165 L158 185 M140 190 L128 210' stroke='#92400e' stroke-width='2' fill='none'/><path d='M197 66 V90 M193 84 L197 90 L201 84' stroke='#e11d48' stroke-width='2' fill='none'/><line x1='180' y1='42' x2='196' y2='37' stroke='currentColor' stroke-opacity='0.6'/><text x='200' y='40' fill='currentColor'>Tube fin gradué</text><text x='207' y='82' fill='#e11d48'>Le niveau baisse</text><line x1='194' y1='103' x2='228' y2='103' stroke='currentColor' stroke-opacity='0.6'/><text x='232' y='107' fill='currentColor'>Bouchon</text><line x1='221' y1='186' x2='228' y2='186' stroke='currentColor' stroke-opacity='0.6'/><text x='232' y='190' fill='currentColor'>Eau</text><line x1='99' y1='62' x2='113' y2='66' stroke='currentColor' stroke-opacity='0.6'/><text x='96' y='62' text-anchor='end' fill='currentColor'>Plante</text><line x1='99' y1='190' x2='130' y2='190' stroke='currentColor' stroke-opacity='0.6'/><text x='96' y='194' text-anchor='end' fill='currentColor'>Racines</text></svg>",
+          "legende": "Les racines plongent dans l'eau. Quand la plante absorbe de l'eau, le niveau baisse dans le tube fin."
+        },
+        {
+          "type": "formule",
+          "titre": "Calculer le volume absorbé",
+          "texte": "Si le tube n'est pas gradué en mL :\nV = S × h\nS : section du tube (cm²) ; h : hauteur dont le niveau a baissé (cm) ; V : volume absorbé (cm³).\n1 cm³ = 1 mL."
+        },
+        {
+          "type": "exemple",
+          "titre": "Un tube fin",
+          "texte": "Un tube a une section S = 0,2 cm². Le niveau baisse de h = 12 cm en 24 heures.\nV = 0,2 × 12 = 2,4 cm³, soit 2,4 mL d'eau absorbée."
+        },
+        {
+          "type": "remarque",
+          "titre": "L'absorption varie",
+          "texte": "Quand il fait chaud, sec et venteux, la plante perd plus d'eau par ses feuilles : elle en absorbe donc davantage. On peut le vérifier en comparant deux plants, l'un à l'ombre et l'autre au soleil."
+        },
+        {
+          "type": "regle",
+          "titre": "À retenir",
+          "texte": "L'eau du sol entre dans la plante par les racines : c'est l'absorption. Cette eau contient des sels minéraux dissous. On l'appelle la sève brute (voir chapitre 2)."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Absorption", "Passage de l'eau et des sels minéraux du sol vers l'intérieur de la plante."],
+            ["Sels minéraux", "Substances dissoutes dans l'eau du sol, utiles à la plante."],
+            ["Hypothèse", "Explication proposée, qu'on vérifie ensuite par une expérience."],
+            ["Témoin", "Montage identique mais sans le facteur étudié, pour pouvoir comparer."],
+            ["Section", "Aire de la coupe du tube, en cm²."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "On réalise l'expérience du flacon avec un tube fin de section S = 0,25 cm². En 24 heures, le niveau baisse de 8 cm dans le flacon qui contient la plante. Dans le flacon témoin sans plante, le niveau ne change pas.\n1. À quoi sert le flacon témoin ?\n2. Calcule le volume d'eau absorbé par la plante en 24 heures.\n3. Si la plante absorbait autant chaque jour, quel volume absorberait-elle en 5 jours ?\n4. Que peux-tu conclure ?",
+          "solution": "1. Le témoin sert à vérifier que l'eau ne disparaît pas autrement (fuite, évaporation). On peut alors attribuer la baisse du niveau à la plante.\n2. V = S × h = 0,25 × 8 = 2 cm³, soit 2 mL.\n3. En 5 jours : 2 × 5 = 10 cm³, soit 10 mL (en réalité, l'absorption varie selon la chaleur et le vent).\n4. La plante absorbe l'eau du flacon par ses racines."
+        }
+      ]
+    },
+    {
+      "id": "svt4-1-l3-poil-absorbant",
+      "titre": "Le poil absorbant",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Poil absorbant",
+          "texte": "Un poil absorbant est un prolongement très fin d'une cellule de l'épiderme de la racine. Il absorbe l'eau et les sels minéraux du sol."
+        },
+        {
+          "type": "methode",
+          "titre": "Observer les poils absorbants",
+          "texte": "1. Faire germer des graines de radis (ou de haricot) sur du coton humide, dans une boîte fermée, pendant 3 à 5 jours.\n2. Observer la jeune racine à la loupe : on voit un fin duvet blanc près de l'extrémité.\n3. Observer un petit morceau de ce duvet au microscope : chaque poil est un petit tube transparent.\n\nIl faut observer la racine à l'air humide : plongée dans l'eau, elle laisse voir beaucoup moins bien ses poils."
+        },
+        {
+          "type": "schema",
+          "titre": "Les zones d'une racine",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='420' height='230' viewBox='0 0 420 230' role='img' aria-label='Zones de la racine' font-family='sans-serif' font-size='12'><path d='M150 20 V175 Q170 215 190 175 V20' fill='#92400e' fill-opacity='0.12' stroke='currentColor' stroke-width='2'/><path d='M150 175 Q170 215 190 175 Q170 168 150 175 Z' fill='#92400e' fill-opacity='0.4'/><path d='M150 80 H190 M150 148 H190' stroke='currentColor' stroke-width='1' stroke-dasharray='3 3'/><path d='M150 85 L138 82 M150 93 L138 90 M150 101 L138 98 M150 109 L138 106 M150 117 L138 114 M150 125 L138 122 M150 133 L138 130 M150 141 L138 138' stroke='#16a34a' stroke-width='1.5' fill='none'/><path d='M190 85 L202 82 M190 93 L202 90 M190 101 L202 98 M190 109 L202 106 M190 117 L202 114 M190 125 L202 122 M190 133 L202 130 M190 141 L202 138' stroke='#16a34a' stroke-width='1.5' fill='none'/><path d='M190 40 L222 54 M190 62 L214 72 M150 45 L120 59 M150 66 L126 77' stroke='#92400e' stroke-width='3' fill='none'/><text x='170' y='13' text-anchor='middle' fill='currentColor' font-size='11'>vers la tige</text><line x1='192' y1='25' x2='240' y2='25' stroke='currentColor' stroke-opacity='0.6'/><text x='245' y='29' fill='currentColor'>Zone des ramifications</text><line x1='206' y1='114' x2='240' y2='114' stroke='currentColor' stroke-opacity='0.6'/><text x='245' y='118' fill='#16a34a'>Zone des poils absorbants</text><line x1='192' y1='160' x2='240' y2='160' stroke='currentColor' stroke-opacity='0.6'/><text x='245' y='164' fill='currentColor'>Zone de croissance</text><line x1='184' y1='188' x2='240' y2='188' stroke='currentColor' stroke-opacity='0.6'/><text x='245' y='192' fill='currentColor'>Coiffe</text></svg>",
+          "legende": "Les poils absorbants (en vert) se trouvent seulement dans une zone proche de l'extrémité de la racine."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les zones de la racine",
+          "entetes": ["Zone", "Rôle"],
+          "lignes": [
+            ["Coiffe", "Protège l'extrémité fragile de la racine pendant qu'elle avance dans le sol."],
+            ["Zone de croissance", "Les cellules se multiplient et s'allongent : la racine grandit."],
+            ["Zone des poils absorbants", "Absorbe l'eau et les sels minéraux du sol."],
+            ["Zone des ramifications", "Les poils ont disparu. Les racines secondaires (radicelles) fixent la plante dans le sol."]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Un poil absorbant",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='420' height='230' viewBox='0 0 420 230' role='img' aria-label='Poil absorbant entre des grains de terre' font-family='sans-serif' font-size='12'><rect x='120' y='20' width='140' height='50' fill='#16a34a' fill-opacity='0.1'/><path d='M120 20 H260 V70 H210 M170 70 H120 V20 M170 20 V70 M210 20 V70' fill='none' stroke='currentColor' stroke-width='1.5'/><circle cx='125' cy='120' r='14' fill='#92400e' fill-opacity='0.3' stroke='currentColor' stroke-opacity='0.5'/><circle cx='135' cy='190' r='14' fill='#92400e' fill-opacity='0.3' stroke='currentColor' stroke-opacity='0.5'/><circle cx='255' cy='165' r='14' fill='#92400e' fill-opacity='0.3' stroke='currentColor' stroke-opacity='0.5'/><circle cx='190' cy='205' r='14' fill='#92400e' fill-opacity='0.3' stroke='currentColor' stroke-opacity='0.5'/><path d='M170 70 V150 Q170 165 190 165 Q210 165 210 150 V70' fill='#16a34a' fill-opacity='0.12' stroke='currentColor' stroke-width='2'/><circle cx='190' cy='100' r='8' fill='#e11d48' fill-opacity='0.6'/><ellipse cx='190' cy='130' rx='11' ry='18' fill='#3b82f6' fill-opacity='0.3' stroke='#3b82f6'/><path d='M146 140 H166 M161 136 L166 140 L161 144 M236 140 H214 M219 136 L214 140 L219 144' stroke='#e11d48' stroke-width='2' fill='none'/><line x1='262' y1='45' x2='280' y2='45' stroke='currentColor' stroke-opacity='0.6'/><text x='285' y='49' fill='currentColor'>Cellules de la racine</text><line x1='200' y1='80' x2='280' y2='80' stroke='currentColor' stroke-opacity='0.6'/><text x='285' y='84' fill='currentColor'>Cytoplasme</text><line x1='198' y1='100' x2='280' y2='100' stroke='currentColor' stroke-opacity='0.6'/><text x='285' y='104' fill='currentColor'>Noyau</text><line x1='201' y1='130' x2='280' y2='130' stroke='currentColor' stroke-opacity='0.6'/><text x='285' y='134' fill='currentColor'>Vacuole</text><line x1='99' y1='120' x2='111' y2='120' stroke='currentColor' stroke-opacity='0.6'/><text x='96' y='124' text-anchor='end' fill='currentColor'>Grain de terre</text><line x1='99' y1='150' x2='170' y2='150' stroke='currentColor' stroke-opacity='0.6'/><text x='96' y='154' text-anchor='end' fill='currentColor'>Poil absorbant</text></svg>",
+          "legende": "Les flèches rouges montrent l'entrée de l'eau et des sels minéraux dans le poil absorbant."
+        },
+        {
+          "type": "remarque",
+          "titre": "Pourquoi repiquer avec une motte ?",
+          "texte": "Les poils absorbants sont très fragiles et vivent peu de temps. Quand la racine s'allonge, de nouveaux poils se forment derrière la pointe, et les plus anciens disparaissent. Si on arrache un plant sans sa terre, on détruit beaucoup de poils : le plant se fane. En le repiquant avec sa motte de terre, on conserve les poils et le contact avec le sol."
+        },
+        {
+          "type": "regle",
+          "titre": "À retenir",
+          "texte": "Le poil absorbant est un prolongement d'une cellule de l'épiderme de la racine. Il contient du cytoplasme, un noyau et une vacuole. Les poils sont très nombreux : ils offrent une grande surface de contact avec le sol. Ils se trouvent seulement dans une zone proche de l'extrémité de la racine."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Épiderme", "Couche de cellules qui recouvre la surface d'un organe."],
+            ["Radicelle", "Petite racine qui part d'une racine plus grosse."],
+            ["Zone pilifère", "Zone de la racine qui porte les poils absorbants."],
+            ["Vacuole", "Poche remplie de liquide, à l'intérieur de la cellule."],
+            ["Coiffe", "Petit capuchon qui protège la pointe de la racine."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. Où se trouvent les poils absorbants sur une racine ?\n2. Pourquoi est-il utile que les poils absorbants soient très nombreux ?\n3. Un jardinier repique un plant de tomate avec sa motte de terre. Pourquoi ?\n4. Un élève arrache un plant et le laisse deux heures au soleil, racines à l'air. Que va-t-il arriver au plant ? Pourquoi ?",
+          "solution": "1. Dans la zone pilifère, près de l'extrémité de la racine, au-dessus de la zone de croissance.\n2. Ils augmentent la surface de contact avec le sol : la plante absorbe plus d'eau et de sels minéraux.\n3. La motte conserve les poils absorbants et le contact avec la terre : le plant continue à absorber l'eau et ne se fane pas.\n4. Le plant va se faner. Les poils absorbants, très fragiles, se dessèchent et sont détruits, et la plante ne peut plus absorber l'eau alors qu'elle continue à en perdre par ses feuilles."
+        }
+      ]
+    },
+    {
+      "id": "svt4-1-l4-dutrochet-osmose",
+      "titre": "L'expérience de Dutrochet et l'osmose",
+      "blocs": [
+        {
+          "type": "remarque",
+          "titre": "Pourquoi l'eau entre-t-elle dans le poil ?",
+          "texte": "Le poil absorbant n'aspire pas l'eau comme une paille. Vers 1826, le physiologiste français Henri Dutrochet a réalisé une expérience qui explique ce passage de l'eau à travers une membrane."
+        },
+        {
+          "type": "methode",
+          "titre": "L'expérience de Dutrochet",
+          "texte": "1. Fermer le bas d'un entonnoir avec une membrane (vessie d'animal ou cellophane) qui laisse passer l'eau.\n2. Le remplir d'une solution de sucre très concentrée, colorée. Fixer un tube fin vertical et repérer le niveau.\n3. Plonger l'entonnoir dans un récipient d'eau pure.\n4. Observer le niveau dans le tube pendant plusieurs heures.\n\nTémoin : un montage identique, rempli d'eau pure et plongé dans l'eau pure. Son niveau ne change pas.\n\nRésultat : le niveau monte dans le tube du montage avec le sucre.\n\nInterprétation : de l'eau pure a traversé la membrane pour entrer dans la solution sucrée. Le sucre, lui, n'est pas passé à travers la membrane."
+        },
+        {
+          "type": "schema",
+          "titre": "Le montage de Dutrochet",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='420' height='240' viewBox='0 0 420 240' role='img' aria-label='Entonnoir fermé par une membrane et plongé dans l eau' font-family='sans-serif' font-size='12'><rect x='131' y='120' width='138' height='104' fill='#3b82f6' fill-opacity='0.2'/><path d='M130 100 V225 H270 V100' fill='none' stroke='currentColor' stroke-width='2'/><path d='M131 120 H269' stroke='#3b82f6' stroke-width='1.5'/><path d='M194 135 L150 190 H250 L206 135' fill='#e11d48' fill-opacity='0.25' stroke='currentColor' stroke-width='2'/><rect x='195' y='55' width='10' height='80' fill='#e11d48' fill-opacity='0.35'/><rect x='194' y='20' width='12' height='115' fill='none' stroke='currentColor' stroke-width='2'/><path d='M190 120 H210' stroke='currentColor' stroke-width='1' stroke-dasharray='3 2'/><path d='M150 190 H250' stroke='#e11d48' stroke-width='3' stroke-dasharray='5 3'/><path d='M225 115 V65 M220 72 L225 63 L230 72' stroke='#e11d48' stroke-width='2' fill='none'/><line x1='208' y1='55' x2='286' y2='55' stroke='currentColor' stroke-opacity='0.6' stroke-dasharray='3 3'/><text x='290' y='59' fill='currentColor'>Niveau final</text><line x1='270' y1='120' x2='286' y2='120' stroke='currentColor' stroke-opacity='0.6'/><text x='290' y='124' fill='currentColor'>Niveau de départ</text><line x1='252' y1='190' x2='286' y2='190' stroke='currentColor' stroke-opacity='0.6'/><text x='290' y='194' fill='currentColor'>Membrane</text><line x1='190' y1='30' x2='194' y2='30' stroke='currentColor' stroke-opacity='0.6'/><text x='188' y='34' text-anchor='end' fill='currentColor'>Tube fin</text><line x1='123' y1='146' x2='145' y2='146' stroke='currentColor' stroke-opacity='0.6'/><text x='120' y='150' text-anchor='end' fill='currentColor'>Eau pure</text><line x1='123' y1='174' x2='172' y2='174' stroke='currentColor' stroke-opacity='0.6'/><text x='120' y='178' text-anchor='end' fill='currentColor'>Solution sucrée</text></svg>",
+          "legende": "L'eau pure passe à travers la membrane vers la solution sucrée : le niveau monte dans le tube."
+        },
+        {
+          "type": "definition",
+          "titre": "Osmose",
+          "texte": "L'osmose est le passage de l'eau à travers une membrane, du milieu le moins concentré vers le milieu le plus concentré en substances dissoutes. La membrane laisse passer l'eau, mais pas (ou très peu) les substances dissoutes."
+        },
+        {
+          "type": "regle",
+          "titre": "Application au poil absorbant",
+          "texte": "Le contenu du poil absorbant (cytoplasme et vacuole) est plus concentré en substances dissoutes que l'eau du sol. La membrane de la cellule laisse passer l'eau : l'eau du sol entre donc dans le poil. Elle passe ensuite de cellule en cellule jusqu'aux vaisseaux de la plante (voir chapitre 2)."
+        },
+        {
+          "type": "exemple",
+          "titre": "Des rondelles de pomme de terre",
+          "texte": "On place une rondelle de pomme de terre dans de l'eau pure et une autre dans de l'eau très salée.\n- Dans l'eau pure, la rondelle gonfle et devient ferme : l'eau est entrée dans ses cellules.\n- Dans l'eau très salée, la rondelle devient molle et diminue de masse : l'eau est sortie de ses cellules vers l'eau salée, plus concentrée."
+        },
+        {
+          "type": "remarque",
+          "titre": "Trop d'engrais ou de sel",
+          "texte": "Un excès d'engrais, ou de l'eau de mer dans le sol, peut faire faner les plantes. L'eau du sol devient plus concentrée que le contenu des poils absorbants : l'eau ne peut plus entrer, elle peut même sortir de la plante."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Osmose", "Passage de l'eau à travers une membrane, vers le milieu le plus concentré."],
+            ["Membrane", "Fine enveloppe qui entoure la cellule ou ferme le montage."],
+            ["Solution concentrée", "Solution qui contient beaucoup de substance dissoute."],
+            ["Solution diluée", "Solution qui contient peu de substance dissoute."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Deux rondelles de pomme de terre ont chacune une masse de 10 g. La rondelle A est plongée dans de l'eau pure, la rondelle B dans de l'eau très salée. Après deux heures, A a une masse de 11 g et B une masse de 8,5 g.\n1. Calcule la variation de masse de chaque rondelle, en grammes puis en pourcentage de la masse de départ.\n2. Dans quel cas l'eau est-elle entrée dans les cellules ? Explique.\n3. Explique ce qui s'est passé pour la rondelle B.\n4. Pourquoi un sol trop riche en engrais peut-il faire faner une plante ?",
+          "solution": "1. Rondelle A : 11 − 10 = +1 g, soit +1 ÷ 10 × 100 = +10 %. Rondelle B : 8,5 − 10 = −1,5 g, soit −1,5 ÷ 10 × 100 = −15 %.\n2. Pour la rondelle A : sa masse augmente. L'eau pure est moins concentrée que le contenu des cellules, donc l'eau entre dans les cellules.\n3. Pour la rondelle B : l'eau salée est plus concentrée que le contenu des cellules. L'eau sort des cellules vers l'eau salée, la rondelle perd de la masse et devient molle.\n4. Avec trop d'engrais, l'eau du sol devient plus concentrée que le contenu des poils absorbants. L'eau ne peut plus entrer (elle peut même sortir) : la plante manque d'eau et se fane."
+        }
+      ]
+    }
+  ]
+}
