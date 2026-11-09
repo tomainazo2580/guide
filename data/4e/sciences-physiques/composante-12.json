@@ -84,7 +84,7 @@
         {
           "type": "exercice",
           "titre": "À toi de jouer",
-          "enonce": "1) L'aimant est immobile près de la bobine. Que indique le voltmètre à zéro central ?\n2) On approche l'aimant, puis on l'éloigne. Que fait l'aiguille ? Quel type de tension obtient-on avec un va-et-vient régulier ?\n3) Donne deux façons d'obtenir une tension plus grande.",
+          "enonce": "1) L'aimant est immobile près de la bobine. Qu'indique le voltmètre à zéro central ?\n2) On approche l'aimant, puis on l'éloigne. Que fait l'aiguille ? Quel type de tension obtient-on avec un va-et-vient régulier ?\n3) Donne deux façons d'obtenir une tension plus grande.",
           "solution": "1) Il indique zéro : sans mouvement, il n'y a pas de tension.\n2) L'aiguille dévie d'un côté quand on approche l'aimant, puis de l'autre côté quand on l'éloigne. Avec un va-et-vient régulier, on obtient une tension alternative.\n3) Déplacer l'aimant plus vite, ou utiliser une bobine qui a plus de spires. On peut aussi prendre un aimant plus puissant."
         }
       ]
