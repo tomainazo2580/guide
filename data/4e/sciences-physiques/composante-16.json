@@ -1,0 +1,514 @@
+{
+  "id": "sp4-16-poids-archimede-energies",
+  "titre": "Chapitre 16 : Poids, poussée d'Archimède et énergies renouvelables",
+  "lecons": [
+    {
+      "id": "sp4-16-forces",
+      "titre": "Les forces",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Force",
+          "texte": "Une force est une action exercée par un objet sur un autre objet. Elle se mesure en newton (symbole N), avec un dynamomètre."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les effets d'une force",
+          "entetes": ["Effet", "Exemple"],
+          "lignes": [
+            ["Déformer un objet", "On étire un ressort, on écrase une boule de pâte."],
+            ["Mettre un objet en mouvement", "Un coup de pied lance un ballon immobile."],
+            ["Modifier le mouvement d'un objet", "Un frein ralentit un vélo ; un joueur dévie une balle."],
+            ["Maintenir un objet en équilibre", "Un fil retient un objet suspendu."]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Forces de contact et forces à distance",
+          "entetes": ["Type", "Explication", "Exemples"],
+          "lignes": [
+            ["Force de contact", "L'objet qui agit touche l'objet qui subit la force.", "Pousser une porte, tirer sur un fil, frottement du sol"],
+            ["Force à distance", "L'objet qui agit n'a pas besoin de toucher l'autre.", "Le poids (attraction de la Terre), un aimant qui attire un clou"]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Utiliser un dynamomètre",
+          "texte": "Un dynamomètre contient un ressort : plus la force est grande, plus le ressort s'allonge. Une graduation donne la valeur de la force en newtons.\n1. Avant de mesurer, vérifie que l'aiguille est sur zéro.\n2. Tiens le dynamomètre dans la direction de la force à mesurer (vertical pour mesurer un poids).\n3. Ne dépasse jamais la graduation maximale : le ressort serait abîmé.\n4. Lis la valeur en plaçant l'œil en face de l'aiguille."
+        },
+        {
+          "type": "regle",
+          "titre": "Représenter une force",
+          "texte": "On représente une force par une flèche, appelée vecteur. Une force a quatre caractéristiques :\n- le point d'application : l'endroit où elle s'exerce ;\n- la direction (ou droite d'action) : la droite suivant laquelle elle agit ;\n- le sens : vers où elle pousse ou tire ;\n- la valeur : en newtons, donnée par la longueur de la flèche, selon une échelle choisie."
+        },
+        {
+          "type": "exemple",
+          "titre": "Choisir une échelle",
+          "texte": "Échelle : 1 cm pour 2 N. Une force de 6 N est représentée par une flèche de 6 ÷ 2 = 3 cm. Une flèche de 5 cm représente une force de 5 × 2 = 10 N."
+        },
+        {
+          "type": "regle",
+          "titre": "Équilibre d'un objet soumis à deux forces",
+          "texte": "Un objet soumis à deux forces reste immobile (il est en équilibre) si ces deux forces :\n- ont la même direction ;\n- ont des sens opposés ;\n- ont la même valeur."
+        },
+        {
+          "type": "schema",
+          "titre": "Une boîte suspendue à un fil",
+          "svg": "<svg width='260' height='215' viewBox='0 0 260 215' xmlns='http://www.w3.org/2000/svg'><defs><marker id='sp416a' viewBox='0 0 10 10' refX='9' refY='5' markerWidth='6' markerHeight='6' orient='auto'><path d='M0 0L10 5L0 10z' fill='#e11d48'/></marker></defs><line x1='60' y1='8' x2='200' y2='8' stroke='currentColor' stroke-width='3'/><line x1='130' y1='8' x2='130' y2='95' stroke='currentColor' stroke-opacity='0.6'/><rect x='100' y='95' width='60' height='80' fill='currentColor' fill-opacity='0.12' stroke='currentColor' stroke-width='1.5'/><circle cx='130' cy='135' r='3' fill='currentColor'/><line x1='130' y1='95' x2='130' y2='35' stroke='#e11d48' stroke-width='2' marker-end='url(#sp416a)'/><line x1='130' y1='135' x2='130' y2='195' stroke='#e11d48' stroke-width='2' marker-end='url(#sp416a)'/><text x='145' y='70' font-size='11' fill='currentColor'>T : tension du fil</text><text x='145' y='192' font-size='11' fill='currentColor'>P : poids</text><text x='168' y='139' font-size='12' fill='currentColor'>T = P</text></svg>",
+          "legende": "La boîte est immobile : le poids P et la tension T du fil ont la même direction, des sens opposés et la même valeur."
+        },
+        {
+          "type": "remarque",
+          "titre": "Si les forces ne s'équilibrent pas",
+          "texte": "Si les deux forces n'ont pas la même valeur, ou ne sont pas sur la même droite, l'objet se met en mouvement ou son mouvement change."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["newton", "unité de force, de symbole N"],
+            ["dynamomètre", "appareil qui mesure une force à l'aide d'un ressort"],
+            ["vecteur", "flèche qui représente une force"],
+            ["direction", "droite suivant laquelle la force agit"],
+            ["équilibre", "état d'un objet qui reste immobile"],
+            ["tension", "force exercée par un fil tendu"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Une boîte est suspendue à un fil et reste immobile. Le fil exerce sur la boîte une force de 8 N.\n\n1. Cite les deux forces qui s'exercent sur la boîte.\n2. Ces deux forces s'équilibrent. Donne la direction, le sens et la valeur de chacune.\n3. On les représente avec l'échelle 1 cm pour 2 N. Quelle est la longueur de chaque flèche ?\n4. Un dynamomètre dont la graduation maximale est 5 N peut-il mesurer cette force ? Pourquoi ?",
+          "solution": "1. Le poids de la boîte (exercé par la Terre) et la tension du fil.\n2. Poids : direction verticale, sens vers le bas, valeur 8 N. Tension : direction verticale, sens vers le haut, valeur 8 N.\n3. 8 ÷ 2 = 4 cm pour chaque flèche.\n4. Non : 8 N dépasse la graduation maximale de 5 N. Le ressort serait trop étiré et risquerait d'être abîmé."
+        }
+      ]
+    },
+    {
+      "id": "sp4-16-poids-masse",
+      "titre": "Masse et poids",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Masse",
+          "texte": "La masse d'un objet mesure la quantité de matière qu'il contient. Elle se mesure avec une balance, en kilogrammes (kg). Elle ne change pas quand on change de lieu."
+        },
+        {
+          "type": "definition",
+          "titre": "Poids",
+          "texte": "Le poids d'un objet est la force d'attraction que la Terre exerce sur lui. Il se mesure avec un dynamomètre, en newtons (N)."
+        },
+        {
+          "type": "regle",
+          "titre": "Les caractéristiques du poids",
+          "texte": "- Point d'application : le centre de gravité de l'objet (son centre, s'il est régulier et homogène).\n- Direction : la verticale du lieu.\n- Sens : vers le bas, vers le centre de la Terre.\n- Valeur : P = m × g."
+        },
+        {
+          "type": "formule",
+          "titre": "Relation entre poids et masse",
+          "texte": "P = m × g\nm = P ÷ g\nP en newtons (N), m en kilogrammes (kg), g en newtons par kilogramme (N/kg)."
+        },
+        {
+          "type": "tableau",
+          "titre": "La valeur de g",
+          "entetes": ["Astre", "g (N/kg)"],
+          "lignes": [
+            ["Terre", "environ 9,81 (souvent arrondi à 10)"],
+            ["Lune", "environ 1,6"],
+            ["Mars", "environ 3,7"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Même masse, poids différents",
+          "svg": "<svg width='300' height='195' viewBox='0 0 300 195' xmlns='http://www.w3.org/2000/svg'><defs><marker id='sp416b' viewBox='0 0 10 10' refX='9' refY='5' markerWidth='6' markerHeight='6' orient='auto'><path d='M0 0L10 5L0 10z' fill='#e11d48'/></marker></defs><text x='65' y='16' text-anchor='middle' font-size='12' fill='currentColor'>Sur la Terre</text><text x='245' y='16' text-anchor='middle' font-size='12' fill='currentColor'>Sur la Lune</text><text x='65' y='34' text-anchor='middle' font-size='11' fill='currentColor'>60 kg</text><text x='245' y='34' text-anchor='middle' font-size='11' fill='currentColor'>60 kg</text><rect x='45' y='40' width='40' height='40' fill='currentColor' fill-opacity='0.12' stroke='currentColor' stroke-width='1.5'/><rect x='225' y='40' width='40' height='40' fill='currentColor' fill-opacity='0.12' stroke='currentColor' stroke-width='1.5'/><line x1='15' y1='80' x2='115' y2='80' stroke='currentColor' stroke-width='2'/><line x1='195' y1='80' x2='295' y2='80' stroke='currentColor' stroke-width='2'/><circle cx='65' cy='60' r='3' fill='currentColor'/><circle cx='245' cy='60' r='3' fill='currentColor'/><line x1='65' y1='60' x2='65' y2='150' stroke='#e11d48' stroke-width='2' marker-end='url(#sp416b)'/><line x1='245' y1='60' x2='245' y2='75' stroke='#e11d48' stroke-width='2' marker-end='url(#sp416b)'/><text x='65' y='170' text-anchor='middle' font-size='12' fill='currentColor'>P ≈ 589 N</text><text x='65' y='185' text-anchor='middle' font-size='10' fill='currentColor'>g = 9,81 N/kg</text><text x='245' y='170' text-anchor='middle' font-size='12' fill='currentColor'>P ≈ 96 N</text><text x='245' y='185' text-anchor='middle' font-size='10' fill='currentColor'>g = 1,6 N/kg</text></svg>",
+          "legende": "La masse est la même, mais le poids est environ 6 fois plus petit sur la Lune. Les flèches sont tracées à la même échelle."
+        },
+        {
+          "type": "exemple",
+          "titre": "Poids d'un élève de 60 kg",
+          "texte": "Sur Terre : P = 60 × 9,81 = 588,6 N, soit environ 589 N.\nSur la Lune : P = 60 × 1,6 = 96 N.\nSur Mars : P = 60 × 3,7 = 222 N.\nSa masse reste 60 kg partout."
+        },
+        {
+          "type": "exemple",
+          "titre": "Retrouver la masse",
+          "texte": "Un objet a un poids de 981 N sur Terre. Sa masse est m = P ÷ g = 981 ÷ 9,81 = 100 kg."
+        },
+        {
+          "type": "tableau",
+          "titre": "Masse et poids",
+          "entetes": ["Caractéristique", "Masse", "Poids"],
+          "lignes": [
+            ["Nature", "Quantité de matière", "Force d'attraction de la Terre"],
+            ["Symbole", "m", "P"],
+            ["Unité", "kilogramme (kg)", "newton (N)"],
+            ["Instrument", "Balance", "Dynamomètre"],
+            ["Change avec le lieu ?", "Non", "Oui"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Ne pas confondre",
+          "texte": "Dans la vie courante, on dit « je pèse 45 kg » : c'est en réalité la masse, pas le poids. Un objet de 100 g, c'est-à-dire 0,1 kg, a un poids d'environ 0,1 × 9,81 = 0,981 N, soit à peu près 1 N."
+        },
+        {
+          "type": "remarque",
+          "titre": "Calcul rapide",
+          "texte": "Dans beaucoup d'exercices, on prend g = 10 N/kg. L'énoncé le précise. Alors P = m × 10."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["centre de gravité", "point où l'on peut considérer que s'applique le poids"],
+            ["verticale", "direction du fil à plomb, vers le centre de la Terre"],
+            ["homogène", "de même matière partout"],
+            ["attraction", "force qui rapproche deux objets"],
+            ["astre", "objet du ciel : Terre, Lune, Mars..."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "On prend g = 9,81 N/kg sur Terre et g = 1,6 N/kg sur la Lune. Un élève a une masse de 45 kg.\n\n1. Calcule son poids sur Terre, arrondi au newton.\n2. Calcule son poids sur la Lune.\n3. Quelle est sa masse sur la Lune ?\n4. Un objet a un poids de 49,05 N sur Terre. Quelle est sa masse ?",
+          "solution": "1. P = 45 × 9,81 = 441,45 N, soit environ 441 N.\n2. P = 45 × 1,6 = 72 N.\n3. Sa masse ne change pas : 45 kg.\n4. m = P ÷ g = 49,05 ÷ 9,81 = 5 kg."
+        }
+      ]
+    },
+    {
+      "id": "sp4-16-masse-volumique",
+      "titre": "La masse volumique",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Masse volumique",
+          "texte": "La masse volumique d'une matière est la masse d'une unité de volume de cette matière. On la note ρ (lettre grecque « rhô »)."
+        },
+        {
+          "type": "formule",
+          "titre": "Calcul",
+          "texte": "ρ = m ÷ V\nm = ρ × V\nV = m ÷ ρ\nm en kg et V en m³ : ρ en kg/m³. m en g et V en cm³ : ρ en g/cm³."
+        },
+        {
+          "type": "regle",
+          "titre": "Conversions utiles",
+          "texte": "1 g/cm³ = 1 000 kg/m³.\n1 L = 1 dm³ = 1 000 cm³ et 1 mL = 1 cm³.\n1 m³ = 1 000 L.\nUne masse volumique en kg/L est égale à la même valeur en g/cm³."
+        },
+        {
+          "type": "tableau",
+          "titre": "Quelques masses volumiques",
+          "entetes": ["Matière", "ρ en g/cm³", "ρ en kg/m³"],
+          "lignes": [
+            ["Air (vers 20 °C)", "0,0012", "1,2"],
+            ["Éthanol", "0,79", "790"],
+            ["Huile de cuisine", "environ 0,9", "environ 900"],
+            ["Glace", "0,92", "920"],
+            ["Eau", "1", "1 000"],
+            ["Eau de mer", "environ 1,03", "environ 1 030"],
+            ["Aluminium", "2,7", "2 700"],
+            ["Fer", "7,8", "7 800"],
+            ["Cuivre", "8,9", "8 900"],
+            ["Plomb", "11,3", "11 300"],
+            ["Mercure", "13,6", "13 600"]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Mesurer la masse volumique d'une pierre",
+          "texte": "1. Mesure la masse de la pierre avec une balance.\n2. Verse de l'eau dans une éprouvette graduée et lis le volume initial.\n3. Plonge la pierre dans l'eau et lis le nouveau volume.\n4. Le volume de la pierre est la différence entre les deux lectures.\n5. Calcule ρ = m ÷ V."
+        },
+        {
+          "type": "schema",
+          "titre": "Mesurer un volume par déplacement d'eau",
+          "svg": "<svg width='300' height='190' viewBox='0 0 300 190' xmlns='http://www.w3.org/2000/svg'><defs><marker id='sp416c' viewBox='0 0 10 10' refX='9' refY='5' markerWidth='6' markerHeight='6' orient='auto'><path d='M0 0L10 5L0 10z' fill='#e11d48'/></marker></defs><rect x='40' y='90' width='40' height='60' fill='#e11d48' fill-opacity='0.2'/><rect x='180' y='66' width='40' height='84' fill='#e11d48' fill-opacity='0.2'/><path d='M40 30V150H80V30' fill='none' stroke='currentColor' stroke-width='2'/><path d='M180 30V150H220V30' fill='none' stroke='currentColor' stroke-width='2'/><line x1='40' y1='90' x2='80' y2='90' stroke='#e11d48' stroke-width='1.5'/><line x1='180' y1='66' x2='220' y2='66' stroke='#e11d48' stroke-width='1.5'/><circle cx='200' cy='141' r='9' fill='currentColor' fill-opacity='0.5' stroke='currentColor'/><line x1='100' y1='100' x2='160' y2='100' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp416c)'/><text x='130' y='76' text-anchor='middle' font-size='11' fill='currentColor'>on plonge</text><text x='130' y='89' text-anchor='middle' font-size='11' fill='currentColor'>la pierre</text><text x='34' y='94' text-anchor='end' font-size='11' fill='currentColor'>50 mL</text><text x='228' y='70' font-size='11' fill='currentColor'>70 mL</text><text x='60' y='168' text-anchor='middle' font-size='11' fill='currentColor'>Avant</text><text x='200' y='168' text-anchor='middle' font-size='11' fill='currentColor'>Après</text><text x='150' y='184' text-anchor='middle' font-size='11' fill='currentColor'>V pierre = 70 − 50 = 20 mL = 20 cm³</text></svg>",
+          "legende": "Le niveau de l'eau monte : l'augmentation du volume est le volume de la pierre."
+        },
+        {
+          "type": "exemple",
+          "titre": "Un bloc d'aluminium",
+          "texte": "Un bloc a une masse de 540 g et un volume de 200 cm³. ρ = 540 ÷ 200 = 2,7 g/cm³. C'est la masse volumique de l'aluminium."
+        },
+        {
+          "type": "exemple",
+          "titre": "Une pierre",
+          "texte": "Masse : 56 g. Volume : 70 − 50 = 20 cm³. ρ = 56 ÷ 20 = 2,8 g/cm³."
+        },
+        {
+          "type": "exemple",
+          "titre": "Masse d'un liquide",
+          "texte": "L'huile a une masse volumique d'environ 0,9 kg/L. Pour 5 L : m = ρ × V = 0,9 × 5 = 4,5 kg."
+        },
+        {
+          "type": "remarque",
+          "titre": "La densité",
+          "texte": "La densité d'une matière par rapport à l'eau est le nombre sans unité d = ρ ÷ ρ(eau). Pour le fer, d = 7,8 ÷ 1 = 7,8. Une matière de densité inférieure à 1 est moins dense que l'eau."
+        },
+        {
+          "type": "remarque",
+          "titre": "Un kilogramme de plomb et un kilogramme de plumes",
+          "texte": "Ils ont la même masse, mais pas le même volume : les plumes occupent un volume beaucoup plus grand. Leur masse volumique est donc beaucoup plus petite."
+        },
+        {
+          "type": "remarque",
+          "titre": "Sécurité",
+          "texte": "Le mercure est un liquide très toxique : ne le manipule jamais. Si un thermomètre à mercure se casse, éloigne-toi et préviens un adulte."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["masse volumique", "masse d'une unité de volume d'une matière"],
+            ["éprouvette graduée", "tube gradué qui sert à mesurer un volume"],
+            ["volume", "place occupée par un objet"],
+            ["densité", "rapport entre la masse volumique d'une matière et celle de l'eau"],
+            ["déplacement d'eau", "montée du niveau de l'eau quand on plonge un objet"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. Un liquide a une masse de 340 g pour un volume de 400 cm³. Calcule sa masse volumique en g/cm³. Est-il plus ou moins dense que l'eau ?\n2. Convertis 2,7 g/cm³ en kg/m³.\n3. Un morceau de fer a un volume de 50 cm³. Sa masse volumique est 7,8 g/cm³. Calcule sa masse.\n4. L'huile a une masse volumique de 0,9 kg/L. Calcule la masse de 3 L d'huile.",
+          "solution": "1. ρ = 340 ÷ 400 = 0,85 g/cm³. Il est moins dense que l'eau, car 0,85 est inférieur à 1.\n2. 2,7 × 1 000 = 2 700 kg/m³.\n3. m = ρ × V = 7,8 × 50 = 390 g.\n4. m = 0,9 × 3 = 2,7 kg."
+        }
+      ]
+    },
+    {
+      "id": "sp4-16-archimede",
+      "titre": "La poussée d'Archimède et la flottabilité",
+      "blocs": [
+        {
+          "type": "regle",
+          "titre": "Observation",
+          "texte": "Quand on plonge un objet dans l'eau, il paraît plus léger : on soulève facilement un gros caillou sous l'eau. Un ballon de plage est difficile à enfoncer. L'eau exerce sur l'objet une force dirigée vers le haut."
+        },
+        {
+          "type": "definition",
+          "titre": "Poussée d'Archimède",
+          "texte": "La poussée d'Archimède est la force verticale, dirigée vers le haut, qu'un fluide (liquide ou gaz) exerce sur un objet plongé dans ce fluide. On la note FA. Elle est appliquée au centre de la partie immergée."
+        },
+        {
+          "type": "regle",
+          "titre": "Principe d'Archimède",
+          "texte": "La valeur de la poussée d'Archimède est égale au poids du fluide déplacé, c'est-à-dire du fluide que l'objet remplace. Plus la partie immergée est grande, plus la poussée est grande."
+        },
+        {
+          "type": "formule",
+          "titre": "Calcul de la poussée",
+          "texte": "FA = ρ × V × g\nFA en newtons (N) ; ρ : masse volumique du fluide en kg/m³ ; V : volume de la partie immergée de l'objet en m³ ; g en N/kg."
+        },
+        {
+          "type": "tableau",
+          "titre": "De quoi dépend la poussée ?",
+          "entetes": ["Elle dépend de", "Elle ne dépend pas de"],
+          "lignes": [
+            ["La masse volumique du fluide", "La masse de l'objet"],
+            ["Le volume de la partie immergée", "La matière dont l'objet est fait"],
+            ["La valeur de g", "La profondeur (si l'objet est entièrement immergé)"]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Mesurer la poussée avec un dynamomètre",
+          "texte": "1. Suspends l'objet au dynamomètre et lis son poids P dans l'air.\n2. Plonge l'objet entièrement dans l'eau, sans toucher le fond, et lis la nouvelle valeur P'.\n3. La poussée est FA = P − P'."
+        },
+        {
+          "type": "schema",
+          "titre": "Un objet dans l'air, puis dans l'eau",
+          "svg": "<svg width='320' height='200' viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg'><defs><marker id='sp416d' viewBox='0 0 10 10' refX='9' refY='5' markerWidth='6' markerHeight='6' orient='auto'><path d='M0 0L10 5L0 10z' fill='#e11d48'/></marker></defs><rect x='190' y='100' width='100' height='70' fill='#e11d48' fill-opacity='0.15'/><path d='M190 70V170H290V70' fill='none' stroke='currentColor' stroke-width='2'/><line x1='60' y1='10' x2='100' y2='10' stroke='currentColor' stroke-width='3'/><line x1='80' y1='10' x2='80' y2='60' stroke='currentColor' stroke-opacity='0.6'/><rect x='60' y='60' width='40' height='40' fill='currentColor' fill-opacity='0.12' stroke='currentColor' stroke-width='1.5'/><circle cx='80' cy='80' r='3' fill='currentColor'/><line x1='80' y1='80' x2='80' y2='119' stroke='#e11d48' stroke-width='2' marker-end='url(#sp416d)'/><text x='88' y='116' font-size='11' fill='currentColor'>P</text><text x='80' y='150' text-anchor='middle' font-size='11' fill='currentColor'>Dans l'air</text><text x='80' y='165' text-anchor='middle' font-size='11' fill='currentColor'>lecture 4,9 N</text><line x1='220' y1='10' x2='260' y2='10' stroke='currentColor' stroke-width='3'/><line x1='240' y1='10' x2='240' y2='110' stroke='currentColor' stroke-opacity='0.6'/><rect x='220' y='110' width='40' height='40' fill='currentColor' fill-opacity='0.12' stroke='currentColor' stroke-width='1.5'/><circle cx='240' cy='130' r='3' fill='currentColor'/><line x1='240' y1='130' x2='240' y2='169' stroke='#e11d48' stroke-width='2' marker-end='url(#sp416d)'/><line x1='240' y1='130' x2='240' y2='114' stroke='#e11d48' stroke-width='2' marker-end='url(#sp416d)'/><text x='266' y='126' font-size='11' fill='currentColor'>FA</text><text x='248' y='164' font-size='11' fill='currentColor'>P</text><text x='240' y='192' text-anchor='middle' font-size='11' fill='currentColor'>Dans l'eau : lecture 2,9 N</text></svg>",
+          "legende": "Dans l'eau, la poussée FA vers le haut réduit la valeur lue : P − FA. Les flèches sont tracées à la même échelle."
+        },
+        {
+          "type": "exemple",
+          "titre": "Un objet de 200 cm³ et de masse 500 g, plongé dans l'eau",
+          "texte": "V = 200 cm³ = 0,0002 m³.\nFA = 1 000 × 0,0002 × 9,81 = 1,962 N, soit environ 2,0 N.\nPoids dans l'air : P = 0,5 × 9,81 = 4,905 N.\nValeur lue dans l'eau : 4,905 − 1,962 = 2,943 N, soit environ 2,9 N."
+        },
+        {
+          "type": "regle",
+          "titre": "Flotte ou coule ?",
+          "texte": "Quand l'objet est entièrement immergé, on compare son poids P et la poussée FA :\n- si P est plus grand que FA, il coule ;\n- si P est plus petit que FA, il remonte et finit par flotter ;\n- si P est égal à FA, il reste en équilibre dans le liquide.\nPour un objet fait d'une seule matière, cela revient à comparer les masses volumiques : il flotte si sa masse volumique est plus petite que celle du liquide, il coule si elle est plus grande."
+        },
+        {
+          "type": "schema",
+          "titre": "Un morceau de bois et une pierre dans l'eau",
+          "svg": "<svg width='300' height='190' viewBox='0 0 300 190' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='80' width='260' height='70' fill='#e11d48' fill-opacity='0.15'/><path d='M20 40V150H280V40' fill='none' stroke='currentColor' stroke-width='2'/><line x1='20' y1='80' x2='280' y2='80' stroke='#e11d48' stroke-width='1.5'/><rect x='60' y='60' width='50' height='50' fill='currentColor' fill-opacity='0.25' stroke='currentColor' stroke-width='1.5'/><circle cx='190' cy='138' r='12' fill='currentColor' fill-opacity='0.5' stroke='currentColor' stroke-width='1.5'/><text x='85' y='132' text-anchor='middle' font-size='10' fill='currentColor'>60 % immergé</text><text x='242' y='112' text-anchor='middle' font-size='10' fill='currentColor'>Eau : 1 g/cm³</text><text x='85' y='168' text-anchor='middle' font-size='11' fill='currentColor'>Bois : 0,6 g/cm³</text><text x='85' y='182' text-anchor='middle' font-size='11' fill='currentColor'>flotte</text><text x='190' y='168' text-anchor='middle' font-size='11' fill='currentColor'>Pierre : 2,8 g/cm³</text><text x='190' y='182' text-anchor='middle' font-size='11' fill='currentColor'>coule</text></svg>",
+          "legende": "Le bois, moins dense que l'eau, flotte et n'est immergé qu'en partie. La pierre, plus dense, coule."
+        },
+        {
+          "type": "formule",
+          "titre": "Pour aller plus loin : un objet qui flotte",
+          "texte": "Un objet qui flotte est en équilibre : FA = P. La fraction de l'objet qui est immergée vaut :\nV immergé ÷ V = ρ de l'objet ÷ ρ du liquide."
+        },
+        {
+          "type": "exemple",
+          "titre": "Deux applications",
+          "texte": "Un morceau de bois de masse volumique 600 kg/m³ flotte dans l'eau : 600 ÷ 1 000 = 0,6, donc 60 % du bois est sous l'eau.\nUn iceberg : 920 ÷ 1 030 ≈ 0,89. Environ 90 % de sa glace est sous l'eau de mer."
+        },
+        {
+          "type": "remarque",
+          "titre": "Pourquoi un bateau en acier flotte-t-il ?",
+          "texte": "L'acier est beaucoup plus dense que l'eau, mais la coque est creuse et contient surtout de l'air. La masse volumique moyenne du bateau, coque et air ensemble, est plus petite que celle de l'eau. Plus on charge le bateau, plus il s'enfonce."
+        },
+        {
+          "type": "remarque",
+          "titre": "L'eau salée porte mieux",
+          "texte": "L'eau de mer est plus dense que l'eau douce : la poussée est plus grande, on flotte plus facilement. Un œuf frais coule dans l'eau douce, mais flotte dans une eau très salée."
+        },
+        {
+          "type": "remarque",
+          "titre": "Dans l'air aussi",
+          "texte": "L'air exerce aussi une poussée d'Archimède, très faible. Un ballon gonflé d'hélium monte parce que la poussée de l'air est plus grande que son poids."
+        },
+        {
+          "type": "remarque",
+          "titre": "Sécurité",
+          "texte": "Même si l'eau pousse vers le haut, on peut se noyer. Sur une pirogue ou un bateau, porte un gilet de sauvetage et ne te baigne jamais seul."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["fluide", "liquide ou gaz"],
+            ["immergé", "plongé dans un liquide"],
+            ["poussée", "force qui pousse un objet"],
+            ["flottabilité", "capacité d'un objet à flotter"],
+            ["coque", "partie d'un bateau qui est en contact avec l'eau"],
+            ["iceberg", "énorme bloc de glace qui flotte sur la mer"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "On prend g = 10 N/kg et ρ(eau) = 1 000 kg/m³. Un objet de volume 300 cm³ et de masse 900 g est plongé entièrement dans l'eau.\n\n1. Convertis son volume en m³.\n2. Calcule son poids.\n3. Calcule la poussée d'Archimède.\n4. Quelle valeur lit-on sur un dynamomètre quand l'objet est dans l'eau ? L'objet coule-t-il ou flotte-t-il ? Justifie de deux façons.",
+          "solution": "1. 300 cm³ = 0,0003 m³.\n2. P = 0,9 × 10 = 9 N.\n3. FA = 1 000 × 0,0003 × 10 = 3 N.\n4. On lit 9 − 3 = 6 N. L'objet coule : son poids (9 N) est plus grand que la poussée (3 N), et sa masse volumique, 900 ÷ 300 = 3 g/cm³, est plus grande que celle de l'eau (1 g/cm³)."
+        }
+      ]
+    },
+    {
+      "id": "sp4-16-energies",
+      "titre": "Les énergies renouvelables et non renouvelables",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Énergie",
+          "texte": "L'énergie est ce qui permet de produire un mouvement, de la chaleur, de la lumière, de l'électricité... Elle se mesure en joules (symbole J)."
+        },
+        {
+          "type": "tableau",
+          "titre": "Quelques formes d'énergie",
+          "entetes": ["Forme", "Exemple"],
+          "lignes": [
+            ["Mouvement", "Une voiture qui roule, le vent"],
+            ["Chaleur (thermique)", "L'eau chaude, une flamme"],
+            ["Électrique", "Le courant d'une prise ou d'une pile"],
+            ["Lumineuse", "La lumière du Soleil ou d'une lampe"],
+            ["Chimique", "Les aliments, le bois, le pétrole, les piles"],
+            ["Nucléaire", "L'uranium des centrales nucléaires"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Des appareils qui transforment l'énergie",
+          "entetes": ["Appareil", "Énergie reçue", "Énergie utile"],
+          "lignes": [
+            ["Panneau solaire", "Lumineuse", "Électrique"],
+            ["Alternateur", "Mouvement", "Électrique"],
+            ["Moteur électrique", "Électrique", "Mouvement"],
+            ["Lampe à DEL", "Électrique", "Lumineuse"],
+            ["Pile", "Chimique", "Électrique"],
+            ["Bûche qui brûle", "Chimique", "Chaleur et lumière"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "L'énergie se transforme",
+          "texte": "L'énergie ne se crée pas et ne disparaît pas : elle se transforme d'une forme en une autre. Une partie est presque toujours transformée en chaleur inutile : c'est une perte, comme dans un transformateur (chapitre 13)."
+        },
+        {
+          "type": "definition",
+          "titre": "Énergie renouvelable",
+          "texte": "Une énergie est renouvelable quand sa source se reconstitue assez vite à l'échelle humaine, ou ne s'épuise pas : le Soleil, le vent, l'eau qui s'écoule, la biomasse bien gérée."
+        },
+        {
+          "type": "definition",
+          "titre": "Énergie non renouvelable",
+          "texte": "Une énergie est non renouvelable quand ses réserves sont limitées et ne se reconstituent pas à l'échelle humaine : le charbon, le pétrole, le gaz naturel et l'uranium."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les énergies renouvelables",
+          "entetes": ["Source", "Principe", "Limite"],
+          "lignes": [
+            ["Solaire", "La lumière du Soleil est transformée en électricité (cellules d'un panneau) ou en chaleur (chauffe-eau solaire).", "Pas de production la nuit ; dépend de la météo."],
+            ["Éolienne", "Le vent fait tourner des pales reliées à un alternateur.", "Il faut un vent assez régulier."],
+            ["Hydraulique", "L'eau d'un barrage ou d'une rivière fait tourner une turbine reliée à un alternateur.", "Dépend de la pluie ; un barrage modifie le milieu."],
+            ["Biomasse", "On brûle ou on transforme du bois, des résidus de culture, des déchets (biogaz).", "Renouvelable seulement si on replante ; la combustion rejette du CO₂."],
+            ["Géothermie", "On utilise la chaleur du sous-sol.", "Possible seulement dans certaines régions."]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Les énergies non renouvelables",
+          "entetes": ["Source", "Principe", "Limite"],
+          "lignes": [
+            ["Charbon, pétrole, gaz naturel (énergies fossiles)", "Formés en millions d'années ; leur combustion libère de la chaleur.", "Réserves limitées ; la combustion rejette du CO₂, gaz à effet de serre."],
+            ["Uranium (énergie fissile)", "Dans une centrale nucléaire, la fission de noyaux d'uranium libère de la chaleur.", "Réserves limitées ; déchets radioactifs qui durent très longtemps."]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "De l'eau du barrage à la lampe",
+          "svg": "<svg width='300' height='195' viewBox='0 0 300 195' xmlns='http://www.w3.org/2000/svg'><defs><marker id='sp416e' viewBox='0 0 10 10' refX='9' refY='5' markerWidth='6' markerHeight='6' orient='auto'><path d='M0 0L10 5L0 10z' fill='#e11d48'/></marker></defs><rect x='40' y='4' width='220' height='26' rx='6' fill='currentColor' fill-opacity='0.08' stroke='currentColor'/><rect x='40' y='44' width='220' height='26' rx='6' fill='currentColor' fill-opacity='0.08' stroke='currentColor'/><rect x='40' y='84' width='220' height='26' rx='6' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><rect x='40' y='124' width='220' height='26' rx='6' fill='currentColor' fill-opacity='0.08' stroke='currentColor'/><rect x='40' y='164' width='220' height='26' rx='6' fill='currentColor' fill-opacity='0.08' stroke='currentColor'/><text x='150' y='22' text-anchor='middle' font-size='12' fill='currentColor'>Eau du barrage, en hauteur</text><text x='150' y='62' text-anchor='middle' font-size='12' fill='currentColor'>Turbine qui tourne</text><text x='150' y='102' text-anchor='middle' font-size='12' fill='currentColor'>Alternateur</text><text x='150' y='142' text-anchor='middle' font-size='12' fill='currentColor'>Lignes et transformateurs</text><text x='150' y='182' text-anchor='middle' font-size='12' fill='currentColor'>Lampes, moteurs, chargeurs</text><line x1='150' y1='30' x2='150' y2='43' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp416e)'/><line x1='150' y1='70' x2='150' y2='83' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp416e)'/><line x1='150' y1='110' x2='150' y2='123' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp416e)'/><line x1='150' y1='150' x2='150' y2='163' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp416e)'/></svg>",
+          "legende": "L'énergie de l'eau en hauteur devient de l'énergie de mouvement, puis de l'énergie électrique (chapitre 13)."
+        },
+        {
+          "type": "remarque",
+          "titre": "À Madagascar",
+          "texte": "Une partie de l'électricité de la JIRAMA vient de centrales hydrauliques, installées sur des rivières. Une autre partie vient de centrales thermiques, qui brûlent des produits pétroliers. Le solaire se développe. Beaucoup de familles cuisinent encore avec du bois ou du charbon de bois."
+        },
+        {
+          "type": "remarque",
+          "titre": "Bois et charbon de bois",
+          "texte": "Le bois est une énergie renouvelable seulement si l'on replante autant d'arbres qu'on en coupe. Si l'on coupe plus vite que les arbres ne repoussent, la forêt disparaît et le sol s'érode. Les foyers améliorés et le reboisement aident à protéger la forêt."
+        },
+        {
+          "type": "regle",
+          "titre": "Économiser l'énergie",
+          "texte": "- Éteindre les lampes et les appareils quand on n'en a pas besoin.\n- Utiliser des lampes à DEL.\n- Mettre un couvercle sur la casserole pour cuire plus vite.\n- Débrancher les chargeurs inutilisés.\n- Choisir, quand c'est possible, une énergie renouvelable."
+        },
+        {
+          "type": "regle",
+          "titre": "Ce qu'il faut retenir du chapitre",
+          "texte": "- Une force se mesure en newtons avec un dynamomètre.\n- Le poids est une force : P = m × g (g ≈ 9,81 N/kg sur Terre). La masse, en kg, ne change pas avec le lieu.\n- La masse volumique est ρ = m ÷ V.\n- La poussée d'Archimède est verticale, vers le haut : FA = ρ × V × g.\n- Un objet flotte si sa masse volumique est plus petite que celle du liquide.\n- L'énergie se transforme. Le Soleil, le vent, l'eau sont des sources renouvelables ; le pétrole, le charbon, le gaz et l'uranium ne le sont pas."
+        },
+        {
+          "type": "remarque",
+          "titre": "Fin des chapitres",
+          "texte": "Tu as terminé les chapitres de Sciences Physiques de 4ème. Révise avec les exercices, du plus facile au plus difficile."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["joule", "unité d'énergie, de symbole J"],
+            ["renouvelable", "qui se reconstitue assez vite ou ne s'épuise pas"],
+            ["biomasse", "matière vivante utilisée comme source d'énergie : bois, résidus de culture, déchets"],
+            ["fossile", "formé il y a des millions d'années à partir d'êtres vivants"],
+            ["fissile", "dont les noyaux peuvent se casser en libérant de l'énergie (uranium)"],
+            ["fission", "cassure d'un noyau en plusieurs morceaux"],
+            ["gaz à effet de serre", "gaz qui retient la chaleur dans l'atmosphère et contribue au réchauffement du climat"],
+            ["géothermie", "énergie venant de la chaleur du sous-sol"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. Classe en énergie renouvelable ou non renouvelable : le vent, le pétrole, le Soleil, le charbon, l'eau d'une rivière, l'uranium.\n2. Donne la chaîne de transformations d'énergie dans une centrale hydraulique.\n3. Une cellule de panneau solaire transforme quelle énergie en quelle énergie ?\n4. Pourquoi le charbon de bois n'est-il renouvelable que sous condition ? Cite un geste pour économiser l'énergie.",
+          "solution": "1. Renouvelables : le vent, le Soleil, l'eau d'une rivière. Non renouvelables : le pétrole, le charbon, l'uranium.\n2. L'énergie de l'eau en hauteur devient de l'énergie de mouvement (la turbine tourne), puis de l'énergie électrique (l'alternateur).\n3. L'énergie lumineuse en énergie électrique.\n4. Les arbres repoussent lentement : si l'on en coupe plus qu'on n'en replante, la forêt disparaît. Gestes possibles : éteindre la lumière en quittant une pièce, utiliser des lampes à DEL, mettre un couvercle sur la casserole."
+        }
+      ]
+    }
+  ]
+}
