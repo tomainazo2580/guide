@@ -1,0 +1,367 @@
+{
+  "id": "svt4-8-digestion-hygiene",
+  "titre": "La digestion et l'hygiène alimentaire",
+  "lecons": [
+    {
+      "id": "svt4-8-l1-appareil",
+      "titre": "L'appareil digestif et le trajet des aliments",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Digestion",
+          "texte": "La digestion est l'ensemble des transformations qui découpent les aliments en très petites molécules, les nutriments. Ces nutriments peuvent traverser la paroi de l'intestin et passer dans le sang. Les aliments tels qu'on les mange ne peuvent pas passer directement dans le sang : leurs molécules sont trop grosses."
+        },
+        {
+          "type": "definition",
+          "titre": "Appareil digestif",
+          "texte": "L'appareil digestif comprend le tube digestif et les glandes digestives.\nLe tube digestif est un long tube ouvert aux deux bouts, de la bouche à l'anus : les aliments y circulent.\nLes glandes digestives fabriquent les sucs digestifs et les versent dans le tube par de petits canaux. Les aliments ne passent pas par elles."
+        },
+        {
+          "type": "schema",
+          "titre": "Le tube digestif et ses glandes",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='500' height='320' viewBox='0 0 500 320' font-family='sans-serif' font-size='12'><defs><marker id='fl8a' markerWidth='8' markerHeight='8' refX='7' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='#e11d48'/></marker></defs><rect x='10' y='25' width='180' height='26' rx='6' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='100' y='42' text-anchor='middle' fill='currentColor'>Bouche</text><rect x='10' y='65' width='180' height='26' rx='6' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='100' y='82' text-anchor='middle' fill='currentColor'>Pharynx</text><rect x='10' y='105' width='180' height='26' rx='6' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='100' y='122' text-anchor='middle' fill='currentColor'>Œsophage (≈ 25 cm)</text><rect x='10' y='145' width='180' height='26' rx='6' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='100' y='162' text-anchor='middle' fill='currentColor'>Estomac</text><rect x='10' y='185' width='180' height='26' rx='6' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='100' y='202' text-anchor='middle' fill='currentColor'>Intestin grêle (≈ 6 m)</text><rect x='10' y='225' width='180' height='26' rx='6' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='100' y='242' text-anchor='middle' fill='currentColor'>Gros intestin (≈ 1,5 m)</text><rect x='10' y='265' width='180' height='26' rx='6' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='100' y='282' text-anchor='middle' fill='currentColor'>Rectum et anus</text><line x1='100' y1='52' x2='100' y2='64' stroke='#e11d48' stroke-width='2' marker-end='url(#fl8a)'/><line x1='100' y1='92' x2='100' y2='104' stroke='#e11d48' stroke-width='2' marker-end='url(#fl8a)'/><line x1='100' y1='132' x2='100' y2='144' stroke='#e11d48' stroke-width='2' marker-end='url(#fl8a)'/><line x1='100' y1='172' x2='100' y2='184' stroke='#e11d48' stroke-width='2' marker-end='url(#fl8a)'/><line x1='100' y1='212' x2='100' y2='224' stroke='#e11d48' stroke-width='2' marker-end='url(#fl8a)'/><line x1='100' y1='252' x2='100' y2='264' stroke='#e11d48' stroke-width='2' marker-end='url(#fl8a)'/><rect x='320' y='20' width='170' height='36' rx='6' fill='currentColor' fill-opacity='0.08' stroke='currentColor' stroke-opacity='0.5'/><text x='405' y='42' text-anchor='middle' fill='currentColor'>Glandes salivaires</text><rect x='320' y='150' width='170' height='40' rx='6' fill='currentColor' fill-opacity='0.08' stroke='currentColor' stroke-opacity='0.5'/><text x='405' y='167' text-anchor='middle' fill='currentColor'>Foie et vésicule</text><text x='405' y='183' text-anchor='middle' fill='currentColor'>biliaire</text><rect x='320' y='200' width='170' height='36' rx='6' fill='currentColor' fill-opacity='0.08' stroke='currentColor' stroke-opacity='0.5'/><text x='405' y='222' text-anchor='middle' fill='currentColor'>Pancréas</text><line x1='320' y1='38' x2='192' y2='38' stroke='currentColor' stroke-opacity='0.6' stroke-dasharray='4 3'/><line x1='320' y1='170' x2='192' y2='194' stroke='currentColor' stroke-opacity='0.6' stroke-dasharray='4 3'/><line x1='320' y1='218' x2='192' y2='202' stroke='currentColor' stroke-opacity='0.6' stroke-dasharray='4 3'/><text x='250' y='312' text-anchor='middle' fill='currentColor'>Les glandes versent leurs sucs dans le tube (traits pointillés).</text></svg>",
+          "legende": "À gauche, le trajet des aliments dans le tube digestif. À droite, les glandes qui y versent leurs sucs. Les longueurs sont des ordres de grandeur."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les organes du tube digestif (valeurs approximatives)",
+          "entetes": ["Organe", "Description", "Rôle"],
+          "lignes": [
+            ["Bouche", "Dents, langue, salive", "Broie les aliments et les mélange à la salive. Début de la digestion de l'amidon."],
+            ["Pharynx", "Carrefour entre le trajet de l'air et celui des aliments", "Participe à la déglutition."],
+            ["Œsophage", "Tube musclé d'environ 25 cm", "Conduit les aliments jusqu'à l'estomac."],
+            ["Estomac", "Poche musclée, contenance d'environ 1,5 L", "Brasse les aliments avec le suc gastrique acide."],
+            ["Intestin grêle", "Tube enroulé d'environ 6 m, paroi couverte de villosités", "Digestion finale et absorption des nutriments."],
+            ["Gros intestin", "Tube plus large d'environ 1,5 m", "Absorbe l'eau et forme les selles."],
+            ["Rectum et anus", "Fin du tube digestif", "Stockent puis évacuent les selles."]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Les glandes digestives",
+          "entetes": ["Glande", "Ce qu'elle fabrique", "Où cela agit"],
+          "lignes": [
+            ["Glandes salivaires", "La salive", "Dans la bouche"],
+            ["Glandes de l'estomac", "Le suc gastrique", "Dans l'estomac"],
+            ["Foie", "La bile, stockée dans la vésicule biliaire", "Dans l'intestin grêle"],
+            ["Pancréas", "Le suc pancréatique", "Dans l'intestin grêle"],
+            ["Glandes de l'intestin", "Le suc intestinal", "Dans l'intestin grêle"]
+          ]
+        },
+        {
+          "type": "exemple",
+          "titre": "Le trajet d'une bouchée de riz",
+          "texte": "Bouche : le riz est mâché et mélangé à la salive, qui commence à digérer l'amidon.\nŒsophage : le bol descend en quelques secondes.\nEstomac : il est brassé avec le suc gastrique pendant 2 à 4 heures environ.\nIntestin grêle : la digestion se termine et les nutriments sont absorbés, pendant 3 à 6 heures environ.\nGros intestin : l'eau est absorbée et les restes forment les selles.\nAnus : les selles sont évacuées.\nLe trajet complet dure en général de un à trois jours. Ces durées sont approximatives."
+        },
+        {
+          "type": "methode",
+          "titre": "Observer un appareil digestif (avec l'enseignant)",
+          "texte": "1. Utilise un petit animal acheté au marché, déjà mort : un poisson ou un lapin.\n2. Mets des gants et pose l'animal sur une planche.\n3. Ouvre le ventre avec des ciseaux, du haut vers le bas, sans abîmer les organes.\n4. Repère le foie, l'estomac et l'intestin. Déplie l'intestin pour le mesurer.\n5. Dessine ce que tu vois et écris les noms des organes.\n6. Enterre les restes, nettoie le matériel et lave-toi les mains avec du savon."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Digestion", "Transformation des aliments en nutriments."],
+            ["Nutriment", "Petite molécule qui peut passer de l'intestin dans le sang."],
+            ["Molécule", "Très petit morceau de matière, invisible à l'œil nu."],
+            ["Tube digestif", "Tube où circulent les aliments, de la bouche à l'anus."],
+            ["Glande digestive", "Organe qui fabrique un suc digestif."],
+            ["Suc digestif", "Liquide qui contient des enzymes et agit sur les aliments."],
+            ["Bile", "Liquide jaune-vert fabriqué par le foie."],
+            ["Selles", "Restes non digérés évacués par l'anus."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. Classe ces organes en deux groupes, tube digestif et glandes digestives : œsophage, foie, estomac, pancréas, intestin grêle, glandes salivaires.\n2. Pourquoi dit-on que les aliments ne passent pas dans le foie ?\n3. L'œsophage mesure 25 cm, l'intestin grêle 6 m et le gros intestin 1,5 m. Calcule la longueur totale de ces trois organes, en mètres. Un élève mesure 1,60 m : combien de fois sa taille cela représente-t-il (arrondi à une décimale) ?\n4. L'estomac peut contenir 1,5 L. Un élève boit et mange 0,9 L. Quel pourcentage de la contenance de l'estomac cela représente-t-il ?\n5. Pourquoi les aliments doivent-ils être digérés avant de passer dans le sang ?",
+          "solution": "1. Tube digestif : œsophage, estomac, intestin grêle. Glandes digestives : foie, pancréas, glandes salivaires.\n2. Le foie est une glande placée à côté du tube digestif. Il envoie la bile dans l'intestin grêle par un petit canal, mais les aliments ne le traversent pas.\n3. 25 cm = 0,25 m. 0,25 + 6 + 1,5 = 7,75 m. 7,75 ÷ 1,60 ≈ 4,8 : cela représente environ 4,8 fois la taille de l'élève.\n4. 0,9 ÷ 1,5 = 0,6, soit 60 %.\n5. Les molécules des aliments sont trop grosses pour traverser la paroi de l'intestin. La digestion les découpe en petites molécules, les nutriments, qui peuvent passer dans le sang."
+        }
+      ]
+    },
+    {
+      "id": "svt4-8-l2-mecanique",
+      "titre": "Les transformations mécaniques",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Transformations mécaniques",
+          "texte": "Les transformations mécaniques coupent, broient et mélangent les aliments, sans changer la nature de leurs molécules. Elles se font surtout dans la bouche et dans l'estomac."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les dents de l'adulte",
+          "entetes": ["Dent", "Nombre", "Forme", "Rôle"],
+          "lignes": [
+            ["Incisives", "8", "Plates et tranchantes", "Couper les aliments"],
+            ["Canines", "4", "Pointues", "Déchirer les aliments"],
+            ["Prémolaires", "8", "Plates, avec deux petites pointes", "Écraser et broyer"],
+            ["Molaires", "12", "Larges, avec plusieurs pointes", "Broyer finement"],
+            ["Total", "32", "8 + 4 + 8 + 12", "Toutes les dents de l'adulte"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Dents de l'adulte et dents de lait",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='500' height='165' viewBox='0 0 500 165' font-family='sans-serif' font-size='12'><text x='250' y='20' text-anchor='middle' fill='currentColor'>Nombre de dents de chaque type</text><text x='10' y='63' fill='currentColor'>Adulte, 32 dents</text><rect x='120' y='40' width='80' height='36' fill='#e11d48' fill-opacity='0.15' stroke='#e11d48'/><rect x='200' y='40' width='40' height='36' fill='#e11d48' fill-opacity='0.3' stroke='#e11d48'/><rect x='240' y='40' width='80' height='36' fill='#e11d48' fill-opacity='0.45' stroke='#e11d48'/><rect x='320' y='40' width='120' height='36' fill='#e11d48' fill-opacity='0.6' stroke='#e11d48'/><text x='160' y='63' text-anchor='middle' fill='currentColor'>8</text><text x='220' y='63' text-anchor='middle' fill='currentColor'>4</text><text x='280' y='63' text-anchor='middle' fill='currentColor'>8</text><text x='380' y='63' text-anchor='middle' fill='currentColor'>12</text><text x='10' y='111' fill='currentColor'>Enfant, 20 dents</text><rect x='120' y='88' width='80' height='36' fill='#e11d48' fill-opacity='0.15' stroke='#e11d48'/><rect x='200' y='88' width='40' height='36' fill='#e11d48' fill-opacity='0.3' stroke='#e11d48'/><rect x='240' y='88' width='80' height='36' fill='#e11d48' fill-opacity='0.6' stroke='#e11d48'/><text x='160' y='111' text-anchor='middle' fill='currentColor'>8</text><text x='220' y='111' text-anchor='middle' fill='currentColor'>4</text><text x='280' y='111' text-anchor='middle' fill='currentColor'>8</text><rect x='20' y='140' width='12' height='12' fill='#e11d48' fill-opacity='0.15' stroke='#e11d48'/><text x='38' y='151' fill='currentColor'>Incisives</text><rect x='125' y='140' width='12' height='12' fill='#e11d48' fill-opacity='0.3' stroke='#e11d48'/><text x='143' y='151' fill='currentColor'>Canines</text><rect x='230' y='140' width='12' height='12' fill='#e11d48' fill-opacity='0.45' stroke='#e11d48'/><text x='248' y='151' fill='currentColor'>Prémolaires</text><rect x='360' y='140' width='12' height='12' fill='#e11d48' fill-opacity='0.6' stroke='#e11d48'/><text x='378' y='151' fill='currentColor'>Molaires</text></svg>",
+          "legende": "Chaque dent est représentée par 10 pixels de largeur. L'enfant n'a pas de prémolaires : ses 8 dernières dents sont des molaires de lait."
+        },
+        {
+          "type": "remarque",
+          "titre": "Dents de lait et dents de sagesse",
+          "texte": "L'enfant a 20 dents de lait : 8 incisives, 4 canines et 8 molaires, mais pas de prémolaires. Elles tombent entre 6 et 12 ans environ et sont remplacées par les dents définitives. Chez l'adulte, les quatre dernières molaires, appelées dents de sagesse, sortent souvent entre 17 et 25 ans. Certaines personnes n'en ont pas toutes."
+        },
+        {
+          "type": "regle",
+          "titre": "La mastication",
+          "texte": "1. Les dents coupent, déchirent et broient les aliments.\n2. La langue déplace les aliments dans la bouche.\n3. La salive, fabriquée par les glandes salivaires (environ 1 à 1,5 L par jour), humidifie les aliments et forme le bol alimentaire.\nMâcher longtemps facilite la digestion : les sucs digestifs agissent mieux sur de petits morceaux."
+        },
+        {
+          "type": "definition",
+          "titre": "Bol alimentaire et chyme",
+          "texte": "Le bol alimentaire est le mélange d'aliments broyés et de salive, prêt à être avalé.\nLe chyme est la bouillie obtenue dans l'estomac, quand le bol a été brassé avec le suc gastrique."
+        },
+        {
+          "type": "tableau",
+          "titre": "Du bol alimentaire au chyme",
+          "entetes": ["Étape", "Où ?", "Ce qui se passe"],
+          "lignes": [
+            ["Déglutition", "Bouche et pharynx", "La langue pousse le bol vers le fond de la gorge. L'épiglotte ferme l'entrée du larynx : le bol passe vers l'œsophage et non vers la trachée."],
+            ["Péristaltisme", "Œsophage et intestin", "Les muscles de la paroi se contractent en vagues et poussent le contenu vers l'avant."],
+            ["Brassage", "Estomac", "Les muscles de l'estomac malaxent les aliments avec le suc gastrique pendant plusieurs heures. On obtient le chyme."],
+            ["Mélange", "Intestin grêle", "Les mouvements de la paroi mélangent le chyme avec la bile et les sucs digestifs."]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Le péristaltisme",
+          "texte": "Grâce au péristaltisme, les aliments avancent même si l'on est couché ou la tête en bas : ils ne descendent pas seulement par leur poids. Il vaut quand même mieux manger assis et calmement."
+        },
+        {
+          "type": "remarque",
+          "titre": "La fausse route",
+          "texte": "Si l'on parle ou si l'on rit en avalant, une partie des aliments peut entrer dans le larynx puis dans la trachée : c'est la fausse route. On tousse pour la chasser. Si une personne s'étouffe et ne peut plus respirer ni parler, il faut appeler tout de suite à l'aide."
+        },
+        {
+          "type": "remarque",
+          "titre": "Protéger ses dents",
+          "texte": "Les bactéries de la bouche transforment les sucres en acide. L'acide ronge l'émail, la couche dure qui protège la dent : c'est la carie.\nPour protéger ses dents : se brosser les dents après les repas, ou au moins matin et soir ; limiter les sucreries et les boissons sucrées ; ne pas casser d'objets durs avec les dents ; consulter un agent de santé en cas de douleur."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Mastication", "Action de mâcher les aliments."],
+            ["Salive", "Liquide fabriqué dans la bouche par les glandes salivaires."],
+            ["Bol alimentaire", "Aliments broyés et mélangés à la salive."],
+            ["Déglutition", "Action d'avaler."],
+            ["Épiglotte", "Petit clapet qui ferme le larynx quand on avale."],
+            ["Péristaltisme", "Contractions en vagues de la paroi du tube digestif."],
+            ["Chyme", "Bouillie obtenue dans l'estomac."],
+            ["Émail", "Couche très dure qui recouvre la dent."],
+            ["Carie", "Trou dans la dent causé par l'acide des bactéries."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. Un adulte qui avait toute sa denture a perdu ses quatre dents de sagesse. Combien de dents lui reste-t-il ?\n2. Quel pourcentage des 32 dents de l'adulte représentent les molaires ?\n3. Combien de dents de plus un adulte a-t-il, par rapport à un enfant qui a toutes ses dents de lait ? Quelles dents expliquent cette différence ?\n4. Pourquoi faut-il bien mastiquer les aliments ?\n5. Un élève rit en avalant une bouchée et tousse beaucoup. Explique ce qui s'est passé et rappelle le rôle de l'épiglotte.",
+          "solution": "1. 32 − 4 = 28 dents.\n2. 12 ÷ 32 = 0,375, soit 37,5 %.\n3. 32 − 20 = 12 dents de plus. Ce sont les 8 prémolaires, qui n'existent pas chez l'enfant, et 4 molaires supplémentaires (12 chez l'adulte contre 8 chez l'enfant) : 8 + 4 = 12.\n4. Les aliments sont coupés et broyés en petits morceaux, et mélangés à la salive. Les sucs digestifs agissent mieux sur de petits morceaux, et le bol glisse facilement dans l'œsophage.\n5. Le rire perturbe la respiration : l'épiglotte ne ferme pas assez vite l'entrée du larynx et une partie de la bouchée entre dans la trachée. C'est une fausse route, et la toux chasse l'aliment. Normalement, l'épiglotte ferme le larynx pendant la déglutition, ce qui dirige le bol vers l'œsophage."
+        }
+      ]
+    },
+    {
+      "id": "svt4-8-l3-enzymes",
+      "titre": "Les transformations chimiques et les enzymes",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Transformations chimiques",
+          "texte": "Les transformations chimiques de la digestion découpent les grosses molécules des aliments (amidon, protides, lipides) en petites molécules. Elles sont réalisées par des enzymes, contenues dans les sucs digestifs."
+        },
+        {
+          "type": "definition",
+          "titre": "Enzyme",
+          "texte": "Une enzyme est une substance fabriquée par les cellules. Elle accélère une transformation chimique précise, sans être consommée. Chaque enzyme agit sur un seul type de molécule : elle est spécifique."
+        },
+        {
+          "type": "schema",
+          "titre": "Les grosses molécules deviennent de petites molécules",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='500' height='225' viewBox='0 0 500 225' font-family='sans-serif' font-size='12'><defs><marker id='fl8b' markerWidth='8' markerHeight='8' refX='7' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='#e11d48'/></marker></defs><rect x='10' y='20' width='130' height='44' rx='8' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='75' y='39' text-anchor='middle' font-weight='bold' fill='currentColor'>Amidon</text><text x='75' y='55' text-anchor='middle' fill='currentColor'>(grosse molécule)</text><rect x='320' y='20' width='170' height='44' rx='8' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='405' y='39' text-anchor='middle' font-weight='bold' fill='currentColor'>Glucose</text><text x='405' y='55' text-anchor='middle' fill='currentColor'>(petites molécules)</text><text x='230' y='34' text-anchor='middle' fill='currentColor'>amylases</text><line x1='145' y1='42' x2='316' y2='42' stroke='#e11d48' stroke-width='2' marker-end='url(#fl8b)'/><rect x='10' y='85' width='130' height='44' rx='8' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='75' y='104' text-anchor='middle' font-weight='bold' fill='currentColor'>Protides</text><text x='75' y='120' text-anchor='middle' fill='currentColor'>(grosse molécule)</text><rect x='320' y='85' width='170' height='44' rx='8' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='405' y='104' text-anchor='middle' font-weight='bold' fill='currentColor'>Acides aminés</text><text x='405' y='120' text-anchor='middle' fill='currentColor'>(petites molécules)</text><text x='230' y='99' text-anchor='middle' fill='currentColor'>pepsine, protéases</text><line x1='145' y1='107' x2='316' y2='107' stroke='#e11d48' stroke-width='2' marker-end='url(#fl8b)'/><rect x='10' y='150' width='130' height='44' rx='8' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='75' y='169' text-anchor='middle' font-weight='bold' fill='currentColor'>Lipides</text><text x='75' y='185' text-anchor='middle' fill='currentColor'>(grosse molécule)</text><rect x='320' y='150' width='170' height='44' rx='8' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='405' y='169' text-anchor='middle' font-weight='bold' fill='currentColor'>Acides gras, glycérol</text><text x='405' y='185' text-anchor='middle' fill='currentColor'>(petites molécules)</text><text x='230' y='164' text-anchor='middle' fill='currentColor'>lipase (aidée par la bile)</text><line x1='145' y1='172' x2='316' y2='172' stroke='#e11d48' stroke-width='2' marker-end='url(#fl8b)'/><text x='250' y='215' text-anchor='middle' fill='currentColor'>Les petites molécules traversent la paroi de l'intestin.</text></svg>",
+          "legende": "Chaque enzyme découpe un seul type de grosse molécule. Les petites molécules obtenues sont les nutriments."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les principales enzymes digestives",
+          "entetes": ["Enzyme", "Produite par", "Où elle agit", "Ce qu'elle fait"],
+          "lignes": [
+            ["Amylase salivaire", "Glandes salivaires", "Bouche", "Coupe l'amidon en maltose, un sucre."],
+            ["Pepsine (une protéase)", "Glandes de l'estomac", "Estomac, en milieu acide", "Coupe les protides en morceaux plus petits."],
+            ["Amylase pancréatique", "Pancréas", "Intestin grêle", "Poursuit la digestion de l'amidon."],
+            ["Protéases du pancréas", "Pancréas", "Intestin grêle", "Coupent les protides en morceaux plus petits."],
+            ["Lipase pancréatique", "Pancréas", "Intestin grêle", "Coupe les lipides en acides gras et en glycérol."],
+            ["Enzymes de l'intestin", "Glandes de l'intestin", "Intestin grêle", "Terminent la digestion : maltose en glucose, morceaux de protides en acides aminés."]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Le résultat de la digestion",
+          "entetes": ["Aliment", "Nutriments obtenus", "Enzymes principales"],
+          "lignes": [
+            ["Amidon (glucide)", "Glucose", "Amylases, enzymes de l'intestin"],
+            ["Protides", "Acides aminés", "Pepsine, protéases du pancréas, enzymes de l'intestin"],
+            ["Lipides", "Acides gras et glycérol", "Lipase, aidée par la bile"],
+            ["Eau, sels minéraux, vitamines", "Aucune transformation : ils passent tels quels", "Aucune"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "La bile n'est pas une enzyme",
+          "texte": "La bile, fabriquée par le foie, ne contient pas d'enzyme. Elle découpe les graisses en toutes petites gouttelettes, ce qui permet à la lipase de mieux agir. Le suc gastrique contient de l'acide chlorhydrique : cet acide aide la pepsine et détruit une partie des microbes avalés avec les aliments. Un mucus protège la paroi de l'estomac."
+        },
+        {
+          "type": "methode",
+          "titre": "Étudier l'action de la salive sur l'amidon (au laboratoire, avec l'enseignant)",
+          "texte": "1. Prépare de l'empois d'amidon : chauffe de l'eau avec un peu d'amidon, puis laisse refroidir.\n2. Recueille un peu de salive dans un verre propre. Ne partage pas ton verre.\n3. Prépare quatre tubes comme dans le tableau, avec le même volume d'empois dans chaque tube.\n4. Place chaque tube vingt minutes dans son bain : eau à 37 °C, ou eau glacée à 0 °C.\n5. Partage le contenu de chaque tube en deux parts : verse de l'eau iodée dans l'une, et chauffe doucement l'autre avec de la liqueur de Fehling.\n6. Note les couleurs et conclus."
+        },
+        {
+          "type": "tableau",
+          "titre": "Résultats de l'expérience",
+          "entetes": ["Tube", "Contenu", "Eau iodée", "Liqueur de Fehling"],
+          "lignes": [
+            ["1", "Empois et eau, à 37 °C", "Bleu-noir", "Pas de précipité"],
+            ["2", "Empois et salive, à 37 °C", "Jaune-brun (plus d'amidon)", "Précipité rouge brique (un sucre est apparu)"],
+            ["3", "Empois et salive, à 0 °C", "Bleu-noir", "Pas de précipité"],
+            ["4", "Empois et salive bouillie puis refroidie, à 37 °C", "Bleu-noir", "Pas de précipité"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Conclusions de l'expérience",
+          "texte": "1. Le tube 1 est le témoin : l'eau seule ne transforme pas l'amidon.\n2. Dans le tube 2, l'amidon a disparu et un sucre est apparu : la salive transforme l'amidon en sucre. C'est le rôle de l'amylase.\n3. Dans le tube 3, le froid ralentit l'enzyme, qui agit très peu.\n4. Dans le tube 4, la chaleur de l'ébullition a détruit l'enzyme : elle n'agit plus.\nUne enzyme agit mieux vers 37 °C, la température du corps. Le froid la ralentit (elle repart si on la réchauffe), mais une température supérieure à 60 °C environ la détruit pour toujours. Chaque enzyme a aussi son milieu préféré : neutre pour l'amylase de la salive, acide pour la pepsine, légèrement basique pour les enzymes de l'intestin."
+        },
+        {
+          "type": "remarque",
+          "titre": "Le pain devient sucré",
+          "texte": "Si l'on mâche longtemps un morceau de pain ou de riz sans l'avaler, il prend un goût légèrement sucré : l'amylase de la salive a transformé un peu d'amidon en maltose, qui est un sucre."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Enzyme", "Substance qui accélère une transformation chimique précise."],
+            ["Spécifique", "Qui agit sur une seule sorte de molécule."],
+            ["Amylase", "Enzyme qui digère l'amidon."],
+            ["Protéase", "Enzyme qui digère les protides. La pepsine en est une."],
+            ["Lipase", "Enzyme qui digère les lipides."],
+            ["Maltose", "Sucre obtenu à partir de l'amidon."],
+            ["Acide aminé", "Petite molécule obtenue à partir des protides."],
+            ["Acide gras", "Petite molécule obtenue à partir des lipides."],
+            ["Empois d'amidon", "Mélange d'eau et d'amidon cuit, utilisé pour l'expérience."],
+            ["Précipité", "Petits grains solides qui apparaissent dans un liquide."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Dans trois tubes A, B et C, on met de l'empois d'amidon et de la salive. Le tube A est placé à 37 °C, le tube B dans de l'eau glacée (0 °C), le tube C dans de l'eau bouillante (100 °C). Après 20 minutes, on ajoute de l'eau iodée : A reste jaune-brun, B devient bleu-noir, C devient bleu-noir.\n1. Dans quel tube l'amidon a-t-il été digéré ? Justifie.\n2. Que fait le froid à l'enzyme ?\n3. Que fait la chaleur de l'ébullition à l'enzyme ?\n4. On remet ensuite B puis C à 37 °C pendant 20 minutes. Qu'observera-t-on avec l'eau iodée ?\n5. Donne le nutriment final obtenu à partir de l'amidon, des protides et des lipides.",
+          "solution": "1. Dans le tube A : l'eau iodée ne devient pas bleu-noir, donc il n'y a plus d'amidon. L'amylase de la salive l'a transformé en sucre.\n2. Le froid ralentit l'enzyme : elle agit très peu, donc l'amidon reste presque entier dans le tube B.\n3. La chaleur à 100 °C détruit l'enzyme : elle n'agit plus, et l'amidon reste dans le tube C.\n4. Dans le tube B, l'enzyme repart : l'amidon est digéré peu à peu et la couleur bleu-noir diminue. Dans le tube C, l'enzyme est détruite pour toujours : l'eau iodée reste bleu-noir.\n5. Amidon : glucose. Protides : acides aminés. Lipides : acides gras et glycérol."
+        }
+      ]
+    },
+    {
+      "id": "svt4-8-l4-absorption-hygiene",
+      "titre": "L'absorption intestinale et l'hygiène alimentaire",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Absorption intestinale",
+          "texte": "L'absorption intestinale est le passage des nutriments de l'intestin grêle vers le sang et la lymphe, à travers la paroi de l'intestin. Elle se fait surtout dans l'intestin grêle."
+        },
+        {
+          "type": "schema",
+          "titre": "Une villosité de l'intestin grêle",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='500' height='235' viewBox='0 0 500 235' font-family='sans-serif' font-size='12'><defs><marker id='fl8c' markerWidth='8' markerHeight='8' refX='7' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='#e11d48'/></marker></defs><text x='20' y='16' fill='currentColor'>Cavité de l'intestin : aliments digérés</text><line x1='75' y1='22' x2='75' y2='48' stroke='#e11d48' stroke-width='2' marker-end='url(#fl8c)'/><line x1='145' y1='22' x2='145' y2='48' stroke='#e11d48' stroke-width='2' marker-end='url(#fl8c)'/><line x1='215' y1='22' x2='215' y2='48' stroke='#e11d48' stroke-width='2' marker-end='url(#fl8c)'/><g transform='translate(0,0)'><path d='M50,150 L50,72 Q50,50 75,50 Q100,50 100,72 L100,150 Z' fill='currentColor' fill-opacity='0.06' stroke='currentColor' stroke-opacity='0.6'/><path d='M67,150 L67,78 Q72,68 77,78 L77,150' fill='none' stroke='#e11d48' stroke-width='2'/><line x1='90' y1='150' x2='90' y2='62' stroke='currentColor' stroke-dasharray='4 3'/></g><g transform='translate(70,0)'><path d='M50,150 L50,72 Q50,50 75,50 Q100,50 100,72 L100,150 Z' fill='currentColor' fill-opacity='0.06' stroke='currentColor' stroke-opacity='0.6'/><path d='M67,150 L67,78 Q72,68 77,78 L77,150' fill='none' stroke='#e11d48' stroke-width='2'/><line x1='90' y1='150' x2='90' y2='62' stroke='currentColor' stroke-dasharray='4 3'/></g><g transform='translate(140,0)'><path d='M50,150 L50,72 Q50,50 75,50 Q100,50 100,72 L100,150 Z' fill='currentColor' fill-opacity='0.06' stroke='currentColor' stroke-opacity='0.6'/><path d='M67,150 L67,78 Q72,68 77,78 L77,150' fill='none' stroke='#e11d48' stroke-width='2'/><line x1='90' y1='150' x2='90' y2='62' stroke='currentColor' stroke-dasharray='4 3'/></g><rect x='40' y='150' width='210' height='30' fill='currentColor' fill-opacity='0.1' stroke='currentColor' stroke-opacity='0.6'/><text x='145' y='170' text-anchor='middle' fill='currentColor'>Paroi de l'intestin</text><line x1='145' y1='182' x2='145' y2='208' stroke='#e11d48' stroke-width='2' marker-end='url(#fl8c)'/><text x='145' y='226' text-anchor='middle' fill='currentColor'>Vers le foie, puis le cœur</text><text x='294' y='60' fill='currentColor'>Villosité (doigt de gant)</text><line x1='290' y1='56' x2='241' y2='78' stroke='currentColor' stroke-opacity='0.6'/><text x='294' y='105' fill='currentColor'>Capillaire sanguin</text><line x1='290' y1='101' x2='218' y2='101' stroke='currentColor' stroke-opacity='0.6'/><text x='294' y='140' fill='currentColor'>Vaisseau lymphatique</text><line x1='290' y1='136' x2='232' y2='136' stroke='currentColor' stroke-opacity='0.6'/></svg>",
+          "legende": "Les nutriments passent de la cavité de l'intestin vers les capillaires sanguins et le vaisseau lymphatique de chaque villosité."
+        },
+        {
+          "type": "regle",
+          "titre": "Un intestin adapté à l'absorption",
+          "texte": "La paroi de l'intestin grêle est très mince, très longue (environ 6 m), plissée et couverte de villosités, de petites saillies d'environ 1 mm de hauteur. Cela donne une très grande surface d'échange : plusieurs dizaines de mètres carrés, jusqu'à 200 m² selon les estimations, contre environ 2 m² pour la peau. Chaque villosité contient des capillaires sanguins et un vaisseau lymphatique."
+        },
+        {
+          "type": "tableau",
+          "titre": "Où vont les nutriments ?",
+          "entetes": ["Nutriments", "Où ils passent", "Ensuite"],
+          "lignes": [
+            ["Glucose, acides aminés", "Dans les capillaires sanguins", "Le sang les amène au foie, puis au cœur, qui les envoie aux organes."],
+            ["Eau, sels minéraux, la plupart des vitamines", "Dans les capillaires sanguins", "Ils sont distribués dans tout l'organisme."],
+            ["Acides gras et glycérol", "Surtout dans le vaisseau lymphatique de la villosité", "La lymphe rejoint ensuite le sang."]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Le rôle du foie",
+          "texte": "Le sang qui sort de l'intestin passe d'abord par le foie. Le foie stocke du glucose sous forme de glycogène, une réserve que l'on utilise entre les repas. Il arrête aussi certaines substances toxiques, et il fabrique la bile."
+        },
+        {
+          "type": "remarque",
+          "titre": "Le gros intestin",
+          "texte": "Le gros intestin absorbe l'eau et des sels minéraux. Ce qui n'a pas été digéré, comme les fibres des végétaux, avec des cellules mortes et des bactéries, forme les selles. Des bactéries utiles vivent dans le gros intestin : c'est la flore intestinale. Les fibres des légumes, des fruits et des brèdes aident à éviter la constipation."
+        },
+        {
+          "type": "tableau",
+          "titre": "Hygiène alimentaire : risques et prévention",
+          "entetes": ["Risque", "Cause", "Prévention"],
+          "lignes": [
+            ["Diarrhée, choléra, typhoïde", "Eau ou aliments souillés par des microbes", "Boire de l'eau potable, se laver les mains au savon, bien cuire les aliments"],
+            ["Vers intestinaux (par exemple les ascaris)", "Œufs de vers avalés avec des aliments ou des mains sales", "Se laver les mains, laver les fruits et les légumes, utiliser des latrines, se déparasiter selon les conseils du centre de santé"],
+            ["Intoxication alimentaire", "Aliments mal conservés ou mal cuits", "Conserver au frais, couvrir les aliments contre les mouches, ne pas manger un aliment périmé ou qui sent mauvais"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Eau limpide et eau potable",
+          "texte": "Une eau claire n'est pas forcément potable : elle peut contenir des microbes invisibles. Pour la rendre potable, on la fait bouillir au moins une minute à gros bouillons, ou on la filtre puis on la traite avec un produit adapté. On la garde ensuite dans un récipient propre et couvert."
+        },
+        {
+          "type": "methode",
+          "titre": "Que faire quand un enfant a la diarrhée ?",
+          "texte": "1. Lui donner à boire souvent, en petites quantités.\n2. Utiliser un sachet de sels de réhydratation orale (SRO), dilué dans la quantité d'eau potable indiquée sur le sachet.\n3. Continuer à nourrir l'enfant, et continuer l'allaitement pour un bébé.\n4. Aller au centre de santé s'il vomit sans arrêt, s'il a de la fièvre, du sang dans les selles, s'il boit mal ou ne va pas mieux.\nLa diarrhée fait perdre beaucoup d'eau : la déshydratation peut être grave chez un jeune enfant."
+        },
+        {
+          "type": "methode",
+          "titre": "Bonnes habitudes pour bien digérer",
+          "texte": "- Se laver les mains au savon avant de manger et après les toilettes.\n- Manger assis, à heures régulières, sans se presser.\n- Bien mastiquer.\n- Ne pas manger trop sucré, trop gras ou trop salé.\n- Boire de l'eau potable.\n- Ne pas se coucher juste après un grand repas."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Absorption", "Passage des nutriments de l'intestin vers le sang et la lymphe."],
+            ["Villosité", "Petite saillie en forme de doigt sur la paroi de l'intestin grêle."],
+            ["Capillaire sanguin", "Vaisseau très fin où le sang échange des substances."],
+            ["Lymphe", "Liquide clair qui circule dans les vaisseaux lymphatiques."],
+            ["Glycogène", "Réserve de glucose stockée dans le foie."],
+            ["Flore intestinale", "Ensemble des bactéries qui vivent dans l'intestin."],
+            ["Fibres", "Parties des végétaux que l'on ne digère pas."],
+            ["Potable", "Que l'on peut boire sans danger."],
+            ["Déshydratation", "Perte trop grande d'eau par le corps."],
+            ["SRO", "Sels de réhydratation orale : mélange de sels et de sucre à diluer dans de l'eau potable."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Les données de cet exercice sont simplifiées.\n1. On compte environ 25 villosités par mm² de paroi de l'intestin grêle. Combien y en a-t-il sur un morceau de paroi de 4 cm² ?\n2. À quoi servent les villosités ?\n3. Où passent le glucose, puis les acides gras, après leur passage à travers la paroi de l'intestin ?\n4. Un enfant de 18 kg a la diarrhée et perd 5 % de sa masse, surtout sous forme d'eau. Quelle masse d'eau a-t-il perdue ? Quel danger y a-t-il, et que faut-il faire ?\n5. Une eau de ruisseau est limpide. Peut-on la boire sans précaution ? Comment la rendre potable ? Cite deux autres gestes d'hygiène alimentaire.",
+          "solution": "1. 4 cm² = 400 mm². 400 × 25 = 10 000 villosités.\n2. Les villosités augmentent beaucoup la surface de contact avec les nutriments. Leurs capillaires et leur vaisseau lymphatique emportent ensuite ces nutriments.\n3. Le glucose passe dans les capillaires sanguins. Les acides gras passent surtout dans le vaisseau lymphatique de la villosité, puis la lymphe rejoint le sang.\n4. 18 × 5 ÷ 100 = 0,9 kg, soit environ 0,9 L d'eau (1 kg d'eau correspond à environ 1 L). Le danger est la déshydratation, qui peut devenir grave chez un jeune enfant. Il faut lui donner à boire souvent en petites quantités une solution de réhydratation (SRO), continuer à le nourrir, et l'emmener au centre de santé s'il vomit sans arrêt, a de la fièvre, du sang dans les selles ou ne va pas mieux.\n5. Non : une eau limpide peut contenir des microbes invisibles. Il faut la faire bouillir au moins une minute, ou la filtrer puis la traiter avec un produit adapté, et la garder dans un récipient propre et couvert. Autres gestes : se laver les mains au savon avant de manger, couvrir les aliments contre les mouches, laver les fruits et les légumes, bien cuire la viande et le poisson."
+        }
+      ]
+    }
+  ]
+}
