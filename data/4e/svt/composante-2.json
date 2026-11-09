@@ -1,0 +1,328 @@
+{
+  "id": "svt4-2-seves-transpiration",
+  "titre": "Circulation des sèves et transpiration",
+  "lecons": [
+    {
+      "id": "svt4-2-l1-seves",
+      "titre": "Les deux sèves : brute et élaborée",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Sève brute",
+          "texte": "La sève brute est le liquide formé d'eau et de sels minéraux puisés dans le sol par les racines. Elle monte des racines vers les feuilles dans les vaisseaux du bois."
+        },
+        {
+          "type": "definition",
+          "titre": "Sève élaborée",
+          "texte": "La sève élaborée est le liquide riche en sucres (et en d'autres substances organiques) fabriqués par les feuilles. Elle circule dans les vaisseaux du liber et distribue ces substances aux autres organes : racines, fruits, graines, organes de réserve."
+        },
+        {
+          "type": "methode",
+          "titre": "Expérience 1 : suivre l'eau colorée",
+          "texte": "1. Plonger les racines d'un jeune plant de balsamine (ou le pied d'une tige de céleri) dans de l'eau colorée avec de l'encre rouge ou de l'éosine.\n2. Attendre 2 à 3 heures.\n3. Observer les feuilles : leurs nervures se colorent.\n4. Couper la tige en travers (avec l'aide du professeur, la lame est dangereuse) et observer la coupe à la loupe.\n5. Fendre une autre tige dans le sens de la longueur.\n\nObservations : sur la coupe en travers, de petits points colorés forment un cercle dans la tige. Dans la tige fendue, on voit de fines lignes colorées.\n\nConclusion : l'eau colorée, qui représente la sève brute, monte dans des vaisseaux situés dans le bois de la tige, jusqu'aux feuilles."
+        },
+        {
+          "type": "schema",
+          "titre": "Coupe en travers d'une tige",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='420' height='230' viewBox='0 0 420 230' role='img' aria-label='Coupe transversale de tige avec liber et bois' font-family='sans-serif' font-size='12'><circle cx='150' cy='115' r='85' fill='#16a34a' fill-opacity='0.1' stroke='currentColor' stroke-width='2'/><circle cx='150' cy='115' r='22' fill='currentColor' fill-opacity='0.08' stroke='currentColor' stroke-opacity='0.5'/><circle cx='150' cy='67' r='9' fill='#3b82f6' fill-opacity='0.6'/><circle cx='191.6' cy='91' r='9' fill='#3b82f6' fill-opacity='0.6'/><circle cx='191.6' cy='139' r='9' fill='#3b82f6' fill-opacity='0.6'/><circle cx='150' cy='163' r='9' fill='#3b82f6' fill-opacity='0.6'/><circle cx='108.4' cy='139' r='9' fill='#3b82f6' fill-opacity='0.6'/><circle cx='108.4' cy='91' r='9' fill='#3b82f6' fill-opacity='0.6'/><circle cx='150' cy='51' r='6' fill='#f59e0b' fill-opacity='0.8'/><circle cx='205.4' cy='83' r='6' fill='#f59e0b' fill-opacity='0.8'/><circle cx='205.4' cy='147' r='6' fill='#f59e0b' fill-opacity='0.8'/><circle cx='150' cy='179' r='6' fill='#f59e0b' fill-opacity='0.8'/><circle cx='94.6' cy='147' r='6' fill='#f59e0b' fill-opacity='0.8'/><circle cx='94.6' cy='83' r='6' fill='#f59e0b' fill-opacity='0.8'/><line x1='235' y1='115' x2='262' y2='115' stroke='currentColor' stroke-opacity='0.6'/><text x='266' y='119' fill='currentColor'>Épiderme</text><line x1='211' y1='80' x2='262' y2='72' stroke='currentColor' stroke-opacity='0.6'/><text x='266' y='76' fill='currentColor'>Liber (sève élaborée)</text><line x1='199' y1='142' x2='262' y2='152' stroke='currentColor' stroke-opacity='0.6'/><text x='266' y='156' fill='currentColor'>Bois (sève brute)</text><line x1='128' y1='115' x2='60' y2='115' stroke='currentColor' stroke-opacity='0.6'/><text x='56' y='119' text-anchor='end' fill='currentColor'>Moelle</text></svg>",
+          "legende": "Les vaisseaux du bois (en bleu) conduisent la sève brute. Les vaisseaux du liber (en orange) conduisent la sève élaborée."
+        },
+        {
+          "type": "methode",
+          "titre": "Expérience 2 : le baguage",
+          "texte": "1. Choisir une branche d'arbuste en pleine croissance. Cette expérience abîme la plante : on la fait sur une branche qu'on peut sacrifier.\n2. Retirer, tout autour de la branche, un anneau d'écorce large de 2 à 3 cm, jusqu'au bois, sans entamer le bois. On enlève ainsi le liber.\n3. Laisser la plante vivre quelques semaines.\n\nObservations : la branche se renfle juste au-dessus de l'anneau. Les feuilles situées au-dessus de l'anneau restent vertes. Sous l'anneau, la branche ne grossit plus.\n\nConclusion : le bois n'a pas été touché, donc la sève brute continue de monter et les feuilles restent vivantes. Le liber a été coupé : la sève élaborée, qui descend des feuilles, s'arrête au bord de l'anneau et s'y accumule. Cela explique le renflement."
+        },
+        {
+          "type": "schema",
+          "titre": "Une branche baguée",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='420' height='230' viewBox='0 0 420 230' role='img' aria-label='Branche baguée avec renflement au-dessus de l anneau' font-family='sans-serif' font-size='12'><path d='M150 20 V85 Q140 98 156 110 V130 Q150 130 150 140 V210 H190 V140 Q190 130 184 130 V110 Q200 98 190 85 V20 Z' fill='#92400e' fill-opacity='0.2' stroke='currentColor' stroke-width='2'/><rect x='156' y='110' width='28' height='20' fill='#fbbf24' fill-opacity='0.5' stroke='currentColor' stroke-opacity='0.5'/><path d='M160 200 V30 M155 38 L160 30 L165 38' stroke='#3b82f6' stroke-width='2' fill='none'/><path d='M180 40 V102 M175 95 L180 103 L185 95' stroke='#e11d48' stroke-width='2' fill='none'/><text x='140' y='64' text-anchor='end' fill='#3b82f6'>Sève brute (monte)</text><line x1='190' y1='44' x2='230' y2='44' stroke='currentColor' stroke-opacity='0.6'/><text x='235' y='48' fill='#e11d48'>Sève élaborée (descend)</text><line x1='196' y1='98' x2='230' y2='98' stroke='currentColor' stroke-opacity='0.6'/><text x='235' y='102' fill='currentColor'>Renflement</text><line x1='184' y1='122' x2='230' y2='126' stroke='currentColor' stroke-opacity='0.6'/><text x='235' y='130' fill='currentColor'>Anneau d’écorce enlevé</text></svg>",
+          "legende": "Le liber est coupé : la sève élaborée s'arrête au-dessus de l'anneau et s'y accumule. Le bois est intact : la sève brute continue de monter."
+        },
+        {
+          "type": "tableau",
+          "titre": "Comparer les deux sèves",
+          "entetes": ["", "Sève brute", "Sève élaborée"],
+          "lignes": [
+            ["Composition", "Eau et sels minéraux", "Eau et sucres (substances organiques)"],
+            ["Origine", "Le sol, par les poils absorbants", "Les feuilles, qui fabriquent les sucres"],
+            ["Vaisseaux", "Vaisseaux du bois (xylème)", "Vaisseaux du liber (phloème)"],
+            ["Sens de circulation", "Des racines vers les feuilles (elle monte)", "Des feuilles vers les autres organes (surtout vers le bas)"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Ne jamais baguer un arbre",
+          "texte": "Si on enlève un anneau d'écorce complet autour du tronc d'un arbre, les racines ne reçoivent plus de sucres. Elles meurent, et l'arbre meurt à son tour. C'est pourquoi on ne doit pas entailler l'écorce des arbres sans raison."
+        },
+        {
+          "type": "regle",
+          "titre": "À retenir",
+          "texte": "Il y a deux sèves. La sève brute (eau et sels minéraux) monte des racines vers les feuilles dans le bois. La sève élaborée (eau et sucres) circule dans le liber et nourrit tous les organes de la plante. Les sucres sont fabriqués par les feuilles (voir chapitre 4)."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Sève", "Liquide qui circule dans la plante."],
+            ["Vaisseau", "Tube très fin dans lequel circule la sève."],
+            ["Bois (xylème)", "Ensemble des vaisseaux qui conduisent la sève brute."],
+            ["Liber (phloème)", "Ensemble des vaisseaux, situés sous l'écorce, qui conduisent la sève élaborée."],
+            ["Baguage", "Opération qui consiste à enlever un anneau d'écorce autour d'une branche."],
+            ["Substance organique", "Substance fabriquée par les êtres vivants, comme le sucre."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "On place un plant de balsamine, racines dans de l'eau colorée en rouge. Après trois heures, les nervures des feuilles sont rouges. Une coupe en travers de la tige montre un cercle de petits points rouges.\nSur un arbuste, on retire un anneau d'écorce (liber compris) autour d'une branche, sans toucher au bois. Quelques semaines plus tard, la branche est renflée juste au-dessus de l'anneau et ses feuilles sont toujours vertes.\n1. Que prouve la première expérience ? Quelle sève représente l'eau colorée ?\n2. Pourquoi les feuilles de la branche baguée restent-elles vertes ?\n3. Explique le renflement au-dessus de l'anneau.\n4. Que risque-t-il d'arriver à un arbuste si on enlève un anneau d'écorce autour de son tronc ? Pourquoi ?",
+          "solution": "1. L'eau monte dans des vaisseaux situés dans le bois de la tige, jusqu'aux feuilles. L'eau colorée représente la sève brute.\n2. Le bois n'a pas été enlevé : la sève brute continue de monter par ses vaisseaux jusqu'aux feuilles.\n3. Le liber a été coupé. La sève élaborée, qui descend des feuilles, est bloquée au bord de l'anneau : elle s'y accumule et la branche se renfle.\n4. L'arbuste risque de mourir. Les racines ne reçoivent plus de sucres : elles meurent, l'absorption de l'eau s'arrête et toute la plante meurt."
+        }
+      ]
+    },
+    {
+      "id": "svt4-2-l2-transpiration",
+      "titre": "La transpiration des plantes",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Transpiration",
+          "texte": "La transpiration est la perte d'eau de la plante sous forme de vapeur d'eau, surtout par les feuilles. La vapeur d'eau est de l'eau à l'état gazeux : elle est invisible."
+        },
+        {
+          "type": "methode",
+          "titre": "Expérience 1 : le sac en plastique",
+          "texte": "1. Choisir un arbuste en pot (ou une branche feuillée). Si la plante est en pot, couvrir la terre d'un film plastique : l'eau du sol ne doit pas s'évaporer dans le sac.\n2. Envelopper les feuilles d'un sac en plastique transparent, fermé autour de la tige avec une ficelle.\n3. Préparer un montage témoin : un sac identique autour d'une branche sans feuilles.\n4. Placer les deux montages au soleil pendant une à deux heures.\n\nObservations : dans le sac qui contient les feuilles, de la buée apparaît, puis des gouttelettes. Le sac témoin reste presque sec.\n\nTest du liquide : le professeur dépose une goutte sur du sulfate de cuivre anhydre. La poudre blanche devient bleue : c'est de l'eau.\n\nConclusion : les feuilles rejettent de la vapeur d'eau. La plante transpire."
+        },
+        {
+          "type": "schema",
+          "titre": "Mettre en évidence la transpiration",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='420' height='230' viewBox='0 0 420 230' role='img' aria-label='Branche feuillée enfermée dans un sac plastique transparent' font-family='sans-serif' font-size='12'><path d='M40 150 C90 140 130 130 190 120' fill='none' stroke='#92400e' stroke-width='4'/><ellipse cx='130' cy='116' rx='20' ry='8' transform='rotate(-25 130 116)' fill='#16a34a' fill-opacity='0.6'/><ellipse cx='175' cy='108' rx='18' ry='8' transform='rotate(-20 175 108)' fill='#16a34a' fill-opacity='0.6'/><ellipse cx='150' cy='142' rx='20' ry='8' transform='rotate(25 150 142)' fill='#16a34a' fill-opacity='0.6'/><ellipse cx='190' cy='136' rx='18' ry='8' transform='rotate(20 190 136)' fill='#16a34a' fill-opacity='0.6'/><path d='M95 100 C95 60 250 60 255 125 C255 180 110 190 95 160 Z' fill='#3b82f6' fill-opacity='0.08' stroke='currentColor' stroke-width='1.5'/><path d='M92 131 V149' stroke='#e11d48' stroke-width='4'/><circle cx='120' cy='85' r='2.5' fill='#3b82f6' fill-opacity='0.7'/><circle cx='160' cy='78' r='2.5' fill='#3b82f6' fill-opacity='0.7'/><circle cx='215' cy='85' r='2.5' fill='#3b82f6' fill-opacity='0.7'/><circle cx='245' cy='118' r='2.5' fill='#3b82f6' fill-opacity='0.7'/><circle cx='238' cy='150' r='2.5' fill='#3b82f6' fill-opacity='0.7'/><circle cx='200' cy='170' r='2.5' fill='#3b82f6' fill-opacity='0.7'/><circle cx='140' cy='175' r='2.5' fill='#3b82f6' fill-opacity='0.7'/><text x='40' y='132' fill='currentColor'>Branche</text><line x1='92' y1='150' x2='92' y2='172' stroke='currentColor' stroke-opacity='0.6'/><text x='92' y='185' text-anchor='middle' fill='currentColor'>Ficelle</text><line x1='150' y1='152' x2='150' y2='205' stroke='currentColor' stroke-opacity='0.6'/><text x='150' y='218' text-anchor='middle' fill='currentColor'>Feuilles</text><line x1='256' y1='110' x2='272' y2='110' stroke='currentColor' stroke-opacity='0.6'/><text x='276' y='114' fill='currentColor'>Sac transparent</text><line x1='240' y1='150' x2='272' y2='150' stroke='currentColor' stroke-opacity='0.6'/><text x='276' y='154' fill='currentColor'>Gouttelettes d’eau</text></svg>",
+          "legende": "Les gouttelettes sur la paroi du sac viennent de la vapeur d'eau rejetée par les feuilles."
+        },
+        {
+          "type": "methode",
+          "titre": "Expérience 2 : la pesée",
+          "texte": "1. Prendre deux pots identiques : l'un avec un plant feuillé, l'autre avec le même plant dont on a coupé toutes les feuilles. Couvrir la terre de chaque pot d'un film plastique.\n2. Peser chaque pot au départ, puis après 24 heures, sans arroser.\n3. La baisse de masse est la masse d'eau perdue."
+        },
+        {
+          "type": "formule",
+          "titre": "Calculer l'eau perdue",
+          "texte": "masse d'eau perdue = masse au départ − masse à la fin\n1 g d'eau correspond à 1 mL (valeur arrondie).\ndébit de transpiration = quantité d'eau perdue ÷ durée"
+        },
+        {
+          "type": "exemple",
+          "titre": "Deux pots pesés",
+          "texte": "Pot A (plant avec feuilles) : 500 g au départ, 488 g après 24 h.\nPot B (plant sans feuilles) : 500 g au départ, 497 g après 24 h.\nPot A : 500 − 488 = 12 g d'eau perdue, soit 12 mL.\nPot B : 500 − 497 = 3 g.\nPart due aux feuilles : 12 − 3 = 9 g, soit 9 ÷ 12 × 100 = 75 % de la perte du pot A.\nLes feuilles sont donc les principales responsables de la perte d'eau."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les facteurs de la transpiration",
+          "entetes": ["Facteur", "Effet sur la transpiration"],
+          "lignes": [
+            ["Chaleur", "Elle augmente."],
+            ["Air sec", "Elle augmente."],
+            ["Vent", "Elle augmente : le vent emporte la vapeur d'eau."],
+            ["Lumière (le jour)", "Elle augmente."],
+            ["Air humide", "Elle diminue."],
+            ["Nuit", "Elle diminue fortement."],
+            ["Manque d'eau dans le sol", "Elle diminue : la plante ferme ses stomates pour garder son eau."]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Des quantités importantes",
+          "texte": "Un grand arbre peut transpirer plusieurs dizaines de litres d'eau par jour par temps chaud. La plus grande partie de l'eau absorbée par une plante est rejetée sous forme de vapeur d'eau."
+        },
+        {
+          "type": "regle",
+          "titre": "À retenir",
+          "texte": "La plante rejette de l'eau sous forme de vapeur : c'est la transpiration. Elle se fait surtout par les feuilles. Elle augmente avec la chaleur, l'air sec, le vent et la lumière. Elle diminue la nuit et quand l'air est humide."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Transpiration", "Perte d'eau de la plante sous forme de vapeur d'eau."],
+            ["Vapeur d'eau", "Eau à l'état de gaz. Elle est invisible."],
+            ["Évaporation", "Passage de l'eau liquide à l'état de vapeur."],
+            ["Témoin", "Montage identique mais sans le facteur étudié, pour pouvoir comparer."],
+            ["Débit", "Quantité qui passe par unité de temps (ici des mL par heure)."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Deux sacs en plastique transparents sont fixés au soleil pendant 3 heures : le sac A autour d'une branche feuillée, le sac B autour d'une branche sans feuilles. On recueille 3 mL d'eau dans le sac A et aucune goutte dans le sac B.\n1. À quoi sert le sac B ?\n2. Que peux-tu conclure ?\n3. Calcule le débit de transpiration de la branche A, en mL par heure.\n4. Avec le même débit, quel volume d'eau la branche A perdrait-elle en 8 heures ?\n5. On refait l'expérience à l'ombre, dans un air humide. Le volume d'eau recueilli sera-t-il plus grand ou plus petit ? Pourquoi ?",
+          "solution": "1. Le sac B est le témoin : il montre que l'eau recueillie ne vient pas du sac lui-même ni d'une branche sans feuilles.\n2. Les feuilles rejettent de la vapeur d'eau : la plante transpire par ses feuilles.\n3. Débit : 3 ÷ 3 = 1 mL par heure.\n4. En 8 heures : 1 × 8 = 8 mL.\n5. Le volume sera plus petit. À l'ombre et dans un air humide, la transpiration diminue."
+        }
+      ]
+    },
+    {
+      "id": "svt4-2-l3-stomates",
+      "titre": "Les stomates",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Stomate",
+          "texte": "Un stomate est une petite ouverture de l'épiderme, surtout sur les feuilles, entourée de deux cellules de garde. Il laisse passer la vapeur d'eau et les gaz (dioxyde de carbone et dioxygène)."
+        },
+        {
+          "type": "methode",
+          "titre": "Observer les stomates : l'empreinte",
+          "texte": "1. Étaler une fine couche de vernis à ongles incolore sur la face inférieure d'une feuille propre. Laisser sécher quelques minutes.\n2. Coller un morceau de ruban adhésif transparent sur le vernis, puis le décoller : le vernis se détache avec le ruban.\n3. Coller le ruban sur une lame de verre et l'observer au microscope.\n\nOn voit de petites cellules côte à côte et, entre elles, des stomates qui ressemblent à de petites bouches."
+        },
+        {
+          "type": "schema",
+          "titre": "Un stomate vu de dessus",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='420' height='230' viewBox='0 0 420 230' role='img' aria-label='Stomate vu de dessus avec deux cellules de garde' font-family='sans-serif' font-size='12'><path d='M120 30 L140 105 L120 190' fill='none' stroke='currentColor' stroke-opacity='0.35' stroke-width='2'/><path d='M300 30 L280 105 L300 190' fill='none' stroke='currentColor' stroke-opacity='0.35' stroke-width='2'/><path d='M200 50 C150 60 150 150 200 160 C190 130 190 80 200 50 Z' fill='#16a34a' fill-opacity='0.35' stroke='currentColor' stroke-width='2'/><path d='M220 50 C270 60 270 150 220 160 C230 130 230 80 220 50 Z' fill='#16a34a' fill-opacity='0.35' stroke='currentColor' stroke-width='2'/><ellipse cx='178' cy='100' rx='6' ry='10' fill='#e11d48' fill-opacity='0.5'/><ellipse cx='242' cy='100' rx='6' ry='10' fill='#e11d48' fill-opacity='0.5'/><circle cx='184' cy='82' r='3' fill='#16a34a'/><circle cx='174' cy='125' r='3' fill='#16a34a'/><circle cx='182' cy='135' r='3' fill='#16a34a'/><circle cx='236' cy='82' r='3' fill='#16a34a'/><circle cx='246' cy='125' r='3' fill='#16a34a'/><circle cx='238' cy='135' r='3' fill='#16a34a'/><line x1='210' y1='70' x2='210' y2='30' stroke='currentColor' stroke-opacity='0.6'/><text x='210' y='20' text-anchor='middle' fill='currentColor'>Ostiole</text><line x1='248' y1='100' x2='300' y2='92' stroke='currentColor' stroke-opacity='0.6'/><text x='305' y='96' fill='currentColor'>Noyau</text><line x1='252' y1='112' x2='300' y2='118' stroke='currentColor' stroke-opacity='0.6'/><text x='305' y='122' fill='currentColor'>Cellule de garde</text><line x1='249' y1='127' x2='300' y2='146' stroke='currentColor' stroke-opacity='0.6'/><text x='305' y='150' fill='currentColor'>Chloroplastes</text><line x1='130' y1='170' x2='130' y2='200' stroke='currentColor' stroke-opacity='0.6'/><text x='130' y='214' text-anchor='middle' fill='currentColor'>Cellule de l’épiderme</text></svg>",
+          "legende": "Deux cellules de garde en forme de haricot entourent une petite ouverture : l'ostiole."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les éléments d'un stomate",
+          "entetes": ["Élément", "Description"],
+          "lignes": [
+            ["Ostiole", "Petite ouverture entre les deux cellules de garde. Les gaz et la vapeur d'eau y passent."],
+            ["Cellules de garde", "Deux cellules en forme de haricot. Elles contiennent des chloroplastes (petits grains verts) et un noyau."],
+            ["Cellules de l'épiderme", "Cellules plates qui entourent le stomate. Elles n'ont pas de chloroplastes."]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Stomate ouvert ou fermé",
+          "entetes": ["État", "Cellules de garde", "Quand ?"],
+          "lignes": [
+            ["Ouvert", "Gorgées d'eau, elles s'arquent : l'ostiole s'ouvre.", "Le plus souvent le jour, quand la plante a assez d'eau."],
+            ["Fermé", "Elles contiennent moins d'eau et se redressent : l'ostiole se ferme.", "La nuit, ou quand la plante manque d'eau."]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Expérience : où l'eau sort-elle ?",
+          "texte": "1. Prendre quatre feuilles de même taille, cueillies sur la même plante, et les peser.\n2. Enduire de vaseline (elle bouche les stomates) : la feuille A, rien ; la feuille B, la face supérieure ; la feuille C, la face inférieure ; la feuille D, les deux faces.\n3. Les suspendre pendant 24 heures, puis les peser de nouveau.\n\nRésultats (perte de masse en 24 h) :"
+        },
+        {
+          "type": "tableau",
+          "titre": "Résultats de l'expérience à la vaseline",
+          "entetes": ["Feuille", "Vaseline sur", "Perte de masse en 24 h"],
+          "lignes": [
+            ["A", "Rien (témoin)", "1,0 g"],
+            ["B", "Face supérieure", "0,9 g"],
+            ["C", "Face inférieure", "0,2 g"],
+            ["D", "Les deux faces", "0,1 g"]
+          ]
+        },
+        {
+          "type": "exemple",
+          "titre": "Interpréter les résultats",
+          "texte": "Feuille B : la perte passe de 1,0 g à 0,9 g, soit 0,1 g de moins (10 %).\nFeuille C : la perte passe de 1,0 g à 0,2 g, soit 0,8 g de moins (80 %).\nL'eau sort donc surtout par la face inférieure, qui porte le plus de stomates. Avec la vaseline sur les deux faces, il reste une toute petite perte (0,1 g) à travers la cuticule, fine couche cireuse qui recouvre l'épiderme."
+        },
+        {
+          "type": "formule",
+          "titre": "Compter les stomates",
+          "texte": "nombre de stomates par mm² = nombre compté ÷ surface du champ observé (mm²)"
+        },
+        {
+          "type": "exemple",
+          "titre": "Une empreinte",
+          "texte": "On compte 30 stomates dans un champ de 0,25 mm².\n30 ÷ 0,25 = 120 stomates par mm².\nSelon les espèces, on trouve de quelques dizaines à plus de 300 stomates par mm² sur la face inférieure."
+        },
+        {
+          "type": "regle",
+          "titre": "À retenir",
+          "texte": "Les stomates sont de petites ouvertures de l'épiderme, bordées de deux cellules de garde. Ils sont surtout nombreux sur la face inférieure des feuilles. Ils laissent sortir la vapeur d'eau et passer les gaz (dioxyde de carbone, dioxygène). Ils s'ouvrent ou se ferment selon la lumière et l'eau disponible : la plante règle ainsi ses pertes d'eau."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Stomate", "Petite ouverture de l'épiderme, entre deux cellules de garde."],
+            ["Ostiole", "Ouverture du stomate."],
+            ["Cellule de garde", "L'une des deux cellules qui bordent l'ostiole et le font s'ouvrir ou se fermer."],
+            ["Cuticule", "Fine couche cireuse qui recouvre l'épiderme et limite la perte d'eau."],
+            ["Chloroplaste", "Petit grain vert dans la cellule, qui contient la chlorophylle."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "On fait une empreinte de chaque face d'une feuille. Dans un champ de 0,5 mm², on compte 45 stomates sur la face inférieure et 5 stomates sur la face supérieure.\n1. Calcule le nombre de stomates par mm² sur chaque face.\n2. Combien de fois plus nombreux sont-ils sur la face inférieure ?\n3. La face inférieure de la feuille a une surface de 20 cm². Combien de stomates porte-t-elle environ ? (1 cm² = 100 mm²)\n4. Pourquoi enduire la face inférieure de vaseline réduit-il beaucoup plus la perte d'eau que d'enduire la face supérieure ?",
+          "solution": "1. Face inférieure : 45 ÷ 0,5 = 90 stomates par mm². Face supérieure : 5 ÷ 0,5 = 10 stomates par mm².\n2. 90 ÷ 10 = 9 : ils sont 9 fois plus nombreux sur la face inférieure.\n3. 20 cm² = 20 × 100 = 2 000 mm². Nombre de stomates : 90 × 2 000 = 180 000 environ.\n4. La vaseline bouche les stomates. Comme la face inférieure en porte beaucoup plus, la boucher empêche presque toute la sortie de vapeur d'eau."
+        }
+      ]
+    },
+    {
+      "id": "svt4-2-l4-equilibre",
+      "titre": "Absorption et transpiration : l'équilibre de l'eau",
+      "blocs": [
+        {
+          "type": "regle",
+          "titre": "Le trajet de l'eau dans la plante",
+          "texte": "Sol → poils absorbants → racine → vaisseaux du bois (sève brute) → feuilles → stomates → vapeur d'eau dans l'air.\n\nLa plante est donc traversée par un courant d'eau : elle en absorbe par les racines et en rejette par les feuilles."
+        },
+        {
+          "type": "schema",
+          "titre": "Le circuit de l'eau",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='440' height='250' viewBox='0 0 440 250' role='img' aria-label='Circuit de l eau dans une plante, des racines aux feuilles' font-family='sans-serif' font-size='12'><rect x='10' y='170' width='420' height='70' fill='#92400e' fill-opacity='0.15'/><path d='M10 170 H430' stroke='currentColor' stroke-width='1.5'/><path d='M150 170 V228 M150 188 L118 212 M150 196 L184 218 M150 212 L134 238' stroke='#92400e' stroke-width='2' fill='none'/><path d='M150 170 V60' stroke='#16a34a' stroke-width='4' fill='none'/><ellipse cx='122' cy='84' rx='22' ry='9' transform='rotate(-30 122 84)' fill='#16a34a' fill-opacity='0.6'/><ellipse cx='178' cy='76' rx='22' ry='9' transform='rotate(30 178 76)' fill='#16a34a' fill-opacity='0.6'/><ellipse cx='150' cy='48' rx='9' ry='16' fill='#16a34a' fill-opacity='0.6'/><path d='M70 205 H104 M98 201 L104 205 L98 209' stroke='#3b82f6' stroke-width='2' fill='none'/><path d='M230 205 H198 M204 201 L198 205 L204 209' stroke='#3b82f6' stroke-width='2' fill='none'/><path d='M166 160 V96 M161 104 L166 96 L171 104' stroke='#3b82f6' stroke-width='2' fill='none'/><path d='M92 70 V30 M87 38 L92 30 L97 38' stroke='#e11d48' stroke-width='2' fill='none'/><path d='M150 28 V8 M145 16 L150 8 L155 16' stroke='#e11d48' stroke-width='2' fill='none'/><path d='M208 62 V22 M203 30 L208 22 L213 30' stroke='#e11d48' stroke-width='2' fill='none'/><text x='16' y='186' fill='currentColor'>Sol</text><text x='20' y='90' fill='currentColor'>Feuilles</text><line x1='74' y1='86' x2='100' y2='88' stroke='currentColor' stroke-opacity='0.6'/><line x1='216' y1='30' x2='236' y2='30' stroke='currentColor' stroke-opacity='0.6'/><text x='240' y='34' fill='#e11d48'>Transpiration (vapeur d’eau)</text><line x1='172' y1='130' x2='236' y2='130' stroke='currentColor' stroke-opacity='0.6'/><text x='240' y='134' fill='#3b82f6'>Sève brute (monte)</text><text x='240' y='209' fill='#3b82f6'>Absorption par les racines</text></svg>",
+          "legende": "Flèches bleues : l'eau entre et monte. Flèches rouges : l'eau quitte la plante sous forme de vapeur."
+        },
+        {
+          "type": "tableau",
+          "titre": "À quoi sert la transpiration ?",
+          "entetes": ["Rôle", "Explication"],
+          "lignes": [
+            ["Faire monter la sève brute", "L'eau perdue par les feuilles est remplacée par de l'eau venue des racines : cela entretient la circulation."],
+            ["Apporter les sels minéraux", "Les sels minéraux sont entraînés avec l'eau jusqu'aux feuilles."],
+            ["Rafraîchir les feuilles", "L'évaporation de l'eau consomme de la chaleur, comme la sueur sur notre peau."]
+          ]
+        },
+        {
+          "type": "exemple",
+          "titre": "Un bilan d'eau",
+          "texte": "Un plant absorbe 50 mL d'eau en 24 h. Sa masse n'augmente que de 2 g.\nEau perdue par transpiration : 50 − 2 = 48 mL.\nPart de l'eau absorbée qui est rejetée : 48 ÷ 50 × 100 = 96 %.\nPresque toute l'eau absorbée repart donc dans l'air."
+        },
+        {
+          "type": "remarque",
+          "titre": "Quand la plante se fane",
+          "texte": "Une plante se fane quand elle perd plus d'eau qu'elle n'en absorbe : ses cellules se vident et les tiges et les feuilles s'affaissent. Au plus chaud de la journée, certaines plantes se fanent, puis se redressent le soir. Si le manque d'eau dure trop longtemps, la plante meurt. Pour limiter les pertes, on arrose plutôt tôt le matin ou en fin de journée."
+        },
+        {
+          "type": "tableau",
+          "titre": "Des plantes adaptées aux milieux secs",
+          "entetes": ["Plante", "Comment elle limite les pertes d'eau"],
+          "lignes": [
+            ["Euphorbes du Sud de Madagascar", "Tiges charnues qui stockent l'eau, feuilles petites ou transformées en épines."],
+            ["Didiéracées (Sud)", "Tiges épineuses, petites feuilles qui tombent en saison sèche."],
+            ["Aloès", "Feuilles épaisses et charnues qui gardent de l'eau, cuticule épaisse."],
+            ["Baobab", "Perd ses feuilles en saison sèche ; son gros tronc stocke de l'eau."]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "À retenir",
+          "texte": "La plante absorbe l'eau par les racines et en perd une grande partie par les feuilles. Tant que l'absorption compense la transpiration, la plante reste ferme. Quand la transpiration dépasse l'absorption, elle se fane. Les plantes des milieux secs ont des adaptations qui limitent leurs pertes d'eau."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Bilan d'eau", "Comparaison entre l'eau absorbée et l'eau perdue."],
+            ["Se faner (flétrir)", "Perdre sa fermeté faute d'eau."],
+            ["Adaptation", "Particularité qui aide un être vivant à vivre dans son milieu."],
+            ["Saison sèche", "Période de l'année où il pleut très peu."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Un plant est dans un pot dont la terre est couverte d'un film plastique. On ne l'arrose pas. À 8 h, le pot a une masse de 640 g ; à 18 h, 622 g. Entre 18 h et 8 h le lendemain (14 heures), la masse passe de 622 g à 619 g.\n1. Pourquoi a-t-on couvert la terre d'un film plastique ?\n2. Calcule la masse d'eau perdue entre 8 h et 18 h, puis le volume correspondant (1 g d'eau = 1 mL).\n3. Calcule la perte moyenne par heure pendant la journée.\n4. Calcule la perte de la nuit. Pourquoi est-elle bien plus faible que celle du jour ?\n5. Un plant se fane au début de l'après-midi et se redresse le soir, sans arrosage. Explique.",
+          "solution": "1. Pour que l'eau de la terre ne s'évapore pas : la baisse de masse vient alors de la plante seule.\n2. 640 − 622 = 18 g, soit 18 mL d'eau perdue.\n3. La journée dure 10 heures (de 8 h à 18 h) : 18 ÷ 10 = 1,8 mL par heure.\n4. La nuit : 622 − 619 = 3 g. Elle est plus faible parce que, la nuit, les stomates sont fermés et qu'il fait plus frais, sans lumière : la transpiration diminue beaucoup.\n5. Au début de l'après-midi, il fait chaud : la transpiration dépasse l'absorption et la plante se fane. Le soir, la transpiration diminue : l'absorption rattrape les pertes et la plante se redresse."
+        }
+      ]
+    }
+  ]
+}
