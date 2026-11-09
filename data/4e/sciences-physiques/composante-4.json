@@ -1,0 +1,317 @@
+{
+  "id": "sp4-4-charges-atome",
+  "titre": "Chapitre 4 : Charges électriques et atome",
+  "lecons": [
+    {
+      "id": "sp4-4-electrisation",
+      "titre": "L’électrisation par frottement",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Électriser un objet",
+          "texte": "Électriser un objet, c’est lui donner une charge électrique. Un objet électrisé (ou chargé) attire de petits objets légers, comme des morceaux de papier. Un objet qui n’est pas électrisé est dit neutre."
+        },
+        {
+          "type": "remarque",
+          "titre": "Un peu d’histoire",
+          "texte": "Il y a plus de 2 500 ans, le Grec Thalès de Milet remarqua que l’ambre frotté attire les brins de paille. Le mot « électricité » vient d’elektron, le mot grec qui désigne l’ambre."
+        },
+        {
+          "type": "methode",
+          "titre": "Expérience : le pendule électrique",
+          "texte": "Matériel : une petite boule légère suspendue à un fil isolant, un bâton d’ébonite, un bâton de verre, de la laine, de la soie.\n1. Frotte le bâton d’ébonite avec de la laine.\n2. Approche-le de la boule neutre : la boule est attirée.\n3. Laisse la boule toucher le bâton : après le contact, elle est repoussée.\n4. Frotte le bâton de verre avec de la soie et approche-le de la boule : elle est attirée.\nConclusion : il existe deux sortes de charges électriques."
+        },
+        {
+          "type": "schema",
+          "titre": "Le pendule électrique",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='360' height='190' viewBox='0 0 360 190'><defs><marker id='sp44a' markerWidth='8' markerHeight='8' refX='6' refY='3' orient='auto' markerUnits='strokeWidth'><path d='M0 0 L6 3 L0 6 z' fill='#e11d48'/></marker></defs><g fill='none' stroke='currentColor' stroke-width='2'><line x1='40' y1='180' x2='40' y2='20'/><line x1='40' y1='20' x2='160' y2='20'/></g><line x1='160' y1='20' x2='160' y2='145' stroke='currentColor' stroke-width='1' stroke-dasharray='4 3' stroke-opacity='0.5'/><line x1='160' y1='20' x2='190' y2='105' stroke='currentColor' stroke-width='1.5'/><circle cx='190' cy='115' r='10' fill='#e11d48' fill-opacity='0.35' stroke='currentColor'/><rect x='240' y='107' width='110' height='16' rx='5' fill='currentColor' fill-opacity='0.25' stroke='currentColor'/><line x1='236' y1='115' x2='207' y2='115' stroke='#e11d48' stroke-width='2' marker-end='url(#sp44a)'/><g fill='currentColor' font-size='11'><text x='152' y='60' text-anchor='end'>Fil isolant</text><text x='200' y='148'>Boule légère</text><text x='295' y='100' text-anchor='middle'>Bâton frotté</text><text x='152' y='160' text-anchor='end'>Position de repos</text></g></svg>",
+          "legende": "Un bâton électrisé attire la boule neutre : elle s’écarte de sa position de repos."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les deux sortes de charges",
+          "entetes": ["Objet frotté", "Frotté avec", "Charge obtenue"],
+          "lignes": [
+            ["Bâton de verre", "soie ou laine", "positive (+)"],
+            ["Bâton d’ébonite", "laine ou fourrure", "négative (−)"],
+            ["Règle en plastique (PVC)", "laine", "négative (−)"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Une convention",
+          "texte": "Le choix du signe est une convention : on a décidé d’appeler positive la charge du verre frotté, et négative celle de l’ébonite frottée. Une charge positive et une charge négative sont de signes contraires."
+        },
+        {
+          "type": "schema",
+          "titre": "Attraction et répulsion",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='360' height='170' viewBox='0 0 360 170'><defs><marker id='sp44c' markerWidth='8' markerHeight='8' refX='6' refY='3' orient='auto' markerUnits='strokeWidth'><path d='M0 0 L6 3 L0 6 z' fill='#e11d48'/></marker></defs><g stroke='currentColor' stroke-width='1.5'><circle cx='120' cy='35' r='12' fill='#e11d48' fill-opacity='0.3'/><circle cx='200' cy='35' r='12' fill='#e11d48' fill-opacity='0.3'/><circle cx='120' cy='85' r='12' fill='currentColor' fill-opacity='0.15'/><circle cx='200' cy='85' r='12' fill='currentColor' fill-opacity='0.15'/><circle cx='120' cy='135' r='12' fill='#e11d48' fill-opacity='0.3'/><circle cx='200' cy='135' r='12' fill='currentColor' fill-opacity='0.15'/></g><g fill='none' stroke='#e11d48' stroke-width='2'><line x1='106' y1='35' x2='76' y2='35' marker-end='url(#sp44c)'/><line x1='214' y1='35' x2='244' y2='35' marker-end='url(#sp44c)'/><line x1='106' y1='85' x2='76' y2='85' marker-end='url(#sp44c)'/><line x1='214' y1='85' x2='244' y2='85' marker-end='url(#sp44c)'/><line x1='76' y1='135' x2='104' y2='135' marker-end='url(#sp44c)'/><line x1='244' y1='135' x2='216' y2='135' marker-end='url(#sp44c)'/></g><g fill='currentColor' font-size='16' text-anchor='middle'><text x='120' y='41'>+</text><text x='200' y='41'>+</text><text x='120' y='91'>−</text><text x='200' y='91'>−</text><text x='120' y='141'>+</text><text x='200' y='141'>−</text></g><g fill='currentColor' font-size='11'><text x='8' y='39'>Deux +</text><text x='8' y='89'>Deux −</text><text x='8' y='139'>+ et −</text><text x='262' y='39'>se repoussent</text><text x='262' y='89'>se repoussent</text><text x='262' y='139'>s’attirent</text></g></svg>",
+          "legende": "Les flèches montrent le sens de la force exercée sur chaque charge."
+        },
+        {
+          "type": "regle",
+          "titre": "Loi des charges électriques",
+          "texte": "Deux charges de même signe se repoussent.\nDeux charges de signes contraires s’attirent."
+        },
+        {
+          "type": "exemple",
+          "titre": "Expliquer le pendule électrique",
+          "texte": "Au contact du bâton d’ébonite, la boule reçoit de sa charge : elle devient négative comme le bâton. Les deux charges sont de même signe : elles se repoussent.\nLe bâton de verre frotté est positif. Il porte une charge de signe contraire à celle de la boule : il l’attire."
+        },
+        {
+          "type": "remarque",
+          "titre": "Les deux objets frottés",
+          "texte": "Quand on frotte le verre avec la soie, les deux s’électrisent, avec des charges de signes contraires : le verre est positif et la soie est négative. Il en est de même pour l’ébonite (négative) et la laine (positive)."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Électriser", "Donner une charge électrique à un objet."],
+            ["Neutre", "Qui n’est pas chargé électriquement."],
+            ["Ébonite", "Matière dure et noire, utilisée pour les bâtons d’électrisation."],
+            ["Isolant", "Matière qui ne laisse pas passer l’électricité."],
+            ["Répulsion", "Action de repousser."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. Quel est le signe de la charge d’un bâton de verre frotté avec de la soie ? Et celui d’un bâton d’ébonite frotté avec de la laine ?\n2. Dis si les objets s’attirent ou se repoussent : deux charges positives ; deux charges négatives ; une charge positive et une charge négative.\n3. Une boule de pendule électrique touche un bâton d’ébonite frotté, puis elle est repoussée. Pourquoi ? Que se passe-t-il si on approche ensuite un bâton de verre frotté ?",
+          "solution": "1. Le verre est positif (+). L’ébonite est négative (−).\n2. Deux charges positives se repoussent. Deux charges négatives se repoussent. Une charge positive et une charge négative s’attirent.\n3. Au contact, la boule prend une charge négative, de même signe que celle du bâton : elles se repoussent. Le verre frotté est positif : il attire la boule négative."
+        }
+      ]
+    },
+    {
+      "id": "sp4-4-atome",
+      "titre": "L’atome",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "L’atome",
+          "texte": "Tous les corps sont formés de très petites particules appelées atomes. Le mot vient du grec atomos : « qu’on ne peut pas couper ». On sait aujourd’hui qu’un atome est formé de particules plus petites : un noyau au centre et des électrons autour."
+        },
+        {
+          "type": "schema",
+          "titre": "Un atome (modèle simplifié)",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='360' height='220' viewBox='0 0 360 220'><circle cx='110' cy='110' r='70' fill='none' stroke='currentColor' stroke-opacity='0.5' stroke-dasharray='4 3'/><circle cx='110' cy='110' r='24' fill='#e11d48' fill-opacity='0.15' stroke='currentColor'/><g fill='#e11d48'><circle cx='102' cy='103' r='6'/><circle cx='118' cy='107' r='6'/><circle cx='106' cy='119' r='6'/></g><g fill='currentColor' fill-opacity='0.4'><circle cx='116' cy='95' r='6'/><circle cx='122' cy='120' r='6'/></g><g fill='currentColor'><circle cx='180' cy='110' r='4'/><circle cx='75' cy='171' r='4'/><circle cx='75' cy='49' r='4'/></g><circle cx='207' cy='55' r='6' fill='#e11d48'/><circle cx='207' cy='80' r='6' fill='currentColor' fill-opacity='0.4'/><circle cx='207' cy='105' r='4' fill='currentColor'/><g fill='currentColor' font-size='11'><text x='220' y='59'>Proton (charge +e)</text><text x='220' y='84'>Neutron (pas de charge)</text><text x='220' y='109'>Électron (charge −e)</text></g><g fill='currentColor' font-size='10'><text x='200' y='140'>Le noyau (au centre) contient</text><text x='200' y='154'>les protons et les neutrons.</text><text x='110' y='205' text-anchor='middle'>Schéma non à l’échelle</text></g></svg>",
+          "legende": "Les électrons se déplacent autour du noyau. Le noyau est en réalité bien plus petit que sur le schéma."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les trois particules de l’atome",
+          "entetes": ["Particule", "Où se trouve-t-elle ?", "Charge", "Masse"],
+          "lignes": [
+            ["Proton", "dans le noyau", "positive : +e", "1 (référence)"],
+            ["Neutron", "dans le noyau", "nulle (0)", "presque égale à celle du proton"],
+            ["Électron", "autour du noyau", "négative : −e", "près de 2 000 fois plus petite"]
+          ]
+        },
+        {
+          "type": "definition",
+          "titre": "La charge élémentaire",
+          "texte": "La plus petite charge électrique est la charge élémentaire, notée e. Le proton porte la charge +e et l’électron la charge −e. On compte les charges en multiples de e : +3e, −2e…"
+        },
+        {
+          "type": "regle",
+          "titre": "L’atome est neutre",
+          "texte": "Un atome contient autant de protons que d’électrons. Les charges + et − se compensent : l’atome est électriquement neutre.\nnombre de protons = nombre d’électrons"
+        },
+        {
+          "type": "definition",
+          "titre": "Le numéro atomique Z",
+          "texte": "Le numéro atomique Z d’un atome est le nombre de protons de son noyau. Le noyau a donc la charge +Z·e, et l’atome neutre possède Z électrons. Le numéro atomique caractérise l’élément chimique."
+        },
+        {
+          "type": "tableau",
+          "titre": "Quelques atomes",
+          "entetes": ["Élément", "Symbole", "Z", "Protons", "Électrons"],
+          "lignes": [
+            ["Hydrogène", "H", "1", "1", "1"],
+            ["Carbone", "C", "6", "6", "6"],
+            ["Azote", "N", "7", "7", "7"],
+            ["Oxygène", "O", "8", "8", "8"],
+            ["Chlore", "Cl", "17", "17", "17"],
+            ["Fer", "Fe", "26", "26", "26"]
+          ]
+        },
+        {
+          "type": "exemple",
+          "titre": "La neutralité de l’atome de carbone",
+          "texte": "Pour le carbone, Z = 6.\n- Charge du noyau : +6e.\n- Charge des électrons : 6 × (−e) = −6e.\n- Charge de l’atome : +6e − 6e = 0.\nL’atome de carbone est neutre."
+        },
+        {
+          "type": "remarque",
+          "titre": "Un atome est presque vide",
+          "texte": "Un atome mesure environ 10⁻¹⁰ m, et son noyau environ 10⁻¹⁵ m : le noyau est à peu près 100 000 fois plus petit que l’atome. Si le noyau avait la taille d’une bille de 1 cm, l’atome mesurerait environ 1 km. Entre le noyau et les électrons, il n’y a que du vide. Presque toute la masse de l’atome est dans le noyau, car les électrons sont très légers."
+        },
+        {
+          "type": "remarque",
+          "titre": "Pourquoi la matière est neutre",
+          "texte": "Les atomes sont neutres, donc les objets formés d’atomes sont neutres. Un objet n’est chargé que s’il a gagné ou perdu des électrons (leçon suivante)."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Noyau", "Partie centrale de l’atome, formée de protons et de neutrons."],
+            ["Nucléons", "Nom commun des protons et des neutrons."],
+            ["Électron", "Particule très légère, de charge négative, qui se déplace autour du noyau."],
+            ["Numéro atomique", "Nombre de protons du noyau, noté Z."],
+            ["Élément chimique", "Ensemble des atomes qui ont le même numéro atomique."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. L’atome d’azote a pour numéro atomique Z = 7. Combien a-t-il de protons ? D’électrons ? Quelle est la charge de son noyau ?\n2. Un atome neutre d’oxygène possède 8 électrons. Quel est son numéro atomique ? Quelle est la charge de son noyau ?\n3. Quelle particule est située dans le noyau et ne porte aucune charge ?",
+          "solution": "1. Il a 7 protons et, comme l’atome est neutre, 7 électrons. La charge du noyau est +7e.\n2. L’atome est neutre : il a autant de protons que d’électrons, donc 8 protons. Son numéro atomique est Z = 8 et son noyau a la charge +8e.\n3. Le neutron."
+        }
+      ]
+    },
+    {
+      "id": "sp4-4-transfert",
+      "titre": "Interpréter l’électrisation",
+      "blocs": [
+        {
+          "type": "regle",
+          "titre": "Seuls les électrons se déplacent",
+          "texte": "Les protons restent prisonniers du noyau. Les électrons, plus extérieurs, peuvent passer d’un corps à l’autre. Électriser un objet, c’est donc lui faire gagner ou perdre des électrons."
+        },
+        {
+          "type": "tableau",
+          "titre": "Gagner ou perdre des électrons",
+          "entetes": ["L’objet…", "Il devient…", "Sa charge est…"],
+          "lignes": [
+            ["gagne des électrons", "chargé négativement", "négative (−)"],
+            ["perd des électrons", "chargé positivement", "positive (+)"],
+            ["a autant de protons que d’électrons", "neutre", "nulle"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Frotter le verre avec la soie",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='360' height='150' viewBox='0 0 360 150'><defs><marker id='sp44b' markerWidth='8' markerHeight='8' refX='6' refY='3' orient='auto' markerUnits='strokeWidth'><path d='M0 0 L6 3 L0 6 z' fill='#e11d48'/></marker></defs><rect x='15' y='40' width='110' height='44' rx='6' fill='currentColor' fill-opacity='0.1' stroke='currentColor' stroke-width='1.5'/><rect x='235' y='40' width='110' height='44' rx='6' fill='currentColor' fill-opacity='0.1' stroke='currentColor' stroke-width='1.5'/><line x1='130' y1='62' x2='230' y2='62' stroke='#e11d48' stroke-width='2' marker-end='url(#sp44b)'/><g fill='currentColor' text-anchor='middle'><text x='180' y='22' font-size='12'>Frottement</text><text x='70' y='67' font-size='13'>Verre</text><text x='290' y='67' font-size='13'>Soie</text><text x='180' y='52' font-size='11'>électrons</text><text x='70' y='130' font-size='11'>charge positive</text><text x='290' y='130' font-size='11'>charge négative</text></g><g fill='#e11d48' font-size='16' text-anchor='middle'><text x='70' y='108'>+ + +</text><text x='290' y='108'>− − −</text></g></svg>",
+          "legende": "Le verre perd des électrons : il devient positif. La soie les gagne : elle devient négative."
+        },
+        {
+          "type": "formule",
+          "titre": "Charge d’un objet",
+          "texte": "charge = (nombre de protons − nombre d’électrons) × e\nSi l’objet a perdu des électrons, il a plus de protons que d’électrons : sa charge est positive.\nS’il a gagné des électrons, sa charge est négative."
+        },
+        {
+          "type": "exemple",
+          "titre": "Le verre et la soie",
+          "texte": "En frottant, le verre perd 6 électrons.\n- Charge du verre : +6e.\n- La soie reçoit ces 6 électrons : sa charge est −6e.\n- Charge totale : +6e − 6e = 0.\nLes deux objets ont des charges opposées, mais rien n’a été créé : des électrons ont seulement changé de place."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les deux couples du cours",
+          "entetes": ["Objets frottés", "Qui gagne des électrons ?", "Qui en perd ?"],
+          "lignes": [
+            ["Verre et soie", "La soie (charge −)", "Le verre (charge +)"],
+            ["Ébonite et laine", "L’ébonite (charge −)", "La laine (charge +)"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Un atome qui perd ou gagne des électrons",
+          "texte": "Un atome qui perd ou gagne des électrons n’est plus neutre : c’est un ion (chapitre 7).\nExemple : l’atome de magnésium a Z = 12. Il a 12 protons. S’il perd 2 électrons, il lui reste 10 électrons : sa charge est (12 − 10)e = +2e.\nAutre exemple : l’atome de chlore a Z = 17. S’il gagne 1 électron, il a 18 électrons : sa charge est (17 − 18)e = −e."
+        },
+        {
+          "type": "remarque",
+          "titre": "Pas de création de charge",
+          "texte": "La charge totale d’un ensemble isolé reste constante : tout ce que l’un des objets gagne en électrons, l’autre le perd. C’est pourquoi les deux corps frottés portent des charges opposées."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Transfert", "Passage d’un objet à un autre."],
+            ["Charge opposée", "Charge de même valeur et de signe contraire."],
+            ["Ion", "Atome qui a gagné ou perdu des électrons, donc chargé."],
+            ["Isolé", "Qui n’échange rien avec l’extérieur."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. Un bâton d’ébonite frotté avec de la laine devient négatif. A-t-il gagné ou perdu des électrons ? Et la laine ?\n2. Un objet neutre perd 5 électrons. Quelle est sa charge ?\n3. L’atome de magnésium (Z = 12) perd 2 électrons. Combien d’électrons lui reste-t-il ? Quelle est sa charge ?",
+          "solution": "1. L’ébonite a gagné des électrons. La laine en a perdu : elle est positive.\n2. L’objet a perdu 5 électrons : sa charge est +5e.\n3. Il lui reste 12 − 2 = 10 électrons. Sa charge est (12 − 10)e = +2e."
+        }
+      ]
+    },
+    {
+      "id": "sp4-4-conducteurs",
+      "titre": "Conducteurs, isolants et électricité statique",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Conducteur et isolant",
+          "texte": "Un conducteur laisse passer les charges électriques. Un isolant ne les laisse pas passer."
+        },
+        {
+          "type": "tableau",
+          "titre": "Quelques matériaux",
+          "entetes": ["Conducteurs", "Isolants"],
+          "lignes": [
+            ["Métaux (cuivre, fer, aluminium)", "Verre, plastique, caoutchouc"],
+            ["Graphite (mine de crayon)", "Bois sec, tissu, papier"],
+            ["Eau salée, corps humain", "Air sec, eau pure"]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Pourquoi un métal ne s’électrise-t-il pas à la main ?",
+          "texte": "Une tige de cuivre tenue à la main et frottée ne reste pas chargée : les charges s’écoulent par la main et le corps vers le sol, car le corps humain est conducteur.\nSi la tige a une poignée en plastique, les charges ne s’écoulent plus : la tige reste chargée."
+        },
+        {
+          "type": "remarque",
+          "titre": "Les électrons libres",
+          "texte": "Dans un métal, certains électrons ne sont pas attachés à un atome précis : ils peuvent se déplacer dans tout le métal. Ce sont les électrons libres. C’est ce qui rend les métaux conducteurs. Nous le verrons au chapitre 10."
+        },
+        {
+          "type": "remarque",
+          "titre": "L’électricité statique dans la vie",
+          "texte": "Un peigne en plastique passé dans des cheveux secs attire des petits bouts de papier. Un vêtement synthétique peut crépiter quand on l’enlève. On peut sentir une petite décharge en touchant une poignée de porte après avoir marché sur un tapis synthétique. Ce sont des phénomènes d’électrisation."
+        },
+        {
+          "type": "remarque",
+          "titre": "L’éclair",
+          "texte": "L’air sec est isolant. Mais quand la charge devient très grande, comme dans un nuage d’orage, l’air laisse passer l’électricité : c’est l’étincelle ou l’éclair. Un éclair est une immense décharge électrique entre un nuage et le sol, ou entre deux nuages."
+        },
+        {
+          "type": "exemple",
+          "titre": "À quelle distance est l’orage ?",
+          "texte": "La lumière de l’éclair nous parvient presque instantanément. Le son du tonnerre voyage à environ 340 m/s.\nOn compte les secondes entre l’éclair et le tonnerre : 6 s.\nDistance : 340 × 6 = 2 040 m, soit environ 2 km."
+        },
+        {
+          "type": "regle",
+          "titre": "Le paratonnerre et les conseils en cas d’orage",
+          "texte": "Le paratonnerre est une tige métallique au sommet d’un bâtiment, reliée au sol par un câble conducteur. Il reçoit la foudre et l’envoie vers la terre.\nEn cas d’orage :\n- s’abriter dans un bâtiment ou dans un véhicule fermé ;\n- ne pas s’abriter sous un arbre isolé ;\n- s’éloigner de l’eau et des objets métalliques."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Conducteur", "Matière qui laisse passer l’électricité."],
+            ["Électricité statique", "Charges électriques qui restent sur un objet après frottement."],
+            ["Décharge", "Passage brusque de charges d’un objet à un autre."],
+            ["Foudre", "Décharge électrique entre un nuage et le sol."],
+            ["Tonnerre", "Bruit qui suit l’éclair."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. Classe en conducteur ou isolant : le cuivre, le plastique, l’eau salée, le verre, le graphite, le bois sec.\n2. Pourquoi une tige de cuivre tenue à la main ne s’électrise-t-elle pas, alors qu’elle s’électrise si elle a une poignée en plastique ?\n3. Le tonnerre se fait entendre 9 s après l’éclair. À quelle distance environ est l’orage ? (Vitesse du son : 340 m/s.)",
+          "solution": "1. Conducteurs : le cuivre, l’eau salée, le graphite. Isolants : le plastique, le verre, le bois sec.\n2. Tenue à la main, la tige laisse les charges s’écouler par le corps vers le sol. Avec une poignée en plastique, qui est isolante, les charges ne peuvent plus s’écouler : la tige reste chargée.\n3. Distance : 340 × 9 = 3 060 m, soit environ 3 km."
+        }
+      ]
+    }
+  ]
+}
