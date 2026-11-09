@@ -1,0 +1,350 @@
+{
+  "id": "svt4-19-tectonique",
+  "titre": "La tectonique des plaques",
+  "lecons": [
+    {
+      "id": "svt4-19-l1-plaques",
+      "titre": "Les plaques lithosphériques et leurs frontières",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Qu'est-ce qu'une plaque ?",
+          "texte": "La couche externe et rigide de la Terre, la lithosphère, n'est pas d'un seul bloc : elle est découpée en morceaux, comme la coquille d'un œuf fêlé. Ces morceaux s'appellent des plaques lithosphériques, ou plaques tectoniques.\nChaque plaque a une épaisseur d'une centaine de kilomètres et porte des continents, des océans, ou les deux. Les plaques glissent très lentement sur une couche plus chaude et plus déformable du manteau, l'asthénosphère (chapitre 20)."
+        },
+        {
+          "type": "definition",
+          "titre": "La tectonique des plaques",
+          "texte": "La tectonique des plaques est la théorie qui explique les grands phénomènes géologiques par le déplacement des plaques : les séismes, les volcans, les chaînes de montagnes, l'ouverture et la fermeture des océans. Elle s'est imposée dans les années 1960."
+        },
+        {
+          "type": "tableau",
+          "titre": "Deux sortes de croûte",
+          "entetes": ["", "Croûte océanique", "Croûte continentale"],
+          "lignes": [
+            ["Épaisseur", "environ 7 km", "de 30 à 70 km (jusqu'à 70 km sous les très hautes montagnes)"],
+            ["Roches dominantes", "basalte (chapitre 21)", "granite et roches voisines (chapitre 21)"],
+            ["Densité", "plus dense (environ 3,0)", "moins dense (environ 2,7)"],
+            ["Âge", "jamais plus de 200 millions d'années environ", "jusqu'à environ 4 milliards d'années"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Les grandes plaques",
+          "entetes": ["Plaque", "Ce qu'elle porte"],
+          "lignes": [
+            ["Pacifique", "La plus grande plaque : presque tout l'océan Pacifique"],
+            ["Eurasienne", "L'Europe et la plus grande partie de l'Asie"],
+            ["Africaine", "L'Afrique et une partie de l'océan Atlantique"],
+            ["Nord-américaine", "L'Amérique du Nord et une partie de l'océan Atlantique"],
+            ["Sud-américaine", "L'Amérique du Sud et une partie de l'océan Atlantique"],
+            ["Antarctique", "L'Antarctique et les mers qui l'entourent"],
+            ["Indo-australienne", "L'Inde, l'Australie et une partie de l'océan Indien"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Une plaque n'est pas un continent",
+          "texte": "Il existe une quinzaine de plaques, dont sept très grandes. Une plaque peut porter un continent et une partie d'océan : la plaque sud-américaine, par exemple, porte l'Amérique du Sud et la moitié ouest de l'océan Atlantique sud.\nMadagascar est située sur la plaque somalienne, que l'on rattache à la grande plaque africaine. L'île se trouve donc au milieu d'une plaque, loin d'une frontière : c'est pourquoi les forts séismes y sont rares (chapitre 18)."
+        },
+        {
+          "type": "regle",
+          "titre": "La stabilité relative des plaques",
+          "texte": "À l'intérieur d'une plaque, la croûte est relativement stable : il y a peu de séismes, peu de volcans et peu de déformations. Le mot « relativement » est important, car une plaque n'est jamais immobile : elle avance lentement.\nPresque toute l'activité de la Terre (séismes, volcans, montagnes) se concentre sur les frontières entre les plaques. Si on marque sur une carte les épicentres des séismes et les volcans actifs, ils dessinent des lignes : ce sont les frontières des plaques."
+        },
+        {
+          "type": "definition",
+          "titre": "Les trois types de frontières",
+          "texte": "Selon le mouvement des deux plaques voisines, on distingue trois types de frontières :\n- la divergence : les plaques s'écartent l'une de l'autre (dorsales, rifts) ;\n- la convergence : les plaques se rapprochent (fosses océaniques, collisions) ;\n- le coulissage : les plaques glissent l'une contre l'autre, côte à côte."
+        },
+        {
+          "type": "schema",
+          "titre": "Les trois types de frontières (vue de dessus)",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='560' height='185' viewBox='0 0 560 185' font-family='sans-serif' font-size='12'><defs><marker id='fl19a' markerWidth='8' markerHeight='8' refX='6' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='#e11d48'/></marker></defs><text x='100' y='40' text-anchor='middle' fill='currentColor' font-weight='bold'>Divergence</text><rect x='20' y='55' width='70' height='70' fill='currentColor' fill-opacity='0.15' stroke='currentColor'/><rect x='110' y='55' width='70' height='70' fill='currentColor' fill-opacity='0.15' stroke='currentColor'/><line x1='100' y1='50' x2='100' y2='130' stroke='#e11d48' stroke-dasharray='4 3'/><line x1='75' y1='90' x2='35' y2='90' stroke='#e11d48' stroke-width='2' marker-end='url(#fl19a)'/><line x1='125' y1='90' x2='165' y2='90' stroke='#e11d48' stroke-width='2' marker-end='url(#fl19a)'/><text x='100' y='150' text-anchor='middle' fill='currentColor'>Les plaques s'écartent</text><text x='100' y='168' text-anchor='middle' fill='currentColor'>(dorsale, rift)</text><text x='280' y='40' text-anchor='middle' fill='currentColor' font-weight='bold'>Convergence</text><rect x='200' y='55' width='70' height='70' fill='currentColor' fill-opacity='0.15' stroke='currentColor'/><rect x='290' y='55' width='70' height='70' fill='currentColor' fill-opacity='0.15' stroke='currentColor'/><line x1='280' y1='50' x2='280' y2='130' stroke='#e11d48' stroke-dasharray='4 3'/><line x1='215' y1='90' x2='255' y2='90' stroke='#e11d48' stroke-width='2' marker-end='url(#fl19a)'/><line x1='345' y1='90' x2='305' y2='90' stroke='#e11d48' stroke-width='2' marker-end='url(#fl19a)'/><text x='280' y='150' text-anchor='middle' fill='currentColor'>Les plaques se rapprochent</text><text x='280' y='168' text-anchor='middle' fill='currentColor'>(fosse, collision)</text><text x='460' y='40' text-anchor='middle' fill='currentColor' font-weight='bold'>Coulissage</text><rect x='380' y='55' width='70' height='70' fill='currentColor' fill-opacity='0.15' stroke='currentColor'/><rect x='470' y='55' width='70' height='70' fill='currentColor' fill-opacity='0.15' stroke='currentColor'/><line x1='460' y1='50' x2='460' y2='130' stroke='#e11d48' stroke-dasharray='4 3'/><line x1='415' y1='115' x2='415' y2='68' stroke='#e11d48' stroke-width='2' marker-end='url(#fl19a)'/><line x1='505' y1='65' x2='505' y2='112' stroke='#e11d48' stroke-width='2' marker-end='url(#fl19a)'/><text x='460' y='150' text-anchor='middle' fill='currentColor'>Les plaques glissent</text><text x='460' y='168' text-anchor='middle' fill='currentColor'>(faille transformante)</text></svg>",
+          "legende": "Schéma simplifié. Les flèches rouges montrent le sens du mouvement de chaque plaque, la ligne en pointillés est la frontière."
+        },
+        {
+          "type": "formule",
+          "titre": "La vitesse des plaques",
+          "texte": "Les plaques se déplacent de 1 à 10 cm par an, ce qui est comparable à la pousse des ongles (environ 3 à 4 cm par an).\nPour convertir : 1 cm par an = 10 km par million d'années.\nOn ne sent pas ce mouvement parce qu'il est très lent et continu. On ne ressent que les secousses des séismes, quand les roches cassent (chapitre 18)."
+        },
+        {
+          "type": "exemple",
+          "titre": "Une plaque qui avance de 3 cm par an",
+          "texte": "En 1 000 ans : 3 × 1 000 = 3 000 cm, soit 30 m.\nEn 1 million d'années : 3 × 1 000 000 = 3 000 000 cm, soit 30 km.\nEn quelques dizaines de millions d'années, les continents peuvent donc parcourir des milliers de kilomètres."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Lithosphère", "Couche rigide externe de la Terre : la croûte et la partie supérieure du manteau"],
+            ["Plaque lithosphérique", "Morceau de lithosphère qui se déplace lentement"],
+            ["Asthénosphère", "Partie du manteau plus chaude et plus déformable, sur laquelle glissent les plaques"],
+            ["Tectonique", "Qui concerne les déformations et les mouvements de l'écorce terrestre"],
+            ["Divergence", "Écartement de deux plaques"],
+            ["Convergence", "Rapprochement de deux plaques"],
+            ["Coulissage", "Glissement de deux plaques côte à côte"],
+            ["Croûte océanique", "Partie supérieure des plaques sous les océans, mince et faite de basalte"],
+            ["Croûte continentale", "Partie supérieure des plaques sous les continents, épaisse et moins dense"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Une plaque se déplace de 2 cm par an.\n1. Quelle distance parcourt-elle en 100 ans ? Donne le résultat en mètres.\n2. Quelle distance parcourt-elle en 1 million d'années ? Donne le résultat en kilomètres.\n3. En combien d'années parcourt-elle 1 km ? (1 km = 100 000 cm)\n4. Quel est le type de frontière dans chaque cas : (a) les deux plaques s'écartent ; (b) les deux plaques se rapprochent ; (c) les deux plaques glissent côte à côte ?\n5. Pourquoi les séismes et les volcans sont-ils surtout situés près des frontières ?",
+          "solution": "1. 2 × 100 = 200 cm, soit 2 m.\n2. 2 × 1 000 000 = 2 000 000 cm = 20 000 m = 20 km.\n3. 100 000 ÷ 2 = 50 000 ans.\n4. (a) divergence ; (b) convergence ; (c) coulissage.\n5. À l'intérieur d'une plaque, la croûte est relativement stable. Aux frontières, les plaques s'écartent, se rapprochent ou glissent : les roches se déforment et cassent (séismes), et le magma peut monter (volcans)."
+        }
+      ]
+    },
+    {
+      "id": "svt4-19-l2-divergence-derive",
+      "titre": "Divergence : dorsales, ouverture d'un océan et dérive des continents",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "La frontière de divergence",
+          "texte": "À une frontière de divergence, deux plaques s'écartent. Le vide laissé est comblé par du magma qui monte du manteau, refroidit et devient de la roche. De la croûte neuve se forme ainsi : c'est l'accrétion. Sous les océans, ces frontières sont les dorsales océaniques."
+        },
+        {
+          "type": "schema",
+          "titre": "Une dorsale océanique (coupe)",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='520' height='220' viewBox='0 0 520 220' font-family='sans-serif' font-size='12'><defs><marker id='fl19b' markerWidth='8' markerHeight='8' refX='6' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='#e11d48'/></marker></defs><path d='M20,40 L500,40 L500,120 L340,120 L290,100 L260,92 L230,100 L180,120 L20,120 Z' fill='currentColor' fill-opacity='0.05'/><path d='M20,120 L180,120 L230,100 L260,92 L290,100 L340,120 L500,120 L500,150 L20,150 Z' fill='currentColor' fill-opacity='0.2' stroke='currentColor'/><rect x='20' y='150' width='480' height='60' fill='currentColor' fill-opacity='0.06'/><ellipse cx='260' cy='168' rx='26' ry='14' fill='#e11d48' fill-opacity='0.5'/><line x1='20' y1='40' x2='500' y2='40' stroke='currentColor'/><line x1='100' y1='44' x2='100' y2='118' stroke='currentColor' stroke-opacity='0.5' stroke-dasharray='3 3'/><line x1='180' y1='44' x2='180' y2='118' stroke='currentColor' stroke-opacity='0.5' stroke-dasharray='3 3'/><line x1='340' y1='44' x2='340' y2='118' stroke='currentColor' stroke-opacity='0.5' stroke-dasharray='3 3'/><line x1='420' y1='44' x2='420' y2='118' stroke='currentColor' stroke-opacity='0.5' stroke-dasharray='3 3'/><text x='30' y='30' fill='currentColor'>Âge :</text><text x='100' y='30' text-anchor='middle' fill='currentColor'>20 Ma</text><text x='180' y='30' text-anchor='middle' fill='currentColor'>10 Ma</text><text x='260' y='30' text-anchor='middle' fill='currentColor' font-weight='bold'>0</text><text x='340' y='30' text-anchor='middle' fill='currentColor'>10 Ma</text><text x='420' y='30' text-anchor='middle' fill='currentColor'>20 Ma</text><text x='30' y='64' fill='currentColor'>Eau</text><text x='260' y='76' text-anchor='middle' fill='currentColor'>Dorsale</text><text x='30' y='139' fill='currentColor'>Croûte océanique (basalte)</text><text x='30' y='185' fill='currentColor'>Manteau</text><text x='296' y='172' fill='currentColor'>Magma qui remonte</text><line x1='244' y1='135' x2='206' y2='135' stroke='#e11d48' stroke-width='2' marker-end='url(#fl19b)'/><line x1='276' y1='135' x2='314' y2='135' stroke='#e11d48' stroke-width='2' marker-end='url(#fl19b)'/></svg>",
+          "legende": "Schéma simplifié, hors échelle. Ma = million d'années. Les flèches rouges montrent l'écartement des deux plaques ; le basalte est de plus en plus âgé quand on s'éloigne de la dorsale."
+        },
+        {
+          "type": "definition",
+          "titre": "La dorsale océanique",
+          "texte": "Une dorsale océanique est une longue chaîne de montagnes volcaniques sous la mer. Elle domine les fonds voisins de 2 à 3 km. Les dorsales forment un réseau d'environ 65 000 km de long autour du globe. Au centre de la dorsale se trouve une vallée étroite, le rift.\nLe magma venu du manteau monte, refroidit au contact de l'eau et devient du basalte (chapitre 21) : c'est la croûte océanique neuve. Les séismes y sont nombreux mais en général faibles et superficiels (chapitre 18). L'Islande est un endroit où la dorsale de l'océan Atlantique émerge au-dessus de la mer."
+        },
+        {
+          "type": "regle",
+          "titre": "La preuve de l'écartement : l'âge des roches du fond",
+          "texte": "Plus on s'éloigne de la dorsale, plus le basalte du fond de l'océan est ancien. De chaque côté de la dorsale, les âges se correspondent : le fond s'écarte donc symétriquement. Les roches les plus jeunes sont au centre, les plus anciennes près des continents.\nOn peut calculer la vitesse d'écartement à partir de l'âge d'une roche et de sa distance à la dorsale."
+        },
+        {
+          "type": "remarque",
+          "titre": "Une autre preuve : le magnétisme",
+          "texte": "Le sens du champ magnétique de la Terre s'inverse de temps en temps. Le basalte qui refroidit garde en mémoire le sens du champ au moment de sa formation. Les mesures montrent de chaque côté de la dorsale des bandes de roches dont le magnétisme alterne, de façon symétrique. Cela confirme que le fond de l'océan s'écarte à partir de la dorsale."
+        },
+        {
+          "type": "formule",
+          "titre": "Calculer une vitesse d'écartement",
+          "texte": "vitesse = distance à la dorsale ÷ âge de la roche\nPour passer des km par million d'années aux mm par an : 1 km par million d'années = 1 mm par an.\nPar exemple, 20 km par million d'années = 20 mm par an = 2 cm par an.\nVitesse d'ouverture de l'océan = vitesse d'un côté + vitesse de l'autre côté. Si l'écartement est symétrique, c'est 2 × la vitesse d'un côté."
+        },
+        {
+          "type": "exemple",
+          "titre": "Vitesse d'ouverture de l'Atlantique",
+          "texte": "Un basalte est prélevé à 1 400 km de la dorsale. Il a 70 millions d'années.\nVitesse d'un côté : 1 400 ÷ 70 = 20 km par million d'années, soit 20 mm par an, soit 2 cm par an.\nVitesse d'ouverture : 2 × 2 = 4 cm par an.\nAutre méthode : l'Atlantique sud mesure environ 5 200 km de large (ordre de grandeur) et il a commencé à s'ouvrir il y a environ 130 millions d'années. 5 200 ÷ 130 = 40 km par million d'années, soit 4 cm par an. Les deux méthodes donnent le même ordre de grandeur."
+        },
+        {
+          "type": "methode",
+          "titre": "Comment s'ouvre un océan ?",
+          "texte": "1. Un continent est étiré : la croûte s'amincit et s'effondre en un fossé appelé rift. Il y a des séismes et des volcans.\n2. Les deux morceaux de continent s'écartent. La mer envahit le fossé : c'est un jeune océan.\n3. Au centre, le magma remonte et forme une dorsale. De la croûte océanique naît.\n4. L'océan s'élargit tant que les plaques continuent de s'écarter."
+        },
+        {
+          "type": "remarque",
+          "titre": "Des océans à tous les âges",
+          "texte": "La mer Rouge et le golfe d'Aden sont de jeunes océans, en début d'ouverture. En Afrique de l'Est, le rift est-africain est un continent qui commence à se fendre, avec des séismes et des volcans. Si ce mouvement continue, un nouvel océan pourrait s'y ouvrir dans plusieurs dizaines de millions d'années. L'océan Atlantique, lui, s'est ouvert depuis environ 130 millions d'années et s'élargit toujours."
+        },
+        {
+          "type": "definition",
+          "titre": "La dérive des continents",
+          "texte": "En 1912, l'Allemand Alfred Wegener propose que les continents se déplacent : c'est la dérive des continents. Selon lui, il y a environ 250 millions d'années, tous les continents étaient réunis en un seul, la Pangée (« toute la terre »). Ce supercontinent s'est ensuite fracturé et les morceaux se sont éloignés.\nLes scientifiques ont d'abord refusé son idée, car il ne savait pas expliquer ce qui pouvait déplacer les continents. Elle a été acceptée dans les années 1960, quand l'étude du fond des océans a montré l'écartement à partir des dorsales."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les arguments de Wegener",
+          "entetes": ["Argument", "Explication"],
+          "lignes": [
+            ["L'emboîtement des côtes", "Les côtes de l'Amérique du Sud et de l'Afrique s'emboîtent comme des pièces de puzzle"],
+            ["Les fossiles identiques", "Les mêmes fossiles se trouvent sur des continents aujourd'hui séparés par un océan, comme Mesosaurus (un petit reptile d'eau douce) en Amérique du Sud et en Afrique, ou la plante Glossopteris dans plusieurs continents du sud"],
+            ["Les roches et les montagnes", "Des roches et des chaînes de montagnes de même âge se prolongent de part et d'autre de l'Atlantique"],
+            ["Les anciennes glaciations", "Des traces de glaciers très anciens se trouvent aujourd'hui dans des régions chaudes (Afrique, Inde, Amérique du Sud, Australie), qui étaient réunies près du pôle sud"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Madagascar a aussi voyagé",
+          "texte": "Madagascar faisait partie d'un grand continent du sud, le Gondwana, avec l'Afrique, l'Inde, l'Antarctique, l'Australie et l'Amérique du Sud. Il y a plus de 120 millions d'années, Madagascar s'est éloignée de l'Afrique, et le canal du Mozambique (environ 400 km de large au plus étroit) s'est ouvert. Il y a environ 90 millions d'années, elle s'est ensuite séparée de l'Inde. Cette histoire explique pourquoi on trouve à Madagascar des fossiles et des roches proches de ceux de l'Afrique et de l'Inde."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Dorsale océanique", "Chaîne de montagnes volcaniques sous la mer, à la frontière de deux plaques qui s'écartent"],
+            ["Rift", "Fossé d'effondrement, au centre d'une dorsale ou dans un continent qui se fend"],
+            ["Accrétion", "Formation de croûte océanique neuve à la dorsale"],
+            ["Ma", "Million d'années"],
+            ["Dérive des continents", "Déplacement lent des continents au cours des temps"],
+            ["Pangée", "Supercontinent qui réunissait tous les continents il y a environ 250 millions d'années"],
+            ["Gondwana", "Grand continent du sud, qui réunissait notamment l'Afrique, Madagascar et l'Inde"],
+            ["Fossile", "Trace ou reste d'un être vivant ancien conservé dans une roche"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Sur le fond d'un océan, un basalte est prélevé à 900 km de la dorsale. Il a 30 millions d'années. On suppose que l'écartement est symétrique et que la vitesse est constante.\n1. Calcule la vitesse d'éloignement d'un côté, en km par million d'années.\n2. Convertis ce résultat en cm par an.\n3. Quelle est la vitesse d'ouverture de l'océan ?\n4. De combien l'océan s'élargira-t-il en 10 millions d'années ? Donne le résultat en km.\n5. Où trouve-t-on les roches les plus jeunes du fond de l'océan ? Cite un argument de Wegener en faveur de la dérive des continents.",
+          "solution": "1. 900 ÷ 30 = 30 km par million d'années.\n2. 30 km par million d'années = 30 mm par an = 3 cm par an.\n3. L'écartement est symétrique : 2 × 3 = 6 cm par an.\n4. 6 cm × 10 000 000 = 60 000 000 cm = 600 km. (Autre calcul : 60 km par million d'années × 10 = 600 km.)\n5. Les roches les plus jeunes sont à la dorsale, au centre de l'océan, car c'est là que le magma monte et forme la croûte neuve ; les plus anciennes sont loin de la dorsale. Arguments de Wegener possibles : l'emboîtement des côtes de l'Amérique du Sud et de l'Afrique ; les fossiles identiques sur des continents séparés par un océan ; les roches et les montagnes qui se prolongent ; les traces d'anciennes glaciations."
+        }
+      ]
+    },
+    {
+      "id": "svt4-19-l3-convergence-collision",
+      "titre": "Convergence : fosses, subduction et collision",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "La frontière de convergence",
+          "texte": "À une frontière de convergence, deux plaques se rapprochent. Ce qui se passe dépend de la nature des plaques :\n- si l'une au moins est océanique, elle plonge sous l'autre : c'est la subduction ;\n- si les deux portent des continents, aucune ne plonge facilement : c'est la collision."
+        },
+        {
+          "type": "schema",
+          "titre": "Une zone de subduction (coupe)",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='560' height='245' viewBox='0 0 560 245' font-family='sans-serif' font-size='12'><defs><marker id='fl19c' markerWidth='8' markerHeight='8' refX='6' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='#e11d48'/></marker></defs><rect x='20' y='100' width='520' height='140' fill='currentColor' fill-opacity='0.05'/><polygon points='20,70 225,70 180,100 20,100' fill='currentColor' fill-opacity='0.08'/><polygon points='180,100 240,60 540,60 540,205 340,205' fill='currentColor' fill-opacity='0.18' stroke='currentColor'/><polygon points='20,100 180,100 340,205 320,230 160,125 20,125' fill='currentColor' fill-opacity='0.3' stroke='currentColor'/><polygon points='305,60 330,30 355,60' fill='#e11d48' fill-opacity='0.5' stroke='#e11d48'/><line x1='300' y1='178' x2='330' y2='62' stroke='#e11d48' stroke-width='2' stroke-dasharray='4 3'/><circle cx='210' cy='128' r='4' fill='#e11d48'/><circle cx='250' cy='154' r='4' fill='#e11d48'/><circle cx='290' cy='180' r='4' fill='#e11d48'/><line x1='30' y1='82' x2='95' y2='82' stroke='#e11d48' stroke-width='2' marker-end='url(#fl19c)'/><text x='110' y='76' fill='currentColor'>Mer</text><text x='140' y='96' fill='currentColor'>Fosse</text><text x='30' y='117' fill='currentColor'>Plaque océanique (dense)</text><text x='330' y='22' text-anchor='middle' fill='currentColor'>Volcan</text><text x='340' y='100' fill='currentColor'>Magma qui remonte</text><text x='350' y='140' fill='currentColor'>Plaque continentale</text><text x='350' y='156' fill='currentColor'>(moins dense)</text><text x='30' y='160' fill='currentColor'>Manteau</text><text x='30' y='200' fill='currentColor'>Foyers de séismes :</text><text x='30' y='216' fill='currentColor'>de plus en plus profonds</text></svg>",
+          "legende": "Schéma simplifié, hors échelle. La flèche rouge montre le déplacement de la plaque océanique, qui plonge sous la plaque continentale. Les points rouges sont des foyers de séismes."
+        },
+        {
+          "type": "methode",
+          "titre": "Que se passe-t-il à une zone de subduction ?",
+          "texte": "1. Les deux plaques se rapprochent.\n2. La plaque océanique, froide et plus dense, plonge dans le manteau sous l'autre plaque : c'est la subduction.\n3. À la surface, la courbure de la plaque forme une fosse océanique, un long fossé très profond.\n4. La plaque plonge en frottant contre l'autre. Les roches cassent régulièrement : ce sont des séismes. Plus la plaque s'enfonce, plus les foyers sont profonds (jusqu'à environ 700 km, chapitre 18).\n5. Vers 100 km de profondeur, la plaque plongeante libère de l'eau. Cette eau fait fondre une partie du manteau situé au-dessus.\n6. Le magma monte et alimente des volcans, souvent explosifs, qui forment un arc volcanique (chapitre 17).\n7. La croûte océanique qui a plongé est peu à peu recyclée dans le manteau."
+        },
+        {
+          "type": "definition",
+          "titre": "La fosse océanique",
+          "texte": "Une fosse océanique est une dépression longue et étroite du fond de la mer, à l'endroit où une plaque plonge sous une autre. C'est là que se trouvent les endroits les plus profonds des océans. La fosse des Mariannes, dans l'océan Pacifique, atteint près de 11 000 m de profondeur."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les trois cas de convergence",
+          "entetes": ["Cas", "Ce qui se passe", "Volcans", "Exemples"],
+          "lignes": [
+            ["Océan et océan", "La plaque la plus ancienne et la plus dense plonge sous l'autre", "Un arc d'îles volcaniques", "Japon, Philippines, petites Antilles (Martinique)"],
+            ["Océan et continent", "La plaque océanique plonge sous le continent", "Une chaîne de volcans sur le continent", "Les Andes (Amérique du Sud), Sumatra (Indonésie)"],
+            ["Continent et continent", "Aucune plaque ne plonge : c'est la collision", "Très peu ou pas de volcans", "Himalaya (Inde et Asie), Alpes (Afrique et Europe)"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Les zones de subduction sont les plus dangereuses",
+          "texte": "Les plus forts séismes du monde ont lieu dans des zones de subduction : Chili 1960, Sumatra 2004, Tohoku (Japon) 2011 (chapitre 18). Quand le séisme se produit sous la mer, il peut provoquer un tsunami. Les volcans de ces régions sont souvent explosifs (chapitre 17). La « ceinture de feu » du Pacifique est en grande partie une ligne de zones de subduction."
+        },
+        {
+          "type": "regle",
+          "titre": "La Terre ne grossit pas",
+          "texte": "À la dorsale, de la croûte océanique est créée. À la fosse, de la croûte océanique est détruite. Globalement, ce qui est créé compense ce qui est détruit : la taille de la Terre ne change pas.\nC'est aussi pour cela que la croûte océanique est toujours « jeune » (moins de 200 millions d'années) : elle est sans cesse renouvelée. La croûte continentale, plus légère, plonge très difficilement et peut être beaucoup plus ancienne."
+        },
+        {
+          "type": "definition",
+          "titre": "La collision",
+          "texte": "Quand une plaque océanique est entièrement passée sous une autre, l'océan a disparu : on dit qu'il s'est fermé. Les deux continents qui bordaient l'océan se retrouvent face à face et entrent en collision.\nLa croûte continentale est trop légère pour s'enfoncer dans le manteau. Elle se plisse, se casse et s'épaissit : une chaîne de montagnes se forme. Il y a de forts séismes, mais peu de volcans."
+        },
+        {
+          "type": "schema",
+          "titre": "Une collision continentale (coupe)",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='520' height='215' viewBox='0 0 520 215' font-family='sans-serif' font-size='12'><defs><marker id='fl19d' markerWidth='8' markerHeight='8' refX='6' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='#e11d48'/></marker></defs><rect x='20' y='150' width='480' height='55' fill='currentColor' fill-opacity='0.05'/><rect x='20' y='100' width='480' height='50' fill='currentColor' fill-opacity='0.2' stroke='currentColor'/><polygon points='225,100 260,40 295,100' fill='currentColor' fill-opacity='0.3' stroke='currentColor'/><polygon points='235,150 260,185 285,150' fill='currentColor' fill-opacity='0.3' stroke='currentColor'/><line x1='260' y1='100' x2='260' y2='150' stroke='#e11d48' stroke-dasharray='4 3'/><line x1='50' y1='125' x2='150' y2='125' stroke='#e11d48' stroke-width='2' marker-end='url(#fl19d)'/><line x1='470' y1='125' x2='370' y2='125' stroke='#e11d48' stroke-width='2' marker-end='url(#fl19d)'/><text x='30' y='92' fill='currentColor'>Plaque continentale A</text><text x='490' y='92' text-anchor='end' fill='currentColor'>Plaque continentale B</text><text x='260' y='30' text-anchor='middle' fill='currentColor'>Chaîne de montagnes</text><text x='260' y='203' text-anchor='middle' fill='currentColor'>Racine de la croûte épaissie</text><text x='30' y='175' fill='currentColor'>Manteau</text></svg>",
+          "legende": "Schéma simplifié, hors échelle. Les flèches rouges montrent le rapprochement des deux plaques ; les pointillés rouges marquent la trace de l'ancien océan disparu."
+        },
+        {
+          "type": "remarque",
+          "titre": "L'Himalaya, une collision encore en cours",
+          "texte": "L'Inde a quitté Madagascar il y a environ 90 millions d'années (leçon 2) et s'est déplacée vers le nord. Il y a environ 50 millions d'années, elle est entrée en collision avec l'Asie. Cette collision a fermé un ancien océan et formé l'Himalaya, qui compte les plus hauts sommets du monde (le mont Everest atteint environ 8 849 m). On trouve des roches marines avec des fossiles tout en haut de l'Himalaya, preuve que ces roches se sont formées dans un océan. Le mouvement continue : l'Inde pousse toujours vers le nord et l'Himalaya gagne encore quelques millimètres de hauteur par an. Il y a donc de nombreux séismes dans la région."
+        },
+        {
+          "type": "remarque",
+          "titre": "Des océans qui s'ouvrent, d'autres qui se ferment",
+          "texte": "L'océan Atlantique s'élargit, alors que l'océan Pacifique se réduit lentement, car il est entouré de zones de subduction. La mer Méditerranée est un reste d'un très ancien océan, la Téthys, presque disparu à cause du rapprochement de l'Afrique et de l'Europe."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Subduction", "Plongée d'une plaque océanique sous une autre plaque, dans le manteau"],
+            ["Fosse océanique", "Long fossé très profond du fond de la mer, à l'endroit où une plaque plonge"],
+            ["Arc volcanique", "Ligne de volcans située au-dessus d'une plaque plongeante"],
+            ["Collision", "Rencontre de deux continents, qui forme une chaîne de montagnes"],
+            ["Plissement", "Déformation des roches qui se plient sous une forte poussée"],
+            ["Densité", "Masse d'un volume donné de matière : une roche plus dense est plus lourde"],
+            ["Racine crustale", "Partie de la croûte épaissie qui s'enfonce dans le manteau sous une chaîne de montagnes"],
+            ["Téthys", "Ancien océan qui séparait l'Afrique et l'Europe"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "L'Inde se rapproche de l'Asie d'environ 5 cm par an. Dans cet exercice, on suppose que cette vitesse est constante depuis 50 millions d'années.\n1. Quelle distance l'Inde a-t-elle parcourue ? Donne le résultat en kilomètres. (1 km = 100 000 cm)\n2. Pourquoi cette collision forme-t-elle une chaîne de montagnes au lieu d'une subduction ?\n3. Le long d'une zone de subduction, trois séismes ont leur foyer à 20 km, 150 km et 400 km de profondeur. Lequel est le plus proche de la fosse ? Explique.\n4. Cite deux dangers d'une zone de subduction pour les habitants.",
+          "solution": "1. 5 × 50 000 000 = 250 000 000 cm. 250 000 000 ÷ 100 000 = 2 500 km.\n2. Les deux plaques portent des continents. La croûte continentale est moins dense que le manteau : elle ne s'enfonce pas facilement. Elle se plisse et s'épaissit, ce qui forme une chaîne de montagnes.\n3. Le séisme à 20 km est le plus proche de la fosse. La plaque plonge en pente : plus on s'éloigne de la fosse, plus la plaque est enfoncée et plus les foyers sont profonds.\n4. Des séismes très forts, des tsunamis (si le séisme a lieu sous la mer) et des éruptions de volcans souvent explosifs."
+        }
+      ]
+    },
+    {
+      "id": "svt4-19-l4-coulissage-points-chauds",
+      "titre": "Coulissage, points chauds et bilan",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "La frontière de coulissage",
+          "texte": "À une frontière de coulissage, deux plaques glissent horizontalement l'une contre l'autre, sans s'écarter ni se rapprocher. Il n'y a ni création ni destruction de croûte. La frontière est une grande faille décrochante, appelée faille transformante (chapitre 18).\nLes roches des deux plaques s'accrochent, accumulent de l'énergie, puis cassent brutalement : cela provoque des séismes forts et superficiels. Il n'y a en général pas de volcans.\nExemple : la faille de San Andreas en Californie, où deux plaques coulissent d'environ 3 à 5 cm par an. Des failles transformantes décalent aussi les dorsales océaniques."
+        },
+        {
+          "type": "definition",
+          "titre": "Les points chauds",
+          "texte": "Un point chaud est un endroit du manteau où de la matière très chaude monte en un panache étroit, jusqu'à la base de la lithosphère. Cette matière fait fondre les roches et alimente un volcan à la surface. Le panache reste fixe, alors que la plaque se déplace au-dessus.\nLe volcan est donc emporté loin du point chaud et s'éteint, tandis qu'un nouveau volcan se forme au-dessus du point chaud. À la longue, on obtient une chaîne de volcans (ou d'îles) alignés, de plus en plus anciens quand on s'éloigne du point chaud. Les points chauds se trouvent souvent loin des frontières de plaques."
+        },
+        {
+          "type": "schema",
+          "titre": "Une chaîne d'îles volcaniques sur un point chaud (coupe)",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='560' height='240' viewBox='0 0 560 240' font-family='sans-serif' font-size='12'><defs><marker id='fl19e' markerWidth='8' markerHeight='8' refX='6' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='#e11d48'/></marker></defs><rect x='20' y='125' width='520' height='105' fill='currentColor' fill-opacity='0.05'/><rect x='20' y='70' width='520' height='20' fill='currentColor' fill-opacity='0.08'/><rect x='20' y='90' width='520' height='35' fill='currentColor' fill-opacity='0.2' stroke='currentColor'/><line x1='20' y1='70' x2='540' y2='70' stroke='currentColor'/><polygon points='395,90 420,45 445,90' fill='#e11d48' fill-opacity='0.35' stroke='#e11d48'/><polygon points='305,90 330,58 355,90' fill='#e11d48' fill-opacity='0.35' stroke='#e11d48'/><polygon points='215,90 240,70 265,90' fill='#e11d48' fill-opacity='0.35' stroke='#e11d48'/><polygon points='125,90 150,82 175,90' fill='#e11d48' fill-opacity='0.35' stroke='#e11d48'/><path d='M400,230 Q412,175 418,128 L422,128 Q428,175 440,230 Z' fill='#e11d48' fill-opacity='0.35'/><ellipse cx='420' cy='140' rx='16' ry='10' fill='#e11d48' fill-opacity='0.35'/><line x1='330' y1='30' x2='150' y2='30' stroke='#e11d48' stroke-width='2' marker-end='url(#fl19e)'/><text x='240' y='22' text-anchor='middle' fill='currentColor'>Déplacement de la plaque</text><text x='420' y='38' text-anchor='middle' fill='currentColor'>Actif</text><text x='330' y='50' text-anchor='middle' fill='currentColor'>Éteint</text><text x='240' y='62' text-anchor='middle' fill='currentColor'>Éteint, plus érodé</text><text x='150' y='62' text-anchor='middle' fill='currentColor'>Sous la mer</text><text x='548' y='66' text-anchor='end' fill='currentColor'>Niveau de la mer</text><text x='30' y='112' fill='currentColor'>Plaque lithosphérique</text><text x='30' y='150' fill='currentColor'>Manteau</text><text x='392' y='190' text-anchor='end' fill='currentColor'>Panache de matière chaude</text><text x='392' y='206' text-anchor='end' fill='currentColor'>(point chaud), fixe</text></svg>",
+          "legende": "Schéma simplifié, hors échelle. Le point chaud reste fixe, la plaque avance vers la gauche : le volcan actif est celui qui se trouve au-dessus du panache, les plus anciens sont les plus éloignés."
+        },
+        {
+          "type": "exemple",
+          "titre": "Hawaï : mesurer la vitesse d'une plaque",
+          "texte": "Dans l'océan Pacifique, la chaîne de volcans d'Hawaï s'étend sur environ 6 000 km. Les volcans les plus anciens ont environ 80 millions d'années. Seule l'île d'Hawaï, tout au bout de la chaîne, a des volcans actifs.\nVitesse de la plaque : 6 000 ÷ 80 = 75 km par million d'années, soit 75 mm par an, soit 7,5 cm par an.\nLa plaque du Pacifique se déplace donc d'environ 7,5 cm par an vers le nord-ouest."
+        },
+        {
+          "type": "remarque",
+          "titre": "La Réunion, Maurice et Madagascar",
+          "texte": "À l'est de Madagascar, La Réunion se trouve au-dessus d'un point chaud : le Piton de la Fournaise est un volcan très actif. L'île Maurice, plus ancienne (environ 8 millions d'années) et dont les volcans sont éteints, a été emportée par le mouvement de la plaque ; La Réunion est la plus jeune des deux.\nMadagascar se trouve au milieu d'une plaque, loin d'une frontière. Ses volcans (chapitre 17) ne sont donc pas liés à une frontière de plaques. Leur origine est encore étudiée par les scientifiques."
+        },
+        {
+          "type": "remarque",
+          "titre": "Qu'est-ce qui fait bouger les plaques ?",
+          "texte": "L'intérieur de la Terre est très chaud (chapitre 20). Dans le manteau, de la matière chaude monte lentement, se refroidit, puis redescend, comme l'eau qui chauffe dans une casserole : c'est la convection. Les scientifiques pensent que ce mouvement, combiné au poids de la plaque froide et dense qui plonge dans le manteau, est le moteur du déplacement des plaques. Ces mouvements sont très lents : de quelques centimètres par an."
+        },
+        {
+          "type": "tableau",
+          "titre": "Bilan : les frontières de plaques",
+          "entetes": ["Frontière", "Mouvement", "Séismes", "Volcans", "Exemples"],
+          "lignes": [
+            ["Divergence (dorsale, rift)", "Les plaques s'écartent ; de la croûte neuve se forme", "Nombreux, faibles et superficiels", "Oui (basalte)", "Dorsale de l'Atlantique, Islande, rift est-africain, mer Rouge"],
+            ["Convergence (subduction)", "Une plaque océanique plonge sous une autre", "Très forts, superficiels à profonds", "Oui, souvent explosifs", "Japon, Andes, Sumatra"],
+            ["Convergence (collision)", "Deux continents se rencontrent", "Forts", "Très peu ou pas", "Himalaya, Alpes"],
+            ["Coulissage (faille transformante)", "Les plaques glissent côte à côte", "Forts et superficiels", "En général non", "Faille de San Andreas"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Coulissage", "Glissement horizontal de deux plaques côte à côte"],
+            ["Faille transformante", "Grande faille qui sépare deux plaques en coulissage"],
+            ["Point chaud", "Endroit où de la matière très chaude du manteau monte et alimente un volcan, loin des frontières"],
+            ["Panache", "Colonne étroite de matière chaude qui monte dans le manteau"],
+            ["Convection", "Mouvement de matière : le chaud monte, le froid descend"],
+            ["Archipel", "Groupe d'îles proches les unes des autres"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Dans un océan, une chaîne d'îles volcaniques s'est formée sur un point chaud. L'île A a un volcan actif. L'île B, éteinte, est à 400 km de A. Elle a 5 millions d'années. On suppose que la vitesse de la plaque est constante.\n1. Quelle est la vitesse de la plaque, en km par million d'années, puis en cm par an ?\n2. Quelle île est la plus ancienne ? Pourquoi son volcan est-il éteint ?\n3. Une île C se trouve à 800 km de A. Quel âge peut-on prévoir pour elle ?\n4. Quel type de frontière est la faille de San Andreas ? Y a-t-il des volcans à cet endroit ?",
+          "solution": "1. 400 ÷ 5 = 80 km par million d'années, soit 80 mm par an, soit 8 cm par an.\n2. L'île B est la plus ancienne. Elle a été emportée loin du point chaud par le mouvement de la plaque : plus rien n'alimente son volcan, qui s'est éteint.\n3. 800 ÷ 80 = 10 millions d'années.\n4. C'est une frontière de coulissage (faille transformante). Il n'y a en général pas de volcans à cet endroit, mais des séismes forts et superficiels."
+        }
+      ]
+    }
+  ]
+}
