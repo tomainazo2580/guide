@@ -1,0 +1,317 @@
+{
+  "id": "sp4-6-molecules",
+  "titre": "Chapitre 6 : Molécules et formules",
+  "lecons": [
+    {
+      "id": "sp4-6-molecule",
+      "titre": "De l'atome à la molécule",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Molécule",
+          "texte": "Une molécule est un groupe d'atomes liés entre eux. Elle est beaucoup trop petite pour être vue à l'œil nu."
+        },
+        {
+          "type": "remarque",
+          "titre": "Atomes isolés",
+          "texte": "Dans la nature, presque tous les atomes sont assemblés. Seuls les gaz nobles (hélium, néon, argon) existent sous forme d'atomes isolés."
+        },
+        {
+          "type": "exemple",
+          "titre": "La molécule d'eau",
+          "texte": "Une molécule d'eau contient 3 atomes : 1 atome d'oxygène et 2 atomes d'hydrogène. Dans un verre d'eau, il y a un nombre immense de molécules identiques."
+        },
+        {
+          "type": "schema",
+          "titre": "Quelques molécules",
+          "svg": "<svg width='380' height='135' viewBox='0 0 380 135' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif'><circle cx='35' cy='50' r='10' fill='none' stroke='currentColor' stroke-width='1.5'/><circle cx='55' cy='50' r='10' fill='none' stroke='currentColor' stroke-width='1.5'/><circle cx='119' cy='50' r='16' fill='#e11d48' fill-opacity='0.8' stroke='currentColor' stroke-width='1.5'/><circle cx='151' cy='50' r='16' fill='#e11d48' fill-opacity='0.8' stroke='currentColor' stroke-width='1.5'/><circle cx='232' cy='40' r='16' fill='#e11d48' fill-opacity='0.8' stroke='currentColor' stroke-width='1.5'/><circle cx='215' cy='60' r='10' fill='none' stroke='currentColor' stroke-width='1.5'/><circle cx='249' cy='60' r='10' fill='none' stroke='currentColor' stroke-width='1.5'/><circle cx='294' cy='50' r='16' fill='#e11d48' fill-opacity='0.8' stroke='currentColor' stroke-width='1.5'/><circle cx='325' cy='50' r='15' fill='currentColor' fill-opacity='0.7' stroke='currentColor' stroke-width='1.5'/><circle cx='356' cy='50' r='16' fill='#e11d48' fill-opacity='0.8' stroke='currentColor' stroke-width='1.5'/><text x='45' y='95' text-anchor='middle' font-size='14' fill='currentColor'>H₂</text><text x='135' y='95' text-anchor='middle' font-size='14' fill='currentColor'>O₂</text><text x='232' y='95' text-anchor='middle' font-size='14' fill='currentColor'>H₂O</text><text x='325' y='95' text-anchor='middle' font-size='14' fill='currentColor'>CO₂</text><text x='45' y='112' text-anchor='middle' font-size='10' fill='currentColor'>dihydrogène</text><text x='135' y='112' text-anchor='middle' font-size='10' fill='currentColor'>dioxygène</text><text x='232' y='112' text-anchor='middle' font-size='10' fill='currentColor'>eau</text><text x='325' y='112' text-anchor='middle' font-size='10' fill='currentColor'>dioxyde de carbone</text></svg>",
+          "legende": "Modèles moléculaires : chaque boule représente un atome."
+        },
+        {
+          "type": "tableau",
+          "titre": "Couleurs habituelles des modèles",
+          "entetes": ["Élément", "Symbole", "Couleur"],
+          "lignes": [
+            ["Hydrogène", "H", "Blanc"],
+            ["Carbone", "C", "Noir"],
+            ["Oxygène", "O", "Rouge"],
+            ["Azote", "N", "Bleu"],
+            ["Chlore", "Cl", "Vert"],
+            ["Soufre", "S", "Jaune"]
+          ]
+        },
+        {
+          "type": "definition",
+          "titre": "Corps simple et corps composé",
+          "texte": "Un corps simple est formé d'un seul élément. Un corps composé est formé d'au moins deux éléments différents."
+        },
+        {
+          "type": "exemple",
+          "titre": "Exemples",
+          "texte": "Corps simples : le dioxygène O₂, le dihydrogène H₂, le diazote N₂, le fer Fe, le carbone C.\nCorps composés : l'eau H₂O, le dioxyde de carbone CO₂, le méthane."
+        },
+        {
+          "type": "remarque",
+          "titre": "Ne pas confondre élément et gaz",
+          "texte": "Le mot oxygène désigne l'élément, de symbole O. Le gaz de l'air est le dioxygène, de formule O₂ : c'est une molécule formée de deux atomes d'oxygène. Même chose pour l'hydrogène (élément H) et le dihydrogène (gaz H₂)."
+        },
+        {
+          "type": "remarque",
+          "titre": "Les métaux et le carbone",
+          "texte": "Les métaux (fer Fe, cuivre Cu) et le carbone C ne sont pas formés de molécules. Leurs atomes forment un assemblage. On les écrit avec leur seul symbole. Nous étudierons les métaux au chapitre 7."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Molécule", "Groupe d'atomes liés entre eux."],
+            ["Corps simple", "Corps formé d'un seul élément."],
+            ["Corps composé", "Corps formé d'au moins deux éléments."],
+            ["Dioxygène", "Gaz O₂ de l'air, formé de deux atomes d'oxygène."],
+            ["Modèle moléculaire", "Représentation d'une molécule avec des boules."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Une molécule de méthane contient 1 atome de carbone et 4 atomes d'hydrogène. Combien d'atomes contient-elle en tout ?\n2) Le méthane est-il un corps simple ou un corps composé ? Justifie.\n3) Le diazote N₂ est-il un corps simple ou un corps composé ? Justifie.",
+          "solution": "1) 1 + 4 = 5 atomes.\n2) C'est un corps composé : il est formé de deux éléments différents, le carbone et l'hydrogène.\n3) C'est un corps simple : il est formé d'un seul élément, l'azote."
+        }
+      ]
+    },
+    {
+      "id": "sp4-6-formules",
+      "titre": "Formule chimique et nom des molécules",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Formule chimique",
+          "texte": "La formule d'une molécule indique les symboles des atomes qui la composent. Le petit nombre écrit en bas à droite d'un symbole s'appelle l'indice : il donne le nombre d'atomes de cet élément. Sans indice, il y a un seul atome."
+        },
+        {
+          "type": "exemple",
+          "titre": "Lire la formule H₂O",
+          "texte": "H₂O : 2 atomes d'hydrogène (indice 2) et 1 atome d'oxygène (l'indice 1 ne s'écrit pas). Au total, 3 atomes."
+        },
+        {
+          "type": "tableau",
+          "titre": "Molécules à connaître",
+          "entetes": ["Nom", "Formule", "Atomes", "Total"],
+          "lignes": [
+            ["Dihydrogène", "H₂", "2 H", "2"],
+            ["Dioxygène", "O₂", "2 O", "2"],
+            ["Diazote", "N₂", "2 N", "2"],
+            ["Eau", "H₂O", "2 H et 1 O", "3"],
+            ["Dioxyde de carbone", "CO₂", "1 C et 2 O", "3"],
+            ["Monoxyde de carbone", "CO", "1 C et 1 O", "2"],
+            ["Dioxyde de soufre", "SO₂", "1 S et 2 O", "3"],
+            ["Trioxyde de soufre", "SO₃", "1 S et 3 O", "4"],
+            ["Méthane", "CH₄", "1 C et 4 H", "5"],
+            ["Ammoniac", "NH₃", "1 N et 3 H", "4"],
+            ["Chlorure d'hydrogène", "HCl", "1 H et 1 Cl", "2"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Les préfixes mono, di, tri",
+          "texte": "Dans le nom d'un oxyde, le préfixe indique le nombre d'atomes d'oxygène : mono = 1, di = 2, tri = 3.\nCO : monoxyde de carbone. CO₂ : dioxyde de carbone. SO₃ : trioxyde de soufre."
+        },
+        {
+          "type": "remarque",
+          "titre": "Co et CO",
+          "texte": "Co (avec un o minuscule) est le symbole du cobalt, un élément. CO est la formule du monoxyde de carbone, une molécule. C'est un gaz très toxique, produit par une combustion incomplète."
+        },
+        {
+          "type": "remarque",
+          "titre": "Une formule décrit un corps pur",
+          "texte": "H₂O décrit l'eau pure. L'air, l'eau du robinet et l'eau de mer sont des mélanges : ils n'ont pas de formule unique."
+        },
+        {
+          "type": "regle",
+          "titre": "Nombre de liaisons d'un atome",
+          "texte": "Dans les molécules simples, chaque atome fait un nombre précis de liaisons : H : 1 ; Cl : 1 ; O : 2 ; N : 3 ; C : 4. Une liaison double compte pour deux.\nAinsi un atome O s'accroche à deux atomes H : H₂O. Un atome C s'accroche à quatre atomes H : CH₄.\nCette règle marche pour H₂, O₂, N₂, HCl, H₂O, NH₃, CH₄ et CO₂. Elle ne marche pas pour CO, SO₂ ni SO₃ : on ne l'utilise pas pour eux."
+        },
+        {
+          "type": "methode",
+          "titre": "Écrire la formule à partir d'un modèle",
+          "texte": "1) Compte chaque sorte d'atome (une couleur = un élément).\n2) Écris les symboles.\n3) Écris le nombre d'atomes en indice, en bas à droite. Si c'est 1, n'écris rien."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Formule", "Écriture qui donne les atomes d'une molécule."],
+            ["Indice", "Petit nombre en bas à droite d'un symbole."],
+            ["Préfixe", "Début d'un mot qui donne une information (mono, di, tri)."],
+            ["Oxyde", "Corps composé formé d'oxygène et d'un autre élément."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Pour NH₃ et pour SO₃, donne le nombre d'atomes de chaque sorte et le nombre total d'atomes.\n2) Une molécule est formée de 1 atome de soufre et de 2 atomes d'oxygène. Écris sa formule et donne son nom.\n3) Une molécule est formée de 1 atome de carbone et de 1 atome d'oxygène. Écris sa formule et donne son nom. Ne la confonds pas avec Co.",
+          "solution": "1) NH₃ : 1 atome N et 3 atomes H, soit 4 atomes. SO₃ : 1 atome S et 3 atomes O, soit 4 atomes.\n2) SO₂ : dioxyde de soufre.\n3) CO : monoxyde de carbone. Co, avec un o minuscule, est le cobalt (un élément)."
+        }
+      ]
+    },
+    {
+      "id": "sp4-6-transformations",
+      "titre": "Molécules, états et transformations",
+      "blocs": [
+        {
+          "type": "regle",
+          "titre": "Changement d'état : les molécules ne changent pas",
+          "texte": "Dans un changement d'état (phénomène physique), les molécules restent les mêmes. L'eau solide, liquide ou gazeuse est toujours formée de molécules H₂O. Seule leur disposition change : serrées et rangées dans la glace, serrées mais mobiles dans l'eau liquide, très éloignées et libres dans la vapeur."
+        },
+        {
+          "type": "regle",
+          "titre": "Transformation chimique : les molécules changent",
+          "texte": "Dans une transformation chimique, les molécules des réactifs sont détruites. Leurs atomes se regroupent autrement et forment de nouvelles molécules : les produits. Les atomes ne disparaissent pas et ne changent pas d'élément."
+        },
+        {
+          "type": "exemple",
+          "titre": "Combustion du carbone",
+          "texte": "Le carbone brûle dans le dioxygène : C + O₂ → CO₂.\nAvant : 1 atome C et 2 atomes O (dans la molécule O₂).\nAprès : 1 molécule CO₂, donc 1 atome C et 2 atomes O.\nLes atomes sont les mêmes, seulement regroupés autrement."
+        },
+        {
+          "type": "schema",
+          "titre": "Les atomes se regroupent",
+          "svg": "<svg width='380' height='125' viewBox='0 0 380 125' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif'><defs><marker id='sp46a' markerWidth='8' markerHeight='8' refX='7' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='#e11d48'/></marker></defs><circle cx='40' cy='45' r='15' fill='currentColor' fill-opacity='0.7' stroke='currentColor' stroke-width='1.5'/><text x='75' y='51' text-anchor='middle' font-size='18' fill='currentColor'>+</text><circle cx='108' cy='45' r='16' fill='#e11d48' fill-opacity='0.8' stroke='currentColor' stroke-width='1.5'/><circle cx='140' cy='45' r='16' fill='#e11d48' fill-opacity='0.8' stroke='currentColor' stroke-width='1.5'/><line x1='172' y1='45' x2='215' y2='45' stroke='#e11d48' stroke-width='2' marker-end='url(#sp46a)'/><circle cx='258' cy='45' r='16' fill='#e11d48' fill-opacity='0.8' stroke='currentColor' stroke-width='1.5'/><circle cx='289' cy='45' r='15' fill='currentColor' fill-opacity='0.7' stroke='currentColor' stroke-width='1.5'/><circle cx='320' cy='45' r='16' fill='#e11d48' fill-opacity='0.8' stroke='currentColor' stroke-width='1.5'/><text x='40' y='88' text-anchor='middle' font-size='14' fill='currentColor'>C</text><text x='124' y='88' text-anchor='middle' font-size='14' fill='currentColor'>O₂</text><text x='289' y='88' text-anchor='middle' font-size='14' fill='currentColor'>CO₂</text><text x='190' y='112' text-anchor='middle' font-size='11' fill='currentColor'>Avant : 1 C et 2 O. Après : 1 C et 2 O.</text></svg>",
+          "legende": "Combustion du carbone : les atomes se regroupent, aucun atome n'est perdu."
+        },
+        {
+          "type": "remarque",
+          "titre": "Pourquoi la masse se conserve",
+          "texte": "On retrouve après la transformation les mêmes atomes qu'avant. La masse totale ne change donc pas : c'est la conservation de la masse, vue au chapitre 3. Nous écrirons ces équations avec soin au chapitre 9."
+        },
+        {
+          "type": "remarque",
+          "titre": "Coefficient et indice",
+          "texte": "Dans 2 CO, le nombre 2 écrit devant la formule est un coefficient : il y a 2 molécules de CO. Dans CO₂, le petit 2 en bas est un indice : il compte les atomes dans une seule molécule.\nExemple : 2 CO₂ représente 2 molécules, donc 2 atomes C et 4 atomes O."
+        },
+        {
+          "type": "exemple",
+          "titre": "Combustion incomplète du carbone",
+          "texte": "2 C + O₂ → 2 CO.\nAvant : 2 atomes C et 2 atomes O.\nAprès : 2 molécules CO, soit 2 atomes C et 2 atomes O.\nLes atomes sont conservés."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Réactif", "Corps qui disparaît pendant la transformation chimique."],
+            ["Produit", "Corps qui apparaît pendant la transformation chimique."],
+            ["Coefficient", "Nombre écrit devant une formule : il donne le nombre de molécules."],
+            ["Indice", "Petit nombre en bas d'un symbole : il donne le nombre d'atomes dans une molécule."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) On chauffe de l'eau liquide : elle devient de la vapeur d'eau. Les molécules changent-elles ? De quel phénomène s'agit-il ?\n2) Compte les atomes avant et après : 2 SO₂ + O₂ → 2 SO₃. Les atomes sont-ils conservés ?\n3) Dans 3 H₂O, combien y a-t-il d'atomes H et d'atomes O ?",
+          "solution": "1) Non : ce sont toujours des molécules H₂O, seule leur disposition change. C'est un phénomène physique (changement d'état).\n2) Avant : 2 SO₂ donnent 2 S et 4 O, et O₂ ajoute 2 O : en tout 2 S et 6 O. Après : 2 SO₃ donnent 2 S et 6 O. Les atomes sont conservés.\n3) 3 molécules H₂O : 3 × 2 = 6 atomes H et 3 × 1 = 3 atomes O."
+        }
+      ]
+    },
+    {
+      "id": "sp4-6-mole",
+      "titre": "Pour aller plus loin : la mole",
+      "blocs": [
+        {
+          "type": "remarque",
+          "titre": "À savoir",
+          "texte": "Cette leçon est un complément. Elle prépare la suite des études. Tu peux la lire après avoir bien compris le reste du chapitre."
+        },
+        {
+          "type": "definition",
+          "titre": "La mole",
+          "texte": "Les molécules sont beaucoup trop nombreuses pour être comptées une par une. On les compte par paquets. Une mole (symbole mol) est un paquet de 6,02 × 10²³ entités (molécules, atomes ou ions). Ce nombre est la constante d'Avogadro : N_A = 6,02 × 10²³ mol⁻¹.\nComme une douzaine contient 12 œufs, une mole contient 6,02 × 10²³ molécules."
+        },
+        {
+          "type": "formule",
+          "titre": "Quantité de matière et nombre de molécules",
+          "texte": "n = N / N_A\nn : quantité de matière (en mol) ; N : nombre de molécules ; N_A = 6,02 × 10²³ mol⁻¹."
+        },
+        {
+          "type": "definition",
+          "titre": "Masse molaire",
+          "texte": "La masse molaire M est la masse d'une mole, en grammes par mole (g/mol). Pour un atome, on la lit sur le tableau périodique (valeur arrondie)."
+        },
+        {
+          "type": "tableau",
+          "titre": "Masses molaires atomiques (arrondies)",
+          "entetes": ["Élément", "Symbole", "M (g/mol)"],
+          "lignes": [
+            ["Hydrogène", "H", "1"],
+            ["Carbone", "C", "12"],
+            ["Azote", "N", "14"],
+            ["Oxygène", "O", "16"],
+            ["Sodium", "Na", "23"],
+            ["Magnésium", "Mg", "24"],
+            ["Soufre", "S", "32"],
+            ["Chlore", "Cl", "35,5"],
+            ["Calcium", "Ca", "40"],
+            ["Fer", "Fe", "56"]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Calculer la masse molaire d'une molécule",
+          "texte": "On additionne les masses molaires de tous les atomes de la formule.\nM(CO₂) = 12 + 2 × 16 = 44 g/mol.\nM(H₂O) = 2 × 1 + 16 = 18 g/mol."
+        },
+        {
+          "type": "formule",
+          "titre": "Quantité de matière et masse",
+          "texte": "n = m / M et m = n × M\nn : quantité de matière (mol) ; m : masse (g) ; M : masse molaire (g/mol)."
+        },
+        {
+          "type": "exemple",
+          "titre": "Masse de 88 g de dioxyde de carbone",
+          "texte": "M(CO₂) = 44 g/mol.\nn = 88 / 44 = 2 mol.\nNombre de molécules : N = n × N_A = 2 × 6,02 × 10²³ = 12,04 × 10²³ = 1,204 × 10²⁴ molécules."
+        },
+        {
+          "type": "formule",
+          "titre": "Volume d'un gaz",
+          "texte": "V = n × Vm et n = V / Vm\nV : volume du gaz (L) ; Vm : volume molaire. Dans les conditions normales de température et de pression (0 °C, pression atmosphérique normale), Vm = 22,4 L/mol pour tous les gaz."
+        },
+        {
+          "type": "exemple",
+          "titre": "Volume de 11,2 L de dioxyde de carbone",
+          "texte": "n = 11,2 / 22,4 = 0,5 mol.\nm = n × M = 0,5 × 44 = 22 g."
+        },
+        {
+          "type": "schema",
+          "titre": "Passer d'une grandeur à l'autre",
+          "svg": "<svg width='380' height='150' viewBox='0 0 380 150' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif'><rect x='10' y='20' width='80' height='36' rx='6' fill='none' stroke='#e11d48' stroke-width='1.5'/><rect x='150' y='20' width='80' height='36' rx='6' fill='none' stroke='#e11d48' stroke-width='1.5'/><rect x='290' y='20' width='80' height='36' rx='6' fill='none' stroke='#e11d48' stroke-width='1.5'/><rect x='150' y='105' width='80' height='36' rx='6' fill='none' stroke='#e11d48' stroke-width='1.5'/><text x='50' y='43' text-anchor='middle' font-size='13' fill='currentColor'>m (g)</text><text x='190' y='43' text-anchor='middle' font-size='13' fill='currentColor'>n (mol)</text><text x='330' y='43' text-anchor='middle' font-size='13' fill='currentColor'>N</text><text x='190' y='128' text-anchor='middle' font-size='13' fill='currentColor'>V (L)</text><line x1='90' y1='38' x2='150' y2='38' stroke='currentColor' stroke-width='1.5'/><line x1='230' y1='38' x2='290' y2='38' stroke='currentColor' stroke-width='1.5'/><line x1='190' y1='56' x2='190' y2='105' stroke='currentColor' stroke-width='1.5'/><text x='120' y='32' text-anchor='middle' font-size='10' fill='currentColor'>→ ÷ M</text><text x='120' y='51' text-anchor='middle' font-size='10' fill='currentColor'>← × M</text><text x='260' y='32' text-anchor='middle' font-size='10' fill='currentColor'>→ × N<tspan dy='3' font-size='7'>A</tspan></text><text x='260' y='51' text-anchor='middle' font-size='10' fill='currentColor'>← ÷ N<tspan dy='3' font-size='7'>A</tspan></text><text x='198' y='76' font-size='10' fill='currentColor'>↓ × V<tspan dy='3' font-size='7'>m</tspan></text><text x='198' y='94' font-size='10' fill='currentColor'>↑ ÷ V<tspan dy='3' font-size='7'>m</tspan></text></svg>",
+          "legende": "m : masse. n : quantité de matière. N : nombre de molécules. V : volume d'un gaz (conditions normales)."
+        },
+        {
+          "type": "remarque",
+          "titre": "Attention au volume molaire",
+          "texte": "Vm = 22,4 L/mol n'est vrai que dans les conditions normales (0 °C). À température ambiante, le volume molaire est un peu plus grand : environ 24 L/mol à 25 °C."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Mole", "Paquet de 6,02 × 10²³ entités."],
+            ["Constante d'Avogadro", "Nombre d'entités dans une mole : 6,02 × 10²³ par mole."],
+            ["Quantité de matière", "Nombre de moles d'un corps, notée n."],
+            ["Masse molaire", "Masse d'une mole, en g/mol."],
+            ["Volume molaire", "Volume occupé par une mole de gaz."],
+            ["Conditions normales", "0 °C et pression atmosphérique normale."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Calcule la masse molaire de l'eau H₂O et celle du dioxygène O₂.\n2) Quelle est la quantité de matière dans 9 g d'eau ? Combien y a-t-il de molécules ?\n3) Quelle est la masse de 0,5 mol de dioxygène ?\n4) Quel volume occupent 2 mol de gaz dans les conditions normales ?",
+          "solution": "1) M(H₂O) = 2 × 1 + 16 = 18 g/mol. M(O₂) = 2 × 16 = 32 g/mol.\n2) n = 9 / 18 = 0,5 mol. N = 0,5 × 6,02 × 10²³ = 3,01 × 10²³ molécules.\n3) m = 0,5 × 32 = 16 g.\n4) V = 2 × 22,4 = 44,8 L."
+        }
+      ]
+    }
+  ]
+}
