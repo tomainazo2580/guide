@@ -365,7 +365,7 @@
         {
           "type": "exercice",
           "titre": "À toi de jouer",
-          "enonce": "Une étoile est à 8,6 années-lumière de la Terre. On donne 1 al = 9,46 × 10¹² km.\n\n1. L'année-lumière est-elle une unité de temps ou de distance ?\n2. Combien de temps la lumière de cette étoile met-elle pour nous parvenir ?\n3. Calcule la distance de cette étoile en km, en notation scientifique arrondie à un chiffre après la virgule.\n4. Quand on regarde cette étoile ce soir, telle qu'elle était à quelle époque la voit-on ?",
+          "enonce": "Une étoile est à 8,6 années-lumière de la Terre. On donne 1 al = 9,46 × 10¹² km.\n\n1. L'année-lumière est-elle une unité de temps ou de distance ?\n2. Combien de temps la lumière de cette étoile met-elle pour nous parvenir ?\n3. Calcule la distance de cette étoile en km, en notation scientifique arrondie à un chiffre après la virgule.\n4. Quand on regarde cette étoile ce soir, à quelle époque la voit-on telle qu'elle était ?",
           "solution": "1. C'est une unité de distance.\n2. La lumière met environ 8,6 ans.\n3. 8,6 × 9,46 × 10¹² = 81,356 × 10¹² km, soit environ 8,1 × 10¹³ km.\n4. On la voit telle qu'elle était il y a environ 8,6 ans."
         }
       ]
