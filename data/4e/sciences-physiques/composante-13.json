@@ -1,0 +1,392 @@
+{
+  "id": "sp4-13-transformateur-diode",
+  "titre": "Chapitre 13 : Transformateur, alternateur, diode et redressement",
+  "lecons": [
+    {
+      "id": "sp4-13-alternateur",
+      "titre": "L'alternateur",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Alternateur",
+          "texte": "Un alternateur est une machine qui transforme de l'énergie de mouvement en énergie électrique. Il fournit une tension alternative."
+        },
+        {
+          "type": "regle",
+          "titre": "Principe",
+          "texte": "Au chapitre 12, nous avons vu qu'un aimant qui bouge devant une bobine crée une tension : c'est l'induction. Dans un alternateur, un aimant tourne sans arrêt devant des bobines. La tension obtenue change de sens régulièrement : elle est alternative."
+        },
+        {
+          "type": "schema",
+          "titre": "Un alternateur simplifié",
+          "svg": "<svg width='300' height='200' viewBox='0 0 300 200' xmlns='http://www.w3.org/2000/svg'><defs><marker id='sp413a' viewBox='0 0 10 10' refX='9' refY='5' markerWidth='6' markerHeight='6' orient='auto'><path d='M0 0L10 5L0 10z' fill='#e11d48'/></marker></defs><circle cx='150' cy='100' r='80' fill='currentColor' fill-opacity='0.05' stroke='currentColor' stroke-width='2'/><rect x='135' y='26' width='30' height='22' fill='currentColor' fill-opacity='0.15' stroke='currentColor'/><rect x='135' y='152' width='30' height='22' fill='currentColor' fill-opacity='0.15' stroke='currentColor'/><rect x='76' y='89' width='22' height='22' fill='currentColor' fill-opacity='0.15' stroke='currentColor'/><rect x='202' y='89' width='22' height='22' fill='currentColor' fill-opacity='0.15' stroke='currentColor'/><rect x='110' y='88' width='40' height='24' fill='#e11d48' fill-opacity='0.35' stroke='currentColor'/><rect x='150' y='88' width='40' height='24' fill='currentColor' fill-opacity='0.15' stroke='currentColor'/><text x='130' y='105' text-anchor='middle' font-size='12' fill='currentColor'>N</text><text x='170' y='105' text-anchor='middle' font-size='12' fill='currentColor'>S</text><path d='M118 68A45 45 0 0 1 182 68' fill='none' stroke='#e11d48' stroke-width='2' marker-end='url(#sp413a)'/><text x='150' y='14' text-anchor='middle' font-size='11' fill='currentColor'>Stator (fixe) : bobines</text><text x='150' y='196' text-anchor='middle' font-size='11' fill='currentColor'>Rotor (tourne) : aimant</text></svg>",
+          "legende": "Le rotor (un aimant) tourne à l'intérieur du stator, qui porte les bobines. La tension apparaît dans les bobines."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les deux parties de l'alternateur",
+          "entetes": ["Partie", "Rôle"],
+          "lignes": [
+            ["Rotor", "Partie qui tourne. C'est un aimant ou un électroaimant."],
+            ["Stator", "Partie fixe. Il porte les bobines où apparaît la tension."]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Comment fait-on tourner le rotor ?",
+          "entetes": ["Centrale", "Ce qui entraîne le rotor"],
+          "lignes": [
+            ["Hydraulique", "L'eau qui tombe d'une hauteur fait tourner une turbine."],
+            ["Thermique à vapeur", "De l'eau est chauffée (charbon, fioul, gaz) : la vapeur fait tourner une turbine."],
+            ["Éolienne", "Le vent fait tourner les pales, reliées au rotor."]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Un alternateur ne crée pas d'énergie",
+          "texte": "Il transforme l'énergie de mouvement de la turbine en énergie électrique. La dynamo d'un vélo est un petit alternateur : plus on pédale vite, plus la lampe brille."
+        },
+        {
+          "type": "remarque",
+          "titre": "À Madagascar",
+          "texte": "La tension du secteur a une fréquence de 50 Hz : l'alternateur de la centrale est réglé pour fournir 50 périodes par seconde."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["rotor", "partie d'une machine qui tourne"],
+            ["stator", "partie d'une machine qui reste fixe"],
+            ["turbine", "grande roue à pales poussée par l'eau, la vapeur ou le vent"],
+            ["électroaimant", "bobine parcourue par un courant, qui se comporte comme un aimant"],
+            ["centrale", "usine qui produit de l'électricité"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Dans une centrale hydraulique, l'eau d'un barrage tombe et fait tourner une turbine reliée à un alternateur.\n\n1. Quelle partie de l'alternateur est fixe : le rotor ou le stator ?\n2. Quelle énergie entre dans l'alternateur ? Quelle énergie en sort ?\n3. La tension fournie est-elle continue ou alternative ?\n4. Sur un vélo, on pédale plus vite : que devient la lumière de la lampe alimentée par la dynamo ? Pourquoi ?",
+          "solution": "1. Le stator est fixe. Le rotor tourne.\n2. L'énergie de mouvement de la turbine entre dans l'alternateur. L'énergie électrique en sort.\n3. La tension est alternative.\n4. La lampe brille plus fort : le rotor tourne plus vite, donc la tension produite est plus grande."
+        }
+      ]
+    },
+    {
+      "id": "sp4-13-transformateur",
+      "titre": "Le transformateur",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Transformateur",
+          "texte": "Un transformateur est un appareil qui change la valeur d'une tension alternative. Il ne fonctionne qu'avec une tension alternative."
+        },
+        {
+          "type": "regle",
+          "titre": "Constitution",
+          "texte": "Un transformateur comporte deux bobines placées autour d'un noyau de fer.\n- La bobine primaire est reliée à la source (le secteur par exemple). La tension à ses bornes se note U₁.\n- La bobine secondaire est reliée à l'appareil à alimenter. La tension à ses bornes se note U₂.\nLes deux bobines ne sont pas reliées par un fil : l'énergie passe de l'une à l'autre par l'intermédiaire du noyau de fer."
+        },
+        {
+          "type": "schema",
+          "titre": "Schéma d'un transformateur",
+          "svg": "<svg width='320' height='200' viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg'><path d='M95 35H225V165H95Z M115 55V145H205V55Z' fill='currentColor' fill-opacity='0.18' fill-rule='evenodd' stroke='currentColor' stroke-width='1.5'/><ellipse cx='105' cy='65' rx='20' ry='6' fill='none' stroke='#e11d48' stroke-width='2'/><ellipse cx='105' cy='80' rx='20' ry='6' fill='none' stroke='#e11d48' stroke-width='2'/><ellipse cx='105' cy='95' rx='20' ry='6' fill='none' stroke='#e11d48' stroke-width='2'/><ellipse cx='105' cy='110' rx='20' ry='6' fill='none' stroke='#e11d48' stroke-width='2'/><ellipse cx='105' cy='125' rx='20' ry='6' fill='none' stroke='#e11d48' stroke-width='2'/><ellipse cx='215' cy='65' rx='20' ry='6' fill='none' stroke='currentColor' stroke-width='2'/><ellipse cx='215' cy='80' rx='20' ry='6' fill='none' stroke='currentColor' stroke-width='2'/><ellipse cx='215' cy='95' rx='20' ry='6' fill='none' stroke='currentColor' stroke-width='2'/><ellipse cx='215' cy='110' rx='20' ry='6' fill='none' stroke='currentColor' stroke-width='2'/><ellipse cx='215' cy='125' rx='20' ry='6' fill='none' stroke='currentColor' stroke-width='2'/><path d='M85 65H50V81M50 109V125H85' fill='none' stroke='currentColor'/><circle cx='50' cy='95' r='14' fill='none' stroke='currentColor'/><text x='50' y='100' text-anchor='middle' font-size='16' fill='currentColor'>~</text><path d='M235 65H280V81M280 109V125H235' fill='none' stroke='currentColor'/><circle cx='280' cy='95' r='14' fill='none' stroke='currentColor'/><path d='M270 85L290 105M290 85L270 105' stroke='currentColor'/><text x='160' y='26' text-anchor='middle' font-size='11' fill='currentColor'>Noyau de fer</text><text x='50' y='150' text-anchor='middle' font-size='11' fill='currentColor'>Primaire</text><text x='280' y='150' text-anchor='middle' font-size='11' fill='currentColor'>Secondaire</text><text x='18' y='99' text-anchor='middle' font-size='12' fill='currentColor'>U₁</text><text x='310' y='99' text-anchor='middle' font-size='12' fill='currentColor'>U₂</text></svg>",
+          "legende": "À gauche, la source alternative et la bobine primaire. À droite, la bobine secondaire et la lampe."
+        },
+        {
+          "type": "regle",
+          "titre": "Pourquoi seulement en alternatif ?",
+          "texte": "Une tension alternative change tout le temps : la bobine primaire crée donc un champ magnétique qui change tout le temps. Ce champ qui varie crée, par induction, une tension dans la bobine secondaire. Avec une pile, le champ ne varie plus : le secondaire ne donne pas de tension durable."
+        },
+        {
+          "type": "tableau",
+          "titre": "Deux types de transformateurs",
+          "entetes": ["Type", "Tension", "Exemple"],
+          "lignes": [
+            ["Élévateur", "U₂ plus grande que U₁", "Au départ d'une ligne à haute tension"],
+            ["Abaisseur", "U₂ plus petite que U₁", "Chargeur de téléphone, sonnette (de 220 V à quelques volts)"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Un transformateur ne crée pas d'énergie",
+          "texte": "Presque toute l'énergie reçue au primaire est donnée au secondaire. Un peu d'énergie est perdue sous forme de chaleur : un transformateur chauffe, il ne faut pas le couvrir. Quand la tension augmente, l'intensité diminue."
+        },
+        {
+          "type": "formule",
+          "titre": "Pour aller plus loin (hors programme)",
+          "texte": "U₂ / U₁ = N₂ / N₁\nN₁ et N₂ sont les nombres de spires (tours de fil) du primaire et du secondaire. Plus le secondaire a de spires, plus la tension U₂ est grande."
+        },
+        {
+          "type": "exemple",
+          "titre": "Application",
+          "texte": "Un primaire de 2 200 spires est branché sur 220 V. Le secondaire a 120 spires. Alors U₂ = 220 × 120 ÷ 2 200 = 12 V. Le transformateur est abaisseur."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["primaire", "bobine reliée à la source d'énergie"],
+            ["secondaire", "bobine reliée à l'appareil à alimenter"],
+            ["noyau", "pièce de fer qui relie magnétiquement les deux bobines"],
+            ["spire", "un tour de fil dans une bobine"],
+            ["élévateur", "qui augmente la tension"],
+            ["abaisseur", "qui diminue la tension"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Un chargeur contient un transformateur dont la plaque indique : primaire 220 V, secondaire 12 V.\n\n1. Quelle bobine est reliée à la prise du secteur ?\n2. Ce transformateur est-il élévateur ou abaisseur ? Justifie.\n3. On relie le primaire à une pile de 9 V. Que mesure-t-on au secondaire ? Pourquoi ?\n4. Pour aller plus loin : le primaire a 2 200 spires. Combien de spires a le secondaire ?",
+          "solution": "1. La bobine primaire.\n2. Il est abaisseur, car la tension de sortie (12 V) est plus petite que la tension d'entrée (220 V).\n3. On ne mesure pratiquement rien de durable : la pile donne une tension continue, le champ magnétique ne varie pas. Un transformateur ne fonctionne qu'en alternatif.\n4. U₂ / U₁ = N₂ / N₁, donc N₂ = 2 200 × 12 ÷ 220 = 120 spires."
+        }
+      ]
+    },
+    {
+      "id": "sp4-13-transport",
+      "titre": "Transporter l'électricité",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Effet Joule",
+          "texte": "L'effet Joule est l'échauffement d'un conducteur traversé par un courant électrique."
+        },
+        {
+          "type": "tableau",
+          "titre": "L'effet Joule : utile ou gênant ?",
+          "entetes": ["Utile", "Gênant"],
+          "lignes": [
+            ["Fer à repasser, bouilloire, grille-pain", "Les fils des lignes électriques chauffent et font perdre de l'énergie"],
+            ["Fusible : il fond et coupe le circuit en cas de surcharge", "Un chargeur ou un appareil qui chauffe trop"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Plus l'intensité est grande, plus le fil chauffe",
+          "texte": "L'échauffement augmente très vite avec l'intensité. Pour aller plus loin : si l'intensité double, la chaleur produite est multipliée par quatre."
+        },
+        {
+          "type": "schema",
+          "titre": "Le voyage de l'électricité",
+          "svg": "<svg width='300' height='195' viewBox='0 0 300 195' xmlns='http://www.w3.org/2000/svg'><defs><marker id='sp413b' viewBox='0 0 10 10' refX='9' refY='5' markerWidth='6' markerHeight='6' orient='auto'><path d='M0 0L10 5L0 10z' fill='#e11d48'/></marker></defs><rect x='40' y='4' width='220' height='26' rx='6' fill='currentColor' fill-opacity='0.08' stroke='currentColor'/><rect x='40' y='44' width='220' height='26' rx='6' fill='currentColor' fill-opacity='0.08' stroke='currentColor'/><rect x='40' y='84' width='220' height='26' rx='6' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><rect x='40' y='124' width='220' height='26' rx='6' fill='currentColor' fill-opacity='0.08' stroke='currentColor'/><rect x='40' y='164' width='220' height='26' rx='6' fill='currentColor' fill-opacity='0.08' stroke='currentColor'/><text x='150' y='22' text-anchor='middle' font-size='12' fill='currentColor'>Centrale (alternateur)</text><text x='150' y='62' text-anchor='middle' font-size='12' fill='currentColor'>Transformateur élévateur</text><text x='150' y='102' text-anchor='middle' font-size='12' fill='currentColor'>Lignes à haute tension</text><text x='150' y='142' text-anchor='middle' font-size='12' fill='currentColor'>Transformateur abaisseur</text><text x='150' y='182' text-anchor='middle' font-size='12' fill='currentColor'>Maisons : 220 V</text><line x1='150' y1='30' x2='150' y2='43' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp413b)'/><line x1='150' y1='70' x2='150' y2='83' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp413b)'/><line x1='150' y1='110' x2='150' y2='123' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp413b)'/><line x1='150' y1='150' x2='150' y2='163' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp413b)'/></svg>",
+          "legende": "De la centrale aux maisons, la tension est d'abord élevée, puis abaissée."
+        },
+        {
+          "type": "regle",
+          "titre": "Les étapes",
+          "texte": "1. L'alternateur de la centrale fournit une tension alternative.\n2. Un transformateur élévateur augmente cette tension : on obtient la haute tension (des milliers de volts, ou plus).\n3. Les lignes à haute tension transportent l'énergie sur de longues distances.\n4. Des transformateurs abaisseurs diminuent la tension en plusieurs étapes.\n5. Dans les maisons, la tension est de 220 V."
+        },
+        {
+          "type": "regle",
+          "titre": "Pourquoi la haute tension ?",
+          "texte": "Pour transporter une énergie donnée, il faut une tension grande ou une intensité grande. Si on augmente la tension, on peut diminuer l'intensité. Avec une intensité faible, les fils chauffent peu : on perd peu d'énergie par effet Joule."
+        },
+        {
+          "type": "formule",
+          "titre": "Pour aller plus loin : la puissance",
+          "texte": "P = U × I\nP en watts (W), U en volts (V), I en ampères (A). La puissance mesure l'énergie transférée chaque seconde."
+        },
+        {
+          "type": "exemple",
+          "titre": "Le disjoncteur de 10 A",
+          "texte": "Sous 220 V, un disjoncteur de 10 A autorise au plus P = 220 × 10 = 2 200 W."
+        },
+        {
+          "type": "exemple",
+          "titre": "Transporter 2 200 W",
+          "texte": "Sous 220 V : I = 2 200 ÷ 220 = 10 A. Sous 2 200 V : I = 2 200 ÷ 2 200 = 1 A. L'intensité est 10 fois plus petite : la chaleur produite dans les fils est environ 10 × 10 = 100 fois plus petite."
+        },
+        {
+          "type": "remarque",
+          "titre": "Danger",
+          "texte": "Une ligne à haute tension est dangereuse même sans toucher le fil : un arc électrique peut se produire. Reste loin des lignes et des poteaux. N'approche jamais un fil tombé au sol : préviens des adultes et la JIRAMA. Ne fais jamais voler un cerf-volant près d'une ligne."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["effet Joule", "échauffement d'un conducteur traversé par un courant"],
+            ["haute tension", "tension de plusieurs milliers de volts ou plus"],
+            ["poste de transformation", "installation qui contient des transformateurs"],
+            ["perte", "énergie qui se transforme en chaleur au lieu d'arriver au récepteur"],
+            ["puissance", "énergie transférée chaque seconde, en watts"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Une ville reçoit de l'énergie électrique d'une centrale éloignée.\n\n1. Quel appareil place-t-on à la sortie de la centrale ? Pourquoi ?\n2. Quel appareil place-t-on près des maisons ?\n3. Quel effet fait chauffer les fils des lignes ?\n4. Pour aller plus loin : une installation demande une puissance de 4 400 W. Calcule l'intensité sous 220 V, puis sous 4 400 V. Que remarques-tu ?",
+          "solution": "1. Un transformateur élévateur, pour obtenir la haute tension. L'intensité est alors plus faible et les fils chauffent moins.\n2. Un transformateur abaisseur, pour revenir à 220 V.\n3. L'effet Joule.\n4. Sous 220 V : I = 4 400 ÷ 220 = 20 A. Sous 4 400 V : I = 4 400 ÷ 4 400 = 1 A. L'intensité est 20 fois plus petite, donc la chaleur produite est environ 20 × 20 = 400 fois plus petite."
+        }
+      ]
+    },
+    {
+      "id": "sp4-13-diode",
+      "titre": "La diode",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Diode",
+          "texte": "Une diode est un composant électronique à deux bornes qui laisse passer le courant dans un seul sens."
+        },
+        {
+          "type": "schema",
+          "titre": "Symbole de la diode",
+          "svg": "<svg width='260' height='100' viewBox='0 0 260 100' xmlns='http://www.w3.org/2000/svg'><defs><marker id='sp413c' viewBox='0 0 10 10' refX='9' refY='5' markerWidth='6' markerHeight='6' orient='auto'><path d='M0 0L10 5L0 10z' fill='#e11d48'/></marker></defs><path d='M10 45H90M130 45H250' fill='none' stroke='currentColor' stroke-width='1.5'/><path d='M90 25L90 65L130 45Z' fill='#e11d48' fill-opacity='0.2' stroke='currentColor' stroke-width='1.5'/><path d='M130 25V65' stroke='currentColor' stroke-width='2.5'/><text x='50' y='32' text-anchor='middle' font-size='11' fill='currentColor'>Anode</text><text x='190' y='32' text-anchor='middle' font-size='11' fill='currentColor'>Cathode</text><line x1='85' y1='80' x2='135' y2='80' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp413c)'/><text x='110' y='96' text-anchor='middle' font-size='11' fill='currentColor'>Sens passant</text></svg>",
+          "legende": "Le courant passe de l'anode vers la cathode, dans le sens du triangle."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les deux bornes",
+          "entetes": ["Borne", "Repérage"],
+          "lignes": [
+            ["Anode", "Côté du triangle"],
+            ["Cathode", "Côté de la barre. Sur une diode réelle, une bague repère la cathode."]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Sens passant et sens bloqué",
+          "texte": "Sens passant : le courant entre par l'anode et sort par la cathode, dans le sens de la flèche du symbole. Le courant circule.\nSens bloqué : la diode est branchée à l'envers. Pratiquement aucun courant ne passe : elle se comporte comme un interrupteur ouvert."
+        },
+        {
+          "type": "schema",
+          "titre": "Deux montages avec une pile, une diode et une lampe",
+          "svg": "<svg width='330' height='140' viewBox='0 0 330 140' xmlns='http://www.w3.org/2000/svg'><path d='M10 30H60M82 30H140V55M140 75V100H10V70M10 60V30' fill='none' stroke='currentColor' stroke-width='1.5'/><path d='M2 60H18M6 70H14' stroke='currentColor' stroke-width='2'/><text x='24' y='58' font-size='12' fill='currentColor'>+</text><path d='M60 20L60 40L82 30Z' fill='#e11d48' fill-opacity='0.3' stroke='currentColor'/><path d='M82 20V40' stroke='currentColor' stroke-width='2'/><circle cx='140' cy='65' r='10' fill='#e11d48' fill-opacity='0.25' stroke='currentColor'/><path d='M133 58L147 72M147 58L133 72' stroke='currentColor'/><text x='75' y='125' text-anchor='middle' font-size='11' fill='currentColor'>Passant : lampe allumée</text><path d='M180 30H220M242 30H310V55M310 75V100H180V70M180 60V30' fill='none' stroke='currentColor' stroke-width='1.5'/><path d='M172 60H188M176 70H184' stroke='currentColor' stroke-width='2'/><text x='194' y='58' font-size='12' fill='currentColor'>+</text><path d='M242 20L242 40L220 30Z' fill='#e11d48' fill-opacity='0.3' stroke='currentColor'/><path d='M220 20V40' stroke='currentColor' stroke-width='2'/><circle cx='310' cy='65' r='10' fill='none' stroke='currentColor'/><path d='M303 58L317 72M317 58L303 72' stroke='currentColor'/><text x='245' y='125' text-anchor='middle' font-size='11' fill='currentColor'>Bloqué : lampe éteinte</text></svg>",
+          "legende": "À gauche, la diode est dans le sens passant : la lampe brille. À droite, elle est à l'envers : la lampe reste éteinte."
+        },
+        {
+          "type": "methode",
+          "titre": "Brancher une diode dans le sens passant",
+          "texte": "1. Repère l'anode (côté du triangle) et la cathode (côté de la barre).\n2. Relie l'anode vers la borne + de la pile, en passant par la lampe ou la résistance.\n3. Relie la cathode vers la borne − de la pile.\n4. Si le récepteur ne marche pas, retourne la diode."
+        },
+        {
+          "type": "definition",
+          "titre": "DEL",
+          "texte": "Une DEL (diode électroluminescente) est une diode qui émet de la lumière quand elle est traversée par un courant dans le sens passant. Elle ne s'allume pas si elle est branchée à l'envers. Sa patte la plus longue est l'anode."
+        },
+        {
+          "type": "remarque",
+          "titre": "Protéger une DEL",
+          "texte": "Une DEL ordinaire supporte un courant faible, de l'ordre de 20 mA. Branchée directement sur une pile, elle risque de griller. On place en série avec elle une résistance de protection."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["composant", "pièce électronique d'un circuit"],
+            ["anode", "borne de la diode par laquelle le courant entre dans le sens passant"],
+            ["cathode", "borne de la diode par laquelle le courant sort dans le sens passant"],
+            ["passant", "qui laisse passer le courant"],
+            ["bloqué", "qui ne laisse pas passer le courant"],
+            ["résistance de protection", "composant en série qui limite l'intensité"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "On monte en série une pile de 4,5 V, une lampe et une diode. Le courant sort de la borne + de la pile et arrive d'abord sur la cathode de la diode.\n\n1. La lampe brille-t-elle ? Justifie.\n2. On retourne la diode. Que se passe-t-il ?\n3. Pourquoi faut-il une résistance de protection en série avec une DEL ?\n4. Une DEL a une patte longue et une patte courte. Laquelle relie-t-on vers la borne + (en passant par la résistance) ?",
+          "solution": "1. Non. Le courant arrive par la cathode : la diode est dans le sens bloqué, aucun courant ne passe.\n2. La diode devient passante : le courant circule et la lampe brille.\n3. Sans résistance, l'intensité serait trop grande et la DEL risquerait de griller.\n4. La patte longue, qui est l'anode."
+        }
+      ]
+    },
+    {
+      "id": "sp4-13-redressement",
+      "titre": "Redressement et adaptateur",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Redresser une tension",
+          "texte": "Redresser une tension alternative, c'est la transformer en une tension qui garde toujours le même signe. Beaucoup d'appareils (téléphone, radio, ordinateur) ont besoin d'un courant continu."
+        },
+        {
+          "type": "regle",
+          "titre": "Redressement simple alternance",
+          "texte": "On place une seule diode en série avec le récepteur. Elle laisse passer les alternances dans le sens passant et bloque les autres. À l'oscilloscope, on ne voit que les alternances positives : entre elles, la tension est nulle. Si on retourne la diode, on garde seulement les alternances négatives."
+        },
+        {
+          "type": "regle",
+          "titre": "Redressement double alternance",
+          "texte": "On utilise quatre diodes montées en pont. Toutes les alternances sont gardées et orientées dans le même sens. Avec le secteur à 50 Hz, le récepteur reçoit 100 alternances par seconde : la tension se répète toutes les 10 ms."
+        },
+        {
+          "type": "schema",
+          "titre": "Observation à l'oscilloscope",
+          "svg": "<svg width='300' height='235' viewBox='0 0 300 235' xmlns='http://www.w3.org/2000/svg'><path d='M20 45H285M20 130H285M20 215H285' fill='none' stroke='currentColor' stroke-opacity='0.4'/><path d='M20 45Q50 -5 80 45Q110 95 140 45Q170 -5 200 45Q230 95 260 45' fill='none' stroke='#e11d48' stroke-width='2'/><path d='M20 130Q50 80 80 130H140Q170 80 200 130H260' fill='none' stroke='#e11d48' stroke-width='2'/><path d='M20 215Q50 165 80 215Q110 165 140 215Q170 165 200 215Q230 165 260 215' fill='none' stroke='#e11d48' stroke-width='2'/><text x='20' y='12' font-size='11' fill='currentColor'>Tension alternative</text><text x='20' y='97' font-size='11' fill='currentColor'>Simple alternance (1 diode)</text><text x='20' y='178' font-size='11' fill='currentColor'>Double alternance (pont de 4 diodes)</text></svg>",
+          "legende": "En haut, la tension alternative. Au milieu, une alternance sur deux est supprimée. En bas, toutes les alternances sont gardées dans le même sens."
+        },
+        {
+          "type": "tableau",
+          "titre": "Comparaison",
+          "entetes": ["Montage", "Diodes", "Alternances par seconde (secteur 50 Hz)"],
+          "lignes": [
+            ["Simple alternance", "1", "50"],
+            ["Double alternance", "4 (pont)", "100"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Le lissage",
+          "texte": "La tension redressée n'est pas encore constante : elle bat. Pour l'aplanir, on ajoute un condensateur de lissage (composant hors programme). On obtient alors une tension presque continue."
+        },
+        {
+          "type": "schema",
+          "titre": "Dans un adaptateur",
+          "svg": "<svg width='300' height='195' viewBox='0 0 300 195' xmlns='http://www.w3.org/2000/svg'><defs><marker id='sp413d' viewBox='0 0 10 10' refX='9' refY='5' markerWidth='6' markerHeight='6' orient='auto'><path d='M0 0L10 5L0 10z' fill='#e11d48'/></marker></defs><rect x='40' y='4' width='220' height='26' rx='6' fill='currentColor' fill-opacity='0.08' stroke='currentColor'/><rect x='40' y='44' width='220' height='26' rx='6' fill='currentColor' fill-opacity='0.08' stroke='currentColor'/><rect x='40' y='84' width='220' height='26' rx='6' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><rect x='40' y='124' width='220' height='26' rx='6' fill='currentColor' fill-opacity='0.08' stroke='currentColor'/><rect x='40' y='164' width='220' height='26' rx='6' fill='currentColor' fill-opacity='0.08' stroke='currentColor'/><text x='150' y='22' text-anchor='middle' font-size='12' fill='currentColor'>Secteur : 220 V alternatif</text><text x='150' y='62' text-anchor='middle' font-size='12' fill='currentColor'>Transformateur abaisseur</text><text x='150' y='102' text-anchor='middle' font-size='12' fill='currentColor'>Redressement (diodes)</text><text x='150' y='142' text-anchor='middle' font-size='12' fill='currentColor'>Lissage (condensateur)</text><text x='150' y='182' text-anchor='middle' font-size='12' fill='currentColor'>Faible tension continue</text><line x1='150' y1='30' x2='150' y2='43' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp413d)'/><line x1='150' y1='70' x2='150' y2='83' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp413d)'/><line x1='150' y1='110' x2='150' y2='123' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp413d)'/><line x1='150' y1='150' x2='150' y2='163' stroke='#e11d48' stroke-width='1.5' marker-end='url(#sp413d)'/></svg>",
+          "legende": "Les étapes d'un adaptateur classique, de la prise du secteur jusqu'à l'appareil."
+        },
+        {
+          "type": "regle",
+          "titre": "L'adaptateur (ou chargeur)",
+          "texte": "Un adaptateur transforme la tension du secteur (220 V alternative) en une faible tension continue. Il contient un transformateur abaisseur, un redresseur à diodes et un dispositif de lissage. Les chargeurs modernes sont plus petits, mais le principe reste le même : abaisser, redresser, lisser."
+        },
+        {
+          "type": "tableau",
+          "titre": "Lire la plaque d'un adaptateur",
+          "entetes": ["Inscription", "Sens"],
+          "lignes": [
+            ["INPUT (entrée)", "Ce que l'adaptateur reçoit du secteur. Exemple : 100-240 V, 50/60 Hz."],
+            ["OUTPUT (sortie)", "Ce qu'il fournit à l'appareil. Exemple : 5 V continu, 1 A. Ici, 1 A est l'intensité maximale."],
+            ["Signe ~", "Courant alternatif."],
+            ["Un trait plein au-dessus d'un trait en pointillé", "Courant continu."]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Sécurité",
+          "texte": "N'ouvre jamais un adaptateur : il peut rester une tension dangereuse à l'intérieur. N'utilise pas un chargeur dont le fil est abîmé. Ne le touche pas avec des mains mouillées. Pour le débrancher, tire sur la fiche, pas sur le fil."
+        },
+        {
+          "type": "regle",
+          "titre": "Ce qu'il faut retenir du chapitre",
+          "texte": "- L'alternateur transforme l'énergie de mouvement en énergie électrique alternative.\n- Le transformateur change la valeur d'une tension alternative.\n- La haute tension réduit les pertes par effet Joule dans les lignes.\n- La diode ne laisse passer le courant que dans un sens.\n- Le redressement transforme une tension alternative en une tension de même signe.\n- Un adaptateur contient un transformateur abaisseur, un redresseur et un lissage."
+        },
+        {
+          "type": "remarque",
+          "titre": "La suite",
+          "texte": "Le chapitre 14 commence la partie sur la lumière : les sources, la propagation et la vitesse de la lumière."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["redresser", "transformer une tension alternative en une tension de même signe"],
+            ["alternance", "partie d'une période où la tension garde le même signe"],
+            ["pont de diodes", "montage de quatre diodes pour le redressement double alternance"],
+            ["lissage", "opération qui rend la tension presque constante"],
+            ["condensateur", "composant qui emmagasine un peu d'énergie électrique"],
+            ["adaptateur", "appareil qui fournit à un récepteur la tension dont il a besoin"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Une diode est placée en série avec une résistance. L'ensemble est alimenté par le secteur à 50 Hz.\n\n1. Quel type de redressement est réalisé ?\n2. Combien d'alternances traversent la résistance en une seconde ?\n3. Avec un pont de quatre diodes, combien d'alternances par seconde ? Quelle est la durée entre deux sommets successifs ?\n4. Un adaptateur porte : INPUT 220 V, 50 Hz ; OUTPUT 6 V continu. Cite, dans l'ordre, les trois éléments qu'il contient.",
+          "solution": "1. Un redressement simple alternance.\n2. 50 alternances par seconde, car une seule alternance sur deux est gardée.\n3. 100 alternances par seconde. La durée entre deux sommets est 1 ÷ 100 = 0,01 s = 10 ms.\n4. Un transformateur abaisseur, un redresseur à diodes, un dispositif de lissage."
+        }
+      ]
+    }
+  ]
+}
