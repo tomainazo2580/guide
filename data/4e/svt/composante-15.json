@@ -1,0 +1,420 @@
+{
+  "id": "svt4-15-fecondation-grossesse",
+  "titre": "Fécondation, grossesse, accouchement et allaitement",
+  "lecons": [
+    {
+      "id": "svt4-15-l1-fecondation",
+      "titre": "La fécondation",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Fécondation",
+          "texte": "La fécondation est la rencontre et la fusion d'un spermatozoïde et d'un ovule. Elle donne une seule cellule, la cellule-œuf, qui est la première cellule du futur enfant."
+        },
+        {
+          "type": "methode",
+          "titre": "Du rapport sexuel à la fécondation",
+          "texte": "1. Lors d'un rapport sexuel, le pénis est placé dans le vagin. L'éjaculation dépose le sperme au fond du vagin, près du col de l'utérus.\n2. Les spermatozoïdes nagent grâce à leur flagelle (leur queue). Ils traversent le col, l'utérus, puis la trompe. Les contractions de l'utérus et des trompes les aident.\n3. Des dizaines de millions de spermatozoïdes sont déposés, mais seuls quelques centaines arrivent près de l'ovule.\n4. Si l'ovulation a eu lieu récemment (chapitre 14), l'ovule se trouve dans la trompe. La fécondation a lieu en général dans la partie de la trompe proche de l'ovaire.\n5. Un seul spermatozoïde traverse l'enveloppe de l'ovule et y fait entrer sa tête, qui contient son noyau. Sa queue reste à l'extérieur. L'ovule se modifie aussitôt : les autres spermatozoïdes ne peuvent plus entrer.\n6. Le noyau du spermatozoïde et le noyau de l'ovule fusionnent : la cellule-œuf est formée."
+        },
+        {
+          "type": "schema",
+          "titre": "Les étapes de la fécondation",
+          "svg": "<svg width='560' height='190' viewBox='0 0 560 190' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='12'><defs><marker id='fl15a' markerWidth='8' markerHeight='8' refX='6' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='currentColor'/></marker></defs><g fill='none' stroke='currentColor' stroke-width='1.5'><circle cx='70' cy='70' r='34' fill='currentColor' fill-opacity='0.08'/><circle cx='210' cy='70' r='34' fill='currentColor' fill-opacity='0.08'/><circle cx='350' cy='70' r='34' fill='currentColor' fill-opacity='0.08'/><circle cx='490' cy='70' r='34' fill='currentColor' fill-opacity='0.08'/><line x1='110' y1='70' x2='142' y2='70' marker-end='url(#fl15a)'/><line x1='250' y1='70' x2='312' y2='70' marker-end='url(#fl15a)'/><line x1='390' y1='70' x2='452' y2='70' marker-end='url(#fl15a)'/><path d='M36,46 q-5,-4 -10,0 q-5,4 -10,0' stroke-width='1.2'/><path d='M26,70 q-5,-4 -10,0 q-5,4 -10,0' stroke-width='1.2'/><path d='M36,94 q-5,-4 -10,0 q-5,4 -10,0' stroke-width='1.2'/><path d='M179,43 q-6,-4 -12,0 q-6,4 -12,0' stroke-width='1.2'/><path d='M179,97 q-6,-4 -12,0 q-6,4 -12,0' stroke-width='1.2'/><path d='M186,70 q-6,-4 -12,0 q-6,4 -12,0' stroke-width='1.2'/></g><g fill='currentColor'><circle cx='40' cy='46' r='4'/><circle cx='30' cy='70' r='4'/><circle cx='40' cy='94' r='4'/><circle cx='183' cy='43' r='4'/><circle cx='183' cy='97' r='4'/><circle cx='190' cy='70' r='4'/><circle cx='338' cy='70' r='9' fill-opacity='0.3'/></g><g fill='#e11d48'><circle cx='70' cy='70' r='9' fill-opacity='0.5'/><circle cx='222' cy='70' r='9' fill-opacity='0.5'/><circle cx='362' cy='70' r='9' fill-opacity='0.5'/><circle cx='490' cy='70' r='14' fill-opacity='0.5'/></g><g fill='currentColor' text-anchor='middle'><text x='338' y='73' font-size='9'>23</text><text x='362' y='73' font-size='9'>23</text><text x='490' y='74' font-size='11'>46</text><text x='70' y='135' font-size='11'>1. Les spermatozoïdes</text><text x='70' y='151' font-size='11'>entourent l'ovule</text><text x='210' y='135' font-size='11'>2. Un seul pénètre</text><text x='210' y='151' font-size='11'>dans l'ovule</text><text x='350' y='135' font-size='11'>3. Les deux noyaux</text><text x='350' y='151' font-size='11'>s'approchent</text><text x='490' y='135' font-size='11'>4. Fusion des noyaux :</text><text x='490' y='151' font-size='11'>cellule-œuf</text><text x='280' y='180'>La fécondation a lieu dans la trompe, dans les 24 heures après l'ovulation</text></g></svg>",
+          "legende": "Schéma simplifié (les tailles ne sont pas respectées). Le noyau de l'ovule (rouge) et celui du spermatozoïde (gris) contiennent chacun 23 chromosomes."
+        },
+        {
+          "type": "remarque",
+          "titre": "Quand une fécondation est-elle possible ?",
+          "texte": "Seulement si un rapport sexuel a lieu pendant la période féconde (chapitre 14) : quelques jours avant l'ovulation, car les spermatozoïdes survivent de 3 à 5 jours, ou dans les 12 à 24 heures après. Un rapport sexuel, même le premier, peut donc entraîner une grossesse (chapitre 16)."
+        },
+        {
+          "type": "definition",
+          "titre": "Cellule-œuf",
+          "texte": "La cellule-œuf est la cellule formée par la fusion des noyaux du spermatozoïde et de l'ovule. Le spermatozoïde et l'ovule ont chacun 23 chromosomes ; la cellule-œuf en a 23 + 23 = 46, comme les autres cellules ordinaires du corps (chapitre 13). Elle reçoit la moitié des caractères héréditaires du père et la moitié de ceux de la mère."
+        },
+        {
+          "type": "regle",
+          "titre": "Le sexe de l'enfant",
+          "texte": "Le sexe de l'enfant est déterminé dès la fécondation, par le spermatozoïde. Tous les ovules portent le chromosome sexuel X. La moitié des spermatozoïdes portent un X, l'autre moitié un Y. À chaque grossesse, il y a donc environ 1 chance sur 2 d'avoir une fille et 1 chance sur 2 d'avoir un garçon."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les deux possibilités",
+          "entetes": ["Ovule", "Spermatozoïde", "Cellule-œuf", "Enfant"],
+          "lignes": [
+            ["X", "X", "XX", "fille"],
+            ["X", "Y", "XY", "garçon"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Ce n'est jamais la faute de la mère",
+          "texte": "Le sexe de l'enfant dépend du spermatozoïde qui féconde l'ovule, et du hasard. Si un couple n'a que des filles ou que des garçons, la mère n'y est pour rien et personne ne doit la blâmer."
+        },
+        {
+          "type": "remarque",
+          "titre": "Les jumeaux",
+          "texte": "Faux jumeaux : deux ovules libérés lors du même cycle sont fécondés par deux spermatozoïdes différents. Ils peuvent être de sexes différents et se ressemblent comme des frères et sœurs. Vrais jumeaux : une seule cellule-œuf se sépare en deux au début de son développement. Ils ont le même sexe et se ressemblent beaucoup."
+        },
+        {
+          "type": "remarque",
+          "titre": "Quand un couple n'arrive pas à avoir d'enfant",
+          "texte": "Si un couple n'a pas d'enfant après plus d'un an de rapports réguliers, la cause peut venir de l'homme, de la femme ou des deux. Il faut consulter ensemble un agent de santé : ce n'est la faute de personne, et certaines causes se soignent."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Fécondation", "Fusion d'un spermatozoïde et d'un ovule"],
+            ["Cellule-œuf", "Première cellule du futur enfant, formée par la fécondation"],
+            ["Flagelle", "Queue du spermatozoïde qui lui permet de nager"],
+            ["Éjaculation", "Sortie du sperme par le pénis"],
+            ["Chromosome", "Petit filament du noyau qui porte les caractères héréditaires"],
+            ["Faux jumeaux", "Jumeaux nés de deux ovules différents"],
+            ["Vrais jumeaux", "Jumeaux nés d'une seule cellule-œuf"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Un spermatozoïde avance à la vitesse d'environ 3 mm par minute. Dans un modèle simplifié, il avance en ligne droite jusqu'à l'ovule et doit parcourir le vagin (9 cm), l'utérus (7 cm) et la trompe (11 cm).\n\n1. Quelle est la distance totale, en cm puis en mm ?\n2. Quelle durée faut-il pour la parcourir ? Donne le résultat en minutes, puis en heures et minutes.\n3. L'ovule reste fécondable 12 à 24 heures. Le spermatozoïde a-t-il le temps d'arriver ? Justifie.\n4. Combien de spermatozoïdes entrent dans l'ovule ? Que deviennent les deux noyaux ?\n5. Un couple a déjà trois filles. Quelle chance a leur prochain enfant d'être un garçon ? Explique.",
+          "solution": "1. 9 + 7 + 11 = 27 cm, soit 27 × 10 = 270 mm.\n2. 270 ÷ 3 = 90 minutes, soit 1 h 30 min.\n3. Oui : 1 h 30 est très inférieur à 12 heures, la durée minimale pendant laquelle l'ovule reste fécondable. En réalité, les contractions de l'utérus et des trompes aident aussi les spermatozoïdes.\n4. Un seul spermatozoïde entre dans l'ovule. Les deux noyaux fusionnent : la cellule-œuf a 23 + 23 = 46 chromosomes.\n5. 1 chance sur 2 (50 %). Le sexe dépend du spermatozoïde (X ou Y) qui féconde l'ovule ; chaque grossesse est un nouveau hasard et le nombre de filles déjà nées ne change rien."
+        }
+      ]
+    },
+    {
+      "id": "svt4-15-l2-segmentation-nidation",
+      "titre": "De la cellule-œuf à l'embryon : segmentation et nidation",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Segmentation",
+          "texte": "La segmentation est la suite de divisions rapides de la cellule-œuf : elle se divise en 2 cellules, puis chacune en 2, et ainsi de suite. Les cellules restent groupées et l'ensemble ne grossit presque pas au début."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les premiers jours après la fécondation",
+          "entetes": ["Jour", "Étape", "Où ?"],
+          "lignes": [
+            ["Jour 0", "Fécondation : une cellule-œuf", "Dans la trompe"],
+            ["Jour 1", "2 cellules", "Dans la trompe"],
+            ["Jour 2", "4 cellules", "Dans la trompe"],
+            ["Jour 3", "8 à 16 cellules", "Dans la trompe"],
+            ["Jours 4 à 5", "Amas de nombreuses cellules", "Il arrive dans l'utérus"],
+            ["Jours 6 à 7", "Nidation", "Dans l'endomètre"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Du jour 0 à la nidation",
+          "svg": "<svg width='560' height='180' viewBox='0 0 560 180' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='12'><defs><marker id='fl15b' markerWidth='8' markerHeight='8' refX='6' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='currentColor'/></marker></defs><g fill='currentColor' text-anchor='middle'><text x='180' y='20'>Dans la trompe</text><text x='452' y='20'>Dans l'utérus</text><text x='60' y='140'>Jour 0</text><text x='60' y='156'>cellule-œuf</text><text x='170' y='140'>Jour 1</text><text x='170' y='156'>2 cellules</text><text x='280' y='140'>Jour 2</text><text x='280' y='156'>4 cellules</text><text x='390' y='140'>Jours 4 à 5</text><text x='390' y='156'>amas de cellules</text><text x='497' y='140'>Jours 6 à 7</text><text x='497' y='156'>nidation</text><text x='497' y='102' font-size='11'>endomètre</text></g><g fill='none' stroke='currentColor' stroke-width='1.5'><line x1='30' y1='28' x2='330' y2='28'/><line x1='360' y1='28' x2='545' y2='28'/><circle cx='60' cy='70' r='20' fill='#e11d48' fill-opacity='0.15'/><circle cx='170' cy='70' r='22'/><circle cx='160' cy='70' r='9.5' fill='#e11d48' fill-opacity='0.15'/><circle cx='180' cy='70' r='9.5' fill='#e11d48' fill-opacity='0.15'/><circle cx='280' cy='70' r='24'/><circle cx='270' cy='60' r='9.5' fill='#e11d48' fill-opacity='0.15'/><circle cx='290' cy='60' r='9.5' fill='#e11d48' fill-opacity='0.15'/><circle cx='270' cy='80' r='9.5' fill='#e11d48' fill-opacity='0.15'/><circle cx='290' cy='80' r='9.5' fill='#e11d48' fill-opacity='0.15'/><circle cx='390' cy='70' r='26'/><circle cx='390' cy='70' r='7' fill='#e11d48' fill-opacity='0.15'/><circle cx='404' cy='70' r='7' fill='#e11d48' fill-opacity='0.15'/><circle cx='397' cy='82.1' r='7' fill='#e11d48' fill-opacity='0.15'/><circle cx='383' cy='82.1' r='7' fill='#e11d48' fill-opacity='0.15'/><circle cx='376' cy='70' r='7' fill='#e11d48' fill-opacity='0.15'/><circle cx='383' cy='57.9' r='7' fill='#e11d48' fill-opacity='0.15'/><circle cx='397' cy='57.9' r='7' fill='#e11d48' fill-opacity='0.15'/><rect x='450' y='62' width='95' height='50' fill='currentColor' fill-opacity='0.12'/><circle cx='497' cy='66' r='12' fill='#e11d48' fill-opacity='0.6'/><line x1='86' y1='70' x2='142' y2='70' marker-end='url(#fl15b)'/><line x1='198' y1='70' x2='250' y2='70' marker-end='url(#fl15b)'/><line x1='310' y1='70' x2='358' y2='70' marker-end='url(#fl15b)'/><line x1='424' y1='70' x2='446' y2='70' marker-end='url(#fl15b)'/></g><circle cx='60' cy='70' r='6' fill='#e11d48'/></svg>",
+          "legende": "Schéma simplifié : les cellules sont dessinées plus grandes que dans la réalité et leur nombre est schématique. Le jour 0 est le jour de la fécondation."
+        },
+        {
+          "type": "exemple",
+          "titre": "Compter les cellules",
+          "texte": "Si chaque cellule se divise en 2 toutes les 24 heures (modèle simplifié), le nombre de cellules double chaque jour : 1, 2, 4, 8, 16, 32... Après 5 jours, il y a 2 × 2 × 2 × 2 × 2 = 32 cellules."
+        },
+        {
+          "type": "definition",
+          "titre": "Nidation",
+          "texte": "La nidation est l'installation de l'embryon dans l'endomètre de l'utérus, vers le 6e ou le 7e jour après la fécondation. L'embryon s'enfonce dans la muqueuse épaisse, riche en vaisseaux sanguins et en glandes, préparée par la progestérone (chapitre 14). Il y trouve de quoi se nourrir."
+        },
+        {
+          "type": "regle",
+          "titre": "Le début de la grossesse",
+          "texte": "On parle de grossesse à partir de la nidation. Si la nidation n'a pas lieu, l'amas de cellules est éliminé et il n'y a pas de grossesse."
+        },
+        {
+          "type": "remarque",
+          "titre": "Pourquoi les règles ne reviennent pas",
+          "texte": "Après la nidation, l'embryon fabrique une hormone, l'hormone hCG. Elle empêche le corps jaune de disparaître. Le corps jaune continue de fabriquer de la progestérone : l'endomètre reste épais et ne se détache pas. C'est pourquoi un retard de règles peut signaler une grossesse. Les tests de grossesse détectent l'hormone hCG dans l'urine."
+        },
+        {
+          "type": "tableau",
+          "titre": "Embryon et fœtus",
+          "entetes": ["Nom", "Période", "Ce qui se passe"],
+          "lignes": [
+            ["Embryon", "De la fécondation à la fin du 2e mois", "Les organes se mettent en place"],
+            ["Fœtus", "Du 3e mois à la naissance", "Il grandit et ses organes se perfectionnent"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Quand l'embryon s'installe au mauvais endroit",
+          "texte": "Parfois, l'embryon se fixe en dehors de l'utérus, le plus souvent dans la trompe : c'est une grossesse extra-utérine. Elle ne peut pas continuer et elle est dangereuse pour la mère. De fortes douleurs d'un côté du ventre, avec ou sans saignement, après un retard de règles, sont une urgence : il faut aller tout de suite au centre de santé."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Segmentation", "Divisions successives de la cellule-œuf"],
+            ["Amas", "Groupe de cellules serrées les unes contre les autres"],
+            ["Nidation", "Installation de l'embryon dans l'endomètre"],
+            ["Embryon", "Futur enfant pendant les deux premiers mois"],
+            ["Fœtus", "Futur enfant du 3e mois jusqu'à la naissance"],
+            ["hCG", "Hormone fabriquée par l'embryon ; elle maintient le corps jaune"],
+            ["Grossesse extra-utérine", "Grossesse où l'embryon se fixe hors de l'utérus"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Dans un modèle simplifié, chaque cellule d'un embryon se divise en 2 toutes les 24 heures. La fécondation (jour 0) a lieu le jour 14 d'un cycle de 28 jours.\n\n1. Combien y a-t-il de cellules aux jours 1, 2, 3, 4 et 5 après la fécondation ?\n2. Au bout de combien de jours dépasse-t-on 100 cellules ? (Calcule 2⁶ et 2⁷.)\n3. À quels jours du cycle a lieu la nidation (6 à 7 jours après la fécondation) ?\n4. Combien de jours séparent la nidation du jour où les règles étaient attendues (jour 29) ?\n5. Pourquoi l'embryon ne peut-il pas s'installer dans l'endomètre mince du début des règles ?\n6. Comment l'embryon empêche-t-il l'arrivée des règles ?",
+          "solution": "1. 2, 4, 8, 16 et 32 cellules.\n2. 2⁶ = 64 (moins de 100) et 2⁷ = 128 (plus de 100) : il faut 7 jours.\n3. 14 + 6 = jour 20 et 14 + 7 = jour 21 : la nidation a lieu aux jours 20 à 21.\n4. 29 − 21 = 8 et 29 − 20 = 9 : les règles étaient attendues 8 à 9 jours après la nidation.\n5. Au début des règles, l'endomètre est mince et il se détache : il n'a pas assez de vaisseaux ni de glandes pour nourrir l'embryon. Celui-ci doit s'enfoncer dans un endomètre épais, préparé par la progestérone (jours 15 à 28).\n6. L'embryon fabrique l'hormone hCG. Elle maintient le corps jaune, qui continue de fabriquer la progestérone : l'endomètre reste épais et ne se détache pas."
+        }
+      ]
+    },
+    {
+      "id": "svt4-15-l3-placenta-grossesse",
+      "titre": "Le placenta et la grossesse",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Grossesse",
+          "texte": "La grossesse est la période pendant laquelle un embryon, puis un fœtus, se développe dans l'utérus de la mère, de la nidation à la naissance. Elle dure environ 9 mois."
+        },
+        {
+          "type": "regle",
+          "titre": "Durée de la grossesse",
+          "texte": "Les médecins comptent la grossesse à partir du premier jour des dernières règles : elle dure 40 semaines, soit 40 × 7 = 280 jours. Comme la fécondation a lieu environ 14 jours après ce premier jour (chapitre 14), le bébé se développe en réalité pendant environ 38 semaines, soit 266 jours."
+        },
+        {
+          "type": "exemple",
+          "titre": "Calculer la date prévue d'accouchement",
+          "texte": "Premier jour des dernières règles : 1er mars. Du 1er mars au 1er décembre, il y a 275 jours. Il reste 280 − 275 = 5 jours : la date prévue d'accouchement est le 6 décembre. Peu de bébés naissent exactement à la date prévue : une naissance entre 37 et 42 semaines est normale."
+        },
+        {
+          "type": "remarque",
+          "titre": "Les signes de grossesse",
+          "texte": "Un retard de règles, des nausées (surtout le matin), de la fatigue, des seins gonflés et sensibles, des envies fréquentes d'uriner. Ces signes ne sont pas sûrs. Pour savoir, on fait un test de grossesse (fiable à partir du jour du retard de règles) ou on consulte un agent de santé."
+        },
+        {
+          "type": "definition",
+          "titre": "Placenta, cordon ombilical et liquide amniotique",
+          "texte": "Le placenta est un organe en forme de galette, fixé à la paroi de l'utérus. Il se forme à partir de la nidation et il est complet vers le 3e mois. À la fin de la grossesse, il mesure environ 20 cm de diamètre et pèse environ 500 g. Il est relié au fœtus par le cordon ombilical, long d'environ 50 cm. Le fœtus baigne dans le liquide amniotique, contenu dans la poche des eaux : ce liquide le protège des chocs et garde une température constante."
+        },
+        {
+          "type": "schema",
+          "titre": "Le fœtus dans l'utérus",
+          "svg": "<svg width='560' height='250' viewBox='0 0 560 250' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='12'><g fill='none' stroke='currentColor' stroke-width='1.5'><ellipse cx='230' cy='130' rx='140' ry='105' stroke-width='2' fill='currentColor' fill-opacity='0.04'/><ellipse cx='230' cy='130' rx='118' ry='88' fill='#e11d48' fill-opacity='0.06'/><ellipse cx='345' cy='95' rx='22' ry='45' fill='#e11d48' fill-opacity='0.45'/><path d='M205,130 C235,170 285,160 285,120' stroke-opacity='0.3' stroke-width='22' stroke-linecap='round'/><circle cx='195' cy='118' r='20' fill='currentColor' fill-opacity='0.1'/><path d='M262,148 C290,150 300,120 325,105' stroke='#e11d48' stroke-width='4'/><line x1='383' y1='57' x2='364' y2='80' stroke-width='1'/><line x1='383' y1='107' x2='303' y2='126' stroke-width='1'/><line x1='383' y1='162' x2='320' y2='168' stroke-width='1'/><line x1='383' y1='212' x2='330' y2='206' stroke-width='1'/><line x1='44' y1='38' x2='180' y2='106' stroke-width='1'/></g><g fill='currentColor'><text x='388' y='61'>Placenta</text><text x='388' y='111'>Cordon ombilical</text><text x='388' y='166'>Liquide amniotique</text><text x='388' y='216'>Paroi de l'utérus</text><text x='8' y='34'>Fœtus</text></g></svg>",
+          "legende": "Schéma simplifié d'un fœtus de plusieurs mois. Le sang de la mère et celui du fœtus ne se mélangent pas : les échanges se font dans le placenta."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les échanges dans le placenta",
+          "entetes": ["Sens", "Substances échangées"],
+          "lignes": [
+            ["De la mère vers le fœtus", "Oxygène, nutriments (glucose, acides aminés, lipides), eau, sels minéraux, vitamines, anticorps de la mère"],
+            ["Du fœtus vers la mère", "Dioxyde de carbone, déchets (urée)"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Le sang de la mère et celui du fœtus",
+          "texte": "Ils ne se mélangent jamais : les échanges se font par diffusion à travers de fines parois. Le fœtus reçoit son oxygène et ses nutriments par le sang de la mère : ses poumons ne servent pas encore à respirer (chapitre 11). Le cordon contient trois vaisseaux : une veine qui apporte au fœtus du sang riche en oxygène et en nutriments, et deux artères qui ramènent vers le placenta du sang pauvre en oxygène et chargé de déchets (une artère part du cœur, ici celui du fœtus : chapitre 10). À partir du 3e mois, le placenta fabrique aussi des hormones (progestérone, œstrogènes) et remplace le corps jaune."
+        },
+        {
+          "type": "tableau",
+          "titre": "La croissance du fœtus (valeurs moyennes approximatives)",
+          "entetes": ["Mois de grossesse", "Taille", "Masse", "Repères"],
+          "lignes": [
+            ["1 mois", "0,5 cm", "moins de 1 g", "Le cœur commence à battre"],
+            ["2 mois", "3 cm", "quelques g", "Visage, bras et jambes visibles : fin du stade embryon"],
+            ["3 mois", "8 cm", "30 g", "Le placenta est complet"],
+            ["4 mois", "16 cm", "150 g", "Le sexe peut être vu à l'échographie"],
+            ["5 mois", "25 cm", "500 g", "La mère sent bouger le bébé"],
+            ["6 mois", "32 cm", "1 000 g", "Le bébé réagit aux bruits"],
+            ["9 mois", "50 cm", "3 000 g", "Le bébé est prêt à naître"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Le placenta laisse aussi passer le danger",
+          "texte": "Ce qui se trouve dans le sang de la mère peut passer chez le fœtus : l'alcool, la nicotine du tabac, les drogues, beaucoup de médicaments et certains microbes."
+        },
+        {
+          "type": "tableau",
+          "titre": "Dangers pour l'enfant à naître et prévention",
+          "entetes": ["Danger", "Effet possible", "Prévention"],
+          "lignes": [
+            ["Alcool", "Retard de croissance, atteinte du cerveau", "Ne pas boire d'alcool pendant la grossesse"],
+            ["Tabac", "Petit poids de naissance, naissance prématurée", "Ne pas fumer, éviter la fumée des autres"],
+            ["Médicaments, drogues, certaines plantes", "Malformations ou autres dangers", "Ne rien prendre sans l'avis d'un agent de santé"],
+            ["Rubéole", "Malformations (cœur, yeux, oreilles)", "Se faire vacciner avant la grossesse"],
+            ["Paludisme", "Anémie de la mère, petit poids, naissance prématurée", "Moustiquaire imprégnée et traitement préventif donné en consultation"],
+            ["VIH et syphilis", "Transmission de la mère à l'enfant", "Dépistage et traitement (chapitre 16)"],
+            ["Manque d'aliments variés", "Petit poids de naissance", "Manger varié (chapitre 7)"],
+            ["Tétanos", "Tétanos du nouveau-né à l'accouchement", "Vaccin antitétanique de la mère"]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Bien vivre sa grossesse",
+          "texte": "1. Dès le retard de règles, aller à la première consultation prénatale (CPN), puis faire au moins 4 consultations pendant la grossesse (l'OMS en conseille 8).\n2. À la consultation : pesée, mesure de la tension, analyse d'urine, prise de sang (anémie, groupe sanguin et Rhésus, chapitre 9), échographie si possible, vaccin antitétanique, comprimés de fer et d'acide folique, traitement préventif du paludisme, dépistage du VIH et de la syphilis.\n3. Manger varié et un peu plus qu'avant (chapitre 7), boire de l'eau propre (chapitre 8).\n4. Se reposer assez, éviter les efforts très lourds, mais garder ses activités normales.\n5. Ne pas fumer, ne pas boire d'alcool, ne prendre aucun médicament sans avis.\n6. Prévoir à l'avance le lieu de l'accouchement (centre de santé) et le moyen de transport."
+        },
+        {
+          "type": "remarque",
+          "titre": "Signes de danger : aller tout de suite au centre de santé",
+          "texte": "Saignement par le vagin, forte fièvre, maux de tête violents avec vue troublée et gonflement du visage ou des mains, fortes douleurs au ventre, écoulement de liquide avant terme, bébé qui ne bouge plus, convulsions."
+        },
+        {
+          "type": "remarque",
+          "titre": "Fausse couche",
+          "texte": "Une fausse couche est l'arrêt spontané d'une grossesse dans les premiers mois. Elle est assez fréquente et vient le plus souvent d'un problème de développement de l'embryon. Ce n'est pas la faute de la femme. En cas de saignements ou de douleurs, il faut consulter."
+        },
+        {
+          "type": "remarque",
+          "titre": "Une grossesse trop jeune est dangereuse",
+          "texte": "Avant 18 ans, le corps n'a pas fini de grandir (chapitre 12). Le bassin est encore étroit, ce qui rend l'accouchement plus difficile, et il y a plus de risques d'anémie, d'hypertension, de naissance prématurée et de bébé de petit poids. Les études sont aussi souvent interrompues. Une jeune fille enceinte doit consulter rapidement et être soutenue par sa famille et son école, sans être rejetée."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Placenta", "Organe en forme de galette où se font les échanges entre la mère et le fœtus"],
+            ["Cordon ombilical", "Tube qui relie le fœtus au placenta"],
+            ["Liquide amniotique", "Liquide qui entoure et protège le fœtus"],
+            ["Prématuré", "Né avant la 37e semaine de grossesse"],
+            ["CPN", "Consultation prénatale : visite de suivi pendant la grossesse"],
+            ["Anémie", "Manque de globules rouges ou de fer dans le sang"],
+            ["Date prévue d'accouchement", "Date calculée de la naissance : 280 jours après le premier jour des dernières règles"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Fatima a eu ses dernières règles le 5 avril (jour 1). Du 5 avril au 5 janvier suivant, il y a 275 jours.\n\n1. Quelle est la date prévue de son accouchement (280 jours après le 5 avril) ?\n2. Combien de semaines dure la grossesse comptée à partir des dernières règles ?\n3. Un bébé naît à 34 semaines. Combien de semaines avant la date prévue est-il né ? Est-il prématuré ?\n4. Un fœtus pèse 150 g à 4 mois et 3 000 g à 9 mois. Combien de fois sa masse a-t-elle été multipliée ?\n5. Cite deux substances qui passent de la mère au fœtus et deux qui passent du fœtus à la mère.\n6. Pourquoi une femme enceinte ne doit-elle ni fumer ni boire d'alcool ?",
+          "solution": "1. 280 − 275 = 5 : la date prévue est le 10 janvier.\n2. 280 ÷ 7 = 40 semaines.\n3. 40 − 34 = 6 semaines avant la date prévue. Comme 34 est inférieur à 37, le bébé est prématuré.\n4. 3 000 ÷ 150 = 20 : sa masse a été multipliée par 20.\n5. De la mère vers le fœtus : l'oxygène, les nutriments (glucose, acides aminés...), l'eau, les anticorps. Du fœtus vers la mère : le dioxyde de carbone et l'urée (déchets).\n6. La nicotine et l'alcool traversent le placenta et passent dans le sang du fœtus. Ils peuvent provoquer un petit poids de naissance, une naissance prématurée ou une atteinte du cerveau."
+        }
+      ]
+    },
+    {
+      "id": "svt4-15-l4-naissance-allaitement",
+      "titre": "L'accouchement et l'allaitement",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Accouchement",
+          "texte": "L'accouchement est la naissance : l'enfant sort de l'utérus de sa mère par le vagin, vers la fin du 9e mois (environ 40 semaines). Les muscles de l'utérus se contractent pour le pousser vers l'extérieur."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les trois phases de l'accouchement",
+          "entetes": ["Phase", "Ce qui se passe", "Durée"],
+          "lignes": [
+            ["Dilatation", "Les contractions de l'utérus deviennent régulières et fortes ; le col s'ouvre jusqu'à environ 10 cm ; la poche des eaux se rompt", "Plusieurs heures, souvent plus longue pour un premier enfant"],
+            ["Expulsion", "La mère pousse au rythme des contractions ; l'enfant descend dans le vagin et naît, le plus souvent la tête en premier", "Variable, de quelques minutes à plus d'une heure"],
+            ["Délivrance", "De nouvelles contractions décollent et expulsent le placenta, avec une partie du cordon", "Dans la demi-heure qui suit la naissance"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Les trois phases de l'accouchement",
+          "svg": "<svg width='560' height='215' viewBox='0 0 560 215' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='12'><defs><marker id='fl15d' markerWidth='8' markerHeight='8' refX='6' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='currentColor'/></marker></defs><g fill='none' stroke='currentColor' stroke-width='1.5'><path d='M75,125 A45,50 0 1 1 115,125'/><path d='M75,125 L87,135 L87,165'/><path d='M115,125 L103,135 L103,165'/><path d='M95,55 L95,85' stroke-opacity='0.3' stroke-width='26' stroke-linecap='round'/><circle cx='95' cy='100' r='18' fill='currentColor' fill-opacity='0.1'/><path d='M260,125 A45,50 0 1 1 300,125'/><path d='M260,125 L260,165'/><path d='M300,125 L300,165'/><path d='M280,88 L280,120' stroke-opacity='0.3' stroke-width='26' stroke-linecap='round'/><circle cx='280' cy='138' r='18' fill='currentColor' fill-opacity='0.1'/><path d='M445,125 A45,50 0 1 1 485,125'/><path d='M445,125 L445,165'/><path d='M485,125 L485,165'/><ellipse cx='465' cy='100' rx='22' ry='12' fill='#e11d48' fill-opacity='0.45'/><path d='M465,112 L465,172' stroke='#e11d48' stroke-width='3'/><line x1='150' y1='95' x2='228' y2='95' marker-end='url(#fl15d)'/><line x1='335' y1='95' x2='412' y2='95' marker-end='url(#fl15d)'/></g><g fill='currentColor' text-anchor='middle'><text x='95' y='192'>1. Dilatation</text><text x='95' y='208'>Le col s'ouvre</text><text x='280' y='192'>2. Expulsion</text><text x='280' y='208'>Le bébé naît</text><text x='465' y='192'>3. Délivrance</text><text x='465' y='208'>Le placenta sort</text></g></svg>",
+          "legende": "Schéma simplifié. 1 : les contractions ouvrent le col. 2 : la tête sort en premier. 3 : le bébé est déjà né ; le placenta est expulsé avec une partie du cordon."
+        },
+        {
+          "type": "remarque",
+          "titre": "Les premiers instants du bébé",
+          "texte": "Dès la naissance, le bébé crie et ses poumons se remplissent d'air (chapitre 11) : il respire seul. Le cordon est attaché puis coupé avec un instrument propre et stérile. Le petit bout qui reste tombe en 1 à 2 semaines. On sèche le bébé, on le garde au chaud contre la peau de sa mère et on l'allaite dans la première heure. On garde le cordon propre et sec et on n'y met rien, sauf sur conseil de l'agent de santé."
+        },
+        {
+          "type": "remarque",
+          "titre": "Accoucher en sécurité",
+          "texte": "Accoucher avec une sage-femme, un médecin ou un agent de santé formé, dans un centre de santé, réduit fortement les risques : hémorragie, infection, bébé qui ne respire pas, accouchement bloqué. Un accouchement avec des objets sales expose la mère et l'enfant à des infections graves, dont le tétanos du nouveau-né. Il faut prévoir le transport vers le centre de santé bien avant le jour de la naissance."
+        },
+        {
+          "type": "definition",
+          "titre": "Césarienne",
+          "texte": "La césarienne est une opération qui consiste à ouvrir le ventre et l'utérus de la mère pour sortir l'enfant. Un médecin la décide quand un accouchement par les voies naturelles serait dangereux pour la mère ou pour l'enfant : bassin trop étroit, mauvaise position du bébé, bébé en difficulté, hémorragie. Elle sauve des vies, mais elle demande un séjour à l'hôpital et du repos."
+        },
+        {
+          "type": "remarque",
+          "titre": "Bébé prématuré ou de petit poids",
+          "texte": "Un bébé né avant 37 semaines est prématuré. Un bébé de moins de 2,5 kg est de petit poids. Ces bébés ont besoin de chaleur et de soins attentifs. Avec la méthode « mère kangourou », le bébé est placé nu, couvert, contre la peau de sa mère : il reste au chaud et il est plus facile à allaiter."
+        },
+        {
+          "type": "definition",
+          "titre": "Lactation et allaitement",
+          "texte": "La lactation est la production de lait par les glandes mammaires des seins, après l'accouchement. Elle est commandée par des hormones libérées par l'hypophyse : la prolactine provoque la fabrication du lait, et l'ocytocine fait sortir le lait pendant la tétée. Plus le bébé tète, plus la mère fabrique de lait. L'allaitement est le fait de nourrir le bébé avec le lait de sa mère."
+        },
+        {
+          "type": "remarque",
+          "titre": "Le colostrum",
+          "texte": "Pendant les premiers jours, le sein donne le colostrum, un liquide jaunâtre et épais, en petite quantité. Il est très riche en anticorps : c'est comme un premier vaccin naturel. Il faut le donner au bébé. Quelques jours plus tard, le lait devient plus abondant et plus clair."
+        },
+        {
+          "type": "tableau",
+          "titre": "Ce que contient le lait maternel",
+          "entetes": ["Constituant", "Rôle"],
+          "lignes": [
+            ["Eau (environ 87 %)", "Hydrate le bébé : il n'a pas besoin d'eau en plus"],
+            ["Lactose (sucre du lait)", "Donne de l'énergie"],
+            ["Lipides", "Donnent de l'énergie et aident le cerveau à se développer"],
+            ["Protéines", "Aident à la croissance"],
+            ["Sels minéraux et vitamines", "Servent à construire les os et le sang"],
+            ["Anticorps", "Protègent le bébé contre les microbes"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Les conseils de l'OMS",
+          "texte": "Allaiter dans la première heure après la naissance. Donner le colostrum. Allaiter de façon exclusive pendant les 6 premiers mois : ni eau, ni tisane, ni autre lait, ni bouillie. À partir de 6 mois, ajouter des aliments variés tout en continuant le lait maternel jusqu'à 2 ans ou plus."
+        },
+        {
+          "type": "methode",
+          "titre": "Bien allaiter",
+          "texte": "1. Mettre le bébé au sein dans la première heure après la naissance.\n2. Allaiter à la demande, jour et nuit : au début, 8 à 12 tétées par 24 heures sont normales.\n3. Placer le bébé face au sein, la bouche bien ouverte, avec le bout du sein et une partie de la zone brune autour dans sa bouche.\n4. Se laver les mains avant la tétée et laver les seins à l'eau propre, sans produit parfumé.\n5. Proposer les deux seins à tour de rôle.\n6. Manger varié (chapitre 7), boire de l'eau propre (chapitre 8) et se reposer.\n7. Ne rien donner d'autre que le lait maternel avant 6 mois."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les avantages de l'allaitement",
+          "entetes": ["Pour le bébé", "Pour la mère et la famille"],
+          "lignes": [
+            ["Lait complet, propre et à la bonne température", "Gratuit et toujours prêt"],
+            ["Protège contre les diarrhées et les infections", "Renforce le lien entre la mère et l'enfant"],
+            ["Bonne croissance du bébé", "Aide l'utérus à retrouver sa taille et réduit les saignements après l'accouchement"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "À savoir",
+          "texte": "Une mère séropositive (VIH, chapitre 16) doit suivre son traitement et les conseils de l'agent de santé sur l'allaitement. L'allaitement retarde parfois le retour de l'ovulation, mais il ne protège pas de façon sûre contre une nouvelle grossesse (chapitre 16). Il est conseillé d'attendre au moins 2 ans entre la naissance d'un enfant et la grossesse suivante : la mère reprend des forces et l'enfant est mieux soigné."
+        },
+        {
+          "type": "remarque",
+          "titre": "Suivre la santé du bébé",
+          "texte": "À la naissance, le bébé reçoit des vaccins comme le BCG (contre la tuberculose, chapitre 11) ; les autres vaccins sont donnés plus tard, selon le carnet de santé. Il faut aussi le peser régulièrement : une masse qui augmente bien montre qu'il grandit normalement."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Accouchement", "Naissance de l'enfant"],
+            ["Contraction", "Serrement d'un muscle ; ici, celui de l'utérus"],
+            ["Dilatation", "Ouverture du col de l'utérus"],
+            ["Délivrance", "Sortie du placenta après la naissance"],
+            ["Césarienne", "Opération qui permet de sortir l'enfant par le ventre de la mère"],
+            ["Colostrum", "Premier lait, très riche en anticorps"],
+            ["Lactation", "Production de lait par les seins"],
+            ["Allaitement exclusif", "Nourrir le bébé seulement avec du lait maternel"],
+            ["Prolactine", "Hormone qui fait fabriquer le lait"],
+            ["Ocytocine", "Hormone qui fait sortir le lait pendant la tétée"],
+            ["Anticorps", "Substances qui défendent le corps contre les microbes"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Un bébé de 3 mois boit 6 tétées par jour, d'environ 120 mL chacune. Il pesait 3 kg à la naissance et pèse 6,6 kg à 6 mois.\n\n1. Quel volume de lait boit-il en un jour, en mL ?\n2. Exprime ce volume en litres.\n3. Quel volume boit-il en 30 jours, en mL puis en litres ?\n4. De combien de kilogrammes a-t-il grossi entre la naissance et 6 mois ? Quel est le gain moyen par mois, en grammes ?\n5. Pourquoi ne faut-il pas donner d'eau à un bébé nourri au sein avant 6 mois ?\n6. Cite trois avantages du lait maternel.",
+          "solution": "1. 6 × 120 = 720 mL par jour.\n2. 720 mL = 0,72 L.\n3. 720 × 30 = 21 600 mL, soit 21,6 L.\n4. 6,6 − 3 = 3,6 kg. Gain moyen par mois : 3,6 ÷ 6 = 0,6 kg, soit 600 g.\n5. Le lait maternel contient déjà environ 87 % d'eau : le bébé n'a pas besoin d'eau en plus. Une eau qui n'est pas parfaitement propre peut en plus provoquer une diarrhée.\n6. Par exemple : le lait maternel est complet, propre et à la bonne température ; il contient des anticorps qui protègent le bébé contre les infections ; il est gratuit ; il renforce le lien entre la mère et l'enfant."
+        }
+      ]
+    }
+  ]
+}
