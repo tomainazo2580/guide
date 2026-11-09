@@ -1,0 +1,349 @@
+{
+  "id": "svt4-7-aliments-besoins",
+  "titre": "Les aliments et les besoins",
+  "lecons": [
+    {
+      "id": "svt4-7-l1-composition",
+      "titre": "Ce que contiennent les aliments",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Aliment et nutriments",
+          "texte": "Un aliment est un produit que l'on mange. Il contient un ou plusieurs constituants utiles, appelés nutriments : les glucides, les lipides, les protides, les sels minéraux, l'eau et les vitamines. Aucun aliment n'est complet à lui seul, sauf le lait maternel pour le nourrisson."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les constituants des aliments",
+          "entetes": ["Constituant", "Exemples d'aliments", "Rôle principal"],
+          "lignes": [
+            ["Glucides (sucres)", "Riz, manioc, patate douce, pain, banane, canne à sucre", "Fournissent de l'énergie. L'amidon est le glucide de réserve des végétaux (chapitre 4)."],
+            ["Lipides (graisses)", "Huile, arachide, beurre, viande grasse", "Fournissent beaucoup d'énergie et forment une réserve dans le corps."],
+            ["Protides (protéines)", "Viande, poisson, œuf, lait, haricots, pois", "Construisent et réparent les cellules : muscles, peau, sang."],
+            ["Sels minéraux", "Calcium (lait, petits poissons mangés entiers), fer (viande, foie, brèdes), iode (sel iodé, poisson de mer)", "Calcium : os et dents. Fer : sang. Iode : bon fonctionnement de la thyroïde, glande du cou."],
+            ["Eau", "Tous les aliments, surtout les fruits et les légumes", "Forme plus de la moitié du corps et transporte les substances dans l'organisme."],
+            ["Vitamines", "Fruits, légumes, brèdes, foie, œuf", "Protègent la santé et aident les autres constituants à bien fonctionner. Il en faut de très petites quantités."]
+          ]
+        },
+        {
+          "type": "exemple",
+          "titre": "L'eau dans les aliments",
+          "texte": "Brède : environ 90 % d'eau.\nBanane : environ 75 % d'eau.\nRiz cru : environ 12 % d'eau.\nHuile : presque pas d'eau.\nCes valeurs sont approximatives : elles changent selon la variété et la maturité."
+        },
+        {
+          "type": "schema",
+          "titre": "Les trois rôles des aliments",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='505' height='195' viewBox='0 0 505 195' font-family='sans-serif' font-size='12'><text x='252' y='18' text-anchor='middle' fill='currentColor'>Les trois rôles des aliments</text><rect x='10' y='30' width='155' height='150' rx='8' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='88' y='54' text-anchor='middle' font-weight='bold' fill='currentColor'>Énergétiques</text><text x='88' y='74' text-anchor='middle' fill='currentColor'>Fournissent</text><text x='88' y='90' text-anchor='middle' fill='currentColor'>l'énergie</text><text x='88' y='110' text-anchor='middle' fill='currentColor'>Glucides, lipides</text><text x='88' y='132' text-anchor='middle' fill='currentColor'>Exemples :</text><text x='88' y='148' text-anchor='middle' fill='currentColor'>riz, manioc,</text><text x='88' y='164' text-anchor='middle' fill='currentColor'>huile, arachide</text><rect x='175' y='30' width='155' height='150' rx='8' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='252' y='54' text-anchor='middle' font-weight='bold' fill='currentColor'>Constructeurs</text><text x='252' y='74' text-anchor='middle' fill='currentColor'>Construisent et</text><text x='252' y='90' text-anchor='middle' fill='currentColor'>réparent le corps</text><text x='252' y='110' text-anchor='middle' fill='currentColor'>Protides, calcium</text><text x='252' y='132' text-anchor='middle' fill='currentColor'>Exemples :</text><text x='252' y='148' text-anchor='middle' fill='currentColor'>viande, poisson,</text><text x='252' y='164' text-anchor='middle' fill='currentColor'>œuf, haricots, lait</text><rect x='340' y='30' width='155' height='150' rx='8' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='418' y='54' text-anchor='middle' font-weight='bold' fill='currentColor'>Protecteurs</text><text x='418' y='74' text-anchor='middle' fill='currentColor'>Protègent et</text><text x='418' y='90' text-anchor='middle' fill='currentColor'>régulent l'organisme</text><text x='418' y='110' text-anchor='middle' fill='currentColor'>Vitamines, sels minéraux</text><text x='418' y='132' text-anchor='middle' fill='currentColor'>Exemples :</text><text x='418' y='148' text-anchor='middle' fill='currentColor'>fruits, brèdes,</text><text x='418' y='164' text-anchor='middle' fill='currentColor'>légumes, eau</text></svg>",
+          "legende": "Les aliments se classent en trois groupes selon leur rôle principal."
+        },
+        {
+          "type": "regle",
+          "titre": "Une alimentation variée",
+          "texte": "Chaque groupe d'aliments joue un rôle différent. Pour rester en bonne santé, il faut manger chaque jour des aliments énergétiques, des aliments constructeurs et des aliments protecteurs, et boire de l'eau potable."
+        },
+        {
+          "type": "tableau",
+          "titre": "Reconnaître les constituants par des tests",
+          "entetes": ["Constituant", "Test", "Résultat positif"],
+          "lignes": [
+            ["Amidon", "Eau iodée (jaune-brun) versée sur l'aliment", "Couleur bleu-noir"],
+            ["Glucose (sucre simple)", "Liqueur de Fehling, chauffée doucement avec l'aliment", "Précipité rouge brique"],
+            ["Protides", "Réactif du biuret (soude et sulfate de cuivre)", "Couleur violette"],
+            ["Lipides", "Frotter l'aliment sur une feuille de papier", "Tache translucide qui ne disparaît pas en séchant"],
+            ["Eau", "Chauffer l'aliment dans un tube à essais sec", "Buée sur les parois froides du tube"],
+            ["Sels minéraux", "Brûler fortement l'aliment (calcination)", "Il reste des cendres blanches ou grises"]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Réussir un test",
+          "texte": "1. Prépare un tube témoin : même réactif, mais avec de l'eau pure à la place de l'aliment.\n2. Mets la même quantité d'aliment dans chaque tube.\n3. Fais un seul test par tube.\n4. Compare avec le témoin et note la couleur obtenue.\n5. Conclus : le constituant est présent seulement si le résultat est positif."
+        },
+        {
+          "type": "remarque",
+          "titre": "Sécurité",
+          "texte": "La liqueur de Fehling et la soude sont des produits dangereux : ils brûlent la peau et les yeux. Ces tests se font au laboratoire, avec l'enseignant, avec des lunettes et des gants. On ne goûte jamais un produit de laboratoire. Pour chauffer un tube, on le tient avec une pince, l'ouverture dirigée loin des visages."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Nutriment", "Constituant d'un aliment que l'organisme peut utiliser."],
+            ["Glucide", "Sucre : amidon, glucose, sucre de canne."],
+            ["Lipide", "Graisse ou huile."],
+            ["Protide", "Autre nom de la protéine, constituant de la viande, du poisson, de l'œuf."],
+            ["Vitamine", "Substance nécessaire en très petite quantité pour rester en bonne santé."],
+            ["Précipité", "Petits grains solides qui apparaissent dans un liquide pendant une réaction."],
+            ["Témoin", "Tube de comparaison qui ne contient pas l'aliment."],
+            ["Calcination", "Chauffage très fort qui brûle la matière vivante et laisse les cendres."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "On teste quatre aliments inconnus A, B, C et D. Résultats :\n- A : l'eau iodée devient bleu-noir ; la liqueur de Fehling chauffée ne change pas ; pas de tache sur le papier.\n- B : l'eau iodée reste jaune-brun ; la liqueur de Fehling chauffée donne un précipité rouge brique ; pas de tache sur le papier.\n- C : le réactif du biuret donne une couleur violette ; les autres tests sont négatifs.\n- D : le papier garde une tache translucide ; les autres tests sont négatifs.\n1. Quel constituant principal contient chaque aliment ?\n2. Propose un aliment possible pour chacun.\n3. Pourquoi prépare-t-on aussi un tube témoin avec de l'eau pure ?\n4. Comment prouver que l'aliment A contient aussi de l'eau ?\n5. Classe chaque aliment : énergétique, constructeur ou protecteur.",
+          "solution": "1. A contient de l'amidon (un glucide). B contient du glucose (un sucre simple). C contient des protides. D contient des lipides.\n2. A : riz, pomme de terre ou manioc. B : jus de fruit mûr ou miel. C : blanc d'œuf, viande ou poisson. D : huile ou arachide.\n3. Le témoin montre la couleur du réactif seul. On peut ainsi comparer et être sûr que le changement de couleur vient de l'aliment.\n4. On chauffe l'aliment dans un tube à essais sec. De la buée apparaît sur les parois froides du tube. On peut aussi utiliser du sulfate de cuivre anhydre blanc, qui devient bleu au contact de l'eau.\n5. A : énergétique (glucide). B : énergétique (glucide). C : constructeur (protide). D : énergétique (lipide)."
+        }
+      ]
+    },
+    {
+      "id": "svt4-7-l2-energie",
+      "titre": "La valeur énergétique des aliments",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Valeur énergétique",
+          "texte": "La valeur énergétique d'un aliment est la quantité d'énergie qu'il libère dans l'organisme. On l'exprime en kilojoules (kJ), le plus souvent pour 100 g d'aliment. Les cellules libèrent cette énergie en brûlant les nutriments avec l'oxygène (la respiration, chapitre 11)."
+        },
+        {
+          "type": "regle",
+          "titre": "Énergie libérée par 1 gramme de nutriment",
+          "texte": "1 g de glucides libère environ 17 kJ.\n1 g de protides libère environ 17 kJ.\n1 g de lipides libère environ 38 kJ.\nL'eau, les sels minéraux et les vitamines ne fournissent pas d'énergie.\nCes valeurs sont arrondies."
+        },
+        {
+          "type": "schema",
+          "titre": "Énergie libérée par gramme",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='400' height='210' viewBox='0 0 400 210' font-family='sans-serif' font-size='12'><text x='60' y='18' fill='currentColor'>Énergie libérée par gramme de nutriment (kJ)</text><line x1='60' y1='30' x2='60' y2='160' stroke='currentColor'/><line x1='60' y1='160' x2='380' y2='160' stroke='currentColor'/><line x1='60' y1='130' x2='380' y2='130' stroke='currentColor' stroke-opacity='0.15'/><line x1='60' y1='100' x2='380' y2='100' stroke='currentColor' stroke-opacity='0.15'/><line x1='60' y1='70' x2='380' y2='70' stroke='currentColor' stroke-opacity='0.15'/><text x='52' y='164' text-anchor='end' fill='currentColor'>0</text><text x='52' y='134' text-anchor='end' fill='currentColor'>10</text><text x='52' y='104' text-anchor='end' fill='currentColor'>20</text><text x='52' y='74' text-anchor='end' fill='currentColor'>30</text><text x='52' y='44' text-anchor='end' fill='currentColor'>40</text><rect x='90' y='109' width='60' height='51' fill='#e11d48' fill-opacity='0.25' stroke='#e11d48'/><rect x='190' y='46' width='60' height='114' fill='#e11d48' fill-opacity='0.25' stroke='#e11d48'/><rect x='290' y='109' width='60' height='51' fill='#e11d48' fill-opacity='0.25' stroke='#e11d48'/><text x='120' y='103' text-anchor='middle' fill='currentColor'>17 kJ</text><text x='220' y='40' text-anchor='middle' fill='currentColor'>38 kJ</text><text x='320' y='103' text-anchor='middle' fill='currentColor'>17 kJ</text><text x='120' y='178' text-anchor='middle' fill='currentColor'>Glucides</text><text x='220' y='178' text-anchor='middle' fill='currentColor'>Lipides</text><text x='320' y='178' text-anchor='middle' fill='currentColor'>Protides</text><text x='220' y='200' text-anchor='middle' fill='currentColor'>Vitamines, sels minéraux, eau : 0 kJ</text></svg>",
+          "legende": "À masse égale, les lipides libèrent plus de deux fois plus d'énergie que les glucides ou les protides."
+        },
+        {
+          "type": "formule",
+          "titre": "Calcul de la valeur énergétique",
+          "texte": "Énergie (kJ) = glucides (g) × 17 + protides (g) × 17 + lipides (g) × 38"
+        },
+        {
+          "type": "exemple",
+          "titre": "100 g de riz cru",
+          "texte": "Le riz cru contient 78 g de glucides, 1 g de lipides et 7 g de protides.\nGlucides : 78 × 17 = 1 326 kJ.\nLipides : 1 × 38 = 38 kJ.\nProtides : 7 × 17 = 119 kJ.\nTotal : 1 326 + 38 + 119 = 1 483 kJ pour 100 g."
+        },
+        {
+          "type": "tableau",
+          "titre": "Quelques aliments courants (pour 100 g, valeurs approchées)",
+          "entetes": ["Aliment", "Glucides (g)", "Lipides (g)", "Protides (g)", "Énergie (kJ)"],
+          "lignes": [
+            ["Riz cru", "78", "1", "7", "1 483"],
+            ["Manioc cru", "36", "0", "1", "629"],
+            ["Haricots secs", "60", "1", "22", "1 432"],
+            ["Arachides", "16", "49", "26", "2 576"],
+            ["Œuf", "1", "11", "13", "656"],
+            ["Viande de zébu maigre", "0", "5", "20", "530"],
+            ["Banane", "22", "0", "1", "391"],
+            ["Huile", "0", "100", "0", "3 800"]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Calculer l'énergie d'une portion",
+          "texte": "1. Cherche ou calcule l'énergie pour 100 g d'aliment.\n2. Multiplie par la masse de la portion, puis divise par 100.\nExemple : 200 g de manioc → 629 × 200 ÷ 100 = 1 258 kJ."
+        },
+        {
+          "type": "remarque",
+          "titre": "Kilojoule et kilocalorie",
+          "texte": "Avant, on mesurait l'énergie en kilocalories (kcal). 1 kcal vaut environ 4,18 kJ. Ainsi 1 000 kcal correspondent à environ 4 180 kJ. On mesure la valeur énergétique d'un aliment en le brûlant dans un appareil appelé calorimètre : l'énergie libérée chauffe de l'eau, et l'on mesure l'élévation de température."
+        },
+        {
+          "type": "remarque",
+          "titre": "Pourquoi l'huile est si riche en énergie",
+          "texte": "Un gramme de lipides libère 38 kJ, un gramme de glucides 17 kJ. 38 ÷ 17 ≈ 2,2 : un lipide fournit environ deux fois plus d'énergie qu'un glucide de même masse. De plus, l'huile ne contient presque pas d'eau, qui ne donne aucune énergie. Les aliments riches en lipides sont donc très énergétiques, mais il ne faut pas en abuser."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Énergie", "Ce qui permet au corps de bouger, de grandir et de rester chaud."],
+            ["Kilojoule (kJ)", "Unité d'énergie. 1 kJ = 1 000 joules."],
+            ["Kilocalorie (kcal)", "Ancienne unité d'énergie. 1 kcal ≈ 4,18 kJ."],
+            ["Valeur énergétique", "Énergie qu'un aliment peut fournir à l'organisme."],
+            ["Calorimètre", "Appareil qui mesure l'énergie libérée par la combustion d'un aliment."],
+            ["Portion", "Quantité d'aliment mangée en une fois."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Sur un paquet de biscuits, on lit pour 100 g : glucides 70 g, lipides 15 g, protides 6 g (données inventées pour l'exercice). Utilise 17 kJ par gramme de glucides et de protides, 38 kJ par gramme de lipides.\n1. Calcule la valeur énergétique de 100 g de biscuits.\n2. Calcule l'énergie d'une portion de 40 g (arrondie à l'unité).\n3. Quel pourcentage de l'énergie vient des glucides (arrondi à l'unité) ?\n4. Combien de fois un lipide fournit-il plus d'énergie qu'un glucide de même masse (une décimale) ?\n5. Un adolescent a besoin d'environ 11 000 kJ par jour. Il mange 4 portions de 40 g de biscuits. Quelle part de ses besoins cela couvre-t-il ? Ces biscuits peuvent-ils remplacer un repas ?",
+          "solution": "1. Glucides : 70 × 17 = 1 190 kJ. Protides : 6 × 17 = 102 kJ. Lipides : 15 × 38 = 570 kJ. Total : 1 190 + 102 + 570 = 1 862 kJ pour 100 g.\n2. 1 862 × 40 ÷ 100 = 744,8, soit environ 745 kJ.\n3. 1 190 ÷ 1 862 ≈ 0,639, soit environ 64 %.\n4. 38 ÷ 17 ≈ 2,2 fois.\n5. 4 × 745 = 2 980 kJ. 2 980 ÷ 11 000 ≈ 0,27, soit environ 27 % des besoins. Les biscuits ne peuvent pas remplacer un repas : ils contiennent surtout des glucides et des lipides, très peu de protides, et presque pas de vitamines ni de sels minéraux."
+        }
+      ]
+    },
+    {
+      "id": "svt4-7-l3-besoins",
+      "titre": "Les besoins de l'organisme et la ration",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Besoins et ration alimentaire",
+          "texte": "Les besoins énergétiques sont l'énergie que l'organisme dépense en 24 heures. La ration alimentaire est l'ensemble des aliments consommés en 24 heures. Une bonne ration apporte autant d'énergie que l'organisme en dépense, avec tous les nutriments nécessaires."
+        },
+        {
+          "type": "definition",
+          "titre": "Métabolisme basal",
+          "texte": "Le métabolisme basal est l'énergie dépensée par l'organisme au repos complet, à jeun et au chaud. Elle sert à faire battre le cœur, à respirer, à maintenir la température du corps vers 37 °C et à faire fonctionner le cerveau. Chez l'adulte, c'est environ 4 kJ par kilogramme et par heure (un peu moins chez la femme). C'est un ordre de grandeur."
+        },
+        {
+          "type": "formule",
+          "titre": "Métabolisme basal pour 24 heures",
+          "texte": "Métabolisme basal (kJ par jour) = 4 × masse (kg) × 24"
+        },
+        {
+          "type": "exemple",
+          "titre": "Un adulte de 70 kg",
+          "texte": "4 × 70 × 24 = 6 720 kJ par jour.\nCette énergie est dépensée même si la personne reste couchée toute la journée."
+        },
+        {
+          "type": "regle",
+          "titre": "Les besoins totaux",
+          "texte": "Besoins totaux = métabolisme basal + énergie dépensée pour les activités (marcher, travailler, jouer, étudier, digérer).\nPlus l'activité est intense, plus les besoins sont grands."
+        },
+        {
+          "type": "schema",
+          "titre": "Besoins en énergie selon le profil",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='490' height='222' viewBox='0 0 490 222' font-family='sans-serif' font-size='12'><text x='250' y='16' text-anchor='middle' fill='currentColor'>Besoins en énergie par jour (kJ, ordres de grandeur)</text><line x1='50' y1='30' x2='50' y2='180' stroke='currentColor'/><line x1='50' y1='180' x2='480' y2='180' stroke='currentColor'/><rect x='80' y='105' width='70' height='75' fill='#e11d48' fill-opacity='0.25' stroke='#e11d48'/><rect x='180' y='70' width='70' height='110' fill='#e11d48' fill-opacity='0.25' stroke='#e11d48'/><rect x='280' y='80' width='70' height='100' fill='#e11d48' fill-opacity='0.25' stroke='#e11d48'/><rect x='380' y='40' width='70' height='140' fill='#e11d48' fill-opacity='0.25' stroke='#e11d48'/><text x='115' y='99' text-anchor='middle' fill='currentColor'>7 500</text><text x='215' y='64' text-anchor='middle' fill='currentColor'>11 000</text><text x='315' y='74' text-anchor='middle' fill='currentColor'>10 000</text><text x='415' y='34' text-anchor='middle' fill='currentColor'>14 000</text><text x='115' y='196' text-anchor='middle' fill='currentColor'>Enfant</text><text x='115' y='211' text-anchor='middle' fill='currentColor'>6 à 8 ans</text><text x='215' y='196' text-anchor='middle' fill='currentColor'>Adolescent</text><text x='215' y='211' text-anchor='middle' fill='currentColor'>13 à 15 ans</text><text x='315' y='196' text-anchor='middle' fill='currentColor'>Adulte</text><text x='315' y='211' text-anchor='middle' fill='currentColor'>peu actif</text><text x='415' y='196' text-anchor='middle' fill='currentColor'>Adulte</text><text x='415' y='211' text-anchor='middle' fill='currentColor'>très actif</text></svg>",
+          "legende": "Les besoins varient avec l'âge et l'activité. Les valeurs sont des ordres de grandeur."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les besoins selon le profil",
+          "entetes": ["Profil", "Besoin approximatif (kJ par jour)", "Remarque"],
+          "lignes": [
+            ["Enfant de 6 à 8 ans", "7 500", "Il grandit : il a besoin de beaucoup de nutriments pour sa taille."],
+            ["Adolescent de 13 à 15 ans", "11 000", "Croissance rapide : protides, calcium et fer en quantité."],
+            ["Adulte peu actif (bureau, commerce)", "10 000", "Ration d'entretien."],
+            ["Adulte très actif (travail de force)", "14 000", "Beaucoup de glucides et de lipides pour l'effort."]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Les trois types de ration",
+          "entetes": ["Ration", "Pour qui ?", "Ce qu'il faut en plus"],
+          "lignes": [
+            ["Ration d'entretien", "Adulte au travail léger", "Juste de quoi remplacer l'énergie dépensée et réparer les cellules."],
+            ["Ration de travail", "Personne qui fait un effort physique (cultivateur, porteur, ouvrier)", "Plus d'énergie : glucides et lipides en plus grande quantité."],
+            ["Ration de croissance", "Enfant, adolescent, femme enceinte ou qui allaite", "Plus de protides, de calcium et de fer pour construire les os, les muscles et le sang."]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "La ration équilibrée",
+          "texte": "Dans une ration équilibrée, l'énergie vient environ :\n- à 55 % des glucides ;\n- à 30 % des lipides ;\n- à 15 % des protides.\nIl faut en plus de l'eau potable, des vitamines et des sels minéraux (fruits, légumes, brèdes), et de la variété. Ces pourcentages sont des ordres de grandeur."
+        },
+        {
+          "type": "schema",
+          "titre": "Répartition de l'énergie d'une ration équilibrée",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='500' height='105' viewBox='0 0 500 105' font-family='sans-serif' font-size='12'><text x='250' y='20' text-anchor='middle' fill='currentColor'>Ration équilibrée : part de l'énergie apportée par chaque nutriment</text><rect x='50' y='35' width='220' height='40' fill='#e11d48' fill-opacity='0.3' stroke='#e11d48'/><rect x='270' y='35' width='120' height='40' fill='#e11d48' fill-opacity='0.18' stroke='#e11d48'/><rect x='390' y='35' width='60' height='40' fill='#e11d48' fill-opacity='0.4' stroke='#e11d48'/><text x='160' y='60' text-anchor='middle' fill='currentColor'>55 %</text><text x='330' y='60' text-anchor='middle' fill='currentColor'>30 %</text><text x='420' y='60' text-anchor='middle' fill='currentColor'>15 %</text><text x='160' y='92' text-anchor='middle' fill='currentColor'>Glucides</text><text x='330' y='92' text-anchor='middle' fill='currentColor'>Lipides</text><text x='420' y='92' text-anchor='middle' fill='currentColor'>Protides</text></svg>",
+          "legende": "Les glucides apportent la plus grande part de l'énergie, les protides la plus petite."
+        },
+        {
+          "type": "exemple",
+          "titre": "Une ration de 10 000 kJ",
+          "texte": "Glucides : 10 000 × 55 ÷ 100 = 5 500 kJ, soit 5 500 ÷ 17 ≈ 324 g.\nLipides : 10 000 × 30 ÷ 100 = 3 000 kJ, soit 3 000 ÷ 38 ≈ 79 g.\nProtides : 10 000 × 15 ÷ 100 = 1 500 kJ, soit 1 500 ÷ 17 ≈ 88 g.\nVérification : 5 500 + 3 000 + 1 500 = 10 000 kJ."
+        },
+        {
+          "type": "remarque",
+          "titre": "Boire assez d'eau",
+          "texte": "L'organisme perd de l'eau par l'urine, la sueur, la respiration et les selles. Un adulte doit boire environ 1,5 L d'eau par jour en plus de l'eau contenue dans les aliments. Il faut en boire davantage quand il fait très chaud ou après un effort. L'eau doit être potable : bouillie, filtrée ou traitée."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Métabolisme basal", "Énergie dépensée au repos complet pour que le corps fonctionne."],
+            ["Ration alimentaire", "Ensemble des aliments mangés en 24 heures."],
+            ["Ration équilibrée", "Ration qui apporte les bons nutriments dans les bonnes proportions."],
+            ["Ration d'entretien", "Ration qui couvre les besoins d'un adulte au travail léger."],
+            ["Ration de croissance", "Ration plus riche en protides, calcium et fer pour construire le corps."],
+            ["Dépense énergétique", "Énergie utilisée par le corps pendant un temps donné."],
+            ["Ordre de grandeur", "Valeur approchée, qui donne une idée juste sans être exacte."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Un agriculteur pèse 60 kg et dépense en tout 12 500 kJ par jour. Prends 4 kJ par kilogramme et par heure pour son métabolisme basal. Sa ration est équilibrée : 55 % de glucides, 30 % de lipides, 15 % de protides. Utilise 17 kJ par gramme de glucides et de protides, 38 kJ par gramme de lipides.\n1. Calcule son métabolisme basal pour 24 heures.\n2. Quelle énergie dépense-t-il en plus pour son travail et ses activités ?\n3. Quel pourcentage de ses besoins totaux représente le métabolisme basal (arrondi à l'unité) ?\n4. Calcule la masse de glucides, de lipides et de protides de sa ration (arrondie au gramme).\n5. Son fils de 13 ans est en pleine croissance. Quels aliments doit-il manger en proportion plus grande ? Pourquoi ?",
+          "solution": "1. 4 × 60 × 24 = 5 760 kJ par jour.\n2. 12 500 − 5 760 = 6 740 kJ.\n3. 5 760 ÷ 12 500 = 0,4608, soit environ 46 %.\n4. Glucides : 12 500 × 55 ÷ 100 = 6 875 kJ ; 6 875 ÷ 17 ≈ 404 g. Lipides : 12 500 × 30 ÷ 100 = 3 750 kJ ; 3 750 ÷ 38 ≈ 99 g. Protides : 12 500 × 15 ÷ 100 = 1 875 kJ ; 1 875 ÷ 17 ≈ 110 g. Vérification : 6 875 + 3 750 + 1 875 = 12 500 kJ.\n5. Des aliments riches en protides, en calcium et en fer : viande, poisson, œuf, lait, haricots, brèdes. Il construit ses os, ses muscles et son sang : il a besoin de ces matériaux pour grandir, en plus de l'énergie."
+        }
+      ]
+    },
+    {
+      "id": "svt4-7-l4-sous-alimentation",
+      "titre": "Sous-alimentation, carences et malnutrition",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Sous-alimentation et malnutrition",
+          "texte": "La sous-alimentation est une ration insuffisante en quantité : les apports en énergie sont inférieurs aux besoins.\nLa malnutrition est une alimentation déséquilibrée : il manque un nutriment (carence) ou il y en a trop (excès), même si la quantité totale peut sembler suffisante."
+        },
+        {
+          "type": "schema",
+          "titre": "Apports et besoins",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='505' height='150' viewBox='0 0 505 150' font-family='sans-serif' font-size='12'><rect x='10' y='15' width='155' height='120' rx='8' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='88' y='40' text-anchor='middle' font-weight='bold' fill='currentColor'>Apports &lt; besoins</text><text x='88' y='66' text-anchor='middle' fill='currentColor'>Sous-alimentation :</text><text x='88' y='84' text-anchor='middle' fill='currentColor'>amaigrissement,</text><text x='88' y='102' text-anchor='middle' fill='currentColor'>fatigue, retard</text><text x='88' y='120' text-anchor='middle' fill='currentColor'>de croissance</text><rect x='175' y='15' width='155' height='120' rx='8' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='252' y='40' text-anchor='middle' font-weight='bold' fill='currentColor'>Apports = besoins</text><text x='252' y='66' text-anchor='middle' fill='currentColor'>Équilibre :</text><text x='252' y='84' text-anchor='middle' fill='currentColor'>poids stable,</text><text x='252' y='102' text-anchor='middle' fill='currentColor'>bonne santé,</text><text x='252' y='120' text-anchor='middle' fill='currentColor'>bonne croissance</text><rect x='340' y='15' width='155' height='120' rx='8' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='418' y='40' text-anchor='middle' font-weight='bold' fill='currentColor'>Apports &gt; besoins</text><text x='418' y='66' text-anchor='middle' fill='currentColor'>Excès :</text><text x='418' y='84' text-anchor='middle' fill='currentColor'>surpoids, obésité,</text><text x='418' y='102' text-anchor='middle' fill='currentColor'>diabète,</text><text x='418' y='120' text-anchor='middle' fill='currentColor'>maladies du cœur</text></svg>",
+          "legende": "Selon que les apports sont plus petits, égaux ou plus grands que les besoins, les effets sur la santé sont très différents."
+        },
+        {
+          "type": "tableau",
+          "titre": "Conséquences de la sous-alimentation",
+          "entetes": ["Signe", "Explication"],
+          "lignes": [
+            ["Amaigrissement", "Le corps manque d'énergie : il brûle d'abord ses réserves de graisses, puis ses muscles."],
+            ["Fatigue, faiblesse", "Les cellules reçoivent moins de nutriments à brûler."],
+            ["Retard de croissance", "L'enfant est trop petit et trop léger pour son âge : il manque de matériaux pour construire son corps."],
+            ["Infections fréquentes", "Les défenses du corps sont affaiblies."],
+            ["Difficultés à l'école", "Manque d'attention et de mémoire : le cerveau a besoin d'énergie."]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Les principales carences",
+          "entetes": ["Il manque", "Maladie", "Signes", "Aliments utiles"],
+          "lignes": [
+            ["Protides", "Kwashiorkor", "Gonflement des pieds et du visage (œdème), ventre gonflé, cheveux clairs, tristesse", "Œuf, poisson, haricots, lait, viande"],
+            ["Énergie et protides (manque global)", "Marasme", "Extrême maigreur, muscles fondus", "Repas plus riches et plus fréquents, suivi en centre de santé"],
+            ["Fer", "Anémie", "Pâleur, fatigue, essoufflement", "Viande, foie, brèdes, haricots"],
+            ["Iode", "Goitre", "Gonflement du cou (thyroïde)", "Sel iodé, poisson de mer"],
+            ["Vitamine A", "Troubles de la vue", "Mauvaise vision à la tombée de la nuit", "Carotte, mangue, brèdes, œuf"],
+            ["Vitamine C", "Scorbut", "Gencives qui saignent, fatigue, plaies qui guérissent mal", "Citron, orange, goyave"],
+            ["Calcium et vitamine D", "Rachitisme", "Os mous, jambes déformées chez l'enfant", "Lait, petits poissons, œuf, soleil en quantité modérée"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Trop manger est aussi un problème",
+          "texte": "Manger trop de sucre, de graisses et de sel, et trop peu bouger, provoque surpoids, obésité, diabète, hypertension et maladies du cœur. Une bonne alimentation, c'est la juste quantité et la bonne variété."
+        },
+        {
+          "type": "remarque",
+          "titre": "À Madagascar",
+          "texte": "Dans certaines régions, en particulier dans le Sud où la sécheresse (le kéré) détruit les récoltes, beaucoup d'enfants souffrent de malnutrition. Les centres de santé et les programmes de nutrition aident les familles. Un enfant qui a un ventre gonflé, des pieds enflés ou qui maigrit doit être conduit rapidement dans un centre de santé."
+        },
+        {
+          "type": "methode",
+          "titre": "Bien se nourrir",
+          "texte": "1. Manger chaque jour des aliments énergétiques, constructeurs et protecteurs.\n2. Associer riz ou manioc, haricots ou œuf, et brèdes ou fruits.\n3. Choisir du sel iodé.\n4. Allaiter le nourrisson : l'allaitement maternel seul est recommandé pendant les 6 premiers mois.\n5. Laver les fruits et les légumes, boire de l'eau potable, se laver les mains avant de manger (hygiène alimentaire, chapitre 8)."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Sous-alimentation", "Ration trop petite : pas assez d'énergie."],
+            ["Malnutrition", "Alimentation déséquilibrée : carence ou excès."],
+            ["Carence", "Manque d'un nutriment dans l'alimentation."],
+            ["Œdème", "Gonflement dû à un excès d'eau dans les tissus."],
+            ["Anémie", "Manque de globules rouges ou d'hémoglobine dans le sang."],
+            ["Goitre", "Gonflement de la thyroïde, à la base du cou."],
+            ["Obésité", "Excès de graisse qui nuit à la santé."],
+            ["Suralimentation", "Ration qui apporte plus d'énergie que les besoins."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Un ouvrier de chantier a besoin de 14 000 kJ par jour. Sa journée : 600 g de riz cru, 100 g de haricots secs et 20 g d'huile. Utilise le tableau de la leçon 2 : riz 1 483 kJ, haricots secs 1 432 kJ, huile 3 800 kJ, arachides 2 576 kJ pour 100 g.\n1. Calcule l'énergie apportée par chaque aliment, puis le total.\n2. Quel est le déficit en énergie ?\n3. Quelle masse d'arachides (arrondie au gramme) comblerait ce déficit ?\n4. Que peut-il arriver si ce déficit dure plusieurs mois ?\n5. Un enfant de 3 ans mange presque seulement du manioc. Il a le ventre gonflé, les pieds enflés et les cheveux clairs. De quelle maladie s'agit-il ? Quels aliments faut-il ajouter ?",
+          "solution": "1. Riz : 1 483 × 600 ÷ 100 = 8 898 kJ. Haricots : 1 432 kJ. Huile : 3 800 × 20 ÷ 100 = 760 kJ. Total : 8 898 + 1 432 + 760 = 11 090 kJ.\n2. 14 000 − 11 090 = 2 910 kJ.\n3. 100 g d'arachides apportent 2 576 kJ, donc 1 g apporte 25,76 kJ. 2 910 ÷ 25,76 ≈ 113 g.\n4. Son corps puise dans ses réserves : il maigrit, ses muscles fondent, il est fatigué, ses défenses baissent et le risque d'accident ou de maladie augmente.\n5. Il s'agit probablement du kwashiorkor, dû à un manque de protides. Il faut ajouter des aliments riches en protides (œuf, poisson, haricots, lait, viande) et consulter un centre de santé."
+        }
+      ]
+    }
+  ]
+}
