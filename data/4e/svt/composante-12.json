@@ -1,0 +1,299 @@
+{
+  "id": "svt4-12-puberte-adolescence",
+  "titre": "Puberté et adolescence",
+  "lecons": [
+    {
+      "id": "svt4-12-l1-puberte",
+      "titre": "De l'enfance à l'adolescence : la puberté",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "La puberté",
+          "texte": "La puberté est la période de transformations du corps qui fait passer de l'enfant à l'adulte. Pendant la puberté, le corps grandit vite et les organes génitaux deviennent fonctionnels : le corps devient capable de se reproduire. La puberté dure plusieurs années. L'adolescence (leçon 4) est une période plus large : elle comprend aussi les changements psychologiques et sociaux."
+        },
+        {
+          "type": "remarque",
+          "titre": "Un phénomène naturel",
+          "texte": "La puberté est un phénomène normal, vécu par tous les êtres humains. Elle n'a rien de honteux ni de mystérieux. Il est utile de la comprendre pour accepter les changements de son corps et pour respecter ceux des autres."
+        },
+        {
+          "type": "schema",
+          "titre": "La poussée de croissance de la puberté",
+          "svg": "<svg width='480' height='240' viewBox='0 0 480 240' xmlns='http://www.w3.org/2000/svg' fill='currentColor' font-family='sans-serif' font-size='12'><text x='240' y='18' text-anchor='middle'>Vitesse de croissance en taille (valeurs approximatives)</text><text x='56' y='34' font-size='11'>cm par an</text><line x1='50' y1='40' x2='50' y2='180' stroke='currentColor'/><line x1='50' y1='180' x2='430' y2='180' stroke='currentColor'/><line x1='46' y1='110' x2='54' y2='110' stroke='currentColor'/><line x1='46' y1='40' x2='54' y2='40' stroke='currentColor'/><text x='42' y='184' text-anchor='end' font-size='11'>0</text><text x='42' y='114' text-anchor='end' font-size='11'>5</text><text x='42' y='44' text-anchor='end' font-size='11'>10</text><line x1='50' y1='176' x2='50' y2='184' stroke='currentColor'/><line x1='126' y1='176' x2='126' y2='184' stroke='currentColor'/><line x1='202' y1='176' x2='202' y2='184' stroke='currentColor'/><line x1='278' y1='176' x2='278' y2='184' stroke='currentColor'/><line x1='354' y1='176' x2='354' y2='184' stroke='currentColor'/><line x1='430' y1='176' x2='430' y2='184' stroke='currentColor'/><text x='50' y='198' text-anchor='middle' font-size='11'>8</text><text x='126' y='198' text-anchor='middle' font-size='11'>10</text><text x='202' y='198' text-anchor='middle' font-size='11'>12</text><text x='278' y='198' text-anchor='middle' font-size='11'>14</text><text x='354' y='198' text-anchor='middle' font-size='11'>16</text><text x='430' y='198' text-anchor='middle' font-size='11'>18</text><text x='240' y='214' text-anchor='middle'>Âge (ans)</text><polyline points='50,96 88,96 126,89 164,68 202,61 240,96 278,131 316,152 354,166 392,173 430,180' fill='none' stroke='#e11d48' stroke-width='3'/><polyline points='50,103 88,103 126,103 164,96 202,82 240,61 278,54 316,89 354,131 392,152 430,166' fill='none' stroke='currentColor' stroke-width='3' stroke-dasharray='6 4'/><line x1='140' y1='230' x2='170' y2='230' stroke='#e11d48' stroke-width='3'/><text x='176' y='234'>Filles</text><line x1='270' y1='230' x2='300' y2='230' stroke='currentColor' stroke-width='3' stroke-dasharray='6 4'/><text x='306' y='234'>Garçons</text></svg>",
+          "legende": "Chez les filles, la poussée de croissance est plus précoce. Chez les garçons, elle est plus tardive, et un peu plus forte en moyenne."
+        },
+        {
+          "type": "tableau",
+          "titre": "Repères moyens (ils varient d'une personne à l'autre)",
+          "entetes": ["Repère", "Filles", "Garçons"],
+          "lignes": [
+            ["Début de la puberté", "souvent entre 9 et 13 ans", "souvent entre 10 et 14 ans"],
+            ["Poussée de croissance la plus forte", "vers 11-12 ans", "vers 13-14 ans"],
+            ["Gain de taille maximal par an", "environ 7 à 9 cm", "environ 8 à 10 cm"],
+            ["Fin de la croissance en taille", "vers 16-17 ans", "vers 18-20 ans"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Chacun son rythme",
+          "texte": "L'âge où commence la puberté dépend de l'hérédité, de l'alimentation, de la santé et du milieu de vie. Deux élèves du même âge peuvent donc être à des stades différents : c'est normal. À 13 ans, une fille est souvent plus grande qu'un garçon du même âge, car sa poussée commence plus tôt. Les garçons la rattrapent ensuite et la dépassent en moyenne. Si une inquiétude persiste (aucun changement après 15 ans, ou changements très précoces avant 8 ans chez une fille ou 9 ans chez un garçon), on peut en parler à un agent de santé."
+        },
+        {
+          "type": "formule",
+          "titre": "La vitesse de croissance",
+          "texte": "Vitesse de croissance = gain de taille ÷ durée\nLe gain de taille est la différence entre la taille finale et la taille de départ. Si la durée est en années et le gain en cm, la vitesse est en cm par an."
+        },
+        {
+          "type": "exemple",
+          "titre": "Calculer une vitesse de croissance",
+          "texte": "Une fille mesure 1,40 m à 11 ans et 1,49 m à 12 ans. Gain de taille : 1,49 − 1,40 = 0,09 m, soit 9 cm. En 1 an : la vitesse est de 9 cm par an, ce qui correspond à une poussée de croissance."
+        },
+        {
+          "type": "remarque",
+          "titre": "Des changements qui ne sont pas simultanés",
+          "texte": "Pendant la poussée de croissance, les mains, les pieds et les jambes s'allongent souvent avant le tronc. Le corps prend de nouvelles proportions et l'adolescent peut se sentir un peu maladroit pendant quelque temps. Les os et les muscles se développent, d'où un appétit plus grand : les besoins en énergie passent d'environ 7 500 kJ par jour chez l'enfant à environ 11 000 kJ chez l'adolescent (chapitre 7)."
+        },
+        {
+          "type": "methode",
+          "titre": "Tracer sa courbe de croissance",
+          "texte": "1. Choisis un mur droit. Colle-y une bande de papier graduée en cm, ou trace des traits tous les 10 cm avec un mètre.\n2. Déchausse-toi, mets les talons contre le mur et regarde droit devant toi. Un camarade pose une règle plate sur ta tête et marque le trait.\n3. Mesure ta taille chaque mois, à la même heure et dans les mêmes conditions. Note les valeurs dans un tableau.\n4. Pour chaque période, calcule le gain de taille et la vitesse de croissance, puis trace la courbe.\nConseil : mesure-toi le matin, car on est un peu plus grand au réveil qu'en fin de journée."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["puberté", "période de transformations du corps qui rend capable de se reproduire"],
+            ["adolescence", "période entre l'enfance et l'âge adulte, d'environ 10 à 19 ans selon l'OMS"],
+            ["poussée de croissance", "période où la taille augmente très vite"],
+            ["organes génitaux", "organes qui servent à la reproduction"],
+            ["vitesse de croissance", "gain de taille par unité de temps"],
+            ["hérédité", "transmission des caractères des parents aux enfants"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Hery mesure sa taille chaque année, au même mur. Tailles : 11 ans : 1,42 m ; 12 ans : 1,48 m ; 13 ans : 1,55 m ; 14 ans : 1,64 m ; 15 ans : 1,70 m.\n\n1) Calcule le gain de taille de chaque année, en cm.\n2) Entre quels âges la poussée de croissance est-elle la plus forte ?\n3) Calcule le gain total entre 11 et 15 ans, puis la vitesse moyenne en cm par an. Vérifie que le gain total est égal à la somme des gains annuels.\n4) Son camarade Tahina, 14 ans, n'a pas encore changé et s'inquiète. Que lui réponds-tu ?\n5) D'après le chapitre 7, les besoins d'énergie passent de 7 500 kJ par jour (enfant) à 11 000 kJ par jour (adolescent). Calcule l'augmentation en kJ, puis en pourcentage de la valeur de l'enfant (arrondis à l'unité).",
+          "solution": "1) De 11 à 12 ans : 1,48 − 1,42 = 0,06 m = 6 cm. De 12 à 13 ans : 1,55 − 1,48 = 0,07 m = 7 cm. De 13 à 14 ans : 1,64 − 1,55 = 0,09 m = 9 cm. De 14 à 15 ans : 1,70 − 1,64 = 0,06 m = 6 cm.\n2) Entre 13 et 14 ans : il a gagné 9 cm, le plus grand gain.\n3) Gain total : 1,70 − 1,42 = 0,28 m = 28 cm. Somme des gains : 6 + 7 + 9 + 6 = 28 cm : c'est cohérent. Vitesse moyenne : 28 ÷ 4 = 7 cm par an.\n4) La puberté ne commence pas au même âge chez tout le monde : elle dépend de l'hérédité, de l'alimentation et de la santé. Il est normal que certains changent plus tard. S'il reste inquiet, il peut en parler à un agent de santé.\n5) Augmentation : 11 000 − 7 500 = 3 500 kJ par jour. En pourcentage : 3 500 ÷ 7 500 ≈ 0,467, soit environ 47 %."
+        }
+      ]
+    },
+    {
+      "id": "svt4-12-l2-caracteres-sexuels",
+      "titre": "Les caractères sexuels primaires et secondaires",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Les caractères sexuels",
+          "texte": "Les caractères sexuels primaires sont les organes génitaux, présents dès la naissance : ovaires, utérus et vagin chez la fille ; testicules et pénis chez le garçon. Ils deviennent fonctionnels à la puberté.\nLes caractères sexuels secondaires sont les changements du corps qui apparaissent à la puberté et distinguent peu à peu l'homme et la femme, sans servir directement à la reproduction."
+        },
+        {
+          "type": "schema",
+          "titre": "Caractères sexuels primaires et secondaires",
+          "svg": "<svg width='480' height='250' viewBox='0 0 480 250' xmlns='http://www.w3.org/2000/svg' fill='currentColor' font-family='sans-serif' font-size='12'><rect x='140' y='10' width='200' height='36' rx='8' fill='currentColor' fill-opacity='0.08' stroke='currentColor' stroke-width='2'/><text x='240' y='33' text-anchor='middle' font-weight='bold'>Caractères sexuels</text><line x1='240' y1='46' x2='240' y2='60' stroke='currentColor' stroke-width='1.5'/><line x1='110' y1='60' x2='370' y2='60' stroke='currentColor' stroke-width='1.5'/><line x1='110' y1='60' x2='110' y2='76' stroke='currentColor' stroke-width='1.5'/><line x1='370' y1='60' x2='370' y2='76' stroke='currentColor' stroke-width='1.5'/><rect x='20' y='76' width='180' height='70' rx='8' fill='currentColor' fill-opacity='0.12' stroke='currentColor' stroke-width='2'/><text x='110' y='98' text-anchor='middle' font-weight='bold'>Primaires</text><text x='110' y='116' text-anchor='middle' font-size='11'>présents dès la naissance</text><text x='110' y='132' text-anchor='middle' font-size='11'>organes génitaux</text><text x='110' y='168' text-anchor='middle' font-size='11'>Filles : ovaires, utérus, vagin</text><text x='110' y='184' text-anchor='middle' font-size='11'>Garçons : testicules, pénis</text><text x='110' y='208' text-anchor='middle' font-size='11'>(ils deviennent fonctionnels</text><text x='110' y='222' text-anchor='middle' font-size='11'>à la puberté)</text><rect x='280' y='76' width='180' height='70' rx='8' fill='#e11d48' fill-opacity='0.2' stroke='currentColor' stroke-width='2'/><text x='370' y='98' text-anchor='middle' font-weight='bold'>Secondaires</text><text x='370' y='116' text-anchor='middle' font-size='11'>apparaissent à la puberté</text><text x='370' y='132' text-anchor='middle' font-size='11'>autres changements du corps</text><line x1='370' y1='146' x2='370' y2='158' stroke='currentColor' stroke-width='1.5'/><line x1='300' y1='158' x2='420' y2='158' stroke='currentColor' stroke-width='1.5'/><line x1='300' y1='158' x2='300' y2='170' stroke='currentColor' stroke-width='1.5'/><line x1='420' y1='158' x2='420' y2='170' stroke='currentColor' stroke-width='1.5'/><rect x='250' y='170' width='100' height='70' rx='8' fill='currentColor' fill-opacity='0.08' stroke='currentColor' stroke-width='1.5'/><text x='300' y='188' text-anchor='middle' font-weight='bold' font-size='11'>Filles</text><text x='300' y='205' text-anchor='middle' font-size='11'>seins</text><text x='300' y='220' text-anchor='middle' font-size='11'>bassin large</text><text x='300' y='234' text-anchor='middle' font-size='11'>règles</text><rect x='370' y='170' width='100' height='70' rx='8' fill='currentColor' fill-opacity='0.08' stroke='currentColor' stroke-width='1.5'/><text x='420' y='188' text-anchor='middle' font-weight='bold' font-size='11'>Garçons</text><text x='420' y='205' text-anchor='middle' font-size='11'>barbe</text><text x='420' y='220' text-anchor='middle' font-size='11'>mue de la voix</text><text x='420' y='234' text-anchor='middle' font-size='11'>épaules larges</text></svg>",
+          "legende": "Seuls quelques exemples sont indiqués pour chaque sexe. Le tableau ci-dessous donne la liste complète."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les changements de la puberté",
+          "entetes": ["Chez la fille", "Chez le garçon", "Chez les deux"],
+          "lignes": [
+            ["Développement des seins", "Barbe et moustache", "Poils du pubis et des aisselles"],
+            ["Bassin qui s'élargit, hanches plus rondes", "Épaules plus larges, muscles plus développés", "Poussée de croissance"],
+            ["Premières règles", "Testicules et pénis qui grossissent", "Voix qui devient plus grave, surtout chez le garçon"],
+            ["Ovaires qui produisent des ovules", "Premières éjaculations, testicules qui produisent des spermatozoïdes", "Transpiration plus forte, peau plus grasse, acné possible"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Premières règles et premières éjaculations",
+          "texte": "Les premières règles sont le premier écoulement de sang par le vagin. Elles montrent que l'utérus et les ovaires fonctionnent. Elles apparaissent en général entre 10 et 15 ans et sont souvent irrégulières pendant les premiers mois.\nLes premières éjaculations sont les premières émissions de sperme, qui contient des spermatozoïdes. Elles ont lieu souvent pendant le sommeil et sont tout à fait normales.\nLes cycles de la femme seront étudiés au chapitre 14, et les appareils génitaux au chapitre 13."
+        },
+        {
+          "type": "remarque",
+          "titre": "Un corps mûr n'est pas encore un parent",
+          "texte": "Dès les premières règles, une fille peut être fécondée. Dès les premières éjaculations, un garçon peut féconder. Mais avoir un corps capable de se reproduire ne veut pas dire être prêt à devenir parent : il faut aussi être mûr dans sa tête, avoir fini sa croissance, être en bonne santé et pouvoir faire vivre un enfant. Une grossesse trop précoce est dangereuse pour la jeune fille et pour l'enfant (chapitre 15)."
+        },
+        {
+          "type": "remarque",
+          "titre": "Peau et transpiration",
+          "texte": "À la puberté, les glandes de la peau deviennent plus actives : les glandes sudoripares produisent plus de sueur, surtout sous les aisselles, et les glandes sébacées produisent plus de gras, ce qui peut donner de l'acné. Se laver chaque jour avec de l'eau propre et du savon, porter des vêtements propres et laver le visage doucement suffit en général. Il ne faut pas percer les boutons, car cela peut provoquer une infection et des cicatrices."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["caractère sexuel primaire", "organe génital présent dès la naissance"],
+            ["caractère sexuel secondaire", "changement du corps qui apparaît à la puberté"],
+            ["règles", "écoulement de sang par le vagin, une fois par cycle, chez la femme"],
+            ["éjaculation", "émission de sperme par le pénis"],
+            ["sperme", "liquide qui contient les spermatozoïdes"],
+            ["spermatozoïde", "cellule reproductrice mâle"],
+            ["ovule", "cellule reproductrice femelle"],
+            ["mue de la voix", "changement de la voix qui devient plus grave, car le larynx grossit"],
+            ["acné", "boutons sur la peau, fréquents à l'adolescence"],
+            ["glande sudoripare", "glande de la peau qui produit la sueur"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Classe ces éléments en caractères sexuels primaires et caractères sexuels secondaires : testicules ; barbe ; seins ; utérus ; mue de la voix ; ovaires ; poils du pubis ; élargissement du bassin ; pénis ; vagin.\n2) Dans une classe de 4ème, 14 filles sur 40 ont déjà eu leurs premières règles, et 9 garçons sur 36 ont déjà mué. Calcule le pourcentage dans chaque groupe, puis le pourcentage d'élèves concernés (filles et garçons) parmi les 76 élèves, arrondi à l'unité. Que remarques-tu ?\n3) Un garçon de 13 ans est inquiet : pendant son sommeil, il a eu une éjaculation. Que lui expliques-tu ?\n4) Une fille de 12 ans a eu ses premières règles, et elles sont irrégulières. Est-ce anormal ? Que signifie ce signe, et que doit-elle faire pour son hygiène ?",
+          "solution": "1) Caractères primaires : testicules, utérus, ovaires, pénis, vagin. Caractères secondaires : barbe, seins, mue de la voix, poils du pubis, élargissement du bassin.\n2) Filles : 14 ÷ 40 = 0,35, soit 35 %. Garçons : 9 ÷ 36 = 0,25, soit 25 %. Ensemble : (14 + 9) ÷ 76 = 23 ÷ 76 ≈ 0,30, soit environ 30 %. On remarque qu'une proportion plus grande de filles que de garçons a déjà atteint ce stade : en moyenne, la puberté commence plus tôt chez les filles.\n3) C'est normal. C'est une de ses premières éjaculations : elle montre que ses testicules fonctionnent. Cela arrive souvent pendant le sommeil et ce n'est ni une maladie ni une faute.\n4) Ce n'est pas anormal : les règles sont souvent irrégulières pendant les premiers mois. Ce signe montre que ses ovaires et son utérus fonctionnent, et qu'elle peut désormais être fécondée. Pour l'hygiène : se laver chaque jour, changer sa protection périodique (serviette ou tissu propre) toutes les 4 à 6 heures environ, se laver les mains, laver et sécher au soleil le tissu réutilisable. Si les douleurs sont très fortes ou les saignements très abondants, elle consulte un agent de santé."
+        }
+      ]
+    },
+    {
+      "id": "svt4-12-l3-declenchement",
+      "titre": "Le déclenchement de la puberté : cerveau et gonades",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Gonades et hormones",
+          "texte": "Les gonades sont les organes qui produisent les cellules reproductrices : les testicules chez l'homme (ils produisent les spermatozoïdes) et les ovaires chez la femme (ils produisent les ovules). Les gonades produisent aussi des hormones sexuelles.\nUne hormone est une substance fabriquée par une glande, qui passe dans le sang et agit à faible dose sur d'autres organes."
+        },
+        {
+          "type": "schema",
+          "titre": "Qui déclenche la puberté ?",
+          "svg": "<svg width='420' height='320' viewBox='0 0 420 320' xmlns='http://www.w3.org/2000/svg' fill='currentColor' font-family='sans-serif' font-size='12'><defs><marker id='fl12a' markerWidth='8' markerHeight='8' refX='6' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='#e11d48'/></marker></defs><rect x='80' y='10' width='260' height='50' rx='10' fill='currentColor' fill-opacity='0.12' stroke='currentColor' stroke-width='2'/><text x='210' y='32' text-anchor='middle' font-weight='bold'>Cerveau</text><text x='210' y='49' text-anchor='middle' font-size='11'>hypothalamus, puis hypophyse</text><line x1='210' y1='62' x2='210' y2='104' stroke='#e11d48' stroke-width='2.5' marker-end='url(#fl12a)'/><text x='224' y='88' font-size='11'>hormones (dans le sang)</text><rect x='80' y='108' width='260' height='50' rx='10' fill='currentColor' fill-opacity='0.12' stroke='currentColor' stroke-width='2'/><text x='210' y='130' text-anchor='middle' font-weight='bold'>Gonades</text><text x='210' y='147' text-anchor='middle' font-size='11'>testicules ou ovaires</text><line x1='210' y1='160' x2='210' y2='202' stroke='#e11d48' stroke-width='2.5' marker-end='url(#fl12a)'/><text x='224' y='186' font-size='11'>hormones sexuelles</text><rect x='80' y='206' width='260' height='62' rx='10' fill='#e11d48' fill-opacity='0.2' stroke='currentColor' stroke-width='2'/><text x='210' y='226' text-anchor='middle' font-weight='bold'>Organes du corps</text><text x='210' y='243' text-anchor='middle' font-size='11'>caractères sexuels secondaires</text><text x='210' y='258' text-anchor='middle' font-size='11'>et croissance</text><text x='210' y='292' text-anchor='middle' font-size='11'>Les gonades fabriquent aussi les cellules reproductrices</text><text x='210' y='308' text-anchor='middle' font-size='11'>(spermatozoïdes ou ovules).</text></svg>",
+          "legende": "Les flèches rouges représentent des messages chimiques (hormones) transportés par le sang."
+        },
+        {
+          "type": "regle",
+          "titre": "Le déclenchement de la puberté",
+          "texte": "Vers 9 à 14 ans, une région du cerveau, l'hypothalamus, active l'hypophyse, une petite glande placée à la base du cerveau. L'hypophyse libère dans le sang des hormones (FSH et LH) qui atteignent les gonades.\nSous leur action, les gonades se mettent à fonctionner : elles produisent des cellules reproductrices (spermatozoïdes ou ovules) et des hormones sexuelles.\nLes hormones sexuelles passent dans le sang et déclenchent les caractères sexuels secondaires et la poussée de croissance. Chez le garçon : la testostérone. Chez la fille : les œstrogènes et la progestérone."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les deux sortes de gonades",
+          "entetes": ["Gonades", "Cellules produites", "Hormones", "Effets visibles"],
+          "lignes": [
+            ["Testicules (deux, chez le garçon)", "spermatozoïdes, à partir de la puberté", "testostérone", "Barbe, voix grave, muscles, épaules larges, pénis et testicules plus grands."],
+            ["Ovaires (deux, chez la fille)", "ovules, à partir de la puberté", "œstrogènes et progestérone", "Seins, bassin large, règles, cycles sexuels (chapitre 14)."]
+          ]
+        },
+        {
+          "type": "exemple",
+          "titre": "Une expérience historique : les coqs de Berthold (1849)",
+          "texte": "Pour savoir si les testicules sont responsables des caractères du mâle, le savant Berthold a étudié des jeunes coqs. Des coqs normaux gardent une grande crête rouge, chantent et s'intéressent aux poules. Des coqs dont on a retiré les testicules (castration) avant la puberté ont une petite crête pâle, ne chantent pas et ne s'intéressent pas aux poules. Si on leur greffe ensuite des testicules dans l'abdomen, la crête, le chant et le comportement deviennent normaux. Les testicules greffés ne sont pas reliés aux nerfs d'origine : ils agissent donc par une substance qui passe dans le sang, une hormone. On ne refait pas cette expérience à l'école : elle est faite sur des animaux vivants."
+        },
+        {
+          "type": "tableau",
+          "titre": "Démarche scientifique : la puberté expliquée",
+          "entetes": ["Étape", "Dans l'expérience de Berthold"],
+          "lignes": [
+            ["Observation", "Seuls les mâles ont une grande crête et chantent. Les caractères apparaissent à la puberté."],
+            ["Hypothèse", "Les testicules produisent quelque chose qui provoque ces caractères."],
+            ["Expérience", "On retire les testicules à des coqs, et on en greffe à d'autres coqs castrés. On garde un lot de coqs non opérés pour comparer."],
+            ["Résultat", "Sans testicules : pas de caractères du mâle. Avec testicules greffés : ils réapparaissent."],
+            ["Conclusion", "Les testicules agissent par une substance libérée dans le sang : l'hormone sexuelle mâle."]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Les mêmes principes chez l'animal d'élevage",
+          "texte": "Quand l'éleveur castre un jeune zébu mâle, l'animal devient un bœuf : plus calme, avec un autre corps qu'un taureau. C'est la même idée : sans testicules, les hormones sexuelles mâles manquent et les caractères du mâle se développent peu."
+        },
+        {
+          "type": "remarque",
+          "titre": "Attention aux produits hormonaux",
+          "texte": "Les hormones agissent à très faible dose. Prendre des produits qui contiennent des hormones (pour grossir les muscles ou pour changer son corps) sans avis médical est dangereux pour la santé. Si la puberté est très précoce, très tardive ou semble anormale, il faut consulter un médecin, qui peut proposer un traitement adapté."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["gonade", "organe qui produit les cellules reproductrices et des hormones sexuelles"],
+            ["testicule", "gonade mâle"],
+            ["ovaire", "gonade femelle"],
+            ["hormone", "substance fabriquée par une glande, transportée par le sang, qui agit sur d'autres organes"],
+            ["hypothalamus", "région du cerveau qui commande l'hypophyse"],
+            ["hypophyse", "petite glande à la base du cerveau, qui libère des hormones"],
+            ["testostérone", "hormone sexuelle mâle, produite par les testicules"],
+            ["œstrogènes", "hormones sexuelles femelles, produites par les ovaires"],
+            ["progestérone", "autre hormone sexuelle femelle, produite par les ovaires"],
+            ["castration", "retrait des gonades d'un animal"],
+            ["greffe", "transfert d'un organe ou d'un morceau d'organe d'un individu à un autre"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Pour étudier le rôle des testicules, on utilise trois lots de 20 jeunes coqs du même âge. Lot A : coqs non opérés. Lot B : coqs dont on a retiré les testicules avant la puberté. Lot C : coqs castrés auxquels on greffe ensuite des testicules dans l'abdomen. À l'âge adulte, on mesure la hauteur moyenne de la crête et on observe le comportement.\nRésultats. Lot A : crête de 5 cm, rouge vif, les coqs chantent et s'intéressent aux poules. Lot B : crête de 1,5 cm, pâle, ils ne chantent pas et ne s'intéressent pas aux poules. Lot C : crête de 4,8 cm, rouge, ils chantent et s'intéressent aux poules.\n\n1) Quel est le rôle du lot A ?\n2) Que montre la comparaison des lots A et B ?\n3) Que montre la comparaison des lots B et C ? Les testicules greffés ne sont pas reliés aux nerfs d'origine : comment agissent-ils ?\n4) Calcule la diminution de la hauteur de la crête du lot B par rapport au lot A, en cm puis en pourcentage de la valeur du lot A. Fais de même pour le lot C.\n5) Chez l'être humain, quelle région du cerveau et quelle glande déclenchent la puberté ? Qu'est-ce qui active alors les gonades ?",
+          "solution": "1) Le lot A est le lot témoin : il sert de comparaison, pour savoir ce qui se passe quand on ne change rien.\n2) Sans testicules (lot B), la crête reste petite et le comportement du mâle n'apparaît pas : les testicules sont nécessaires au développement des caractères du mâle.\n3) La greffe (lot C) rétablit des résultats presque normaux : les testicules agissent. Comme ils ne sont pas reliés aux nerfs, ils agissent par une substance qu'ils libèrent dans le sang, une hormone.\n4) Lot B : 5 − 1,5 = 3,5 cm de moins, soit 3,5 ÷ 5 = 0,7 = 70 %. Lot C : 5 − 4,8 = 0,2 cm de moins, soit 0,2 ÷ 5 = 0,04 = 4 %.\n5) L'hypothalamus (dans le cerveau) active l'hypophyse. L'hypophyse libère dans le sang des hormones (FSH et LH) qui activent les gonades."
+        }
+      ]
+    },
+    {
+      "id": "svt4-12-l4-adolescent",
+      "titre": "L'adolescent : indépendance, éveil à la vie sexuelle, santé",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "L'adolescence",
+          "texte": "L'adolescence est la période de la vie entre l'enfance et l'âge adulte, d'environ 10 à 19 ans selon l'Organisation mondiale de la santé. Elle commence avec la puberté, mais elle ne concerne pas seulement le corps : l'adolescent change aussi dans ses émotions, ses relations avec les autres et sa façon de penser."
+        },
+        {
+          "type": "schema",
+          "titre": "Les changements de l'adolescent",
+          "svg": "<svg width='460' height='250' viewBox='0 0 460 250' xmlns='http://www.w3.org/2000/svg' fill='currentColor' font-family='sans-serif' font-size='12'><circle cx='230' cy='120' r='45' fill='#e11d48' fill-opacity='0.2' stroke='currentColor' stroke-width='2'/><text x='230' y='124' text-anchor='middle' font-weight='bold'>Adolescent</text><line x1='150' y1='60' x2='198' y2='90' stroke='currentColor' stroke-width='1.5'/><line x1='310' y1='60' x2='262' y2='90' stroke='currentColor' stroke-width='1.5'/><line x1='150' y1='180' x2='198' y2='150' stroke='currentColor' stroke-width='1.5'/><line x1='310' y1='180' x2='262' y2='150' stroke='currentColor' stroke-width='1.5'/><rect x='10' y='10' width='170' height='50' rx='8' fill='currentColor' fill-opacity='0.08' stroke='currentColor' stroke-width='2'/><text x='95' y='32' text-anchor='middle' font-weight='bold'>Le corps</text><text x='95' y='50' text-anchor='middle' font-size='11'>croissance, puberté</text><rect x='280' y='10' width='170' height='50' rx='8' fill='currentColor' fill-opacity='0.08' stroke='currentColor' stroke-width='2'/><text x='365' y='32' text-anchor='middle' font-weight='bold'>Les émotions</text><text x='365' y='50' text-anchor='middle' font-size='11'>humeur, sentiments</text><rect x='10' y='180' width='170' height='50' rx='8' fill='currentColor' fill-opacity='0.08' stroke='currentColor' stroke-width='2'/><text x='95' y='202' text-anchor='middle' font-weight='bold'>Les relations</text><text x='95' y='220' text-anchor='middle' font-size='11'>famille, amis, école</text><rect x='280' y='180' width='170' height='50' rx='8' fill='currentColor' fill-opacity='0.08' stroke='currentColor' stroke-width='2'/><text x='365' y='202' text-anchor='middle' font-weight='bold'>Les choix</text><text x='365' y='220' text-anchor='middle' font-size='11'>responsabilité, avenir</text></svg>",
+          "legende": "L'adolescence est une période de changements dans quatre domaines."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les changements de l'adolescence",
+          "entetes": ["Domaine", "Changements possibles"],
+          "lignes": [
+            ["Corps", "Croissance rapide, caractères sexuels secondaires, appétit plus grand, fatigue, acné, transpiration."],
+            ["Émotions", "Humeur changeante, timidité, besoin d'intimité, premiers sentiments amoureux."],
+            ["Relations", "Les amis prennent plus de place. Désaccords possibles avec les parents. Désir d'indépendance."],
+            ["Pensée et choix", "Réflexion sur l'avenir, opinions personnelles, choix d'une orientation, découverte de ses valeurs."]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Vers l'indépendance",
+          "texte": "L'adolescent apprend peu à peu à devenir autonome : donner son avis, prendre des décisions, tenir ses engagements et assumer les conséquences de ses actes. L'indépendance ne veut pas dire rompre avec la famille. Elle s'apprend en dialoguant avec les parents, avec les enseignants et avec des adultes de confiance, et en respectant les règles de la famille et de la société."
+        },
+        {
+          "type": "remarque",
+          "titre": "L'éveil à la vie sexuelle",
+          "texte": "À l'adolescence, apparaissent l'attirance pour d'autres personnes, les sentiments amoureux et la curiosité sur la sexualité. C'est normal. Mais il faut garder à l'esprit que :\n- les relations sexuelles précoces ont des risques : grossesse précoce, qui est dangereuse pour la santé de la jeune fille et peut interrompre ses études, et infections sexuellement transmissibles, dont le sida (chapitre 16) ;\n- attendre d'être prêt, dans sa tête comme dans sa vie, est un choix sûr et respectable ;\n- chacun a le droit de dire non à un geste qu'il ne veut pas, et le devoir de respecter le refus de l'autre ;\n- la loi protège les enfants et les adolescents : un adulte qui abuse d'un enfant ou d'un adolescent commet un délit grave, et la victime n'est jamais responsable."
+        },
+        {
+          "type": "regle",
+          "titre": "Hygiène et santé de l'adolescent",
+          "texte": "- Se laver chaque jour (visage, aisselles, parties intimes) avec de l'eau propre et du savon, et porter des vêtements propres, séchés au soleil.\n- Pour les filles : changer la protection périodique toutes les 4 à 6 heures environ (serviette, ou tissu propre bien lavé et séché au soleil) et se laver les mains avant et après.\n- Pour l'acné : laver le visage doucement et ne pas percer les boutons.\n- Manger varié : l'adolescent a besoin de beaucoup d'énergie et de protides (chapitre 7). Les filles ont aussi besoin de fer pour compenser les règles : haricots, viande, foie, brèdes.\n- Dormir 8 à 10 heures par nuit.\n- Bouger tous les jours : marche, sport, travaux.\n- Éviter le tabac, l'alcool et les drogues.\n- Ne pas hésiter à poser ses questions à un adulte de confiance ou à un agent de santé, plutôt que de croire les rumeurs."
+        },
+        {
+          "type": "remarque",
+          "titre": "À qui parler en cas de problème",
+          "texte": "Si une personne subit des violences, des moqueries répétées ou des gestes qu'elle ne veut pas, elle doit en parler à un adulte de confiance : un parent, un enseignant, un agent de santé ou un responsable de l'école. On ne doit pas garder le secret que demande un agresseur. Le centre de santé peut soigner et conseiller, et les services de protection de l'enfance peuvent aider."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["adolescent", "personne entre l'enfance et l'âge adulte, d'environ 10 à 19 ans"],
+            ["autonomie", "capacité de décider et d'agir par soi-même"],
+            ["éveil à la vie sexuelle", "apparition de l'attirance pour d'autres personnes à l'adolescence"],
+            ["grossesse précoce", "grossesse chez une jeune fille dont le corps n'a pas fini de grandir"],
+            ["consentement", "accord libre donné par une personne pour un geste ou une relation"],
+            ["protection périodique", "serviette ou tissu qui absorbe le sang des règles"],
+            ["valeurs", "idées sur ce qui est important et juste dans la vie"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Vrai ou faux ? Corrige celles qui sont fausses.\na) Tous les adolescents commencent leur puberté exactement au même âge.\nb) Ressentir de l'attirance pour quelqu'un à l'adolescence est normal.\nc) Chacun a le droit de dire non à un geste qu'il ne veut pas, même venant d'un proche ou d'un adulte.\nd) Une adolescente dont le corps est mûr est forcément prête à être mère.\n2) Rado, 14 ans, se couche à 23 h 30 et se lève à 5 h 30 pour aller à l'école. Il a besoin d'environ 9 heures de sommeil. Calcule sa durée de sommeil, son déficit de sommeil par nuit, puis le déficit sur une semaine. Propose deux conseils.\n3) Une amie te confie qu'un adulte lui fait des gestes qu'elle ne veut pas et lui demande de garder le secret. Que lui conseilles-tu ?\n4) Cite trois habitudes d'hygiène ou de santé importantes pour un adolescent.",
+          "solution": "1) a) Faux : la puberté commence à des âges différents selon les personnes. b) Vrai. c) Vrai. d) Faux : un corps mûr ne veut pas dire que la jeune fille est prête à être mère. Une grossesse précoce est dangereuse pour sa santé et celle de l'enfant, et elle peut interrompre ses études.\n2) De 23 h 30 à 5 h 30 : 6 heures de sommeil. Déficit par nuit : 9 − 6 = 3 heures. Sur une semaine : 3 × 7 = 21 heures. Conseils : se coucher plus tôt, faire les devoirs et les tâches en journée plutôt que tard le soir.\n3) Je lui dis qu'elle n'est pas responsable et qu'elle ne doit pas garder le secret. Elle doit en parler à un adulte de confiance (un parent, un enseignant, un agent de santé) et aller au centre de santé. La loi protège les enfants et les adolescents.\n4) Par exemple : se laver chaque jour, manger varié, dormir 8 à 10 heures, bouger tous les jours, éviter le tabac et l'alcool, changer régulièrement la protection périodique pour les filles (trois réponses suffisent)."
+        }
+      ]
+    }
+  ]
+}
