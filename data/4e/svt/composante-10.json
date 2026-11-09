@@ -1,0 +1,300 @@
+{
+  "id": "svt4-10-coeur-circulation",
+  "titre": "Le cœur et la circulation",
+  "lecons": [
+    {
+      "id": "svt4-10-l1-coeur",
+      "titre": "Le cœur : une pompe à quatre cavités",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "L'appareil circulatoire",
+          "texte": "L'appareil circulatoire comprend le sang, le cœur et les vaisseaux sanguins. Le cœur est la pompe qui fait circuler le sang dans tout le corps. Le sang transporte l'oxygène venu des poumons (chapitre 11), les nutriments venus de l'intestin (chapitre 8) et les déchets à éliminer, comme le dioxyde de carbone."
+        },
+        {
+          "type": "remarque",
+          "titre": "Où est le cœur ?",
+          "texte": "Le cœur est placé dans le thorax, entre les deux poumons, un peu vers la gauche. Il a la taille d'un poing fermé et pèse environ 300 g chez l'adulte. C'est un muscle creux, le myocarde, entouré d'une enveloppe, le péricarde. Il bat sans s'arrêter pendant toute la vie."
+        },
+        {
+          "type": "schema",
+          "titre": "Le cœur de mammifère (schéma fonctionnel)",
+          "svg": "<svg width='420' height='335' viewBox='0 0 420 335' xmlns='http://www.w3.org/2000/svg' fill='currentColor' font-family='sans-serif' font-size='12'><defs><marker id='fl10a' markerWidth='8' markerHeight='8' refX='6' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='#e11d48'/></marker></defs><text x='105' y='28' text-anchor='middle'>Veines caves</text><line x1='105' y1='36' x2='105' y2='76' stroke='#e11d48' stroke-width='2.5' marker-end='url(#fl10a)'/><text x='315' y='28' text-anchor='middle'>Veines pulmonaires</text><line x1='315' y1='36' x2='315' y2='76' stroke='#e11d48' stroke-width='2.5' marker-end='url(#fl10a)'/><text x='210' y='56' text-anchor='middle' font-size='11'>cloison</text><line x1='210' y1='62' x2='210' y2='282' stroke='currentColor' stroke-opacity='0.6' stroke-dasharray='4 4'/><rect x='40' y='80' width='130' height='70' rx='10' fill='currentColor' fill-opacity='0.12' stroke='currentColor' stroke-width='2'/><text x='105' y='111' text-anchor='middle'>Oreillette droite</text><text x='105' y='129' text-anchor='middle' font-size='11'>sang pauvre en O₂</text><rect x='250' y='80' width='130' height='70' rx='10' fill='#e11d48' fill-opacity='0.2' stroke='currentColor' stroke-width='2'/><text x='315' y='111' text-anchor='middle'>Oreillette gauche</text><text x='315' y='129' text-anchor='middle' font-size='11'>sang riche en O₂</text><line x1='105' y1='152' x2='105' y2='188' stroke='#e11d48' stroke-width='2.5' marker-end='url(#fl10a)'/><line x1='90' y1='170' x2='120' y2='170' stroke='currentColor' stroke-width='4'/><text x='126' y='174' font-size='11'>valvule</text><line x1='315' y1='152' x2='315' y2='188' stroke='#e11d48' stroke-width='2.5' marker-end='url(#fl10a)'/><line x1='300' y1='170' x2='330' y2='170' stroke='currentColor' stroke-width='4'/><text x='336' y='174' font-size='11'>valvule</text><rect x='40' y='190' width='130' height='90' rx='10' fill='currentColor' fill-opacity='0.12' stroke='currentColor' stroke-width='2'/><text x='105' y='228' text-anchor='middle'>Ventricule droit</text><text x='105' y='246' text-anchor='middle' font-size='11'>sang pauvre en O₂</text><text x='105' y='263' text-anchor='middle' font-size='11'>paroi moins épaisse</text><rect x='250' y='190' width='130' height='90' rx='10' fill='#e11d48' fill-opacity='0.2' stroke='currentColor' stroke-width='5'/><text x='315' y='228' text-anchor='middle'>Ventricule gauche</text><text x='315' y='246' text-anchor='middle' font-size='11'>sang riche en O₂</text><text x='315' y='263' text-anchor='middle' font-size='11'>paroi la plus épaisse</text><line x1='105' y1='282' x2='105' y2='306' stroke='#e11d48' stroke-width='2.5' marker-end='url(#fl10a)'/><line x1='90' y1='292' x2='120' y2='292' stroke='currentColor' stroke-width='4'/><text x='126' y='296' font-size='11'>valvule</text><line x1='315' y1='282' x2='315' y2='306' stroke='#e11d48' stroke-width='2.5' marker-end='url(#fl10a)'/><line x1='300' y1='292' x2='330' y2='292' stroke='currentColor' stroke-width='4'/><text x='336' y='296' font-size='11'>valvule</text><text x='105' y='324' text-anchor='middle'>Artère pulmonaire</text><text x='315' y='324' text-anchor='middle'>Aorte</text></svg>",
+          "legende": "Vue de face : le côté droit du cœur est dessiné à gauche. Les flèches rouges montrent le sens du sang. Les traits épais marquent les valvules."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les quatre cavités du cœur",
+          "entetes": ["Cavité", "Reçoit le sang de", "Envoie le sang vers", "Sang"],
+          "lignes": [
+            ["Oreillette droite", "les veines caves", "le ventricule droit", "pauvre en oxygène"],
+            ["Ventricule droit", "l'oreillette droite", "l'artère pulmonaire, puis les poumons", "pauvre en oxygène"],
+            ["Oreillette gauche", "les veines pulmonaires", "le ventricule gauche", "riche en oxygène"],
+            ["Ventricule gauche", "l'oreillette gauche", "l'aorte, puis tous les organes", "riche en oxygène"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Un seul sens de circulation",
+          "texte": "Le cœur a deux côtés séparés par une cloison. Le cœur droit reçoit le sang pauvre en oxygène, le cœur gauche reçoit le sang riche en oxygène. Les deux sangs ne se mélangent pas.\nChaque côté a deux cavités : une oreillette, qui reçoit le sang, et un ventricule, qui l'envoie.\nDes valvules s'ouvrent dans un seul sens : entre l'oreillette et le ventricule, et à la sortie des ventricules (dans l'artère pulmonaire et dans l'aorte). Elles empêchent le sang de reculer.\nLes parois des oreillettes sont minces. Celles des ventricules sont épaisses, surtout celle du ventricule gauche, qui envoie le sang dans tout le corps."
+        },
+        {
+          "type": "methode",
+          "titre": "Disséquer un cœur de zébu ou de porc",
+          "texte": "Matériel : un cœur frais acheté à la boucherie, une planche, une lame bien tranchante, des gants, de l'eau, du savon.\n1. Observe l'extérieur : la forme, les gros vaisseaux (l'aorte a une paroi épaisse, les veines caves une paroi mince). Le côté du ventricule gauche est plus dur au toucher.\n2. Avec l'aide d'un adulte, ouvre les deux ventricules dans le sens de la longueur.\n3. Compare l'épaisseur des parois des deux ventricules.\n4. Repère les valvules : ce sont de fines voiles attachées à la paroi par de petits cordons.\n5. Verse un peu d'eau dans une oreillette : elle passe dans le ventricule.\nSécurité : la lame coupe, travaille avec un adulte. Lave-toi soigneusement les mains et nettoie la table. Ne mange jamais la pièce disséquée : jette-la ou enterre-la."
+        },
+        {
+          "type": "remarque",
+          "titre": "Le cœur est nourri par ses propres artères",
+          "texte": "Le cœur travaille sans repos : il a besoin d'oxygène et de nutriments. Le sang qui passe dans ses cavités ne suffit pas à nourrir sa paroi épaisse. Il reçoit donc son sang par ses propres artères, les artères coronaires, qui entourent sa surface."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["myocarde", "muscle du cœur"],
+            ["péricarde", "enveloppe qui entoure le cœur"],
+            ["oreillette", "cavité du cœur qui reçoit le sang"],
+            ["ventricule", "cavité du cœur qui envoie le sang"],
+            ["valvule", "petite pièce qui s'ouvre dans un seul sens et empêche le retour du sang"],
+            ["cloison", "paroi qui sépare le cœur droit du cœur gauche"],
+            ["aorte", "grosse artère qui part du ventricule gauche"],
+            ["artère pulmonaire", "artère qui part du ventricule droit vers les poumons"],
+            ["veine cave", "grosse veine qui ramène le sang des organes à l'oreillette droite"],
+            ["veine pulmonaire", "veine qui ramène le sang des poumons à l'oreillette gauche"],
+            ["artère coronaire", "artère qui nourrit le muscle du cœur"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Un élève dissèque un cœur de zébu acheté à la boucherie. Il note : « La paroi du ventricule gauche est nettement plus épaisse que celle du ventricule droit. Entre l'oreillette et le ventricule, il y a une valvule. »\n\n1) Quel est le rôle de la cloison qui sépare le cœur droit du cœur gauche ?\n2) Le ventricule gauche envoie le sang dans tout le corps, le ventricule droit seulement dans les poumons. Explique pourquoi la paroi du ventricule gauche est plus épaisse.\n3) L'élève verse de l'eau dans l'oreillette droite : elle passe dans le ventricule. Puis il presse le ventricule : l'eau ne retourne pas dans l'oreillette. Quelle pièce du cœur l'explique ?\n4) Quels vaisseaux sont reliés au cœur droit ? au cœur gauche ?",
+          "solution": "1) La cloison empêche le mélange du sang pauvre en oxygène (côté droit) et du sang riche en oxygène (côté gauche).\n2) Le ventricule gauche doit pousser le sang beaucoup plus loin, jusqu'aux organes de tout le corps, et avec plus de force. Son muscle est donc plus épais et plus puissant.\n3) C'est la valvule entre l'oreillette et le ventricule. Elle s'ouvre dans un seul sens : quand le ventricule est pressé, elle se ferme et empêche le retour du liquide.\n4) Cœur droit : les veines caves arrivent à l'oreillette droite, l'artère pulmonaire part du ventricule droit. Cœur gauche : les veines pulmonaires arrivent à l'oreillette gauche, l'aorte part du ventricule gauche."
+        }
+      ]
+    },
+    {
+      "id": "svt4-10-l2-battement",
+      "titre": "Le battement du cœur",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Le cycle cardiaque",
+          "texte": "Le cœur bat en se contractant, puis en se relâchant. La contraction s'appelle la systole, le relâchement s'appelle la diastole. Une systole suivie d'une diastole forme un cycle cardiaque, c'est-à-dire un battement du cœur. Le muscle du cœur se contracte tout seul, sans que nous y pensions."
+        },
+        {
+          "type": "schema",
+          "titre": "Un cycle cardiaque au repos",
+          "svg": "<svg width='460' height='190' viewBox='0 0 460 190' xmlns='http://www.w3.org/2000/svg' fill='currentColor' font-family='sans-serif' font-size='12'><text x='230' y='22' text-anchor='middle'>Un cycle cardiaque au repos : 75 battements par minute</text><text x='30' y='54'>Contraction des oreillettes : 0,1 s</text><line x1='55' y1='58' x2='55' y2='70' stroke='#e11d48' stroke-width='2'/><rect x='30' y='70' width='50' height='40' fill='#e11d48' fill-opacity='0.55' stroke='currentColor'/><rect x='80' y='70' width='150' height='40' fill='#e11d48' fill-opacity='0.25' stroke='currentColor'/><rect x='230' y='70' width='200' height='40' fill='currentColor' fill-opacity='0.08' stroke='currentColor'/><text x='155' y='87' text-anchor='middle'>Contraction des</text><text x='155' y='102' text-anchor='middle'>ventricules : 0,3 s</text><text x='330' y='87' text-anchor='middle'>Repos général</text><text x='330' y='102' text-anchor='middle'>0,4 s</text><line x1='30' y1='125' x2='430' y2='125' stroke='currentColor'/><line x1='30' y1='120' x2='30' y2='130' stroke='currentColor'/><line x1='80' y1='120' x2='80' y2='130' stroke='currentColor'/><line x1='230' y1='120' x2='230' y2='130' stroke='currentColor'/><line x1='430' y1='120' x2='430' y2='130' stroke='currentColor'/><text x='30' y='145' text-anchor='middle' font-size='11'>0</text><text x='80' y='145' text-anchor='middle' font-size='11'>0,1</text><text x='230' y='145' text-anchor='middle' font-size='11'>0,4</text><text x='430' y='145' text-anchor='middle' font-size='11'>0,8 s</text><text x='230' y='172' text-anchor='middle'>Durée du cycle : 60 s ÷ 75 = 0,8 s</text></svg>",
+          "legende": "Un battement dure 0,8 s : le cœur se repose pendant la moitié du cycle."
+        },
+        {
+          "type": "regle",
+          "titre": "Le rôle des valvules pendant le cycle",
+          "texte": "Quand les oreillettes se contractent, le sang passe dans les ventricules.\nQuand les ventricules se contractent, les valvules entre oreillettes et ventricules se ferment. Le sang est poussé dans l'artère pulmonaire et dans l'aorte.\nQuand tout le cœur se relâche, les valvules de sortie se ferment : le sang ne revient pas dans les ventricules, qui se remplissent de nouveau."
+        },
+        {
+          "type": "remarque",
+          "titre": "Les bruits du cœur",
+          "texte": "Avec l'oreille posée sur la poitrine ou avec un stéthoscope, on entend deux bruits : « toum-ta ». Le premier est la fermeture des valvules entre oreillettes et ventricules. Le second est la fermeture des valvules de sortie des ventricules."
+        },
+        {
+          "type": "definition",
+          "titre": "Le pouls et la fréquence cardiaque",
+          "texte": "À chaque contraction des ventricules, le sang est lancé dans les artères, qui se gonflent un instant : c'est le pouls. On le sent au poignet (artère radiale) ou sur le côté du cou (artère carotide). La fréquence cardiaque est le nombre de battements du cœur par minute. Elle est égale au nombre de pulsations du pouls par minute."
+        },
+        {
+          "type": "tableau",
+          "titre": "Fréquence cardiaque (valeurs moyennes)",
+          "entetes": ["Situation", "Battements par minute"],
+          "lignes": [
+            ["Nouveau-né au repos", "environ 120 à 140"],
+            ["Jeune enfant au repos", "environ 80 à 100"],
+            ["Adolescent ou adulte au repos", "environ 60 à 80"],
+            ["Sportif entraîné au repos", "souvent moins de 60"],
+            ["Effort intense", "150 à 180, ou davantage"]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Mesurer son pouls",
+          "texte": "1. Reste assis et au calme pendant 5 minutes.\n2. Pose l'index et le majeur sur l'intérieur du poignet, du côté du pouce. N'utilise pas le pouce : il a son propre pouls.\n3. Compte les pulsations pendant 15 secondes avec une montre ou un chronomètre, puis multiplie par 4.\n4. Recommence après 1 minute de course sur place et compare. Note combien de temps il faut pour revenir à la valeur du repos.\nSécurité : ne fais pas d'effort si tu es malade ou essoufflé, et arrête-toi en cas de malaise."
+        },
+        {
+          "type": "formule",
+          "titre": "Le débit cardiaque",
+          "texte": "Débit = fréquence cardiaque × volume d'éjection\nLe débit est en mL par minute, la fréquence en battements par minute. Le volume d'éjection est le volume de sang envoyé par un ventricule à chaque battement, en mL."
+        },
+        {
+          "type": "exemple",
+          "titre": "Au repos et à l'effort",
+          "texte": "Au repos : 75 battements par minute et 70 mL par battement. Débit = 75 × 70 = 5 250 mL par minute, soit environ 5,25 L par minute. En 1 jour (1 440 minutes) : 5,25 × 1 440 = 7 560 L de sang pour chaque ventricule.\nÀ l'effort : 150 battements par minute et 100 mL par battement. Débit = 150 × 100 = 15 000 mL par minute, soit 15 L par minute, près de trois fois le débit du repos."
+        },
+        {
+          "type": "remarque",
+          "titre": "Pourquoi le cœur accélère à l'effort",
+          "texte": "Pendant un effort, les muscles brûlent plus de nutriments avec l'oxygène (chapitre 11). Ils ont besoin d'un apport plus grand : le cœur bat plus vite et envoie plus de sang à chaque battement, et la respiration s'accélère aussi. Un cœur entraîné envoie plus de sang à chaque battement : au repos, il peut donc battre moins vite.\nUn cœur infatigable : à 75 battements par minute, il bat 75 × 1 440 = 108 000 fois par jour, environ 39 millions de fois par an et près de 2,8 milliards de fois en 70 ans."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["systole", "contraction du muscle du cœur"],
+            ["diastole", "relâchement du muscle du cœur"],
+            ["cycle cardiaque", "un battement complet : systole puis diastole"],
+            ["pouls", "gonflement des artères ressenti à chaque battement du cœur"],
+            ["fréquence cardiaque", "nombre de battements du cœur par minute"],
+            ["volume d'éjection", "volume de sang envoyé par un ventricule à chaque battement"],
+            ["débit cardiaque", "volume de sang envoyé par un ventricule en une minute"],
+            ["stéthoscope", "instrument du médecin pour écouter le cœur et les poumons"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Au repos, Hery compte 18 pulsations en 15 secondes au poignet. Après 1 minute de course sur place, il en compte 35 en 15 secondes. Au repos, son ventricule gauche envoie 70 mL de sang à chaque battement.\n\n1) Calcule sa fréquence cardiaque au repos.\n2) Calcule la durée d'un cycle cardiaque au repos (arrondis au centième de seconde).\n3) Calcule sa fréquence cardiaque après la course.\n4) Pourquoi le cœur bat-il plus vite pendant un effort ?\n5) Calcule le débit cardiaque de Hery au repos, en mL par minute puis en L par minute, puis le volume de sang envoyé en 1 heure.",
+          "solution": "1) 18 × 4 = 72 battements par minute.\n2) 60 ÷ 72 ≈ 0,83 s.\n3) 35 × 4 = 140 battements par minute.\n4) Pendant l'effort, les muscles ont besoin de plus d'oxygène et de nutriments. Le cœur bat plus vite pour envoyer plus de sang aux muscles.\n5) Débit = 72 × 70 = 5 040 mL par minute, soit 5,04 L par minute. En 1 heure (60 minutes) : 5,04 × 60 = 302,4 L."
+        }
+      ]
+    },
+    {
+      "id": "svt4-10-l3-vaisseaux-circulations",
+      "titre": "Les vaisseaux et les deux circulations",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Les trois sortes de vaisseaux",
+          "texte": "Les vaisseaux sanguins sont des tubes dans lesquels circule le sang. Une artère emmène le sang qui part du cœur. Une veine ramène le sang qui revient au cœur. Les capillaires sont de très fins vaisseaux (5 à 10 µm de diamètre) qui relient les petites artères (artérioles) aux petites veines (veinules) à l'intérieur des organes."
+        },
+        {
+          "type": "tableau",
+          "titre": "Comparer artères, capillaires et veines",
+          "entetes": ["Vaisseau", "Sens du sang et paroi", "Particularités"],
+          "lignes": [
+            ["Artère", "Du cœur vers les organes. Paroi épaisse, musclée et élastique.", "Forte pression, pouls. Si elle est coupée, le sang jaillit par saccades : c'est une urgence."],
+            ["Capillaire", "Entre artérioles et veinules. Paroi très mince, faite d'une seule couche de cellules.", "Lieu des échanges entre le sang et les cellules. Le sang y circule lentement."],
+            ["Veine", "Des organes vers le cœur. Paroi plus mince que celle des artères.", "Faible pression. Valvules dans les veines des membres, qui empêchent le sang de redescendre."]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Ne pas se fier au type de sang",
+          "texte": "Une artère n'est pas forcément un vaisseau à sang riche en oxygène. C'est le sens du sang qui compte : l'artère pulmonaire part du cœur vers les poumons avec du sang pauvre en oxygène, et les veines pulmonaires reviennent des poumons avec du sang riche en oxygène."
+        },
+        {
+          "type": "definition",
+          "titre": "Les échanges dans les capillaires",
+          "texte": "Dans les capillaires des organes, le sang cède de l'oxygène et des nutriments aux cellules, et récupère du dioxyde de carbone et des déchets. Dans les capillaires des poumons, le sang se charge en oxygène et se débarrasse du dioxyde de carbone (chapitre 11). Un globule rouge, large d'environ 7 µm, passe dans un capillaire de 5 à 10 µm en se déformant un peu."
+        },
+        {
+          "type": "schema",
+          "titre": "La double circulation",
+          "svg": "<svg width='500' height='340' viewBox='0 0 500 340' xmlns='http://www.w3.org/2000/svg' fill='currentColor' font-family='sans-serif' font-size='12'><defs><marker id='fl10c' markerWidth='8' markerHeight='8' refX='6' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='#e11d48'/></marker><marker id='fl10d' markerWidth='8' markerHeight='8' refX='6' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='currentColor'/></marker></defs><text x='10' y='48' font-weight='bold'>Petite circulation</text><text x='10' y='298' font-weight='bold'>Grande circulation</text><rect x='160' y='20' width='200' height='50' rx='10' fill='currentColor' fill-opacity='0.08' stroke='currentColor' stroke-width='2'/><text x='260' y='42' text-anchor='middle'>Poumons</text><text x='260' y='59' text-anchor='middle' font-size='11'>O₂ gagné, CO₂ perdu</text><rect x='160' y='130' width='100' height='100' fill='currentColor' fill-opacity='0.15' stroke='currentColor' stroke-width='2.5'/><rect x='260' y='130' width='100' height='100' fill='#e11d48' fill-opacity='0.2' stroke='currentColor' stroke-width='2.5'/><text x='210' y='176' text-anchor='middle'>Cœur droit</text><text x='210' y='194' text-anchor='middle' font-size='11'>pauvre en O₂</text><text x='310' y='176' text-anchor='middle'>Cœur gauche</text><text x='310' y='194' text-anchor='middle' font-size='11'>riche en O₂</text><rect x='160' y='270' width='200' height='50' rx='10' fill='currentColor' fill-opacity='0.08' stroke='currentColor' stroke-width='2'/><text x='260' y='292' text-anchor='middle'>Organes</text><text x='260' y='309' text-anchor='middle' font-size='11'>O₂ cédé, CO₂ reçu</text><line x1='190' y1='128' x2='190' y2='74' stroke='currentColor' stroke-width='2.5' marker-end='url(#fl10d)'/><text x='183' y='104' text-anchor='end' font-size='11'>Artère pulmonaire</text><line x1='330' y1='74' x2='330' y2='126' stroke='#e11d48' stroke-width='2.5' marker-end='url(#fl10c)'/><text x='337' y='104' font-size='11'>Veines pulmonaires</text><line x1='330' y1='232' x2='330' y2='266' stroke='#e11d48' stroke-width='2.5' marker-end='url(#fl10c)'/><text x='337' y='254' font-size='11'>Aorte, puis artères</text><line x1='190' y1='266' x2='190' y2='232' stroke='currentColor' stroke-width='2.5' marker-end='url(#fl10d)'/><text x='183' y='254' text-anchor='end' font-size='11'>Veines caves</text></svg>",
+          "legende": "Flèches rouges : sang riche en O₂. Flèches sombres : sang pauvre en O₂."
+        },
+        {
+          "type": "regle",
+          "titre": "Les deux circulations",
+          "texte": "La petite circulation (ou circulation pulmonaire) : ventricule droit → artère pulmonaire → capillaires des poumons → veines pulmonaires → oreillette gauche. Le sang s'y charge en oxygène.\nLa grande circulation (ou circulation générale) : ventricule gauche → aorte → artères → capillaires des organes → veines caves → oreillette droite. Le sang y cède l'oxygène aux cellules.\nÀ chaque tour, le sang passe deux fois par le cœur : on dit que la circulation est double. Elle est fermée, car le sang reste dans les vaisseaux, et complète, car le sang riche et le sang pauvre en oxygène ne se mélangent pas. Un tour complet dure environ une minute au repos."
+        },
+        {
+          "type": "exemple",
+          "titre": "Le trajet du glucose après un repas",
+          "texte": "Le glucose absorbé par les villosités de l'intestin (chapitre 8) passe dans les capillaires, puis dans la veine porte qui le conduit au foie. Il quitte le foie par une veine qui rejoint la veine cave, puis traverse l'oreillette droite, le ventricule droit, les poumons, l'oreillette gauche et le ventricule gauche. L'aorte le distribue ensuite à tous les organes."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["artère", "vaisseau qui emmène le sang loin du cœur"],
+            ["veine", "vaisseau qui ramène le sang vers le cœur"],
+            ["capillaire", "vaisseau très fin où se font les échanges avec les cellules"],
+            ["artériole", "toute petite artère"],
+            ["veinule", "toute petite veine"],
+            ["circulation pulmonaire", "trajet du sang entre le cœur et les poumons (petite circulation)"],
+            ["circulation générale", "trajet du sang entre le cœur et les organes (grande circulation)"],
+            ["circulation double", "le sang passe deux fois par le cœur pendant un tour complet"],
+            ["veine porte", "veine qui amène au foie le sang venu de l'intestin"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Une molécule d'oxygène vient d'entrer dans le sang au niveau d'un poumon.\n\n1) Décris son trajet jusqu'au capillaire d'un muscle de la jambe, en citant dans l'ordre les vaisseaux et les cavités du cœur traversés.\n2) Le sang des veines pulmonaires est-il riche ou pauvre en oxygène ? Pourquoi ces vaisseaux s'appellent-ils des veines ?\n3) Admets qu'un globule rouge fait un tour complet en 1 minute. Combien de tours fait-il en 1 heure ? en 1 jour ? en 120 jours, sa durée de vie (chapitre 9) ?\n4) Pourquoi les veines des jambes ont-elles des valvules ?",
+          "solution": "1) Veines pulmonaires → oreillette gauche → ventricule gauche → aorte → artères de la jambe → capillaires du muscle.\n2) Il est riche en oxygène, car il vient de se charger dans les poumons. Ce sont des veines parce qu'elles ramènent le sang vers le cœur.\n3) En 1 heure : 60 tours. En 1 jour : 60 × 24 = 1 440 tours. En 120 jours : 1 440 × 120 = 172 800 tours.\n4) La pression y est faible et le sang doit remonter vers le cœur, contre la pesanteur. Les valvules se ferment et empêchent le sang de redescendre."
+        }
+      ]
+    },
+    {
+      "id": "svt4-10-l4-maladies-prevention",
+      "titre": "Maladies du cœur et des vaisseaux, prévention",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "La tension artérielle",
+          "texte": "La tension artérielle est la pression du sang sur la paroi des artères. On la mesure avec un tensiomètre, en millimètres de mercure (mmHg). On donne deux valeurs : la plus grande, quand les ventricules se contractent, et la plus petite, quand le cœur se relâche. Chez un adulte au repos, la tension normale est proche de 120/80 mmHg (on dit aussi « 12 sur 8 »). Une tension de 140/90 mmHg ou plus, trouvée à plusieurs mesures au repos, est de l'hypertension."
+        },
+        {
+          "type": "schema",
+          "titre": "Quand une artère se bouche",
+          "svg": "<svg width='480' height='205' viewBox='0 0 480 205' xmlns='http://www.w3.org/2000/svg' fill='currentColor' font-family='sans-serif' font-size='12'><text x='240' y='20' text-anchor='middle'>Coupes d'une artère</text><text x='80' y='36' text-anchor='middle' font-size='11'>paroi</text><line x1='80' y1='39' x2='80' y2='52' stroke='currentColor' stroke-width='1.5'/><circle cx='80' cy='90' r='48' fill='currentColor' fill-opacity='0.2' stroke='currentColor' stroke-width='2'/><circle cx='80' cy='90' r='30' fill='#e11d48' fill-opacity='0.35' stroke='currentColor'/><text x='80' y='94' text-anchor='middle' font-size='11'>sang</text><circle cx='240' cy='90' r='48' fill='currentColor' fill-opacity='0.2' stroke='currentColor' stroke-width='2'/><circle cx='240' cy='90' r='30' fill='#e11d48' fill-opacity='0.35' stroke='currentColor'/><ellipse cx='240' cy='106' rx='24' ry='14' fill='currentColor' fill-opacity='0.55'/><circle cx='400' cy='90' r='48' fill='currentColor' fill-opacity='0.2' stroke='currentColor' stroke-width='2'/><circle cx='400' cy='90' r='30' fill='#e11d48' fill-opacity='0.35' stroke='currentColor'/><circle cx='400' cy='90' r='24' fill='#e11d48' fill-opacity='0.9'/><text x='400' y='94' text-anchor='middle' font-size='11' fill='#ffffff'>caillot</text><text x='80' y='160' text-anchor='middle' font-weight='bold'>Artère normale</text><text x='80' y='178' text-anchor='middle' font-size='11'>le sang circule bien</text><text x='240' y='160' text-anchor='middle' font-weight='bold'>Artère rétrécie</text><text x='240' y='178' text-anchor='middle' font-size='11'>dépôts de graisse</text><text x='400' y='160' text-anchor='middle' font-weight='bold'>Artère bouchée</text><text x='400' y='178' text-anchor='middle' font-size='11'>sang bloqué par un caillot</text></svg>",
+          "legende": "Schéma simplifié : le sang est en rouge clair, la paroi en gris."
+        },
+        {
+          "type": "regle",
+          "titre": "Comment une artère se bouche",
+          "texte": "Avec le temps, des dépôts de graisse (cholestérol) peuvent s'accumuler sur la paroi interne des artères : c'est l'athérosclérose. L'artère se rétrécit et durcit.\nSur une artère abîmée, des plaquettes (chapitre 9) peuvent former un caillot sans qu'il y ait de blessure : c'est une thrombose. Le caillot peut boucher l'artère.\nSi l'artère bouchée nourrit le cœur (artère coronaire), une partie du muscle ne reçoit plus d'oxygène : c'est l'infarctus, ou attaque cardiaque.\nSi elle nourrit le cerveau, c'est un accident vasculaire cérébral (AVC), qui peut causer une paralysie."
+        },
+        {
+          "type": "tableau",
+          "titre": "Principales maladies du cœur et des vaisseaux",
+          "entetes": ["Maladie", "Ce qui se passe", "Signes et conséquences"],
+          "lignes": [
+            ["Hypertension", "La pression du sang sur les artères est trop forte (140/90 mmHg ou plus, à plusieurs mesures).", "Souvent aucun signe. Abîme les artères, le cœur et les reins, et favorise l'AVC."],
+            ["Athérosclérose", "Des dépôts de graisse s'accumulent sur la paroi des artères.", "Artères rétrécies et durcies : l'organe reçoit moins de sang."],
+            ["Infarctus (attaque cardiaque)", "Un caillot ou un dépôt bouche une artère coronaire.", "Douleur forte et serrée dans la poitrine, sueurs, essoufflement. Urgence."],
+            ["AVC (attaque cérébrale)", "Une artère du cerveau est bouchée par un caillot, ou elle éclate.", "Visage qui tombe d'un côté, bras ou jambe faible, parole difficile, paralysie possible. Urgence."],
+            ["Atteinte des valvules", "Une angine à microbes mal soignée chez l'enfant peut provoquer un rhumatisme articulaire aigu, qui abîme les valvules.", "Fatigue, essoufflement, souffle au cœur. D'où l'importance de bien soigner les angines."],
+            ["Varices", "Des veines des jambes se dilatent et leurs valvules ne ferment plus bien.", "Jambes lourdes et gonflées, surtout après une longue station debout."]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Que faire en cas d'urgence",
+          "texte": "Une douleur forte dans la poitrine, un visage qui tombe d'un côté, un bras qui ne bouge plus ou une parole confuse sont des urgences. Il faut appeler à l'aide et conduire aussitôt la personne à l'hôpital : plus on agit vite, plus on limite les dégâts. Ne donne pas de médicament sans avis médical."
+        },
+        {
+          "type": "regle",
+          "titre": "Protéger son cœur",
+          "texte": "- Bouger : pour les jeunes, environ une heure d'activité par jour (marche rapide, course, football, vélo, travaux des champs).\n- Manger des fruits, des légumes, des haricots, et peu de fritures et de graisses.\n- Limiter le sel : moins de 5 g par jour, soit environ une petite cuillère à café.\n- Ne pas fumer : la nicotine accélère le cœur et fait monter la tension, et le monoxyde de carbone prend la place de l'oxygène sur l'hémoglobine (chapitre 9).\n- Limiter l'alcool.\n- Surveiller son poids et sa tension, surtout dans une famille où il y a déjà des maladies du cœur.\n- Soigner les angines avec les médicaments prescrits, jusqu'au bout."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["tension artérielle", "pression du sang sur la paroi des artères"],
+            ["tensiomètre", "appareil qui mesure la tension artérielle"],
+            ["hypertension", "tension artérielle trop forte"],
+            ["cholestérol", "graisse du sang qui peut se déposer sur la paroi des artères"],
+            ["athérosclérose", "dépôts de graisse qui rétrécissent et durcissent les artères"],
+            ["thrombose", "formation d'un caillot dans un vaisseau non blessé"],
+            ["infarctus", "mort d'une partie du muscle du cœur, privée d'oxygène (attaque cardiaque)"],
+            ["AVC", "accident vasculaire cérébral : un vaisseau du cerveau est bouché ou éclate"],
+            ["varice", "veine dilatée, le plus souvent dans la jambe"],
+            ["sédentaire", "qui bouge très peu"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Deux personnes mesurent leur tension au repos trois jours de suite. Mme Rasoa : 120/80, 125/80 et 120/85 mmHg. M. Rakoto : 160/100, 155/100 et 160/105 mmHg. Lequel est probablement hypertendu ? Que lui conseilles-tu ?\n2) Dis si chaque phrase est vraie ou fausse, et corrige celles qui sont fausses.\na) Un caillot qui bouche une artère coronaire peut provoquer une attaque cardiaque.\nb) Le sel en excès n'a aucun effet sur le cœur.\nc) Une activité physique régulière aide à protéger le cœur.\nd) Une angine non soignée ne peut jamais atteindre le cœur.\n3) Une famille de 5 personnes consomme 1 kg de sel en 30 jours. En supposant que tout ce sel est mangé, calcule la quantité moyenne par personne et par jour, puis compare-la à la limite de 5 g par jour.",
+          "solution": "1) Mme Rasoa a une tension normale. M. Rakoto est probablement hypertendu : ses valeurs dépassent 140/90 mmHg à chaque mesure. Il doit consulter un médecin, réduire le sel, bouger davantage, ne pas fumer et faire contrôler sa tension régulièrement.\n2) a) Vrai. b) Faux : un excès de sel favorise l'hypertension. c) Vrai. d) Faux : une angine à microbes mal soignée peut abîmer les valvules du cœur (rhumatisme articulaire aigu).\n3) 1 kg = 1 000 g. Pour la famille : 1 000 ÷ 30 ≈ 33,3 g par jour. Par personne : 33,3 ÷ 5 ≈ 6,7 g par jour. C'est 6,7 − 5 = 1,7 g de plus que la limite de 5 g : il faut réduire le sel, y compris celui des cubes de bouillon."
+        }
+      ]
+    }
+  ]
+}
