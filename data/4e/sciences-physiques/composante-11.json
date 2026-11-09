@@ -76,7 +76,7 @@
         {
           "type": "exercice",
           "titre": "À toi de jouer",
-          "enonce": "1) Deux lampes sont en série. Un ampèremètre placé entre la pile et L₁ indique 0,3 A. Que indique-t-il s'il est placé entre L₁ et L₂ ?\n2) Une pile de 9 V alimente deux lampes en série. La tension aux bornes de L₁ est 5 V. Calcule la tension aux bornes de L₂.\n3) Trois lampes identiques sont en série sur une batterie de 12 V. Quelle est la tension aux bornes de chaque lampe ?",
+          "enonce": "1) Deux lampes sont en série. Un ampèremètre placé entre la pile et L₁ indique 0,3 A. Qu'indique-t-il s'il est placé entre L₁ et L₂ ?\n2) Une pile de 9 V alimente deux lampes en série. La tension aux bornes de L₁ est 5 V. Calcule la tension aux bornes de L₂.\n3) Trois lampes identiques sont en série sur une batterie de 12 V. Quelle est la tension aux bornes de chaque lampe ?",
           "solution": "1) Il indique encore 0,3 A : dans un circuit en série, l'intensité est la même en tout point.\n2) U₂ = 9 − 5 = 4 V.\n3) 12 / 3 = 4 V pour chaque lampe."
         }
       ]
