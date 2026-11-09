@@ -1,0 +1,341 @@
+{
+  "id": "sp4-5-elements",
+  "titre": "Chapitre 5 : Éléments, symboles et tableau périodique",
+  "lecons": [
+    {
+      "id": "sp4-5-element-symbole",
+      "titre": "L’élément chimique et son symbole",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Élément chimique",
+          "texte": "Un élément chimique est l’ensemble des atomes qui ont le même numéro atomique Z, c’est-à-dire le même nombre de protons.\nExemple : tous les atomes qui ont 6 protons sont des atomes de carbone. Ils forment l’élément carbone."
+        },
+        {
+          "type": "definition",
+          "titre": "Symbole d’un élément",
+          "texte": "Chaque élément a un symbole, formé d’une ou de deux lettres. Le symbole désigne l’élément, et aussi un atome de cet élément."
+        },
+        {
+          "type": "regle",
+          "titre": "Comment écrire un symbole",
+          "texte": "Un symbole s’écrit avec une majuscule, suivie, s’il y a une seconde lettre, d’une minuscule.\nExemples : C, O, Cl, Ca, Cu, Fe."
+        },
+        {
+          "type": "tableau",
+          "titre": "Quelques éléments et leurs symboles",
+          "entetes": ["Élément", "Symbole", "Origine du symbole"],
+          "lignes": [
+            ["Hydrogène", "H", "première lettre du nom"],
+            ["Carbone", "C", "première lettre du nom"],
+            ["Azote", "N", "première lettre du nom"],
+            ["Oxygène", "O", "première lettre du nom"],
+            ["Soufre", "S", "première lettre du nom"],
+            ["Chlore", "Cl", "deux premières lettres du nom"],
+            ["Calcium", "Ca", "deux premières lettres du nom"],
+            ["Aluminium", "Al", "deux premières lettres du nom"],
+            ["Magnésium", "Mg", "deux lettres du nom"],
+            ["Zinc", "Zn", "deux lettres du nom"],
+            ["Fer", "Fe", "du latin ferrum"],
+            ["Cuivre", "Cu", "du latin cuprum"],
+            ["Sodium", "Na", "du latin natrium"],
+            ["Potassium", "K", "du latin kalium"],
+            ["Argent", "Ag", "du latin argentum"],
+            ["Or", "Au", "du latin aurum"],
+            ["Plomb", "Pb", "du latin plumbum"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Pourquoi des lettres latines ?",
+          "texte": "Les noms de plusieurs métaux connus depuis l’Antiquité viennent du latin, la langue des savants pendant longtemps. Les symboles actuels ont été proposés par le chimiste suédois Berzelius, vers 1813."
+        },
+        {
+          "type": "remarque",
+          "titre": "Attention à la majuscule",
+          "texte": "Co avec un o minuscule est le symbole du cobalt. CO avec deux majuscules se lit C et O : ce sont deux éléments, le carbone et l’oxygène (nous verrons au chapitre 6 la molécule de monoxyde de carbone). Une seule lettre change, et la signification aussi."
+        },
+        {
+          "type": "regle",
+          "titre": "Les éléments se conservent",
+          "texte": "Pendant une transformation chimique, les éléments se conservent. Les substances changent, mais on retrouve après la réaction les mêmes éléments qu’avant.\nExemple : la combustion du carbone. Avant : les éléments carbone (C) et oxygène (O). Après : le dioxyde de carbone contient encore du carbone et de l’oxygène."
+        },
+        {
+          "type": "remarque",
+          "titre": "Même élément, neutrons différents",
+          "texte": "Des atomes d’un même élément ont toujours le même nombre de protons, mais ils peuvent avoir un nombre de neutrons différent.\nExemple : le carbone 12 a 6 protons et 6 neutrons (6 + 6 = 12 nucléons). Le carbone 14 a 6 protons et 8 neutrons (6 + 8 = 14 nucléons). Ce sont deux atomes du même élément."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Élément chimique", "Ensemble des atomes de même numéro atomique Z."],
+            ["Symbole", "Abréviation d’une ou de deux lettres qui désigne un élément."],
+            ["Majuscule", "Grande lettre : A, B, C…"],
+            ["Minuscule", "Petite lettre : a, b, c…"],
+            ["Nucléons", "Protons et neutrons du noyau."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. Donne le symbole des éléments : carbone, azote, soufre, calcium, fer, cuivre.\n2. Donne le nom des éléments de symboles : H, O, Cl, Na.\n3. Quelle différence y a-t-il entre Co et CO ?\n4. On brûle du carbone dans le dioxygène et on obtient du dioxyde de carbone. Quels éléments trouve-t-on avant la réaction ? Après la réaction ?",
+          "solution": "1. Carbone : C ; azote : N ; soufre : S ; calcium : Ca ; fer : Fe ; cuivre : Cu.\n2. H : hydrogène ; O : oxygène ; Cl : chlore ; Na : sodium.\n3. Co (une majuscule, une minuscule) est le symbole du cobalt. CO (deux majuscules) représente le carbone (C) et l’oxygène (O) : ce sont deux éléments.\n4. Avant : le carbone et l’oxygène. Après : le dioxyde de carbone contient encore du carbone et de l’oxygène. Les éléments se conservent."
+        }
+      ]
+    },
+    {
+      "id": "sp4-5-modeles-atome",
+      "titre": "L’évolution du modèle de l’atome",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Un modèle",
+          "texte": "Un modèle est une représentation simplifiée de la réalité. Les savants le modifient quand de nouvelles expériences montrent qu’il est insuffisant. Le modèle de l’atome a ainsi beaucoup changé en 2 500 ans."
+        },
+        {
+          "type": "schema",
+          "titre": "Les grandes étapes",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='360' height='125' viewBox='0 0 360 125'><line x1='15' y1='60' x2='345' y2='60' stroke='currentColor' stroke-width='2'/><g fill='#e11d48'><circle cx='40' cy='60' r='5'/><circle cx='110' cy='60' r='5'/><circle cx='180' cy='60' r='5'/><circle cx='250' cy='60' r='5'/><circle cx='320' cy='60' r='5'/></g><g fill='currentColor' font-size='12' text-anchor='middle'><text x='40' y='45'>1803</text><text x='110' y='45'>1904</text><text x='180' y='45'>1911</text><text x='250' y='45'>1913</text><text x='320' y='45'>1932</text></g><g fill='currentColor' font-size='11' text-anchor='middle'><text x='40' y='80'>Dalton</text><text x='110' y='80'>Thomson</text><text x='180' y='80'>Rutherford</text><text x='250' y='80'>Bohr</text><text x='320' y='80'>Chadwick</text></g><g fill='currentColor' font-size='10' text-anchor='middle'><text x='40' y='94'>bille</text><text x='40' y='106'>pleine</text><text x='110' y='94'>pain aux</text><text x='110' y='106'>raisins</text><text x='180' y='94'>noyau</text><text x='180' y='106'>et vide</text><text x='250' y='94'>niveaux</text><text x='250' y='106'>d’énergie</text><text x='320' y='94'>découverte</text><text x='320' y='106'>du neutron</text></g></svg>",
+          "legende": "Chaque date correspond à une idée nouvelle sur l’atome."
+        },
+        {
+          "type": "tableau",
+          "titre": "De l’Antiquité au XIXe siècle",
+          "entetes": ["Époque", "Savant", "Idée"],
+          "lignes": [
+            ["Ve siècle avant J.-C.", "Démocrite (Grèce)", "La matière est formée de grains indivisibles : les atomes."],
+            ["Fin du XVIIIe siècle", "Lavoisier (France)", "Pendant une réaction chimique, la masse se conserve."],
+            ["Début du XIXe siècle (vers 1803)", "Dalton (Angleterre)", "Chaque élément est formé d’atomes identiques, comme de petites billes pleines et indivisibles."],
+            ["1897", "Thomson (Angleterre)", "Il découvre l’électron : une particule très légère, de charge négative."]
+          ]
+        },
+        {
+          "type": "definition",
+          "titre": "Le modèle de Thomson (1904)",
+          "texte": "L’atome est une sphère chargée positivement, dans laquelle les électrons sont incrustés, comme des raisins dans un pain. On l’appelle le modèle du « pain aux raisins ». L’atome est neutre, car les charges positives et négatives se compensent."
+        },
+        {
+          "type": "methode",
+          "titre": "L’expérience de Rutherford (1911)",
+          "texte": "Rutherford bombarde une feuille d’or très mince avec des particules chargées positivement.\nObservations :\n1. La plupart des particules traversent la feuille sans être déviées.\n2. Quelques-unes sont déviées.\n3. Très peu rebondissent en arrière.\nConclusions :\n- la plupart des particules passent : l’atome est presque entièrement vide ;\n- celles qui sont déviées ou qui rebondissent rencontrent une toute petite partie chargée positivement et très lourde : le noyau."
+        },
+        {
+          "type": "definition",
+          "titre": "Le modèle de Rutherford (1911)",
+          "texte": "L’atome possède un noyau minuscule, chargé positivement, où se trouve presque toute la masse. Les électrons se déplacent autour, dans le vide. Ce modèle est celui du chapitre 4 : le noyau est environ 100 000 fois plus petit que l’atome."
+        },
+        {
+          "type": "definition",
+          "titre": "Le modèle de Bohr (1913)",
+          "texte": "Le Danois Niels Bohr précise la place des électrons : ils ne tournent pas n’importe où, mais sur des niveaux d’énergie (des orbites) bien précis autour du noyau."
+        },
+        {
+          "type": "schema",
+          "titre": "Trois modèles de l’atome",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='360' height='155' viewBox='0 0 360 155'><circle cx='65' cy='65' r='45' fill='#e11d48' fill-opacity='0.15' stroke='currentColor'/><g fill='currentColor'><circle cx='50' cy='50' r='4'/><circle cx='75' cy='45' r='4'/><circle cx='90' cy='70' r='4'/><circle cx='60' cy='80' r='4'/><circle cx='45' cy='72' r='4'/></g><circle cx='180' cy='65' r='45' fill='none' stroke='currentColor' stroke-opacity='0.5' stroke-dasharray='4 3'/><circle cx='180' cy='65' r='5' fill='#e11d48'/><g fill='currentColor'><circle cx='210' cy='40' r='3.5'/><circle cx='148' cy='85' r='3.5'/><circle cx='200' cy='95' r='3.5'/><circle cx='160' cy='38' r='3.5'/></g><g fill='none' stroke='currentColor' stroke-opacity='0.5' stroke-dasharray='4 3'><circle cx='295' cy='65' r='20'/><circle cx='295' cy='65' r='38'/></g><circle cx='295' cy='65' r='6' fill='#e11d48'/><g fill='currentColor'><circle cx='315' cy='65' r='3.5'/><circle cx='275' cy='65' r='3.5'/><circle cx='295' cy='27' r='3.5'/><circle cx='295' cy='103' r='3.5'/><circle cx='333' cy='65' r='3.5'/></g><g fill='currentColor' font-size='11' text-anchor='middle'><text x='65' y='130'>Thomson (1904)</text><text x='180' y='130'>Rutherford (1911)</text><text x='295' y='130'>Bohr (1913)</text></g><g fill='currentColor' font-size='10' text-anchor='middle'><text x='65' y='146'>sphère positive</text><text x='180' y='146'>noyau et vide</text><text x='295' y='146'>niveaux d’énergie</text></g></svg>",
+          "legende": "Les petits points sont les électrons. Le point rouge au centre est le noyau."
+        },
+        {
+          "type": "remarque",
+          "titre": "Le neutron et le modèle actuel",
+          "texte": "En 1932, l’Anglais Chadwick découvre le neutron : le noyau contient donc des protons et des neutrons.\nAujourd’hui, on sait que les électrons n’ont pas de trajectoire précise. On parle d’un nuage électronique : une zone autour du noyau où l’on a de grandes chances de trouver les électrons. Dans ce cours, nous gardons des schémas simples."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Modèle", "Représentation simplifiée de la réalité."],
+            ["Indivisible", "Qu’on ne peut pas couper en morceaux."],
+            ["Dévié", "Dont la direction a changé."],
+            ["Orbite", "Chemin circulaire autour du noyau."],
+            ["Niveau d’énergie", "Place précise où peut se trouver un électron."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. Quel savant découvre l’électron ? En quelle année ?\n2. Quel modèle fait apparaître le noyau ? Quelle observation de l’expérience de Rutherford montre que l’atome est presque vide ?\n3. Combien d’années séparent le modèle de Thomson de celui de Bohr ?\n4. Quelle particule du noyau Chadwick a-t-il découverte en 1932 ?",
+          "solution": "1. Thomson, en 1897.\n2. Le modèle de Rutherford (1911). La plupart des particules traversent la feuille d’or sans être déviées : l’atome est presque vide.\n3. 1913 − 1904 = 9 ans.\n4. Le neutron."
+        }
+      ]
+    },
+    {
+      "id": "sp4-5-tableau-periodique",
+      "titre": "Le tableau périodique",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Le tableau périodique",
+          "texte": "Le tableau périodique est un classement de tous les éléments chimiques par numéro atomique Z croissant. Les éléments sont rangés en lignes, appelées périodes, et en colonnes, appelées familles (ou groupes)."
+        },
+        {
+          "type": "remarque",
+          "titre": "Mendeleïev",
+          "texte": "Le tableau a été proposé en 1869 par le chimiste russe Dmitri Mendeleïev. Il classait alors les éléments par masse croissante. Il a laissé des cases vides pour des éléments encore inconnus, en annonçant leurs propriétés. Quelques années plus tard, plusieurs de ces éléments ont été découverts, et ils avaient bien les propriétés annoncées. Aujourd’hui, on classe les éléments par numéro atomique Z croissant."
+        },
+        {
+          "type": "schema",
+          "titre": "Les 20 premiers éléments",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='360' height='160' viewBox='0 0 360 160'><g fill='#e11d48' fill-opacity='0.35' stroke='currentColor' stroke-width='0.8'><rect x='18' y='44' width='18' height='22'/><rect x='18' y='68' width='18' height='22'/><rect x='18' y='92' width='18' height='22'/></g><g fill='#e11d48' fill-opacity='0.2' stroke='currentColor' stroke-width='0.8'><rect x='37' y='44' width='18' height='22'/><rect x='37' y='68' width='18' height='22'/><rect x='37' y='92' width='18' height='22'/></g><g fill='currentColor' fill-opacity='0.3' stroke='currentColor' stroke-width='0.8'><rect x='322' y='44' width='18' height='22'/><rect x='322' y='68' width='18' height='22'/></g><g fill='currentColor' fill-opacity='0.12' stroke='currentColor' stroke-width='0.8'><rect x='341' y='20' width='18' height='22'/><rect x='341' y='44' width='18' height='22'/><rect x='341' y='68' width='18' height='22'/></g><g fill='none' stroke='currentColor' stroke-width='0.8'><rect x='18' y='20' width='18' height='22'/><rect x='246' y='44' width='18' height='22'/><rect x='265' y='44' width='18' height='22'/><rect x='284' y='44' width='18' height='22'/><rect x='303' y='44' width='18' height='22'/><rect x='246' y='68' width='18' height='22'/><rect x='265' y='68' width='18' height='22'/><rect x='284' y='68' width='18' height='22'/><rect x='303' y='68' width='18' height='22'/></g><g fill='currentColor' font-size='10' text-anchor='middle'><text x='27' y='35'>H</text><text x='350' y='35'>He</text><text x='27' y='59'>Li</text><text x='46' y='59'>Be</text><text x='255' y='59'>B</text><text x='274' y='59'>C</text><text x='293' y='59'>N</text><text x='312' y='59'>O</text><text x='331' y='59'>F</text><text x='350' y='59'>Ne</text><text x='27' y='83'>Na</text><text x='46' y='83'>Mg</text><text x='255' y='83'>Al</text><text x='274' y='83'>Si</text><text x='293' y='83'>P</text><text x='312' y='83'>S</text><text x='331' y='83'>Cl</text><text x='350' y='83'>Ar</text><text x='27' y='107'>K</text><text x='46' y='107'>Ca</text></g><g fill='currentColor' font-size='9' text-anchor='middle'><text x='27' y='14'>1</text><text x='46' y='14'>2</text><text x='255' y='14'>13</text><text x='274' y='14'>14</text><text x='293' y='14'>15</text><text x='312' y='14'>16</text><text x='331' y='14'>17</text><text x='350' y='14'>18</text><text x='9' y='35'>1</text><text x='9' y='59'>2</text><text x='9' y='83'>3</text><text x='9' y='107'>4</text></g><g fill='currentColor' font-size='10' text-anchor='middle'><text x='150' y='64'>colonnes 3 à 12</text><text x='150' y='78'>(non représentées)</text></g><rect x='18' y='126' width='10' height='10' fill='#e11d48' fill-opacity='0.35' stroke='currentColor' stroke-width='0.8'/><rect x='18' y='142' width='10' height='10' fill='#e11d48' fill-opacity='0.2' stroke='currentColor' stroke-width='0.8'/><rect x='200' y='126' width='10' height='10' fill='currentColor' fill-opacity='0.3' stroke='currentColor' stroke-width='0.8'/><rect x='200' y='142' width='10' height='10' fill='currentColor' fill-opacity='0.12' stroke='currentColor' stroke-width='0.8'/><g fill='currentColor' font-size='10'><text x='34' y='135'>Colonne 1 : alcalins (sauf H)</text><text x='34' y='151'>Colonne 2 : alcalino-terreux</text><text x='216' y='135'>Colonne 17 : halogènes</text><text x='216' y='151'>Colonne 18 : gaz nobles</text></g></svg>",
+          "legende": "Les numéros à gauche sont les périodes (les lignes) ; les numéros en haut sont les colonnes. Dans chaque ligne, Z augmente de gauche à droite."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les 20 premiers éléments",
+          "entetes": ["Z", "Symbole", "Nom"],
+          "lignes": [
+            ["1", "H", "hydrogène"],
+            ["2", "He", "hélium"],
+            ["3", "Li", "lithium"],
+            ["4", "Be", "béryllium"],
+            ["5", "B", "bore"],
+            ["6", "C", "carbone"],
+            ["7", "N", "azote"],
+            ["8", "O", "oxygène"],
+            ["9", "F", "fluor"],
+            ["10", "Ne", "néon"],
+            ["11", "Na", "sodium"],
+            ["12", "Mg", "magnésium"],
+            ["13", "Al", "aluminium"],
+            ["14", "Si", "silicium"],
+            ["15", "P", "phosphore"],
+            ["16", "S", "soufre"],
+            ["17", "Cl", "chlore"],
+            ["18", "Ar", "argon"],
+            ["19", "K", "potassium"],
+            ["20", "Ca", "calcium"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "À retenir",
+          "texte": "Le tableau complet compte 7 périodes (lignes) et 18 colonnes.\nLes éléments d’une même ligne forment une période.\nLes éléments d’une même colonne forment une famille : ils ont des propriétés chimiques voisines."
+        },
+        {
+          "type": "remarque",
+          "titre": "Combien d’éléments ?",
+          "texte": "On connaît aujourd’hui 118 éléments. Les 7 périodes contiennent 2, 8, 8, 18, 18, 32 et 32 éléments : 2 + 8 + 8 + 18 + 18 + 32 + 32 = 118. Les plus lourds ont été fabriqués en laboratoire."
+        },
+        {
+          "type": "schema",
+          "titre": "Lire une case du tableau",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='340' height='130' viewBox='0 0 340 130'><rect x='20' y='15' width='90' height='100' fill='#e11d48' fill-opacity='0.1' stroke='currentColor' stroke-width='1.5'/><g fill='currentColor' text-anchor='middle'><text x='36' y='36' font-size='14'>17</text><text x='65' y='76' font-size='30'>Cl</text><text x='65' y='102' font-size='12'>chlore</text></g><g stroke='#e11d48' stroke-width='1.5'><line x1='46' y1='34' x2='164' y2='34'/><line x1='88' y1='72' x2='164' y2='72'/><line x1='95' y1='98' x2='164' y2='98'/></g><g fill='currentColor' font-size='11'><text x='170' y='31'>Numéro atomique Z</text><text x='170' y='45'>(nombre de protons)</text><text x='170' y='76'>Symbole</text><text x='170' y='102'>Nom de l’élément</text></g></svg>",
+          "legende": "Le chlore a pour numéro atomique 17 : il a 17 protons, et 17 électrons s’il est neutre."
+        },
+        {
+          "type": "methode",
+          "titre": "Retrouver un élément dans le tableau",
+          "texte": "1. On donne le nombre de protons (ou le nombre d’électrons d’un atome neutre) : c’est Z.\n2. On cherche la case de numéro Z : on lit le symbole et le nom.\n3. On regarde la colonne : elle donne la famille.\nExemple : un atome neutre a 11 électrons. Il a donc 11 protons : Z = 11. C’est le sodium (Na), dans la colonne 1 : un alcalin."
+        },
+        {
+          "type": "exemple",
+          "titre": "Trois exemples",
+          "texte": "Z = 16 : le soufre (S), dans la colonne 16.\nZ = 18 : l’argon (Ar), dans la colonne 18 : un gaz noble.\nZ = 20 : le calcium (Ca), dans la colonne 2 : un alcalino-terreux.\nAprès le néon (Z = 10), qui termine la 2e ligne, le sodium (Z = 11) commence la 3e ligne."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Période", "Ligne horizontale du tableau périodique."],
+            ["Famille (ou groupe)", "Colonne du tableau : les éléments ont des propriétés voisines."],
+            ["Périodique", "Qui se répète à intervalles réguliers."],
+            ["Classification", "Rangement d’objets selon des règles précises."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. Écris le symbole des éléments de numéro atomique 8, 11, 17 et 20.\n2. Un atome neutre possède 12 électrons. Quel est son numéro atomique ? Quel est cet élément ? À quelle famille appartient-il ?\n3. Le sodium est dans la première colonne. Cite deux autres éléments de la même famille parmi les 20 premiers.",
+          "solution": "1. Z = 8 : O. Z = 11 : Na. Z = 17 : Cl. Z = 20 : Ca.\n2. L’atome est neutre : il a autant de protons que d’électrons, donc Z = 12. C’est le magnésium (Mg), dans la colonne 2 : un alcalino-terreux.\n3. Le lithium (Li) et le potassium (K) : ce sont des alcalins. L’hydrogène est dans la première colonne, mais ce n’est pas un métal alcalin."
+        }
+      ]
+    },
+    {
+      "id": "sp4-5-familles",
+      "titre": "Les familles d’éléments",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Une famille chimique",
+          "texte": "Une famille chimique est une colonne du tableau périodique. Les éléments d’une même famille ont des propriétés chimiques voisines : ils réagissent de façon semblable."
+        },
+        {
+          "type": "tableau",
+          "titre": "Quatre familles à connaître",
+          "entetes": ["Famille", "Colonne", "Exemples", "Propriétés"],
+          "lignes": [
+            ["Alcalins", "1 (sauf l’hydrogène)", "Li, Na, K", "Métaux mous, très réactifs : ils réagissent violemment avec l’eau."],
+            ["Alcalino-terreux", "2", "Be, Mg, Ca", "Métaux, moins réactifs que les alcalins."],
+            ["Halogènes", "17", "F, Cl (puis Br, I)", "Non-métaux très réactifs. Leurs corps simples sont colorés et toxiques."],
+            ["Gaz nobles", "18", "He, Ne, Ar", "Gaz incolores, presque sans réaction chimique : ils sont dits inertes."]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "L’hydrogène est à part",
+          "texte": "L’hydrogène est placé dans la première colonne parce qu’il a un seul proton. Mais ce n’est pas un métal : c’est un gaz. Il n’appartient pas à la famille des alcalins."
+        },
+        {
+          "type": "exemple",
+          "titre": "Deux alcalins qui se ressemblent",
+          "texte": "Le sodium et le potassium sont de la même famille. Tous deux sont des métaux mous, qu’on coupe au couteau, et on les conserve dans l’huile. Tous deux réagissent violemment avec l’eau.\nCes expériences sont dangereuses : on ne les fait jamais seul."
+        },
+        {
+          "type": "tableau",
+          "titre": "À quoi servent-ils ?",
+          "entetes": ["Élément", "Utilisation"],
+          "lignes": [
+            ["Hélium (He)", "Ballons : plus léger que l’air, il ne brûle pas."],
+            ["Néon (Ne)", "Enseignes lumineuses rouge-orangé."],
+            ["Argon (Ar)", "Ampoules à filament : il protège le filament."],
+            ["Chlore (Cl)", "Désinfection de l’eau des piscines et eau de Javel."],
+            ["Calcium (Ca)", "Os, dents, calcaire."]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Métaux et non-métaux",
+          "entetes": ["Type", "Propriétés", "Exemples"],
+          "lignes": [
+            ["Métaux", "Brillants, ils conduisent bien la chaleur et l’électricité. Ils sont placés à gauche et au centre du tableau.", "Li, Na, K, Mg, Ca, Al, Fe, Cu, Zn"],
+            ["Non-métaux", "Ils conduisent mal l’électricité (exception : le graphite). Ils sont placés à droite du tableau.", "H, C, N, O, P, S, Cl, gaz nobles"],
+            ["Intermédiaires", "Propriétés entre les deux : on les appelle métalloïdes.", "Bore (B), silicium (Si)"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Pourquoi les éléments d’une famille se ressemblent",
+          "texte": "Les chimistes l’expliquent par la façon dont les électrons sont rangés autour du noyau : les atomes d’une même colonne se ressemblent par leurs électrons les plus extérieurs. Nous ne l’étudierons pas en 4ème."
+        },
+        {
+          "type": "remarque",
+          "titre": "Les éléments dans la nature",
+          "texte": "Le corps humain est formé surtout de quatre éléments : l’oxygène (environ 65 %), le carbone (environ 18 %), l’hydrogène (environ 10 %) et l’azote (environ 3 %). À eux quatre : 65 + 18 + 10 + 3 = 96 %.\nDans l’écorce terrestre, on trouve surtout l’oxygène (environ 46 %), le silicium (environ 28 %), l’aluminium (environ 8 %) et le fer (environ 5 %), soit 87 % à eux quatre.\nMadagascar exploite notamment le nickel (Ni) et le cobalt (Co) à Ambatovy, l’ilménite, minerai de titane (Ti), dans la région de Fort-Dauphin, et le graphite, qui est du carbone."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Alcalin", "Métal très réactif de la colonne 1 (lithium, sodium, potassium)."],
+            ["Halogène", "Non-métal très réactif de la colonne 17 (fluor, chlore)."],
+            ["Gaz noble", "Gaz de la colonne 18, presque sans réaction chimique."],
+            ["Inerte", "Qui ne réagit presque pas."],
+            ["Métalloïde", "Élément aux propriétés intermédiaires entre métal et non-métal."],
+            ["Réactif (adjectif)", "Qui réagit facilement avec d’autres substances."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. Classe dans leur famille : Na, Cl, Ne, Mg, K, F.\n2. Un gaz jaune-vert, toxique, sert à désinfecter l’eau des piscines. Il est formé d’atomes d’un élément de la colonne 17. Quel est cet élément ? À quelle famille appartient-il ?\n3. Parmi Fe, S, Cu, C, Al, lesquels sont des métaux ?\n4. Quel gaz noble utilise-t-on dans les enseignes lumineuses rouge-orangé ?",
+          "solution": "1. Alcalins : Na, K. Alcalino-terreux : Mg. Halogènes : Cl, F. Gaz nobles : Ne.\n2. C’est le chlore (Cl), de la famille des halogènes.\n3. Ce sont des métaux : Fe, Cu, Al. S et C sont des non-métaux.\n4. Le néon (Ne)."
+        }
+      ]
+    }
+  ]
+}
