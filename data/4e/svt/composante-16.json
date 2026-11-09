@@ -1,0 +1,404 @@
+{
+  "id": "svt4-16-naissances-ist",
+  "titre": "Régulation des naissances et infections sexuellement transmissibles",
+  "lecons": [
+    {
+      "id": "svt4-16-l1-planification",
+      "titre": "Pourquoi réguler les naissances ?",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Régulation des naissances",
+          "texte": "La régulation des naissances (ou planification familiale) est l'ensemble des moyens qui permettent à un couple, ou à une personne, de choisir le nombre de ses enfants et le moment de leur naissance. Elle repose sur l'information, la liberté de choix et le respect des lois."
+        },
+        {
+          "type": "remarque",
+          "titre": "Une décision libre",
+          "texte": "Personne ne doit être forcé, ni à avoir des enfants, ni à ne pas en avoir. La décision se prend à deux, en toute liberté, après avoir reçu des informations d'un agent de santé. Les centres de santé donnent des conseils sur la planification familiale."
+        },
+        {
+          "type": "regle",
+          "titre": "Espacer les naissances",
+          "texte": "Il est conseillé d'attendre au moins 2 ans (24 mois) entre la naissance d'un enfant et le début de la grossesse suivante. Comme la grossesse dure environ 9 mois, cela fait environ 24 + 9 = 33 mois entre deux naissances. La mère reprend des forces et l'enfant est mieux soigné (chapitre 15)."
+        },
+        {
+          "type": "schema",
+          "titre": "L'espacement conseillé entre deux naissances",
+          "svg": "<svg width='560' height='145' viewBox='0 0 560 145' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='12'><rect x='32' y='60' width='360' height='30' fill='#e11d48' fill-opacity='0.15' stroke='currentColor' stroke-width='1.5'/><rect x='392' y='60' width='135' height='30' fill='#e11d48' fill-opacity='0.5' stroke='currentColor' stroke-width='1.5'/><g stroke='currentColor' stroke-width='1.5' fill='none'><line x1='32' y1='28' x2='32' y2='95'/><line x1='527' y1='28' x2='527' y2='95'/><line x1='392' y1='50' x2='392' y2='60'/><path d='M32,104 v8 h495 v-8'/></g><g fill='currentColor'><text x='32' y='22'>Naissance de l'enfant 1</text><text x='527' y='22' text-anchor='end'>Naissance de l'enfant 2</text></g><g fill='currentColor' text-anchor='middle'><text x='392' y='44'>Début de la grossesse suivante</text><text x='212' y='80'>24 mois d'attente conseillés</text><text x='459' y='80'>9 mois</text><text x='280' y='132'>33 mois entre les deux naissances</text></g></svg>",
+          "legende": "Les longueurs sont proportionnelles aux durées : 24 mois d'attente, puis 9 mois de grossesse, soit 33 mois entre les deux naissances."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les avantages de la planification familiale",
+          "entetes": ["Pour qui ?", "Avantages"],
+          "lignes": [
+            ["La mère", "Elle reprend des forces, avec moins d'anémie et moins de risques pendant la grossesse et l'accouchement"],
+            ["Les enfants", "Ils sont allaités plus longtemps et mieux soignés ; il y a moins de naissances prématurées et de bébés de petit poids"],
+            ["Les adolescentes", "Elles peuvent terminer leurs études et attendre d'être adultes pour avoir un enfant (chapitre 15)"],
+            ["La famille", "La nourriture, les frais de scolarité et les soins sont partagés entre moins d'enfants à la fois"],
+            ["Le pays", "Les écoles, les centres de santé et les récoltes suffisent mieux pour tous"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Des grossesses trop rapprochées",
+          "texte": "Quand les grossesses se suivent de trop près, le corps de la mère n'a pas le temps de se reconstituer. Les risques d'anémie, de naissance prématurée et de petit poids de naissance augmentent."
+        },
+        {
+          "type": "remarque",
+          "titre": "Population et ressources",
+          "texte": "Quand la population augmente très vite, il faut construire plus vite des écoles, des centres de santé et des routes, et produire plus de riz. Plus d'habitants signifie aussi plus de pression sur les forêts et les sols (chapitre 6). Réguler les naissances aide à garder un équilibre entre le nombre d'habitants et les ressources disponibles."
+        },
+        {
+          "type": "formule",
+          "titre": "Taux d'accroissement naturel",
+          "texte": "Accroissement naturel = nombre de naissances − nombre de décès (pendant une année).\nTaux d'accroissement naturel (en %) = accroissement naturel ÷ population × 100."
+        },
+        {
+          "type": "exemple",
+          "titre": "Un village de 1 000 habitants",
+          "texte": "En un an, il y a 40 naissances et 10 décès. Accroissement naturel : 40 − 10 = 30. Taux : 30 ÷ 1 000 × 100 = 3 %. Un an plus tard, sans départ ni arrivée, la population est de 1 000 + 30 = 1 030 habitants."
+        },
+        {
+          "type": "remarque",
+          "titre": "Une idée fausse",
+          "texte": "Les méthodes modernes de contraception n'empêchent pas d'avoir des enfants plus tard : après l'arrêt, la fertilité revient. Avec l'injection, le retour peut demander quelques mois."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Régulation des naissances", "Choix du nombre d'enfants et du moment de leur naissance"],
+            ["Planification familiale", "Autre nom de la régulation des naissances"],
+            ["Espacement des naissances", "Temps d'attente entre deux naissances"],
+            ["Accroissement naturel", "Différence entre le nombre de naissances et le nombre de décès en un an"],
+            ["Taux", "Valeur exprimée en pourcentage de la population"],
+            ["Ressources", "Ce dont on a besoin pour vivre : eau, nourriture, terres, soins, écoles"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Un village compte 2 000 habitants. En un an, il y a eu 80 naissances et 20 décès (on ne tient pas compte des départs et des arrivées).\n\n1. Quel est l'accroissement naturel ?\n2. Quel est le taux d'accroissement naturel, en % ?\n3. Combien y aura-t-il d'habitants un an plus tard ?\n4. Si le taux reste le même, combien y aura-t-il d'habitants encore un an plus tard ? (Arrondis à l'unité.)\n5. Une femme accouche en mars 2019. Elle suit le conseil d'attendre 24 mois avant de redevenir enceinte, puis la grossesse dure 9 mois. À quelle date naîtra l'enfant suivant ? Combien de mois séparent les deux naissances ?\n6. Cite un avantage de l'espacement des naissances pour la mère et un pour l'enfant.",
+          "solution": "1. 80 − 20 = 60 habitants de plus.\n2. 60 ÷ 2 000 × 100 = 3 %.\n3. 2 000 + 60 = 2 060 habitants.\n4. 3 % de 2 060 : 2 060 × 3 ÷ 100 = 61,8. Donc 2 060 + 61,8 = 2 121,8, soit environ 2 122 habitants.\n5. Mars 2019 + 24 mois = mars 2021 : c'est le début de la grossesse. Mars 2021 + 9 mois = décembre 2021 : l'enfant naît en décembre 2021. Entre mars 2019 et décembre 2021, il y a 24 + 9 = 33 mois (2 ans et 9 mois).\n6. Pour la mère : elle reprend des forces et a moins de risque d'anémie. Pour l'enfant : il est allaité plus longtemps et mieux soigné, avec moins de risque de naître prématuré ou de petit poids."
+        }
+      ]
+    },
+    {
+      "id": "svt4-16-l2-contraception",
+      "titre": "Les méthodes de contraception",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Contraception",
+          "texte": "La contraception est l'ensemble des moyens utilisés pour éviter une grossesse non voulue. Une méthode contraceptive agit en empêchant l'ovulation, ou en empêchant la rencontre du spermatozoïde et de l'ovule (la fécondation)."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les grandes familles de méthodes",
+          "entetes": ["Famille", "Méthodes", "Principe"],
+          "lignes": [
+            ["Méthodes naturelles", "Calendrier, température, glaire cervicale, retrait, allaitement", "Éviter les rapports pendant la période féconde, ou éviter que le sperme entre dans le vagin"],
+            ["Méthodes de barrière", "Préservatif masculin, préservatif féminin", "Empêcher les spermatozoïdes d'entrer dans l'utérus"],
+            ["Méthodes hormonales", "Pilule, injection, implant", "Des hormones empêchent l'ovulation"],
+            ["Dispositif intra-utérin (DIU, ou stérilet)", "Petit objet posé dans l'utérus", "Empêcher la fécondation"],
+            ["Méthodes définitives", "Ligature des trompes, vasectomie", "Empêcher le passage des ovules ou des spermatozoïdes"],
+            ["Contraception d'urgence", "Pilule du lendemain", "Retarder ou empêcher l'ovulation après un rapport non protégé"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Les méthodes naturelles",
+          "texte": "Calendrier : on calcule la période féconde (chapitre 14) et on évite les rapports pendant ces jours. Température : elle monte après l'ovulation, donc elle ne permet pas de la prévoir. Glaire cervicale : autour de l'ovulation, le col de l'utérus fabrique une glaire claire et filante, comme du blanc d'œuf. Ces méthodes demandent de bien connaître son cycle et l'accord du couple. Elles sont peu sûres quand les cycles sont irréguliers, surtout chez l'adolescente. Le retrait (l'homme se retire avant l'éjaculation) est très peu sûr : l'éjaculation peut avoir lieu avant qu'il ait le temps de se retirer."
+        },
+        {
+          "type": "remarque",
+          "titre": "L'allaitement comme méthode",
+          "texte": "L'allaitement ne protège d'une grossesse que si trois conditions sont réunies : le bébé a moins de 6 mois, il est nourri uniquement au sein, jour et nuit, et les règles de la mère ne sont pas revenues. Si l'une de ces conditions manque, la protection n'est pas sûre (chapitre 15)."
+        },
+        {
+          "type": "remarque",
+          "titre": "Les méthodes hormonales",
+          "texte": "La pilule contient des hormones proches de celles des ovaires. Elles gardent dans le sang un taux d'hormones qui freine l'hypophyse (chapitre 14) : il n'y a pas de pic de LH, donc pas d'ovulation. La pilule se prend tous les jours à la même heure ; un oubli diminue son efficacité. L'injection se fait tous les 3 mois. L'implant est un petit bâtonnet placé sous la peau du bras par un agent formé ; il agit pendant plusieurs années. Des effets possibles sont des règles modifiées, des maux de tête ou des nausées. Ces méthodes se choisissent avec un agent de santé, et on peut les arrêter quand on le souhaite."
+        },
+        {
+          "type": "remarque",
+          "titre": "Le stérilet, la stérilisation et la pilule du lendemain",
+          "texte": "Le stérilet (DIU) est un petit dispositif en forme de T, posé dans l'utérus par un agent formé. Il agit pendant plusieurs années (jusqu'à 10 ans pour le modèle au cuivre) et peut être retiré à tout moment. La ligature des trompes (chez la femme) et la vasectomie (chez l'homme, section des canaux déférents, chapitre 13) sont des opérations pour les personnes qui ne veulent plus d'enfants : elles sont considérées comme définitives, et la décision doit être réfléchie, libre et informée. La pilule du lendemain se prend après un rapport non protégé, le plus tôt possible (dans les 3 jours) : plus elle est prise tôt, mieux elle agit. Elle n'agit pas si l'ovule est déjà fécondé et elle ne doit pas servir de méthode régulière."
+        },
+        {
+          "type": "schema",
+          "titre": "Grossesses pour 100 femmes pendant un an",
+          "svg": "<svg width='560' height='210' viewBox='0 0 560 210' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='12'><g fill='#e11d48' fill-opacity='0.5'><rect x='160' y='14' width='340' height='16'/><rect x='160' y='38' width='80' height='16'/><rect x='160' y='62' width='60' height='16'/><rect x='160' y='86' width='52' height='16'/><rect x='160' y='110' width='28' height='16'/><rect x='160' y='134' width='16' height='16'/><rect x='160' y='158' width='4' height='16'/><rect x='160' y='182' width='1' height='16'/></g><line x1='160' y1='8' x2='160' y2='202' stroke='currentColor' stroke-width='1.5'/><g fill='currentColor' text-anchor='end'><text x='152' y='26'>Aucune méthode</text><text x='152' y='50'>Retrait</text><text x='152' y='74'>Calendrier</text><text x='152' y='98'>Préservatif masculin</text><text x='152' y='122'>Pilule</text><text x='152' y='146'>Injection</text><text x='152' y='170'>Stérilet (DIU)</text><text x='152' y='194'>Implant</text></g><g fill='currentColor'><text x='508' y='26'>85</text><text x='248' y='50'>20</text><text x='228' y='74'>15</text><text x='220' y='98'>13</text><text x='196' y='122'>7</text><text x='184' y='146'>4</text><text x='172' y='170'>1</text><text x='169' y='194'>0,1</text></g></svg>",
+          "legende": "Valeurs arrondies en usage courant, d'après les données de l'OMS. Chaque longueur est proportionnelle au nombre de grossesses pour 100 femmes en un an. Plus la barre est courte, plus la méthode est efficace."
+        },
+        {
+          "type": "tableau",
+          "titre": "Efficacité et protection contre les IST (usage courant, valeurs arrondies)",
+          "entetes": ["Méthode", "Grossesses pour 100 femmes en un an", "Protège des IST ?"],
+          "lignes": [
+            ["Aucune méthode", "environ 85", "non"],
+            ["Retrait", "environ 20", "non"],
+            ["Calendrier et autres méthodes naturelles", "environ 15", "non"],
+            ["Préservatif féminin", "environ 21", "oui"],
+            ["Préservatif masculin", "environ 13", "oui"],
+            ["Pilule", "environ 7", "non"],
+            ["Injection tous les 3 mois", "environ 4", "non"],
+            ["Stérilet (DIU)", "environ 1", "non"],
+            ["Implant", "moins de 1 (environ 0,1)", "non"],
+            ["Stérilisation (ligature, vasectomie)", "moins de 1", "non"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Double protection",
+          "texte": "Seul le préservatif protège à la fois d'une grossesse et des infections sexuellement transmissibles (IST), y compris le VIH. Les autres méthodes ne protègent que d'une grossesse : on peut les associer à un préservatif."
+        },
+        {
+          "type": "methode",
+          "titre": "Bien utiliser un préservatif masculin",
+          "texte": "1. Vérifier la date limite sur l'emballage et s'assurer que l'emballage n'est pas abîmé.\n2. Ouvrir l'emballage avec les doigts, jamais avec les dents ni avec des ciseaux.\n3. Placer le préservatif sur le pénis en érection, avant tout contact avec le vagin, en pinçant le bout pour chasser l'air, puis le dérouler jusqu'à la base.\n4. Après l'éjaculation, tenir le préservatif à la base et se retirer alors que le pénis est encore en érection.\n5. Faire un nœud et jeter le préservatif à la poubelle.\n6. N'utiliser un préservatif qu'une seule fois. Ne pas utiliser d'huile ni de vaseline, qui abîment le préservatif ; si besoin, utiliser un produit à base d'eau. Le conserver à l'abri de la chaleur et du soleil."
+        },
+        {
+          "type": "remarque",
+          "titre": "Choisir sa méthode",
+          "texte": "Aucune méthode n'est parfaite pour tout le monde. Chacune a ses avantages, ses limites et parfois des effets secondaires. Le choix se fait avec un agent de santé, selon l'âge, la santé, le désir d'enfants et le risque d'IST. La contraception est l'affaire des deux partenaires. L'abstinence (ne pas avoir de rapports sexuels) est aussi un choix : c'est la seule méthode sûre à 100 %, et pour un adolescent le meilleur moyen d'éviter à la fois une grossesse et une IST."
+        },
+        {
+          "type": "definition",
+          "titre": "Interruption volontaire de grossesse (IVG)",
+          "texte": "L'interruption volontaire de grossesse, ou avortement provoqué, est l'arrêt provoqué d'une grossesse avant son terme. Ce n'est pas une méthode de contraception : elle ne remplace pas la prévention. Il ne faut pas la confondre avec la fausse couche, qui est un arrêt spontané de la grossesse (chapitre 15)."
+        },
+        {
+          "type": "remarque",
+          "titre": "Un acte encadré par la loi et risqué",
+          "texte": "La loi malgache interdit l'avortement, sauf dans des cas très limités qu'elle prévoit, avec décision médicale. Fait en cachette, avec des produits, des plantes ou des instruments dangereux, par des personnes non formées, il peut provoquer des hémorragies, des infections graves, des lésions de l'utérus, parfois la stérilité ou la mort. Une femme qui a de forts saignements, de la fièvre ou de fortes douleurs après une fausse couche ou un avortement doit aller tout de suite au centre de santé pour recevoir des soins. En cas de grossesse non désirée, il vaut mieux en parler vite à un agent de santé ou à un adulte de confiance."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Contraception", "Moyens pour éviter une grossesse non voulue"],
+            ["Préservatif", "Gaine fine qui empêche le sperme d'entrer dans le vagin et protège des IST"],
+            ["Pilule", "Comprimé d'hormones qui empêche l'ovulation"],
+            ["Implant", "Petit bâtonnet d'hormones placé sous la peau du bras"],
+            ["DIU (stérilet)", "Petit dispositif posé dans l'utérus pour empêcher la fécondation"],
+            ["Glaire cervicale", "Liquide clair produit par le col de l'utérus autour de l'ovulation"],
+            ["Vasectomie", "Opération qui coupe les canaux déférents de l'homme"],
+            ["Ligature des trompes", "Opération qui bloque les trompes de la femme"],
+            ["Abstinence", "Fait de ne pas avoir de rapports sexuels"],
+            ["Usage courant", "Utilisation de tous les jours, avec les oublis et les erreurs possibles"],
+            ["IVG", "Interruption volontaire de grossesse"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Dans un modèle simplifié, 1 000 femmes utilisent chacune la même méthode pendant un an. Nombre de grossesses pour 100 femmes : sans méthode 85, préservatif masculin 13, pilule 7, implant 0,1.\n\n1. Combien de grossesses y a-t-il sur 1 000 femmes dans chacun des quatre cas ?\n2. Combien de grossesses la pilule évite-t-elle, par rapport à l'absence de méthode ?\n3. Exprime ce nombre en pourcentage des grossesses sans méthode (arrondi à l'unité).\n4. Pourquoi le préservatif échoue-t-il plus souvent en usage courant qu'en usage parfait ?\n5. Laquelle de ces quatre méthodes protège aussi des IST ?\n6. Une amie pense que l'avortement est un moyen de contraception comme un autre. Que peux-tu lui répondre ?",
+          "solution": "1. Il y a 10 fois plus de femmes que dans « pour 100 femmes ». Sans méthode : 85 × 10 = 850 grossesses. Préservatif : 13 × 10 = 130. Pilule : 7 × 10 = 70. Implant : 0,1 × 10 = 1 grossesse.\n2. 850 − 70 = 780 grossesses évitées.\n3. 780 ÷ 850 ≈ 0,918, soit environ 92 %.\n4. En usage courant, il y a des erreurs : préservatif mis trop tard, mal déroulé, déchiré, réutilisé, ou oublié. Utilisé correctement à chaque rapport, il échoue beaucoup moins.\n5. Le préservatif. La pilule et l'implant ne protègent pas des IST.\n6. L'avortement n'est pas une méthode de contraception. C'est un acte encadré par la loi, qui est interdit sauf dans des cas très limités, et risqué pour la santé (hémorragie, infection, stérilité, parfois décès), surtout quand il est fait en cachette. Il vaut mieux éviter une grossesse non voulue par une méthode adaptée, choisie avec un agent de santé. En cas de grossesse non désirée, il faut consulter vite un agent de santé ou en parler à un adulte de confiance."
+        }
+      ]
+    },
+    {
+      "id": "svt4-16-l3-ist",
+      "titre": "Les infections sexuellement transmissibles (IST)",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Infection sexuellement transmissible (IST)",
+          "texte": "Une infection sexuellement transmissible (IST) est une maladie causée par un microbe qui passe d'une personne infectée à une autre lors de rapports sexuels non protégés (vaginaux, anaux ou buccaux). Certaines IST se transmettent aussi par le sang, ou de la mère à l'enfant. Les microbes en cause sont des bactéries, des virus ou des parasites."
+        },
+        {
+          "type": "remarque",
+          "titre": "Un problème mondial",
+          "texte": "D'après l'OMS, plus d'un million de personnes de 15 à 49 ans contractent chaque jour une IST curable dans le monde. Cela fait plus de 1 million × 365 = 365 millions de nouveaux cas par an. Beaucoup de personnes infectées ne le savent pas."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les huit IST principales",
+          "entetes": ["IST", "Agent", "Soin ou prévention", "Signes possibles"],
+          "lignes": [
+            ["Syphilis", "Bactérie", "Guérit avec des antibiotiques", "Plaie indolore sur les organes génitaux, puis éruptions sur la peau"],
+            ["Gonorrhée", "Bactérie", "Guérit avec des antibiotiques", "Écoulement jaunâtre, brûlures en urinant"],
+            ["Chlamydiose", "Bactérie", "Guérit avec des antibiotiques", "Souvent aucun signe ; parfois pertes, brûlures, douleurs au bas-ventre"],
+            ["Trichomonase", "Parasite microscopique", "Guérit avec un médicament adapté", "Démangeaisons, pertes malodorantes"],
+            ["Hépatite B", "Virus", "Vaccin pour la prévenir ; une forme chronique se surveille et se traite", "Fatigue, nausées, jaunisse (peau et yeux jaunes)"],
+            ["Herpès génital", "Virus", "Pas de guérison ; des médicaments calment les crises", "Petits boutons douloureux, puis plaies"],
+            ["VIH", "Virus", "Pas de guérison ; les antirétroviraux contrôlent le virus (leçon 4)", "Souvent aucun signe au début"],
+            ["PVH (papillomavirus)", "Virus", "Vaccin ; beaucoup d'infections disparaissent seules, certaines causent des verrues ou un cancer du col de l'utérus", "Souvent aucun signe ; parfois des verrues"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Classer les huit IST",
+          "svg": "<svg width='560' height='225' viewBox='0 0 560 225' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='12'><g fill='none' stroke='currentColor' stroke-width='1.5'><rect x='215' y='10' width='130' height='30' rx='6' fill='currentColor' fill-opacity='0.06'/><line x1='280' y1='40' x2='280' y2='60'/><line x1='105' y1='60' x2='455' y2='60'/><line x1='105' y1='60' x2='105' y2='75'/><line x1='280' y1='60' x2='280' y2='75'/><line x1='455' y1='60' x2='455' y2='75'/><rect x='20' y='75' width='170' height='90' rx='6' fill='#e11d48' fill-opacity='0.12'/><rect x='215' y='75' width='130' height='90' rx='6' fill='#e11d48' fill-opacity='0.12'/><rect x='370' y='75' width='170' height='90' rx='6' fill='currentColor' fill-opacity='0.08'/><path d='M20,175 v6 h325 v-6'/><path d='M370,175 v6 h170 v-6'/></g><g fill='currentColor' text-anchor='middle'><text x='280' y='30' font-weight='bold'>IST</text><text x='105' y='93' font-weight='bold'>Bactéries</text><text x='105' y='112'>Syphilis</text><text x='105' y='130'>Gonorrhée</text><text x='105' y='148'>Chlamydiose</text><text x='280' y='93' font-weight='bold'>Parasite</text><text x='280' y='112'>Trichomonase</text><text x='455' y='91' font-weight='bold'>Virus</text><text x='455' y='109'>Hépatite B</text><text x='455' y='125'>Herpès génital</text><text x='455' y='141'>VIH</text><text x='455' y='157'>PVH</text><text x='182' y='199'>Curables : médicaments adaptés</text><text x='455' y='199' font-size='11'>Pas de médicament qui guérit :</text><text x='455' y='215' font-size='11'>vaccin ou traitement qui contrôle</text></g></svg>",
+          "legende": "Quatre IST sont causées par des bactéries ou un parasite et se soignent. Quatre sont causées par des virus : on les prévient par un vaccin (hépatite B, PVH) ou on les contrôle par un traitement (VIH, herpès)."
+        },
+        {
+          "type": "regle",
+          "titre": "Quatre curables, quatre virales",
+          "texte": "Les infections bactériennes et parasitaires (syphilis, gonorrhée, chlamydiose, trichomonase) se soignent avec des médicaments adaptés. Les antibiotiques ne soignent pas les infections virales (chapitre 11). Pour les virus, on prévient par un vaccin (hépatite B, PVH) ou on contrôle par un traitement (VIH, herpès)."
+        },
+        {
+          "type": "tableau",
+          "titre": "Comment se transmettent les IST",
+          "entetes": ["Voie de transmission", "Exemples"],
+          "lignes": [
+            ["Rapports sexuels non protégés", "Toutes les IST, avec une personne infectée (vaginaux, anaux ou buccaux)"],
+            ["Contact de la peau des organes génitaux", "Herpès, PVH"],
+            ["Le sang", "VIH, hépatite B (seringues partagées, objets coupants souillés)"],
+            ["De la mère à l'enfant", "Syphilis, VIH, hépatite B, gonorrhée, chlamydiose"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Souvent, aucun signe",
+          "texte": "Beaucoup d'IST ne donnent aucun signe, surtout chez la femme (chlamydiose, PVH, gonorrhée). Une personne peut donc transmettre une IST sans le savoir. Seul un test permet d'être sûr."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les conséquences des IST non soignées",
+          "entetes": ["Qui ?", "Conséquences possibles"],
+          "lignes": [
+            ["La femme", "Infection des trompes et de l'utérus (douleurs, fièvre), trompes bouchées : stérilité ou grossesse extra-utérine (chapitre 15)"],
+            ["L'homme", "Infection de l'urètre, de l'épididyme et des testicules, qui peut causer la stérilité (chapitre 13)"],
+            ["Le bébé", "Fausse couche, bébé mort-né, naissance prématurée, malformations (syphilis), infection des yeux (gonorrhée, chlamydiose), hépatite B, VIH"],
+            ["À long terme", "Cancer du col de l'utérus (PVH), cancer du foie (hépatite B), sida (VIH), atteinte du cœur et du cerveau (syphilis)"],
+            ["Toute personne", "Les plaies et les écoulements facilitent l'entrée du VIH dans le corps"]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Que faire en cas de signes d'IST",
+          "texte": "1. Ne pas se soigner seul, ni acheter des médicaments au marché ou suivre le conseil d'un voisin : un mauvais traitement peut cacher les signes sans guérir la maladie.\n2. Aller vite au centre de santé. L'agent de santé est tenu au secret : il ne répète rien à d'autres personnes.\n3. Suivre le traitement jusqu'au bout, même si les signes disparaissent.\n4. Prévenir son ou ses partenaires pour qu'ils soient soignés aussi, sinon on se réinfecte l'un l'autre.\n5. S'abstenir de rapports sexuels, ou utiliser un préservatif, jusqu'à la fin du traitement et la guérison confirmée par l'agent de santé.\n6. Ne pas avoir honte : une IST est une maladie comme une autre, et plus on se soigne tôt, moins il y a de risques."
+        },
+        {
+          "type": "remarque",
+          "titre": "Le dépistage",
+          "texte": "Le dépistage consiste à faire un test (prise de sang, urine ou prélèvement) pour savoir si l'on a une IST, même sans signes. Il est conseillé après un rapport non protégé, avant d'avoir un enfant, et toujours pendant la grossesse (chapitre 15). Chez la femme, un examen simple permet aussi de dépister le cancer du col de l'utérus."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["IST", "Infection sexuellement transmissible"],
+            ["Bactérie", "Microbe formé d'une seule cellule, que les antibiotiques détruisent"],
+            ["Virus", "Microbe minuscule qui se multiplie dans les cellules ; les antibiotiques sont sans effet"],
+            ["Parasite", "Être vivant qui vit aux dépens d'un autre"],
+            ["Curable", "Qui peut être guéri par un traitement"],
+            ["Dépistage", "Test pour savoir si l'on est infecté"],
+            ["Chronique", "Qui dure longtemps"],
+            ["Stérilité", "Impossibilité d'avoir un enfant"],
+            ["PVH", "Papillomavirus humain"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Dans un centre de santé, 120 personnes sont venues consulter pour une IST en un mois (chiffres inventés pour l'exercice) : 45 pour la gonorrhée, 30 pour la chlamydiose, 20 pour la syphilis, 15 pour la trichomonase et 10 pour l'herpès génital.\n\n1. Vérifie que le total est bien 120.\n2. Combien de ces personnes ont une IST curable ? Quel pourcentage cela représente-t-il (arrondi à l'unité) ?\n3. Quel pourcentage de ces personnes a une IST virale ?\n4. Quelle est la part de la gonorrhée, en % ?\n5. Pourquoi le partenaire d'une personne soignée doit-il aussi être soigné ?\n6. Pourquoi une personne qui n'a aucun signe peut-elle quand même transmettre une IST ?",
+          "solution": "1. 45 + 30 + 20 + 15 + 10 = 120.\n2. Les IST curables sont la gonorrhée, la chlamydiose, la syphilis et la trichomonase : 45 + 30 + 20 + 15 = 110 personnes. 110 ÷ 120 ≈ 0,917, soit environ 92 %.\n3. L'herpès est une IST virale : 10 ÷ 120 ≈ 0,083, soit environ 8 % (92 + 8 = 100).\n4. 45 ÷ 120 = 0,375, soit 37,5 %.\n5. Si le partenaire n'est pas soigné, il garde le microbe et peut le retransmettre à la personne guérie : elle serait infectée de nouveau.\n6. Beaucoup d'IST ne donnent aucun signe, surtout chez la femme. Le microbe est pourtant présent dans le corps et peut passer à un partenaire lors d'un rapport non protégé."
+        }
+      ]
+    },
+    {
+      "id": "svt4-16-l4-vih-prevention",
+      "titre": "Le VIH, le sida et la prévention",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "VIH et sida",
+          "texte": "Le VIH est le virus de l'immunodéficience humaine. Il attaque des cellules de défense du sang, les lymphocytes T4 (ou CD4), qui sont des globules blancs (chapitre 9). Il affaiblit peu à peu le système immunitaire. Le sida (syndrome d'immunodéficience acquise) est le stade avancé de l'infection : les défenses sont si faibles que des maladies graves apparaissent."
+        },
+        {
+          "type": "definition",
+          "titre": "Séropositif et séronégatif",
+          "texte": "Une personne séropositive est infectée par le VIH : son sang contient des anticorps contre ce virus. Elle n'est pas forcément malade du sida : elle peut rester plusieurs années sans signes. Une personne séronégative n'est pas infectée (si le test a été fait assez longtemps après le dernier risque)."
+        },
+        {
+          "type": "schema",
+          "titre": "Le nombre de lymphocytes T4 au cours du temps",
+          "svg": "<svg width='560' height='220' viewBox='0 0 560 220' xmlns='http://www.w3.org/2000/svg' font-family='sans-serif' font-size='12'><g fill='none' stroke='currentColor' stroke-width='1.5'><line x1='60' y1='20' x2='60' y2='180'/><line x1='60' y1='180' x2='525' y2='180'/><line x1='60' y1='148' x2='520' y2='148' stroke-dasharray='5 4' stroke-width='1'/><polyline points='60,36 152,34 244,32 336,30 428,28 520,28'/><polyline points='60,36 152,48 244,64 336,88 428,148 474,166 520,174' stroke='#e11d48' stroke-width='2.5' stroke-linejoin='round'/></g><g fill='currentColor' text-anchor='end'><text x='52' y='24'>1 000</text><text x='52' y='104'>500</text><text x='52' y='152'>200</text><text x='52' y='184'>0</text></g><g fill='currentColor' text-anchor='middle'><text x='60' y='198'>0</text><text x='152' y='198'>2</text><text x='244' y='198'>4</text><text x='336' y='198'>6</text><text x='428' y='198'>8</text><text x='520' y='198'>10</text><text x='290' y='214'>Années après l'infection</text></g><g fill='currentColor'><text x='62' y='12'>T4 par mm³ de sang</text><text x='300' y='22'>Avec traitement (ARV)</text><text x='70' y='142'>Seuil du sida : 200</text></g><text x='150' y='120' fill='#e11d48'>Sans traitement</text></svg>",
+          "legende": "Schéma théorique : l'évolution réelle varie d'une personne à l'autre. Sans traitement (rouge), le nombre de T4 baisse jusqu'à passer sous le seuil de 200 par mm³ de sang : c'est le sida. Avec un traitement pris sans interruption, il reste élevé."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les étapes de l'infection sans traitement",
+          "entetes": ["Étape", "Durée approximative", "Ce qui se passe"],
+          "lignes": [
+            ["Primo-infection", "Quelques semaines après la contamination", "Parfois fièvre, fatigue, ganglions ; souvent aucun signe"],
+            ["Phase sans signe", "Plusieurs années (environ 10 ans en moyenne sans traitement)", "Aucun signe, mais le virus se multiplie et peut être transmis"],
+            ["Sida", "Quand les T4 passent sous 200 par mm³", "Maladies opportunistes : tuberculose, pneumonie, diarrhées longues, amaigrissement ; sans traitement, la mort"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Comment le VIH se transmet, et comment il ne se transmet pas",
+          "entetes": ["Le VIH se transmet par", "Le VIH ne se transmet pas par"],
+          "lignes": [
+            ["Des rapports sexuels non protégés", "Une poignée de main, une étreinte, un baiser sur la joue"],
+            ["Le sang : seringues et aiguilles partagées, rasoirs ou lames souillés, transfusion de sang non contrôlé", "Un repas partagé, un verre, la vaisselle"],
+            ["La mère à l'enfant : pendant la grossesse, l'accouchement ou l'allaitement", "Les toilettes, le bain, les vêtements"],
+            ["", "Les piqûres de moustique et d'autres insectes"],
+            ["", "La toux, l'éternuement, le fait de vivre, d'étudier ou de travailler avec une personne séropositive"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Les liquides qui contiennent le virus",
+          "texte": "Le virus se trouve en quantité suffisante dans le sang, le sperme, les liquides vaginaux et le lait maternel. Dans la vie courante, la salive, les larmes, la sueur et l'urine ne transmettent pas le virus."
+        },
+        {
+          "type": "methode",
+          "titre": "Se protéger du VIH et des IST",
+          "texte": "1. Retarder le début de la vie sexuelle jusqu'à ce que l'on soit prêt et adulte (abstinence).\n2. Être fidèle à un seul partenaire, à condition que les deux aient fait un test et que les résultats soient négatifs.\n3. Utiliser un préservatif à chaque rapport, correctement (leçon 2).\n4. Ne jamais partager de seringue, d'aiguille ni de rasoir ; n'accepter que du matériel neuf ou stérilisé et du sang contrôlé.\n5. Après un risque (piqûre avec un objet souillé, rapport imposé, préservatif déchiré), aller au centre de santé le plus vite possible, dans les 72 heures : un traitement préventif peut être donné.\n6. Pour une femme enceinte : faire le test et, si elle est séropositive, suivre le traitement. Cela réduit fortement le risque de transmission à l'enfant.\n7. Savoir dire non : personne ne doit être forcé, et aucun cadeau ni argent ne doit pousser à un rapport non voulu (chapitre 12). L'alcool et les drogues diminuent la vigilance. Une personne qui a subi un rapport imposé doit en parler à un adulte de confiance et consulter."
+        },
+        {
+          "type": "remarque",
+          "titre": "Le test de dépistage du VIH",
+          "texte": "Le test est simple (quelques gouttes de sang) et confidentiel. Un test fait trop tôt après un risque peut être négatif alors que l'infection est déjà là ; l'agent de santé indique quand le refaire (souvent après 3 mois). Connaître son état permet de se soigner tôt et de protéger les autres."
+        },
+        {
+          "type": "remarque",
+          "titre": "Le traitement : les antirétroviraux",
+          "texte": "Les médicaments antirétroviraux (ARV) bloquent la multiplication du virus. Pris tous les jours, à vie, sans interruption, ils maintiennent le nombre de T4 élevé et permettent de vivre longtemps en bonne santé. Quand le virus est devenu indétectable grâce au traitement, il n'est pratiquement plus transmis par voie sexuelle ; le préservatif reste utile contre les autres IST et contre une grossesse non voulue. Les ARV ne guérissent pas : si l'on arrête, le virus se multiplie de nouveau. Aucune tisane, aucun produit vendu au marché ni aucun guérisseur ne guérit le sida."
+        },
+        {
+          "type": "remarque",
+          "titre": "Vaccins et fausses idées",
+          "texte": "Deux IST virales peuvent être évitées par un vaccin : l'hépatite B, recommandée à tous, en particulier aux bébés, et le PVH, conseillé aux filles avant le début de la vie sexuelle (en général entre 9 et 14 ans), quand le vaccin est disponible. Il n'existe pas de vaccin contre le VIH. Se laver ou uriner après un rapport ne protège ni d'une IST, ni d'une grossesse."
+        },
+        {
+          "type": "remarque",
+          "titre": "Ne pas rejeter les personnes séropositives",
+          "texte": "Les personnes séropositives ont les mêmes droits que les autres : aller à l'école, travailler, être soignées et respectées. Le virus ne passe pas par les gestes de la vie courante. Rejeter une personne la pousse à se cacher et à ne pas se soigner, ce qui fait progresser l'épidémie. Le secret médical doit être respecté."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["VIH", "Virus de l'immunodéficience humaine, le virus du sida"],
+            ["Sida", "Stade avancé de l'infection par le VIH : les défenses du corps sont très faibles"],
+            ["Système immunitaire", "Ensemble des cellules et des organes qui défendent le corps contre les microbes"],
+            ["Lymphocyte T4 (ou CD4)", "Globule blanc attaqué par le VIH"],
+            ["Séropositif", "Personne dont le test montre qu'elle est infectée par le VIH"],
+            ["Séronégatif", "Personne dont le test montre qu'elle n'est pas infectée"],
+            ["ARV (antirétroviraux)", "Médicaments qui bloquent la multiplication du VIH"],
+            ["Maladie opportuniste", "Maladie qui profite de l'affaiblissement des défenses"],
+            ["Charge virale", "Quantité de virus dans le sang"],
+            ["Stigmatisation", "Fait de rejeter ou de mépriser une personne à cause de sa maladie"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Un patient a 800 lymphocytes T4 par mm³ de sang lors de son dépistage. Trois ans plus tard, sans traitement, il en a 560. On suppose, dans ce modèle simplifié, que la baisse est la même chaque année. Le stade sida commence quand le nombre de T4 passe sous 200 par mm³.\n\n1. De combien le nombre de T4 a-t-il baissé en 3 ans ? Quelle est la baisse par an ?\n2. Quelle est cette baisse, en pourcentage du nombre de départ (800) ?\n3. Combien de T4 doit-il encore perdre pour arriver à 200 ?\n4. Au bout de combien d'années supplémentaires atteindra-t-il 200 ? Combien d'années après le dépistage cela fait-il ?\n5. Le VIH peut-il se transmettre dans chacun de ces cas : a) partager un repas ; b) une piqûre de moustique ; c) utiliser le même rasoir ; d) un rapport sans préservatif ; e) de la mère à l'enfant pendant l'allaitement ?\n6. Un élève séropositif suit son traitement et vient en classe. Peut-on s'asseoir à côté de lui sans risque ? Explique.",
+          "solution": "1. 800 − 560 = 240 T4 en 3 ans. 240 ÷ 3 = 80 T4 par an.\n2. 240 ÷ 800 = 0,30, soit 30 %.\n3. 560 − 200 = 360 T4.\n4. 360 ÷ 80 = 4,5 années supplémentaires. Depuis le dépistage : 3 + 4,5 = 7,5 ans.\n5. a) Non. b) Non. c) Oui, si le rasoir est souillé de sang. d) Oui. e) Oui, le virus peut passer dans le lait maternel ; le traitement et les conseils de l'agent de santé réduisent le risque.\n6. Oui, sans aucun risque. Le VIH ne passe pas par la proximité, le toucher, la parole ni le partage du matériel de classe ; de plus, un traitement efficace réduit encore le risque. Il ne faut ni l'éloigner ni le rejeter : il a droit au respect et à l'éducation comme les autres."
+        }
+      ]
+    }
+  ]
+}
