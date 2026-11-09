@@ -1,0 +1,390 @@
+{
+  "id": "svt4-11-respiration-homme",
+  "titre": "La respiration chez l'homme",
+  "lecons": [
+    {
+      "id": "svt4-11-l1-appareil",
+      "titre": "L'appareil respiratoire",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "L'appareil respiratoire",
+          "texte": "L'appareil respiratoire comprend les voies respiratoires, qui conduisent l'air, et les deux poumons, où se font les échanges de gaz avec le sang. Il permet à l'organisme de prendre le dioxygène de l'air et de rejeter le dioxyde de carbone. Les cellules ont besoin d'oxygène en permanence (chapitre 7) : on ne survit que quelques minutes sans respirer."
+        },
+        {
+          "type": "schema",
+          "titre": "L'appareil respiratoire de l'homme",
+          "svg": "<svg width='480' height='335' viewBox='0 0 480 335' xmlns='http://www.w3.org/2000/svg' fill='currentColor' font-family='sans-serif' font-size='12'><rect x='130' y='150' width='100' height='125' rx='30' fill='currentColor' fill-opacity='0.1' stroke='currentColor' stroke-width='2'/><rect x='250' y='150' width='100' height='125' rx='30' fill='currentColor' fill-opacity='0.1' stroke='currentColor' stroke-width='2'/><ellipse cx='240' cy='30' rx='36' ry='14' fill='currentColor' fill-opacity='0.12' stroke='currentColor' stroke-width='2'/><line x1='204' y1='30' x2='190' y2='30' stroke='currentColor' stroke-opacity='0.6'/><text x='186' y='34' text-anchor='end'>Fosses nasales</text><rect x='228' y='46' width='24' height='26' rx='8' fill='currentColor' fill-opacity='0.12' stroke='currentColor' stroke-width='2'/><line x1='252' y1='59' x2='290' y2='59' stroke='currentColor' stroke-opacity='0.6'/><text x='294' y='63'>Pharynx</text><rect x='226' y='74' width='28' height='24' rx='6' fill='currentColor' fill-opacity='0.12' stroke='currentColor' stroke-width='2'/><line x1='226' y1='86' x2='190' y2='86' stroke='currentColor' stroke-opacity='0.6'/><text x='186' y='90' text-anchor='end'>Larynx</text><rect x='230' y='100' width='20' height='90' fill='currentColor' fill-opacity='0.12' stroke='currentColor' stroke-width='2'/><line x1='230' y1='110' x2='250' y2='110' stroke='currentColor' stroke-opacity='0.5'/><line x1='230' y1='122' x2='250' y2='122' stroke='currentColor' stroke-opacity='0.5'/><line x1='230' y1='134' x2='250' y2='134' stroke='currentColor' stroke-opacity='0.5'/><line x1='230' y1='146' x2='250' y2='146' stroke='currentColor' stroke-opacity='0.5'/><line x1='230' y1='158' x2='250' y2='158' stroke='currentColor' stroke-opacity='0.5'/><line x1='230' y1='170' x2='250' y2='170' stroke='currentColor' stroke-opacity='0.5'/><line x1='230' y1='182' x2='250' y2='182' stroke='currentColor' stroke-opacity='0.5'/><line x1='250' y1='125' x2='290' y2='125' stroke='currentColor' stroke-opacity='0.6'/><text x='294' y='129'>Trachée</text><line x1='240' y1='190' x2='190' y2='232' stroke='currentColor' stroke-width='6' stroke-linecap='round'/><line x1='240' y1='190' x2='290' y2='232' stroke='currentColor' stroke-width='6' stroke-linecap='round'/><circle cx='282' cy='242' r='8' fill='#e11d48' fill-opacity='0.3' stroke='currentColor'/><circle cx='298' cy='242' r='8' fill='#e11d48' fill-opacity='0.3' stroke='currentColor'/><circle cx='290' cy='256' r='8' fill='#e11d48' fill-opacity='0.3' stroke='currentColor'/><circle cx='274' cy='254' r='8' fill='#e11d48' fill-opacity='0.3' stroke='currentColor'/><circle cx='306' cy='254' r='8' fill='#e11d48' fill-opacity='0.3' stroke='currentColor'/><circle cx='198' cy='242' r='8' fill='#e11d48' fill-opacity='0.3' stroke='currentColor'/><circle cx='182' cy='242' r='8' fill='#e11d48' fill-opacity='0.3' stroke='currentColor'/><circle cx='190' cy='256' r='8' fill='#e11d48' fill-opacity='0.3' stroke='currentColor'/><circle cx='206' cy='254' r='8' fill='#e11d48' fill-opacity='0.3' stroke='currentColor'/><circle cx='174' cy='254' r='8' fill='#e11d48' fill-opacity='0.3' stroke='currentColor'/><line x1='213' y1='211' x2='124' y2='211' stroke='currentColor' stroke-opacity='0.6'/><text x='120' y='215' text-anchor='end'>Bronche</text><line x1='320' y1='190' x2='356' y2='190' stroke='currentColor' stroke-opacity='0.6'/><text x='360' y='194'>Poumon</text><line x1='316' y1='254' x2='356' y2='254' stroke='currentColor' stroke-opacity='0.6'/><text x='360' y='258'>Alvéoles</text><path d='M120,300 Q240,270 360,300' fill='none' stroke='#e11d48' stroke-width='4'/><line x1='240' y1='290' x2='240' y2='306' stroke='currentColor' stroke-opacity='0.6'/><text x='240' y='322' text-anchor='middle'>Diaphragme</text></svg>",
+          "legende": "Vue de face. Les anneaux de cartilage de la trachée sont dessinés en traits fins. Les petits cercles rouges représentent les alvéoles."
+        },
+        {
+          "type": "tableau",
+          "titre": "Le trajet de l'air",
+          "entetes": ["Organe", "Description", "Rôle"],
+          "lignes": [
+            ["Fosses nasales", "Deux cavités tapissées de poils et de mucus.", "Filtrent, réchauffent et humidifient l'air."],
+            ["Pharynx", "Carrefour entre le chemin de l'air et celui des aliments.", "Conduit l'air vers le larynx."],
+            ["Larynx", "Contient les cordes vocales. L'épiglotte le ferme quand on avale (chapitre 8).", "Permet la voix et protège les voies respiratoires."],
+            ["Trachée", "Tube d'environ 12 cm de long et 20 mm de diamètre, soutenu par des anneaux de cartilage.", "Laisse passer l'air. Son mucus et ses cils retiennent les poussières."],
+            ["Bronches", "Deux tubes d'environ 12 mm de diamètre, un par poumon, qui se ramifient.", "Conduisent l'air dans les poumons."],
+            ["Bronchioles", "Tubes très fins, d'environ 0,5 mm de diamètre.", "Conduisent l'air jusqu'aux alvéoles."],
+            ["Alvéoles pulmonaires", "Petits sacs d'environ 0,2 mm, groupés en grappes et entourés de capillaires.", "Lieu des échanges de gaz avec le sang."]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Un arbre renversé",
+          "texte": "L'air entre par le nez ou par la bouche, puis traverse le pharynx, le larynx et la trachée. La trachée se divise en deux bronches. Chaque bronche se ramifie comme un arbre renversé en bronchioles de plus en plus fines, et chaque bronchiole se termine par une grappe d'alvéoles.\nLes deux poumons contiennent ensemble environ 300 millions d'alvéoles."
+        },
+        {
+          "type": "remarque",
+          "titre": "Le nez filtre, la bouche non",
+          "texte": "Il vaut mieux respirer par le nez. Les poils et le mucus retiennent les poussières et les microbes, et l'air est réchauffé et humidifié avant d'arriver aux poumons. Dans la trachée et les bronches, de minuscules cils vibratiles balaient le mucus chargé de poussières vers la gorge : on l'avale ou on le crache. La fumée de cigarette abîme ces cils."
+        },
+        {
+          "type": "remarque",
+          "titre": "Les poumons",
+          "texte": "Les poumons sont des organes spongieux, élastiques et roses. Le poumon droit a trois lobes et le poumon gauche deux, car le cœur occupe de la place à gauche. Ils ne contiennent aucun muscle. Chaque poumon est enveloppé par la plèvre, deux membranes séparées par une fine couche de liquide qui permet le glissement. Les poumons sont protégés par la cage thoracique (côtes, sternum, colonne vertébrale), et le diaphragme est placé en dessous."
+        },
+        {
+          "type": "methode",
+          "titre": "Observer des poumons de zébu ou de porc",
+          "texte": "Matériel : des poumons frais avec la trachée (boucherie), une planche, une lame, des gants, une bassine d'eau, une pompe à vélo propre avec son tube.\n1. Observe la forme : deux poumons, une trachée rigide. Compte les lobes de chaque poumon.\n2. Coupe la trachée en travers : sa paroi est renforcée par des anneaux.\n3. Presse un petit morceau de poumon : il est spongieux et léger.\n4. Plonge ce morceau dans l'eau : il flotte.\n5. Avec un adulte, relie le tube de la pompe à la trachée et pompe doucement : les poumons gonflent. Quand tu arrêtes, ils se dégonflent en partie, car ils sont élastiques.\nSécurité : la lame coupe, travaille avec un adulte. Ne souffle jamais avec la bouche dans les poumons. Lave-toi les mains, nettoie la table et ne mange pas la pièce : jette-la ou enterre-la."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["fosses nasales", "cavités du nez par lesquelles entre l'air"],
+            ["pharynx", "carrefour de la gorge où se croisent l'air et les aliments"],
+            ["larynx", "organe de la voix, au-dessus de la trachée"],
+            ["épiglotte", "petit clapet qui ferme le larynx quand on avale"],
+            ["trachée", "tube rigide qui conduit l'air vers les bronches"],
+            ["bronche", "tube qui conduit l'air de la trachée à un poumon"],
+            ["bronchiole", "très fine ramification d'une bronche"],
+            ["alvéole pulmonaire", "petit sac d'air où se font les échanges de gaz avec le sang"],
+            ["plèvre", "double membrane qui enveloppe le poumon"],
+            ["cils vibratiles", "minuscules poils mobiles qui chassent le mucus et les poussières"],
+            ["mucus", "liquide visqueux qui retient les poussières"],
+            ["lobe", "partie d'un poumon séparée des autres par un sillon"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Un élève observe un poumon de zébu acheté à la boucherie. Il note que la trachée est rigide et formée d'anneaux, qu'un morceau de poumon flotte dans l'eau, et qu'un poumon gonflé avec une pompe se dégonfle de lui-même quand on arrête de pomper.\n\n1) Cite dans l'ordre les organes traversés par l'air entre le nez et les alvéoles.\n2) Pourquoi vaut-il mieux respirer par le nez que par la bouche ?\n3) Quel est le rôle des anneaux de cartilage de la trachée ?\n4) Explique pourquoi un morceau de poumon flotte dans l'eau.\n5) La trachée mesure environ 20 mm de diamètre et une bronchiole environ 0,5 mm.\na) Combien de fois la trachée est-elle plus large qu'une bronchiole ?\nb) Les poumons contiennent environ 300 millions d'alvéoles de 0,2 mm de diamètre. Si on les alignait côte à côte, quelle longueur obtiendrait-on, en km ?",
+          "solution": "1) Fosses nasales, pharynx, larynx, trachée, bronches, bronchioles, alvéoles.\n2) Le nez filtre l'air grâce à ses poils et à son mucus, il le réchauffe et l'humidifie. La bouche ne fait pas ce travail.\n3) Les anneaux maintiennent la trachée toujours ouverte : l'air peut passer sans que le tube s'écrase.\n4) Le poumon est rempli d'air dans ses millions d'alvéoles. Il est donc plus léger que l'eau et flotte.\n5) a) 20 ÷ 0,5 = 40. La trachée est 40 fois plus large qu'une bronchiole.\nb) 300 000 000 × 0,2 mm = 60 000 000 mm = 60 000 m = 60 km."
+        }
+      ]
+    },
+    {
+      "id": "svt4-11-l2-mecanisme",
+      "titre": "Le mécanisme de la respiration",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "La ventilation pulmonaire",
+          "texte": "La ventilation pulmonaire est le renouvellement de l'air dans les poumons. Elle se fait par des mouvements respiratoires. Un mouvement respiratoire comprend une inspiration (l'air entre dans les poumons), puis une expiration (l'air en sort). La fréquence respiratoire est le nombre de mouvements respiratoires par minute."
+        },
+        {
+          "type": "schema",
+          "titre": "Inspiration et expiration",
+          "svg": "<svg width='460' height='245' viewBox='0 0 460 245' xmlns='http://www.w3.org/2000/svg' fill='currentColor' font-family='sans-serif' font-size='12'><defs><marker id='fl11a' markerWidth='8' markerHeight='8' refX='6' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='#e11d48'/></marker></defs><text x='115' y='22' text-anchor='middle' font-weight='bold'>Inspiration</text><text x='345' y='22' text-anchor='middle' font-weight='bold'>Expiration</text><rect x='30' y='35' width='170' height='140' rx='10' fill='none' stroke='currentColor' stroke-width='2'/><line x1='30' y1='175' x2='200' y2='175' stroke='#e11d48' stroke-width='4'/><ellipse cx='115' cy='100' rx='60' ry='55' fill='currentColor' fill-opacity='0.15' stroke='currentColor'/><text x='115' y='104' text-anchor='middle'>Poumons</text><text x='115' y='169' text-anchor='middle' font-size='11'>diaphragme</text><line x1='26' y1='100' x2='8' y2='100' stroke='#e11d48' stroke-width='2' marker-end='url(#fl11a)'/><line x1='204' y1='100' x2='222' y2='100' stroke='#e11d48' stroke-width='2' marker-end='url(#fl11a)'/><rect x='270' y='45' width='150' height='120' rx='10' fill='none' stroke='currentColor' stroke-width='2'/><path d='M270,165 Q345,125 420,165' fill='none' stroke='#e11d48' stroke-width='4'/><ellipse cx='345' cy='100' rx='48' ry='42' fill='currentColor' fill-opacity='0.15' stroke='currentColor'/><text x='345' y='104' text-anchor='middle'>Poumons</text><text x='345' y='160' text-anchor='middle' font-size='11'>diaphragme</text><line x1='252' y1='100' x2='268' y2='100' stroke='#e11d48' stroke-width='2' marker-end='url(#fl11a)'/><line x1='438' y1='100' x2='422' y2='100' stroke='#e11d48' stroke-width='2' marker-end='url(#fl11a)'/><text x='115' y='200' text-anchor='middle'>Diaphragme abaissé</text><text x='115' y='216' text-anchor='middle'>Côtes soulevées</text><text x='115' y='232' text-anchor='middle'>Volume augmenté : l'air entre</text><text x='345' y='200' text-anchor='middle'>Diaphragme remonté</text><text x='345' y='216' text-anchor='middle'>Côtes abaissées</text><text x='345' y='232' text-anchor='middle'>Volume diminué : l'air sort</text></svg>",
+          "legende": "Schéma simplifié de la cage thoracique vue de face. Les flèches rouges montrent le mouvement des côtes."
+        },
+        {
+          "type": "regle",
+          "titre": "Comment on respire",
+          "texte": "Inspiration : le diaphragme se contracte et s'abaisse, et les muscles intercostaux soulèvent les côtes et le sternum. Le volume de la cage thoracique augmente. Les poumons suivent ce mouvement, la pression de l'air y diminue et l'air entre.\nExpiration : au repos, les muscles se relâchent. Le diaphragme remonte en se bombant, les côtes s'abaissent, le volume de la cage thoracique diminue et l'air est chassé des poumons.\nPendant un effort, d'autres muscles aident à inspirer et à expirer plus fort."
+        },
+        {
+          "type": "tableau",
+          "titre": "Inspiration et expiration en un coup d'œil",
+          "entetes": ["Phase", "Diaphragme", "Côtes", "Volume du thorax", "Air"],
+          "lignes": [
+            ["Inspiration", "Se contracte et s'abaisse", "Soulevées", "Augmente", "Entre dans les poumons"],
+            ["Expiration", "Se relâche et remonte", "Abaissées", "Diminue", "Sort des poumons"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Les poumons sont passifs",
+          "texte": "Les poumons n'ont pas de muscle : ils ne se gonflent pas tout seuls. Ils suivent les mouvements de la cage thoracique, parce que le liquide de la plèvre les colle à la paroi. Ce sont donc les muscles de la cage thoracique et le diaphragme qui font respirer."
+        },
+        {
+          "type": "methode",
+          "titre": "Fabriquer un modèle du thorax",
+          "texte": "Matériel : une grande bouteille en plastique transparente dont on a coupé le fond, un ballon de baudruche, un tube, un morceau de caoutchouc (ou une vessie de zébu à défaut de ballon), de la ficelle ou un élastique.\n1. Fixe le ballon à l'extrémité du tube, à l'intérieur de la bouteille, et fais ressortir le tube par le goulot (bouché autour du tube avec de la pâte).\n2. Ferme le fond de la bouteille avec le caoutchouc bien tendu, fixé avec l'élastique.\n3. Tire doucement le caoutchouc vers le bas : observe le ballon.\n4. Relâche le caoutchouc : observe encore.\nSécurité : fais couper la bouteille par un adulte, car les bords sont coupants."
+        },
+        {
+          "type": "tableau",
+          "titre": "Le modèle et la réalité",
+          "entetes": ["Dans le modèle", "Dans le corps"],
+          "lignes": [
+            ["La bouteille", "La cage thoracique"],
+            ["Le ballon", "Un poumon"],
+            ["Le tube", "La trachée et les bronches"],
+            ["Le caoutchouc tendu au fond", "Le diaphragme"],
+            ["Tirer le caoutchouc : le ballon se gonfle", "Inspiration"],
+            ["Relâcher le caoutchouc : le ballon se dégonfle", "Expiration"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Les limites du modèle",
+          "texte": "Le modèle ne montre pas les côtes, qui se soulèvent aussi pendant l'inspiration, ni la plèvre qui colle le poumon à la paroi. Il montre seulement l'essentiel : quand le volume du contenant augmente, l'air entre dans le ballon."
+        },
+        {
+          "type": "tableau",
+          "titre": "Fréquence respiratoire au repos (valeurs moyennes)",
+          "entetes": ["Personne", "Mouvements par minute"],
+          "lignes": [
+            ["Enfant de 5 ans", "environ 20 à 25"],
+            ["Adolescent ou adulte", "environ 12 à 20"],
+            ["Effort intense", "30 à 40, ou davantage"]
+          ]
+        },
+        {
+          "type": "definition",
+          "titre": "Les volumes d'air",
+          "texte": "Le volume courant est le volume d'air qui entre à chaque inspiration normale : environ 0,5 L au repos. La capacité vitale est le plus grand volume d'air que l'on peut expirer après une inspiration profonde : environ 3 à 5 L selon l'âge, la taille et le sexe. Le volume résiduel, environ 1 L, reste toujours dans les poumons : on ne peut jamais les vider complètement."
+        },
+        {
+          "type": "methode",
+          "titre": "Mesurer la capacité vitale avec une bouteille",
+          "texte": "Matériel : une bouteille de 5 L, une grande bassine d'eau, un tuyau propre, un seau gradué ou une mesure.\n1. Gradue la bouteille : verse 0,5 L d'eau à la fois et marque le niveau à chaque fois.\n2. Remplis la bouteille d'eau, bouche-la avec la main et retourne-la dans la bassine pleine d'eau.\n3. Glisse le tuyau sous le goulot.\n4. Inspire le plus profondément possible, puis souffle lentement tout l'air dans le tuyau.\n5. Lis le volume d'eau chassé par ton souffle : c'est ta capacité vitale.\nSécurité : utilise un tuyau neuf ou lavé pour chaque élève. Ne souffle pas plus fort que nécessaire et arrête-toi en cas de vertige."
+        },
+        {
+          "type": "formule",
+          "titre": "Le débit ventilatoire",
+          "texte": "Débit ventilatoire = fréquence respiratoire × volume courant\nLe débit est en L par minute, la fréquence en mouvements par minute et le volume courant en L."
+        },
+        {
+          "type": "exemple",
+          "titre": "L'air qui passe dans les poumons",
+          "texte": "Au repos : 16 mouvements par minute et 0,5 L à chaque fois. Débit = 16 × 0,5 = 8 L par minute. En 1 heure : 8 × 60 = 480 L. En 1 jour (1 440 minutes) : 8 × 1 440 = 11 520 L, soit environ 11,5 m³. D'où l'importance d'aérer les pièces où l'on vit et où l'on étudie."
+        },
+        {
+          "type": "remarque",
+          "titre": "Une respiration commandée par le cerveau",
+          "texte": "Le rythme respiratoire est commandé par le cerveau, sans que nous y pensions. Nous pouvons le modifier un moment (retenir son souffle, respirer plus vite) mais pas l'arrêter longtemps. L'effort, la peur ou la fièvre l'accélèrent. La toux et l'éternuement sont des réflexes qui chassent les poussières et les mucosités."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["ventilation", "renouvellement de l'air dans les poumons"],
+            ["inspiration", "entrée de l'air dans les poumons"],
+            ["expiration", "sortie de l'air hors des poumons"],
+            ["mouvement respiratoire", "une inspiration suivie d'une expiration"],
+            ["diaphragme", "grand muscle en forme de dôme sous les poumons"],
+            ["muscles intercostaux", "muscles placés entre les côtes"],
+            ["cage thoracique", "ensemble formé par les côtes, le sternum et la colonne vertébrale"],
+            ["volume courant", "volume d'air qui entre à chaque inspiration normale"],
+            ["capacité vitale", "plus grand volume d'air que l'on peut expirer après une inspiration profonde"],
+            ["volume résiduel", "air qui reste toujours dans les poumons"],
+            ["fréquence respiratoire", "nombre de mouvements respiratoires par minute"],
+            ["débit ventilatoire", "volume d'air qui passe dans les poumons en une minute"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Tiana est assise et au calme. Elle compte 5 mouvements respiratoires en 20 secondes. Son volume courant est de 0,5 L. Elle mesure ensuite son tour de poitrine : 86 cm après une inspiration profonde et 81 cm après une expiration profonde.\n\n1) Calcule sa fréquence respiratoire en mouvements par minute.\n2) Calcule son débit ventilatoire en L par minute, puis le volume d'air ventilé en 1 heure et en 1 jour.\n3) De combien son tour de poitrine augmente-t-il à l'inspiration ? Explique ce changement.\n4) Dans le modèle du thorax, on tire le caoutchouc vers le bas et le ballon se gonfle. À quelle partie du corps correspond le caoutchouc ? À quelle phase de la respiration correspond ce geste ?\n5) Un élève affirme : « Quand le diaphragme se contracte, il remonte et l'air sort. » Corrige cette phrase.",
+          "solution": "1) 5 mouvements en 20 s : 5 × 3 = 15 mouvements par minute.\n2) Débit = 15 × 0,5 = 7,5 L par minute. En 1 heure : 7,5 × 60 = 450 L. En 1 jour : 7,5 × 1 440 = 10 800 L.\n3) 86 − 81 = 5 cm. À l'inspiration, les côtes se soulèvent et le diaphragme s'abaisse : la cage thoracique se agrandit et le tour de poitrine augmente.\n4) Le caoutchouc représente le diaphragme. Ce geste correspond à l'inspiration.\n5) Quand le diaphragme se contracte, il s'abaisse et s'aplatit. Le volume de la cage thoracique augmente et l'air entre dans les poumons : c'est l'inspiration. Le diaphragme remonte quand il se relâche, et l'air sort."
+        }
+      ]
+    },
+    {
+      "id": "svt4-11-l3-echanges-gazeux",
+      "titre": "Les échanges gazeux",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Les échanges gazeux",
+          "texte": "Dans les alvéoles des poumons, le dioxygène passe de l'air vers le sang, et le dioxyde de carbone passe du sang vers l'air. Ce sont les échanges gazeux. Ils expliquent pourquoi l'air que l'on expire n'a pas la même composition que l'air que l'on inspire."
+        },
+        {
+          "type": "tableau",
+          "titre": "Air inspiré et air expiré (valeurs simplifiées)",
+          "entetes": ["Gaz", "Air inspiré", "Air expiré"],
+          "lignes": [
+            ["Dioxygène (O₂)", "21 %", "environ 16 %"],
+            ["Dioxyde de carbone (CO₂)", "environ 0,04 %", "environ 4 %"],
+            ["Diazote, autres gaz et vapeur d'eau", "environ 79 % (peu de vapeur d'eau)", "environ 80 % (beaucoup de vapeur d'eau)"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Que retenir du tableau",
+          "texte": "L'air expiré contient moins de dioxygène et beaucoup plus de dioxyde de carbone que l'air inspiré, et il est saturé de vapeur d'eau. Le diazote, qui forme la plus grande partie de l'air, n'est pas utilisé par l'organisme : sa proportion ne change presque pas. L'air expiré contient encore beaucoup de dioxygène, ce qui permet la respiration artificielle (bouche-à-bouche) en cas de besoin."
+        },
+        {
+          "type": "methode",
+          "titre": "Montrer que l'air expiré contient du dioxyde de carbone",
+          "texte": "Matériel : deux flacons transparents d'eau de chaux limpide, une paille, une pompe à vélo propre.\n1. Premier flacon : fais barboter l'air de la pièce avec la pompe. L'eau de chaux reste limpide.\n2. Deuxième flacon : souffle doucement dans l'eau de chaux avec la paille. L'eau de chaux se trouble.\n3. Conclusion : le dioxyde de carbone trouble l'eau de chaux. L'air expiré en contient beaucoup plus que l'air de la pièce.\nVapeur d'eau : souffle sur un miroir froid, une buée apparaît. L'air expiré contient de la vapeur d'eau.\nSécurité : l'eau de chaux irrite les yeux et la peau, porte des lunettes et lave-toi les mains. Souffle dans la paille, ne l'aspire jamais, et ne bois pas l'eau de chaux."
+        },
+        {
+          "type": "remarque",
+          "titre": "Pourquoi l'eau de chaux se trouble",
+          "texte": "L'eau de chaux contient de l'hydroxyde de calcium dissous. Le dioxyde de carbone réagit avec lui : Ca(OH)₂ + CO₂ → CaCO₃ + H₂O. Le carbonate de calcium formé n'est pas soluble : ce sont de fines particules blanches qui troublent le liquide."
+        },
+        {
+          "type": "schema",
+          "titre": "L'échange entre une alvéole et un capillaire",
+          "svg": "<svg width='420' height='200' viewBox='0 0 420 200' xmlns='http://www.w3.org/2000/svg' fill='currentColor' font-family='sans-serif' font-size='12'><defs><marker id='fl11b' markerWidth='8' markerHeight='8' refX='6' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='#e11d48'/></marker><marker id='fl11c' markerWidth='8' markerHeight='8' refX='6' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='currentColor'/></marker></defs><text x='130' y='30' text-anchor='middle'>Alvéole pulmonaire</text><circle cx='130' cy='125' r='70' fill='currentColor' fill-opacity='0.08' stroke='currentColor' stroke-width='2'/><text x='95' y='129' text-anchor='middle'>Air</text><text x='315' y='82' text-anchor='middle'>Capillaire sanguin</text><rect x='230' y='95' width='170' height='60' rx='30' fill='#e11d48' fill-opacity='0.2' stroke='currentColor' stroke-width='2'/><line x1='150' y1='112' x2='290' y2='112' stroke='#e11d48' stroke-width='2.5' marker-end='url(#fl11b)'/><text x='215' y='106' text-anchor='middle'>O₂</text><line x1='290' y1='140' x2='150' y2='140' stroke='currentColor' stroke-width='2.5' marker-end='url(#fl11c)'/><text x='215' y='160' text-anchor='middle'>CO₂</text><circle cx='335' cy='126' r='8' fill='#e11d48' fill-opacity='0.8'/><circle cx='370' cy='126' r='8' fill='#e11d48' fill-opacity='0.8'/><text x='315' y='185' text-anchor='middle' font-size='11'>globules rouges (hémoglobine)</text></svg>",
+          "legende": "Flèche rouge : le dioxygène passe de l'air vers le sang. Flèche sombre : le dioxyde de carbone passe du sang vers l'air."
+        },
+        {
+          "type": "regle",
+          "titre": "Comment se font les échanges",
+          "texte": "Un gaz passe du milieu où il est le plus abondant vers le milieu où il l'est le moins : c'est la diffusion. Dans les alvéoles, l'air est riche en dioxygène et le sang qui arrive est pauvre en dioxygène : le dioxygène passe dans le sang. Le sang qui arrive est riche en dioxyde de carbone et l'air alvéolaire en contient peu : le dioxyde de carbone passe dans l'air.\nLes alvéoles sont très bien adaptées aux échanges :\n- leur paroi est très mince (une seule couche de cellules) et collée à celle des capillaires ;\n- la surface totale d'échange est très grande, environ 70 m² ;\n- les parois sont humides, ce qui facilite le passage des gaz ;\n- l'air est renouvelé par la ventilation, et le sang par la circulation (chapitre 10)."
+        },
+        {
+          "type": "tableau",
+          "titre": "Ce que devient le sang dans les poumons",
+          "entetes": ["Vaisseau", "Sang", "Dioxygène", "Dioxyde de carbone"],
+          "lignes": [
+            ["Artère pulmonaire (arrive aux poumons)", "venu du cœur droit", "pauvre", "riche"],
+            ["Veines pulmonaires (quittent les poumons)", "retourne au cœur gauche", "riche", "pauvre"],
+            ["Aorte et artères du corps", "part vers les organes", "riche", "pauvre"],
+            ["Veines caves (arrivent au cœur)", "revient des organes", "pauvre", "riche"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Le transport des gaz",
+          "texte": "Presque tout le dioxygène est transporté par l'hémoglobine des globules rouges (chapitre 9), puis cédé aux cellules dans les capillaires des organes. Le dioxyde de carbone est transporté en grande partie par le plasma. Le monoxyde de carbone, lui, se fixe très fortement sur l'hémoglobine et l'empêche de transporter l'oxygène : c'est un gaz très dangereux."
+        },
+        {
+          "type": "exemple",
+          "titre": "Ce qui se passe à chaque inspiration",
+          "texte": "Une inspiration amène 0,5 L d'air. Avec 21 % de dioxygène : 0,5 × 0,21 = 0,105 L, soit 105 mL. Avec 16 % dans l'air expiré, on expire 0,5 × 0,16 = 0,08 L, soit 80 mL de dioxygène. L'organisme a donc retenu 105 − 80 = 25 mL de dioxygène à chaque mouvement respiratoire (valeurs simplifiées : on suppose le même volume d'air à l'entrée et à la sortie)."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["échanges gazeux", "passage du dioxygène vers le sang et du dioxyde de carbone vers l'air"],
+            ["diffusion", "passage d'un gaz du milieu où il est le plus abondant vers celui où il l'est le moins"],
+            ["dioxygène", "gaz de l'air nécessaire à la respiration (O₂)"],
+            ["dioxyde de carbone", "gaz rejeté par les cellules (CO₂)"],
+            ["diazote", "gaz le plus abondant de l'air, non utilisé par l'organisme (N₂)"],
+            ["eau de chaux", "solution limpide qui se trouble en présence de dioxyde de carbone"],
+            ["hémoglobine", "substance des globules rouges qui transporte le dioxygène"],
+            ["monoxyde de carbone", "gaz toxique, sans odeur, qui se fixe sur l'hémoglobine (CO)"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Faly compare l'air inspiré et l'air expiré. Dans un premier flacon d'eau de chaux, il fait barboter de l'air de la pièce avec une pompe : l'eau de chaux reste limpide. Dans un second flacon, il souffle avec une paille : l'eau de chaux se trouble.\n\n1) Qu'a-t-il montré ?\n2) Cite deux autres différences entre l'air inspiré et l'air expiré.\n3) On donne : air inspiré 21 % de dioxygène ; air expiré 16 % de dioxygène. Chaque mouvement respiratoire déplace 0,5 L d'air. Calcule le volume de dioxygène retenu à chaque mouvement, en mL, puis en 1 minute à 16 mouvements par minute.\n4) L'air expiré contient environ 4 % de dioxyde de carbone (on néglige les 0,04 % de l'air inspiré). Calcule le volume de dioxyde de carbone rejeté en 1 minute, avec les mêmes données.\n5) Cite trois caractéristiques des alvéoles qui favorisent les échanges gazeux.",
+          "solution": "1) L'air expiré contient plus de dioxyde de carbone que l'air de la pièce, puisque seul l'air expiré trouble l'eau de chaux.\n2) L'air expiré contient moins de dioxygène, et il contient beaucoup plus de vapeur d'eau (et il est plus chaud).\n3) Le dioxygène retenu représente 21 − 16 = 5 % de 0,5 L, soit 0,5 × 0,05 = 0,025 L = 25 mL à chaque mouvement. En 1 minute : 25 × 16 = 400 mL.\n4) 4 % de 0,5 L = 0,5 × 0,04 = 0,02 L = 20 mL par mouvement. En 1 minute : 20 × 16 = 320 mL.\n5) Paroi très mince collée aux capillaires, très grande surface d'échange (environ 70 m²), paroi humide, air et sang constamment renouvelés."
+        }
+      ]
+    },
+    {
+      "id": "svt4-11-l4-cellules-hygiene",
+      "titre": "La respiration des cellules, hygiène et maladies",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "L'oxydation cellulaire",
+          "texte": "Dans chaque cellule, le glucose apporté par le sang réagit avec le dioxygène : c'est l'oxydation cellulaire, ou respiration cellulaire. Elle libère de l'énergie et produit du dioxyde de carbone et de l'eau. C'est la même réaction que dans les cellules des plantes (chapitre 3)."
+        },
+        {
+          "type": "formule",
+          "titre": "Le bilan de la respiration cellulaire",
+          "texte": "C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O + énergie\nglucose + dioxygène → dioxyde de carbone + eau + énergie"
+        },
+        {
+          "type": "schema",
+          "titre": "Ce qui se passe dans une cellule",
+          "svg": "<svg width='480' height='220' viewBox='0 0 480 220' xmlns='http://www.w3.org/2000/svg' fill='currentColor' font-family='sans-serif' font-size='12'><defs><marker id='fl11d' markerWidth='8' markerHeight='8' refX='6' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='#e11d48'/></marker><marker id='fl11e' markerWidth='8' markerHeight='8' refX='6' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='currentColor'/></marker></defs><rect x='10' y='80' width='100' height='80' rx='30' fill='#e11d48' fill-opacity='0.2' stroke='currentColor' stroke-width='2'/><text x='60' y='124' text-anchor='middle'>Capillaire</text><circle cx='270' cy='120' r='60' fill='currentColor' fill-opacity='0.08' stroke='currentColor' stroke-width='2'/><text x='270' y='116' text-anchor='middle'>Cellule</text><text x='270' y='133' text-anchor='middle' font-size='11'>oxydation</text><line x1='114' y1='100' x2='208' y2='100' stroke='#e11d48' stroke-width='2.5' marker-end='url(#fl11d)'/><text x='160' y='92' text-anchor='middle' font-size='11'>O₂ et glucose</text><line x1='208' y1='140' x2='114' y2='140' stroke='currentColor' stroke-width='2.5' marker-end='url(#fl11e)'/><text x='160' y='158' text-anchor='middle' font-size='11'>CO₂ et eau</text><line x1='270' y1='58' x2='270' y2='26' stroke='#e11d48' stroke-width='2.5' marker-end='url(#fl11d)'/><text x='284' y='32' font-size='11'>Énergie : chaleur,</text><text x='284' y='47' font-size='11'>mouvement, croissance</text><text x='240' y='205' text-anchor='middle'>Glucose + O₂ → CO₂ + H₂O + énergie</text></svg>",
+          "legende": "Le sang apporte le dioxygène et le glucose à la cellule, et repart avec le dioxyde de carbone et l'eau."
+        },
+        {
+          "type": "regle",
+          "titre": "De l'air à la cellule : quatre étapes",
+          "texte": "1. La ventilation amène l'air jusqu'aux alvéoles.\n2. Les échanges gazeux se font entre l'air des alvéoles et le sang des capillaires des poumons.\n3. Le sang transporte le dioxygène vers les organes : les veines pulmonaires, le cœur gauche, l'aorte et les artères.\n4. Dans les capillaires des organes, le dioxygène passe dans les cellules, qui l'utilisent pour brûler le glucose. Le dioxyde de carbone fait le chemin inverse et sera rejeté par les poumons."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les appareils de la nutrition travaillent ensemble",
+          "entetes": ["Appareil", "Ce qu'il fait pour les cellules"],
+          "lignes": [
+            ["Appareil digestif", "Transforme les aliments en nutriments (glucose, acides aminés...) et les absorbe (chapitre 8)."],
+            ["Appareil respiratoire", "Apporte le dioxygène et rejette le dioxyde de carbone (chapitre 11)."],
+            ["Appareil circulatoire", "Transporte nutriments, dioxygène et déchets entre tous les organes (chapitres 9 et 10)."],
+            ["Cellules", "Brûlent les nutriments avec le dioxygène pour produire l'énergie (chapitre 7)."]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Pourquoi on respire plus vite à l'effort",
+          "texte": "L'énergie libérée dans les cellules sert à contracter les muscles, à maintenir le corps à environ 37 °C, à faire grandir et à réparer les tissus. Pendant un effort, les muscles brûlent beaucoup plus de glucose : ils ont besoin de plus de dioxygène et rejettent plus de dioxyde de carbone. La respiration et le cœur s'accélèrent pour répondre à ce besoin. Si l'effort est trop intense, l'oxygène n'arrive pas assez vite : le muscle se fatigue et l'on est essoufflé."
+        },
+        {
+          "type": "tableau",
+          "titre": "Principales maladies respiratoires",
+          "entetes": ["Maladie", "Cause", "Signes", "Que faire"],
+          "lignes": [
+            ["Rhume", "Un virus. Contagieux.", "Nez qui coule ou bouché, toux légère.", "Se reposer, boire, se laver les mains, se moucher avec un mouchoir propre."],
+            ["Grippe", "Un virus. Contagieuse.", "Fièvre, courbatures, toux.", "Se reposer et boire. Consulter si la fièvre est forte ou si la respiration est difficile."],
+            ["Bronchite", "Infection ou irritation des bronches (virus, fumée, poussières).", "Toux avec crachats.", "Consulter si la toux dure. Éviter la fumée."],
+            ["Pneumonie", "Infection du poumon par des microbes : les alvéoles se remplissent de liquide.", "Forte fièvre, toux, respiration rapide et difficile, douleur dans la poitrine.", "Urgence : aller au centre de santé. Le médecin prescrit le traitement."],
+            ["Asthme", "Les bronches se rétrécissent (allergie, poussière, fumée, effort). Non contagieux.", "Crises avec sifflement et essoufflement.", "Éviter ce qui déclenche les crises. Suivre le traitement du médecin."],
+            ["Tuberculose", "Une bactérie, le bacille de Koch. Contagieuse par les gouttelettes de la toux.", "Toux de plus de 2 semaines, fièvre, sueurs la nuit, amaigrissement, parfois du sang dans les crachats.", "Consulter vite. Le traitement dure plusieurs mois et doit être suivi jusqu'au bout. Le vaccin BCG protège surtout les jeunes enfants."]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Antibiotiques et virus",
+          "texte": "Les antibiotiques ne soignent que les maladies dues à des bactéries. Ils sont sans effet sur les virus, comme ceux du rhume ou de la grippe. Un traitement ne doit être pris que sur l'avis d'un médecin ou d'un agent de santé, et jusqu'à sa fin."
+        },
+        {
+          "type": "regle",
+          "titre": "Protéger ses poumons",
+          "texte": "- Respirer par le nez.\n- Aérer chaque jour les chambres et les salles de classe.\n- Cuisiner dans un endroit bien ventilé : la fumée du bois et du charbon irrite les bronches et les yeux, surtout ceux des enfants.\n- Se couvrir le nez et la bouche (tissu ou masque) quand il y a beaucoup de poussière : travaux de construction, battage du riz, brûlis.\n- Se couvrir la bouche pour tousser ou éternuer, ne pas cracher par terre et se laver les mains.\n- Ne pas fumer et éviter la fumée des autres.\n- Faire vacciner les enfants selon le carnet de santé : les vaccins protègent contre la tuberculose et la coqueluche, par exemple.\n- Pratiquer une activité physique régulière : elle augmente la capacité vitale."
+        },
+        {
+          "type": "remarque",
+          "titre": "Le tabac",
+          "texte": "La fumée de cigarette contient des goudrons, qui peuvent provoquer un cancer, de la nicotine, qui rend dépendant et accélère le cœur, et du monoxyde de carbone, qui prend la place de l'oxygène sur l'hémoglobine (chapitres 9 et 10). Elle cause la toux, la bronchite chronique, l'essoufflement, le cancer du poumon et des maladies du cœur. La fumée des autres (fumeur passif) est dangereuse aussi, surtout pour les enfants. Arrêter de fumer, à tout âge, est bénéfique."
+        },
+        {
+          "type": "remarque",
+          "titre": "Sécurité : le monoxyde de carbone",
+          "texte": "Un réchaud à charbon, un brasero ou un moteur qui tourne dans un local fermé produisent du monoxyde de carbone (combustion incomplète). Ce gaz n'a ni odeur ni couleur. Il provoque maux de tête, vertiges et nausées, puis la perte de connaissance et la mort. Ne dors jamais avec un réchaud allumé dans une pièce fermée. Si une personne se sent mal, sors-la vite à l'air libre et appelle à l'aide."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["oxydation cellulaire", "réaction du glucose avec le dioxygène dans les cellules, qui libère de l'énergie"],
+            ["respiration cellulaire", "autre nom de l'oxydation cellulaire"],
+            ["énergie", "ce qui permet de bouger, de se chauffer, de grandir"],
+            ["asthme", "maladie où les bronches se rétrécissent par crises, non contagieuse"],
+            ["bronchite", "inflammation des bronches"],
+            ["pneumonie", "infection du poumon par des microbes"],
+            ["tuberculose", "maladie contagieuse due à une bactérie qui attaque surtout les poumons"],
+            ["goudrons", "substances de la fumée de cigarette qui peuvent provoquer un cancer"],
+            ["nicotine", "substance de la cigarette qui rend dépendant"],
+            ["fumeur passif", "personne qui respire la fumée des autres"],
+            ["crachat", "mucus rejeté par la bouche en toussant"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1) Vrai ou faux ? Corrige celles qui sont fausses.\na) La tuberculose se transmet par les gouttelettes envoyées par la toux d'un malade.\nb) L'asthme est une maladie contagieuse.\nc) On peut dormir sans danger dans une pièce fermée avec un réchaud à charbon allumé.\nd) Les antibiotiques soignent le rhume.\n2) Écris le bilan de l'oxydation du glucose dans une cellule. Pourquoi le dioxyde de carbone doit-il être rejeté ?\n3) Pendant une course, la fréquence respiratoire d'un élève passe de 16 à 32 mouvements par minute et le volume de chaque inspiration de 0,5 L à 1,5 L. Calcule son débit ventilatoire au repos et à l'effort, puis dis combien de fois il a augmenté.\n4) Admets qu'un fumeur fume 10 cigarettes par jour et qu'une cigarette coûte 300 Ar. Calcule le nombre de cigarettes fumées en un an (365 jours), puis la dépense par an. Cite deux effets du tabac sur la santé.",
+          "solution": "1) a) Vrai. b) Faux : l'asthme n'est pas contagieux, c'est un rétrécissement des bronches. c) Faux : le charbon qui brûle mal produit du monoxyde de carbone, un gaz toxique sans odeur qui peut tuer. Il faut aérer. d) Faux : le rhume est dû à un virus et les antibiotiques ne soignent que les maladies à bactéries.\n2) C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O + énergie. Le dioxyde de carbone est un déchet : en excès, il gêne le fonctionnement des cellules. Il est transporté par le sang jusqu'aux poumons, qui le rejettent.\n3) Au repos : 16 × 0,5 = 8 L par minute. À l'effort : 32 × 1,5 = 48 L par minute. 48 ÷ 8 = 6 : le débit est multiplié par 6.\n4) En un an : 10 × 365 = 3 650 cigarettes. Dépense : 3 650 × 300 = 1 095 000 Ar par an. Effets : toux et bronchite chronique, essoufflement, cancer du poumon, maladies du cœur (deux réponses suffisent)."
+        }
+      ]
+    }
+  ]
+}
