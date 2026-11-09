@@ -1,0 +1,371 @@
+{
+  "id": "svt4-18-seismes",
+  "titre": "Les séismes",
+  "lecons": [
+    {
+      "id": "svt4-18-l1-origine",
+      "titre": "Origine d'un séisme : faille, foyer et épicentre",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Qu'est-ce qu'un séisme ?",
+          "texte": "Un séisme, ou tremblement de terre, est une secousse brutale du sol. Il est provoqué par la rupture de roches en profondeur, qui libère d'un seul coup une grande quantité d'énergie. Cette énergie se propage dans toutes les directions sous forme d'ondes : les ondes sismiques. La science qui étudie les séismes s'appelle la sismologie."
+        },
+        {
+          "type": "schema",
+          "titre": "Faille, foyer et épicentre (coupe du sol)",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='520' height='240' viewBox='0 0 520 240' font-family='sans-serif' font-size='12'><defs><marker id='fl18a' markerWidth='8' markerHeight='8' refX='6' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='#e11d48'/></marker></defs><rect x='20' y='60' width='340' height='160' fill='currentColor' fill-opacity='0.08' stroke='currentColor'/><line x1='20' y1='60' x2='360' y2='60' stroke='currentColor' stroke-width='3'/><text x='24' y='52' fill='currentColor'>Surface du sol</text><circle cx='260' cy='139' r='20' fill='none' stroke='currentColor' stroke-opacity='0.5' stroke-dasharray='4 3'/><circle cx='260' cy='139' r='40' fill='none' stroke='currentColor' stroke-opacity='0.5' stroke-dasharray='4 3'/><circle cx='260' cy='139' r='60' fill='none' stroke='currentColor' stroke-opacity='0.5' stroke-dasharray='4 3'/><line x1='170' y1='60' x2='330' y2='200' stroke='#e11d48' stroke-width='3'/><line x1='260' y1='130' x2='260' y2='69' stroke='currentColor' stroke-dasharray='4 3'/><line x1='330' y1='120' x2='300' y2='94' stroke='#e11d48' stroke-width='2' marker-end='url(#fl18a)'/><line x1='200' y1='140' x2='230' y2='166' stroke='#e11d48' stroke-width='2' marker-end='url(#fl18a)'/><circle cx='260' cy='139' r='9' fill='#e11d48'/><text x='260' y='143' text-anchor='middle' fill='#fff' font-weight='bold'>1</text><circle cx='260' cy='60' r='9' fill='#e11d48'/><text x='260' y='64' text-anchor='middle' fill='#fff' font-weight='bold'>2</text><circle cx='186' cy='74' r='9' fill='#e11d48'/><text x='186' y='78' text-anchor='middle' fill='#fff' font-weight='bold'>3</text><circle cx='218' cy='181' r='9' fill='#e11d48'/><text x='218' y='185' text-anchor='middle' fill='#fff' font-weight='bold'>4</text><circle cx='392' cy='80' r='9' fill='#e11d48'/><text x='392' y='84' text-anchor='middle' fill='#fff' font-weight='bold'>1</text><text x='408' y='84' fill='currentColor'>Foyer</text><circle cx='392' cy='108' r='9' fill='#e11d48'/><text x='392' y='112' text-anchor='middle' fill='#fff' font-weight='bold'>2</text><text x='408' y='112' fill='currentColor'>Épicentre</text><circle cx='392' cy='136' r='9' fill='#e11d48'/><text x='392' y='140' text-anchor='middle' fill='#fff' font-weight='bold'>3</text><text x='408' y='140' fill='currentColor'>Faille</text><circle cx='392' cy='164' r='9' fill='#e11d48'/><text x='392' y='168' text-anchor='middle' fill='#fff' font-weight='bold'>4</text><text x='408' y='168' fill='currentColor'>Ondes sismiques</text><text x='380' y='196' fill='currentColor'>Flèches : mouvement</text><text x='380' y='212' fill='currentColor'>des deux blocs</text></svg>",
+          "legende": "Schéma simplifié, hors échelle. Les cercles en pointillés représentent les ondes sismiques qui partent du foyer."
+        },
+        {
+          "type": "definition",
+          "titre": "Foyer, épicentre et faille",
+          "texte": "Le foyer (ou hypocentre) est le point, en profondeur, où les roches se rompent et où le séisme commence.\nL'épicentre est le point de la surface du sol situé à la verticale du foyer. C'est en général là que les secousses sont les plus fortes.\nUne faille est une cassure des roches le long de laquelle deux blocs se sont déplacés l'un par rapport à l'autre."
+        },
+        {
+          "type": "remarque",
+          "titre": "Les très grands séismes",
+          "texte": "Pour un très grand séisme, la rupture ne reste pas en un seul point : elle se propage le long de la faille et peut s'étendre sur plusieurs centaines de kilomètres. Le foyer est alors le point où la rupture a commencé."
+        },
+        {
+          "type": "methode",
+          "titre": "Comment se produit un séisme ?",
+          "texte": "1. Les plaques de l'écorce terrestre bougent très lentement (chapitre 19). Elles poussent ou étirent les roches, qui se déforment peu à peu et accumulent de l'énergie, comme un bâton que l'on plie.\n2. Pendant des dizaines ou des centaines d'années, la force augmente.\n3. Quand la force est trop grande, les roches cassent brutalement le long d'une faille, comme le bâton qui se brise.\n4. Les deux blocs glissent d'un coup et reprennent leur place : c'est le rebond.\n5. L'énergie accumulée est libérée en quelques secondes sous forme d'ondes sismiques qui font trembler le sol."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les trois types de failles",
+          "entetes": ["Type de faille", "Mouvement des blocs", "Cause"],
+          "lignes": [
+            ["Faille normale", "Les deux blocs s'écartent et l'un d'eux descend", "Étirement de la croûte"],
+            ["Faille inverse", "Les deux blocs se rapprochent et l'un d'eux monte sur l'autre", "Compression de la croûte"],
+            ["Faille décrochante", "Les deux blocs glissent horizontalement l'un contre l'autre", "Coulissage"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Profondeur du foyer",
+          "entetes": ["Type de foyer", "Profondeur"],
+          "lignes": [
+            ["Superficiel", "de 0 à 70 km"],
+            ["Intermédiaire", "de 70 à 300 km"],
+            ["Profond", "de 300 à 700 km"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Les causes des séismes",
+          "texte": "La grande majorité des séismes sont d'origine tectonique : ils viennent de la rupture de roches le long de failles, à cause des mouvements des plaques.\nD'autres causes existent :\n- les séismes volcaniques, dus à la montée du magma (chapitre 17) ; ils sont en général moins forts ;\n- les effondrements de cavités souterraines (mines, grottes) ;\n- les séismes provoqués par l'homme (explosions, grands barrages, travaux souterrains).\nLes séismes forts à foyer superficiel sont les plus destructeurs, car le foyer est proche de la surface."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Séisme", "Secousse brutale du sol, appelée aussi tremblement de terre"],
+            ["Sismologie", "Science qui étudie les séismes"],
+            ["Foyer (hypocentre)", "Point en profondeur où commence la rupture des roches"],
+            ["Épicentre", "Point de la surface situé à la verticale du foyer"],
+            ["Faille", "Cassure des roches avec déplacement de deux blocs"],
+            ["Onde sismique", "Vibration qui se propage dans les roches à partir du foyer"],
+            ["Rebond élastique", "Retour brutal des blocs en place après la rupture"],
+            ["Tectonique", "Qui concerne les déformations et les mouvements de l'écorce terrestre"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Un séisme a son foyer à 25 km de profondeur sous une ville.\n1. Où se trouve l'épicentre ?\n2. Quelle est la distance entre le foyer et l'épicentre ?\n3. Le foyer est-il superficiel, intermédiaire ou profond ?\n4. Les deux blocs de la faille s'écartent et l'un d'eux descend. Quel est ce type de faille ?\n5. Explique en une phrase pourquoi le sol tremble au moment de la rupture.",
+          "solution": "1. L'épicentre est le point de la surface du sol situé à la verticale du foyer, donc juste au-dessus de lui, sous la ville.\n2. 25 km : c'est la profondeur du foyer, mesurée à la verticale.\n3. Le foyer est superficiel, car 25 km est inférieur à 70 km.\n4. C'est une faille normale (les blocs s'écartent : étirement de la croûte).\n5. Les roches ont accumulé de l'énergie pendant très longtemps. Quand elles cassent, cette énergie est libérée d'un coup sous forme d'ondes sismiques qui font trembler le sol."
+        }
+      ]
+    },
+    {
+      "id": "svt4-18-l2-ondes-sismogramme",
+      "titre": "Les ondes sismiques et le sismogramme",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Les ondes sismiques",
+          "texte": "Au moment de la rupture, des ondes sismiques partent du foyer et traversent les roches dans toutes les directions, comme les ronds dans l'eau quand on jette un caillou. On distingue trois sortes d'ondes."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les trois sortes d'ondes",
+          "entetes": ["Ondes", "Mouvement", "Vitesse moyenne dans la croûte", "À retenir"],
+          "lignes": [
+            ["Ondes P (primaires)", "Le sol est comprimé puis étiré dans le sens de la propagation, comme un ressort que l'on pousse", "environ 6 km/s", "Les plus rapides : elles arrivent en premier. Elles traversent les solides et les liquides."],
+            ["Ondes S (secondaires)", "Le sol bouge perpendiculairement au sens de la propagation, comme une corde que l'on secoue", "environ 3,5 km/s", "Elles arrivent en deuxième. Elles ne traversent pas les liquides."],
+            ["Ondes de surface", "Ondulations du sol, comme des vagues, le long de la surface", "un peu plus lentes que les ondes S", "Les plus lentes mais les plus fortes : ce sont elles qui causent le plus de dégâts."]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Des vitesses moyennes",
+          "texte": "Ces vitesses sont des valeurs moyennes : elles changent selon les roches traversées. Les ondes P et S traversent aussi l'intérieur de la Terre. Leur changement de vitesse permet de découvrir comment le globe est construit (chapitre 20)."
+        },
+        {
+          "type": "definition",
+          "titre": "Sismographe et sismogramme",
+          "texte": "Un sismographe est un appareil qui enregistre les mouvements du sol. Il contient une masse lourde suspendue qui reste presque immobile quand le sol bouge : l'appareil mesure le mouvement entre le sol et cette masse. Aujourd'hui, les enregistrements sont numériques.\nLe graphique obtenu s'appelle un sismogramme : il montre l'amplitude des vibrations du sol en fonction du temps. Les sismographes sont installés dans des stations sismiques, partout dans le monde."
+        },
+        {
+          "type": "schema",
+          "titre": "Un sismogramme simplifié",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='540' height='215' viewBox='0 0 540 215' font-family='sans-serif' font-size='12'><line x1='30' y1='90' x2='510' y2='90' stroke='currentColor' stroke-opacity='0.25' stroke-dasharray='3 3'/><polyline fill='none' stroke='currentColor' stroke-width='1.5' points='30,90 42,91 54,89 66,91 78,89 90,90 102,91 114,89 126,90 138,91 150,89 162,90 174,91 186,89 198,90 204,82 210,98 216,84 222,96 228,83 234,97 240,84 246,96 252,83 258,97 264,84 270,96 276,83 282,97 288,84 294,96 300,83 306,97 312,84 318,90 324,68 330,112 336,67 342,113 348,69 354,111 360,70 366,108 372,52 378,128 384,50 390,130 396,54 402,126 408,56 414,124 420,60 426,120 432,64 438,116 444,70 450,108 456,74 462,104 468,78 474,102 480,82 486,98 492,85 498,95 504,88 510,92'/><line x1='198' y1='40' x2='198' y2='160' stroke='#e11d48' stroke-dasharray='4 3'/><line x1='318' y1='40' x2='318' y2='160' stroke='#e11d48' stroke-dasharray='4 3'/><text x='198' y='34' text-anchor='middle' fill='#e11d48' font-weight='bold'>Arrivée P</text><text x='318' y='34' text-anchor='middle' fill='#e11d48' font-weight='bold'>Arrivée S</text><text x='420' y='34' text-anchor='middle' fill='currentColor'>Ondes de surface</text><text x='90' y='76' text-anchor='middle' fill='currentColor'>Calme</text><line x1='198' y1='140' x2='318' y2='140' stroke='#e11d48' stroke-width='2'/><polygon points='198,140 206,136 206,144' fill='#e11d48'/><polygon points='318,140 310,136 310,144' fill='#e11d48'/><text x='258' y='132' text-anchor='middle' fill='#e11d48'>S − P = 20 s</text><line x1='30' y1='170' x2='510' y2='170' stroke='currentColor'/><line x1='30' y1='170' x2='30' y2='176' stroke='currentColor'/><line x1='150' y1='170' x2='150' y2='176' stroke='currentColor'/><line x1='270' y1='170' x2='270' y2='176' stroke='currentColor'/><line x1='390' y1='170' x2='390' y2='176' stroke='currentColor'/><line x1='510' y1='170' x2='510' y2='176' stroke='currentColor'/><text x='30' y='190' text-anchor='middle' fill='currentColor'>0</text><text x='150' y='190' text-anchor='middle' fill='currentColor'>20</text><text x='270' y='190' text-anchor='middle' fill='currentColor'>40</text><text x='390' y='190' text-anchor='middle' fill='currentColor'>60</text><text x='510' y='190' text-anchor='middle' fill='currentColor'>80</text><text x='270' y='208' text-anchor='middle' fill='currentColor'>Temps (s)</text></svg>",
+          "legende": "Sismogramme simplifié. L'axe du temps commence à l'instant du séisme. Ici, les ondes P arrivent à 28 s et les ondes S à 48 s. Les amplitudes ne sont pas à l'échelle."
+        },
+        {
+          "type": "methode",
+          "titre": "Lire un sismogramme",
+          "texte": "1. Repérer le calme avant le séisme : le trait est presque droit.\n2. Repérer l'arrivée des ondes P : ce sont les premières petites oscillations.\n3. Repérer l'arrivée des ondes S : les oscillations deviennent plus grandes.\n4. Repérer les ondes de surface : ce sont les oscillations les plus grandes.\n5. Lire sur l'axe horizontal les instants d'arrivée des ondes P et S, puis calculer l'écart S − P."
+        },
+        {
+          "type": "formule",
+          "titre": "Distance entre la station et l'épicentre",
+          "texte": "d (en km) ≈ 8,4 × écart S − P (en s)\nCette formule est valable avec P ≈ 6 km/s et S ≈ 3,5 km/s.\nElle vient du fait que les ondes P et S partent en même temps : plus la station est loin, plus l'écart entre leurs arrivées est grand."
+        },
+        {
+          "type": "exemple",
+          "titre": "Calculer la distance d'un séisme",
+          "texte": "Une station enregistre les ondes P à 10 h 15 min 28 s et les ondes S à 10 h 15 min 48 s.\nÉcart S − P = 48 − 28 = 20 s.\nDistance : d = 8,4 × 20 = 168 km.\nVérification : les ondes P parcourent 168 km en 168 ÷ 6 = 28 s, les ondes S en 168 ÷ 3,5 = 48 s, et 48 − 28 = 20 s.\nHeure du séisme : 10 h 15 min 28 s − 28 s = 10 h 15 min 00 s."
+        },
+        {
+          "type": "methode",
+          "titre": "Trouver l'épicentre : la triangulation",
+          "texte": "Avec une seule station, on connaît la distance mais pas la direction : l'épicentre peut être n'importe où sur un cercle.\n1. Calculer la distance de l'épicentre pour trois stations différentes.\n2. Sur une carte, tracer autour de chaque station un cercle dont le rayon est cette distance (en respectant l'échelle).\n3. Les trois cercles se coupent en un point : c'est l'épicentre."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Onde P", "Onde primaire : la plus rapide, elle arrive la première"],
+            ["Onde S", "Onde secondaire : elle arrive après l'onde P"],
+            ["Onde de surface", "Onde qui se propage le long de la surface, la plus destructrice"],
+            ["Sismographe", "Appareil qui enregistre les mouvements du sol"],
+            ["Sismogramme", "Graphique des vibrations du sol en fonction du temps"],
+            ["Amplitude", "Hauteur des oscillations sur le sismogramme"],
+            ["Station sismique", "Lieu équipé de sismographes"],
+            ["Triangulation", "Méthode qui utilise trois stations pour situer l'épicentre"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Une station enregistre un séisme. Les ondes P arrivent à 14 h 02 min 10 s et les ondes S à 14 h 02 min 40 s. On prend P : 6 km/s et S : 3,5 km/s.\n1. Calcule l'écart S − P.\n2. Calcule la distance entre la station et l'épicentre (d = 8,4 × écart).\n3. Calcule le temps de trajet des ondes P, puis l'heure du séisme.\n4. Pourquoi faut-il au moins trois stations pour situer l'épicentre ?",
+          "solution": "1. Écart S − P = 40 − 10 = 30 s.\n2. d = 8,4 × 30 = 252 km.\n3. Temps de trajet des ondes P : 252 ÷ 6 = 42 s. Heure du séisme : 14 h 02 min 10 s − 42 s = 14 h 01 min 28 s.\nVérification : les ondes S mettent 252 ÷ 3,5 = 72 s, et 14 h 01 min 28 s + 72 s = 14 h 02 min 40 s, ce qui correspond bien à l'arrivée des ondes S.\n4. Une seule station donne seulement la distance : l'épicentre peut être n'importe où sur un cercle. Deux cercles se coupent en deux points. Le troisième cercle permet de choisir le bon point."
+        }
+      ]
+    },
+    {
+      "id": "svt4-18-l3-intensite-magnitude",
+      "titre": "Mesurer un séisme : intensité et magnitude",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Deux façons de mesurer un séisme",
+          "texte": "Pour décrire un séisme, on utilise deux sortes d'échelles :\n- l'échelle d'intensité, qui décrit les effets du séisme en un lieu précis ;\n- l'échelle de magnitude, qui mesure l'énergie libérée au foyer."
+        },
+        {
+          "type": "definition",
+          "titre": "L'intensité",
+          "texte": "L'intensité mesure ce que l'on observe en un lieu : ce que les gens ressentent, les dégâts sur les constructions, les changements du sol. On ne la lit pas sur un appareil : on la détermine par des observations et des témoignages. On la note en chiffres romains, de I à XII.\nL'échelle de Mercalli a été créée en 1902 par l'Italien Giuseppe Mercalli. Une version modifiée est encore utilisée. D'autres échelles à 12 degrés existent, comme l'échelle MSK ou l'échelle européenne EMS-98."
+        },
+        {
+          "type": "tableau",
+          "titre": "Échelle d'intensité de Mercalli modifiée (valeurs simplifiées)",
+          "entetes": ["Degré", "Effets observés"],
+          "lignes": [
+            ["I", "Non ressenti par les personnes ; seuls les instruments l'enregistrent"],
+            ["II à III", "Ressenti par quelques personnes au repos, surtout aux étages ; les objets suspendus se balancent"],
+            ["IV à V", "Ressenti à l'intérieur par beaucoup de personnes ; la vaisselle et les vitres tremblent ; des dormeurs se réveillent"],
+            ["VI", "Ressenti par tous ; des meubles bougent ; de légères fissures apparaissent dans quelques murs"],
+            ["VII à VIII", "Difficile de rester debout ; dégâts importants dans les bâtiments mal construits ; des murs et des toits s'effondrent"],
+            ["IX à X", "Bâtiments solides gravement endommagés ; fissures dans le sol ; glissements de terrain"],
+            ["XI à XII", "Destruction presque totale ; le sol ondule ; le paysage est transformé"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "L'intensité diminue avec la distance",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='520' height='250' viewBox='0 0 520 250' font-family='sans-serif' font-size='12'><circle cx='170' cy='130' r='105' fill='#e11d48' fill-opacity='0.06' stroke='currentColor' stroke-opacity='0.5'/><circle cx='170' cy='130' r='70' fill='#e11d48' fill-opacity='0.12' stroke='currentColor' stroke-opacity='0.5'/><circle cx='170' cy='130' r='35' fill='#e11d48' fill-opacity='0.25' stroke='currentColor' stroke-opacity='0.5'/><circle cx='170' cy='130' r='4' fill='#e11d48'/><text x='170' y='112' text-anchor='middle' fill='currentColor' font-weight='bold'>VIII</text><text x='170' y='150' text-anchor='middle' fill='currentColor'>Épicentre</text><text x='170' y='82' text-anchor='middle' fill='currentColor' font-weight='bold'>VI</text><text x='170' y='47' text-anchor='middle' fill='currentColor' font-weight='bold'>IV</text><text x='170' y='18' text-anchor='middle' fill='currentColor' font-weight='bold'>II</text><text x='310' y='70' fill='#e11d48' font-weight='bold'>Magnitude : 6,5</text><text x='310' y='88' fill='currentColor'>(une seule valeur)</text><text x='310' y='130' fill='#e11d48' font-weight='bold'>Intensité</text><text x='310' y='148' fill='currentColor'>VIII au centre, II loin</text><text x='310' y='190' fill='currentColor'>Les cercles sont des lignes</text><text x='310' y='206' fill='currentColor'>d'égale intensité (isoséistes)</text></svg>",
+          "legende": "Schéma simplifié : un séisme a une seule magnitude, mais son intensité diminue quand on s'éloigne de l'épicentre."
+        },
+        {
+          "type": "remarque",
+          "titre": "Ce qui change l'intensité",
+          "texte": "Pour un même séisme, l'intensité varie d'un endroit à l'autre. Elle diminue quand on s'éloigne de l'épicentre. Elle est plus forte sur un sol meuble (sable, remblai, vase) que sur une roche dure, et plus forte quand les constructions sont fragiles."
+        },
+        {
+          "type": "definition",
+          "titre": "La magnitude (échelle de Richter)",
+          "texte": "La magnitude mesure l'énergie libérée au foyer. Le sismologue américain Charles Richter a proposé son échelle en 1935. On la calcule à partir de l'amplitude maximale mesurée sur le sismogramme, corrigée de la distance à l'épicentre. Un séisme a donc une seule magnitude, notée avec des chiffres ordinaires (par exemple 6,5).\nL'échelle n'a pas de maximum fixé. Pour les très grands séismes, les sismologues utilisent aujourd'hui la magnitude de moment, notée Mw, qui suit le même principe."
+        },
+        {
+          "type": "regle",
+          "titre": "Une échelle logarithmique",
+          "texte": "Quand la magnitude augmente de 1 degré :\n- l'amplitude des ondes sur le sismogramme est multipliée par 10 ;\n- l'énergie libérée est multipliée par environ 32.\nPour 2 degrés d'écart : amplitude × 100 et énergie environ × 1 000.\nAttention : un séisme de magnitude 6 n'est pas « un peu plus fort » qu'un séisme de magnitude 5 : il libère environ 32 fois plus d'énergie."
+        },
+        {
+          "type": "exemple",
+          "titre": "Comparer deux séismes",
+          "texte": "Magnitude 6 et magnitude 9 : l'écart est de 3 degrés.\nAmplitude : 10 × 10 × 10 = 1 000 fois plus grande.\nÉnergie : 32 × 32 × 32 = 32 768, soit environ 32 000 fois plus grande.\nUn séisme de magnitude 9 libère donc environ 32 000 fois plus d'énergie qu'un séisme de magnitude 6."
+        },
+        {
+          "type": "tableau",
+          "titre": "Classes de magnitude (ordres de grandeur)",
+          "entetes": ["Magnitude", "Classe", "Effets habituels", "Nombre par an dans le monde"],
+          "lignes": [
+            ["2 à 2,9", "Très faible", "Rarement ressenti", "très nombreux"],
+            ["3 à 3,9", "Mineur", "Parfois ressenti, rarement des dégâts", "très nombreux"],
+            ["4 à 4,9", "Léger", "Objets qui bougent, dégâts rares", "environ 13 000"],
+            ["5 à 5,9", "Modéré", "Dégâts légers aux constructions fragiles", "environ 1 300"],
+            ["6 à 6,9", "Fort", "Dégâts importants dans les zones peuplées", "environ 130"],
+            ["7 à 7,9", "Majeur", "Dégâts graves sur de grandes zones", "environ 15"],
+            ["8 et plus", "Grand", "Destructions possibles sur des centaines de kilomètres", "environ 1"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Attention aux dégâts",
+          "texte": "Les dégâts dépendent aussi de la profondeur du foyer, de la distance aux villes, du type de sol et de la qualité des constructions. Un séisme de magnitude 7 près d'une grande ville peut faire plus de victimes qu'un séisme plus fort en pleine mer."
+        },
+        {
+          "type": "tableau",
+          "titre": "Intensité ou magnitude ?",
+          "entetes": ["Critère", "Intensité", "Magnitude"],
+          "lignes": [
+            ["Ce qu'elle décrit", "Les effets du séisme en un lieu", "L'énergie libérée au foyer"],
+            ["Notation", "Chiffres romains de I à XII", "Nombre décimal (par exemple 6,5)"],
+            ["Valeur pour un séisme", "Plusieurs valeurs, selon le lieu", "Une seule valeur"],
+            ["Comment on l'obtient", "Observations et témoignages", "Mesures sur les sismogrammes"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Intensité", "Mesure des effets d'un séisme en un lieu précis"],
+            ["Magnitude", "Mesure de l'énergie libérée au foyer"],
+            ["Échelle de Mercalli", "Échelle d'intensité de I à XII"],
+            ["Échelle de Richter", "Échelle de magnitude créée en 1935"],
+            ["Échelle logarithmique", "Échelle où chaque degré correspond à une multiplication par un même nombre, et non à une addition"],
+            ["Isoséiste", "Ligne qui joint les points de même intensité"],
+            ["Magnitude de moment (Mw)", "Magnitude utilisée aujourd'hui pour les très grands séismes"],
+            ["Amplitude", "Hauteur des oscillations sur le sismogramme"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Deux séismes sont enregistrés par le même sismographe, à la même distance : le séisme A a une magnitude 5 et le séisme B une magnitude 7.\n1. Quel est l'écart de magnitude ?\n2. De combien de fois l'amplitude est-elle plus grande pour B que pour A ?\n3. De combien de fois environ l'énergie est-elle plus grande pour B que pour A ?\n4. Dans un village, tout le monde a ressenti le séisme, des meubles ont bougé et de légères fissures sont apparues dans quelques murs. Quelle est l'intensité, d'après le tableau de la leçon ? Cette valeur serait-elle la même dans un village situé à 300 km de l'épicentre ?",
+          "solution": "1. L'écart est 7 − 5 = 2 degrés.\n2. L'amplitude est multipliée par 10 × 10 = 100.\n3. L'énergie est multipliée par environ 32 × 32 = 1 024, soit environ 1 000.\n4. Le texte correspond au degré VI (ressenti par tous, meubles qui bougent, fissures légères). Cette valeur ne serait pas la même à 300 km : l'intensité diminue quand on s'éloigne de l'épicentre, alors que la magnitude du séisme reste la même."
+        }
+      ]
+    },
+    {
+      "id": "svt4-18-l4-consequences-repartition",
+      "titre": "Conséquences, répartition mondiale et protection",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Les conséquences géologiques d'un séisme",
+          "texte": "Un séisme fort peut transformer le paysage :\n- rupture de la surface : la faille apparaît en surface avec un décalage visible du sol (routes, clôtures, rivières décalées) ;\n- déformation du sol : une région peut se soulever ou s'affaisser ;\n- éboulements et glissements de terrain, surtout sur les pentes ou après de fortes pluies ;\n- liquéfaction : un sol sableux gorgé d'eau perd sa solidité et se comporte comme un liquide, ce qui fait pencher ou s'enfoncer les bâtiments ;\n- fissures dans le sol, sources qui apparaissent ou disparaissent ;\n- tsunami, si le séisme a lieu sous la mer."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les dangers pour les populations",
+          "entetes": ["Danger", "Explication"],
+          "lignes": [
+            ["Effondrement des bâtiments", "C'est la première cause de mort : les constructions fragiles résistent mal aux secousses"],
+            ["Incendies", "Des conduites de gaz ou des fils électriques sont endommagés"],
+            ["Coupures", "L'eau, l'électricité, les routes et les hôpitaux peuvent être touchés"],
+            ["Maladies", "Le manque d'eau potable et d'hygiène après la catastrophe favorise les maladies"],
+            ["Répliques", "Des secousses plus faibles suivent le séisme principal et peuvent faire tomber des bâtiments déjà abîmés"]
+          ]
+        },
+        {
+          "type": "definition",
+          "titre": "Le tsunami",
+          "texte": "Un tsunami est une série de très longues vagues provoquées par le déplacement brusque d'une grande masse d'eau. Il est le plus souvent causé par un séisme sous la mer : le fond se soulève ou s'affaisse d'un coup et entraîne toute l'eau au-dessus. Une éruption volcanique sous-marine ou un glissement de terrain peuvent aussi en provoquer.\nEn eau profonde, la vague est basse mais très rapide : environ 700 à 800 km/h. Près de la côte, l'eau devient peu profonde : la vague ralentit, se resserre et grandit, parfois de plusieurs mètres.\nUn signe d'alerte possible : la mer se retire brusquement très loin du rivage. Il faut alors aller tout de suite sur les hauteurs."
+        },
+        {
+          "type": "schema",
+          "titre": "Formation d'un tsunami",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='520' height='215' viewBox='0 0 520 215' font-family='sans-serif' font-size='12'><defs><marker id='fl18b' markerWidth='8' markerHeight='8' refX='6' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='#e11d48'/></marker></defs><polygon points='20,180 280,180 380,160 455,100 475,80 500,80 500,205 20,205' fill='currentColor' fill-opacity='0.15'/><polygon points='20,80 475,80 455,100 380,160 280,180 20,180' fill='#e11d48' fill-opacity='0.1'/><path d='M20,80 L80,80 Q110,66 140,80 L200,80 Q230,66 260,80 L320,80 Q355,56 390,80 L420,80 Q440,40 470,80' fill='none' stroke='currentColor' stroke-width='2'/><line x1='60' y1='176' x2='60' y2='150' stroke='#e11d48' stroke-width='2' marker-end='url(#fl18b)'/><line x1='170' y1='44' x2='330' y2='44' stroke='#e11d48' stroke-width='2' marker-end='url(#fl18b)'/><text x='250' y='36' text-anchor='middle' fill='currentColor'>Propagation de la vague (700 à 800 km/h)</text><text x='30' y='118' fill='currentColor'>Eau profonde :</text><text x='30' y='134' fill='currentColor'>vague basse, très rapide</text><text x='270' y='118' fill='currentColor'>Près de la côte :</text><text x='270' y='134' fill='currentColor'>vague plus haute</text><text x='270' y='150' fill='currentColor'>et plus lente</text><text x='476' y='70' fill='currentColor'>Côte</text><text x='30' y='198' fill='currentColor'>Séisme sous la mer : le fond se soulève</text></svg>",
+          "legende": "Schéma simplifié, hors échelle : la hauteur des vagues est très exagérée."
+        },
+        {
+          "type": "tableau",
+          "titre": "Répartition mondiale des séismes",
+          "entetes": ["Zone", "Où ?", "Part des séismes", "À retenir"],
+          "lignes": [
+            ["Ceinture de feu du Pacifique", "Tout autour de l'océan Pacifique (Japon, Philippines, Indonésie, Chili, ouest des États-Unis), sur environ 40 000 km", "environ 90 %", "Les séismes les plus forts ; c'est aussi là que se trouvent 75 % des volcans actifs (chapitre 17)"],
+            ["Ceinture alpino-himalayenne", "De la Méditerranée (Turquie, Iran) à l'Himalaya (Inde, Népal) et jusqu'en Indonésie", "environ 5 à 6 %", "Séismes parfois très meurtriers"],
+            ["Dorsales océaniques", "Au milieu des océans, sur de longues chaînes de montagnes sous-marines", "une petite part", "Séismes nombreux mais en général faibles, loin des habitants"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Un lien avec les plaques",
+          "texte": "Les épicentres dessinent des bandes étroites : elles suivent les frontières entre les plaques de l'écorce terrestre (chapitre 19). Les séismes et les volcans se trouvent donc souvent dans les mêmes régions, et un séisme peut annoncer ou accompagner une éruption. Loin des frontières, au centre des plaques, les séismes sont rares et le plus souvent faibles."
+        },
+        {
+          "type": "tableau",
+          "titre": "Quelques grands séismes",
+          "entetes": ["Année", "Lieu", "Magnitude", "Remarque"],
+          "lignes": [
+            ["1960", "Chili", "9,5", "Le plus fort séisme jamais enregistré"],
+            ["2004", "Sumatra (Indonésie)", "environ 9,1", "Tsunami dans l'océan Indien : plus de 200 000 morts"],
+            ["2010", "Haïti", "7,0", "Foyer peu profond près d'une ville très peuplée : très nombreuses victimes"],
+            ["2011", "Tohoku (Japon)", "environ 9,1", "Tsunami et accident de la centrale nucléaire de Fukushima"],
+            ["2023", "Turquie et Syrie", "7,8", "Des dizaines de milliers de morts"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Madagascar et les séismes",
+          "texte": "Madagascar est loin des grandes frontières de plaques : les forts séismes y sont rares. On y enregistre pourtant de petits séismes, liés à d'anciennes failles de l'île. L'Institut et Observatoire de Géophysique d'Antananarivo (IOGA) surveille l'activité sismique.\nDans la région voisine, près de Mayotte, un essaim de séismes enregistré à partir de mai 2018 (le plus fort de magnitude 5,9) était lié à la naissance d'un volcan sous la mer."
+        },
+        {
+          "type": "remarque",
+          "titre": "Peut-on prévoir un séisme ?",
+          "texte": "Aujourd'hui, personne ne sait prévoir avec précision la date, le lieu et la force d'un futur séisme. On sait seulement quelles régions sont les plus exposées. Après un séisme fort, des répliques plus faibles peuvent durer des heures, des jours ou même des semaines.\nLes réseaux de sismographes permettent en revanche de donner l'alerte tsunami : les ondes sismiques arrivent en quelques minutes, alors que la vague met des heures à traverser un océan."
+        },
+        {
+          "type": "tableau",
+          "titre": "Se protéger d'un séisme",
+          "entetes": ["Moment", "Gestes"],
+          "lignes": [
+            ["Avant", "Construire des bâtiments qui résistent aux secousses (construction parasismique) ; éviter les sols meubles et les pentes instables ; fixer les meubles lourds ; repérer les sorties et un lieu de rassemblement ; préparer une trousse de secours"],
+            ["Pendant, dans un bâtiment", "Se mettre à l'abri sous une table solide ou contre un mur porteur, loin des vitres ; se protéger la tête et le cou ; ne pas courir dans les escaliers ; ne pas utiliser l'ascenseur"],
+            ["Pendant, dehors", "S'éloigner des bâtiments, des fils électriques, des arbres et des murs ; rester en terrain dégagé"],
+            ["Au bord de la mer", "Si le sol a fortement tremblé, aller tout de suite sur les hauteurs, sans attendre une alerte ; ne jamais aller regarder la mer qui se retire"],
+            ["Après", "Se méfier des répliques ; ne pas rentrer dans un bâtiment abîmé ; couper l'eau, le gaz et l'électricité si on peut le faire sans danger ; écouter les consignes des autorités ; aider les blessés sans se mettre en danger"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Tsunami", "Série de très longues vagues provoquées par un déplacement brusque d'eau, le plus souvent après un séisme sous la mer"],
+            ["Réplique", "Secousse plus faible qui suit le séisme principal"],
+            ["Liquéfaction", "Perte de solidité d'un sol sableux gorgé d'eau pendant les secousses"],
+            ["Construction parasismique", "Construction conçue pour résister aux secousses"],
+            ["Ceinture de feu", "Zone autour du Pacifique où se concentrent séismes et volcans"],
+            ["Dorsale océanique", "Chaîne de montagnes sous-marine au milieu d'un océan"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Un séisme de magnitude 8 a lieu sous l'océan, à 3 000 km d'une côte. Un tsunami se forme et avance à 720 km/h en eau profonde.\n1. Pourquoi un séisme sous la mer peut-il provoquer un tsunami ?\n2. En combien de temps la vague atteindrait-elle la côte, si sa vitesse restait la même ? Donne le résultat en heures et minutes.\n3. Que fait la vague en arrivant près de la côte ?\n4. Cite deux gestes à faire si tu habites près de la côte et que le sol a fortement tremblé.",
+          "solution": "1. Le séisme fait bouger le fond de la mer d'un coup. Toute la masse d'eau au-dessus est déplacée et forme de très longues vagues qui se propagent : c'est un tsunami.\n2. Temps = distance ÷ vitesse = 3 000 ÷ 720 = 4,1667 h environ. 0,1667 h × 60 = 10 min. La vague atteindrait la côte en 4 h 10 min. En réalité, elle ralentit près de la côte : le trajet dure un peu plus longtemps.\n3. Près de la côte, l'eau est moins profonde : la vague ralentit, se resserre et devient beaucoup plus haute.\n4. Aller tout de suite sur les hauteurs ou loin du rivage, sans attendre une alerte ; ne pas aller regarder la mer qui se retire ; suivre les consignes des autorités."
+        }
+      ]
+    }
+  ]
+}
