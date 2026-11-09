@@ -1,0 +1,338 @@
+{
+  "id": "svt4-5-ecosysteme",
+  "titre": "L'écosystème : biotope et biocénose",
+  "lecons": [
+    {
+      "id": "svt4-5-l1-biotope-biocenose",
+      "titre": "Biotope et biocénose",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Écosystème",
+          "texte": "Un écosystème est un ensemble formé par un milieu de vie (le biotope) et par les êtres vivants qui y vivent (la biocénose). Ces êtres vivants ont des relations entre eux et avec leur milieu."
+        },
+        {
+          "type": "definition",
+          "titre": "Biotope",
+          "texte": "Le biotope est le milieu physique où vivent les êtres vivants, avec ses caractères : sol, eau, air, lumière, température, humidité."
+        },
+        {
+          "type": "definition",
+          "titre": "Biocénose",
+          "texte": "La biocénose est l'ensemble des êtres vivants d'un biotope : plantes, animaux, champignons et microbes."
+        },
+        {
+          "type": "schema",
+          "titre": "Un écosystème",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='460' height='240' viewBox='0 0 460 240' role='img' aria-label='Un écosystème est formé du biotope et de la biocénose' font-family='sans-serif' font-size='12'><rect x='20' y='40' width='420' height='170' rx='14' fill='none' stroke='currentColor' stroke-width='2'/><text x='230' y='30' text-anchor='middle' fill='currentColor'>Écosystème</text><rect x='40' y='60' width='160' height='130' rx='10' fill='#92400e' fill-opacity='0.12' stroke='currentColor' stroke-width='1.5'/><text x='120' y='85' text-anchor='middle' font-weight='bold' fill='currentColor'>BIOTOPE</text><text x='120' y='110' text-anchor='middle' fill='currentColor'>Sol, eau, air</text><text x='120' y='128' text-anchor='middle' fill='currentColor'>Lumière</text><text x='120' y='146' text-anchor='middle' fill='currentColor'>Température</text><text x='120' y='164' text-anchor='middle' fill='currentColor'>Humidité</text><rect x='260' y='60' width='160' height='130' rx='10' fill='#16a34a' fill-opacity='0.12' stroke='currentColor' stroke-width='1.5'/><text x='340' y='85' text-anchor='middle' font-weight='bold' fill='currentColor'>BIOCÉNOSE</text><text x='340' y='110' text-anchor='middle' fill='currentColor'>Plantes</text><text x='340' y='128' text-anchor='middle' fill='currentColor'>Animaux</text><text x='340' y='146' text-anchor='middle' fill='currentColor'>Champignons</text><text x='340' y='164' text-anchor='middle' fill='currentColor'>Microbes</text><path d='M204 125 H256 M210 120 L204 125 L210 130 M250 120 L256 125 L250 130' stroke='#e11d48' stroke-width='2' fill='none'/><text x='230' y='112' text-anchor='middle' font-size='11' fill='currentColor'>relations</text><text x='230' y='230' text-anchor='middle' fill='currentColor'>Écosystème = biotope + biocénose</text></svg>",
+          "legende": "Le biotope (milieu) et la biocénose (êtres vivants) agissent l'un sur l'autre."
+        },
+        {
+          "type": "tableau",
+          "titre": "Exemple : une mare",
+          "entetes": ["Partie de l'écosystème", "Exemples"],
+          "lignes": [
+            ["Biotope", "Eau, fond vaseux, lumière, température de l'eau, dioxygène dissous"],
+            ["Biocénose : végétaux", "Algues, nénuphars, roseaux"],
+            ["Biocénose : animaux", "Têtards, libellules, poissons, escargots d'eau"],
+            ["Biocénose : microbes et champignons", "Bactéries et champignons qui décomposent les débris"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Deux sortes de facteurs",
+          "entetes": ["Facteurs", "Définition", "Exemples"],
+          "lignes": [
+            ["Facteurs abiotiques", "Éléments non vivants du milieu", "Lumière, température, eau, humidité, sol, pH, vent, relief"],
+            ["Facteurs biotiques", "Actions des êtres vivants les uns sur les autres", "Nourriture, prédateurs, parasites, concurrents, pollinisateurs"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Des écosystèmes de toutes tailles",
+          "texte": "Un écosystème peut être très petit (un tronc d'arbre pourri, une flaque) ou très grand (une forêt, un lac, l'océan). Il peut être naturel, ou aménagé par l'homme : une rizière, un jardin ou une plantation sont des écosystèmes où l'homme choisit une espèce et change le milieu (irrigation, engrais, désherbage)."
+        },
+        {
+          "type": "remarque",
+          "titre": "Le biotope et la biocénose changent ensemble",
+          "texte": "Si le biotope change (sécheresse, pollution, feu), la biocénose change aussi : certaines espèces disparaissent, d'autres arrivent. Inversement, les êtres vivants modifient leur milieu : un arbre donne de l'ombre et forme de l'humus avec ses feuilles mortes, les racines retiennent le sol."
+        },
+        {
+          "type": "regle",
+          "titre": "À retenir",
+          "texte": "Un écosystème est formé d'un biotope (milieu non vivant) et d'une biocénose (êtres vivants). Les facteurs abiotiques sont les éléments non vivants du milieu. Les facteurs biotiques sont les actions des êtres vivants les uns sur les autres. Tout est lié : un changement du milieu modifie les êtres vivants."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Écosystème", "Ensemble formé par un biotope et sa biocénose."],
+            ["Biotope", "Milieu physique où vivent des êtres vivants."],
+            ["Biocénose", "Ensemble des êtres vivants d'un biotope."],
+            ["Facteur abiotique", "Élément non vivant du milieu (lumière, température, eau...)."],
+            ["Facteur biotique", "Action d'êtres vivants sur d'autres êtres vivants."],
+            ["Espèce", "Ensemble d'êtres vivants semblables qui peuvent se reproduire entre eux."],
+            ["Humus", "Terre noire formée par les débris de plantes et d'animaux décomposés."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Dans une rizière, on observe : de l'eau, des plants de riz, des grenouilles, un sol argileux, le Soleil, des canards, des libellules, la température de l'air, des mauvaises herbes, des vers de terre.\n1. Classe ces éléments en deux colonnes : biotope et biocénose.\n2. Une rizière est-elle un écosystème naturel ? Explique.\n3. Donne un exemple de l'effet d'un facteur abiotique sur le riz.\n4. On assèche complètement la rizière. Que devient la biocénose ? Pourquoi ?",
+          "solution": "1. Biotope : l'eau, le sol argileux, le Soleil, la température de l'air. Biocénose : les plants de riz, les grenouilles, les canards, les libellules, les mauvaises herbes, les vers de terre.\n2. Non, c'est un écosystème aménagé par l'homme : il a choisi de cultiver le riz, il aménage le terrain et il contrôle l'eau.\n3. Par exemple, sans eau les plants de riz se fanent, ou avec trop peu de lumière ils poussent mal.\n4. La biocénose change : les grenouilles et les larves de libellules, qui ont besoin d'eau, disparaissent ou partent. Quand le biotope change, la biocénose change aussi."
+        }
+      ]
+    },
+    {
+      "id": "svt4-5-l2-mesurer",
+      "titre": "Mesurer le milieu et compter les êtres vivants",
+      "blocs": [
+        {
+          "type": "remarque",
+          "titre": "Pourquoi mesurer ?",
+          "texte": "Pour comprendre un écosystème, on ne se contente pas de regarder : on mesure les facteurs du milieu et on compte les êtres vivants. Ces nombres permettent de comparer deux milieux et de voir si un facteur agit sur la répartition des espèces."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les instruments de mesure",
+          "entetes": ["Facteur", "Instrument", "Unité"],
+          "lignes": [
+            ["Température", "Thermomètre", "°C"],
+            ["Humidité de l'air", "Hygromètre", "%"],
+            ["Lumière", "Luxmètre", "lux"],
+            ["Acidité du sol ou de l'eau", "Papier pH ou pH-mètre", "pH (nombre sans unité)"],
+            ["Pluie", "Pluviomètre", "mm"],
+            ["Vent", "Anémomètre", "m/s ou km/h"]
+          ]
+        },
+        {
+          "type": "methode",
+          "titre": "Bien mesurer",
+          "texte": "1. Mesurer à la même heure et au même endroit quand on veut comparer.\n2. Protéger le thermomètre du Soleil direct pour mesurer la température de l'air : on le place à l'ombre.\n3. Lire à hauteur des yeux.\n4. Répéter la mesure plusieurs fois et noter chaque valeur.\n5. Noter l'unité à côté de chaque nombre."
+        },
+        {
+          "type": "remarque",
+          "titre": "Un pluviomètre de fortune",
+          "texte": "On coupe le haut d'une bouteille en plastique à fond plat, on la pose bien droite à découvert, et on mesure avec une règle la hauteur d'eau recueillie, en mm. 1 mm de pluie correspond à 1 litre d'eau tombé sur chaque mètre carré de terrain."
+        },
+        {
+          "type": "formule",
+          "titre": "Volume d'eau tombé sur un terrain",
+          "texte": "volume (en L) = hauteur de pluie (en mm) × surface (en m²)\n\nExemple : 25 mm de pluie sur un champ de 200 m² donnent 25 × 200 = 5 000 L."
+        },
+        {
+          "type": "methode",
+          "titre": "Compter avec un quadrat",
+          "texte": "On ne peut pas compter toutes les plantes d'un terrain. On compte sur de petites surfaces et on généralise.\n\n1. Fabriquer un quadrat : un carré de 1 m de côté (1 m²), avec des bâtons et de la ficelle.\n2. Le poser au hasard sur le terrain (on lance un objet derrière soi et on pose le quadrat là où il tombe).\n3. Compter les individus de l'espèce étudiée dans le quadrat.\n4. Recommencer avec plusieurs quadrats.\n5. Calculer la densité moyenne, puis estimer le nombre total."
+        },
+        {
+          "type": "schema",
+          "titre": "Un quadrat",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='460' height='230' viewBox='0 0 460 230' role='img' aria-label='Quadrat carré avec 12 plants comptés' font-family='sans-serif' font-size='12'><rect x='60' y='30' width='160' height='160' fill='#16a34a' fill-opacity='0.06' stroke='currentColor' stroke-width='3'/><path d='M100 30 V190 M140 30 V190 M180 30 V190 M60 70 H220 M60 110 H220 M60 150 H220' stroke='currentColor' stroke-opacity='0.3' stroke-dasharray='3 3' fill='none'/><circle cx='80' cy='50' r='5' fill='#16a34a'/><circle cx='105' cy='62' r='5' fill='#16a34a'/><circle cx='150' cy='48' r='5' fill='#16a34a'/><circle cx='190' cy='55' r='5' fill='#16a34a'/><circle cx='75' cy='90' r='5' fill='#16a34a'/><circle cx='125' cy='95' r='5' fill='#16a34a'/><circle cx='165' cy='85' r='5' fill='#16a34a'/><circle cx='205' cy='100' r='5' fill='#16a34a'/><circle cx='90' cy='130' r='5' fill='#16a34a'/><circle cx='140' cy='140' r='5' fill='#16a34a'/><circle cx='180' cy='125' r='5' fill='#16a34a'/><circle cx='200' cy='165' r='5' fill='#16a34a'/><path d='M60 200 H220 M60 195 V205 M220 195 V205' stroke='currentColor' stroke-width='1.5' fill='none'/><text x='140' y='220' text-anchor='middle' fill='currentColor'>1 m</text><text x='245' y='60' fill='currentColor'>Quadrat de 1 m sur 1 m</text><text x='245' y='95' fill='currentColor'>Surface : 1 m²</text><text x='245' y='125' fill='currentColor'>12 plants comptés (points verts)</text><text x='245' y='155' fill='currentColor'>Densité : 12 plants par m²</text></svg>",
+          "legende": "On compte les plants dans le carré : ici 12 plants sur 1 m², soit une densité de 12 plants par m²."
+        },
+        {
+          "type": "formule",
+          "titre": "Densité et effectif estimé",
+          "texte": "densité = nombre d'individus ÷ surface (en m²)\ndensité moyenne = total des individus comptés ÷ nombre de quadrats\neffectif estimé = densité moyenne × surface totale du terrain (en m²)"
+        },
+        {
+          "type": "exemple",
+          "titre": "Cinq quadrats",
+          "texte": "Dans une prairie de 300 m², on pose 5 quadrats de 1 m² et on compte : 12, 8, 15, 9 et 11 plants.\nTotal : 12 + 8 + 15 + 9 + 11 = 55 plants.\nDensité moyenne : 55 ÷ 5 = 11 plants par m².\nEffectif estimé : 11 × 300 = 3 300 plants (c'est une estimation, pas un comptage exact)."
+        },
+        {
+          "type": "tableau",
+          "titre": "Un facteur agit-il sur la répartition ? (valeurs d'exemple)",
+          "entetes": ["Station", "Humidité du sol", "Fougères par m²"],
+          "lignes": [
+            ["A : bord de la rivière", "80 %", "14"],
+            ["B : milieu de la pente", "50 %", "5"],
+            ["C : sommet", "20 %", "0"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Lire le tableau",
+          "texte": "Les fougères sont d'autant plus nombreuses que le sol est humide : elles manquent au sommet, où le sol est sec. L'humidité est donc un facteur qui influence la répartition des fougères. On dit qu'il y a un lien entre les deux, mais d'autres facteurs (ombre, sol) peuvent aussi jouer."
+        },
+        {
+          "type": "remarque",
+          "titre": "Respecter le milieu",
+          "texte": "Pendant une sortie de terrain : ne rien arracher sans raison, ne pas écraser les plantes, remettre les pierres et les troncs à leur place, relâcher les petits animaux là où on les a pris et ne pas toucher les animaux dangereux (serpents, scorpions, araignées). Se laver les mains au retour."
+        },
+        {
+          "type": "regle",
+          "titre": "À retenir",
+          "texte": "On mesure les facteurs du milieu avec des instruments (thermomètre, luxmètre, pluviomètre, papier pH) en notant l'unité. On compte les êtres vivants avec des quadrats posés au hasard. Densité = nombre d'individus ÷ surface. Plusieurs quadrats donnent une moyenne plus fiable qu'un seul."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Quadrat", "Cadre carré (ici 1 m de côté) posé sur le sol pour compter les êtres vivants."],
+            ["Densité", "Nombre d'individus par unité de surface (par m²)."],
+            ["Effectif", "Nombre total d'individus."],
+            ["Répartition", "Façon dont les êtres vivants sont placés dans le milieu."],
+            ["Pluviomètre", "Instrument qui mesure la hauteur de pluie tombée."],
+            ["Luxmètre", "Instrument qui mesure l'éclairement, en lux."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Dans une prairie de 250 m², on pose 4 quadrats de 1 m² au hasard et on compte les pieds de plantain : 6, 10, 7 et 9. Un pluviomètre a recueilli 18 mm de pluie pendant la nuit. Un thermomètre indique 31 °C au soleil et 24 °C sous un arbre.\n1. Calcule la densité moyenne, en pieds par m².\n2. Estime le nombre total de pieds de plantain dans la prairie.\n3. Pourquoi pose-t-on plusieurs quadrats au hasard plutôt qu'un seul ?\n4. Calcule le volume d'eau tombé sur la prairie, en litres (1 mm = 1 L par m²).\n5. Calcule la différence de température entre le soleil et l'ombre de l'arbre. Comment l'expliques-tu ?",
+          "solution": "1. Total : 6 + 10 + 7 + 9 = 32 pieds. Densité moyenne : 32 ÷ 4 = 8 pieds par m².\n2. 8 × 250 = 2 000 pieds environ.\n3. Les plantes ne sont pas réparties de façon régulière : un seul quadrat peut tomber sur un endroit très pauvre ou très riche. Plusieurs quadrats au hasard donnent une moyenne plus fiable.\n4. 18 × 250 = 4 500 L.\n5. 31 − 24 = 7 °C. Sous l'arbre, l'ombre empêche le Soleil de chauffer le sol et l'air, et l'arbre rafraîchit l'air en transpirant : il y fait moins chaud."
+        }
+      ]
+    },
+    {
+      "id": "svt4-5-l3-madagascar",
+      "titre": "Les écosystèmes de Madagascar",
+      "blocs": [
+        {
+          "type": "remarque",
+          "titre": "Un milieu très varié",
+          "texte": "Madagascar est une grande île, longue et montagneuse. L'Est reçoit de nombreuses pluies apportées par les vents de l'océan, le Sud en reçoit très peu. Selon les régions, le biotope est donc très différent, et la biocénose aussi."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les principaux écosystèmes",
+          "entetes": ["Écosystème", "Où ?", "Biotope", "Êtres vivants (exemples)"],
+          "lignes": [
+            ["Forêt dense humide", "Est et Nord-Est", "Chaud, très pluvieux toute l'année (plus de 2 000 mm par an), sol riche en humus", "Grands arbres, fougères arborescentes, orchidées, ravenala ; indri, aye-aye, caméléons"],
+            ["Forêt sèche", "Ouest", "Longue saison sèche : les arbres perdent leurs feuilles", "Baobabs, arbres à feuilles caduques ; sifakas, fossa"],
+            ["Forêt épineuse", "Sud et Sud-Ouest", "Très peu de pluie (moins de 500 mm par an), forte chaleur, sol sableux ou rocailleux", "Euphorbes, Didiéracées, aloès ; tortue radiée, maki catta"],
+            ["Mangrove", "Côtes et estuaires, surtout à l'Ouest", "Eau salée ou saumâtre, vase, marées", "Palétuviers, crabes, poissons, oiseaux"],
+            ["Hauts Plateaux", "Centre", "Altitude élevée, climat plus frais, saison sèche marquée", "Prairies d'herbes, rizières des bas-fonds, eucalyptus et pins plantés, zébus élevés par l'homme"],
+            ["Lacs et marais", "Par exemple le lac Alaotra", "Eau douce peu profonde", "Roseaux, papyrus, poissons, oiseaux d'eau, hapalémur du lac Alaotra"],
+            ["Récifs coralliens", "Côtes (Sud-Ouest, Nosy Be...)", "Eau chaude, claire et salée", "Coraux, poissons colorés, tortues marines"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "La pluie varie selon la région",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='460' height='260' viewBox='0 0 460 260' role='img' aria-label='Pluie annuelle approximative à Toamasina, Antananarivo, Mahajanga et Toliara' font-family='sans-serif' font-size='12'><path d='M60 200 H440 M60 200 V30' stroke='currentColor' stroke-width='1.5' fill='none'/><path d='M55 150 H60 M55 100 H60 M55 50 H60' stroke='currentColor' stroke-width='1' fill='none'/><text x='52' y='204' text-anchor='end' fill='currentColor'>0</text><text x='52' y='154' text-anchor='end' fill='currentColor'>1 000</text><text x='52' y='104' text-anchor='end' fill='currentColor'>2 000</text><text x='52' y='54' text-anchor='end' fill='currentColor'>3 000</text><text x='10' y='18' fill='currentColor'>Pluie par an (mm, valeurs arrondies)</text><rect x='85' y='35' width='60' height='165' fill='#3b82f6' fill-opacity='0.55' stroke='currentColor'/><rect x='175' y='135' width='60' height='65' fill='#3b82f6' fill-opacity='0.55' stroke='currentColor'/><rect x='265' y='125' width='60' height='75' fill='#3b82f6' fill-opacity='0.55' stroke='currentColor'/><rect x='355' y='180' width='60' height='20' fill='#3b82f6' fill-opacity='0.55' stroke='currentColor'/><text x='115' y='29' text-anchor='middle' fill='currentColor'>3 300</text><text x='205' y='129' text-anchor='middle' fill='currentColor'>1 300</text><text x='295' y='119' text-anchor='middle' fill='currentColor'>1 500</text><text x='385' y='174' text-anchor='middle' fill='currentColor'>400</text><text x='115' y='216' text-anchor='middle' fill='currentColor'>Toamasina</text><text x='205' y='216' text-anchor='middle' fill='currentColor'>Antananarivo</text><text x='295' y='216' text-anchor='middle' fill='currentColor'>Mahajanga</text><text x='385' y='216' text-anchor='middle' fill='currentColor'>Toliara</text><text x='115' y='232' text-anchor='middle' font-size='11' fill='currentColor'>Est</text><text x='205' y='232' text-anchor='middle' font-size='11' fill='currentColor'>Hauts Plateaux</text><text x='295' y='232' text-anchor='middle' font-size='11' fill='currentColor'>Nord-Ouest</text><text x='385' y='232' text-anchor='middle' font-size='11' fill='currentColor'>Sud-Ouest</text><text x='115' y='248' text-anchor='middle' font-size='11' fill='currentColor'>forêt humide</text><text x='205' y='248' text-anchor='middle' font-size='11' fill='currentColor'>prairies, rizières</text><text x='295' y='248' text-anchor='middle' font-size='11' fill='currentColor'>forêt sèche</text><text x='385' y='248' text-anchor='middle' font-size='11' fill='currentColor'>forêt épineuse</text></svg>",
+          "legende": "Plus il pleut, plus la végétation est dense. Ce sont des ordres de grandeur arrondis."
+        },
+        {
+          "type": "exemple",
+          "titre": "Lire le graphique",
+          "texte": "Toamasina reçoit environ 3 300 mm de pluie par an, Toliara environ 400 mm.\n3 300 ÷ 400 = 8,25 : il pleut environ 8 fois plus à Toamasina.\nLe biotope est très différent, donc la biocénose aussi : forêt dense humide à l'Est, forêt épineuse au Sud-Ouest."
+        },
+        {
+          "type": "remarque",
+          "titre": "Les plantes du Sud : des adaptations",
+          "texte": "Dans le Sud, la pluie est rare. Les euphorbes, les Didiéracées et les aloès ont des adaptations qui limitent les pertes d'eau (voir chapitre 2) : tiges charnues qui stockent l'eau, petites feuilles ou épines, cuticule épaisse. Dans une mangrove, les palétuviers ont des racines aériennes qui leur permettent de respirer dans la vase."
+        },
+        {
+          "type": "definition",
+          "titre": "Espèce endémique",
+          "texte": "Une espèce endémique est une espèce qui vit naturellement dans une seule région du monde. À Madagascar, les lémuriens, par exemple, ne vivent naturellement nulle part ailleurs. On estime aussi que plus de 80 % des espèces de plantes de l'île sont endémiques."
+        },
+        {
+          "type": "remarque",
+          "titre": "Des écosystèmes menacés",
+          "texte": "Les feux de brousse, le défrichement des forêts, la chasse, la pêche excessive et la pollution détruisent des écosystèmes de Madagascar. Quand un écosystème disparaît, les espèces endémiques qui y vivent peuvent disparaître pour toujours. La protection de la nature est étudiée au chapitre 6."
+        },
+        {
+          "type": "regle",
+          "titre": "À retenir",
+          "texte": "Les écosystèmes de Madagascar sont très variés, car le climat change d'une région à l'autre : forêt dense humide à l'Est, forêt sèche à l'Ouest, forêt épineuse au Sud, mangroves sur les côtes, prairies et rizières sur les Hauts Plateaux, lacs, marais et récifs. La pluie est un facteur très important. Beaucoup d'espèces sont endémiques."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Forêt dense humide", "Forêt de grands arbres, très arrosée toute l'année."],
+            ["Forêt sèche", "Forêt dont les arbres perdent leurs feuilles pendant la saison sèche."],
+            ["Forêt épineuse", "Végétation du Sud faite de plantes épineuses ou charnues."],
+            ["Mangrove", "Forêt des côtes qui pousse dans l'eau salée et la vase."],
+            ["Palétuvier", "Arbre de la mangrove, aux racines aériennes."],
+            ["Estuaire", "Embouchure d'un fleuve dans la mer."],
+            ["Saumâtre", "Légèrement salé (mélange d'eau douce et d'eau de mer)."],
+            ["Endémique", "Qui vit naturellement dans une seule région du monde."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Toamasina reçoit environ 3 300 mm de pluie par an et Toliara environ 400 mm (valeurs arrondies).\n1. Calcule la différence entre les deux valeurs, puis dis environ combien de fois il pleut plus à Toamasina.\n2. Calcule la pluie moyenne par mois dans chaque ville.\n3. Quel écosystème trouve-t-on dans la région de chaque ville ?\n4. Pourquoi les plantes du Sud ont-elles souvent des tiges charnues et des épines ?\n5. Pourquoi peu d'espèces d'arbres vivent-elles dans une mangrove ?",
+          "solution": "1. 3 300 − 400 = 2 900 mm de différence. 3 300 ÷ 400 = 8,25 : il pleut environ 8 fois plus à Toamasina.\n2. Toamasina : 3 300 ÷ 12 = 275 mm par mois. Toliara : 400 ÷ 12 ≈ 33 mm par mois.\n3. Autour de Toamasina : la forêt dense humide. Autour de Toliara : la forêt épineuse.\n4. La pluie y est rare : les tiges charnues stockent l'eau, et les petites feuilles ou les épines limitent la perte d'eau par transpiration.\n5. Le sol est de la vase salée, pauvre en dioxygène. Seules les espèces adaptées, comme les palétuviers avec leurs racines aériennes, peuvent y survivre."
+        }
+      ]
+    },
+    {
+      "id": "svt4-5-l4-relations",
+      "titre": "Les relations entre les êtres vivants",
+      "blocs": [
+        {
+          "type": "remarque",
+          "titre": "Les êtres vivants dépendent les uns des autres",
+          "texte": "Dans la biocénose, les êtres vivants sont liés par des relations. Elles peuvent avantager un des êtres vivants, les deux, ou en désavantager un ou les deux. On note + un avantage, − un désavantage et 0 l'absence d'effet."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les principales relations",
+          "entetes": ["Relation", "Définition", "Exemple"],
+          "lignes": [
+            ["Prédation", "Un animal (le prédateur) capture et mange un autre (la proie).", "Le fossa mange des lémuriens. Le caméléon attrape des insectes."],
+            ["Compétition", "Des êtres vivants se disputent la même ressource : lumière, eau, nourriture, espace.", "Le riz et les mauvaises herbes se disputent la lumière et l'eau."],
+            ["Parasitisme", "Un parasite vit sur ou dans un autre être vivant (l'hôte). Il se nourrit à ses dépens et l'affaiblit.", "La tique sur le zébu. Les vers intestinaux. Le Plasmodium, responsable du paludisme."],
+            ["Mutualisme (symbiose)", "Deux êtres vivants vivent ensemble et en tirent chacun un avantage.", "Les bactéries des nodosités du haricot. L'insecte qui butine une fleur."],
+            ["Commensalisme", "Un être vivant profite de l'autre sans lui faire de tort.", "Le héron garde-bœufs mange les insectes dérangés par le zébu."]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "L'effet de chaque relation",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='460' height='240' viewBox='0 0 460 240' role='img' aria-label='Effet de cinq relations sur chacun des deux êtres vivants' font-family='sans-serif' font-size='12'><text x='10' y='20' font-size='11' fill='currentColor'>+ avantage ; − désavantage ; 0 aucun effet</text><text x='10' y='56' fill='currentColor'>Prédation</text><path d='M164 52 H216' stroke='currentColor' stroke-width='1.5' fill='none'/><circle cx='150' cy='52' r='14' fill='#16a34a' fill-opacity='0.35' stroke='currentColor' stroke-width='1.5'/><circle cx='230' cy='52' r='14' fill='#e11d48' fill-opacity='0.35' stroke='currentColor' stroke-width='1.5'/><text x='150' y='57' text-anchor='middle' font-size='16' fill='currentColor'>+</text><text x='230' y='57' text-anchor='middle' font-size='16' fill='currentColor'>−</text><text x='262' y='56' fill='currentColor'>fossa / lémurien</text><text x='10' y='98' fill='currentColor'>Compétition</text><path d='M164 94 H216' stroke='currentColor' stroke-width='1.5' fill='none'/><circle cx='150' cy='94' r='14' fill='#e11d48' fill-opacity='0.35' stroke='currentColor' stroke-width='1.5'/><circle cx='230' cy='94' r='14' fill='#e11d48' fill-opacity='0.35' stroke='currentColor' stroke-width='1.5'/><text x='150' y='99' text-anchor='middle' font-size='16' fill='currentColor'>−</text><text x='230' y='99' text-anchor='middle' font-size='16' fill='currentColor'>−</text><text x='262' y='98' fill='currentColor'>riz / mauvaises herbes</text><text x='10' y='140' fill='currentColor'>Parasitisme</text><path d='M164 136 H216' stroke='currentColor' stroke-width='1.5' fill='none'/><circle cx='150' cy='136' r='14' fill='#16a34a' fill-opacity='0.35' stroke='currentColor' stroke-width='1.5'/><circle cx='230' cy='136' r='14' fill='#e11d48' fill-opacity='0.35' stroke='currentColor' stroke-width='1.5'/><text x='150' y='141' text-anchor='middle' font-size='16' fill='currentColor'>+</text><text x='230' y='141' text-anchor='middle' font-size='16' fill='currentColor'>−</text><text x='262' y='140' fill='currentColor'>tique / zébu</text><text x='10' y='182' fill='currentColor'>Mutualisme</text><path d='M164 178 H216' stroke='currentColor' stroke-width='1.5' fill='none'/><circle cx='150' cy='178' r='14' fill='#16a34a' fill-opacity='0.35' stroke='currentColor' stroke-width='1.5'/><circle cx='230' cy='178' r='14' fill='#16a34a' fill-opacity='0.35' stroke='currentColor' stroke-width='1.5'/><text x='150' y='183' text-anchor='middle' font-size='16' fill='currentColor'>+</text><text x='230' y='183' text-anchor='middle' font-size='16' fill='currentColor'>+</text><text x='262' y='182' fill='currentColor'>haricot / bactéries</text><text x='10' y='224' fill='currentColor'>Commensalisme</text><path d='M164 220 H216' stroke='currentColor' stroke-width='1.5' fill='none'/><circle cx='150' cy='220' r='14' fill='#16a34a' fill-opacity='0.35' stroke='currentColor' stroke-width='1.5'/><circle cx='230' cy='220' r='14' fill='#94a3b8' fill-opacity='0.35' stroke='currentColor' stroke-width='1.5'/><text x='150' y='225' text-anchor='middle' font-size='16' fill='currentColor'>+</text><text x='230' y='225' text-anchor='middle' font-size='16' fill='currentColor'>0</text><text x='262' y='224' fill='currentColor'>héron garde-bœufs / zébu</text></svg>",
+          "legende": "Chaque ligne montre l'effet de la relation sur le premier et sur le second être vivant."
+        },
+        {
+          "type": "exemple",
+          "titre": "Une orchidée et un papillon de nuit",
+          "texte": "À Madagascar, une orchidée (Angraecum sesquipedale) a un éperon très long, d'environ 30 cm, au fond duquel se trouve son nectar. Seul un papillon de nuit à très longue trompe peut l'atteindre. Le papillon se nourrit de nectar ; en passant d'une fleur à l'autre, il transporte le pollen. C'est un mutualisme : l'orchidée est pollinisée, le papillon est nourri."
+        },
+        {
+          "type": "exemple",
+          "titre": "La compétition dans un champ de riz (valeurs d'exemple)",
+          "texte": "Sans désherbage, une rizière donne 1,8 t de riz par hectare. Avec désherbage, elle donne 2,7 t par hectare.\nGain : 2,7 − 1,8 = 0,9 t par hectare, soit 0,9 ÷ 1,8 × 100 = 50 % de plus.\nSur une parcelle de 0,5 ha : 0,9 × 0,5 = 0,45 t, soit 450 kg de riz en plus.\nEn enlevant les mauvaises herbes, on supprime des concurrents du riz."
+        },
+        {
+          "type": "remarque",
+          "titre": "Parasites et santé",
+          "texte": "Certains parasites sont dangereux pour l'homme et pour les animaux d'élevage : le Plasmodium vit dans le sang et il est transmis par la piqûre d'un moustique, l'anophèle. Se protéger des piqûres (moustiquaire, vêtements longs) et supprimer les eaux stagnantes où vivent les larves de moustiques protègent de la maladie."
+        },
+        {
+          "type": "regle",
+          "titre": "À retenir",
+          "texte": "Les êtres vivants d'une biocénose sont liés par des relations : prédation, compétition, parasitisme, mutualisme, commensalisme. Certaines avantagent les deux êtres vivants, d'autres en désavantagent un ou les deux. Ces relations contribuent à l'équilibre de l'écosystème, qui est étudié au chapitre 6."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Prédateur", "Animal qui capture et mange d'autres animaux."],
+            ["Proie", "Animal capturé et mangé par un prédateur."],
+            ["Parasite", "Être vivant qui vit aux dépens d'un autre et l'affaiblit."],
+            ["Hôte", "Être vivant sur ou dans lequel vit un parasite."],
+            ["Mutualisme", "Relation où les deux êtres vivants y gagnent."],
+            ["Pollinisation", "Transport du pollen d'une fleur à une autre fleur."],
+            ["Nodosité", "Petit renflement des racines de haricot ou de soja, où vivent des bactéries."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Voici cinq situations :\na) une tique est fixée sur un zébu et se nourrit de son sang ;\nb) deux jeunes arbres poussent côte à côte et se disputent la lumière ;\nc) un héron garde-bœufs marche près d'un zébu et mange les insectes qu'il dérange, sans le gêner ;\nd) un caméléon attrape une sauterelle ;\ne) des bactéries vivent dans les racines d'un haricot : elles lui apportent des substances utiles et reçoivent des sucres.\n1. Nomme la relation dans chaque situation.\n2. Pour c) et e), indique l'effet sur chaque être vivant avec +, − ou 0.\n3. Dans un champ de maïs de 2 ha, le rendement est de 1,5 t par hectare sans désherbage et de 2,4 t par hectare avec désherbage. Calcule le gain par hectare, le gain sur le champ, et le gain en pourcentage par rapport au rendement sans désherbage.\n4. Explique pourquoi le désherbage améliore la récolte.\n5. Pourquoi la disparition des insectes pollinisateurs serait-elle grave pour les cultures ?",
+          "solution": "1. a) Parasitisme. b) Compétition. c) Commensalisme. d) Prédation. e) Mutualisme (symbiose).\n2. c) Héron : +, zébu : 0. e) Bactéries : +, haricot : +.\n3. Gain par hectare : 2,4 − 1,5 = 0,9 t. Gain sur 2 ha : 0,9 × 2 = 1,8 t. Gain en pourcentage : 0,9 ÷ 1,5 × 100 = 60 %.\n4. Les mauvaises herbes sont en compétition avec le maïs pour la lumière, l'eau et les sels minéraux. En les enlevant, le maïs dispose de plus de ressources et pousse mieux.\n5. Beaucoup de plantes à fleurs ont besoin des insectes pour être pollinisées. Sans eux, il y aurait moins de fruits et de graines, donc moins de récolte. Les insectes perdraient aussi leur nourriture (nectar) : c'est une relation où les deux gagnent."
+        }
+      ]
+    }
+  ]
+}
