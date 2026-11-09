@@ -1,0 +1,304 @@
+{
+  "id": "svt4-6-chaines-protection",
+  "titre": "Chaînes et réseaux alimentaires, équilibre et protection de la nature à Madagascar",
+  "lecons": [
+    {
+      "id": "svt4-6-l1-chaines",
+      "titre": "Les chaînes alimentaires",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Chaîne alimentaire",
+          "texte": "Une chaîne alimentaire est une suite d'êtres vivants dans laquelle chacun sert de nourriture au suivant. Elle commence toujours par un végétal vert. On relie les maillons par des flèches qui signifient « est mangé par »."
+        },
+        {
+          "type": "remarque",
+          "titre": "Pourquoi tout commence par un végétal vert ?",
+          "texte": "Seuls les végétaux verts fabriquent leur propre matière à partir d'eau, de dioxyde de carbone et de lumière (assimilation chlorophyllienne, chapitre 4). Les animaux ne savent pas le faire : ils sont hétérotrophes et dépendent, directement ou non, des végétaux."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les rôles dans une chaîne alimentaire",
+          "entetes": ["Rôle", "Qui est-ce ?", "Exemples"],
+          "lignes": [
+            ["Producteurs", "Végétaux verts. Ils fabriquent leur matière organique par assimilation chlorophyllienne.", "Riz, herbe, feuilles d'arbre, algues microscopiques"],
+            ["Consommateurs de 1er ordre", "Animaux herbivores : ils mangent des végétaux.", "Criquet, zébu, sifaka"],
+            ["Consommateurs de 2e ordre", "Carnivores qui mangent des herbivores.", "Caméléon, grenouille"],
+            ["Consommateurs de 3e ordre", "Carnivores qui mangent d'autres carnivores.", "Rapace, héron"],
+            ["Décomposeurs", "Champignons et bactéries. Ils transforment les êtres morts et les déchets en sels minéraux.", "Champignons de la litière, bactéries du sol"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "Une chaîne alimentaire et les décomposeurs",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='500' height='205' viewBox='0 0 500 205' font-family='sans-serif' font-size='12'><defs><marker id='fl6a' markerWidth='8' markerHeight='8' refX='7' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='#e11d48'/></marker></defs><text x='250' y='20' text-anchor='middle' fill='currentColor'>La flèche signifie : « est mangé par »</text><rect x='10' y='35' width='95' height='70' rx='8' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='57' y='58' text-anchor='middle' font-weight='bold' fill='currentColor'>Feuilles</text><text x='57' y='76' text-anchor='middle' fill='currentColor'>Producteur</text><text x='57' y='92' text-anchor='middle' fill='currentColor'>(végétal vert)</text><rect x='135' y='35' width='95' height='70' rx='8' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='182' y='58' text-anchor='middle' font-weight='bold' fill='currentColor'>Criquet</text><text x='182' y='76' text-anchor='middle' fill='currentColor'>Consommateur</text><text x='182' y='92' text-anchor='middle' fill='currentColor'>de 1er ordre</text><rect x='260' y='35' width='95' height='70' rx='8' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='307' y='58' text-anchor='middle' font-weight='bold' fill='currentColor'>Caméléon</text><text x='307' y='76' text-anchor='middle' fill='currentColor'>Consommateur</text><text x='307' y='92' text-anchor='middle' fill='currentColor'>de 2e ordre</text><rect x='385' y='35' width='95' height='70' rx='8' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='432' y='58' text-anchor='middle' font-weight='bold' fill='currentColor'>Rapace</text><text x='432' y='76' text-anchor='middle' fill='currentColor'>Consommateur</text><text x='432' y='92' text-anchor='middle' fill='currentColor'>de 3e ordre</text><line x1='107' y1='70' x2='133' y2='70' stroke='#e11d48' stroke-width='2' marker-end='url(#fl6a)'/><line x1='232' y1='70' x2='258' y2='70' stroke='#e11d48' stroke-width='2' marker-end='url(#fl6a)'/><line x1='357' y1='70' x2='383' y2='70' stroke='#e11d48' stroke-width='2' marker-end='url(#fl6a)'/><line x1='57' y1='105' x2='57' y2='145' stroke='currentColor' stroke-opacity='0.5' stroke-dasharray='4 3'/><line x1='182' y1='105' x2='182' y2='145' stroke='currentColor' stroke-opacity='0.5' stroke-dasharray='4 3'/><line x1='307' y1='105' x2='307' y2='145' stroke='currentColor' stroke-opacity='0.5' stroke-dasharray='4 3'/><line x1='432' y1='105' x2='432' y2='145' stroke='currentColor' stroke-opacity='0.5' stroke-dasharray='4 3'/><rect x='10' y='145' width='470' height='48' rx='8' fill='currentColor' fill-opacity='0.08' stroke='currentColor' stroke-opacity='0.5'/><text x='245' y='165' text-anchor='middle' font-weight='bold' fill='currentColor'>Décomposeurs : champignons et bactéries</text><text x='245' y='182' text-anchor='middle' fill='currentColor'>ils recyclent les êtres morts de chaque niveau</text></svg>",
+          "legende": "Une chaîne alimentaire : le producteur, trois consommateurs, et les décomposeurs qui agissent à tous les niveaux."
+        },
+        {
+          "type": "exemple",
+          "titre": "Trois chaînes de Madagascar",
+          "texte": "Forêt : feuilles → sifaka → fossa\nRizière : riz → criquet → grenouille → héron\nLac ou mer : algues microscopiques → petit poisson → grand poisson → pêcheur"
+        },
+        {
+          "type": "definition",
+          "titre": "Les régimes alimentaires",
+          "texte": "Herbivore : il se nourrit de végétaux (le zébu).\nCarnivore : il se nourrit d'animaux (le fossa).\nOmnivore : il se nourrit de végétaux et d'animaux (l'homme, le rat)."
+        },
+        {
+          "type": "remarque",
+          "titre": "Les décomposeurs ferment la boucle",
+          "texte": "Les sels minéraux libérés par les décomposeurs sont absorbés par les racines (chapitre 1). Ils servent de nouveau aux producteurs : la matière circule en cercle."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Maillon", "Un élément de la chaîne, c'est-à-dire un être vivant."],
+            ["Producteur", "Végétal vert qui fabrique sa propre matière organique."],
+            ["Consommateur", "Animal qui se nourrit d'autres êtres vivants."],
+            ["Décomposeur", "Champignon ou bactérie qui transforme les êtres morts en sels minéraux."],
+            ["Herbivore, carnivore, omnivore", "Qui mange des végétaux, des animaux, ou les deux."],
+            ["Matière organique", "Matière fabriquée par les êtres vivants (sucres, graisses, protéines)."],
+            ["Litière", "Couche de feuilles mortes qui recouvre le sol de la forêt."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Voici une chaîne alimentaire d'un champ de manioc : feuilles de manioc → chenille → oiseau insectivore → épervier.\n1. Quel est le producteur ?\n2. Quel est le consommateur de 2e ordre ?\n3. Que signifie chaque flèche ?\n4. Des chasseurs tuent tous les oiseaux insectivores. Que peut-il arriver aux chenilles, aux feuilles de manioc et à l'épervier ?\n5. Quel est le rôle des décomposeurs dans ce champ ?",
+          "solution": "1. Les feuilles de manioc : le manioc est un végétal vert.\n2. L'oiseau insectivore : il mange la chenille, qui est un herbivore.\n3. Chaque flèche signifie « est mangé par » : la feuille est mangée par la chenille, la chenille par l'oiseau, l'oiseau par l'épervier.\n4. Les chenilles n'ont plus de prédateur : elles se multiplient et mangent beaucoup de feuilles, donc la récolte diminue. L'épervier perd une partie de sa nourriture : il doit chercher d'autres proies, sinon il manque de nourriture.\n5. Ils transforment les feuilles mortes, les cadavres et les déchets en sels minéraux. Les racines du manioc absorbent ces sels."
+        }
+      ]
+    },
+    {
+      "id": "svt4-6-l2-reseaux",
+      "titre": "Réseaux alimentaires et transfert d'énergie",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Réseau alimentaire",
+          "texte": "Un réseau alimentaire est l'ensemble des chaînes alimentaires d'un milieu, reliées entre elles. Il se forme parce qu'un être vivant peut manger plusieurs espèces et être mangé par plusieurs espèces."
+        },
+        {
+          "type": "schema",
+          "titre": "Un réseau alimentaire de forêt",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='500' height='220' viewBox='0 0 500 220' font-family='sans-serif' font-size='12'><defs><marker id='fl6c' markerWidth='8' markerHeight='8' refX='7' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='#e11d48'/></marker></defs><text x='250' y='16' text-anchor='middle' fill='currentColor'>Réseau alimentaire d'une forêt (exemple simplifié)</text><rect x='10' y='30' width='90' height='36' rx='8' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='55' y='53' text-anchor='middle' fill='currentColor'>Feuilles</text><rect x='10' y='130' width='90' height='36' rx='8' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='55' y='153' text-anchor='middle' fill='currentColor'>Fruits</text><rect x='140' y='30' width='90' height='36' rx='8' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='185' y='53' text-anchor='middle' fill='currentColor'>Lémurien</text><rect x='140' y='130' width='90' height='36' rx='8' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='185' y='153' text-anchor='middle' fill='currentColor'>Insectes</text><rect x='270' y='90' width='90' height='36' rx='8' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='315' y='113' text-anchor='middle' fill='currentColor'>Caméléon</text><rect x='400' y='40' width='90' height='36' rx='8' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='445' y='63' text-anchor='middle' fill='currentColor'>Fossa</text><rect x='400' y='140' width='90' height='36' rx='8' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='445' y='163' text-anchor='middle' fill='currentColor'>Rapace</text><line x1='102' y1='48' x2='138' y2='48' stroke='#e11d48' stroke-width='1.5' marker-end='url(#fl6c)'/><line x1='102' y1='146' x2='138' y2='56' stroke='#e11d48' stroke-width='1.5' marker-end='url(#fl6c)'/><line x1='102' y1='50' x2='138' y2='142' stroke='#e11d48' stroke-width='1.5' marker-end='url(#fl6c)'/><line x1='232' y1='146' x2='268' y2='112' stroke='#e11d48' stroke-width='1.5' marker-end='url(#fl6c)'/><line x1='232' y1='48' x2='398' y2='52' stroke='#e11d48' stroke-width='1.5' marker-end='url(#fl6c)'/><line x1='362' y1='102' x2='398' y2='66' stroke='#e11d48' stroke-width='1.5' marker-end='url(#fl6c)'/><line x1='362' y1='114' x2='398' y2='152' stroke='#e11d48' stroke-width='1.5' marker-end='url(#fl6c)'/><text x='250' y='205' text-anchor='middle' fill='currentColor'>Décomposeurs (champignons, bactéries) : ils agissent sur tous les êtres morts</text></svg>",
+          "legende": "Chaque flèche signifie « est mangé par ». Le caméléon est mangé par le fossa et par le rapace."
+        },
+        {
+          "type": "remarque",
+          "titre": "Un même animal, plusieurs niveaux",
+          "texte": "Le fossa est consommateur de 2e ordre quand il mange un lémurien herbivore, et de 3e ordre quand il mange un caméléon. Un réseau est plus solide qu'une chaîne : si une espèce disparaît, ses prédateurs peuvent se nourrir d'autres proies."
+        },
+        {
+          "type": "regle",
+          "titre": "La perte d'énergie",
+          "texte": "À chaque passage d'un niveau au suivant, la plus grande partie de l'énergie est perdue. Elle sert à vivre (respirer, bouger, produire de la chaleur), elle est rejetée dans les excréments, ou elle n'est pas mangée (os, poils, racines).\nEn moyenne, environ 10 % seulement de l'énergie passe au niveau suivant. C'est un ordre de grandeur : la valeur réelle varie selon les cas."
+        },
+        {
+          "type": "schema",
+          "titre": "La pyramide d'énergie",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='500' height='212' viewBox='0 0 500 212' font-family='sans-serif' font-size='12'><rect x='130' y='10' width='80' height='42' fill='#e11d48' fill-opacity='0.25' stroke='#e11d48'/><text x='170' y='36' text-anchor='middle' fill='currentColor'>100 kJ</text><text x='335' y='36' fill='currentColor'>Carnivores de 3e ordre</text><rect x='100' y='54' width='140' height='42' fill='#e11d48' fill-opacity='0.25' stroke='#e11d48'/><text x='170' y='80' text-anchor='middle' fill='currentColor'>1 000 kJ</text><text x='335' y='80' fill='currentColor'>Carnivores de 2e ordre</text><rect x='60' y='98' width='220' height='42' fill='#e11d48' fill-opacity='0.25' stroke='#e11d48'/><text x='170' y='124' text-anchor='middle' fill='currentColor'>10 000 kJ</text><text x='335' y='124' fill='currentColor'>Herbivores (1er ordre)</text><rect x='20' y='142' width='300' height='42' fill='#e11d48' fill-opacity='0.25' stroke='#e11d48'/><text x='170' y='168' text-anchor='middle' fill='currentColor'>100 000 kJ</text><text x='335' y='168' fill='currentColor'>Producteurs</text><text x='170' y='204' text-anchor='middle' fill='currentColor'>Énergie ÷ 10 à chaque étage (valeurs arrondies)</text></svg>",
+          "legende": "Pyramide d'énergie pour une même surface : chaque étage contient environ 10 fois moins d'énergie que celui du dessous."
+        },
+        {
+          "type": "tableau",
+          "titre": "Énergie disponible à chaque niveau (exemple)",
+          "entetes": ["Niveau", "Énergie disponible", "Calcul"],
+          "lignes": [
+            ["Producteurs", "100 000 kJ", "Donnée de départ"],
+            ["Herbivores", "10 000 kJ", "100 000 × 10 ÷ 100"],
+            ["Carnivores de 2e ordre", "1 000 kJ", "10 000 × 10 ÷ 100"],
+            ["Carnivores de 3e ordre", "100 kJ", "1 000 × 10 ÷ 100"]
+          ]
+        },
+        {
+          "type": "exemple",
+          "titre": "Un calcul à refaire",
+          "texte": "Les producteurs d'une prairie contiennent 50 000 kJ.\nHerbivores : 50 000 × 10 ÷ 100 = 5 000 kJ.\nCarnivores de 2e ordre : 5 000 × 10 ÷ 100 = 500 kJ.\nCarnivores de 3e ordre : 500 × 10 ÷ 100 = 50 kJ."
+        },
+        {
+          "type": "remarque",
+          "titre": "Ce que cela explique",
+          "texte": "1. Les chaînes sont courtes, de 3 à 5 maillons : après quatre transferts, il ne reste que 10 kJ sur 100 000 kJ.\n2. Il y a beaucoup plus de producteurs que de consommateurs.\n3. Pour nourrir beaucoup de monde, il est plus efficace de manger des végétaux (riz, manioc, légumes) que des animaux qui ont mangé ces végétaux. C'est un ordre de grandeur, car la règle est approximative."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Réseau alimentaire", "Ensemble de chaînes alimentaires reliées entre elles."],
+            ["Niveau", "Place d'un être vivant dans la chaîne : producteur, consommateur de 1er ordre, de 2e ordre..."],
+            ["Énergie", "Ce qui permet de vivre, de bouger et de grandir. Elle se mesure en kilojoules (kJ)."],
+            ["Transfert", "Passage de la matière et de l'énergie d'un niveau au suivant."],
+            ["Pyramide d'énergie", "Schéma qui montre l'énergie disponible à chaque niveau."],
+            ["Ordre de grandeur", "Valeur approchée, qui donne une idée juste sans être exacte."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Dans une prairie, on observe : le criquet mange l'herbe ; le zébu mange l'herbe ; la grenouille mange le criquet ; le héron mange la grenouille ; l'homme mange le zébu.\n1. Écris deux chaînes alimentaires.\n2. Pourquoi cet ensemble forme-t-il un réseau ?\n3. Quels sont les consommateurs de 1er ordre ?\n4. L'herbe contient 20 000 kJ. Avec la règle des 10 %, calcule l'énergie qui arrive au criquet, à la grenouille puis au héron.\n5. Pourquoi ne trouve-t-on pas de chaîne de dix maillons ?",
+          "solution": "1. Herbe → criquet → grenouille → héron. Herbe → zébu → homme.\n2. Les deux chaînes partent de la même herbe, qui est mangée par deux espèces différentes : les chaînes sont reliées.\n3. Le criquet et le zébu, car ils mangent l'herbe.\n4. Criquet : 20 000 × 10 ÷ 100 = 2 000 kJ. Grenouille : 2 000 × 10 ÷ 100 = 200 kJ. Héron : 200 × 10 ÷ 100 = 20 kJ.\n5. À chaque maillon, environ 90 % de l'énergie est perdue. Avec dix maillons, il y a neuf transferts : 20 000 ÷ 1 000 000 000 = 0,00002 kJ. Il ne reste presque plus rien pour nourrir le dernier animal."
+        }
+      ]
+    },
+    {
+      "id": "svt4-6-l3-equilibre",
+      "titre": "L'équilibre de l'écosystème",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Équilibre d'un écosystème",
+          "texte": "Un écosystème est en équilibre quand le nombre d'individus de chaque espèce varie peu autour d'une valeur moyenne. Cet équilibre n'est pas figé : les effectifs montent et descendent, mais ils restent dans des limites. On parle d'équilibre dynamique."
+        },
+        {
+          "type": "schema",
+          "titre": "Proies et prédateurs",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='520' height='195' viewBox='0 0 520 195' font-family='sans-serif' font-size='12'><line x1='40' y1='25' x2='40' y2='170' stroke='currentColor'/><line x1='40' y1='170' x2='470' y2='170' stroke='currentColor'/><text x='48' y='22' fill='currentColor'>Effectif</text><text x='470' y='186' text-anchor='end' fill='currentColor'>Temps</text><line x1='90' y1='60' x2='90' y2='170' stroke='currentColor' stroke-opacity='0.5' stroke-dasharray='4 3'/><line x1='140' y1='60' x2='140' y2='170' stroke='currentColor' stroke-opacity='0.5' stroke-dasharray='4 3'/><text x='94' y='186' text-anchor='end' fill='currentColor'>pic des proies</text><text x='136' y='186' fill='currentColor'>pic des prédateurs</text><polyline fill='none' stroke='currentColor' stroke-width='2' points='40,100 65,72 90,60 115,72 140,100 165,128 190,140 215,128 240,100 265,72 290,60 315,72 340,100 365,128 390,140 415,128 440,100'/><polyline fill='none' stroke='#e11d48' stroke-width='2' points='40,140 65,128 90,100 115,72 140,60 165,72 190,100 215,128 240,140 265,128 290,100 315,72 340,60 365,72 390,100 415,128 440,140'/><text x='448' y='104' fill='currentColor'>Proies</text><text x='448' y='144' fill='#e11d48'>Prédateurs</text></svg>",
+          "legende": "Les effectifs des proies et des prédateurs montent et descendent. Le maximum des prédateurs arrive après celui des proies."
+        },
+        {
+          "type": "regle",
+          "titre": "La régulation par les prédateurs",
+          "texte": "1. Quand les proies sont nombreuses, les prédateurs trouvent à manger et se multiplient.\n2. Les prédateurs mangent beaucoup de proies : le nombre de proies baisse.\n3. Les prédateurs manquent de nourriture : leur nombre baisse à son tour.\n4. Les proies, moins chassées, se multiplient de nouveau.\nLe cycle recommence : les relations alimentaires empêchent une espèce de trop se multiplier."
+        },
+        {
+          "type": "tableau",
+          "titre": "Ce qui peut rompre l'équilibre",
+          "entetes": ["Perturbation", "Effets sur l'écosystème"],
+          "lignes": [
+            ["Cyclone, sécheresse, inondation (causes naturelles)", "Destruction de végétaux et d'habitats. Si la perturbation est brève, l'écosystème peut se reconstituer."],
+            ["Chasse ou pêche excessive d'un prédateur", "Ses proies se multiplient, mangent trop de végétaux et abîment les cultures."],
+            ["Chasse ou pêche excessive d'une proie", "Les prédateurs manquent de nourriture et leur nombre baisse."],
+            ["Feux et défrichement", "Les producteurs disparaissent : toute la chaîne est touchée."],
+            ["Pollution de l'eau ou du sol", "Mort de poissons, de plantes et de décomposeurs. Les produits toxiques s'accumulent le long de la chaîne."],
+            ["Espèce introduite", "Sans prédateur local, elle se multiplie et chasse les espèces d'origine. Exemple : la jacinthe d'eau couvre des lacs et des canaux."]
+          ]
+        },
+        {
+          "type": "exemple",
+          "titre": "Le raketa et la cochenille",
+          "texte": "Le raketa (raquette) est un cactus venu d'ailleurs. Il a envahi de grandes surfaces dans le Sud de Madagascar. Dans les années 1920, on a introduit une cochenille, un petit insecte qui se nourrit de ce cactus, pour le faire reculer. Cet exemple montre qu'une espèce introduite peut devenir un fléau, et qu'une lutte biologique demande des études sérieuses."
+        },
+        {
+          "type": "remarque",
+          "titre": "Le paludisme : un parasite et la santé",
+          "texte": "Le paludisme est dû à un parasite microscopique (Plasmodium) qui vit dans le sang de l'homme. Il passe d'une personne à l'autre par la piqûre d'un moustique, l'anophèle femelle, qui pond dans les eaux calmes (flaques, mares, rizières).\nPour limiter la maladie : dormir sous une moustiquaire imprégnée, vider les eaux stagnantes autour des maisons, et consulter vite un centre de santé en cas de fièvre."
+        },
+        {
+          "type": "remarque",
+          "titre": "Un écosystème peut se rétablir, mais pas toujours",
+          "texte": "Après une perturbation faible et brève, l'écosystème retrouve son équilibre. Après une perturbation forte ou répétée, il se dégrade : une forêt brûlée chaque année devient une savane, avec beaucoup moins d'espèces."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Équilibre dynamique", "Équilibre où les effectifs varient, mais restent dans des limites."],
+            ["Effectif", "Nombre d'individus d'une espèce."],
+            ["Proie", "Animal qui est mangé par un autre."],
+            ["Prédateur", "Animal qui chasse et mange d'autres animaux."],
+            ["Perturbation", "Événement qui dérange l'écosystème (cyclone, feu, pollution)."],
+            ["Espèce introduite", "Espèce apportée par l'homme dans un milieu où elle n'existait pas."],
+            ["Parasite", "Être vivant qui vit aux dépens d'un autre, appelé l'hôte."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Dans une réserve, on compte chaque année les lémuriens et les fossas (données inventées pour l'exercice).\n2010 : 400 lémuriens, 20 fossas\n2011 : 500 lémuriens, 25 fossas\n2012 : 650 lémuriens, 40 fossas\n2013 : 520 lémuriens, 55 fossas\n2014 : 380 lémuriens, 45 fossas\n1. Pendant quelle période le nombre de lémuriens augmente-t-il ?\n2. En quelle année y a-t-il le plus de lémuriens ? Le plus de fossas ?\n3. Explique le décalage entre les deux maximums.\n4. Calcule la baisse du nombre de lémuriens entre 2012 et 2014, puis le pourcentage de baisse (arrondi à l'unité).\n5. Si on supprimait tous les fossas, que pourrait-il se passer ?",
+          "solution": "1. De 2010 à 2012 : 400 → 500 → 650.\n2. Lémuriens : 2012 (650). Fossas : 2013 (55).\n3. Quand les lémuriens sont nombreux, les fossas trouvent plus à manger et se multiplient jusqu'en 2013. Ils mangent beaucoup de lémuriens, dont le nombre baisse à partir de 2013. Le maximum des prédateurs arrive donc après celui des proies.\n4. 650 − 380 = 270 lémuriens en moins. 270 ÷ 650 ≈ 0,415, soit environ 42 % de baisse.\n5. Sans prédateur, les lémuriens se multiplieraient d'abord, puis mangeraient trop de feuilles et de fruits. La forêt s'abîmerait, la nourriture manquerait et leur nombre finirait par chuter : l'équilibre serait rompu."
+        }
+      ]
+    },
+    {
+      "id": "svt4-6-l4-protection",
+      "titre": "Menaces et protection de la nature à Madagascar",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Biodiversité",
+          "texte": "La biodiversité est la variété des êtres vivants d'un milieu : plantes, animaux, champignons, micro-organismes. Madagascar a une biodiversité exceptionnelle : une grande partie de ses espèces, comme tous les lémuriens, n'existent nulle part ailleurs (endémisme, chapitre 5)."
+        },
+        {
+          "type": "remarque",
+          "titre": "Pourquoi s'inquiéter ?",
+          "texte": "Une espèce disparue ne revient jamais. Quand un maillon disparaît, tout le réseau alimentaire est touché (leçon 3). La grande majorité des espèces de lémuriens sont aujourd'hui menacées."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les principales menaces",
+          "entetes": ["Menace", "Ce qui se passe", "Conséquences"],
+          "lignes": [
+            ["Feux de brousse, tavy", "On brûle la végétation pour cultiver ou renouveler les pâturages. Le tavy est la culture sur brûlis de la forêt.", "Forêt et animaux détruits, sol nu, érosion"],
+            ["Défrichement, charbon de bois, bois précieux", "Les arbres sont coupés pour cultiver, cuisiner ou vendre le bois.", "Habitats perdus, sols appauvris"],
+            ["Chasse, braconnage", "Capture ou mise à mort d'animaux protégés, comme les lémuriens et les tortues.", "Espèces menacées de disparition"],
+            ["Pêche excessive", "Filets trop fins, pêche pendant la reproduction.", "Poissons, crevettes et langoustes de plus en plus rares"],
+            ["Pollution", "Déchets, produits chimiques, eaux sales des villes et des mines.", "Eau et sol empoisonnés, mort d'êtres vivants"],
+            ["Espèces introduites", "Plantes ou animaux apportés d'ailleurs.", "Disparition d'espèces locales"]
+          ]
+        },
+        {
+          "type": "schema",
+          "titre": "De la forêt brûlée aux rizières ensablées",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='550' height='115' viewBox='0 0 550 115' font-family='sans-serif' font-size='12'><defs><marker id='fl6b' markerWidth='8' markerHeight='8' refX='7' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='#e11d48'/></marker></defs><rect x='10' y='15' width='118' height='56' rx='8' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='69' y='38' text-anchor='middle' fill='currentColor'>Forêt brûlée</text><text x='69' y='56' text-anchor='middle' fill='currentColor'>ou coupée</text><rect x='148' y='15' width='118' height='56' rx='8' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='207' y='38' text-anchor='middle' fill='currentColor'>Sol nu,</text><text x='207' y='56' text-anchor='middle' fill='currentColor'>sans racines</text><rect x='286' y='15' width='118' height='56' rx='8' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='345' y='38' text-anchor='middle' fill='currentColor'>Pluies fortes :</text><text x='345' y='56' text-anchor='middle' fill='currentColor'>érosion, lavaka</text><rect x='424' y='15' width='118' height='56' rx='8' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='483' y='38' text-anchor='middle' fill='currentColor'>Rizières,</text><text x='483' y='56' text-anchor='middle' fill='currentColor'>rivières ensablées</text><line x1='130' y1='43' x2='146' y2='43' stroke='#e11d48' stroke-width='2' marker-end='url(#fl6b)'/><line x1='268' y1='43' x2='284' y2='43' stroke='#e11d48' stroke-width='2' marker-end='url(#fl6b)'/><line x1='406' y1='43' x2='422' y2='43' stroke='#e11d48' stroke-width='2' marker-end='url(#fl6b)'/><text x='275' y='100' text-anchor='middle' fill='currentColor'>Moins de récoltes, moins d'eau, moins d'êtres vivants</text></svg>",
+          "legende": "Une forêt détruite peut entraîner une suite de dégâts jusque dans les rizières."
+        },
+        {
+          "type": "remarque",
+          "titre": "Lavaka et ensablement",
+          "texte": "Sur les Hauts Plateaux, un sol sans arbres est creusé par la pluie : il se forme des ravins appelés lavaka. La terre emportée ensable les rizières et les rivières. L'érosion est étudiée au chapitre 23."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les moyens de protection",
+          "entetes": ["Moyen", "Exemples"],
+          "lignes": [
+            ["Aires protégées", "Parcs nationaux et réserves : Andasibe-Mantadia (indri), Ranomafana (forêt humide), Masoala (forêt humide du Nord-Est), Isalo (massif de grès), Ankarafantsika (forêt sèche)."],
+            ["Lois", "Interdiction des feux non autorisés, de la coupe de bois précieux et de la chasse d'espèces protégées."],
+            ["Reboisement", "Planter des arbres, de préférence des espèces locales, sur les sols nus."],
+            ["Pêche réglementée", "Taille minimale des mailles des filets, périodes de fermeture pendant la reproduction."],
+            ["Gestion par les villageois", "Les communautés locales surveillent et gèrent leur forêt."],
+            ["Économie de bois", "Foyers améliorés qui consomment moins de charbon de bois."],
+            ["Éducation et tourisme responsable", "Informer les enfants et les adultes. Les entrées des parcs aident à financer la protection."]
+          ]
+        },
+        {
+          "type": "definition",
+          "titre": "Développement durable",
+          "texte": "Le développement durable consiste à utiliser les ressources de la nature pour répondre aux besoins d'aujourd'hui, sans empêcher les générations futures de répondre aux leurs."
+        },
+        {
+          "type": "methode",
+          "titre": "Que peut faire chaque élève ?",
+          "texte": "- Ne jamais allumer de feu dans la nature sans autorisation.\n- Ne pas jeter de déchets dans les rivières, les caniveaux ou la forêt.\n- Ne pas acheter ni capturer d'animaux protégés.\n- Planter et soigner un arbre.\n- Expliquer ces règles à sa famille et à ses voisins."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Biodiversité", "Variété des êtres vivants d'un milieu."],
+            ["Espèce menacée", "Espèce dont le nombre baisse et qui risque de disparaître."],
+            ["Aire protégée", "Territoire où la nature est protégée par la loi."],
+            ["Braconnage", "Chasse ou capture interdite d'animaux protégés."],
+            ["Reboisement", "Plantation d'arbres sur un terrain qui n'en a plus."],
+            ["Tavy", "Culture sur brûlis de la forêt, à Madagascar."],
+            ["Lavaka", "Grand ravin creusé par la pluie dans un sol sans végétation."],
+            ["Ensablement", "Dépôt de sable et de terre qui comble une rizière ou une rivière."],
+            ["Développement durable", "Façon de vivre qui préserve la nature pour les générations futures."]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Un village possède une forêt de 800 hectares. Chaque année, 5 % de la surface de départ est défrichée.\n1. Quelle surface est défrichée chaque année ?\n2. Quelle surface a été défrichée en 4 ans ? Quelle surface reste-t-il, et quel pourcentage de la forêt de départ cela représente-t-il ?\n3. Le village plante 25 hectares d'arbres par an. Quelle est la surface boisée après 4 ans ?\n4. Sans aucune plantation, en combien d'années la forêt aurait-elle disparu au même rythme ?\n5. Cite deux mesures qui protègent la forêt.",
+          "solution": "1. 800 × 5 ÷ 100 = 40 hectares par an.\n2. 40 × 4 = 160 hectares défrichés. Il reste 800 − 160 = 640 hectares. 640 ÷ 800 = 0,8, soit 80 % de la forêt de départ.\n3. Surface plantée : 25 × 4 = 100 hectares. Surface boisée : 640 + 100 = 740 hectares.\n4. 800 ÷ 40 = 20 ans.\n5. Par exemple : créer une aire protégée, interdire les feux de brousse, reboiser avec des espèces locales, utiliser des foyers améliorés, faire gérer la forêt par les villageois."
+        }
+      ]
+    }
+  ]
+}
