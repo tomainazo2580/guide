@@ -1,0 +1,386 @@
+{
+  "id": "svt4-21-magmatiques",
+  "titre": "Les roches magmatiques",
+  "lecons": [
+    {
+      "id": "svt4-21-l1-magma-roches",
+      "titre": "Du magma aux roches magmatiques",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Minéral et roche",
+          "texte": "Un minéral est un solide naturel, de composition chimique précise, dont les atomes sont rangés de façon régulière : il forme des cristaux. Le quartz, le mica et le feldspath sont des minéraux.\nUne roche est un assemblage de minéraux (parfois de verre naturel) qui forme une partie de l'écorce terrestre. Le granite est une roche faite de plusieurs minéraux. Certaines roches n'ont qu'un seul minéral : le calcaire est fait presque seulement de calcite."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les trois familles de roches",
+          "entetes": ["Famille", "Origine", "Chapitre"],
+          "lignes": [
+            ["Roches magmatiques", "Refroidissement et solidification du magma", "Chapitre 21 (ce chapitre)"],
+            ["Roches sédimentaires", "Dépôt, puis durcissement, de débris ou de restes d'êtres vivants", "Chapitre 22"],
+            ["Roches métamorphiques", "Transformation d'une roche sous forte chaleur et forte pression, sans qu'elle fonde", "Chapitre 22"]
+          ]
+        },
+        {
+          "type": "definition",
+          "titre": "Magma, lave et roche magmatique",
+          "texte": "Le magma est de la roche en fusion qui se trouve en profondeur. C'est un mélange de roche liquide, de gaz dissous et parfois de petits cristaux. Sa température est de 700 à 1 200 °C (chapitre 17). Quand il arrive à la surface, il perd ses gaz et s'appelle la lave.\nUne roche magmatique (ou éruptive) est une roche formée par le refroidissement et la solidification du magma. En refroidissant, le magma se transforme en cristaux : c'est la cristallisation."
+        },
+        {
+          "type": "remarque",
+          "titre": "Comment naît le magma ?",
+          "texte": "Le magma naît par fusion partielle : seule une petite partie de la roche fond, car les minéraux d'une roche ne fondent pas tous à la même température. Il se forme à une dorsale (la pression baisse quand le manteau remonte), au-dessus d'une zone de subduction (l'eau libérée par la plaque plongeante fait fondre le manteau) et au-dessus d'un point chaud (chapitre 19). Plus léger que les roches autour de lui, le magma monte."
+        },
+        {
+          "type": "schema",
+          "titre": "Deux destins pour un même magma (coupe)",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='600' height='260' viewBox='0 0 600 260' font-family='sans-serif' font-size='12'><rect x='20' y='70' width='560' height='170' fill='currentColor' fill-opacity='0.08'/><line x1='20' y1='70' x2='580' y2='70' stroke='currentColor' stroke-width='3'/><text x='30' y='62' fill='currentColor'>Surface du sol</text><polygon points='420,70 450,32 480,70' fill='#e11d48' fill-opacity='0.35' stroke='#e11d48'/><text x='450' y='24' text-anchor='middle' fill='currentColor'>Volcan</text><line x1='450' y1='70' x2='450' y2='150' stroke='#e11d48' stroke-width='3'/><text x='458' y='112' fill='currentColor'>Cheminée</text><line x1='480' y1='68' x2='570' y2='68' stroke='#e11d48' stroke-width='4'/><ellipse cx='430' cy='175' rx='80' ry='30' fill='#e11d48' fill-opacity='0.4' stroke='#e11d48'/><text x='430' y='226' text-anchor='middle' fill='currentColor'>Chambre magmatique</text><circle cx='525' cy='50' r='9' fill='#e11d48'/><text x='525' y='54' text-anchor='middle' fill='#fff' font-weight='bold'>1</text><circle cx='430' cy='175' r='9' fill='#e11d48'/><text x='430' y='179' text-anchor='middle' fill='#fff' font-weight='bold'>2</text><circle cx='36' cy='110' r='9' fill='#e11d48'/><text x='36' y='114' text-anchor='middle' fill='#fff' font-weight='bold'>1</text><text x='52' y='114' fill='currentColor'>Magma qui sort : refroidit vite,</text><text x='52' y='130' fill='currentColor'>petits cristaux (roche volcanique)</text><circle cx='36' cy='170' r='9' fill='#e11d48'/><text x='36' y='174' text-anchor='middle' fill='#fff' font-weight='bold'>2</text><text x='52' y='174' fill='currentColor'>Magma resté en profondeur : refroidit</text><text x='52' y='190' fill='currentColor'>très lentement, gros cristaux</text><text x='52' y='206' fill='currentColor'>(roche plutonique)</text></svg>",
+          "legende": "Schéma simplifié, hors échelle. Un même magma peut donner des roches différentes selon la vitesse de son refroidissement."
+        },
+        {
+          "type": "regle",
+          "titre": "La vitesse de refroidissement décide de la taille des cristaux",
+          "texte": "- Refroidissement très lent (en profondeur, pendant des milliers ou des millions d'années) : les cristaux ont le temps de grandir. Ils sont gros et visibles à l'œil nu.\n- Refroidissement rapide (en surface) : les cristaux n'ont pas le temps de grandir. Ils sont très petits.\n- Refroidissement très rapide : il ne se forme pas de cristaux. La lave devient un verre naturel.\nEn profondeur, les roches voisines sont chaudes et isolent le magma : il refroidit lentement, comme un plat bien couvert."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les trois textures des roches magmatiques",
+          "entetes": ["Texture", "Aspect", "Refroidissement", "Lieu de formation", "Type de roche", "Exemples"],
+          "lignes": [
+            ["Grenue", "Cristaux assez gros (plus d'1 mm), collés les uns aux autres, visibles à l'œil nu", "Très lent", "En profondeur", "Roche plutonique", "Granite, gabbro"],
+            ["Microgrenue", "Cristaux trop petits pour être vus à l'œil nu (loupe ou microscope) ; parfois quelques gros cristaux isolés", "Rapide", "En surface ou près de la surface", "Roche volcanique", "Basalte, rhyolite"],
+            ["Vitreuse", "Pas de cristaux : verre naturel", "Très rapide", "En surface, au contact de l'air ou de l'eau", "Roche volcanique", "Obsidienne"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "L'échelle de dureté de Mohs",
+          "entetes": ["Dureté", "Minéral de référence"],
+          "lignes": [
+            ["1", "Talc"],
+            ["2", "Gypse"],
+            ["3", "Calcite"],
+            ["4", "Fluorine"],
+            ["5", "Apatite"],
+            ["6", "Feldspath (orthose)"],
+            ["7", "Quartz"],
+            ["8", "Topaze"],
+            ["9", "Corindon (rubis, saphir)"],
+            ["10", "Diamant"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Utiliser la dureté pour reconnaître un minéral",
+          "texte": "Un minéral raye tous les minéraux moins durs que lui. La dureté mesure la résistance à la rayure, pas la résistance aux chocs.\nRepères d'usage courant : l'ongle (environ 2,5), une pièce en cuivre (environ 3,5), un clou en fer (environ 4,5), le verre et une lame de couteau en acier (environ 5,5).\nExemple : un minéral qui raye le verre mais qui se laisse rayer par le quartz a une dureté comprise entre 5,5 et 7."
+        },
+        {
+          "type": "methode",
+          "titre": "Observer une roche magmatique",
+          "texte": "1. Regarder la couleur générale : roche claire ou roche sombre ?\n2. Observer la texture avec une loupe : voit-on des cristaux à l'œil nu ? Sont-ils collés les uns aux autres ?\n3. Reconnaître les minéraux : couleur, éclat (brillant comme du verre, comme du métal), dureté, plans brillants (clivages).\n4. Mesurer la densité : masse de la roche ÷ volume (leçon 3).\n5. Comparer avec les descriptions du cours pour conclure.\nSécurité : si on casse une roche, on porte des lunettes de protection, car les éclats peuvent blesser les yeux."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Minéral", "Solide naturel de composition précise, qui forme des cristaux"],
+            ["Cristal", "Minéral dont les atomes sont rangés de façon régulière"],
+            ["Roche", "Assemblage de minéraux (ou de verre naturel)"],
+            ["Magma", "Roche en fusion contenant des gaz dissous"],
+            ["Lave", "Magma arrivé à la surface, qui a perdu ses gaz"],
+            ["Cristallisation", "Formation de cristaux quand le magma refroidit"],
+            ["Fusion partielle", "Fusion d'une petite partie seulement d'une roche"],
+            ["Texture", "Aspect d'une roche : taille et disposition de ses cristaux"],
+            ["Roche plutonique", "Roche magmatique formée en profondeur, à texture grenue"],
+            ["Roche volcanique", "Roche magmatique formée en surface, à texture microgrenue ou vitreuse"],
+            ["Dureté", "Résistance d'un minéral à la rayure"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Un magma à 1 000 °C monte dans la croûte. Une partie s'arrête en profondeur et se solidifie en un million d'années. Une autre partie sort par un volcan et se solidifie en quelques jours.\n1. Quelle partie donne une roche grenue ? Laquelle donne une roche microgrenue ?\n2. Explique pourquoi les cristaux n'ont pas la même taille.\n3. Laquelle est une roche plutonique, laquelle est une roche volcanique ?\n4. Quelle est la différence entre un minéral et une roche ?\n5. Un minéral raye le verre (dureté 5,5) mais il est rayé par le quartz (dureté 7). Entre quelles duretés se situe-t-il ? Cite un minéral du tableau qui convient.",
+          "solution": "1. La partie restée en profondeur donne une roche grenue. La partie sortie par le volcan donne une roche microgrenue.\n2. En profondeur, le refroidissement est très lent : les cristaux ont le temps de grandir et deviennent gros. En surface, le refroidissement est rapide : les cristaux n'ont pas le temps de grandir et restent très petits.\n3. La roche formée en profondeur est plutonique ; celle formée en surface est volcanique.\n4. Un minéral est un solide naturel de composition précise, formé de cristaux. Une roche est un assemblage de minéraux (le granite contient du quartz, du feldspath et du mica).\n5. Sa dureté est supérieure à 5,5 (il raye le verre) et inférieure à 7 (le quartz le raye) : elle est comprise entre 5,5 et 7. Le feldspath (dureté 6) convient."
+        }
+      ]
+    },
+    {
+      "id": "svt4-21-l2-granite",
+      "titre": "Le granite, roche grenue",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Qu'est-ce que le granite ?",
+          "texte": "Le granite est une roche magmatique plutonique, de texture grenue. Elle est claire (grise, blanche ou rosée), tachetée de noir. Elle est formée de trois minéraux principaux : le quartz, le feldspath et le mica.\nLe granite s'est solidifié lentement, en profondeur, dans la croûte continentale (chapitres 19 et 20)."
+        },
+        {
+          "type": "schema",
+          "titre": "Les minéraux du granite (vue agrandie d'un échantillon)",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='600' height='225' viewBox='0 0 600 225' font-family='sans-serif' font-size='12'><polygon points='20,20 100,20 90,80 20,70' fill='currentColor' fill-opacity='0.12' stroke='currentColor' stroke-opacity='0.6'/><polygon points='100,20 190,20 180,75 90,80' fill='#e11d48' fill-opacity='0.25' stroke='currentColor' stroke-opacity='0.6'/><polygon points='190,20 260,20 260,60 180,75' fill='currentColor' fill-opacity='0.12' stroke='currentColor' stroke-opacity='0.6'/><polygon points='20,70 90,80 70,140 20,130' fill='#e11d48' fill-opacity='0.25' stroke='currentColor' stroke-opacity='0.6'/><polygon points='90,80 180,75 150,135 70,140' fill='currentColor' fill-opacity='0.12' stroke='currentColor' stroke-opacity='0.6'/><polygon points='180,75 260,60 260,120 210,125 150,135' fill='#e11d48' fill-opacity='0.25' stroke='currentColor' stroke-opacity='0.6'/><polygon points='20,130 70,140 110,200 20,200' fill='currentColor' fill-opacity='0.12' stroke='currentColor' stroke-opacity='0.6'/><polygon points='70,140 150,135 190,200 110,200' fill='#e11d48' fill-opacity='0.25' stroke='currentColor' stroke-opacity='0.6'/><polygon points='150,135 210,125 260,120 260,200 190,200' fill='currentColor' fill-opacity='0.12' stroke='currentColor' stroke-opacity='0.6'/><polygon points='55,45 75,42 77,50 57,53' fill='currentColor' fill-opacity='0.8'/><polygon points='140,90 165,88 167,97 142,99' fill='currentColor' fill-opacity='0.8'/><polygon points='218,88 240,85 242,94 220,97' fill='currentColor' fill-opacity='0.8'/><polygon points='40,100 60,98 62,106 42,108' fill='currentColor' fill-opacity='0.8'/><polygon points='95,160 118,158 120,167 97,169' fill='currentColor' fill-opacity='0.8'/><polygon points='222,160 246,157 248,166 224,169' fill='currentColor' fill-opacity='0.8'/><rect x='20' y='20' width='240' height='180' fill='none' stroke='currentColor' stroke-width='2'/><rect x='290' y='38' width='18' height='14' fill='currentColor' fill-opacity='0.12' stroke='currentColor'/><text x='316' y='50' fill='currentColor'>Quartz : gris, transparent, éclat de verre</text><rect x='290' y='68' width='18' height='14' fill='#e11d48' fill-opacity='0.25' stroke='currentColor'/><text x='316' y='80' fill='currentColor'>Feldspath : blanc ou rosé, plans brillants</text><rect x='290' y='98' width='18' height='14' fill='currentColor' fill-opacity='0.8' stroke='currentColor'/><text x='316' y='110' fill='currentColor'>Mica : noir, en paillettes brillantes</text><text x='290' y='155' fill='currentColor'>Les cristaux sont collés les uns aux</text><text x='290' y='171' fill='currentColor'>autres et visibles à l'œil nu : c'est</text><text x='290' y='187' fill='currentColor'>la texture grenue.</text></svg>",
+          "legende": "Schéma simplifié, hors échelle. Dans un vrai granite, les cristaux mesurent de quelques millimètres à un ou deux centimètres."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les trois minéraux du granite",
+          "entetes": ["Minéral", "Aspect", "Dureté", "Particularités"],
+          "lignes": [
+            ["Quartz", "Gris, incolore ou laiteux, translucide ; éclat de verre", "7", "Très dur : il raye le verre et l'acier. Il se casse en éclats arrondis, sans plans brillants. C'est de la silice (SiO₂)."],
+            ["Feldspath", "Blanc, beige ou rosé, opaque", "6", "Il se casse selon des surfaces planes et brillantes (clivages). C'est le minéral le plus abondant du granite."],
+            ["Mica", "Noir (biotite) ou argenté (muscovite), en petites paillettes brillantes", "2 à 3", "Très tendre : il se raye à l'ongle ou presque. Il se clive en feuillets minces."]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Composition d'un granite (valeurs indicatives)",
+          "entetes": ["Minéral", "Part approximative"],
+          "lignes": [
+            ["Feldspath", "environ 60 %"],
+            ["Quartz", "environ 30 %"],
+            ["Mica", "environ 10 %"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Reconnaître un granite",
+          "texte": "- Roche claire, tachetée de noir.\n- Cristaux visibles, collés les uns aux autres, sans bulles ni couches.\n- Roche très dure : un clou en fer ne la raye pas.\n- Densité d'environ 2,7.\nCes caractères montrent que le granite s'est formé lentement, en profondeur."
+        },
+        {
+          "type": "formule",
+          "titre": "Masse d'un bloc de roche",
+          "texte": "La masse volumique du granite est d'environ 2 700 kg/m³ (2,7 g/cm³) : 1 m³ de granite pèse environ 2,7 tonnes.\nmasse = masse volumique × volume\nLa densité compare la roche à l'eau (1 000 kg/m³) : 2 700 ÷ 1 000 = 2,7. À volume égal, le granite est 2,7 fois plus lourd que l'eau."
+        },
+        {
+          "type": "exemple",
+          "titre": "La masse d'un bloc de granite",
+          "texte": "Un bloc de granite mesure 0,5 m × 0,4 m × 0,2 m.\nVolume : 0,5 × 0,4 × 0,2 = 0,04 m³.\nMasse : 0,04 × 2 700 = 108 kg.\nCe petit bloc pèse déjà plus de 100 kg."
+        },
+        {
+          "type": "remarque",
+          "titre": "Du massif de granite à la surface",
+          "texte": "Un grand volume de granite formé en profondeur s'appelle un pluton (ou batholite quand il est très étendu). Il n'apparaît à la surface que lorsque l'érosion a enlevé les roches qui le recouvraient (chapitre 23). Exposé à l'air et à l'eau, le granite se décompose lentement : le feldspath et le mica s'altèrent, le quartz résiste et forme du sable. Madagascar possède beaucoup de granite dans son socle ancien (leçon 4)."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Granite", "Roche magmatique grenue, claire, faite de quartz, de feldspath et de mica"],
+            ["Quartz", "Minéral très dur, formé de silice, transparent ou gris"],
+            ["Feldspath", "Minéral blanc ou rosé, à plans brillants, le plus abondant du granite"],
+            ["Mica", "Minéral en paillettes brillantes, qui se clive en feuillets"],
+            ["Clivage", "Plan de cassure lisse et brillant d'un minéral"],
+            ["Éclat", "Aspect brillant de la surface d'un minéral"],
+            ["Pluton", "Grand volume de roche plutonique formé en profondeur"],
+            ["Silice", "Composé de silicium et d'oxygène (SiO₂), très abondant dans la croûte"],
+            ["Masse volumique", "Masse d'un volume donné de matière, par exemple en kg/m³"],
+            ["Densité", "Rapport entre la masse volumique d'un corps et celle de l'eau"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. Un échantillon de granite a une masse de 500 g. Il contient 30 % de quartz, 60 % de feldspath et 10 % de mica. Calcule la masse de chaque minéral. Vérifie que le total fait bien 500 g.\n2. Un bloc de granite mesure 0,6 m × 0,5 m × 0,1 m. Calcule son volume, puis sa masse (masse volumique : 2 700 kg/m³).\n3. Un minéral gris, translucide, éclat de verre, raye le verre et ne présente pas de plans brillants. De quel minéral s'agit-il ?\n4. Pourquoi les cristaux du granite sont-ils gros et collés les uns aux autres ?\n5. Dans quelle partie de la croûte trouve-t-on surtout du granite ? Quelle roche forme la croûte océanique ?",
+          "solution": "1. Quartz : 500 × 30 ÷ 100 = 150 g. Feldspath : 500 × 60 ÷ 100 = 300 g. Mica : 500 × 10 ÷ 100 = 50 g. Total : 150 + 300 + 50 = 500 g.\n2. Volume : 0,6 × 0,5 × 0,1 = 0,03 m³. Masse : 0,03 × 2 700 = 81 kg.\n3. C'est du quartz : gris translucide, éclat de verre, très dur (7) et sans clivage.\n4. Le magma a refroidi très lentement, en profondeur, pendant très longtemps : les cristaux ont eu le temps de grandir et se sont serrés les uns contre les autres.\n5. On trouve surtout du granite dans la croûte continentale. La croûte océanique est formée de basalte."
+        }
+      ]
+    },
+    {
+      "id": "svt4-21-l3-basalte",
+      "titre": "Le basalte et les roches volcaniques",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Qu'est-ce que le basalte ?",
+          "texte": "Le basalte est une roche magmatique volcanique, sombre (gris foncé à noire), de texture microgrenue : ses cristaux sont trop petits pour être vus à l'œil nu. Il se forme quand une lave très fluide refroidit rapidement, à la surface du sol ou au fond de la mer.\nLe basalte forme toute la croûte océanique (chapitre 19), qui couvre plus de la moitié de la surface du globe. C'est donc l'une des roches les plus répandues sur Terre."
+        },
+        {
+          "type": "schema",
+          "titre": "Coupe d'une coulée de basalte",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='600' height='275' viewBox='0 0 600 275' font-family='sans-serif' font-size='12'><defs><marker id='fl21a' markerWidth='8' markerHeight='8' refX='6' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='#e11d48'/></marker></defs><rect x='20' y='150' width='560' height='60' fill='currentColor' fill-opacity='0.08'/><text x='30' y='185' fill='currentColor'>Ancien sol</text><rect x='20' y='60' width='560' height='90' fill='currentColor' fill-opacity='0.3' stroke='currentColor'/><circle cx='50' cy='68' r='4' fill='none' stroke='currentColor'/><circle cx='95' cy='76' r='4' fill='none' stroke='currentColor'/><circle cx='140' cy='68' r='4' fill='none' stroke='currentColor'/><circle cx='200' cy='74' r='4' fill='none' stroke='currentColor'/><circle cx='260' cy='68' r='4' fill='none' stroke='currentColor'/><circle cx='330' cy='76' r='4' fill='none' stroke='currentColor'/><circle cx='390' cy='68' r='4' fill='none' stroke='currentColor'/><circle cx='450' cy='74' r='4' fill='none' stroke='currentColor'/><circle cx='510' cy='68' r='4' fill='none' stroke='currentColor'/><circle cx='555' cy='76' r='4' fill='none' stroke='currentColor'/><line x1='85' y1='85' x2='85' y2='150' stroke='currentColor' stroke-opacity='0.6'/><line x1='150' y1='85' x2='150' y2='150' stroke='currentColor' stroke-opacity='0.6'/><line x1='215' y1='85' x2='215' y2='150' stroke='currentColor' stroke-opacity='0.6'/><line x1='280' y1='85' x2='280' y2='150' stroke='currentColor' stroke-opacity='0.6'/><line x1='345' y1='85' x2='345' y2='150' stroke='currentColor' stroke-opacity='0.6'/><line x1='410' y1='85' x2='410' y2='150' stroke='currentColor' stroke-opacity='0.6'/><line x1='475' y1='85' x2='475' y2='150' stroke='currentColor' stroke-opacity='0.6'/><line x1='540' y1='85' x2='540' y2='150' stroke='currentColor' stroke-opacity='0.6'/><circle cx='170' cy='72' r='9' fill='#e11d48'/><text x='170' y='76' text-anchor='middle' fill='#fff' font-weight='bold'>1</text><circle cx='118' cy='118' r='9' fill='#e11d48'/><text x='118' y='122' text-anchor='middle' fill='#fff' font-weight='bold'>2</text><line x1='520' y1='56' x2='520' y2='30' stroke='#e11d48' stroke-width='2' marker-end='url(#fl21a)'/><text x='510' y='40' text-anchor='end' fill='currentColor'>Refroidissement par l'air</text><circle cx='30' cy='232' r='9' fill='#e11d48'/><text x='30' y='236' text-anchor='middle' fill='#fff' font-weight='bold'>1</text><text x='46' y='236' fill='currentColor'>Haut de la coulée : roche à bulles (vésicules), refroidie très vite</text><circle cx='30' cy='254' r='9' fill='#e11d48'/><text x='30' y='258' text-anchor='middle' fill='#fff' font-weight='bold'>2</text><text x='46' y='258' fill='currentColor'>Cœur : prismes verticaux, fentes dues à la contraction en refroidissant</text></svg>",
+          "legende": "Schéma simplifié, hors échelle. Les bulles viennent des gaz qui s'échappent de la lave."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les minéraux du basalte",
+          "entetes": ["Minéral", "Aspect"],
+          "lignes": [
+            ["Olivine", "Vert olive à jaune-vert, éclat de verre, en petits grains parfois visibles"],
+            ["Pyroxène", "Noir à vert très sombre, en petits cristaux courts"],
+            ["Feldspath (plagioclase)", "Gris clair à blanc, en petites baguettes"],
+            ["Oxydes de fer (comme la magnétite)", "Noirs ; la magnétite est attirée par un aimant"]
+          ]
+        },
+        {
+          "type": "regle",
+          "titre": "Reconnaître un basalte",
+          "texte": "- Roche sombre (gris foncé à noire), sans gros cristaux collés comme dans le granite.\n- Cristaux invisibles à l'œil nu ; parfois quelques grains verts d'olivine ou de petites bulles.\n- Roche dure et lourde : densité d'environ 3,0.\n- Se présente en coulées, en dalles ou en colonnes.\nLe magma qui donne le basalte contient environ 50 % de silice : il est fluide et sort facilement des volcans (chapitre 17)."
+        },
+        {
+          "type": "formule",
+          "titre": "Calculer la masse volumique d'une roche",
+          "texte": "masse volumique (en g/cm³) = masse (en g) ÷ volume (en cm³)\nLa densité a la même valeur que la masse volumique en g/cm³, car l'eau a une masse volumique de 1 g/cm³.\nConversion : 1 g/cm³ = 1 000 kg/m³."
+        },
+        {
+          "type": "exemple",
+          "titre": "La densité d'un échantillon de basalte",
+          "texte": "Un échantillon a un volume de 25 cm³ et une masse de 75 g.\nMasse volumique : 75 ÷ 25 = 3,0 g/cm³, soit 3 000 kg/m³.\nSa densité est donc 3,0, valeur du basalte.\nPour comparer, 25 cm³ de granite ont une masse de 25 × 2,7 = 67,5 g : le basalte est un peu plus lourd que le granite."
+        },
+        {
+          "type": "remarque",
+          "titre": "Les orgues basaltiques",
+          "texte": "En refroidissant, la lave se contracte, comme la boue qui sèche. Elle se fend alors en colonnes à 5 ou 6 côtés, serrées les unes contre les autres : ce sont les orgues basaltiques. La Chaussée des Géants, en Irlande du Nord, en est un exemple célèbre."
+        },
+        {
+          "type": "tableau",
+          "titre": "D'autres roches magmatiques",
+          "entetes": ["Roche", "Texture et aspect", "Formation"],
+          "lignes": [
+            ["Gabbro", "Sombre, grenue : même composition que le basalte", "Refroidissement lent en profondeur"],
+            ["Rhyolite", "Claire, microgrenue : même composition que le granite", "Refroidissement rapide en surface"],
+            ["Obsidienne", "Verre noir brillant, sans cristaux ; cassure coupante", "Refroidissement très rapide d'une lave visqueuse. Elle servait aux hommes préhistoriques pour fabriquer des outils tranchants."],
+            ["Pierre ponce", "Roche très légère, pleine de bulles ; elle flotte sur l'eau (densité inférieure à 1)", "Lave très riche en gaz qui se solidifie en mousse"],
+            ["Scories", "Roche sombre, pleine de cavités (chapitre 17)", "Lave basaltique très riche en gaz"]
+          ]
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Basalte", "Roche volcanique sombre, microgrenue, riche en olivine et en pyroxène"],
+            ["Olivine", "Minéral vert olive, fréquent dans le basalte"],
+            ["Pyroxène", "Minéral noir à vert sombre, fréquent dans le basalte"],
+            ["Magnétite", "Oxyde de fer noir, attiré par un aimant"],
+            ["Vésicule", "Petite cavité due à une bulle de gaz dans une roche volcanique"],
+            ["Coulée", "Nappe de lave qui s'est étalée et solidifiée"],
+            ["Orgues basaltiques", "Colonnes de basalte formées par la contraction de la lave en refroidissant"],
+            ["Obsidienne", "Verre volcanique noir, sans cristaux"],
+            ["Pierre ponce", "Roche volcanique très légère qui flotte sur l'eau"],
+            ["Gabbro", "Roche plutonique de même composition que le basalte"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "1. Une pierre a un volume de 40 cm³ et une masse de 120 g. Calcule sa masse volumique. S'agit-il plutôt de granite (densité 2,7) ou de basalte (densité 3,0) ?\n2. Quelle serait la masse de 40 cm³ de granite ?\n3. Une pierre ponce a un volume de 100 cm³ et une masse de 50 g. Calcule sa masse volumique. Flotte-t-elle sur l'eau (masse volumique de l'eau : 1 g/cm³) ? Pourquoi est-elle si légère ?\n4. Pourquoi les coulées de basalte se fendent-elles en colonnes ?\n5. Une roche sombre, dense, à très petits cristaux, contient quelques grains verts. De quelle roche s'agit-il ? Comment a-t-elle refroidi ?",
+          "solution": "1. 120 ÷ 40 = 3,0 g/cm³. La densité est de 3,0 : c'est un basalte.\n2. 40 × 2,7 = 108 g.\n3. 50 ÷ 100 = 0,5 g/cm³. Cette valeur est inférieure à 1 : la pierre ponce flotte. Elle est légère parce qu'elle est pleine de bulles de gaz.\n4. En refroidissant, la lave se contracte et se fend, comme la boue qui sèche. Les fentes dessinent des colonnes à 5 ou 6 côtés.\n5. C'est un basalte (les grains verts sont de l'olivine). Il a refroidi rapidement, en surface ou au fond de la mer, ce qui explique les très petits cristaux."
+        }
+      ]
+    },
+    {
+      "id": "svt4-21-l4-identification-madagascar",
+      "titre": "Identifier, comparer et utiliser les roches magmatiques",
+      "blocs": [
+        {
+          "type": "definition",
+          "titre": "Même magma, deux textures",
+          "texte": "Un magma de composition donnée peut donner deux roches, selon sa vitesse de refroidissement : une roche grenue s'il refroidit lentement en profondeur, une roche microgrenue s'il refroidit vite en surface. Le gabbro et le basalte ont ainsi la même composition, comme le granite et la rhyolite."
+        },
+        {
+          "type": "tableau",
+          "titre": "Les roches de même composition",
+          "entetes": ["Composition du magma", "Refroidissement lent : roche grenue", "Refroidissement rapide : roche microgrenue"],
+          "lignes": [
+            ["Riche en silice : roche claire", "Granite", "Rhyolite"],
+            ["Pauvre en silice : roche sombre", "Gabbro", "Basalte"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "La silice et le comportement du magma",
+          "texte": "Le magma qui donne le basalte contient environ 50 % de silice : il est fluide et sort facilement en coulées. Le magma qui donne le granite contient environ 70 % de silice : il est visqueux, il monte difficilement et se solidifie le plus souvent en profondeur. Quand un tel magma arrive quand même à la surface, l'éruption est souvent explosive (chapitre 17)."
+        },
+        {
+          "type": "schema",
+          "titre": "Clé de détermination simplifiée d'une roche magmatique",
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='580' height='240' viewBox='0 0 580 240' font-family='sans-serif' font-size='12'><rect x='170' y='10' width='240' height='36' fill='currentColor' fill-opacity='0.08' stroke='currentColor'/><text x='290' y='33' text-anchor='middle' fill='currentColor'>Cristaux visibles à l'œil nu ?</text><line x1='290' y1='46' x2='150' y2='86' stroke='currentColor'/><line x1='290' y1='46' x2='430' y2='86' stroke='currentColor'/><text x='198' y='70' text-anchor='end' fill='#e11d48' font-weight='bold'>Oui</text><text x='382' y='70' fill='#e11d48' font-weight='bold'>Non</text><rect x='40' y='86' width='220' height='36' fill='currentColor' fill-opacity='0.08' stroke='currentColor'/><text x='150' y='109' text-anchor='middle' fill='currentColor'>Roche claire ou sombre ?</text><rect x='320' y='86' width='220' height='36' fill='currentColor' fill-opacity='0.08' stroke='currentColor'/><text x='430' y='109' text-anchor='middle' fill='currentColor'>Roche claire ou sombre ?</text><line x1='150' y1='122' x2='80' y2='170' stroke='currentColor'/><line x1='150' y1='122' x2='220' y2='170' stroke='currentColor'/><line x1='430' y1='122' x2='360' y2='170' stroke='currentColor'/><line x1='430' y1='122' x2='500' y2='170' stroke='currentColor'/><text x='100' y='150' text-anchor='end' fill='currentColor'>claire</text><text x='198' y='150' fill='currentColor'>sombre</text><text x='380' y='150' text-anchor='end' fill='currentColor'>claire</text><text x='478' y='150' fill='currentColor'>sombre</text><rect x='20' y='170' width='120' height='36' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='80' y='193' text-anchor='middle' fill='currentColor' font-weight='bold'>Granite</text><rect x='160' y='170' width='120' height='36' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='220' y='193' text-anchor='middle' fill='currentColor' font-weight='bold'>Gabbro</text><rect x='300' y='170' width='120' height='36' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='360' y='193' text-anchor='middle' fill='currentColor' font-weight='bold'>Rhyolite</text><rect x='440' y='170' width='120' height='36' fill='#e11d48' fill-opacity='0.12' stroke='#e11d48'/><text x='500' y='193' text-anchor='middle' fill='currentColor' font-weight='bold'>Basalte</text><text x='150' y='226' text-anchor='middle' fill='currentColor'>Texture grenue : roche plutonique</text><text x='430' y='226' text-anchor='middle' fill='currentColor'>Texture microgrenue : roche volcanique</text></svg>",
+          "legende": "Clé simplifiée. L'obsidienne (verre noir) et la pierre ponce (verre à bulles) n'ont pas de cristaux et ne figurent pas ici (leçon 3)."
+        },
+        {
+          "type": "methode",
+          "titre": "Identifier une roche magmatique",
+          "texte": "1. Regarder si l'on voit des cristaux à l'œil nu (avec une loupe si besoin) : texture grenue ou microgrenue ? S'il n'y a pas de cristaux et que la roche ressemble à du verre, c'est une obsidienne.\n2. Noter la couleur : claire (quartz, feldspath, mica) ou sombre (olivine, pyroxène).\n3. Chercher les minéraux reconnaissables : quartz gris translucide, feldspath blanc ou rosé, mica noir en paillettes, olivine verte.\n4. Vérifier avec la densité : environ 2,7 pour une roche claire, environ 3,0 pour une roche sombre.\n5. Utiliser la clé pour donner le nom de la roche."
+        },
+        {
+          "type": "tableau",
+          "titre": "Granite et basalte : comparaison",
+          "entetes": ["Critère", "Granite", "Basalte"],
+          "lignes": [
+            ["Famille et texture", "Plutonique, grenue", "Volcanique, microgrenue"],
+            ["Couleur", "Claire (gris, blanc, rosé), tachetée de noir", "Sombre (gris foncé à noir)"],
+            ["Minéraux", "Quartz, feldspath, mica", "Olivine, pyroxène, feldspath, oxydes de fer"],
+            ["Silice du magma", "environ 70 %", "environ 50 %"],
+            ["Densité", "environ 2,7", "environ 3,0"],
+            ["Refroidissement", "Très lent, en profondeur", "Rapide, en surface ou au fond de la mer"],
+            ["Où le trouve-t-on ?", "Croûte continentale", "Croûte océanique, dorsales, points chauds, coulées sur les continents"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Le lien avec la tectonique des plaques",
+          "texte": "Le basalte naît surtout aux dorsales et sur les points chauds, comme à La Réunion (chapitre 19) : il forme la croûte océanique. Le granite se forme surtout en profondeur dans la croûte continentale, souvent lors de la formation des chaînes de montagnes (subduction, collision). C'est pourquoi on dit que les océans sont en basalte et les continents en granite, même si la croûte continentale contient aussi d'autres roches."
+        },
+        {
+          "type": "tableau",
+          "titre": "Granite et basalte à Madagascar (d'après le fascicule du ministère)",
+          "entetes": ["Roche", "Lieux signalés"],
+          "lignes": [
+            ["Granite", "Vavavato, Ambatofinandrahana, Ilakaka ; petits gisements à Manongarivo, Behenjy et Lokobe"],
+            ["Basalte", "Androy (extrême sud) ; Mahanoro et Vatomandry (côte est) ; Alaotra, Tampoketsa, Itasy et Ankaratra (hautes terres et leurs environs) ; de Vohémar jusqu'au cap Masoala (nord-est) ; cap Saint-André et Besalampy (ouest)"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Des listes non complètes",
+          "texte": "Ces listes citent seulement des exemples : il existe d'autres gisements dans l'île. Le basalte de l'Itasy et de l'Ankaratra est lié aux volcans de ces régions (chapitre 17). Les grandes coulées de basalte du sud, du nord et de l'ouest, comme celles d'Androy et de Vohémar, sont d'origine plus ancienne."
+        },
+        {
+          "type": "tableau",
+          "titre": "À quoi servent le granite et le basalte ?",
+          "entetes": ["Roche", "Utilisations"],
+          "lignes": [
+            ["Granite", "Fondations et murs, escaliers, dallages, bordures de trottoir, pavés, pierres tombales et monuments ; gravier concassé pour le béton"],
+            ["Basalte", "Empierrement et couche de base des routes, ballast des voies ferrées, moellons pour les murs et les fondations, gravillon pour le béton"]
+          ]
+        },
+        {
+          "type": "remarque",
+          "titre": "Roches et sols",
+          "texte": "En s'altérant, les roches donnent les éléments du sol (chapitre 23). Les sols issus du basalte sont souvent riches en éléments minéraux utiles aux plantes, alors que ceux issus du granite sont plutôt sableux et plus pauvres."
+        },
+        {
+          "type": "remarque",
+          "titre": "Les carrières : sécurité et environnement",
+          "texte": "Pour extraire les roches, on exploite des carrières. Le travail y est dangereux : éboulements, éclats de pierre, bruit, poussières qui abîment les poumons. Les ouvriers doivent porter un casque, des lunettes, un masque et des gants. Les enfants ne doivent pas travailler dans les carrières.\nUne carrière transforme aussi le paysage : poussières, érosion, pollution de l'eau. Après l'exploitation, il faut remettre le site en état, par exemple en replantant."
+        },
+        {
+          "type": "remarque",
+          "titre": "Et après ? Vers le cycle des roches",
+          "texte": "Les roches magmatiques qui arrivent à la surface s'usent peu à peu. Leurs débris forment des sédiments, qui deviennent des roches sédimentaires. Les roches magmatiques et sédimentaires peuvent aussi être transformées en roches métamorphiques, ou fondre et redonner du magma : c'est le cycle des roches, étudié au chapitre 22."
+        },
+        {
+          "type": "tableau",
+          "titre": "Mots difficiles",
+          "entetes": ["Mot", "Sens"],
+          "lignes": [
+            ["Rhyolite", "Roche volcanique claire, de même composition que le granite"],
+            ["Gabbro", "Roche plutonique sombre, de même composition que le basalte"],
+            ["Clé de détermination", "Suite de questions qui mène au nom d'une roche ou d'un être vivant"],
+            ["Gisement", "Endroit où se trouve une roche ou un minéral en quantité utile"],
+            ["Carrière", "Lieu où l'on extrait de la roche"],
+            ["Empierrement", "Couche de pierres concassées pour construire une route"],
+            ["Ballast", "Pierres concassées sous les rails d'une voie ferrée"],
+            ["Moellon", "Pierre de construction, peu taillée"]
+          ]
+        },
+        {
+          "type": "exercice",
+          "titre": "À toi de jouer",
+          "enonce": "Dans une carrière de granite, un bloc mesure 2 m de long, 1 m de large et 0,5 m d'épaisseur. La masse volumique du granite est de 2 700 kg/m³.\n1. Calcule le volume du bloc, puis sa masse.\n2. On le découpe en dalles de 0,5 m sur 0,5 m et de 0,05 m d'épaisseur. Combien de dalles obtient-on au maximum, sans perte ? Quelle est la masse d'une dalle ?\n3. Avec la clé de la leçon, nomme les deux échantillons : X est sombre, avec de gros cristaux visibles ; Y est clair, avec des cristaux invisibles à l'œil nu.\n4. Pourquoi un granite et une rhyolite peuvent-ils avoir la même composition mais un aspect différent ?\n5. Cite deux régions de Madagascar où l'on trouve du basalte et une utilisation du basalte.",
+          "solution": "1. Volume : 2 × 1 × 0,5 = 1 m³. Masse : 1 × 2 700 = 2 700 kg.\n2. Volume d'une dalle : 0,5 × 0,5 × 0,05 = 0,0125 m³. Nombre de dalles : 1 ÷ 0,0125 = 80 dalles. Masse d'une dalle : 2 700 ÷ 80 = 33,75 kg (vérification : 0,0125 × 2 700 = 33,75 kg).\n3. X : cristaux visibles (grenue) et sombre : c'est un gabbro. Y : cristaux invisibles (microgrenue) et claire : c'est une rhyolite.\n4. Le granite a refroidi lentement en profondeur : ses cristaux sont gros et visibles (texture grenue). La rhyolite a refroidi vite en surface : ses cristaux sont très petits (texture microgrenue).\n5. Par exemple : l'Androy et l'Itasy (ou l'Ankaratra, Vohémar, Besalampy...). Utilisations possibles : empierrement des routes, ballast des voies ferrées, moellons, gravillon pour le béton."
+        }
+      ]
+    }
+  ]
+}
