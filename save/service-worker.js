@@ -1,0 +1,202 @@
+const CACHE_VERSION = 'guide-v44';
+
+const APP_SHELL = [
+  './',
+  './index.html',
+  './manifest.json',
+  './css/style.css',
+  './css/examen.css',
+  './js/app.js',
+  './js/examen.js',
+  './js/partage.js',
+  './icons/icon.svg',
+  './icons/icon.png',
+  './icons/icon-192.png',
+  './icons/icon-512.png',
+  './icons/qr-guide.png',
+
+  './data/3e/mathematiques/composante-1.json',
+  './data/3e/mathematiques/composante-2.json',
+  './data/3e/mathematiques/composante-3.json',
+  './data/3e/mathematiques/composante-4.json',
+  './data/3e/mathematiques/composante-5.json',
+
+  './data/3e/francais/composante-1.json',
+  './data/3e/francais/composante-2.json',
+  './data/3e/francais/composante-3.json',
+  './data/3e/francais/composante-4.json',
+  './data/3e/francais/composante-5.json',
+  './data/3e/francais/composante-6.json',
+  './data/3e/francais/composante-7.json',
+
+  './data/3e/anglais/composante-1.json',
+  './data/3e/anglais/composante-2.json',
+  './data/3e/anglais/composante-3.json',
+  './data/3e/anglais/composante-4.json',
+  './data/3e/anglais/composante-5.json',
+  './data/3e/anglais/composante-6.json',
+  './data/3e/anglais/composante-7.json',
+  './data/3e/anglais/composante-8.json',
+
+  './data/3e/svt/composante-1.json',
+  './data/3e/svt/composante-2.json',
+  './data/3e/svt/composante-3.json',
+  './data/3e/svt/composante-4.json',
+  './data/3e/svt/composante-5.json',
+  './data/3e/svt/composante-6.json',
+  './data/3e/svt/composante-7.json',
+  './data/3e/svt/composante-8.json',
+  './data/3e/svt/composante-9.json',
+  './data/3e/svt/composante-10.json',
+  './data/3e/svt/composante-11.json',
+
+  './data/3e/sciences-physiques/composante-1.json',
+  './data/3e/sciences-physiques/composante-2.json',
+  './data/3e/sciences-physiques/composante-3.json',
+  './data/3e/sciences-physiques/composante-4.json',
+  './data/3e/sciences-physiques/composante-5.json',
+  './data/3e/sciences-physiques/composante-6.json',
+  './data/3e/sciences-physiques/composante-7.json',
+  './data/3e/sciences-physiques/composante-8.json',
+  './data/3e/sciences-physiques/composante-9.json',
+  './data/3e/sciences-physiques/composante-10.json',
+  './data/3e/sciences-physiques/composante-11.json',
+
+  './data/3e/histoire/composante-1.json',
+  './data/3e/histoire/composante-2.json',
+  './data/3e/histoire/composante-3.json',
+  './data/3e/histoire/composante-4.json',
+  './data/3e/histoire/composante-5.json',
+  './data/3e/histoire/composante-6.json',
+  './data/3e/histoire/composante-7.json',
+  './data/3e/histoire/composante-8.json',
+  './data/3e/histoire/composante-9.json',
+  './data/3e/histoire/composante-10.json',
+
+  './data/3e/geographie/composante-1.json',
+  './data/3e/geographie/composante-2.json',
+  './data/3e/geographie/composante-3.json',
+  './data/3e/geographie/composante-4.json',
+  './data/3e/geographie/composante-5.json',
+  './data/3e/geographie/composante-6.json',
+  './data/3e/geographie/composante-7.json',
+  './data/3e/geographie/composante-8.json',
+  './data/3e/geographie/composante-9.json',
+
+  './data/3e/exercices/exercices-mathematiques.json',
+  './data/3e/exercices/exercices-anglais.json',
+  './data/3e/exercices/exercices-sciences-physiques.json',
+  './data/3e/exercices/exercices-sciences-physiques-2.json',
+  './data/3e/exercices/exercices-sciences-physiques-3.json',
+  './data/3e/exercices/exercices-sciences-physiques-4.json',
+  './data/3e/exercices/exercices-sciences-physiques-5.json',
+  './data/3e/exercices/exercices-sciences-physiques-6.json',
+  './data/3e/exercices/exercices-sciences-physiques-7.json',
+  './data/3e/exercices/exercices-svt.json',
+  './data/3e/exercices/exercices-svt-2.json',
+  './data/3e/exercices/exercices-svt-3.json',
+  './data/3e/exercices/exercices-svt-4.json',
+  './data/3e/exercices/exercices-francais.json',
+  './data/3e/exercices/exercices-histoire.json',
+  './data/3e/exercices/exercices-geographie.json',
+
+  './data/3e/sujets/sujets-mathematiques-A.json',
+  './data/3e/sujets/sujets-mathematiques-B.json',
+  './data/3e/sujets/sujets-sciences-physiques-A.json',
+  './data/3e/sujets/sujets-sciences-physiques-B.json',
+  './data/3e/sujets/sujets-sciences-physiques-C.json',
+  './data/3e/sujets/sujets-svt-A.json',
+  './data/3e/sujets/sujets-svt-B.json',
+  './data/3e/sujets/sujets-svt-C.json',
+
+  './data/4e/mathematiques/composante-1.json',
+  './data/4e/mathematiques/composante-2.json',
+  './data/4e/mathematiques/composante-3.json',
+  './data/4e/mathematiques/composante-4.json',
+  './data/4e/mathematiques/composante-5.json',
+  './data/4e/mathematiques/composante-6.json',
+  './data/4e/mathematiques/composante-7.json',
+  './data/4e/mathematiques/composante-8.json',
+  './data/4e/mathematiques/composante-9.json',
+  './data/4e/mathematiques/composante-10.json',
+  './data/4e/mathematiques/composante-11.json',
+  './data/4e/mathematiques/composante-12.json',
+
+  './data/4e/sciences-physiques/composante-1.json',
+  './data/4e/sciences-physiques/composante-2.json',
+  './data/4e/sciences-physiques/composante-3.json',
+  './data/4e/sciences-physiques/composante-4.json',
+  './data/4e/sciences-physiques/composante-5.json',
+  './data/4e/sciences-physiques/composante-6.json',
+  './data/4e/sciences-physiques/composante-7.json',
+  './data/4e/sciences-physiques/composante-8.json',
+  './data/4e/sciences-physiques/composante-9.json',
+  './data/4e/sciences-physiques/composante-10.json',
+  './data/4e/sciences-physiques/composante-11.json',
+  './data/4e/sciences-physiques/composante-12.json',
+  './data/4e/sciences-physiques/composante-13.json',
+  './data/4e/sciences-physiques/composante-14.json',
+  './data/4e/sciences-physiques/composante-15.json',
+  './data/4e/sciences-physiques/composante-16.json',
+
+  './data/4e/exercices/exercices-mathematiques.json',
+  './data/4e/exercices/exercices-mathematiques-2.json',
+  './data/4e/exercices/exercices-mathematiques-3.json',
+  './data/4e/exercices/exercices-mathematiques-4.json',
+  './data/4e/exercices/exercices-mathematiques-5.json',
+  './data/4e/exercices/exercices-mathematiques-6.json',
+  './data/4e/exercices/exercices-mathematiques-7.json',
+  './data/4e/exercices/exercices-mathematiques-8.json',
+  './data/4e/exercices/exercices-mathematiques-9.json',
+  './data/4e/exercices/exercices-mathematiques-10.json',
+  './data/4e/exercices/exercices-mathematiques-11.json',
+  './data/4e/exercices/exercices-mathematiques-12.json',
+
+  './data/4e/exercices/exercices-sciences-physiques.json',
+  './data/4e/exercices/exercices-sciences-physiques-5.json',
+  './data/4e/exercices/exercices-sciences-physiques-6.json',
+  './data/4e/exercices/exercices-sciences-physiques-10.json',
+  './data/4e/exercices/exercices-sciences-physiques-14.json',
+
+  './data/4e/sujets/sujets-mathematiques-A.json',
+  './data/4e/sujets/sujets-sciences-physiques-A.json'
+];
+
+self.addEventListener('install', (event) => {
+  event.waitUntil(
+    caches.open(CACHE_VERSION).then((cache) =>
+      Promise.all(
+        APP_SHELL.map((url) =>
+          cache.add(new Request(url, { cache: 'reload' })).catch(() => {})
+        )
+      )
+    ).then(() => self.skipWaiting())
+  );
+});
+
+self.addEventListener('activate', (event) => {
+  event.waitUntil(
+    caches.keys().then((cles) =>
+      Promise.all(
+        cles
+          .filter((cle) => cle !== CACHE_VERSION)
+          .map((cle) => caches.delete(cle))
+      )
+    ).then(() => self.clients.claim())
+  );
+});
+
+self.addEventListener('fetch', (event) => {
+  if (event.request.method !== 'GET') return;
+  event.respondWith(
+    caches.match(event.request).then((enCache) => {
+      if (enCache) return enCache;
+      return fetch(event.request).catch(() => {
+        if (event.request.mode === 'navigate') {
+          return caches.match('./index.html');
+        }
+        return Response.error();
+      });
+    })
+  );
+});
