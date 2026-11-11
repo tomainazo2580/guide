@@ -1,4 +1,4 @@
-var CACHE = 'guide-v2.0';
+var CACHE = 'guide-v2.1';
 
 var FICHIERS = [
   './',
@@ -14,7 +14,11 @@ var FICHIERS = [
 
 self.addEventListener('install', function(e) {
   e.waitUntil(
-    caches.open(CACHE).then(function(cache) { return cache.addAll(FICHIERS); })
+    caches.open(CACHE).then(function(cache) {
+      return Promise.all(FICHIERS.map(function(f) {
+        return cache.add(f).catch(function() { return null; });
+      }));
+    })
   );
   self.skipWaiting();
 });
