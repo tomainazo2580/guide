@@ -2,106 +2,27 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="theme-color" content="#1e3a5f">
-<title>Guide — Réussis ton année</title>
+<title>Guide — Révisions Madagascar</title>
 <link rel="manifest" href="manifest.json">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<header id="entete">
-  <button id="btn-retour" class="btn-icone" onclick="retourArriere()" style="visibility:hidden">←</button>
-  <div id="entete-titre" onclick="allerAccueil()">📘 Guide</div>
-  <button class="btn-icone" onclick="allerAccueil()">🏠</button>
+<header class="haut">
+  <div class="haut-titre">📘 Guide</div>
+  <div class="haut-sous-titre">Réussis ton année scolaire 🇲🇬</div>
 </header>
 
-<main id="contenu">
+<main id="ecran" class="ecran"></main>
 
-  <section id="vue-classes" class="vue">
-    <div class="accroche">Réussis ton année scolaire 🇲🇬</div>
-    <div class="sous-accroche">Leçons, exercices corrigés et mode examen — même hors ligne.</div>
-    <div id="liste-classes"></div>
-    <div class="lien-apropo" onclick="ouvrirAPropos()">ℹ️ À propos de Guide</div>
-  </section>
+<footer class="pied">
+  <a href="#" id="lien-propos">ℹ️ À propos de Guide</a>
+</footer>
 
-  <section id="vue-matieres" class="vue cache">
-    <h2 id="titre-classe"></h2>
-    <div id="liste-matieres"></div>
-  </section>
-
-  <section id="vue-chapitres" class="vue cache">
-    <h2 id="titre-matiere"></h2>
-    <div id="bandeau-premium"></div>
-    <div id="liste-chapitres"></div>
-  </section>
-
-  <section id="vue-chapitre" class="vue cache">
-    <h2 id="titre-chapitre"></h2>
-    <div class="onglets">
-      <button id="onglet-lecons" class="onglet actif" onclick="afficherOnglet('lecons')">📖 Leçons</button>
-      <button id="onglet-exercices" class="onglet" onclick="afficherOnglet('exercices')">✏️ Exercices</button>
-    </div>
-    <div id="zone-lecons"></div>
-    <div id="zone-exercices" class="cache"></div>
-  </section>
-
-  <section id="vue-examen" class="vue cache">
-    <div id="zone-examen"></div>
-  </section>
-
-  <section id="vue-notes" class="vue cache">
-    <h2>📊 Mes notes</h2>
-    <div id="liste-notes"></div>
-  </section>
-
-  <section id="vue-apropos" class="vue cache">
-    <h2>ℹ️ À propos</h2>
-    <div class="carte">
-      <p><b>Guide</b> t'accompagne de la 6ème à la Terminale : leçons claires, exercices corrigés en 4 niveaux et sujets d'examen.</p>
-      <p class="mention-officiel">🇲🇬 Basée sur le programme officiel de Madagascar, complétée par Guide.</p>
-      <p id="apropos-version" class="petit"></p>
-    </div>
-    <div class="carte">
-      <h3>💎 Passer en Premium</h3>
-      <p class="petit">Le Premium débloque, pour une matière : les exercices de niveau 4, les chapitres stratégiques et le mode examen illimité.</p>
-      <div id="apropos-statut"></div>
-      <p class="petit">Ton identifiant appareil :</p>
-      <div class="id-appareil" id="apropos-id"></div>
-      <button class="btn-secondaire" onclick="copierId()">📋 Copier mon identifiant</button>
-      <p class="petit">Envoie ton identifiant par 💬 <b>Tsiky</b> (la messagerie malgache gratuite) au <b>034 39 949 07</b> pour recevoir ta clé après paiement (Mvola, Orange Money ou Airtel Money).</p>
-      <input type="text" id="champ-cle" placeholder="Entre ta clé (ex : 123-456)" inputmode="numeric">
-      <button class="btn-principal" onclick="activerCle()">Activer ma clé</button>
-      <div id="msg-cle"></div>
-    </div>
-    <div class="carte">
-      <button class="btn-danger" onclick="reinitialiser()">🗑️ Réinitialiser ma progression</button>
-      <p class="petit">⚠️ Si tu effaces les données de Chrome, ta clé et ta progression seront perdues.</p>
-    </div>
-  </section>
-
-</main>
-
-<div id="verrou-examen" class="cache">
-  <div class="verrou-boite">
-    <div class="verrou-icone">📝</div>
-    <h2>Examen en cours</h2>
-    <div id="verrou-temps" class="verrou-temps"></div>
-    <p>Les leçons et exercices sont verrouillés jusqu'à la fin de l'épreuve.</p>
-    <button class="btn-principal" onclick="retournerExamen()">Retourner à mon épreuve</button>
-  </div>
-</div>
-
-<div id="toast" class="cache"></div>
-
-<script>
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('service-worker.js');
-}
-</script>
-<script src="js/cles.js"></script>
 <script src="js/data.js"></script>
 <script src="js/app.js"></script>
-<script src="js/examen.js"></script>
+
 </body>
 </html>
