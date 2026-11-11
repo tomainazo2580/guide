@@ -265,3 +265,55 @@ enregistrerChapitres('6e', 'maths', [
     ]
   }
 ]);
+    exercices: [
+      {
+        niveau: 1,
+        points: 2,
+        enonce: 'Un gâteau est coupé en 8 parts égales. Koto mange 3 parts.\n1. Quelle fraction du gâteau a-t-il mangée ?\n2. Quelle fraction reste-t-il ?',
+        correction: '1. Koto a mangé 3/8 du gâteau (3 parts sur 8).\n2. Il reste 8 - 3 = 5 parts, soit 5/8 du gâteau.'
+      },
+      {
+        niveau: 1,
+        points: 2,
+        enonce: 'Dans la fraction 5/6 :\n1. Quel est le numérateur ?\n2. Quel est le dénominateur ?\n3. Comment lit-on cette fraction ?',
+        correction: '1. Le numérateur est 5 (le nombre du haut).\n2. Le dénominateur est 6 (le nombre du bas).\n3. On lit « cinq sixièmes ».'
+      },
+      {
+        niveau: 2,
+        points: 3,
+        enonce: '1. Trouve deux fractions équivalentes à 3/5.\n2. Simplifie 14/21 au maximum.\n3. Écris 9/4 sous forme d\'un nombre fractionnaire.',
+        correction: '1. Par exemple : 3/5 = 6/10 (×2) et 3/5 = 9/15 (×3).\n2. 14 et 21 sont divisibles par 7 : 14/21 = 2/3. C\'est irréductible.\n3. 9 = 4×2 + 1, donc 9/4 = 2 1/4.'
+      },
+      {
+        niveau: 2,
+        points: 3,
+        enonce: 'Range dans l\'ordre croissant : 7/12 ; 1/2 ; 2/3 ; 5/12.',
+        correction: 'On met tout au dénominateur 12 :\n• 1/2 = 6/12\n• 2/3 = 8/12\nOn a donc : 5/12 < 6/12 < 7/12 < 8/12.\nOrdre croissant : 5/12 < 1/2 < 7/12 < 2/3.'
+      },
+      {
+        niveau: 3,
+        points: 4,
+        enonce: 'Une bouteille contient 3/4 de litre de jus. On remplit des verres de 1/8 de litre chacun.\nCombien de verres entiers peut-on remplir ?',
+        correction: 'On cherche combien de fois 1/8 est contenu dans 3/4.\nOn écrit 3/4 avec le dénominateur 8 : 3/4 = 6/8.\n6/8 contient exactement 6 fois 1/8.\nOn peut remplir 6 verres entiers.'
+      },
+      {
+        niveau: 3,
+        points: 4,
+        enonce: 'Dans une classe de 36 élèves, 2/3 des élèves sont des filles.\n1. Combien y a-t-il de filles ?\n2. Combien y a-t-il de garçons ?\n3. Quelle fraction de la classe représentent les garçons ?',
+        correction: '1. 36 × 2/3 = 24 filles.\n2. 36 - 24 = 12 garçons.\n3. 12/36 = 1/3 de la classe (on simplifie par 12).'
+      },
+      {
+        niveau: 4,
+        points: 5,
+        enonce: 'Trois amis se partagent une somme d\'argent. Le premier reçoit 1/3 de la somme, le deuxième reçoit 1/4 de la somme.\n1. Quelle fraction de la somme les deux premiers ont-ils reçue ensemble ?\n2. Quelle fraction reste-t-il pour le troisième ?\n3. La somme totale est de 60 000 Ar. Calcule la part de chacun.',
+        correction: '1. Dénominateur commun 12 : 1/3 = 4/12 et 1/4 = 3/12. Ensemble : 4/12 + 3/12 = 7/12.\n2. Il reste 12/12 - 7/12 = 5/12 pour le troisième.\n3. Premier : 60 000 × 1/3 = 20 000 Ar. Deuxième : 60 000 × 1/4 = 15 000 Ar. Troisième : 60 000 × 5/12 = 25 000 Ar. Vérification : 20 000 + 15 000 + 25 000 = 60 000 ✓'
+      },
+      {
+        niveau: 4,
+        points: 5,
+        enonce: 'Un réservoir est rempli aux 5/6. On utilise 1/3 du réservoir entier pour arroser le jardin.\n1. Quelle fraction du réservoir reste-t-il ?\n2. Le réservoir contient 240 L quand il est plein. Combien de litres restent ?\n3. Peut-on encore remplir un bidon de 100 L ?',
+        correction: '1. Dénominateur commun 6 : 5/6 - 1/3 = 5/6 - 2/6 = 3/6 = 1/2. Il reste la moitié du réservoir.\n2. 240 × 1/2 = 120 L.\n3. Oui : 120 L > 100 L, il reste assez d\'eau (il restera même 20 L).'
+      }
+    ]
+  }
+]);
