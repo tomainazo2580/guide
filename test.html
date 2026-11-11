@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Test Guide</title>
+<style>
+body{font-family:Arial,sans-serif;padding:16px;background:#f8fafc;color:#1e293b;font-size:15px;line-height:1.5}
+.bloc{background:#fff;border:2px solid #e2e8f0;border-radius:10px;padding:10px 12px;margin:10px 0;word-break:break-word}
+.ok{border-color:#16a34a;color:#15803d;font-weight:bold}
+.ko{border-color:#dc2626;color:#dc2626;font-weight:bold}
+h1{font-size:20px}
+code{background:#f1f5f9;padding:1px 5px;border-radius:4px}
+</style>
+</head>
+<body>
+<h1>🔍 Test Guide</h1>
+<p>Envoie une capture de cette page.</p>
+<div id="r"></div>
+<script>
+var R = document.getElementById('r');
+function log(html, etat) {
+  var d = document.createElement('div');
+  d.className = 'bloc' + (etat === true ? ' ok' : etat === false ? ' ko' : '');
+  d.innerHTML = html;
+  R.appendChild(d);
+}
+window.onerror = function(msg, src, ligne) {
+  log('ERREUR JS : ' + msg + '<br>Fichier : ' + src + '<br>Ligne : ' + ligne, false);
+  return false;
+};
+function chargerScript(url) {
+  return new Promise(function(res, rej) {
+    var s = document.createElement('script');
+    s.src = url;
+    s.onload = res;
+    s.onerror = rej;
+    document.head.appendChild(s);
+  });
+}
+fetch('index.html').then(function(r) { return r.text(); }).then(function(html) {
+  var trouve = html.indexOf('data/6e/mathematiques.js') !== -1;
+  log('index.html mentionne <code>data/6e/mathematiques.js</code> : ' + (trouve ? 'OUI' : 'NON'), trouve);
+  var srcs = html.match(/src="[^"]*"/g);
+  log('Scripts trouves dans index.html :<br>' + (srcs ? srcs.join('<br>') : 'aucun'));
+}).catch(function(e) {
+  log('Lecture de index.html impossible : ' + e, false);
+}).then(function() {
+  return chargerScript('js/data.js').then(function() {
+    log('<code>js/data.js</code> charge : OUI', true);
+    log('Fonction <code>enregistrerChapitres</code> presente : ' + ((typeof enregistrerChapitres === 'function') ? 'OUI' : 'NON'), typeof enregistrerChapitres === 'function');
+  }).catch(function() {
+    log('<code>js/data.js</code> charge : NON', false);
+  });
+}).then(function() {
+  return chargerScript('data/6e/mathematiques.js').then(function() {
+    log('<code>data/6e/mathematiques.js</code> charge : OUI', true);
+  }).catch(function() {
+    log('<code>data/6e/mathematiques.js</code> charge : NON', false);
+  });
+}).then(function() {
+  if (typeof CONTENU === 'undefined') {
+    log('CONTENU indefini : data.js ne fonctionne pas', false);
+    return;
+  }
+  var cles = Object.keys(CONTENU);
+  log('Matieres enregistrees : ' + (cles.length ? cles.join(' , ') : 'AUCUNE'), cles.length > 0);
+  var ch = CONTENU['6e|maths'];
+  if (ch && ch.length) {
+    var nb = 0;
+    ch.forEach(function(c) { nb += (c.exercices || []).length; });
+    log('Chapitres : ' + ch.length + ' — Exercices : ' + nb, true);
+    log('Premier chapitre : ' + ch[0].titre, true);
+  } else {
+    log('Chapitres 6e|maths : AUCUN', false);
+  }
+  log('Fin du test');
+});
+</script>
+</body>
+</html>
