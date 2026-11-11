@@ -1,6 +1,6 @@
 // ===== GUIDE - Registre des classes, matières, prix et contenus =====
 
-var VERSION = 'v2.0';
+var VERSION = 'v2.1';
 
 var CLASSES = [
   { id: '6e',   nom: '6ème',      dispo: true  },
@@ -29,7 +29,6 @@ var PRIX = {
 
 var DUREE_EXAMEN_MIN = 120;
 
-// ----- Contenus : remplis par les fichiers data/<classe>/<matiere>.js -----
 var CONTENU = {};
 
 function enregistrerChapitres(classeId, matiereId, chapitres) {
@@ -40,7 +39,6 @@ function contenuDe(classeId, matiereId) {
   return CONTENU[classeId + '|' + matiereId] || [];
 }
 
-// ----- Petits utilitaires -----
 function classeDe(classeId) {
   for (var i = 0; i < CLASSES.length; i++) {
     if (CLASSES[i].id === classeId) return CLASSES[i];
