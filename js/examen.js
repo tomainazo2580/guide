@@ -55,9 +55,11 @@ function demarrerExamen() {
   var examens = [];
   var total = 0;
   for (var i = 0; i < choix.length; i++) {
-    if (choix[i]) { examens.push ? null : null; examens_choix(choix[i]); }
+    if (choix[i]) {
+      examens.push(choix[i]);
+      total += choix[i].points;
+    }
   }
-  function examens_choix(ex) { examens.push(ex); total += ex.points; }
 
   examenEtat = {
     classe: classeActive,
@@ -73,7 +75,7 @@ function demarrerExamen() {
   afficherEpreuve();
   lancerMinuteur();
   majVerrouExamen();
-  toast('📝 Examen lancé ! ' + DUREE_EXAMEN_MIN / 60 + ' heures. Bon courage !');
+  toast('📝 Examen lancé ! ' + (DUREE_EXAMEN_MIN / 60) + ' heures. Bon courage !');
 }
 
 function banqueExercices(classeId, matiereId) {
@@ -248,8 +250,8 @@ function majVerrouExamen() {
   var verrou = document.getElementById('verrou-examen');
   var vueExamenVisible = !document.getElementById('vue-examen').classList.contains('cache');
   if (enc && !enc.termine && !vueExamenVisible) {
-    verrou.classList.remove('cache');
     if (examenEtat !== enc) { examenEtat = enc; lancerMinuteur(); }
+    verrou.classList.remove('cache');
   } else {
     verrou.classList.add('cache');
   }
@@ -264,9 +266,22 @@ function retournerExamen() {
   majVerrouExamen();
 }
 
-// Verrou quand on navigue (les fonctions d'app.js appellent majVerrouExamen via afficherVue)
+// ---------- Verrou activé à chaque navigation ----------
 var _afficherVueOriginale = afficherVue;
 afficherVue = function(id) {
   _afficherVueOriginale(id);
   setTimeout(majVerrouExamen, 50);
 };
+
+// ---------- Restauration à la réouverture de l'app ----------
+window.addEventListener('load', function() {
+  var enc = examenEnCours();
+  if (!enc) return;
+  examenEtat = enc;
+  if (enc.termine) {
+    afficherCorrection();
+  } else {
+    lancerMinuteur();
+    majVerrouExamen();
+  }
+});
