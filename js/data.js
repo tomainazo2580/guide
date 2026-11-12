@@ -1,7 +1,7 @@
 // ===== GUIDE - Donnees et configuration =====
-// v3.3
+// v3.4
 
-var VERSION = 'v3.3';
+var VERSION = 'v3.4';
 
 var CLASSES = [
   { id: '6e', nom: '6ème', dispo: true },
@@ -21,14 +21,12 @@ var MATIERES = {
   ]
 };
 
-// Contenu enregistre par les fichiers data/
 var CONTENU = {};
 
 function enregistrerChapitres(classeId, matiereId, chapitres) {
   CONTENU[classeId + '|' + matiereId] = chapitres;
 }
 
-// ===== Chargement automatique des fichiers de contenu =====
 function chargerFichierContenu(url) {
   try {
     var xhr = new XMLHttpRequest();
