@@ -1,7 +1,7 @@
 // ===== GUIDE - Moteur de l'application =====
-// v3.5 - rendreBloc restaure (repare le clic sur les lecons) + double version
+// v3.6 - recherche tolerante aux accents et majuscules
 
-var APP_VERSION = 'v3.5';
+var APP_VERSION = 'v3.6';
 
 var ecran = document.getElementById('ecran');
 
@@ -13,6 +13,13 @@ window.onerror = function(message, source, ligne) {
   document.body.appendChild(d);
   return false;
 };
+
+// Fonction magique : enleve les accents et met en minuscule
+function simplifierTexte(texte) {
+  return texte.toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '');
+}
 
 // ---------- Accueil ----------
 function afficherAccueil() {
@@ -182,7 +189,6 @@ function afficherLecon(classeId, matiereId, indexChapitre, indexLecon) {
   afficher(html);
 }
 
-// ===== FIN DU MORCEAU 1 =====
 // ---------- Exercices ----------
 function afficherExercices(classeId, matiereId, index) {
   var chapitres = obtenirChapitres(classeId, matiereId);
@@ -228,8 +234,8 @@ function cacherConfirmation(btn) {
   confirme.classList.add('cache');
   confirme.previousElementSibling.classList.remove('cache');
 }
-
-// ---------- Recherche ----------
+// === FIN MORCEAU 1 ===
+// ---------- Recherche (tolere accents et majuscules) ----------
 function afficherRecherche() {
   majOnglets('recherche');
 
@@ -250,7 +256,7 @@ function afficherRecherche() {
 function rechercher() {
   var champ = document.getElementById('champ-recherche');
   var zone = document.getElementById('resultats-recherche');
-  var requete = champ.value.toLowerCase().trim();
+  var requete = simplifierTexte(champ.value.trim());
 
   if (requete.length < 2) {
     zone.innerHTML = '';
@@ -267,8 +273,9 @@ function rechercher() {
 
     for (var i = 0; i < chapitres.length; i++) {
       var ch = chapitres[i];
+      var titreSimple = simplifierTexte(ch.titre);
 
-      if (ch.titre.toLowerCase().indexOf(requete) !== -1) {
+      if (titreSimple.indexOf(requete) !== -1) {
         resultats.push({
           type: 'chapitre',
           chemin: nomMatiere(classeId, matiereId) + ' — ' + nomClasse(classeId),
@@ -281,7 +288,9 @@ function rechercher() {
 
       for (var j = 0; j < ch.lecons.length; j++) {
         var lecon = ch.lecons[j];
-        if (lecon.titre.toLowerCase().indexOf(requete) !== -1) {
+        var titreLecon = simplifierTexte(lecon.titre);
+        
+        if (titreLecon.indexOf(requete) !== -1) {
           resultats.push({
             type: 'lecon',
             chemin: ch.titre + ' — ' + nomMatiere(classeId, matiereId),
@@ -292,21 +301,25 @@ function rechercher() {
             indexLecon: j
           });
         } else {
+          var trouveDansBlocs = false;
           for (var k = 0; k < lecon.blocs.length; k++) {
             var bloc = lecon.blocs[k];
-            var texte = (bloc.titre || '') + ' ' + (bloc.texte || '');
-            if (texte.toLowerCase().indexOf(requete) !== -1) {
-              resultats.push({
-                type: 'lecon',
-                chemin: ch.titre + ' — ' + nomMatiere(classeId, matiereId),
-                titre: lecon.titre,
-                classeId: classeId,
-                matiereId: matiereId,
-                indexChapitre: i,
-                indexLecon: j
-              });
+            var texte = simplifierTexte((bloc.titre || '') + ' ' + (bloc.texte || ''));
+            if (texte.indexOf(requete) !== -1) {
+              trouveDansBlocs = true;
               break;
             }
+          }
+          if (trouveDansBlocs) {
+            resultats.push({
+              type: 'lecon',
+              chemin: ch.titre + ' — ' + nomMatiere(classeId, matiereId),
+              titre: lecon.titre,
+              classeId: classeId,
+              matiereId: matiereId,
+              indexChapitre: i,
+              indexLecon: j
+            });
           }
         }
       }
@@ -314,7 +327,7 @@ function rechercher() {
   }
 
   if (resultats.length === 0) {
-    zone.innerHTML = '<div class="vide">Aucun résultat pour « ' + requete + ' »</div>';
+    zone.innerHTML = '<div class="vide">Aucun résultat pour « ' + champ.value + ' »<br><small>Essaye sans accent ni majuscule</small></div>';
     return;
   }
 
