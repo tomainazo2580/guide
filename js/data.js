@@ -1,19 +1,7 @@
 // ===== GUIDE - Donnees et configuration =====
-// v2.3
+// v3.1
 
-var VERSION = 'v2.3';
-
-var PRIX = {
-  '6e': 1500,
-  '5e': 1500,
-  '4e': 1500,
-  '3e': 2500,
-  '2nde': 3000,
-  '1ere': 3000,
-  'term': 5000
-};
-
-var DUREE_EXAMEN_MIN = 120;
+var VERSION = 'v3.1';
 
 var CLASSES = [
   { id: '6e', nom: '6ème', dispo: true },
@@ -41,9 +29,6 @@ function enregistrerChapitres(classeId, matiereId, chapitres) {
 }
 
 // ===== Chargement automatique des fichiers de contenu =====
-// Charge chaque fichier data/ des matieres disponibles,
-// de facon synchrone, pour que le contenu soit pret
-// avant l'affichage de l'application.
 function chargerFichierContenu(url) {
   try {
     var xhr = new XMLHttpRequest();
