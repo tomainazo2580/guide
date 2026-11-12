@@ -2,51 +2,34 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<meta name="theme-color" content="#1e3a5f">
-<title>Guide — Révisions Madagascar</title>
-<link rel="manifest" href="manifest.json">
-<link rel="stylesheet" href="css/style.css?v=3.9">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guide - Révisions scolaires Madagascar</title>
 <script>
-// Nettoyage automatique des anciennes versions en cache
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.getRegistrations().then(function(regs) {
     for (var i = 0; i < regs.length; i++) { regs[i].unregister(); }
   });
 }
-if (window.caches) {
+if ('caches' in window) {
   caches.keys().then(function(noms) {
     for (var i = 0; i < noms.length; i++) { caches.delete(noms[i]); }
   });
 }
 </script>
+<link rel="stylesheet" href="css/style.css?v=3.10">
 </head>
 <body>
-
-<header class="haut">
-  <div class="haut-titre">📘 Guide</div>
-  <div class="haut-sous-titre">Réussis ton année scolaire 🇲🇬</div>
+<header>
+  <h1>📘 Guide</h1>
+  <p>Réussis ton année scolaire 🇲🇬</p>
 </header>
-
-<main id="ecran" class="ecran"></main>
-
-<nav class="bas">
-  <button class="bas-btn actif" id="btn-accueil" onclick="afficherAccueil()">
-    <span class="bas-icone">🏠</span>
-    <span class="bas-label">Accueil</span>
-  </button>
-  <button class="bas-btn" id="btn-recherche" onclick="afficherRecherche()">
-    <span class="bas-icone">🔍</span>
-    <span class="bas-label">Recherche</span>
-  </button>
-  <button class="bas-btn" id="btn-propos" onclick="afficherPropos()">
-    <span class="bas-icone">ℹ️</span>
-    <span class="bas-label">À propos</span>
-  </button>
+<main id="ecran"></main>
+<nav class="barre-bas">
+  <button onclick="afficherAccueil()">🏠<br>Accueil</button>
+  <button onclick="afficherRecherche()">🔍<br>Recherche</button>
+  <button onclick="afficherPropos()">ℹ️<br>À propos</button>
 </nav>
-
-<script src="js/data.js?v=3.9"></script>
-<script src="js/app.js?v=3.9"></script>
-
+<script src="js/data.js?v=3.10"></script>
+<script src="js/app.js?v=3.10"></script>
 </body>
 </html>
