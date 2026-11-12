@@ -1,5 +1,5 @@
-// ===== GUIDE - Service Worker minimal =====
-var CACHE = 'guide-v3';
+// ===== GUIDE - Service Worker =====
+var CACHE = 'guide-v3.1';
 
 self.addEventListener('install', function(e) {
   e.waitUntil(
