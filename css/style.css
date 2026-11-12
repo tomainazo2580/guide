@@ -1,4 +1,4 @@
-/* ===== GUIDE - Style ===== */
+/* ===== GUIDE - Style v3.2 ===== */
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -8,6 +8,7 @@ body {
   color: #1e293b;
   font-size: 16px;
   line-height: 1.6;
+  padding-bottom: 140px;
 }
 
 /* ---------- En-tete ---------- */
@@ -34,19 +35,100 @@ body {
   padding: 16px;
   max-width: 600px;
   margin: 0 auto;
-  min-height: 60vh;
 }
 
-/* ---------- Pied ---------- */
-.pied {
-  text-align: center;
-  padding: 20px;
+/* ---------- Barre du bas ---------- */
+.bas {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border-top: 1px solid #e2e8f0;
+  display: flex;
+  justify-content: space-around;
+  padding: 6px 0;
+  z-index: 50;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
-.pied a {
+.bas-btn {
+  background: none;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 6px 12px;
+  cursor: pointer;
+  color: #94a3b8;
+  font-size: 12px;
+}
+
+.bas-btn.actif {
   color: #1e3a5f;
-  text-decoration: none;
-  font-size: 14px;
+}
+
+.bas-icone {
+  font-size: 22px;
+}
+
+.bas-label {
+  font-size: 11px;
+  font-weight: 600;
+}
+
+/* ---------- Boutons flottants lecon ---------- */
+.nav-flottant {
+  position: fixed;
+  bottom: 70px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  z-index: 40;
+  pointer-events: none;
+}
+
+.nav-flottant > button {
+  pointer-events: auto;
+}
+
+.btn-rond {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  cursor: pointer;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.25);
+}
+
+.btn-rond-gauche {
+  background: #1e3a5f;
+  color: #fff;
+}
+
+.btn-rond-centre {
+  background: #fff;
+  color: #1e3a5f;
+  border: 2px solid #1e3a5f;
+}
+
+.btn-rond-droite {
+  background: #1e3a5f;
+  color: #fff;
+}
+
+.btn-rond-exercices {
+  background: #16a34a;
+  color: #fff;
+  font-size: 18px;
 }
 
 /* ---------- Cartes ---------- */
@@ -159,8 +241,8 @@ body {
   cursor: pointer;
 }
 
-/* ---------- Navigation entre lecons ---------- */
-.nav-lecon {
+/* ---------- Navigation lecons (haut de page) ---------- */
+.nav-lecon-haut {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -204,6 +286,45 @@ body {
   padding: 4px 12px;
   border-radius: 20px;
   margin-bottom: 10px;
+}
+
+/* ---------- Recherche ---------- */
+.barre-recherche {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #fff;
+  border: 2px solid #1e3a5f;
+  border-radius: 12px;
+  padding: 10px 14px;
+  margin-bottom: 16px;
+}
+
+.barre-recherche input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #1e293b;
+  background: transparent;
+}
+
+.barre-recherche input::placeholder {
+  color: #94a3b8;
+}
+
+.barre-recherche .icone-loupe {
+  font-size: 20px;
+}
+
+.resultat-recherche {
+  margin-bottom: 8px;
+}
+
+.resultat-chemin {
+  font-size: 13px;
+  color: #64748b;
+  margin-top: 2px;
 }
 
 /* ---------- Titres ---------- */
