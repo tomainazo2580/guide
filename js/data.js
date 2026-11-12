@@ -1,4 +1,4 @@
-var VERSION = 'v3.17';
+var VERSION = 'v3.18';
 
 var CLASSES = [
   { id: '6e', nom: 'Sixième', dispo: true },
@@ -29,7 +29,8 @@ var MATIERES = {
         'data/6e/maths-ch9.js',
         'data/6e/maths-ch10.js',
         'data/6e/maths-ch11.js',
-        'data/6e/maths-ch12.js'
+        'data/6e/maths-ch12.js',
+        'data/6e/maths-ch13.js'
       ]
     },
     { id: 'sp', nom: 'Sciences Physiques', icone: '⚗️', dispo: false },
