@@ -1,41 +1,23 @@
-// ===== GUIDE - Service Worker =====
-var CACHE = 'guide-v3.1';
-
+// ===== GUIDE - Nettoyage du cache =====
+// Ce fichier supprime l'ancien systeme hors-ligne qui melangeait les versions.
 self.addEventListener('install', function(e) {
-  e.waitUntil(
-    caches.open(CACHE).then(function(cache) {
-      return cache.addAll([
-        './',
-        'index.html',
-        'css/style.css',
-        'js/data.js',
-        'js/app.js',
-        'data/6e/mathematiques.js'
-      ]);
-    }).then(function() {
-      return self.skipWaiting();
-    })
-  );
+  self.skipWaiting();
 });
 
 self.addEventListener('activate', function(e) {
   e.waitUntil(
     caches.keys().then(function(noms) {
-      return Promise.all(
-        noms.map(function(nom) {
-          if (nom !== CACHE) return caches.delete(nom);
-        })
-      );
+      return Promise.all(noms.map(function(nom) {
+        return caches.delete(nom);
+      }));
     }).then(function() {
-      return self.clients.claim();
-    })
-  );
-});
-
-self.addEventListener('fetch', function(e) {
-  e.respondWith(
-    caches.match(e.request).then(function(rep) {
-      return rep || fetch(e.request);
+      return self.registration.unregister();
+    }).then(function() {
+      return self.clients.matchAll().then(function(clients) {
+        clients.forEach(function(client) {
+          try { client.navigate(client.url); } catch (err) {}
+        });
+      });
     })
   );
 });
