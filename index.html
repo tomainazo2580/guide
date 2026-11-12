@@ -7,6 +7,19 @@
 <title>Guide — Révisions Madagascar</title>
 <link rel="manifest" href="manifest.json">
 <link rel="stylesheet" href="css/style.css">
+<script>
+// Nettoyage automatique des anciennes versions en cache
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.getRegistrations().then(function(regs) {
+    for (var i = 0; i < regs.length; i++) { regs[i].unregister(); }
+  });
+}
+if (window.caches) {
+  caches.keys().then(function(noms) {
+    for (var i = 0; i < noms.length; i++) { caches.delete(noms[i]); }
+  });
+}
+</script>
 </head>
 <body>
 
