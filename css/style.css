@@ -10,7 +10,7 @@ body {
   line-height: 1.6;
 }
 
-/* ---------- En-tête ---------- */
+/* ---------- En-tete ---------- */
 .haut {
   background: #1e3a5f;
   color: #fff;
@@ -29,7 +29,7 @@ body {
   margin-top: 4px;
 }
 
-/* ---------- Écran principal ---------- */
+/* ---------- Ecran principal ---------- */
 .ecran {
   padding: 16px;
   max-width: 600px;
@@ -49,7 +49,7 @@ body {
   font-size: 14px;
 }
 
-/* ---------- Cartes (boutons) ---------- */
+/* ---------- Cartes ---------- */
 .liste {
   display: flex;
   flex-direction: column;
@@ -101,6 +101,25 @@ body {
   color: #94a3b8;
 }
 
+.carte-exercices {
+  border: 2px solid #1e3a5f;
+  background: #eff6ff;
+}
+
+.numero-lecon {
+  background: #1e3a5f;
+  color: #fff;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
 /* ---------- Badges ---------- */
 .badge-ok {
   background: #dcfce7;
@@ -119,6 +138,15 @@ body {
   border-radius: 20px;
 }
 
+.badge-nb {
+  background: #1e3a5f;
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+
 /* ---------- Boutons ---------- */
 .retour {
   background: none;
@@ -131,20 +159,51 @@ body {
   cursor: pointer;
 }
 
-.btn-correction {
-  background: #16a34a;
-  color: #fff;
-  border: none;
-  border-radius: 8px;
-  padding: 10px 20px;
+/* ---------- Navigation entre lecons ---------- */
+.nav-lecon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.btn-nav {
+  background: #fff;
+  border: 1px solid #cbd5e1;
+  color: #1e3a5f;
+  border-radius: 10px;
+  padding: 12px 18px;
   font-size: 15px;
   font-weight: 600;
   cursor: pointer;
-  margin-top: 10px;
 }
 
-.btn-correction:active {
-  background: #15803d;
+.btn-nav:active {
+  background: #f1f5f9;
+}
+
+.btn-nav-suivant {
+  background: #1e3a5f;
+  color: #fff;
+  border-color: #1e3a5f;
+}
+
+.btn-nav-exercices {
+  background: #16a34a;
+  color: #fff;
+  border-color: #16a34a;
+}
+
+.lecon-progression {
+  display: inline-block;
+  background: #f1f5f9;
+  color: #64748b;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 20px;
+  margin-bottom: 10px;
 }
 
 /* ---------- Titres ---------- */
@@ -160,22 +219,6 @@ body {
   margin: 20px 0 12px;
   padding-bottom: 6px;
   border-bottom: 2px solid #e2e8f0;
-}
-
-/* ---------- Leçons ---------- */
-.bloc-lecon {
-  background: #fff;
-  border: 1px solid #e2e8f0;
-  border-radius: 12px;
-  padding: 16px;
-  margin-bottom: 12px;
-}
-
-.lecon-titre {
-  font-size: 17px;
-  font-weight: bold;
-  color: #1e3a5f;
-  margin-bottom: 12px;
 }
 
 /* ---------- Blocs de contenu ---------- */
@@ -239,7 +282,7 @@ body {
 
 .bloc-formule .bloc-titre { color: #0e7490; }
 
-/* ---------- Schémas ---------- */
+/* ---------- Schemas ---------- */
 .bloc-schema {
   background: #fff;
   border: 1px solid #e2e8f0;
@@ -288,6 +331,16 @@ body {
 }
 
 /* ---------- Exercices ---------- */
+.conseil-exercices {
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 14px;
+  color: #1e40af;
+  margin-bottom: 16px;
+}
+
 .bloc-exercice {
   background: #fff;
   border: 1px solid #e2e8f0;
@@ -312,14 +365,80 @@ body {
   line-height: 1.6;
 }
 
-.correction {
-  background: #f0fdf4;
-  border: 1px solid #bbf7d0;
+/* ---------- Correction discrete ---------- */
+.btn-correction {
+  background: #f1f5f9;
+  color: #64748b;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+.btn-correction:active {
+  background: #e2e8f0;
+}
+
+.btn-correction.cache {
+  display: none;
+}
+
+.confirme {
+  background: #fffbeb;
+  border: 1px solid #fde68a;
   border-radius: 8px;
   padding: 12px;
-  margin-top: 10px;
+  margin-top: 12px;
+}
+
+.confirme.cache {
+  display: none;
+}
+
+.confirme-texte {
+  font-size: 14px;
+  color: #92400e;
+  margin-bottom: 10px;
+}
+
+.confirme-boutons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-oui {
+  background: #f1f5f9;
+  color: #475569;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-non {
+  background: #1e3a5f;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.correction {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-left: 4px solid #94a3b8;
+  border-radius: 8px;
+  padding: 12px;
+  margin-top: 12px;
   font-size: 15px;
   line-height: 1.6;
+  color: #475569;
 }
 
 .correction.cache {
