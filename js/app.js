@@ -1,10 +1,11 @@
 // ===== GUIDE - Moteur de l'application =====
-// v3.1 - une lecon par page, exercices separes, corrections discretes
+// v3.2 - boutons flottants, barre du bas, recherche
 
 var ecran = document.getElementById('ecran');
 
-// ---------- Accueil : liste des classes ----------
+// ---------- Accueil ----------
 function afficherAccueil() {
+  majOnglets('accueil');
   var html = '<div class="liste">';
   for (var i = 0; i < CLASSES.length; i++) {
     var c = CLASSES[i];
@@ -26,7 +27,7 @@ function afficherAccueil() {
   afficher(html);
 }
 
-// ---------- Matieres d'une classe ----------
+// ---------- Matieres ----------
 function afficherMatieres(classeId) {
   var mats = MATIERES[classeId] || [];
   var html = '<button class="retour" onclick="afficherAccueil()">← Retour</button>';
@@ -52,7 +53,7 @@ function afficherMatieres(classeId) {
   afficher(html);
 }
 
-// ---------- Chapitres d'une matiere ----------
+// ---------- Chapitres ----------
 function afficherChapitres(classeId, matiereId) {
   var chapitres = obtenirChapitres(classeId, matiereId);
   var html = '<button class="retour" onclick="afficherMatieres(\'' + classeId + '\')">← Retour</button>';
@@ -76,7 +77,7 @@ function afficherChapitres(classeId, matiereId) {
   afficher(html);
 }
 
-// ---------- Menu d'un chapitre : lecons + exercices ----------
+// ---------- Menu d'un chapitre ----------
 function afficherMenuChapitre(classeId, matiereId, index) {
   var chapitres = obtenirChapitres(classeId, matiereId);
   var ch = chapitres[index];
@@ -104,7 +105,7 @@ function afficherMenuChapitre(classeId, matiereId, index) {
   afficher(html);
 }
 
-// ---------- Une lecon (une seule par page) ----------
+// ---------- Une lecon ----------
 function afficherLecon(classeId, matiereId, indexChapitre, indexLecon) {
   var chapitres = obtenirChapitres(classeId, matiereId);
   var ch = chapitres[indexChapitre];
@@ -118,25 +119,69 @@ function afficherLecon(classeId, matiereId, indexChapitre, indexLecon) {
     html += rendreBloc(lecon.blocs[j]);
   }
 
-  // Navigation entre lecons
-  html += '<div class="nav-lecon">';
-  if (indexLecon > 0) {
-    html += '<button class="btn-nav" onclick="afficherLecon(\'' + classeId + '\',\'' + matiereId + '\',' + indexChapitre + ',' + (indexLecon - 1) + ')">← Précédente</button>';
-  } else {
-    html += '<span></span>';
-  }
-  if (indexLecon < ch.lecons.length - 1) {
-    html += '<button class="btn-nav btn-nav-suivant" onclick="afficherLecon(\'' + classeId + '\',\'' + matiereId + '\',' + indexChapitre + ',' + (indexLecon + 1) + ')">Suivante →</button>';
-  } else {
-    html += '<button class="btn-nav btn-nav-exercices" onclick="afficherExercices(\'' + classeId + '\',\'' + matiereId + '\',' + indexChapitre + ')">✏️ Exercices →</button>';
-  }
-  html += '</div>';
-
   afficher(html);
+
+  // Boutons flottants
+  ajouterBoutonsFlottants(classeId, matiereId, indexChapitre, indexLecon, ch.lecons.length);
 }
 
-// ---------- Exercices (page separee) ----------
+// ---------- Boutons flottants lecons ----------
+function ajouterBoutonsFlottants(classeId, matiereId, indexChapitre, indexLecon, totalLecons) {
+  var ancien = document.querySelector('.nav-flottant');
+  if (ancien) ancien.remove();
+
+  var nav = document.createElement('div');
+  nav.className = 'nav-flottant';
+
+  // Bouton precedent
+  if (indexLecon > 0) {
+    var btnPrec = document.createElement('button');
+    btnPrec.className = 'btn-rond btn-rond-gauche';
+    btnPrec.innerHTML = '‹';
+    btnPrec.onclick = function() {
+      afficherLecon(classeId, matiereId, indexChapitre, indexLecon - 1);
+    };
+    nav.appendChild(btnPrec);
+  } else {
+    var espace = document.createElement('span');
+    espace.style.width = '52px';
+    nav.appendChild(espace);
+  }
+
+  // Bouton home (retour au menu du chapitre)
+  var btnHome = document.createElement('button');
+  btnHome.className = 'btn-rond btn-rond-centre';
+  btnHome.innerHTML = '🏠';
+  btnHome.onclick = function() {
+    afficherMenuChapitre(classeId, matiereId, indexChapitre);
+  };
+  nav.appendChild(btnHome);
+
+  // Bouton suivant ou exercices
+  if (indexLecon < totalLecons - 1) {
+    var btnSuiv = document.createElement('button');
+    btnSuiv.className = 'btn-rond btn-rond-droite';
+    btnSuiv.innerHTML = '›';
+    btnSuiv.onclick = function() {
+      afficherLecon(classeId, matiereId, indexChapitre, indexLecon + 1);
+    };
+    nav.appendChild(btnSuiv);
+  } else {
+    var btnExo = document.createElement('button');
+    btnExo.className = 'btn-rond btn-rond-exercices';
+    btnExo.innerHTML = '✏️';
+    btnExo.onclick = function() {
+      afficherExercices(classeId, matiereId, indexChapitre);
+    };
+    nav.appendChild(btnExo);
+  }
+
+  document.body.appendChild(nav);
+}
+
+// ---------- Exercices ----------
 function afficherExercices(classeId, matiereId, index) {
+  supprimerBoutonsFlottants();
   var chapitres = obtenirChapitres(classeId, matiereId);
   var ch = chapitres[index];
 
@@ -181,32 +226,122 @@ function cacherConfirmation(btn) {
   confirme.previousElementSibling.classList.remove('cache');
 }
 
-// ---------- Afficher un bloc de lecon ----------
-function rendreBloc(b) {
-  var html = '';
-  if (b.type === 'schema') {
-    html += '<div class="bloc bloc-schema"><div class="bloc-titre">' + b.titre + '</div>' + b.svg;
-    if (b.legende) html += '<div class="legende">' + b.legende + '</div>';
-    html += '</div>';
-  } else if (b.type === 'tableau') {
-    html += '<div class="bloc bloc-tableau"><div class="bloc-titre">' + b.titre + '</div><table>';
-    html += '<tr>';
-    for (var i = 0; i < b.entetes.length; i++) html += '<th>' + b.entetes[i] + '</th>';
-    html += '</tr>';
-    for (var j = 0; j < b.lignes.length; j++) {
-      html += '<tr>';
-      for (var k = 0; k < b.lignes[j].length; k++) html += '<td>' + b.lignes[j][k] + '</td>';
-      html += '</tr>';
-    }
-    html += '</table></div>';
-  } else {
-    html += '<div class="bloc bloc-' + b.type + '"><div class="bloc-titre">' + b.titre + '</div><div class="bloc-texte">' + nl2br(b.texte) + '</div></div>';
+// ---------- Recherche ----------
+function afficherRecherche() {
+  majOnglets('recherche');
+  supprimerBoutonsFlottants();
+
+  var html = '<h2 class="titre-page">🔍 Recherche</h2>';
+  html += '<div class="barre-recherche">';
+  html += '<span class="icone-loupe">🔍</span>';
+  html += '<input type="text" id="champ-recherche" placeholder="Chercher une leçon, un mot..." oninput="rechercher()">';
+  html += '</div>';
+  html += '<div id="resultats-recherche"></div>';
+
+  afficher(html);
+
+  setTimeout(function() {
+    document.getElementById('champ-recherche').focus();
+  }, 300);
+}
+
+function rechercher() {
+  var champ = document.getElementById('champ-recherche');
+  var zone = document.getElementById('resultats-recherche');
+  var requete = champ.value.toLowerCase().trim();
+
+  if (requete.length < 2) {
+    zone.innerHTML = '';
+    return;
   }
-  return html;
+
+  var resultats = [];
+
+  for (var cle in CONTENU) {
+    var parties = cle.split('|');
+    var classeId = parties[0];
+    var matiereId = parties[1];
+    var chapitres = CONTENU[cle];
+
+    for (var i = 0; i < chapitres.length; i++) {
+      var ch = chapitres[i];
+
+      // Chercher dans le titre du chapitre
+      if (ch.titre.toLowerCase().indexOf(requete) !== -1) {
+        resultats.push({
+          type: 'chapitre',
+          chemin: nomMatiere(classeId, matiereId) + ' — ' + nomClasse(classeId),
+          titre: ch.titre,
+          classeId: classeId,
+          matiereId: matiereId,
+          indexChapitre: i
+        });
+      }
+
+      // Chercher dans les lecons
+      for (var j = 0; j < ch.lecons.length; j++) {
+        var lecon = ch.lecons[j];
+        if (lecon.titre.toLowerCase().indexOf(requete) !== -1) {
+          resultats.push({
+            type: 'lecon',
+            chemin: ch.titre + ' — ' + nomMatiere(classeId, matiereId),
+            titre: lecon.titre,
+            classeId: classeId,
+            matiereId: matiereId,
+            indexChapitre: i,
+            indexLecon: j
+          });
+        } else {
+          // Chercher dans le texte des blocs
+          for (var k = 0; k < lecon.blocs.length; k++) {
+            var bloc = lecon.blocs[k];
+            var texte = (bloc.titre || '') + ' ' + (bloc.texte || '');
+            if (texte.toLowerCase().indexOf(requete) !== -1) {
+              resultats.push({
+                type: 'lecon',
+                chemin: ch.titre + ' — ' + nomMatiere(classeId, matiereId),
+                titre: lecon.titre,
+                classeId: classeId,
+                matiereId: matiereId,
+                indexChapitre: i,
+                indexLecon: j
+              });
+              break;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  if (resultats.length === 0) {
+    zone.innerHTML = '<div class="vide">Aucun résultat pour « ' + requete + ' »</div>';
+    return;
+  }
+
+  var html = '';
+  for (var r = 0; r < resultats.length; r++) {
+    var res = resultats[r];
+    html += '<div class="resultat-recherche">';
+    if (res.type === 'chapitre') {
+      html += '<button class="carte" onclick="afficherMenuChapitre(\'' + res.classeId + '\',\'' + res.matiereId + '\',' + res.indexChapitre + ')">';
+    } else {
+      html += '<button class="carte" onclick="afficherLecon(\'' + res.classeId + '\',\'' + res.matiereId + '\',' + res.indexChapitre + ',' + res.indexLecon + ')">';
+    }
+    html += '<span class="carte-texte">' + res.titre + '</span>';
+    html += '<span class="carte-fleche">›</span>';
+    html += '</button>';
+    html += '<div class="resultat-chemin">' + res.chemin + '</div>';
+    html += '</div>';
+  }
+  zone.innerHTML = html;
 }
 
 // ---------- A propos ----------
 function afficherPropos() {
+  majOnglets('propos');
+  supprimerBoutonsFlottants();
+
   var nb = 0;
   var cles = Object.keys(CONTENU);
   for (var i = 0; i < cles.length; i++) {
@@ -228,6 +363,12 @@ function afficherPropos() {
 function afficher(html) {
   ecran.innerHTML = html;
   window.scrollTo(0, 0);
+  supprimerBoutonsFlottants();
+}
+
+function supprimerBoutonsFlottants() {
+  var ancien = document.querySelector('.nav-flottant');
+  if (ancien) ancien.remove();
 }
 
 function nl2br(texte) {
@@ -255,10 +396,14 @@ function iconeMatiere(classeId, matiereId) {
   return '📚';
 }
 
-// ---------- Demarrage ----------
-document.getElementById('lien-propos').addEventListener('click', function(e) {
-  e.preventDefault();
-  afficherPropos();
-});
+function majOnglets(onglet) {
+  var btns = document.querySelectorAll('.bas-btn');
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].classList.remove('actif');
+  }
+  var cible = document.getElementById('btn-' + onglet);
+  if (cible) cible.classList.add('actif');
+}
 
+// ---------- Demarrage ----------
 afficherAccueil();
