@@ -1,13 +1,10 @@
-// ===== GUIDE - Donnees et configuration =====
-// v3.9 - ajout du chapitre 5
-
-var VERSION = 'v3.9';
+var VERSION = 'v3.10';
 
 var CLASSES = [
-  { id: '6e', nom: '6ème', dispo: true },
-  { id: '5e', nom: '5ème', dispo: false },
-  { id: '4e', nom: '4ème', dispo: false },
-  { id: '3e', nom: '3ème', dispo: false },
+  { id: '6e', nom: 'Sixième', dispo: true },
+  { id: '5e', nom: 'Cinquième', dispo: false },
+  { id: '4e', nom: 'Quatrième', dispo: false },
+  { id: '3e', nom: 'Troisième', dispo: false },
   { id: '2nde', nom: 'Seconde', dispo: false },
   { id: '1ere', nom: 'Première', dispo: false },
   { id: 'term', nom: 'Terminale', dispo: false }
@@ -15,7 +12,20 @@ var CLASSES = [
 
 var MATIERES = {
   '6e': [
-    { id: 'maths', nom: 'Mathématiques', icone: '📐', dispo: true, fichiers: ['data/6e/maths-ch1.js', 'data/6e/maths-ch2.js', 'data/6e/maths-ch3.js', 'data/6e/maths-ch4.js', 'data/6e/maths-ch5.js'] },
+    {
+      id: 'maths',
+      nom: 'Mathématiques',
+      icone: '📐',
+      dispo: true,
+      fichiers: [
+        'data/6e/maths-ch1.js',
+        'data/6e/maths-ch2.js',
+        'data/6e/maths-ch3.js',
+        'data/6e/maths-ch4.js',
+        'data/6e/maths-ch5.js',
+        'data/6e/maths-ch6.js'
+      ]
+    },
     { id: 'sp', nom: 'Sciences Physiques', icone: '⚗️', dispo: false },
     { id: 'svt', nom: 'SVT', icone: '🌱', dispo: false }
   ]
@@ -23,7 +33,6 @@ var MATIERES = {
 
 var CONTENU = {};
 
-// Ajoute des chapitres a la matiere SANS ecraser ceux deja charges
 function enregistrerChapitres(classeId, matiereId, chapitres) {
   var cle = classeId + '|' + matiereId;
   if (!CONTENU[cle]) {
@@ -35,27 +44,28 @@ function enregistrerChapitres(classeId, matiereId, chapitres) {
 }
 
 function chargerFichierContenu(url) {
-  try {
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET', url + '?v=' + VERSION, false);
-    xhr.send(null);
-    if ((xhr.status === 200 || xhr.status === 0) && xhr.responseText) {
-      new Function(xhr.responseText)();
-      return true;
-    }
-  } catch (e) {}
-  return false;
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', url + '?v=' + VERSION, false);
+  xhr.send(null);
+  if (xhr.status >= 200 && xhr.status < 300) {
+    new Function(xhr.responseText)();
+  }
 }
 
-(function chargerTousLesContenus() {
+(function() {
   for (var i = 0; i < CLASSES.length; i++) {
-    var mats = MATIERES[CLASSES[i].id] || [];
-    for (var j = 0; j < mats.length; j++) {
-      if (mats[j].dispo) {
-        var liste = mats[j].fichiers || (mats[j].fichier ? [mats[j].fichier] : []);
-        for (var k = 0; k < liste.length; k++) {
-          chargerFichierContenu(liste[k]);
+    var classe = CLASSES[i];
+    if (!classe.dispo) { continue; }
+    var liste = MATIERES[classe.id] || [];
+    for (var j = 0; j < liste.length; j++) {
+      var matiere = liste[j];
+      if (!matiere.dispo) { continue; }
+      if (matiere.fichiers) {
+        for (var k = 0; k < matiere.fichiers.length; k++) {
+          chargerFichierContenu(matiere.fichiers[k]);
         }
+      } else if (matiere.fichier) {
+        chargerFichierContenu(matiere.fichier);
       }
     }
   }
