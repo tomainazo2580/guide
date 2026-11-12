@@ -1,7 +1,7 @@
 // ===== GUIDE - Donnees et configuration =====
-// v3.5
+// v3.6 - une matiere peut avoir PLUSIEURS fichiers (un par chapitre)
 
-var VERSION = 'v3.5';
+var VERSION = 'v3.6';
 
 var CLASSES = [
   { id: '6e', nom: '6ème', dispo: true },
@@ -15,7 +15,7 @@ var CLASSES = [
 
 var MATIERES = {
   '6e': [
-    { id: 'maths', nom: 'Mathématiques', icone: '📐', dispo: true, fichier: 'data/6e/mathematiques.js' },
+    { id: 'maths', nom: 'Mathématiques', icone: '📐', dispo: true, fichiers: ['data/6e/maths-ch1.js', 'data/6e/maths-ch2.js'] },
     { id: 'sp', nom: 'Sciences Physiques', icone: '⚗️', dispo: false },
     { id: 'svt', nom: 'SVT', icone: '🌱', dispo: false }
   ]
@@ -23,8 +23,15 @@ var MATIERES = {
 
 var CONTENU = {};
 
+// Ajoute des chapitres a la matiere SANS ecraser ceux deja charges
 function enregistrerChapitres(classeId, matiereId, chapitres) {
-  CONTENU[classeId + '|' + matiereId] = chapitres;
+  var cle = classeId + '|' + matiereId;
+  if (!CONTENU[cle]) {
+    CONTENU[cle] = [];
+  }
+  for (var i = 0; i < chapitres.length; i++) {
+    CONTENU[cle].push(chapitres[i]);
+  }
 }
 
 function chargerFichierContenu(url) {
@@ -44,8 +51,11 @@ function chargerFichierContenu(url) {
   for (var i = 0; i < CLASSES.length; i++) {
     var mats = MATIERES[CLASSES[i].id] || [];
     for (var j = 0; j < mats.length; j++) {
-      if (mats[j].dispo && mats[j].fichier) {
-        chargerFichierContenu(mats[j].fichier);
+      if (mats[j].dispo) {
+        var liste = mats[j].fichiers || (mats[j].fichier ? [mats[j].fichier] : []);
+        for (var k = 0; k < liste.length; k++) {
+          chargerFichierContenu(liste[k]);
+        }
       }
     }
   }
