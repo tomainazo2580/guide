@@ -1,7 +1,18 @@
 // ===== GUIDE - Moteur de l'application =====
-// v3.4 - lecons corrigees
+// v3.5 - rendreBloc restaure (repare le clic sur les lecons) + double version
+
+var APP_VERSION = 'v3.5';
 
 var ecran = document.getElementById('ecran');
+
+// Piege a erreurs : bandeau rouge si le code plante (a retirer a la fin du projet)
+window.onerror = function(message, source, ligne) {
+  var d = document.createElement('div');
+  d.style.cssText = 'position:fixed;left:10px;right:10px;bottom:80px;background:#dc2626;color:#fff;padding:12px;border-radius:8px;font-size:13px;z-index:9999;';
+  d.textContent = '⚠️ Erreur : ' + message + ' (ligne ' + ligne + ')';
+  document.body.appendChild(d);
+  return false;
+};
 
 // ---------- Accueil ----------
 function afficherAccueil() {
@@ -105,6 +116,41 @@ function afficherMenuChapitre(classeId, matiereId, index) {
   afficher(html);
 }
 
+// ---------- Affichage d'un bloc de lecon ----------
+function rendreBloc(bloc) {
+  var html = '<div class="bloc bloc-' + bloc.type + '">';
+
+  if (bloc.titre) {
+    html += '<div class="bloc-titre">' + bloc.titre + '</div>';
+  }
+
+  if (bloc.type === 'schema') {
+    html += '<div class="bloc-schema">' + bloc.svg + '</div>';
+    if (bloc.legende) {
+      html += '<div class="bloc-legende">' + bloc.legende + '</div>';
+    }
+  } else if (bloc.type === 'tableau') {
+    html += '<table class="tableau"><thead><tr>';
+    for (var i = 0; i < bloc.entetes.length; i++) {
+      html += '<th>' + bloc.entetes[i] + '</th>';
+    }
+    html += '</tr></thead><tbody>';
+    for (var j = 0; j < bloc.lignes.length; j++) {
+      html += '<tr>';
+      for (var k = 0; k < bloc.lignes[j].length; k++) {
+        html += '<td>' + bloc.lignes[j][k] + '</td>';
+      }
+      html += '</tr>';
+    }
+    html += '</tbody></table>';
+  } else {
+    html += '<div class="bloc-texte">' + nl2br(bloc.texte || '') + '</div>';
+  }
+
+  html += '</div>';
+  return html;
+}
+
 // ---------- Une lecon ----------
 function afficherLecon(classeId, matiereId, indexChapitre, indexLecon) {
   var chapitres = obtenirChapitres(classeId, matiereId);
@@ -119,7 +165,6 @@ function afficherLecon(classeId, matiereId, indexChapitre, indexLecon) {
     html += rendreBloc(lecon.blocs[j]);
   }
 
-  // Boutons navigation en bas de la lecon (pas flottants, integres)
   html += '<div class="nav-lecon-haut">';
   if (indexLecon > 0) {
     html += '<button class="btn-nav" onclick="afficherLecon(\'' + classeId + '\',\'' + matiereId + '\',' + indexChapitre + ',' + (indexLecon - 1) + ')">← Précédente</button>';
@@ -137,6 +182,7 @@ function afficherLecon(classeId, matiereId, indexChapitre, indexLecon) {
   afficher(html);
 }
 
+// ===== FIN DU MORCEAU 1 =====
 // ---------- Exercices ----------
 function afficherExercices(classeId, matiereId, index) {
   var chapitres = obtenirChapitres(classeId, matiereId);
@@ -305,7 +351,8 @@ function afficherPropos() {
   html += '<div class="bloc-texte">';
   html += '<strong>Guide</strong> t\'accompagne de la 6ème à la Terminale : leçons claires, exercices corrigés en 4 niveaux.<br><br>';
   html += '🇲🇬 Basée sur le programme officiel de Madagascar, complétée par Guide.<br><br>';
-  html += '<strong>Guide ' + VERSION + '</strong> — fonctionne hors ligne 📴<br><br>';
+  html += '<strong>Moteur : ' + APP_VERSION + ' | Données : ' + VERSION + '</strong><br>';
+  html += '📶 Connexion Internet nécessaire pour le moment (le hors-ligne viendra à la fin).<br><br>';
   html += '✓ Contenu chargé : ' + cles.length + ' matière(s), ' + nb + ' chapitre(s)';
   html += '</div></div>';
   afficher(html);
