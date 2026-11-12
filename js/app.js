@@ -1,5 +1,5 @@
 // ===== GUIDE - Moteur de l'application =====
-// Version simple et stable — cours + exercices uniquement.
+// v3.1 - une lecon par page, exercices separes, corrections discretes
 
 var ecran = document.getElementById('ecran');
 
@@ -26,7 +26,7 @@ function afficherAccueil() {
   afficher(html);
 }
 
-// ---------- Matières d'une classe ----------
+// ---------- Matieres d'une classe ----------
 function afficherMatieres(classeId) {
   var mats = MATIERES[classeId] || [];
   var html = '<button class="retour" onclick="afficherAccueil()">← Retour</button>';
@@ -38,6 +38,7 @@ function afficherMatieres(classeId) {
       html += '<button class="carte" onclick="afficherChapitres(\'' + classeId + '\',\'' + m.id + '\')">' +
         '<span class="carte-icone">' + m.icone + '</span>' +
         '<span class="carte-texte">' + m.nom + '</span>' +
+        '<span class="carte-fleche">›</span>' +
         '</button>';
     } else {
       html += '<div class="carte carte-off">' +
@@ -51,7 +52,7 @@ function afficherMatieres(classeId) {
   afficher(html);
 }
 
-// ---------- Chapitres d'une matière ----------
+// ---------- Chapitres d'une matiere ----------
 function afficherChapitres(classeId, matiereId) {
   var chapitres = obtenirChapitres(classeId, matiereId);
   var html = '<button class="retour" onclick="afficherMatieres(\'' + classeId + '\')">← Retour</button>';
@@ -66,7 +67,7 @@ function afficherChapitres(classeId, matiereId) {
   html += '<div class="liste">';
   for (var i = 0; i < chapitres.length; i++) {
     var ch = chapitres[i];
-    html += '<button class="carte" onclick="afficherChapitre(\'' + classeId + '\',\'' + matiereId + '\',' + i + ')">' +
+    html += '<button class="carte" onclick="afficherMenuChapitre(\'' + classeId + '\',\'' + matiereId + '\',' + i + ')">' +
       '<span class="carte-texte">' + ch.titre + '</span>' +
       '<span class="carte-fleche">›</span>' +
       '</button>';
@@ -75,33 +76,86 @@ function afficherChapitres(classeId, matiereId) {
   afficher(html);
 }
 
-// ---------- Un chapitre (leçons + exercices) ----------
-function afficherChapitre(classeId, matiereId, index) {
+// ---------- Menu d'un chapitre : lecons + exercices ----------
+function afficherMenuChapitre(classeId, matiereId, index) {
   var chapitres = obtenirChapitres(classeId, matiereId);
   var ch = chapitres[index];
   var html = '<button class="retour" onclick="afficherChapitres(\'' + classeId + '\',\'' + matiereId + '\')">← Retour</button>';
   html += '<h2 class="titre-page">' + ch.titre + '</h2>';
 
-  // Leçons
   html += '<h3 class="titre-section">📖 Leçons</h3>';
+  html += '<div class="liste">';
   for (var i = 0; i < ch.lecons.length; i++) {
-    var lecon = ch.lecons[i];
-    html += '<div class="bloc-lecon">';
-    html += '<div class="lecon-titre">' + lecon.titre + '</div>';
-    for (var j = 0; j < lecon.blocs.length; j++) {
-      html += rendreBloc(lecon.blocs[j]);
-    }
-    html += '</div>';
+    html += '<button class="carte" onclick="afficherLecon(\'' + classeId + '\',\'' + matiereId + '\',' + index + ',' + i + ')">' +
+      '<span class="numero-lecon">' + (i + 1) + '</span>' +
+      '<span class="carte-texte">' + ch.lecons[i].titre + '</span>' +
+      '<span class="carte-fleche">›</span>' +
+      '</button>';
+  }
+  html += '</div>';
+
+  html += '<h3 class="titre-section">✏️ Exercices</h3>';
+  html += '<button class="carte carte-exercices" onclick="afficherExercices(\'' + classeId + '\',\'' + matiereId + '\',' + index + ')">' +
+    '<span class="carte-icone">✏️</span>' +
+    '<span class="carte-texte">Faire les exercices</span>' +
+    '<span class="badge-nb">' + ch.exercices.length + '</span>' +
+    '</button>';
+
+  afficher(html);
+}
+
+// ---------- Une lecon (une seule par page) ----------
+function afficherLecon(classeId, matiereId, indexChapitre, indexLecon) {
+  var chapitres = obtenirChapitres(classeId, matiereId);
+  var ch = chapitres[indexChapitre];
+  var lecon = ch.lecons[indexLecon];
+
+  var html = '<button class="retour" onclick="afficherMenuChapitre(\'' + classeId + '\',\'' + matiereId + '\',' + indexChapitre + ')">← ' + ch.titre + '</button>';
+  html += '<div class="lecon-progression">Leçon ' + (indexLecon + 1) + ' / ' + ch.lecons.length + '</div>';
+  html += '<h2 class="titre-page">' + lecon.titre + '</h2>';
+
+  for (var j = 0; j < lecon.blocs.length; j++) {
+    html += rendreBloc(lecon.blocs[j]);
   }
 
-  // Exercices
-  html += '<h3 class="titre-section">✏️ Exercices</h3>';
+  // Navigation entre lecons
+  html += '<div class="nav-lecon">';
+  if (indexLecon > 0) {
+    html += '<button class="btn-nav" onclick="afficherLecon(\'' + classeId + '\',\'' + matiereId + '\',' + indexChapitre + ',' + (indexLecon - 1) + ')">← Précédente</button>';
+  } else {
+    html += '<span></span>';
+  }
+  if (indexLecon < ch.lecons.length - 1) {
+    html += '<button class="btn-nav btn-nav-suivant" onclick="afficherLecon(\'' + classeId + '\',\'' + matiereId + '\',' + indexChapitre + ',' + (indexLecon + 1) + ')">Suivante →</button>';
+  } else {
+    html += '<button class="btn-nav btn-nav-exercices" onclick="afficherExercices(\'' + classeId + '\',\'' + matiereId + '\',' + indexChapitre + ')">✏️ Exercices →</button>';
+  }
+  html += '</div>';
+
+  afficher(html);
+}
+
+// ---------- Exercices (page separee) ----------
+function afficherExercices(classeId, matiereId, index) {
+  var chapitres = obtenirChapitres(classeId, matiereId);
+  var ch = chapitres[index];
+
+  var html = '<button class="retour" onclick="afficherMenuChapitre(\'' + classeId + '\',\'' + matiereId + '\',' + index + ')">← ' + ch.titre + '</button>';
+  html += '<h2 class="titre-page">✏️ Exercices</h2>';
+  html += '<div class="conseil-exercices">💡 Essaie chaque exercice sur ton cahier <strong>avant</strong> de regarder la correction.</div>';
+
   for (var k = 0; k < ch.exercices.length; k++) {
     var ex = ch.exercices[k];
     html += '<div class="bloc-exercice">';
-    html += '<div class="exercice-niveau">Niveau ' + ex.niveau + ' — ' + ex.points + ' pts</div>';
+    html += '<div class="exercice-niveau">Exercice ' + (k + 1) + ' — Niveau ' + ex.niveau + ' — ' + ex.points + ' pts</div>';
     html += '<div class="exercice-enonce">' + nl2br(ex.enonce) + '</div>';
-    html += '<button class="btn-correction" onclick="basculerCorrection(this)">Voir la correction</button>';
+    html += '<button class="btn-correction" onclick="demanderCorrection(this)">Voir la correction</button>';
+    html += '<div class="confirme cache">';
+    html += '<div class="confirme-texte">🤔 As-tu vraiment essayé de résoudre l\'exercice ?</div>';
+    html += '<div class="confirme-boutons">';
+    html += '<button class="btn-oui" onclick="montrerCorrection(this)">Oui, montrer</button>';
+    html += '<button class="btn-non" onclick="cacherConfirmation(this)">Pas encore</button>';
+    html += '</div></div>';
     html += '<div class="correction cache">' + nl2br(ex.correction) + '</div>';
     html += '</div>';
   }
@@ -109,7 +163,25 @@ function afficherChapitre(classeId, matiereId, index) {
   afficher(html);
 }
 
-// ---------- Afficher un bloc de leçon ----------
+// ---------- Correction en 2 temps ----------
+function demanderCorrection(btn) {
+  btn.classList.add('cache');
+  btn.nextElementSibling.classList.remove('cache');
+}
+
+function montrerCorrection(btn) {
+  var confirme = btn.parentNode.parentNode;
+  confirme.classList.add('cache');
+  confirme.nextElementSibling.classList.remove('cache');
+}
+
+function cacherConfirmation(btn) {
+  var confirme = btn.parentNode.parentNode;
+  confirme.classList.add('cache');
+  confirme.previousElementSibling.classList.remove('cache');
+}
+
+// ---------- Afficher un bloc de lecon ----------
 function rendreBloc(b) {
   var html = '';
   if (b.type === 'schema') {
@@ -128,13 +200,12 @@ function rendreBloc(b) {
     }
     html += '</table></div>';
   } else {
-    var classe = 'bloc-' + b.type;
-    html += '<div class="bloc ' + classe + '"><div class="bloc-titre">' + b.titre + '</div><div class="bloc-texte">' + nl2br(b.texte) + '</div></div>';
+    html += '<div class="bloc bloc-' + b.type + '"><div class="bloc-titre">' + b.titre + '</div><div class="bloc-texte">' + nl2br(b.texte) + '</div></div>';
   }
   return html;
 }
 
-// ---------- À propos ----------
+// ---------- A propos ----------
 function afficherPropos() {
   var nb = 0;
   var cles = Object.keys(CONTENU);
@@ -163,17 +234,6 @@ function nl2br(texte) {
   return texte.replace(/\n/g, '<br>');
 }
 
-function basculerCorrection(btn) {
-  var correction = btn.nextElementSibling;
-  if (correction.classList.contains('cache')) {
-    correction.classList.remove('cache');
-    btn.textContent = 'Masquer la correction';
-  } else {
-    correction.classList.add('cache');
-    btn.textContent = 'Voir la correction';
-  }
-}
-
 function obtenirChapitres(classeId, matiereId) {
   return CONTENU[classeId + '|' + matiereId] || [];
 }
@@ -195,7 +255,7 @@ function iconeMatiere(classeId, matiereId) {
   return '📚';
 }
 
-// ---------- Démarrage ----------
+// ---------- Demarrage ----------
 document.getElementById('lien-propos').addEventListener('click', function(e) {
   e.preventDefault();
   afficherPropos();
