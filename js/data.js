@@ -1,7 +1,7 @@
 // ===== GUIDE - Donnees et configuration =====
-// v3.7 - ajout du chapitre 3
+// v3.8 - ajout du chapitre 4
 
-var VERSION = 'v3.7';
+var VERSION = 'v3.8';
 
 var CLASSES = [
   { id: '6e', nom: '6ème', dispo: true },
@@ -15,7 +15,7 @@ var CLASSES = [
 
 var MATIERES = {
   '6e': [
-    { id: 'maths', nom: 'Mathématiques', icone: '📐', dispo: true, fichiers: ['data/6e/maths-ch1.js', 'data/6e/maths-ch2.js', 'data/6e/maths-ch3.js'] },
+    { id: 'maths', nom: 'Mathématiques', icone: '📐', dispo: true, fichiers: ['data/6e/maths-ch1.js', 'data/6e/maths-ch2.js', 'data/6e/maths-ch3.js', 'data/6e/maths-ch4.js'] },
     { id: 'sp', nom: 'Sciences Physiques', icone: '⚗️', dispo: false },
     { id: 'svt', nom: 'SVT', icone: '🌱', dispo: false }
   ]
