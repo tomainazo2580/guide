@@ -1,7 +1,7 @@
 // ===== GUIDE - Donnees et configuration =====
-// v3.6 - une matiere peut avoir PLUSIEURS fichiers (un par chapitre)
+// v3.7 - ajout du chapitre 3
 
-var VERSION = 'v3.6';
+var VERSION = 'v3.7';
 
 var CLASSES = [
   { id: '6e', nom: '6ème', dispo: true },
@@ -15,7 +15,7 @@ var CLASSES = [
 
 var MATIERES = {
   '6e': [
-    { id: 'maths', nom: 'Mathématiques', icone: '📐', dispo: true, fichiers: ['data/6e/maths-ch1.js', 'data/6e/maths-ch2.js'] },
+    { id: 'maths', nom: 'Mathématiques', icone: '📐', dispo: true, fichiers: ['data/6e/maths-ch1.js', 'data/6e/maths-ch2.js', 'data/6e/maths-ch3.js'] },
     { id: 'sp', nom: 'Sciences Physiques', icone: '⚗️', dispo: false },
     { id: 'svt', nom: 'SVT', icone: '🌱', dispo: false }
   ]
