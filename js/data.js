@@ -1,7 +1,7 @@
 // ===== GUIDE - Donnees et configuration =====
-// v3.4
+// v3.5
 
-var VERSION = 'v3.4';
+var VERSION = 'v3.5';
 
 var CLASSES = [
   { id: '6e', nom: '6ème', dispo: true },
@@ -30,7 +30,7 @@ function enregistrerChapitres(classeId, matiereId, chapitres) {
 function chargerFichierContenu(url) {
   try {
     var xhr = new XMLHttpRequest();
-    xhr.open('GET', url, false);
+    xhr.open('GET', url + '?v=' + VERSION, false);
     xhr.send(null);
     if ((xhr.status === 200 || xhr.status === 0) && xhr.responseText) {
       new Function(xhr.responseText)();
