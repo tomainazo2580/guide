@@ -1,10 +1,10 @@
 // ============================================
 // GUIDE - data.js
-// Version : v3.29
-//   + Sciences Physiques 6e : chapitres 1 a 7
+// Version : v3.30
+//   + Sciences Physiques 6e : chapitres 1 a 8
 // ============================================
 
-var VERSION = 'v3.29';
+var VERSION = 'v3.30';
 
 // ---------- Classes ----------
 var CLASSES = [
@@ -45,7 +45,7 @@ var MATIERES = {
         'data/6e/maths-ch16.js'
       ]
     },
-    { id: 'sp', nom: 'Sciences Physiques', court: 'SP', icone: '⚗️', dispo: true, fichiers: ['data/6e/sp-ch1.js', 'data/6e/sp-ch2.js', 'data/6e/sp-ch3.js', 'data/6e/sp-ch4.js', 'data/6e/sp-ch5.js', 'data/6e/sp-ch6.js', 'data/6e/sp-ch7.js'] },
+    { id: 'sp', nom: 'Sciences Physiques', court: 'SP', icone: '⚗️', dispo: true, fichiers: ['data/6e/sp-ch1.js', 'data/6e/sp-ch2.js', 'data/6e/sp-ch3.js', 'data/6e/sp-ch4.js', 'data/6e/sp-ch5.js', 'data/6e/sp-ch6.js', 'data/6e/sp-ch7.js', 'data/6e/sp-ch8.js'] },
     { id: 'svt', nom: 'SVT', court: 'SVT', icone: '🌱', dispo: false, fichiers: [] },
     { id: 'mal', nom: 'Malagasy', court: 'Mal', icone: '🇲🇬', dispo: false, fichiers: [] },
     { id: 'fr', nom: 'Français', court: 'Fr', icone: '📖', dispo: false, fichiers: [] },
