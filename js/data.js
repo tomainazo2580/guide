@@ -1,10 +1,10 @@
 // ============================================
 // GUIDE - data.js
-// Version : v3.22
-//   + 8 matieres declarees pour la 6e
+// Version : v3.23
+//   + Sciences Physiques 6e : chapitre 1
 // ============================================
 
-var VERSION = 'v3.22';
+var VERSION = 'v3.23';
 
 // ---------- Classes ----------
 var CLASSES = [
@@ -45,7 +45,7 @@ var MATIERES = {
         'data/6e/maths-ch16.js'
       ]
     },
-    { id: 'sp', nom: 'Sciences Physiques', court: 'SP', icone: '⚗️', dispo: false, fichiers: [] },
+    { id: 'sp', nom: 'Sciences Physiques', court: 'SP', icone: '⚗️', dispo: true, fichiers: ['data/6e/sp-ch1.js'] },
     { id: 'svt', nom: 'SVT', court: 'SVT', icone: '🌱', dispo: false, fichiers: [] },
     { id: 'mal', nom: 'Malagasy', court: 'Mal', icone: '🇲🇬', dispo: false, fichiers: [] },
     { id: 'fr', nom: 'Français', court: 'Fr', icone: '📖', dispo: false, fichiers: [] },
