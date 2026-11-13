@@ -1,13 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <rect width="512" height="512" rx="100" fill="#1e3a5f"/>
-  <rect x="96" y="150" width="140" height="180" rx="16" fill="#fff"/>
-  <rect x="116" y="180" width="100" height="16" rx="8" fill="#1e3a5f"/>
-  <rect x="116" y="212" width="80" height="12" rx="6" fill="#94a3b8"/>
-  <rect x="116" y="238" width="80" height="12" rx="6" fill="#94a3b8"/>
-  <rect x="276" y="150" width="140" height="180" rx="16" fill="#fff"/>
-  <rect x="296" y="180" width="100" height="16" rx="8" fill="#1e3a5f"/>
-  <rect x="296" y="212" width="80" height="12" rx="6" fill="#94a3b8"/>
-  <rect x="296" y="238" width="80" height="12" rx="6" fill="#94a3b8"/>
-  <rect x="231" y="140" width="50" height="200" rx="25" fill="#f59e0b"/>
-  <rect x="96" y="360" width="320" height="26" rx="13" fill="#f59e0b"/>
+  <defs>
+    <linearGradient id="fond" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d6eaf8"/>
+      <stop offset="1" stop-color="#8ec5ec"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="100" fill="url(#fond)"/>
+
+  <path d="M113 262 Q185 248 256 268 Q327 248 399 262 L399 386 Q327 402 256 390 Q185 402 113 386 Z"
+        fill="#ffffff" stroke="#1e3a5f" stroke-width="12" stroke-linejoin="round"/>
+
+  <g stroke="#b9cfdd" stroke-width="10" stroke-linecap="round" fill="none">
+    <path d="M140 300 Q187 290 234 298"/>
+    <path d="M140 328 Q187 318 234 326"/>
+    <path d="M140 356 Q187 346 234 354"/>
+    <path d="M278 298 Q325 290 372 300"/>
+    <path d="M278 326 Q325 318 372 328"/>
+    <path d="M278 354 Q325 346 372 356"/>
+  </g>
+
+  <path d="M186 194 L186 234 Q256 262 326 234 L326 194 L256 222 Z" fill="#1e3a5f"/>
+
+  <path d="M256 106 L402 166 L256 226 L110 166 Z" fill="#1e3a5f"/>
+
+  <line x1="388" y1="170" x2="388" y2="238" stroke="#f5b942" stroke-width="9" stroke-linecap="round"/>
+  <ellipse cx="388" cy="254" rx="12" ry="16" fill="#f5b942"/>
 </svg>
