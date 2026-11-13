@@ -117,4 +117,224 @@ body.sombre .banniere-texte { color: #e2e8f0; }
   background: var(--carte);
   border-radius: 16px;
   box-shadow: 0 3px 10px rgba(0,0,0,0.08);
- 
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  gap: 6px;
+  margin-top: 12px;
+}
+.icone-matiere {
+  background: none;
+  border: none;
+  font-size: 34px;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 12px;
+  transition: transform 0.1s;
+}
+.icone-matiere:active { transform: scale(0.92); }
+.icone-matiere:disabled { opacity: 0.3; cursor: default; }
+
+.texte-aide {
+  margin-top: 12px;
+  font-size: 13px;
+  color: var(--texte-doux);
+}
+
+/* ---------- Barre du bas ---------- */
+.barre-bas {
+  background: var(--carte);
+}
+
+/* ---------- Cartes ---------- */
+.liste { display: flex; flex-direction: column; gap: 10px; }
+.carte {
+  display: flex; align-items: center; gap: 12px;
+  background: var(--carte); border: 1px solid var(--bordure);
+  border-radius: 12px; padding: 16px; font-size: 16px;
+  color: var(--texte); text-align: left; cursor: pointer; width: 100%;
+}
+.carte:active { transform: scale(0.98); }
+.carte-off { opacity: 0.5; cursor: default; }
+.carte-off:active { transform: none; }
+.carte-icone { font-size: 28px; }
+.carte-texte { flex: 1; font-weight: 600; }
+.carte-fleche { font-size: 20px; color: var(--texte-doux); }
+.carte-exercices { border: 2px solid #1e3a5f; background: rgba(30, 58, 95, 0.05); }
+.numero-lecon {
+  background: #1e3a5f; color: #fff; width: 28px; height: 28px;
+  border-radius: 50%; display: flex; align-items: center; justify-content: center;
+  font-size: 14px; font-weight: bold; flex-shrink: 0;
+}
+
+/* ---------- Badges ---------- */
+.badge-ok { background: #dcfce7; color: #15803d; font-size: 12px; font-weight: bold; padding: 4px 10px; border-radius: 20px; }
+.badge-attente { background: var(--fond); color: var(--texte-doux); font-size: 12px; padding: 4px 10px; border-radius: 20px; }
+.badge-nb { background: #1e3a5f; color: #fff; font-size: 13px; font-weight: bold; padding: 4px 12px; border-radius: 20px; }
+
+/* ---------- Boutons ---------- */
+.retour { background: none; border: none; color: #1e88e5; font-size: 15px; font-weight: 600; padding: 8px 0; margin-bottom: 12px; cursor: pointer; }
+.nav-lecon-haut { display: flex; justify-content: space-between; align-items: center; margin-top: 20px; gap: 10px; }
+.btn-nav { background: var(--carte); border: 1px solid var(--bordure); color: #1e3a5f; border-radius: 10px; padding: 12px 18px; font-size: 15px; font-weight: 600; cursor: pointer; }
+.btn-nav-suivant { background: #1e3a5f; color: #fff; border-color: #1e3a5f; }
+.btn-nav-exercices { background: #16a34a; color: #fff; border-color: #16a34a; }
+body.sombre .btn-nav { color: #e2e8f0; }
+.lecon-progression { display: inline-block; background: var(--fond); color: var(--texte-doux); font-size: 13px; font-weight: 600; padding: 4px 12px; border-radius: 20px; margin-bottom: 10px; }
+
+/* ---------- Recherche ---------- */
+.barre-recherche {
+  display: flex; align-items: center; gap: 8px;
+  background: var(--carte); border: 2px solid #1e88e5;
+  border-radius: 12px; padding: 10px 14px; margin-bottom: 16px;
+}
+.barre-recherche input { flex: 1; border: none; outline: none; font-size: 16px; color: var(--texte); background: transparent; }
+.barre-recherche input::placeholder { color: var(--texte-doux); }
+.barre-recherche .icone-loupe { font-size: 20px; }
+.resultat-recherche { margin-bottom: 8px; }
+.resultat-chemin { font-size: 13px; color: var(--texte-doux); margin-top: 2px; }
+
+/* ---------- Titres ---------- */
+.titre-page { font-size: 20px; color: var(--texte); margin-bottom: 16px; }
+.titre-section { font-size: 17px; color: var(--texte); margin: 20px 0 12px; padding-bottom: 6px; border-bottom: 2px solid var(--bordure); }
+
+/* ---------- Blocs de contenu ---------- */
+.bloc { border-radius: 8px; padding: 12px; margin: 10px 0; border-left: 4px solid; }
+.bloc-titre { font-weight: bold; font-size: 14px; margin-bottom: 6px; }
+.bloc-texte { font-size: 15px; }
+.bloc-definition { background: #eff6ff; border-left-color: #3b82f6; }
+.bloc-definition .bloc-titre { color: #1e40af; }
+.bloc-regle { background: #fef3c7; border-left-color: #f59e0b; }
+.bloc-regle .bloc-titre { color: #92400e; }
+.bloc-methode { background: #f0fdf4; border-left-color: #16a34a; }
+.bloc-methode .bloc-titre { color: #15803d; }
+.bloc-exemple { background: #faf5ff; border-left-color: #9333ea; }
+.bloc-exemple .bloc-titre { color: #7c3aed; }
+.bloc-remarque { background: #fff1f2; border-left-color: #e11d48; }
+.bloc-remarque .bloc-titre { color: #be123c; }
+.bloc-formule { background: #ecfeff; border-left-color: #0891b2; text-align: center; }
+.bloc-formule .bloc-titre { color: #0e7490; }
+
+/* Mode sombre : adoucir les blocs */
+body.sombre .bloc-definition { background: #1e3a5f; }
+body.sombre .bloc-definition .bloc-titre { color: #93c5fd; }
+body.sombre .bloc-definition .bloc-texte { color: #dbeafe; }
+body.sombre .bloc-regle { background: #451a03; }
+body.sombre .bloc-regle .bloc-titre { color: #fbbf24; }
+body.sombre .bloc-regle .bloc-texte { color: #fde68a; }
+body.sombre .bloc-methode { background: #052e16; }
+body.sombre .bloc-methode .bloc-titre { color: #4ade80; }
+body.sombre .bloc-methode .bloc-texte { color: #bbf7d0; }
+body.sombre .bloc-exemple { background: #2e1065; }
+body.sombre .bloc-exemple .bloc-titre { color: #c084fc; }
+body.sombre .bloc-exemple .bloc-texte { color: #e9d5ff; }
+body.sombre .bloc-remarque { background: #4c0519; }
+body.sombre .bloc-remarque .bloc-titre { color: #fb7185; }
+body.sombre .bloc-remarque .bloc-texte { color: #fecdd3; }
+body.sombre .bloc-formule { background: #164e63; }
+body.sombre .bloc-formule .bloc-titre { color: #67e8f9; }
+body.sombre .bloc-formule .bloc-texte { color: #a5f3fc; }
+
+/* ---------- Schemas ---------- */
+.bloc-schema { background: var(--carte); border: 1px solid var(--bordure); border-left: 4px solid #3b82f6; }
+.bloc-schema svg { display: block; max-width: 100%; margin: 8px auto; }
+.legende { font-size: 13px; color: var(--texte-doux); text-align: center; font-style: italic; margin-top: 6px; }
+
+/* ---------- Tableaux ---------- */
+.bloc-tableau { background: var(--carte); border: 1px solid var(--bordure); border-left: 4px solid #8b5cf6; overflow-x: auto; }
+.bloc-tableau table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.bloc-tableau th { background: var(--fond); padding: 8px; text-align: left; border: 1px solid var(--bordure); font-weight: bold; }
+.bloc-tableau td { padding: 8px; border: 1px solid var(--bordure); }
+
+/* ---------- Exercices ---------- */
+.conseil-exercices { background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 10px; padding: 12px; font-size: 14px; color: #1e40af; margin-bottom: 16px; }
+body.sombre .conseil-exercices { background: #1e3a5f; border-color: #334155; color: #bfdbfe; }
+.bloc-exercice { background: var(--carte); border: 1px solid var(--bordure); border-radius: 12px; padding: 16px; margin-bottom: 12px; }
+.exercice-niveau { display: inline-block; background: #1e3a5f; color: #fff; font-size: 12px; font-weight: bold; padding: 3px 10px; border-radius: 20px; margin-bottom: 10px; }
+.exercice-enonce { font-size: 15px; line-height: 1.6; }
+
+/* ---------- Correction discrete ---------- */
+.btn-correction { background: var(--fond); color: var(--texte-doux); border: 1px solid var(--bordure); border-radius: 8px; padding: 8px 16px; font-size: 14px; cursor: pointer; margin-top: 12px; }
+.btn-correction.cache { display: none; }
+.confirme { background: #fffbeb; border: 1px solid #fde68a; border-radius: 8px; padding: 12px; margin-top: 12px; }
+.confirme.cache { display: none; }
+.confirme-texte { font-size: 14px; color: #92400e; margin-bottom: 10px; }
+.confirme-boutons { display: flex; gap: 10px; }
+.btn-oui { background: var(--fond); color: var(--texte-doux); border: 1px solid var(--bordure); border-radius: 8px; padding: 8px 14px; font-size: 14px; cursor: pointer; }
+.btn-non { background: #1e3a5f; color: #fff; border: none; border-radius: 8px; padding: 8px 14px; font-size: 14px; font-weight: 600; cursor: pointer; }
+.correction { background: var(--fond); border: 1px solid var(--bordure); border-left: 4px solid var(--texte-doux); border-radius: 8px; padding: 12px; margin-top: 12px; font-size: 15px; line-height: 1.6; color: var(--texte-doux); }
+.correction.cache { display: none; }
+
+/* ---------- Mode Examen ---------- */
+.bloc-verrou {
+  background: #fff1f2; border: 1px solid #fecdd3; border-radius: 12px;
+  padding: 16px; margin-bottom: 16px; font-size: 15px; color: #be123c;
+  text-align: center;
+}
+body.sombre .bloc-verrou { background: #4c0519; border-color: #881337; }
+.examen-chrono {
+  background: #1e3a5f; color: #fff; border-radius: 16px;
+  padding: 16px; text-align: center; margin-bottom: 16px;
+}
+.examen-chrono-temps { font-size: 40px; font-weight: bold; font-variant-numeric: tabular-nums; }
+.examen-chrono-label { font-size: 13px; opacity: 0.85; }
+.examen-chrono-sous { font-size: 14px; opacity: 0.9; margin-top: 4px; }
+.examen-alerte { background: #fef3c7; border: 1px solid #fde68a; border-radius: 10px; padding: 12px; font-size: 14px; color: #92400e; margin-bottom: 16px; }
+.examen-actions { display: flex; flex-direction: column; gap: 10px; margin-top: 16px; }
+.btn-valider { background: #1e3a5f; color: #fff; border: none; border-radius: 12px; padding: 14px; font-size: 16px; font-weight: 600; cursor: pointer; width: 100%; }
+.btn-secondaire { background: var(--carte); color: #1e3a5f; border: 2px solid #1e3a5f; border-radius: 12px; padding: 14px; font-size: 16px; font-weight: 600; cursor: pointer; width: 100%; }
+body.sombre .btn-secondaire { color: #e2e8f0; border-color: #334155; }
+.btn-danger { background: var(--carte); color: #dc2626; border: 2px solid #fecaca; border-radius: 12px; padding: 12px; font-size: 15px; cursor: pointer; width: 100%; }
+.examen-eval { margin-top: 12px; }
+.examen-eval-question { font-size: 14px; font-weight: 600; margin-bottom: 8px; color: var(--texte); }
+.examen-eval-boutons { display: flex; gap: 6px; flex-wrap: wrap; }
+.examen-eval-btn {
+  flex: 1; min-width: 90px; background: var(--fond); border: 1px solid var(--bordure);
+  border-radius: 8px; padding: 10px 6px; font-size: 13px; font-weight: 600;
+  color: var(--texte); cursor: pointer;
+}
+.examen-eval-btn.actif { background: #1e3a5f; color: #fff; border-color: #1e3a5f; }
+.examen-score { background: #f0fdf4; border: 2px solid #86efac; border-radius: 16px; padding: 20px; text-align: center; margin-bottom: 16px; }
+.examen-score-note { font-size: 36px; font-weight: bold; color: #15803d; }
+.examen-score-pct { font-size: 20px; font-weight: bold; color: #16a34a; }
+.examen-score-msg { font-size: 15px; color: #166534; margin-top: 8px; }
+.mini-progression { display: flex; align-items: center; gap: 10px; margin: 12px 0; }
+.mini-progression-barre { flex: 1; height: 10px; background: var(--bordure); border-radius: 5px; overflow: hidden; }
+.mini-progression-remplie { height: 100%; background: #16a34a; }
+.mini-progression-texte { font-size: 14px; font-weight: bold; color: var(--texte); }
+.examen-ligne-resultat { display: flex; justify-content: space-between; gap: 8px; font-size: 13px; padding: 4px 0; flex-wrap: wrap; }
+.notes-matiere { background: var(--carte); border: 1px solid var(--bordure); border-radius: 12px; padding: 14px; margin-bottom: 10px; }
+.notes-matiere-nom { font-weight: 600; display: flex; justify-content: space-between; align-items: center; }
+.examen-histo-date { font-size: 12px; color: var(--texte-doux); font-weight: 400; }
+.examen-histo-detail { font-size: 13px; color: var(--texte-doux); margin-top: 4px; }
+.examen-histo-revoir { font-size: 13px; color: #be123c; margin-top: 4px; }
+.texte-parametre { font-size: 13px; color: var(--texte-doux); margin: 12px 0; }
+.texte-vide { text-align: center; padding: 30px 20px; color: var(--texte-doux); }
+
+/* ---------- Mes notes ---------- */
+.zone-notes {
+  width: 100%; min-height: 120px; background: var(--carte); color: var(--texte);
+  border: 1px solid var(--bordure); border-radius: 10px; padding: 12px;
+  font-size: 15px; font-family: inherit; resize: vertical; margin-bottom: 16px;
+}
+
+/* ---------- Reglages ---------- */
+.ligne-reglage {
+  display: flex; justify-content: space-between; align-items: center;
+  background: var(--carte); border: 1px solid var(--bordure);
+  border-radius: 12px; padding: 14px 16px; margin-bottom: 10px;
+}
+.ligne-reglage-texte { font-size: 15px; font-weight: 600; }
+.interrupteur {
+  width: 50px; height: 28px; border-radius: 14px; background: var(--bordure);
+  border: none; cursor: pointer; position: relative; transition: background 0.2s;
+}
+.interrupteur::after {
+  content: ''; position: absolute; top: 3px; left: 3px;
+  width: 22px; height: 22px; border-radius: 50%; background: #fff;
+  transition: left 0.2s;
+}
+.interrupteur.actif { background: #16a34a; }
+.interrupteur.actif::after { left: 25px; }
+
+/* ---------- Vide ---------- */
+.vide { text-align: center; padding: 40px 20px; color: var(--texte-doux); font-size: 16px; }
