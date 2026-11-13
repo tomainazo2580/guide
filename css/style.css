@@ -1,4 +1,4 @@
-/* ===== GUIDE - Style v3.7 ===== */
+/* ===== GUIDE - Style v3.8 ===== */
 
 :root {
   --fond: #f1f5f9;
@@ -47,17 +47,23 @@ button { font-family: inherit; }
   width: 100%;
 }
 
+/* ---------- Barre du bas ---------- */
+.barre-bas.cachee { display: none; }
+
 /* ---------- Banniere installation ---------- */
 .banniere-install {
   display: flex;
   align-items: center;
   gap: 8px;
-  background: linear-gradient(135deg, #1e3a5f, #2b4f7c);
+  background: linear-gradient(120deg, #0d2240 0%, #2b4f7c 45%, #4a7fb5 60%, #2b4f7c 100%);
   color: #fff;
+  border: 1px solid rgba(255,255,255,0.35);
   border-radius: 14px;
   padding: 10px 12px;
-  margin-bottom: 12px;
-  box-shadow: 0 4px 12px rgba(30,58,95,0.3);
+  margin: 10px auto;
+  max-width: 560px;
+  width: 92%;
+  box-shadow: 0 6px 16px rgba(13,34,64,0.5);
 }
 
 .bi-icone { font-size: 24px; }
@@ -91,28 +97,60 @@ button { font-family: inherit; }
   flex-shrink: 0;
 }
 
-/* ---------- Accueil facon croquis ---------- */
+/* ---------- Accueil = couverture ---------- */
+.accueil-fond {
+  background:
+    repeating-linear-gradient(45deg, rgba(255,255,255,0.04) 0 14px, rgba(255,255,255,0) 14px 28px),
+    linear-gradient(160deg, #24466e 0%, #1e3a5f 50%, #152c49 100%);
+  min-height: 100%;
+  margin: -16px;
+  padding: 26px 16px 36px;
+}
+
+.acc-titre {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 5px;
+}
+
+.acc-livres {
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 10px;
+  margin: 4px 0 6px;
+}
+
+.acc-slogan {
+  text-align: center;
+  color: #cfe0f2;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+/* Carte des classes (1/3 de largeur, a gauche) */
 .acc-classes {
-  width: 66%;
-  background: var(--carte);
-  border: 1px solid var(--bordure);
-  border-radius: 16px;
-  box-shadow: 0 4px 14px rgba(15,23,42,0.12);
-  padding: 10px;
+  width: 33%;
+  background: #ffffff;
+  border: 1px solid #d5e0ec;
+  border-radius: 14px;
+  box-shadow: 0 6px 16px rgba(13,34,64,0.35);
+  padding: 8px 6px;
   display: flex;
   flex-direction: column;
-  gap: 6px;
-  margin-bottom: 14px;
+  gap: 5px;
+  margin-bottom: 12px;
 }
 
 .acc-classe {
   border: 2px solid transparent;
   background: transparent;
   border-radius: 10px;
-  padding: 9px;
-  font-size: 17px;
+  padding: 7px 2px;
+  font-size: 15px;
   font-weight: 700;
-  color: var(--texte);
+  color: #1e3a5f;
   cursor: pointer;
   text-align: center;
 }
@@ -125,39 +163,163 @@ button { font-family: inherit; }
 
 .acc-classe.off { opacity: 0.4; }
 
+/* Carte des matieres (1/4 de largeur, a gauche) */
 .acc-matieres {
-  width: 66%;
-  background: var(--carte);
-  border: 1px solid var(--bordure);
-  border-radius: 16px;
-  box-shadow: 0 4px 14px rgba(15,23,42,0.12);
-  padding: 12px 8px;
+  width: 25%;
+  min-width: 64px;
+  background: #ffffff;
+  border: 1px solid #d5e0ec;
+  border-radius: 14px;
+  box-shadow: 0 6px 16px rgba(13,34,64,0.35);
+  padding: 8px 4px;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 2px;
+  margin-bottom: 12px;
 }
 
 .acc-mat {
   background: none;
   border: none;
-  font-size: 34px;
+  border-radius: 8px;
+  padding: 7px 4px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #1e3a5f;
   cursor: pointer;
-  padding: 6px 12px;
+  text-align: center;
 }
 
-.acc-mat:active { transform: scale(1.15); }
+.acc-mat:active { background: rgba(30,136,229,0.15); }
 
 .acc-mat.off {
   opacity: 0.3;
   cursor: default;
 }
 
-.acc-mat.off:active { transform: none; }
+.acc-mat.off:active { background: none; }
 
 .acc-vide {
+  font-size: 12px;
+  color: #64748b;
+  padding: 8px;
+  text-align: center;
+}
+
+/* Carte Partager */
+.acc-partager {
+  width: 33%;
+  background: #ffffff;
+  border: 1px solid #d5e0ec;
+  border-radius: 14px;
+  box-shadow: 0 6px 16px rgba(13,34,64,0.35);
+  padding: 12px 6px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #1e3a5f;
+  cursor: pointer;
+  text-align: center;
+}
+
+.acc-partager:active { transform: scale(0.96); }
+
+/* Fenetre de partage */
+.partage-carte {
+  background: var(--carte);
+  border: 1px solid var(--bordure);
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(15,23,42,0.12);
+  padding: 20px 16px;
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.partage-titre {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.partage-texte {
   font-size: 14px;
   color: var(--texte-doux);
-  padding: 8px;
+  margin-bottom: 14px;
+}
+
+.partage-qr {
+  background: #fff;
+  border-radius: 12px;
+  padding: 10px;
+  display: inline-block;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.partage-lien {
+  font-size: 12px;
+  color: var(--texte-doux);
+  margin: 10px 0 14px;
+  word-break: break-all;
+}
+
+.partage-boutons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn-vert {
+  background: #16a34a;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  padding: 14px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* ---------- Boutons flottants des lecons ---------- */
+.nav-flottant {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 64px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  z-index: 60;
+  pointer-events: none;
+}
+
+.nav-flottant button {
+  pointer-events: auto;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  border: none;
+  background: #1e3a5f;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.35);
+}
+
+.nav-flottant button.nf-maison {
+  background: #fff;
+  color: #1e3a5f;
+  border: 2px solid #1e3a5f;
+}
+
+.nav-flottant button.nf-exos {
+  background: #16a34a;
+  font-size: 18px;
+}
+
+.nav-flottant button.nf-vide {
+  visibility: hidden;
 }
 
 /* ---------- Cartes ---------- */
@@ -308,37 +470,6 @@ button { font-family: inherit; }
 }
 
 /* ---------- Navigation lecons ---------- */
-.nav-lecon-haut {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 20px;
-  gap: 10px;
-}
-
-.btn-nav {
-  background: var(--carte);
-  border: 1px solid var(--bordure);
-  color: var(--texte);
-  border-radius: 10px;
-  padding: 12px 18px;
-  font-size: 15px;
-  font-weight: 600;
-  cursor: pointer;
-}
-
-.btn-nav-suivant {
-  background: #1e3a5f;
-  color: #fff;
-  border-color: #1e3a5f;
-}
-
-.btn-nav-exercices {
-  background: #16a34a;
-  color: #fff;
-  border-color: #16a34a;
-}
-
 .lecon-progression {
   display: inline-block;
   background: var(--bordure);
