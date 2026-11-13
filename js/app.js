@@ -1,7 +1,7 @@
 // ===== GUIDE - Moteur de l'application =====
-// v3.8 - accueil couverture, partage QR, 8 matieres, nav flottante
+// v3.9 - accueil epure, matieres 2 lignes, vrai QR, accents dores
 
-var APP_VERSION = 'v3.8';
+var APP_VERSION = 'v3.9';
 
 var ecran = document.getElementById('ecran');
 
@@ -110,9 +110,6 @@ function afficherAccueil() {
   }
 
   var html = '<div class="accueil-fond">';
-  html += '<div class="acc-titre">GUIDE</div>';
-  html += '<div class="acc-livres">📚📖📚</div>';
-  html += '<div class="acc-slogan">Réussis ton année scolaire 🇲🇬</div>';
 
   if (banniereInstallVisible()) {
     html += '<div class="banniere-install" id="banniere-install">' +
@@ -133,7 +130,7 @@ function afficherAccueil() {
 
   html += '<div class="acc-matieres" id="acc-matieres"></div>';
 
-  html += '<button class="acc-partager" onclick="afficherPartage()">📤 Partager<br>Guide</button>';
+  html += '<button class="acc-partager" onclick="afficherPartage()">Partager<br>Guide</button>';
 
   html += '</div>';
   afficher(html);
@@ -162,51 +159,8 @@ function remplirMatieresAccueil() {
   zone.innerHTML = html;
 }
 
-// ---------- Partager Guide (QR code + lien) ----------
+// ---------- Partager Guide (vrai QR + lien) ----------
 var GUIDE_URL = 'https://tomainazo2580.github.io/guide/';
-
-var QR_MATRICE = [
-'111111101010101111111',
-'100000101010100100001',
-'101110100110100101101',
-'101110101111100101101',
-'101110100011100101101',
-'100000100010100100001',
-'111111101010101111111',
-'000000000011000000000',
-'101101011010111111001',
-'010111100011000110010',
-'111011010100001101110',
-'000111011000111101010',
-'101010101010100001111',
-'000000001110000011110',
-'111111101001010101101',
-'100000101110001010000',
-'101110100101111011111',
-'101110100011101001001',
-'101110101010100001111',
-'100000100110001110101',
-'111111100011010101011'
-];
-
-function qrSvg() {
-  var taille = QR_MATRICE.length;
-  var cellule = 9;
-  var marge = 4;
-  var total = (taille + 2 * marge) * cellule;
-  var svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ' + total + ' ' + total + '" width="190" height="190">';
-  svg += '<rect width="' + total + '" height="' + total + '" fill="#ffffff" rx="12"/>';
-  svg += '<g fill="#1e3a5f">';
-  for (var y = 0; y < taille; y++) {
-    for (var x = 0; x < taille; x++) {
-      if (QR_MATRICE[y].charAt(x) === '1') {
-        svg += '<rect x="' + ((x + marge) * cellule) + '" y="' + ((y + marge) * cellule) + '" width="' + cellule + '" height="' + cellule + '"/>';
-      }
-    }
-  }
-  svg += '</g></svg>';
-  return svg;
-}
 
 function afficherPartage() {
   if (verrouExamen()) { afficherVerrouillage(); return; }
@@ -215,15 +169,20 @@ function afficherPartage() {
 
   var html = '<button class="retour" onclick="afficherAccueil()">← Retour</button>';
   html += '<div class="partage-carte">';
-  html += '<div class="partage-titre">📤 Partager Guide</div>';
+  html += '<div class="partage-titre">Partager Guide</div>';
   html += '<div class="partage-texte">Ton ami scanne ce code avec l\'appareil photo de son téléphone : Guide s\'ouvre dans son navigateur. Tu peux aussi lui envoyer le lien par message.</div>';
-  html += '<div class="partage-qr">' + qrSvg() + '</div>';
+  html += '<div class="partage-qr"><img src="icons/qr-guide.png" alt="QR Code Guide" onerror="qrIndispo(this)"></div>';
   html += '<div class="partage-lien">' + GUIDE_URL + '</div>';
   html += '<div class="partage-boutons">';
-  html += '<button class="btn-vert" onclick="partagerGuide()">📤 Envoyer le lien</button>';
-  html += '<button class="btn-secondaire" onclick="copierGuide()">📋 Copier le lien</button>';
+  html += '<button class="btn-vert" onclick="partagerGuide()">Envoyer le lien</button>';
+  html += '<button class="btn-secondaire" onclick="copierGuide()">Copier le lien</button>';
   html += '</div></div>';
   afficher(html);
+}
+
+function qrIndispo(img) {
+  var p = img.parentNode;
+  if (p) p.innerHTML = '<div class="partage-qr-vide">QR indisponible pour le moment.<br>Utilise le lien ci-dessous 👇</div>';
 }
 
 function partagerGuide() {
@@ -235,19 +194,14 @@ function partagerGuide() {
 }
 
 function copierGuide() {
-  var fini = function(ok) {
-    alert(ok ? '✅ Lien copié ! Colle-le dans un message.' : 'Voici le lien à copier :\n' + GUIDE_URL);
-  };
   if (navigator.clipboard && navigator.clipboard.writeText) {
-    navigator.clipboard.writeText(GUIDE_URL).then(function() { fini(true); }, function() { fini(false); });
+    navigator.clipboard.writeText(GUIDE_URL).then(function() {
+      alert('✅ Lien copié ! Colle-le dans un message.');
+    }, function() {
+      prompt('Copie ce lien :', GUIDE_URL);
+    });
   } else {
-    fini(false);
-  }
-  function fini(ok) { fini2(ok); }
-  function fini2(ok) { fini3(ok); }
-  function fini3(ok) {
-    if (ok) { alert('✅ Lien copié ! Colle-le dans un message.'); }
-    else { prompt('Copie ce lien :', GUIDE_URL); }
+    prompt('Copie ce lien :', GUIDE_URL);
   }
 }
 
@@ -638,7 +592,7 @@ function afficherReglages() {
   html += '<div class="reglage-ligne"><span>🌙 Mode sombre</span>' +
     '<button class="switch' + (sombre ? ' on' : '') + '" onclick="basculerTheme()"><span class="switch-pastille"></span></button></div>';
 
-  html += '<div class="reglage-ligne"><span>📤 Partager Guide</span>' +
+  html += '<div class="reglage-ligne"><span>Partager Guide</span>' +
     '<button class="btn-nav" onclick="afficherPartage()">Ouvrir ›</button></div>';
 
   html += '<h3 class="titre-section">ℹ️ À propos</h3>';
