@@ -1,73 +1,50 @@
-// ============================================
-// GUIDE - data.js
-// Version : v3.32
-//   + Sciences Physiques 6e : chapitres 1 a 10
-// ============================================
+// =====================================================
+// GUIDE - Donnees centrales (ne pas effacer)
+// Moteur de donnees + liste des fichiers de contenu
+// Version : v3.33
+// + Sciences Physiques 6e : chapitres 1 a 11
+// =====================================================
 
-var VERSION = 'v3.32';
+var VERSION = 'v3.33';
 
-// ---------- Classes ----------
+// ----- Les classes -----
 var CLASSES = [
-  { id: '6e', nom: 'Sixième', dispo: true },
-  { id: '5e', nom: 'Cinquième', dispo: false },
-  { id: '4e', nom: 'Quatrième', dispo: false },
-  { id: '3e', nom: 'Troisième', dispo: false },
-  { id: '2nde', nom: 'Seconde', dispo: false },
-  { id: '1ere', nom: 'Première', dispo: false },
-  { id: 'term', nom: 'Terminale', dispo: false }
+  { id: '6e',   nom: 'Sixieme',   dispo: true },
+  { id: '5e',   nom: 'Cinquieme', dispo: false },
+  { id: '4e',   nom: 'Quatrieme', dispo: false },
+  { id: '3e',   nom: 'Troisieme', dispo: false },
+  { id: '2nde', nom: 'Seconde',   dispo: false },
+  { id: '1ere', nom: 'Premiere',  dispo: false },
+  { id: 'tle',  nom: 'Terminale', dispo: false }
 ];
 
-// ---------- Matieres ----------
+// ----- Les matieres par classe -----
 var MATIERES = {
   '6e': [
-    {
-      id: 'maths',
-      nom: 'Mathématiques',
-      court: 'Math',
-      icone: '📐',
-      dispo: true,
-      fichiers: [
-        'data/6e/maths-ch1.js',
-        'data/6e/maths-ch2.js',
-        'data/6e/maths-ch3.js',
-        'data/6e/maths-ch4.js',
-        'data/6e/maths-ch5.js',
-        'data/6e/maths-ch6.js',
-        'data/6e/maths-ch7.js',
-        'data/6e/maths-ch8.js',
-        'data/6e/maths-ch9.js',
-        'data/6e/maths-ch10.js',
-        'data/6e/maths-ch11.js',
-        'data/6e/maths-ch12.js',
-        'data/6e/maths-ch13.js',
-        'data/6e/maths-ch14.js',
-        'data/6e/maths-ch15.js',
-        'data/6e/maths-ch16.js'
-      ]
-    },
-    { id: 'sp', nom: 'Sciences Physiques', court: 'SP', icone: '⚗️', dispo: true, fichiers: ['data/6e/sp-ch1.js', 'data/6e/sp-ch2.js', 'data/6e/sp-ch3.js', 'data/6e/sp-ch4.js', 'data/6e/sp-ch5.js', 'data/6e/sp-ch6.js', 'data/6e/sp-ch7.js', 'data/6e/sp-ch8.js', 'data/6e/sp-ch9.js', 'data/6e/sp-ch10.js'] },
-    { id: 'svt', nom: 'SVT', court: 'SVT', icone: '🌱', dispo: false, fichiers: [] },
+    { id: 'maths', nom: 'Mathematiques', court: 'Maths', icone: '📐', dispo: true,
+      fichiers: ['data/6e/maths-ch1.js', 'data/6e/maths-ch2.js', 'data/6e/maths-ch3.js', 'data/6e/maths-ch4.js', 'data/6e/maths-ch5.js', 'data/6e/maths-ch6.js', 'data/6e/maths-ch7.js', 'data/6e/maths-ch8.js', 'data/6e/maths-ch9.js', 'data/6e/maths-ch10.js', 'data/6e/maths-ch11.js', 'data/6e/maths-ch12.js', 'data/6e/maths-ch13.js', 'data/6e/maths-ch14.js', 'data/6e/maths-ch15.js', 'data/6e/maths-ch16.js'] },
+    { id: 'sp', nom: 'Sciences Physiques', court: 'SP', icone: '⚗️', dispo: true,
+      fichiers: ['data/6e/sp-ch1.js', 'data/6e/sp-ch2.js', 'data/6e/sp-ch3.js', 'data/6e/sp-ch4.js', 'data/6e/sp-ch5.js', 'data/6e/sp-ch6.js', 'data/6e/sp-ch7.js', 'data/6e/sp-ch8.js', 'data/6e/sp-ch9.js', 'data/6e/sp-ch10.js', 'data/6e/sp-ch11.js'] },
+    { id: 'svt', nom: 'Sciences de la Vie et de la Terre', court: 'SVT', icone: '🌱', dispo: false, fichiers: [] },
     { id: 'mal', nom: 'Malagasy', court: 'Mal', icone: '🇲🇬', dispo: false, fichiers: [] },
-    { id: 'fr', nom: 'Français', court: 'Fr', icone: '📖', dispo: false, fichiers: [] },
+    { id: 'fr', nom: 'Francais', court: 'Fr', icone: '📖', dispo: false, fichiers: [] },
     { id: 'eng', nom: 'Anglais', court: 'Eng', icone: '🇬🇧', dispo: false, fichiers: [] },
-    { id: 'hg', nom: 'Histoire-Géographie', court: 'Hist', icone: '🌍', dispo: false, fichiers: [] },
-    { id: 'geo', nom: 'Géographie', court: 'Géo', icone: '🗺️', dispo: false, fichiers: [] }
+    { id: 'hg', nom: 'Histoire', court: 'Hist', icone: '🌍', dispo: false, fichiers: [] },
+    { id: 'geo', nom: 'Geographie', court: 'Geo', icone: '🗺️', dispo: false, fichiers: [] }
   ]
 };
 
-// ---------- Contenu ----------
+// ----- Le contenu (rempli par les fichiers) -----
 var CONTENU = {};
 
-// Chaque fichier de chapitre appelle cette fonction pour AJOUTER son contenu
 function enregistrerChapitres(classeId, matiereId, chapitres) {
   var cle = classeId + '|' + matiereId;
-  if (!CONTENU[cle]) CONTENU[cle] = [];
+  if (!CONTENU[cle]) { CONTENU[cle] = []; }
   for (var i = 0; i < chapitres.length; i++) {
     CONTENU[cle].push(chapitres[i]);
   }
 }
 
-// Charge le texte d'un fichier et l'execute
 function chargerFichierContenu(url) {
   var xhr = new XMLHttpRequest();
   xhr.open('GET', url + '?v=' + VERSION, false);
@@ -77,17 +54,15 @@ function chargerFichierContenu(url) {
   }
 }
 
-// ---------- Chargement automatique ----------
+// ----- Chargement automatique -----
 (function() {
-  for (var i = 0; i < CLASSES.length; i++) {
-    var classe = CLASSES[i];
-    var mats = MATIERES[classe.id] || [];
-    for (var j = 0; j < mats.length; j++) {
-      var m = mats[j];
-      if (!m.dispo) continue;
-      var fichiers = m.fichiers || (m.fichier ? [m.fichier] : []);
-      for (var k = 0; k < fichiers.length; k++) {
-        chargerFichierContenu(fichiers[k]);
+  for (var classeId in MATIERES) {
+    var liste = MATIERES[classeId];
+    for (var i = 0; i < liste.length; i++) {
+      var m = liste[i];
+      if (!m.dispo) { continue; }
+      for (var j = 0; j < m.fichiers.length; j++) {
+        chargerFichierContenu(m.fichiers[j]);
       }
     }
   }
