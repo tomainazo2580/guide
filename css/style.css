@@ -1,545 +1,65 @@
-/* ===== GUIDE - Style v3.2 ===== */
+/* ===== GUIDE - Style v3.3 ===== */
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
+:root {
+  --fond: #f1f5f9;
+  --carte: #ffffff;
+  --texte: #1e293b;
+  --texte-doux: #64748b;
+  --bordure: #e2e8f0;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
-  background: #f8fafc;
-  color: #1e293b;
+  background: var(--fond);
+  color: var(--texte);
   font-size: 16px;
   line-height: 1.6;
-  padding-bottom: 140px;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.sombre {
+  --fond: #0f172a;
+  --carte: #1e293b;
+  --texte: #e2e8f0;
+  --texte-doux: #94a3b8;
+  --bordure: #334155;
 }
 
 /* ---------- En-tete ---------- */
 .haut {
   background: #1e3a5f;
   color: #fff;
-  padding: 20px 16px 16px;
+  padding: 16px 16px 12px;
   text-align: center;
 }
-
-.haut-titre {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.haut-sous-titre {
-  font-size: 14px;
-  opacity: 0.85;
-  margin-top: 4px;
-}
+.haut-titre { font-size: 22px; font-weight: bold; }
+.haut-sous-titre { font-size: 13px; opacity: 0.85; margin-top: 2px; }
 
 /* ---------- Ecran principal ---------- */
 .ecran {
-  padding: 16px;
+  padding: 16px 16px 20px;
   max-width: 600px;
   margin: 0 auto;
-}
-
-/* ---------- Barre du bas ---------- */
-.bas {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: #fff;
-  border-top: 1px solid #e2e8f0;
-  display: flex;
-  justify-content: space-around;
-  padding: 6px 0;
-  z-index: 50;
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-.bas-btn {
-  background: none;
-  border: none;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2px;
-  padding: 6px 12px;
-  cursor: pointer;
-  color: #94a3b8;
-  font-size: 12px;
-}
-
-.bas-btn.actif {
-  color: #1e3a5f;
-}
-
-.bas-icone {
-  font-size: 22px;
-}
-
-.bas-label {
-  font-size: 11px;
-  font-weight: 600;
-}
-
-/* ---------- Boutons flottants lecon ---------- */
-.nav-flottant {
-  position: fixed;
-  bottom: 70px;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  z-index: 40;
-  pointer-events: none;
-}
-
-.nav-flottant > button {
-  pointer-events: auto;
-}
-
-.btn-rond {
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
-  border: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 22px;
-  cursor: pointer;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.25);
-}
-
-.btn-rond-gauche {
-  background: #1e3a5f;
-  color: #fff;
-}
-
-.btn-rond-centre {
-  background: #fff;
-  color: #1e3a5f;
-  border: 2px solid #1e3a5f;
-}
-
-.btn-rond-droite {
-  background: #1e3a5f;
-  color: #fff;
-}
-
-.btn-rond-exercices {
-  background: #16a34a;
-  color: #fff;
-  font-size: 18px;
-}
-
-/* ---------- Cartes ---------- */
-.liste {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.carte {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  background: #fff;
-  border: 1px solid #e2e8f0;
-  border-radius: 12px;
-  padding: 16px;
-  font-size: 16px;
-  color: #1e293b;
-  text-align: left;
-  cursor: pointer;
   width: 100%;
-  transition: transform 0.1s, box-shadow 0.1s;
 }
 
-.carte:active {
-  transform: scale(0.98);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-.carte-off {
-  opacity: 0.5;
-  cursor: default;
-}
-
-.carte-off:active {
-  transform: none;
-  box-shadow: none;
-}
-
-.carte-icone {
-  font-size: 28px;
-}
-
-.carte-texte {
-  flex: 1;
-  font-weight: 600;
-}
-
-.carte-fleche {
-  font-size: 20px;
-  color: #94a3b8;
-}
-
-.carte-exercices {
-  border: 2px solid #1e3a5f;
-  background: #eff6ff;
-}
-
-.numero-lecon {
-  background: #1e3a5f;
-  color: #fff;
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
+/* ---------- Banniere Installer ---------- */
+.banniere-install {
   display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: 14px;
-  font-weight: bold;
-  flex-shrink: 0;
-}
-
-/* ---------- Badges ---------- */
-.badge-ok {
-  background: #dcfce7;
-  color: #15803d;
-  font-size: 12px;
-  font-weight: bold;
-  padding: 4px 10px;
-  border-radius: 20px;
-}
-
-.badge-attente {
-  background: #f1f5f9;
-  color: #64748b;
-  font-size: 12px;
-  padding: 4px 10px;
-  border-radius: 20px;
-}
-
-.badge-nb {
-  background: #1e3a5f;
-  color: #fff;
-  font-size: 13px;
-  font-weight: bold;
-  padding: 4px 12px;
-  border-radius: 20px;
-}
-
-/* ---------- Boutons ---------- */
-.retour {
-  background: none;
-  border: none;
-  color: #1e3a5f;
-  font-size: 15px;
-  font-weight: 600;
-  padding: 8px 0;
-  margin-bottom: 12px;
-  cursor: pointer;
-}
-
-/* ---------- Navigation lecons (haut de page) ---------- */
-.nav-lecon-haut {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 20px;
   gap: 10px;
-}
-
-.btn-nav {
-  background: #fff;
-  border: 1px solid #cbd5e1;
-  color: #1e3a5f;
-  border-radius: 10px;
-  padding: 12px 18px;
-  font-size: 15px;
-  font-weight: 600;
-  cursor: pointer;
-}
-
-.btn-nav:active {
-  background: #f1f5f9;
-}
-
-.btn-nav-suivant {
-  background: #1e3a5f;
-  color: #fff;
-  border-color: #1e3a5f;
-}
-
-.btn-nav-exercices {
-  background: #16a34a;
-  color: #fff;
-  border-color: #16a34a;
-}
-
-.lecon-progression {
-  display: inline-block;
-  background: #f1f5f9;
-  color: #64748b;
-  font-size: 13px;
-  font-weight: 600;
-  padding: 4px 12px;
-  border-radius: 20px;
-  margin-bottom: 10px;
-}
-
-/* ---------- Recherche ---------- */
-.barre-recherche {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  background: #fff;
-  border: 2px solid #1e3a5f;
-  border-radius: 12px;
-  padding: 10px 14px;
-  margin-bottom: 16px;
-}
-
-.barre-recherche input {
-  flex: 1;
-  border: none;
-  outline: none;
-  font-size: 16px;
-  color: #1e293b;
-  background: transparent;
-}
-
-.barre-recherche input::placeholder {
-  color: #94a3b8;
-}
-
-.barre-recherche .icone-loupe {
-  font-size: 20px;
-}
-
-.resultat-recherche {
-  margin-bottom: 8px;
-}
-
-.resultat-chemin {
-  font-size: 13px;
-  color: #64748b;
-  margin-top: 2px;
-}
-
-/* ---------- Titres ---------- */
-.titre-page {
-  font-size: 20px;
-  color: #1e3a5f;
-  margin-bottom: 16px;
-}
-
-.titre-section {
-  font-size: 17px;
-  color: #334155;
-  margin: 20px 0 12px;
-  padding-bottom: 6px;
-  border-bottom: 2px solid #e2e8f0;
-}
-
-/* ---------- Blocs de contenu ---------- */
-.bloc {
-  border-radius: 8px;
-  padding: 12px;
-  margin: 10px 0;
-  border-left: 4px solid;
-}
-
-.bloc-titre {
-  font-weight: bold;
-  font-size: 14px;
-  margin-bottom: 6px;
-}
-
-.bloc-texte {
-  font-size: 15px;
-}
-
-.bloc-definition {
-  background: #eff6ff;
-  border-left-color: #3b82f6;
-}
-
-.bloc-definition .bloc-titre { color: #1e40af; }
-
-.bloc-regle {
-  background: #fef3c7;
-  border-left-color: #f59e0b;
-}
-
-.bloc-regle .bloc-titre { color: #92400e; }
-
-.bloc-methode {
-  background: #f0fdf4;
-  border-left-color: #16a34a;
-}
-
-.bloc-methode .bloc-titre { color: #15803d; }
-
-.bloc-exemple {
-  background: #faf5ff;
-  border-left-color: #9333ea;
-}
-
-.bloc-exemple .bloc-titre { color: #7c3aed; }
-
-.bloc-remarque {
-  background: #fff1f2;
-  border-left-color: #e11d48;
-}
-
-.bloc-remarque .bloc-titre { color: #be123c; }
-
-.bloc-formule {
-  background: #ecfeff;
-  border-left-color: #0891b2;
-  text-align: center;
-}
-
-.bloc-formule .bloc-titre { color: #0e7490; }
-
-/* ---------- Schemas ---------- */
-.bloc-schema {
-  background: #fff;
-  border: 1px solid #e2e8f0;
-  border-left: 4px solid #3b82f6;
-}
-
-.bloc-schema svg {
-  display: block;
-  max-width: 100%;
-  margin: 8px auto;
-}
-
-.legende {
-  font-size: 13px;
-  color: #64748b;
-  text-align: center;
-  font-style: italic;
-  margin-top: 6px;
-}
-
-/* ---------- Tableaux ---------- */
-.bloc-tableau {
-  background: #fff;
-  border: 1px solid #e2e8f0;
-  border-left: 4px solid #8b5cf6;
-  overflow-x: auto;
-}
-
-.bloc-tableau table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 14px;
-}
-
-.bloc-tableau th {
-  background: #f1f5f9;
-  padding: 8px;
-  text-align: left;
-  border: 1px solid #e2e8f0;
-  font-weight: bold;
-}
-
-.bloc-tableau td {
-  padding: 8px;
-  border: 1px solid #e2e8f0;
-}
-
-/* ---------- Exercices ---------- */
-.conseil-exercices {
   background: #eff6ff;
   border: 1px solid #bfdbfe;
-  border-radius: 10px;
-  padding: 12px;
-  font-size: 14px;
-  color: #1e40af;
-  margin-bottom: 16px;
-}
-
-.bloc-exercice {
-  background: #fff;
-  border: 1px solid #e2e8f0;
+  border-left: 4px solid #1e88e5;
   border-radius: 12px;
-  padding: 16px;
-  margin-bottom: 12px;
-}
-
-.exercice-niveau {
-  display: inline-block;
-  background: #1e3a5f;
-  color: #fff;
-  font-size: 12px;
-  font-weight: bold;
-  padding: 3px 10px;
-  border-radius: 20px;
-  margin-bottom: 10px;
-}
-
-.exercice-enonce {
-  font-size: 15px;
-  line-height: 1.6;
-}
-
-/* ---------- Correction discrete ---------- */
-.btn-correction {
-  background: #f1f5f9;
-  color: #64748b;
-  border: 1px solid #e2e8f0;
-  border-radius: 8px;
-  padding: 8px 16px;
+  padding: 10px 12px;
+  margin-bottom: 16px;
   font-size: 14px;
-  cursor: pointer;
-  margin-top: 12px;
 }
-
-.btn-correction:active {
-  background: #e2e8f0;
-}
-
-.btn-correction.cache {
-  display: none;
-}
-
-.confirme {
-  background: #fffbeb;
-  border: 1px solid #fde68a;
-  border-radius: 8px;
-  padding: 12px;
-  margin-top: 12px;
-}
-
-.confirme.cache {
-  display: none;
-}
-
-.confirme-texte {
-  font-size: 14px;
-  color: #92400e;
-  margin-bottom: 10px;
-}
-
-.confirme-boutons {
-  display: flex;
-  gap: 10px;
-}
-
-.btn-oui {
-  background: #f1f5f9;
-  color: #475569;
-  border: 1px solid #cbd5e1;
-  border-radius: 8px;
-  padding: 8px 14px;
-  font-size: 14px;
-  cursor: pointer;
-}
-
-.btn-non {
+.banniere-texte { flex: 1; color: #1e3a5f; }
+.btn-installer {
   background: #1e3a5f;
   color: #fff;
   border: none;
@@ -548,28 +68,53 @@ body {
   font-size: 14px;
   font-weight: 600;
   cursor: pointer;
+  white-space: nowrap;
 }
+.banniere-fermer {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #94a3b8;
+  cursor: pointer;
+  padding: 4px;
+}
+body.sombre .banniere-install { background: #1e293b; border-color: #334155; }
+body.sombre .banniere-texte { color: #e2e8f0; }
 
-.correction {
-  background: #f8fafc;
-  border: 1px solid #e2e8f0;
-  border-left: 4px solid #94a3b8;
-  border-radius: 8px;
-  padding: 12px;
-  margin-top: 12px;
+/* ---------- Accueil : classes + matieres ---------- */
+.colonne-classes {
+  width: 66%;
+  background: var(--carte);
+  border-radius: 16px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 8px;
+}
+.bouton-classe {
+  background: none;
+  border: none;
+  border-radius: 10px;
+  padding: 13px 8px;
   font-size: 15px;
-  line-height: 1.6;
-  color: #475569;
-}
-
-.correction.cache {
-  display: none;
-}
-
-/* ---------- Vide ---------- */
-.vide {
+  font-weight: 700;
+  color: var(--texte);
+  cursor: pointer;
   text-align: center;
-  padding: 40px 20px;
-  color: #64748b;
-  font-size: 16px;
 }
+.bouton-classe:hover { background: rgba(30, 136, 229, 0.08); }
+.bouton-classe.selectionne {
+  outline: 2.5px solid #1e88e5;
+  background: rgba(30, 136, 229, 0.1);
+}
+.bouton-classe:disabled { opacity: 0.4; cursor: default; }
+.bouton-classe:disabled:hover { background: none; }
+
+.ligne-matieres {
+  width: 66%;
+  background: var(--carte);
+  border-radius: 16px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+ 
