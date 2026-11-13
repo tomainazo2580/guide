@@ -1,5 +1,12 @@
-var VERSION = 'v3.21';
+// ============================================
+// GUIDE - data.js
+// Version : v3.22
+//   + 8 matieres declarees pour la 6e
+// ============================================
 
+var VERSION = 'v3.22';
+
+// ---------- Classes ----------
 var CLASSES = [
   { id: '6e', nom: 'Sixième', dispo: true },
   { id: '5e', nom: 'Cinquième', dispo: false },
@@ -10,11 +17,13 @@ var CLASSES = [
   { id: 'term', nom: 'Terminale', dispo: false }
 ];
 
+// ---------- Matieres ----------
 var MATIERES = {
   '6e': [
     {
       id: 'maths',
       nom: 'Mathématiques',
+      court: 'Math',
       icone: '📐',
       dispo: true,
       fichiers: [
@@ -36,46 +45,49 @@ var MATIERES = {
         'data/6e/maths-ch16.js'
       ]
     },
-    { id: 'sp', nom: 'Sciences Physiques', icone: '⚗️', dispo: false },
-    { id: 'svt', nom: 'SVT', icone: '🌱', dispo: false }
+    { id: 'sp', nom: 'Sciences Physiques', court: 'SP', icone: '⚗️', dispo: false, fichiers: [] },
+    { id: 'svt', nom: 'SVT', court: 'SVT', icone: '🌱', dispo: false, fichiers: [] },
+    { id: 'mal', nom: 'Malagasy', court: 'Mal', icone: '🇲🇬', dispo: false, fichiers: [] },
+    { id: 'fr', nom: 'Français', court: 'Fr', icone: '📖', dispo: false, fichiers: [] },
+    { id: 'eng', nom: 'Anglais', court: 'Eng', icone: '🇬🇧', dispo: false, fichiers: [] },
+    { id: 'hg', nom: 'Histoire-Géographie', court: 'Hist', icone: '🌍', dispo: false, fichiers: [] },
+    { id: 'geo', nom: 'Géographie', court: 'Géo', icone: '🗺️', dispo: false, fichiers: [] }
   ]
 };
 
+// ---------- Contenu ----------
 var CONTENU = {};
 
+// Chaque fichier de chapitre appelle cette fonction pour AJOUTER son contenu
 function enregistrerChapitres(classeId, matiereId, chapitres) {
   var cle = classeId + '|' + matiereId;
-  if (!CONTENU[cle]) {
-    CONTENU[cle] = [];
-  }
+  if (!CONTENU[cle]) CONTENU[cle] = [];
   for (var i = 0; i < chapitres.length; i++) {
     CONTENU[cle].push(chapitres[i]);
   }
 }
 
+// Charge le texte d'un fichier et l'execute
 function chargerFichierContenu(url) {
   var xhr = new XMLHttpRequest();
   xhr.open('GET', url + '?v=' + VERSION, false);
   xhr.send(null);
-  if (xhr.status >= 200 && xhr.status < 300) {
+  if (xhr.status === 200 || xhr.status === 0) {
     new Function(xhr.responseText)();
   }
 }
 
+// ---------- Chargement automatique ----------
 (function() {
   for (var i = 0; i < CLASSES.length; i++) {
     var classe = CLASSES[i];
-    if (!classe.dispo) { continue; }
-    var liste = MATIERES[classe.id] || [];
-    for (var j = 0; j < liste.length; j++) {
-      var matiere = liste[j];
-      if (!matiere.dispo) { continue; }
-      if (matiere.fichiers) {
-        for (var k = 0; k < matiere.fichiers.length; k++) {
-          chargerFichierContenu(matiere.fichiers[k]);
-        }
-      } else if (matiere.fichier) {
-        chargerFichierContenu(matiere.fichier);
+    var mats = MATIERES[classe.id] || [];
+    for (var j = 0; j < mats.length; j++) {
+      var m = mats[j];
+      if (!m.dispo) continue;
+      var fichiers = m.fichiers || (m.fichier ? [m.fichier] : []);
+      for (var k = 0; k < fichiers.length; k++) {
+        chargerFichierContenu(fichiers[k]);
       }
     }
   }
