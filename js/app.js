@@ -1,7 +1,7 @@
 // ===== GUIDE - Moteur de l'application =====
-// v3.7 - accueil croquis, 5 onglets, mode sombre, notes, verrou examen
+// v3.8 - accueil couverture, partage QR, 8 matieres, nav flottante
 
-var APP_VERSION = 'v3.7';
+var APP_VERSION = 'v3.8';
 
 var ecran = document.getElementById('ecran');
 
@@ -19,6 +19,12 @@ function simplifierTexte(texte) {
   return texte.toLowerCase()
     .normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '');
+}
+
+// ---------- Barre du bas : visible sauf sur l'accueil ----------
+function majBarreBas(cacher) {
+  var nav = document.querySelector('.barre-bas');
+  if (nav) nav.classList.toggle('cachee', !!cacher);
 }
 
 // ---------- Installation (banniere) ----------
@@ -88,12 +94,13 @@ function afficherVerrouillage() {
   afficher(html);
 }
 
-// ---------- Accueil (facon croquis) ----------
+// ---------- Accueil (couverture facon croquis) ----------
 var classeAccueil = null;
 
 function afficherAccueil() {
   if (verrouExamen()) { afficherVerrouillage(); return; }
   majOnglets('accueil');
+  majBarreBas(true);
 
   if (!classeAccueil) {
     classeAccueil = CLASSES[0].id;
@@ -102,7 +109,10 @@ function afficherAccueil() {
     }
   }
 
-  var html = '';
+  var html = '<div class="accueil-fond">';
+  html += '<div class="acc-titre">GUIDE</div>';
+  html += '<div class="acc-livres">📚📖📚</div>';
+  html += '<div class="acc-slogan">Réussis ton année scolaire 🇲🇬</div>';
 
   if (banniereInstallVisible()) {
     html += '<div class="banniere-install" id="banniere-install">' +
@@ -123,6 +133,9 @@ function afficherAccueil() {
 
   html += '<div class="acc-matieres" id="acc-matieres"></div>';
 
+  html += '<button class="acc-partager" onclick="afficherPartage()">📤 Partager<br>Guide</button>';
+
+  html += '</div>';
   afficher(html);
   remplirMatieresAccueil();
 }
@@ -140,18 +153,108 @@ function remplirMatieresAccueil() {
   for (var i = 0; i < mats.length; i++) {
     var m = mats[i];
     if (m.dispo) {
-      html += '<button class="acc-mat" onclick="afficherChapitres(\'' + classeAccueil + '\',\'' + m.id + '\')">' + m.icone + '</button>';
+      html += '<button class="acc-mat" onclick="afficherChapitres(\'' + classeAccueil + '\',\'' + m.id + '\')">' + (m.court || m.nom) + '</button>';
     } else {
-      html += '<span class="acc-mat off">' + m.icone + '</span>';
+      html += '<span class="acc-mat off">' + (m.court || m.nom) + '</span>';
     }
   }
   if (!html) html = '<span class="acc-vide">Bientôt…</span>';
   zone.innerHTML = html;
 }
 
+// ---------- Partager Guide (QR code + lien) ----------
+var GUIDE_URL = 'https://tomainazo2580.github.io/guide/';
+
+var QR_MATRICE = [
+'111111101010101111111',
+'100000101010100100001',
+'101110100110100101101',
+'101110101111100101101',
+'101110100011100101101',
+'100000100010100100001',
+'111111101010101111111',
+'000000000011000000000',
+'101101011010111111001',
+'010111100011000110010',
+'111011010100001101110',
+'000111011000111101010',
+'101010101010100001111',
+'000000001110000011110',
+'111111101001010101101',
+'100000101110001010000',
+'101110100101111011111',
+'101110100011101001001',
+'101110101010100001111',
+'100000100110001110101',
+'111111100011010101011'
+];
+
+function qrSvg() {
+  var taille = QR_MATRICE.length;
+  var cellule = 9;
+  var marge = 4;
+  var total = (taille + 2 * marge) * cellule;
+  var svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ' + total + ' ' + total + '" width="190" height="190">';
+  svg += '<rect width="' + total + '" height="' + total + '" fill="#ffffff" rx="12"/>';
+  svg += '<g fill="#1e3a5f">';
+  for (var y = 0; y < taille; y++) {
+    for (var x = 0; x < taille; x++) {
+      if (QR_MATRICE[y].charAt(x) === '1') {
+        svg += '<rect x="' + ((x + marge) * cellule) + '" y="' + ((y + marge) * cellule) + '" width="' + cellule + '" height="' + cellule + '"/>';
+      }
+    }
+  }
+  svg += '</g></svg>';
+  return svg;
+}
+
+function afficherPartage() {
+  if (verrouExamen()) { afficherVerrouillage(); return; }
+  majOnglets('accueil');
+  majBarreBas(false);
+
+  var html = '<button class="retour" onclick="afficherAccueil()">← Retour</button>';
+  html += '<div class="partage-carte">';
+  html += '<div class="partage-titre">📤 Partager Guide</div>';
+  html += '<div class="partage-texte">Ton ami scanne ce code avec l\'appareil photo de son téléphone : Guide s\'ouvre dans son navigateur. Tu peux aussi lui envoyer le lien par message.</div>';
+  html += '<div class="partage-qr">' + qrSvg() + '</div>';
+  html += '<div class="partage-lien">' + GUIDE_URL + '</div>';
+  html += '<div class="partage-boutons">';
+  html += '<button class="btn-vert" onclick="partagerGuide()">📤 Envoyer le lien</button>';
+  html += '<button class="btn-secondaire" onclick="copierGuide()">📋 Copier le lien</button>';
+  html += '</div></div>';
+  afficher(html);
+}
+
+function partagerGuide() {
+  if (navigator.share) {
+    navigator.share({ title: 'Guide', text: 'Guide — Révisions scolaires de la 6e à la Terminale (programme de Madagascar) :', url: GUIDE_URL });
+  } else {
+    copierGuide();
+  }
+}
+
+function copierGuide() {
+  var fini = function(ok) {
+    alert(ok ? '✅ Lien copié ! Colle-le dans un message.' : 'Voici le lien à copier :\n' + GUIDE_URL);
+  };
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(GUIDE_URL).then(function() { fini(true); }, function() { fini(false); });
+  } else {
+    fini(false);
+  }
+  function fini(ok) { fini2(ok); }
+  function fini2(ok) { fini3(ok); }
+  function fini3(ok) {
+    if (ok) { alert('✅ Lien copié ! Colle-le dans un message.'); }
+    else { prompt('Copie ce lien :', GUIDE_URL); }
+  }
+}
+
 // ---------- Matieres ----------
 function afficherMatieres(classeId) {
   if (verrouExamen()) { afficherVerrouillage(); return; }
+  majBarreBas(false);
   var mats = MATIERES[classeId] || [];
   var html = '<button class="retour" onclick="afficherAccueil()">← Retour</button>';
   html += '<h2 class="titre-page">🎓 ' + nomClasse(classeId) + '</h2>';
@@ -179,6 +282,7 @@ function afficherMatieres(classeId) {
 // ---------- Chapitres ----------
 function afficherChapitres(classeId, matiereId) {
   if (verrouExamen()) { afficherVerrouillage(); return; }
+  majBarreBas(false);
   var chapitres = obtenirChapitres(classeId, matiereId);
   var html = '<button class="retour" onclick="afficherAccueil()">← Retour</button>';
   html += '<h2 class="titre-page">' + iconeMatiere(classeId, matiereId) + ' ' + nomMatiere(classeId, matiereId) + ' — ' + nomClasse(classeId) + '</h2>';
@@ -204,6 +308,7 @@ function afficherChapitres(classeId, matiereId) {
 // ---------- Menu d'un chapitre ----------
 function afficherMenuChapitre(classeId, matiereId, index) {
   if (verrouExamen()) { afficherVerrouillage(); return; }
+  majBarreBas(false);
   var chapitres = obtenirChapitres(classeId, matiereId);
   var ch = chapitres[index];
   var html = '<button class="retour" onclick="afficherChapitres(\'' + classeId + '\',\'' + matiereId + '\')">← Retour</button>';
@@ -265,9 +370,10 @@ function rendreBloc(bloc) {
   return html;
 }
 
-// ---------- Une lecon ----------
+// ---------- Une lecon (navigation flottante) ----------
 function afficherLecon(classeId, matiereId, indexChapitre, indexLecon) {
   if (verrouExamen()) { afficherVerrouillage(); return; }
+  majBarreBas(false);
   var chapitres = obtenirChapitres(classeId, matiereId);
   var ch = chapitres[indexChapitre];
   var lecon = ch.lecons[indexLecon];
@@ -281,26 +387,49 @@ function afficherLecon(classeId, matiereId, indexChapitre, indexLecon) {
     html += rendreBloc(lecon.blocs[j]);
   }
 
-  html += '<div class="nav-lecon-haut">';
-  if (indexLecon > 0) {
-    html += '<button class="btn-nav" onclick="afficherLecon(\'' + classeId + '\',\'' + matiereId + '\',' + indexChapitre + ',' + (indexLecon - 1) + ')">← Précédente</button>';
-  } else {
-    html += '<span></span>';
-  }
-  html += '<button class="btn-nav" onclick="afficherMenuChapitre(\'' + classeId + '\',\'' + matiereId + '\',' + indexChapitre + ')">🏠 Menu</button>';
-  if (indexLecon < ch.lecons.length - 1) {
-    html += '<button class="btn-nav btn-nav-suivant" onclick="afficherLecon(\'' + classeId + '\',\'' + matiereId + '\',' + indexChapitre + ',' + (indexLecon + 1) + ')">Suivante →</button>';
-  } else {
-    html += '<button class="btn-nav btn-nav-exercices" onclick="afficherExercices(\'' + classeId + '\',\'' + matiereId + '\',' + indexChapitre + ')">✏️ Exercices →</button>';
-  }
-  html += '</div>';
-
+  html += '<div style="height:110px"></div>';
   afficher(html);
+
+  var nav = document.createElement('div');
+  nav.className = 'nav-flottant';
+  var bPrec, bSuite;
+
+  if (indexLecon > 0) {
+    bPrec = document.createElement('button');
+    bPrec.textContent = '‹';
+    bPrec.onclick = function() { afficherLecon(classeId, matiereId, indexChapitre, indexLecon - 1); };
+  } else {
+    bPrec = document.createElement('button');
+    bPrec.className = 'nf-vide';
+    bPrec.tabIndex = -1;
+  }
+  nav.appendChild(bPrec);
+
+  var bMenu = document.createElement('button');
+  bMenu.className = 'nf-maison';
+  bMenu.textContent = '🏠';
+  bMenu.onclick = function() { afficherMenuChapitre(classeId, matiereId, indexChapitre); };
+  nav.appendChild(bMenu);
+
+  if (indexLecon < ch.lecons.length - 1) {
+    bSuite = document.createElement('button');
+    bSuite.textContent = '›';
+    bSuite.onclick = function() { afficherLecon(classeId, matiereId, indexChapitre, indexLecon + 1); };
+  } else {
+    bSuite = document.createElement('button');
+    bSuite.className = 'nf-exos';
+    bSuite.textContent = '✏️';
+    bSuite.onclick = function() { afficherExercices(classeId, matiereId, indexChapitre); };
+  }
+  nav.appendChild(bSuite);
+
+  document.body.appendChild(nav);
 }
 
 // ---------- Exercices ----------
 function afficherExercices(classeId, matiereId, index) {
   if (verrouExamen()) { afficherVerrouillage(); return; }
+  majBarreBas(false);
   var chapitres = obtenirChapitres(classeId, matiereId);
   var ch = chapitres[index];
 
@@ -349,6 +478,7 @@ function cacherConfirmation(btn) {
 function afficherRecherche() {
   if (verrouExamen()) { afficherVerrouillage(); return; }
   majOnglets('recherche');
+  majBarreBas(false);
 
   var html = '<h2 class="titre-page">🔍 Recherche</h2>';
   html += '<div class="barre-recherche">';
@@ -464,6 +594,7 @@ function rechercher() {
 function afficherNotes() {
   if (verrouExamen()) { afficherVerrouillage(); return; }
   majOnglets('notes');
+  majBarreBas(false);
 
   var notes = localStorage.getItem('guide-notes-perso') || '';
   var html = '<h2 class="titre-page">📒 Mes notes</h2>';
@@ -493,6 +624,7 @@ function echapperHtml(t) {
 function afficherReglages() {
   if (verrouExamen()) { afficherVerrouillage(); return; }
   majOnglets('reglages');
+  majBarreBas(false);
 
   var sombre = localStorage.getItem('guide-theme') === 'sombre';
   var nb = 0;
@@ -506,6 +638,9 @@ function afficherReglages() {
   html += '<div class="reglage-ligne"><span>🌙 Mode sombre</span>' +
     '<button class="switch' + (sombre ? ' on' : '') + '" onclick="basculerTheme()"><span class="switch-pastille"></span></button></div>';
 
+  html += '<div class="reglage-ligne"><span>📤 Partager Guide</span>' +
+    '<button class="btn-nav" onclick="afficherPartage()">Ouvrir ›</button></div>';
+
   html += '<h3 class="titre-section">ℹ️ À propos</h3>';
   html += '<div class="bloc bloc-definition">';
   html += '<div class="bloc-texte">';
@@ -514,7 +649,7 @@ function afficherReglages() {
   html += '<strong>Moteur : ' + APP_VERSION + ' | Données : ' + VERSION + '</strong><br>';
   html += '📶 Connexion Internet nécessaire pour le moment (le hors-ligne viendra à la fin).<br><br>';
   html += '✓ Contenu chargé : ' + cles.length + ' matière(s), ' + nb + ' chapitre(s)<br><br>';
-  html += '💬 Une idée, un souci ? Écris-nous sur <strong>Tsiky</strong> (gratuit) : 034 39 949 07';
+  html += '💬 Une idée, un souci ? Écris-nous sur <a href="https://tomainazo2580.github.io/tsiky/" target="_blank" rel="noopener"><strong>Tsiky</strong></a> (gratuit) : 034 39 949 07';
   html += '</div></div>';
 
   afficher(html);
@@ -522,6 +657,8 @@ function afficherReglages() {
 
 // ---------- Utilitaires ----------
 function afficher(html) {
+  var ancien = document.querySelector('.nav-flottant');
+  if (ancien) ancien.remove();
   ecran.innerHTML = html;
   window.scrollTo(0, 0);
   ecran.scrollTop = 0;
