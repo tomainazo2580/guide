@@ -1,77 +1,108 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Guide - Révisions scolaires Madagascar</title>
-<script>
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.getRegistrations().then(function(regs) {
-    for (var i = 0; i < regs.length; i++) { regs[i].unregister(); }
-  });
-}
-if ('caches' in window) {
-  caches.keys().then(function(noms) {
-    for (var i = 0; i < noms.length; i++) { caches.delete(noms[i]); }
-  });
-}
-</script>
-<link rel="stylesheet" href="css/style.css?v=3.21">
-<style>
-/* Mise en page : en-tête en haut, contenu qui défile au milieu, barre en bas */
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-body {
-  display: flex;
-  flex-direction: column;
-}
-header {
-  flex-shrink: 0;
-  position: relative;
-}
-#ecran {
-  flex: 1;
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
-}
-.barre-bas {
-  flex-shrink: 0;
-  display: flex;
-  background-color: #FFFFFF;
-  border-top: 1px solid #E0E0E0;
-  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.08);
-}
-.barre-bas button {
-  flex: 1;
-  padding: 8px 0;
-  background: none;
-  border: none;
-  color: #1565C0;
-  font-size: 12px;
-  line-height: 1.3;
-  cursor: pointer;
-}
-.barre-bas button .ico {
-  font-size: 22px;
-}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1e3a5f">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>Guide — Révisions scolaires</title>
+  <link rel="manifest" href="manifest.json?v=3.22">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.svg">
+  <script>
+    // Nettoyage : desactive tout ancien service worker et vide les caches
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then(function(liste) {
+        for (var i = 0; i < liste.length; i++) liste[i].unregister();
+      });
+    }
+    if ('caches' in window) {
+      caches.keys().then(function(cles) {
+        for (var i = 0; i < cles.length; i++) caches.delete(cles[i]);
+      });
+    }
+  </script>
+  <link rel="stylesheet" href="css/style.css?v=3.22">
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+      background: var(--fond, #f1f5f9);
+      color: var(--texte, #1e293b);
+      transition: background 0.3s, color 0.3s;
+    }
+    body.sombre {
+      --fond: #0f172a;
+      --carte: #1e293b;
+      --texte: #e2e8f0;
+      --texte-doux: #94a3b8;
+      --bordure: #334155;
+    }
+    header {
+      flex-shrink: 0;
+    }
+    #ecran {
+      flex: 1;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    .barre-bas {
+      flex-shrink: 0;
+      display: flex;
+      background: var(--carte, #ffffff);
+      border-top: 1px solid var(--bordure, #e2e8f0);
+      box-shadow: 0 -2px 8px rgba(0,0,0,0.06);
+    }
+    .barre-bas button {
+      flex: 1;
+      padding: 8px 2px 6px;
+      background: none;
+      border: none;
+      color: var(--texte-doux, #64748b);
+      font-size: 10px;
+      font-weight: 600;
+      cursor: pointer;
+      line-height: 1.2;
+    }
+    .barre-bas button .ico {
+      font-size: 20px;
+      display: block;
+      margin-bottom: 2px;
+    }
+    .barre-bas button.actif {
+      color: #1e88e5;
+      background: rgba(30, 136, 229, 0.1);
+      border-radius: 10px 10px 0 0;
+    }
+  </style>
 </head>
 <body>
-<header>
-  <h1>📘 Guide</h1>
-  <p>Réussis ton année scolaire 🇲🇬</p>
-</header>
-<main id="ecran"></main>
-<nav class="barre-bas">
-  <button onclick="afficherAccueil()"><span class="ico">🏠</span><br>Accueil</button>
-  <button onclick="afficherRecherche()"><span class="ico">🔍</span><br>Recherche</button>
-  <button onclick="afficherPropos()"><span class="ico">ℹ️</span><br>À propos</button>
-</nav>
-<script src="js/data.js?v=3.21"></script>
-<script src="js/app.js?v=3.21"></script>
+
+  <header class="haut">
+    <div class="haut-titre">📘 Guide</div>
+    <div class="haut-sous-titre">Réussis ton année scolaire 🇲🇬</div>
+  </header>
+
+  <main id="ecran" class="ecran"></main>
+
+  <nav class="barre-bas">
+    <button id="btn-accueil" class="actif" onclick="afficherAccueil()"><span class="ico">🏠</span>Accueil</button>
+    <button id="btn-recherche" onclick="afficherRecherche()"><span class="ico">🔍</span>Recherche</button>
+    <button id="btn-examen" onclick="afficherExamen()"><span class="ico">🎓</span>Examen</button>
+    <button id="btn-notes" onclick="afficherNotes()"><span class="ico">📒</span>Notes</button>
+    <button id="btn-reglages" onclick="afficherReglages()"><span class="ico">⚙️</span>Réglages</button>
+  </nav>
+
+  <script src="js/data.js?v=3.22"></script>
+  <script src="js/app.js?v=3.22"></script>
+  <script src="js/examen.js?v=3.22"></script>
+
 </body>
 </html>
