@@ -1,9 +1,9 @@
 // ============================================
 // GUIDE - Donnees de l'application
-// Version : v3.37
+// Version : v3.38
 // ============================================
 
-var VERSION = 'v3.37';
+var VERSION = 'v3.38';
 
 // ---------- Les classes ----------
 var CLASSES = [
@@ -59,7 +59,8 @@ var MATIERES = {
     { id: 'svt', nom: 'Sciences de la Vie et de la Terre', court: 'SVT', icone: '🌱', dispo: true,
       fichiers: [
         'data/6e/svt-ch1.js',
-        'data/6e/svt-ch2.js'
+        'data/6e/svt-ch2.js',
+        'data/6e/svt-ch3.js'
       ]
     },
     { id: 'mal', nom: 'Malagasy', court: 'Mal', icone: '🇲🇬', dispo: false, fichiers: [] },
