@@ -190,7 +190,6 @@ enregistrerChapitres("6e", "svt", [
         ]
       }
     ],
-// ===== FIN MORCEAU 3/4 — colle le morceau 4 juste en dessous =====
         exercices: [
       {
         niveau: 1,
@@ -244,3 +243,4 @@ enregistrerChapitres("6e", "svt", [
   }
 ]);
 // ===== FIN DU FICHIER svt-ch9.js =====
+// ===== FIN MORCEAU 3/4 — colle le morceau 4 juste en dessous =====
