@@ -180,85 +180,7 @@ enregistrerChapitres("6e", "svt", [
       }
     ],
 // ===== FIN MORCEAU 3/4 — colle le morceau 4 juste en dessous =====
-          {
-        id: "svt6-roche-metamorphiques",
-        titre: "Les roches métamorphiques",
-        blocs: [
-          {
-            type: "definition",
-            titre: "Les roches métamorphiques",
-            texte: "Les roches métamorphiques se forment quand une roche déjà existante est transformée par une forte chaleur et une forte pression, en profondeur.\nLa roche change d'aspect et de minéraux."
-          },
-          {
-            type: "regle",
-            titre: "Deux exemples",
-            texte: "- Le schiste : une roche feuilletée, qui se sépare en plaques fines.\n- Le marbre : une roche très dure, recristallisée, qui vient du calcaire transformé."
-          },
-          {
-            type: "schema",
-            titre: "Schiste et marbre",
-            svg: "<svg viewBox='0 0 340 180' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='40' width='120' height='90' rx='8' fill='#a8a29e' stroke='#57534e' stroke-width='2'/><line x1='38' y1='58' x2='142' y2='58' stroke='#44403c' stroke-width='1.5'/><line x1='38' y1='74' x2='142' y2='74' stroke='#44403c' stroke-width='1.5'/><line x1='38' y1='90' x2='142' y2='90' stroke='#44403c' stroke-width='1.5'/><line x1='38' y1='106' x2='142' y2='106' stroke='#44403c' stroke-width='1.5'/><line x1='38' y1='120' x2='142' y2='120' stroke='#44403c' stroke-width='1.5'/><text x='90' y='152' text-anchor='middle' font-size='11' fill='#44403c'>schiste</text><text x='90' y='166' text-anchor='middle' font-size='8' fill='#57534e'>se separe en plaques</text><rect x='200' y='40' width='120' height='90' rx='8' fill='#f5f5f4' stroke='#a8a29e' stroke-width='2'/><path d='M 210 60 Q 240 70 250 60 M 230 90 Q 260 100 285 88 M 220 110 Q 250 118 280 108' fill='none' stroke='#d6d3d1' stroke-width='2'/><text x='260' y='152' text-anchor='middle' font-size='11' fill='#44403c'>marbre</text><text x='260' y='166' text-anchor='middle' font-size='8' fill='#57534e'>tres dur, vient du calcaire</text></svg>",
-            legende: "Le schiste se sépare en plaques fines. Le marbre est très dur et vient du calcaire transformé."
-          },
-          {
-            type: "exemple",
-            titre: "Du calcaire au marbre",
-            texte: "Quand le calcaire est enfoui profondément et subit une forte chaleur et une forte pression, il se transforme en marbre : une roche très dure, utilisée pour les statues et les beaux sols."
-          },
-          {
-            type: "remarque",
-            titre: "Une transformation sans fondre",
-            texte: "Dans le métamorphisme, la roche ne fond pas complètement : elle se transforme à l'état solide, sous l'effet de la chaleur et de la pression."
-          }
-        ]
-      },
-      {
-        id: "svt6-roche-bilan",
-        titre: "Bilan : les trois groupes de roches",
-        blocs: [
-          {
-            type: "tableau",
-            titre: "Les trois groupes de roches",
-            entetes: ["Groupe", "Formation", "Exemples"],
-            lignes: [
-              ["Magmatiques", "Refroidissement du magma", "Granite, basalte"],
-              ["Sédimentaires", "Accumulation, tassement, cimentation", "Calcaire, grès"],
-              ["Métamorphiques", "Forte chaleur et pression", "Schiste, marbre"]
-            ]
-          },
-          {
-            type: "tableau",
-            titre: "Reconnaître les roches",
-            entetes: ["Roche", "Aspect", "Astuce"],
-            lignes: [
-              ["Granite", "Cristaux visibles", "Refroidi lentement"],
-              ["Basalte", "Sombre, compacte", "Refroidi vite (volcan)"],
-              ["Calcaire", "Clair, fossiles", "Mousse avec l'acide"],
-              ["Grès", "Grains de sable soudés", "Rugueux"],
-              ["Schiste", "Feuilleté, en plaques", "Se sépare en feuilles"],
-              ["Marbre", "Très dur, veiné", "Vient du calcaire"]
-            ]
-          },
-          {
-            type: "regle",
-            titre: "L'essentiel",
-            texte: "- Magmatiques : viennent du magma qui refroidit.\n- Sédimentaires : viennent de débris accumulés et soudés.\n- Métamorphiques : viennent d'une roche transformée par la chaleur et la pression."
-          },
-          {
-            type: "methode",
-            titre: "Retiens un exemple par groupe",
-            texte: "Retiens un exemple pour chaque groupe :\n- Magmatique : le granite.\n- Sédimentaire : le calcaire.\n- Métamorphique : le marbre."
-          },
-          {
-            type: "remarque",
-            titre: "Le cycle des roches",
-            texte: "Les roches se transforment sans cesse : une roche magmatique peut s'user en sédiments, devenir sédimentaire, puis métamorphique, et refondre en magma. C'est le cycle des roches."
-          }
-        ]
-      }
-    ],
-// ===== FIN MORCEAU 3/4 — colle le morceau 4 juste en dessous =====
-                         exercices: [
+        exercices: [
       {
         niveau: 1,
         points: 2,
@@ -311,4 +233,3 @@ enregistrerChapitres("6e", "svt", [
   }
 ]);
 // ===== FIN DU FICHIER svt-ch13.js =====
-                     
