@@ -1,9 +1,9 @@
 // ============================================
 // GUIDE - Donnees de l'application
-// Version : v3.45
+// Version : v3.46
 // ============================================
 
-var VERSION = 'v3.45';
+var VERSION = 'v3.46';
 
 // ---------- Les classes ----------
 var CLASSES = [
@@ -67,7 +67,8 @@ var MATIERES = {
         'data/6e/svt-ch7.js',
         'data/6e/svt-ch8.js',
         'data/6e/svt-ch9.js',
-        'data/6e/svt-ch10.js'
+        'data/6e/svt-ch10.js',
+        'data/6e/svt-ch11.js'
       ]
     },
     { id: 'mal', nom: 'Malagasy', court: 'Mal', icone: '🇲🇬', dispo: false, fichiers: [] },
