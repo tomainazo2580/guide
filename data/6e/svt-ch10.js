@@ -117,10 +117,9 @@ enregistrerChapitres("6e", "svt", [
             titre: "Boire assez d'eau",
             texte: "Il faut boire au moins 1,5 litre d'eau par jour (environ 6 à 8 verres), davantage quand il fait chaud.\nBoire assez permet aux reins de bien éliminer les déchets."
           },
-          {
+                    {
             type: "regle",
             titre: "Les bonnes habitudes",
-            texte toBeContinued: true,
             texte: "Pour protéger son appareil urinaire :\n- Boire au moins 1,5 litre d'eau par jour.\n- Éviter une alimentation trop riche en sel, en graisse et en protéines.\n- Éviter l'alcool et le tabac.\n- Faire du sport régulièrement.\n- Ne pas retenir son urine trop longtemps."
           },
           {
