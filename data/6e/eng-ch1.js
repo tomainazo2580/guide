@@ -43,6 +43,7 @@ enregistrerChapitres("6e", "eng", [
           }
         ]
       },
+
       {
         id: "eng6-comment-ca-va",
         titre: "Demander comment ça va",
@@ -70,6 +71,7 @@ enregistrerChapitres("6e", "eng", [
           }
         ]
       },
+
       {
         id: "eng6-nom-age",
         titre: "Dire son nom et son âge",
@@ -98,6 +100,7 @@ enregistrerChapitres("6e", "eng", [
           }
         ]
       },
+
       {
         id: "eng6-origine-adresse",
         titre: "Dire d'où l'on vient et où l'on habite",
@@ -126,6 +129,7 @@ enregistrerChapitres("6e", "eng", [
           }
         ]
       },
+
       {
         id: "eng6-freres-soeurs",
         titre: "Parler de ses frères et sœurs",
@@ -153,6 +157,7 @@ enregistrerChapitres("6e", "eng", [
           }
         ]
       },
+
       {
         id: "eng6-alphabet",
         titre: "L'alphabet et l'épellation",
@@ -168,17 +173,63 @@ enregistrerChapitres("6e", "eng", [
             texte: "Épeler un mot, c'est dire ses lettres une par une. En anglais, on peut demander : « How do you spell your name? » — Comment épelles-tu ton nom ?"
           },
           {
+            type: "remarque",
+            titre: "Prononciation des lettres — Complété par Guide",
+            texte: "Voici une aide pour prononcer le nom des lettres. L'écriture est approximative : écoute aussi ton professeur et répète après lui."
+          },
+          {
+            type: "tableau",
+            titre: "De A à M",
+            entetes: ["Lettre", "Prononciation approximative"],
+            lignes: [
+              ["A", "éï"],
+              ["B", "bi"],
+              ["C", "si"],
+              ["D", "di"],
+              ["E", "i"],
+              ["F", "èf"],
+              ["G", "dji"],
+              ["H", "éïtch"],
+              ["I", "aï"],
+              ["J", "djéï"],
+              ["K", "kéï"],
+              ["L", "èl"],
+              ["M", "èm"]
+            ]
+          },
+          {
+            type: "tableau",
+            titre: "De N à Z",
+            entetes: ["Lettre", "Prononciation approximative"],
+            lignes: [
+              ["N", "èn"],
+              ["O", "o"],
+              ["P", "pi"],
+              ["Q", "kiou"],
+              ["R", "ar"],
+              ["S", "èss"],
+              ["T", "ti"],
+              ["U", "you"],
+              ["V", "vi"],
+              ["W", "deubeul-you"],
+              ["X", "èks"],
+              ["Y", "waï"],
+              ["Z", "zèd"]
+            ]
+          },
+          {
             type: "exemple",
             titre: "Épeler un prénom",
-            texte: "A: How do you spell your name?\nB: M-A-M-Y.\n\nA : Comment épelles-tu ton prénom ?\nB : M-A-M-Y."
+            texte: "A: How do you spell your name?\nB: M-A-M-Y.\n\nPour épeler MAMY, on dit environ : èm - éï - èm - waï.\n\nA : Comment épelles-tu ton prénom ?\nB : M-A-M-Y."
           },
           {
             type: "remarque",
-            titre: "À l'oral",
-            texte: "Les lettres anglaises ne se prononcent pas toutes comme en français. En classe, écoute ton professeur les prononcer et entraîne-toi à les répéter."
+            titre: "La lettre Z",
+            texte: "Z se dit « zèd » en anglais britannique. En anglais américain, on dit « zi »."
           }
         ]
       },
+
       {
         id: "eng6-nombres",
         titre: "Les nombres de 0 à 100",
@@ -245,6 +296,7 @@ enregistrerChapitres("6e", "eng", [
           }
         ]
       },
+
       {
         id: "eng6-telephone-bilan",
         titre: "Le téléphone et le bilan",
@@ -294,39 +346,4 @@ enregistrerChapitres("6e", "eng", [
         niveau: 2,
         points: 3,
         enonce: "Écris ces nombres en anglais :\n1. 12\n2. 20\n3. 35\n4. 40\n5. 100",
-        correction: "1. twelve\n2. twenty\n3. thirty-five\n4. forty\n5. one hundred"
-      },
-      {
-        niveau: 2,
-        points: 3,
-        enonce: "Traduis en anglais :\n1. Je m'appelle Rado.\n2. J'ai onze ans.\n3. Je viens de Madagascar.",
-        correction: "1. My name is Rado. / I'm Rado.\n2. I'm eleven years old.\n3. I'm from Madagascar."
-      },
-      {
-        niveau: 3,
-        points: 4,
-        enonce: "Réponds en anglais avec ces informations : prénom Lala, 12 ans, habite à Fianarantsoa.\n\n1. What's your name?\n2. How old are you?\n3. Where do you live?",
-        correction: "1. My name is Lala.\n2. I'm twelve years old.\n3. I live in Fianarantsoa."
-      },
-      {
-        niveau: 3,
-        points: 4,
-        enonce: "Traduis en anglais :\n1. J'ai un frère et deux sœurs.\n2. Où habites-tu ?\n3. Comment épelles-tu ton nom ?",
-        correction: "1. I have one brother and two sisters.\n2. Where do you live?\n3. How do you spell your name?"
-      },
-      {
-        niveau: 4,
-        points: 5,
-        enonce: "Complète ce dialogue en anglais :\n\nA: Hello! What's your name?\nB: ...\nA: How old are you?\nB: ...\nA: Where are you from?\nB: ...\n\nUtilise ces informations : Mamy, 11 ans, Madagascar.",
-        correction: "A: Hello! What's your name?\nB: My name is Mamy.\nA: How old are you?\nB: I'm eleven years old.\nA: Where are you from?\nB: I'm from Madagascar."
-      },
-      {
-        niveau: 4,
-        points: 5,
-        enonce: "Présente-toi en anglais en cinq phrases : salue, donne ton prénom, ton âge, ton pays et ta ville. Tu peux inventer les informations.",
-        correction: "Exemple :\nHello! My name is Rado. I'm twelve years old. I'm from Madagascar. I live in Antananarivo.\n\nD'autres réponses sont possibles si les phrases sont correctes."
-      }
-    ]
-  }
-]);
-// ===== FIN DU FICHIER eng-ch1.js =====
+        correction: "1. twelve\n2. 
