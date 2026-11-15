@@ -1,9 +1,9 @@
 // ============================================
 // GUIDE - Donnees de l'application
-// Version : v3.56
+// Version : v3.57
 // ============================================
 
-var VERSION = 'v3.56';
+var VERSION = 'v3.57';
 
 // ---------- Les classes ----------
 var CLASSES = [
@@ -84,7 +84,8 @@ var MATIERES = {
         'data/6e/eng-ch4.js',
         'data/6e/eng-ch5.js',
         'data/6e/eng-ch6.js',
-        'data/6e/eng-ch7.js'
+        'data/6e/eng-ch7.js',
+        'data/6e/eng-ch8.js'
       ]
     },
     { id: 'hg', nom: 'Histoire', court: 'Hist', icone: '🌍', dispo: false, fichiers: [] },
