@@ -749,3 +749,9 @@ function validerCodePaiement(classeId, matiereId) {
   alert('✅ Matière débloquée !');
   afficherChapitres(classeId, matiereId);
 }
+// Vérifie si un chapitre est payant et non débloqué.
+function chapitreVerrouille(classeId, matiereId, index) {
+  var liste = CHAPITRES_PAYANTS[classeId + '|' + matiereId] || [];
+  return liste.indexOf(index + 1) !== -1 &&
+    !estPremium(classeId, matiereId);
+}
