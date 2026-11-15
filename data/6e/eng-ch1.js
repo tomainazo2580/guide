@@ -346,4 +346,39 @@ enregistrerChapitres("6e", "eng", [
         niveau: 2,
         points: 3,
         enonce: "Écris ces nombres en anglais :\n1. 12\n2. 20\n3. 35\n4. 40\n5. 100",
-        correction: "1. twelve\n2. 
+        correction: "1. twelve\n2. twenty\n3. thirty-five\n4. forty\n5. one hundred"
+      },
+      {
+        niveau: 2,
+        points: 3,
+        enonce: "Traduis en anglais :\n1. Je m'appelle Rado.\n2. J'ai onze ans.\n3. Je viens de Madagascar.",
+        correction: "1. My name is Rado. / I'm Rado.\n2. I'm eleven years old.\n3. I'm from Madagascar."
+      },
+      {
+        niveau: 3,
+        points: 4,
+        enonce: "Réponds en anglais avec ces informations : prénom Lala, 12 ans, habite à Fianarantsoa.\n\n1. What's your name?\n2. How old are you?\n3. Where do you live?",
+        correction: "1. My name is Lala.\n2. I'm twelve years old.\n3. I live in Fianarantsoa."
+      },
+      {
+        niveau: 3,
+        points: 4,
+        enonce: "Traduis en anglais :\n1. J'ai un frère et deux sœurs.\n2. Où habites-tu ?\n3. Comment épelles-tu ton nom ?",
+        correction: "1. I have one brother and two sisters.\n2. Where do you live?\n3. How do you spell your name?"
+      },
+      {
+        niveau: 4,
+        points: 5,
+        enonce: "Complète ce dialogue en anglais :\n\nA: Hello! What's your name?\nB: ...\nA: How old are you?\nB: ...\nA: Where are you from?\nB: ...\n\nUtilise ces informations : Mamy, 11 ans, Madagascar.",
+        correction: "A: Hello! What's your name?\nB: My name is Mamy.\nA: How old are you?\nB: I'm eleven years old.\nA: Where are you from?\nB: I'm from Madagascar."
+      },
+      {
+        niveau: 4,
+        points: 5,
+        enonce: "Présente-toi en anglais en cinq phrases : salue, donne ton prénom, ton âge, ton pays et ta ville. Tu peux inventer les informations.",
+        correction: "Exemple :\nHello! My name is Rado. I'm twelve years old. I'm from Madagascar. I live in Antananarivo.\n\nD'autres réponses sont possibles si les phrases sont correctes."
+      }
+    ]
+  }
+]);
+// ===== FIN DU FICHIER eng-ch1.js =====
