@@ -661,3 +661,91 @@ function majOnglets(onglet) {
 appliquerTheme();
 afficherAccueil();
 // === FIN app.js ===
+// ===== GUIDE - Paiement et déblocage =====
+
+function afficherPaiement(classeId, matiereId) {
+  if (verrouExamen()) {
+    afficherVerrouillage();
+    return;
+  }
+
+  majBarreBas(false);
+
+  var id = obtenirIdAppareil();
+  var prix = PRIX_MATIERE[classeId];
+  var classe = nomClasse(classeId);
+  var matiere = nomMatiere(classeId, matiereId);
+
+  var texteSms =
+    'Bonjour, je souhaite débloquer Guide.\n' +
+    'Identifiant : ' + id + '\n' +
+    'Classe : ' + classe + '\n' +
+    'Matière : ' + matiere + '\n' +
+    'Référence du paiement : ';
+
+  var html = '';
+
+  html += '<button class="retour" onclick="afficherChapitres(\'' +
+    classeId + '\',\'' + matiereId + '\')">← Retour</button>';
+
+  html += '<h2 class="titre-page">🔒 Débloquer la matière</h2>';
+
+  html += '<div class="bloc bloc-definition">';
+  html += '<div class="bloc-titre">' + matiere + ' — ' + classe + '</div>';
+  html += '<div class="bloc-texte">';
+  html += 'Prix : <strong>' + prix + ' Ar</strong><br><br>';
+  html += 'Ce paiement débloque les chapitres payants et les examens ';
+  html += 'de cette matière, pour cette classe, sans limite de durée.';
+  html += '</div></div>';
+
+  html += '<div class="bloc bloc-methode">';
+  html += '<div class="bloc-titre">1. Effectue le paiement</div>';
+  html += '<div class="bloc-texte">';
+  html += 'Nom : <strong>Tiana Stephan</strong><br>';
+  html += '034 39 949 07<br>';
+  html += '033 16 443 49<br>';
+  html += '032 24 159 98';
+  html += '</div></div>';
+
+  html += '<div class="bloc bloc-methode">';
+  html += '<div class="bloc-titre">2. Envoie ta demande</div>';
+  html += '<div class="bloc-texte">';
+  html += 'Ton identifiant : <strong>' + id + '</strong><br><br>';
+  html += 'Envoie cet identifiant, ta classe, ta matière et la référence ';
+  html += 'du paiement par SMS ou sur Tsiky. ';
+  html += 'Sur Tsiky, recherche le <strong>034 39 949 07</strong>.<br><br>';
+  html += '<a href="sms:0343994907?body=' + encodeURIComponent(texteSms) +
+    '">📩 Envoyer un SMS</a><br><br>';
+  html += '<a href="https://tomainazo2580.github.io/tsiky/" ';
+  html += 'target="_blank" rel="noopener">💬 Ouvrir Tsiky</a>';
+  html += '</div></div>';
+
+  html += '<div class="bloc bloc-definition">';
+  html += '<div class="bloc-titre">3. Saisis ton code</div>';
+  html += '<div class="bloc-texte">';
+  html += 'Après vérification de ton paiement, tu recevras un code ';
+  html += 'à six chiffres.<br><br>';
+  html += '<input id="code-deblocage" type="text" inputmode="numeric" ';
+  html += 'autocomplete="off" placeholder="Ex. 123-456" ';
+  html += 'style="padding:12px; font-size:18px; width:100%; box-sizing:border-box">';
+  html += '<p id="message-deblocage"></p>';
+  html += '<button class="btn-principal" onclick="validerCodePaiement(\'' +
+    classeId + '\',\'' + matiereId + '\')">Débloquer</button>';
+  html += '</div></div>';
+
+  afficher(html);
+}
+
+function validerCodePaiement(classeId, matiereId) {
+  var champ = document.getElementById('code-deblocage');
+  var message = document.getElementById('message-deblocage');
+  var resultat = activerCodeGuide(champ.value, classeId, matiereId);
+
+  if (!resultat.ok) {
+    message.textContent = '❌ ' + resultat.message;
+    return;
+  }
+
+  alert('✅ Matière débloquée !');
+  afficherChapitres(classeId, matiereId);
+}
