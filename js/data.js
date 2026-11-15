@@ -1,9 +1,9 @@
 // ============================================
 // GUIDE - Donnees de l'application
-// Version : v3.49
+// Version : v3.50
 // ============================================
 
-var VERSION = 'v3.49';
+var VERSION = 'v3.50';
 
 // ---------- Les classes ----------
 var CLASSES = [
@@ -76,7 +76,11 @@ var MATIERES = {
     },
     { id: 'mal', nom: 'Malagasy', court: 'Mal', icone: '🇲🇬', dispo: false, fichiers: [] },
     { id: 'fr', nom: 'Francais', court: 'Fr', icone: '📖', dispo: false, fichiers: [] },
-    { id: 'eng', nom: 'Anglais', court: 'Ang', icone: '🇬🇧', dispo: false, fichiers: [] },
+    { id: 'eng', nom: 'Anglais', court: 'Ang', icone: '🇬🇧', dispo: true,
+      fichiers: [
+        'data/6e/eng-ch1.js'
+      ]
+    },
     { id: 'hg', nom: 'Histoire', court: 'Hist', icone: '🌍', dispo: false, fichiers: [] },
     { id: 'geo', nom: 'Geographie', court: 'Geo', icone: '🗺️', dispo: false, fichiers: [] }
   ]
