@@ -44,7 +44,7 @@ var MATIERES = {
       fichiers: [
         'data/6e/sp-ch1.js',
         'data/6e/sp-ch2.js',
-        ' 'data/6e/sp-ch3.js',
+        'data/6e/sp-ch3.js',
         'data/6e/sp-ch4.js',
         'data/6e/sp-ch5.js',
         'data/6e/sp-ch6.js',
