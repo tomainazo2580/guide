@@ -8,7 +8,7 @@ enregistrerChapitres("5e", "fr", [
     lecons: [
       {
         id: "fr5-ch6-lecon1",
-        titre: "1. Découvrir le vocabulaire de la pêche",
+        titre: "1. Découvrir le vocabulaire de la pêche — complété par Guide",
         blocs: [
           {
             type: "definition",
@@ -24,13 +24,19 @@ enregistrerChapitres("5e", "fr", [
               ["Pirogue", "Embarcation utilisée notamment pour se déplacer sur l’eau."],
               ["Filet", "Ensemble de mailles pouvant servir à capturer des poissons."],
               ["Capture", "Animal capturé ou action de le capturer."],
-              ["Ressource", "Ce dont on peut disposer pour répondre à un besoin."]
+              ["Ressource", "Ce dont on peut disposer pour répondre à un besoin."],
+              ["Milieu aquatique", "Environnement où vivent des êtres vivants dans l’eau."]
             ]
           },
           {
             type: "exemple",
-            titre: "Dans une phrase",
-            texte: "Les pêcheurs préparent leur pirogue et leur matériel avant de partir sur l’eau."
+            titre: "Dans des phrases",
+            texte: "Les pêcheurs préparent leur pirogue et leur matériel avant de partir sur l’eau.\nUn lac est un milieu aquatique dans lequel vivent différents êtres vivants."
+          },
+          {
+            type: "remarque",
+            titre: "Des situations variées",
+            texte: "La pêche peut se pratiquer dans différents milieux, par exemple en mer, dans une rivière ou dans un lac. Les pratiques et les règles varient selon les lieux."
           }
         ]
       },
@@ -42,12 +48,12 @@ enregistrerChapitres("5e", "fr", [
           {
             type: "remarque",
             titre: "Complété par Guide",
-            texte: "Ce texte et les questions associées ont été créés par Guide pour l’entraînement."
+            texte: "Ce texte, ses questions et ses explications ont été créés par Guide pour l’entraînement."
           },
           {
             type: "texte",
             titre: "Au bord du lac",
-            texte: "Tôt le matin, Miora accompagne son oncle au bord d’un lac. Il prépare le matériel dont il a besoin pour pêcher. Avant de partir, il vérifie le filet et range une corde dans la pirogue.\n\nAu retour, Miora l’aide à transporter les poissons. Son oncle lui explique que les animaux de l’eau et leur milieu doivent être préservés. Il ajoute que les personnes qui vivent près du lac ont intérêt à discuter ensemble des façons de protéger cette ressource.\n\nLe soir, Miora raconte sa journée à sa classe. Elle décrit le lac, la pirogue et les gestes qu’elle a observés."
+            texte: "Tôt le matin, Miora accompagne son oncle au bord d’un lac. Il prépare le matériel dont il a besoin pour pêcher. Avant de partir, il vérifie le filet et range une corde dans la pirogue.\n\nAu retour, Miora l’aide à transporter les poissons. Son oncle lui explique que les animaux de l’eau et leur milieu doivent être préservés. Il ajoute que les personnes qui vivent près du lac ont intérêt à discuter ensemble des façons de protéger cette ressource.\n\nLe lendemain, Miora raconte sa journée à sa classe. Elle décrit le lac, la pirogue et les gestes qu’elle a observés."
           },
           {
             type: "tableau",
@@ -63,19 +69,44 @@ enregistrerChapitres("5e", "fr", [
           {
             type: "methode",
             titre: "Comprendre le texte",
-            texte: "Repère le lieu, les personnages, les actions et ce que Miora apprend. Relis ensuite le texte avant de répondre."
+            texte: "1. Repère le lieu et les personnages.\n2. Cherche ce que l’oncle prépare avant de partir.\n3. Observe ce que Miora fait au retour.\n4. Relis ce que son oncle lui explique."
+          },
+          {
+            type: "exemple",
+            titre: "Cherchons ensemble",
+            texte: "Question : Qui Miora accompagne-t-elle ?\nIndice : « Miora accompagne son oncle au bord d’un lac. »\nRéponse : Elle accompagne son oncle."
+          },
+          {
+            type: "texte",
+            titre: "Questions de compréhension",
+            texte: "1. Où Miora accompagne-t-elle son oncle ?\n2. Que vérifie-t-il avant de partir ?\n3. Que fait Miora au retour ?\n4. Que lui explique son oncle ?\n5. Que raconte-t-elle à sa classe ?"
+          },
+          {
+            type: "exemple",
+            titre: "Réponses",
+            texte: "1. Elle l’accompagne au bord d’un lac.\n2. Il vérifie le filet.\n3. Elle l’aide à transporter les poissons.\n4. Il lui explique que les animaux de l’eau et leur milieu doivent être préservés.\n5. Elle raconte sa journée et décrit le lac, la pirogue et les gestes observés."
           }
         ]
       },
 
       {
         id: "fr5-ch6-lecon3",
-        titre: "3. Protéger les ressources",
+        titre: "3. Protéger les ressources — complété par Guide",
         blocs: [
           {
             type: "texte",
             titre: "Une ressource à préserver",
             texte: "Les poissons vivent dans des milieux qui peuvent être fragilisés par la pollution ou par une capture excessive. Protéger ces milieux contribue à préserver les êtres vivants qui y habitent."
+          },
+          {
+            type: "tableau",
+            titre: "Comprendre les mots",
+            entetes: ["Mot", "Explication"],
+            lignes: [
+              ["Pollution", "Présence de déchets ou de substances qui peuvent dégrader un milieu."],
+              ["Capture excessive", "Capture trop importante pour permettre aux populations concernées de se maintenir durablement."],
+              ["Préserver", "Protéger pour éviter une dégradation ou une disparition."]
+            ]
           },
           {
             type: "exemple",
@@ -92,40 +123,92 @@ enregistrerChapitres("5e", "fr", [
 
       {
         id: "fr5-ch6-lecon4",
-        titre: "4. La phrase complexe",
+        titre: "4. Reconnaître une phrase complexe — complété par Guide",
         blocs: [
           {
             type: "definition",
             titre: "Phrase simple et phrase complexe",
-            texte: "Une phrase simple contient une seule proposition. Une phrase complexe contient au moins deux propositions, généralement construites autour de verbes conjugués."
+            texte: "Une phrase simple contient une seule proposition. Une phrase complexe contient au moins deux propositions. Dans les exemples de cette leçon, chaque proposition est construite autour d’un verbe conjugué."
           },
           {
             type: "tableau",
             titre: "Comparer",
-            entetes: ["Phrase", "Explication"],
+            entetes: ["Phrase", "Analyse"],
             lignes: [
-              ["Miora observe le lac.", "Une proposition : phrase simple."],
-              ["Miora observe le lac et son oncle prépare la pirogue.", "Deux propositions coordonnées par « et » : phrase complexe."],
-              ["Le filet est prêt, la pirogue est rangée.", "Deux propositions juxtaposées, séparées par une virgule : phrase complexe."],
-              ["Miora décrit les gestes qu’elle a observés.", "Deux propositions : une principale et une subordonnée relative."]
+              ["Miora observe le lac.", "Une proposition, avec le verbe « observe » : phrase simple."],
+              ["Miora observe le lac et son oncle prépare la pirogue.", "Deux propositions, avec « observe » et « prépare » : phrase complexe."],
+              ["Le filet est prêt, la pirogue est rangée.", "Deux propositions, avec « est » et « est rangée » : phrase complexe."],
+              ["Miora décrit les gestes qu’elle a observés.", "Deux propositions, avec « décrit » et « a observés » : phrase complexe."]
             ]
           },
           {
             type: "methode",
-            titre: "Repérer les propositions",
-            texte: "Cherche les verbes conjugués, puis observe comment les groupes de mots qui les entourent sont reliés : par une ponctuation, par un mot de coordination ou par un mot qui introduit une subordonnée."
+            titre: "Une première méthode",
+            texte: "1. Repère les verbes conjugués.\n2. Pour chacun, cherche le groupe de mots qui forme une proposition.\n3. Observe comment les propositions sont reliées."
+          },
+          {
+            type: "exemple",
+            titre: "Cherchons ensemble",
+            texte: "Phrase : « Miora observe le lac et son oncle prépare la pirogue. »\nVerbes conjugués : « observe » et « prépare ».\nPropositions : « Miora observe le lac » et « son oncle prépare la pirogue ».\nElles sont reliées par « et » : c’est une phrase complexe."
+          },
+          {
+            type: "remarque",
+            titre: "Attention aux temps composés",
+            texte: "Dans « elle a observé », les mots « a observé » forment ensemble un verbe conjugué au passé composé. Ne les compte pas comme deux verbes conjugués différents."
           }
         ]
       },
 
       {
         id: "fr5-ch6-lecon5",
-        titre: "5. Les pronoms relatifs : qui, que, où, dont",
+        titre: "5. Relier des propositions — complété par Guide",
+        blocs: [
+          {
+            type: "texte",
+            titre: "La juxtaposition",
+            texte: "Deux propositions peuvent être placées l’une à côté de l’autre et séparées par un signe de ponctuation : on dit qu’elles sont juxtaposées."
+          },
+          {
+            type: "exemple",
+            titre: "Exemple",
+            texte: "Le filet est prêt, la pirogue est rangée. Les deux propositions sont juxtaposées : une virgule les sépare."
+          },
+          {
+            type: "texte",
+            titre: "La coordination",
+            texte: "Deux propositions peuvent être reliées par un mot de coordination, comme « et », « mais » ou « ou »."
+          },
+          {
+            type: "exemple",
+            titre: "Exemple",
+            texte: "Miora observe le lac et son oncle prépare la pirogue. Les deux propositions sont coordonnées par « et »."
+          },
+          {
+            type: "texte",
+            titre: "La subordination",
+            texte: "Une proposition subordonnée dépend d’une autre proposition. Dans ce chapitre, nous étudions la proposition subordonnée relative, introduite par un pronom relatif."
+          },
+          {
+            type: "exemple",
+            titre: "Exemple",
+            texte: "Miora décrit les gestes qu’elle a observés. La relative « qu’elle a observés » complète le nom « les gestes »."
+          }
+        ]
+      },
+
+      {
+        id: "fr5-ch6-lecon6",
+        titre: "6. Comprendre les pronoms relatifs — complété par Guide",
         blocs: [
           {
             type: "definition",
             titre: "La proposition subordonnée relative",
-            texte: "Une proposition subordonnée relative complète généralement un nom ou un pronom appelé antécédent. Elle est introduite par un pronom relatif."
+            texte: "Une proposition subordonnée relative complète généralement un nom ou un pronom appelé antécédent. Elle est introduite par un pronom relatif, comme « qui », « que », « où » ou « dont »."
+          },
+          {
+            type: "exemple",
+            titre: "Trouver l’antécédent",
+            texte: "Dans « le pêcheur qui prépare la pirogue », la relative est « qui prépare la pirogue ». Elle complète « le pêcheur » : ce nom est l’antécédent de « qui »."
           },
           {
             type: "tableau",
@@ -155,21 +238,48 @@ enregistrerChapitres("5e", "fr", [
             ]
           },
           {
-            type: "methode",
-            titre: "Choisir un pronom relatif",
-            texte: "Cherche le nom repris, puis observe le rôle du pronom dans la relative : sujet, complément d’objet direct, indication de lieu ou complément introduit par « de »."
-          },
-          {
             type: "remarque",
-            titre: "Un autre emploi de « où »",
-            texte: "« Où » peut aussi indiquer un moment : « Le jour où ils sont partis, il faisait beau. »"
+            titre: "Le lieu et le moment",
+            texte: "« Où » peut indiquer un lieu ou un moment : « le lac où ils pêchent » ; « le jour où ils sont partis »."
           }
         ]
       },
 
       {
-        id: "fr5-ch6-lecon6",
-        titre: "6. Présenter un milieu aquatique — complété par Guide",
+        id: "fr5-ch6-lecon7",
+        titre: "7. Choisir un pronom relatif — complété par Guide",
+        blocs: [
+          {
+            type: "methode",
+            titre: "Avancer étape par étape",
+            texte: "1. Repère le nom repris : c’est l’antécédent.\n2. Observe le rôle du pronom dans la relative.\n3. Dans les exemples étudiés, utilise « qui » pour le sujet, « que » pour le complément d’objet direct, « où » pour un lieu ou un moment, et « dont » pour un complément lié à « de »."
+          },
+          {
+            type: "exemple",
+            titre: "Avec « qui »",
+            texte: "Le pêcheur prépare la pirogue. Le pêcheur est l’oncle de Miora.\nOn peut réunir les idées : « Le pêcheur qui prépare la pirogue est l’oncle de Miora. »\nDans la relative, « qui » est sujet de « prépare »."
+          },
+          {
+            type: "exemple",
+            titre: "Avec « que »",
+            texte: "Miora observe le filet. Voici le filet.\nOn peut dire : « Voici le filet que Miora observe. »\nMiora observe quoi ? Le filet. « Que » est complément d’objet direct de « observe »."
+          },
+          {
+            type: "exemple",
+            titre: "Avec « dont »",
+            texte: "Il a besoin du matériel. Il prépare le matériel.\nOn peut dire : « Il prépare le matériel dont il a besoin. »\nOn utilise « dont » parce que l’on dit « avoir besoin de quelque chose »."
+          },
+          {
+            type: "remarque",
+            titre: "Ne pas décider selon la personne ou la chose",
+            texte: "« Qui » et « que » peuvent reprendre une personne ou une chose. Le choix dépend ici de leur rôle dans la relative : sujet ou complément d’objet direct."
+          }
+        ]
+      },
+
+      {
+        id: "fr5-ch6-lecon8",
+        titre: "8. Présenter un milieu aquatique — complété par Guide",
         blocs: [
           {
             type: "remarque",
@@ -205,7 +315,7 @@ enregistrerChapitres("5e", "fr", [
       {
         niveau: 1,
         points: 2,
-        enonce: "Dans le texte « Au bord du lac », qui Miora accompagne-t-elle ?",
+        enonce: "Dans « Au bord du lac », qui Miora accompagne-t-elle ?",
         correction: "Elle accompagne son oncle."
       },
       {
@@ -219,6 +329,12 @@ enregistrerChapitres("5e", "fr", [
         points: 2,
         enonce: "La phrase « Miora observe le lac » est-elle simple ou complexe ?",
         correction: "Elle est simple : elle contient une seule proposition."
+      },
+      {
+        niveau: 2,
+        points: 2,
+        enonce: "Repère les verbes conjugués : « Miora observe le lac et son oncle prépare la pirogue. »",
+        correction: "Les verbes conjugués sont « observe » et « prépare »."
       },
       {
         niveau: 2,
@@ -241,14 +357,38 @@ enregistrerChapitres("5e", "fr", [
       {
         niveau: 3,
         points: 3,
-        enonce: "Dans « Miora observe le lac et son oncle prépare la pirogue », combien y a-t-il de propositions et comment sont-elles reliées ?",
-        correction: "Il y a deux propositions : elles sont coordonnées par « et »."
+        enonce: "Complète : « Voici le lac ... vivent des poissons. »",
+        correction: "Voici le lac où vivent des poissons. « Où » indique ici le lieu."
+      },
+      {
+        niveau: 3,
+        points: 3,
+        enonce: "Dans « Miora observe le lac et son oncle prépare la pirogue », comment les deux propositions sont-elles reliées ?",
+        correction: "Elles sont coordonnées par « et »."
+      },
+      {
+        niveau: 3,
+        points: 3,
+        enonce: "Dans « Le filet est prêt, la pirogue est rangée », comment les propositions sont-elles reliées ?",
+        correction: "Elles sont juxtaposées : une virgule les sépare."
       },
       {
         niveau: 3,
         points: 3,
         enonce: "Donne un exemple d’action qui peut contribuer à protéger les milieux aquatiques.",
         correction: "Par exemple : éviter de jeter des déchets dans l’eau. On peut aussi respecter les règles de pêche applicables au lieu."
+      },
+      {
+        niveau: 4,
+        points: 3,
+        enonce: "Dans « Miora décrit les gestes qu’elle a observés », trouve l’antécédent de « qu’ » et la relative.",
+        correction: "L’antécédent est « les gestes ». La relative est « qu’elle a observés »."
+      },
+      {
+        niveau: 4,
+        points: 3,
+        enonce: "Réunis ces phrases avec « dont » : « Il prépare le matériel. Il a besoin de ce matériel. »",
+        correction: "Il prépare le matériel dont il a besoin."
       },
       {
         niveau: 4,
