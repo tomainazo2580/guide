@@ -8,7 +8,7 @@ enregistrerChapitres("5e", "fr", [
     lecons: [
       {
         id: "fr5-ch7-lecon1",
-        titre: "1. Comprendre l’environnement",
+        titre: "1. Comprendre l’environnement — complété par Guide",
         blocs: [
           {
             type: "definition",
@@ -22,7 +22,7 @@ enregistrerChapitres("5e", "fr", [
             lignes: [
               ["Pollution", "Dégradation d’un milieu par l’introduction de substances, de déchets ou d’autres éléments nuisibles."],
               ["Déchet", "Objet ou matière dont on se débarrasse."],
-              ["Dégradation", "Détérioration progressive ou diminution de la qualité de quelque chose."],
+              ["Dégradation", "Détérioration ou diminution de la qualité de quelque chose."],
               ["Préservation", "Action de protéger pour éviter la dégradation ou la disparition."],
               ["Reboisement", "Action de planter des arbres pour reconstituer ou développer une zone boisée."]
             ]
@@ -31,6 +31,11 @@ enregistrerChapitres("5e", "fr", [
             type: "exemple",
             titre: "Dans une phrase",
             texte: "Les élèves discutent de la pollution de la rivière et cherchent des moyens de préserver leur environnement."
+          },
+          {
+            type: "remarque",
+            titre: "Comprendre le contexte",
+            texte: "Un problème d’environnement dépend du lieu et de la situation. Avant de proposer une solution, il est utile d’observer le problème et de demander conseil aux personnes concernées."
           }
         ]
       },
@@ -42,7 +47,7 @@ enregistrerChapitres("5e", "fr", [
           {
             type: "remarque",
             titre: "Complété par Guide",
-            texte: "Ce texte et les questions associées ont été créés par Guide pour l’entraînement."
+            texte: "Ce texte, les questions et les explications ont été créés par Guide pour l’entraînement."
           },
           {
             type: "texte",
@@ -63,14 +68,29 @@ enregistrerChapitres("5e", "fr", [
           {
             type: "methode",
             titre: "Comprendre le texte",
-            texte: "Repère le problème observé, les solutions proposées, les précautions prises et ce que les élèves apprennent."
+            texte: "1. Repère le problème observé.\n2. Cherche les solutions proposées.\n3. Note les précautions prises.\n4. Lis la fin pour comprendre ce que les élèves apprennent."
+          },
+          {
+            type: "exemple",
+            titre: "Cherchons ensemble",
+            texte: "Question : Que remarquent les élèves dans la cour ?\nIndice : « des papiers et des emballages ».\nRéponse : Ils remarquent des papiers et des emballages dans la cour."
+          },
+          {
+            type: "texte",
+            titre: "Questions de compréhension",
+            texte: "1. Quand les élèves remarquent-ils les déchets ?\n2. Avec qui discutent-ils du problème ?\n3. Que proposent-ils ?\n4. Quelle précaution l’enseignante rappelle-t-elle ?\n5. Pourquoi préparent-ils des affiches ?"
+          },
+          {
+            type: "exemple",
+            titre: "Réponses",
+            texte: "1. Ils les remarquent un lundi matin.\n2. Ils en discutent avec une enseignante.\n3. Ils proposent de ramasser les déchets et de chercher comment éviter leur accumulation.\n4. Elle rappelle de ne pas toucher les objets dangereux et de demander l’aide d’un adulte en cas de doute.\n5. Ils veulent encourager chacun à utiliser les poubelles disponibles."
           }
         ]
       },
 
       {
         id: "fr5-ch7-lecon3",
-        titre: "3. Décrire un problème et proposer une solution",
+        titre: "3. Décrire un problème et proposer une solution — complété par Guide",
         blocs: [
           {
             type: "methode",
@@ -78,8 +98,19 @@ enregistrerChapitres("5e", "fr", [
             texte: "1. Présente le lieu.\n2. Décris le problème observé.\n3. Explique une conséquence possible.\n4. Propose une ou plusieurs actions adaptées."
           },
           {
+            type: "tableau",
+            titre: "Un exemple étape par étape",
+            entetes: ["Étape", "Idée"],
+            lignes: [
+              ["Lieu", "La cour de l’école."],
+              ["Problème", "Des déchets se trouvent par terre."],
+              ["Conséquence possible", "Le lieu est moins agréable."],
+              ["Action", "Utiliser les poubelles disponibles et organiser un nettoyage avec les adultes."]
+            ]
+          },
+          {
             type: "exemple",
-            titre: "Exemple",
+            titre: "Rédiger",
             texte: "Des déchets se trouvent dans la cour de l’école. Ils rendent le lieu moins agréable. Les élèves peuvent utiliser les poubelles disponibles et participer à un nettoyage organisé avec les adultes."
           },
           {
@@ -92,12 +123,12 @@ enregistrerChapitres("5e", "fr", [
 
       {
         id: "fr5-ch7-lecon4",
-        titre: "4. Exprimer la cause et la conséquence — complété par Guide",
+        titre: "4. Comprendre la cause — complété par Guide",
         blocs: [
           {
             type: "remarque",
             titre: "Complété par Guide",
-            texte: "Cette leçon est ajoutée par Guide pour aider à expliquer un problème et ses conséquences."
+            texte: "Les leçons sur la cause et la conséquence sont ajoutées par Guide pour aider à expliquer un problème et ses effets."
           },
           {
             type: "definition",
@@ -106,9 +137,26 @@ enregistrerChapitres("5e", "fr", [
           },
           {
             type: "exemple",
-            titre: "Exemple de cause",
-            texte: "La cour est sale parce que des déchets ont été laissés par terre."
+            titre: "Cherchons ensemble",
+            texte: "Phrase : « La cour est sale parce que des déchets ont été laissés par terre. »\nQuestion : Pourquoi la cour est-elle sale ?\nRéponse : Parce que des déchets ont été laissés par terre.\nLa cause est donc : des déchets ont été laissés par terre."
           },
+          {
+            type: "texte",
+            titre: "Un autre exemple",
+            texte: "Les élèves organisent un nettoyage parce qu’ils ont remarqué des déchets. La raison du nettoyage est la présence des déchets."
+          },
+          {
+            type: "remarque",
+            titre: "Attention au sens",
+            texte: "Une cause doit expliquer le fait présenté. Le mot « parce que » ne suffit pas : les deux idées doivent avoir un lien logique."
+          }
+        ]
+      },
+
+      {
+        id: "fr5-ch7-lecon5",
+        titre: "5. Comprendre la conséquence — complété par Guide",
+        blocs: [
           {
             type: "definition",
             titre: "La conséquence",
@@ -116,20 +164,40 @@ enregistrerChapitres("5e", "fr", [
           },
           {
             type: "exemple",
-            titre: "Exemple de conséquence",
-            texte: "Des déchets ont été laissés par terre ; la cour est donc sale."
+            titre: "Cherchons ensemble",
+            texte: "Phrase : « Des déchets ont été laissés par terre ; la cour est donc sale. »\nQuestion : Quel est le résultat de la présence des déchets ?\nRéponse : La cour est sale.\nLa conséquence est donc : la cour est sale."
+          },
+          {
+            type: "tableau",
+            titre: "Comparer les deux façons de dire",
+            entetes: ["Phrase", "Ce qu’elle met en évidence"],
+            lignes: [
+              [
+                "La cour est sale parce que des déchets ont été laissés par terre.",
+                "« Parce que » introduit la cause."
+              ],
+              [
+                "Des déchets ont été laissés par terre ; la cour est donc sale.",
+                "« Donc » introduit ici la conséquence."
+              ]
+            ]
+          },
+          {
+            type: "methode",
+            titre: "Cause ou conséquence ?",
+            texte: "1. Repère les deux faits.\n2. Demande-toi : pourquoi cela se produit-il ? La réponse donne la cause.\n3. Demande-toi : quel est le résultat ? La réponse donne la conséquence.\n4. Vérifie que le lien entre les deux idées est logique."
           },
           {
             type: "remarque",
-            titre: "Attention au sens",
-            texte: "Vérifie que la cause et la conséquence correspondent bien à ce que tu veux dire. Les mots de liaison ne suffisent pas : les idées doivent être logiques."
+            titre: "Attention",
+            texte: "Deux faits placés l’un après l’autre ne sont pas forcément liés par une cause. Il faut comprendre la situation avant d’affirmer que l’un provoque l’autre."
           }
         ]
       },
 
       {
-        id: "fr5-ch7-lecon5",
-        titre: "5. Échanger et écrire — complété par Guide",
+        id: "fr5-ch7-lecon6",
+        titre: "6. Échanger et écrire — complété par Guide",
         blocs: [
           {
             type: "remarque",
@@ -147,9 +215,14 @@ enregistrerChapitres("5e", "fr", [
             texte: "À mon avis, il est utile de garder la cour propre parce que tout le monde l’utilise."
           },
           {
+            type: "methode",
+            titre: "Relire son texte",
+            texte: "Vérifie que tu as présenté le problème, proposé une action et expliqué pourquoi elle serait utile. Relis les majuscules et les points."
+          },
+          {
             type: "texte",
             titre: "À ton tour",
-            texte: "Écris quelques phrases sur un problème d’environnement près de chez toi ou dans un lieu imaginaire. Propose une action et explique pourquoi elle serait utile. Tu peux lire ton texte à voix haute : Guide ne peut pas écouter ni évaluer ta lecture orale."
+            texte: "Écris quelques phrases sur un problème d’environnement dans un lieu réel ou imaginaire. Propose une action et explique pourquoi elle serait utile. Tu peux lire ton texte à voix haute : Guide ne peut pas écouter ni évaluer ta lecture orale."
           }
         ]
       }
@@ -187,10 +260,22 @@ enregistrerChapitres("5e", "fr", [
         correction: "C’est une action réalisée par plusieurs personnes ensemble."
       },
       {
+        niveau: 2,
+        points: 2,
+        enonce: "Dans « La cour est sale parce que des déchets ont été laissés par terre », quelle question permet de chercher la cause ?",
+        correction: "On peut demander : « Pourquoi la cour est-elle sale ? »"
+      },
+      {
         niveau: 3,
         points: 3,
         enonce: "Dans « La cour est sale parce que des déchets ont été laissés par terre », quelle est la cause ?",
         correction: "La cause est que des déchets ont été laissés par terre."
+      },
+      {
+        niveau: 3,
+        points: 3,
+        enonce: "Dans « Des déchets ont été laissés par terre ; la cour est donc sale », quelle est la conséquence ?",
+        correction: "La conséquence est que la cour est sale."
       },
       {
         niveau: 3,
@@ -205,10 +290,28 @@ enregistrerChapitres("5e", "fr", [
         correction: "Ils préparent des affiches pour encourager chacun à utiliser les poubelles disponibles et aider à garder la cour propre."
       },
       {
+        niveau: 3,
+        points: 3,
+        enonce: "Complète avec « parce que » ou « donc » : « Les élèves organisent un nettoyage ... ils ont remarqué des déchets. »",
+        correction: "Les élèves organisent un nettoyage parce qu’ils ont remarqué des déchets. « Parce que » introduit la raison."
+      },
+      {
+        niveau: 4,
+        points: 3,
+        enonce: "Réécris avec « donc » : « La cour est sale parce que des déchets ont été laissés par terre. »",
+        correction: "Des déchets ont été laissés par terre ; la cour est donc sale."
+      },
+      {
         niveau: 4,
         points: 4,
         enonce: "Décris en trois ou quatre phrases un problème d’environnement réel ou imaginaire et propose une action adaptée.",
         correction: "Réponse personnelle. Vérifie que tu présentes le lieu, le problème et une action. Exemple : « Des papiers sont laissés dans la cour. Ils rendent le lieu moins agréable. Nous pouvons utiliser les poubelles disponibles et organiser un nettoyage avec les adultes. »"
+      },
+      {
+        niveau: 4,
+        points: 4,
+        enonce: "Écris deux phrases liées à l’environnement : l’une avec « parce que » et l’autre avec « donc ».",
+        correction: "Exemple : « La cour est sale parce que des papiers sont par terre. Des papiers sont par terre ; la cour est donc sale. » D’autres réponses sont possibles si le lien entre les idées est logique."
       }
     ]
   }
