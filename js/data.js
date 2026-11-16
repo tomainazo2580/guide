@@ -129,7 +129,7 @@ function chargerFichierContenu(url) {
     for (var m = 0; m < liste.length; m++) {
       var matiere = liste[m];
       if (!matiere.dispo) continue;
-      for (var f = 0; f < < 0; f++) {
+            for (var f = 0; f < matiere.fichiers.length; f++) {
         chargerFichierContenu(matiere.fichiers[f]);
       }
     }
