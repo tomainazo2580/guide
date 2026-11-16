@@ -1,5 +1,5 @@
 // ===== GUIDE - Mathematiques 6eme (T6) =====
-// Base sur le programme officiel de Madagascar, complete par Guide.
+// Chapitre sur les fractions, complete par Guide.
 
 enregistrerChapitres("6e", "maths", [
   {
@@ -7,6 +7,7 @@ enregistrerChapitres("6e", "maths", [
     titre: "Chapitre 1 : Les fractions",
     premium: false,
     guide: false,
+
     lecons: [
       {
         id: "m6-fractions-notion",
@@ -26,7 +27,7 @@ enregistrerChapitres("6e", "maths", [
           {
             type: "regle",
             titre: "Numérateur et dénominateur",
-            texte: "Dans la fraction a/b :\nLe nombre du bas (b) est le dénominateur : il dit en combien de parts égales on a partagé.\nLe nombre du haut (a) est le numérateur : il dit combien de parts on prend.\nAstuce : le Dénominateur est en Dessous (les deux commencent par D)."
+            texte: "Dans la fraction a/b :\nLe nombre du bas (b) est le dénominateur : il dit en combien de parts égales on a partagé l'unité.\nLe nombre du haut (a) est le numérateur : il dit combien de parts on prend.\nAstuce : le Dénominateur est en Dessous (les deux commencent par D)."
           },
           {
             type: "exemple",
@@ -41,11 +42,12 @@ enregistrerChapitres("6e", "maths", [
               ["Unité", "L'objet entier que l'on partage (la bande, le gâteau...)"],
               ["Parts égales", "Chaque morceau a exactement la même taille"],
               ["Numérateur", "Le nombre de parts prises (en haut)"],
-              ["Dénominateur", "Le nombre de parts au total (en bas)"]
+              ["Dénominateur", "Le nombre de parts égales dans une unité (en bas)"]
             ]
           }
         ]
       },
+
       {
         id: "m6-fractions-equivalentes",
         titre: "Les fractions équivalentes",
@@ -53,12 +55,18 @@ enregistrerChapitres("6e", "maths", [
           {
             type: "definition",
             titre: "Des fractions qui valent la même chose",
-            texte: "Deux fractions sont équivalentes quand elles représentent la même quantité.\nExemple : 1/2 = 2/4 = 4/8. Couper un gâteau en 2 et prendre 1 part, c'est pareil que le couper en 4 et prendre 2 parts."
+            texte: "Deux fractions sont équivalentes quand elles représentent la même quantité.\nExemple : 1/2 = 2/4 = 4/8. Couper un gâteau en 2 et prendre 1 part, c'est pareil que couper le même gâteau en 4 et prendre 2 parts."
+          },
+          {
+            type: "schema",
+            titre: "1/2 et 2/4 : la même quantité",
+            svg: "<svg viewBox='0 0 320 145' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Deux bandes de même longueur : une moitié colorée dans la première et deux quarts colorés dans la seconde'><text x='10' y='20' font-size='15' fill='#1e293b'>1 part sur 2 : 1/2</text><rect x='10' y='30' width='150' height='30' fill='#60a5fa'/><rect x='160' y='30' width='150' height='30' fill='#f1f5f9'/><rect x='10' y='30' width='300' height='30' fill='none' stroke='#1e3a5f' stroke-width='2'/><line x1='160' y1='30' x2='160' y2='60' stroke='#1e3a5f' stroke-width='2'/><text x='10' y='90' font-size='15' fill='#1e293b'>2 parts sur 4 : 2/4</text><rect x='10' y='100' width='150' height='30' fill='#60a5fa'/><rect x='160' y='100' width='150' height='30' fill='#f1f5f9'/><rect x='10' y='100' width='300' height='30' fill='none' stroke='#1e3a5f' stroke-width='2'/><line x1='85' y1='100' x2='85' y2='130' stroke='#1e3a5f' stroke-width='2'/><line x1='160' y1='100' x2='160' y2='130' stroke='#1e3a5f' stroke-width='2'/><line x1='235' y1='100' x2='235' y2='130' stroke='#1e3a5f' stroke-width='2'/></svg>",
+            legende: "Complété par Guide : les deux bandes ont la même longueur. La partie bleue représente la même quantité : 1/2 = 2/4."
           },
           {
             type: "regle",
             titre: "La règle d'or",
-            texte: "On obtient une fraction équivalente en multipliant (ou en divisant) le numérateur ET le dénominateur par le même nombre (différent de zéro).\nExemple : 1/2 = (1×3)/(2×3) = 3/6."
+            texte: "On obtient une fraction équivalente en multipliant ou en divisant le numérateur ET le dénominateur par le même nombre non nul.\nExemple : 1/2 = (1×3)/(2×3) = 3/6."
           },
           {
             type: "methode",
@@ -77,6 +85,7 @@ enregistrerChapitres("6e", "maths", [
           }
         ]
       },
+
       {
         id: "m6-fractions-comparer",
         titre: "Comparer et ranger",
@@ -84,23 +93,23 @@ enregistrerChapitres("6e", "maths", [
           {
             type: "regle",
             titre: "Même dénominateur",
-            texte: "Si deux fractions ont le même dénominateur, la plus grande est celle qui a le plus grand numérateur.\nExemple : 5/12 > 3/12."
+            texte: "Si deux fractions ont le même dénominateur positif, la plus grande est celle qui a le plus grand numérateur.\nExemple : 5/12 > 3/12."
           },
           {
             type: "methode",
             titre: "Dénominateurs différents",
-            texte: "On transforme les fractions pour avoir le même dénominateur, puis on compare.\nExemple : comparer 1/2 et 2/3.\n1/2 = 3/6 et 2/3 = 4/6. Or 3/6 < 4/6, donc 1/2 < 2/3."
+            texte: "On peut transformer les fractions pour avoir le même dénominateur, puis comparer.\nExemple : comparer 1/2 et 2/3.\n1/2 = 3/6 et 2/3 = 4/6. Or 3/6 < 4/6, donc 1/2 < 2/3."
           },
           {
             type: "schema",
             titre: "La droite numérique",
             svg: "<svg viewBox='0 0 320 90' xmlns='http://www.w3.org/2000/svg'><line x1='20' y1='40' x2='300' y2='40' stroke='#1e3a5f' stroke-width='2'/><line x1='20' y1='33' x2='20' y2='47' stroke='#1e3a5f' stroke-width='2'/><text x='20' y='65' font-size='13' text-anchor='middle' fill='#1e3a5f'>0</text><line x1='160' y1='33' x2='160' y2='47' stroke='#dc2626' stroke-width='2'/><text x='160' y='65' font-size='13' text-anchor='middle' fill='#dc2626'>1/2</text><line x1='300' y1='33' x2='300' y2='47' stroke='#1e3a5f' stroke-width='2'/><text x='300' y='65' font-size='13' text-anchor='middle' fill='#1e3a5f'>1</text></svg>",
-            legende: "Chaque fraction a sa place sur la droite numérique."
+            legende: "La fraction 1/2 se trouve à mi-chemin entre 0 et 1."
           },
           {
             type: "remarque",
             titre: "Attention au piège",
-            texte: "On ne compare jamais les numérateurs quand les dénominateurs sont différents. 2/3 est plus grand que 1/2, même si 1 < 2 : passe toujours par le même dénominateur pour être sûr."
+            texte: "Lorsque les dénominateurs sont différents, comparer les numérateurs ne suffit pas. Par exemple, 1/2 est plus grand que 1/3, même si leurs numérateurs sont égaux. Pour comparer, on peut les mettre au même dénominateur : 1/2 = 3/6 et 1/3 = 2/6."
           },
           {
             type: "exemple",
@@ -110,7 +119,8 @@ enregistrerChapitres("6e", "maths", [
         ]
       }
     ],
-        exercices: [
+
+    exercices: [
       {
         niveau: 1,
         points: 2,
@@ -121,7 +131,7 @@ enregistrerChapitres("6e", "maths", [
         niveau: 1,
         points: 2,
         enonce: "Dans la fraction 5/6, comment s'appelle le nombre 5 ? Et le nombre 6 ?",
-        correction: "5 est le numérateur (en haut) : le nombre de parts prises.\n6 est le dénominateur (en bas) : le nombre de parts égales au total."
+        correction: "5 est le numérateur (en haut) : le nombre de parts prises.\n6 est le dénominateur (en bas) : le nombre de parts égales dans l'unité."
       },
       {
         niveau: 2,
