@@ -1,9 +1,9 @@
 // ============================================
 // GUIDE - Donnees de l'application
-// Version : v3.66
+// Version : v3.68
 // ============================================
 
-var VERSION = 'v3.66';
+var VERSION = 'v3.68';
 
 // ---------- Les classes ----------
 var CLASSES = [
@@ -44,7 +44,7 @@ var MATIERES = {
       fichiers: [
         'data/6e/sp-ch1.js',
         'data/6e/sp-ch2.js',
-        'data/6e/sp-ch3.js',
+        ' 'data/6e/sp-ch3.js',
         'data/6e/sp-ch4.js',
         'data/6e/sp-ch5.js',
         'data/6e/sp-ch6.js',
@@ -110,7 +110,9 @@ var MATIERES = {
     { id: 'fr', nom: 'Francais', court: 'Fr', icone: '📖', dispo: true,
       fichiers: [
         'data/5e/fr-ch1.js',
-        'data/5e/fr-ch2.js'
+        'data/5e/fr-ch2.js',
+        'data/5e/fr-ch3.js',
+        'data/5e/fr-ch4.js'
       ]
     },
     { id: 'eng', nom: 'Anglais', court: 'Ang', icone: '🇬🇧', dispo: false, fichiers: [] },
