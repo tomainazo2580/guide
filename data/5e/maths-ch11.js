@@ -166,8 +166,8 @@ enregistrerChapitres("5e", "maths", [
           {
             type: "schema",
             titre: "Deux parallèles et une sécante",
-            svg: "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 430 250' role='img' aria-label='Deux droites horizontales parallèles coupées par une sécante oblique. Les angles 1 et 2 sont correspondants, les angles 3 et 4 sont alternes-internes'><line x1='25' y1='70' x2='405' y2='70' stroke='#333' stroke-width='3'/><line x1='25' y1='180' x2='405' y2='180' stroke='#333' stroke-width='3'/><line x1='90' y1='235' x2='330' y2='15' stroke='#555' stroke-width='3'/><g font-size='20' fill='#222'><text x='28' y='60'>(d)</text><text x='28' y='170'>(d’)</text><text x='274' y='55' fill='#b32626'>1</text><text x='155' y='165' fill='#b32626'>2</text><text x='220' y='96' fill='#1455a0'>3</text><text x='155' y='165' fill='#b32626'></text><text x='200' y='165' fill='#1455a0'>4</text></g></svg>",
-            legende: "Les droites (d) et (d’) sont parallèles. Les angles 1 et 2 occupent la même position : ils sont correspondants. Les angles 3 et 4 sont alternes-internes."
+            svg: "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 430 250' role='img' aria-label='Deux parallèles coupées par une sécante. Les angles 1 et 2 sont correspondants. Les angles 3 et 4 sont alternes-internes.'><line x1='25' y1='70' x2='405' y2='70' stroke='#333' stroke-width='3'/><line x1='25' y1='180' x2='405' y2='180' stroke='#333' stroke-width='3'/><line x1='90' y1='235' x2='330' y2='15' stroke='#555' stroke-width='3'/><g font-size='20' fill='#222'><text x='28' y='60'>(d)</text><text x='28' y='170'>(d’)</text><text x='290' y='57' fill='#b32626'>1</text><text x='170' y='167' fill='#b32626'>2</text><text x='280' y='97' fill='#1455a0'>3</text><text x='120' y='167' fill='#1455a0'>4</text></g></svg>",
+            legende: "Les angles rouges 1 et 2 sont correspondants. Les angles bleus 3 et 4 sont alternes-internes."
           },
           {
             type: "definition",
