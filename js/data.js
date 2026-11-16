@@ -30,7 +30,7 @@ var MATIERES = {
         'data/6e/maths-ch9.js',
         'data/6e/maths-ch10.js',
         'data/6e/maths-ch11.js',
-        ''data/6e/maths-ch12.js',
+        'data/6e/maths-ch12.js',
         'data/6e/maths-ch13.js',
         'data/6e/maths-ch14.js',
         'data/6e/maths-ch15.js',
