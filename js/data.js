@@ -1,4 +1,4 @@
-var VERSION = 'v3.93';
+var VERSION = 'v3.97';
 
 var CLASSES = [
   { id: '6e', nom: 'Sixieme', dispo: true },
@@ -30,7 +30,7 @@ var MATIERES = {
         'data/6e/maths-ch9.js',
         'data/6e/maths-ch10.js',
         'data/6e/maths-ch11.js',
-        'data/6e/maths-ch12.js',
+        ''data/6e/maths-ch12.js',
         'data/6e/maths-ch13.js',
         'data/6e/maths-ch14.js',
         'data/6e/maths-ch15.js',
@@ -161,7 +161,10 @@ var MATIERES = {
         'data/5e/maths-ch10.js',
         'data/5e/maths-ch11.js',
         'data/5e/maths-ch12.js',
-        'data/5e/maths-ch13.js'
+        'data/5e/maths-ch13.js',
+        'data/5e/maths-ch14.js',
+        'data/5e/maths-ch15.js',
+        'data/5e/maths-ch16.js'
       ]
     },
     {
@@ -256,7 +259,6 @@ function enregistrerChapitres(classeId, matiereId, chapitres) {
 
 function chargerFichierContenu(url) {
   var xhr = new XMLHttpRequest();
-
   xhr.open('GET', url + '?v=' + VERSION, false);
   xhr.send(null);
 
