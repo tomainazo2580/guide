@@ -8,7 +8,7 @@ enregistrerChapitres("5e", "fr", [
     lecons: [
       {
         id: "fr5-ch4-lecon1",
-        titre: "1. Comprendre le sujet",
+        titre: "1. Comprendre le sujet — complété par Guide",
         blocs: [
           {
             type: "definition",
@@ -36,6 +36,11 @@ enregistrerChapitres("5e", "fr", [
               ["Conséquence", "Ce qui résulte d’un acte ou d’un événement."],
               ["Responsabilité", "Fait de devoir répondre de ses actes."]
             ]
+          },
+          {
+            type: "exemple",
+            titre: "Demander de l’aide",
+            texte: "Lorsqu’une situation semble difficile, on peut chercher conseil auprès d’un adulte ou d’une personne de confiance : par exemple un membre de la famille, une enseignante ou un enseignant."
           }
         ]
       },
@@ -47,7 +52,7 @@ enregistrerChapitres("5e", "fr", [
           {
             type: "remarque",
             titre: "Complété par Guide",
-            texte: "Ce récit et les questions associées ont été créés par Guide pour l’entraînement."
+            texte: "Ce récit, les explications et les questions ont été créés par Guide pour l’entraînement."
           },
           {
             type: "texte",
@@ -68,14 +73,29 @@ enregistrerChapitres("5e", "fr", [
           {
             type: "methode",
             titre: "Comprendre le récit",
-            texte: "Repère les personnages, le lieu, le problème, la décision de Tovo et la manière dont l’histoire se termine."
+            texte: "1. Repère les personnages et le lieu.\n2. Cherche le problème rencontré par Tovo.\n3. Observe sa décision et ses actions.\n4. Lis la fin pour comprendre ce qu’il apprend."
+          },
+          {
+            type: "exemple",
+            titre: "Cherchons ensemble",
+            texte: "Question : À qui Tovo raconte-t-il la situation ?\nIndice : « Le lendemain, Tovo raconte ce qui s’est passé à une enseignante en qui il a confiance. »\nRéponse : Il raconte la situation à une enseignante en qui il a confiance."
+          },
+          {
+            type: "texte",
+            titre: "Questions de compréhension",
+            texte: "1. Où se trouvent Tovo et ses camarades ?\n2. Que propose l’un des garçons ?\n3. Comment Tovo réagit-il ?\n4. À qui parle-t-il le lendemain ?\n5. Pourquoi se sent-il soulagé ?"
+          },
+          {
+            type: "exemple",
+            titre: "Réponses",
+            texte: "1. Ils passent près d’une boutique.\n2. Il propose de prendre un objet sans le payer.\n3. Tovo refuse et invite ses camarades à partir.\n4. Il parle à une enseignante en qui il a confiance.\n5. Elle l’écoute et il comprend qu’il peut demander de l’aide."
           }
         ]
       },
 
       {
         id: "fr5-ch4-lecon3",
-        titre: "3. Le texte narratif",
+        titre: "3. Comprendre le texte narratif — complété par Guide",
         blocs: [
           {
             type: "definition",
@@ -85,34 +105,44 @@ enregistrerChapitres("5e", "fr", [
           {
             type: "methode",
             titre: "Repérer les étapes",
-            texte: "Pour comprendre un récit, cherche la situation de départ, le problème ou l’événement qui survient, les actions des personnages et la situation à la fin."
+            texte: "Pour comprendre un récit, cherche :\n1. La situation de départ : qui, où, quand ?\n2. Le problème ou l’événement qui survient.\n3. Les actions et les réactions des personnages.\n4. La situation à la fin."
           },
           {
             type: "exemple",
             titre: "Dans le récit de Tovo",
-            texte: "Départ : Tovo marche avec ses camarades après les cours.\nProblème : un camarade propose de prendre un objet sans le payer.\nAction : Tovo refuse, puis parle à une enseignante.\nFin : il se sent soulagé et comprend qu’il peut demander de l’aide."
+            texte: "Départ : Tovo marche avec ses camarades après les cours.\nProblème : un camarade propose de prendre un objet sans le payer.\nActions : Tovo refuse, puis parle à une enseignante.\nFin : il se sent soulagé et comprend qu’il peut demander de l’aide."
+          },
+          {
+            type: "texte",
+            titre: "Les personnages et le narrateur",
+            texte: "Les personnages participent à l’histoire. Le narrateur est la voix qui la raconte. Il peut raconter avec « je » ou parler des personnages avec « il », « elle », « ils » ou « elles »."
           },
           {
             type: "remarque",
-            titre: "Le narrateur",
-            texte: "Le narrateur est la voix qui raconte l’histoire. Il peut raconter avec « je » ou parler des personnages avec « il », « elle », « ils » ou « elles »."
+            titre: "Dans ce texte",
+            texte: "Le récit parle de Tovo avec « il ». La voix qui raconte n’est pas présentée comme un personnage de l’histoire."
           }
         ]
       },
 
       {
         id: "fr5-ch4-lecon4",
-        titre: "4. Les pronoms possessifs",
+        titre: "4. Découvrir les pronoms possessifs — complété par Guide",
         blocs: [
           {
             type: "definition",
             titre: "À quoi servent-ils ?",
-            texte: "Un pronom possessif remplace un nom et indique à qui appartient la personne ou la chose désignée. Exemple : « Voici mon cahier. Où est le tien ? » Le tien remplace « ton cahier »."
+            texte: "Un pronom possessif remplace un groupe nominal et indique un lien avec un possesseur ou une personne. Il évite de répéter le nom."
+          },
+          {
+            type: "exemple",
+            titre: "Premier exemple",
+            texte: "Voici mon cahier. Où est le tien ?\n« Le tien » remplace « ton cahier ». Le nom « cahier » n’est pas répété."
           },
           {
             type: "tableau",
-            titre: "Les formes des pronoms possessifs",
-            entetes: ["Possesseur", "Masculin singulier", "Féminin singulier", "Masculin pluriel", "Féminin pluriel"],
+            titre: "Les formes",
+            entetes: ["Personne", "Masculin singulier", "Féminin singulier", "Masculin pluriel", "Féminin pluriel"],
             lignes: [
               ["Moi", "le mien", "la mienne", "les miens", "les miennes"],
               ["Toi", "le tien", "la tienne", "les tiens", "les tiennes"],
@@ -123,26 +153,53 @@ enregistrerChapitres("5e", "fr", [
             ]
           },
           {
-            type: "regle",
-            titre: "Choisir la bonne forme",
-            texte: "Le pronom s’accorde en genre et en nombre avec le nom qu’il remplace. Sa forme dépend aussi du possesseur : moi, toi, lui ou elle, nous, vous, eux ou elles."
-          },
-          {
-            type: "exemple",
-            titre: "Exemples",
-            texte: "Mon stylo est bleu ; le tien est rouge. « Le tien » remplace « ton stylo ».\nNos idées sont différentes des vôtres. « Les vôtres » remplace « vos idées »."
-          },
-          {
             type: "remarque",
-            titre: "Attention aux accents",
-            texte: "Les pronoms « le nôtre », « la nôtre », « les nôtres », « le vôtre », « la vôtre » et « les vôtres » prennent un accent circonflexe. Les déterminants « notre » et « votre » n’en prennent pas : notre livre, votre livre."
+            titre: "Un lien ne signifie pas toujours une possession",
+            texte: "Dans « Voici mon frère et voici le tien », « le tien » remplace « ton frère » et indique un lien familial. Cela ne signifie pas qu’une personne en possède une autre."
           }
         ]
       },
 
       {
         id: "fr5-ch4-lecon5",
-        titre: "5. Écrire une suite de récit — complété par Guide",
+        titre: "5. Choisir un pronom possessif — complété par Guide",
+        blocs: [
+          {
+            type: "regle",
+            titre: "Deux questions",
+            texte: "Pour choisir la forme du pronom, cherche :\n1. Quel nom est remplacé ? Le pronom s’accorde avec lui en genre et en nombre.\n2. À quelle personne ou à quel possesseur renvoie-t-on ? La forme dépend aussi de cette personne."
+          },
+          {
+            type: "exemple",
+            titre: "Cherchons ensemble",
+            texte: "Phrase : « J’ai mon livre et tu as… »\nNom remplacé : livre, masculin singulier.\nPersonne concernée : toi.\nRéponse : « J’ai mon livre et tu as le tien. »"
+          },
+          {
+            type: "tableau",
+            titre: "Autres exemples",
+            entetes: ["Phrase", "Groupe remplacé"],
+            lignes: [
+              ["Ma trousse est bleue ; la tienne est rouge.", "la tienne = ta trousse"],
+              ["Mes cahiers sont ici ; les tiens sont là.", "les tiens = tes cahiers"],
+              ["Nous avons nos idées ; vous avez les vôtres.", "les vôtres = vos idées"]
+            ]
+          },
+          {
+            type: "remarque",
+            titre: "Attention aux accents",
+            texte: "Les pronoms « le nôtre », « la nôtre », « les nôtres », « le vôtre », « la vôtre » et « les vôtres » prennent un accent circonflexe. Les déterminants « notre » et « votre » n’en prennent pas : notre livre, votre livre."
+          },
+          {
+            type: "exemple",
+            titre: "Comparer",
+            texte: "Notre livre est ici. Le nôtre est ici.\nVotre trousse est là. La vôtre est là.\nDans « notre livre » et « votre trousse », le nom est exprimé. Dans « le nôtre » et « la vôtre », il n’est pas répété."
+          }
+        ]
+      },
+
+      {
+        id: "fr5-ch4-lecon6",
+        titre: "6. Écrire une suite de récit — complété par Guide",
         blocs: [
           {
             type: "remarque",
@@ -153,6 +210,11 @@ enregistrerChapitres("5e", "fr", [
             type: "methode",
             titre: "Préparer sa suite",
             texte: "1. Garde les personnages du récit.\n2. Imagine une conversation ou une action après la rencontre avec l’enseignante.\n3. Explique les réactions des personnages.\n4. Termine par une situation compréhensible."
+          },
+          {
+            type: "exemple",
+            titre: "Début possible",
+            texte: "Le lendemain, Tovo retrouve ses camarades. Il décide de leur parler calmement de ce qui s’est passé."
           },
           {
             type: "texte",
@@ -191,14 +253,20 @@ enregistrerChapitres("5e", "fr", [
       {
         niveau: 2,
         points: 2,
-        enonce: "Dans « Voici mon cahier. Où est le tien ? », quel groupe de mots le pronom « le tien » remplace-t-il ?",
+        enonce: "Dans « Voici mon cahier. Où est le tien ? », quel groupe de mots « le tien » remplace-t-il ?",
         correction: "Il remplace « ton cahier »."
       },
       {
         niveau: 3,
         points: 3,
-        enonce: "Complète avec un pronom possessif : « J’ai mon livre et tu as ... »",
+        enonce: "Complète : « J’ai mon livre et tu as ... »",
         correction: "J’ai mon livre et tu as le tien. « Le tien » remplace « ton livre »."
+      },
+      {
+        niveau: 3,
+        points: 3,
+        enonce: "Complète : « Ma trousse est bleue ; ta trousse est rouge. Ma trousse est bleue ; ... est rouge. »",
+        correction: "Ma trousse est bleue ; la tienne est rouge. « La tienne » remplace « ta trousse »."
       },
       {
         niveau: 3,
@@ -211,6 +279,24 @@ enregistrerChapitres("5e", "fr", [
         points: 3,
         enonce: "Dans le récit, quel est le problème auquel Tovo doit faire face ?",
         correction: "Un camarade propose de prendre un objet sans le payer, et Tovo doit décider comment réagir."
+      },
+      {
+        niveau: 3,
+        points: 3,
+        enonce: "Quel est le rôle du narrateur dans un texte narratif ?",
+        correction: "Le narrateur est la voix qui raconte l’histoire."
+      },
+      {
+        niveau: 4,
+        points: 3,
+        enonce: "Complète : « Mes cahiers sont ici ; tes cahiers sont là. Mes cahiers sont ici ; ... sont là. »",
+        correction: "Mes cahiers sont ici ; les tiens sont là. « Les tiens » remplace « tes cahiers »."
+      },
+      {
+        niveau: 4,
+        points: 3,
+        enonce: "Choisis la bonne forme : « Voici notre livre ; où est le ... ? » (votre / vôtre)",
+        correction: "Voici notre livre ; où est le vôtre ? Le pronom « le vôtre » prend un accent circonflexe."
       },
       {
         niveau: 4,
