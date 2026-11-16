@@ -1,9 +1,9 @@
 // ============================================
 // GUIDE - Donnees de l'application
-// Version : v3.59
+// Version : v3.60
 // ============================================
 
-var VERSION = 'v3.59';
+var VERSION = 'v3.60';
 
 // ---------- Les classes ----------
 var CLASSES = [
@@ -78,7 +78,8 @@ var MATIERES = {
     { id: 'fr', nom: 'Francais', court: 'Fr', icone: '📖', dispo: true,
       fichiers: [
         'data/6e/fr-ch1.js',
-        'data/6e/fr-ch2.js'
+        'data/6e/fr-ch2.js',
+        'data/6e/fr-ch3.js'
       ]
     },
     { id: 'eng', nom: 'Anglais', court: 'Ang', icone: '🇬🇧', dispo: true,
