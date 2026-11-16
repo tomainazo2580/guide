@@ -1,4 +1,4 @@
-// ===== GUIDE - Paywall =====
+// ===== GUIDE - Paywall et filtre des examens =====
 
 (function () {
   var ancienAfficherChapitres = afficherChapitres;
@@ -6,11 +6,26 @@
   var ancienneLecon = afficherLecon;
   var anciensExercices = afficherExercices;
 
+  var anciennesMatieresExamen = exaMatieresDispos;
   var ancienneIntroExamen = exaIntro;
   var ancienneConfirmationExamen = exaConfirmation;
   var ancienLancementExamen = exaLancer;
 
-  // Écran de paiement simplifié
+  // En mode Examen, garder seulement la classe choisie à l'accueil.
+  exaMatieresDispos = function () {
+    var toutes = anciennesMatieresExamen();
+    var liste = [];
+
+    for (var i = 0; i < toutes.length; i++) {
+      if (toutes[i].classeId === classeAccueil) {
+        liste.push(toutes[i]);
+      }
+    }
+
+    return liste;
+  };
+
+  // Écran de paiement simplifié.
   afficherPaiement = function (classeId, matiereId) {
     if (verrouExamen()) {
       afficherVerrouillage();
