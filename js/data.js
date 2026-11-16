@@ -1,14 +1,14 @@
 // ============================================
 // GUIDE - Donnees de l'application
-// Version : v3.64
+// Version : v3.65
 // ============================================
 
-var VERSION = 'v3.64';
+var VERSION = 'v3.65';
 
 // ---------- Les classes ----------
 var CLASSES = [
   { id: '6e',   nom: 'Sixieme',   dispo: true  },
-  { id: '5e',   nom: 'Cinquieme', dispo: false },
+  { id: '5e',   nom: 'Cinquieme', dispo: true  },
   { id: '4e',   nom: 'Quatrieme', dispo: false },
   { id: '3e',   nom: 'Troisieme', dispo: false },
   { id: '2nde', nom: 'Seconde',   dispo: false },
@@ -98,6 +98,21 @@ var MATIERES = {
         'data/6e/eng-ch8.js'
       ]
     },
+    { id: 'hg', nom: 'Histoire', court: 'Hist', icone: '🌍', dispo: false, fichiers: [] },
+    { id: 'geo', nom: 'Geographie', court: 'Geo', icone: '🗺️', dispo: false, fichiers: [] }
+  ],
+
+  '5e': [
+    { id: 'maths', nom: 'Mathematiques', court: 'Maths', icone: '📐', dispo: false, fichiers: [] },
+    { id: 'sp', nom: 'Sciences Physiques', court: 'SP', icone: '⚗️', dispo: false, fichiers: [] },
+    { id: 'svt', nom: 'Sciences de la Vie et de la Terre', court: 'SVT', icone: '🌱', dispo: false, fichiers: [] },
+    { id: 'mal', nom: 'Malagasy', court: 'Mal', icone: '🇲🇬', dispo: false, fichiers: [] },
+    { id: 'fr', nom: 'Francais', court: 'Fr', icone: '📖', dispo: true,
+      fichiers: [
+        'data/5e/fr-ch1.js'
+      ]
+    },
+    { id: 'eng', nom: 'Anglais', court: 'Ang', icone: '🇬🇧', dispo: false, fichiers: [] },
     { id: 'hg', nom: 'Histoire', court: 'Hist', icone: '🌍', dispo: false, fichiers: [] },
     { id: 'geo', nom: 'Geographie', court: 'Geo', icone: '🗺️', dispo: false, fichiers: [] }
   ]
