@@ -1,4 +1,4 @@
-var VERSION = 'v3.80';
+var VERSION = 'v3.81';
 
 var CLASSES = [
   { id: '6e', nom: 'Sixieme', dispo: true },
@@ -147,8 +147,10 @@ var MATIERES = {
       nom: 'Mathematiques',
       court: 'Maths',
       icone: '📐',
-      dispo: false,
-      fichiers: []
+      dispo: true,
+      fichiers: [
+        'data/5e/maths-ch1.js'
+      ]
     },
     {
       id: 'sp',
@@ -242,6 +244,7 @@ function enregistrerChapitres(classeId, matiereId, chapitres) {
 
 function chargerFichierContenu(url) {
   var xhr = new XMLHttpRequest();
+
   xhr.open('GET', url + '?v=' + VERSION, false);
   xhr.send(null);
 
