@@ -1,4 +1,4 @@
-var VERSION = 'v3.82';
+var VERSION = 'v3.85';
 
 var CLASSES = [
   { id: '6e', nom: 'Sixieme', dispo: true },
@@ -150,7 +150,10 @@ var MATIERES = {
       dispo: true,
       fichiers: [
         'data/5e/maths-ch1.js',
-        'data/5e/maths-ch2.js'
+        'data/5e/maths-ch2.js',
+        'data/5e/maths-ch3.js',
+        'data/5e/maths-ch4.js',
+        'data/5e/maths-ch5.js'
       ]
     },
     {
