@@ -8,7 +8,7 @@ enregistrerChapitres("5e", "fr", [
     lecons: [
       {
         id: "fr5-ch2-lecon1",
-        titre: "1. Comprendre les traditions",
+        titre: "1. Comprendre les traditions — complété par Guide",
         blocs: [
           {
             type: "definition",
@@ -17,13 +17,18 @@ enregistrerChapitres("5e", "fr", [
           },
           {
             type: "texte",
-            titre: "Des traditions diverses",
-            texte: "À Madagascar, les traditions sont variées. Elles peuvent différer selon les régions, les communautés et les familles. Elles évoluent aussi avec le temps."
+            titre: "Comment se transmet-elle ?",
+            texte: "Une personne peut apprendre une pratique en écoutant un récit, en observant des gestes ou en participant à une activité. Elle peut ensuite la partager avec d’autres personnes."
           },
           {
             type: "exemple",
-            titre: "Des exemples",
-            texte: "Raconter une histoire aux enfants, préparer un repas à l’occasion d’une fête ou se réunir pour aider une famille peuvent être des pratiques transmises de génération en génération."
+            titre: "Un exemple",
+            texte: "Une grand-mère raconte une histoire à ses petits-enfants. Plus tard, ceux-ci pourront la raconter à leur tour. Le récit peut ainsi passer d’une génération à une autre."
+          },
+          {
+            type: "texte",
+            titre: "Des traditions diverses",
+            texte: "À Madagascar, les traditions sont variées. Elles peuvent différer selon les régions, les communautés et les familles. Elles évoluent aussi avec le temps."
           },
           {
             type: "remarque",
@@ -40,7 +45,7 @@ enregistrerChapitres("5e", "fr", [
           {
             type: "remarque",
             titre: "Complété par Guide",
-            texte: "Ce texte et les questions associées ont été créés par Guide pour l’entraînement."
+            texte: "Ce texte, ses questions et les explications ont été créés par Guide pour l’entraînement."
           },
           {
             type: "texte",
@@ -60,13 +65,23 @@ enregistrerChapitres("5e", "fr", [
           },
           {
             type: "methode",
-            titre: "Pour répondre aux questions",
-            texte: "Repère d’abord le problème, puis les actions des personnages et enfin le résultat. Relis le texte pour vérifier chaque réponse."
+            titre: "Suivre les étapes du récit",
+            texte: "Pour comprendre ce qui se passe, cherche :\n1. Le problème au début.\n2. Les actions réalisées.\n3. Le résultat à la fin.\nRelis le texte avant de répondre."
           },
           {
             type: "exemple",
-            titre: "Exemple",
-            texte: "Question : Pourquoi les habitants se réunissent-ils ?\nRéponse : Ils se réunissent pour réparer le chemin qui mène à l’école."
+            titre: "Cherchons ensemble",
+            texte: "Question : Pourquoi les habitants se réunissent-ils ?\nIndice : « le chemin qui mène à l’école est difficile à traverser ».\nRéponse : Ils se réunissent pour réparer le chemin qui mène à l’école."
+          },
+          {
+            type: "texte",
+            titre: "Questions de compréhension",
+            texte: "1. Pourquoi le chemin est-il difficile à traverser ?\n2. Que font les jeunes ?\n3. Qu’observe Noro ?\n4. Comment est le chemin à la fin de la journée ?\n5. Que comprend Noro sur l’entraide ?"
+          },
+          {
+            type: "exemple",
+            titre: "Réponses",
+            texte: "1. Le chemin est difficile à traverser après plusieurs jours de pluie.\n2. Les jeunes ramassent les petites branches.\n3. Noro observe les gestes des personnes plus expérimentées.\n4. Le chemin est plus facile à emprunter.\n5. Elle comprend que l’entraide demande des efforts, mais qu’elle permet aussi de partager des connaissances et de renforcer les liens."
           }
         ]
       },
@@ -96,17 +111,22 @@ enregistrerChapitres("5e", "fr", [
             type: "exemple",
             titre: "Dans des phrases",
             texte: "La solidarité aide les habitants à réaliser un travail ensemble.\nUne personne âgée transmet un récit à ses petits-enfants.\nCette coutume est connue dans certaines familles."
+          },
+          {
+            type: "methode",
+            titre: "Comprendre un mot nouveau",
+            texte: "Lis toute la phrase et cherche des indices. Puis essaie de remplacer le mot par une explication simple qui garde le sens de la phrase."
           }
         ]
       },
 
       {
         id: "fr5-ch2-lecon4",
-        titre: "4. La tournure impersonnelle",
+        titre: "4. Reconnaître une tournure impersonnelle — complété par Guide",
         blocs: [
           {
             type: "definition",
-            titre: "Qu’est-ce qu’une tournure impersonnelle ?",
+            titre: "La tournure impersonnelle",
             texte: "Dans une tournure impersonnelle, le verbe est employé avec le pronom « il », qui ne désigne ni une personne ni une chose précise."
           },
           {
@@ -117,29 +137,66 @@ enregistrerChapitres("5e", "fr", [
           {
             type: "methode",
             titre: "Comment la reconnaître ?",
-            texte: "Demande-toi si « il » désigne une personne ou une chose précise. Dans « Il pleut », « il » ne remplace aucun nom : la tournure est impersonnelle."
+            texte: "1. Repère le verbe et son sujet « il ».\n2. Demande-toi si « il » remplace une personne ou une chose précise dans le contexte.\n3. S’il ne désigne personne et ne remplace aucune chose précise, il peut s’agir d’une tournure impersonnelle."
+          },
+          {
+            type: "exemple",
+            titre: "Cherchons ensemble",
+            texte: "Dans « Il pleut », le sujet est « il » et le verbe est « pleut ». Le pronom « il » ne désigne personne : c’est une tournure impersonnelle."
           },
           {
             type: "tableau",
-            titre: "Comparer",
+            titre: "Comparer deux emplois",
             entetes: ["Phrase", "Explication"],
             lignes: [
               ["Il pleut.", "« Il » ne désigne personne : tournure impersonnelle."],
               ["Il faut partir.", "« Il » ne désigne personne : tournure impersonnelle."],
-              ["Soa arrive. Il la salue.", "« Il » désigne une personne dans le contexte : emploi personnel."]
+              ["Tovo arrive. Il salue Noro.", "« Il » désigne Tovo : emploi personnel."]
             ]
           },
           {
             type: "remarque",
             titre: "Un même verbe peut avoir plusieurs emplois",
-            texte: "Certains verbes peuvent être employés dans une tournure impersonnelle ou personnelle. Exemple : « Il arrive que le chemin soit fermé » est impersonnel ; dans « Noro arrive », le verbe est employé avec un sujet qui désigne une personne."
+            texte: "Certains verbes peuvent être employés de façon impersonnelle ou personnelle. Dans « Il arrive que le chemin soit fermé », l’emploi est impersonnel. Dans « Noro arrive », le sujet désigne une personne."
           }
         ]
       },
 
       {
         id: "fr5-ch2-lecon5",
-        titre: "5. Parler et écrire sur l’entraide — complété par Guide",
+        titre: "5. Employer des tournures impersonnelles — complété par Guide",
+        blocs: [
+          {
+            type: "texte",
+            titre: "Il faut",
+            texte: "On utilise « il faut » pour exprimer une nécessité. On peut le faire suivre d’un verbe à l’infinitif ou d’un nom."
+          },
+          {
+            type: "exemple",
+            titre: "Exemples",
+            texte: "Il faut réparer le chemin. = Réparer le chemin est nécessaire.\nIl faut des outils. = Des outils sont nécessaires."
+          },
+          {
+            type: "texte",
+            titre: "Il est important de",
+            texte: "On peut utiliser « il est important de » suivi d’un verbe à l’infinitif pour dire qu’une action est importante."
+          },
+          {
+            type: "exemple",
+            titre: "Exemples",
+            texte: "Il est important de s’entraider.\nIl est important de respecter les autres."
+          },
+          {
+            type: "remarque",
+            titre: "À ne pas oublier",
+            texte: "Dans « Il faut écouter » et « Il est important de respecter les autres », « il » ne désigne pas une personne précise."
+          }
+        ]
+      },
+
+      {
+        id: "fr5-ch2-lecon6",
+        titre: "6. Parler et écrire sur l’entraide — complété par Guide",
         blocs: [
           {
             type: "remarque",
@@ -154,12 +211,17 @@ enregistrerChapitres("5e", "fr", [
           {
             type: "exemple",
             titre: "Exemple",
-            texte: "Samedi, des élèves nettoient la cour de leur école. Les uns ramassent les papiers et les autres rangent le matériel. À la fin, la cour est plus propre."
+            texte: "Samedi, des élèves nettoient la cour de leur école. Il faut ramasser les papiers. Les uns ramassent les déchets et les autres rangent le matériel. À la fin, la cour est plus propre."
+          },
+          {
+            type: "methode",
+            titre: "Relire son texte",
+            texte: "Vérifie que les phrases commencent par une majuscule et se terminent par un point. Assure-toi aussi que le lecteur comprend le problème, l’action et le résultat."
           },
           {
             type: "texte",
             titre: "À ton tour",
-            texte: "Écris quelques phrases sur une action d’entraide réelle ou imaginée. Tu peux ensuite les lire à voix haute. Guide ne peut pas écouter ni évaluer ta lecture orale."
+            texte: "Écris quelques phrases sur une action d’entraide réelle ou imaginée. Utilise si possible une tournure impersonnelle. Tu peux ensuite lire ton texte à voix haute. Guide ne peut pas écouter ni évaluer ta lecture orale."
           }
         ]
       }
@@ -175,8 +237,14 @@ enregistrerChapitres("5e", "fr", [
       {
         niveau: 1,
         points: 2,
-        enonce: "Dans le texte « Une journée d’entraide », pourquoi les habitants se réunissent-ils ?",
+        enonce: "Dans « Une journée d’entraide », pourquoi les habitants se réunissent-ils ?",
         correction: "Ils se réunissent pour réparer le chemin qui mène à l’école."
+      },
+      {
+        niveau: 2,
+        points: 2,
+        enonce: "Que font les jeunes pendant la journée d’entraide ?",
+        correction: "Ils ramassent les petites branches."
       },
       {
         niveau: 2,
@@ -193,26 +261,44 @@ enregistrerChapitres("5e", "fr", [
       {
         niveau: 2,
         points: 2,
-        enonce: "Dans « Il pleut », le mot « il » désigne-t-il une personne ? Quelle est la tournure employée ?",
+        enonce: "Dans « Il pleut », le mot « il » désigne-t-il une personne ?",
         correction: "Non, « il » ne désigne pas une personne. C’est une tournure impersonnelle."
       },
       {
         niveau: 3,
         points: 3,
-        enonce: "Repère les phrases à tournure impersonnelle : a) Il faut écouter. b) Il chante une chanson. c) Il est important de respecter les autres.",
-        correction: "Les phrases a) et c) sont impersonnelles : « il » ne désigne ni une personne ni une chose précise. Dans b), « il » désigne une personne dans le contexte."
+        enonce: "Repère les tournures impersonnelles : a) Il faut écouter. b) Tovo chante. Il est heureux. c) Il est important de respecter les autres.",
+        correction: "Les phrases a) et c) sont impersonnelles. Dans b), « il » désigne Tovo : c’est un emploi personnel."
       },
       {
         niveau: 3,
         points: 3,
         enonce: "Pourquoi faut-il tenir compte du contexte lorsqu’on parle d’un fady ?",
-        correction: "Parce que les fady peuvent varier selon les lieux, les familles ou les communautés. Ils ne sont pas tous identiques."
+        correction: "Parce que les fady peuvent varier selon les lieux, les familles ou les communautés."
       },
       {
         niveau: 3,
         points: 3,
-        enonce: "Complète avec une tournure impersonnelle : « ... important de s’entraider. »",
+        enonce: "Complète : « ... important de s’entraider. »",
         correction: "Il est important de s’entraider."
+      },
+      {
+        niveau: 3,
+        points: 3,
+        enonce: "Complète avec « il faut » : « ... des outils pour réparer le chemin. »",
+        correction: "Il faut des outils pour réparer le chemin."
+      },
+      {
+        niveau: 4,
+        points: 3,
+        enonce: "Dans « Noro arrive » et « Il arrive que le chemin soit fermé », quelle phrase contient une tournure impersonnelle ?",
+        correction: "« Il arrive que le chemin soit fermé » contient une tournure impersonnelle. Dans « Noro arrive », le sujet désigne une personne."
+      },
+      {
+        niveau: 4,
+        points: 4,
+        enonce: "Que montre le texte sur les effets de l’entraide ? Donne deux éléments.",
+        correction: "L’entraide permet ici de rendre le chemin plus facile à emprunter. Elle permet aussi de partager des connaissances et de renforcer les liens entre les personnes. Deux de ces éléments suffisent."
       },
       {
         niveau: 4,
