@@ -1,9 +1,9 @@
 // ============================================
 // GUIDE - Donnees de l'application
-// Version : v3.57
+// Version : v3.58
 // ============================================
 
-var VERSION = 'v3.57';
+var VERSION = 'v3.58';
 
 // ---------- Les classes ----------
 var CLASSES = [
@@ -75,7 +75,13 @@ var MATIERES = {
       ]
     },
     { id: 'mal', nom: 'Malagasy', court: 'Mal', icone: '🇲🇬', dispo: false, fichiers: [] },
-    { id: 'fr', nom: 'Francais', court: 'Fr', icone: '📖', dispo: false, fichiers: [] },
+
+    { id: 'fr', nom: 'Francais', court: 'Fr', icone: '📖', dispo: true,
+      fichiers: [
+        'data/6e/fr-ch1.js'
+      ]
+    },
+
     { id: 'eng', nom: 'Anglais', court: 'Ang', icone: '🇬🇧', dispo: true,
       fichiers: [
         'data/6e/eng-ch1.js',
@@ -123,7 +129,7 @@ function chargerFichierContenu(url) {
     for (var m = 0; m < liste.length; m++) {
       var matiere = liste[m];
       if (!matiere.dispo) continue;
-      for (var f = 0; f < matiere.fichiers.length; f++) {
+      for (var f = 0; f < < 0; f++) {
         chargerFichierContenu(matiere.fichiers[f]);
       }
     }
