@@ -1,8 +1,8 @@
 // ============================================
-// GUIDE - Configuration des accès payants
+// GUIDE - Configuration du paiement
 // ============================================
 
-// Prix pour débloquer une matière dans une classe
+// Prix d'une matière pour chaque classe
 var PRIX_MATIERE = {
   '6e': 1500,
   '5e': 1500,
@@ -19,5 +19,7 @@ var CHAPITRES_PAYANTS = {
   '6e|sp': [5, 7, 8, 12],
   '6e|svt': [2, 6, 7, 12, 14],
   '6e|eng': [3, 6, 8],
-  '6e|fr': [4, 7]
+  '6e|fr': [4, 7],
+
+  '5e|fr': [3, 6, 8]
 };
