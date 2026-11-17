@@ -1,7 +1,7 @@
 enregistrerChapitres("5e", "sp", [
   {
     id: 4,
-    titre: "Les mélanges",
+    titre: "Chapitre 4 : Les mélanges",
     premium: false,
     guide: false,
 
@@ -12,19 +12,19 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "definition",
-            contenu: "Un corps pur est constitué d’une seule espèce chimique. Un mélange contient au moins deux espèces chimiques différentes."
+            texte: "Un corps pur est constitué d’une seule espèce chimique. Un mélange contient au moins deux espèces chimiques différentes."
           },
           {
             type: "exemple",
-            contenu: "L’eau pure est un corps pur. L’eau salée est un mélange : elle contient de l’eau et du sel dissous."
+            texte: "L’eau pure est un corps pur. L’eau salée est un mélange : elle contient de l’eau et du sel dissous."
           },
           {
             type: "remarque",
-            contenu: "Une eau qui paraît claire n’est pas forcément un corps pur : elle peut contenir des substances dissoutes qu’on ne voit pas à l’œil nu."
+            texte: "Une eau qui paraît claire n’est pas forcément un corps pur : elle peut contenir des substances dissoutes qu’on ne voit pas à l’œil nu."
           },
           {
             type: "texte",
-            contenu: "Un mélange peut être composé de solides, de liquides ou de gaz. Par exemple, l’air est un mélange de gaz."
+            texte: "Un mélange peut être composé de solides, de liquides ou de gaz. Par exemple, l’air est un mélange de gaz."
           }
         ]
       },
@@ -34,19 +34,19 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "definition",
-            contenu: "Un mélange est homogène lorsqu’on ne distingue pas ses différents constituants à l’œil nu : il présente un aspect uniforme."
+            texte: "Un mélange est homogène lorsqu’on ne distingue pas ses différents constituants à l’œil nu : il présente un aspect uniforme."
           },
           {
             type: "exemple",
-            contenu: "Lorsque du sel est entièrement dissous dans l’eau, le mélange obtenu est homogène : on ne distingue plus le sel à l’œil nu."
+            texte: "Lorsque du sel est entièrement dissous dans l’eau, le mélange obtenu est homogène : on ne distingue plus le sel à l’œil nu."
           },
           {
             type: "definition",
-            contenu: "Un mélange est hétérogène lorsqu’on distingue au moins deux parties ou constituants différents à l’œil nu."
+            texte: "Un mélange est hétérogène lorsqu’on distingue au moins deux parties ou constituants différents à l’œil nu."
           },
           {
             type: "exemple",
-            contenu: "Un mélange d’eau et de sable est hétérogène : on peut distinguer les grains de sable de l’eau."
+            texte: "Un mélange d’eau et de sable est hétérogène : on peut distinguer les grains de sable de l’eau."
           },
           {
             type: "tableau",
@@ -59,7 +59,7 @@ enregistrerChapitres("5e", "sp", [
           },
           {
             type: "remarque",
-            contenu: "Homogène ne veut pas dire pur. Dans l’eau salée, le sel n’a pas disparu : il est dissous dans l’eau."
+            texte: "Homogène ne veut pas dire pur. Dans l’eau salée, le sel n’a pas disparu : il est dissous dans l’eau."
           }
         ]
       },
@@ -69,19 +69,19 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "methode",
-            contenu: "Pour classer un mélange : 1. Observer son aspect à l’œil nu. 2. Chercher si l’on distingue plusieurs parties ou constituants. 3. Si l’aspect est uniforme, le mélange est homogène à l’œil nu ; si plusieurs parties sont visibles, il est hétérogène."
+            texte: "Pour classer un mélange :\n1. Observer son aspect à l’œil nu.\n2. Chercher si l’on distingue plusieurs parties ou constituants.\n3. Si l’aspect est uniforme, le mélange est homogène à l’œil nu ; si plusieurs parties sont visibles, il est hétérogène."
           },
           {
             type: "exemple",
-            contenu: "On mélange de la terre et de l’eau. Des particules de terre sont visibles : le mélange est hétérogène."
+            texte: "On mélange de la terre et de l’eau. Des particules de terre sont visibles : le mélange est hétérogène."
           },
           {
             type: "remarque",
-            contenu: "L’aspect d’un mélange peut changer avec le temps. Après agitation, certaines particules restent un moment dispersées, puis se déposent au fond."
+            texte: "L’aspect d’un mélange peut changer avec le temps. Après agitation, certaines particules restent un moment dispersées, puis se déposent au fond."
           },
           {
             type: "remarque",
-            contenu: "Observer un mélange à l’œil nu ne permet pas toujours de connaître sa composition. Il ne faut jamais goûter un mélange inconnu pour l’identifier."
+            texte: "Observer un mélange à l’œil nu ne permet pas toujours de connaître sa composition. Il ne faut jamais goûter un mélange inconnu pour l’identifier."
           }
         ]
       },
@@ -91,23 +91,23 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "definition",
-            contenu: "Deux liquides sont miscibles lorsqu’ils se mélangent pour former un mélange homogène."
+            texte: "Deux liquides sont miscibles lorsqu’ils se mélangent pour former un mélange homogène."
           },
           {
             type: "exemple",
-            contenu: "L’eau et l’alcool sont miscibles : mélangés, ils forment un mélange homogène."
+            texte: "L’eau et l’alcool sont miscibles : mélangés, ils forment un mélange homogène."
           },
           {
             type: "definition",
-            contenu: "Deux liquides non miscibles ne forment pas un mélange homogène lorsqu’on les mélange. Au repos, ils forment généralement deux couches distinctes."
+            texte: "Deux liquides non miscibles ne forment pas un mélange homogène lorsqu’on les mélange. Au repos, ils forment généralement deux couches distinctes."
           },
           {
             type: "exemple",
-            contenu: "L’eau et l’huile ne sont pas miscibles. Après un temps de repos, elles forment deux couches : l’huile se trouve au-dessus de l’eau."
+            texte: "L’eau et l’huile ne sont pas miscibles. Après un temps de repos, elles forment deux couches : l’huile se trouve au-dessus de l’eau."
           },
           {
             type: "remarque",
-            contenu: "La miscibilité concerne le mélange de liquides. Pour un solide comme le sel qui se dissout dans l’eau, on parle plutôt de solubilité et de dissolution."
+            texte: "La miscibilité concerne le mélange de liquides. Pour un solide comme le sel qui se dissout dans l’eau, on parle plutôt de solubilité et de dissolution."
           }
         ]
       },
@@ -127,11 +127,11 @@ enregistrerChapitres("5e", "sp", [
           },
           {
             type: "remarque",
-            contenu: "La poudre de craie ne se dissout pas dans l’eau comme le sucre. Elle peut se disperser temporairement et rendre l’eau trouble."
+            texte: "La poudre de craie ne se dissout pas dans l’eau comme le sucre. Elle peut se disperser temporairement et rendre l’eau trouble."
           },
           {
             type: "texte",
-            contenu: "Certains constituants d’un mélange peuvent être séparés par des méthodes adaptées. Nous étudierons ces méthodes dans un prochain chapitre."
+            texte: "Certains constituants d’un mélange peuvent être séparés par des méthodes adaptées. Nous étudierons ces méthodes dans un prochain chapitre."
           }
         ]
       }
@@ -184,7 +184,7 @@ enregistrerChapitres("5e", "sp", [
         niveau: 3,
         points: 2,
         enonce: "Classe les mélanges suivants : a) riz et haricots ; b) eau et sel entièrement dissous ; c) eau et huile au repos.",
-        correction: "a) Hétérogène : on distingue les grains. b) Homogène : l’aspect est uniforme. c) Hétérogène : on distingue deux couches."
+        correction: "a) Hétérogène : on distingue les grains.\nb) Homogène : l’aspect est uniforme.\nc) Hétérogène : on distingue deux couches."
       },
       {
         niveau: 3,
