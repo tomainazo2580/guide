@@ -1,7 +1,7 @@
 enregistrerChapitres("5e", "sp", [
   {
     id: 1,
-    titre: "La masse et sa mesure",
+    titre: "Chapitre 1 : La masse et sa mesure",
     premium: false,
     guide: false,
 
@@ -12,19 +12,19 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "texte",
-            contenu: "Dans la vie quotidienne, on mesure la masse de nombreux objets : un sac de riz, des fruits, un cahier ou encore un colis."
+            texte: "Dans la vie quotidienne, on mesure la masse de nombreux objets : un sac de riz, des fruits, un cahier ou encore un colis."
           },
           {
             type: "definition",
-            contenu: "La masse est une grandeur physique qui indique notamment la quantité de matière d’un objet. Elle se mesure avec une balance."
+            texte: "La masse est une grandeur physique qui indique notamment la quantité de matière d’un objet. Elle se mesure avec une balance."
           },
           {
             type: "exemple",
-            contenu: "Un paquet de farine peut avoir une masse de 1 kilogramme. Une mangue peut avoir une masse de 300 grammes."
+            texte: "Un paquet de farine peut avoir une masse de 1 kilogramme. Une mangue peut avoir une masse de 300 grammes."
           },
           {
             type: "remarque",
-            contenu: "Deux objets qui ont le même volume n’ont pas forcément la même masse. Par exemple, une boule de fer et une boule de bois de même taille n’ont généralement pas la même masse."
+            texte: "Deux objets qui ont le même volume n’ont pas forcément la même masse. Par exemple, une boule de fer et une boule de bois de même taille n’ont généralement pas la même masse."
           }
         ]
       },
@@ -34,11 +34,11 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "texte",
-            contenu: "L’unité de masse du Système international est le kilogramme, de symbole kg. On utilise aussi le gramme, de symbole g, pour des masses plus petites, et la tonne, de symbole t, pour des masses importantes."
+            texte: "L’unité de masse du Système international est le kilogramme, de symbole kg. On utilise aussi le gramme, de symbole g, pour des masses plus petites, et la tonne, de symbole t, pour des masses importantes."
           },
           {
             type: "regle",
-            contenu: "1 kg = 1 000 g et 1 t = 1 000 kg."
+            texte: "1 kg = 1 000 g et 1 t = 1 000 kg."
           },
           {
             type: "tableau",
@@ -52,7 +52,7 @@ enregistrerChapitres("5e", "sp", [
           },
           {
             type: "remarque",
-            contenu: "Le symbole du kilogramme est kg, en lettres minuscules. On écrit par exemple 5 kg, et non 5 kgs."
+            texte: "Le symbole du kilogramme est kg, en lettres minuscules. On écrit par exemple 5 kg, et non 5 kgs."
           }
         ]
       },
@@ -62,7 +62,7 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "texte",
-            contenu: "Convertir une masse, c’est l’exprimer dans une autre unité sans changer la masse elle-même."
+            texte: "Convertir une masse, c’est l’exprimer dans une autre unité sans changer la masse elle-même."
           },
           {
             type: "tableau",
@@ -73,23 +73,23 @@ enregistrerChapitres("5e", "sp", [
           },
           {
             type: "regle",
-            contenu: "Dans ce tableau, chaque déplacement d’une colonne vers la droite multiplie le nombre par 10. Chaque déplacement d’une colonne vers la gauche le divise par 10."
+            texte: "Dans ce tableau, chaque déplacement d’une colonne vers la droite multiplie le nombre par 10. Chaque déplacement d’une colonne vers la gauche le divise par 10."
           },
           {
             type: "methode",
-            contenu: "Pour passer des kilogrammes aux grammes, on se déplace de trois colonnes vers la droite : on multiplie donc par 1 000. Pour passer des grammes aux kilogrammes, on divise par 1 000."
+            texte: "Pour passer des kilogrammes aux grammes, on se déplace de trois colonnes vers la droite : on multiplie donc par 1 000. Pour passer des grammes aux kilogrammes, on divise par 1 000."
           },
           {
             type: "exemple",
-            contenu: "2,5 kg = 2,5 × 1 000 = 2 500 g. Inversement, 750 g = 750 ÷ 1 000 = 0,75 kg."
+            texte: "2,5 kg = 2,5 × 1 000 = 2 500 g. Inversement, 750 g = 750 ÷ 1 000 = 0,75 kg."
           },
           {
             type: "exemple",
-            contenu: "3 000 mg = 3 g, car 1 g = 1 000 mg."
+            texte: "3 000 mg = 3 g, car 1 g = 1 000 mg."
           },
           {
             type: "remarque",
-            contenu: "Pour comparer ou additionner des masses, il est plus facile de les exprimer d’abord dans la même unité."
+            texte: "Pour comparer ou additionner des masses, il est plus facile de les exprimer d’abord dans la même unité."
           }
         ]
       },
@@ -99,27 +99,27 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "texte",
-            contenu: "Il existe plusieurs types de balances. Une balance électronique affiche directement une valeur. Une balance à deux plateaux permet de comparer des masses."
+            texte: "Il existe plusieurs types de balances. Une balance électronique affiche directement une valeur. Une balance à deux plateaux permet de comparer des masses."
           },
           {
             type: "methode",
-            contenu: "Avec une balance électronique : 1. Placer la balance sur une surface stable. 2. L’allumer et vérifier qu’elle indique zéro. 3. Poser l’objet sur le plateau. 4. Attendre que l’affichage se stabilise, puis lire la valeur et son unité."
+            texte: "Avec une balance électronique :\n1. Placer la balance sur une surface stable.\n2. L’allumer et vérifier qu’elle indique zéro.\n3. Poser l’objet sur le plateau.\n4. Attendre que l’affichage se stabilise, puis lire la valeur et son unité."
           },
           {
             type: "exemple",
-            contenu: "Si la balance affiche 425 g lorsqu’on y place une mangue, la masse de la mangue est de 425 g."
+            texte: "Si la balance affiche 425 g lorsqu’on y place une mangue, la masse de la mangue est de 425 g."
           },
           {
             type: "texte",
-            contenu: "Avec une balance à deux plateaux, on place l’objet sur un plateau et des masses marquées sur l’autre. À l’équilibre, la masse de l’objet est égale à la somme des masses marquées."
+            texte: "Avec une balance à deux plateaux, on place l’objet sur un plateau et des masses marquées sur l’autre. À l’équilibre, la masse de l’objet est égale à la somme des masses marquées."
           },
           {
             type: "exemple",
-            contenu: "Une balance est en équilibre lorsque l’objet est sur un plateau et que des masses de 200 g, 50 g et 20 g sont sur l’autre. La masse de l’objet est : 200 + 50 + 20 = 270 g."
+            texte: "Une balance est en équilibre lorsque l’objet est sur un plateau et que des masses de 200 g, 50 g et 20 g sont sur l’autre. La masse de l’objet est : 200 + 50 + 20 = 270 g."
           },
           {
             type: "remarque",
-            contenu: "Avant la mesure, la balance à deux plateaux doit être correctement réglée. Pendant la mesure, les plateaux doivent être libres de bouger."
+            texte: "Avant la mesure, la balance à deux plateaux doit être correctement réglée. Pendant la mesure, les plateaux doivent être libres de bouger."
           }
         ]
       },
@@ -129,27 +129,27 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "texte",
-            contenu: "On ne peut pas poser directement un liquide sur une balance : il faut utiliser un récipient. La balance mesure alors la masse du récipient et du liquide ensemble."
+            texte: "On ne peut pas poser directement un liquide sur une balance : il faut utiliser un récipient. La balance mesure alors la masse du récipient et du liquide ensemble."
           },
           {
             type: "methode",
-            contenu: "Sans fonction tare : 1. Mesurer la masse du récipient vide. 2. Verser le liquide dans le récipient. 3. Mesurer la masse du récipient contenant le liquide. 4. Soustraire la masse du récipient vide de la masse totale."
+            texte: "Sans fonction tare :\n1. Mesurer la masse du récipient vide.\n2. Verser le liquide dans le récipient.\n3. Mesurer la masse du récipient contenant le liquide.\n4. Soustraire la masse du récipient vide de la masse totale."
           },
           {
             type: "regle",
-            contenu: "Masse du liquide = masse du récipient avec le liquide − masse du récipient vide."
+            texte: "Masse du liquide = masse du récipient avec le liquide − masse du récipient vide."
           },
           {
             type: "exemple",
-            contenu: "Un verre vide a une masse de 150 g. Avec de l’eau, sa masse est de 350 g. La masse de l’eau est donc : 350 − 150 = 200 g."
+            texte: "Un verre vide a une masse de 150 g. Avec de l’eau, sa masse est de 350 g. La masse de l’eau est donc : 350 − 150 = 200 g."
           },
           {
             type: "methode",
-            contenu: "Avec la fonction tare d’une balance électronique : placer le récipient vide sur la balance, appuyer sur la touche de tare pour remettre l’affichage à zéro, puis verser le liquide. La valeur affichée donne alors directement la masse du liquide."
+            texte: "Avec la fonction tare d’une balance électronique : placer le récipient vide sur la balance, appuyer sur la touche de tare pour remettre l’affichage à zéro, puis verser le liquide. La valeur affichée donne alors directement la masse du liquide."
           },
           {
             type: "remarque",
-            contenu: "La tare ne supprime pas la masse du récipient : elle permet simplement à la balance de ne pas la compter dans la valeur affichée."
+            texte: "La tare ne supprime pas la masse du récipient : elle permet simplement à la balance de ne pas la compter dans la valeur affichée."
           }
         ]
       },
@@ -159,15 +159,15 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "texte",
-            contenu: "Dans le langage courant, on dit souvent « peser » pour parler de la masse. En sciences physiques, la masse et le poids sont deux grandeurs différentes."
+            texte: "Dans le langage courant, on dit souvent « peser » pour parler de la masse. En sciences physiques, la masse et le poids sont deux grandeurs différentes."
           },
           {
             type: "definition",
-            contenu: "La masse se mesure avec une balance et s’exprime notamment en kilogrammes. Le poids est une force due à l’attraction d’un astre ; il se mesure avec un dynamomètre et s’exprime en newtons, de symbole N."
+            texte: "La masse se mesure avec une balance et s’exprime notamment en kilogrammes. Le poids est une force due à l’attraction d’un astre ; il se mesure avec un dynamomètre et s’exprime en newtons, de symbole N."
           },
           {
             type: "exemple",
-            contenu: "Un objet transporté de la Terre à la Lune conserve la même masse, mais son poids change, car l’attraction de la Lune est différente de celle de la Terre."
+            texte: "Un objet transporté de la Terre à la Lune conserve la même masse, mais son poids change, car l’attraction de la Lune est différente de celle de la Terre."
           }
         ]
       }
@@ -196,13 +196,13 @@ enregistrerChapitres("5e", "sp", [
         niveau: 2,
         points: 2,
         enonce: "Convertis en grammes : a) 3 kg ; b) 1,5 kg.",
-        correction: "Pour passer des kilogrammes aux grammes, on multiplie par 1 000. a) 3 kg = 3 000 g. b) 1,5 kg = 1 500 g."
+        correction: "Pour passer des kilogrammes aux grammes, on multiplie par 1 000.\na) 3 kg = 3 000 g.\nb) 1,5 kg = 1 500 g."
       },
       {
         niveau: 2,
         points: 2,
         enonce: "Convertis en kilogrammes : a) 2 000 g ; b) 450 g.",
-        correction: "Pour passer des grammes aux kilogrammes, on divise par 1 000. a) 2 000 g = 2 kg. b) 450 g = 0,45 kg."
+        correction: "Pour passer des grammes aux kilogrammes, on divise par 1 000.\na) 2 000 g = 2 kg.\nb) 450 g = 0,45 kg."
       },
       {
         niveau: 2,
@@ -220,19 +220,19 @@ enregistrerChapitres("5e", "sp", [
         niveau: 3,
         points: 2,
         enonce: "Un paquet de riz a une masse de 2 kg et un autre a une masse de 750 g. Quelle est leur masse totale en grammes ?",
-        correction: "On convertit d’abord 2 kg en grammes : 2 kg = 2 000 g. La masse totale est donc 2 000 + 750 = 2 750 g."
+        correction: "On convertit d’abord 2 kg en grammes : 2 kg = 2 000 g.\nLa masse totale est donc 2 000 + 750 = 2 750 g."
       },
       {
         niveau: 3,
         points: 2,
         enonce: "Une marchande possède 5 kg de farine. Elle vend 1 500 g. Quelle masse de farine lui reste-t-il, en kilogrammes ?",
-        correction: "1 500 g = 1,5 kg. Il lui reste donc 5 − 1,5 = 3,5 kg de farine."
+        correction: "1 500 g = 1,5 kg.\nIl lui reste donc 5 − 1,5 = 3,5 kg de farine."
       },
       {
         niveau: 4,
         points: 3,
         enonce: "Une bouteille vide a une masse de 250 g. Remplie d’huile, elle a une masse de 1,05 kg. Calcule la masse de l’huile en grammes, puis en kilogrammes.",
-        correction: "On exprime d’abord les deux masses dans la même unité : 1,05 kg = 1 050 g. Masse de l’huile = 1 050 − 250 = 800 g. En kilogrammes : 800 g = 0,8 kg."
+        correction: "On exprime d’abord les deux masses dans la même unité : 1,05 kg = 1 050 g.\nMasse de l’huile = 1 050 − 250 = 800 g.\nEn kilogrammes : 800 g = 0,8 kg."
       },
       {
         niveau: 4,
