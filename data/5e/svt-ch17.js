@@ -261,4 +261,75 @@ enregistrerChapitres("5e", "svt", [
       {
         niveau: 2,
         points: 3,
-        enonce: "Quelle 
+        enonce: "Quelle est la différence entre faune et flore ?",
+        correction: "La faune désigne les espèces animales d'un milieu ou d'une région ; la flore désigne les espèces végétales."
+      },
+      {
+        niveau: 2,
+        points: 3,
+        enonce: "Où se trouve l'épicentre par rapport au foyer d'un séisme ?",
+        correction: "L'épicentre est à la surface de la Terre, à la verticale du foyer."
+      },
+      {
+        niveau: 3,
+        points: 4,
+        enonce: "Explique la différence entre digestion et absorption intestinale.",
+        correction: "La digestion transforme certains constituants des aliments en substances plus simples. L'absorption est le passage des nutriments à travers la paroi intestinale vers le milieu intérieur."
+      },
+      {
+        niveau: 3,
+        points: 4,
+        enonce: "Quelle différence existe-t-il entre un vaccin et un sérum contenant des anticorps ?",
+        correction: "Le vaccin prépare les défenses du corps et peut donner une protection durable. Le sérum apporte des anticorps déjà formés ; son action peut être rapide, mais elle est généralement temporaire."
+      },
+      {
+        niveau: 3,
+        points: 4,
+        enonce: "Remets dans l'ordre : grenouille, plant de riz, criquet. Le criquet mange le riz et la grenouille mange le criquet.",
+        correction: "Plant de riz → criquet → grenouille. Chaque flèche signifie « est mangé par »."
+      },
+      {
+        niveau: 3,
+        points: 4,
+        enonce: "Explique la différence entre magnitude et intensité d'un séisme.",
+        correction: "La magnitude indique la taille du séisme. L'intensité décrit les effets et les secousses observés en un lieu ; elle peut varier selon le lieu."
+      },
+      {
+        niveau: 3,
+        points: 4,
+        enonce: "Remets dans l'ordre, de la surface vers le centre : noyau interne, croûte, noyau externe, manteau.",
+        correction: "Croûte → manteau → noyau externe → noyau interne."
+      },
+      {
+        niveau: 4,
+        points: 5,
+        enonce: "Soa mange du riz. Explique ce que devient l'amidon du riz et comment le glucose obtenu peut être utilisé par son corps.",
+        correction: "Pendant la digestion, l'amidon est transformé notamment en glucose. Le glucose traverse la paroi de l'intestin grêle et passe dans le sang. Il est transporté vers les organes, qui peuvent l'utiliser pour obtenir de l'énergie."
+      },
+      {
+        niveau: 4,
+        points: 5,
+        enonce: "Une personne boit de l'eau contaminée par un microbe pathogène. Indique la voie de transmission, la porte d'entrée et une action de prévention.",
+        correction: "La voie de transmission est l'eau contaminée et la porte d'entrée est la bouche. Pour prévenir ce risque, il faut boire de l'eau potable ou traiter l'eau avant de la boire."
+      },
+      {
+        niveau: 4,
+        points: 5,
+        enonce: "Une forêt est détruite. Explique deux conséquences possibles sur les êtres vivants et propose une action de protection.",
+        correction: "Des animaux peuvent perdre leurs abris et leur nourriture ; certaines populations peuvent diminuer. Protéger les habitats restants ou restaurer les zones dégradées avec des espèces locales adaptées peut aider."
+      },
+      {
+        niveau: 4,
+        points: 5,
+        enonce: "Explique comment le rapprochement de deux régions continentales peut former une chaîne de montagnes.",
+        correction: "Les roches sont comprimées, se déforment et peuvent se casser ou se déplacer. La région peut s'épaissir et se soulever progressivement, formant une chaîne de montagnes."
+      },
+      {
+        niveau: 4,
+        points: 5,
+        enonce: "Les ondes S ne traversent pas le noyau externe. Quel indice cela donne-t-il sur son état ?",
+        correction: "Les ondes S ne se propagent pas dans les liquides. Leur absence à travers le noyau externe est donc un indice que celui-ci est liquide."
+      }
+    ]
+  }
+]);
