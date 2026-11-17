@@ -1,7 +1,7 @@
 enregistrerChapitres("5e", "sp", [
   {
     id: 2,
-    titre: "Le volume et sa mesure",
+    titre: "Chapitre 2 : Le volume et sa mesure",
     premium: false,
     guide: false,
 
@@ -12,15 +12,15 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "definition",
-            contenu: "Le volume est la grandeur qui indique l’espace occupé par un objet ou une substance."
+            texte: "Le volume est la grandeur qui indique l’espace occupé par un objet ou une substance."
           },
           {
             type: "exemple",
-            contenu: "Une bouteille peut contenir un volume d’eau de 1 litre. Un morceau de bois occupe lui aussi un certain volume."
+            texte: "Une bouteille peut contenir un volume d’eau de 1 litre. Un morceau de bois occupe lui aussi un certain volume."
           },
           {
             type: "remarque",
-            contenu: "La masse et le volume sont deux grandeurs différentes : la masse se mesure avec une balance, tandis que le volume peut se mesurer avec un récipient gradué ou se calculer à partir de dimensions."
+            texte: "La masse et le volume sont deux grandeurs différentes : la masse se mesure avec une balance, tandis que le volume peut se mesurer avec un récipient gradué ou se calculer à partir de dimensions."
           }
         ]
       },
@@ -30,7 +30,7 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "texte",
-            contenu: "L’unité de volume du Système international est le mètre cube, de symbole m³. Pour les liquides, on utilise souvent le litre, de symbole L, et ses sous-multiples."
+            texte: "L’unité de volume du Système international est le mètre cube, de symbole m³. Pour les liquides, on utilise souvent le litre, de symbole L, et ses sous-multiples."
           },
           {
             type: "tableau",
@@ -46,7 +46,7 @@ enregistrerChapitres("5e", "sp", [
           },
           {
             type: "remarque",
-            contenu: "Le litre sert souvent à exprimer la capacité d’un récipient, c’est-à-dire le volume qu’il peut contenir. Il permet aussi d’exprimer le volume d’un liquide."
+            texte: "Le litre sert souvent à exprimer la capacité d’un récipient, c’est-à-dire le volume qu’il peut contenir. Il permet aussi d’exprimer le volume d’un liquide."
           }
         ]
       },
@@ -56,7 +56,7 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "texte",
-            contenu: "Pour les unités de capacité, chaque déplacement d’une colonne vers la droite multiplie le nombre par 10 ; chaque déplacement vers la gauche le divise par 10."
+            texte: "Pour les unités de capacité, chaque déplacement d’une colonne vers la droite multiplie le nombre par 10 ; chaque déplacement vers la gauche le divise par 10."
           },
           {
             type: "tableau",
@@ -67,23 +67,23 @@ enregistrerChapitres("5e", "sp", [
           },
           {
             type: "exemple",
-            contenu: "De L à mL, on avance de trois colonnes : 2,5 L = 2,5 × 1 000 = 2 500 mL."
+            texte: "De L à mL, on avance de trois colonnes : 2,5 L = 2,5 × 1 000 = 2 500 mL."
           },
           {
             type: "exemple",
-            contenu: "De mL à L, on recule de trois colonnes : 750 mL = 750 ÷ 1 000 = 0,75 L."
+            texte: "De mL à L, on recule de trois colonnes : 750 mL = 750 ÷ 1 000 = 0,75 L."
           },
           {
             type: "regle",
-            contenu: "Pour les unités cubiques, le passage d’une unité à la suivante multiplie ou divise par 1 000 : 1 m³ = 1 000 dm³ et 1 dm³ = 1 000 cm³."
+            texte: "Pour les unités cubiques, le passage d’une unité à la suivante multiplie ou divise par 1 000 : 1 m³ = 1 000 dm³ et 1 dm³ = 1 000 cm³."
           },
           {
             type: "exemple",
-            contenu: "3 dm³ = 3 L = 3 000 mL = 3 000 cm³."
+            texte: "3 dm³ = 3 L = 3 000 mL = 3 000 cm³."
           },
           {
             type: "remarque",
-            contenu: "Attention : 1 dm = 10 cm, mais 1 dm³ = 1 000 cm³. Le volume tient compte de trois dimensions."
+            texte: "Attention : 1 dm = 10 cm, mais 1 dm³ = 1 000 cm³. Le volume tient compte de trois dimensions."
           }
         ]
       },
@@ -93,15 +93,15 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "texte",
-            contenu: "On peut mesurer le volume d’un liquide avec une éprouvette graduée. Ses graduations permettent de lire le volume du liquide qu’elle contient."
+            texte: "On peut mesurer le volume d’un liquide avec une éprouvette graduée. Ses graduations permettent de lire le volume du liquide qu’elle contient."
           },
           {
             type: "methode",
-            contenu: "1. Choisir une éprouvette adaptée au volume à mesurer. 2. La poser verticalement sur une surface plane. 3. Verser le liquide. 4. Repérer la valeur des graduations. 5. Placer l’œil à la hauteur de la surface du liquide et lire le volume."
+            texte: "1. Choisir une éprouvette adaptée au volume à mesurer.\n2. La poser verticalement sur une surface plane.\n3. Verser le liquide.\n4. Repérer la valeur des graduations.\n5. Placer l’œil à la hauteur de la surface du liquide et lire le volume."
           },
           {
             type: "texte",
-            contenu: "Dans une éprouvette en verre, la surface de l’eau est généralement courbée : cette surface est appelée ménisque. Pour l’eau, on lit la graduation au niveau du bas du ménisque."
+            texte: "Dans une éprouvette en verre, la surface de l’eau est généralement courbée : cette surface est appelée ménisque. Pour l’eau, on lit la graduation au niveau du bas du ménisque."
           },
           {
             type: "schema",
@@ -126,7 +126,7 @@ enregistrerChapitres("5e", "sp", [
           },
           {
             type: "remarque",
-            contenu: "Lire au-dessus ou en dessous du niveau du liquide peut provoquer une erreur de lecture."
+            texte: "Lire au-dessus ou en dessous du niveau du liquide peut provoquer une erreur de lecture."
           }
         ]
       },
@@ -136,39 +136,39 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "texte",
-            contenu: "La méthode dépend de la forme du solide. Pour certains solides de forme régulière, on peut mesurer leurs dimensions et calculer leur volume."
+            texte: "La méthode dépend de la forme du solide. Pour certains solides de forme régulière, on peut mesurer leurs dimensions et calculer leur volume."
           },
           {
             type: "regle",
-            contenu: "Pour un pavé droit : volume = longueur × largeur × hauteur. Les trois dimensions doivent être exprimées dans la même unité."
+            texte: "Pour un pavé droit : volume = longueur × largeur × hauteur. Les trois dimensions doivent être exprimées dans la même unité."
           },
           {
             type: "exemple",
-            contenu: "Un pavé droit mesure 5 cm de longueur, 3 cm de largeur et 2 cm de hauteur. Son volume est : 5 × 3 × 2 = 30 cm³."
+            texte: "Un pavé droit mesure 5 cm de longueur, 3 cm de largeur et 2 cm de hauteur. Son volume est : 5 × 3 × 2 = 30 cm³."
           },
           {
             type: "regle",
-            contenu: "Pour un cube : volume = côté × côté × côté."
+            texte: "Pour un cube : volume = côté × côté × côté."
           },
           {
             type: "exemple",
-            contenu: "Un cube de 4 cm de côté a un volume de 4 × 4 × 4 = 64 cm³."
+            texte: "Un cube de 4 cm de côté a un volume de 4 × 4 × 4 = 64 cm³."
           },
           {
             type: "texte",
-            contenu: "Pour un petit solide de forme irrégulière qui coule, ne se dissout pas et ne réagit pas avec l’eau, on peut mesurer le volume d’eau déplacée."
+            texte: "Pour un petit solide de forme irrégulière qui coule, ne se dissout pas et ne réagit pas avec l’eau, on peut mesurer le volume d’eau déplacée."
           },
           {
             type: "methode",
-            contenu: "1. Verser de l’eau dans une éprouvette et lire le volume initial V₁. 2. Immerger complètement et doucement le solide, sans faire déborder l’eau et sans emprisonner de bulles d’air. 3. Lire le nouveau volume V₂. 4. Calculer le volume du solide : V = V₂ − V₁."
+            texte: "1. Verser de l’eau dans une éprouvette et lire le volume initial V₁.\n2. Immerger complètement et doucement le solide, sans faire déborder l’eau et sans emprisonner de bulles d’air.\n3. Lire le nouveau volume V₂.\n4. Calculer le volume du solide : V = V₂ − V₁."
           },
           {
             type: "exemple",
-            contenu: "Avant immersion, l’éprouvette contient 40 mL d’eau. Après immersion complète du solide, elle indique 55 mL. Le volume du solide est : 55 − 40 = 15 mL, soit 15 cm³."
+            texte: "Avant immersion, l’éprouvette contient 40 mL d’eau. Après immersion complète du solide, elle indique 55 mL. Le volume du solide est : 55 − 40 = 15 mL, soit 15 cm³."
           },
           {
             type: "remarque",
-            contenu: "Le volume indiqué après immersion correspond à l’eau et au solide immergé. La différence entre les deux lectures donne le volume d’eau déplacée, égal au volume du solide entièrement immergé."
+            texte: "Le volume indiqué après immersion correspond à l’eau et au solide immergé. La différence entre les deux lectures donne le volume d’eau déplacée, égal au volume du solide entièrement immergé."
           }
         ]
       },
@@ -186,7 +186,7 @@ enregistrerChapitres("5e", "sp", [
           },
           {
             type: "remarque",
-            contenu: "Deux objets de même volume peuvent avoir des masses différentes. Au chapitre suivant, nous verrons comment relier la masse et le volume grâce à la masse volumique."
+            texte: "Deux objets de même volume peuvent avoir des masses différentes. Au chapitre suivant, nous verrons comment relier la masse et le volume grâce à la masse volumique."
           }
         ]
       }
@@ -203,7 +203,7 @@ enregistrerChapitres("5e", "sp", [
         niveau: 1,
         points: 2,
         enonce: "Complète : a) 1 L = … mL ; b) 1 mL = … cm³.",
-        correction: "a) 1 L = 1 000 mL. b) 1 mL = 1 cm³."
+        correction: "a) 1 L = 1 000 mL.\nb) 1 mL = 1 cm³."
       },
       {
         niveau: 1,
@@ -215,13 +215,13 @@ enregistrerChapitres("5e", "sp", [
         niveau: 2,
         points: 2,
         enonce: "Convertis en millilitres : a) 2 L ; b) 0,5 L.",
-        correction: "On multiplie le nombre de litres par 1 000. a) 2 L = 2 000 mL. b) 0,5 L = 500 mL."
+        correction: "On multiplie le nombre de litres par 1 000.\na) 2 L = 2 000 mL.\nb) 0,5 L = 500 mL."
       },
       {
         niveau: 2,
         points: 2,
         enonce: "Convertis en litres : a) 1 500 mL ; b) 250 mL.",
-        correction: "On divise le nombre de millilitres par 1 000. a) 1 500 mL = 1,5 L. b) 250 mL = 0,25 L."
+        correction: "On divise le nombre de millilitres par 1 000.\na) 1 500 mL = 1,5 L.\nb) 250 mL = 0,25 L."
       },
       {
         niveau: 2,
@@ -245,19 +245,19 @@ enregistrerChapitres("5e", "sp", [
         niveau: 3,
         points: 2,
         enonce: "Une éprouvette contient 35 mL d’eau. Après immersion complète d’un caillou, le niveau indique 52 mL. Quel est le volume du caillou ?",
-        correction: "V = volume final − volume initial = 52 − 35 = 17 mL. Comme 1 mL = 1 cm³, le volume du caillou est aussi de 17 cm³."
+        correction: "V = volume final − volume initial = 52 − 35 = 17 mL.\nComme 1 mL = 1 cm³, le volume du caillou est aussi de 17 cm³."
       },
       {
         niveau: 3,
         points: 2,
         enonce: "Une bouteille contient 1,5 L d’eau. On verse 400 mL dans un verre. Quel volume reste-t-il dans la bouteille, en mL ?",
-        correction: "1,5 L = 1 500 mL. Il reste donc 1 500 − 400 = 1 100 mL."
+        correction: "1,5 L = 1 500 mL.\nIl reste donc 1 500 − 400 = 1 100 mL."
       },
       {
         niveau: 4,
         points: 3,
         enonce: "Une boîte en forme de pavé droit mesure 10 cm de longueur, 5 cm de largeur et 4 cm de hauteur. Calcule son volume en cm³, puis en mL.",
-        correction: "V = 10 × 5 × 4 = 200 cm³. Comme 1 cm³ = 1 mL, le volume est aussi de 200 mL."
+        correction: "V = 10 × 5 × 4 = 200 cm³.\nComme 1 cm³ = 1 mL, le volume est aussi de 200 mL."
       },
       {
         niveau: 4,
