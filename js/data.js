@@ -1,4 +1,4 @@
-var VERSION = 'v4.01';
+var VERSION = 'v4.02';
 
 var CLASSES = [
   { id: '6e', nom: 'Sixieme', dispo: true },
@@ -289,8 +289,28 @@ var MATIERES = {
       nom: 'Sciences Physiques',
       court: 'SP',
       icone: '⚗️',
-      dispo: false,
-      fichiers: []
+      dispo: true,
+      fichiers: [
+        'data/4e/sp-ch1.js',
+        'data/4e/sp-ch2.js',
+        'data/4e/sp-ch3.js',
+        'data/4e/sp-ch4.js',
+        'data/4e/sp-ch5.js',
+        'data/4e/sp-ch6.js',
+        'data/4e/sp-ch7.js',
+        'data/4e/sp-ch8.js',
+        'data/4e/sp-ch9.js',
+        'data/4e/sp-ch10.js',
+        'data/4e/sp-ch11.js',
+        'data/4e/sp-ch12.js',
+        'data/4e/sp-ch13.js',
+        'data/4e/sp-ch14.js',
+        'data/4e/sp-ch15.js',
+        'data/4e/sp-ch16.js',
+        'data/4e/sp-ch17.js',
+        'data/4e/sp-ch18.js',
+        'data/4e/sp-ch19.js'
+      ]
     },
     {
       id: 'svt',
