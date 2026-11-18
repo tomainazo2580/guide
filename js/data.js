@@ -361,6 +361,7 @@ var MATIERES = {
       fichiers: []
     }
   ]
+];
 
 var CONTENU = {};
 
