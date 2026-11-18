@@ -1,7 +1,7 @@
 enregistrerChapitres("5e", "sp", [
   {
     id: 8,
-    titre: "Les circuits en série et en dérivation",
+    titre: "Chapitre 8 : Les circuits en série et en dérivation",
     premium: false,
     guide: false,
 
@@ -12,19 +12,19 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "definition",
-            contenu: "Dans un circuit en série, les dipôles sont placés les uns à la suite des autres dans une seule boucle."
+            texte: "Dans un circuit en série, les dipôles sont placés les uns à la suite des autres dans une seule boucle."
           },
           {
             type: "texte",
-            contenu: "Le courant traverse successivement les différents dipôles de la boucle."
+            texte: "Le courant traverse successivement les différents dipôles de la boucle."
           },
           {
             type: "exemple",
-            contenu: "Une pile, un interrupteur fermé et deux lampes reliés les uns à la suite des autres forment un circuit en série."
+            texte: "Une pile, un interrupteur fermé et deux lampes reliés les uns à la suite des autres forment un circuit en série."
           },
           {
             type: "remarque",
-            contenu: "Si l’on ouvre le circuit en un point, le courant ne circule plus dans la boucle : toutes les lampes du circuit en série s’éteignent."
+            texte: "Si l’on ouvre le circuit en un point, le courant ne circule plus dans la boucle : toutes les lampes du circuit en série s’éteignent."
           }
         ]
       },
@@ -55,11 +55,11 @@ enregistrerChapitres("5e", "sp", [
           },
           {
             type: "methode",
-            contenu: "Pour reconnaître une association en série, suivre les connexions : les dipôles sont traversés successivement dans une même branche, sans nœud entre eux."
+            texte: "Pour reconnaître une association en série, suivre les connexions : les dipôles sont traversés successivement dans une même branche, sans nœud entre eux."
           },
           {
             type: "remarque",
-            contenu: "Dans une boucle en série, si une lampe est retirée ou si son filament est coupé, la boucle est ouverte et les autres lampes s’éteignent."
+            texte: "Dans une boucle en série, si une lampe est retirée ou si son filament est coupé, la boucle est ouverte et les autres lampes s’éteignent."
           }
         ]
       },
@@ -69,19 +69,19 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "definition",
-            contenu: "Un nœud est un point d’un circuit où se rejoignent au moins trois conducteurs ou branches."
+            texte: "Un nœud est un point d’un circuit où se rejoignent au moins trois conducteurs ou branches."
           },
           {
             type: "definition",
-            contenu: "Une branche est une partie du circuit comprise entre deux nœuds successifs."
+            texte: "Une branche est une partie du circuit comprise entre deux nœuds successifs."
           },
           {
             type: "texte",
-            contenu: "Dans un circuit comportant plusieurs branches, le courant peut emprunter différents chemins entre deux nœuds."
+            texte: "Dans un circuit comportant plusieurs branches, le courant peut emprunter différents chemins entre deux nœuds."
           },
           {
             type: "remarque",
-            contenu: "Sur un schéma, un point marqué à une jonction indique que les fils sont reliés électriquement."
+            texte: "Sur un schéma, un point marqué à une jonction indique que les fils sont reliés électriquement."
           }
         ]
       },
@@ -91,11 +91,11 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "definition",
-            contenu: "Des dipôles sont en dérivation lorsqu’ils sont reliés aux mêmes deux points du circuit. Ils se trouvent alors sur des branches différentes."
+            texte: "Des dipôles sont en dérivation lorsqu’ils sont reliés aux mêmes deux points du circuit. Ils se trouvent alors sur des branches différentes."
           },
           {
             type: "texte",
-            contenu: "Dans un circuit comportant deux lampes en dérivation, chaque lampe possède sa propre branche entre les deux nœuds."
+            texte: "Dans un circuit comportant deux lampes en dérivation, chaque lampe possède sa propre branche entre les deux nœuds."
           },
           {
             type: "schema",
@@ -124,7 +124,7 @@ enregistrerChapitres("5e", "sp", [
           },
           {
             type: "remarque",
-            contenu: "Dans ce montage, si une lampe est retirée et que seule sa branche est ouverte, l’autre lampe peut rester allumée : sa branche possède encore un chemin fermé avec la pile."
+            texte: "Dans ce montage, si une lampe est retirée et que seule sa branche est ouverte, l’autre lampe peut rester allumée : sa branche possède encore un chemin fermé avec la pile."
           }
         ]
       },
@@ -143,7 +143,7 @@ enregistrerChapitres("5e", "sp", [
           },
           {
             type: "remarque",
-            contenu: "L’éclat des lampes dépend notamment de la pile et des caractéristiques des lampes. On ne peut pas comparer tous les montages sans préciser ces conditions."
+            texte: "L’éclat des lampes dépend notamment de la pile et des caractéristiques des lampes. On ne peut pas comparer tous les montages sans préciser ces conditions."
           }
         ]
       },
@@ -153,19 +153,19 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "texte",
-            contenu: "Dans un circuit en dérivation, l’effet d’un interrupteur dépend de l’endroit où il est placé."
+            texte: "Dans un circuit en dérivation, l’effet d’un interrupteur dépend de l’endroit où il est placé."
           },
           {
             type: "exemple",
-            contenu: "Un interrupteur placé sur une branche contenant une lampe peut commander cette lampe sans nécessairement éteindre celle d’une autre branche."
+            texte: "Un interrupteur placé sur une branche contenant une lampe peut commander cette lampe sans nécessairement éteindre celle d’une autre branche."
           },
           {
             type: "exemple",
-            contenu: "Un interrupteur placé dans la branche qui contient la pile peut ouvrir le circuit de toutes les lampes et les éteindre."
+            texte: "Un interrupteur placé dans la branche qui contient la pile peut ouvrir le circuit de toutes les lampes et les éteindre."
           },
           {
             type: "remarque",
-            contenu: "Pour prévoir l’effet d’un interrupteur, il faut regarder quels chemins fermés restent entre les bornes de la pile."
+            texte: "Pour prévoir l’effet d’un interrupteur, il faut regarder quels chemins fermés restent entre les bornes de la pile."
           }
         ]
       },
@@ -175,19 +175,19 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "definition",
-            contenu: "Un circuit mixte comporte à la fois des associations en série et des associations en dérivation."
+            texte: "Un circuit mixte comporte à la fois des associations en série et des associations en dérivation."
           },
           {
             type: "exemple",
-            contenu: "Une lampe L1 peut être en série avec un ensemble formé de deux lampes L2 et L3 en dérivation. Le courant traverse L1 avant de se répartir dans les branches de L2 et L3."
+            texte: "Une lampe L1 peut être en série avec un ensemble formé de deux lampes L2 et L3 en dérivation. Le courant traverse L1 avant de se répartir dans les branches de L2 et L3."
           },
           {
             type: "methode",
-            contenu: "Pour analyser un circuit mixte : 1. Repérer les nœuds. 2. Identifier les branches entre ces nœuds. 3. Chercher les dipôles reliés aux mêmes deux points : ils sont en dérivation. 4. Repérer les dipôles placés successivement dans une même branche, sans nœud entre eux."
+            texte: "Pour analyser un circuit mixte :\n1. Repérer les nœuds.\n2. Identifier les branches entre ces nœuds.\n3. Chercher les dipôles reliés aux mêmes deux points : ils sont en dérivation.\n4. Repérer les dipôles placés successivement dans une même branche, sans nœud entre eux."
           },
           {
             type: "remarque",
-            contenu: "Pour les expériences, utilise uniquement une pile adaptée. Ne relie jamais directement ses deux bornes par un fil et ne réalise jamais de montage sur une prise électrique."
+            texte: "Pour les expériences, utilise uniquement une pile adaptée. Ne relie jamais directement ses deux bornes par un fil et ne réalise jamais de montage sur une prise électrique."
           }
         ]
       }
