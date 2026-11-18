@@ -1,7 +1,7 @@
 enregistrerChapitres("5e", "sp", [
   {
     id: 7,
-    titre: "Le circuit électrique et ses schémas",
+    titre: "Chapitre 7 : Le circuit électrique et ses schémas",
     premium: false,
     guide: false,
 
@@ -12,19 +12,19 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "definition",
-            contenu: "Un circuit électrique est un ensemble de composants électriques reliés entre eux par des conducteurs."
+            texte: "Un circuit électrique est un ensemble de composants électriques reliés entre eux par des conducteurs."
           },
           {
             type: "texte",
-            contenu: "Un circuit simple peut comprendre une pile, une lampe, un interrupteur et des fils de connexion."
+            texte: "Un circuit simple peut comprendre une pile, une lampe, un interrupteur et des fils de connexion."
           },
           {
             type: "definition",
-            contenu: "Un dipôle électrique est un composant qui possède deux bornes, comme une pile, une lampe ou un interrupteur."
+            texte: "Un dipôle électrique est un composant qui possède deux bornes, comme une pile, une lampe ou un interrupteur."
           },
           {
             type: "remarque",
-            contenu: "Pour les expériences de ce chapitre, on utilise uniquement une pile adaptée et du matériel en bon état, jamais une prise électrique."
+            texte: "Pour les expériences de ce chapitre, on utilise uniquement une pile adaptée et du matériel en bon état, jamais une prise électrique."
           }
         ]
       },
@@ -44,7 +44,7 @@ enregistrerChapitres("5e", "sp", [
           },
           {
             type: "remarque",
-            contenu: "Une lampe doit être adaptée à la pile utilisée. Une pile n’émet pas nécessairement de lumière : c’est ici la lampe qui s’allume."
+            texte: "Une lampe doit être adaptée à la pile utilisée. Une pile n’émet pas nécessairement de lumière : c’est ici la lampe qui s’allume."
           }
         ]
       },
@@ -54,19 +54,19 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "definition",
-            contenu: "Un circuit est fermé lorsque le courant dispose d’un chemin continu à travers ses composants. Il est ouvert lorsque ce chemin est interrompu."
+            texte: "Un circuit est fermé lorsque le courant dispose d’un chemin continu à travers ses composants. Il est ouvert lorsque ce chemin est interrompu."
           },
           {
             type: "texte",
-            contenu: "Dans un circuit simple avec une pile et une lampe en bon état, la lampe peut s’allumer lorsque le circuit est fermé. Si le circuit est ouvert, le courant ne circule pas dans cette boucle et la lampe est éteinte."
+            texte: "Dans un circuit simple avec une pile et une lampe en bon état, la lampe peut s’allumer lorsque le circuit est fermé. Si le circuit est ouvert, le courant ne circule pas dans cette boucle et la lampe est éteinte."
           },
           {
             type: "exemple",
-            contenu: "Si l’interrupteur est ouvert, le chemin est interrompu et la lampe est éteinte. Si on ferme l’interrupteur, le chemin devient continu et la lampe peut s’allumer."
+            texte: "Si l’interrupteur est ouvert, le chemin est interrompu et la lampe est éteinte. Si on ferme l’interrupteur, le chemin devient continu et la lampe peut s’allumer."
           },
           {
             type: "remarque",
-            contenu: "Un circuit fermé ne garantit pas à lui seul que la lampe s’allume : la pile, la lampe et les connexions doivent aussi être en bon état et adaptés les uns aux autres."
+            texte: "Un circuit fermé ne garantit pas à lui seul que la lampe s’allume : la pile, la lampe et les connexions doivent aussi être en bon état et adaptés les uns aux autres."
           }
         ]
       },
@@ -76,15 +76,15 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "texte",
-            contenu: "Pour représenter le courant dans un circuit alimenté par une pile, on utilise un sens choisi par convention."
+            texte: "Pour représenter le courant dans un circuit alimenté par une pile, on utilise un sens choisi par convention."
           },
           {
             type: "regle",
-            contenu: "À l’extérieur de la pile, le sens conventionnel du courant va de la borne positive (+) vers la borne négative (−)."
+            texte: "À l’extérieur de la pile, le sens conventionnel du courant va de la borne positive (+) vers la borne négative (−)."
           },
           {
             type: "remarque",
-            contenu: "Les flèches qui indiquent le sens du courant sur un schéma représentent ce sens conventionnel."
+            texte: "Les flèches qui indiquent le sens du courant sur un schéma représentent ce sens conventionnel."
           }
         ]
       },
@@ -94,7 +94,7 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "texte",
-            contenu: "Pour représenter un circuit électrique, on réalise un schéma avec des symboles normalisés. Les fils sont représentés par des traits."
+            texte: "Pour représenter un circuit électrique, on réalise un schéma avec des symboles normalisés. Les fils sont représentés par des traits."
           },
           {
             type: "tableau",
@@ -129,7 +129,7 @@ enregistrerChapitres("5e", "sp", [
           },
           {
             type: "methode",
-            contenu: "Pour dessiner un schéma : 1. Repérer les composants et la façon dont ils sont reliés. 2. Remplacer chaque composant par son symbole. 3. Représenter les fils par des traits, de préférence à la règle. 4. Vérifier que les connexions et l’état de l’interrupteur sont corrects."
+            texte: "Pour dessiner un schéma :\n1. Repérer les composants et la façon dont ils sont reliés.\n2. Remplacer chaque composant par son symbole.\n3. Représenter les fils par des traits, de préférence à la règle.\n4. Vérifier que les connexions et l’état de l’interrupteur sont corrects."
           }
         ]
       },
@@ -139,19 +139,19 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "definition",
-            contenu: "Un matériau conducteur permet le passage du courant électrique. Un matériau isolant s’oppose fortement au passage du courant."
+            texte: "Un matériau conducteur permet le passage du courant électrique. Un matériau isolant s’oppose fortement au passage du courant."
           },
           {
             type: "exemple",
-            contenu: "Le cuivre et l’aluminium sont des conducteurs électriques. Le plastique et le caoutchouc sont généralement des isolants."
+            texte: "Le cuivre et l’aluminium sont des conducteurs électriques. Le plastique et le caoutchouc sont généralement des isolants."
           },
           {
             type: "remarque",
-            contenu: "Les fils électriques sont souvent constitués d’un conducteur métallique entouré d’une gaine isolante."
+            texte: "Les fils électriques sont souvent constitués d’un conducteur métallique entouré d’une gaine isolante."
           },
           {
             type: "remarque",
-            contenu: "Le comportement d’un matériau dépend aussi des conditions. Par exemple, l’eau du robinet peut conduire le courant à cause des substances qu’elle contient."
+            texte: "Le comportement d’un matériau dépend aussi des conditions. Par exemple, l’eau du robinet peut conduire le courant à cause des substances qu’elle contient."
           }
         ]
       },
@@ -161,15 +161,15 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "regle",
-            contenu: "Ne jamais relier directement les deux bornes d’une pile par un fil : cela provoque un court-circuit et peut entraîner un échauffement."
+            texte: "Ne jamais relier directement les deux bornes d’une pile par un fil : cela provoque un court-circuit et peut entraîner un échauffement."
           },
           {
             type: "regle",
-            contenu: "Ne jamais réaliser de montage sur une prise électrique. Ne pas toucher un appareil électrique avec les mains mouillées ni utiliser un appareil ou un fil endommagé."
+            texte: "Ne jamais réaliser de montage sur une prise électrique. Ne pas toucher un appareil électrique avec les mains mouillées ni utiliser un appareil ou un fil endommagé."
           },
           {
             type: "remarque",
-            contenu: "Avant de modifier un montage à pile, ouvrir le circuit ou débrancher la pile. Demander l’aide d’un adulte en cas de doute."
+            texte: "Avant de modifier un montage à pile, ouvrir le circuit ou débrancher la pile. Demander l’aide d’un adulte en cas de doute."
           }
         ]
       }
