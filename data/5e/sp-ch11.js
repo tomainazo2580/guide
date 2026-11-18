@@ -1,7 +1,7 @@
 enregistrerChapitres("5e", "sp", [
   {
     id: 11,
-    titre: "Les sources et les formes d’énergie",
+    titre: "Chapitre 11 : Les sources et les formes d’énergie",
     premium: false,
     guide: false,
 
@@ -12,15 +12,15 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "texte",
-            contenu: "L’énergie intervient dans de nombreuses situations : éclairer une maison, cuire des aliments, faire rouler un véhicule ou faire fonctionner un téléphone."
+            texte: "L’énergie intervient dans de nombreuses situations : éclairer une maison, cuire des aliments, faire rouler un véhicule ou faire fonctionner un téléphone."
           },
           {
             type: "exemple",
-            contenu: "Une lampe utilise de l’énergie électrique pour produire de la lumière et de la chaleur."
+            texte: "Une lampe utilise de l’énergie électrique pour produire de la lumière et de la chaleur."
           },
           {
             type: "remarque",
-            contenu: "Dans ce chapitre, nous distinguons les sources d’énergie, d’où l’on obtient de l’énergie, et les formes sous lesquelles elle se présente."
+            texte: "Dans ce chapitre, nous distinguons les sources d’énergie, d’où l’on obtient de l’énergie, et les formes sous lesquelles elle se présente."
           }
         ]
       },
@@ -30,15 +30,15 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "definition",
-            contenu: "Une source d’énergie est une ressource ou un phénomène dont on peut tirer de l’énergie pour répondre à un besoin."
+            texte: "Une source d’énergie est une ressource ou un phénomène dont on peut tirer de l’énergie pour répondre à un besoin."
           },
           {
             type: "exemple",
-            contenu: "Le Soleil, le vent, l’eau en mouvement, le bois, le pétrole et le charbon sont des sources d’énergie."
+            texte: "Le Soleil, le vent, l’eau en mouvement, le bois, le pétrole et le charbon sont des sources d’énergie."
           },
           {
             type: "texte",
-            contenu: "Les sources d’énergie sont souvent classées en deux groupes : les sources renouvelables et les sources non renouvelables."
+            texte: "Les sources d’énergie sont souvent classées en deux groupes : les sources renouvelables et les sources non renouvelables."
           }
         ]
       },
@@ -48,7 +48,7 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "definition",
-            contenu: "Une source d’énergie renouvelable se reconstitue naturellement assez rapidement à l’échelle humaine pour être utilisée de manière durable, si elle est bien gérée."
+            texte: "Une source d’énergie renouvelable se reconstitue naturellement assez rapidement à l’échelle humaine pour être utilisée de manière durable, si elle est bien gérée."
           },
           {
             type: "tableau",
@@ -62,11 +62,11 @@ enregistrerChapitres("5e", "sp", [
           },
           {
             type: "remarque",
-            contenu: "La biomasse désigne des matières d’origine vivante, comme le bois et certains déchets végétaux. Le bois n’est renouvelable que si les arbres sont replantés ou se régénèrent suffisamment et si la ressource est bien gérée."
+            texte: "La biomasse désigne des matières d’origine vivante, comme le bois et certains déchets végétaux. Le bois n’est renouvelable que si les arbres sont replantés ou se régénèrent suffisamment et si la ressource est bien gérée."
           },
           {
             type: "remarque",
-            contenu: "Renouvelable ne signifie pas sans conséquence pour l’environnement. Toute installation et toute utilisation d’une ressource peuvent avoir des effets qu’il faut prendre en compte."
+            texte: "Renouvelable ne signifie pas sans conséquence pour l’environnement. Toute installation et toute utilisation d’une ressource peuvent avoir des effets qu’il faut prendre en compte."
           }
         ]
       },
@@ -76,19 +76,19 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "definition",
-            contenu: "Une source d’énergie non renouvelable existe en quantité limitée et ne se reconstitue pas assez rapidement à l’échelle humaine."
+            texte: "Une source d’énergie non renouvelable existe en quantité limitée et ne se reconstitue pas assez rapidement à l’échelle humaine."
           },
           {
             type: "exemple",
-            contenu: "Le pétrole, le charbon et le gaz naturel sont des sources d’énergie non renouvelables. Ils se sont formés sur de très longues périodes."
+            texte: "Le pétrole, le charbon et le gaz naturel sont des sources d’énergie non renouvelables. Ils se sont formés sur de très longues périodes."
           },
           {
             type: "texte",
-            contenu: "Le pétrole, le charbon et le gaz naturel sont appelés combustibles fossiles. Leur combustion produit notamment du dioxyde de carbone, un gaz qui contribue au changement climatique."
+            texte: "Le pétrole, le charbon et le gaz naturel sont appelés combustibles fossiles. Leur combustion produit notamment du dioxyde de carbone, un gaz qui contribue au changement climatique."
           },
           {
             type: "remarque",
-            contenu: "L’uranium, utilisé dans certaines centrales nucléaires, est aussi une ressource non renouvelable."
+            texte: "L’uranium, utilisé dans certaines centrales nucléaires, est aussi une ressource non renouvelable."
           }
         ]
       },
@@ -98,7 +98,7 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "texte",
-            contenu: "L’énergie peut se présenter sous différentes formes. Une même source peut être utilisée pour obtenir une autre forme d’énergie."
+            texte: "L’énergie peut se présenter sous différentes formes. Une même source peut être utilisée pour obtenir une autre forme d’énergie."
           },
           {
             type: "tableau",
@@ -114,11 +114,11 @@ enregistrerChapitres("5e", "sp", [
           },
           {
             type: "exemple",
-            contenu: "Dans une lampe alimentée par une pile, de l’énergie chimique de la pile est transformée et l’énergie électrique fournie à la lampe devient notamment de l’énergie lumineuse et thermique."
+            texte: "Dans une lampe alimentée par une pile, de l’énergie chimique de la pile est transformée et l’énergie électrique fournie à la lampe devient notamment de l’énergie lumineuse et thermique."
           },
           {
             type: "remarque",
-            contenu: "Une source et une forme d’énergie ne sont pas la même chose : le Soleil est une source, tandis que la lumière qu’il émet transporte de l’énergie lumineuse."
+            texte: "Une source et une forme d’énergie ne sont pas la même chose : le Soleil est une source, tandis que la lumière qu’il émet transporte de l’énergie lumineuse."
           }
         ]
       },
@@ -128,15 +128,15 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "texte",
-            contenu: "Nos choix d’utilisation de l’énergie ont des conséquences sur les ressources et sur l’environnement. On peut éviter les usages inutiles et choisir des solutions adaptées aux besoins."
+            texte: "Nos choix d’utilisation de l’énergie ont des conséquences sur les ressources et sur l’environnement. On peut éviter les usages inutiles et choisir des solutions adaptées aux besoins."
           },
           {
             type: "exemple",
-            contenu: "Éteindre une lampe lorsqu’elle n’est pas nécessaire et profiter de la lumière du jour permettent de réduire une consommation inutile d’électricité."
+            texte: "Éteindre une lampe lorsqu’elle n’est pas nécessaire et profiter de la lumière du jour permettent de réduire une consommation inutile d’électricité."
           },
           {
             type: "remarque",
-            contenu: "Une énergie renouvelable doit elle aussi être utilisée avec attention : les installations, les matériaux et la gestion des ressources ont des effets sur l’environnement."
+            texte: "Une énergie renouvelable doit elle aussi être utilisée avec attention : les installations, les matériaux et la gestion des ressources ont des effets sur l’environnement."
           }
         ]
       }
