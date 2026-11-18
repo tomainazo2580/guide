@@ -1,7 +1,7 @@
 enregistrerChapitres("5e", "sp", [
   {
     id: 12,
-    titre: "Les transformations et le stockage de l’énergie",
+    titre: "Chapitre 12 : Les transformations et le stockage de l’énergie",
     premium: false,
     guide: false,
 
@@ -12,19 +12,19 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "texte",
-            contenu: "Dans de nombreux appareils, l’énergie reçue est transformée en une ou plusieurs autres formes d’énergie."
+            texte: "Dans de nombreux appareils, l’énergie reçue est transformée en une ou plusieurs autres formes d’énergie."
           },
           {
             type: "exemple",
-            contenu: "Une lampe reçoit de l’énergie électrique et produit de la lumière ainsi que de la chaleur."
+            texte: "Une lampe reçoit de l’énergie électrique et produit de la lumière ainsi que de la chaleur."
           },
           {
             type: "definition",
-            contenu: "Une transformation d’énergie est le passage d’une forme d’énergie à une ou plusieurs autres formes."
+            texte: "Une transformation d’énergie est le passage d’une forme d’énergie à une ou plusieurs autres formes."
           },
           {
             type: "remarque",
-            contenu: "Une transformation ne crée pas d’énergie à partir de rien : l’énergie se conserve, mais une partie est souvent transférée à l’environnement sous forme de chaleur."
+            texte: "Une transformation ne crée pas d’énergie à partir de rien : l’énergie se conserve, mais une partie est souvent transférée à l’environnement sous forme de chaleur."
           }
         ]
       },
@@ -34,19 +34,19 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "texte",
-            contenu: "Une chaîne énergétique permet de représenter simplement d’où vient l’énergie, quel appareil la transforme et quelles formes d’énergie sont obtenues."
+            texte: "Une chaîne énergétique permet de représenter simplement d’où vient l’énergie, quel appareil la transforme et quelles formes d’énergie sont obtenues."
           },
           {
             type: "methode",
-            contenu: "Pour construire une chaîne énergétique : 1. Repérer la source ou le stockage de départ. 2. Identifier l’appareil qui reçoit l’énergie. 3. Indiquer la forme d’énergie reçue et les formes produites. 4. Utiliser des flèches pour montrer les transferts."
+            texte: "Pour construire une chaîne énergétique :\n1. Repérer la source ou le stockage de départ.\n2. Identifier l’appareil qui reçoit l’énergie.\n3. Indiquer la forme d’énergie reçue et les formes produites.\n4. Utiliser des flèches pour montrer les transferts."
           },
           {
             type: "exemple",
-            contenu: "Pour une lampe alimentée par une pile : pile → énergie électrique → lampe → énergie lumineuse et énergie thermique."
+            texte: "Pour une lampe alimentée par une pile : pile → énergie électrique → lampe → énergie lumineuse et énergie thermique."
           },
           {
             type: "remarque",
-            contenu: "La pile stocke de l’énergie chimique et fournit de l’énergie électrique au circuit. La lampe transforme une partie de cette énergie en lumière et une autre partie en chaleur."
+            texte: "La pile stocke de l’énergie chimique et fournit de l’énergie électrique au circuit. La lampe transforme une partie de cette énergie en lumière et une autre partie en chaleur."
           }
         ]
       },
@@ -56,23 +56,23 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "texte",
-            contenu: "Un panneau solaire photovoltaïque reçoit la lumière du Soleil et transforme une partie de son énergie en énergie électrique."
+            texte: "Un panneau solaire photovoltaïque reçoit la lumière du Soleil et transforme une partie de son énergie en énergie électrique."
           },
           {
             type: "exemple",
-            contenu: "Chaîne simplifiée : Soleil → énergie lumineuse → panneau photovoltaïque → énergie électrique."
+            texte: "Chaîne simplifiée : Soleil → énergie lumineuse → panneau photovoltaïque → énergie électrique."
           },
           {
             type: "texte",
-            contenu: "Une éolienne utilise l’énergie du vent. Le vent met ses pales en mouvement ; le dispositif entraîne un générateur qui produit de l’électricité."
+            texte: "Une éolienne utilise l’énergie du vent. Le vent met ses pales en mouvement ; le dispositif entraîne un générateur qui produit de l’électricité."
           },
           {
             type: "exemple",
-            contenu: "Chaîne simplifiée : vent → énergie de mouvement → éolienne et générateur → énergie électrique."
+            texte: "Chaîne simplifiée : vent → énergie de mouvement → éolienne et générateur → énergie électrique."
           },
           {
             type: "remarque",
-            contenu: "Le Soleil et le vent ne sont pas disponibles de la même façon à chaque instant. Une installation peut donc être associée à un dispositif de stockage."
+            texte: "Le Soleil et le vent ne sont pas disponibles de la même façon à chaque instant. Une installation peut donc être associée à un dispositif de stockage."
           }
         ]
       },
@@ -82,19 +82,19 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "texte",
-            contenu: "Une batterie rechargeable peut stocker de l’énergie sous forme chimique. Lorsqu’elle alimente un appareil, elle fournit de l’énergie électrique."
+            texte: "Une batterie rechargeable peut stocker de l’énergie sous forme chimique. Lorsqu’elle alimente un appareil, elle fournit de l’énergie électrique."
           },
           {
             type: "exemple",
-            contenu: "Un panneau photovoltaïque peut fournir de l’énergie électrique pour charger une batterie adaptée. Plus tard, la batterie peut alimenter une lampe."
+            texte: "Un panneau photovoltaïque peut fournir de l’énergie électrique pour charger une batterie adaptée. Plus tard, la batterie peut alimenter une lampe."
           },
           {
             type: "regle",
-            contenu: "Lors de la charge, une partie de l’énergie électrique reçue est stockée sous forme chimique. Lors de la décharge, une partie de l’énergie chimique est fournie au circuit sous forme électrique."
+            texte: "Lors de la charge, une partie de l’énergie électrique reçue est stockée sous forme chimique. Lors de la décharge, une partie de l’énergie chimique est fournie au circuit sous forme électrique."
           },
           {
             type: "remarque",
-            contenu: "Une pile ordinaire non rechargeable ne doit pas être rechargée. La charge d’une batterie doit se faire avec un matériel adapté et selon les consignes du fabricant."
+            texte: "Une pile ordinaire non rechargeable ne doit pas être rechargée. La charge d’une batterie doit se faire avec un matériel adapté et selon les consignes du fabricant."
           }
         ]
       },
@@ -104,19 +104,19 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "texte",
-            contenu: "De l’eau retenue en hauteur peut servir à stocker de l’énergie de position. Lorsqu’elle descend, une partie de cette énergie devient une énergie de mouvement."
+            texte: "De l’eau retenue en hauteur peut servir à stocker de l’énergie de position. Lorsqu’elle descend, une partie de cette énergie devient une énergie de mouvement."
           },
           {
             type: "exemple",
-            contenu: "Dans une installation hydraulique, l’eau retenue en hauteur descend et met en mouvement une turbine. La turbine entraîne un générateur qui fournit de l’énergie électrique."
+            texte: "Dans une installation hydraulique, l’eau retenue en hauteur descend et met en mouvement une turbine. La turbine entraîne un générateur qui fournit de l’énergie électrique."
           },
           {
             type: "exemple",
-            contenu: "Chaîne simplifiée : eau en hauteur → énergie de position et de mouvement → turbine et générateur → énergie électrique."
+            texte: "Chaîne simplifiée : eau en hauteur → énergie de position et de mouvement → turbine et générateur → énergie électrique."
           },
           {
             type: "remarque",
-            contenu: "L’énergie est notamment stockée grâce à la position de l’eau en hauteur. Pendant la descente, elle est transformée et transférée : ce n’est pas la chute elle-même qui constitue le stockage."
+            texte: "L’énergie est notamment stockée grâce à la position de l’eau en hauteur. Pendant la descente, elle est transformée et transférée : ce n’est pas la chute elle-même qui constitue le stockage."
           }
         ]
       },
@@ -126,15 +126,15 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "texte",
-            contenu: "Dans une transformation, toute l’énergie reçue ne devient pas nécessairement l’énergie recherchée. Une partie peut être transférée à l’environnement, souvent sous forme de chaleur."
+            texte: "Dans une transformation, toute l’énergie reçue ne devient pas nécessairement l’énergie recherchée. Une partie peut être transférée à l’environnement, souvent sous forme de chaleur."
           },
           {
             type: "exemple",
-            contenu: "Une lampe est utilisée pour éclairer, mais elle chauffe aussi. L’énergie thermique produite n’est pas l’effet principal recherché lorsqu’on veut seulement de la lumière."
+            texte: "Une lampe est utilisée pour éclairer, mais elle chauffe aussi. L’énergie thermique produite n’est pas l’effet principal recherché lorsqu’on veut seulement de la lumière."
           },
           {
             type: "remarque",
-            contenu: "On parle parfois de « perte » d’énergie pour l’usage recherché. Cela ne signifie pas que l’énergie disparaît : elle est transférée ou transformée, notamment en chaleur."
+            texte: "On parle parfois de « perte » d’énergie pour l’usage recherché. Cela ne signifie pas que l’énergie disparaît : elle est transférée ou transformée, notamment en chaleur."
           }
         ]
       },
@@ -144,15 +144,15 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "regle",
-            contenu: "Ne relie jamais directement les deux bornes d’une pile ou d’une batterie par un fil. Un court-circuit peut provoquer un fort échauffement."
+            texte: "Ne relie jamais directement les deux bornes d’une pile ou d’une batterie par un fil. Un court-circuit peut provoquer un fort échauffement."
           },
           {
             type: "regle",
-            contenu: "Ne démonte pas une pile ou une batterie, ne la jette pas au feu et n’essaie pas de charger une pile non rechargeable."
+            texte: "Ne démonte pas une pile ou une batterie, ne la jette pas au feu et n’essaie pas de charger une pile non rechargeable."
           },
           {
             type: "remarque",
-            contenu: "Les piles et batteries usagées ne doivent pas être abandonnées dans la nature. Il faut suivre les consignes locales de collecte lorsqu’un dispositif est disponible."
+            texte: "Les piles et batteries usagées ne doivent pas être abandonnées dans la nature. Il faut suivre les consignes locales de collecte lorsqu’un dispositif est disponible."
           }
         ]
       }
