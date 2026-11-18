@@ -1,7 +1,7 @@
 enregistrerChapitres("5e", "sp", [
   {
     id: 6,
-    titre: "Séparer les constituants d’un mélange",
+    titre: "Chapitre 6 : Séparer les constituants d’un mélange",
     premium: false,
     guide: false,
 
@@ -12,15 +12,15 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "texte",
-            contenu: "Dans la vie quotidienne, on sépare souvent les constituants d’un mélange : on retire les grains indésirables du riz, on filtre du café ou on récupère du sel après évaporation de l’eau de mer."
+            texte: "Dans la vie quotidienne, on sépare souvent les constituants d’un mélange : on retire les grains indésirables du riz, on filtre du café ou on récupère du sel après évaporation de l’eau de mer."
           },
           {
             type: "regle",
-            contenu: "La méthode de séparation dépend de la nature du mélange et de ce que l’on souhaite récupérer."
+            texte: "La méthode de séparation dépend de la nature du mélange et de ce que l’on souhaite récupérer."
           },
           {
             type: "remarque",
-            contenu: "Une méthode peut séparer certains constituants sans nécessairement les séparer tous."
+            texte: "Une méthode peut séparer certains constituants sans nécessairement les séparer tous."
           }
         ]
       },
@@ -30,23 +30,23 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "definition",
-            contenu: "La décantation consiste à laisser reposer un mélange hétérogène pour que certaines de ses parties se séparent sous l’effet de la gravité."
+            texte: "La décantation consiste à laisser reposer un mélange hétérogène pour que certaines de ses parties se séparent sous l’effet de la gravité."
           },
           {
             type: "texte",
-            contenu: "Dans un mélange d’eau et de terre, une partie des particules solides peut se déposer au fond. Le liquide situé au-dessus devient plus clair : on peut le verser doucement dans un autre récipient."
+            texte: "Dans un mélange d’eau et de terre, une partie des particules solides peut se déposer au fond. Le liquide situé au-dessus devient plus clair : on peut le verser doucement dans un autre récipient."
           },
           {
             type: "exemple",
-            contenu: "On laisse reposer de l’eau boueuse. Une partie de la boue se dépose au fond. On verse ensuite doucement une partie de l’eau située au-dessus dans un autre récipient."
+            texte: "On laisse reposer de l’eau boueuse. Une partie de la boue se dépose au fond. On verse ensuite doucement une partie de l’eau située au-dessus dans un autre récipient."
           },
           {
             type: "texte",
-            contenu: "La décantation peut aussi séparer deux liquides non miscibles. Par exemple, après repos d’un mélange d’eau et d’huile, l’huile forme une couche au-dessus de l’eau."
+            texte: "La décantation peut aussi séparer deux liquides non miscibles. Par exemple, après repos d’un mélange d’eau et d’huile, l’huile forme une couche au-dessus de l’eau."
           },
           {
             type: "remarque",
-            contenu: "Après décantation, le liquide récupéré peut encore contenir de petites particules, des substances dissoutes ou des microbes. Il n’est pas nécessairement potable."
+            texte: "Après décantation, le liquide récupéré peut encore contenir de petites particules, des substances dissoutes ou des microbes. Il n’est pas nécessairement potable."
           }
         ]
       },
@@ -56,15 +56,15 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "definition",
-            contenu: "La filtration permet de séparer un liquide de certaines particules solides non dissoutes en faisant passer le mélange à travers un filtre."
+            texte: "La filtration permet de séparer un liquide de certaines particules solides non dissoutes en faisant passer le mélange à travers un filtre."
           },
           {
             type: "texte",
-            contenu: "Les particules retenues par le filtre constituent le résidu. Le liquide qui traverse le filtre est appelé filtrat."
+            texte: "Les particules retenues par le filtre constituent le résidu. Le liquide qui traverse le filtre est appelé filtrat."
           },
           {
             type: "methode",
-            contenu: "1. Placer un filtre dans un entonnoir au-dessus d’un récipient. 2. Verser doucement le mélange dans le filtre. 3. Observer le résidu retenu et recueillir le filtrat dans le récipient."
+            texte: "1. Placer un filtre dans un entonnoir au-dessus d’un récipient.\n2. Verser doucement le mélange dans le filtre.\n3. Observer le résidu retenu et recueillir le filtrat dans le récipient."
           },
           {
             type: "schema",
@@ -89,15 +89,15 @@ enregistrerChapitres("5e", "sp", [
           },
           {
             type: "exemple",
-            contenu: "Pour un mélange d’eau et de sable, le sable est retenu par le filtre. L’eau recueillie constitue le filtrat."
+            texte: "Pour un mélange d’eau et de sable, le sable est retenu par le filtre. L’eau recueillie constitue le filtrat."
           },
           {
             type: "remarque",
-            contenu: "Un filtre ordinaire ne retient pas le sel dissous dans l’eau. Il ne retient pas non plus nécessairement tous les microbes ni toutes les particules très fines."
+            texte: "Un filtre ordinaire ne retient pas le sel dissous dans l’eau. Il ne retient pas non plus nécessairement tous les microbes ni toutes les particules très fines."
           },
           {
             type: "remarque",
-            contenu: "Un filtrat clair n’est pas forcément une eau potable. Ne bois pas une eau filtrée sans savoir si elle est propre à la consommation."
+            texte: "Un filtrat clair n’est pas forcément une eau potable. Ne bois pas une eau filtrée sans savoir si elle est propre à la consommation."
           }
         ]
       },
@@ -107,19 +107,19 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "definition",
-            contenu: "Le tamisage permet de séparer des solides de tailles différentes à l’aide d’un tamis."
+            texte: "Le tamisage permet de séparer des solides de tailles différentes à l’aide d’un tamis."
           },
           {
             type: "texte",
-            contenu: "Les particules assez petites passent à travers les ouvertures du tamis. Les plus grosses sont retenues."
+            texte: "Les particules assez petites passent à travers les ouvertures du tamis. Les plus grosses sont retenues."
           },
           {
             type: "exemple",
-            contenu: "Un tamis peut séparer des graviers de grains de sable plus petits, si les ouvertures laissent passer le sable mais retiennent les graviers."
+            texte: "Un tamis peut séparer des graviers de grains de sable plus petits, si les ouvertures laissent passer le sable mais retiennent les graviers."
           },
           {
             type: "remarque",
-            contenu: "Pour être efficace, le tamis doit avoir des ouvertures adaptées à la taille des particules à séparer."
+            texte: "Pour être efficace, le tamis doit avoir des ouvertures adaptées à la taille des particules à séparer."
           }
         ]
       },
@@ -129,19 +129,19 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "definition",
-            contenu: "L’évaporation est le passage progressif d’un liquide à l’état de vapeur à sa surface."
+            texte: "L’évaporation est le passage progressif d’un liquide à l’état de vapeur à sa surface."
           },
           {
             type: "texte",
-            contenu: "Pour certains mélanges homogènes, l’évaporation du solvant permet de récupérer un solide dissous qui ne s’évapore pas dans ces conditions."
+            texte: "Pour certains mélanges homogènes, l’évaporation du solvant permet de récupérer un solide dissous qui ne s’évapore pas dans ces conditions."
           },
           {
             type: "exemple",
-            contenu: "Lorsqu’on laisse de l’eau salée s’évaporer, le sel reste dans le récipient. Dans les marais salants, l’eau de mer s’évapore sous l’action du soleil et du vent."
+            texte: "Lorsqu’on laisse de l’eau salée s’évaporer, le sel reste dans le récipient. Dans les marais salants, l’eau de mer s’évapore sous l’action du soleil et du vent."
           },
           {
             type: "remarque",
-            contenu: "Lors d’une évaporation simple à l’air libre, la vapeur d’eau se disperse dans l’air : on récupère le sel, mais pas l’eau."
+            texte: "Lors d’une évaporation simple à l’air libre, la vapeur d’eau se disperse dans l’air : on récupère le sel, mais pas l’eau."
           }
         ]
       },
@@ -151,19 +151,19 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "definition",
-            contenu: "La distillation est une méthode qui consiste à vaporiser un liquide, puis à refroidir sa vapeur pour la transformer de nouveau en liquide : cette dernière étape est appelée condensation."
+            texte: "La distillation est une méthode qui consiste à vaporiser un liquide, puis à refroidir sa vapeur pour la transformer de nouveau en liquide : cette dernière étape est appelée condensation."
           },
           {
             type: "texte",
-            contenu: "Lors de la distillation d’eau salée, on chauffe la solution. La vapeur d’eau est refroidie et redevient liquide. Le liquide recueilli est appelé distillat ; le sel reste principalement dans le récipient de départ."
+            texte: "Lors de la distillation d’eau salée, on chauffe la solution. La vapeur d’eau est refroidie et redevient liquide. Le liquide recueilli est appelé distillat ; le sel reste principalement dans le récipient de départ."
           },
           {
             type: "remarque",
-            contenu: "La distillation permet ici de récupérer de l’eau, contrairement à une évaporation simple à l’air libre. Elle demande un matériel adapté et l’encadrement d’un adulte."
+            texte: "La distillation permet ici de récupérer de l’eau, contrairement à une évaporation simple à l’air libre. Elle demande un matériel adapté et l’encadrement d’un adulte."
           },
           {
             type: "remarque",
-            contenu: "Ne chauffe pas un mélange inconnu et ne réalise pas une distillation seul : le chauffage, la vapeur et le matériel chaud peuvent provoquer des brûlures."
+            texte: "Ne chauffe pas un mélange inconnu et ne réalise pas une distillation seul : le chauffage, la vapeur et le matériel chaud peuvent provoquer des brûlures."
           }
         ]
       },
@@ -173,15 +173,15 @@ enregistrerChapitres("5e", "sp", [
         blocs: [
           {
             type: "definition",
-            contenu: "Le pressage consiste à exercer une pression sur une matière pour en extraire une partie liquide."
+            texte: "Le pressage consiste à exercer une pression sur une matière pour en extraire une partie liquide."
           },
           {
             type: "exemple",
-            contenu: "En pressant une orange, on extrait du jus de sa pulpe. Le jus obtenu peut encore contenir de petits morceaux de pulpe."
+            texte: "En pressant une orange, on extrait du jus de sa pulpe. Le jus obtenu peut encore contenir de petits morceaux de pulpe."
           },
           {
             type: "remarque",
-            contenu: "Le pressage ne donne pas forcément un liquide pur. Si nécessaire, une autre méthode de séparation peut être utilisée ensuite."
+            texte: "Le pressage ne donne pas forcément un liquide pur. Si nécessaire, une autre méthode de séparation peut être utilisée ensuite."
           }
         ]
       },
@@ -203,7 +203,7 @@ enregistrerChapitres("5e", "sp", [
           },
           {
             type: "methode",
-            contenu: "Pour choisir une méthode : 1. Observer le mélange. 2. Repérer les constituants et leurs propriétés : taille des particules, solubilité ou miscibilité. 3. Déterminer ce que l’on veut récupérer. 4. Choisir une méthode adaptée."
+            texte: "Pour choisir une méthode :\n1. Observer le mélange.\n2. Repérer les constituants et leurs propriétés : taille des particules, solubilité ou miscibilité.\n3. Déterminer ce que l’on veut récupérer.\n4. Choisir une méthode adaptée."
           }
         ]
       }
