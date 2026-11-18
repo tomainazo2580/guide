@@ -1,9 +1,9 @@
-var VERSION = 'v4.00';
+var VERSION = 'v4.01';
 
 var CLASSES = [
   { id: '6e', nom: 'Sixieme', dispo: true },
   { id: '5e', nom: 'Cinquieme', dispo: true },
-  { id: '4e', nom: 'Quatrieme', dispo: false },
+  { id: '4e', nom: 'Quatrieme', dispo: true },
   { id: '3e', nom: 'Troisieme', dispo: false },
   { id: '2nde', nom: 'Seconde', dispo: false },
   { id: '1ere', nom: 'Premiere', dispo: false },
@@ -272,6 +272,37 @@ var MATIERES = {
       icone: '🗺️',
       dispo: false,
       fichiers: []
+    }
+  ],
+
+  '4e': [
+    {
+      id: 'fr',
+      nom: 'Francais',
+      court: 'Fr',
+      icone: '📖',
+      dispo: true,
+      fichiers: [
+        'data/4e/fr-ch1.js',
+        'data/4e/fr-ch2.js',
+        'data/4e/fr-ch3.js',
+        'data/4e/fr-ch4.js',
+        'data/4e/fr-ch5.js',
+        'data/4e/fr-ch6.js',
+        'data/4e/fr-ch7.js',
+        'data/4e/fr-ch8.js',
+        'data/4e/fr-ch9.js',
+        'data/4e/fr-ch10.js',
+        'data/4e/fr-ch11.js',
+        'data/4e/fr-ch12.js',
+        'data/4e/fr-ch13.js',
+        'data/4e/fr-ch14.js',
+        'data/4e/fr-ch15.js',
+        'data/4e/fr-ch16.js',
+        'data/4e/fr-ch17.js',
+        'data/4e/fr-ch18.js',
+        'data/4e/fr-ch19.js'
+      ]
     }
   ]
 };
