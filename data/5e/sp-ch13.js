@@ -3,7 +3,7 @@ enregistrerChapitres("5e", "sp", [
     id: 13,
     titre: "Chapitre 13 : Révision générale",
     premium: false,
-    guide: false,
+    guide: true,
 
     lecons: [
       {
