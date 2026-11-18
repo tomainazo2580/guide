@@ -1,4 +1,4 @@
-var VERSION = 'v4.03';
+var VERSION = 'v4.04';
 
 var CLASSES = [
   { id: '6e', nom: 'Sixieme', dispo: true },
@@ -336,8 +336,22 @@ var MATIERES = {
       nom: 'Sciences de la Vie et de la Terre',
       court: 'SVT',
       icone: '🌱',
-      dispo: false,
-      fichiers: []
+      dispo: true,
+      fichiers: [
+        'data/4e/svt-ch1.js',
+        'data/4e/svt-ch2.js',
+        'data/4e/svt-ch3.js',
+        'data/4e/svt-ch4.js',
+        'data/4e/svt-ch5.js',
+        'data/4e/svt-ch6.js',
+        'data/4e/svt-ch7.js',
+        'data/4e/svt-ch8.js',
+        'data/4e/svt-ch9.js',
+        'data/4e/svt-ch10.js',
+        'data/4e/svt-ch11.js',
+        'data/4e/svt-ch12.js',
+        'data/4e/svt-ch13.js'
+      ]
     },
     {
       id: 'mal',
