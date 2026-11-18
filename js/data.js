@@ -275,7 +275,39 @@ var MATIERES = {
     }
   ],
 
-  '4e': [
+    '4e': [
+    {
+      id: 'maths',
+      nom: 'Mathematiques',
+      court: 'Maths',
+      icone: '📐',
+      dispo: false,
+      fichiers: []
+    },
+    {
+      id: 'sp',
+      nom: 'Sciences Physiques',
+      court: 'SP',
+      icone: '⚗️',
+      dispo: false,
+      fichiers: []
+    },
+    {
+      id: 'svt',
+      nom: 'Sciences de la Vie et de la Terre',
+      court: 'SVT',
+      icone: '🌱',
+      dispo: false,
+      fichiers: []
+    },
+    {
+      id: 'mal',
+      nom: 'Malagasy',
+      court: 'Mal',
+      icone: '🇲🇬',
+      dispo: false,
+      fichiers: []
+    },
     {
       id: 'fr',
       nom: 'Francais',
@@ -303,9 +335,32 @@ var MATIERES = {
         'data/4e/fr-ch18.js',
         'data/4e/fr-ch19.js'
       ]
+    },
+    {
+      id: 'eng',
+      nom: 'Anglais',
+      court: 'Ang',
+      icone: '🇬🇧',
+      dispo: false,
+      fichiers: []
+    },
+    {
+      id: 'hg',
+      nom: 'Histoire',
+      court: 'Hist',
+      icone: '🌍',
+      dispo: false,
+      fichiers: []
+    },
+    {
+      id: 'geo',
+      nom: 'Geographie',
+      court: 'Geo',
+      icone: '🗺️',
+      dispo: false,
+      fichiers: []
     }
   ]
-};
 
 var CONTENU = {};
 
