@@ -1,4 +1,4 @@
-var VERSION = 'v4.02';
+var VERSION = 'v4.03';
 
 var CLASSES = [
   { id: '6e', nom: 'Sixieme', dispo: true },
@@ -276,13 +276,32 @@ var MATIERES = {
   ],
 
     '4e': [
-    {
+        {
       id: 'maths',
       nom: 'Mathematiques',
       court: 'Maths',
       icone: '📐',
-      dispo: false,
-      fichiers: []
+      dispo: true,
+      fichiers: [
+        'data/4e/maths-ch1.js',
+        'data/4e/maths-ch2.js',
+        'data/4e/maths-ch3.js',
+        'data/4e/maths-ch4.js',
+        'data/4e/maths-ch5.js',
+        'data/4e/maths-ch6.js',
+        'data/4e/maths-ch7.js',
+        'data/4e/maths-ch8.js',
+        'data/4e/maths-ch9.js',
+        'data/4e/maths-ch10.js',
+        'data/4e/maths-ch11.js',
+        'data/4e/maths-ch12.js',
+        'data/4e/maths-ch13.js',
+        'data/4e/maths-ch14.js',
+        'data/4e/maths-ch15.js',
+        'data/4e/maths-ch16.js',
+        'data/4e/maths-ch17.js',
+        'data/4e/maths-ch18.js'
+      ]
     },
     {
       id: 'sp',
