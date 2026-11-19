@@ -938,4 +938,8 @@ button { font-family: inherit; }
   color: var(--texte-doux);
   font-size: 16px;
 }
+/* Accueil : fond plus clair, dans les tons de Guide */
+body:not(.sombre) .accueil-fond {
+  background: linear-gradient(160deg, #edf5fc, #dcebf8);
+}
 /* === FIN style.css === */
