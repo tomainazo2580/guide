@@ -1,3 +1,5 @@
+// ===== GUIDE — Classes, matières et chargement des chapitres =====
+
 var VERSION = 'v4.05';
 
 var CLASSES = [
@@ -10,6 +12,19 @@ var CLASSES = [
   { id: 'tle', nom: 'Terminale', dispo: false }
 ];
 
+// Prépare les chemins des chapitres dans l'ordre.
+function fichiersGuide(classe, matiere, nombre) {
+  var fichiers = [];
+
+  for (var i = 1; i <= nombre; i++) {
+    fichiers.push(
+      'data/' + classe + '/' + matiere + '-ch' + i + '.js'
+    );
+  }
+
+  return fichiers;
+}
+
 var MATIERES = {
   '6e': [
     {
@@ -18,25 +33,7 @@ var MATIERES = {
       court: 'Maths',
       icone: '📐',
       dispo: true,
-      fichiers: [
-        'data/6e/maths-ch1.js',
-        'data/6e/maths-ch2.js',
-        'data/6e/maths-ch3.js',
-        'data/6e/maths-ch4.js',
-        'data/6e/maths-ch5.js',
-        'data/6e/maths-ch6.js',
-        'data/6e/maths-ch7.js',
-        'data/6e/maths-ch8.js',
-        'data/6e/maths-ch9.js',
-        'data/6e/maths-ch10.js',
-        'data/6e/maths-ch11.js',
-        'data/6e/maths-ch12.js',
-        'data/6e/maths-ch13.js',
-        'data/6e/maths-ch14.js',
-        'data/6e/maths-ch15.js',
-        'data/6e/maths-ch16.js',
-        'data/6e/maths-ch17.js'
-      ]
+      fichiers: fichiersGuide('6e', 'maths', 17)
     },
     {
       id: 'sp',
@@ -44,20 +41,7 @@ var MATIERES = {
       court: 'SP',
       icone: '⚗️',
       dispo: true,
-      fichiers: [
-        'data/6e/sp-ch1.js',
-        'data/6e/sp-ch2.js',
-        'data/6e/sp-ch3.js',
-        'data/6e/sp-ch4.js',
-        'data/6e/sp-ch5.js',
-        'data/6e/sp-ch6.js',
-        'data/6e/sp-ch7.js',
-        'data/6e/sp-ch8.js',
-        'data/6e/sp-ch9.js',
-        'data/6e/sp-ch10.js',
-        'data/6e/sp-ch11.js',
-        'data/6e/sp-ch12.js'
-      ]
+      fichiers: fichiersGuide('6e', 'sp', 12)
     },
     {
       id: 'svt',
@@ -65,22 +49,7 @@ var MATIERES = {
       court: 'SVT',
       icone: '🌱',
       dispo: true,
-      fichiers: [
-        'data/6e/svt-ch1.js',
-        'data/6e/svt-ch2.js',
-        'data/6e/svt-ch3.js',
-        'data/6e/svt-ch4.js',
-        'data/6e/svt-ch5.js',
-        'data/6e/svt-ch6.js',
-        'data/6e/svt-ch7.js',
-        'data/6e/svt-ch8.js',
-        'data/6e/svt-ch9.js',
-        'data/6e/svt-ch10.js',
-        'data/6e/svt-ch11.js',
-        'data/6e/svt-ch12.js',
-        'data/6e/svt-ch13.js',
-        'data/6e/svt-ch14.js'
-      ]
+      fichiers: fichiersGuide('6e', 'svt', 14)
     },
     {
       id: 'mal',
@@ -96,15 +65,7 @@ var MATIERES = {
       court: 'Fr',
       icone: '📖',
       dispo: true,
-      fichiers: [
-        'data/6e/fr-ch1.js',
-        'data/6e/fr-ch2.js',
-        'data/6e/fr-ch3.js',
-        'data/6e/fr-ch4.js',
-        'data/6e/fr-ch5.js',
-        'data/6e/fr-ch6.js',
-        'data/6e/fr-ch7.js'
-      ]
+      fichiers: fichiersGuide('6e', 'fr', 7)
     },
     {
       id: 'eng',
@@ -112,16 +73,7 @@ var MATIERES = {
       court: 'Ang',
       icone: '🇬🇧',
       dispo: true,
-      fichiers: [
-        'data/6e/eng-ch1.js',
-        'data/6e/eng-ch2.js',
-        'data/6e/eng-ch3.js',
-        'data/6e/eng-ch4.js',
-        'data/6e/eng-ch5.js',
-        'data/6e/eng-ch6.js',
-        'data/6e/eng-ch7.js',
-        'data/6e/eng-ch8.js'
-      ]
+      fichiers: fichiersGuide('6e', 'eng', 8)
     },
     {
       id: 'hg',
@@ -148,25 +100,7 @@ var MATIERES = {
       court: 'Maths',
       icone: '📐',
       dispo: true,
-      fichiers: [
-        'data/5e/maths-ch1.js',
-        'data/5e/maths-ch2.js',
-        'data/5e/maths-ch3.js',
-        'data/5e/maths-ch4.js',
-        'data/5e/maths-ch5.js',
-        'data/5e/maths-ch6.js',
-        'data/5e/maths-ch7.js',
-        'data/5e/maths-ch8.js',
-        'data/5e/maths-ch9.js',
-        'data/5e/maths-ch10.js',
-        'data/5e/maths-ch11.js',
-        'data/5e/maths-ch12.js',
-        'data/5e/maths-ch13.js',
-        'data/5e/maths-ch14.js',
-        'data/5e/maths-ch15.js',
-        'data/5e/maths-ch16.js',
-        'data/5e/maths-ch17.js'
-      ]
+      fichiers: fichiersGuide('5e', 'maths', 17)
     },
     {
       id: 'sp',
@@ -174,21 +108,7 @@ var MATIERES = {
       court: 'SP',
       icone: '⚗️',
       dispo: true,
-      fichiers: [
-        'data/5e/sp-ch1.js',
-        'data/5e/sp-ch2.js',
-        'data/5e/sp-ch3.js',
-        'data/5e/sp-ch4.js',
-        'data/5e/sp-ch5.js',
-        'data/5e/sp-ch6.js',
-        'data/5e/sp-ch7.js',
-        'data/5e/sp-ch8.js',
-        'data/5e/sp-ch9.js',
-        'data/5e/sp-ch10.js',
-        'data/5e/sp-ch11.js',
-        'data/5e/sp-ch12.js',
-        'data/5e/sp-ch13.js'
-      ]
+      fichiers: fichiersGuide('5e', 'sp', 13)
     },
     {
       id: 'svt',
@@ -196,25 +116,7 @@ var MATIERES = {
       court: 'SVT',
       icone: '🌱',
       dispo: true,
-      fichiers: [
-        'data/5e/svt-ch1.js',
-        'data/5e/svt-ch2.js',
-        'data/5e/svt-ch3.js',
-        'data/5e/svt-ch4.js',
-        'data/5e/svt-ch5.js',
-        'data/5e/svt-ch6.js',
-        'data/5e/svt-ch7.js',
-        'data/5e/svt-ch8.js',
-        'data/5e/svt-ch9.js',
-        'data/5e/svt-ch10.js',
-        'data/5e/svt-ch11.js',
-        'data/5e/svt-ch12.js',
-        'data/5e/svt-ch13.js',
-        'data/5e/svt-ch14.js',
-        'data/5e/svt-ch15.js',
-        'data/5e/svt-ch16.js',
-        'data/5e/svt-ch17.js'
-      ]
+      fichiers: fichiersGuide('5e', 'svt', 17)
     },
     {
       id: 'mal',
@@ -230,16 +132,7 @@ var MATIERES = {
       court: 'Fr',
       icone: '📖',
       dispo: true,
-      fichiers: [
-        'data/5e/fr-ch1.js',
-        'data/5e/fr-ch2.js',
-        'data/5e/fr-ch3.js',
-        'data/5e/fr-ch4.js',
-        'data/5e/fr-ch5.js',
-        'data/5e/fr-ch6.js',
-        'data/5e/fr-ch7.js',
-        'data/5e/fr-ch8.js'
-      ]
+      fichiers: fichiersGuide('5e', 'fr', 8)
     },
     {
       id: 'eng',
@@ -247,15 +140,7 @@ var MATIERES = {
       court: 'Ang',
       icone: '🇬🇧',
       dispo: true,
-      fichiers: [
-        'data/5e/eng-ch1.js',
-        'data/5e/eng-ch2.js',
-        'data/5e/eng-ch3.js',
-        'data/5e/eng-ch4.js',
-        'data/5e/eng-ch5.js',
-        'data/5e/eng-ch6.js',
-        'data/5e/eng-ch7.js'
-      ]
+      fichiers: fichiersGuide('5e', 'eng', 7)
     },
     {
       id: 'hg',
@@ -275,33 +160,14 @@ var MATIERES = {
     }
   ],
 
-    '4e': [
-        {
+  '4e': [
+    {
       id: 'maths',
       nom: 'Mathematiques',
       court: 'Maths',
       icone: '📐',
       dispo: true,
-      fichiers: [
-        'data/4e/maths-ch1.js',
-        'data/4e/maths-ch2.js',
-        'data/4e/maths-ch3.js',
-        'data/4e/maths-ch4.js',
-        'data/4e/maths-ch5.js',
-        'data/4e/maths-ch6.js',
-        'data/4e/maths-ch7.js',
-        'data/4e/maths-ch8.js',
-        'data/4e/maths-ch9.js',
-        'data/4e/maths-ch10.js',
-        'data/4e/maths-ch11.js',
-        'data/4e/maths-ch12.js',
-        'data/4e/maths-ch13.js',
-        'data/4e/maths-ch14.js',
-        'data/4e/maths-ch15.js',
-        'data/4e/maths-ch16.js',
-        'data/4e/maths-ch17.js',
-        'data/4e/maths-ch18.js'
-      ]
+      fichiers: fichiersGuide('4e', 'maths', 18)
     },
     {
       id: 'sp',
@@ -309,27 +175,7 @@ var MATIERES = {
       court: 'SP',
       icone: '⚗️',
       dispo: true,
-      fichiers: [
-        'data/4e/sp-ch1.js',
-        'data/4e/sp-ch2.js',
-        'data/4e/sp-ch3.js',
-        'data/4e/sp-ch4.js',
-        'data/4e/sp-ch5.js',
-        'data/4e/sp-ch6.js',
-        'data/4e/sp-ch7.js',
-        'data/4e/sp-ch8.js',
-        'data/4e/sp-ch9.js',
-        'data/4e/sp-ch10.js',
-        'data/4e/sp-ch11.js',
-        'data/4e/sp-ch12.js',
-        'data/4e/sp-ch13.js',
-        'data/4e/sp-ch14.js',
-        'data/4e/sp-ch15.js',
-        'data/4e/sp-ch16.js',
-        'data/4e/sp-ch17.js',
-        'data/4e/sp-ch18.js',
-        'data/4e/sp-ch19.js'
-      ]
+      fichiers: fichiersGuide('4e', 'sp', 19)
     },
     {
       id: 'svt',
@@ -337,21 +183,7 @@ var MATIERES = {
       court: 'SVT',
       icone: '🌱',
       dispo: true,
-      fichiers: [
-        'data/4e/svt-ch1.js',
-        'data/4e/svt-ch2.js',
-        'data/4e/svt-ch3.js',
-        'data/4e/svt-ch4.js',
-        'data/4e/svt-ch5.js',
-        'data/4e/svt-ch6.js',
-        'data/4e/svt-ch7.js',
-        'data/4e/svt-ch8.js',
-        'data/4e/svt-ch9.js',
-        'data/4e/svt-ch10.js',
-        'data/4e/svt-ch11.js',
-        'data/4e/svt-ch12.js',
-        'data/4e/svt-ch13.js'
-      ]
+      fichiers: fichiersGuide('4e', 'svt', 13)
     },
     {
       id: 'mal',
@@ -367,52 +199,15 @@ var MATIERES = {
       court: 'Fr',
       icone: '📖',
       dispo: true,
-      fichiers: [
-        'data/4e/fr-ch1.js',
-        'data/4e/fr-ch2.js',
-        'data/4e/fr-ch3.js',
-        'data/4e/fr-ch4.js',
-        'data/4e/fr-ch5.js',
-        'data/4e/fr-ch6.js',
-        'data/4e/fr-ch7.js',
-        'data/4e/fr-ch8.js',
-        'data/4e/fr-ch9.js',
-        'data/4e/fr-ch10.js',
-        'data/4e/fr-ch11.js',
-        'data/4e/fr-ch12.js',
-        'data/4e/fr-ch13.js',
-        'data/4e/fr-ch14.js',
-        'data/4e/fr-ch15.js',
-        'data/4e/fr-ch16.js',
-        'data/4e/fr-ch17.js',
-        'data/4e/fr-ch18.js',
-        'data/4e/fr-ch19.js'
-      ]
+      fichiers: fichiersGuide('4e', 'fr', 19)
     },
-        {
+    {
       id: 'eng',
       nom: 'Anglais',
       court: 'Ang',
       icone: '🇬🇧',
       dispo: true,
-      fichiers: [
-        'data/4e/eng-ch1.js',
-        'data/4e/eng-ch2.js',
-        'data/4e/eng-ch3.js',
-        'data/4e/eng-ch4.js',
-        'data/4e/eng-ch5.js',
-        'data/4e/eng-ch6.js',
-        'data/4e/eng-ch7.js',
-        'data/4e/eng-ch8.js',
-        'data/4e/eng-ch9.js',
-        'data/4e/eng-ch10.js',
-        'data/4e/eng-ch11.js',
-        'data/4e/eng-ch12.js',
-        'data/4e/eng-ch13.js',
-        'data/4e/eng-ch14.js',
-        'data/4e/eng-ch15.js',
-        'data/4e/eng-ch16.js'
-      ]
+      fichiers: fichiersGuide('4e', 'eng', 16)
     },
     {
       id: 'hg',
@@ -447,32 +242,72 @@ function enregistrerChapitres(classeId, matiereId, chapitres) {
   }
 }
 
-function chargerFichierContenu(url) {
-  var xhr = new XMLHttpRequest();
-  xhr.open('GET', url + '?v=' + VERSION, false);
-  xhr.send(null);
+// Télécharge plusieurs fichiers à la fois, puis les enregistre
+// dans l'ordre des classes, des matières et des chapitres.
+var chargementContenuGuide = (function () {
+  var fichiers = [];
 
-  if (xhr.status === 200 || xhr.status === 0) {
-    new Function(xhr.responseText)();
-  }
-}
-
-(function chargerTout() {
   for (var c = 0; c < CLASSES.length; c++) {
     var classe = CLASSES[c];
-
     if (!classe.dispo) continue;
 
     var liste = MATIERES[classe.id] || [];
 
     for (var m = 0; m < liste.length; m++) {
       var matiere = liste[m];
-
       if (!matiere.dispo) continue;
 
       for (var f = 0; f < matiere.fichiers.length; f++) {
-        chargerFichierContenu(matiere.fichiers[f]);
+        fichiers.push(matiere.fichiers[f]);
       }
     }
   }
+
+  var textes = new Array(fichiers.length);
+  var prochain = 0;
+  var nombreTelechargements = 8;
+
+  function telechargerSuivant() {
+    var index = prochain++;
+
+    if (index >= fichiers.length) {
+      return Promise.resolve();
+    }
+
+    var url = fichiers[index] + '?v=' + encodeURIComponent(VERSION);
+
+    return fetch(url)
+      .then(function (reponse) {
+        if (!reponse.ok) {
+          throw new Error(
+            'Impossible de charger ' + fichiers[index] +
+            ' (erreur ' + reponse.status + ')'
+          );
+        }
+
+        return reponse.text();
+      })
+      .then(function (texte) {
+        textes[index] = texte;
+        return telechargerSuivant();
+      });
+  }
+
+  var telechargements = [];
+
+  for (var i = 0; i < nombreTelechargements; i++) {
+    telechargements.push(telechargerSuivant());
+  }
+
+  return Promise.all(telechargements).then(function () {
+    for (var i = 0; i < textes.length; i++) {
+      try {
+        new Function(textes[i])();
+      } catch (erreur) {
+        throw new Error(
+          'Erreur dans ' + fichiers[i] + ' : ' + erreur.message
+        );
+      }
+    }
+  });
 })();
