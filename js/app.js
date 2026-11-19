@@ -695,7 +695,8 @@ function afficherPaiement(classeId, matiereId) {
   html += '<div class="bloc-texte">';
   html += 'Prix : <strong>' + prix + ' Ar</strong><br><br>';
   html += 'Ce paiement débloque les chapitres payants et les examens ';
-  html += 'de cette matière, pour cette classe, sans limite de durée.';
+  html += 'de cette matière, pour cette classe, pendant un an à partir de l’activation.';
+  html += '<p>⚠️ L’accès est enregistré sur cet appareil. Si tu effaces les données du navigateur ou de l’application, tu peux perdre ton accès. Contacte-nous si cela arrive.</p>';
   html += '</div></div>';
 
   html += '<div class="bloc bloc-methode">';
