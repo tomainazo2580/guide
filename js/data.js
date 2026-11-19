@@ -1,4 +1,4 @@
-var VERSION = 'v4.04';
+var VERSION = 'v4.05';
 
 var CLASSES = [
   { id: '6e', nom: 'Sixieme', dispo: true },
@@ -389,13 +389,30 @@ var MATIERES = {
         'data/4e/fr-ch19.js'
       ]
     },
-    {
+        {
       id: 'eng',
       nom: 'Anglais',
       court: 'Ang',
       icone: '🇬🇧',
-      dispo: false,
-      fichiers: []
+      dispo: true,
+      fichiers: [
+        'data/4e/eng-ch1.js',
+        'data/4e/eng-ch2.js',
+        'data/4e/eng-ch3.js',
+        'data/4e/eng-ch4.js',
+        'data/4e/eng-ch5.js',
+        'data/4e/eng-ch6.js',
+        'data/4e/eng-ch7.js',
+        'data/4e/eng-ch8.js',
+        'data/4e/eng-ch9.js',
+        'data/4e/eng-ch10.js',
+        'data/4e/eng-ch11.js',
+        'data/4e/eng-ch12.js',
+        'data/4e/eng-ch13.js',
+        'data/4e/eng-ch14.js',
+        'data/4e/eng-ch15.js',
+        'data/4e/eng-ch16.js'
+      ]
     },
     {
       id: 'hg',
