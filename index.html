@@ -6,6 +6,7 @@
   <meta name="theme-color" content="#1e3a5f">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
+
   <title>Guide — Révisions scolaires</title>
 
   <link rel="manifest" href="manifest.json?v=3.49">
@@ -13,16 +14,20 @@
   <link rel="apple-touch-icon" href="icons/icon.png">
 
   <script>
-    // Nettoyage : desactive tout ancien service worker et vide les caches
+    // Nettoyage des anciens service workers et caches.
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.getRegistrations().then(function(liste) {
-        for (var i = 0; i < liste.length; i++) liste[i].unregister();
+        for (var i = 0; i < liste.length; i++) {
+          liste[i].unregister();
+        }
       });
     }
 
     if ('caches' in window) {
       caches.keys().then(function(cles) {
-        for (var i = 0; i < cles.length; i++) caches.delete(cles[i]);
+        for (var i = 0; i < cles.length; i++) {
+          caches.delete(cles[i]);
+        }
       });
     }
   </script>
@@ -96,8 +101,8 @@
     }
   </style>
 </head>
-<body>
 
+<body>
   <header class="haut">
     <div class="haut-titre">📘 Guide</div>
     <div class="haut-sous-titre">Réussis ton année scolaire 🇲🇬</div>
@@ -106,23 +111,101 @@
   <main id="ecran" class="ecran"></main>
 
   <nav class="barre-bas">
-    <button id="btn-accueil" class="actif" onclick="afficherAccueil()"><span class="ico">🏠</span>Accueil</button>
-    <button id="btn-recherche" onclick="afficherRecherche()"><span class="ico">🔍</span>Recherche</button>
-    <button id="btn-examen" onclick="afficherExamen()"><span class="ico">🎓</span>Examen</button>
-    <button id="btn-notes" onclick="afficherNotes()"><span class="ico">📒</span>Notes</button>
-    <button id="btn-reglages" onclick="afficherReglages()"><span class="ico">⚙️</span>Réglages</button>
+    <button id="btn-accueil" class="actif" onclick="afficherAccueil()">
+      <span class="ico">🏠</span>Accueil
+    </button>
+    <button id="btn-recherche" onclick="afficherRecherche()">
+      <span class="ico">🔍</span>Recherche
+    </button>
+    <button id="btn-examen" onclick="afficherExamen()">
+      <span class="ico">🎓</span>Examen
+    </button>
+    <button id="btn-notes" onclick="afficherNotes()">
+      <span class="ico">📒</span>Notes
+    </button>
+    <button id="btn-reglages" onclick="afficherReglages()">
+      <span class="ico">⚙️</span>Réglages
+    </button>
   </nav>
 
   <script>
-    // Charge data.js avec une adresse renouvelée à chaque ouverture.
-    document.write('<script src="js/data.js?v=' + Date.now() + '"><\/script>');
-  </script>
-  <script src="js/paywall-config.js?v=2"></script>
-  <script src="js/cles.js?v=2"></script>
-  <script src="js/app.js?v=3.49"></script>
-  <script src="js/examen.js?v=3.49"></script>
-  <script src="js/paywall.js?v=3"></script>
-  <script src="js/accueil.js?v=2"></script>
+    (function () {
+      var ecranChargement = document.getElementById('ecran');
+      var barre = document.querySelector('.barre-bas');
 
+      barre.style.display = 'none';
+      ecranChargement.innerHTML =
+        '<div class="vide">📚 Chargement des matières…<br>' +
+        'Merci de patienter.</div>';
+
+      function chargerScript(url) {
+        return new Promise(function (resolve, reject) {
+          var script = document.createElement('script');
+          script.src = url;
+
+          script.onload = function () {
+            resolve();
+          };
+
+          script.onerror = function () {
+            reject(new Error('Impossible de charger ' + url));
+          };
+
+          document.body.appendChild(script);
+        });
+      }
+
+      chargerScript('js/data.js?v=4.05-2')
+        .then(function () {
+          if (typeof chargementContenuGuide === 'undefined') {
+            throw new Error('Version de data.js non compatible.');
+          }
+          return chargementContenuGuide;
+        })
+        .then(function () {
+          return chargerScript('js/paywall-config.js?v=2');
+        })
+        .then(function () {
+          return chargerScript('js/cles.js?v=2');
+        })
+        .then(function () {
+          return chargerScript('js/app.js?v=3.49');
+        })
+        .then(function () {
+          return chargerScript('js/examen.js?v=3.49');
+        })
+        .then(function () {
+          return chargerScript('js/paywall.js?v=3');
+        })
+        .then(function () {
+          return chargerScript('js/accueil.js?v=2');
+        })
+        .then(function () {
+          // La classe "cachee" de l'application continue de gérer
+          // la visibilité de la barre sur l'accueil.
+          barre.style.display = '';
+        })
+        .catch(function (erreur) {
+          ecranChargement.innerHTML = '';
+
+          var message = document.createElement('div');
+          message.className = 'vide';
+          message.textContent =
+            'Le chargement de Guide a échoué. ' +
+            'Vérifie ta connexion et réessaie. ' +
+            'Détail : ' + erreur.message;
+
+          var bouton = document.createElement('button');
+          bouton.className = 'btn-principal';
+          bouton.textContent = 'Réessayer';
+          bouton.onclick = function () {
+            location.reload();
+          };
+
+          ecranChargement.appendChild(message);
+          ecranChargement.appendChild(bouton);
+        });
+    })();
+  </script>
 </body>
 </html>
