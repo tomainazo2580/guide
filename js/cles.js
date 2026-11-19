@@ -1,4 +1,5 @@
-// ===== GUIDE - Déblocage simple par appareil et matière =====
+// ===== GUIDE - Déblocage par appareil, classe et matière =====
+// Accès premium : un an à partir de l'activation.
 
 var GUIDE_ALPHABET = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789';
 
@@ -12,6 +13,7 @@ function obtenirIdAppareil() {
 
   if (window.crypto && window.crypto.getRandomValues) {
     window.crypto.getRandomValues(nombres);
+
     for (var i = 0; i < nombres.length; i++) {
       caracteres += GUIDE_ALPHABET.charAt(
         nombres[i] % GUIDE_ALPHABET.length
@@ -30,8 +32,7 @@ function obtenirIdAppareil() {
   return id;
 }
 
-// Ce calcul sera aussi utilisé par le générateur privé.
-// Il ne constitue pas une protection forte.
+// Le calcul reste identique à celui du générateur actuel.
 function calculerCodeGuide(id, classeId, matiereId) {
   var texte = id + '|' + classeId + '|' + matiereId + '|premium';
   var h = 13;
@@ -41,6 +42,7 @@ function calculerCodeGuide(id, classeId, matiereId) {
   }
 
   h = (h * 7 + 20260) % 1000000;
+
   var code = String(h).padStart(6, '0');
   return code.slice(0, 3) + '-' + code.slice(3);
 }
@@ -58,12 +60,33 @@ function lireAccesGuide() {
   }
 }
 
+// Vérifie si l'accès à cette matière est encore valable.
 function estPremium(classeId, matiereId) {
   var acces = lireAccesGuide();
-  return acces[classeId + '|' + matiereId] === 'premium';
+  var cle = classeId + '|' + matiereId;
+  var entree = acces[cle];
+
+  // Les anciens accès de test ne contiennent pas de date.
+  // Leur année commence lors de leur première vérification
+  // après cette mise à jour.
+  if (entree === 'premium') {
+    var expiration = new Date();
+    expiration.setFullYear(expiration.getFullYear() + 1);
+
+    entree = { expiration: expiration.getTime() };
+    acces[cle] = entree;
+    localStorage.setItem('guide_cles', JSON.stringify(acces));
+  }
+
+  return !!(
+    entree &&
+    typeof entree === 'object' &&
+    typeof entree.expiration === 'number' &&
+    Date.now() < entree.expiration
+  );
 }
 
-// Vérifie le code pour la classe et la matière choisies.
+// Vérifie et active le code pour la classe et la matière choisies.
 function activerCodeGuide(code, classeId, matiereId) {
   var saisie = normaliserCodeGuide(code);
 
@@ -79,9 +102,20 @@ function activerCodeGuide(code, classeId, matiereId) {
     return { ok: false, message: 'Code incorrect pour cette matière.' };
   }
 
-  var acces = lireAccesGuide();
-  acces[classeId + '|' + matiereId] = 'premium';
-  localStorage.setItem('guide_cles', JSON.stringify(acces));
+  // Ne prolonge pas l'accès si l'élève ressaisit le code
+  // alors que son année est encore en cours.
+  if (estPremium(classeId, matiereId)) {
+    return { ok: true };
+  }
 
+  var expiration = new Date();
+  expiration.setFullYear(expiration.getFullYear() + 1);
+
+  var acces = lireAccesGuide();
+  acces[classeId + '|' + matiereId] = {
+    expiration: expiration.getTime()
+  };
+
+  localStorage.setItem('guide_cles', JSON.stringify(acces));
   return { ok: true };
 }
