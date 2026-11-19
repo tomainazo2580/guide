@@ -43,7 +43,7 @@
       ' — ' + classe + '</h2>';
     html += '<div class="bloc bloc-definition">';
     html += '<div class="bloc-texte">';
-    html += '<strong>' + prix + ' Ar</strong> — accès permanent<br><br>';
+    html += '<strong>' + prix + ' Ar</strong> — accès pendant un an à partir de l’activation<br><br>⚠️ L’accès est enregistré sur cet appareil. Si tu effaces les données du navigateur ou de l’application, tu peux perdre ton accès.<br><br>';
     html += 'Tiana Stephan<br>';
     html += '034 39 949 07<br>';
     html += '033 16 443 49<br>';
