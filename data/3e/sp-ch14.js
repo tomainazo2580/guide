@@ -189,3 +189,73 @@ enregistrerChapitres("3e", "sp", [
           {
             type: "regle",
             titre: "Sécurité",
+            texte: "Ne réalise pas d'expérience sur une prise ou avec le courant du secteur. Utilise seulement du matériel basse tension adapté sous surveillance. Une résistance peut chauffer : ne la touche pas immédiatement après son fonctionnement."
+          }
+        ]
+      }
+    ],
+
+    exercices: [
+      {
+        niveau: 1,
+        points: 2,
+        enonce: "Donne le symbole et l'unité de la puissance électrique. Le kWh est-il une unité de puissance ou d'énergie ?",
+        correction: "La puissance se note P et s'exprime en watts, de symbole W. Le kilowattheure, noté kWh, est une unité d'énergie."
+      },
+      {
+        niveau: 1,
+        points: 3,
+        enonce: "Convertis : a) 2 kW en W ; b) 350 W en kW ; c) 3 min en secondes.",
+        correction: "a) 2 kW = 2 × 1 000 = 2 000 W. b) 350 W = 350 ÷ 1 000 = 0,35 kW. c) 3 min = 3 × 60 = 180 s."
+      },
+      {
+        niveau: 2,
+        points: 3,
+        enonce: "En courant continu, une lampe est soumise à 12 V et traversée par un courant de 0,25 A. Calcule sa puissance.",
+        correction: "On utilise P = U × I. Donc P = 12 × 0,25 = 3 W."
+      },
+      {
+        niveau: 2,
+        points: 3,
+        enonce: "Un appareil fonctionne en courant continu sous 6 V et consomme une puissance de 9 W. Calcule l'intensité du courant.",
+        correction: "Avec P = U × I, on obtient I = P ÷ U. Donc I = 9 ÷ 6 = 1,5 A."
+      },
+      {
+        niveau: 2,
+        points: 3,
+        enonce: "Une lampe de puissance constante 15 W fonctionne pendant 4 min. Calcule l'énergie consommée en joules.",
+        correction: "On convertit la durée : 4 min = 4 × 60 = 240 s. Puis E = P × t = 15 × 240 = 3 600 J."
+      },
+      {
+        niveau: 3,
+        points: 3,
+        enonce: "Un appareil de 800 W fonctionne à puissance constante pendant 3 h. Calcule son énergie consommée en kWh.",
+        correction: "On convertit la puissance : 800 W = 0,8 kW. Donc E = P × t = 0,8 × 3 = 2,4 kWh."
+      },
+      {
+        niveau: 3,
+        points: 3,
+        enonce: "Convertis une énergie de 2 kWh en joules.",
+        correction: "Comme 1 kWh = 3 600 000 J, alors 2 kWh = 2 × 3 600 000 = 7 200 000 J, soit 7,2 × 10⁶ J."
+      },
+      {
+        niveau: 3,
+        points: 3,
+        enonce: "Deux lampes de 25 W fonctionnent chacune pendant 4 h à puissance constante. Calcule l'énergie totale consommée en kWh.",
+        correction: "Chaque lampe a une puissance de 25 W = 0,025 kW. Une lampe consomme E = 0,025 × 4 = 0,10 kWh. Les deux lampes consomment donc 2 × 0,10 = 0,20 kWh."
+      },
+      {
+        niveau: 3,
+        points: 3,
+        enonce: "Une résistance de 20 Ω est traversée par un courant continu de 0,5 A. Calcule la puissance dissipée par effet Joule.",
+        correction: "Pour un conducteur ohmique, P = R × I². Donc P = 20 × 0,5² = 20 × 0,25 = 5 W."
+      },
+      {
+        niveau: 4,
+        points: 6,
+        enonce: "Exercice type BEPC. Trois lampes de 20 W fonctionnent chacune 5 h par jour pendant 30 jours, à puissance constante. 1. Calcule leur énergie totale consommée en kWh. 2. Estime son coût si le prix fictif est de 800 Ar par kWh. 3. Si chaque lampe fonctionne seulement 3 h par jour pendant les mêmes 30 jours, quelle énergie est économisée ?",
+        correction: "1. Puissance totale : 3 × 20 = 60 W = 0,060 kW. Durée totale : 5 × 30 = 150 h. Énergie : E = 0,060 × 150 = 9 kWh. 2. Coût estimé : 9 × 800 = 7 200 Ar, hors autres frais éventuels. 3. Nouvelle durée : 3 × 30 = 90 h. Nouvelle énergie : 0,060 × 90 = 5,4 kWh. Énergie économisée : 9 − 5,4 = 3,6 kWh."
+      }
+    ]
+  }
+]);
