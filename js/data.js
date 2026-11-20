@@ -1,12 +1,12 @@
 // ===== GUIDE — Classes, matières et chargement des chapitres =====
 
-var VERSION = 'v4.05';
+var VERSION = 'v4.06';
 
 var CLASSES = [
   { id: '6e', nom: 'Sixieme', dispo: true },
   { id: '5e', nom: 'Cinquieme', dispo: true },
   { id: '4e', nom: 'Quatrieme', dispo: true },
-  { id: '3e', nom: 'Troisieme', dispo: false },
+  { id: '3e', nom: 'Troisieme', dispo: true },
   { id: '2nde', nom: 'Seconde', dispo: false },
   { id: '1ere', nom: 'Premiere', dispo: false },
   { id: 'tle', nom: 'Terminale', dispo: false }
@@ -208,6 +208,73 @@ var MATIERES = {
       icone: '🇬🇧',
       dispo: true,
       fichiers: fichiersGuide('4e', 'eng', 16)
+    },
+    {
+      id: 'hg',
+      nom: 'Histoire',
+      court: 'Hist',
+      icone: '🌍',
+      dispo: false,
+      fichiers: []
+    },
+    {
+      id: 'geo',
+      nom: 'Geographie',
+      court: 'Geo',
+      icone: '🗺️',
+      dispo: false,
+      fichiers: []
+    }
+  ],
+
+  '3e': [
+    {
+      id: 'maths',
+      nom: 'Mathematiques',
+      court: 'Maths',
+      icone: '📐',
+      dispo: true,
+      fichiers: fichiersGuide('3e', 'maths', 15)
+    },
+    {
+      id: 'sp',
+      nom: 'Sciences Physiques',
+      court: 'SP',
+      icone: '⚗️',
+      dispo: false,
+      fichiers: []
+    },
+    {
+      id: 'svt',
+      nom: 'Sciences de la Vie et de la Terre',
+      court: 'SVT',
+      icone: '🌱',
+      dispo: false,
+      fichiers: []
+    },
+    {
+      id: 'mal',
+      nom: 'Malagasy',
+      court: 'Mal',
+      icone: '🇲🇬',
+      dispo: false,
+      fichiers: []
+    },
+    {
+      id: 'fr',
+      nom: 'Francais',
+      court: 'Fr',
+      icone: '📖',
+      dispo: false,
+      fichiers: []
+    },
+    {
+      id: 'eng',
+      nom: 'Anglais',
+      court: 'Ang',
+      icone: '🇬🇧',
+      dispo: false,
+      fichiers: []
     },
     {
       id: 'hg',
