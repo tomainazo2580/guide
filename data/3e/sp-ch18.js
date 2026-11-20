@@ -4,7 +4,6 @@ enregistrerChapitres("3e", "sp", [
     titre: "Chapitre 18 : Travail et puissance mécaniques",
     premium: false,
     guide: false,
-
     lecons: [
       {
         id: 1,
@@ -27,7 +26,6 @@ enregistrerChapitres("3e", "sp", [
           }
         ]
       },
-
       {
         id: 2,
         titre: "Force dans la direction du déplacement",
@@ -59,7 +57,6 @@ enregistrerChapitres("3e", "sp", [
           }
         ]
       },
-
       {
         id: 3,
         titre: "Force perpendiculaire et cas général",
@@ -68,6 +65,12 @@ enregistrerChapitres("3e", "sp", [
             type: "regle",
             titre: "Force perpendiculaire",
             texte: "Si une force constante est perpendiculaire au déplacement rectiligne de son point d’application, son travail est nul : W = 0 J."
+          },
+          {
+            type: "schema",
+            titre: "Orientation de la force et signe du travail",
+            svg: "<svg viewBox='0 0 400 285' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Travail positif, négatif ou nul selon l’orientation de la force'><text x='200' y='20' text-anchor='middle' font-size='14'>Dans les trois cas, le déplacement est vers la droite.</text><text x='20' y='53' font-size='14' font-weight='bold'>Même sens : W positif</text><rect x='45' y='65' width='45' height='30' fill='#dbeafe' stroke='#2563eb'/><line x1='70' y1='80' x2='150' y2='80' stroke='#dc2626' stroke-width='3'/><path d='M150 80 L138 73 L138 87 Z' fill='#dc2626'/><text x='160' y='85' font-size='13' fill='#b91c1c'>F</text><line x1='230' y1='80' x2='330' y2='80' stroke='#475569' stroke-width='3'/><path d='M330 80 L318 73 L318 87 Z' fill='#475569'/><text x='280' y='65' text-anchor='middle' font-size='12'>déplacement</text><text x='20' y='129' font-size='14' font-weight='bold'>Sens opposé : W négatif</text><rect x='115' y='141' width='45' height='30' fill='#dbeafe' stroke='#2563eb'/><line x1='138' y1='156' x2='58' y2='156' stroke='#dc2626' stroke-width='3'/><path d='M58 156 L70 149 L70 163 Z' fill='#dc2626'/><text x='40' y='161' font-size='13' fill='#b91c1c'>F</text><line x1='230' y1='156' x2='330' y2='156' stroke='#475569' stroke-width='3'/><path d='M330 156 L318 149 L318 163 Z' fill='#475569'/><text x='280' y='141' text-anchor='middle' font-size='12'>déplacement</text><text x='20' y='205' font-size='14' font-weight='bold'>Perpendiculaire : W nul</text><rect x='115' y='231' width='45' height='30' fill='#dbeafe' stroke='#2563eb'/><line x1='138' y1='246' x2='138' y2='211' stroke='#dc2626' stroke-width='3'/><path d='M138 211 L131 223 L145 223 Z' fill='#dc2626'/><text x='148' y='226' font-size='13' fill='#b91c1c'>F</text><line x1='230' y1='246' x2='330' y2='246' stroke='#475569' stroke-width='3'/><path d='M330 246 L318 239 L318 253 Z' fill='#475569'/><text x='280' y='231' text-anchor='middle' font-size='12'>déplacement</text><text x='200' y='280' text-anchor='middle' font-size='12'>Force constante et déplacement rectiligne du point d’application</text></svg>",
+            legende: "La flèche rouge représente la force étudiée et la flèche grise indique le déplacement de son point d’application."
           },
           {
             type: "exemple",
@@ -91,7 +94,6 @@ enregistrerChapitres("3e", "sp", [
           }
         ]
       },
-
       {
         id: 4,
         titre: "Travail du poids",
@@ -123,7 +125,6 @@ enregistrerChapitres("3e", "sp", [
           }
         ]
       },
-
       {
         id: 5,
         titre: "La puissance mécanique",
@@ -150,7 +151,6 @@ enregistrerChapitres("3e", "sp", [
           }
         ]
       },
-
       {
         id: 6,
         titre: "Méthode et bilan",
@@ -173,7 +173,67 @@ enregistrerChapitres("3e", "sp", [
         ]
       }
     ],
-
     exercices: [
       {
         niveau: 1,
+        points: 2,
+        enonce: "Quelle est l’unité du travail mécanique ? Quelle est l’unité de la puissance mécanique ?",
+        correction: "Le travail mécanique s’exprime en joules, de symbole J. La puissance mécanique s’exprime en watts, de symbole W."
+      },
+      {
+        niveau: 1,
+        points: 2,
+        enonce: "Une personne pousse un mur qui reste immobile. Quel est le travail de la force exercée sur le mur ?",
+        correction: "Le mur ne se déplace pas. Le travail mécanique de la force exercée sur le mur est donc nul : W = 0 J."
+      },
+      {
+        niveau: 2,
+        points: 3,
+        enonce: "Une force constante de 15 N agit dans le sens d’un déplacement rectiligne de 4 m. Calcule son travail.",
+        correction: "La force est dans le même sens que le déplacement.\n\nW = F × d = 15 × 4 = 60 J.\n\nLe travail est positif : c’est un travail moteur."
+      },
+      {
+        niveau: 2,
+        points: 3,
+        enonce: "Une force de frottement constante de 5 N s’oppose au déplacement rectiligne d’une caisse sur 6 m. Calcule son travail.",
+        correction: "La force est opposée au déplacement.\n\nW = −F × d = −5 × 6 = −30 J.\n\nLe travail est négatif : c’est un travail résistant."
+      },
+      {
+        niveau: 2,
+        points: 3,
+        enonce: "Un objet se déplace horizontalement sur une table. Quel est le travail de son poids pendant ce déplacement ? Justifie.",
+        correction: "Le poids est vertical tandis que le déplacement est horizontal. Le poids est donc perpendiculaire au déplacement.\n\nSon travail est nul : W = 0 J."
+      },
+      {
+        niveau: 3,
+        points: 4,
+        enonce: "Un objet de masse 3 kg descend verticalement de 2 m. On prend g = 10 N/kg. Calcule le travail de son poids.",
+        correction: "Le poids vaut P = m × g = 3 × 10 = 30 N.\n\nLe poids et le déplacement sont tous deux dirigés vers le bas. Le travail est positif :\n\nW du poids = P × h = 30 × 2 = 60 J."
+      },
+      {
+        niveau: 3,
+        points: 4,
+        enonce: "Une machine fournit un travail de 1 200 J en 30 s. Calcule sa puissance mécanique moyenne.",
+        correction: "P = W / t = 1 200 / 30 = 40 W.\n\nLa puissance mécanique moyenne est 40 W."
+      },
+      {
+        niveau: 3,
+        points: 4,
+        enonce: "Une machine développe une puissance mécanique moyenne de 200 W pendant 2 min. Calcule le travail fourni.",
+        correction: "On convertit la durée : 2 min = 120 s.\n\nW = P × t = 200 × 120 = 24 000 J.\n\nLe travail fourni est 24 000 J."
+      },
+      {
+        niveau: 3,
+        points: 4,
+        enonce: "Un seau de masse 5 kg est soulevé verticalement de 4 m à vitesse constante. On néglige les autres forces et on prend g = 10 N/kg. Calcule le travail du poids et celui de la force qui soulève le seau.",
+        correction: "Le poids vaut P = m × g = 5 × 10 = 50 N.\n\nLe poids est opposé à la montée : son travail est −50 × 4 = −200 J.\n\nÀ vitesse constante, avec les forces indiquées, la force qui soulève le seau vaut 50 N et est dirigée vers le haut. Son travail est donc +50 × 4 = +200 J."
+      },
+      {
+        niveau: 4,
+        points: 6,
+        enonce: "Exercice type BEPC. Une machine soulève verticalement une charge de masse 20 kg sur une hauteur de 5 m, à vitesse constante, en 10 s. On néglige les autres forces et on prend g = 10 N/kg.\n\n1. Calcule le poids de la charge.\n2. Détermine l’intensité de la force exercée par la machine sur la charge.\n3. Calcule le travail de cette force.\n4. Calcule le travail du poids.\n5. Calcule la puissance mécanique moyenne fournie à la charge par la machine.",
+        correction: "1. Poids : P = m × g = 20 × 10 = 200 N.\n\n2. La charge monte à vitesse constante et les autres forces sont négligées. La force de la machine compense le poids : son intensité vaut 200 N, vers le haut.\n\n3. La force de la machine est dans le sens du déplacement : W machine = 200 × 5 = +1 000 J.\n\n4. Le poids est opposé au déplacement : W poids = −200 × 5 = −1 000 J.\n\n5. Puissance moyenne fournie à la charge : P = W machine / t = 1 000 / 10 = 100 W.\n\nCette valeur concerne la puissance mécanique fournie à la charge, pas nécessairement la puissance électrique consommée par la machine."
+      }
+    ]
+  }
+]);
