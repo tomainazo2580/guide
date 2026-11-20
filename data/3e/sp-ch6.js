@@ -31,6 +31,12 @@ enregistrerChapitres("3e", "sp", [
             texte: "Un atome de sodium Na perd un électron et devient l’ion sodium Na⁺ :\n\nNa → Na⁺ + e⁻.\n\nUn atome de chlore Cl gagne un électron et devient l’ion chlorure Cl⁻ :\n\nCl + e⁻ → Cl⁻.\n\nLe symbole e⁻ désigne un électron."
           },
           {
+            type: "schema",
+            titre: "Perte ou gain d’un électron",
+            svg: "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 205' role='img' aria-label='Formation des ions sodium et chlorure'><rect width='320' height='205' fill='white'/><text x='160' y='25' text-anchor='middle' font-size='16' fill='#0f172a'>Formation d’un cation</text><rect x='18' y='39' width='82' height='42' rx='8' fill='#e2e8f0'/><text x='59' y='66' text-anchor='middle' font-size='19' fill='#0f172a'>Na</text><path d='M110 60 L205 60 M195 54 L205 60 L195 66' fill='none' stroke='#475569' stroke-width='2'/><text x='158' y='52' text-anchor='middle' font-size='12' fill='#475569'>perte de e⁻</text><rect x='218' y='39' width='82' height='42' rx='8' fill='#dbeafe'/><text x='259' y='66' text-anchor='middle' font-size='19' fill='#1d4ed8'>Na⁺</text><text x='160' y='116' text-anchor='middle' font-size='16' fill='#0f172a'>Formation d’un anion</text><rect x='18' y='130' width='82' height='42' rx='8' fill='#e2e8f0'/><text x='59' y='157' text-anchor='middle' font-size='19' fill='#0f172a'>Cl</text><path d='M110 151 L205 151 M195 145 L205 151 L195 157' fill='none' stroke='#475569' stroke-width='2'/><text x='158' y='143' text-anchor='middle' font-size='12' fill='#475569'>gain de e⁻</text><rect x='218' y='130' width='82' height='42' rx='8' fill='#dcfce7'/><text x='259' y='157' text-anchor='middle' font-size='19' fill='#047857'>Cl⁻</text><text x='160' y='194' text-anchor='middle' font-size='13' fill='#475569'>e⁻ représente un électron</text></svg>",
+            legende: "Un atome qui perd un électron négatif devient ici un cation positif. Un atome qui gagne un électron devient ici un anion négatif. Le schéma montre deux exemples distincts."
+          },
+          {
             type: "remarque",
             titre: "À ne pas confondre",
             texte: "Na est un atome neutre ; Na⁺ est un ion positif. Cl est un atome neutre ; Cl⁻ est un ion négatif.\n\nLe symbole Cl désigne l’élément chlore ou un atome de chlore selon le contexte. La molécule de dichlore, elle, a pour formule Cl₂."
@@ -126,6 +132,12 @@ enregistrerChapitres("3e", "sp", [
               ["Fe³⁺", "Brun-rouille", "Fe(OH)₃"],
               ["Zn²⁺", "Blanc", "Zn(OH)₂"]
             ]
+          },
+          {
+            type: "schema",
+            titre: "Couleurs de quelques précipités",
+            svg: "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 210' role='img' aria-label='Couleurs schématiques des précipités obtenus avec la soude'><rect width='320' height='210' fill='white'/><text x='160' y='23' text-anchor='middle' font-size='15' fill='#0f172a'>Après ajout de solution de soude</text><g fill='none' stroke='#475569' stroke-width='2'><path d='M29 55 L29 132 Q29 146 43 146 L56 146 Q70 146 70 132 L70 55'/><path d='M99 55 L99 132 Q99 146 113 146 L126 146 Q140 146 140 132 L140 55'/><path d='M169 55 L169 132 Q169 146 183 146 L196 146 Q210 146 210 132 L210 55'/><path d='M239 55 L239 132 Q239 146 253 146 L266 146 Q280 146 280 132 L280 55'/></g><path d='M31 126 L68 126 L68 132 Q68 144 56 144 L43 144 Q31 144 31 132 Z' fill='#3b82f6'/><path d='M101 126 L138 126 L138 132 Q138 144 126 144 L113 144 Q101 144 101 132 Z' fill='#22c55e'/><path d='M171 126 L208 126 L208 132 Q208 144 196 144 L183 144 Q171 144 171 132 Z' fill='#b45309'/><path d='M241 126 L278 126 L278 132 Q278 144 266 144 L253 144 Q241 144 241 132 Z' fill='#f1f5f9' stroke='#94a3b8'/><text x='49' y='169' text-anchor='middle' font-size='14' fill='#0f172a'>Cu²⁺</text><text x='119' y='169' text-anchor='middle' font-size='14' fill='#0f172a'>Fe²⁺</text><text x='189' y='169' text-anchor='middle' font-size='14' fill='#0f172a'>Fe³⁺</text><text x='259' y='169' text-anchor='middle' font-size='14' fill='#0f172a'>Zn²⁺</text><text x='49' y='189' text-anchor='middle' font-size='12' fill='#334155'>bleu</text><text x='119' y='189' text-anchor='middle' font-size='12' fill='#334155'>vert</text><text x='189' y='189' text-anchor='middle' font-size='12' fill='#334155'>brun</text><text x='259' y='189' text-anchor='middle' font-size='12' fill='#334155'>blanc</text></svg>",
+            legende: "Représentation simplifiée des précipités attendus dans les tests du cours. Les couleurs peuvent varier à l’écran. Le précipité vert de Fe(OH)₂ peut brunir à l’air ; celui de Zn(OH)₂ peut se dissoudre dans un excès de soude."
           },
           {
             type: "exemple",
