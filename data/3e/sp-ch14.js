@@ -1,7 +1,7 @@
 enregistrerChapitres("3e", "sp", [
   {
     id: 14,
-    titre: "Puissance et énergie électriques",
+    titre: "Chapitre 14 : Puissance et énergie électriques",
     premium: false,
     guide: false,
 
