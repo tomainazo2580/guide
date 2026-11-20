@@ -55,7 +55,7 @@ enregistrerChapitres("3e", "sp", [
           {
             type: "regle",
             titre: "Unités et formules utiles",
-            texte: "Si m est en grammes (g) et V en litres (L), alors Cₘ est en grammes par litre (g/L).\n\nFormule principale : Cₘ = m / V\n\nPour calculer la masse : m = Cₘ × V\n\nPour calculer le volume : V = m / Cₘ"
+            texte: "Si m est en grammes (g) et V en litres (L), alors Cₘ est en grammes par litre (g/L).\n\nFormule principale : Cₘ = m / V\n\nPour calculer la masse : m = Cₘ × V\n\nPour calculer le volume : V = m / Cₘ, si Cₘ n’est pas nulle."
           },
           {
             type: "tableau",
@@ -84,7 +84,7 @@ enregistrerChapitres("3e", "sp", [
           {
             type: "exemple",
             titre: "Exemple détaillé",
-            texte: "On dissout 8 g de sucre pour obtenir 200 mL de solution. Calculons la concentration massique.\n\nDonnées : m = 8 g et V = 200 mL = 0,200 L.\n\nCₘ = m / V\nCₘ = 8 / 0,200\nCₘ = 40 g/L.\n\nLa solution contient donc 40 g de sucre par litre de solution."
+            texte: "On dissout 8 g de sucre pour obtenir 200 mL de solution. Calculons la concentration massique.\n\nDonnées : m = 8 g et V = 200 mL = 0,200 L.\n\nCₘ = m / V\nCₘ = 8 / 0,200\nCₘ = 40 g/L.\n\nLa solution contient donc l’équivalent de 40 g de sucre par litre de solution."
           },
           {
             type: "remarque",
@@ -126,7 +126,7 @@ enregistrerChapitres("3e", "sp", [
           {
             type: "regle",
             titre: "Formules utiles",
-            texte: "C = n / V\nn = C × V\nV = n / C\n\nSi le soluté a pour masse molaire M :\nCₘ = C × M\net C = Cₘ / M.\n\nPour ces relations, utiliser Cₘ en g/L, C en mol/L et M en g/mol."
+            texte: "C = n / V\nn = C × V\nV = n / C, si C n’est pas nulle.\n\nSi le soluté a pour masse molaire M :\nCₘ = C × M\net C = Cₘ / M.\n\nPour ces relations, utiliser Cₘ en g/L, C en mol/L et M en g/mol."
           },
           {
             type: "methode",
@@ -161,6 +161,12 @@ enregistrerChapitres("3e", "sp", [
             texte: "Pour préparer une solution à partir d’un solide, avec le matériel adapté :\n\n1. Calculer la masse de soluté nécessaire.\n2. Peser cette masse à l’aide d’une balance.\n3. Introduire le solide dans une fiole jaugée, éventuellement à l’aide d’un entonnoir.\n4. Ajouter un peu d’eau distillée et agiter pour dissoudre le solide.\n5. Ajouter de l’eau distillée jusqu’au trait de jauge, en terminant goutte à goutte. Lire le bas du ménisque à hauteur des yeux.\n6. Boucher et homogénéiser en retournant plusieurs fois la fiole.\n\nSi l’on utilise un bécher ou un entonnoir, les rincer avec un peu d’eau distillée et verser les eaux de rinçage dans la fiole pour transférer tout le soluté."
           },
           {
+            type: "schema",
+            titre: "Ajuster le volume dans une fiole jaugée",
+            svg: "<svg viewBox='0 0 340 220' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Fiole jaugée avec bas du ménisque au niveau du trait de jauge'><rect width='340' height='220' fill='#f8fafc'/><path d='M125 20 L125 90 C125 112 83 125 83 167 C83 195 104 205 150 205 C196 205 217 195 217 167 C217 125 175 112 175 90 L175 20' fill='none' stroke='#334155' stroke-width='3'/><path d='M127 78 Q150 87 173 78 L173 90 C173 113 215 128 215 167 C215 192 196 203 150 203 C104 203 85 192 85 167 C85 128 127 113 127 90 Z' fill='#bfdbfe'/><path d='M127 78 Q150 87 173 78' fill='none' stroke='#2563eb' stroke-width='2'/><line x1='116' y1='83' x2='184' y2='83' stroke='#dc2626' stroke-width='2'/><line x1='188' y1='83' x2='245' y2='83' stroke='#dc2626' stroke-width='2'/><text x='249' y='79' font-size='13' fill='#991b1b'>Trait de</text><text x='249' y='96' font-size='13' fill='#991b1b'>jauge</text><text x='244' y='137' font-size='13' fill='#334155'>Bas du</text><text x='244' y='154' font-size='13' fill='#334155'>ménisque</text><line x1='240' y1='143' x2='153' y2='86' stroke='#475569' stroke-width='1.5'/></svg>",
+            legende: "Pour une solution aqueuse présentant un ménisque concave, on ajuste le bas du ménisque au trait de jauge en regardant à hauteur des yeux. La fiole contient alors le volume final indiqué."
+          },
+          {
             type: "remarque",
             titre: "Le bon volume",
             texte: "Pour préparer 250 mL de solution, on complète jusqu’à obtenir un volume total de 250 mL. On ne mesure pas simplement 250 mL d’eau avant d’y ajouter le soluté."
@@ -181,6 +187,12 @@ enregistrerChapitres("3e", "sp", [
             type: "definition",
             titre: "Principe",
             texte: "Diluer une solution consiste à ajouter du solvant pour obtenir une solution moins concentrée.\n\nLa solution de départ est la solution mère. La solution obtenue est la solution fille."
+          },
+          {
+            type: "schema",
+            titre: "Du prélèvement à la solution fille",
+            svg: "<svg viewBox='0 0 340 245' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Un prélèvement de 20 millilitres de solution mère est dilué pour obtenir 100 millilitres de solution fille'><rect width='340' height='245' fill='#f8fafc'/><text x='18' y='25' font-size='14' fill='#1e3a8a'>Prélèvement</text><text x='18' y='44' font-size='13' fill='#334155'>20 mL de solution mère</text><path d='M35 62 L35 145 Q35 155 45 155 L100 155 Q110 155 110 145 L110 62' fill='#bfdbfe' stroke='#334155' stroke-width='2'/><circle cx='52' cy='91' r='4' fill='#1d4ed8'/><circle cx='73' cy='103' r='4' fill='#1d4ed8'/><circle cx='93' cy='90' r='4' fill='#1d4ed8'/><circle cx='57' cy='128' r='4' fill='#1d4ed8'/><circle cx='84' cy='132' r='4' fill='#1d4ed8'/><line x1='125' y1='110' x2='189' y2='110' stroke='#475569' stroke-width='3'/><polygon points='188,103 200,110 188,117' fill='#475569'/><text x='127' y='91' font-size='12' fill='#334155'>Ajouter</text><text x='127' y='128' font-size='12' fill='#334155'>de l’eau</text><text x='207' y='25' font-size='14' fill='#1e3a8a'>Solution fille</text><text x='207' y='44' font-size='13' fill='#334155'>Volume final : 100 mL</text><path d='M222 62 L222 145 Q222 155 232 155 L300 155 Q310 155 310 145 L310 62' fill='#dbeafe' stroke='#334155' stroke-width='2'/><circle cx='238' cy='82' r='4' fill='#1d4ed8'/><circle cx='282' cy='91' r='4' fill='#1d4ed8'/><circle cx='258' cy='110' r='4' fill='#1d4ed8'/><circle cx='238' cy='135' r='4' fill='#1d4ed8'/><circle cx='292' cy='135' r='4' fill='#1d4ed8'/><text x='18' y='190' font-size='13' fill='#334155'>Même quantité de soluté prélevé ;</text><text x='18' y='210' font-size='13' fill='#334155'>volume plus grand : concentration plus faible.</text></svg>",
+            legende: "Schéma de principe : les points représentent le soluté du prélèvement. Après ajout d’eau, la même quantité de soluté se trouve dans un volume final plus grand. Les récipients ne sont pas représentés à l’échelle."
           },
           {
             type: "regle",
