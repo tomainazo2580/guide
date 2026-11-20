@@ -1,7 +1,7 @@
 enregistrerChapitres("3e", "sp", [
   {
     id: 10,
-    titre: "Réaction entre une solution acide et une solution basique",
+    titre: "Chapitre 10 : Réaction entre une solution acide et une solution basique",
     premium: false,
     guide: false,
 
