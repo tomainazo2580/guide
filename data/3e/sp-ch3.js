@@ -1,7 +1,7 @@
 enregistrerChapitres("3e", "sp", [
   {
     id: 3,
-    titre: "Réactions chimiques et équations-bilans",
+    titre: "Chapitre 3 : Réactions chimiques et équations-bilans",
     premium: false,
     guide: false,
 
