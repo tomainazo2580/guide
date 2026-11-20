@@ -1,7 +1,7 @@
 enregistrerChapitres("3e", "sp", [
   {
     id: 6,
-    titre: "Les ions et leur identification",
+    titre: "Chapitre 6 : Les ions et leur identification",
     premium: false,
     guide: false,
 
