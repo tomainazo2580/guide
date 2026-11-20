@@ -1,7 +1,7 @@
 enregistrerChapitres("3e", "sp", [
   {
     id: 5,
-    titre: "Hydrocarbures et combustions",
+    titre: "Chapitre 5 : Hydrocarbures et combustions",
     premium: false,
     guide: false,
 
@@ -35,6 +35,56 @@ enregistrerChapitres("3e", "sp", [
             type: "remarque",
             titre: "Attention",
             texte: "Une espèce contenant du carbone et de l’hydrogène n’est pas forcément un hydrocarbure : elle ne doit contenir aucun autre élément. Par exemple, l’éthanol C₂H₆O contient aussi de l’oxygène : ce n’est donc pas un hydrocarbure."
+          }
+        ]
+      },
+
+      {
+        id: 8,
+        titre: "Les alcanes et leurs noms",
+        blocs: [
+          {
+            type: "definition",
+            titre: "Qu’est-ce qu’un alcane ?",
+            texte: "Un alcane est un hydrocarbure saturé : il ne contient que du carbone et de l’hydrogène, et les liaisons entre ses atomes de carbone sont simples.\n\nDans cette leçon, nous étudions les alcanes non cycliques, dont la chaîne ne forme pas de cycle."
+          },
+          {
+            type: "regle",
+            titre: "Formule générale",
+            texte: "La formule générale d’un alcane non cyclique est :\n\nCₙH₂ₙ₊₂\n\noù n est un entier naturel supérieur ou égal à 1. Il représente le nombre d’atomes de carbone. Le nombre d’atomes d’hydrogène est donc 2n + 2."
+          },
+          {
+            type: "exemple",
+            titre: "Trouver une formule",
+            texte: "Un alcane non cyclique possède 5 atomes de carbone. On a donc n = 5.\n\nNombre d’atomes d’hydrogène : 2n + 2 = 2 × 5 + 2 = 12.\n\nSa formule est C₅H₁₂."
+          },
+          {
+            type: "tableau",
+            titre: "Premiers alcanes à chaîne non ramifiée",
+            entetes: ["Nombre de carbones", "Nom", "Formule"],
+            lignes: [
+              ["1", "Méthane", "CH₄"],
+              ["2", "Éthane", "C₂H₆"],
+              ["3", "Propane", "C₃H₈"],
+              ["4", "Butane", "C₄H₁₀"],
+              ["5", "Pentane", "C₅H₁₂"],
+              ["6", "Hexane", "C₆H₁₄"]
+            ]
+          },
+          {
+            type: "methode",
+            titre: "Nommer un alcane à chaîne non ramifiée",
+            texte: "1. Compter les atomes de carbone de la chaîne.\n2. Choisir le début du nom : méth- pour 1, éth- pour 2, prop- pour 3, but- pour 4, pent- pour 5 et hex- pour 6.\n3. Ajouter la terminaison « -ane ».\n\nExemple : une chaîne non ramifiée de 5 atomes de carbone correspond au pentane."
+          },
+          {
+            type: "remarque",
+            titre: "Formule brute et structure",
+            texte: "La formule brute indique le nombre d’atomes de chaque élément, mais pas leur disposition. À partir de 4 atomes de carbone, des alcanes non cycliques peuvent avoir la même formule brute et des structures différentes : ce sont des isomères.\n\nPar exemple, C₄H₁₀ correspond au butane à chaîne non ramifiée ou au 2-méthylpropane, qui est ramifié."
+          },
+          {
+            type: "remarque",
+            titre: "Attention à la formule générale",
+            texte: "CₙH₂ₙ₊₂ s’applique aux alcanes non cycliques. Tous les hydrocarbures ne sont pas des alcanes et ne vérifient donc pas nécessairement cette formule."
           }
         ]
       },
@@ -189,6 +239,7 @@ enregistrerChapitres("3e", "sp", [
             entetes: ["Notion", "À retenir"],
             lignes: [
               ["Hydrocarbure", "Contient uniquement du carbone et de l’hydrogène."],
+              ["Alcane non cyclique", "Sa formule générale est CₙH₂ₙ₊₂."],
               ["Combustion complète", "Produit du dioxyde de carbone et de l’eau."],
               ["Combustion incomplète", "Peut produire du monoxyde de carbone et de la suie."],
               ["Test du CO₂", "L’eau de chaux se trouble."],
@@ -222,6 +273,12 @@ enregistrerChapitres("3e", "sp", [
         points: 2,
         enonce: "Quels sont les produits de la combustion complète d’un hydrocarbure ? Donner leurs formules.",
         correction: "Les produits sont le dioxyde de carbone CO₂ et l’eau H₂O."
+      },
+      {
+        niveau: 2,
+        points: 3,
+        enonce: "Un alcane non cyclique possède 6 atomes de carbone. 1. Écrire la formule générale des alcanes non cycliques. 2. Déterminer sa formule brute. 3. Donner son nom si sa chaîne est non ramifiée.",
+        correction: "1. La formule générale est CₙH₂ₙ₊₂.\n\n2. Ici n = 6. Le nombre d’atomes d’hydrogène vaut 2 × 6 + 2 = 14. La formule brute est donc C₆H₁₄.\n\n3. Si sa chaîne est non ramifiée, cet alcane est l’hexane."
       },
       {
         niveau: 2,
