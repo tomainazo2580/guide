@@ -1,7 +1,7 @@
 enregistrerChapitres("3e", "sp", [
   {
     id: 13,
-    titre: "Résistance électrique et loi d'Ohm",
+    titre: "Chapitre 13 : Résistance électrique et loi d'Ohm",
     premium: false,
     guide: false,
 
