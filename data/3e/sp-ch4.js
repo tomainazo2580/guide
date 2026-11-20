@@ -1,7 +1,7 @@
 enregistrerChapitres("3e", "sp", [
   {
     id: 4,
-    titre: "Réactions des acides avec les métaux",
+    titre: "Chapitre 4 : Réactions des acides avec les métaux",
     premium: false,
     guide: false,
 
