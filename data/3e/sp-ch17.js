@@ -4,7 +4,6 @@ enregistrerChapitres("3e", "sp", [
     titre: "Chapitre 17 : Forces et interactions",
     premium: false,
     guide: false,
-
     lecons: [
       {
         id: 1,
@@ -32,7 +31,6 @@ enregistrerChapitres("3e", "sp", [
           }
         ]
       },
-
       {
         id: 2,
         titre: "Actions de contact et actions à distance",
@@ -59,7 +57,6 @@ enregistrerChapitres("3e", "sp", [
           }
         ]
       },
-
       {
         id: 3,
         titre: "La force",
@@ -86,7 +83,6 @@ enregistrerChapitres("3e", "sp", [
           }
         ]
       },
-
       {
         id: 4,
         titre: "Représenter et mesurer une force",
@@ -97,9 +93,15 @@ enregistrerChapitres("3e", "sp", [
             texte: "On représente une force par une flèche, appelée vecteur.\n\n• L’origine de la flèche représente le point d’application.\n• La droite qui porte la flèche indique la direction.\n• La pointe indique le sens.\n• La longueur représente l’intensité, selon une échelle choisie."
           },
           {
+            type: "schema",
+            titre: "Les éléments d’une flèche-force",
+            svg: "<svg viewBox='0 0 400 185' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Force appliquée en A, horizontale et dirigée vers la droite'><rect x='35' y='70' width='90' height='55' fill='#dbeafe' stroke='#2563eb' stroke-width='2'/><text x='80' y='102' text-anchor='middle' font-size='15'>objet</text><circle cx='125' cy='98' r='4' fill='#111827'/><line x1='125' y1='98' x2='315' y2='98' stroke='#dc2626' stroke-width='4'/><path d='M315 98 L300 90 L300 106 Z' fill='#dc2626'/><text x='220' y='83' text-anchor='middle' font-size='16' fill='#b91c1c'>force F</text><text x='125' y='145' text-anchor='middle' font-size='13'>A : point</text><text x='125' y='162' text-anchor='middle' font-size='13'>d’application</text><text x='320' y='145' text-anchor='middle' font-size='13'>sens : vers la droite</text><text x='200' y='23' text-anchor='middle' font-size='15'>Direction horizontale</text><text x='200' y='180' text-anchor='middle' font-size='12'>La longueur dépend de l’intensité et de l’échelle choisie.</text></svg>",
+            legende: "La force représentée s’exerce sur l’objet au point A. La flèche indique sa direction, son sens et, avec une échelle, son intensité."
+          },
+          {
             type: "methode",
             titre: "Tracer une force",
-            texte: "1. Repérer le point d’application.\n2. Choisir une échelle, par exemple 1 cm pour 2 N.\n3. Tracer la flèche dans la bonne direction et dans le bon sens.\n4. Calculer sa longueur avec l’échelle.\n5. Indiquer le nom de la force près de la flèche."
+            texte: "1. Repérer le point d’application.\n2. Choisir une échelle, par exemple 1 cm pour 2 N.\n3. Calculer la longueur de la flèche avec l’échelle.\n4. Tracer la flèche à partir du point d’application, dans la bonne direction et dans le bon sens.\n5. Indiquer le nom de la force près de la flèche."
           },
           {
             type: "exemple",
@@ -118,7 +120,6 @@ enregistrerChapitres("3e", "sp", [
           }
         ]
       },
-
       {
         id: 5,
         titre: "Le poids et la masse",
@@ -150,7 +151,6 @@ enregistrerChapitres("3e", "sp", [
           }
         ]
       },
-
       {
         id: 6,
         titre: "Forces et équilibre",
@@ -158,12 +158,18 @@ enregistrerChapitres("3e", "sp", [
           {
             type: "definition",
             titre: "Un objet immobile",
-            texte: "Un objet immobile dans un référentiel donné peut subir plusieurs forces. S’il reste immobile, les forces qui s’exercent sur lui se compensent : leur somme vectorielle est nulle."
+            texte: "Un objet immobile dans un référentiel donné peut subir plusieurs forces. S’il reste immobile dans le référentiel terrestre, les forces qui s’exercent sur lui se compensent : leur somme vectorielle est nulle."
           },
           {
             type: "regle",
             titre: "Équilibre sous deux forces",
             texte: "Si un objet est immobile et soumis à seulement deux forces, celles-ci ont la même direction, des sens opposés et la même intensité. Pour l’équilibre d’un objet étendu, leurs lignes d’action sont également confondues."
+          },
+          {
+            type: "schema",
+            titre: "Objet suspendu et immobile",
+            svg: "<svg viewBox='0 0 400 300' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Objet suspendu soumis à la force de la corde vers le haut et au poids vers le bas'><line x1='135' y1='20' x2='265' y2='20' stroke='#475569' stroke-width='5'/><line x1='200' y1='20' x2='200' y2='120' stroke='#475569' stroke-width='2'/><rect x='155' y='120' width='90' height='65' fill='#dbeafe' stroke='#2563eb' stroke-width='2'/><text x='200' y='158' text-anchor='middle' font-size='14'>objet</text><circle cx='200' cy='120' r='4' fill='#111827'/><line x1='200' y1='120' x2='200' y2='60' stroke='#16a34a' stroke-width='4'/><path d='M200 60 L192 75 L208 75 Z' fill='#16a34a'/><circle cx='200' cy='153' r='4' fill='#111827'/><line x1='200' y1='153' x2='200' y2='213' stroke='#dc2626' stroke-width='4'/><path d='M200 213 L192 198 L208 198 Z' fill='#dc2626'/><text x='220' y='77' font-size='14' fill='#15803d'>Force de la corde</text><text x='220' y='207' font-size='14' fill='#b91c1c'>Poids P</text><text x='200' y='249' text-anchor='middle' font-size='13'>Deux forces de même intensité et de sens opposés</text><text x='200' y='271' text-anchor='middle' font-size='13'>s’exercent sur le même objet.</text><text x='200' y='292' text-anchor='middle' font-size='12'>Flèches de même longueur : même échelle.</text></svg>",
+            legende: "La corde tire l’objet vers le haut au point d’attache. Le poids est représenté au centre de gravité, vers le bas. L’objet est immobile et l’on néglige les autres forces."
           },
           {
             type: "exemple",
@@ -183,7 +189,6 @@ enregistrerChapitres("3e", "sp", [
         ]
       }
     ],
-
     exercices: [
       {
         niveau: 1,
