@@ -1,6 +1,7 @@
 // ===== GUIDE - Mode Examen =====
-// Sujet habituel : 1 exo n1 + 1 n2 + 2 n3 + 1 n4.
-// Sciences physiques 3e : 2 exercices de chimie et 3 de physique.
+// Toutes les classes et matières :
+// 3 exercices de niveau 3 et 2 exercices de niveau 4.
+// Sciences physiques 3e : 2 chimie et 3 physique.
 // Mathématiques 3e : 2 nombres et algèbre, 2 géométrie,
 // 1 statistiques ou probabilités.
 // La note est ramenée sur 20.
@@ -131,21 +132,153 @@ function exaMatieresDispos() {
 
 // ---------- Composition du sujet ----------
 
+// Mélange un tableau en place.
+function exaMelanger(liste) {
+  for (var i = liste.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var temporaire = liste[i];
+    liste[i] = liste[j];
+    liste[j] = temporaire;
+  }
+
+  return liste;
+}
+
+// Construit un sujet respectant les quotas par partie et par niveau.
+// La recherche essaie plusieurs répartitions des niveaux entre les parties.
+// Elle ne tire jamais deux fois le même exercice.
+function exaSujetAvecQuotas(domaines, quotas) {
+  var noms = Object.keys(quotas);
+  var choixParPartie = [];
+
+  for (var i = 0; i < noms.length; i++) {
+    var nom = noms[i];
+    var quota = quotas[nom];
+    var domaine = domaines[nom];
+
+    if (!domaine) return [];
+
+    var options = [];
+
+    // Nombre d'exercices de niveau 3 attribués à cette partie.
+    for (var n3 = 0; n3 <= quota; n3++) {
+      var n4 = quota - n3;
+
+      if (domaine[3].length >= n3 && domaine[4].length >= n4) {
+        options.push({
+          partie: nom,
+          n3: n3,
+          n4: n4
+        });
+      }
+    }
+
+    if (!options.length) return [];
+
+    exaMelanger(options);
+    choixParPartie.push(options);
+  }
+
+  var repartition = [];
+
+  function chercher(index, total3, total4) {
+    if (total3 > 3 || total4 > 2) return false;
+
+    if (index === choixParPartie.length) {
+      return total3 === 3 && total4 === 2;
+    }
+
+    var options = choixParPartie[index];
+
+    for (var j = 0; j < options.length; j++) {
+      var option = options[j];
+
+      repartition.push(option);
+
+      if (chercher(
+        index + 1,
+        total3 + option.n3,
+        total4 + option.n4
+      )) {
+        return true;
+      }
+
+      repartition.pop();
+    }
+
+    return false;
+  }
+
+  if (!chercher(0, 0, 0)) return [];
+
+  var sujet = [];
+
+  for (var r = 0; r < repartition.length; r++) {
+    var rep = repartition[r];
+    var banque3 = domaines[rep.partie][3].slice();
+    var banque4 = domaines[rep.partie][4].slice();
+
+    exaMelanger(banque3);
+    exaMelanger(banque4);
+
+    for (var a = 0; a < rep.n3; a++) {
+      sujet.push(banque3[a]);
+    }
+
+    for (var b = 0; b < rep.n4; b++) {
+      sujet.push(banque4[b]);
+    }
+  }
+
+  return sujet;
+}
+
 function exaComposer(classeId, matiereId) {
   var chapitres = CONTENU[classeId + '|' + matiereId] || [];
+  var estSP3e = classeId === '3e' && matiereId === 'sp';
+  var estMaths3e = classeId === '3e' && matiereId === 'maths';
 
-  // Composition particulière pour les sciences physiques de 3e.
-  if (classeId === '3e' && matiereId === 'sp') {
-    var domaines = {
-      chimie: { 1: [], 2: [], 3: [], 4: [] },
-      physique: { 1: [], 2: [], 3: [], 4: [] }
+  var domaines;
+  var quotas;
+
+  if (estSP3e) {
+    domaines = {
+      chimie: { 3: [], 4: [] },
+      physique: { 3: [], 4: [] }
     };
 
-    for (var ci = 0; ci < chapitres.length; ci++) {
-      var ch = chapitres[ci];
-      var partieChapitre = null;
+    quotas = {
+      chimie: 2,
+      physique: 3
+    };
+  } else if (estMaths3e) {
+    domaines = {
+      algebre: { 3: [], 4: [] },
+      geometrie: { 3: [], 4: [] },
+      donnees: { 3: [], 4: [] }
+    };
 
-      // Chapitres de cours : 1 à 11 en chimie, 12 à 22 en physique.
+    quotas = {
+      algebre: 2,
+      geometrie: 2,
+      donnees: 1
+    };
+  } else {
+    domaines = {
+      general: { 3: [], 4: [] }
+    };
+
+    quotas = {
+      general: 5
+    };
+  }
+
+  for (var ci = 0; ci < chapitres.length; ci++) {
+    var ch = chapitres[ci];
+    var partieChapitre = null;
+
+    if (estSP3e) {
+      // Chapitres SP : 1 à 11 chimie, 12 à 22 physique.
       if (typeof ch.id === 'number') {
         if (ch.id >= 1 && ch.id <= 11) {
           partieChapitre = 'chimie';
@@ -153,226 +286,79 @@ function exaComposer(classeId, matiereId) {
           partieChapitre = 'physique';
         }
       }
-
-      for (var ei = 0; ei < (ch.exercices || []).length; ei++) {
-        var ex = ch.exercices[ei];
-        var partie = partieChapitre;
-
-        // La révision générale contient les deux domaines.
-        if (ch.id === 'sp3-revision-generale') {
-          var enonce = ex.enonce || '';
-
-          if (
-            /^Chimie\./i.test(enonce) ||
-            /^Type BEPC\s*—\s*chimie\./i.test(enonce)
-          ) {
-            partie = 'chimie';
-          } else if (
-            /^Physique\./i.test(enonce) ||
-            /^Type BEPC\s*—\s*physique\./i.test(enonce)
-          ) {
-            partie = 'physique';
-          }
-        }
-
-        if (!partie || !domaines[partie][ex.niveau]) continue;
-
-        domaines[partie][ex.niveau].push({
-          chIndex: ci,
-          exIndex: ei,
-          chapTitre: ch.titre,
-          niveau: ex.niveau,
-          points: ex.points,
-          partie: partie
-        });
+    } else if (estMaths3e) {
+      // Classement selon l'ordre actuel des chapitres de maths.
+      if (ci >= 0 && ci <= 6) {
+        partieChapitre = 'algebre';
+      } else if (ci >= 7 && ci <= 11) {
+        partieChapitre = 'geometrie';
+      } else if (ci >= 12 && ci <= 13) {
+        partieChapitre = 'donnees';
       }
+    } else {
+      partieChapitre = 'general';
     }
 
-    // Deux exercices de chimie, puis trois de physique.
-    var planSP = [
-      { partie: 'chimie', niveau: 1 },
-      { partie: 'chimie', niveau: 3 },
-      { partie: 'physique', niveau: 2 },
-      { partie: 'physique', niveau: 3 },
-      { partie: 'physique', niveau: 4 }
-    ];
+    for (var ei = 0; ei < (ch.exercices || []).length; ei++) {
+      var ex = ch.exercices[ei];
 
-    var sujetSP = [];
+      // Les niveaux 1 et 2 ne sont jamais utilisés en examen.
+      if (ex.niveau !== 3 && ex.niveau !== 4) continue;
 
-    for (var p = 0; p < planSP.length; p++) {
-      var demande = planSP[p];
-      var pool = domaines[demande.partie][demande.niveau];
+      var partie = partieChapitre;
 
-      // Si le niveau prévu est vide, chercher dans le même domaine.
-      if (!pool.length) {
-        for (var niveauSecours = 1; niveauSecours <= 4; niveauSecours++) {
-          if (domaines[demande.partie][niveauSecours].length) {
-            pool = domaines[demande.partie][niveauSecours];
-            break;
-          }
-        }
-      }
-
-      // Ne pas lancer un sujet incomplet ou sans les deux parties.
-      if (!pool.length) return [];
-
-      var choix = Math.floor(Math.random() * pool.length);
-      sujetSP.push(pool.splice(choix, 1)[0]);
-    }
-
-    return sujetSP;
-  }
-
-  // Composition particulière pour les mathématiques de 3e.
-  if (classeId === '3e' && matiereId === 'maths') {
-    var domainesMaths = {
-      algebre: { 1: [], 2: [], 3: [], 4: [] },
-      geometrie: { 1: [], 2: [], 3: [], 4: [] },
-      donnees: { 1: [], 2: [], 3: [], 4: [] }
-    };
-
-    for (var cm = 0; cm < chapitres.length; cm++) {
-      var chapitreMaths = chapitres[cm];
-      var partieMaths = null;
-
-      // Classement selon l'ordre actuel des chapitres :
-      // 1 à 7 : nombres et algèbre ;
-      // 8 à 12 : géométrie et grandeurs ;
-      // 13 et 14 : statistiques et probabilités.
-      if (cm >= 0 && cm <= 6) {
-        partieMaths = 'algebre';
-      } else if (cm >= 7 && cm <= 11) {
-        partieMaths = 'geometrie';
-      } else if (cm >= 12 && cm <= 13) {
-        partieMaths = 'donnees';
-      }
-
-      for (
-        var em = 0;
-        em < (chapitreMaths.exercices || []).length;
-        em++
-      ) {
-        var exerciceMaths = chapitreMaths.exercices[em];
-        var domaineMaths = partieMaths;
-
-        // Révision générale : classement selon l'ordre actuel
-        // des huit exercices du chapitre 15.
-        if (chapitreMaths.id === 'm3-revision-generale') {
-          domaineMaths = null;
-
-          if (em >= 0 && em <= 4) {
-            domaineMaths = 'algebre';
-          } else if (em >= 5 && em <= 6) {
-            domaineMaths = 'geometrie';
-          } else if (em === 7) {
-            domaineMaths = 'donnees';
-          }
-        }
+      // Révision générale SP : classement selon les énoncés.
+      if (estSP3e && ch.id === 'sp3-revision-generale') {
+        partie = null;
+        var enonce = ex.enonce || '';
 
         if (
-          !domaineMaths ||
-          !domainesMaths[domaineMaths][exerciceMaths.niveau]
+          /^Chimie\./i.test(enonce) ||
+          /^Type BEPC\s*—\s*chimie\./i.test(enonce)
         ) {
-          continue;
-        }
-
-        domainesMaths[domaineMaths][exerciceMaths.niveau].push({
-          chIndex: cm,
-          exIndex: em,
-          chapTitre: chapitreMaths.titre,
-          niveau: exerciceMaths.niveau,
-          points: exerciceMaths.points,
-          partie: domaineMaths
-        });
-      }
-    }
-
-    // Deux exercices d'algèbre, deux de géométrie et un de données.
-    // Les niveaux prévus sont 1, 2, 3, 3 et 4 sur l'ensemble.
-    var planMaths = [
-      { partie: 'algebre', niveau: 1 },
-      { partie: 'algebre', niveau: 3 },
-      { partie: 'geometrie', niveau: 2 },
-      { partie: 'geometrie', niveau: 3 },
-      { partie: 'donnees', niveau: 4 }
-    ];
-
-    var sujetMaths = [];
-
-    for (var pm = 0; pm < planMaths.length; pm++) {
-      var demandeMaths = planMaths[pm];
-      var poolMaths =
-        domainesMaths[demandeMaths.partie][demandeMaths.niveau];
-
-      // Si le niveau prévu est vide, chercher dans le même domaine.
-      if (!poolMaths.length) {
-        for (var secoursMaths = 1; secoursMaths <= 4; secoursMaths++) {
-          if (domainesMaths[demandeMaths.partie][secoursMaths].length) {
-            poolMaths = domainesMaths[demandeMaths.partie][secoursMaths];
-            break;
-          }
+          partie = 'chimie';
+        } else if (
+          /^Physique\./i.test(enonce) ||
+          /^Type BEPC\s*—\s*physique\./i.test(enonce)
+        ) {
+          partie = 'physique';
         }
       }
 
-      // Ne pas lancer un sujet incomplet.
-      if (!poolMaths.length) return [];
+      // Révision générale maths : classement selon l'ordre actuel
+      // de ses huit exercices.
+      if (estMaths3e && ch.id === 'm3-revision-generale') {
+        partie = null;
 
-      var choixMaths = Math.floor(Math.random() * poolMaths.length);
-      sujetMaths.push(poolMaths.splice(choixMaths, 1)[0]);
-    }
+        if (ei >= 0 && ei <= 4) {
+          partie = 'algebre';
+        } else if (ei >= 5 && ei <= 6) {
+          partie = 'geometrie';
+        } else if (ei === 7) {
+          partie = 'donnees';
+        }
+      }
 
-    return sujetMaths;
-  }
+      if (!partie || !domaines[partie]) continue;
 
-  // Composition existante pour toutes les autres matières.
-  var parNiveau = { 1: [], 2: [], 3: [], 4: [] };
+      var item = {
+        chIndex: ci,
+        exIndex: ei,
+        chapTitre: ch.titre,
+        niveau: ex.niveau,
+        points: ex.points
+      };
 
-  for (var ci2 = 0; ci2 < chapitres.length; ci2++) {
-    var ch2 = chapitres[ci2];
+      // Les matières sans parties particulières gardent l'affichage habituel.
+      if (partie !== 'general') {
+        item.partie = partie;
+      }
 
-    for (var ei2 = 0; ei2 < (ch2.exercices || []).length; ei2++) {
-      var ex2 = ch2.exercices[ei2];
-      var n = ex2.niveau;
-
-      if (!parNiveau[n]) parNiveau[n] = [];
-
-      parNiveau[n].push({
-        chIndex: ci2,
-        exIndex: ei2,
-        chapTitre: ch2.titre,
-        niveau: ex2.niveau,
-        points: ex2.points
-      });
-    }
-  }
-
-  var plan = [1, 2, 3, 3, 4];
-  var items = [];
-
-  for (var p2 = 0; p2 < plan.length; p2++) {
-    var pool2 = parNiveau[plan[p2]];
-
-    if (pool2 && pool2.length) {
-      var i = Math.floor(Math.random() * pool2.length);
-      items.push(pool2.splice(i, 1)[0]);
+      domaines[partie][ex.niveau].push(item);
     }
   }
 
-  // Secours : complète avec ce qui reste.
-  if (items.length < 5) {
-    var reste = [];
-
-    for (var n2 = 1; n2 <= 4; n2++) {
-      reste = reste.concat(parNiveau[n2] || []);
-    }
-
-    while (items.length < 5 && reste.length) {
-      var j = Math.floor(Math.random() * reste.length);
-      items.push(reste.splice(j, 1)[0]);
-    }
-  }
-
-  return items;
+  return exaSujetAvecQuotas(domaines, quotas);
 }
 
 // ---------- Point d'entrée : onglet Examen ----------
@@ -405,7 +391,8 @@ function exaIntro() {
   html += '<div class="bloc bloc-regle">';
   html += '<div class="bloc-titre">ℹ️ Comment ça marche</div>';
   html += '<div class="bloc-texte">';
-  html += '• Choisis une matière : Guide compose un sujet de 5 exercices, différent à chaque essai.\n';
+  html += '• Choisis une matière : Guide compose un sujet de 5 exercices tirés au hasard.\n';
+  html += '• Le sujet contient 3 exercices de niveau 3 et 2 de niveau 4.\n';
   html += '• Tu as 2 h. Pendant l’épreuve, les leçons et les corrections sont verrouillés.\n';
   html += '• Écris tes réponses sur une feuille.\n';
   html += '• À la fin, tu compares avec le corrigé et tu t’auto-évalues honnêtement.\n';
@@ -443,6 +430,7 @@ function exaConfirmation(classeId, matiereId) {
   html += '<div class="bloc-titre">⏱ Conditions de l’épreuve</div>';
   html += '<div class="bloc-texte">';
   html += '• 5 exercices tirés au hasard — note sur 20\n';
+  html += '• 3 exercices de niveau 3 et 2 de niveau 4\n';
 
   if (classeId === '3e' && matiereId === 'sp') {
     html += '• 2 exercices de chimie et 3 exercices de physique\n';
@@ -476,8 +464,12 @@ function exaConfirmation(classeId, matiereId) {
 function exaLancer(classeId, matiereId) {
   var items = exaComposer(classeId, matiereId);
 
-  if (items.length < 3) {
-    alert("Pas assez d'exercices pour composer un sujet.");
+  if (items.length !== 5) {
+    alert(
+      "Impossible de composer cet examen : il faut assez " +
+      "d'exercices de niveaux 3 et 4 pour respecter les " +
+      "niveaux et les parties demandés."
+    );
     return;
   }
 
