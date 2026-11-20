@@ -1,6 +1,6 @@
 // ===== GUIDE — Classes, matières et chargement des chapitres =====
 
-var VERSION = 'v4.06';
+var VERSION = 'v4.07';
 
 var CLASSES = [
   { id: '6e', nom: 'Sixieme', dispo: true },
@@ -241,8 +241,8 @@ var MATIERES = {
       nom: 'Sciences Physiques',
       court: 'SP',
       icone: '⚗️',
-      dispo: false,
-      fichiers: []
+      dispo: true,
+      fichiers: fichiersGuide('3e', 'sp', 23)
     },
     {
       id: 'svt',
