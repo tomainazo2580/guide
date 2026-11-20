@@ -1,7 +1,7 @@
 enregistrerChapitres("3e", "sp", [
   {
     id: 12,
-    titre: "Intensité du courant et tension électrique",
+    titre: "Chapitre 12 : Intensité du courant et tension électrique",
     premium: false,
     guide: false,
 
