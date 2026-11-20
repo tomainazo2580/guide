@@ -1,7 +1,7 @@
 enregistrerChapitres("3e", "sp", [
   {
     id: 7,
-    titre: "L’électrolyse de l’eau",
+    titre: "Chapitre 7 : L’électrolyse de l’eau",
     premium: false,
     guide: false,
 
