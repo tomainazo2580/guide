@@ -43,6 +43,12 @@ enregistrerChapitres("3e", "sp", [
             texte: "Le pH est un nombre qui permet de caractériser le caractère acide, neutre ou basique d’une solution aqueuse.\n\nPour les solutions courantes étudiées au collège, on utilise souvent une échelle allant de 0 à 14. Certaines solutions très concentrées peuvent toutefois avoir un pH en dehors de cet intervalle."
           },
           {
+            type: "schema",
+            titre: "Repérer le caractère d’une solution",
+            svg: "<svg viewBox='0 0 340 190' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Échelle de pH à 25 degrés Celsius : acide en dessous de 7, neutre à 7 et basique au-dessus de 7'><rect width='340' height='190' fill='#f8fafc'/><text x='170' y='25' text-anchor='middle' font-size='15' fill='#334155'>Repères de pH à 25 °C</text><rect x='20' y='65' width='145' height='35' rx='4' fill='#fecaca'/><rect x='165' y='65' width='10' height='35' fill='#bbf7d0'/><rect x='175' y='65' width='145' height='35' rx='4' fill='#bfdbfe'/><line x1='20' y1='105' x2='320' y2='105' stroke='#334155' stroke-width='2'/><line x1='20' y1='100' x2='20' y2='113' stroke='#334155' stroke-width='2'/><line x1='170' y1='100' x2='170' y2='113' stroke='#334155' stroke-width='2'/><line x1='320' y1='100' x2='320' y2='113' stroke='#334155' stroke-width='2'/><text x='20' y='132' text-anchor='middle' font-size='14' fill='#334155'>0</text><text x='170' y='132' text-anchor='middle' font-size='14' fill='#334155'>7</text><text x='320' y='132' text-anchor='middle' font-size='14' fill='#334155'>14</text><text x='90' y='58' text-anchor='middle' font-size='14' fill='#991b1b'>Acide</text><text x='250' y='58' text-anchor='middle' font-size='14' fill='#1e40af'>Basique</text><text x='170' y='158' text-anchor='middle' font-size='14' fill='#166534'>Neutre à 7</text></svg>",
+            legende: "À 25 °C : pH inférieur à 7, solution acide ; pH égal à 7, solution neutre ; pH supérieur à 7, solution basique. Les couleurs sont des repères sur le schéma, pas les couleurs obligatoires des solutions."
+          },
+          {
             type: "tableau",
             titre: "Lire le pH à 25 °C",
             entetes: ["Valeur du pH", "Nature de la solution"],
@@ -87,7 +93,13 @@ enregistrerChapitres("3e", "sp", [
           {
             type: "methode",
             titre: "Utiliser du papier pH",
-            texte: "1. Placer un petit morceau de papier pH sur une surface propre.\n2. À l’aide d’une baguette propre ou d’une pipette adaptée, déposer une goutte de solution sur le papier.\n3. Comparer immédiatement la couleur obtenue à l’échelle de référence du fabricant.\n4. Lire une valeur approximative du pH et conclure : solution acide, neutre ou basique.\n\nNe pas tremper directement le rouleau de papier dans la solution : cela peut la contaminer."
+            texte: "1. Placer un petit morceau de papier pH sur une surface propre.\n2. À l’aide d’une baguette propre ou d’une pipette adaptée, déposer une goutte de solution sur le papier.\n3. Comparer rapidement la couleur obtenue à l’échelle de référence du fabricant, selon sa notice.\n4. Lire une valeur approximative du pH et conclure lorsque la précision de la mesure le permet.\n\nNe pas tremper directement le rouleau de papier dans la solution : cela peut la contaminer."
+          },
+          {
+            type: "schema",
+            titre: "Principe de la mesure au papier pH",
+            svg: "<svg viewBox='0 0 340 200' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Une goutte de solution est déposée sur du papier pH, puis sa couleur est comparée à une échelle'><rect width='340' height='200' fill='#f8fafc'/><text x='85' y='25' text-anchor='middle' font-size='13' fill='#334155'>1. Déposer une goutte</text><line x1='85' y1='38' x2='85' y2='80' stroke='#475569' stroke-width='4'/><path d='M85 84 C78 95 76 98 76 102 A9 9 0 0 0 94 102 C94 98 92 95 85 84 Z' fill='#60a5fa'/><rect x='35' y='125' width='100' height='25' rx='3' fill='#fde68a' stroke='#a16207'/><text x='85' y='173' text-anchor='middle' font-size='13' fill='#334155'>Papier pH</text><line x1='145' y1='137' x2='190' y2='137' stroke='#475569' stroke-width='2'/><polygon points='188,131 198,137 188,143' fill='#475569'/><text x='263' y='25' text-anchor='middle' font-size='13' fill='#334155'>2. Comparer</text><rect x='215' y='65' width='24' height='35' fill='#ef4444'/><rect x='239' y='65' width='24' height='35' fill='#facc15'/><rect x='263' y='65' width='24' height='35' fill='#4ade80'/><rect x='287' y='65' width='24' height='35' fill='#60a5fa'/><rect x='239' y='125' width='48' height='25' rx='3' fill='#fde68a' stroke='#a16207'/><text x='263' y='173' text-anchor='middle' font-size='13' fill='#334155'>Échelle du fabricant</text></svg>",
+            legende: "Schéma de principe : on dépose une goutte sur le papier, puis on compare la couleur à l’échelle fournie. Les couleurs et les graduations dépendent du papier utilisé."
           },
           {
             type: "definition",
@@ -102,7 +114,7 @@ enregistrerChapitres("3e", "sp", [
           {
             type: "remarque",
             titre: "Estimation ou mesure précise ?",
-            texte: "Le papier pH donne généralement une valeur approximative, car la lecture dépend de la comparaison des couleurs. Le pH-mètre permet de lire une valeur plus précise, par exemple pH = 4,2."
+            texte: "Le papier pH donne généralement une valeur approximative, car la lecture dépend de la comparaison des couleurs. Une lecture proche de 7 ne suffit pas toujours pour affirmer que la solution est exactement neutre.\n\nLe pH-mètre permet une mesure plus précise s’il est correctement utilisé."
           }
         ]
       },
@@ -151,7 +163,7 @@ enregistrerChapitres("3e", "sp", [
           {
             type: "regle",
             titre: "Effet de la dilution sur le pH",
-            texte: "À 25 °C, lorsqu’on dilue une solution acide avec de l’eau pure, son pH augmente et se rapproche de 7.\n\nLorsqu’on dilue une solution basique avec de l’eau pure, son pH diminue et se rapproche de 7.\n\nUne simple dilution par de l’eau pure ne transforme pas une solution acide en solution basique, ni une solution basique en solution acide."
+            texte: "À 25 °C, lorsqu’on dilue une solution acide avec de l’eau pure, son pH augmente et se rapproche de 7.\n\nLorsqu’on dilue une solution basique avec de l’eau pure, son pH diminue et se rapproche de 7.\n\nDans les situations usuelles étudiées au collège, une simple dilution par de l’eau pure ne transforme pas une solution acide en solution basique, ni une solution basique en solution acide."
           },
           {
             type: "exemple",
@@ -240,13 +252,13 @@ enregistrerChapitres("3e", "sp", [
         niveau: 2,
         points: 3,
         enonce: "On dilue avec de l’eau pure une solution de pH 4, à 25 °C. Son pH augmente-t-il ou diminue-t-il ? La solution devient-elle basique par simple dilution ?",
-        correction: "La solution initiale est acide car 4 < 7.\n\nLorsqu’on la dilue avec de l’eau pure, son pH augmente et se rapproche de 7.\n\nNon, une simple dilution par de l’eau pure ne la rend pas basique."
+        correction: "La solution initiale est acide car 4 < 7.\n\nLorsqu’on la dilue avec de l’eau pure, son pH augmente et se rapproche de 7.\n\nDans le cas usuel étudié, une simple dilution par de l’eau pure ne la rend pas basique."
       },
       {
         niveau: 2,
         points: 3,
         enonce: "Une solution basique a un pH de 12. Après dilution avec de l’eau pure, on propose les valeurs suivantes pour son pH : 3 ; 9 ; 13. Quelle valeur est cohérente ? Justifier.",
-        correction: "La valeur cohérente est 9.\n\nLorsqu’on dilue une solution basique, son pH diminue et se rapproche de 7. Il reste supérieur à 7 dans le cadre d’une simple dilution par de l’eau pure.\n\nLa valeur 13 est plus élevée que le pH initial ; la valeur 3 correspond à une solution acide. Elles ne conviennent donc pas."
+        correction: "La valeur cohérente est 9.\n\nLorsqu’on dilue une solution basique, son pH diminue et se rapproche de 7. Il reste supérieur à 7 dans le cadre de la dilution étudiée.\n\nLa valeur 13 est plus élevée que le pH initial ; la valeur 3 correspond à une solution acide. Elles ne conviennent donc pas."
       },
       {
         niveau: 3,
