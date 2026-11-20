@@ -4,7 +4,6 @@ enregistrerChapitres("3e", "sp", [
     titre: "Chapitre 16 : Mouvement et vitesse",
     premium: false,
     guide: false,
-
     lecons: [
       {
         id: 1,
@@ -32,7 +31,6 @@ enregistrerChapitres("3e", "sp", [
           }
         ]
       },
-
       {
         id: 2,
         titre: "La trajectoire",
@@ -53,6 +51,12 @@ enregistrerChapitres("3e", "sp", [
             ]
           },
           {
+            type: "schema",
+            titre: "Trois formes de trajectoires",
+            svg: "<svg viewBox='0 0 400 230' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Trajectoires rectiligne, circulaire et curviligne'><text x='20' y='29' font-size='16' font-weight='bold'>Rectiligne</text><line x1='165' y1='24' x2='350' y2='24' stroke='#2563eb' stroke-width='4'/><circle cx='165' cy='24' r='5' fill='#2563eb'/><circle cx='350' cy='24' r='5' fill='#2563eb'/><text x='20' y='100' font-size='16' font-weight='bold'>Circulaire</text><circle cx='255' cy='95' r='40' fill='none' stroke='#16a34a' stroke-width='4'/><text x='20' y='186' font-size='16' font-weight='bold'>Curviligne</text><path d='M165 195 C205 145 245 220 350 170' fill='none' stroke='#ea580c' stroke-width='4'/><circle cx='165' cy='195' r='5' fill='#ea580c'/><circle cx='350' cy='170' r='5' fill='#ea580c'/><text x='200' y='224' text-anchor='middle' font-size='12'>Trajectoires observées dans un référentiel donné</text></svg>",
+            legende: "La trajectoire est la ligne décrite par le point étudié. Un cercle est également une courbe : une trajectoire circulaire est donc un cas particulier de trajectoire curviligne."
+          },
+          {
             type: "remarque",
             titre: "La trajectoire dépend du référentiel",
             texte: "Un même mouvement peut avoir des trajectoires différentes selon le référentiel choisi. Il faut donc toujours garder à l’esprit le point observé et le référentiel."
@@ -64,7 +68,6 @@ enregistrerChapitres("3e", "sp", [
           }
         ]
       },
-
       {
         id: 3,
         titre: "La vitesse moyenne",
@@ -92,7 +95,13 @@ enregistrerChapitres("3e", "sp", [
           {
             type: "regle",
             titre: "Trois formules",
-            texte: "Pour calculer la vitesse : v = d / t.\n\nPour calculer la distance : d = v × t.\n\nPour calculer la durée : t = d / v.\n\nCes relations s’utilisent avec des unités compatibles. La durée et la vitesse utilisées comme diviseurs doivent être non nulles."
+            texte: "Pour calculer la vitesse moyenne : v = d / t.\n\nPour calculer la distance : d = v × t.\n\nPour calculer la durée : t = d / v.\n\nIci, v est la vitesse moyenne sur le trajet étudié. Ces relations s’utilisent avec des unités compatibles. La durée et la vitesse utilisées comme diviseurs doivent être non nulles."
+          },
+          {
+            type: "schema",
+            titre: "Choisir la formule",
+            svg: "<svg viewBox='0 0 400 190' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Formules de vitesse moyenne, distance et durée'><rect x='30' y='18' width='340' height='44' rx='8' fill='#dbeafe' stroke='#2563eb'/><text x='200' y='46' text-anchor='middle' font-size='19'>Vitesse moyenne : v = d / t</text><rect x='30' y='73' width='340' height='44' rx='8' fill='#dcfce7' stroke='#16a34a'/><text x='200' y='101' text-anchor='middle' font-size='19'>Distance : d = v × t</text><rect x='30' y='128' width='340' height='44' rx='8' fill='#ffedd5' stroke='#ea580c'/><text x='200' y='156' text-anchor='middle' font-size='19'>Durée : t = d / v</text></svg>",
+            legende: "Utilise la vitesse moyenne, la distance et la durée relatives au même trajet, avec des unités compatibles."
           },
           {
             type: "exemple",
@@ -101,7 +110,6 @@ enregistrerChapitres("3e", "sp", [
           }
         ]
       },
-
       {
         id: 4,
         titre: "Convertir les unités",
@@ -133,7 +141,6 @@ enregistrerChapitres("3e", "sp", [
           }
         ]
       },
-
       {
         id: 5,
         titre: "Différents types de mouvement",
@@ -154,6 +161,12 @@ enregistrerChapitres("3e", "sp", [
             texte: "Un mouvement rectiligne uniforme possède deux caractéristiques : sa trajectoire est une droite et sa vitesse est constante.\n\nDans ce cas, pendant une durée t, la distance parcourue vérifie d = v × t."
           },
           {
+            type: "schema",
+            titre: "Positions relevées à intervalles de temps égaux",
+            svg: "<svg viewBox='0 0 400 210' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Comparaison des écarts entre positions relevées à intervalles réguliers'><text x='20' y='26' font-size='15' font-weight='bold'>Écarts égaux</text><line x1='30' y1='52' x2='370' y2='52' stroke='#94a3b8' stroke-width='2'/><circle cx='60' cy='52' r='5' fill='#2563eb'/><circle cx='140' cy='52' r='5' fill='#2563eb'/><circle cx='220' cy='52' r='5' fill='#2563eb'/><circle cx='300' cy='52' r='5' fill='#2563eb'/><text x='20' y='105' font-size='15' font-weight='bold'>Écarts de plus en plus grands</text><line x1='30' y1='131' x2='370' y2='131' stroke='#94a3b8' stroke-width='2'/><circle cx='60' cy='131' r='5' fill='#ea580c'/><circle cx='100' cy='131' r='5' fill='#ea580c'/><circle cx='180' cy='131' r='5' fill='#ea580c'/><circle cx='300' cy='131' r='5' fill='#ea580c'/><text x='200' y='175' text-anchor='middle' font-size='13'>Chaque point représente une position.</text><text x='200' y='197' text-anchor='middle' font-size='13'>Le temps entre deux relevés successifs est le même.</text></svg>",
+            legende: "Sur une trajectoire droite parcourue de gauche à droite, des écarts égaux correspondent à des vitesses moyennes égales sur les intervalles. Des écarts croissants correspondent à des vitesses moyennes croissantes sur ces intervalles."
+          },
+          {
             type: "remarque",
             titre: "Vitesse moyenne et vitesse instantanée",
             texte: "La vitesse moyenne concerne un trajet ou une partie du trajet. La vitesse instantanée est la vitesse à un instant donné.\n\nLe compteur d’un véhicule indique approximativement sa vitesse à l’instant de la lecture, et non nécessairement sa vitesse moyenne depuis le départ."
@@ -165,7 +178,6 @@ enregistrerChapitres("3e", "sp", [
           }
         ]
       },
-
       {
         id: 6,
         titre: "Méthode et sécurité",
@@ -188,7 +200,6 @@ enregistrerChapitres("3e", "sp", [
         ]
       }
     ],
-
     exercices: [
       {
         niveau: 1,
