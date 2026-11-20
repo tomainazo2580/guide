@@ -1,7 +1,7 @@
 enregistrerChapitres("3e", "sp", [
   {
     id: 1,
-    titre: "Solutions, concentration et dilution",
+    titre: "Chapitre 1 : Solutions, concentration et dilution",
     premium: false,
     guide: false,
 
