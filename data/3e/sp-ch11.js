@@ -1,7 +1,7 @@
 enregistrerChapitres("3e", "sp", [
   {
     id: 11,
-    titre: "Indicateurs colorés naturels et artificiels",
+    titre: "Chapitre 11 : Indicateurs colorés naturels et artificiels",
     premium: false,
     guide: false,
 
