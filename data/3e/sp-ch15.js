@@ -4,7 +4,6 @@ enregistrerChapitres("3e", "sp", [
     titre: "Chapitre 15 : Magnétisme et électroaimant",
     premium: false,
     guide: false,
-
     lecons: [
       {
         id: 1,
@@ -32,7 +31,6 @@ enregistrerChapitres("3e", "sp", [
           }
         ]
       },
-
       {
         id: 2,
         titre: "Les pôles d’un aimant",
@@ -48,6 +46,12 @@ enregistrerChapitres("3e", "sp", [
             texte: "Deux pôles de même nom se repoussent : nord et nord, ou sud et sud.\n\nDeux pôles de noms différents s’attirent : nord et sud."
           },
           {
+            type: "schema",
+            titre: "Interaction entre deux aimants",
+            svg: "<svg viewBox='0 0 400 200' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Attraction entre pôles différents et répulsion entre pôles identiques'><text x='200' y='22' text-anchor='middle' font-size='16' font-weight='bold'>Pôles différents : attraction</text><rect x='35' y='36' width='65' height='32' fill='#60a5fa' stroke='#333'/><rect x='100' y='36' width='65' height='32' fill='#f87171' stroke='#333'/><rect x='235' y='36' width='65' height='32' fill='#60a5fa' stroke='#333'/><rect x='300' y='36' width='65' height='32' fill='#f87171' stroke='#333'/><text x='67' y='58' text-anchor='middle' font-size='18'>S</text><text x='132' y='58' text-anchor='middle' font-size='18'>N</text><text x='267' y='58' text-anchor='middle' font-size='18'>S</text><text x='332' y='58' text-anchor='middle' font-size='18'>N</text><text x='200' y='58' text-anchor='middle' font-size='23'>→ ←</text><text x='200' y='117' text-anchor='middle' font-size='16' font-weight='bold'>Pôles identiques : répulsion</text><rect x='35' y='132' width='65' height='32' fill='#60a5fa' stroke='#333'/><rect x='100' y='132' width='65' height='32' fill='#f87171' stroke='#333'/><rect x='235' y='132' width='65' height='32' fill='#f87171' stroke='#333'/><rect x='300' y='132' width='65' height='32' fill='#60a5fa' stroke='#333'/><text x='67' y='154' text-anchor='middle' font-size='18'>S</text><text x='132' y='154' text-anchor='middle' font-size='18'>N</text><text x='267' y='154' text-anchor='middle' font-size='18'>N</text><text x='332' y='154' text-anchor='middle' font-size='18'>S</text><text x='200' y='154' text-anchor='middle' font-size='23'>← →</text><text x='200' y='190' text-anchor='middle' font-size='13'>N : nord — S : sud</text></svg>",
+            legende: "On compare les pôles qui se font face. Les flèches indiquent le sens de l’interaction."
+          },
+          {
             type: "exemple",
             titre: "Prévoir l’interaction",
             texte: "On approche le pôle nord d’un aimant du pôle sud d’un autre aimant : les deux pôles s’attirent.\n\nSi l’on approche deux pôles nord l’un de l’autre, ils se repoussent."
@@ -59,7 +63,6 @@ enregistrerChapitres("3e", "sp", [
           }
         ]
       },
-
       {
         id: 3,
         titre: "Le champ magnétique",
@@ -77,7 +80,7 @@ enregistrerChapitres("3e", "sp", [
           {
             type: "definition",
             titre: "Lignes de champ",
-            texte: "On représente un champ magnétique par des lignes de champ. À l’extérieur d’un aimant, elles sont orientées conventionnellement du pôle nord vers le pôle sud.\n\nL’aiguille d’une boussole se place suivant la direction du champ à l’endroit où elle se trouve."
+            texte: "On représente un champ magnétique par des lignes de champ. À l’extérieur d’un aimant, elles sont orientées conventionnellement du pôle nord vers le pôle sud.\n\nL’aiguille d’une boussole se place suivant la direction du champ à l’endroit où elle se trouve. Son extrémité nord indique le sens du champ."
           },
           {
             type: "exemple",
@@ -91,7 +94,6 @@ enregistrerChapitres("3e", "sp", [
           }
         ]
       },
-
       {
         id: 4,
         titre: "Le courant électrique crée un champ magnétique",
@@ -123,7 +125,6 @@ enregistrerChapitres("3e", "sp", [
           }
         ]
       },
-
       {
         id: 5,
         titre: "L’électroaimant",
@@ -132,6 +133,12 @@ enregistrerChapitres("3e", "sp", [
             type: "definition",
             titre: "Définition",
             texte: "Un électroaimant est un dispositif qui produit un champ magnétique grâce à un courant électrique. Il comprend généralement une bobine entourant un noyau en fer doux."
+          },
+          {
+            type: "schema",
+            titre: "Constitution d’un électroaimant",
+            svg: "<svg viewBox='0 0 400 190' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Bobine autour d’un noyau en fer doux'><rect x='75' y='74' width='250' height='44' rx='5' fill='#cbd5e1' stroke='#475569' stroke-width='2'/><path d='M95 70 C80 70 80 122 95 122 M120 70 C105 70 105 122 120 122 M145 70 C130 70 130 122 145 122 M170 70 C155 70 155 122 170 122 M195 70 C180 70 180 122 195 122 M220 70 C205 70 205 122 220 122 M245 70 C230 70 230 122 245 122 M270 70 C255 70 255 122 270 122 M295 70 C280 70 280 122 295 122' fill='none' stroke='#b45309' stroke-width='4'/><text x='200' y='22' text-anchor='middle' font-size='15' font-weight='bold'>Bobine : fil enroulé en spires</text><line x1='200' y1='29' x2='200' y2='65' stroke='#333' stroke-width='1.5'/><text x='200' y='160' text-anchor='middle' font-size='15' font-weight='bold'>Noyau en fer doux</text><line x1='200' y1='143' x2='200' y2='121' stroke='#333' stroke-width='1.5'/><text x='200' y='182' text-anchor='middle' font-size='12'>Représentation simplifiée : alimentation non dessinée</text></svg>",
+            legende: "Quand la bobine est traversée par un courant, le noyau s’aimante et renforce généralement son action magnétique."
           },
           {
             type: "regle",
@@ -155,7 +162,6 @@ enregistrerChapitres("3e", "sp", [
           }
         ]
       },
-
       {
         id: 6,
         titre: "Méthode, bilan et sécurité",
@@ -191,7 +197,6 @@ enregistrerChapitres("3e", "sp", [
         ]
       }
     ],
-
     exercices: [
       {
         niveau: 1,
