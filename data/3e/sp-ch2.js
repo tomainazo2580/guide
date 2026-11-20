@@ -1,7 +1,7 @@
 enregistrerChapitres("3e", "sp", [
   {
     id: 2,
-    titre: "Solutions acides, basiques et pH",
+    titre: "Chapitre 2 : Solutions acides, basiques et pH",
     premium: false,
     guide: false,
 
