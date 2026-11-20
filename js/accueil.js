@@ -4,134 +4,203 @@
   var ancienAccueil = afficherAccueil;
   var anciensReglages = afficherReglages;
 
-  // Ces fonctions incluent déjà les contrôles du paywall.
+  // Ces fonctions comprennent déjà les contrôles du paywall.
   var ancienMenuChapitre = afficherMenuChapitre;
   var ancienneLecon = afficherLecon;
   var anciensExercices = afficherExercices;
 
   var CLE_REPRENDRE = 'guide-dernier-chapitre';
 
-  // ---------- Dernier chapitre consulté ----------
+  // ---------- Vérification du souvenir ----------
 
-  function chapitreValide(classeId, matiereId, index, titre) {
-    var classeTrouvee = false;
-    var matiereTrouvee = false;
+  function trouverMatiere(classeId, matiereId) {
+    var classeDisponible = false;
 
     for (var i = 0; i < CLASSES.length; i++) {
       if (CLASSES[i].id === classeId && CLASSES[i].dispo) {
-        classeTrouvee = true;
+        classeDisponible = true;
         break;
       }
     }
+
+    if (!classeDisponible) return null;
 
     var matieres = MATIERES[classeId] || [];
 
     for (var j = 0; j < matieres.length; j++) {
       if (matieres[j].id === matiereId && matieres[j].dispo) {
-        matiereTrouvee = true;
-        break;
+        return matieres[j];
       }
     }
 
-    if (!classeTrouvee || !matiereTrouvee) return false;
-    if (!Number.isInteger(index) || index < 0) return false;
+    return null;
+  }
 
-    var chapitres = obtenirChapitres(classeId, matiereId);
-    var chapitre = chapitres[index];
+  function entierPositifOuZero(valeur) {
+    return typeof valeur === 'number' &&
+      isFinite(valeur) &&
+      Math.floor(valeur) === valeur &&
+      valeur >= 0;
+  }
 
-    if (!chapitre) return false;
+  function souvenirValide(souvenir) {
+    if (!souvenir || typeof souvenir !== 'object') return false;
 
-    // Si les chapitres ont été réorganisés, ne pas ouvrir
-    // un autre chapitre à la place de celui enregistré.
-    if (titre && chapitre.titre !== titre) return false;
+    if (!trouverMatiere(souvenir.classeId, souvenir.matiereId)) {
+      return false;
+    }
+
+    if (!entierPositifOuZero(souvenir.index)) return false;
+
+    var chapitres = obtenirChapitres(
+      souvenir.classeId,
+      souvenir.matiereId
+    );
+
+    var chapitre = chapitres[souvenir.index];
+
+    if (!chapitre || !souvenir.titre) return false;
+
+    // Évite de reprendre un autre chapitre si la liste a changé.
+    if (chapitre.titre !== souvenir.titre) return false;
+
+    // L'ancien souvenir sans type correspond au menu du chapitre.
+    var type = souvenir.type || 'chapitre';
+
+    if (type === 'lecon') {
+      if (!entierPositifOuZero(souvenir.indexLecon)) return false;
+      if (!chapitre.lecons || !chapitre.lecons[souvenir.indexLecon]) {
+        return false;
+      }
+
+      if (
+        souvenir.titreLecon &&
+        chapitre.lecons[souvenir.indexLecon].titre !== souvenir.titreLecon
+      ) {
+        return false;
+      }
+    } else if (type === 'exercices') {
+      if (!Array.isArray(chapitre.exercices)) return false;
+    } else if (type !== 'chapitre') {
+      return false;
+    }
 
     return true;
   }
 
-  function lireDernierChapitre() {
+  function lireSouvenir() {
     try {
       var brut = localStorage.getItem(CLE_REPRENDRE);
       if (!brut) return null;
 
-      var dernier = JSON.parse(brut);
-
-      if (!dernier || !chapitreValide(
-        dernier.classeId,
-        dernier.matiereId,
-        dernier.index,
-        dernier.titre
-      )) {
-        return null;
-      }
-
-      return dernier;
+      var souvenir = JSON.parse(brut);
+      return souvenirValide(souvenir) ? souvenir : null;
     } catch (erreur) {
       return null;
     }
   }
 
-  function memoriserChapitre(classeId, matiereId, index) {
+  function memoriser(classeId, matiereId, index, type, indexLecon) {
     if (verrouExamen()) return;
 
-    if (!chapitreValide(classeId, matiereId, index)) return;
+    var chapitres = obtenirChapitres(classeId, matiereId);
+    var chapitre = chapitres[index];
 
-    // Ne mémorise pas une tentative d'accès à un chapitre verrouillé.
+    if (!chapitre) return;
+
+    var souvenir = {
+      classeId: classeId,
+      matiereId: matiereId,
+      index: index,
+      titre: chapitre.titre,
+      type: type
+    };
+
+    if (type === 'lecon') {
+      souvenir.indexLecon = indexLecon;
+
+      if (chapitre.lecons && chapitre.lecons[indexLecon]) {
+        souvenir.titreLecon = chapitre.lecons[indexLecon].titre;
+      }
+    }
+
+    if (!souvenirValide(souvenir)) return;
+
+    // Une tentative d'accès verrouillée n'est pas mémorisée.
     if (chapitreVerrouille(classeId, matiereId, index)) return;
 
-    var chapitre = obtenirChapitres(classeId, matiereId)[index];
-
     try {
-      localStorage.setItem(CLE_REPRENDRE, JSON.stringify({
-        classeId: classeId,
-        matiereId: matiereId,
-        index: index,
-        titre: chapitre.titre
-      }));
+      localStorage.setItem(CLE_REPRENDRE, JSON.stringify(souvenir));
     } catch (erreur) {
-      // Si le stockage est indisponible, la navigation continue.
+      // Si le stockage est indisponible, Guide continue de fonctionner.
     }
   }
 
+  // ---------- Mémorisation des pages consultées ----------
+
   afficherMenuChapitre = function (classeId, matiereId, index) {
     ancienMenuChapitre(classeId, matiereId, index);
-    memoriserChapitre(classeId, matiereId, index);
+    memoriser(classeId, matiereId, index, 'chapitre');
   };
 
   afficherLecon = function (
     classeId, matiereId, indexChapitre, indexLecon
   ) {
     ancienneLecon(classeId, matiereId, indexChapitre, indexLecon);
-    memoriserChapitre(classeId, matiereId, indexChapitre);
+
+    memoriser(
+      classeId,
+      matiereId,
+      indexChapitre,
+      'lecon',
+      indexLecon
+    );
   };
 
   afficherExercices = function (classeId, matiereId, index) {
     anciensExercices(classeId, matiereId, index);
-    memoriserChapitre(classeId, matiereId, index);
+    memoriser(classeId, matiereId, index, 'exercices');
   };
 
-  function reprendreChapitre() {
+  function reprendre() {
     if (verrouExamen()) {
       afficherVerrouillage();
       return;
     }
 
-    var dernier = lireDernierChapitre();
+    var souvenir = lireSouvenir();
 
-    if (!dernier) {
-      alert('Aucun chapitre à reprendre pour le moment.');
+    if (!souvenir) {
+      alert('Aucune page à reprendre pour le moment.');
       afficherAccueil();
       return;
     }
 
-    // Passe par la fonction habituelle : le paywall est vérifié.
-    afficherMenuChapitre(
-      dernier.classeId,
-      dernier.matiereId,
-      dernier.index
-    );
+    // On utilise toujours les fonctions habituelles :
+    // elles vérifient le premium et le verrouillage de l'examen.
+    if (souvenir.type === 'lecon') {
+      afficherLecon(
+        souvenir.classeId,
+        souvenir.matiereId,
+        souvenir.index,
+        souvenir.indexLecon
+      );
+    } else if (souvenir.type === 'exercices') {
+      afficherExercices(
+        souvenir.classeId,
+        souvenir.matiereId,
+        souvenir.index
+      );
+    } else {
+      afficherMenuChapitre(
+        souvenir.classeId,
+        souvenir.matiereId,
+        souvenir.index
+      );
+    }
   }
 
-  // ---------- Styles ----------
+  // ---------- Style ----------
 
   var style = document.createElement('style');
 
@@ -160,41 +229,44 @@
     .guide-acc-ligne .acc-partager,
     .guide-acc-reprendre {
       box-sizing: border-box;
+      flex: none;
       width: 100%;
-      min-width: 0;
+      height: 60px;
+      min-height: 60px;
       margin: 0;
-      padding: 10px 14px;
+      padding: 6px 10px;
       border: 0;
       border-radius: 12px;
       color: #fff;
       font-size: 16px;
       font-weight: 700;
-      line-height: 1.25;
+      line-height: 1.2;
       cursor: pointer;
-      box-shadow: 0 7px 16px rgba(15, 35, 60, 0.22);
+      box-shadow: 0 6px 14px rgba(30, 80, 110, 0.23);
     }
 
     .guide-acc-ligne .acc-partager {
-      flex: none;
-      background: #2b4f7c;
+      background: linear-gradient(135deg, #168acb, #2878c7);
     }
 
     .guide-acc-reprendre {
-      background: #16816f;
+      background: linear-gradient(135deg, #13a990, #078a83);
     }
 
     .guide-acc-reprendre:disabled {
-      background: #718b89;
+      background: #83aaa8;
       cursor: default;
-      box-shadow: 0 4px 10px rgba(15, 35, 60, 0.14);
+      box-shadow: 0 4px 10px rgba(30, 80, 110, 0.14);
     }
 
     .guide-reprendre-detail {
       display: block;
-      margin-top: 4px;
+      margin-top: 3px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
       font-size: 12px;
       font-weight: 500;
-      overflow-wrap: anywhere;
     }
 
     .guide-acc-ligne .acc-partager:focus-visible,
@@ -326,7 +398,6 @@
 
     var classes = fond.querySelector('.acc-classes');
     var partager = fond.querySelector('.acc-partager');
-
     if (!classes || !partager) return;
 
     var ligne = document.createElement('div');
@@ -335,57 +406,54 @@
     var actions = document.createElement('div');
     actions.className = 'guide-acc-actions';
 
-    var reprendre = document.createElement('button');
-    reprendre.type = 'button';
-    reprendre.className = 'guide-acc-reprendre';
+    var boutonReprendre = document.createElement('button');
+    boutonReprendre.type = 'button';
+    boutonReprendre.className = 'guide-acc-reprendre';
 
-    var dernier = lireDernierChapitre();
     var titre = document.createElement('span');
     titre.textContent = 'Reprendre';
-    reprendre.appendChild(titre);
+    boutonReprendre.appendChild(titre);
 
     var detail = document.createElement('span');
     detail.className = 'guide-reprendre-detail';
 
-    if (dernier) {
-      detail.textContent =
-        nomCourtClasse(dernier.classeId) + ' · ' +
-        nomMatiere(dernier.classeId, dernier.matiereId) + ' · ' +
-        dernier.titre;
+    var souvenir = lireSouvenir();
 
-      reprendre.onclick = reprendreChapitre;
+    if (souvenir) {
+      var matiere = trouverMatiere(
+        souvenir.classeId,
+        souvenir.matiereId
+      );
+
+      var page = 'Chap. ' + (souvenir.index + 1);
+
+      if (souvenir.type === 'exercices') {
+        page += ' · Ex.';
+      } else if (souvenir.type === 'lecon') {
+        page += ' · Leçon ' + (souvenir.indexLecon + 1);
+      }
+
+      detail.textContent =
+        nomCourtClasse(souvenir.classeId) + ' · ' +
+        (matiere.court || matiere.nom) + ' · ' +
+        page;
+
+      boutonReprendre.onclick = reprendre;
     } else {
-      detail.textContent = 'Aucun chapitre consulté';
-      reprendre.disabled = true;
+      detail.textContent = 'Aucune page consultée';
+      boutonReprendre.disabled = true;
     }
 
-    reprendre.appendChild(detail);
+    boutonReprendre.appendChild(detail);
 
     partager.textContent = 'Partager Guide';
 
-    actions.appendChild(reprendre);
+    actions.appendChild(boutonReprendre);
     actions.appendChild(partager);
 
     classes.parentNode.insertBefore(ligne, classes);
     ligne.appendChild(classes);
     ligne.appendChild(actions);
-
-    // Même hauteur minimale que la bannière d'installation.
-    var banniere = document.getElementById('banniere-install');
-    var hauteur = banniere ? banniere.offsetHeight : 0;
-    hauteur = hauteur || 56;
-
-    reprendre.style.minHeight = hauteur + 'px';
-    partager.style.minHeight = hauteur + 'px';
-
-    // Si le texte fait grandir Reprendre, garder les deux égaux.
-    var hauteurCommune = Math.max(
-      reprendre.offsetHeight,
-      partager.offsetHeight
-    );
-
-    reprendre.style.minHeight = hauteurCommune + 'px';
-    partager.style.minHeight = hauteurCommune + 'px';
   }
 
   afficherAccueil = function () {
@@ -393,7 +461,7 @@
     organiserAccueil();
   };
 
-  // Retire uniquement la ligne de partage dans les réglages.
+  // Retire uniquement la ligne de partage des réglages.
   afficherReglages = function () {
     anciensReglages();
 
@@ -404,9 +472,7 @@
         'button[onclick="afficherPartage()"]'
       );
 
-      if (bouton) {
-        lignes[i].remove();
-      }
+      if (bouton) lignes[i].remove();
     }
   };
 
