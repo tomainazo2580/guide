@@ -1,7 +1,7 @@
 enregistrerChapitres("3e", "sp", [
   {
     id: 8,
-    titre: "Oxydation des métaux et corrosion",
+    titre: "Chapitre 8 : Oxydation des métaux et corrosion",
     premium: false,
     guide: false,
 
