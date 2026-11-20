@@ -1,7 +1,7 @@
 enregistrerChapitres("3e", "sp", [
   {
     id: 9,
-    titre: "Calculs chimiques et volume molaire des gaz",
+    titre: "Chapitre 9 : Calculs chimiques et volume molaire des gaz",
     premium: false,
     guide: false,
 
