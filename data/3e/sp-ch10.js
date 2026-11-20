@@ -97,6 +97,12 @@ enregistrerChapitres("3e", "sp", [
             texte: "Pour le mélange d’une solution d’acide chlorhydrique et d’une solution de soude :\n\n1. Calculer la quantité de H₃O⁺ apportée par la solution acide.\n2. Calculer la quantité de OH⁻ apportée par la solution basique.\n3. Les comparer : ces ions réagissent dans la proportion 1 pour 1.\n4. Déterminer s’il reste un ion en excès.\n\nÀ 25 °C, dans ce modèle : un excès de H₃O⁺ donne un mélange acide ; un excès de OH⁻ donne un mélange basique."
           },
           {
+            type: "schema",
+            titre: "Trois résultats possibles",
+            svg: "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 260' role='img' aria-label='Comparaison des quantités d’ions acides et basiques introduites'><rect width='320' height='260' fill='white'/><text x='160' y='23' text-anchor='middle' font-size='14' fill='#0f172a'>Acide chlorhydrique + soude</text><rect x='10' y='36' width='300' height='60' rx='8' fill='#fee2e2'/><text x='160' y='58' text-anchor='middle' font-size='15' fill='#991b1b'>H₃O⁺ apportés &gt; OH⁻ apportés</text><text x='160' y='80' text-anchor='middle' font-size='14' fill='#0f172a'>Excès acide → mélange acide</text><rect x='10' y='103' width='300' height='60' rx='8' fill='#dcfce7'/><text x='160' y='125' text-anchor='middle' font-size='15' fill='#166534'>H₃O⁺ apportés = OH⁻ apportés</text><text x='160' y='147' text-anchor='middle' font-size='14' fill='#0f172a'>Équivalence → mélange neutre</text><rect x='10' y='170' width='300' height='60' rx='8' fill='#dbeafe'/><text x='160' y='192' text-anchor='middle' font-size='15' fill='#1e40af'>H₃O⁺ apportés &lt; OH⁻ apportés</text><text x='160' y='214' text-anchor='middle' font-size='14' fill='#0f172a'>Excès basique → mélange basique</text><text x='160' y='250' text-anchor='middle' font-size='12' fill='#475569'>Résultats du modèle étudié à 25 °C</text></svg>",
+            legende: "On compare les quantités de matière apportées, et non les seuls volumes. Ce schéma concerne le mélange d’acide chlorhydrique et de soude dans le modèle du cours, à 25 °C. À l’équivalence, des ions Na⁺ et Cl⁻ restent en solution."
+          },
+          {
             type: "exemple",
             titre: "Un acide en excès",
             texte: "On mélange une solution apportant 0,03 mol de H₃O⁺ avec une solution apportant 0,02 mol de OH⁻.\n\nLa réaction consomme 0,02 mol de chaque ion. Il reste :\n\nn(H₃O⁺) = 0,03 − 0,02 = 0,01 mol.\n\nLes ions H₃O⁺ sont en excès : le mélange est acide à 25 °C."
