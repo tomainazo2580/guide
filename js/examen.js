@@ -1,12 +1,13 @@
 // ===== GUIDE - Mode Examen =====
 // Sujet habituel : 1 exo n1 + 1 n2 + 2 n3 + 1 n4.
 // Sciences physiques 3e : 2 exercices de chimie et 3 de physique.
+// Mathématiques 3e : 2 nombres et algèbre, 2 géométrie,
+// 1 statistiques ou probabilités.
 // La note est ramenée sur 20.
 
 var EXA_CLE_SESSION = 'guide-examen-session';
 var EXA_CLE_HISTO = 'guide-examen-historique';
 var EXA_DUREE_MS = 2 * 60 * 60 * 1000; // 2 h
-
 var exaMinuteur = null;
 
 // ---------- Stockage ----------
@@ -82,6 +83,18 @@ function exaExercice(s, item) {
   return (ch && ch.exercices) ? ch.exercices[item.exIndex] : null;
 }
 
+function exaTitrePartie(partie) {
+  var titres = {
+    chimie: 'Partie chimie',
+    physique: 'Partie physique',
+    algebre: 'Partie nombres et algèbre',
+    geometrie: 'Partie géométrie et grandeurs',
+    donnees: 'Partie statistiques et probabilités'
+  };
+
+  return titres[partie] || '';
+}
+
 function exaMatieresDispos() {
   var liste = [];
 
@@ -91,7 +104,6 @@ function exaMatieresDispos() {
 
     for (var j = 0; j < mats.length; j++) {
       var m = mats[j];
-
       if (!m.dispo) continue;
 
       var chs = CONTENU[c.id + '|' + m.id] || [];
@@ -177,7 +189,6 @@ function exaComposer(classeId, matiereId) {
     }
 
     // Deux exercices de chimie, puis trois de physique.
-    // Les niveaux restent 1, 2, 3, 3 et 4 sur l'ensemble.
     var planSP = [
       { partie: 'chimie', niveau: 1 },
       { partie: 'chimie', niveau: 3 },
@@ -210,6 +221,107 @@ function exaComposer(classeId, matiereId) {
     }
 
     return sujetSP;
+  }
+
+  // Composition particulière pour les mathématiques de 3e.
+  if (classeId === '3e' && matiereId === 'maths') {
+    var domainesMaths = {
+      algebre: { 1: [], 2: [], 3: [], 4: [] },
+      geometrie: { 1: [], 2: [], 3: [], 4: [] },
+      donnees: { 1: [], 2: [], 3: [], 4: [] }
+    };
+
+    for (var cm = 0; cm < chapitres.length; cm++) {
+      var chapitreMaths = chapitres[cm];
+      var partieMaths = null;
+
+      // Classement selon l'ordre actuel des chapitres :
+      // 1 à 7 : nombres et algèbre ;
+      // 8 à 12 : géométrie et grandeurs ;
+      // 13 et 14 : statistiques et probabilités.
+      if (cm >= 0 && cm <= 6) {
+        partieMaths = 'algebre';
+      } else if (cm >= 7 && cm <= 11) {
+        partieMaths = 'geometrie';
+      } else if (cm >= 12 && cm <= 13) {
+        partieMaths = 'donnees';
+      }
+
+      for (
+        var em = 0;
+        em < (chapitreMaths.exercices || []).length;
+        em++
+      ) {
+        var exerciceMaths = chapitreMaths.exercices[em];
+        var domaineMaths = partieMaths;
+
+        // Révision générale : classement selon l'ordre actuel
+        // des huit exercices du chapitre 15.
+        if (chapitreMaths.id === 'm3-revision-generale') {
+          domaineMaths = null;
+
+          if (em >= 0 && em <= 4) {
+            domaineMaths = 'algebre';
+          } else if (em >= 5 && em <= 6) {
+            domaineMaths = 'geometrie';
+          } else if (em === 7) {
+            domaineMaths = 'donnees';
+          }
+        }
+
+        if (
+          !domaineMaths ||
+          !domainesMaths[domaineMaths][exerciceMaths.niveau]
+        ) {
+          continue;
+        }
+
+        domainesMaths[domaineMaths][exerciceMaths.niveau].push({
+          chIndex: cm,
+          exIndex: em,
+          chapTitre: chapitreMaths.titre,
+          niveau: exerciceMaths.niveau,
+          points: exerciceMaths.points,
+          partie: domaineMaths
+        });
+      }
+    }
+
+    // Deux exercices d'algèbre, deux de géométrie et un de données.
+    // Les niveaux prévus sont 1, 2, 3, 3 et 4 sur l'ensemble.
+    var planMaths = [
+      { partie: 'algebre', niveau: 1 },
+      { partie: 'algebre', niveau: 3 },
+      { partie: 'geometrie', niveau: 2 },
+      { partie: 'geometrie', niveau: 3 },
+      { partie: 'donnees', niveau: 4 }
+    ];
+
+    var sujetMaths = [];
+
+    for (var pm = 0; pm < planMaths.length; pm++) {
+      var demandeMaths = planMaths[pm];
+      var poolMaths =
+        domainesMaths[demandeMaths.partie][demandeMaths.niveau];
+
+      // Si le niveau prévu est vide, chercher dans le même domaine.
+      if (!poolMaths.length) {
+        for (var secoursMaths = 1; secoursMaths <= 4; secoursMaths++) {
+          if (domainesMaths[demandeMaths.partie][secoursMaths].length) {
+            poolMaths = domainesMaths[demandeMaths.partie][secoursMaths];
+            break;
+          }
+        }
+      }
+
+      // Ne pas lancer un sujet incomplet.
+      if (!poolMaths.length) return [];
+
+      var choixMaths = Math.floor(Math.random() * poolMaths.length);
+      sujetMaths.push(poolMaths.splice(choixMaths, 1)[0]);
+    }
+
+    return sujetMaths;
   }
 
   // Composition existante pour toutes les autres matières.
@@ -336,6 +448,12 @@ function exaConfirmation(classeId, matiereId) {
     html += '• 2 exercices de chimie et 3 exercices de physique\n';
   }
 
+  if (classeId === '3e' && matiereId === 'maths') {
+    html += '• 2 exercices de nombres et algèbre\n';
+    html += '• 2 exercices de géométrie et grandeurs\n';
+    html += '• 1 exercice de statistiques ou probabilités\n';
+  }
+
   html += '• Durée : 2 h\n';
   html += '• Leçons et corrections verrouillés jusqu’à la fin\n';
   html += '• Prévois une feuille et un stylo\n';
@@ -407,16 +525,17 @@ function exaEpreuve(s) {
   for (var i = 0; i < s.items.length; i++) {
     var it = s.items[i];
     var ex = exaExercice(s, it);
-
     if (!ex) continue;
 
     if (
       it.partie &&
       (i === 0 || it.partie !== s.items[i - 1].partie)
     ) {
-      html += '<h3>' +
-        (it.partie === 'chimie' ? 'Partie chimie' : 'Partie physique') +
-        '</h3>';
+      var titrePartie = exaTitrePartie(it.partie);
+
+      if (titrePartie) {
+        html += '<h3>' + titrePartie + '</h3>';
+      }
     }
 
     html += '<div class="bloc-exercice">';
@@ -480,7 +599,6 @@ function exaTick() {
 
 function exaTerminer() {
   var s = exaLireSession();
-
   if (!s) return;
 
   if (!confirm(
@@ -523,7 +641,6 @@ function exaCorrige(s) {
   for (var i = 0; i < s.items.length; i++) {
     var it = s.items[i];
     var ex = exaExercice(s, it);
-
     if (!ex) continue;
 
     var cur = (s.evals && s.evals[i]) || '';
@@ -532,9 +649,11 @@ function exaCorrige(s) {
       it.partie &&
       (i === 0 || it.partie !== s.items[i - 1].partie)
     ) {
-      html += '<h3>' +
-        (it.partie === 'chimie' ? 'Partie chimie' : 'Partie physique') +
-        '</h3>';
+      var titrePartie = exaTitrePartie(it.partie);
+
+      if (titrePartie) {
+        html += '<h3>' + titrePartie + '</h3>';
+      }
     }
 
     html += '<div class="bloc-exercice">';
@@ -564,6 +683,7 @@ function exaCorrige(s) {
   }
 
   html += '<div id="exa-msg" class="exa-alerte cache"></div>';
+
   html += '<div class="exa-actions">';
   html += '<button class="btn-principal" onclick="exaBilan()">';
   html += '📊 Voir mon bilan</button>';
@@ -576,7 +696,6 @@ function exaCorrige(s) {
 
 function exaEval(i, val, btn) {
   var s = exaLireSession();
-
   if (!s) return;
 
   s.evals = s.evals || {};
@@ -599,7 +718,6 @@ function exaEval(i, val, btn) {
 
 function exaBilan() {
   var s = exaLireSession();
-
   if (!s) return;
 
   var manquants = 0;
@@ -627,6 +745,7 @@ function exaBilan() {
 
   for (i = 0; i < s.items.length; i++) {
     var it = s.items[i];
+
     total += it.points;
 
     var res = s.evals[i];
@@ -749,7 +868,6 @@ function exaRenderBilan(e) {
 
 function afficherHistoriqueExamens(zoneId) {
   var zone = document.getElementById(zoneId);
-
   if (!zone) return;
 
   var histo = exaLireHisto();
@@ -783,6 +901,7 @@ function afficherHistoriqueExamens(zoneId) {
       exaNoteTexte(e.note20) + ' / 20</span>';
     html += '<span class="histo-date">' + exaDateTexte(e.date) +
       '</span></div>';
+
     html += '<div class="mini-barre"><div class="mini-remplie" style="width:' +
       e.pct + '%"></div></div>';
 
