@@ -4,7 +4,6 @@ enregistrerChapitres("3e", "sp", [
     titre: "Chapitre 19 : Énergie mécanique",
     premium: false,
     guide: false,
-
     lecons: [
       {
         id: 1,
@@ -27,7 +26,6 @@ enregistrerChapitres("3e", "sp", [
           }
         ]
       },
-
       {
         id: 2,
         titre: "L’énergie cinétique",
@@ -59,7 +57,6 @@ enregistrerChapitres("3e", "sp", [
           }
         ]
       },
-
       {
         id: 3,
         titre: "L’énergie potentielle de pesanteur",
@@ -86,7 +83,6 @@ enregistrerChapitres("3e", "sp", [
           }
         ]
       },
-
       {
         id: 4,
         titre: "L’énergie mécanique",
@@ -113,13 +109,18 @@ enregistrerChapitres("3e", "sp", [
             texte: "Au départ, un objet possède 100 J d’énergie potentielle et 0 J d’énergie cinétique. Son énergie mécanique vaut donc 100 J.\n\nPlus bas, son énergie potentielle vaut 40 J. Si l’énergie mécanique se conserve :\nE꜀ = Eₘ − Eₚ = 100 − 40 = 60 J."
           },
           {
+            type: "schema",
+            titre: "Répartition des énergies pendant la chute",
+            svg: "<svg viewBox='0 0 400 220' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Au départ 100 joules d’énergie potentielle et zéro d’énergie cinétique ; plus bas 40 joules d’énergie potentielle et 60 d’énergie cinétique'><text x='200' y='22' text-anchor='middle' font-size='15' font-weight='bold'>Exemple : énergie mécanique de 100 J</text><text x='20' y='60' font-size='14'>Au départ</text><rect x='120' y='40' width='220' height='30' fill='#3b82f6' stroke='#334155'/><text x='230' y='60' text-anchor='middle' font-size='14' fill='white'>Eₚ = 100 J</text><text x='120' y='90' font-size='13'>E꜀ = 0 J</text><text x='20' y='133' font-size='14'>Plus bas</text><rect x='120' y='113' width='88' height='30' fill='#3b82f6' stroke='#334155'/><rect x='208' y='113' width='132' height='30' fill='#f97316' stroke='#334155'/><text x='164' y='133' text-anchor='middle' font-size='13' fill='white'>Eₚ : 40 J</text><text x='274' y='133' text-anchor='middle' font-size='13' fill='white'>E꜀ : 60 J</text><rect x='65' y='175' width='14' height='14' fill='#3b82f6'/><text x='85' y='187' font-size='13'>Énergie potentielle</text><rect x='230' y='175' width='14' height='14' fill='#f97316'/><text x='250' y='187' font-size='13'>Énergie cinétique</text><text x='200' y='212' text-anchor='middle' font-size='12'>Même longueur totale : Eₘ = Eₚ + E꜀ = 100 J</text></svg>",
+            legende: "Dans cet exemple sans frottements, la diminution de l’énergie potentielle correspond à une augmentation de l’énergie cinétique."
+          },
+          {
             type: "remarque",
             titre: "Avec des frottements",
             texte: "Lorsque des frottements s’opposent au mouvement, l’énergie mécanique de l’objet ne se conserve généralement pas : une partie est transférée ou transformée, notamment en énergie thermique.\n\nCela ne signifie pas que l’énergie totale disparaît."
           }
         ]
       },
-
       {
         id: 5,
         titre: "Méthode de résolution",
@@ -142,7 +143,6 @@ enregistrerChapitres("3e", "sp", [
         ]
       }
     ],
-
     exercices: [
       {
         niveau: 1,
