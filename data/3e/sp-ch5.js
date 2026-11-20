@@ -82,6 +82,12 @@ enregistrerChapitres("3e", "sp", [
             texte: "La formule brute indique le nombre d’atomes de chaque élément, mais pas leur disposition. À partir de 4 atomes de carbone, des alcanes non cycliques peuvent avoir la même formule brute et des structures différentes : ce sont des isomères.\n\nPar exemple, C₄H₁₀ correspond au butane à chaîne non ramifiée ou au 2-méthylpropane, qui est ramifié."
           },
           {
+            type: "schema",
+            titre: "Deux structures pour la formule C₄H₁₀",
+            svg: "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 210' role='img' aria-label='Formules semi-développées du butane et du 2-méthylpropane'><rect width='320' height='210' fill='white'/><text x='160' y='26' text-anchor='middle' font-size='16' fill='#0f172a'>Même formule brute : C₄H₁₀</text><text x='160' y='53' text-anchor='middle' font-size='15' fill='#334155'>Butane : chaîne non ramifiée</text><text x='160' y='80' text-anchor='middle' font-size='17' fill='#1d4ed8'>CH₃ — CH₂ — CH₂ — CH₃</text><line x1='35' y1='98' x2='285' y2='98' stroke='#cbd5e1'/><text x='160' y='122' text-anchor='middle' font-size='15' fill='#334155'>2-méthylpropane : chaîne ramifiée</text><text x='160' y='153' text-anchor='middle' font-size='17' fill='#047857'>CH₃ — CH — CH₃</text><line x1='160' y1='158' x2='160' y2='174' stroke='#047857' stroke-width='2'/><text x='160' y='194' text-anchor='middle' font-size='17' fill='#047857'>CH₃</text></svg>",
+            legende: "Ces formules semi-développées montrent deux dispositions différentes des atomes. Chaque molécule contient 4 atomes de carbone et 10 atomes d’hydrogène : ce sont deux isomères."
+          },
+          {
             type: "remarque",
             titre: "Attention à la formule générale",
             texte: "CₙH₂ₙ₊₂ s’applique aux alcanes non cycliques. Tous les hydrocarbures ne sont pas des alcanes et ne vérifient donc pas nécessairement cette formule."
@@ -102,6 +108,12 @@ enregistrerChapitres("3e", "sp", [
             type: "definition",
             titre: "Le triangle du feu",
             texte: "Pour qu’un feu démarre et se maintienne, il faut réunir :\n\n• un combustible ;\n• un comburant, généralement le dioxygène de l’air ;\n• une énergie d’activation, par exemple une étincelle ou une source de chaleur.\n\nSupprimer l’un de ces éléments peut permettre d’interrompre la combustion."
+          },
+          {
+            type: "schema",
+            titre: "Le triangle du feu",
+            svg: "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 230' role='img' aria-label='Triangle du feu : combustible, comburant et énergie d’activation'><rect width='320' height='230' fill='white'/><path d='M160 57 L65 176 L255 176 Z' fill='#fff7ed' stroke='#ea580c' stroke-width='3'/><circle cx='160' cy='57' r='5' fill='#ea580c'/><circle cx='65' cy='176' r='5' fill='#ea580c'/><circle cx='255' cy='176' r='5' fill='#ea580c'/><text x='160' y='22' text-anchor='middle' font-size='15' fill='#0f172a'>Énergie d’activation</text><text x='160' y='41' text-anchor='middle' font-size='13' fill='#475569'>étincelle, chaleur…</text><text x='63' y='199' text-anchor='middle' font-size='15' fill='#0f172a'>Combustible</text><text x='63' y='217' text-anchor='middle' font-size='13' fill='#475569'>ex. : butane</text><text x='257' y='199' text-anchor='middle' font-size='15' fill='#0f172a'>Comburant</text><text x='257' y='217' text-anchor='middle' font-size='13' fill='#475569'>ex. : dioxygène</text><text x='160' y='143' text-anchor='middle' font-size='16' fill='#9a3412'>Combustion</text></svg>",
+            legende: "La combustion nécessite un combustible, un comburant et une énergie d’activation. Supprimer l’un de ces éléments peut interrompre le feu. Ne tente pas d’éteindre un feu si cela te met en danger : éloigne-toi et préviens un adulte ou les secours."
           },
           {
             type: "remarque",
