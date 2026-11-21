@@ -7,9 +7,11 @@
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <title>Guide — Révisions scolaires</title>
+
   <link rel="manifest" href="manifest.json?v=3.49">
   <link rel="icon" href="icons/icon.png">
   <link rel="apple-touch-icon" href="icons/icon.png">
+
   <script>
     // Nettoyage des anciens service workers et caches.
     if ('serviceWorker' in navigator) {
@@ -19,6 +21,7 @@
         }
       });
     }
+
     if ('caches' in window) {
       caches.keys().then(function(cles) {
         for (var i = 0; i < cles.length; i++) {
@@ -27,7 +30,9 @@
       });
     }
   </script>
+
   <link rel="stylesheet" href="css/style.css?v=3.49">
+
   <style>
     html, body {
       height: 100%;
@@ -35,6 +40,7 @@
       padding: 0;
       overflow: hidden;
     }
+
     body {
       display: flex;
       flex-direction: column;
@@ -42,6 +48,7 @@
       color: var(--texte, #1e293b);
       transition: background 0.3s, color 0.3s;
     }
+
     body.sombre {
       --fond: #0f172a;
       --carte: #1e293b;
@@ -49,14 +56,17 @@
       --texte-doux: #94a3b8;
       --bordure: #334155;
     }
+
     header {
       flex-shrink: 0;
     }
+
     #ecran {
       flex: 1;
       overflow-y: auto;
       -webkit-overflow-scrolling: touch;
     }
+
     .barre-bas {
       flex-shrink: 0;
       display: flex;
@@ -64,6 +74,7 @@
       border-top: 1px solid var(--bordure, #e2e8f0);
       box-shadow: 0 -2px 8px rgba(0,0,0,0.06);
     }
+
     .barre-bas button {
       flex: 1;
       padding: 8px 2px 6px;
@@ -75,11 +86,13 @@
       cursor: pointer;
       line-height: 1.2;
     }
+
     .barre-bas button .ico {
       font-size: 20px;
       display: block;
       margin-bottom: 2px;
     }
+
     .barre-bas button.actif {
       color: #1e88e5;
       background: rgba(30, 136, 229, 0.1);
@@ -87,29 +100,37 @@
     }
   </style>
 </head>
+
 <body>
   <header class="haut">
     <div class="haut-titre">📘 Guide</div>
     <div class="haut-sous-titre">Réussis ton année scolaire 🇲🇬</div>
   </header>
+
   <main id="ecran" class="ecran"></main>
+
   <nav class="barre-bas">
     <button id="btn-accueil" class="actif" onclick="afficherAccueil()">
       <span class="ico">🏠</span>Accueil
     </button>
+
     <button id="btn-recherche" onclick="afficherRecherche()">
       <span class="ico">🔍</span>Recherche
     </button>
+
     <button id="btn-examen" onclick="afficherExamen()">
       <span class="ico">🎓</span>Examen
     </button>
+
     <button id="btn-notes" onclick="afficherNotes()">
       <span class="ico">📒</span>Notes
     </button>
+
     <button id="btn-reglages" onclick="afficherReglages()">
       <span class="ico">⚙️</span>Réglages
     </button>
   </nav>
+
   <script>
     (function () {
       var ecranChargement = document.getElementById('ecran');
@@ -138,15 +159,16 @@
         });
       }
 
-      chargerScript('js/data.js?v=4.07')
+      chargerScript('js/data.js?v=4.08')
         .then(function () {
           if (typeof chargementContenuGuide === 'undefined') {
             throw new Error('Version de data.js non compatible.');
           }
+
           return chargementContenuGuide;
         })
         .then(function () {
-          return chargerScript('js/paywall-config.js?v=4');
+          return chargerScript('js/paywall-config.js?v=5');
         })
         .then(function () {
           return chargerScript('js/cles.js?v=2');
@@ -155,7 +177,7 @@
           return chargerScript('js/app.js?v=3.49');
         })
         .then(function () {
-          return chargerScript('js/examen.js?v=3.51');
+          return chargerScript('js/examen.js?v=3.52');
         })
         .then(function () {
           return chargerScript('js/paywall.js?v=4');
