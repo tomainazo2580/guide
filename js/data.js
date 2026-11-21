@@ -1,6 +1,6 @@
 // ===== GUIDE — Classes, matières et chargement des chapitres =====
 
-var VERSION = 'v4.07';
+var VERSION = 'v4.08';
 
 var CLASSES = [
   { id: '6e', nom: 'Sixieme', dispo: true },
@@ -249,8 +249,8 @@ var MATIERES = {
       nom: 'Sciences de la Vie et de la Terre',
       court: 'SVT',
       icone: '🌱',
-      dispo: false,
-      fichiers: []
+      dispo: true,
+      fichiers: fichiersGuide('3e', 'svt', 11)
     },
     {
       id: 'mal',
@@ -316,12 +316,14 @@ var chargementContenuGuide = (function () {
 
   for (var c = 0; c < CLASSES.length; c++) {
     var classe = CLASSES[c];
+
     if (!classe.dispo) continue;
 
     var liste = MATIERES[classe.id] || [];
 
     for (var m = 0; m < liste.length; m++) {
       var matiere = liste[m];
+
       if (!matiere.dispo) continue;
 
       for (var f = 0; f < matiere.fichiers.length; f++) {
