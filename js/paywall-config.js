@@ -1,3 +1,5 @@
+// ===== GUIDE — Prix et chapitres premium =====
+
 var PRIX_MATIERE = {
   '6e': 1500,
   '5e': 1500,
@@ -29,5 +31,6 @@ var CHAPITRES_PAYANTS = {
 
   '3e|maths': [3, 6, 9, 12, 14, 15],
   '3e|sp': [3, 6, 9, 12, 15, 18, 21, 23],
-  '3e|svt': [3, 6, 9, 11]
+  '3e|svt': [3, 6, 9, 11],
+  '3e|fr': [3, 6, 9, 12]
 };
