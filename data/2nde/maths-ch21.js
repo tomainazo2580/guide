@@ -3,7 +3,6 @@ enregistrerChapitres("2nde", "maths", [{
   titre: "Chapitre 21 : Transformations du plan",
   premium: false,
   guide: false,
-
   lecons: [
     {
       id: "m2-ch21-generalites",
@@ -22,11 +21,10 @@ enregistrerChapitres("2nde", "maths", [{
         {
           type: "rappel",
           titre: "Distance, alignement et angles",
-          texte: "Dans ce chapitre, les symétries, les translations et les rotations conservent les distances et les angles. Une homothétie conserve les angles et l'alignement, mais elle multiplie généralement les distances par une valeur différente de 1."
+          texte: "Dans ce chapitre, les symétries, les translations et les rotations conservent les distances et les angles. Une homothétie de rapport non nul conserve les angles et l'alignement, mais elle multiplie généralement les distances par une valeur différente de 1. Si son rapport est nul, tous les points ont la même image : les angles de la figure ne sont alors plus définis."
         }
       ]
     },
-
     {
       id: "m2-ch21-symetries",
       titre: "2. Symétries axiale et centrale",
@@ -64,7 +62,6 @@ enregistrerChapitres("2nde", "maths", [{
         }
       ]
     },
-
     {
       id: "m2-ch21-translation",
       titre: "3. Translation",
@@ -96,7 +93,6 @@ enregistrerChapitres("2nde", "maths", [{
         }
       ]
     },
-
     {
       id: "m2-ch21-homothetie",
       titre: "4. Homothétie",
@@ -139,7 +135,6 @@ enregistrerChapitres("2nde", "maths", [{
         }
       ]
     },
-
     {
       id: "m2-ch21-rotation",
       titre: "5. Rotation",
@@ -176,7 +171,6 @@ enregistrerChapitres("2nde", "maths", [{
         }
       ]
     },
-
     {
       id: "m2-ch21-bilan",
       titre: "6. Choisir une transformation",
@@ -194,7 +188,6 @@ enregistrerChapitres("2nde", "maths", [{
       ]
     }
   ],
-
   exercices: [
     {
       niveau: 1,
@@ -253,7 +246,7 @@ enregistrerChapitres("2nde", "maths", [{
     {
       niveau: 4,
       points: 5,
-      enonce: "Dans un repère, A(1 ; 1), B(3 ; 1) et C(1 ; 4). On considère l'homothétie de centre O(0 ; 0) et de rapport −2. 1. Calcule les coordonnées des images A', B' et C'. 2. Compare les longueurs AB et A'B'. 3. L'aire de ABC vaut 3 unités d'aire. Quelle est l'aire de A'B'C' ?",
+      enonce: "Dans un repère orthonormé, A(1 ; 1), B(3 ; 1) et C(1 ; 4). On considère l'homothétie de centre O(0 ; 0) et de rapport −2. 1. Calcule les coordonnées des images A', B' et C'. 2. Compare les longueurs AB et A'B'. 3. L'aire de ABC vaut 3 unités d'aire. Quelle est l'aire de A'B'C' ?",
       correction: "1. Le centre est l'origine : on multiplie chaque coordonnée par −2. Ainsi A'(−2 ; −2), B'(−6 ; −2) et C'(−2 ; −8). 2. Les longueurs sont multipliées par 2 : AB = 2 et A'B' = 4. 3. Les aires sont multipliées par (−2)² = 4. L'aire de A'B'C' vaut donc 3 × 4 = 12 unités d'aire."
     },
     {
