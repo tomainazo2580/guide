@@ -3,7 +3,6 @@ enregistrerChapitres("2nde", "maths", [{
   titre: "Chapitre 20 : Relations métriques et cercle",
   premium: false,
   guide: false,
-
   lecons: [
     {
       id: "m2-ch20-distance",
@@ -22,7 +21,7 @@ enregistrerChapitres("2nde", "maths", [{
         {
           type: "definition",
           titre: "Projeté orthogonal",
-          texte: "Soit une droite d et un point A. Le projeté orthogonal H de A sur d est le point de d tel que (AH) soit perpendiculaire à d. Si A appartient déjà à d, alors H = A."
+          texte: "Soit une droite d et un point A. Si A n'appartient pas à d, son projeté orthogonal H sur d est le point de d tel que (AH) soit perpendiculaire à d. Si A appartient déjà à d, son projeté est H = A."
         },
         {
           type: "schema",
@@ -33,11 +32,10 @@ enregistrerChapitres("2nde", "maths", [{
         {
           type: "regle",
           titre: "La plus courte distance",
-          texte: "Si H est le projeté orthogonal de A sur d, la distance de A à d est AH. Pour tout point M de d, AM ≥ AH. En effet, si M ≠ H, le triangle AHM est rectangle en H et AM² = AH² + HM²."
+          texte: "Si H est le projeté orthogonal de A sur d, la distance de A à d est AH. Pour tout point M de d, AM ≥ AH.\n\nSi A n'appartient pas à d et si M ≠ H, le triangle AHM est rectangle en H : AM² = AH² + HM². Si M = H, on a simplement AM = AH.\n\nSi A appartient à d, alors H = A et AH = 0. L'inégalité AM ≥ AH est encore vraie pour tout point M de d."
         }
       ]
     },
-
     {
       id: "m2-ch20-relations",
       titre: "2. Relations métriques dans un triangle",
@@ -79,7 +77,6 @@ enregistrerChapitres("2nde", "maths", [{
         }
       ]
     },
-
     {
       id: "m2-ch20-cercle",
       titre: "3. Cercle : définition et équation",
@@ -111,7 +108,6 @@ enregistrerChapitres("2nde", "maths", [{
         }
       ]
     },
-
     {
       id: "m2-ch20-diametre",
       titre: "4. Cercle de diamètre donné",
@@ -133,7 +129,6 @@ enregistrerChapitres("2nde", "maths", [{
         }
       ]
     },
-
     {
       id: "m2-ch20-positions",
       titre: "5. Positions relatives d'une droite et d'un cercle",
@@ -162,7 +157,7 @@ enregistrerChapitres("2nde", "maths", [{
         {
           type: "methode",
           titre: "Longueur d'une corde",
-          texte: "Si une droite sécante coupe le cercle en A et B, et si H est le projeté orthogonal du centre O sur cette droite, alors H est le milieu de [AB]. Par Pythagore dans OHA : AH = √(R² − OH²), puis AB = 2AH."
+          texte: "Si une droite sécante coupe le cercle en A et B, et si H est le projeté orthogonal du centre O sur cette droite, alors H est le milieu de [AB].\n\nSi O n'appartient pas à la droite, le triangle OHA est rectangle en H. Par Pythagore : AH = √(R² − OH²), puis AB = 2AH.\n\nSi la droite passe par O, alors H = O et [AB] est un diamètre : AH = R et AB = 2R. La formule AB = 2√(R² − OH²) reste valable puisque OH = 0."
         },
         {
           type: "exemple",
@@ -171,7 +166,6 @@ enregistrerChapitres("2nde", "maths", [{
         }
       ]
     },
-
     {
       id: "m2-ch20-deux-cercles",
       titre: "6. Positions relatives de deux cercles",
@@ -194,7 +188,6 @@ enregistrerChapitres("2nde", "maths", [{
       ]
     }
   ],
-
   exercices: [
     {
       niveau: 1,
