@@ -1,5 +1,6 @@
 // ===== GUIDE — Classes, matières et chargement des chapitres =====
-var VERSION = 'v4.09';
+
+var VERSION = 'v4.10';
 
 var CLASSES = [
   { id: '6e', nom: 'Sixieme', dispo: true },
@@ -14,11 +15,13 @@ var CLASSES = [
 // Prépare les chemins des chapitres dans l'ordre.
 function fichiersGuide(classe, matiere, nombre) {
   var fichiers = [];
+
   for (var i = 1; i <= nombre; i++) {
     fichiers.push(
       'data/' + classe + '/' + matiere + '-ch' + i + '.js'
     );
   }
+
   return fichiers;
 }
 
@@ -270,8 +273,8 @@ var MATIERES = {
       nom: 'Anglais',
       court: 'Ang',
       icone: '🇬🇧',
-      dispo: false,
-      fichiers: []
+      dispo: true,
+      fichiers: fichiersGuide('3e', 'eng', 13)
     },
     {
       id: 'hg',
@@ -313,12 +316,14 @@ var chargementContenuGuide = (function () {
 
   for (var c = 0; c < CLASSES.length; c++) {
     var classe = CLASSES[c];
+
     if (!classe.dispo) continue;
 
     var liste = MATIERES[classe.id] || [];
 
     for (var m = 0; m < liste.length; m++) {
       var matiere = liste[m];
+
       if (!matiere.dispo) continue;
 
       for (var f = 0; f < matiere.fichiers.length; f++) {
