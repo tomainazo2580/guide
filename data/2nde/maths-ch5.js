@@ -2,14 +2,12 @@
 // Chapitre 5 : signe et inéquations du second degré.
 // Inspiré de la répartition annuelle ministérielle
 // et complété par Guide.
-
 enregistrerChapitres("2nde", "maths", [
   {
     id: "m2-signe-inequations-second-degre",
     titre: "Chapitre 5 : Signe et inéquations du second degré",
     premium: false,
     guide: false,
-
     lecons: [
       {
         id: "m2-ch5-signe",
@@ -42,7 +40,6 @@ enregistrerChapitres("2nde", "maths", [
           }
         ]
       },
-
       {
         id: "m2-ch5-deux-racines",
         titre: "Le cas de deux racines distinctes",
@@ -75,7 +72,7 @@ enregistrerChapitres("2nde", "maths", [
           {
             type: "schema",
             titre: "Signe et parabole : deux racines",
-            svg: "<svg viewBox='0 0 360 190' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Parabole ouverte vers le haut, au-dessus de l’axe hors de deux racines et en dessous entre les racines'><rect x='5' y='5' width='350' height='180' rx='10' fill='#f8fafc' stroke='#cbd5e1'/><line x1='20' y1='95' x2='340' y2='95' stroke='#334155' stroke-width='2'/><path d='M340 95 l-8 -4 M340 95 l-8 4' fill='none' stroke='#334155' stroke-width='2'/><path d='M40 20 Q180 230 320 20' fill='none' stroke='#2563eb' stroke-width='3'/><circle cx='99' cy='95' r='4' fill='#dc2626'/><circle cx='261' cy='95' r='4' fill='#dc2626'/><text x='99' y='119' text-anchor='middle' font-size='14' fill='#334155'>r₁</text><text x='261' y='119' text-anchor='middle' font-size='14' fill='#334155'>r₂</text><text x='50' y='80' text-anchor='middle' font-size='16' fill='#166534'>+</text><text x='180' y='80' text-anchor='middle' font-size='16' fill='#b91c1c'>−</text><text x='310' y='80' text-anchor='middle' font-size='16' fill='#166534'>+</text><text x='180' y='175' text-anchor='middle' font-size='13' fill='#334155'>Exemple avec a &gt; 0</text></svg>",
+            svg: "<svg viewBox='0 0 360 190' xmlns='http://www.w3.org/2000/svg' role='img' aria-label='Parabole ouverte vers le haut, au-dessus de l’axe hors de deux racines et en dessous entre les racines'><rect x='5' y='5' width='350' height='180' rx='10' fill='#f8fafc' stroke='#cbd5e1'/><line x1='20' y1='95' x2='340' y2='95' stroke='#334155' stroke-width='2'/><path d='M340 95 l-8 -4 M340 95 l-8 4' fill='none' stroke='#334155' stroke-width='2'/><path d='M20 20 Q180 220 340 20' fill='none' stroke='#2563eb' stroke-width='3'/><circle cx='100' cy='95' r='4' fill='#dc2626'/><circle cx='260' cy='95' r='4' fill='#dc2626'/><text x='100' y='119' text-anchor='middle' font-size='14' fill='#334155'>r₁</text><text x='260' y='119' text-anchor='middle' font-size='14' fill='#334155'>r₂</text><text x='50' y='80' text-anchor='middle' font-size='16' fill='#166534'>+</text><text x='180' y='80' text-anchor='middle' font-size='16' fill='#b91c1c'>−</text><text x='310' y='80' text-anchor='middle' font-size='16' fill='#166534'>+</text><text x='180' y='175' text-anchor='middle' font-size='13' fill='#334155'>Exemple avec a &gt; 0</text></svg>",
             legende: "Illustration qualitative : pour a > 0, la parabole est au-dessus de l'axe à l'extérieur des racines et en dessous entre elles. Les points où elle coupe l'axe correspondent aux racines."
           },
           {
@@ -85,7 +82,6 @@ enregistrerChapitres("2nde", "maths", [
           }
         ]
       },
-
       {
         id: "m2-ch5-autres-cas",
         titre: "Racine double ou absence de racine",
@@ -122,7 +118,6 @@ enregistrerChapitres("2nde", "maths", [
           }
         ]
       },
-
       {
         id: "m2-ch5-resoudre",
         titre: "Résoudre une inéquation du second degré",
@@ -154,7 +149,6 @@ enregistrerChapitres("2nde", "maths", [
           }
         ]
       },
-
       {
         id: "m2-ch5-applications",
         titre: "Appliquer et vérifier",
@@ -177,7 +171,6 @@ enregistrerChapitres("2nde", "maths", [
         ]
       }
     ],
-
     exercices: [
       {
         niveau: 1,
