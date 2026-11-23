@@ -3,7 +3,6 @@ enregistrerChapitres("2nde", "maths", [{
   titre: "Chapitre 23 : Révision générale",
   premium: true,
   guide: true,
-
   lecons: [
     {
       id: "m2-ch23-nombres",
@@ -31,7 +30,6 @@ enregistrerChapitres("2nde", "maths", [{
         }
       ]
     },
-
     {
       id: "m2-ch23-algebre",
       titre: "2. Second degré et systèmes",
@@ -53,7 +51,6 @@ enregistrerChapitres("2nde", "maths", [{
         }
       ]
     },
-
     {
       id: "m2-ch23-fonctions",
       titre: "3. Fonctions",
@@ -80,7 +77,6 @@ enregistrerChapitres("2nde", "maths", [{
         }
       ]
     },
-
     {
       id: "m2-ch23-trigonometrie",
       titre: "4. Trigonométrie et Thalès",
@@ -98,11 +94,10 @@ enregistrerChapitres("2nde", "maths", [{
         {
           type: "rappel",
           titre: "Théorème de Thalès",
-          texte: "Si A, M, B sont alignés, A, N, C sont alignés et (MN) est parallèle à (BC), alors AM/AB = AN/AC = MN/BC, avec des points permettant de définir ces droites. Pour utiliser la réciproque, il faut vérifier les alignements, l'ordre correspondant des points et l'égalité de deux rapports."
+          texte: "Soient A, B et C trois points non alignés. Si M appartient à la droite (AB), N appartient à la droite (AC), avec M ≠ A et N ≠ A, et si (MN) est parallèle à (BC), alors :\n\nAM/AB = AN/AC = MN/BC.\n\nPour utiliser la réciproque, il faut vérifier les alignements, l'ordre correspondant des points et l'égalité de deux rapports."
         }
       ]
     },
-
     {
       id: "m2-ch23-geometrie",
       titre: "5. Vecteurs, produit scalaire et transformations",
@@ -129,7 +124,6 @@ enregistrerChapitres("2nde", "maths", [{
         }
       ]
     },
-
     {
       id: "m2-ch23-statistiques",
       titre: "6. Statistiques et méthode de révision",
@@ -157,7 +151,6 @@ enregistrerChapitres("2nde", "maths", [{
       ]
     }
   ],
-
   exercices: [
     {
       niveau: 1,
