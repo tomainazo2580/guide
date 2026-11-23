@@ -3,7 +3,6 @@ enregistrerChapitres("2nde", "maths", [{
   titre: "Chapitre 16 : Théorème de Thalès et réciproque",
   premium: false,
   guide: false,
-
   lecons: [
     {
       id: "m2-ch16-rappels",
@@ -36,7 +35,6 @@ enregistrerChapitres("2nde", "maths", [{
         }
       ]
     },
-
     {
       id: "m2-ch16-theoreme",
       titre: "2. Théorème de Thalès",
@@ -80,7 +78,6 @@ enregistrerChapitres("2nde", "maths", [{
         }
       ]
     },
-
     {
       id: "m2-ch16-reciproque",
       titre: "3. Réciproque du théorème de Thalès",
@@ -112,7 +109,6 @@ enregistrerChapitres("2nde", "maths", [{
         }
       ]
     },
-
     {
       id: "m2-ch16-applications",
       titre: "4. Applications et erreurs à éviter",
@@ -145,12 +141,11 @@ enregistrerChapitres("2nde", "maths", [{
       ]
     }
   ],
-
   exercices: [
     {
       niveau: 1,
       points: 2,
-      enonce: "M est sur [AB], N est sur [AC] et (MN) est parallèle à (BC). Complète : AM/AB = AN/… = MN/… .",
+      enonce: "Dans un triangle ABC, M est sur [AB], N est sur [AC] et (MN) est parallèle à (BC). Complète : AM/AB = AN/… = MN/… .",
       correction: "D'après le théorème de Thalès : AM/AB = AN/AC = MN/BC."
     },
     {
