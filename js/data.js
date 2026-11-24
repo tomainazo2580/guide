@@ -1,5 +1,5 @@
 // ===== GUIDE — Classes, matières et chargement des chapitres =====
-var VERSION = 'v4.12';
+var VERSION = 'v4.13';
 
 var CLASSES = [
   { id: '6e', nom: 'Sixieme', dispo: true },
@@ -309,8 +309,8 @@ var MATIERES = {
     nom: 'Sciences de la Vie et de la Terre',
     court: 'SVT',
     icone: '🌱',
-    dispo: false,
-    fichiers: []
+    dispo: true,
+    fichiers: fichiersGuide('2nde', 'svt', 18)
   },
   {
     id: 'mal',
