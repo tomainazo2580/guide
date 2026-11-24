@@ -4,7 +4,6 @@ enregistrerChapitres("2nde", "svt", [
     titre: "Chapitre 1 : Le microscope optique et l’observation des cellules",
     premium: false,
     guide: false,
-
     lecons: [
       {
         id: 1,
@@ -37,7 +36,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 2,
         titre: "2. Les parties du microscope optique",
@@ -46,6 +44,62 @@ enregistrerChapitres("2nde", "svt", [
             type: "introduction",
             titre: "Trois fonctions essentielles",
             texte: "Le microscope doit éclairer la préparation, produire une image agrandie et permettre une mise au point nette. Plusieurs pièces travaillent ensemble pour assurer ces fonctions."
+          },
+          {
+            type: "schema",
+            titre: "Schéma simplifié d’un microscope optique",
+            svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 390" role="img" aria-label="Microscope optique simplifié avec ses principales pièces légendées">
+              <rect width="360" height="390" fill="#ffffff"/>
+              <g stroke="#334155" stroke-width="3" stroke-linejoin="round">
+                <path d="M218 106 C278 135 281 264 238 317 L215 317 C250 260 253 154 205 126 Z" fill="#cbd5e1"/>
+                <path d="M126 337 Q129 314 160 310 L244 310 Q265 316 270 337 Z" fill="#94a3b8"/>
+                <path d="M160 56 L181 48 L214 123 L193 132 Z" fill="#cbd5e1"/>
+                <path d="M151 42 L174 34 L183 55 L160 63 Z" fill="#475569"/>
+                <path d="M177 128 L220 120 L225 135 L181 143 Z" fill="#64748b"/>
+                <path d="M185 141 L195 139 L198 165 L189 166 Z" fill="#94a3b8"/>
+                <path d="M204 137 L214 135 L219 160 L210 162 Z" fill="#94a3b8"/>
+                <rect x="139" y="174" width="105" height="10" rx="2" fill="#64748b"/>
+                <rect x="157" y="168" width="58" height="5" rx="1" fill="#93c5fd"/>
+                <ellipse cx="191" cy="195" rx="22" ry="6" fill="#94a3b8"/>
+                <circle cx="195" cy="267" r="17" fill="#fbbf24"/>
+                <path d="M180 286 L210 286 L215 310 L175 310 Z" fill="#cbd5e1"/>
+                <circle cx="252" cy="213" r="18" fill="#94a3b8"/>
+                <circle cx="252" cy="213" r="8" fill="#e2e8f0"/>
+              </g>
+              <g fill="none" stroke="#2563eb" stroke-width="1.5">
+                <path d="M160 49 H116 L110 35"/>
+                <path d="M187 135 H115"/>
+                <path d="M190 155 H115"/>
+                <path d="M158 171 H115"/>
+                <path d="M139 179 H115"/>
+                <path d="M169 195 H115"/>
+                <path d="M178 267 H115"/>
+                <path d="M238 145 H275"/>
+                <path d="M270 213 H283"/>
+                <path d="M230 337 H275"/>
+              </g>
+              <g fill="#0f172a" font-family="Arial, sans-serif" font-size="11">
+                <text x="8" y="35">Oculaire</text>
+                <text x="8" y="132">Révolver</text>
+                <text x="8" y="145">porte-objectifs</text>
+                <text x="8" y="159">Objectifs</text>
+                <text x="8" y="172">Lame</text>
+                <text x="8" y="184">Platine</text>
+                <text x="8" y="199">Diaphragme</text>
+                <text x="8" y="264">Source</text>
+                <text x="8" y="277">lumineuse</text>
+                <text x="279" y="149">Potence</text>
+                <text x="286" y="207">Vis de</text>
+                <text x="286" y="220">mise au point</text>
+                <text x="279" y="341">Pied</text>
+              </g>
+              <g fill="none" stroke="#d97706" stroke-width="2" stroke-dasharray="4 4">
+                <path d="M195 249 L195 206"/>
+              </g>
+              <path d="M190 211 L195 202 L200 211" fill="#d97706"/>
+              <text x="95" y="374" fill="#475569" font-family="Arial, sans-serif" font-size="11">Schéma simplifié : les modèles peuvent varier.</text>
+            </svg>`,
+            legende: "La source lumineuse éclaire la préparation par-dessous. Les vis de mise au point permettent d’obtenir une image nette ; selon le modèle, les vis macrométrique et micrométrique peuvent être disposées différemment."
           },
           {
             type: "tableau",
@@ -82,7 +136,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 3,
         titre: "3. Préparer une observation",
@@ -124,7 +177,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 4,
         titre: "4. Utiliser le microscope",
@@ -156,7 +208,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 5,
         titre: "5. Calculer le grossissement",
@@ -188,7 +239,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 6,
         titre: "6. Observer et représenter les cellules",
@@ -225,7 +275,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 7,
         titre: "7. L’essentiel à retenir",
@@ -243,7 +292,6 @@ enregistrerChapitres("2nde", "svt", [
         ]
       }
     ],
-
     exercices: [
       {
         niveau: 1,
