@@ -1,13 +1,12 @@
 // ===== GUIDE — Classes, matières et chargement des chapitres =====
-
-var VERSION = 'v4.10';
+var VERSION = 'v4.11';
 
 var CLASSES = [
   { id: '6e', nom: 'Sixieme', dispo: true },
   { id: '5e', nom: 'Cinquieme', dispo: true },
   { id: '4e', nom: 'Quatrieme', dispo: true },
   { id: '3e', nom: 'Troisieme', dispo: true },
-  { id: '2nde', nom: 'Seconde', dispo: false },
+  { id: '2nde', nom: 'Seconde', dispo: true },
   { id: '1ere', nom: 'Premiere', dispo: false },
   { id: 'tle', nom: 'Terminale', dispo: false }
 ];
@@ -15,13 +14,11 @@ var CLASSES = [
 // Prépare les chemins des chapitres dans l'ordre.
 function fichiersGuide(classe, matiere, nombre) {
   var fichiers = [];
-
   for (var i = 1; i <= nombre; i++) {
     fichiers.push(
       'data/' + classe + '/' + matiere + '-ch' + i + '.js'
     );
   }
-
   return fichiers;
 }
 
@@ -92,7 +89,6 @@ var MATIERES = {
       fichiers: []
     }
   ],
-
   '5e': [
     {
       id: 'maths',
@@ -159,7 +155,6 @@ var MATIERES = {
       fichiers: []
     }
   ],
-
   '4e': [
     {
       id: 'maths',
@@ -226,7 +221,6 @@ var MATIERES = {
       fichiers: []
     }
   ],
-
   '3e': [
     {
       id: 'maths',
@@ -292,6 +286,16 @@ var MATIERES = {
       dispo: false,
       fichiers: []
     }
+  ],
+  '2nde': [
+    {
+      id: 'maths',
+      nom: 'Mathematiques',
+      court: 'Maths',
+      icone: '📐',
+      dispo: true,
+      fichiers: fichiersGuide('2nde', 'maths', 23)
+    }
   ]
 };
 
@@ -299,11 +303,9 @@ var CONTENU = {};
 
 function enregistrerChapitres(classeId, matiereId, chapitres) {
   var cle = classeId + '|' + matiereId;
-
   if (!CONTENU[cle]) {
     CONTENU[cle] = [];
   }
-
   for (var i = 0; i < chapitres.length; i++) {
     CONTENU[cle].push(chapitres[i]);
   }
@@ -316,14 +318,12 @@ var chargementContenuGuide = (function () {
 
   for (var c = 0; c < CLASSES.length; c++) {
     var classe = CLASSES[c];
-
     if (!classe.dispo) continue;
 
     var liste = MATIERES[classe.id] || [];
 
     for (var m = 0; m < liste.length; m++) {
       var matiere = liste[m];
-
       if (!matiere.dispo) continue;
 
       for (var f = 0; f < matiere.fichiers.length; f++) {
@@ -338,7 +338,6 @@ var chargementContenuGuide = (function () {
 
   function telechargerSuivant() {
     var index = prochain++;
-
     if (index >= fichiers.length) {
       return Promise.resolve();
     }
@@ -353,7 +352,6 @@ var chargementContenuGuide = (function () {
             ' (erreur ' + reponse.status + ')'
           );
         }
-
         return reponse.text();
       })
       .then(function (texte) {
@@ -363,7 +361,6 @@ var chargementContenuGuide = (function () {
   }
 
   var telechargements = [];
-
   for (var i = 0; i < nombreTelechargements; i++) {
     telechargements.push(telechargerSuivant());
   }
