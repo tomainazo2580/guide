@@ -4,7 +4,6 @@ enregistrerChapitres("2nde", "svt", [
     titre: "Chapitre 16 : Les roches métamorphiques",
     premium: false,
     guide: false,
-
     lecons: [
       {
         id: 1,
@@ -37,7 +36,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 2,
         titre: "2. Les facteurs du métamorphisme",
@@ -70,7 +68,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 3,
         titre: "3. Les grands types de métamorphisme",
@@ -107,7 +104,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 4,
         titre: "4. Schistosité et foliation",
@@ -134,7 +130,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 5,
         titre: "5. Le gneiss et le micaschiste",
@@ -165,7 +160,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 6,
         titre: "6. Le marbre et les minéraux indicateurs",
@@ -181,6 +175,53 @@ enregistrerChapitres("2nde", "svt", [
             texte: "Un calcaire soumis à des conditions métamorphiques peut recristalliser et former un marbre. Les grains de carbonate sont alors réorganisés ; la roche n’a pas besoin de fondre."
           },
           {
+            type: "schema",
+            titre: "Exemple de métamorphisme : du calcaire au marbre",
+            svg: `<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 280' role='img' aria-label='Un calcaire peut se transformer en marbre par recristallisation lors d’un métamorphisme, principalement à l’état solide.'>
+              <defs>
+                <marker id='fleche-ch16' viewBox='0 0 10 10' refX='9' refY='5' markerWidth='7' markerHeight='7' orient='auto'>
+                  <path d='M 0 0 L 10 5 L 0 10 z' fill='#6a4c80'/>
+                </marker>
+              </defs>
+              <rect width='360' height='280' fill='#f8fbff'/>
+
+              <text x='90' y='26' text-anchor='middle' font-family='sans-serif' font-size='17' font-weight='bold' fill='#44515c'>Calcaire</text>
+              <text x='90' y='45' text-anchor='middle' font-family='sans-serif' font-size='13' fill='#44515c'>Roche sédimentaire</text>
+
+              <rect x='24' y='57' width='132' height='89' rx='6' fill='#eee8d8' stroke='#948b79' stroke-width='2'/>
+              <g fill='#c2b79d'>
+                <circle cx='43' cy='77' r='4'/><circle cx='61' cy='72' r='3'/><circle cx='80' cy='82' r='4'/>
+                <circle cx='101' cy='73' r='3'/><circle cx='124' cy='82' r='4'/><circle cx='143' cy='73' r='3'/>
+                <circle cx='49' cy='103' r='3'/><circle cx='70' cy='100' r='4'/><circle cx='91' cy='105' r='3'/>
+                <circle cx='111' cy='100' r='4'/><circle cx='135' cy='108' r='3'/>
+                <circle cx='42' cy='127' r='4'/><circle cx='63' cy='126' r='3'/><circle cx='84' cy='128' r='4'/>
+                <circle cx='105' cy='123' r='3'/><circle cx='126' cy='128' r='4'/><circle cx='144' cy='124' r='3'/>
+              </g>
+
+              <text x='270' y='26' text-anchor='middle' font-family='sans-serif' font-size='17' font-weight='bold' fill='#5e466d'>Marbre</text>
+              <text x='270' y='45' text-anchor='middle' font-family='sans-serif' font-size='13' fill='#5e466d'>Roche métamorphique</text>
+
+              <rect x='204' y='57' width='132' height='89' rx='6' fill='#f1edf4' stroke='#9d8ca6' stroke-width='2'/>
+              <path d='M 204 85 L 226 57 L 249 57 L 257 83 L 239 102 L 204 101 Z' fill='#e5dce9' stroke='#a99cad'/>
+              <path d='M 249 57 L 289 57 L 300 80 L 277 96 L 257 83 Z' fill='#f8f5f9' stroke='#a99cad'/>
+              <path d='M 289 57 L 336 57 L 336 93 L 300 80 Z' fill='#ddd4e2' stroke='#a99cad'/>
+              <path d='M 204 101 L 239 102 L 248 125 L 230 146 L 204 146 Z' fill='#f9f5f9' stroke='#a99cad'/>
+              <path d='M 239 102 L 257 83 L 277 96 L 283 122 L 248 125 Z' fill='#e9e1ec' stroke='#a99cad'/>
+              <path d='M 277 96 L 300 80 L 336 93 L 336 119 L 283 122 Z' fill='#f6f1f6' stroke='#a99cad'/>
+              <path d='M 230 146 L 248 125 L 283 122 L 297 146 Z' fill='#ddd4e2' stroke='#a99cad'/>
+              <path d='M 297 146 L 283 122 L 336 119 L 336 146 Z' fill='#eee8f0' stroke='#a99cad'/>
+
+              <line x1='164' y1='101' x2='196' y2='101' stroke='#6a4c80' stroke-width='3' marker-end='url(#fleche-ch16)'/>
+
+              <rect x='25' y='166' width='310' height='88' rx='8' fill='#eee7f4' stroke='#a18bb0'/>
+              <text x='180' y='188' text-anchor='middle' font-family='sans-serif' font-size='15' font-weight='bold' fill='#573d6b'>Métamorphisme</text>
+              <text x='180' y='209' text-anchor='middle' font-family='sans-serif' font-size='14' fill='#573d6b'>Nouvelles conditions de température</text>
+              <text x='180' y='228' text-anchor='middle' font-family='sans-serif' font-size='14' fill='#573d6b'>et de pression : recristallisation</text>
+              <text x='180' y='246' text-anchor='middle' font-family='sans-serif' font-size='13' fill='#573d6b'>Transformation principalement à l’état solide</text>
+            </svg>`,
+            legende: "Un calcaire peut recristalliser lors d’un métamorphisme et devenir un marbre, sans avoir besoin de fondre. Les dessins sont simplifiés : l’aspect et la taille des grains varient selon les échantillons."
+          },
+          {
             type: "definition",
             titre: "Minéral indicateur de métamorphisme",
             texte: "Un minéral indicateur est un minéral dont la présence peut aider à estimer les conditions de formation d’une roche, à condition de tenir compte de son association avec d’autres minéraux et de la composition de la roche."
@@ -192,7 +233,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 7,
         titre: "7. Madagascar et les utilisations",
@@ -219,7 +259,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 8,
         titre: "8. Comparer les grandes familles de roches",
@@ -246,7 +285,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 9,
         titre: "9. L’essentiel à retenir",
@@ -269,7 +307,6 @@ enregistrerChapitres("2nde", "svt", [
         ]
       }
     ],
-
     exercices: [
       {
         niveau: 1,
