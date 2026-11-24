@@ -4,7 +4,6 @@ enregistrerChapitres("2nde", "svt", [
     titre: "Chapitre 11 : Les problèmes environnementaux et leur prévention",
     premium: false,
     guide: false,
-
     lecons: [
       {
         id: 1,
@@ -32,7 +31,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 2,
         titre: "2. La pollution",
@@ -65,7 +63,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 3,
         titre: "3. Prévenir la pollution",
@@ -87,7 +84,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 4,
         titre: "4. La déforestation",
@@ -120,7 +116,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 5,
         titre: "5. L’érosion des sols",
@@ -134,6 +129,41 @@ enregistrerChapitres("2nde", "svt", [
             type: "methode",
             titre: "Comprendre une érosion par la pluie",
             texte: "Sur un sol nu, les gouttes de pluie détachent des particules. L’eau qui ruisselle peut ensuite les emporter vers le bas de la pente ou vers un cours d’eau. La pente, la couverture végétale et l’intensité des pluies influencent le phénomène."
+          },
+          {
+            type: "schema",
+            titre: "Érosion d’un sol nu sur une pente",
+            svg: `<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 250' role='img' aria-label='La pluie tombe sur un sol nu en pente. Le ruissellement entraîne des particules de sol vers un cours d’eau.'>
+              <defs>
+                <marker id='fleche-eau-ch11' viewBox='0 0 10 10' refX='9' refY='5' markerWidth='7' markerHeight='7' orient='auto-start-reverse'>
+                  <path d='M 0 0 L 10 5 L 0 10 z' fill='#1565c0'/>
+                </marker>
+              </defs>
+              <rect width='360' height='250' fill='#f8fbff'/>
+              <text x='35' y='25' font-size='16' font-family='sans-serif' fill='#174b78'>Pluie</text>
+              <g stroke='#2196f3' stroke-width='3' stroke-linecap='round'>
+                <line x1='55' y1='38' x2='49' y2='57'/>
+                <line x1='82' y1='38' x2='76' y2='57'/>
+                <line x1='109' y1='38' x2='103' y2='57'/>
+                <line x1='136' y1='38' x2='130' y2='57'/>
+                <line x1='163' y1='38' x2='157' y2='57'/>
+              </g>
+              <path d='M 15 96 L 245 190 L 245 235 L 15 235 Z' fill='#c99561' stroke='#80552f' stroke-width='2'/>
+              <path d='M 245 190 Q 290 205 345 190 L 345 235 L 245 235 Z' fill='#a7d8f5' stroke='#488db9' stroke-width='2'/>
+              <text x='25' y='155' font-size='15' font-family='sans-serif' fill='#5a351b'>Sol nu</text>
+              <text x='250' y='220' font-size='14' font-family='sans-serif' fill='#124c75'>Cours d’eau</text>
+              <line x1='107' y1='116' x2='215' y2='160' stroke='#1565c0' stroke-width='4' marker-end='url(#fleche-eau-ch11)'/>
+              <text x='145' y='93' font-size='14' font-family='sans-serif' fill='#174b78'>Ruissellement</text>
+              <g fill='#7b4d27'>
+                <circle cx='161' cy='141' r='3'/>
+                <circle cx='184' cy='151' r='3'/>
+                <circle cx='208' cy='161' r='3'/>
+                <circle cx='257' cy='197' r='3'/>
+                <circle cx='271' cy='201' r='3'/>
+              </g>
+              <text x='185' y='185' font-size='13' font-family='sans-serif' fill='#5a351b'>Particules</text>
+            </svg>`,
+            legende: "La pluie peut détacher des particules du sol. L’eau qui ruisselle les transporte vers le bas de la pente et parfois jusqu’au cours d’eau. Une couverture végétale adaptée contribue à protéger le sol."
           },
           {
             type: "exemple",
@@ -152,7 +182,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 6,
         titre: "6. Réduire l’érosion",
@@ -175,7 +204,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 7,
         titre: "7. Les feux de brousse",
@@ -208,7 +236,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 8,
         titre: "8. Des solutions adaptées et collectives",
@@ -235,7 +262,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 9,
         titre: "9. L’essentiel à retenir",
@@ -258,7 +284,6 @@ enregistrerChapitres("2nde", "svt", [
         ]
       }
     ],
-
     exercices: [
       {
         niveau: 1,
