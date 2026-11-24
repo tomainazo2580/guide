@@ -4,7 +4,6 @@ enregistrerChapitres("2nde", "svt", [
     titre: "Chapitre 17 : Les principaux minerais de Madagascar",
     premium: false,
     guide: false,
-
     lecons: [
       {
         id: 1,
@@ -37,7 +36,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 2,
         titre: "2. Comment étudier un minerai ?",
@@ -64,7 +62,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 3,
         titre: "3. Étude détaillée : l’ilménite",
@@ -91,7 +88,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 4,
         titre: "4. Extraction, traitement et usages de l’ilménite",
@@ -100,6 +96,41 @@ enregistrerChapitres("2nde", "svt", [
             type: "methode",
             titre: "Étapes générales",
             texte: "1. Extraire les sables minéralisés selon les méthodes autorisées pour le site. 2. Séparer et concentrer les minéraux recherchés à l’aide de procédés adaptés à leurs propriétés. 3. Transporter les produits obtenus vers les installations de traitement ou les marchés. Les méthodes exactes varient selon les gisements et les installations."
+          },
+          {
+            type: "schema",
+            titre: "Des sables minéralisés aux produits industriels",
+            svg: `<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 315' role='img' aria-label='Étapes simplifiées : extraction de sables minéralisés, séparation et concentration de l’ilménite, puis transport et transformation industrielle en produits utiles.'>
+              <defs>
+                <marker id='fleche-svt17' viewBox='0 0 10 10' refX='9' refY='5' markerWidth='7' markerHeight='7' orient='auto'>
+                  <path d='M 0 0 L 10 5 L 0 10 z' fill='#466579'/>
+                </marker>
+              </defs>
+              <rect width='360' height='315' fill='#f8fbff'/>
+
+              <rect x='25' y='10' width='310' height='52' rx='8' fill='#fff0d0' stroke='#b9985e' stroke-width='2'/>
+              <text x='180' y='32' text-anchor='middle' font-family='sans-serif' font-size='16' font-weight='bold' fill='#5b4622'>Sables minéralisés</text>
+              <text x='180' y='51' text-anchor='middle' font-family='sans-serif' font-size='14' fill='#5b4622'>Ilménite et autres minéraux</text>
+
+              <line x1='180' y1='63' x2='180' y2='80' stroke='#466579' stroke-width='3' marker-end='url(#fleche-svt17)'/>
+
+              <rect x='25' y='84' width='310' height='45' rx='8' fill='#e7f2fa' stroke='#7297ad' stroke-width='2'/>
+              <text x='180' y='112' text-anchor='middle' font-family='sans-serif' font-size='16' font-weight='bold' fill='#284e65'>Extraction</text>
+
+              <line x1='180' y1='130' x2='180' y2='147' stroke='#466579' stroke-width='3' marker-end='url(#fleche-svt17)'/>
+
+              <rect x='25' y='151' width='310' height='52' rx='8' fill='#e8edf0' stroke='#7d909a' stroke-width='2'/>
+              <text x='180' y='173' text-anchor='middle' font-family='sans-serif' font-size='16' font-weight='bold' fill='#344b57'>Séparation et concentration</text>
+              <text x='180' y='192' text-anchor='middle' font-family='sans-serif' font-size='14' fill='#344b57'>Ilménite concentrée</text>
+
+              <line x1='180' y1='204' x2='180' y2='221' stroke='#466579' stroke-width='3' marker-end='url(#fleche-svt17)'/>
+
+              <rect x='25' y='225' width='310' height='74' rx='8' fill='#e6f4e9' stroke='#78a485' stroke-width='2'/>
+              <text x='180' y='247' text-anchor='middle' font-family='sans-serif' font-size='15' font-weight='bold' fill='#28543a'>Transport et transformation</text>
+              <text x='180' y='266' text-anchor='middle' font-family='sans-serif' font-size='15' font-weight='bold' fill='#28543a'>industrielle</text>
+              <text x='180' y='288' text-anchor='middle' font-family='sans-serif' font-size='14' fill='#28543a'>Exemple : pigment blanc au TiO₂</text>
+            </svg>`,
+            legende: "Les sables extraits contiennent plusieurs minéraux. Après séparation et concentration, l’ilménite doit encore subir des transformations industrielles pour obtenir des produits utilisables. Les étapes exactes dépendent des installations."
           },
           {
             type: "exemple",
@@ -118,7 +149,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 5,
         titre: "5. Deux autres ressources : nickel et cobalt",
@@ -154,7 +184,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 6,
         titre: "6. Autres ressources minérales malgaches",
@@ -182,7 +211,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 7,
         titre: "7. Importance économique et enjeux",
@@ -211,7 +239,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 8,
         titre: "8. Prévention et gestion responsable",
@@ -233,7 +260,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 9,
         titre: "9. L’essentiel à retenir",
@@ -256,7 +282,6 @@ enregistrerChapitres("2nde", "svt", [
         ]
       }
     ],
-
     exercices: [
       {
         niveau: 1,
