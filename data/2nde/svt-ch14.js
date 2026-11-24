@@ -4,7 +4,6 @@ enregistrerChapitres("2nde", "svt", [
     titre: "Chapitre 14 : Les roches magmatiques",
     premium: false,
     guide: false,
-
     lecons: [
       {
         id: 1,
@@ -37,7 +36,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 2,
         titre: "2. Roches plutoniques et volcaniques",
@@ -64,13 +62,64 @@ enregistrerChapitres("2nde", "svt", [
             ]
           },
           {
+            type: "schema",
+            titre: "Deux conditions de refroidissement",
+            svg: `<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 355' role='img' aria-label='Schéma comparant le refroidissement lent d’un magma en profondeur, formant un granite à cristaux visibles, et le refroidissement rapide d’une lave en surface, formant un basalte à petits cristaux.'>
+              <rect width='360' height='355' fill='#f8fbff'/>
+
+              <text x='90' y='25' text-anchor='middle' font-family='sans-serif' font-size='16' font-weight='bold' fill='#2c4d6d'>En profondeur</text>
+              <text x='270' y='25' text-anchor='middle' font-family='sans-serif' font-size='16' font-weight='bold' fill='#2c4d6d'>En surface</text>
+
+              <rect x='12' y='37' width='155' height='125' rx='8' fill='#efe3cf' stroke='#a58a6b' stroke-width='2'/>
+              <rect x='193' y='37' width='155' height='125' rx='8' fill='#e5f3fb' stroke='#8aabc0' stroke-width='2'/>
+
+              <text x='89' y='62' text-anchor='middle' font-family='sans-serif' font-size='15' fill='#3d3229'>Magma</text>
+              <text x='89' y='91' text-anchor='middle' font-family='sans-serif' font-size='14' fill='#3d3229'>Refroidissement</text>
+              <text x='89' y='111' text-anchor='middle' font-family='sans-serif' font-size='14' font-weight='bold' fill='#3d3229'>généralement lent</text>
+              <text x='89' y='145' text-anchor='middle' font-family='sans-serif' font-size='20' fill='#805b36'>↓</text>
+
+              <text x='270' y='62' text-anchor='middle' font-family='sans-serif' font-size='15' fill='#2d475c'>Lave</text>
+              <text x='270' y='91' text-anchor='middle' font-family='sans-serif' font-size='14' fill='#2d475c'>Refroidissement</text>
+              <text x='270' y='111' text-anchor='middle' font-family='sans-serif' font-size='14' font-weight='bold' fill='#2d475c'>généralement rapide</text>
+              <text x='270' y='145' text-anchor='middle' font-family='sans-serif' font-size='20' fill='#456d8a'>↓</text>
+
+              <text x='90' y='185' text-anchor='middle' font-family='sans-serif' font-size='16' font-weight='bold' fill='#493728'>Granite</text>
+              <text x='270' y='185' text-anchor='middle' font-family='sans-serif' font-size='16' font-weight='bold' fill='#303b45'>Basalte</text>
+
+              <rect x='28' y='198' width='124' height='90' rx='5' fill='#f1e5d0' stroke='#8f7965' stroke-width='2'/>
+              <path d='M 28 222 L 59 198 L 78 218 L 64 244 L 28 248 Z' fill='#dedbd3' stroke='#8f7965'/>
+              <path d='M 59 198 L 105 198 L 112 224 L 78 218 Z' fill='#e8bcb3' stroke='#8f7965'/>
+              <path d='M 105 198 L 152 198 L 152 232 L 112 224 Z' fill='#e4e0d5' stroke='#8f7965'/>
+              <path d='M 28 248 L 64 244 L 79 268 L 59 288 L 28 288 Z' fill='#d8b5a0' stroke='#8f7965'/>
+              <path d='M 64 244 L 78 218 L 112 224 L 118 257 L 79 268 Z' fill='#f3eee4' stroke='#8f7965'/>
+              <path d='M 112 224 L 152 232 L 152 265 L 118 257 Z' fill='#c9c2b6' stroke='#8f7965'/>
+              <path d='M 59 288 L 79 268 L 118 257 L 152 265 L 152 288 Z' fill='#e5c7b2' stroke='#8f7965'/>
+              <path d='M 48 259 L 54 255 M 91 237 L 97 232 M 130 278 L 136 273' stroke='#3c3631' stroke-width='3'/>
+
+              <rect x='208' y='198' width='124' height='90' rx='5' fill='#555c61' stroke='#343a3e' stroke-width='2'/>
+              <g stroke='#e2e5df' stroke-width='2' stroke-linecap='round'>
+                <line x1='220' y1='214' x2='229' y2='210'/><line x1='245' y1='216' x2='253' y2='220'/>
+                <line x1='276' y1='210' x2='284' y2='213'/><line x1='310' y1='214' x2='320' y2='210'/>
+                <line x1='230' y1='237' x2='239' y2='233'/><line x1='260' y1='239' x2='269' y2='243'/>
+                <line x1='293' y1='234' x2='302' y2='230'/><line x1='316' y1='242' x2='324' y2='245'/>
+                <line x1='219' y1='263' x2='228' y2='267'/><line x1='249' y1='262' x2='258' y2='258'/>
+                <line x1='280' y1='269' x2='289' y2='264'/><line x1='307' y1='270' x2='316' y2='273'/>
+              </g>
+
+              <text x='90' y='311' text-anchor='middle' font-family='sans-serif' font-size='14' fill='#493728'>Cristaux visibles</text>
+              <text x='90' y='330' text-anchor='middle' font-family='sans-serif' font-size='14' fill='#493728'>Texture grenue</text>
+              <text x='270' y='311' text-anchor='middle' font-family='sans-serif' font-size='14' fill='#303b45'>Très petits cristaux</text>
+              <text x='270' y='330' text-anchor='middle' font-family='sans-serif' font-size='14' fill='#303b45'>Texture microlitique</text>
+            </svg>`,
+            legende: "Le granite se forme généralement par refroidissement lent en profondeur : ses cristaux sont visibles. Le basalte se forme généralement par refroidissement rapide d’une lave : il contient souvent de très petits cristaux, parfois accompagnés de verre. Les dessins des textures sont simplifiés et ne sont pas à la même échelle."
+          },
+          {
             type: "remarque",
             titre: "Des cas variés",
             texte: "Cette comparaison est simplifiée. Un magma peut commencer à cristalliser en profondeur puis refroidir rapidement après son émission : la roche peut alors présenter des cristaux de tailles différentes."
           }
         ]
       },
-
       {
         id: 3,
         titre: "3. Les textures des roches magmatiques",
@@ -102,7 +151,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 4,
         titre: "4. Le granite",
@@ -134,7 +182,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 5,
         titre: "5. Le basalte",
@@ -161,7 +208,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 6,
         titre: "6. Classer et comparer",
@@ -194,7 +240,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 7,
         titre: "7. Répartition et utilisations à Madagascar",
@@ -225,7 +270,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 8,
         titre: "8. L’essentiel à retenir",
@@ -248,7 +292,6 @@ enregistrerChapitres("2nde", "svt", [
         ]
       }
     ],
-
     exercices: [
       {
         niveau: 1,
