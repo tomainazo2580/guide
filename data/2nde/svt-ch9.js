@@ -4,7 +4,6 @@ enregistrerChapitres("2nde", "svt", [
     titre: "Chapitre 9 : Les écosystèmes et les chaînes alimentaires",
     premium: false,
     guide: false,
-
     lecons: [
       {
         id: 1,
@@ -42,7 +41,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 2,
         titre: "2. Habitat et niche écologique",
@@ -69,7 +67,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 3,
         titre: "3. Les relations entre êtres vivants",
@@ -92,7 +89,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 4,
         titre: "4. Les chaînes alimentaires",
@@ -113,6 +109,38 @@ enregistrerChapitres("2nde", "svt", [
             texte: "Herbe → criquet → grenouille → serpent. L’herbe est mangée par le criquet ; le criquet peut être mangé par la grenouille ; la grenouille peut être mangée par le serpent."
           },
           {
+            type: "schema",
+            titre: "Une chaîne alimentaire",
+            svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 370" role="img" aria-label="Chaîne alimentaire : herbe, criquet, grenouille et serpent. Les flèches vont de l'aliment vers le consommateur.">
+              <rect width="360" height="370" fill="#ffffff"/>
+              <g font-family="Arial, sans-serif" text-anchor="middle" fill="#0f172a">
+                <text x="180" y="25" font-size="14" font-weight="bold">Aliment → consommateur</text>
+                <rect x="55" y="40" width="250" height="53" rx="10" fill="#dcfce7" stroke="#15803d" stroke-width="2"/>
+                <text x="180" y="62" font-size="15" font-weight="bold">Herbe</text>
+                <text x="180" y="81" font-size="12">Producteur</text>
+                <rect x="55" y="120" width="250" height="53" rx="10" fill="#fef3c7" stroke="#b45309" stroke-width="2"/>
+                <text x="180" y="142" font-size="15" font-weight="bold">Criquet</text>
+                <text x="180" y="161" font-size="12">Consommateur primaire</text>
+                <rect x="55" y="200" width="250" height="53" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+                <text x="180" y="222" font-size="15" font-weight="bold">Grenouille</text>
+                <text x="180" y="241" font-size="12">Consommateur secondaire</text>
+                <rect x="55" y="280" width="250" height="53" rx="10" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+                <text x="180" y="302" font-size="15" font-weight="bold">Serpent</text>
+                <text x="180" y="321" font-size="12">Consommateur</text>
+                <text x="180" y="356" font-size="11" fill="#475569">Exemple simplifié : la flèche signifie « est mangé par ».</text>
+              </g>
+              <g stroke="#475569" stroke-width="3" fill="#475569">
+                <path d="M180 96 V112"/>
+                <path d="M174 108 L180 117 L186 108 Z"/>
+                <path d="M180 176 V192"/>
+                <path d="M174 188 L180 197 L186 188 Z"/>
+                <path d="M180 256 V272"/>
+                <path d="M174 268 L180 277 L186 268 Z"/>
+              </g>
+            </svg>`,
+            legende: "Chaque flèche va de l’organisme mangé vers celui qui le mange. Cette chaîne représente seulement quelques relations possibles dans un milieu."
+          },
+          {
             type: "definition",
             titre: "Maillon et niveau trophique",
             texte: "Chaque élément représenté dans une chaîne est appelé maillon. Un niveau trophique correspond à une position générale dans les relations alimentaires : producteur, consommateur primaire, consommateur secondaire, etc."
@@ -124,7 +152,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 5,
         titre: "5. Producteurs, consommateurs et décomposeurs",
@@ -156,7 +183,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 6,
         titre: "6. Réseaux alimentaires, matière et énergie",
@@ -188,7 +214,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 7,
         titre: "7. Quelques écosystèmes à Madagascar",
@@ -212,7 +237,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 8,
         titre: "8. Les effets d’une modification du milieu",
@@ -239,7 +263,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 9,
         titre: "9. L’essentiel à retenir",
@@ -262,7 +285,6 @@ enregistrerChapitres("2nde", "svt", [
         ]
       }
     ],
-
     exercices: [
       {
         niveau: 1,
