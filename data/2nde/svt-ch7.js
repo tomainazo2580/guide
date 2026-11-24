@@ -4,7 +4,6 @@ enregistrerChapitres("2nde", "svt", [
     titre: "Chapitre 7 : Les tissus végétaux",
     premium: false,
     guide: false,
-
     lecons: [
       {
         id: 1,
@@ -32,7 +31,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 2,
         titre: "2. Les méristèmes et la croissance",
@@ -64,7 +62,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 3,
         titre: "3. Les tissus protecteurs",
@@ -96,7 +93,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 4,
         titre: "4. Les parenchymes",
@@ -123,7 +119,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 5,
         titre: "5. Les tissus de soutien",
@@ -160,7 +155,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 6,
         titre: "6. Les tissus conducteurs : xylème et phloème",
@@ -174,6 +168,42 @@ enregistrerChapitres("2nde", "svt", [
             type: "definition",
             titre: "Phloème",
             texte: "Le phloème est un tissu conducteur qui transporte notamment des sucres et d’autres substances organiques dissoutes entre les organes de la plante. Ce mélange constitue la sève élaborée."
+          },
+          {
+            type: "schema",
+            titre: "Deux transports dans une plante",
+            svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 340" role="img" aria-label="Exemple de transport d'eau des racines vers les feuilles par le xylème et de sucres des feuilles vers les racines par le phloème">
+              <rect width="360" height="340" fill="#ffffff"/>
+              <g stroke="#166534" stroke-width="3" fill="none">
+                <path d="M180 95 V230"/>
+                <path d="M180 130 Q145 92 105 91"/>
+                <path d="M180 115 Q215 75 255 75"/>
+                <path d="M180 230 Q155 265 115 281"/>
+                <path d="M180 230 Q195 267 240 280"/>
+                <path d="M180 230 Q180 272 174 295"/>
+              </g>
+              <g fill="#bbf7d0" stroke="#15803d" stroke-width="2">
+                <path d="M105 91 Q80 54 43 65 Q57 99 105 91 Z"/>
+                <path d="M255 75 Q280 38 318 49 Q304 83 255 75 Z"/>
+              </g>
+              <g font-family="Arial, sans-serif" fill="#0f172a" font-size="12">
+                <text x="125" y="32" font-size="14" font-weight="bold">Exemple de circulation</text>
+                <text x="33" y="120">Feuille</text>
+                <text x="228" y="259">Racines</text>
+                <text x="12" y="156" fill="#0369a1">Xylème</text>
+                <text x="12" y="172" fill="#0369a1">Eau + sels minéraux</text>
+                <text x="227" y="156" fill="#b45309">Phloème</text>
+                <text x="227" y="172" fill="#b45309">Sucres</text>
+                <text x="12" y="322" fill="#475569" font-size="11">Schéma simplifié, sans échelle.</text>
+              </g>
+              <g stroke-width="5" fill="none">
+                <path d="M163 230 V105" stroke="#0284c7"/>
+                <path d="M197 105 V230" stroke="#d97706"/>
+              </g>
+              <path d="M155 115 L163 101 L171 115 Z" fill="#0284c7"/>
+              <path d="M189 220 L197 234 L205 220 Z" fill="#d97706"/>
+            </svg>`,
+            legende: "Le xylème transporte principalement l’eau et les sels minéraux des racines vers les parties aériennes. Ici, le phloème transporte des sucres d’une feuille productrice vers les racines. Son sens dépend des organes qui fournissent et utilisent ou stockent les substances."
           },
           {
             type: "tableau",
@@ -196,7 +226,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 7,
         titre: "7. Les tissus sécréteurs",
@@ -218,7 +247,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 8,
         titre: "8. Reconnaître les tissus par leur fonction",
@@ -240,7 +268,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 9,
         titre: "9. L’essentiel à retenir",
@@ -263,7 +290,6 @@ enregistrerChapitres("2nde", "svt", [
         ]
       }
     ],
-
     exercices: [
       {
         niveau: 1,
