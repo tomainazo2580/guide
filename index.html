@@ -159,7 +159,7 @@
         });
       }
 
-      chargerScript('js/data.js?v=4.09')
+      chargerScript('js/data.js?v=4.10')
         .then(function () {
           if (typeof chargementContenuGuide === 'undefined') {
             throw new Error('Version de data.js non compatible.');
@@ -168,7 +168,7 @@
           return chargementContenuGuide;
         })
         .then(function () {
-          return chargerScript('js/paywall-config.js?v=6');
+          return chargerScript('js/paywall-config.js?v=7');
         })
         .then(function () {
           return chargerScript('js/cles.js?v=2');
