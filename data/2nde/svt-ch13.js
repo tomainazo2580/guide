@@ -4,7 +4,6 @@ enregistrerChapitres("2nde", "svt", [
     titre: "Chapitre 13 : Les minéraux et leurs propriétés",
     premium: false,
     guide: false,
-
     lecons: [
       {
         id: 1,
@@ -37,7 +36,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 2,
         titre: "2. Forme et organisation",
@@ -46,6 +44,40 @@ enregistrerChapitres("2nde", "svt", [
             type: "definition",
             titre: "Cristal",
             texte: "Un cristal est un solide dont les constituants sont organisés de manière ordonnée. Lorsque les conditions de croissance le permettent, cette organisation peut se traduire par une forme extérieure géométrique."
+          },
+          {
+            type: "schema",
+            titre: "Cristal et solide amorphe : organisation simplifiée",
+            svg: `<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 250' role='img' aria-label='Comparaison schématique : constituants disposés régulièrement dans un cristal et sans ordre cristallin à grande distance dans un solide amorphe.'>
+              <rect width='360' height='250' fill='#f8fbff'/>
+              <text x='90' y='27' text-anchor='middle' font-family='sans-serif' font-size='17' font-weight='bold' fill='#244c73'>Cristal</text>
+              <text x='270' y='27' text-anchor='middle' font-family='sans-serif' font-size='17' font-weight='bold' fill='#744d28'>Solide amorphe</text>
+
+              <rect x='16' y='42' width='148' height='148' rx='8' fill='#e8f3fc' stroke='#5791bc' stroke-width='2'/>
+              <rect x='196' y='42' width='148' height='148' rx='8' fill='#fff2e2' stroke='#bd8951' stroke-width='2'/>
+
+              <g fill='#2876ad'>
+                <circle cx='40' cy='66' r='6'/><circle cx='65' cy='66' r='6'/><circle cx='90' cy='66' r='6'/><circle cx='115' cy='66' r='6'/><circle cx='140' cy='66' r='6'/>
+                <circle cx='40' cy='91' r='6'/><circle cx='65' cy='91' r='6'/><circle cx='90' cy='91' r='6'/><circle cx='115' cy='91' r='6'/><circle cx='140' cy='91' r='6'/>
+                <circle cx='40' cy='116' r='6'/><circle cx='65' cy='116' r='6'/><circle cx='90' cy='116' r='6'/><circle cx='115' cy='116' r='6'/><circle cx='140' cy='116' r='6'/>
+                <circle cx='40' cy='141' r='6'/><circle cx='65' cy='141' r='6'/><circle cx='90' cy='141' r='6'/><circle cx='115' cy='141' r='6'/><circle cx='140' cy='141' r='6'/>
+                <circle cx='40' cy='166' r='6'/><circle cx='65' cy='166' r='6'/><circle cx='90' cy='166' r='6'/><circle cx='115' cy='166' r='6'/><circle cx='140' cy='166' r='6'/>
+              </g>
+
+              <g fill='#b87535'>
+                <circle cx='218' cy='65' r='6'/><circle cx='244' cy='70' r='6'/><circle cx='272' cy='62' r='6'/><circle cx='301' cy='73' r='6'/><circle cx='326' cy='62' r='6'/>
+                <circle cx='225' cy='92' r='6'/><circle cx='254' cy='96' r='6'/><circle cx='279' cy='87' r='6'/><circle cx='318' cy='98' r='6'/>
+                <circle cx='214' cy='121' r='6'/><circle cx='241' cy='119' r='6'/><circle cx='268' cy='126' r='6'/><circle cx='294' cy='112' r='6'/><circle cx='326' cy='125' r='6'/>
+                <circle cx='224' cy='148' r='6'/><circle cx='254' cy='151' r='6'/><circle cx='282' cy='145' r='6'/><circle cx='309' cy='151' r='6'/>
+                <circle cx='213' cy='174' r='6'/><circle cx='242' cy='173' r='6'/><circle cx='270' cy='176' r='6'/><circle cx='298' cy='174' r='6'/><circle cx='326' cy='170' r='6'/>
+              </g>
+
+              <text x='90' y='215' text-anchor='middle' font-family='sans-serif' font-size='14' fill='#244c73'>Organisation</text>
+              <text x='90' y='233' text-anchor='middle' font-family='sans-serif' font-size='14' fill='#244c73'>ordonnée</text>
+              <text x='270' y='215' text-anchor='middle' font-family='sans-serif' font-size='14' fill='#744d28'>Pas d’ordre cristallin</text>
+              <text x='270' y='233' text-anchor='middle' font-family='sans-serif' font-size='14' fill='#744d28'>à grande distance</text>
+            </svg>`,
+            legende: "Chaque point représente schématiquement un constituant. Dans un cristal, l’organisation se répète régulièrement ; dans un solide amorphe, il n’y a pas d’ordre cristallin à grande distance. Ce dessin est un modèle simplifié, non à l’échelle."
           },
           {
             type: "remarque",
@@ -59,7 +91,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 3,
         titre: "3. Couleur, éclat et transparence",
@@ -86,7 +117,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 4,
         titre: "4. La dureté et l’échelle de Mohs",
@@ -130,7 +160,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 5,
         titre: "5. Clivage et cassure",
@@ -157,7 +186,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 6,
         titre: "6. Masse volumique et densité",
@@ -184,7 +212,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 7,
         titre: "7. Réaction à l’acide et classification chimique",
@@ -218,7 +245,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 8,
         titre: "8. Quelques minéraux de Madagascar",
@@ -251,7 +277,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 9,
         titre: "9. Identifier un minéral avec méthode",
@@ -274,7 +299,6 @@ enregistrerChapitres("2nde", "svt", [
         ]
       }
     ],
-
     exercices: [
       {
         niveau: 1,
