@@ -4,7 +4,6 @@ enregistrerChapitres("2nde", "svt", [
     titre: "Chapitre 12 : La forme et la structure du globe terrestre",
     premium: false,
     guide: false,
-
     lecons: [
       {
         id: 1,
@@ -32,7 +31,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 2,
         titre: "2. Comment connaître l’intérieur de la Terre ?",
@@ -59,7 +57,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 3,
         titre: "3. Les ondes sismiques",
@@ -95,7 +92,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 4,
         titre: "4. Les grandes enveloppes internes",
@@ -111,6 +107,44 @@ enregistrerChapitres("2nde", "svt", [
               ["Noyau externe", "D’environ 2 900 km à 5 150 km", "Liquide, constitué principalement de fer et de nickel avec d’autres éléments."],
               ["Noyau interne", "D’environ 5 150 km au centre, vers 6 371 km", "Solide, constitué principalement de fer et de nickel."]
             ]
+          },
+          {
+            type: "schema",
+            titre: "Coupe simplifiée du globe terrestre",
+            svg: `<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 340' role='img' aria-label='Coupe simplifiée de la Terre montrant la croûte, le manteau supérieur, le manteau inférieur, le noyau externe liquide et le noyau interne solide.'>
+              <rect width='360' height='340' fill='#f8fbff'/>
+
+              <circle cx='180' cy='125' r='105' fill='#6c563d'/>
+              <circle cx='180' cy='125' r='100' fill='#f5b65b'/>
+              <circle cx='180' cy='125' r='88' fill='#e77c45'/>
+              <circle cx='180' cy='125' r='55' fill='#d74d3c'/>
+              <circle cx='180' cy='125' r='20' fill='#f8dc80'/>
+
+              <circle cx='180' cy='125' r='105' fill='none' stroke='#493724' stroke-width='2'/>
+              <circle cx='180' cy='125' r='88' fill='none' stroke='#b75c34' stroke-width='1'/>
+              <circle cx='180' cy='125' r='55' fill='none' stroke='#a63229' stroke-width='1'/>
+              <circle cx='180' cy='125' r='20' fill='none' stroke='#b18b32' stroke-width='1'/>
+
+              <text x='180' y='130' text-anchor='middle' font-family='sans-serif' font-size='12' font-weight='bold' fill='#402900'>Centre</text>
+
+              <rect x='20' y='248' width='14' height='14' fill='#6c563d'/>
+              <text x='41' y='260' font-family='sans-serif' font-size='14' fill='#222'>Croûte</text>
+
+              <rect x='20' y='273' width='14' height='14' fill='#f5b65b'/>
+              <text x='41' y='285' font-family='sans-serif' font-size='14' fill='#222'>Manteau supérieur</text>
+
+              <rect x='20' y='298' width='14' height='14' fill='#e77c45'/>
+              <text x='41' y='310' font-family='sans-serif' font-size='14' fill='#222'>Manteau inférieur</text>
+
+              <rect x='200' y='248' width='14' height='14' fill='#d74d3c'/>
+              <text x='221' y='260' font-family='sans-serif' font-size='14' fill='#222'>Noyau externe</text>
+              <text x='221' y='277' font-family='sans-serif' font-size='13' fill='#444'>liquide</text>
+
+              <rect x='200' y='292' width='14' height='14' fill='#f8dc80' stroke='#b18b32'/>
+              <text x='221' y='304' font-family='sans-serif' font-size='14' fill='#222'>Noyau interne</text>
+              <text x='221' y='321' font-family='sans-serif' font-size='13' fill='#444'>solide</text>
+            </svg>`,
+            legende: "De la surface vers le centre : croûte, manteau supérieur, manteau inférieur, noyau externe liquide et noyau interne solide. Les épaisseurs sont approximatives ; la croûte est volontairement épaissie pour être visible."
           },
           {
             type: "definition",
@@ -134,7 +168,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 5,
         titre: "5. Composition des enveloppes",
@@ -162,7 +195,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 6,
         titre: "6. Radioactivité naturelle et âge de la Terre",
@@ -194,7 +226,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 7,
         titre: "7. Lire un modèle de la Terre",
@@ -216,7 +247,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 8,
         titre: "8. L’essentiel à retenir",
@@ -239,7 +269,6 @@ enregistrerChapitres("2nde", "svt", [
         ]
       }
     ],
-
     exercices: [
       {
         niveau: 1,
