@@ -4,7 +4,6 @@ enregistrerChapitres("2nde", "svt", [
     titre: "Chapitre 10 : Les facteurs écologiques et les adaptations",
     premium: false,
     guide: false,
-
     lecons: [
       {
         id: 1,
@@ -37,7 +36,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 2,
         titre: "2. Les facteurs climatiques",
@@ -69,7 +67,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 3,
         titre: "3. Les facteurs édaphiques",
@@ -96,7 +93,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 4,
         titre: "4. Les facteurs biotiques",
@@ -123,7 +119,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 5,
         titre: "5. Tolérance et facteur limitant",
@@ -144,6 +139,33 @@ enregistrerChapitres("2nde", "svt", [
             texte: "Un facteur limitant est un facteur dont la valeur insuffisante ou excessive freine une fonction, la croissance ou la répartition d’un organisme dans les conditions étudiées."
           },
           {
+            type: "schema",
+            titre: "Gamme de tolérance pour un facteur",
+            svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 280" role="img" aria-label="Courbe simplifiée montrant une zone favorable entre deux zones de stress pour un facteur écologique">
+              <rect width="360" height="280" fill="#ffffff"/>
+
+              <rect x="57" y="48" width="60" height="153" fill="#fef3c7"/>
+              <rect x="117" y="48" width="123" height="153" fill="#dcfce7"/>
+              <rect x="240" y="48" width="60" height="153" fill="#fef3c7"/>
+
+              <path d="M48 201 H315 M48 201 V42" fill="none" stroke="#334155" stroke-width="2"/>
+              <path d="M315 201 l-8 -5 v10 Z M48 42 l-5 8 h10 Z" fill="#334155"/>
+              <path d="M57 196 C85 194 103 174 120 128 C137 80 154 65 179 65 C204 65 224 81 240 128 C255 174 276 194 300 196" fill="none" stroke="#2563eb" stroke-width="4"/>
+
+              <g font-family="Arial, sans-serif" fill="#0f172a" font-size="11">
+                <text x="57" y="33">Développement</text>
+                <text x="57" y="46">dans cet exemple</text>
+                <text x="66" y="223">Stress</text>
+                <text x="143" y="223">Zone favorable</text>
+                <text x="258" y="223">Stress</text>
+                <text x="58" y="244">Valeur faible</text>
+                <text x="224" y="244">Valeur élevée</text>
+                <text x="66" y="266" font-size="12">Valeur d’un facteur, par exemple la température</text>
+              </g>
+            </svg>`,
+            legende: "Ce modèle illustre une réponse possible à un facteur. Les limites et la zone favorable varient selon l’espèce, le stade de développement et les autres conditions. Au-delà de certaines limites, l’organisme peut ne pas survivre."
+          },
+          {
             type: "exemple",
             titre: "Une plante et la lumière",
             texte: "Si une plante reçoit assez d’eau et de sels minéraux mais trop peu de lumière pour sa photosynthèse, la lumière peut limiter sa croissance. Ajouter davantage d’eau ne résout pas nécessairement ce manque de lumière."
@@ -155,7 +177,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 6,
         titre: "6. Les adaptations",
@@ -187,7 +208,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 7,
         titre: "7. Exemples de relations entre conditions et organismes",
@@ -210,7 +230,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 8,
         titre: "8. Étudier l’effet d’un facteur",
@@ -232,7 +251,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 9,
         titre: "9. L’essentiel à retenir",
@@ -255,7 +273,6 @@ enregistrerChapitres("2nde", "svt", [
         ]
       }
     ],
-
     exercices: [
       {
         niveau: 1,
