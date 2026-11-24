@@ -4,7 +4,6 @@ enregistrerChapitres("2nde", "svt", [
     titre: "Chapitre 8 : Les êtres vivants et leur milieu",
     premium: false,
     guide: false,
-
     lecons: [
       {
         id: 1,
@@ -37,7 +36,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 2,
         titre: "2. Les composantes d’un milieu",
@@ -51,6 +49,44 @@ enregistrerChapitres("2nde", "svt", [
             type: "definition",
             titre: "Composantes biotiques",
             texte: "Les composantes biotiques regroupent les êtres vivants présents dans le milieu ainsi que leurs interactions."
+          },
+          {
+            type: "schema",
+            titre: "Les composantes d’un milieu",
+            svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 330" role="img" aria-label="Un milieu comprend des facteurs abiotiques et des composantes biotiques qui interagissent">
+              <rect width="360" height="330" fill="#ffffff"/>
+              <g font-family="Arial, sans-serif" fill="#0f172a">
+                <text x="99" y="27" font-size="16" font-weight="bold">Un milieu de vie</text>
+              </g>
+
+              <rect x="18" y="55" width="148" height="175" rx="10" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+              <rect x="194" y="55" width="148" height="175" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+
+              <g font-family="Arial, sans-serif" fill="#0f172a">
+                <text x="39" y="79" font-size="14" font-weight="bold">Abiotiques</text>
+                <text x="28" y="99" font-size="11">Conditions non vivantes</text>
+                <text x="34" y="129" font-size="13">☀ Lumière</text>
+                <text x="34" y="153" font-size="13">● Eau</text>
+                <text x="34" y="177" font-size="13">● Température</text>
+                <text x="34" y="201" font-size="13">● Sol</text>
+
+                <text x="220" y="79" font-size="14" font-weight="bold">Biotiques</text>
+                <text x="205" y="99" font-size="11">Êtres vivants et relations</text>
+                <text x="210" y="129" font-size="13">● Plantes</text>
+                <text x="210" y="153" font-size="13">● Animaux</text>
+                <text x="210" y="177" font-size="13">● Champignons</text>
+                <text x="210" y="201" font-size="13">● Microorganismes</text>
+              </g>
+
+              <path d="M166 143 H194" stroke="#475569" stroke-width="2.5"/>
+              <path d="M166 143 l7 -5 v10 Z M194 143 l-7 -5 v10 Z" fill="#475569"/>
+              <g font-family="Arial, sans-serif" fill="#0f172a">
+                <text x="91" y="258" font-size="13" font-weight="bold">Ces composantes interagissent</text>
+                <text x="26" y="282" font-size="12">Exemple : les plantes utilisent l’eau et la lumière.</text>
+                <text x="26" y="303" font-size="12">Elles peuvent aussi fournir un abri aux animaux.</text>
+              </g>
+            </svg>`,
+            legende: "Un milieu associe des conditions physiques et chimiques, des êtres vivants et leurs relations. Par exemple, l’eau et la lumière influencent les plantes, tandis que les plantes peuvent servir d’abri à des animaux."
           },
           {
             type: "tableau",
@@ -69,7 +105,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 3,
         titre: "3. Milieux terrestres, aquatiques et marins",
@@ -101,7 +136,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 4,
         titre: "4. Espèces, populations et classification",
@@ -133,7 +167,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 5,
         titre: "5. Réaliser un inventaire",
@@ -165,7 +198,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 6,
         titre: "6. Abondance et dominance",
@@ -192,7 +224,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 7,
         titre: "7. Les mouvements des animaux",
@@ -220,7 +251,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 8,
         titre: "8. Étudier un milieu avec méthode",
@@ -243,7 +273,6 @@ enregistrerChapitres("2nde", "svt", [
         ]
       }
     ],
-
     exercices: [
       {
         niveau: 1,
