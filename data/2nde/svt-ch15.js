@@ -4,7 +4,6 @@ enregistrerChapitres("2nde", "svt", [
     titre: "Chapitre 15 : Les roches sédimentaires",
     premium: false,
     guide: false,
-
     lecons: [
       {
         id: 1,
@@ -32,7 +31,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 2,
         titre: "2. Altération, érosion et transport",
@@ -64,7 +62,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 3,
         titre: "3. Dépôt et diagenèse",
@@ -90,13 +87,48 @@ enregistrerChapitres("2nde", "svt", [
             texte: "Des grains de sable se déposent, puis sont recouverts par d’autres sédiments. Avec le temps, leur compaction et leur cimentation peuvent former un grès."
           },
           {
+            type: "schema",
+            titre: "Un exemple de formation : du sable au grès",
+            svg: `<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 350' role='img' aria-label='Étapes simplifiées de formation d’un grès : altération et érosion d’une roche, transport de grains, dépôt de sable, puis compaction et cimentation.'>
+              <defs>
+                <marker id='fleche-ch15' viewBox='0 0 10 10' refX='9' refY='5' markerWidth='7' markerHeight='7' orient='auto'>
+                  <path d='M 0 0 L 10 5 L 0 10 z' fill='#49677f'/>
+                </marker>
+              </defs>
+              <rect width='360' height='350' fill='#f8fbff'/>
+
+              <rect x='22' y='12' width='316' height='57' rx='8' fill='#e9edf0' stroke='#718394' stroke-width='2'/>
+              <text x='180' y='34' text-anchor='middle' font-family='sans-serif' font-size='16' font-weight='bold' fill='#283e50'>Roche préexistante</text>
+              <text x='180' y='55' text-anchor='middle' font-family='sans-serif' font-size='14' fill='#283e50'>Altération et érosion</text>
+
+              <line x1='180' y1='70' x2='180' y2='88' stroke='#49677f' stroke-width='3' marker-end='url(#fleche-ch15)'/>
+
+              <rect x='22' y='92' width='316' height='57' rx='8' fill='#e0f1fb' stroke='#6497b7' stroke-width='2'/>
+              <text x='180' y='114' text-anchor='middle' font-family='sans-serif' font-size='16' font-weight='bold' fill='#214e6a'>Transport des particules</text>
+              <text x='180' y='135' text-anchor='middle' font-family='sans-serif' font-size='14' fill='#214e6a'>Par exemple, par une rivière</text>
+
+              <line x1='180' y1='150' x2='180' y2='168' stroke='#49677f' stroke-width='3' marker-end='url(#fleche-ch15)'/>
+
+              <rect x='22' y='172' width='316' height='57' rx='8' fill='#fff1cf' stroke='#b69a58' stroke-width='2'/>
+              <text x='180' y='194' text-anchor='middle' font-family='sans-serif' font-size='16' font-weight='bold' fill='#68501f'>Dépôt de sable</text>
+              <text x='180' y='215' text-anchor='middle' font-family='sans-serif' font-size='14' fill='#68501f'>Accumulation des grains</text>
+
+              <line x1='180' y1='230' x2='180' y2='248' stroke='#49677f' stroke-width='3' marker-end='url(#fleche-ch15)'/>
+
+              <rect x='22' y='252' width='316' height='76' rx='8' fill='#f4dfbf' stroke='#a77b4c' stroke-width='2'/>
+              <text x='180' y='275' text-anchor='middle' font-family='sans-serif' font-size='16' font-weight='bold' fill='#61401f'>Diagenèse</text>
+              <text x='180' y='296' text-anchor='middle' font-family='sans-serif' font-size='14' fill='#61401f'>Compaction et cimentation</text>
+              <text x='180' y='317' text-anchor='middle' font-family='sans-serif' font-size='16' font-weight='bold' fill='#61401f'>Grès</text>
+            </svg>`,
+            legende: "Ce schéma présente un exemple simplifié de formation d’une roche sédimentaire détritique. Les grains de sable déposés peuvent être compactés et cimentés pour former un grès. D’autres roches sédimentaires ont des origines différentes."
+          },
+          {
             type: "remarque",
             titre: "Pas toujours toutes les étapes",
             texte: "Les conditions de formation varient selon les roches. La compaction et la cimentation sont particulièrement utiles pour comprendre la consolidation de nombreux sédiments détritiques."
           }
         ]
       },
-
       {
         id: 4,
         titre: "4. Les grandes origines des roches sédimentaires",
@@ -123,7 +155,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 5,
         titre: "5. Les roches détritiques et la granulométrie",
@@ -155,7 +186,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 6,
         titre: "6. Quelques familles de roches sédimentaires",
@@ -184,7 +214,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 7,
         titre: "7. Couches, fossiles et milieux de dépôt",
@@ -211,7 +240,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 8,
         titre: "8. Madagascar : répartition et utilisations",
@@ -238,7 +266,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 9,
         titre: "9. L’essentiel à retenir",
@@ -261,7 +288,6 @@ enregistrerChapitres("2nde", "svt", [
         ]
       }
     ],
-
     exercices: [
       {
         niveau: 1,
