@@ -1,5 +1,5 @@
 // ===== GUIDE — Classes, matières et chargement des chapitres =====
-var VERSION = 'v4.11';
+var VERSION = 'v4.12';
 
 var CLASSES = [
   { id: '6e', nom: 'Sixieme', dispo: true },
@@ -288,15 +288,71 @@ var MATIERES = {
     }
   ],
   '2nde': [
-    {
-      id: 'maths',
-      nom: 'Mathematiques',
-      court: 'Maths',
-      icone: '📐',
-      dispo: true,
-      fichiers: fichiersGuide('2nde', 'maths', 23)
-    }
-  ]
+  {
+    id: 'maths',
+    nom: 'Mathematiques',
+    court: 'Maths',
+    icone: '📐',
+    dispo: true,
+    fichiers: fichiersGuide('2nde', 'maths', 23)
+  },
+  {
+    id: 'sp',
+    nom: 'Sciences Physiques',
+    court: 'SP',
+    icone: '⚗️',
+    dispo: true,
+    fichiers: fichiersGuide('2nde', 'sp', 18)
+  },
+  {
+    id: 'svt',
+    nom: 'Sciences de la Vie et de la Terre',
+    court: 'SVT',
+    icone: '🌱',
+    dispo: false,
+    fichiers: []
+  },
+  {
+    id: 'mal',
+    nom: 'Malagasy',
+    court: 'Mal',
+    icone: '🇲🇬',
+    dispo: false,
+    fichiers: []
+  },
+  {
+    id: 'fr',
+    nom: 'Francais',
+    court: 'Fr',
+    icone: '📖',
+    dispo: false,
+    fichiers: []
+  },
+  {
+    id: 'eng',
+    nom: 'Anglais',
+    court: 'Ang',
+    icone: '🇬🇧',
+    dispo: false,
+    fichiers: []
+  },
+  {
+    id: 'hg',
+    nom: 'Histoire',
+    court: 'Hist',
+    icone: '🌍',
+    dispo: false,
+    fichiers: []
+  },
+  {
+    id: 'geo',
+    nom: 'Geographie',
+    court: 'Geo',
+    icone: '🗺️',
+    dispo: false,
+    fichiers: []
+  }
+]
 };
 
 var CONTENU = {};
