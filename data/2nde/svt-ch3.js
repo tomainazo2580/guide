@@ -4,7 +4,6 @@ enregistrerChapitres("2nde", "svt", [
     titre: "Chapitre 3 : Les mouvements cellulaires",
     premium: false,
     guide: false,
-
     lecons: [
       {
         id: 1,
@@ -32,7 +31,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 2,
         titre: "2. Les cils de la paramécie",
@@ -59,7 +57,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 3,
         titre: "3. Le flagelle du spermatozoïde",
@@ -91,7 +88,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 4,
         titre: "4. Les pseudopodes de l’amibe",
@@ -123,7 +119,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 5,
         titre: "5. La pulsation des vacuoles de la paramécie",
@@ -150,7 +145,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 6,
         titre: "6. La cyclose dans les cellules végétales",
@@ -177,11 +171,51 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 7,
         titre: "7. Comparer les mouvements",
         blocs: [
+          {
+            type: "schema",
+            titre: "Trois structures qui contribuent au déplacement",
+            svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 450" role="img" aria-label="Comparaison des cils d'une paramécie, du flagelle d'un spermatozoïde et d'un pseudopode d'amibe">
+              <rect width="360" height="450" fill="#ffffff"/>
+
+              <g font-family="Arial, sans-serif" fill="#0f172a">
+                <text x="15" y="25" font-size="15" font-weight="bold">1. Paramécie : de nombreux cils</text>
+                <text x="15" y="168" font-size="15" font-weight="bold">2. Spermatozoïde : un flagelle</text>
+                <text x="15" y="300" font-size="15" font-weight="bold">3. Amibe : un pseudopode</text>
+              </g>
+
+              <!-- Paramécie -->
+              <ellipse cx="145" cy="88" rx="76" ry="36" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+              <ellipse cx="145" cy="88" rx="19" ry="12" fill="#c4b5fd" stroke="#7c3aed" stroke-width="2"/>
+              <g stroke="#2563eb" stroke-width="2">
+                <path d="M77 72 l-9 -5 M84 62 l-8 -7 M96 55 l-6 -8 M111 51 l-3 -9 M127 50 l-1 -9 M145 51 l1 -9 M164 52 l3 -9 M181 56 l5 -8 M196 62 l7 -7 M210 72 l9 -4"/>
+                <path d="M77 104 l-9 5 M84 114 l-8 7 M96 121 l-6 8 M111 125 l-3 9 M127 126 l-1 9 M145 125 l1 9 M164 124 l3 9 M181 120 l5 8 M196 114 l7 7 M210 104 l9 4"/>
+                <path d="M69 88 l-10 0 M221 88 l10 0"/>
+              </g>
+              <path d="M204 55 L255 42 L335 42" fill="none" stroke="#475569" stroke-width="1.5"/>
+              <text x="258" y="37" fill="#0f172a" font-family="Arial, sans-serif" font-size="12">Cils courts</text>
+
+              <!-- Spermatozoïde -->
+              <ellipse cx="83" cy="222" rx="22" ry="14" fill="#c4b5fd" stroke="#7c3aed" stroke-width="3"/>
+              <path d="M105 222 L126 222" fill="none" stroke="#64748b" stroke-width="5"/>
+              <path d="M126 222 C145 204 160 240 179 222 S213 204 232 222 S266 240 286 222" fill="none" stroke="#2563eb" stroke-width="3"/>
+              <path d="M179 222 L205 198 L292 198" fill="none" stroke="#475569" stroke-width="1.5"/>
+              <text x="295" y="202" fill="#0f172a" font-family="Arial, sans-serif" font-size="12">Flagelle</text>
+
+              <!-- Amibe -->
+              <path d="M73 368 C72 342 89 327 112 333 C127 337 135 346 150 341 C169 335 176 316 192 320 C205 324 195 343 184 352 C174 360 180 366 194 370 C215 376 217 394 201 402 C187 410 169 399 157 400 C143 402 134 415 117 411 C98 407 98 394 85 391 C74 388 70 379 73 368 Z" fill="#dcfce7" stroke="#15803d" stroke-width="3"/>
+              <circle cx="125" cy="370" r="15" fill="#c4b5fd" stroke="#7c3aed" stroke-width="2"/>
+              <path d="M190 323 L232 318 L344 318" fill="none" stroke="#475569" stroke-width="1.5"/>
+              <text x="234" y="313" fill="#0f172a" font-family="Arial, sans-serif" font-size="12">Pseudopode</text>
+              <text x="234" y="328" fill="#0f172a" font-family="Arial, sans-serif" font-size="12">temporaire</text>
+
+              <text x="15" y="438" fill="#475569" font-family="Arial, sans-serif" font-size="11">Schémas simplifiés, sans échelle commune.</text>
+            </svg>`,
+            legende: "Les cils battent, le flagelle ondule et le pseudopode se forme par déformation de la cellule. Ces schémas représentent des exemples : les cellules ne sont pas dessinées à la même échelle."
+          },
           {
             type: "tableau",
             titre: "Bilan des exemples",
@@ -207,7 +241,6 @@ enregistrerChapitres("2nde", "svt", [
         ]
       }
     ],
-
     exercices: [
       {
         niveau: 1,
