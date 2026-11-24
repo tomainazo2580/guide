@@ -4,7 +4,6 @@ enregistrerChapitres("2nde", "svt", [
     titre: "Chapitre 5 : Les échanges de substances et la perméabilité cellulaire",
     premium: false,
     guide: false,
-
     lecons: [
       {
         id: 1,
@@ -32,7 +31,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 2,
         titre: "2. La perméabilité sélective",
@@ -64,7 +62,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 3,
         titre: "3. La diffusion",
@@ -96,7 +93,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 4,
         titre: "4. Transport passif et transport actif",
@@ -117,6 +113,75 @@ enregistrerChapitres("2nde", "svt", [
             texte: "Un transport actif permet le déplacement net d’une substance contre son gradient approprié grâce à un apport d’énergie. Cette énergie peut être fournie directement ou provenir d’un autre gradient."
           },
           {
+            type: "schema",
+            titre: "Comparer trois mécanismes de transport",
+            svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 500" role="img" aria-label="Comparaison de la diffusion simple, de la diffusion facilitée et du transport actif pour une substance non chargée">
+              <rect width="360" height="500" fill="#ffffff"/>
+              <g font-family="Arial, sans-serif" fill="#0f172a">
+                <text x="12" y="24" font-size="15" font-weight="bold">1. Diffusion simple</text>
+                <text x="12" y="181" font-size="15" font-weight="bold">2. Diffusion facilitée</text>
+                <text x="12" y="338" font-size="15" font-weight="bold">3. Transport actif</text>
+                <text x="12" y="47" font-size="12">Plus concentré</text>
+                <text x="238" y="47" font-size="12">Moins concentré</text>
+                <text x="12" y="204" font-size="12">Plus concentré</text>
+                <text x="238" y="204" font-size="12">Moins concentré</text>
+                <text x="12" y="361" font-size="12">Moins concentré</text>
+                <text x="238" y="361" font-size="12">Plus concentré</text>
+              </g>
+
+              <g fill="#dbeafe">
+                <rect x="165" y="54" width="30" height="95"/>
+                <rect x="165" y="211" width="30" height="95"/>
+                <rect x="165" y="368" width="30" height="95"/>
+              </g>
+              <g stroke="#2563eb" stroke-width="2">
+                <path d="M165 54 V149 M195 54 V149"/>
+                <path d="M165 211 V306 M195 211 V306"/>
+                <path d="M165 368 V463 M195 368 V463"/>
+              </g>
+
+              <g fill="#f59e0b">
+                <circle cx="30" cy="70" r="5"/><circle cx="58" cy="88" r="5"/>
+                <circle cx="91" cy="66" r="5"/><circle cx="125" cy="91" r="5"/>
+                <circle cx="48" cy="121" r="5"/><circle cx="115" cy="130" r="5"/>
+                <circle cx="246" cy="70" r="5"/><circle cx="302" cy="126" r="5"/>
+
+                <circle cx="30" cy="227" r="5"/><circle cx="58" cy="245" r="5"/>
+                <circle cx="91" cy="223" r="5"/><circle cx="125" cy="248" r="5"/>
+                <circle cx="48" cy="278" r="5"/><circle cx="115" cy="287" r="5"/>
+                <circle cx="246" cy="227" r="5"/><circle cx="302" cy="283" r="5"/>
+
+                <circle cx="50" cy="385" r="5"/><circle cx="112" cy="440" r="5"/>
+                <circle cx="230" cy="385" r="5"/><circle cx="264" cy="402" r="5"/>
+                <circle cx="302" cy="381" r="5"/><circle cx="330" cy="420" r="5"/>
+                <circle cx="236" cy="441" r="5"/><circle cx="300" cy="449" r="5"/>
+              </g>
+
+              <g fill="#a78bfa" stroke="#6d28d9" stroke-width="2">
+                <rect x="157" y="243" width="46" height="32" rx="8"/>
+                <rect x="157" y="400" width="46" height="32" rx="8"/>
+              </g>
+              <g fill="#ffffff">
+                <rect x="172" y="247" width="16" height="24" rx="5"/>
+              </g>
+              <g stroke="#0f766e" stroke-width="4" fill="#0f766e">
+                <path d="M115 107 H238"/>
+                <path d="M238 107 l-11 -7 v14 Z"/>
+                <path d="M115 259 H238"/>
+                <path d="M238 259 l-11 -7 v14 Z"/>
+                <path d="M115 416 H238"/>
+                <path d="M238 416 l-11 -7 v14 Z"/>
+              </g>
+              <g font-family="Arial, sans-serif" fill="#0f172a" font-size="11">
+                <text x="12" y="145">Sans protéine</text>
+                <text x="210" y="300">Protéine</text>
+                <text x="210" y="457">Protéine + énergie</text>
+                <text x="12" y="486">Flèches : sens du passage net dans ces exemples.</text>
+              </g>
+            </svg>`,
+            legende: "Dans ces exemples simplifiés, la substance est non chargée. Les deux diffusions suivent son gradient et ne nécessitent pas d’apport direct d’énergie pour le passage. Le transport actif représenté va contre le gradient et nécessite une source d’énergie. La membrane et les protéines sont schématisées, sans échelle."
+          },
+          {
             type: "tableau",
             titre: "Comparaison",
             entetes: ["Mécanisme", "Sens du bilan", "Énergie"],
@@ -133,7 +198,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 5,
         titre: "5. Échanges de solutés et mouvements d’eau",
@@ -160,7 +224,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 6,
         titre: "6. Phagocytose et pinocytose",
@@ -202,7 +265,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 7,
         titre: "7. Méthode pour analyser un échange",
@@ -224,7 +286,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 8,
         titre: "8. L’essentiel à retenir",
@@ -247,7 +308,6 @@ enregistrerChapitres("2nde", "svt", [
         ]
       }
     ],
-
     exercices: [
       {
         niveau: 1,
