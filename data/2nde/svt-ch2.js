@@ -4,7 +4,6 @@ enregistrerChapitres("2nde", "svt", [
     titre: "Chapitre 2 : Structure et diversité des cellules",
     premium: false,
     guide: false,
-
     lecons: [
       {
         id: 1,
@@ -37,7 +36,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 2,
         titre: "2. Formes et diversité des cellules",
@@ -77,7 +75,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 3,
         titre: "3. Membrane, cytoplasme et noyau",
@@ -114,7 +111,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 4,
         titre: "4. Quelques structures cellulaires et leurs rôles",
@@ -153,7 +149,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 5,
         titre: "5. Comparer cellule animale et cellule végétale",
@@ -162,6 +157,70 @@ enregistrerChapitres("2nde", "svt", [
             type: "introduction",
             titre: "Des points communs et des différences",
             texte: "Les cellules animales et végétales sont des cellules eucaryotes. Elles partagent plusieurs structures, mais les cellules végétales présentent aussi des caractéristiques particulières."
+          },
+          {
+            type: "schema",
+            titre: "Cellule animale typique",
+            svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 270" role="img" aria-label="Schéma simplifié d'une cellule animale avec membrane plasmique, cytoplasme, noyau et mitochondries">
+              <rect width="360" height="270" fill="#ffffff"/>
+              <path d="M78 135 C72 78 110 42 164 44 C220 39 264 76 265 130 C270 181 236 222 177 225 C120 230 80 197 78 135 Z" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/>
+              <circle cx="163" cy="128" r="35" fill="#c4b5fd" stroke="#7c3aed" stroke-width="3"/>
+              <ellipse cx="118" cy="102" rx="16" ry="9" fill="#fdba74" stroke="#c2410c" stroke-width="2" transform="rotate(-25 118 102)"/>
+              <ellipse cx="211" cy="176" rx="16" ry="9" fill="#fdba74" stroke="#c2410c" stroke-width="2" transform="rotate(-25 211 176)"/>
+              <g fill="none" stroke="#475569" stroke-width="1.5">
+                <path d="M98 70 L69 55 L8 55"/>
+                <path d="M118 102 L65 96 L8 96"/>
+                <path d="M161 93 L161 25 L215 25"/>
+                <path d="M220 86 L275 70 L352 70"/>
+              </g>
+              <g fill="#0f172a" font-family="Arial, sans-serif" font-size="12">
+                <text x="8" y="49">Membrane</text>
+                <text x="8" y="62">plasmique</text>
+                <text x="8" y="90">Mitochondrie</text>
+                <text x="219" y="29">Noyau</text>
+                <text x="278" y="66">Cytoplasme</text>
+              </g>
+              <text x="79" y="254" fill="#475569" font-family="Arial, sans-serif" font-size="11">Modèle simplifié, sans échelle.</text>
+            </svg>`,
+            legende: "Cette cellule possède une membrane, du cytoplasme, un noyau et des mitochondries. Sa forme et ses structures peuvent varier selon le type de cellule animale."
+          },
+          {
+            type: "schema",
+            titre: "Cellule végétale chlorophyllienne typique",
+            svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 330" role="img" aria-label="Schéma simplifié d'une cellule végétale chlorophyllienne avec paroi, membrane plasmique, cytoplasme, noyau, vacuole, chloroplastes et mitochondrie">
+              <rect width="360" height="330" fill="#ffffff"/>
+              <rect x="58" y="65" width="225" height="185" rx="12" fill="#e8f5e9" stroke="#166534" stroke-width="8"/>
+              <rect x="66" y="73" width="209" height="169" rx="7" fill="#dcfce7" stroke="#2563eb" stroke-width="3"/>
+              <rect x="103" y="100" width="141" height="111" rx="16" fill="#bfdbfe" stroke="#60a5fa" stroke-width="2"/>
+              <circle cx="90" cy="157" r="17" fill="#c4b5fd" stroke="#7c3aed" stroke-width="2"/>
+              <ellipse cx="104" cy="86" rx="13" ry="7" fill="#4ade80" stroke="#15803d" stroke-width="2"/>
+              <ellipse cx="206" cy="87" rx="13" ry="7" fill="#4ade80" stroke="#15803d" stroke-width="2"/>
+              <ellipse cx="257" cy="145" rx="8" ry="13" fill="#4ade80" stroke="#15803d" stroke-width="2"/>
+              <ellipse cx="168" cy="228" rx="13" ry="7" fill="#4ade80" stroke="#15803d" stroke-width="2"/>
+              <ellipse cx="236" cy="226" rx="12" ry="6" fill="#fdba74" stroke="#c2410c" stroke-width="2"/>
+              <g fill="none" stroke="#475569" stroke-width="1.5">
+                <path d="M58 76 L39 47 L6 47"/>
+                <path d="M66 96 L42 82 L6 82"/>
+                <path d="M104 86 L104 36 L157 36"/>
+                <path d="M215 112 L292 112 L354 112"/>
+                <path d="M90 157 L39 151 L6 151"/>
+                <path d="M260 195 L294 188 L354 188"/>
+                <path d="M236 226 L285 275 L354 275"/>
+              </g>
+              <g fill="#0f172a" font-family="Arial, sans-serif" font-size="11">
+                <text x="6" y="42">Paroi</text>
+                <text x="6" y="76">Membrane</text>
+                <text x="6" y="89">plasmique</text>
+                <text x="161" y="40">Chloroplaste</text>
+                <text x="294" y="108">Grande</text>
+                <text x="294" y="121">vacuole</text>
+                <text x="6" y="146">Noyau</text>
+                <text x="295" y="184">Cytoplasme</text>
+                <text x="278" y="291">Mitochondrie</text>
+              </g>
+              <text x="77" y="318" fill="#475569" font-family="Arial, sans-serif" font-size="11">Modèle simplifié, sans échelle.</text>
+            </svg>`,
+            legende: "La paroi se trouve à l’extérieur de la membrane. Cette cellule possède des chloroplastes, mais ce n’est pas le cas de toutes les cellules végétales."
           },
           {
             type: "tableau",
@@ -194,7 +253,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 6,
         titre: "6. Observer, décrire et raisonner",
@@ -221,7 +279,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 7,
         titre: "7. L’essentiel à retenir",
@@ -239,7 +296,6 @@ enregistrerChapitres("2nde", "svt", [
         ]
       }
     ],
-
     exercices: [
       {
         niveau: 1,
