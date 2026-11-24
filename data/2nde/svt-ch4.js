@@ -4,7 +4,6 @@ enregistrerChapitres("2nde", "svt", [
     titre: "Chapitre 4 : Les échanges d’eau et l’osmose",
     premium: false,
     guide: false,
-
     lecons: [
       {
         id: 1,
@@ -32,7 +31,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 2,
         titre: "2. Comprendre l’osmose",
@@ -46,6 +44,54 @@ enregistrerChapitres("2nde", "svt", [
             type: "exemple",
             titre: "Deux solutions séparées",
             texte: "Deux compartiments sont séparés par une membrane qui laisse passer l’eau, mais pas le sucre. Le compartiment A contient moins de sucre dissous par litre que le compartiment B. Au départ, si les pressions sont comparables, le passage net d’eau se fait de A vers B."
+          },
+          {
+            type: "schema",
+            titre: "Osmose entre deux compartiments",
+            svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 300" role="img" aria-label="Deux solutions séparées par une membrane perméable à l'eau mais pas au sucre. Le passage net initial de l'eau va de la solution la moins concentrée vers la plus concentrée.">
+              <rect width="360" height="300" fill="#ffffff"/>
+              <g font-family="Arial, sans-serif" fill="#0f172a">
+                <text x="34" y="30" font-size="15" font-weight="bold">Compartiment A</text>
+                <text x="207" y="30" font-size="15" font-weight="bold">Compartiment B</text>
+                <text x="45" y="48" font-size="12">Moins de sucre</text>
+                <text x="219" y="48" font-size="12">Plus de sucre</text>
+              </g>
+
+              <rect x="25" y="62" width="310" height="145" rx="4" fill="#e0f2fe" stroke="#334155" stroke-width="3"/>
+              <line x1="180" y1="62" x2="180" y2="207" stroke="#7c3aed" stroke-width="6" stroke-dasharray="10 5"/>
+
+              <g fill="#d97706">
+                <circle cx="60" cy="88" r="5"/>
+                <circle cx="110" cy="115" r="5"/>
+                <circle cx="70" cy="176" r="5"/>
+                <circle cx="143" cy="183" r="5"/>
+
+                <circle cx="207" cy="86" r="5"/>
+                <circle cx="247" cy="86" r="5"/>
+                <circle cx="290" cy="85" r="5"/>
+                <circle cx="317" cy="108" r="5"/>
+                <circle cx="215" cy="115" r="5"/>
+                <circle cx="261" cy="115" r="5"/>
+                <circle cx="231" cy="171" r="5"/>
+                <circle cx="281" cy="175" r="5"/>
+                <circle cx="312" cy="184" r="5"/>
+                <circle cx="204" cy="193" r="5"/>
+              </g>
+
+              <path d="M104 144 H247" fill="none" stroke="#0369a1" stroke-width="5"/>
+              <path d="M247 144 l-14 -9 v18 Z" fill="#0369a1"/>
+              <rect x="122" y="121" width="116" height="19" fill="#e0f2fe"/>
+              <text x="128" y="135" fill="#075985" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Bilan initial d’eau</text>
+
+              <path d="M180 208 V231 H95" fill="none" stroke="#7c3aed" stroke-width="1.5"/>
+              <g font-family="Arial, sans-serif" fill="#0f172a" font-size="12">
+                <text x="12" y="248">Membrane : l’eau passe, le sucre ne passe pas.</text>
+                <circle cx="18" cy="268" r="5" fill="#d97706"/>
+                <text x="30" y="272">Particule de sucre</text>
+                <text x="12" y="291" fill="#475569" font-size="11">Modèle simplifié, sans échelle.</text>
+              </g>
+            </svg>`,
+            legende: "Au départ, si les pressions sont comparables, le bilan d’eau va de A vers B. De l’eau peut toutefois traverser la membrane dans les deux sens. La membrane de ce modèle ne laisse pas passer le sucre."
           },
           {
             type: "regle",
@@ -64,7 +110,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 3,
         titre: "3. L’expérience de Dutrochet",
@@ -91,7 +136,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 4,
         titre: "4. Milieux hypo-, hyper- et isotoniques",
@@ -123,7 +167,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 5,
         titre: "5. Cellules animales et végétales",
@@ -155,7 +198,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 6,
         titre: "6. Plasmolyse et déplasmolyse",
@@ -192,7 +234,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 7,
         titre: "7. La pression osmotique",
@@ -224,7 +265,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 8,
         titre: "8. L’essentiel à retenir",
@@ -247,7 +287,6 @@ enregistrerChapitres("2nde", "svt", [
         ]
       }
     ],
-
     exercices: [
       {
         niveau: 1,
