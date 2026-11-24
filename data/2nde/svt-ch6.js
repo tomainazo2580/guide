@@ -4,7 +4,6 @@ enregistrerChapitres("2nde", "svt", [
     titre: "Chapitre 6 : Les tissus animaux",
     premium: false,
     guide: false,
-
     lecons: [
       {
         id: 1,
@@ -37,7 +36,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 2,
         titre: "2. Les grandes catégories de tissus animaux",
@@ -60,7 +58,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 3,
         titre: "3. Les épithéliums de revêtement",
@@ -81,6 +78,83 @@ enregistrerChapitres("2nde", "svt", [
             texte: "Un épithélium stratifié est constitué de plusieurs couches de cellules superposées. Il peut jouer un rôle important de protection."
           },
           {
+            type: "schema",
+            titre: "Épithélium simple et épithélium stratifié",
+            svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 390" role="img" aria-label="Comparaison entre un épithélium simple à une couche de cellules et un épithélium stratifié à plusieurs couches">
+              <rect width="360" height="390" fill="#ffffff"/>
+              <g font-family="Arial, sans-serif" fill="#0f172a">
+                <text x="16" y="25" font-size="15" font-weight="bold">1. Épithélium simple</text>
+                <text x="16" y="45" font-size="12">Une seule couche de cellules</text>
+                <text x="16" y="200" font-size="15" font-weight="bold">2. Épithélium stratifié</text>
+                <text x="16" y="220" font-size="12">Plusieurs couches de cellules</text>
+              </g>
+
+              <!-- Épithélium simple -->
+              <g fill="#bfdbfe" stroke="#2563eb" stroke-width="2">
+                <rect x="34" y="70" width="42" height="62"/>
+                <rect x="76" y="70" width="42" height="62"/>
+                <rect x="118" y="70" width="42" height="62"/>
+                <rect x="160" y="70" width="42" height="62"/>
+                <rect x="202" y="70" width="42" height="62"/>
+              </g>
+              <g fill="#7c3aed">
+                <ellipse cx="55" cy="102" rx="8" ry="11"/>
+                <ellipse cx="97" cy="102" rx="8" ry="11"/>
+                <ellipse cx="139" cy="102" rx="8" ry="11"/>
+                <ellipse cx="181" cy="102" rx="8" ry="11"/>
+                <ellipse cx="223" cy="102" rx="8" ry="11"/>
+              </g>
+              <path d="M34 136 H244" stroke="#a16207" stroke-width="4"/>
+              <rect x="34" y="140" width="210" height="26" fill="#fef3c7"/>
+              <g font-family="Arial, sans-serif" fill="#0f172a" font-size="11">
+                <text x="260" y="88">Cellules</text>
+                <text x="260" y="140">Base de</text>
+                <text x="260" y="153">l’épithélium</text>
+                <text x="42" y="157">Tissu sous-jacent</text>
+              </g>
+              <g stroke="#475569" stroke-width="1.5" fill="none">
+                <path d="M238 83 H256"/>
+                <path d="M244 136 H256"/>
+              </g>
+
+              <!-- Épithélium stratifié -->
+              <g fill="#bfdbfe" stroke="#2563eb" stroke-width="2">
+                <rect x="34" y="247" width="42" height="30"/>
+                <rect x="76" y="247" width="42" height="30"/>
+                <rect x="118" y="247" width="42" height="30"/>
+                <rect x="160" y="247" width="42" height="30"/>
+                <rect x="202" y="247" width="42" height="30"/>
+
+                <rect x="34" y="277" width="42" height="30"/>
+                <rect x="76" y="277" width="42" height="30"/>
+                <rect x="118" y="277" width="42" height="30"/>
+                <rect x="160" y="277" width="42" height="30"/>
+                <rect x="202" y="277" width="42" height="30"/>
+
+                <rect x="34" y="307" width="42" height="30"/>
+                <rect x="76" y="307" width="42" height="30"/>
+                <rect x="118" y="307" width="42" height="30"/>
+                <rect x="160" y="307" width="42" height="30"/>
+                <rect x="202" y="307" width="42" height="30"/>
+              </g>
+              <g fill="#7c3aed">
+                <ellipse cx="55" cy="262" rx="7" ry="6"/><ellipse cx="97" cy="262" rx="7" ry="6"/><ellipse cx="139" cy="262" rx="7" ry="6"/><ellipse cx="181" cy="262" rx="7" ry="6"/><ellipse cx="223" cy="262" rx="7" ry="6"/>
+                <ellipse cx="55" cy="292" rx="7" ry="6"/><ellipse cx="97" cy="292" rx="7" ry="6"/><ellipse cx="139" cy="292" rx="7" ry="6"/><ellipse cx="181" cy="292" rx="7" ry="6"/><ellipse cx="223" cy="292" rx="7" ry="6"/>
+                <ellipse cx="55" cy="322" rx="7" ry="6"/><ellipse cx="97" cy="322" rx="7" ry="6"/><ellipse cx="139" cy="322" rx="7" ry="6"/><ellipse cx="181" cy="322" rx="7" ry="6"/><ellipse cx="223" cy="322" rx="7" ry="6"/>
+              </g>
+              <path d="M34 341 H244" stroke="#a16207" stroke-width="4"/>
+              <rect x="34" y="345" width="210" height="24" fill="#fef3c7"/>
+              <g font-family="Arial, sans-serif" fill="#0f172a" font-size="11">
+                <text x="260" y="275">Couches</text>
+                <text x="260" y="288">de cellules</text>
+                <text x="42" y="361">Tissu sous-jacent</text>
+                <text x="16" y="383" fill="#475569">Modèles simplifiés, sans échelle.</text>
+              </g>
+              <path d="M244 288 H256" stroke="#475569" stroke-width="1.5" fill="none"/>
+            </svg>`,
+            legende: "Dans un épithélium simple, les cellules forment une seule couche. Dans un épithélium stratifié, elles forment plusieurs couches superposées. Les formes réelles des cellules varient selon les tissus."
+          },
+          {
             type: "exemple",
             titre: "Deux exemples",
             texte: "L’épithélium qui tapisse une partie de l’intestin est simple et participe notamment à l’absorption. L’épiderme de la peau est un épithélium stratifié qui participe à la protection."
@@ -97,7 +171,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 4,
         titre: "4. Les épithéliums glandulaires",
@@ -134,7 +207,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 5,
         titre: "5. Les tissus conjonctifs",
@@ -174,7 +246,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 6,
         titre: "6. Les tissus musculaires",
@@ -201,7 +272,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 7,
         titre: "7. Le tissu nerveux",
@@ -228,7 +298,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 8,
         titre: "8. Observer et comparer des tissus",
@@ -250,7 +319,6 @@ enregistrerChapitres("2nde", "svt", [
           }
         ]
       },
-
       {
         id: 9,
         titre: "9. L’essentiel à retenir",
@@ -273,7 +341,6 @@ enregistrerChapitres("2nde", "svt", [
         ]
       }
     ],
-
     exercices: [
       {
         niveau: 1,
