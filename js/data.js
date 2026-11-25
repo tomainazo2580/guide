@@ -1,5 +1,5 @@
 // ===== GUIDE — Classes, matières et chargement des chapitres =====
-var VERSION = 'v4.13';
+var VERSION = 'v4.14';
 
 var CLASSES = [
   { id: '6e', nom: 'Sixieme', dispo: true },
@@ -320,13 +320,13 @@ var MATIERES = {
     dispo: false,
     fichiers: []
   },
-  {
+    {
     id: 'fr',
     nom: 'Francais',
     court: 'Fr',
     icone: '📖',
-    dispo: false,
-    fichiers: []
+    dispo: true,
+    fichiers: fichiersGuide('2nde', 'fr', 18)
   },
   {
     id: 'eng',
