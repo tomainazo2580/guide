@@ -184,8 +184,8 @@ enregistrerChapitres("1ere", "sp", [
       {
         niveau: 4,
         points: 5,
-        enonce: "Dans un référentiel galiléen, un objet de masse 5 kg se déplace sur un axe horizontal orienté vers la droite. Il subit une force de 20 N vers la droite et une force de frottement de 5 N vers la gauche. Sa vitesse initiale est de −3 m/s. Calculer son accélération et sa vitesse après 2 s, en supposant ces forces constantes pendant cette durée.",
-        correction: "Sur l'axe, la résultante vaut 20 − 5 = 15 N. Donc a = 15/5 = 3 m/s². Les forces étant constantes, v(t) = v₀ + at. Après 2 s, v = −3 + 3 × 2 = 3 m/s. La vitesse s'est annulée après 1 s : l'objet a ensuite changé de sens. La valeur et le sens du frottement sont ici imposés par l'énoncé pendant toute la durée."
+        enonce: "Dans un référentiel galiléen, un objet de masse 5 kg se déplace sur un axe horizontal orienté vers la droite. Il subit une force de 20 N vers la droite et une autre force constante de 5 N vers la gauche. Sa vitesse initiale est de −3 m/s. Calculer son accélération et sa vitesse après 2 s, en supposant ces forces constantes pendant cette durée.",
+        correction: "Sur l'axe, la résultante vaut 20 − 5 = 15 N. Donc a = 15/5 = 3 m/s². Les forces étant constantes, v(t) = v₀ + at. Après 2 s, v = −3 + 3 × 2 = 3 m/s. La vitesse s'est annulée après 1 s : l'objet a ensuite changé de sens."
       },
       {
         niveau: 4,
