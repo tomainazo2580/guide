@@ -1,5 +1,6 @@
 // ===== GUIDE — Classes, matières et chargement des chapitres =====
-var VERSION = 'v4.15';
+
+var VERSION = 'v4.16';
 
 var CLASSES = [
   { id: '6e', nom: 'Sixieme', dispo: true },
@@ -7,18 +8,20 @@ var CLASSES = [
   { id: '4e', nom: 'Quatrieme', dispo: true },
   { id: '3e', nom: 'Troisieme', dispo: true },
   { id: '2nde', nom: 'Seconde', dispo: true },
-  { id: '1ere', nom: 'Premiere', dispo: false },
+  { id: '1ere', nom: 'Premiere', dispo: true },
   { id: 'tle', nom: 'Terminale', dispo: false }
 ];
 
 // Prépare les chemins des chapitres dans l'ordre.
 function fichiersGuide(classe, matiere, nombre) {
   var fichiers = [];
+
   for (var i = 1; i <= nombre; i++) {
     fichiers.push(
       'data/' + classe + '/' + matiere + '-ch' + i + '.js'
     );
   }
+
   return fichiers;
 }
 
@@ -89,6 +92,7 @@ var MATIERES = {
       fichiers: []
     }
   ],
+
   '5e': [
     {
       id: 'maths',
@@ -155,6 +159,7 @@ var MATIERES = {
       fichiers: []
     }
   ],
+
   '4e': [
     {
       id: 'maths',
@@ -221,6 +226,7 @@ var MATIERES = {
       fichiers: []
     }
   ],
+
   '3e': [
     {
       id: 'maths',
@@ -287,81 +293,151 @@ var MATIERES = {
       fichiers: []
     }
   ],
+
   '2nde': [
-  {
-    id: 'maths',
-    nom: 'Mathematiques',
-    court: 'Maths',
-    icone: '📐',
-    dispo: true,
-    fichiers: fichiersGuide('2nde', 'maths', 23)
-  },
-  {
-    id: 'sp',
-    nom: 'Sciences Physiques',
-    court: 'SP',
-    icone: '⚗️',
-    dispo: true,
-    fichiers: fichiersGuide('2nde', 'sp', 18)
-  },
-  {
-    id: 'svt',
-    nom: 'Sciences de la Vie et de la Terre',
-    court: 'SVT',
-    icone: '🌱',
-    dispo: true,
-    fichiers: fichiersGuide('2nde', 'svt', 18)
-  },
-  {
-    id: 'mal',
-    nom: 'Malagasy',
-    court: 'Mal',
-    icone: '🇲🇬',
-    dispo: false,
-    fichiers: []
-  },
     {
-    id: 'fr',
-    nom: 'Francais',
-    court: 'Fr',
-    icone: '📖',
-    dispo: true,
-    fichiers: fichiersGuide('2nde', 'fr', 18)
-  },
-  {
-  id: 'eng',
-  nom: 'Anglais',
-  court: 'Ang',
-  icone: '🇬🇧',
-  dispo: true,
-  fichiers: fichiersGuide('2nde', 'eng', 22)
-},
-  {
-    id: 'hg',
-    nom: 'Histoire',
-    court: 'Hist',
-    icone: '🌍',
-    dispo: false,
-    fichiers: []
-  },
-  {
-    id: 'geo',
-    nom: 'Geographie',
-    court: 'Geo',
-    icone: '🗺️',
-    dispo: false,
-    fichiers: []
-  }
-]
+      id: 'maths',
+      nom: 'Mathematiques',
+      court: 'Maths',
+      icone: '📐',
+      dispo: true,
+      fichiers: fichiersGuide('2nde', 'maths', 23)
+    },
+    {
+      id: 'sp',
+      nom: 'Sciences Physiques',
+      court: 'SP',
+      icone: '⚗️',
+      dispo: true,
+      fichiers: fichiersGuide('2nde', 'sp', 18)
+    },
+    {
+      id: 'svt',
+      nom: 'Sciences de la Vie et de la Terre',
+      court: 'SVT',
+      icone: '🌱',
+      dispo: true,
+      fichiers: fichiersGuide('2nde', 'svt', 18)
+    },
+    {
+      id: 'mal',
+      nom: 'Malagasy',
+      court: 'Mal',
+      icone: '🇲🇬',
+      dispo: false,
+      fichiers: []
+    },
+    {
+      id: 'fr',
+      nom: 'Francais',
+      court: 'Fr',
+      icone: '📖',
+      dispo: true,
+      fichiers: fichiersGuide('2nde', 'fr', 18)
+    },
+    {
+      id: 'eng',
+      nom: 'Anglais',
+      court: 'Ang',
+      icone: '🇬🇧',
+      dispo: true,
+      fichiers: fichiersGuide('2nde', 'eng', 22)
+    },
+    {
+      id: 'hg',
+      nom: 'Histoire',
+      court: 'Hist',
+      icone: '🌍',
+      dispo: false,
+      fichiers: []
+    },
+    {
+      id: 'geo',
+      nom: 'Geographie',
+      court: 'Geo',
+      icone: '🗺️',
+      dispo: false,
+      fichiers: []
+    }
+  ],
+
+  '1ere': [
+    {
+      id: 'maths',
+      nom: 'Mathematiques',
+      court: 'Maths',
+      icone: '📐',
+      dispo: true,
+      fichiers: fichiersGuide('1ere', 'maths', 32)
+    },
+    {
+      id: 'sp',
+      nom: 'Sciences Physiques',
+      court: 'SP',
+      icone: '⚗️',
+      dispo: false,
+      fichiers: []
+    },
+    {
+      id: 'svt',
+      nom: 'Sciences de la Vie et de la Terre',
+      court: 'SVT',
+      icone: '🌱',
+      dispo: false,
+      fichiers: []
+    },
+    {
+      id: 'mal',
+      nom: 'Malagasy',
+      court: 'Mal',
+      icone: '🇲🇬',
+      dispo: false,
+      fichiers: []
+    },
+    {
+      id: 'fr',
+      nom: 'Francais',
+      court: 'Fr',
+      icone: '📖',
+      dispo: false,
+      fichiers: []
+    },
+    {
+      id: 'eng',
+      nom: 'Anglais',
+      court: 'Ang',
+      icone: '🇬🇧',
+      dispo: false,
+      fichiers: []
+    },
+    {
+      id: 'hg',
+      nom: 'Histoire',
+      court: 'Hist',
+      icone: '🌍',
+      dispo: false,
+      fichiers: []
+    },
+    {
+      id: 'geo',
+      nom: 'Geographie',
+      court: 'Geo',
+      icone: '🗺️',
+      dispo: false,
+      fichiers: []
+    }
+  ]
 };
 
 var CONTENU = {};
 
 function enregistrerChapitres(classeId, matiereId, chapitres) {
   var cle = classeId + '|' + matiereId;
+
   if (!CONTENU[cle]) {
     CONTENU[cle] = [];
   }
+
   for (var i = 0; i < chapitres.length; i++) {
     CONTENU[cle].push(chapitres[i]);
   }
@@ -374,12 +450,14 @@ var chargementContenuGuide = (function () {
 
   for (var c = 0; c < CLASSES.length; c++) {
     var classe = CLASSES[c];
+
     if (!classe.dispo) continue;
 
     var liste = MATIERES[classe.id] || [];
 
     for (var m = 0; m < liste.length; m++) {
       var matiere = liste[m];
+
       if (!matiere.dispo) continue;
 
       for (var f = 0; f < matiere.fichiers.length; f++) {
@@ -394,6 +472,7 @@ var chargementContenuGuide = (function () {
 
   function telechargerSuivant() {
     var index = prochain++;
+
     if (index >= fichiers.length) {
       return Promise.resolve();
     }
@@ -408,6 +487,7 @@ var chargementContenuGuide = (function () {
             ' (erreur ' + reponse.status + ')'
           );
         }
+
         return reponse.text();
       })
       .then(function (texte) {
@@ -417,6 +497,7 @@ var chargementContenuGuide = (function () {
   }
 
   var telechargements = [];
+
   for (var i = 0; i < nombreTelechargements; i++) {
     telechargements.push(telechargerSuivant());
   }
