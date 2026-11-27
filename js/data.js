@@ -371,12 +371,12 @@ var MATIERES = {
       fichiers: fichiersGuide('1ere', 'sp', 33)
     },
     {
-      id: 'svt',
-      nom: 'Sciences de la Vie et de la Terre',
-      court: 'SVT',
-      icone: '🌱',
-      dispo: false,
-      fichiers: []
+     id: 'svt',
+     nom: 'Sciences de la Vie et de la Terre',
+     court: 'SVT',
+     icone: '🌱',
+     dispo: true,
+     fichiers: fichiersGuide('1ere', 'svt', 22)
     },
     {
       id: 'mal',
