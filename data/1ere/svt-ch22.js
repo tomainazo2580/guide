@@ -1,7 +1,7 @@
 enregistrerChapitres("1ere", "svt", [
   {
     id: 22,
-    titre: "Chapitre 22 : Méthodes et bilan en sciences de la vie et de la Terre",
+    titre: "Chapitre 22 : Révision générale de SVT",
     premium: false,
     guide: false,
 
