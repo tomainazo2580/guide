@@ -387,12 +387,12 @@ var MATIERES = {
       fichiers: []
     },
     {
-      id: 'fr',
-      nom: 'Francais',
-      court: 'Fr',
-      icone: '📖',
-      dispo: false,
-      fichiers: []
+     id: 'fr',
+     nom: 'Francais',
+     court: 'Fr',
+     icone: '📖',
+     dispo: true,
+     fichiers: fichiersGuide('1ere', 'fr', 25)
     },
     {
       id: 'eng',
