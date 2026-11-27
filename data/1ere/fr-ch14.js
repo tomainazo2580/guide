@@ -143,18 +143,22 @@ enregistrerChapitres("1ere", "fr", [
           {
             type: "tableau",
             titre: "Quelques transformations possibles",
-            entetes: ["Paroles directes", "Paroles indirectes avec un verbe introducteur au passé", "Changement"],
+            entetes: [
+              "Paroles directes",
+              "Paroles indirectes avec un verbe introducteur au passé",
+              "Changement"
+            ],
             lignes: [
               ["Elle déclara : « Je suis prête. »", "Elle déclara qu’elle était prête.", "Présent vers imparfait dans ce contexte."],
-              ["Elle dit : « Je viendrai demain. »", "Elle dit qu’elle reviendrait le lendemain.", "Futur vers conditionnel ; « demain » devient « le lendemain »."],
-              ["Elle dit : « J’ai terminé hier. »", "Elle dit qu’elle avait terminé la veille.", "Passé composé vers plus-que-parfait ; « hier » devient « la veille »."],
-              ["Elle demande : « Viens-tu ? »", "Elle demande si je viens.", "L’interrogation est introduite par « si » ; l’ordre des mots change."]
+              ["Elle déclara : « Je reviendrai demain. »", "Elle déclara qu’elle reviendrait le lendemain.", "Futur vers conditionnel ; « demain » devient « le lendemain »."],
+              ["Elle déclara : « J’ai terminé hier. »", "Elle déclara qu’elle avait terminé la veille.", "Passé composé vers plus-que-parfait ; « hier » devient « la veille »."],
+              ["Elle me demanda : « Viens-tu ? »", "Elle me demanda si je venais.", "L’interrogation est introduite par « si » ; l’ordre des mots et le temps changent."]
             ]
           },
           {
             type: "remarque",
             titre: "Adapter au contexte",
-            texte: "Les transformations ne sont pas mécaniques. Si le verbe introducteur est au présent ou si le repère reste valable, certains temps ou indications peuvent être conservés. La dernière ligne du tableau emploie « demande » au présent. Il faut toujours vérifier qui parle, à qui et à quel moment."
+            texte: "Les transformations ne sont pas mécaniques. Si le verbe introducteur est au présent ou si le repère reste valable, certains temps ou indications peuvent être conservés. Il faut toujours vérifier qui parle, à qui et à quel moment."
           },
           {
             type: "methode",
@@ -169,7 +173,7 @@ enregistrerChapitres("1ere", "fr", [
           {
             type: "schema",
             titre: "Transformer des paroles",
-            svg: "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 700 190' role='img' aria-label='Du discours direct au discours indirect'><rect x='20' y='20' width='660' height='50' rx='8' fill='#e6f2ff' stroke='#35679a'/><text x='350' y='51' text-anchor='middle' font-size='17'>Lala dit : « Je reviendrai demain. »</text><path d='M350 72v25' stroke='#333' stroke-width='2'/><path d='M345 92l5 6 5-6' fill='none' stroke='#333' stroke-width='2'/><rect x='20' y='105' width='660' height='50' rx='8' fill='#fff1dc' stroke='#9b682b'/><text x='350' y='136' text-anchor='middle' font-size='17'>Lala dit qu’elle reviendrait le lendemain.</text><text x='350' y='180' text-anchor='middle' font-size='15'>Adapter la personne, le temps et le repère temporel</text></svg>",
+            svg: "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 700 190' role='img' aria-label='Du discours direct au discours indirect'><rect x='20' y='20' width='660' height='50' rx='8' fill='#e6f2ff' stroke='#35679a'/><text x='350' y='51' text-anchor='middle' font-size='17'>Lala déclara : « Je reviendrai demain. »</text><path d='M350 72v25' stroke='#333' stroke-width='2'/><path d='M345 92l5 6 5-6' fill='none' stroke='#333' stroke-width='2'/><rect x='20' y='105' width='660' height='50' rx='8' fill='#fff1dc' stroke='#9b682b'/><text x='350' y='136' text-anchor='middle' font-size='17'>Lala déclara qu’elle reviendrait le lendemain.</text><text x='350' y='180' text-anchor='middle' font-size='15'>Adapter la personne, le temps et le repère temporel</text></svg>",
             legende: "Dans ce récit au passé, les paroles sont intégrées à la phrase du narrateur."
           },
           {
@@ -264,7 +268,7 @@ enregistrerChapitres("1ere", "fr", [
         niveau: 4,
         points: 5,
         enonce: "Rédige un court récit de trois phrases : une phrase à l’imparfait pour le cadre, une au passé simple pour un événement et une contenant une parole directement rapportée. Transforme ensuite cette parole au discours indirect.",
-        correction: "Réponse possible : « La bibliothèque était silencieuse. Lala ouvrit un livre et trouva une lettre. Elle dit à Soa : “Je lirai cette lettre demain.” »\n\nDiscours indirect dans le récit au passé : « Elle dit à Soa qu’elle lirait cette lettre le lendemain. » L’imparfait présente le cadre ; le passé simple met les actions au premier plan ; les paroles sont ensuite intégrées au récit."
+        correction: "Réponse possible : « La bibliothèque était silencieuse. Lala ouvrit un livre et trouva une lettre. Elle déclara à Soa : “Je lirai cette lettre demain.” »\n\nDiscours indirect dans le récit au passé : « Elle déclara à Soa qu’elle lirait cette lettre le lendemain. » L’imparfait présente le cadre ; le passé simple met les actions au premier plan ; les paroles sont ensuite intégrées au récit."
       }
     ]
   }
