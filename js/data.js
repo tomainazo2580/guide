@@ -1,5 +1,5 @@
 // ===== GUIDE — Classes, matières et chargement des chapitres =====
-var VERSION = 'v4.17';
+var VERSION = 'v4.18';
 
 var CLASSES = [
   { id: '6e', nom: 'Sixieme', dispo: true },
