@@ -159,7 +159,7 @@
         });
       }
 
-      chargerScript('js/data.js?v=4.12')
+      chargerScript('js/data.js?v=3.12')
         .then(function () {
           if (typeof chargementContenuGuide === 'undefined') {
             throw new Error('Version de data.js non compatible.');
@@ -168,10 +168,10 @@
           return chargementContenuGuide;
         })
         .then(function () {
-          return chargerScript('js/paywall-config.js?v=9');
+          return chargerScript('js/paywall-config.js?v=3.02');
         })
         .then(function () {
-          return chargerScript('js/cles.js?v=2');
+          return chargerScript('js/cles.js?v=2.01');
         })
         .then(function () {
           return chargerScript('js/app.js?v=3.49');
@@ -180,7 +180,7 @@
           return chargerScript('js/examen.js?v=3.52');
         })
         .then(function () {
-          return chargerScript('js/paywall.js?v=5');
+          return chargerScript('js/paywall.js?v=3.02');
         })
         .then(function () {
           return chargerScript('js/accueil.js?v=4');
