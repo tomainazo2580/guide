@@ -142,7 +142,7 @@ enregistrerChapitres("tle", "maths", [
           {
             type: "methode",
             titre: "Prouver existence et unicité",
-            texte: "Pour prouver que f(x) = k possède une unique solution sur [a ; b] :\n1. Justifier que f est continue sur [a ; b].\n2. Vérifier que k est compris entre f(a) et f(b] : le théorème des valeurs intermédiaires donne l’existence.\n3. Justifier que f est strictement monotone sur [a ; b] : cela donne l’unicité.\n\nLes dérivées, étudiées ensuite, seront un outil fréquent pour justifier la monotonie."
+            texte: "Pour prouver que f(x) = k possède une unique solution sur [a ; b] :\n1. Justifier que f est continue sur [a ; b].\n2. Vérifier que k est compris entre f(a) et f(b) : le théorème des valeurs intermédiaires donne l’existence.\n3. Justifier que f est strictement monotone sur [a ; b] : cela donne l’unicité.\n\nLes dérivées, étudiées ensuite, seront un outil fréquent pour justifier la monotonie."
           },
           {
             type: "exemple",
