@@ -1,4 +1,5 @@
 // ===== GUIDE — Classes, matières et chargement des chapitres =====
+
 var VERSION = 'v4.20';
 
 var CLASSES = [
@@ -14,11 +15,13 @@ var CLASSES = [
 // Prépare les chemins des chapitres dans l'ordre.
 function fichiersGuide(classe, matiere, nombre) {
   var fichiers = [];
+
   for (var i = 1; i <= nombre; i++) {
     fichiers.push(
       'data/' + classe + '/' + matiere + '-ch' + i + '.js'
     );
   }
+
   return fichiers;
 }
 
@@ -89,6 +92,7 @@ var MATIERES = {
       fichiers: []
     }
   ],
+
   '5e': [
     {
       id: 'maths',
@@ -155,6 +159,7 @@ var MATIERES = {
       fichiers: []
     }
   ],
+
   '4e': [
     {
       id: 'maths',
@@ -221,6 +226,7 @@ var MATIERES = {
       fichiers: []
     }
   ],
+
   '3e': [
     {
       id: 'maths',
@@ -287,6 +293,7 @@ var MATIERES = {
       fichiers: []
     }
   ],
+
   '2nde': [
     {
       id: 'maths',
@@ -353,6 +360,7 @@ var MATIERES = {
       fichiers: []
     }
   ],
+
   '1ere': [
     {
       id: 'maths',
@@ -371,12 +379,12 @@ var MATIERES = {
       fichiers: fichiersGuide('1ere', 'sp', 33)
     },
     {
-     id: 'svt',
-     nom: 'Sciences de la Vie et de la Terre',
-     court: 'SVT',
-     icone: '🌱',
-     dispo: true,
-     fichiers: fichiersGuide('1ere', 'svt', 22)
+      id: 'svt',
+      nom: 'Sciences de la Vie et de la Terre',
+      court: 'SVT',
+      icone: '🌱',
+      dispo: true,
+      fichiers: fichiersGuide('1ere', 'svt', 22)
     },
     {
       id: 'mal',
@@ -387,20 +395,20 @@ var MATIERES = {
       fichiers: []
     },
     {
-     id: 'fr',
-     nom: 'Francais',
-     court: 'Fr',
-     icone: '📖',
-     dispo: true,
-     fichiers: fichiersGuide('1ere', 'fr', 25)
+      id: 'fr',
+      nom: 'Francais',
+      court: 'Fr',
+      icone: '📖',
+      dispo: true,
+      fichiers: fichiersGuide('1ere', 'fr', 25)
     },
     {
-     id: 'eng',
-     nom: 'Anglais',
-     court: 'Ang',
-     icone: '🇬🇧',
-     dispo: true,
-     fichiers: fichiersGuide('1ere', 'eng', 24)
+      id: 'eng',
+      nom: 'Anglais',
+      court: 'Ang',
+      icone: '🇬🇧',
+      dispo: true,
+      fichiers: fichiersGuide('1ere', 'eng', 24)
     },
     {
       id: 'hg',
@@ -418,6 +426,17 @@ var MATIERES = {
       dispo: false,
       fichiers: []
     }
+  ],
+
+  'tle': [
+    {
+      id: 'maths',
+      nom: 'Mathematiques',
+      court: 'Maths',
+      icone: '📐',
+      dispo: true,
+      fichiers: fichiersGuide('tle', 'maths', 35)
+    }
   ]
 };
 
@@ -425,9 +444,11 @@ var CONTENU = {};
 
 function enregistrerChapitres(classeId, matiereId, chapitres) {
   var cle = classeId + '|' + matiereId;
+
   if (!CONTENU[cle]) {
     CONTENU[cle] = [];
   }
+
   for (var i = 0; i < chapitres.length; i++) {
     CONTENU[cle].push(chapitres[i]);
   }
@@ -437,13 +458,19 @@ function enregistrerChapitres(classeId, matiereId, chapitres) {
 // dans l'ordre des classes, des matières et des chapitres.
 var chargementContenuGuide = (function () {
   var fichiers = [];
+
   for (var c = 0; c < CLASSES.length; c++) {
     var classe = CLASSES[c];
+
     if (!classe.dispo) continue;
+
     var liste = MATIERES[classe.id] || [];
+
     for (var m = 0; m < liste.length; m++) {
       var matiere = liste[m];
+
       if (!matiere.dispo) continue;
+
       for (var f = 0; f < matiere.fichiers.length; f++) {
         fichiers.push(matiere.fichiers[f]);
       }
@@ -456,10 +483,13 @@ var chargementContenuGuide = (function () {
 
   function telechargerSuivant() {
     var index = prochain++;
+
     if (index >= fichiers.length) {
       return Promise.resolve();
     }
+
     var url = fichiers[index] + '?v=' + encodeURIComponent(VERSION);
+
     return fetch(url)
       .then(function (reponse) {
         if (!reponse.ok) {
@@ -468,6 +498,7 @@ var chargementContenuGuide = (function () {
             ' (erreur ' + reponse.status + ')'
           );
         }
+
         return reponse.text();
       })
       .then(function (texte) {
@@ -477,6 +508,7 @@ var chargementContenuGuide = (function () {
   }
 
   var telechargements = [];
+
   for (var i = 0; i < nombreTelechargements; i++) {
     telechargements.push(telechargerSuivant());
   }
