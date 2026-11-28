@@ -1,5 +1,5 @@
 // ===== GUIDE — Classes, matières et chargement des chapitres =====
-var VERSION = 'v4.19';
+var VERSION = 'v4.20';
 
 var CLASSES = [
   { id: '6e', nom: 'Sixieme', dispo: true },
@@ -8,7 +8,7 @@ var CLASSES = [
   { id: '3e', nom: 'Troisieme', dispo: true },
   { id: '2nde', nom: 'Seconde', dispo: true },
   { id: '1ere', nom: 'Premiere', dispo: true },
-  { id: 'tle', nom: 'Terminale', dispo: false }
+  { id: 'tle', nom: 'Terminale', dispo: true }
 ];
 
 // Prépare les chemins des chapitres dans l'ordre.
