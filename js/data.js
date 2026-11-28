@@ -436,6 +436,62 @@ var MATIERES = {
       icone: '📐',
       dispo: true,
       fichiers: fichiersGuide('tle', 'maths', 35)
+    },
+    {
+      id: 'sp',
+      nom: 'Sciences Physiques',
+      court: 'SP',
+      icone: '⚗️',
+      dispo: false,
+      fichiers: []
+    },
+    {
+      id: 'svt',
+      nom: 'Sciences de la Vie et de la Terre',
+      court: 'SVT',
+      icone: '🌱',
+      dispo: false,
+      fichiers: []
+    },
+    {
+      id: 'mal',
+      nom: 'Malagasy',
+      court: 'Mal',
+      icone: '🇲🇬',
+      dispo: false,
+      fichiers: []
+    },
+    {
+      id: 'fr',
+      nom: 'Francais',
+      court: 'Fr',
+      icone: '📖',
+      dispo: false,
+      fichiers: []
+    },
+    {
+      id: 'eng',
+      nom: 'Anglais',
+      court: 'Ang',
+      icone: '🇬🇧',
+      dispo: false,
+      fichiers: []
+    },
+    {
+      id: 'hg',
+      nom: 'Histoire',
+      court: 'Hist',
+      icone: '🌍',
+      dispo: false,
+      fichiers: []
+    },
+    {
+      id: 'geo',
+      nom: 'Geographie',
+      court: 'Geo',
+      icone: '🗺️',
+      dispo: false,
+      fichiers: []
     }
   ]
 };
